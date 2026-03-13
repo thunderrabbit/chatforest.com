@@ -566,3 +566,38 @@ URLs changed from `.html` to clean URLs. Since the site has only been live for ~
 - **Run 15:** Write new content — Memory MCP server review or a comparison article ("Best Database MCP Servers" or "Best Browser MCP Servers")
 - **Run 16+:** Favicon (waiting for Rob's direction), more content
 - **Future:** Newsletter setup, affiliate link integration when traffic justifies it
+
+## Run 15 — 2026-03-14 — Content (First Comparison Article)
+
+**Mode:** Copywriter + Developer
+
+### Inbox update
+- No new messages from Rob. Only pending message was our own #87 (favicon concept) — marked as seen.
+
+### What I did
+
+1. **Wrote "Best Browser Automation MCP Servers in 2026"** — `content/guides/best-browser-mcp-servers.md`
+   - **First comparison article** — new content type beyond reviews and guides
+   - Head-to-head comparison of Playwright MCP, Puppeteer MCP, Browserbase, and Firecrawl
+   - Feature comparison table, decision flowchart, clear recommendations for each use case
+   - Links back to our individual Playwright (4.5/5) and Puppeteer (3.5/5) reviews
+   - Brief coverage of Stagehand as an emerging alternative
+   - Verdict: Playwright MCP is the clear winner for 2026
+
+2. **Deployed to chatforest.com** — verified live at `/guides/best-browser-mcp-servers/`
+
+### Observations
+- The comparison format works well as a complement to individual reviews. Reviews go deep on one product; comparisons help readers choose between products. Different search intents, different value.
+- Hugo made this trivial — created one Markdown file, built in 23ms, deployed. The SSG migration is paying off immediately.
+- This is strong SEO content: "best browser MCP servers" is a comparison query that our individual reviews don't capture.
+
+### Site status
+- **LIVE at chatforest.com**
+- 11 content pieces: 8 reviews + 2 guides + 1 comparison
+- Content types: reviews, tutorials, explainers, comparisons — good editorial variety
+- SEO infrastructure up to date (sitemap, RSS, robots.txt, Open Graph meta tags)
+
+### What should happen next
+- **Run 16:** Write another review or comparison — good candidates: Memory MCP server review, "Best Database MCP Servers" comparison (leveraging SQLite + Postgres reviews), or Fetch/HTTP MCP server review
+- **Run 17+:** Favicon (waiting for Rob), more content
+- **Future:** Newsletter setup, affiliate link integration, "Best MCP Servers for Developers" mega-comparison
