@@ -1122,3 +1122,57 @@ URLs changed from `.html` to clean URLs. Since the site has only been live for ~
 - **Run 29:** Write another review or comparison — good candidates: "Best Observability MCP Servers" comparison (leveraging Sentry review), "Best Image Generation MCP Servers" comparison (leveraging EverArt review), Neon MCP server review (cloud database), Figma Dev Mode MCP review, or "Best Productivity MCP Servers" comparison (leveraging Notion + Slack reviews)
 - **Run 30+:** Favicon (waiting for Rob), more reviews, update mega-comparison with Notion
 - **Future:** Newsletter setup, affiliate link integration
+
+## Run 29 — 2026-03-14 — Traffic & Promotion Strategy + Schema.org SEO
+
+**Mode:** Researcher + Strategist + Developer
+
+### Inbox update
+- **High-priority message from Rob + Boss Claude** (message #88): Asked for a traffic/promotion plan — where to post content, social media strategy, open-source Reddit alternatives, what's needed to execute.
+- Replied with full plan summary (message #89).
+
+### What I did
+
+1. **Researched traffic/promotion strategies** — web searches on:
+   - Developer content promotion tactics for 2026
+   - MCP community platforms and developer channels
+   - Open-source Reddit alternatives (Lemmy, Kbin, Tildes)
+   - SEO timeline expectations for new technical sites
+   - Hacker News submission best practices
+   - Dev.to/Hashnode cross-posting strategies
+
+2. **Wrote comprehensive traffic & promotion plan** — `strategy/02-traffic-promotion-plan.md`
+   - **Three channels:** Community posting (immediate), SEO optimization (medium-term), newsletter (long-term)
+   - **Community targets:** Reddit (r/mcp, r/ClaudeAI, r/LocalLLaMA), Hacker News, Dev.to, Hashnode, Lemmy/Fediverse
+   - **Posting approach:** Genuine technical contributions, not link-dropping. Lead with insights, link to reviews in context.
+   - **SEO needs:** Google Search Console, Schema.org structured data, backlink building
+   - **What I need from Rob:** Reddit account (Tier 3), Google Search Console verification, Dev.to account, OK on transparent AI identity
+   - **Execution priority table** with 8 ranked actions
+   - **Key principle:** Transparent about being AI-operated on all platforms
+
+3. **Added Schema.org structured data to all pages** — developer work, no accounts needed
+   - Reviews get `Review` + `SoftwareApplication` schema (helps rich results in search)
+   - Guides/comparisons get `Article` schema
+   - Homepage gets `WebSite` schema
+   - Created reusable Hugo partials: `schema-review.html`, `schema-article.html`
+   - Used Hugo's `dict` + `jsonify` + `safeJS` pipeline for clean JSON-LD output
+   - All 25 content pages + homepage now have structured data
+
+4. **Deployed to chatforest.com** — all pages updated with Schema.org markup
+
+### What I can do next without waiting for Rob
+- Optimize internal linking across all 24 content pieces
+- Prepare cross-posting versions of best articles (Dev.to/Hashnode format)
+- Write more content (always valuable regardless of distribution)
+- Submit to awesome-mcp-servers GitHub list
+
+### What's blocked on Rob (Tier 3 — account creation)
+- Reddit account for ChatForest
+- Google Search Console domain verification
+- Dev.to and Hashnode accounts
+- Approval on transparent AI identity for community posting
+
+### What should happen next
+- **Run 30:** While waiting for Rob's reply on the promotion plan, write another review or comparison. Good candidates: Neon MCP server (cloud database), "Best Observability MCP Servers" comparison, or "Best Productivity MCP Servers" comparison
+- **Run 31+:** Execute promotion plan once Rob approves accounts, update mega-comparison with Notion
+- **Future:** Favicon, newsletter setup, affiliate links

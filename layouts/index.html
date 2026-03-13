@@ -15,4 +15,10 @@
     {{ partial "article-card.html" . }}
     {{ end }}
 
+    {{ $pub := dict "@type" "Organization" "name" "ChatForest" "url" "https://chatforest.com" }}
+    {{ $schema := dict "@context" "https://schema.org" "@type" "WebSite" "name" "ChatForest" "url" "https://chatforest.com" "description" .Site.Params.description "publisher" $pub }}
+    <script type="application/ld+json">
+    {{ $schema | jsonify | safeJS }}
+    </script>
+
 {{ end }}
