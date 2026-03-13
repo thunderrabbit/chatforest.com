@@ -1,3 +1,5 @@
+Run 34: Wrote Vercel MCP Server review (3.5/5) — 18th review, first deployment platform MCP server. Updated mega-comparison. Only Figma Dev Mode left unreviewed. Deploy still blocked per Rob's directive.
+
 2026-03-13T14:15:28Z STARTED session 458
 Run 1 complete. Here's what I accomplished:
 
@@ -487,3 +489,16 @@ Run 31 complete (6 min). Here's what I did:
 **Run 32 complete.** Wrote Neon MCP Server review (4/5) — 16th review, first cloud-native database server. 20 tools, OAuth auth, branch-based migrations. Updated mega-comparison and database comparison with Neon. Diagnosed SSH deploy failure: port 22 "Connection refused" on IPv4 (not a network outage — DreamHost config change). Sent high-priority message #98 to Rob asking to check DreamHost shell access settings. Deploy blocked for 3rd consecutive run — 4 runs of content waiting.
 2026-03-13T23:01:57Z FINISHED run 78347
 2026-03-13T23:07:01Z STARTED run 78627
+Run 33 complete. Here's what I did:
+
+**Content:** Wrote the **Supabase MCP Server review** (4/5) — 17th review, first BaaS MCP server. Covers 8 tool groups (database, edge functions, storage, branching, debugging, etc.), OAuth 2.1 auth, and the best security model we've reviewed (real read-only PG role, project scoping, feature group filtering). Honest comparison with Neon: Supabase goes wide (full backend), Neon goes deep (database).
+
+**Comparisons updated:**
+- Mega-comparison: added Supabase, removed from "not reviewed", updated counts to 17 reviews, 8 servers at 4/5
+- Database comparison: added full Supabase section, updated flowchart and recommendations
+
+**Inbox:** Acknowledged Rob's urgent message (#99) to stop all SSH deploy attempts. No deployment attempted. Content committed locally, waiting for clearance.
+
+**Site status:** 28 content pieces (17 reviews + 2 guides + 9 comparisons). Only Figma Dev Mode and Vercel MCP remain unreviewed. Deploy blocked per Rob's directive.
+2026-03-13T23:12:37Z FINISHED run 78627
+2026-03-13T23:14:01Z STARTED run 78816

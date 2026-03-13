@@ -1,15 +1,15 @@
 ---
 title: "Best MCP Servers for Developers in 2026"
 date: 2026-03-14
-description: "We've reviewed 17 MCP servers and compared 40+ across 9 categories. Here are the ones worth installing — and the ones to avoid."
-og_description: "We've tested 17 MCP servers and compared 40+ across 9 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
+description: "We've reviewed 18 MCP servers and compared 40+ across 9 categories. Here are the ones worth installing — and the ones to avoid."
+og_description: "We've tested 18 MCP servers and compared 40+ across 9 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
 content_type: "Comparison"
-card_description: "We've reviewed 17 MCP servers across 9 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
+card_description: "We've reviewed 18 MCP servers across 9 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
 ---
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [17 in-depth reviews](/reviews/) and [9 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [18 in-depth reviews](/reviews/) and [9 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -36,6 +36,7 @@ If you want to skip the details:
 | Documentation | [Context7](/reviews/context7-mcp-server/) | 3.5/5 | GitMCP (free, any repo) |
 | Productivity (knowledge) | [Notion MCP](/reviews/notion-mcp-server/) | 3.5/5 | Obsidian (local-first) |
 | Productivity (tasks) | Linear MCP | — | Todoist (personal) |
+| Deployment | [Vercel MCP](/reviews/vercel-mcp-server/) | 3.5/5 | Community alternatives (more tools) |
 
 Now the details.
 
@@ -213,11 +214,22 @@ A growing category as every SaaS vendor adds MCP support. The dominant pattern: 
 
 ---
 
+## Deployment
+
+A new category — deployment platform MCP servers are emerging as first-party vendor integrations.
+
+**[Vercel MCP](/reviews/vercel-mcp-server/) (3.5/5)** — Vercel's official hosted server at `mcp.vercel.com`. 13 tools covering projects, deployments, build/runtime logs, domains, and documentation search. The runtime log querying tool is the standout — filtering by log level, status code, time range, and full-text search is genuinely faster through natural language than through the dashboard. OAuth with client allowlisting provides a stronger security model than most MCP servers.
+
+The tool count is thin relative to Vercel's full platform (no environment variables, no edge config, no KV/Blob storage, no analytics). Community alternatives like Quegenx/vercel-mcp-server offer 30+ tools with full admin control, but trade OAuth security for API token auth. The official server is the safer choice; the community servers are more capable.
+
+Pairs well with [GitHub MCP](/reviews/github-mcp-server/) (4/5) — GitHub handles the code side (PRs, issues, CI), Vercel handles the deploy side (builds, logs, domains).
+
+---
+
 ## What about servers we haven't reviewed?
 
 Some popular servers we haven't covered yet but are on our list:
 - **Figma Dev Mode** — exposes live Figma design structures to AI. Strong for frontend workflows.
-- **Vercel MCP** — deployment monitoring and management.
 
 We'll review these as the site grows. Subscribe to our [RSS feed](/feed.xml) to get notified.
 
@@ -225,7 +237,7 @@ We'll review these as the site grows. Subscribe to our [RSS feed](/feed.xml) to 
 
 ## The pattern: official servers as starting points
 
-After reviewing 17 MCP servers, a clear pattern has emerged:
+After reviewing 18 MCP servers, a clear pattern has emerged:
 
 **Anthropic's reference implementations are starting points, not destinations.** The official Filesystem and GitHub servers are solid (4/5 each). But the official database servers are archived with security issues (2.5-3/5), the official Memory server doesn't scale (3.5/5), the official Fetch server has an SSRF gap (3.5/5), and the official EverArt server is minimal and archived (2.5/5).
 
@@ -239,7 +251,7 @@ Our rating distribution tells the story:
 |--------|-------|---------|
 | 4.5/5 | 1 | Playwright |
 | 4.0/5 | 8 | Filesystem, GitHub, Brave Search, Slack, Sentry, Exa, Neon, Supabase |
-| 3.5/5 | 5 | Context7, Puppeteer, Memory, Fetch, Notion |
+| 3.5/5 | 6 | Context7, Puppeteer, Memory, Fetch, Notion, Vercel |
 | 3.0/5 | 1 | SQLite |
 | 2.5/5 | 2 | PostgreSQL, EverArt |
 

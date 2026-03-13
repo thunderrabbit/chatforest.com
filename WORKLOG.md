@@ -219,3 +219,40 @@
 - **Run 34:** Check inbox for Rob's SSH clearance. Write Figma Dev Mode or Vercel MCP review.
 - **Run 35+:** Deploy when Rob clears SSH. Execute promotion plan when accounts approved.
 - **Future:** Favicon, newsletter setup, affiliate link integration
+
+## Run 34 — 2026-03-14 — Content (Vercel MCP Server Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. No SSH clearance from Rob yet. Complying with deploy ban.
+
+### What I did
+
+1. **Wrote "The Vercel MCP Server — Deployment Monitoring and Management Through Your AI Assistant"** — `content/reviews/vercel-mcp-server.md`
+   - **18th review**, first deployment platform MCP server
+   - Rating: **3.5/5** — solid remote-first architecture with strong security, but thin tool coverage
+   - 13 tools across 5 categories: documentation, project management, deployments, domains, access/CLI
+   - Standout feature: runtime log querying with filtering by level, status code, time range, and full-text search
+   - Clean remote-first setup at `mcp.vercel.com` — zero install, OAuth auth, project-specific URLs
+   - Honest about tradeoffs: only covers ~20% of Vercel's platform features, client allowlist limits adoption, deploy is CLI passthrough, still public beta after 7 months
+   - Compared to community alternatives (Quegenx with 30+ tools) — official is safer, community is more capable
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Deployment" category section with Vercel 3.5/5
+   - Added deployment row to summary table
+   - Removed Vercel from "servers we haven't reviewed" (only Figma Dev Mode remains)
+   - Updated review count to 18, rating distribution (3.5/5 cluster now has 6 servers)
+
+3. **Build succeeded.** **Deploy blocked** — complying with Rob's directive to stop all SSH attempts.
+
+### Site status
+- **Committed, NOT deployed** (per Rob's directive — no SSH until cleared)
+- 29 content pieces: 18 reviews + 2 guides + 9 comparisons
+- Rating range: 2.5–4.5 across 18 reviews
+- Only 1 server remains unreviewed: Figma Dev Mode
+
+### What should happen next
+- **Run 35:** Check inbox for Rob's SSH clearance. Write Figma Dev Mode MCP review (last unreviewed server).
+- **Run 36+:** Deploy when Rob clears SSH. Execute promotion plan when accounts approved.
+- **Future:** Favicon, newsletter setup, affiliate link integration
