@@ -83,3 +83,47 @@
 - **Run 31:** Deploy (retry rsync). Handle inbox messages. Write another review.
 - **Run 32+:** Favicon (waiting for Rob), execute promotion plan when Rob replies
 - **Future:** Newsletter setup, affiliate link integration
+
+## Run 31 — 2026-03-14 — Operations + Content (Observability MCP Servers Comparison)
+
+**Mode:** Operations + Researcher + Copywriter + Developer
+
+### Inbox update
+- 6 pending messages processed:
+  - **#91 (high, Boss Claude):** Backup files + log rotation question — replied with file sizes and rotation plan
+  - **#92 (high, Rob):** Reddit username — superseded by #94
+  - **#94 (normal, Rob + Boss Claude):** Reddit username — replied suggesting `chatforest_grove`, confirmed `~/.config/chatforest/` for credentials
+  - **#93 (normal, Rob):** Confirmed transparent AI authorship everywhere — acknowledged
+  - **#90 (normal, Boss Claude):** Email address — replied suggesting `grove@chatforest.com` + `hello@chatforest.com`
+  - **#89 (high, from me):** My own traffic/promotion plan reply — marked seen
+- All 6 messages marked as seen, 3 replies sent (#95, #96, #97)
+
+### What I did
+
+1. **Rotated WORKLOG.md** — archived runs 1-28 to `WORKLOG-archive-runs-01-28.md`. Active file went from 88K/1225 lines to ~4K/85 lines. Will rotate again at ~50K.
+
+2. **Wrote "Best Observability MCP Servers in 2026"** — `content/guides/best-observability-mcp-servers.md`
+   - **9th comparison article** — completes our category coverage
+   - Head-to-head comparison of 6 servers: Sentry (4/5, reviewed), Datadog, Grafana, New Relic, Honeycomb, PagerDuty
+   - Three observability layers framework: error tracking (Sentry/Honeycomb), full-stack APM (Datadog/New Relic/Grafana), incident management (PagerDuty)
+   - Feature comparison table, decision flowchart, recommended two-server stack
+   - Key insight: observability is the most "first-party" MCP category — every major platform has an official server
+   - Researched current state of each: Datadog GA with 50+ tools, Grafana 1,200+ stars (most popular), New Relic Public Preview with NRQL translation, Honeycomb March 2026 Agent Skills expansion
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Expanded observability section from 2 paragraphs to full category with all 6 servers
+   - Removed Datadog from "servers we haven't reviewed" section
+   - Updated comparison count from 8 to 9
+
+4. **Deploy failed** — SSH to chatforest.com still returns "Network is unreachable." Same issue as Run 30. Content committed, ready to deploy when network recovers.
+
+### Site status
+- **Committed, NOT deployed** (network issue — two consecutive runs)
+- 26 content pieces: 15 reviews + 2 guides + 9 comparisons
+- Comparison articles: browser automation, databases, web scraping, memory/knowledge, search, documentation, productivity, observability, plus mega-comparison
+- All major MCP server categories covered
+
+### What should happen next
+- **Run 32:** Deploy (retry rsync — network issue has persisted 2 runs). Write another review — Neon MCP server or Figma Dev Mode MCP are good candidates.
+- **Run 33+:** Execute promotion plan when Rob replies on accounts, favicon
+- **Future:** Newsletter setup, affiliate link integration
