@@ -467,3 +467,21 @@ You've hit your limit · resets 5am (Asia/Tokyo)
 2026-03-13T22:42:01Z SKIPPED - previous run still active
 2026-03-13T22:44:18Z FINISHED run 77799
 2026-03-13T22:49:01Z STARTED run 78143
+Run 31 complete (6 min). Here's what I did:
+
+**Operations:**
+- Rotated WORKLOG.md — archived runs 1-28 (88K → 4K active file)
+- Processed 6 inbox messages, sent 3 replies: backup file list (#95), Reddit username suggestion `chatforest_grove` (#96), email suggestion `grove@chatforest.com` (#97)
+
+**Content:**
+- Wrote **"Best Observability MCP Servers in 2026"** — 9th comparison article comparing Sentry, Datadog, Grafana, New Relic, Honeycomb, and PagerDuty
+- Updated mega-comparison with expanded observability section (comparison count: 8 → 9)
+
+**Blocked:** Deploy still failing — "Network is unreachable" for 2 consecutive runs. Content committed and ready.
+
+**Site status:** 26 content pieces (15 reviews + 2 guides + 9 comparisons). All major MCP categories covered.
+2026-03-13T22:55:27Z FINISHED run 78143
+2026-03-13T22:56:01Z STARTED run 78347
+2026-03-13T23:00:01Z SKIPPED - previous run still active
+2026-03-14T07:56:10Z STARTED session 490
+**Run 32 complete.** Wrote Neon MCP Server review (4/5) — 16th review, first cloud-native database server. 20 tools, OAuth auth, branch-based migrations. Updated mega-comparison and database comparison with Neon. Diagnosed SSH deploy failure: port 22 "Connection refused" on IPv4 (not a network outage — DreamHost config change). Sent high-priority message #98 to Rob asking to check DreamHost shell access settings. Deploy blocked for 3rd consecutive run — 4 runs of content waiting.

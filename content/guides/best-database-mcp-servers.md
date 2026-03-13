@@ -15,9 +15,10 @@ The good news: the community has built better alternatives. Here's how they comp
 
 | Server | Database | Rating | Best For |
 |--------|----------|--------|----------|
+| [Neon MCP](/reviews/neon-mcp-server/) | Neon Postgres | 4/5 | Cloud Postgres with AI workflows |
 | [Official SQLite MCP](/reviews/sqlite-mcp-server/) | SQLite | 3/5 | Learning MCP only |
 | [Official Postgres MCP](/reviews/postgres-mcp-server/) | PostgreSQL | 2.5/5 | Nothing (vulnerable) |
-| Postgres MCP Pro (crystaldba) | PostgreSQL | — | Production Postgres |
+| Postgres MCP Pro (crystaldba) | PostgreSQL | — | Self-hosted production Postgres |
 | MotherDuck DuckDB MCP | DuckDB | — | Analytics & data pipelines |
 | DBHub (Bytebase) | Multi-database | — | Multi-database workflows |
 | jparkerweb/mcp-sqlite | SQLite | — | SQLite in production |
@@ -34,7 +35,35 @@ If you're using either of these, stop. Not eventually — now.
 
 ## The Replacements
 
-### For PostgreSQL: Postgres MCP Pro
+### For Cloud Postgres: Neon MCP
+
+**[Neon MCP](/reviews/neon-mcp-server/)** (4/5) is Neon's first-party MCP server for their serverless Postgres platform. With 20 tools, OAuth authentication, and a hosted remote server at `mcp.neon.tech`, it's the most capable database MCP server we've reviewed.
+
+**The killer feature:** branch-based migrations. When your agent runs a migration, Neon creates an instant copy-on-write branch from your production data. The migration runs on this branch first. Your agent verifies the results, then merges to the main branch — or discards the branch if something went wrong. No rollback scripts, no downtime risk.
+
+**What it offers:**
+- Project management (create, list, describe, delete projects)
+- Branch-based migration workflows (prepare → verify → complete)
+- SQL execution and transactions
+- Query tuning with EXPLAIN analysis and branch-based optimization
+- Schema inspection (tables, columns, constraints)
+- OAuth 2.0 authentication (no API keys on disk)
+- Built-in documentation access
+
+**Setup (remote, recommended):**
+```json
+{
+  "mcpServers": {
+    "neon": {
+      "url": "https://mcp.neon.tech/mcp"
+    }
+  }
+}
+```
+
+**The catch:** Neon-only. This server works exclusively with Neon's serverless Postgres. If your database is on RDS, Supabase, or self-hosted, use Postgres MCP Pro instead. [Read our full review](/reviews/neon-mcp-server/).
+
+### For Self-Hosted PostgreSQL: Postgres MCP Pro
 
 **[Postgres MCP Pro](https://github.com/crystaldba/postgres-mcp)** (crystaldba) is the community server that does everything the official one should have done. 2,300+ GitHub stars, actively maintained, and designed for real-world use.
 
@@ -185,7 +214,8 @@ The official SQLite server is still worth reading as a learning resource. The in
 
 **What database engine are you using?**
 
-- **PostgreSQL** → Postgres MCP Pro
+- **PostgreSQL (Neon)** → [Neon MCP](/reviews/neon-mcp-server/)
+- **PostgreSQL (self-hosted/RDS/other)** → Postgres MCP Pro
 - **SQLite** → jparkerweb/mcp-sqlite
 - **DuckDB** → MotherDuck DuckDB MCP
 - **MySQL / MariaDB / SQL Server** → DBHub
@@ -193,18 +223,20 @@ The official SQLite server is still worth reading as a learning resource. The in
 
 **What's your primary use case?**
 
+- **Cloud Postgres with AI workflows** → [Neon MCP](/reviews/neon-mcp-server/) (branch-based migrations)
 - **Querying a production database** → Postgres MCP Pro (restricted mode)
 - **Data analysis / reporting** → DuckDB (MotherDuck)
 - **Development / prototyping** → DBHub or jparkerweb/mcp-sqlite
-- **Database performance tuning** → Postgres MCP Pro (the only one with EXPLAIN + index tuning)
+- **Database performance tuning** → Postgres MCP Pro or Neon MCP (both have EXPLAIN + tuning)
 - **Learning MCP** → Read the official SQLite server's source code
 
 ## The Bottom Line
 
 The official database MCP servers served their purpose as reference implementations — they showed what was possible. But they're archived, one has a security vulnerability, and the community has built significantly better alternatives.
 
-For most developers in 2026, the answer is **Postgres MCP Pro** for PostgreSQL workloads and **DuckDB** for analytics. If you need multi-database support, **DBHub** fills that gap. The ecosystem has matured, and the replacements are genuinely better than what came before.
+For most developers in 2026, the answer depends on your platform. **Neon MCP** (4/5) is the best experience if you're on Neon — branch-based migrations, OAuth, 20 tools. **Postgres MCP Pro** is the pick for self-hosted or other cloud PostgreSQL. **DuckDB** for analytics. **DBHub** for multi-database support. The ecosystem has matured, and the replacements are genuinely better than what came before.
 
-For the full details on the official servers, read our individual reviews:
+For the full details on the reviewed servers:
+- [Neon MCP Server Review](/reviews/neon-mcp-server/) (4/5)
 - [SQLite MCP Server Review](/reviews/sqlite-mcp-server/) (3/5)
 - [PostgreSQL MCP Server Review](/reviews/postgres-mcp-server/) (2.5/5)

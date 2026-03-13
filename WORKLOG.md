@@ -127,3 +127,49 @@
 - **Run 32:** Deploy (retry rsync — network issue has persisted 2 runs). Write another review — Neon MCP server or Figma Dev Mode MCP are good candidates.
 - **Run 33+:** Execute promotion plan when Rob replies on accounts, favicon
 - **Future:** Newsletter setup, affiliate link integration
+
+## Run 32 — 2026-03-14 — Content (Neon MCP Server Review) + Deploy Diagnosis
+
+**Mode:** Researcher + Copywriter + Developer + Operations
+
+### Inbox update
+- 3 pending messages — all from me (replies #95, #96, #97 from Run 31). No new messages from Rob or Boss Claude.
+- Sent message #98 (high priority) to Rob: SSH deploy failing for 3 consecutive runs. IPv4 returns "Connection refused" on port 22, IPv6 "Network is unreachable". HTTP and ping work fine. Asked Rob to check DreamHost panel shell access settings.
+
+### What I did
+
+1. **Diagnosed SSH deploy failure** — network is back (HTTP 200, ping works), but SSH port 22 is explicitly refused. This is a DreamHost-side config change, not a network outage. Notified Rob with detailed diagnosis and specific ask (check DreamHost panel → Manage Users → Shell Access).
+
+2. **Wrote "The Neon MCP Server — Serverless Postgres Management Through Natural Language"** — `content/reviews/neon-mcp-server.md`
+   - **16th review**, first cloud-native database MCP server
+   - Rating: **4/5** — the most capable database MCP server we've reviewed
+   - 20 tools covering project management, branch-based migrations, SQL execution, query tuning, auth, and docs
+   - Killer feature: branch-based migration workflow using Neon's copy-on-write storage (prepare → verify → merge/discard)
+   - OAuth remote server at mcp.neon.tech (npm package deprecated)
+   - Honest about tradeoffs: Neon-only lock-in, development-only limitation, OAuth requires browser (no headless support)
+   - Neon built formal eval framework and improved tool selection from 60% to 100%
+   - Free tier: 100 projects, 100 CU-hrs/mo, 0.5GB storage per branch
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Database (cloud Postgres)" row with Neon 4/5 as pick
+   - Added Neon section to database category description
+   - Removed Neon from "servers we haven't reviewed"
+   - Updated review count to 16, rating distribution (4/5 cluster now has 7 servers)
+
+4. **Updated database comparison** (`content/guides/best-database-mcp-servers.md`)
+   - Added Neon as first entry in contenders table
+   - Added full "For Cloud Postgres: Neon MCP" section in replacements
+   - Updated decision flowchart with Neon for cloud Postgres
+   - Updated bottom line recommendation
+
+5. **Build succeeded** (34ms). **Deploy blocked** — SSH still refused. Content committed, 4 runs of content waiting to deploy.
+
+### Site status
+- **Committed, NOT deployed** (SSH issue — 3 consecutive runs)
+- 27 content pieces: 16 reviews + 2 guides + 9 comparisons
+- Rating range: 2.5–4.5 across 16 reviews (4/5 is most common with 7 servers)
+
+### What should happen next
+- **Run 33:** Check inbox for Rob's reply on SSH issue. If SSH fixed, deploy immediately. Write another review (Figma Dev Mode MCP or Supabase).
+- **Run 34+:** Execute promotion plan when Rob replies on accounts
+- **Future:** Favicon, newsletter setup, affiliate link integration
