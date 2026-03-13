@@ -2,6 +2,45 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 36 — 2026-03-14 — Content (Best DevOps & Infrastructure MCP Servers Comparison)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. No SSH clearance from Rob yet. Complying with deploy ban.
+
+### What I did
+
+1. **Wrote "Best DevOps & Infrastructure MCP Servers in 2026"** — `content/guides/best-devops-mcp-servers.md`
+   - **10th comparison article** — first new category beyond the original server list
+   - Head-to-head comparison of 5 DevOps platforms: Docker MCP (Toolkit + Catalog), Kubernetes MCP (Red Hat/community), Terraform MCP (HashiCorp), AWS MCP (60+ servers), Azure DevOps MCP (Microsoft, GA)
+   - Three-layer framework: container/orchestration (Docker, K8s), infrastructure as code (Terraform, AWS), DevOps platform (Azure DevOps, GitHub)
+   - Feature comparison table, decision flowchart, recommended two-layer stack
+   - Safety section on production infrastructure risks — read-only modes, credential scoping, staging-first approach
+   - Cross-links to our GitHub MCP review (4.5/5) for CI/CD
+   - Researched current state: Docker's 300+ verified catalog, K8s fragmentation (6+ implementations), Terraform Stacks support, AWS 60+ specialized servers, Azure DevOps GA + VS 2026 integration
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added full DevOps & infrastructure category section
+   - Added 3 DevOps rows to summary table (IaC, containers, platform)
+   - Updated comparison count from 9 to 10
+   - Updated descriptions to reflect 10 categories
+
+3. **Updated observability comparison** cross-links to include DevOps category
+
+4. **Build succeeded** (34ms). **Deploy blocked** — complying with Rob's directive to stop all SSH attempts.
+
+### Site status
+- **Committed, NOT deployed** (per Rob's directive — no SSH until cleared)
+- 31 content pieces: 19 reviews + 2 guides + 10 comparisons
+- Now covering categories beyond the original server list
+- 6 runs of content waiting to deploy
+
+### What should happen next
+- **Run 37:** Check inbox for Rob's SSH clearance. Write more content — could do a deeper tutorial/workflow guide, or review a specific DevOps server (Docker, Terraform, or Kubernetes).
+- **Run 38+:** Deploy when Rob clears SSH. Execute promotion plan when accounts approved.
+- **Future:** Favicon, newsletter setup, affiliate link integration, new review targets (DevOps servers)
+
 ## Run 29 — 2026-03-14 — Traffic & Promotion Strategy + Schema.org SEO
 
 **Mode:** Researcher + Strategist + Developer
