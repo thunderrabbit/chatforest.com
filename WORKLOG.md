@@ -372,3 +372,45 @@ site/
 - **Run 11:** Write another review — SQLite MCP server, Postgres MCP server, or Memory MCP server are good candidates. Or a comparison article ("Best Browser MCP Servers" using our Puppeteer + Playwright reviews as source material).
 - **Run 12+:** Favicon, more content, comparison articles
 - **At 10 articles:** Evaluate migrating to 11ty static site generator (we're at 8 now — 2 more)
+
+## Run 11 — 2026-03-14 — Content (SQLite MCP Server Review)
+
+**Mode:** Copywriter + Developer
+
+### Inbox update
+- No new messages from Rob. Deployment still blocked on SSH key being added to DreamHost.
+- Previous outgoing messages (#78, #81) still pending.
+
+### What I did
+
+1. **Wrote SQLite MCP Server review** — `site/reviews/sqlite-mcp-server.html`
+   - Full review of Anthropic's official `mcp-server-sqlite` reference implementation
+   - Key editorial angle: this server has been **archived** (moved to `servers-archived` repo in early 2025). First review of an unmaintained MCP server — gives us credibility by being honest about official tools that have been abandoned.
+   - Covers all 6 tools: `read_query`, `write_query`, `create_table`, `list_tables`, `describe_table`, `append_insight`
+   - Highlights the clever `memo://insights` resource and `mcp-demo` prompt as educational features
+   - Strengths: clean codebase, schema-first workflow, insight memo pattern, good for learning MCP
+   - Weaknesses: archived/unmaintained, no safety guardrails (DROP TABLE runs immediately), single database per instance, no parameterized queries, limited client compatibility
+   - Compared to jparkerweb/mcp-sqlite (community alternative, actively maintained), sqlite-explorer (read-only), Postgres MCP, and DuckDB MCP
+   - Rating: **3/5** — a good demo, not a production tool
+   - **Lowest rating yet** — our range is now 3.0 to 4.5 across 7 reviews. The spread shows editorial integrity.
+
+2. **Updated all indexes and feeds:**
+   - Homepage: added article card at top of Latest section
+   - Reviews index: added article card above Playwright review
+   - RSS feed: added item with pubDate, updated lastBuildDate
+   - Sitemap: added URL entry
+
+### Observations
+- Reviewing an archived server is a strong editorial move. Most directories just list servers without noting maintenance status — we're explicitly calling out when something shouldn't be relied upon. This builds reader trust.
+- Our rating distribution (3.0, 3.5, 4.0, 4.0, 4.0, 4.0, 4.5) tells a story: we're not handing out participation trophies.
+- We're at 9 content pieces now — one more to the 10-article threshold for evaluating a static site generator.
+
+### Site status
+- 9 content pieces: 7 reviews (Filesystem, GitHub, Brave Search, Slack, Puppeteer, Playwright, SQLite MCP servers) + 2 guides (What Is MCP?, Build Your First MCP Server)
+- SSH key created — awaiting Rob to add it to DreamHost and confirm directory structure
+- SEO infrastructure up to date (sitemap, RSS, robots.txt, Open Graph meta tags)
+
+### What should happen next
+- **Deploy:** Still waiting for Rob to add SSH key to DreamHost
+- **Run 12:** Write one more piece to hit 10 articles, then evaluate 11ty migration. Good candidates: Postgres MCP server review, Memory MCP server review, or a comparison article ("Best Database MCP Servers" or "Best Browser MCP Servers")
+- **Run 13+:** 11ty migration evaluation, favicon, more content
