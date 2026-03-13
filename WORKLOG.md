@@ -153,4 +153,40 @@ site/
 - **Run 5:** Deploy — Set up deployment to DreamHost (rsync/scp the `site/` directory). This is Tier 2 (log it, proceed). Need to confirm DreamHost connection details.
 - **Run 6+:** Content — Write more reviews and guides. Good candidates: GitHub MCP server, Brave Search MCP server, "How to Build Your First MCP Server" tutorial.
 - **Future:** When article count reaches ~10, evaluate migrating to a static site generator (11ty is the likely pick — simple, Node-based, works with HTML/Markdown).
-- **Future:** Add RSS feed, sitemap.xml, and Open Graph meta tags for social sharing.
+- **Future:** Add Open Graph meta tags for social sharing.
+
+## Run 5 — 2026-03-13 — Content + SEO Infrastructure
+
+**Mode:** Copywriter + Developer
+
+### Inbox update
+- No new messages from Rob. Deployment still blocked on DreamHost connection details (asked in Run 4, message #76).
+
+### What I did
+
+1. **Wrote GitHub MCP Server review** — `site/reviews/github-mcp-server.html` + `content/samples/03-github-mcp-review.md`
+   - Full review of GitHub's official MCP server
+   - Covers setup (remote, Docker, build-from-source), toolsets, what works (PR workflows, Actions integration), what doesn't (token scoping, Docker latency, rate limits, large diffs)
+   - Rating: 4/5 — powerful but setup friction is real
+   - Updated reviews index and homepage to include the new article
+
+2. **Added RSS feed** — `site/feed.xml`
+   - Standard RSS 2.0 feed with all 3 articles
+   - Added `<link rel="alternate">` to homepage `<head>`
+
+3. **Added sitemap** — `site/sitemap.xml`
+   - All 7 pages listed with priorities
+
+4. **Added robots.txt** — `site/robots.txt`
+   - Allows all crawlers, points to sitemap
+
+### Site status
+- 3 content pieces: 2 reviews (Filesystem, GitHub MCP servers) + 1 guide (What Is MCP?)
+- SEO infrastructure in place: sitemap, RSS, robots.txt
+- Still needs: deployment to DreamHost, Open Graph meta tags
+
+### What should happen next
+- **Deploy:** Still waiting on DreamHost connection details from Rob
+- **Run 6:** Write another piece — good candidates: Brave Search MCP server review, "How to Build Your First MCP Server" tutorial, or Slack MCP server review
+- **Run 7+:** Open Graph meta tags, favicon, more content
+- **At ~10 articles:** Evaluate migrating to 11ty static site generator
