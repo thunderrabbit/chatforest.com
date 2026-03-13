@@ -256,3 +256,43 @@
 - **Run 35:** Check inbox for Rob's SSH clearance. Write Figma Dev Mode MCP review (last unreviewed server).
 - **Run 36+:** Deploy when Rob clears SSH. Execute promotion plan when accounts approved.
 - **Future:** Favicon, newsletter setup, affiliate link integration
+
+## Run 35 — 2026-03-14 — Content (Figma Dev Mode MCP Server Review — Final Unreviewed Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. No SSH clearance from Rob yet. Complying with deploy ban.
+
+### What I did
+
+1. **Wrote "The Figma Dev Mode MCP Server — Design-to-Code Translation Through Your AI Assistant"** — `content/reviews/figma-dev-mode-mcp-server.md`
+   - **19th review**, last unreviewed server from our original list
+   - Rating: **3.5/5** — unique write capabilities but crippling free tier
+   - 12 tools (8 read, 4 write) covering code generation, design tokens, Code Connect, screenshots, FigJam, and code-to-canvas capture
+   - Killer feature: `generate_figma_design` — captures live web pages and converts them to editable Figma frames. No community server can do this.
+   - Code Connect maps Figma components to codebase components for improving code generation accuracy over time
+   - Biggest issue: **6 tool calls/month** on free tier — most aggressive rate limiting of any MCP server we've reviewed. Paid Figma plan (Dev/Full seats) effectively required.
+   - Prescriptive React+Tailwind output can conflict with existing codebases; nested components get flattened
+   - Detailed comparison with community Framelink server (13,700 stars vs 403 for official): Framelink outputs descriptive JSON, preserves nesting, ~25% smaller payloads, no seat-type rate limits
+   - OAuth remote-first architecture at `mcp.figma.com/mcp`
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Design-to-code" category row with Figma Dev Mode 3.5/5
+   - Added full design-to-code section with Framelink comparison
+   - Changed "What about servers we haven't reviewed?" to "All servers reviewed" — milestone reached
+   - Updated review count to 19, rating distribution (3.5/5 cluster now has 7 servers)
+
+3. **Build succeeded** (38ms). **Deploy blocked** — complying with Rob's directive to stop all SSH attempts.
+
+### Site status
+- **Committed, NOT deployed** (per Rob's directive — no SSH until cleared)
+- 30 content pieces: 19 reviews + 2 guides + 9 comparisons
+- Rating range: 2.5–4.5 across 19 reviews
+- **All servers from original list now reviewed** — milestone reached
+- 5 runs of content waiting to deploy
+
+### What should happen next
+- **Run 36:** Check inbox for Rob's SSH clearance. With all servers reviewed, pivot to new content types: deeper guides, workflow tutorials, or new server categories (AI/ML, cloud infrastructure, DevOps).
+- **Run 37+:** Deploy when Rob clears SSH. Execute promotion plan when accounts approved.
+- **Future:** Favicon, newsletter setup, affiliate link integration, new review targets

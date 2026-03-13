@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Best MCP Servers for Developers in 2026 — ChatForest</title>
-  <meta name="description" content="We&#39;ve reviewed 17 MCP servers and compared 40&#43; across 9 categories. Here are the ones worth installing — and the ones to avoid.">
+  <meta name="description" content="We&#39;ve reviewed 19 MCP servers and compared 40&#43; across 9 categories. Here are the ones worth installing — and the ones to avoid.">
   <meta property="og:title" content="Best MCP Servers for Developers in 2026 — ChatForest">
-  <meta property="og:description" content="We&#39;ve tested 17 MCP servers and compared 40&#43; across 9 categories. Here&#39;s every recommendation in one place — with honest ratings, not just feature lists.">
+  <meta property="og:description" content="We&#39;ve tested 18 MCP servers and compared 40&#43; across 9 categories. Here&#39;s every recommendation in one place — with honest ratings, not just feature lists.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://chatforest.com/guides/best-mcp-servers/">
   <meta property="og:site_name" content="ChatForest">
@@ -45,7 +45,7 @@
 
       <div class="article-body">
         <p>Most &ldquo;best MCP servers&rdquo; lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don&rsquo;t tell you if it&rsquo;s good.</p>
-<p>We&rsquo;ve spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We&rsquo;ve published <a href="/reviews/">17 in-depth reviews</a> and <a href="/guides/">9 category comparisons</a> so far. This guide distills all of that into one page.</p>
+<p>We&rsquo;ve spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We&rsquo;ve published <a href="/reviews/">19 in-depth reviews</a> and <a href="/guides/">9 category comparisons</a> so far. This guide distills all of that into one page.</p>
 <p><strong>What makes this different:</strong> every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.</p>
 <h2 id="the-short-version">The short version</h2>
 <p>If you want to skip the details:</p>
@@ -161,6 +161,18 @@
 <td>—</td>
 <td>Todoist (personal)</td>
 </tr>
+<tr>
+<td>Deployment</td>
+<td><a href="/reviews/vercel-mcp-server/">Vercel MCP</a></td>
+<td>3.5/5</td>
+<td>Community alternatives (more tools)</td>
+</tr>
+<tr>
+<td>Design-to-code</td>
+<td><a href="/reviews/figma-dev-mode-mcp-server/">Figma Dev Mode MCP</a></td>
+<td>3.5/5</td>
+<td>Framelink (community, better output)</td>
+</tr>
 </tbody>
 </table>
 <p>Now the details.</p>
@@ -266,16 +278,25 @@
 <p><strong>Notable gap:</strong> Google has no official MCP server for any product. Community options (nspady/google-calendar-mcp) fill the calendar gap, but Drive, Docs, Sheets, and Gmail are underserved.</p>
 <p><strong>Full comparison:</strong> <a href="/guides/best-productivity-mcp-servers/">Best Productivity &amp; Knowledge Management MCP Servers in 2026</a></p>
 <hr>
-<h2 id="what-about-servers-we-havent-reviewed">What about servers we haven&rsquo;t reviewed?</h2>
-<p>Some popular servers we haven&rsquo;t covered yet but are on our list:</p>
-<ul>
-<li><strong>Figma Dev Mode</strong> — exposes live Figma design structures to AI. Strong for frontend workflows.</li>
-<li><strong>Vercel MCP</strong> — deployment monitoring and management.</li>
-</ul>
-<p>We&rsquo;ll review these as the site grows. Subscribe to our <a href="/feed.xml">RSS feed</a> to get notified.</p>
+<h2 id="deployment">Deployment</h2>
+<p>A new category — deployment platform MCP servers are emerging as first-party vendor integrations.</p>
+<p><strong><a href="/reviews/vercel-mcp-server/">Vercel MCP</a> (3.5/5)</strong> — Vercel&rsquo;s official hosted server at <code>mcp.vercel.com</code>. 13 tools covering projects, deployments, build/runtime logs, domains, and documentation search. The runtime log querying tool is the standout — filtering by log level, status code, time range, and full-text search is genuinely faster through natural language than through the dashboard. OAuth with client allowlisting provides a stronger security model than most MCP servers.</p>
+<p>The tool count is thin relative to Vercel&rsquo;s full platform (no environment variables, no edge config, no KV/Blob storage, no analytics). Community alternatives like Quegenx/vercel-mcp-server offer 30+ tools with full admin control, but trade OAuth security for API token auth. The official server is the safer choice; the community servers are more capable.</p>
+<p>Pairs well with <a href="/reviews/github-mcp-server/">GitHub MCP</a> (4/5) — GitHub handles the code side (PRs, issues, CI), Vercel handles the deploy side (builds, logs, domains).</p>
+<hr>
+<h2 id="design-to-code">Design-to-code</h2>
+<p>A category where the community got there first — and arguably got there better.</p>
+<p><strong><a href="/reviews/figma-dev-mode-mcp-server/">Figma Dev Mode MCP</a> (3.5/5)</strong> — Figma&rsquo;s official hosted server at <code>mcp.figma.com/mcp</code>. 12 tools covering code generation from frames, design token extraction, Code Connect component mappings, screenshots, and a unique code-to-canvas capture feature that converts live web pages into editable Figma designs.</p>
+<p>The server&rsquo;s exclusive capabilities are the draw: code-to-canvas (<code>generate_figma_design</code>) closes the design-development loop in a way no community server can. Code Connect maps Figma components directly to your codebase components, improving code generation accuracy over time. OAuth authentication, zero-install remote architecture.</p>
+<p>The catch: Figma&rsquo;s free tier gives you <strong>6 tool calls per month</strong> — the most aggressive rate limiting we&rsquo;ve seen on any MCP server. Real use requires a paid Figma plan (Dev or Full seats). The output format is prescriptive (React + Tailwind by default), and nested components get flattened.</p>
+<p><strong>The community alternative:</strong> <a href="https://github.com/GLips/Figma-Context-MCP">Framelink</a> (13,700 GitHub stars vs. 403 for the official guide repo) outputs descriptive JSON instead of prescriptive code, preserves component nesting, produces ~25% smaller payloads, and works with Figma&rsquo;s standard API limits instead of the 6/month cap. If you just need design-to-code translation, Framelink is the better tool. If you need the full design-code-design loop, the official server is the only option.</p>
+<p><strong>Full review:</strong> <a href="/reviews/figma-dev-mode-mcp-server/">The Figma Dev Mode MCP Server</a></p>
+<hr>
+<h2 id="all-servers-reviewed">All servers reviewed</h2>
+<p>We&rsquo;ve now reviewed every MCP server on our original list. Subscribe to our <a href="/feed.xml">RSS feed</a> to get notified when we add new reviews.</p>
 <hr>
 <h2 id="the-pattern-official-servers-as-starting-points">The pattern: official servers as starting points</h2>
-<p>After reviewing 17 MCP servers, a clear pattern has emerged:</p>
+<p>After reviewing 19 MCP servers, a clear pattern has emerged:</p>
 <p><strong>Anthropic&rsquo;s reference implementations are starting points, not destinations.</strong> The official Filesystem and GitHub servers are solid (4/5 each). But the official database servers are archived with security issues (2.5-3/5), the official Memory server doesn&rsquo;t scale (3.5/5), the official Fetch server has an SSRF gap (3.5/5), and the official EverArt server is minimal and archived (2.5/5).</p>
 <p><strong>First-party vendor servers are better.</strong> Sentry, Slack, Brave Search, GitHub — when the company that owns the product builds the MCP server, the integration is tighter, the maintenance is reliable, and the security model is sound.</p>
 <p><strong>The community fills the gaps.</strong> Community servers like Postgres MCP Pro, zcaceres/fetch-mcp, and jparkerweb/mcp-sqlite exist because the official implementations fell short. They&rsquo;re often better than what they replace.</p>
@@ -301,8 +322,8 @@
 </tr>
 <tr>
 <td>3.5/5</td>
-<td>5</td>
-<td>Context7, Puppeteer, Memory, Fetch, Notion</td>
+<td>7</td>
+<td>Context7, Puppeteer, Memory, Fetch, Notion, Vercel, Figma Dev Mode</td>
 </tr>
 <tr>
 <td>3.0/5</td>
@@ -340,7 +361,7 @@
     
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","author":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"datePublished":"2026-03-14","description":"We've reviewed 17 MCP servers and compared 40+ across 9 categories. Here are the ones worth installing — and the ones to avoid.","headline":"Best MCP Servers for Developers in 2026","mainEntityOfPage":"https://chatforest.com/guides/best-mcp-servers/","publisher":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"url":"https://chatforest.com/guides/best-mcp-servers/"}
+{"@context":"https://schema.org","@type":"Article","author":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"datePublished":"2026-03-14","description":"We've reviewed 19 MCP servers and compared 40+ across 9 categories. Here are the ones worth installing — and the ones to avoid.","headline":"Best MCP Servers for Developers in 2026","mainEntityOfPage":"https://chatforest.com/guides/best-mcp-servers/","publisher":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"url":"https://chatforest.com/guides/best-mcp-servers/"}
 </script>
 
 

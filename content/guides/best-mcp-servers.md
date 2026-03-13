@@ -1,15 +1,15 @@
 ---
 title: "Best MCP Servers for Developers in 2026"
 date: 2026-03-14
-description: "We've reviewed 18 MCP servers and compared 40+ across 9 categories. Here are the ones worth installing — and the ones to avoid."
+description: "We've reviewed 19 MCP servers and compared 40+ across 9 categories. Here are the ones worth installing — and the ones to avoid."
 og_description: "We've tested 18 MCP servers and compared 40+ across 9 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
 content_type: "Comparison"
-card_description: "We've reviewed 18 MCP servers across 9 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
+card_description: "We've reviewed 19 MCP servers across 9 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
 ---
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [18 in-depth reviews](/reviews/) and [9 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [19 in-depth reviews](/reviews/) and [9 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -37,6 +37,7 @@ If you want to skip the details:
 | Productivity (knowledge) | [Notion MCP](/reviews/notion-mcp-server/) | 3.5/5 | Obsidian (local-first) |
 | Productivity (tasks) | Linear MCP | — | Todoist (personal) |
 | Deployment | [Vercel MCP](/reviews/vercel-mcp-server/) | 3.5/5 | Community alternatives (more tools) |
+| Design-to-code | [Figma Dev Mode MCP](/reviews/figma-dev-mode-mcp-server/) | 3.5/5 | Framelink (community, better output) |
 
 Now the details.
 
@@ -226,18 +227,31 @@ Pairs well with [GitHub MCP](/reviews/github-mcp-server/) (4/5) — GitHub handl
 
 ---
 
-## What about servers we haven't reviewed?
+## Design-to-code
 
-Some popular servers we haven't covered yet but are on our list:
-- **Figma Dev Mode** — exposes live Figma design structures to AI. Strong for frontend workflows.
+A category where the community got there first — and arguably got there better.
 
-We'll review these as the site grows. Subscribe to our [RSS feed](/feed.xml) to get notified.
+**[Figma Dev Mode MCP](/reviews/figma-dev-mode-mcp-server/) (3.5/5)** — Figma's official hosted server at `mcp.figma.com/mcp`. 12 tools covering code generation from frames, design token extraction, Code Connect component mappings, screenshots, and a unique code-to-canvas capture feature that converts live web pages into editable Figma designs.
+
+The server's exclusive capabilities are the draw: code-to-canvas (`generate_figma_design`) closes the design-development loop in a way no community server can. Code Connect maps Figma components directly to your codebase components, improving code generation accuracy over time. OAuth authentication, zero-install remote architecture.
+
+The catch: Figma's free tier gives you **6 tool calls per month** — the most aggressive rate limiting we've seen on any MCP server. Real use requires a paid Figma plan (Dev or Full seats). The output format is prescriptive (React + Tailwind by default), and nested components get flattened.
+
+**The community alternative:** [Framelink](https://github.com/GLips/Figma-Context-MCP) (13,700 GitHub stars vs. 403 for the official guide repo) outputs descriptive JSON instead of prescriptive code, preserves component nesting, produces ~25% smaller payloads, and works with Figma's standard API limits instead of the 6/month cap. If you just need design-to-code translation, Framelink is the better tool. If you need the full design-code-design loop, the official server is the only option.
+
+**Full review:** [The Figma Dev Mode MCP Server](/reviews/figma-dev-mode-mcp-server/)
+
+---
+
+## All servers reviewed
+
+We've now reviewed every MCP server on our original list. Subscribe to our [RSS feed](/feed.xml) to get notified when we add new reviews.
 
 ---
 
 ## The pattern: official servers as starting points
 
-After reviewing 18 MCP servers, a clear pattern has emerged:
+After reviewing 19 MCP servers, a clear pattern has emerged:
 
 **Anthropic's reference implementations are starting points, not destinations.** The official Filesystem and GitHub servers are solid (4/5 each). But the official database servers are archived with security issues (2.5-3/5), the official Memory server doesn't scale (3.5/5), the official Fetch server has an SSRF gap (3.5/5), and the official EverArt server is minimal and archived (2.5/5).
 
@@ -251,7 +265,7 @@ Our rating distribution tells the story:
 |--------|-------|---------|
 | 4.5/5 | 1 | Playwright |
 | 4.0/5 | 8 | Filesystem, GitHub, Brave Search, Slack, Sentry, Exa, Neon, Supabase |
-| 3.5/5 | 6 | Context7, Puppeteer, Memory, Fetch, Notion, Vercel |
+| 3.5/5 | 7 | Context7, Puppeteer, Memory, Fetch, Notion, Vercel, Figma Dev Mode |
 | 3.0/5 | 1 | SQLite |
 | 2.5/5 | 2 | PostgreSQL, EverArt |
 
