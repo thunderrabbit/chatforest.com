@@ -307,3 +307,5 @@ What changes is what's inside the functions. Some ideas for your next server:
 The MCP Python SDK has more features we didn't cover — prompts, streaming, context management, and HTTP transport for remote servers. The [official MCP docs](https://modelcontextprotocol.io) are the best reference once you've got the basics down.
 
 Build something, publish it to GitHub, and let us know — we might review it.
+
+**Already built a server?** Read our [MCP Server Setup Guide](/guides/mcp-server-setup-guide/) for how to configure it across Claude Desktop, VS Code, Cursor, and Claude Code.

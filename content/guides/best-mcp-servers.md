@@ -309,6 +309,8 @@ If you're setting up an AI agent from scratch and want a solid default configura
 
 That's four servers. Don't install 15 servers on day one — each server adds tools to your agent's context, and too many tools degrade decision-making. Start small, add as needed.
 
+**Need help installing these?** Our **[MCP Server Setup Guide](/guides/mcp-server-setup-guide/)** walks you through configuring servers in Claude Desktop, VS Code, Cursor, and Claude Code — with role-specific starter stacks for web developers, backend engineers, and researchers.
+
 Before you install anything, read our **[MCP Server Security Guide](/guides/mcp-server-security/)** — it covers authentication best practices, real vulnerabilities we found during our reviews, and a checklist for evaluating any server's security posture.
 
 ---

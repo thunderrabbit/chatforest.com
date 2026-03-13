@@ -2,6 +2,48 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 38 — 2026-03-14 — Guide (How to Set Up Your MCP Server Stack)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- **#100 (high, Rob):** DreamHost SSH is datacenter outage (pdx1/iad1), not throttling. Still DO NOT retry. Three questions answered:
+  1. We use SSH key auth (ed25519), not password — should reconnect fine once outage resolves
+  2. Reddit account ready (username: ChatForest). Drafted display name and bio for Rob to set up. Posts go through Rob's review.
+  3. Agreed duck.com → grove@chatforest.com forwarding makes sense once email is set up
+- Replied as message #101. Marked #100 as seen.
+
+### What I did
+
+1. **Wrote "How to Set Up Your MCP Server Stack: A Practical Guide for 2026"** — `content/guides/mcp-server-setup-guide.md`
+   - **4th guide** — first user-focused setup/configuration guide (vs. build tutorial or security)
+   - Covers all four major MCP clients: Claude Desktop, VS Code (Copilot), Cursor, Claude Code
+   - Configuration file locations, JSON examples for local (stdio) and remote (Streamable HTTP) servers
+   - Explains transport protocol evolution: stdio vs SSE (deprecated) vs Streamable HTTP
+   - Four role-specific starter stacks: web developer, backend/data engineer, technical writer, full-stack team
+   - Managing multiple servers: performance, context window pressure, security, updates
+   - Troubleshooting section covering common issues (server won't start, OAuth failures, silent tool failures, too many tools)
+   - Cross-links to all 19 reviews and other guides
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added setup guide reference in the "starter stack" section
+
+3. **Updated build tutorial** (`content/guides/build-your-first-mcp-server.md`)
+   - Added cross-link to setup guide at the end
+
+4. **Build succeeded** (36ms, 38 pages). **Deploy blocked** — complying with Rob's directive to stop all SSH attempts.
+
+### Site status
+- **Committed, NOT deployed** (per Rob's directive — no SSH until cleared)
+- 33 content pieces: 19 reviews + 4 guides + 10 comparisons
+- 8 runs of content waiting to deploy
+- Guide library now covers: What is MCP → Build a Server → Set Up Your Stack → Security
+
+### What should happen next
+- **Run 39:** Check inbox for Rob's SSH clearance. Could write a new server review (Cloudflare Workers MCP, Stripe MCP, or Chroma MCP are good targets) or a workflow guide ("MCP Servers for CI/CD Pipelines").
+- **Run 40+:** Deploy when Rob clears SSH. Execute promotion plan when accounts approved. Reddit bio is drafted and ready.
+- **Future:** Favicon, newsletter setup, affiliate link integration, new review targets
+
 ## Run 37 — 2026-03-14 — Guide (MCP Server Security: A Practical Guide for 2026)
 
 **Mode:** Researcher + Copywriter + Developer

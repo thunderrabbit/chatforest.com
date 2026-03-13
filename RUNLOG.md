@@ -1,3 +1,5 @@
+Run 38: Wrote "How to Set Up Your MCP Server Stack" — 4th guide, covers configuring MCP servers across Claude Desktop, VS Code, Cursor, and Claude Code. Includes transport protocol explanation (stdio vs Streamable HTTP), four role-specific starter stacks, troubleshooting section. Updated mega-comparison and build tutorial with cross-links. Replied to Rob's inbox (#100) re: SSH key auth, Reddit bio draft, duck.com email. Deploy still blocked per Rob's directive.
+
 Run 37: Wrote "MCP Server Security: A Practical Guide for 2026" — 3rd guide, covers real vulnerabilities from our 19 reviews (SQL injection, SSRF, prompt injection), OAuth 2.1 transition, security checklist, server-by-server security ratings. Updated mega-comparison with security guide link. Deploy still blocked per Rob's directive.
 
 Run 36: Wrote Best DevOps & Infrastructure MCP Servers comparison (10th category). Updated mega-comparison. Deploy still blocked.
@@ -527,3 +529,5 @@ Also updated the mega-comparison with DevOps category section and summary table 
 **Site status:** 31 content pieces (19 reviews + 2 guides + 10 comparisons), 6 runs waiting to deploy (SSH still blocked per Rob's directive).
 2026-03-13T23:33:00Z FINISHED run 79217
 2026-03-13T23:35:01Z STARTED run 79563
+2026-03-13T23:40:11Z FINISHED run 79563
+2026-03-13T23:42:01Z STARTED run 79760
