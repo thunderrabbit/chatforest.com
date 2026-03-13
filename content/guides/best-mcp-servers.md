@@ -1,15 +1,15 @@
 ---
 title: "Best MCP Servers for Developers in 2026"
 date: 2026-03-14
-description: "We've reviewed 13 MCP servers and compared 30+ across 6 categories. Here are the ones worth installing — and the ones to avoid."
-og_description: "We've tested 13 MCP servers and compared 30+ across 6 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
+description: "We've reviewed 14 MCP servers and compared 30+ across 6 categories. Here are the ones worth installing — and the ones to avoid."
+og_description: "We've tested 14 MCP servers and compared 30+ across 6 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
 content_type: "Comparison"
-card_description: "We've reviewed 13 MCP servers across 6 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
+card_description: "We've reviewed 14 MCP servers across 6 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
 ---
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [13 in-depth reviews](/reviews/) and [5 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [14 in-depth reviews](/reviews/) and [6 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -31,6 +31,7 @@ If you want to skip the details:
 | Communication | [Slack MCP](/reviews/slack-mcp-server/) | 4/5 | — |
 | Observability | [Sentry MCP](/reviews/sentry-mcp-server/) | 4/5 | Datadog MCP |
 | Image generation | Multi-provider servers | — | Not [EverArt](/reviews/everart-mcp-server/) (2.5/5) |
+| Documentation | [Context7](/reviews/context7-mcp-server/) | 3.5/5 | GitMCP (free, any repo) |
 
 Now the details.
 
@@ -158,11 +159,27 @@ This space is moving fast. A dedicated comparison article is coming.
 
 ---
 
+## Documentation & code context
+
+**Winner: [Context7](/reviews/context7-mcp-server/) (3.5/5)** — the most popular MCP server of 2026 with 48,900 GitHub stars.
+
+Context7 solves a real problem: AI agents hallucinate APIs because their training data is stale. Two tools (`resolve-library-id` and `query-docs`) inject version-specific documentation directly into prompts. 9,000+ libraries, 30+ client integrations, dead-simple setup.
+
+But popularity doesn't mean perfection. A [ContextCrush context poisoning vulnerability](https://noma.security/blog/contextcrush-context7-the-mcp-server-vulnerability/) was patched in February 2026, the free tier was cut 83–92% in January 2026, and community-contributed docs are unverified against official sources.
+
+**Alternatives worth considering:**
+- **GitMCP** (7,800 stars) — replace `github.com` with `gitmcp.io` in any URL. Zero setup, free, works with any public repo. Best for libraries Context7 hasn't indexed.
+- **Docs MCP Server** (1,100 stars) — fully local, code never leaves your machine. Best for privacy-sensitive work.
+- **Ref.Tools** (1,000 stars) — smart chunking extracts exactly the tokens needed. Best for large API docs where context bloat is a problem.
+- **Docfork** (433 stars) — "Cabinets" for project-specific context isolation. Best for teams with multiple tech stacks.
+
+For the full breakdown, see our [Best Documentation MCP Servers](/guides/best-documentation-mcp-servers/) comparison.
+
+---
+
 ## What about servers we haven't reviewed?
 
 Some popular servers we haven't covered yet but are on our list:
-
-- **Context7** — injects version-specific documentation into prompts. Currently the most-viewed server on FastMCP.
 - **Figma Dev Mode** — exposes live Figma design structures to AI. Strong for frontend workflows.
 - **Notion MCP** — structured access to Notion workspaces. Good for agents managing knowledge bases.
 - **Linear MCP** — issue tracker integration. Essential for engineering team workflows.
@@ -175,7 +192,7 @@ We'll review these as the site grows. Subscribe to our [RSS feed](/feed.xml) to 
 
 ## The pattern: official servers as starting points
 
-After reviewing 13 MCP servers, a clear pattern has emerged:
+After reviewing 14 MCP servers, a clear pattern has emerged:
 
 **Anthropic's reference implementations are starting points, not destinations.** The official Filesystem and GitHub servers are solid (4/5 each). But the official database servers are archived with security issues (2.5-3/5), the official Memory server doesn't scale (3.5/5), the official Fetch server has an SSRF gap (3.5/5), and the official EverArt server is minimal and archived (2.5/5).
 
@@ -189,7 +206,7 @@ Our rating distribution tells the story:
 |--------|-------|---------|
 | 4.5/5 | 1 | Playwright |
 | 4.0/5 | 6 | Filesystem, GitHub, Brave Search, Slack, Sentry, Exa |
-| 3.5/5 | 3 | Puppeteer, Memory, Fetch |
+| 3.5/5 | 4 | Context7, Puppeteer, Memory, Fetch |
 | 3.0/5 | 1 | SQLite |
 | 2.5/5 | 2 | PostgreSQL, EverArt |
 
