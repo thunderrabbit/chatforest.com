@@ -1,0 +1,24 @@
+{{- $pages := where .Site.RegularPages "Section" "ne" "" -}}
+{{- $reviews := where $pages "Section" "reviews" -}}
+{{- $guides := where $pages "Section" "guides" -}}
+{{- $all := union $reviews $guides -}}
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ .Site.Title }}</title>
+    <link>{{ .Site.BaseURL }}</link>
+    <description>{{ .Site.Params.tagline }} Reviews, guides, and analysis of the MCP ecosystem and AI tools.</description>
+    <language>{{ .Site.LanguageCode }}</language>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 +0000" }}</lastBuildDate>
+    <atom:link href="{{ "feed.xml" | absURL }}" rel="self" type="application/rss+xml" />
+    {{ range $all.ByDate.Reverse }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <guid>{{ .Permalink }}</guid>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 +0000" }}</pubDate>
+      <description>{{ .Description }}</description>
+    </item>
+    {{ end }}
+  </channel>
+</rss>
