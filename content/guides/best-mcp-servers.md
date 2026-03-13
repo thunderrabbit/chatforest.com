@@ -1,15 +1,15 @@
 ---
 title: "Best MCP Servers for Developers in 2026"
 date: 2026-03-14
-description: "We've reviewed 14 MCP servers and compared 30+ across 6 categories. Here are the ones worth installing — and the ones to avoid."
-og_description: "We've tested 14 MCP servers and compared 30+ across 6 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
+description: "We've reviewed 15 MCP servers and compared 40+ across 8 categories. Here are the ones worth installing — and the ones to avoid."
+og_description: "We've tested 15 MCP servers and compared 40+ across 8 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
 content_type: "Comparison"
-card_description: "We've reviewed 14 MCP servers across 6 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
+card_description: "We've reviewed 15 MCP servers across 8 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
 ---
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [14 in-depth reviews](/reviews/) and [6 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [15 in-depth reviews](/reviews/) and [8 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -32,6 +32,8 @@ If you want to skip the details:
 | Observability | [Sentry MCP](/reviews/sentry-mcp-server/) | 4/5 | Datadog MCP |
 | Image generation | Multi-provider servers | — | Not [EverArt](/reviews/everart-mcp-server/) (2.5/5) |
 | Documentation | [Context7](/reviews/context7-mcp-server/) | 3.5/5 | GitMCP (free, any repo) |
+| Productivity (knowledge) | [Notion MCP](/reviews/notion-mcp-server/) | 3.5/5 | Obsidian (local-first) |
+| Productivity (tasks) | Linear MCP | — | Todoist (personal) |
 
 Now the details.
 
@@ -177,14 +179,31 @@ For the full breakdown, see our [Best Documentation MCP Servers](/guides/best-do
 
 ---
 
+## Productivity & knowledge management
+
+A growing category as every SaaS vendor adds MCP support. The dominant pattern: first-party hosted servers with OAuth.
+
+**[Notion MCP](/reviews/notion-mcp-server/) (3.5/5)** — 18 tools for pages, databases, search, comments, and workspace info. The Notion-flavored Markdown optimization is genuinely useful for token efficiency. But the v2.0.0 breaking change (databases → data sources) and OAuth tokens that expire 3+ times per week create real friction. Two premium tools are paywalled behind Notion AI.
+
+**Linear MCP** — Linear's official hosted server at `mcp.linear.app`. 15+ tools for issues, projects, initiatives, and milestones. The Feb 2026 update added product management tools, making it viable for PMs alongside engineers. The best issue tracking MCP server for engineering teams.
+
+**Todoist MCP** — Doist's official server with 20+ tools and natural language task creation. Supports MCP Apps (interactive UI widgets in chat) — a genuinely novel feature no other productivity server has adopted. Best for individual task management.
+
+**Asana MCP** — The most tool-rich option (30+ tools) for enterprise project management. Hosted at `mcp.asana.com/v2/mcp` with OAuth.
+
+**Notable gap:** Google has no official MCP server for any product. Community options (nspady/google-calendar-mcp) fill the calendar gap, but Drive, Docs, Sheets, and Gmail are underserved.
+
+**Full comparison:** [Best Productivity & Knowledge Management MCP Servers in 2026](/guides/best-productivity-mcp-servers/)
+
+---
+
 ## What about servers we haven't reviewed?
 
 Some popular servers we haven't covered yet but are on our list:
 - **Figma Dev Mode** — exposes live Figma design structures to AI. Strong for frontend workflows.
-- **Notion MCP** — structured access to Notion workspaces. Good for agents managing knowledge bases.
-- **Linear MCP** — issue tracker integration. Essential for engineering team workflows.
 - **Vercel MCP** — deployment monitoring and management.
 - **Neon / Supabase** — cloud-hosted database servers with serverless scaling.
+- **Datadog MCP** — observability competitor to Sentry MCP.
 
 We'll review these as the site grows. Subscribe to our [RSS feed](/feed.xml) to get notified.
 
@@ -192,7 +211,7 @@ We'll review these as the site grows. Subscribe to our [RSS feed](/feed.xml) to 
 
 ## The pattern: official servers as starting points
 
-After reviewing 14 MCP servers, a clear pattern has emerged:
+After reviewing 15 MCP servers, a clear pattern has emerged:
 
 **Anthropic's reference implementations are starting points, not destinations.** The official Filesystem and GitHub servers are solid (4/5 each). But the official database servers are archived with security issues (2.5-3/5), the official Memory server doesn't scale (3.5/5), the official Fetch server has an SSRF gap (3.5/5), and the official EverArt server is minimal and archived (2.5/5).
 
@@ -206,7 +225,7 @@ Our rating distribution tells the story:
 |--------|-------|---------|
 | 4.5/5 | 1 | Playwright |
 | 4.0/5 | 6 | Filesystem, GitHub, Brave Search, Slack, Sentry, Exa |
-| 3.5/5 | 4 | Context7, Puppeteer, Memory, Fetch |
+| 3.5/5 | 5 | Context7, Puppeteer, Memory, Fetch, Notion |
 | 3.0/5 | 1 | SQLite |
 | 2.5/5 | 2 | PostgreSQL, EverArt |
 
