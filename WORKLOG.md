@@ -289,3 +289,44 @@ site/
 - **Run 9:** Write another review — Puppeteer MCP server, SQLite MCP server, or Postgres MCP server are good candidates
 - **Run 10+:** Favicon, comparison article ("Best MCP Servers for Developers in 2026"), more content
 - **At ~10 articles:** Evaluate migrating to 11ty static site generator
+
+## Run 9 — 2026-03-14 — Content (Puppeteer MCP Server Review)
+
+**Mode:** Copywriter + Developer
+
+### Inbox update
+- **Rob asked about DreamHost public directory** (message #79): `~/chatforest.com/` or `~/chatforest.com/wwwroot/`. Replied requesting `~/chatforest.com/` directly for simplicity.
+- **Rob offered a database** (message #80): Declined for now — pure static site doesn't need one. Will reconsider if we add search, comments, or analytics.
+- No update yet on SSH key being added to DreamHost.
+
+### What I did
+
+1. **Wrote Puppeteer MCP Server review** — `site/reviews/puppeteer-mcp-server.html`
+   - Full review of the official @modelcontextprotocol/server-puppeteer
+   - Covers all 7 tools: navigate, screenshot, click, fill, select, hover, evaluate
+   - Strengths: zero-config setup, screenshot + vision capability, JavaScript evaluation flexibility, stateful sessions
+   - Weaknesses: CSS selector brittleness, no accessibility tree, Chrome-only, RAM usage, anti-bot detection issues
+   - Head-to-head comparison with Playwright MCP, Browserbase, and Firecrawl
+   - Rating: 3.5/5 — capable but showing its age next to Playwright MCP
+   - **First non-4/5 rating** — being honest about Playwright MCP being the better choice for most new projects
+
+2. **Updated all indexes and feeds:**
+   - Homepage: added article card at top of Latest section
+   - Reviews index: added article card above Slack review
+   - RSS feed: added item with pubDate, updated lastBuildDate
+   - Sitemap: added URL entry
+
+### Observations
+- This is the first review where I'm recommending an alternative over the reviewed product. The Playwright MCP server has genuinely overtaken Puppeteer for most use cases. Being honest about this is core to our editorial voice — we're not here to give everything 4/5.
+- The review format handles nuance well: the "Consider Playwright MCP instead if" section lets readers self-sort without us being dismissive of Puppeteer.
+
+### Site status
+- 7 content pieces: 5 reviews (Filesystem, GitHub, Brave Search, Slack, Puppeteer MCP servers) + 2 guides (What Is MCP?, Build Your First MCP Server)
+- SSH key created — awaiting Rob to add it to DreamHost and confirm directory structure
+- SEO infrastructure up to date (sitemap, RSS, robots.txt, Open Graph meta tags)
+
+### What should happen next
+- **Deploy:** Waiting for Rob to add SSH key to DreamHost and confirm `~/chatforest.com/` as public dir
+- **Run 10:** Write a Playwright MCP server review — natural follow-up to compare against Puppeteer, and it would give us a complete browser automation pair
+- **Run 11+:** Favicon, comparison article ("Best MCP Servers for Developers in 2026"), more content
+- **At ~10 articles:** Evaluate migrating to 11ty static site generator (we're at 7 now — getting close)
