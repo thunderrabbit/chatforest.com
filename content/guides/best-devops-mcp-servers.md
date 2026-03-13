@@ -11,12 +11,13 @@ DevOps is where MCP servers get serious. These aren't read-only tools querying d
 
 That risk is also why DevOps MCP servers add the most value. Infrastructure management involves remembering exact CLI flags, translating between YAML dialects, and context-switching between cloud consoles. An AI agent with direct access to your infrastructure APIs can handle the tedious parts while you focus on architecture decisions.
 
-The category has matured fast. Docker, HashiCorp, AWS, Microsoft, and the Kubernetes community all ship official MCP servers now. We've [reviewed the GitHub MCP server](/reviews/github-mcp-server/) (4.5/5), which covers CI/CD via Actions. Here's how the rest of the DevOps landscape compares.
+The category has matured fast. Docker, HashiCorp, AWS, Microsoft, Cloudflare, and the Kubernetes community all ship official MCP servers now. We've [reviewed the GitHub MCP server](/reviews/github-mcp-server/) (4.5/5) and [Cloudflare MCP server](/reviews/cloudflare-mcp-server/) (4.5/5). Here's how the rest of the DevOps landscape compares.
 
 ## The Contenders
 
 | Server | Domain | Maintainer | Transport | Auth Model | Tools | Free Tier | Best For |
 |--------|--------|------------|-----------|------------|-------|-----------|----------|
+| [Cloudflare MCP](/reviews/cloudflare-mcp-server/) | Cloud infra | Cloudflare (official) | Remote (Streamable HTTP) | OAuth / API token | 2 (Code Mode) + 16 servers | Yes (Workers free) | Cloudflare platform management |
 | Docker MCP | Containers | Docker (official) | Local (Desktop) | Docker Desktop | Catalog (300+) | Yes (Desktop) | Container management + MCP server discovery |
 | Kubernetes MCP | Cluster mgmt | Red Hat / Community | Local (stdio) | kubeconfig | 15+ | Yes (any cluster) | Kubernetes operations |
 | Terraform MCP | IaC | HashiCorp (official) | Both (stdio + HTTP) | HCP token | 15+ | Yes (registry) | Infrastructure as code |

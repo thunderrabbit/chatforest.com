@@ -1,15 +1,15 @@
 ---
 title: "Best MCP Servers for Developers in 2026"
 date: 2026-03-14
-description: "We've reviewed 19 MCP servers and compared 40+ across 10 categories. Here are the ones worth installing — and the ones to avoid."
-og_description: "We've tested 19 MCP servers and compared 40+ across 10 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
+description: "We've reviewed 20 MCP servers and compared 40+ across 10 categories. Here are the ones worth installing — and the ones to avoid."
+og_description: "We've tested 20 MCP servers and compared 40+ across 10 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
 content_type: "Comparison"
-card_description: "We've reviewed 19 MCP servers across 10 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
+card_description: "We've reviewed 20 MCP servers across 10 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
 ---
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [19 in-depth reviews](/reviews/) and [10 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [20 in-depth reviews](/reviews/) and [10 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -38,6 +38,7 @@ If you want to skip the details:
 | Productivity (tasks) | Linear MCP | — | Todoist (personal) |
 | Deployment | [Vercel MCP](/reviews/vercel-mcp-server/) | 3.5/5 | Community alternatives (more tools) |
 | Design-to-code | [Figma Dev Mode MCP](/reviews/figma-dev-mode-mcp-server/) | 3.5/5 | Framelink (community, better output) |
+| Cloud infrastructure | [Cloudflare MCP](/reviews/cloudflare-mcp-server/) | 4.5/5 | AWS MCP (60+ servers) |
 | DevOps (IaC) | Terraform MCP | — | AWS MCP (AWS-specific) |
 | DevOps (containers) | Docker MCP | — | Kubernetes MCP |
 | DevOps (platform) | Azure DevOps MCP | — | [GitHub MCP](/reviews/github-mcp-server/) (4.5/5) |
@@ -250,6 +251,8 @@ The catch: Figma's free tier gives you **6 tool calls per month** — the most a
 
 The fastest-growing MCP server category. Every major DevOps platform now ships an official MCP server, and AWS alone has 60+ specialized servers.
 
+**For cloud infrastructure (Cloudflare):** **[Cloudflare MCP](/reviews/cloudflare-mcp-server/) (4.5/5)** — the most ambitious MCP server ecosystem we've reviewed. The main API server at `mcp.cloudflare.com/mcp` uses Code Mode to collapse 2,500+ API endpoints into just two tools (`search()` and `execute()`), consuming ~1,000 tokens instead of the 1.17 million a traditional approach would require. Plus 16 specialized product servers for Workers, DNS, observability, browser rendering, and more — all remote-first with OAuth. The V8 sandbox execution model is genuinely secure. If you're on Cloudflare, this is the obvious choice.
+
 **For infrastructure as code:** **Terraform MCP** (HashiCorp, beta). Gives agents access to provider documentation, module specifications, and Sentinel policies from the Terraform Registry. Helps agents write correct resource blocks instead of hallucinating arguments. Supports Stacks for complex multi-component deployments. Deliberately doesn't run `terraform apply` — a smart safety choice.
 
 **For containers:** **Docker MCP Toolkit**. More than a server — it's an ecosystem. The MCP Catalog hosts 300+ verified server images, and Dynamic MCP lets agents discover and install tools mid-conversation. Each server runs sandboxed (2GB memory, no host filesystem).
@@ -268,9 +271,9 @@ The fastest-growing MCP server category. Every major DevOps platform now ships a
 
 ---
 
-## All servers reviewed
+## Beyond the original list
 
-We've now reviewed every MCP server on our original list. Subscribe to our [RSS feed](/feed.xml) to get notified when we add new reviews.
+We've reviewed every MCP server on our original list — and we're now expanding to new servers. Our latest: [Cloudflare MCP](/reviews/cloudflare-mcp-server/) (4.5/5), the most innovative MCP server architecture we've seen. Subscribe to our [RSS feed](/feed.xml) to get notified when we add new reviews.
 
 ---
 
@@ -288,7 +291,7 @@ Our rating distribution tells the story:
 
 | Rating | Count | Servers |
 |--------|-------|---------|
-| 4.5/5 | 1 | Playwright |
+| 4.5/5 | 2 | Playwright, Cloudflare |
 | 4.0/5 | 8 | Filesystem, GitHub, Brave Search, Slack, Sentry, Exa, Neon, Supabase |
 | 3.5/5 | 7 | Context7, Puppeteer, Memory, Fetch, Notion, Vercel, Figma Dev Mode |
 | 3.0/5 | 1 | SQLite |
