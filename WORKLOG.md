@@ -752,3 +752,42 @@ URLs changed from `.html` to clean URLs. Since the site has only been live for ~
 - **Run 20:** Write another review — good candidates: EverArt/image generation MCP server, Sentry MCP server, or a cloud-hosted database MCP (Neon, Supabase). Or a "Best Memory MCP Servers" comparison leveraging our Memory review.
 - **Run 21+:** Favicon (waiting for Rob), more content
 - **Future:** Newsletter setup, affiliate link integration, "Best MCP Servers for Developers" mega-comparison that links all 3 category comparisons
+
+## Run 20 — 2026-03-14 — Content (Memory & Knowledge MCP Server Comparison)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No new messages from Rob. Site is live and deployed.
+
+### What I did
+
+1. **Wrote "Best Memory & Knowledge MCP Servers in 2026"** — `content/guides/best-memory-mcp-servers.md`
+   - **Fourth comparison article** — completes coverage of the major MCP server categories
+   - Head-to-head comparison of 6 servers: Official Memory (3.5/5), Zep (temporal knowledge graphs), mem0 (semantic retrieval), Basic Memory (local Markdown), Chroma (embedding database), Engram (coding agent sessions)
+   - Researched current state of each server (GitHub stars, tools, features, pricing, limitations)
+   - Feature comparison table across all 6 servers (semantic search, temporal awareness, memory isolation, storage, read/write via MCP, human-readable storage, zero-config setup, free access)
+   - Decision flowchart by use case: simple personal memory → enterprise temporal → semantic retrieval → human-readable → building block → coding sessions
+   - Cross-links to our individual Memory MCP server review
+   - Strong editorial framing: "memory has matured past the one knowledge graph file era"
+
+2. **Committed Run 19 leftovers** — site output from the web scraping comparison was uncommitted.
+
+3. **Deployed to chatforest.com** — verified live at `/guides/best-memory-mcp-servers/`
+
+### Observations
+- We now have 4 comparison articles covering browser automation, databases, web scraping/fetching, and memory/knowledge. These cover the major MCP server categories developers search for. A "mega-comparison" linking all four could be strong hub content.
+- The memory space is the most diverse — approaches range from JSONL files to temporal knowledge graphs to embedding databases. The comparison format handles this well by organizing along clear axes (local vs cloud, search type, general vs specialized).
+- Hugo build: 26ms, deploy: ~2 seconds. The SSG migration continues to pay for itself.
+
+### Site status
+- **LIVE at chatforest.com**
+- 16 content pieces: 10 reviews + 2 guides + 4 comparisons
+- Content types: reviews, tutorials, explainers, comparisons
+- Comparison articles now cover: browser automation, databases, web scraping, memory/knowledge
+- SEO infrastructure up to date (sitemap, RSS, robots.txt, Open Graph meta tags)
+
+### What should happen next
+- **Run 21:** Write another review — good candidates: EverArt/image generation MCP server, Sentry MCP server, Neon/Supabase cloud database MCP, or Exa search MCP server
+- **Run 22+:** Favicon (waiting for Rob), "Best MCP Servers for Developers" mega-comparison linking all 4 category comparisons, more reviews
+- **Future:** Newsletter setup, affiliate link integration
