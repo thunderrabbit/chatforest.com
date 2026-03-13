@@ -992,3 +992,45 @@ URLs changed from `.html` to clean URLs. Since the site has only been live for ~
 - **Run 26:** Write another review — good candidates: Context7 MCP server (most-viewed on FastMCP, documentation injection), Neon MCP server (cloud database), or Notion MCP server (knowledge management)
 - **Run 27+:** "Best Observability MCP Servers" comparison (leveraging Sentry review), "Best Image Generation MCP Servers" comparison (leveraging EverArt review), favicon (waiting for Rob)
 - **Future:** Newsletter setup, affiliate link integration
+
+## Run 26 — 2026-03-14 — Content (Context7 MCP Server Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No new messages from Rob. Site is live and deployed.
+
+### What I did
+
+1. **Wrote Context7 MCP Server review** — `content/reviews/context7-mcp-server.md`
+   - Full review of Upstash's Context7 MCP server (48,900 GitHub stars, ~240K weekly npm downloads, most popular MCP server of 2026)
+   - **First documentation/code context category review** — opens a new content category
+   - Researched: npm stats, GitHub issues (129 open), pricing changes, ContextCrush vulnerability disclosure, alternatives landscape (Docfork, GitMCP, Deepcon, Nia, llms.txt standard)
+   - Key editorial angle: popularity ≠ quality. Context7 has the distribution but the centralized registry trust model creates risks the alternatives avoid
+   - Covers: 2 tools (`resolve-library-id`, `query-docs`), CLI mode, setup across multiple clients
+   - Strengths: solves real hallucination problem, massive library coverage, two-tool simplicity, broad client support (30+), active development by Upstash
+   - Weaknesses: ContextCrush context poisoning vulnerability (patched Feb 2026, but architectural concern remains), free tier gutted 83-92% in Jan 2026 (1,000 requests/month down from ~6,000), community-contributed docs are unverified against source, connection issues across platforms (129 open issues)
+   - Compared to Docfork (open-source, Cabinets for context isolation), GitMCP (free, reads from repos directly), Deepcon (90% vs 65% accuracy benchmark), Nia (27% Cursor improvement), llms.txt standard
+   - Rating: **3.5/5** — the most accessible documentation MCP server, but security history, monetization shift, and unverified quality prevent a higher score
+   - Cross-links to our existing search and web scraping reviews
+
+2. **Deployed to chatforest.com** — verified live at `/reviews/context7-mcp-server/` (HTTP 200)
+
+### Observations
+- This is our first review of the #1 most popular MCP server, and we gave it 3.5. That's the kind of editorial independence that builds credibility — we're not rating based on star count.
+- The ContextCrush vulnerability narrative continues our pattern of highlighting security issues in popular tools (like Postgres SQL injection, Fetch SSRF). This is becoming a strong editorial signature.
+- The documentation/code context category is large and growing — Docfork, GitMCP, Deepcon, Nia, and the llms.txt standard all compete here. A "Best Documentation MCP Servers" comparison article could be strong content.
+- Our rating distribution now: 2.5, 2.5, 3.0, 3.5, 3.5, 3.5, 3.5, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.5 across 14 reviews. The 3.5 cluster is growing — honest but not harsh.
+
+### Site status
+- **LIVE at chatforest.com**
+- 22 content pieces: 14 reviews + 2 guides + 6 comparisons
+- Content types: reviews, tutorials, explainers, comparisons, mega-comparison
+- Review categories: filesystem, version control, search (x2), communication, browser automation (x2), databases (x2), memory, web fetching, observability, image generation, **documentation/code context** (new)
+- Comparison articles cover: browser automation, databases, web scraping, memory/knowledge, search, all categories (mega)
+- SEO infrastructure up to date (sitemap, RSS, robots.txt, Open Graph meta tags)
+
+### What should happen next
+- **Run 27:** Write another review or comparison — good candidates: "Best Documentation MCP Servers" comparison (leveraging this Context7 review + covering Docfork, GitMCP, Deepcon), "Best Observability MCP Servers" comparison (leveraging Sentry review), Neon MCP server review (cloud database), or Notion MCP server review (knowledge management)
+- **Run 28+:** Favicon (waiting for Rob), more reviews
+- **Future:** Newsletter setup, affiliate link integration
