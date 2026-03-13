@@ -1081,3 +1081,44 @@ URLs changed from `.html` to clean URLs. Since the site has only been live for ~
 - **Run 28:** Write another review or comparison — good candidates: "Best Observability MCP Servers" comparison (leveraging Sentry review), "Best Image Generation MCP Servers" comparison (leveraging EverArt review), Neon MCP server review (cloud database), Notion MCP server review (knowledge management), or Figma Dev Mode MCP review
 - **Run 29+:** Favicon (waiting for Rob), more reviews
 - **Future:** Newsletter setup, affiliate link integration
+
+## Run 28 — 2026-03-14 — Content (Notion MCP Server Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No new messages from Rob. Site is live and deployed.
+
+### What I did
+
+1. **Wrote Notion MCP Server review** — `content/reviews/notion-mcp-server.md`
+   - Full review of Notion's official MCP server (~4,000 GitHub stars, 499 forks)
+   - **First productivity/knowledge management category review** — opens a new content category
+   - Researched: both hosted (mcp.notion.com) and local (@notionhq/notion-mcp-server) versions, npm stats, GitHub issues (including OAuth expiry #225, JSON serialization bugs), v2.0.0 breaking changes, alternatives (suekou/mcp-notion-server, awkoy/notion-mcp-server, NotionMCP Light)
+   - Key editorial angle: Notion is running two MCP servers simultaneously and the local one is being sunsetted — the "two-server problem" reveals the industry-wide shift from local to hosted MCP servers (same pattern as Sentry and Slack)
+   - Covers all 18 tools across 5 capability areas: pages (5 tools), databases/data sources (5 tools), search (1 tool), comments (2 tools), workspace info (4 tools), plus the Notion-flavored Markdown optimization
+   - Strengths: Notion-flavored Markdown for token efficiency, agent-friendly tool design (accepts Markdown not JSON), OAuth on hosted server, connected search across Slack/Drive/Jira, comprehensive view creation (10 layout types)
+   - Weaknesses: local server being sunsetted, v2.0.0 broke all existing workflows (databases→data sources rename), OAuth tokens expire 3+ times/week, JSON serialization bugs cause silent failures, manual page connection for local server, two premium query tools paywalled behind Notion AI, tight rate limits (30 searches/min), no file uploads, transcription blocks blocked
+   - Compared to suekou/mcp-notion-server (community, ~49K downloads), awkoy/notion-mcp-server (community, production-ready), NotionMCP Light (efficient Markdown focus), Notion SDK directly, Obsidian + filesystem MCP
+   - Rating: **3.5/5** — powerful workspace access, but the two-server split and v2.0 breaking changes create real friction
+   - Cross-links to our Sentry and Slack reviews (same hosted OAuth pattern)
+
+2. **Deployed to chatforest.com** — verified live at `/reviews/notion-mcp-server/` (HTTP 200)
+
+### Observations
+- The two-server problem is the most interesting editorial angle here. Notion is explicitly abandoning the local open-source server in favor of the hosted OAuth version. This is a pattern: Sentry (mcp.sentry.dev), Slack (mcp.slack.com), and now Notion (mcp.notion.com) all moved to hosted remote servers. For enterprises that need self-hosted deployments, this trend is concerning.
+- The v2.0.0 breaking change (databases → data sources) is a cautionary tale for MCP server consumers. When a first-party vendor renames core concepts across their entire tool surface, every downstream workflow breaks. This is an argument for using MCP server pinning/versioning, which most clients don't support yet.
+- Our rating distribution now: 2.5, 2.5, 3.0, 3.5, 3.5, 3.5, 3.5, 3.5, 4.0, 4.0, 4.0, 4.0, 4.0, 4.0, 4.5 across 15 reviews. The 3.5 cluster (5 reviews) is our most common rating — honest acknowledgment that most MCP servers are useful but have real gaps.
+
+### Site status
+- **LIVE at chatforest.com**
+- 24 content pieces: 15 reviews + 2 guides + 7 comparisons
+- Content types: reviews, tutorials, explainers, comparisons, mega-comparison
+- Review categories: filesystem, version control, search (x2), communication, browser automation (x2), databases (x2), memory, web fetching, observability, image generation, documentation/code context, **productivity/knowledge management** (new)
+- Comparison articles cover: browser automation, databases, web scraping, memory/knowledge, search, documentation, all categories (mega)
+- SEO infrastructure up to date (sitemap, RSS, robots.txt, Open Graph meta tags)
+
+### What should happen next
+- **Run 29:** Write another review or comparison — good candidates: "Best Observability MCP Servers" comparison (leveraging Sentry review), "Best Image Generation MCP Servers" comparison (leveraging EverArt review), Neon MCP server review (cloud database), Figma Dev Mode MCP review, or "Best Productivity MCP Servers" comparison (leveraging Notion + Slack reviews)
+- **Run 30+:** Favicon (waiting for Rob), more reviews, update mega-comparison with Notion
+- **Future:** Newsletter setup, affiliate link integration
