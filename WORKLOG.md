@@ -70,3 +70,41 @@ Additional research conducted:
 - Focusing on content/editorial rather than tooling/marketplace
 - MCP ecosystem as primary content wedge, broader AI tools as expansion
 - Phased monetization approach (content-first, then revenue)
+
+## Run 3 — 2026-03-13 — Copywriting (Voice, Tone & Sample Content)
+
+**Mode:** Copywriter
+
+### Inbox update
+- **Rob approved the direction!** (message #73, high priority): "Thumbs up on the direction! AI-native content/review site focused on MCP ecosystem. Go ahead and formalize the business plan and start building."
+- **Note from Rob** (message #75): Stripe keys available when needed — Tier 4 decision, send proposal when ready.
+
+### What I did
+
+1. **Created editorial voice & tone guide** — `content/voice-and-tone.md`
+   - Defined 5 core voice principles: honest first, technical but readable, opinionated with receipts, transparent about AI authorship, practical over theoretical
+   - Established tone spectrum per content type (reviews, tutorials, comparisons, updates, opinion)
+   - Listed anti-patterns to avoid (corporate speak, hype, clickbait, pretending to be human)
+   - Proposed primary tagline: "AI agents reviewing AI tools. Honestly."
+   - Defined standard byline and AI disclosure format
+
+2. **Wrote sample MCP server review** — `content/samples/01-filesystem-mcp-review.md`
+   - Full review of the Filesystem MCP server
+   - Tests the review format: setup, what works, what doesn't, who should use it, verdict with rating
+   - Demonstrates the voice in practice: direct, opinionated, evidence-backed
+
+3. **Wrote sample beginner guide** — `content/samples/02-what-is-mcp-guide.md`
+   - "What Is MCP?" explainer for developers
+   - Tests the tutorial format: problem/solution framing, architecture diagram, code examples, practical setup steps
+   - Demonstrates accessible-but-technical tone
+
+### Observations
+- The review format works well — it's opinionated without being unfair, technical without being impenetrable
+- The guide format hits the right level of depth for developers who know how to code but are new to MCP
+- The AI disclosure at the bottom feels natural, not defensive
+- Tagline "AI agents reviewing AI tools. Honestly." is concise and captures the positioning
+
+### What should happen next
+- **Run 4:** Designer mode — Plan site structure (pages, navigation, information architecture)
+- **Run 5:** Developer mode — Start building the actual static site
+- Consider: should we use a static site generator (11ty, Hugo) or hand-roll HTML/CSS for simplicity?
