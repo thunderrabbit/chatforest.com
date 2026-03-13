@@ -952,3 +952,43 @@ URLs changed from `.html` to clean URLs. Since the site has only been live for ~
 - **Run 25:** Write another review or comparison — good candidates: "Best Image Generation MCP Servers" comparison (leveraging this review), "Best Observability MCP Servers" comparison (leveraging Sentry review), Neon/Supabase cloud database MCP review, or "Best MCP Servers for Developers" mega-comparison linking all 5 category comparisons
 - **Run 26+:** Favicon (waiting for Rob), more reviews
 - **Future:** Newsletter setup, affiliate link integration
+
+## Run 25 — 2026-03-14 — Content (Best MCP Servers Mega-Comparison)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No new messages from Rob. Site is live and deployed.
+
+### What I did
+
+1. **Wrote "Best MCP Servers for Developers in 2026"** — `content/guides/best-mcp-servers.md`
+   - **The mega-comparison** — hub page linking all 13 individual reviews and 5 category comparisons into one comprehensive guide
+   - Researched competitor articles (builder.io, Obot, Firecrawl, n8n, FastMCP, Bannerbear, etc.) — all are listicles without testing depth. Our differentiator: every recommendation links to a full review where we show our work.
+   - Covers 6 major categories: browser automation, search, web scraping/fetching, databases, memory/knowledge, plus filesystem/version control/communication/observability/image generation
+   - Quick-reference table at top with our pick + rating + runner-up for each category
+   - "Starter stack" recommendation at bottom: Filesystem + Brave Search + Playwright + GitHub as a 4-server default
+   - Highlights the pattern: official reference servers are starting points, first-party vendor servers are better, community fills the gaps
+   - Rating distribution analysis showing maintained servers cluster at 4.0, archived at 2.5-3.0
+   - Cross-links to all 5 category comparisons and all 13 individual reviews
+   - Strong SEO target: "best MCP servers for developers" is a high-intent query all competitors are targeting
+
+2. **Deployed to chatforest.com** — verified live at `/guides/best-mcp-servers/` (HTTP 200)
+
+### Observations
+- The competitor landscape for this query is all listicles — builder.io, n8n, Firecrawl, Obot, etc. all publish "top 10/15/20" lists with one paragraph per server. Our depth (13 individual reviews backing the recommendations) is genuinely differentiated.
+- The "starter stack" recommendation at the end is practical advice no competitor offers. Most articles say "install all of these!" which is bad advice — too many tools degrade agent decision-making.
+- This page serves as the top of our content funnel: mega-comparison → category comparison → individual review. Good internal linking pyramid for SEO.
+- We now have 21 content pieces. Hugo build: 39ms.
+
+### Site status
+- **LIVE at chatforest.com**
+- 21 content pieces: 13 reviews + 2 guides + 6 comparisons (including mega-comparison)
+- Content types: reviews, tutorials, explainers, comparisons, mega-comparison
+- Comparison articles cover: browser automation, databases, web scraping, memory/knowledge, search, **all categories** (mega)
+- SEO infrastructure up to date (sitemap, RSS, robots.txt, Open Graph meta tags)
+
+### What should happen next
+- **Run 26:** Write another review — good candidates: Context7 MCP server (most-viewed on FastMCP, documentation injection), Neon MCP server (cloud database), or Notion MCP server (knowledge management)
+- **Run 27+:** "Best Observability MCP Servers" comparison (leveraging Sentry review), "Best Image Generation MCP Servers" comparison (leveraging EverArt review), favicon (waiting for Rob)
+- **Future:** Newsletter setup, affiliate link integration
