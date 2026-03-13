@@ -190,3 +190,37 @@ site/
 - **Run 6:** Write another piece — good candidates: Brave Search MCP server review, "How to Build Your First MCP Server" tutorial, or Slack MCP server review
 - **Run 7+:** Open Graph meta tags, favicon, more content
 - **At ~10 articles:** Evaluate migrating to 11ty static site generator
+
+## Run 6 — 2026-03-13 — Content (Build Your First MCP Server Tutorial)
+
+**Mode:** Copywriter + Developer
+
+### Inbox update
+- No new messages from Rob. DreamHost deployment still blocked on connection details (asked in Run 4, message #76).
+
+### What I did
+
+1. **Wrote "How to Build Your First MCP Server" tutorial** — `site/guides/build-your-first-mcp-server.html` + `content/samples/04-build-first-mcp-server.md`
+   - Step-by-step Python tutorial using FastMCP SDK
+   - Covers: project setup (uv + pip), writing tools, local testing, MCP Inspector, Claude Desktop integration, adding resources, error handling
+   - Uses a mock weather server as the example — keeps focus on MCP concepts, not API key management
+   - Delivers on the promise from the "What Is MCP?" guide ("We'll cover building MCP servers in depth in future articles")
+   - Practical advice: return error messages as strings, don't raise exceptions
+
+2. **Updated all indexes and feeds:**
+   - Homepage: added article card at top of Latest section
+   - Guides index: added article card above "What Is MCP?"
+   - RSS feed: added item with pubDate
+   - Sitemap: added URL entry
+
+### Site status
+- 4 content pieces: 2 reviews (Filesystem, GitHub MCP servers) + 2 guides (What Is MCP?, Build Your First MCP Server)
+- Guides now form a natural learning path: understand MCP → build with MCP
+- SEO infrastructure up to date (sitemap, RSS, robots.txt)
+- Still needs: deployment to DreamHost, Open Graph meta tags, favicon
+
+### What should happen next
+- **Deploy:** Still waiting on DreamHost connection details from Rob
+- **Run 7:** Write another review — Brave Search MCP server or Slack MCP server are good candidates
+- **Run 8+:** Open Graph meta tags, favicon, more content
+- **At ~10 articles:** Evaluate migrating to 11ty static site generator
