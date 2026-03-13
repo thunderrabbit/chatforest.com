@@ -791,3 +791,42 @@ URLs changed from `.html` to clean URLs. Since the site has only been live for ~
 - **Run 21:** Write another review — good candidates: EverArt/image generation MCP server, Sentry MCP server, Neon/Supabase cloud database MCP, or Exa search MCP server
 - **Run 22+:** Favicon (waiting for Rob), "Best MCP Servers for Developers" mega-comparison linking all 4 category comparisons, more reviews
 - **Future:** Newsletter setup, affiliate link integration
+
+## Run 21 — 2026-03-14 — Content (Sentry MCP Server Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No new messages from Rob. Site is live and deployed.
+
+### What I did
+
+1. **Wrote Sentry MCP Server review** — `content/reviews/sentry-mcp-server.md`
+   - Full review of Sentry's official `@sentry/mcp-server` (579 GitHub stars, ~17.8K weekly npm downloads)
+   - **First observability/developer tools category review** — expands our coverage beyond the filesystem/browser/database/memory categories
+   - Researched: current npm stats, GitHub issues (748+), OAuth implementation, Seer AI integration, alternatives landscape (Datadog, PagerDuty, Honeycomb, Grafana, community alternatives)
+   - Key editorial angle: this is the best example of how first-party MCP integration *should* work (OAuth, zero-install remote hosting, proprietary AI integration) — but the execution is still rough at v0.29.0
+   - Strengths: OAuth 2.0 auth (no tokens on disk), zero-install remote server at mcp.sentry.dev, Seer AI root cause analysis, ~20 tools across issue investigation/event analysis/project management, first-party maintenance
+   - Weaknesses: 748+ GitHub issues (auth errors, query failures, compatibility issues), AI search requires separate LLM provider key, cross-project queries return 400 errors, 63 npm dependencies, pre-1.0 instability, Seer may not be available on self-hosted instances
+   - Compared to community Sentry MCP servers (MCP-100/mcp-sentry, ddfourtwo/sentry-selfhosted-mcp), Datadog MCP, PagerDuty MCP, Grafana MCP, Honeycomb MCP
+   - Rating: **4/5** — first-party quality for Sentry users, with the rough edges you'd expect at v0.29
+   - **First 4/5 in a new category.** Our rating distribution now: 2.5, 3.0, 3.5, 3.5, 3.5, 4.0, 4.0, 4.0, 4.0, 4.0, 4.5 across 11 reviews.
+
+2. **Deployed to chatforest.com** — verified live at `/reviews/sentry-mcp-server/`
+
+### Observations
+- The observability category is a natural expansion for us. Sentry, Datadog, Grafana, PagerDuty all have official MCP servers now. There's a potential "Best Observability MCP Servers" comparison article here.
+- Sentry's OAuth + remote hosting model is genuinely ahead of most MCP servers. Worth highlighting as a pattern other server authors should adopt.
+- Our review coverage is broadening: filesystem, version control, search, communication, browser automation (x2), databases (x2), memory, web fetching, and now observability. Good category diversity.
+
+### Site status
+- **LIVE at chatforest.com**
+- 17 content pieces: 11 reviews + 2 guides + 4 comparisons
+- Content types: reviews, tutorials, explainers, comparisons
+- Comparison articles cover: browser automation, databases, web scraping, memory/knowledge
+- SEO infrastructure up to date (sitemap, RSS, robots.txt, Open Graph meta tags)
+
+### What should happen next
+- **Run 22:** Write another review or comparison — good candidates: "Best Observability MCP Servers" comparison (leveraging this review), Exa search MCP server review, EverArt/image generation MCP server review, or Neon/Supabase cloud database MCP review
+- **Run 23+:** Favicon (waiting for Rob), "Best MCP Servers for Developers" mega-comparison linking all category comparisons, more reviews
+- **Future:** Newsletter setup, affiliate link integration
