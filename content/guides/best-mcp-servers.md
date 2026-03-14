@@ -1,7 +1,7 @@
 ---
 title: "Best MCP Servers for Developers in 2026"
 date: 2026-03-14T02:52:53+09:00
-description: "We've reviewed 34 MCP servers and compared 40+ across 11 categories. Here are the ones worth installing — and the ones to avoid."
+description: "We've reviewed 35 MCP servers and compared 40+ across 11 categories. Here are the ones worth installing — and the ones to avoid."
 og_description: "We've tested 33 MCP servers and compared 40+ across 11 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
 content_type: "Comparison"
 card_description: "We've reviewed 28 MCP servers across 11 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
@@ -9,7 +9,7 @@ card_description: "We've reviewed 28 MCP servers across 11 categories. Here are 
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [34 in-depth reviews](/reviews/) and [11 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [35 in-depth reviews](/reviews/) and [11 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -30,7 +30,8 @@ If you want to skip the details:
 | Database (SQLite) | jparkerweb/mcp-sqlite | — | [Official SQLite](/reviews/sqlite-mcp-server/) (3/5, archived) |
 | Memory | Zep | — | [Official Memory](/reviews/memory-mcp-server/) (3.5/5, small use cases) |
 | Filesystem | [Official Filesystem](/reviews/filesystem-mcp-server/) | 4/5 | — |
-| Version control | [GitHub MCP](/reviews/github-mcp-server/) | 4/5 | — |
+| Version control (GitHub) | [GitHub MCP](/reviews/github-mcp-server/) | 4/5 | — |
+| Version control (local git) | [Git MCP](/reviews/git-mcp-server/) | 3/5 | cyanheads/git-mcp-server (28 tools) |
 | Communication | [Slack MCP](/reviews/slack-mcp-server/) | 4/5 | — |
 | Observability | [Sentry MCP](/reviews/sentry-mcp-server/) | 4/5 | Datadog MCP |
 | Image generation | Multi-provider servers | — | Not [EverArt](/reviews/everart-mcp-server/) (2.5/5) |
@@ -177,6 +178,8 @@ These categories each have a clear default choice:
 **[Filesystem MCP](/reviews/filesystem-mcp-server/) (4/5)** — Anthropic's reference server. Read, write, search, and manage files within configurable directory boundaries. Does what it says, does it well. The `allowed_directories` config is a simple but effective safety mechanism.
 
 **[GitHub MCP](/reviews/github-mcp-server/) (4/5)** — GitHub's official server. PR workflows, Actions integration, issue management, code search. Setup friction is real (Docker, token scoping), but once configured it's powerful. The remote GHES installation option (`npx -y @anthropic-ai/github-mcp-server@latest`) is the easiest path.
+
+**[Git MCP](/reviews/git-mcp-server/) (3/5)** — Anthropic's reference server for local git operations. 12 tools covering status, diff, staging, commit, and branching. Complements the GitHub server — Git handles local repo work, GitHub handles remote collaboration. The critical gap: no push, pull, or merge operations, so agents can't close the loop without help. If you need a complete local git workflow, the community [cyanheads/git-mcp-server](https://github.com/cyanheads/git-mcp-server) (28 tools) covers push, pull, merge, rebase, stash, tag, and blame.
 
 **[Slack MCP](/reviews/slack-mcp-server/) (4/5)** — Slack's official server (launched Feb 2026). Hosted architecture at mcp.slack.com, OAuth scopes, granular privacy controls. The right way to give agents Slack access — no bot tokens on disk, admin oversight built in.
 
@@ -325,13 +328,13 @@ The fastest-growing MCP server category. Every major DevOps platform now ships a
 
 ## Beyond the original list
 
-We've reviewed every MCP server on our original list — and we're now expanding to new servers. Recent additions: [MongoDB MCP](/reviews/mongodb-mcp-server/) (4/5) for the most comprehensive database MCP integration (37+ tools with Atlas management and performance advisors), [Sequential Thinking MCP](/reviews/sequential-thinking-mcp-server/) (3/5) for structured step-by-step reasoning (increasingly redundant with built-in model capabilities), [Perplexity MCP](/reviews/perplexity-mcp-server/) (4/5) for answer-engine search with deep research and reasoning, [Milvus MCP](/reviews/milvus-mcp-server/) (3.5/5) for hybrid search on the most popular open-source vector database, [Crawl4AI MCP](/reviews/crawl4ai-mcp-server/) (3.5/5) for free open-source crawling with best-in-class markdown extraction, [Tavily MCP](/reviews/tavily-mcp-server/) (4/5) for search + extraction + crawling in one server, [Browserbase MCP](/reviews/browserbase-mcp-server/) (3.5/5) for cloud browser automation with AI-native targeting, [Firecrawl MCP](/reviews/firecrawl-mcp-server/) (4/5) for production web scraping with autonomous research, [Todoist MCP](/reviews/todoist-mcp-server/) (4/5) for task management with MCP Apps, [Pinecone MCP](/reviews/pinecone-mcp-server/) (3/5) for cloud vector search with reranking, [Qdrant MCP](/reviews/qdrant-mcp-server/) (3/5) for semantic memory, [Chroma MCP](/reviews/chroma-mcp-server/) (3.5/5) for vector databases, [Linear MCP](/reviews/linear-mcp-server/) (4/5) for project management, [Stripe MCP](/reviews/stripe-mcp-server/) (4/5) for payment operations, and [Cloudflare MCP](/reviews/cloudflare-mcp-server/) (4.5/5), the most innovative MCP server architecture we've seen. Subscribe to our [RSS feed](/feed.xml) to get notified when we add new reviews.
+We've reviewed every MCP server on our original list — and we're now expanding to new servers. Recent additions: [MongoDB MCP](/reviews/mongodb-mcp-server/) (4/5) for the most comprehensive database MCP integration (37+ tools with Atlas management and performance advisors), [Sequential Thinking MCP](/reviews/sequential-thinking-mcp-server/) (3/5) for structured step-by-step reasoning (increasingly redundant with built-in model capabilities), [Perplexity MCP](/reviews/perplexity-mcp-server/) (4/5) for answer-engine search with deep research and reasoning, [Milvus MCP](/reviews/milvus-mcp-server/) (3.5/5) for hybrid search on the most popular open-source vector database, [Crawl4AI MCP](/reviews/crawl4ai-mcp-server/) (3.5/5) for free open-source crawling with best-in-class markdown extraction, [Tavily MCP](/reviews/tavily-mcp-server/) (4/5) for search + extraction + crawling in one server, [Browserbase MCP](/reviews/browserbase-mcp-server/) (3.5/5) for cloud browser automation with AI-native targeting, [Firecrawl MCP](/reviews/firecrawl-mcp-server/) (4/5) for production web scraping with autonomous research, [Todoist MCP](/reviews/todoist-mcp-server/) (4/5) for task management with MCP Apps, [Pinecone MCP](/reviews/pinecone-mcp-server/) (3/5) for cloud vector search with reranking, [Qdrant MCP](/reviews/qdrant-mcp-server/) (3/5) for semantic memory, [Chroma MCP](/reviews/chroma-mcp-server/) (3.5/5) for vector databases, [Linear MCP](/reviews/linear-mcp-server/) (4/5) for project management, [Stripe MCP](/reviews/stripe-mcp-server/) (4/5) for payment operations, [Cloudflare MCP](/reviews/cloudflare-mcp-server/) (4.5/5), the most innovative MCP server architecture we've seen, and [Git MCP](/reviews/git-mcp-server/) (3/5) for local git operations (solid but missing push/pull/merge). Subscribe to our [RSS feed](/feed.xml) to get notified when we add new reviews.
 
 ---
 
 ## The pattern: official servers as starting points
 
-After reviewing 34 MCP servers, a clear pattern has emerged:
+After reviewing 35 MCP servers, a clear pattern has emerged:
 
 **Anthropic's reference implementations are starting points, not destinations.** The official Filesystem and GitHub servers are solid (4/5 each). But the official database servers are archived with security issues (2.5-3/5), the official Memory server doesn't scale (3.5/5), the official Fetch server has an SSRF gap (3.5/5), and the official EverArt server is minimal and archived (2.5/5).
 
@@ -346,7 +349,7 @@ Our rating distribution tells the story:
 | 4.5/5 | 2 | Playwright, Cloudflare |
 | 4.0/5 | 15 | Filesystem, GitHub, Brave Search, Slack, Sentry, Exa, Neon, Supabase, Stripe, Linear, Todoist, Firecrawl, Tavily, Perplexity, MongoDB |
 | 3.5/5 | 11 | Context7, Puppeteer, Memory, Fetch, Notion, Vercel, Figma Dev Mode, Chroma, Browserbase, Crawl4AI, Milvus |
-| 3.0/5 | 4 | SQLite, Sequential Thinking, Qdrant, Pinecone |
+| 3.0/5 | 5 | SQLite, Sequential Thinking, Qdrant, Pinecone, Git |
 | 2.5/5 | 2 | PostgreSQL, EverArt |
 
 The actively maintained servers cluster at 4.0. The archived ones cluster at 2.5-3.0. Maintenance matters more than feature count.
