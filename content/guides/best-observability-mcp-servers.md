@@ -11,14 +11,14 @@ Every major observability platform now has an official MCP server. That happened
 
 This matters because observability is where AI agents add the most obvious value. Debugging production errors, correlating metrics with deploys, querying logs in natural language — these are tasks where context switching between your IDE and a dashboard wastes real time. An MCP server that puts your observability data inside your agent's context eliminates that round-trip.
 
-We've reviewed the [Sentry MCP server](/reviews/sentry-mcp-server/) (4/5) and the [Grafana MCP server](/reviews/grafana-mcp-server/) (4/5). Here's how the full observability landscape compares, and which ones are worth integrating.
+We've reviewed the [Sentry MCP server](/reviews/sentry-mcp-server/) (4/5), the [Grafana MCP server](/reviews/grafana-mcp-server/) (4/5), and the [Datadog MCP server](/reviews/datadog-mcp-server/) (4/5). Here's how the full observability landscape compares, and which ones are worth integrating.
 
 ## The Contenders
 
 | Server | Type | Stars | Transport | Auth Model | Tools | Free Tier | Best For |
 |--------|------|-------|-----------|------------|-------|-----------|----------|
 | [Sentry](/reviews/sentry-mcp-server/) | Error tracking | 579 | Remote (SSE) | OAuth 2.0 | ~20 | Yes (10K events/mo) | Debugging production errors |
-| Datadog | Full-stack APM | 240+ | Remote (SSE) | API key | 50+ | Yes (limited) | Enterprise full-stack observability |
+| [Datadog](/reviews/datadog-mcp-server/) | Full-stack APM | 7 (hosted) | Remote (HTTP) | OAuth / API key | 50+ | No (14-day trial) | Enterprise full-stack observability |
 | [Grafana](/reviews/grafana-mcp-server/) | Dashboards + LGTM | 2,500 | stdio + SSE + HTTP | API token | 40+ | Yes (Grafana Cloud free) | Metrics/logs/traces visualization |
 | New Relic | Full-stack APM | 70+ | Remote (SSE) | API key | 35 | Yes (100GB/mo) | Natural language observability queries |
 | Honeycomb | Event-based observability | 170+ | Remote (hosted) | API key | 15+ | Yes (20M events/mo) | High-cardinality event analysis |
@@ -66,17 +66,19 @@ The ~20 tools cover issue investigation, event analysis, natural language search
 
 ### Datadog MCP — The Enterprise Swiss Army Knife
 
-**[Datadog MCP Server](https://docs.datadoghq.com/bits_ai/mcp_server/)** | Official, GA
+**[Datadog MCP Server](https://docs.datadoghq.com/bits_ai/mcp_server/)** | [Our full review](/reviews/datadog-mcp-server/) | Rating: 4/5
 
-Datadog's MCP server is the most feature-rich observability integration in the MCP ecosystem. It's built around **toolsets** — modular capability groups you can enable or disable to save context window space. Available toolsets: core, alerting, APM, database monitoring, error tracking, feature flags, LLM observability, product analytics, and synthetics.
+Datadog's MCP server is the most feature-rich observability integration in the MCP ecosystem. It's built around **toolsets** — modular capability groups you enable or disable via URL parameters to save context window space. Available toolsets: core (logs, metrics, traces, dashboards, monitors, incidents, hosts, services, events, notebooks), alerting, APM, database monitoring, error tracking, feature flags, LLM observability, product analytics, networks, security, software delivery, and synthetics.
 
-This is the only MCP server that covers LLM observability (monitoring your AI agents' performance), feature flag management, and synthetic testing alongside traditional APM. For teams already on Datadog, this puts an enormous amount of operational context at your agent's fingertips.
+This is the only MCP server that covers LLM observability (monitoring your AI agents' performance), feature flag management, database monitoring, and synthetic testing alongside traditional APM. For teams already on Datadog, this puts an enormous amount of operational context at your agent's fingertips.
 
-The server connects via Streamable HTTP and works with Claude Code, Cursor, OpenAI Codex, GitHub Copilot, VS Code, and more. Auth uses Datadog API and application keys.
+The agent-native design is what sets it apart from API wrappers. Token-budget pagination prevents huge logs from consuming the context window. CSV output uses 50% fewer tokens than JSON for tabular data. SQL-like log queries (`SELECT service, COUNT(*) FROM logs WHERE status='error' GROUP BY service`) achieve 40% cost reduction compared to raw retrieval. Error messages include suggestions ("unknown field 'stauts' — did you mean 'status'?").
 
-**Strengths:** Broadest tool coverage (50+ tools across 9 toolsets), modular toolsets for context window management, LLM observability (unique), enterprise-ready, GA status.
+The server connects via Streamable HTTP to managed regional endpoints (US1, US3, EU1, AP1/AP2) — zero install required. Auth supports OAuth 2.0 for interactive flows and API key + application key headers for headless setups. Works with Claude Code, Cursor, OpenAI Codex, GitHub Copilot, VS Code, Goose, Cognition, and Kiro.
 
-**Weaknesses:** API key auth (not OAuth), Datadog's pricing is notoriously complex, requires existing Datadog investment, no community/free alternative that covers the same breadth.
+**Strengths:** Broadest tool coverage (50+ tools across 10+ toolsets), agent-native design (token-budget pagination, CSV formatting, SQL-like queries), modular toolsets via URL parameters, LLM observability (unique), zero-install remote hosting with regional endpoints, RBAC-aware security with HIPAA support, enterprise-ready, GA status.
+
+**Weaknesses:** API key auth by default (OAuth available but not primary), Datadog's pricing is notoriously complex (no permanent free tier), closed-source (can't audit or self-host), `/api/unstable/` path despite GA status, not GovCloud compatible, incident timeline data missing, community server ([winor30/mcp-server-datadog](https://github.com/winor30/mcp-server-datadog), 139 stars) covers gaps the official server doesn't (host muting, downtimes, RUM).
 
 **Best for:** Enterprise teams already on Datadog who want comprehensive operational context in their coding agents.
 
@@ -155,8 +157,8 @@ The ~20 tools cover incidents, services, schedules, event orchestrations, and te
 | Infrastructure | No | Deep | Via data source | Yes | No | No |
 | Incident mgmt | No | Alerting | Alerting | Alerting | Triggers | Deep |
 | AI analysis | Seer (proprietary) | Bits AI | No | NRQL translation | Natural language | No |
-| Auth model | OAuth 2.0 | API key | API token | API key | API key | OAuth 2.0 |
-| Transport | Remote (SSE) | Remote | stdio + SSE + HTTP | Remote | Remote (hosted) | Both |
+| Auth model | OAuth 2.0 | OAuth / API key | API token | API key | API key | OAuth 2.0 |
+| Transport | Remote (SSE) | Remote (HTTP) | stdio + SSE + HTTP | Remote | Remote (hosted) | Both |
 | Open source | Yes | No | Yes | Yes | Yes | Yes |
 | Status | Pre-1.0 | GA | Active | Public Preview | Active | Active |
 
@@ -168,7 +170,7 @@ The ~20 tools cover incidents, services, schedules, event orchestrations, and te
 
 **"I debug production errors daily"** → [Sentry MCP](/reviews/sentry-mcp-server/) (4/5). Deepest error investigation tools, OAuth auth, Seer AI analysis. Pair with PagerDuty if you're on-call.
 
-**"I need the full picture — metrics, traces, logs, everything"** → **Datadog MCP** if you can afford it (broadest toolset, 9 toolsets, GA). **New Relic MCP** if you want a generous free tier and natural language querying.
+**"I need the full picture — metrics, traces, logs, everything"** → **[Datadog MCP](/reviews/datadog-mcp-server/) (4/5)** if you can afford it (broadest toolset, 10+ toolsets, GA, agent-native design). **New Relic MCP** if you want a generous free tier and natural language querying.
 
 **"I run my own observability stack"** → **[Grafana MCP](/reviews/grafana-mcp-server/) (4/5)**. The only server that works with any backend data source. Open source, self-hostable, configurable tool categories, full incident pipeline.
 
@@ -193,6 +195,6 @@ Observability is the most "first-party" category in the MCP ecosystem. Every maj
 
 This makes sense: observability data is exactly the kind of context that makes AI agents more useful. Telling your agent "here's the error, here's the metrics, here's who's on-call" is better than alt-tabbing between six dashboards. The platforms know this, and they're racing to be the ones feeding that context.
 
-The trend we're watching: **Datadog and Sentry lead on auth model innovation** (Sentry with OAuth 2.0, Datadog with modular toolsets). If other categories adopt these patterns, MCP servers become dramatically easier to set up and more efficient to use.
+The trend we're watching: **Datadog and Sentry lead on design innovation** — Sentry with OAuth 2.0 auth, [Datadog](/reviews/datadog-mcp-server/) (4/5) with agent-native tool design (token-budget pagination, CSV formatting, SQL-like queries, modular toolsets). If other categories adopt these patterns, MCP servers become dramatically easier to set up and more efficient to use.
 
 For more on each category, see our full [comparison guides](/guides/): [browser automation](/guides/best-browser-automation-mcp-servers/), [databases](/guides/best-database-mcp-servers/), [web scraping](/guides/best-web-scraping-mcp-servers/), [memory](/guides/best-memory-mcp-servers/), [search](/guides/best-search-mcp-servers/), [documentation](/guides/best-documentation-mcp-servers/), [productivity](/guides/best-productivity-mcp-servers/), and [DevOps & infrastructure](/guides/best-devops-mcp-servers/).
