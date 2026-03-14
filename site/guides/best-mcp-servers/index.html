@@ -45,7 +45,7 @@
 
       <div class="article-body">
         <p>Most &ldquo;best MCP servers&rdquo; lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don&rsquo;t tell you if it&rsquo;s good.</p>
-<p>We&rsquo;ve spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We&rsquo;ve published <a href="/reviews/">51 in-depth reviews</a> and <a href="/guides/">12 category comparisons</a> so far. This guide distills all of that into one page.</p>
+<p>We&rsquo;ve spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We&rsquo;ve published <a href="/reviews/">51 in-depth reviews</a> and <a href="/guides/">13 category comparisons</a> so far. This guide distills all of that into one page.</p>
 <p><strong>What makes this different:</strong> every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.</p>
 <h2 id="the-short-version">The short version</h2>
 <p>If you want to skip the details:</p>
@@ -151,9 +151,9 @@
 </tr>
 <tr>
 <td>Image generation</td>
-<td>Multi-provider servers</td>
+<td>Use-case dependent</td>
 <td>—</td>
-<td>Not <a href="/reviews/everart-mcp-server/">EverArt</a> (2.5/5)</td>
+<td>Not <a href="/reviews/everart-mcp-server/">EverArt</a> (2.5/5). <a href="/guides/best-image-generation-mcp-servers/">Full comparison →</a></td>
 </tr>
 <tr>
 <td>Documentation</td>
@@ -323,15 +323,17 @@
 <p><strong>Full comparison:</strong> <a href="/guides/best-observability-mcp-servers/">Best Observability MCP Servers in 2026</a></p>
 <hr>
 <h2 id="image-generation">Image generation</h2>
-<p>The most fragmented category we&rsquo;ve covered. There&rsquo;s no single dominant server.</p>
-<p>The <a href="/reviews/everart-mcp-server/">official EverArt server</a> (2.5/5) is archived and requires a $15/month paid API — the only reference server with a paid requirement. It was a proof of concept that served its purpose.</p>
-<p><strong>Better options:</strong></p>
+<p>The most fragmented category we&rsquo;ve covered — 20+ servers, no dominant player, no working official server. The <a href="/reviews/everart-mcp-server/">EverArt reference server</a> (2.5/5) was archived in May 2025. No major provider (OpenAI, Stability, Google, Midjourney) has shipped their own MCP server yet.</p>
+<p>Four approaches have emerged: single-provider API wrappers (OpenAI, Stability, Gemini, Replicate), multi-provider aggregators (merlinrabens with 10 providers, PiAPI for Midjourney access), local inference bridges (ComfyUI at 222 stars — the most popular server in the category), and free no-auth options (MCPollinations, HuggingFace Spaces bridge).</p>
+<p><strong>Top picks by use case:</strong></p>
 <ul>
-<li><strong>merlinrabens/image-gen-mcp-server</strong> — multi-provider (OpenAI, Stability AI, Replicate). Pick the best model for each job.</li>
-<li><strong>FAL.ai MCP servers</strong> — 600+ models, serverless inference. The broadest model selection.</li>
-<li><strong>spartanz51/imagegen-mcp</strong> — OpenAI-focused with editing capabilities (inpainting, variations), not just generation.</li>
+<li><strong>Best quality:</strong> SureScaleAI/openai-gpt-image-mcp (97 stars) — OpenAI gpt-image-1, best prompt adherence</li>
+<li><strong>Best editing:</strong> tadasant/mcp-server-stability-ai (81 stars) — background removal, recoloring, outpainting, search-and-replace</li>
+<li><strong>Most models:</strong> raveenb/fal-mcp-server (38 stars) — 600+ models on FAL.ai</li>
+<li><strong>Free, local:</strong> joenorton/comfyui-mcp-server (222 stars) — any model, no API costs</li>
+<li><strong>Zero friction:</strong> pinkpixel-dev/MCPollinations (39 stars) — free, no auth, no signup</li>
 </ul>
-<p>This space is moving fast. A dedicated comparison article is coming.</p>
+<p>See our full <a href="/guides/best-image-generation-mcp-servers/">image generation MCP server comparison</a> for all 20+ servers across four architectural approaches — including a decision flowchart.</p>
 <hr>
 <h2 id="documentation--code-context">Documentation &amp; code context</h2>
 <p><strong>Winner: <a href="/reviews/context7-mcp-server/">Context7</a> (3.5/5)</strong> — the most popular MCP server of 2026 with 48,900 GitHub stars.</p>

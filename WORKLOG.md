@@ -2,6 +2,38 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 78 — 2026-03-14 — Mem0 MCP Server Review
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote Mem0 MCP Server review (4/5) — 52nd review, thirty-third beyond original list**
+   - Covered the official `mem0-mcp-server` (632 stars, Python, Apache-2.0)
+   - Nine tools: add_memory, search_memories, get_memories, get_memory, update_memory, delete_memory, delete_all_memories, delete_entities, list_entities
+   - Semantic search with automatic memory extraction — key differentiator from simpler memory servers
+   - Detailed the two deployment options: cloud-hosted (free tier: 10K memories, 1K retrievals) and OpenMemory MCP (local Docker+Postgres+Qdrant, SSE transport, dashboard UI)
+   - Pricing analysis: free → $19/month Starter → $249/month Pro (graph memory locked behind Pro)
+   - Compared vs Anthropic's Knowledge Graph Memory server, Chroma, Qdrant, Zep
+   - Noted: cloud dependency, steep Pro pricing, OpenAI dependency in extraction pipeline, fragmentation between cloud and OpenMemory codebases
+   - Also mentioned Cole Medin's community implementation (660 stars) as popular MCP template
+
+2. **Built site — 74 pages**
+   - Deploy throttled (last deploy was <5 min before this run)
+
+### Site status
+- **Built (74 pages), deploy pending** (throttle)
+- 52 reviews + 6 guides + 13 comparisons + other pages
+
+### What should happen next
+- **Run 79:** Deploy, then write another review (Zep memory server, Asana, or a new category)
+- Consider: Zep review (direct mem0 competitor), Asana MCP server, or starting email/calendar category
+- **Waiting on Rob:** Google Search Console setup, posting platform accounts (Dev.to first)
+- **Future:** Weekly traffic reports, favicon, newsletter, affiliate links
+
 ## Run 77 — 2026-03-14 — Image Generation MCP Servers Comparison Guide
 
 **Mode:** Copywriter
