@@ -11,7 +11,7 @@ DevOps is where MCP servers get serious. These aren't read-only tools querying d
 
 That risk is also why DevOps MCP servers add the most value. Infrastructure management involves remembering exact CLI flags, translating between YAML dialects, and context-switching between cloud consoles. An AI agent with direct access to your infrastructure APIs can handle the tedious parts while you focus on architecture decisions.
 
-The category has matured fast. Docker, HashiCorp, AWS, Microsoft, Cloudflare, and the Kubernetes community all ship official MCP servers now. We've [reviewed the GitHub MCP server](/reviews/github-mcp-server/) (4.5/5), [Cloudflare MCP server](/reviews/cloudflare-mcp-server/) (4.5/5), [Docker MCP server](/reviews/docker-mcp-server/) (3.5/5), [AWS MCP servers](/reviews/aws-mcp-servers/) (4/5), and [Kubernetes MCP server](/reviews/kubernetes-mcp-server/) (4/5). Here's how the rest of the DevOps landscape compares.
+The category has matured fast. Docker, HashiCorp, AWS, Microsoft, Cloudflare, and the Kubernetes community all ship official MCP servers now. We've [reviewed the GitHub MCP server](/reviews/github-mcp-server/) (4.5/5), [Cloudflare MCP server](/reviews/cloudflare-mcp-server/) (4.5/5), [Docker MCP server](/reviews/docker-mcp-server/) (3.5/5), [AWS MCP servers](/reviews/aws-mcp-servers/) (4/5), [Kubernetes MCP server](/reviews/kubernetes-mcp-server/) (4/5), and [Terraform MCP server](/reviews/terraform-mcp-server/) (4/5). Here's how the rest of the DevOps landscape compares.
 
 ## The Contenders
 
@@ -20,7 +20,7 @@ The category has matured fast. Docker, HashiCorp, AWS, Microsoft, Cloudflare, an
 | [Cloudflare MCP](/reviews/cloudflare-mcp-server/) | Cloud infra | Cloudflare (official) | Remote (Streamable HTTP) | OAuth / API token | 2 (Code Mode) + 16 servers | Yes (Workers free) | Cloudflare platform management |
 | Docker MCP | Containers | Docker (official) | Local (Desktop) | Docker Desktop | Catalog (300+) | Yes (Desktop) | Container management + MCP server discovery |
 | [Kubernetes MCP](/reviews/kubernetes-mcp-server/) | Cluster mgmt | Red Hat / Community | stdio, SSE, HTTP | kubeconfig | 15+ (6 toolsets) | Yes (any cluster) | Kubernetes operations |
-| Terraform MCP | IaC | HashiCorp (official) | Both (stdio + HTTP) | HCP token | 15+ | Yes (registry) | Infrastructure as code |
+| [Terraform MCP](/reviews/terraform-mcp-server/) | IaC | HashiCorp (official) | Both (stdio + HTTP) | HCP token | 35+ | Yes (registry) | Infrastructure as code |
 | [AWS MCP](/reviews/aws-mcp-servers/) | Cloud infra | AWS Labs (official) | Local (stdio) + Remote (Knowledge, preview) | AWS credentials | 66 servers | Yes (free tier) | AWS resource management |
 | Azure DevOps MCP | DevOps platform | Microsoft (official) | Local + Remote (planned) | OAuth / PAT | 30+ | Yes (5 users) | Azure DevOps workflows |
 
@@ -84,19 +84,21 @@ The safety model is the strongest in the Kubernetes MCP space: `--read-only` pre
 
 ### Terraform MCP — Infrastructure as Code Intelligence
 
-**[hashicorp/terraform-mcp-server](https://github.com/hashicorp/terraform-mcp-server)** | Official, Beta
+**[hashicorp/terraform-mcp-server](https://github.com/hashicorp/terraform-mcp-server)** | Official, Beta | **[Full review](/reviews/terraform-mcp-server/) (4/5)**
 
-HashiCorp's Terraform MCP server is focused on making AI agents write better Terraform configurations. Rather than managing infrastructure directly, it gives agents access to the Terraform Registry — provider documentation, module details, policy libraries, and workspace management.
+HashiCorp's Terraform MCP server is focused on making AI agents write better Terraform configurations. Rather than managing infrastructure directly, it gives agents real-time access to the Terraform Registry — provider documentation, module specifications, Sentinel policies, and version information. 1,300 stars, 134 forks, 323 commits, 10 releases since May 2025, Go.
 
-The core tools let agents search provider documentation (so they generate correct resource blocks), find modules with inputs/outputs/examples, look up Sentinel policies for compliance, and manage HCP Terraform workspaces and variables. Version 0.4 added **Terraform Stacks** support (deploy and manage Stacks via natural language) and `attach_policy_set_to_workspaces` for governance workflows.
+**35+ tools** across six functional areas: registry (8 tools for searching providers, modules, and policies with full documentation retrieval), HCP Terraform workspace management (12 tools for creating/updating/deleting workspaces, managing runs, and checking token permissions), private registry (4 tools for organization-specific modules and providers), variable management (9 tools for variable sets and workspace variables), policy and tags (4 tools for governance), and Stacks (2 tools for multi-component deployments).
 
-The server supports both stdio and StreamableHTTP transports, making it usable in local IDEs and remote setups. Auth uses HCP Terraform tokens for workspace operations; registry lookups are public and free.
+The server includes **MCP resources** for the Terraform Style Guide, Module Development Guide, and dynamic provider documentation — giving agents reference material beyond just tool calls.
 
-**Strengths:** Deep Terraform Registry integration (providers, modules, policies), helps agents write correct IaC (not just guess), Stacks support for complex deployments, dual transport (stdio + HTTP), workspace and variable management, public registry access is free.
+Setup is straightforward: Docker image (`hashicorp/terraform-mcp-server:0.4.0`), Go install, or one-click installers for VS Code, Cursor, Claude Desktop, and Claude Code. Registry lookups work immediately with no auth; HCP Terraform features require a `TFE_TOKEN`. Tool filtering via `--toolsets` and `--tools` flags controls the attack surface. Built-in rate limiting (global and per-session) protects APIs from overuse.
 
-**Weaknesses:** Still beta, focused on documentation/registry (not direct infrastructure provisioning), requires HCP Terraform for workspace features, no `terraform plan/apply` execution (by design — too dangerous), limited to Terraform ecosystem (not OpenTofu, Pulumi, etc.).
+**Strengths:** Real-time provider documentation eliminates hallucinated resource arguments, comprehensive module discovery with full specs (inputs, outputs, examples, submodules), deliberate safety by design (no `terraform plan/apply`), tool filtering for attack surface reduction, dual transport (stdio + Streamable HTTP) with health checks and CORS, full workspace lifecycle management, Stacks support for complex deployments, rate limiting.
 
-**Best for:** Teams writing Terraform configurations who want AI agents that reference current provider docs and module specifications instead of hallucinating resource arguments.
+**Weaknesses:** Still beta (HashiCorp warns against production use), security audit findings ([#288](https://github.com/hashicorp/terraform-mcp-server/issues/288) — insecure TLS, unverified CI binary downloads), Terraform-only ecosystem (no OpenTofu or Pulumi), provider search returning community instead of official versions ([#178](https://github.com/hashicorp/terraform-mcp-server/issues/178)), proxy/networking issues behind nginx ([#267](https://github.com/hashicorp/terraform-mcp-server/issues/267)), workspace tools require HCP Terraform (no local state support), no `terraform plan/apply` execution (by design but limits the loop).
+
+**Best for:** Teams writing Terraform configurations who want AI agents that reference current provider docs and module specifications instead of hallucinating resource arguments. Platform engineers managing HCP Terraform workspaces, variables, and policies.
 
 ### AWS MCP — The Cloud Infrastructure Suite
 
@@ -138,8 +140,8 @@ Microsoft also ships a separate **Azure MCP Server** for Azure cloud resources (
 |---------|-----------|----------------|---------------|---------|-----------------|
 | Container mgmt | Deep | Via pods | No | Via ECS/EKS | No |
 | Cluster ops | No | Deep | No | Via EKS | No |
-| IaC | No | No | Deep | Via CDK/CFn | No |
-| Cloud resources | No | No | No (registry only) | Deep (60+ servers) | Azure resources (separate server) |
+| IaC | No | No | Deep (35+ tools) | Via CDK/CFn | No |
+| Cloud resources | No | No | HCP workspaces | Deep (60+ servers) | Azure resources (separate server) |
 | CI/CD | No | No | No | Via CodePipeline | Deep (pipelines + builds) |
 | Work items | No | No | No | No | Deep |
 | Documentation | Catalog | No | Registry docs | Knowledge server | Wiki |
@@ -154,7 +156,7 @@ Microsoft also ships a separate **Azure MCP Server** for Azure cloud resources (
 
 ### Decision Flowchart
 
-**"I write Terraform all day"** → **Terraform MCP**. Your agent references current provider docs instead of hallucinating resource arguments. Pair with AWS MCP or Azure MCP for direct resource management.
+**"I write Terraform all day"** → **[Terraform MCP](/reviews/terraform-mcp-server/)** (4/5). Your agent references current provider docs instead of hallucinating resource arguments. Pair with AWS MCP or Azure MCP for direct resource management.
 
 **"I manage Kubernetes clusters"** → **Kubernetes MCP** (Red Hat's `containers/kubernetes-mcp-server`). Start in read-only mode for safety. Add `k8s-mcp-server` if you need Helm and ArgoCD.
 

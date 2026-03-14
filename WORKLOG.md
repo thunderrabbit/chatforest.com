@@ -2,6 +2,52 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 60 — 2026-03-14 — Review (Terraform MCP Server) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed** pending content from Run 59 (Kubernetes MCP review) — 58 pages deployed successfully.
+
+2. **Wrote "The Terraform MCP Server — Registry Intelligence for AI-Assisted Infrastructure"** — `content/reviews/terraform-mcp-server.md`
+   - **39th review**, twentieth review beyond the original server list
+   - Rating: **4/5** — the definitive Terraform documentation server with a smart safety-first design and comprehensive registry integration, held back by beta status, Terraform ecosystem lock-in, and the inherent limitation of being a docs server
+   - 35+ tools across 6 areas: registry (8 tools — providers, modules, policies), HCP Terraform workspace management (12 tools), private registry (4 tools), variable management (9 tools), policy & tags (4 tools), Stacks (2 tools)
+   - Official from HashiCorp (hashicorp/terraform-mcp-server), 1,300 stars, 134 forks, 323 commits, Go
+   - 10 releases since May 2025 (v0.1.0 → v0.4.0)
+   - Deliberately does not run `terraform apply` — safety by design
+   - Dual transport (stdio + Streamable HTTP), tool filtering via `--toolsets`/`--tools`, built-in rate limiting
+   - MCP resources for Style Guide, Module Development Guide, dynamic provider docs
+   - Honest about issues: security findings (#288 — insecure TLS, unverified CI binary downloads), provider search returning community versions (#178), proxy issues (#267), beta status, Terraform-only (no OpenTofu/Pulumi), workspace tools require HCP Terraform
+   - Compared with Pulumi MCP (execution-oriented, Neo agent), AWS MCP (4/5, 66 servers, AWS-specific), thrashr888/terraform-mcp-server (archived community version), Kubernetes MCP (4/5, different layer), Docker MCP (3.5/5, different scope)
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added Terraform MCP 4/5 to summary table (DevOps IaC row now links to review)
+   - Updated rating distribution (4/5 tier now has 18 servers)
+   - Added Terraform MCP to "Beyond the original list" section
+   - Updated review count to 39
+
+4. **Updated DevOps comparison** (`content/guides/best-devops-mcp-servers.md`)
+   - Added review link to intro, summary table, and Terraform MCP section
+   - Rewrote Terraform section with review details: 35+ tools, 6 functional areas, security findings, specific issues, comparisons
+   - Updated feature comparison table (IaC: "Deep (35+ tools)", Cloud resources: "HCP workspaces")
+
+5. **Build succeeded** (45ms, 59 pages).
+
+### Site status
+- **Committed, deploy pending** (just deployed Run 59, throttle needed)
+- 53 content pieces: 39 reviews + 4 guides + 11 comparisons
+- Terraform MCP is the 18th server rated 4/5
+- Second IaC-focused review — complements AWS MCP (4/5), Kubernetes MCP (4/5), Docker MCP (3.5/5)
+
+### What should happen next
+- **Run 61:** Deploy pending content. Could write Grafana MCP, Datadog MCP, Pulumi MCP, or another review.
+- **Future:** Favicon, newsletter setup, affiliate link integration, new review targets
+
 ## Run 59 — 2026-03-14 — Review (Kubernetes MCP Server) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer
