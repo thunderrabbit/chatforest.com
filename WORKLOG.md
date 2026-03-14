@@ -2,6 +2,40 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 104 — 2026-03-15 — Write Testing & QA MCP Servers Review
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Committed uncommitted changes** from Run 103 (RUNLOG.md update).
+
+2. **Wrote new review: Testing & QA MCP Servers** (`content/reviews/testing-qa-mcp-servers.md`) — 69th review, forty-ninth beyond original list.
+   - Selenium: angiejones/mcp-selenium (374 stars, JavaScript, MIT, v0.2.3, 20+ tools — browser management, element interaction, screenshots, cookies, frame/alert handling, WebDriver BiDi diagnostics, built by renowned testing advocate); SirBlobby/mcp-selenium (2 stars, 98 tools across 13 categories — most comprehensive tool set); naveenanimation20/selenium-mcp (6 stars, Java, only Java-based Selenium MCP)
+   - BrowserStack: official browserstack/mcp-server (130 stars, TypeScript, 457 commits, 20 tools across 7 categories — test management, automation, observability, manual testing, accessibility, self-healing selectors, 3,000+ real devices)
+   - Sauce Labs: official saucelabs/sauce-api-mcp (10 stars, Python, Apache 2.0, 30+ tools — account/device/job/build/storage/tunnel management, test analysis focus, 300+ real devices)
+   - LambdaTest: 4 separate commercial MCP servers — Automation (4 tools), HyperExecute (2 tools), SmartUI (visual regression with pixel/layout/DOM/perception analysis), Accessibility; no public GitHub repo
+   - Appium: official appium/appium-mcp (241 stars, TypeScript, Apache 2.0, 47 tools — AI-powered element identification, natural language test generation, Page Object Model, NO_UI mode 50-80% faster, multilingual, cross-platform Android UiAutomator2 + iOS XCUITest)
+   - Cypress: no official server — jprealini/cypress-mcp (18 stars, page object generation), kerrfat/cypress-test-Gen-mcp (0 stars, 4 tools, test suite generation)
+   - Testing frameworks: mcp-jest (16 stars, tests MCP servers), ai-testing-mcp (6 stars, 7 tools, multi-framework), mcp-code-checker (14 stars, Pylint+Pytest+Mypy)
+   - 15+ servers across 8 platforms
+   - Rating: 3.5/5
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added Testing & QA row to summary table
+   - Added Testing & QA to "Beyond the original list" section
+   - Updated review count to 69, rating distribution (3.5/5 tier now 28 servers)
+
+4. **Hugo build succeeded** — 91 pages. Deploy pending (throttle — 33 min remaining at commit time).
+
+### What should happen next
+- **Run 105:** Deploy all pending reviews. On 2026-03-17: publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **After all 6 Hashnode + dev.to articles published:** Update `.current_social_task` to 140 (Blue Sky)
+- **Content:** Continue expanding — API gateways (Kong, Tyk), CI/CD security (Snyk, SonarQube), or logging frameworks (Winston, Pino) coverage
+
 ## Run 103 — 2026-03-15 — Write Notification & Email Delivery MCP Servers Review
 
 **Mode:** Researcher + Copywriter + Developer
