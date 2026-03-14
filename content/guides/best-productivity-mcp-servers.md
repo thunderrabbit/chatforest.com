@@ -11,14 +11,14 @@ AI agents that can read your codebase but not your project tracker are doing hal
 
 The MCP ecosystem now has productivity servers for nearly every major platform. But they vary wildly in maturity. Some are first-party, OAuth-authenticated, and actively maintained. Some are community projects with one contributor and no tests. Picking the wrong one means your agent is creating tasks in the wrong project, missing calendar conflicts, or silently failing on API changes.
 
-We've reviewed [Notion MCP](/reviews/notion-mcp-server/) (3.5/5) and [Slack MCP](/reviews/slack-mcp-server/) (4/5) individually. Here's how the broader productivity MCP server landscape compares, and which ones are actually worth configuring.
+We've reviewed [Notion MCP](/reviews/notion-mcp-server/) (3.5/5), [Slack MCP](/reviews/slack-mcp-server/) (4/5), and [Linear MCP](/reviews/linear-mcp-server/) (4/5) individually. Here's how the broader productivity MCP server landscape compares, and which ones are actually worth configuring.
 
 ## The Contenders
 
 | Server | Maintainer | Type | Stars | Tools | Auth | Hosting | Free? |
 |--------|-----------|------|-------|-------|------|---------|-------|
 | [Notion](/reviews/notion-mcp-server/) | Notion (official) | Knowledge base + project mgmt | ~4,000 | 18 | OAuth (hosted) / API key (local) | Hosted + local | Yes |
-| Linear | Linear (official) | Issue tracking + project mgmt | N/A | 15+ | OAuth | Hosted | Yes (with Linear plan) |
+| [Linear](/reviews/linear-mcp-server/) | Linear (official) | Issue tracking + project mgmt | N/A | 23+ | OAuth | Hosted | Yes (with Linear plan) |
 | Todoist | Doist (official) | Task management | 172 | 20+ | OAuth | Hosted | Yes (with Todoist plan) |
 | Asana | Asana (official) | Project management | N/A | 30+ | OAuth | Hosted | Yes (with Asana plan) |
 | Google Calendar | nspady (community) | Calendar management | ~1,000 | 12 | OAuth | Local | Yes |
@@ -70,11 +70,13 @@ Notion's official MCP server comes in two flavors: a hosted version at `mcp.noti
 
 ### Linear — The Best for Engineering Teams
 
+**[Our review: 4/5](/reviews/linear-mcp-server/)**
+
 Linear's official hosted MCP server at `mcp.linear.app` follows the authenticated remote MCP spec with OAuth. It launched in May 2025 and expanded significantly in February 2026 with support for initiatives, milestones, and project updates.
 
-**15+ tools** covering issues (create, update, search, comment), projects (create, update, milestones), initiatives, teams, and labels. The Feb 2026 update added product management tools: initiative management, project milestone tracking, and progress updates — making it viable for PMs, not just engineers.
+**23+ tools** covering issues (create, update, search, comment), projects (create, update, milestones), initiatives, teams, labels, and documentation search. The Feb 2026 update added product management tools: initiative management, project milestone tracking, and progress updates — making it viable for PMs, not just engineers. The tool design is among the best we've reviewed — flat parameter schemas and embedded enum values reduce agent errors significantly.
 
-**The catch:** Linear itself requires a paid plan ($8/user/month). The MCP server is hosted-only — no self-hosted option. Multiple community alternatives exist (tacticlaunch/mcp-linear, jerhadf/linear-mcp-server, dvcrn/mcp-server-linear) but they use API keys and the GraphQL API directly, which means they can break when Linear changes their schema.
+**The catch:** Linear itself requires a paid plan ($8/user/month). The MCP server is hosted-only — no self-hosted option. The tool definitions cost 17.3k tokens of context, and responses are verbose with unnecessary fields. Multiple community alternatives exist (dvcrn/mcp-server-linear, tacticlaunch/mcp-linear) for local deployment or multi-workspace support.
 
 **Best for:** Engineering teams already on Linear. The issue → project → initiative hierarchy maps cleanly to how engineering work is organized. If you're using Linear for sprint planning, the MCP server lets your agent create issues from code comments, update status from CI results, and track progress across projects.
 
