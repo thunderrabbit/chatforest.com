@@ -1,15 +1,15 @@
 ---
 title: "Best MCP Servers for Developers in 2026"
 date: 2026-03-14T02:52:53+09:00
-description: "We've reviewed 26 MCP servers and compared 40+ across 11 categories. Here are the ones worth installing — and the ones to avoid."
-og_description: "We've tested 26 MCP servers and compared 40+ across 11 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
+description: "We've reviewed 28 MCP servers and compared 40+ across 11 categories. Here are the ones worth installing — and the ones to avoid."
+og_description: "We've tested 28 MCP servers and compared 40+ across 11 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
 content_type: "Comparison"
-card_description: "We've reviewed 26 MCP servers across 11 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
+card_description: "We've reviewed 28 MCP servers across 11 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
 ---
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [26 in-depth reviews](/reviews/) and [11 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [28 in-depth reviews](/reviews/) and [11 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -19,7 +19,7 @@ If you want to skip the details:
 
 | Category | Our pick | Rating | Runner-up |
 |----------|----------|--------|-----------|
-| Browser automation | [Playwright MCP](/reviews/playwright-mcp-server/) | 4.5/5 | Browserbase (cloud) |
+| Browser automation | [Playwright MCP](/reviews/playwright-mcp-server/) | 4.5/5 | [Browserbase](/reviews/browserbase-mcp-server/) (3.5/5, cloud) |
 | Search (keyword) | [Brave Search](/reviews/brave-search-mcp-server/) | 4/5 | Kagi |
 | Search (semantic) | [Exa](/reviews/exa-mcp-server/) | 4/5 | Tavily |
 | Web fetching | zcaceres/fetch-mcp | — | [Official Fetch](/reviews/fetch-mcp-server/) (3.5/5) |
@@ -57,7 +57,7 @@ Playwright MCP's killer feature is accessibility tree targeting. Instead of brit
 
 [Puppeteer MCP](/reviews/puppeteer-mcp-server/) (3.5/5) still works, but it's showing its age. CSS selector brittleness, Chrome-only, no accessibility tree. If you're starting a new project, use Playwright.
 
-For cloud-hosted browser automation (anti-bot detection, CAPTCHA solving), look at Browserbase or [Firecrawl](/reviews/firecrawl-mcp-server/) (4/5).
+For cloud-hosted browser automation (anti-bot detection, CAPTCHA solving), look at [Browserbase](/reviews/browserbase-mcp-server/) (3.5/5) or [Firecrawl](/reviews/firecrawl-mcp-server/) (4/5).
 
 **Full comparison:** [Best Browser Automation MCP Servers in 2026](/guides/best-browser-mcp-servers/)
 
@@ -307,13 +307,13 @@ The fastest-growing MCP server category. Every major DevOps platform now ships a
 
 ## Beyond the original list
 
-We've reviewed every MCP server on our original list — and we're now expanding to new servers. Recent additions: [Firecrawl MCP](/reviews/firecrawl-mcp-server/) (4/5) for production web scraping with autonomous research, [Todoist MCP](/reviews/todoist-mcp-server/) (4/5) for task management with MCP Apps, [Pinecone MCP](/reviews/pinecone-mcp-server/) (3/5) for cloud vector search with reranking, [Qdrant MCP](/reviews/qdrant-mcp-server/) (3/5) for semantic memory, [Chroma MCP](/reviews/chroma-mcp-server/) (3.5/5) for vector databases, [Linear MCP](/reviews/linear-mcp-server/) (4/5) for project management, [Stripe MCP](/reviews/stripe-mcp-server/) (4/5) for payment operations, and [Cloudflare MCP](/reviews/cloudflare-mcp-server/) (4.5/5), the most innovative MCP server architecture we've seen. Subscribe to our [RSS feed](/feed.xml) to get notified when we add new reviews.
+We've reviewed every MCP server on our original list — and we're now expanding to new servers. Recent additions: [Browserbase MCP](/reviews/browserbase-mcp-server/) (3.5/5) for cloud browser automation with AI-native targeting, [Firecrawl MCP](/reviews/firecrawl-mcp-server/) (4/5) for production web scraping with autonomous research, [Todoist MCP](/reviews/todoist-mcp-server/) (4/5) for task management with MCP Apps, [Pinecone MCP](/reviews/pinecone-mcp-server/) (3/5) for cloud vector search with reranking, [Qdrant MCP](/reviews/qdrant-mcp-server/) (3/5) for semantic memory, [Chroma MCP](/reviews/chroma-mcp-server/) (3.5/5) for vector databases, [Linear MCP](/reviews/linear-mcp-server/) (4/5) for project management, [Stripe MCP](/reviews/stripe-mcp-server/) (4/5) for payment operations, and [Cloudflare MCP](/reviews/cloudflare-mcp-server/) (4.5/5), the most innovative MCP server architecture we've seen. Subscribe to our [RSS feed](/feed.xml) to get notified when we add new reviews.
 
 ---
 
 ## The pattern: official servers as starting points
 
-After reviewing 27 MCP servers, a clear pattern has emerged:
+After reviewing 28 MCP servers, a clear pattern has emerged:
 
 **Anthropic's reference implementations are starting points, not destinations.** The official Filesystem and GitHub servers are solid (4/5 each). But the official database servers are archived with security issues (2.5-3/5), the official Memory server doesn't scale (3.5/5), the official Fetch server has an SSRF gap (3.5/5), and the official EverArt server is minimal and archived (2.5/5).
 
@@ -327,7 +327,7 @@ Our rating distribution tells the story:
 |--------|-------|---------|
 | 4.5/5 | 2 | Playwright, Cloudflare |
 | 4.0/5 | 12 | Filesystem, GitHub, Brave Search, Slack, Sentry, Exa, Neon, Supabase, Stripe, Linear, Todoist, Firecrawl |
-| 3.5/5 | 8 | Context7, Puppeteer, Memory, Fetch, Notion, Vercel, Figma Dev Mode, Chroma |
+| 3.5/5 | 9 | Context7, Puppeteer, Memory, Fetch, Notion, Vercel, Figma Dev Mode, Chroma, Browserbase |
 | 3.0/5 | 3 | SQLite, Qdrant, Pinecone |
 | 2.5/5 | 2 | PostgreSQL, EverArt |
 

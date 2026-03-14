@@ -149,13 +149,13 @@ Crawl4AI itself doesn't ship an official MCP server (yet — it's on their roadm
 
 **Use it if:** You're building a RAG pipeline or knowledge base from web content and want a free, powerful crawling engine. The `mcp-crawl4ai-rag` wrapper is the best open-source option for "crawl a site, then ask questions about it."
 
-### Browserbase MCP Server — The Anti-Bot Specialist
+### [Browserbase MCP Server](/reviews/browserbase-mcp-server/) — The Anti-Bot Specialist (3.5/5)
 
-**3,200 GitHub stars | Cloud service**
+**3,200 GitHub stars | Cloud service | [Full review](/reviews/browserbase-mcp-server/)**
 
-Browserbase provides cloud browser instances with built-in stealth mode and CAPTCHA solving. Their MCP server uses the Stagehand AI framework for natural-language browser interaction.
+Browserbase provides cloud browser instances with built-in stealth mode and CAPTCHA solving. Their MCP server uses the Stagehand v3 AI framework for natural-language browser interaction — 8 tools including `act` (natural language actions), `extract` (content extraction), `observe` (element discovery), and session management.
 
-This is the only option in this comparison that can reliably scrape sites with aggressive bot detection (Cloudflare challenges, reCAPTCHA, rate limiting). If the page you need is behind anti-bot protection, Browserbase may be your only option short of manual browsing.
+This is the only option in this comparison that can reliably scrape sites with aggressive bot detection (Cloudflare challenges, reCAPTCHA, rate limiting). If the page you need is behind anti-bot protection, Browserbase may be your only option short of manual browsing. However, our review found 20 open GitHub issues including critical bugs with screenshots returning blank images and session initialization failures.
 
 **Strengths:**
 - CAPTCHA solving and stealth mode built in

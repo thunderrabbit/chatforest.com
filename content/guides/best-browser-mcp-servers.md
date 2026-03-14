@@ -17,7 +17,7 @@ But there are now multiple MCP servers competing for this role, each with a diff
 |--------|----------|--------|----------|
 | [Playwright MCP](/reviews/playwright-mcp-server/) | Accessibility tree targeting | 4.5/5 | Most projects |
 | [Puppeteer MCP](/reviews/puppeteer-mcp-server/) | CSS selectors + screenshots | 3.5/5 | Simple tasks, legacy projects |
-| Browserbase MCP | Cloud-hosted browsers | — | Production at scale |
+| [Browserbase MCP](/reviews/browserbase-mcp-server/) | Cloud-hosted browsers | 3.5/5 | Production at scale |
 | Firecrawl MCP | Content extraction | — | Reading pages, not interacting |
 
 ## The Big Question: How Does the Agent "See" the Page?
@@ -30,7 +30,7 @@ This is the decision that matters most, and it separates these servers into two 
 
 The accessibility tree approach is fundamentally more reliable. It doesn't require a vision model, doesn't break when CSS changes, and maps directly to the semantic meaning of UI elements. This is why Playwright MCP has become the default recommendation for most new projects.
 
-**Browserbase** offloads the browser to the cloud. Your agent connects to a managed browser instance running on Browserbase's infrastructure. You don't worry about Chrome processes eating your RAM. The trade-off: you're paying for a service, and there's added latency from the network round-trip.
+**[Browserbase](/reviews/browserbase-mcp-server/)** (3.5/5) offloads the browser to the cloud. Your agent connects to a managed browser instance running on Browserbase's infrastructure, powered by Stagehand's AI-native element targeting — agents describe actions in natural language instead of crafting selectors. You don't worry about Chrome processes eating your RAM. The trade-off: you're paying for a service ($20-99+/mo after a 1-hour free tier), there's added latency from both network round-trips and LLM inference for element targeting, and the 8-tool set is thinner than Playwright's 25+.
 
 **Firecrawl** takes a completely different approach — it's not really a browser automation server. It's a web scraping server. It extracts content from pages (converted to Markdown), crawls sitemaps, and maps websites. But it doesn't interact with pages. No clicking, no form filling, no navigation beyond URL-to-URL.
 
@@ -49,7 +49,7 @@ The accessibility tree approach is fundamentally more reliable. It doesn't requi
 | PDF generation | Yes | No | No | No |
 | Code generation | Yes (records sessions as test scripts) | No | No | No |
 | Content extraction | Via snapshots | Via JS evaluation | Via integration | Primary purpose |
-| Tool count | 25+ | 7 | ~10 | 6 |
+| Tool count | 25+ | 7 | 8 | 6 |
 | Local install | Yes | Yes | No (cloud) | No (API) |
 | Cost | Free | Free | Paid | Paid (free tier) |
 
@@ -81,11 +81,13 @@ But be honest about the limitations: CSS selectors break on complex apps, it onl
 
 Read our [full Puppeteer MCP review](/reviews/puppeteer-mcp-server/) for the detailed breakdown.
 
-### For production workloads at scale: Browserbase
+### For production workloads at scale: [Browserbase](/reviews/browserbase-mcp-server/) (3.5/5)
 
-If you're running agents in production that need to automate browsers across hundreds or thousands of sessions, running local Chrome processes won't scale. Browserbase gives you managed, cloud-hosted browsers with session recording, anti-bot stealth, and infrastructure you don't have to maintain.
+If you're running agents in production that need to automate browsers across hundreds or thousands of sessions, running local Chrome processes won't scale. Browserbase gives you managed, cloud-hosted browsers with session recording, anti-bot stealth, and Stagehand's natural language element targeting.
 
-The trade-off is cost and vendor dependency. For development and small-scale use, local Playwright is better. For production at scale, Browserbase is worth evaluating.
+The trade-off is cost ($20-99+/mo), vendor dependency, and a thinner tool set (8 tools vs. Playwright's 25+). There are also open bugs around screenshots and session initialization. For development and small-scale use, local Playwright is better. For production at scale, Browserbase is worth evaluating.
+
+Read our [full Browserbase MCP review](/reviews/browserbase-mcp-server/) for the detailed breakdown.
 
 ### For reading pages, not interacting: Firecrawl
 
@@ -117,4 +119,5 @@ The browser automation MCP space has a clear winner for 2026: **Playwright MCP**
 
 For the full details on any of these servers, read our individual reviews:
 - [Playwright MCP Server Review](/reviews/playwright-mcp-server/) (4.5/5)
+- [Browserbase MCP Server Review](/reviews/browserbase-mcp-server/) (3.5/5)
 - [Puppeteer MCP Server Review](/reviews/puppeteer-mcp-server/) (3.5/5)

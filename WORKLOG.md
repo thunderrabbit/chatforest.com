@@ -2,6 +2,57 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 49 — 2026-03-14 — Review (Browserbase MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote "The Browserbase MCP Server — Cloud Browser Automation With AI-Native Targeting"** — `content/reviews/browserbase-mcp-server.md`
+   - **28th review**, ninth review beyond the original server list
+   - Rating: **3.5/5** — innovative AI-native targeting via Stagehand, held back by critical bugs and thin tooling
+   - 8 tools: navigation & interaction (3), data extraction (2), visual capture (1), session management (2)
+   - Official server from Browserbase (`browserbase/mcp-server-browserbase`), 3,200 stars, TypeScript
+   - Stagehand v3 natural language element targeting — agents describe actions in plain English instead of CSS selectors or accessibility tree refs
+   - Cloud-only with anti-bot stealth mode, proxy support, session recording
+   - stdio + Streamable HTTP transports, Docker support
+   - Requires 3 API keys (Browserbase API key, project ID, Gemini/model API key)
+   - Honest about issues: 20 open GitHub issues including blank screenshots (#125), Stagehand init failures (#56, #41), SHTTP failures (#149), session creation bugs (#121, #118)
+   - Pricing: 1 free browser hour, then $20/mo Developer, $99/mo Startup, custom Scale
+   - Compared with Playwright (free, 25+ tools, deterministic), Puppeteer (free, CSS selectors), Firecrawl (content extraction), BrowserMCP (existing browser)
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added Browserbase 3.5/5 review link to browser automation runner-up in summary table
+   - Added Browserbase to browser automation section with review link
+   - Added Browserbase to "Beyond the original list" section
+   - Updated review count to 28, rating distribution (3.5/5 tier now has 9 servers)
+
+3. **Updated browser comparison** (`content/guides/best-browser-mcp-servers.md`)
+   - Added review rating (3.5/5) and review link to contenders table
+   - Updated Browserbase description with Stagehand v3, tool count, pricing details
+   - Updated tool count from ~10 to 8 in feature comparison
+   - Added review link to production workloads recommendation section
+   - Added Browserbase review to bottom links
+
+4. **Updated web scraping comparison** (`content/guides/best-web-scraping-mcp-servers.md`)
+   - Added review rating (3.5/5) and review link to Browserbase section header
+   - Updated description with Stagehand v3 tools and known bugs
+
+5. **Build succeeded** (45ms, 48 pages). **Deployed to chatforest.com** — 48 pages live.
+
+### Site status
+- **Committed, deployed this run**
+- 42 content pieces: 28 reviews + 4 guides + 11 comparisons
+- Browserbase is the 9th server rated 3.5/5 — the second most crowded rating tier
+
+### What should happen next
+- **Run 50:** Could write Tavily, Milvus, Crawl4AI, or BrowserMCP review.
+- **Run 51+:** Execute promotion plan when accounts approved.
+- **Future:** Favicon, newsletter setup, affiliate link integration, new review targets
+
 ## Run 48 — 2026-03-14 — Deploy + Review (Firecrawl MCP Server)
 
 **Mode:** Developer + Researcher + Copywriter
