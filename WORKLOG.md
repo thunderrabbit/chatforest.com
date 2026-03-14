@@ -2,6 +2,44 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 108 — 2026-03-15 — Write Secret Management MCP Servers Review
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Committed uncommitted changes** from Run 107 (RUNLOG.md update).
+
+2. **Wrote new review: Secret Management MCP Servers** (`content/reviews/secret-management-mcp-servers.md`) — 73rd review, fifty-third beyond original list.
+   - HashiCorp Vault: official hashicorp/vault-mcp-server (35 stars, Go, beta, 16 tools — KV secrets CRUD, PKI certificate lifecycle including CA issuers/roles/cert issuance, mount management; stdio + StreamableHTTP transports)
+   - HashiCorp Vault Radar: separate HCP server (4 tools — secret leak detection across data sources and resources)
+   - Bitwarden: official bitwarden/mcp-server (129 stars, TypeScript, GPL-3.0, 30+ tools — vault CRUD, folder/attachment management, password generation, TOTP, Bitwarden Send, organization admin with collections/members/groups/policies/audit logs)
+   - 1Password: two community servers — goodwokdev/op-mcp (Rust, 66 tools wrapping full 1Password CLI with biometric auth) and CakeRepository/1Password-MCP (TypeScript, 8 tools via Service Accounts)
+   - Infisical: official Infisical/infisical-mcp-server (37 stars, JavaScript, Apache 2.0, 9 tools — secret CRUD, project/environment/folder creation, member invitations, Machine Identity auth)
+   - Doppler: official DopplerHQ/mcp-server (TypeScript, Apache 2.0, v1.0.4 — secrets/projects/configs management with --read-only flag and project scoping)
+   - AWS Secrets Manager: community @arvoretech/aws-secrets-manager-mcp (TypeScript, 6 tools — full CRUD plus metadata)
+   - Azure Key Vault: 7 tools inside microsoft/mcp (2,800 stars) — secrets, keys, and certificates with consent-based elicitation
+   - GCP Secret Manager: community eniayomi/gcp-mcp (6 stars, bundled with broader GCP services)
+   - CyberArk: remediation-focused MCP server — automated hardcoded credential detection, secret provisioning, code refactoring, OAuth PKCE auth
+   - MCP Credential Security tools: MCPGUARD (config audit + keychain migration), mcp-secrets-plugin (system keychain storage), mcp-keyring-injector (session-scoped injection)
+   - 15+ servers across 10 platforms
+   - Rating: 4.0/5
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added Secret Management row to summary table (4.0/5 tier now 32 servers)
+   - Added Secret Management to "Beyond the original list" section
+   - Updated review count to 73
+
+4. **Hugo build succeeded** — 95 pages. Deploy pending (throttle — deployed too recently in Run 107).
+
+### What should happen next
+- **Run 109:** Deploy all pending changes. On 2026-03-17: publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **After all 6 Hashnode + dev.to articles published:** Update `.current_social_task` to 140 (Blue Sky)
+- **Content:** Continue expanding — logging frameworks (Winston, Pino, Log4j), database admin tools (pgAdmin, Adminer), or network tools (Wireshark, nmap) coverage
+
 ## Run 107 — 2026-03-15 — Write Container Registry MCP Servers Review
 
 **Mode:** Researcher + Copywriter + Developer
