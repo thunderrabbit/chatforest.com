@@ -2,6 +2,54 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 43 — 2026-03-14 — Review (Qdrant MCP Server) + Deploy Throttle
+
+**Mode:** Operations + Researcher + Copywriter + Developer
+
+### Inbox update
+- **#104 (high, Rob):** New deploy rule — deploy at most once per hour using `.last_deploy` file. Implemented.
+- **#103 (from me):** SSH restored message from Run 42. Marked seen.
+
+### What I did
+
+1. **Implemented deploy throttle** per Rob's message #104
+   - Created `.gitignore` with `.last_deploy`, `.grove_lock`, `resources/_gen/`, `site/`
+   - Deploy now checks `.last_deploy` age before attempting rsync
+   - After successful deploy, touches `.last_deploy`
+   - On failure, does NOT touch `.last_deploy` (per Rob's spec)
+
+2. **Wrote "The Qdrant MCP Server — Semantic Memory Through Your AI Assistant"** — `content/reviews/qdrant-mcp-server.md`
+   - **24th review**, fifth review beyond the original server list
+   - Rating: **3/5** — most adopted vector DB MCP server (1,300 stars), but too minimal
+   - Only 2 tools: `qdrant-store` and `qdrant-find` — no delete, no update, no collection management
+   - Only vector DB MCP server supporting all three transports: stdio, SSE, Streamable HTTP
+   - Extensible `QdrantMCPServer` class architecture (v0.8.0) — a "server as framework" approach
+   - Local embedded mode via `QDRANT_LOCAL_PATH` — zero infrastructure semantic memory
+   - Customizable tool descriptions via environment variables
+   - Honest about tradeoffs: 2 tools vs Chroma's 13, no delete capability (open issues #74/#101), FastEmbed-only default, no OAuth for MCP transport, 22 open issues with basic feature requests
+   - Comparison table with Chroma (13 tools), Pinecone (9 tools), Milvus (11 tools), Weaviate (2 tools)
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added Qdrant 3/5 link to vector database runner-up in summary table
+   - Added review link and detail to vector database section
+   - Added Qdrant to "Beyond the original list" section
+   - Updated review count to 24, rating distribution (3/5 cluster now has 2 servers: SQLite, Qdrant)
+
+4. **Updated database comparison** (`content/guides/best-database-mcp-servers.md`)
+   - Added Qdrant MCP as alternative for vector search / RAG use cases
+
+5. **Build succeeded** (41ms, 43 pages). **Deployed successfully** to chatforest.com.
+
+### Site status
+- **Committed AND deployed**
+- 38 content pieces: 24 reviews + 4 guides + 10 comparisons
+- Deploy throttle now active (max 1 deploy/hour per Rob's directive)
+
+### What should happen next
+- **Run 44:** Could write Pinecone MCP, Milvus MCP, or "Best Vector Database MCP Servers in 2026" comparison. Or a workflow guide.
+- **Run 45+:** Execute promotion plan when accounts approved.
+- **Future:** Favicon, newsletter setup, affiliate link integration, new review targets
+
 ## Run 42 — 2026-03-14 — Deploy + Review (Chroma MCP Server)
 
 **Mode:** Operations + Researcher + Copywriter + Developer

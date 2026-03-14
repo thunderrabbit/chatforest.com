@@ -1,15 +1,15 @@
 ---
 title: "Best MCP Servers for Developers in 2026"
 date: 2026-03-14
-description: "We've reviewed 22 MCP servers and compared 40+ across 10 categories. Here are the ones worth installing — and the ones to avoid."
-og_description: "We've tested 21 MCP servers and compared 40+ across 10 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
+description: "We've reviewed 24 MCP servers and compared 40+ across 10 categories. Here are the ones worth installing — and the ones to avoid."
+og_description: "We've tested 24 MCP servers and compared 40+ across 10 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
 content_type: "Comparison"
-card_description: "We've reviewed 22 MCP servers across 10 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
+card_description: "We've reviewed 24 MCP servers across 10 categories. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
 ---
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [23 in-depth reviews](/reviews/) and [10 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [24 in-depth reviews](/reviews/) and [10 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -43,7 +43,7 @@ If you want to skip the details:
 | DevOps (IaC) | Terraform MCP | — | AWS MCP (AWS-specific) |
 | DevOps (containers) | Docker MCP | — | Kubernetes MCP |
 | DevOps (platform) | Azure DevOps MCP | — | [GitHub MCP](/reviews/github-mcp-server/) (4.5/5) |
-| Vector database | [Chroma MCP](/reviews/chroma-mcp-server/) | 3.5/5 | Qdrant MCP (better transport) |
+| Vector database | [Chroma MCP](/reviews/chroma-mcp-server/) | 3.5/5 | [Qdrant MCP](/reviews/qdrant-mcp-server/) (3/5, better transport) |
 
 Now the details.
 
@@ -124,7 +124,7 @@ Vector databases power RAG — retrieval-augmented generation — the primary wa
 
 **[Chroma MCP](/reviews/chroma-mcp-server/) (3.5/5)** — the most comprehensive vector database MCP server. 13 tools covering full CRUD on collections and documents, semantic + full-text + regex search, six embedding providers, and four deployment modes (ephemeral, persistent, HTTP, cloud). Unique collection forking feature lets agents experiment without touching production data. The main limitation is stdio-only transport — no remote MCP server despite Chroma Cloud existing.
 
-**Qdrant MCP** — only 2 tools (store and find), but supports SSE and Streamable HTTP transport. Better for team environments where remote MCP access matters. 1,300 GitHub stars — the most popular vector DB MCP server by community adoption.
+**[Qdrant MCP](/reviews/qdrant-mcp-server/) (3/5)** — only 2 tools (store and find), but the only vector DB MCP server supporting SSE and Streamable HTTP transport. Better for team environments where remote MCP access matters. 1,300 GitHub stars — the most popular vector DB MCP server by community adoption. The extensible `QdrantMCPServer` class lets developers build custom servers on top of it.
 
 **Pinecone MCP** — 9 tools, cloud-only. If you're already on Pinecone, it works. No local development mode.
 
@@ -305,13 +305,13 @@ The fastest-growing MCP server category. Every major DevOps platform now ships a
 
 ## Beyond the original list
 
-We've reviewed every MCP server on our original list — and we're now expanding to new servers. Recent additions: [Chroma MCP](/reviews/chroma-mcp-server/) (3.5/5) for vector databases, [Linear MCP](/reviews/linear-mcp-server/) (4/5) for project management, [Stripe MCP](/reviews/stripe-mcp-server/) (4/5) for payment operations, and [Cloudflare MCP](/reviews/cloudflare-mcp-server/) (4.5/5), the most innovative MCP server architecture we've seen. Subscribe to our [RSS feed](/feed.xml) to get notified when we add new reviews.
+We've reviewed every MCP server on our original list — and we're now expanding to new servers. Recent additions: [Qdrant MCP](/reviews/qdrant-mcp-server/) (3/5) for semantic memory, [Chroma MCP](/reviews/chroma-mcp-server/) (3.5/5) for vector databases, [Linear MCP](/reviews/linear-mcp-server/) (4/5) for project management, [Stripe MCP](/reviews/stripe-mcp-server/) (4/5) for payment operations, and [Cloudflare MCP](/reviews/cloudflare-mcp-server/) (4.5/5), the most innovative MCP server architecture we've seen. Subscribe to our [RSS feed](/feed.xml) to get notified when we add new reviews.
 
 ---
 
 ## The pattern: official servers as starting points
 
-After reviewing 23 MCP servers, a clear pattern has emerged:
+After reviewing 24 MCP servers, a clear pattern has emerged:
 
 **Anthropic's reference implementations are starting points, not destinations.** The official Filesystem and GitHub servers are solid (4/5 each). But the official database servers are archived with security issues (2.5-3/5), the official Memory server doesn't scale (3.5/5), the official Fetch server has an SSRF gap (3.5/5), and the official EverArt server is minimal and archived (2.5/5).
 
@@ -326,7 +326,7 @@ Our rating distribution tells the story:
 | 4.5/5 | 2 | Playwright, Cloudflare |
 | 4.0/5 | 10 | Filesystem, GitHub, Brave Search, Slack, Sentry, Exa, Neon, Supabase, Stripe, Linear |
 | 3.5/5 | 8 | Context7, Puppeteer, Memory, Fetch, Notion, Vercel, Figma Dev Mode, Chroma |
-| 3.0/5 | 1 | SQLite |
+| 3.0/5 | 2 | SQLite, Qdrant |
 | 2.5/5 | 2 | PostgreSQL, EverArt |
 
 The actively maintained servers cluster at 4.0. The archived ones cluster at 2.5-3.0. Maintenance matters more than feature count.

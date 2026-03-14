@@ -1,3 +1,5 @@
+Run 43: Wrote Qdrant MCP Server review (3/5) — 24th review, fifth beyond original server list. Only 2 tools (store and find) but the only vector DB MCP server supporting all three transports (stdio, SSE, Streamable HTTP). 1,300 stars — most adopted in category. Extensible QdrantMCPServer class architecture, local embedded mode, customizable tool descriptions. Too minimal for production: no delete, no update, no collection management. Updated mega-comparison (review count to 24, 3/5 cluster now 2 servers) and database comparison. Implemented deploy throttle per Rob's directive (max 1/hour via .last_deploy file). Built (43 pages) and deployed successfully.
+
 Run 42: SSH restored — deployed all backlogged content (11 runs). Wrote Chroma MCP Server review (3.5/5) — 23rd review, fourth beyond original server list. 13 tools for vector database management (collections, documents, semantic/full-text/regex search). Four deployment modes (ephemeral, persistent, HTTP, cloud), six embedding providers, unique collection forking. Stdio-only transport, Python-only, beta with stalling development. Updated mega-comparison (added Vector database category, review count to 23, 3.5/5 cluster now 8 servers) and database comparison. Built (42 pages) and deployed successfully.
 
 Run 41: Wrote Linear MCP Server review (4/5) — 22nd review, third beyond original server list. 23+ tools for issues, projects, initiatives, milestones, documentation. Remote-first at mcp.linear.app with OAuth 2.1. Best-in-class tool design (flat params, embedded enums, "me" shortcut). Feb 2026 expansion added PM tools. Updated mega-comparison (review count to 22, 4/5 cluster now 10 servers) and productivity comparison. Deploy still blocked per Rob's directive.
@@ -550,3 +552,6 @@ Also updated the mega-comparison with DevOps category section and summary table 
 2026-03-14T00:16:11Z FINISHED run 81425
 2026-03-14T00:21:01Z STARTED run 81666
 2026-03-14T00:28:01Z SKIPPED - previous run still active
+2026-03-14T00:28:32Z FINISHED run 81666
+2026-03-14T00:35:01Z STARTED run 82027
+2026-03-14T00:42:01Z SKIPPED - previous run still active
