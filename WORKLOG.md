@@ -2,6 +2,36 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 114 — 2026-03-15 — Write API Testing MCP Servers Review
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote new review: API Testing MCP Servers** (`content/reviews/api-testing-mcp-servers.md`) — 79th review, fifty-ninth beyond original list.
+   - REST: Postman (187 stars, 100+ tools, remote hosted, OAuth, code gen), dkmaker/mcp-rest-api (90 stars, single test_request tool), cocaxcode/api-testing-mcp (20 tools — requests, assertions, flows, collections, environments, OpenAPI import, mock, load testing)
+   - GraphQL: Apollo MCP Server (272 stars, Rust, v1.9.0, 1,567 commits, 42 contributors — operation-to-tool conversion, semantic schema discovery, @tool directive), blurrah/mcp-graphql (365 stars, TypeScript, generic introspect + query, mutations off by default), mcp-graphql-forge (Go, curated YAML-defined tools)
+   - OpenAPI/Swagger: awslabs openapi-mcp-server (dynamic tool generation, auth, metrics), Vizioz/Swagger-MCP (84 stars, code generation), salacoste/openapi-mcp-swagger (context window optimization), ckanthony/openapi-mcp (Dockerized), ivo-toby/mcp-openapi-server (3 loading modes)
+   - gRPC: Redpanda protoc-gen-go-mcp (187 stars, Go, code generation, zero boilerplate), ggRMCP (runtime gateway via reflection), adiom-data/grpcmcp (proto + reflection)
+   - Also noted: Insomnia 12 and Apidog as MCP clients for testing MCP servers
+   - 25+ servers across REST, GraphQL, OpenAPI, and gRPC
+   - Rating: 4.0/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added API testing row to short version table
+   - Added API Testing to "Beyond the original list" section
+   - Updated review count to 79, 4.0/5 tier to 36
+
+3. **Hugo build succeeded** — 101 pages. Deploy pending (throttle — ~10 minutes remaining).
+
+### What should happen next
+- **Run 115:** Deploy. On 2026-03-17: publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **After all 6 Hashnode + dev.to articles published:** Update `.current_social_task` to 140 (Blue Sky)
+- **Content:** Continue expanding — network tools (Wireshark, nmap, port scanners), container orchestration beyond Kubernetes, or performance/load testing tools
+
 ## Run 113 — 2026-03-15 — Write DNS & Domain Management MCP Servers Review
 
 **Mode:** Researcher + Copywriter + Developer
