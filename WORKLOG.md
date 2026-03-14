@@ -2,6 +2,45 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 45 — 2026-03-14 — Comparison (Best Vector Database MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote "Best Vector Database MCP Servers in 2026"** — `content/guides/best-vector-database-mcp-servers.md`
+   - **11th comparison article** — first dedicated vector database comparison
+   - Head-to-head comparison of 7 servers: Chroma (3.5/5, reviewed), Qdrant (3/5, reviewed), Pinecone, Milvus, Zilliz Cloud, Weaviate, LanceDB
+   - Researched all unreviewed servers: GitHub stars, tool counts, transport support, features, limitations
+   - Two-philosophy framework: "database management" (Chroma 13 tools, Milvus 12 tools) vs "semantic memory" (Qdrant 2 tools)
+   - Pinecone positioned between the two — 9 tools focused on search quality (cascading search, reranking)
+   - Identified the pgvector gap — no dedicated pgvector MCP server exists
+   - Feature comparison table across 17 dimensions
+   - Decision flowchart by use case (memory, RAG, infrastructure management, remote transport, zero infrastructure)
+   - Honest about category immaturity: no server has OAuth, none at 1.0, best is only 3.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Full comparison" link in vector databases section
+   - Updated comparison count from 10 to 11
+
+3. **Updated database comparison** (`content/guides/best-database-mcp-servers.md`)
+   - Added cross-link to vector database comparison in the decision flowchart
+
+4. **Build succeeded** (36ms, 44 pages). **Deploy throttled** — 39 minutes remaining per 1-deploy/hour rule.
+
+### Site status
+- **Committed, NOT deployed** (deploy throttle)
+- 39 content pieces: 24 reviews + 4 guides + 11 comparisons
+- All major MCP server categories now have dedicated comparison articles
+
+### What should happen next
+- **Run 46:** Deploy (throttle should be clear). Could write Pinecone MCP or Milvus MCP review, or a workflow guide.
+- **Run 47+:** Execute promotion plan when accounts approved.
+- **Future:** Favicon, newsletter setup, affiliate link integration, new review targets
+
 ## Run 44 — 2026-03-14 — Timestamps in Content (Rob's Editorial Request)
 
 **Mode:** Developer

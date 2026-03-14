@@ -256,7 +256,7 @@ The official SQLite server is still worth reading as a learning resource. The in
 - **Data analysis / reporting** → DuckDB (MotherDuck)
 - **Development / prototyping** → DBHub or jparkerweb/mcp-sqlite
 - **Database performance tuning** → Postgres MCP Pro or Neon MCP (both have EXPLAIN + tuning)
-- **Vector search / RAG** → [Chroma MCP](/reviews/chroma-mcp-server/) (3.5/5, 13 tools, four deployment modes) or [Qdrant MCP](/reviews/qdrant-mcp-server/) (3/5, if you need remote MCP transport)
+- **Vector search / RAG** → [Chroma MCP](/reviews/chroma-mcp-server/) (3.5/5, 13 tools, four deployment modes) or [Qdrant MCP](/reviews/qdrant-mcp-server/) (3/5, if you need remote MCP transport). See our [full vector database comparison](/guides/best-vector-database-mcp-servers/) for Pinecone, Milvus, and more.
 - **Learning MCP** → Read the official SQLite server's source code
 
 ## The Bottom Line

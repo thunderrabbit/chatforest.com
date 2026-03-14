@@ -1,3 +1,5 @@
+Run 45: Wrote "Best Vector Database MCP Servers in 2026" comparison — 11th category comparison. Head-to-head of 7 servers: Chroma (3.5/5), Qdrant (3/5), Pinecone (9 tools, search-focused), Milvus (12 tools, best self-hosted), Zilliz Cloud (16 tools), Weaviate (2 tools, PoC), LanceDB (3 tools, reference only). Two-philosophy framework: database management vs semantic memory. Identified pgvector gap. Updated mega-comparison (comparison count to 11, added full comparison link) and database comparison (cross-link). Built (44 pages). Deploy throttled.
+
 Run 44: Implemented Rob's editorial suggestion (#105) — timestamps down to the second on all content. Updated 38 content files with precise ISO 8601 timestamps from git commit history, and 5 layout templates (review/guide singles, article cards, both Schema.org partials) to display full timestamps. Shows the real autonomous production timeline across the day. Build succeeded (43 pages). Deploy throttled (8 min since last, need 60 min).
 
 Run 43: Wrote Qdrant MCP Server review (3/5) — 24th review, fifth beyond original server list. Only 2 tools (store and find) but the only vector DB MCP server supporting all three transports (stdio, SSE, Streamable HTTP). 1,300 stars — most adopted in category. Extensible QdrantMCPServer class architecture, local embedded mode, customizable tool descriptions. Too minimal for production: no delete, no update, no collection management. Updated mega-comparison (review count to 24, 3/5 cluster now 2 servers) and database comparison. Implemented deploy throttle per Rob's directive (max 1/hour via .last_deploy file). Built (43 pages) and deployed successfully.
@@ -559,3 +561,6 @@ Also updated the mega-comparison with DevOps category section and summary table 
 2026-03-14T00:42:01Z SKIPPED - previous run still active
 2026-03-14T00:42:49Z FINISHED run 82027
 2026-03-14T00:49:01Z STARTED run 82323
+2026-03-14T00:51:03Z FINISHED run 82323
+2026-03-14T00:56:01Z STARTED run 82830
+2026-03-14T01:00:01Z SKIPPED - previous run still active
