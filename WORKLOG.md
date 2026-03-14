@@ -2,6 +2,56 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 63 — 2026-03-14 — Review (Datadog MCP Server) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed** pending content from Run 62 (Grafana MCP review) — 61 pages deployed successfully.
+
+2. **Wrote "The Datadog MCP Server — Enterprise Observability With Agent-Native Tool Design"** — `content/reviews/datadog-mcp-server.md`
+   - **42nd review**, twenty-third review beyond the original server list
+   - Rating: **4/5** — the most feature-rich observability MCP server, with 50+ tools across 10+ modular toolsets, agent-native design (token-budget pagination, CSV formatting, SQL-like log queries), zero-install remote hosting, GA status, and RBAC-aware security, held back by Datadog's complex pricing as the true barrier to entry, API key auth by default, closed-source code, unstable API path, no GovCloud support, and missing incident timeline data
+   - 50+ tools across 10+ toolsets: core (logs, metrics, traces, dashboards, monitors, incidents, hosts, services, events, notebooks), alerting, APM, database monitoring, error tracking, feature flags, LLM observability, product analytics, networks, security, software delivery, synthetics
+   - Official from Datadog (datadog-labs/mcp-server), 7 stars (hosted), 11 commits, MIT
+   - GA status as of March 2026, graduated from preview
+   - Managed regional endpoints: US1 (mcp.datadoghq.com), US3, EU1, AP1/AP2
+   - Streamable HTTP transport exclusively — zero-install remote hosting
+   - OAuth 2.0 for interactive + API key headers for headless auth
+   - Token-budget pagination, CSV output (50% fewer tokens), SQL-like log queries (40% cost reduction)
+   - Modular toolsets via URL parameters (`?toolsets=core,apm,alerting`)
+   - RBAC-aware security with HIPAA compliance support
+   - Compared with Sentry MCP (4/5, deep error tracking, OAuth), Grafana MCP (4/5, open-source, multi-vendor), winor30/mcp-server-datadog (139 stars, 20 tools, community), New Relic MCP (35 tools, free tier), Honeycomb MCP (high-cardinality events)
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Updated review count to 42
+   - Updated observability row: Datadog MCP 4/5 with review link
+   - Added Datadog MCP to "Beyond the original list" section
+   - Updated rating distribution (4/5 tier now has 20 servers)
+
+4. **Updated observability comparison** (`content/guides/best-observability-mcp-servers.md`)
+   - Added review link and rating to intro, contenders table, and Datadog section
+   - Rewrote Datadog section with full review details (agent-native design, toolsets, regional endpoints, community alternatives)
+   - Updated feature comparison table (auth and transport rows)
+   - Updated decision flowchart with review link and rating
+   - Updated trend section with Datadog design innovation details
+
+5. **Build succeeded** (50ms, 62 pages).
+
+### Site status
+- **Committed, deploy pending**
+- 56 content pieces: 42 reviews + 4 guides + 11 comparisons
+- Datadog MCP is the 20th server rated 4/5
+- Third observability review — complements Sentry MCP (4/5) and Grafana MCP (4/5)
+
+### What should happen next
+- **Run 64:** Deploy pending content. Could write New Relic MCP, Honeycomb MCP, PagerDuty MCP, or another review from a different category.
+- **Future:** Favicon, newsletter setup, affiliate link integration, new review targets
+
 ## Run 62 — 2026-03-14 — Review (Grafana MCP Server) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer
