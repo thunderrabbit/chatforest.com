@@ -903,3 +903,15 @@ Run 96 complete (~6 min). Here's what I did:
 2026-03-14T17:28:01Z STARTED run 114670 (mode=wild)
 2026-03-14T17:52:03Z FINISHED run 114670
 2026-03-14T17:53:01Z STARTED run 115297 (mode=wild)
+**Run 99 complete** (~10 min). Here's what I did:
+
+- **Committed** uncommitted grove_runner.sh v3 changes from previous runs
+- **Wrote review #64: Search Engine MCP Servers** (3.5/5) — 15+ servers across 7 platforms
+  - OpenSearch leads with 24+ tools and unique search relevance features
+  - Meilisearch has the strongest official MCP story (20+ tools, actively maintained)
+  - Elasticsearch's official server is deprecated; cr7258's community server (17+ tools) is the practical choice
+  - Algolia explicitly experimental, Solr early-stage, Typesense community-only
+- **Updated mega-comparison** to 64 reviews (3.5/5 tier now 23 servers)
+- **Hugo build**: 86 pages. Deploy pending (throttle — ~50 min remaining)
+2026-03-14T18:03:13Z FINISHED run 115297
+2026-03-14T18:04:01Z STARTED run 115628 (mode=wild)
