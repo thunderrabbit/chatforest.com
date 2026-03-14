@@ -11,7 +11,7 @@ Vector databases are the infrastructure behind RAG, semantic search, and AI memo
 
 Some give you full collection management. Others give you two tools and call it done. Some only work with their own cloud service. Others run locally with zero infrastructure. The right choice depends on what you're actually trying to do — and whether the MCP server can keep up with the database behind it.
 
-We've [reviewed Chroma](/reviews/chroma-mcp-server/) (3.5/5) and [Qdrant](/reviews/qdrant-mcp-server/) (3/5) in depth. Here's how every vector database MCP server compares.
+We've [reviewed Chroma](/reviews/chroma-mcp-server/) (3.5/5), [Qdrant](/reviews/qdrant-mcp-server/) (3/5), and [Pinecone](/reviews/pinecone-mcp-server/) (3/5) in depth. Here's how every vector database MCP server compares.
 
 ## The Contenders
 
@@ -19,7 +19,7 @@ We've [reviewed Chroma](/reviews/chroma-mcp-server/) (3.5/5) and [Qdrant](/revie
 |--------|-------|-------|-----------|----------|
 | [Chroma MCP](/reviews/chroma-mcp-server/) | 515 | 13 | stdio | Full vector DB management |
 | [Qdrant MCP](/reviews/qdrant-mcp-server/) | 1,300 | 2 | stdio, SSE, Streamable HTTP | Semantic memory layer |
-| Pinecone MCP | 56 | 9 | stdio | Cloud vector search with reranking |
+| [Pinecone MCP](/reviews/pinecone-mcp-server/) | 56 | 9 | stdio | Cloud vector search with reranking |
 | Milvus MCP (Zilliz) | 220 | 12 | stdio, SSE | Self-hosted vector operations |
 | Zilliz Cloud MCP | 32 | 16 | stdio, Streamable HTTP | Managed Milvus with cloud controls |
 | Weaviate MCP | 161 | 2 | stdio | Nothing yet (proof of concept) |
@@ -72,28 +72,23 @@ Which philosophy you want depends on your use case. Building a RAG pipeline that
 
 **Best for:** Adding persistent semantic memory to coding agents. Not for managing vector infrastructure.
 
+### Pinecone MCP — Best Search Quality (3/5)
+
+**[Read our full review](/reviews/pinecone-mcp-server/)**
+
+[Pinecone's official Developer MCP server](https://github.com/pinecone-io/pinecone-mcp) (56 stars, v0.2.1) sits between the database-management and semantic-memory philosophies. Nine tools focus on search quality over infrastructure control — cascading search across indexes, built-in reranking, and documentation search without authentication.
+
+**What sets it apart:**
+- `cascading-search` — the only vector DB MCP server with cross-index search and automatic deduplication
+- `rerank-documents` — built-in reranking using Pinecone's specialized models
+- `search-docs` — query Pinecone documentation without an API key (like Stripe's doc search)
+- Integrated embedding means zero embedding configuration — pass text, Pinecone handles the rest
+
+**The catch:** Cloud-only with no local mode. Only works with integrated embedding indexes — existing indexes with custom embeddings (OpenAI, Cohere, etc.) are invisible to the server. No delete, no update, no namespace management. Stdio transport for a cloud-only service. Three separate Pinecone MCP servers (Developer, Assistant, Claude Code Plugin) create confusion.
+
+**Best for:** Pinecone users with integrated embedding indexes who want AI-assisted search with reranking and cross-index queries.
+
 ## The Unreviewed Servers
-
-### Pinecone MCP — Best Search Quality
-
-[Pinecone's official MCP server](https://github.com/pinecone-io/pinecone-mcp) (56 stars, v0.2.1) focuses on search rather than infrastructure management. Nine tools, but the interesting ones are the search tools:
-
-- `cascading-search` — queries multiple indexes simultaneously with automatic deduplication
-- `rerank-documents` — reranks results using Pinecone's specialized reranking models
-- `search-records` — text queries with metadata filtering
-- `search-docs` — searches Pinecone's own documentation (like Stripe's doc search feature)
-
-**What it offers:**
-- Index listing, description, and stats
-- Record upserting with integrated inference (Pinecone handles embeddings)
-- Cross-index search with built-in reranking
-- TypeScript, runs via `npx @pinecone-database/mcp`
-
-**The catch:** Only works with indexes using Pinecone's integrated embedding models. If you built your indexes with OpenAI, Hugging Face, or any external embedding provider, this server won't work with them. That's a significant limitation — it means you can't use this to query existing Pinecone deployments unless they were created through Pinecone's inference API.
-
-**Also notable:** Pinecone has a separate [assistant-mcp](https://github.com/pinecone-io/assistant-mcp) server (42 stars, Rust) for querying Pinecone Assistants, supporting both stdio and SSE with Bearer token auth.
-
-**Best for:** New Pinecone projects using integrated embeddings where search quality (reranking, cascading) matters more than index management.
 
 ### Milvus MCP — Most Complete Self-Hosted
 
@@ -181,7 +176,7 @@ If you need your agent to create collections, configure indexes, manage document
 
 If you want to add persistent memory to a coding agent without thinking about vector infrastructure, Qdrant's two-tool approach is the right abstraction. Store text, find it later by meaning. The broadest transport support (stdio, SSE, Streamable HTTP) means it works in more deployment scenarios than any competitor. Just accept that you can't delete anything yet.
 
-### For search quality: Pinecone MCP
+### For search quality: [Pinecone MCP](/reviews/pinecone-mcp-server/)
 
 If search quality matters more than flexibility — cascading search across indexes, built-in reranking, integrated embeddings — Pinecone's server is purpose-built for this. The limitation to Pinecone's integrated embedding models is significant, but if you're starting fresh on Pinecone, the search experience is the best in the category.
 
@@ -199,9 +194,9 @@ Weaviate and LanceDB both have MCP servers that aren't ready for real use. If yo
 
 → **Adding memory to a coding agent?** Use [Qdrant MCP](/reviews/qdrant-mcp-server/) for the simplest path, or [Chroma MCP](/reviews/chroma-mcp-server/) if you need to organize memories into collections.
 
-→ **Building a RAG pipeline?** Use [Chroma MCP](/reviews/chroma-mcp-server/) for local development with full collection management, or Pinecone MCP for cloud deployment with reranking.
+→ **Building a RAG pipeline?** Use [Chroma MCP](/reviews/chroma-mcp-server/) for local development with full collection management, or [Pinecone MCP](/reviews/pinecone-mcp-server/) for cloud deployment with reranking.
 
-→ **Managing existing vector infrastructure?** Match the server to your database: Milvus MCP for Milvus, Pinecone MCP for Pinecone (integrated embeddings only), Qdrant MCP for Qdrant. Chroma MCP covers Chroma across all four deployment modes.
+→ **Managing existing vector infrastructure?** Match the server to your database: Milvus MCP for Milvus, [Pinecone MCP](/reviews/pinecone-mcp-server/) for Pinecone (integrated embeddings only), Qdrant MCP for Qdrant. Chroma MCP covers Chroma across all four deployment modes.
 
 → **Need remote MCP (not stdio)?** [Qdrant MCP](/reviews/qdrant-mcp-server/) is the only option with all three transports. Milvus has SSE. Zilliz Cloud MCP has Streamable HTTP. Everyone else is stdio-only.
 
