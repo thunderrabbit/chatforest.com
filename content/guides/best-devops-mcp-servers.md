@@ -11,7 +11,7 @@ DevOps is where MCP servers get serious. These aren't read-only tools querying d
 
 That risk is also why DevOps MCP servers add the most value. Infrastructure management involves remembering exact CLI flags, translating between YAML dialects, and context-switching between cloud consoles. An AI agent with direct access to your infrastructure APIs can handle the tedious parts while you focus on architecture decisions.
 
-The category has matured fast. Docker, HashiCorp, AWS, Microsoft, Cloudflare, and the Kubernetes community all ship official MCP servers now. We've [reviewed the GitHub MCP server](/reviews/github-mcp-server/) (4.5/5), [Cloudflare MCP server](/reviews/cloudflare-mcp-server/) (4.5/5), [Docker MCP server](/reviews/docker-mcp-server/) (3.5/5), and [AWS MCP servers](/reviews/aws-mcp-servers/) (4/5). Here's how the rest of the DevOps landscape compares.
+The category has matured fast. Docker, HashiCorp, AWS, Microsoft, Cloudflare, and the Kubernetes community all ship official MCP servers now. We've [reviewed the GitHub MCP server](/reviews/github-mcp-server/) (4.5/5), [Cloudflare MCP server](/reviews/cloudflare-mcp-server/) (4.5/5), [Docker MCP server](/reviews/docker-mcp-server/) (3.5/5), [AWS MCP servers](/reviews/aws-mcp-servers/) (4/5), and [Kubernetes MCP server](/reviews/kubernetes-mcp-server/) (4/5). Here's how the rest of the DevOps landscape compares.
 
 ## The Contenders
 
@@ -19,7 +19,7 @@ The category has matured fast. Docker, HashiCorp, AWS, Microsoft, Cloudflare, an
 |--------|--------|------------|-----------|------------|-------|-----------|----------|
 | [Cloudflare MCP](/reviews/cloudflare-mcp-server/) | Cloud infra | Cloudflare (official) | Remote (Streamable HTTP) | OAuth / API token | 2 (Code Mode) + 16 servers | Yes (Workers free) | Cloudflare platform management |
 | Docker MCP | Containers | Docker (official) | Local (Desktop) | Docker Desktop | Catalog (300+) | Yes (Desktop) | Container management + MCP server discovery |
-| Kubernetes MCP | Cluster mgmt | Red Hat / Community | Local (stdio) | kubeconfig | 15+ | Yes (any cluster) | Kubernetes operations |
+| [Kubernetes MCP](/reviews/kubernetes-mcp-server/) | Cluster mgmt | Red Hat / Community | stdio, SSE, HTTP | kubeconfig | 15+ (6 toolsets) | Yes (any cluster) | Kubernetes operations |
 | Terraform MCP | IaC | HashiCorp (official) | Both (stdio + HTTP) | HCP token | 15+ | Yes (registry) | Infrastructure as code |
 | [AWS MCP](/reviews/aws-mcp-servers/) | Cloud infra | AWS Labs (official) | Local (stdio) + Remote (Knowledge, preview) | AWS credentials | 66 servers | Yes (free tier) | AWS resource management |
 | Azure DevOps MCP | DevOps platform | Microsoft (official) | Local + Remote (planned) | OAuth / PAT | 30+ | Yes (5 users) | Azure DevOps workflows |
@@ -68,19 +68,19 @@ For container management itself, Docker's MCP server handles image building, con
 
 ### Kubernetes MCP — Cluster Operations via Natural Language
 
-**[containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)** | Red Hat / Community | Multiple implementations
+**[containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)** | Red Hat / Community | **[Full review](/reviews/kubernetes-mcp-server/) (4/5)**
 
-The Kubernetes MCP ecosystem is fragmented — there are at least six implementations on GitHub. The most mature is Red Hat's `containers/kubernetes-mcp-server`, a Go binary that interacts directly with the Kubernetes API server (not just wrapping kubectl). Other notable options include `rohitg00/kubectl-mcp-server` (npm/pip installable), `Flux159/mcp-server-kubernetes`, and Microsoft's `Azure/mcp-kubernetes`.
+The Kubernetes MCP ecosystem is fragmented — there are at least six implementations on GitHub. The most mature is Red Hat's `containers/kubernetes-mcp-server`, a Go-native binary that talks directly to the Kubernetes API server (not just wrapping kubectl). 1,300 stars, 285 forks, 747 commits, 58 releases. Other notable options include `Flux159/mcp-server-kubernetes` (1,300 stars, TypeScript, kubectl wrapper), `rohitg00/kubectl-mcp-server` (821 stars, 235+ tools including non-K8s features), and `strowk/mcp-k8s-go` (440 stars, resource-focused).
 
-Red Hat's implementation supports generic CRUD operations on any Kubernetes or OpenShift resource, pod management (list, get, delete, logs, exec), running container images, field selector filtering, and multi-cluster support via kubeconfig. A **read-only mode** prevents write operations — critical for safely connecting AI agents to production clusters.
+Red Hat's implementation organizes capabilities into **6 modular toolsets**: core (pods, resources, events, nodes, metrics), config (kubeconfig, context switching), Helm (chart install/uninstall/list), KubeVirt (VM management), Kiali (service mesh observability), and KCP (multi-tenant workspaces). Enable only what you need with `--toolsets core,config,helm`.
 
-The direct API interaction (rather than shelling out to kubectl) gives better performance and avoids the overhead of spawning processes for each operation.
+The safety model is the strongest in the Kubernetes MCP space: `--read-only` prevents all writes, `--disable-destructive` blocks deletes/updates while allowing creates, denied resource lists block access to sensitive types like Secrets, and automatic redaction strips tokens and credentials from output. Supports stdio, SSE, and Streamable HTTP transports. Distributed as native binary, npm, pip, and Docker image.
 
-**Strengths:** Native Go binary (fast, no runtime dependencies), direct K8s API interaction, multi-cluster support, read-only mode for safety, supports any K8s/OpenShift resource type, field selector filtering.
+**Strengths:** Native Go binary (fast, no runtime dependencies), direct K8s API interaction, 6 modular toolsets, multi-cluster support, read-only and non-destructive modes, automatic secret redaction, TOML config with drop-in directory and SIGHUP reload, OpenTelemetry tracing, supports any K8s/OpenShift resource including CRDs, pod exec capability.
 
-**Weaknesses:** Fragmented ecosystem (6+ competing implementations), no official CNCF or Kubernetes project server, Red Hat's server requires Go build or binary download, Helm/Istio/ArgoCD not included (see `alexei-led/k8s-mcp-server` for those), no remote transport option.
+**Weaknesses:** Still v0.0.x (58 releases, API unstable), 48 open issues including a [security audit with 2 findings](https://github.com/containers/kubernetes-mcp-server/issues/762), [panic bug in pods_log](https://github.com/containers/kubernetes-mcp-server/issues/347), no granular read-only permissions ([#568](https://github.com/containers/kubernetes-mcp-server/issues/568)), no dedicated Job/CronJob tools ([#370](https://github.com/containers/kubernetes-mcp-server/issues/370)), OpenShift in developer preview, KubeVirt eval failures ([#838](https://github.com/containers/kubernetes-mcp-server/issues/838)).
 
-**Best for:** Platform engineers who want AI-assisted Kubernetes operations with safety controls. Use Red Hat's implementation for core K8s operations; use `k8s-mcp-server` if you also need Helm, Istio, or ArgoCD.
+**Best for:** Platform engineers who want AI-assisted Kubernetes operations with real safety controls. The modular architecture lets you start small (core + config) and add capabilities as needed.
 
 ### Terraform MCP — Infrastructure as Code Intelligence
 
