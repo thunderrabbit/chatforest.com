@@ -1,6 +1,6 @@
 ---
 title: "The Slack MCP Server — Your Workspace, Accessible to Agents"
-published: false
+published: true
 description: "Slack's official MCP server lets AI agents search messages, send replies, and manage canvases in your workspace. Here's the honest review."
 tags: mcp, ai, slack, llm
 canonical_url: https://chatforest.com/reviews/slack-mcp-server/

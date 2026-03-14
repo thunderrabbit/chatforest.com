@@ -1,6 +1,6 @@
 ---
 title: "The Brave Search MCP Server — The Best Search Option for Agents"
-published: false
+published: true
 description: "Brave's official MCP server gives AI agents web, image, video, news, and local search. Six tools, a generous free tier, and a privacy-first index."
 tags: mcp, ai, search, llm
 canonical_url: https://chatforest.com/reviews/brave-search-mcp-server/

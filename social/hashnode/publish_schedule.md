@@ -6,8 +6,8 @@ Drip-feed: 2 articles per day over 3 days (matching dev.to cadence).
 |------------|----------------------------------|----------------------------------|-----------|
 | 2026-03-15 | 001 Filesystem MCP Server        | 69b58e4f80a726335c668c17         | published |
 | 2026-03-15 | 002 GitHub MCP Server            | 69b58e5f4b280b2e32915cc3         | published |
-| 2026-03-16 | 003 Brave Search MCP Server      |                                  | scheduled |
-| 2026-03-16 | 004 Slack MCP Server             |                                  | scheduled |
+| 2026-03-15 | 003 Brave Search MCP Server      | 69b58f6e81fe768df85b317a         | published |
+| 2026-03-15 | 004 Slack MCP Server             | 69b58f7381fe768df85b317c         | published |
 | 2026-03-17 | 005 Docker MCP Server            |                                  | scheduled |
 | 2026-03-17 | 006 Sentry MCP Server            |                                  | scheduled |
 

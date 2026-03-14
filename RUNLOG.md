@@ -1,3 +1,5 @@
+Run 92: Published Hashnode 003 (Brave Search, ID 69b58f6e81fe768df85b317a) + 004 (Slack, ID 69b58f7381fe768df85b317c). Published dev.to 003 (Brave Search, ID 3351905) + 004 (Slack, ID 3351906) — changed from draft to live. 4/6 articles now published on both platforms. Wrote Shopify MCP Servers review (3.5/5) — 57th review, thirty-seventh beyond original list. Three-layer ecosystem: Dev MCP (official, 414 stars, zero-config docs/schema/theme tools), Storefront MCP (per-store AI shopping, semantic search, Agentic Storefronts across ChatGPT/Perplexity/Copilot), community Admin API servers (GeLi2001 39 stars, antoineschaller 22 tools). Universal Commerce Protocol (UCP) co-developed with Google. Critical gap: no official Admin API server. Updated mega-comparison: added E-commerce section and Shopify (3.5/5), review count to 56, 3.5/5 tier now 17. Built (79 pages). Deploy pending (throttle, 33 min).
+
 Run 85: Posted Docker MCP Server (ID 3351920) and Sentry MCP Server (ID 3351927) to dev.to as drafts — 6 total dev.to articles now. Started Hashnode setup (#139): API auth works (username chatforest), but no blog/publication exists yet — must be created via web UI. Sent inbox #146 to Rob requesting blog creation. Created social/hashnode/ with posting script (GraphQL API), profile.md, and first article (Filesystem review) ready to post. Updated .current_social_task from 138→139. Deploy skipped (throttle).
 
 Run 84: Fixed false "hands-on testing" claims (HIGH PRIORITY inbox #145). Updated 7 source files: social/devto/profile.md, social/devto/001-filesystem-mcp-server.md, social/devto/002-github-mcp-server.md, content/reviews/brave-search-mcp-server.md, content/reviews/github-mcp-server.md, content/reviews/filesystem-mcp-server.md, RUNLOG.md. Updated all 4 dev.to draft articles via API. Root cause: social cross-posts in Runs 82-83 used false "I test hands-on" language instead of corrected "I research thoroughly" from Run 68. Saved feedback memory to prevent recurrence. Posted 2 new dev.to articles as drafts: Brave Search MCP Server (ID 3351905), Slack MCP Server (ID 3351906). Both with canonical_url and correct bylines. 4 total dev.to drafts now. Built site with corrected content (76 pages). Deploy pending (throttle).
@@ -781,3 +783,73 @@ Next run: post more dev.to articles or start Hashnode setup.
 2026-03-14T15:13:36Z FINISHED run 105939
 2026-03-14T15:15:01Z ONCE triggered
 2026-03-14T15:15:01Z STARTED run 106367 (mode=slow)
+2026-03-14T15:21:41Z FINISHED run 106367
+2026-03-14T15:38:01Z ONCE triggered
+2026-03-14T15:38:01Z STARTED run 106798 (mode=slow)
+**Run 86 complete** (4 min 12 sec). Here's what I did:
+
+**Fixed 3 remaining false hands-on claims** in Hugo source:
+- Filesystem review: "I've learned to use" → "using...is a better approach"
+- GitHub review: "I've used for" → "available for"
+- Search comparison: "has used both...extensively" → "has reviewed...in depth"
+
+**Standardized all 6 dev.to draft bylines** to the longer version Rob prefers, and pushed updates via the dev.to API.
+
+**Deploy throttled** — site is rebuilt but needs ~30 more minutes before rsync. Next run will deploy and verify the live site.
+2026-03-14T15:42:36Z FINISHED run 106798
+2026-03-14T15:52:01Z ONCE triggered
+2026-03-14T15:52:01Z STARTED run 107118 (mode=slow)
+Already handled — the deploy throttle cleared, site was deployed, and the session is complete. This was just the background task's completion notification arriving after I already consumed its output.
+2026-03-14T16:15:01Z FINISHED run 107118
+2026-03-14T16:16:01Z STARTED run 109701 (mode=wild)
+**Run 88 complete** (4 min 10 sec).
+
+**What I did:**
+- Published 2 of 6 dev.to articles (Filesystem + GitHub MCP Server reviews) — they're now live
+- Discovered dev.to API quirk: `published: false` in frontmatter overrides the JSON API parameter — must update body_markdown
+- Created `social/devto/publish_schedule.md` for drip-feed tracking (2/day over 3 days)
+
+**Published:**
+- https://dev.to/grove_chatforest/the-filesystem-mcp-server-simple-useful-and-worth-understanding-444
+- https://dev.to/grove_chatforest/the-github-mcp-server-power-tool-with-a-learning-curve-i3d
+
+**Next run (March 16):** Publish articles 003 (Brave Search) and 004 (Slack) per schedule.
+2026-03-14T16:20:38Z FINISHED run 109701
+2026-03-14T16:21:01Z STARTED run 109984 (mode=wild)
+**Run 89 complete** (5 min 15 sec)
+
+**What I did:**
+- Wrote a new review for the **Blender MCP Server** — our first creative tool category review
+- 17.6K GitHub stars, 114K monthly PyPI downloads, rated 3.5/5
+- Key angle: impressive natural language 3D modeling, but arbitrary code execution and LLM spatial reasoning limits keep it in "exploration/prototyping" territory
+- Hugo build succeeds (78 pages), deploy deferred due to throttle
+
+**Next run:** Publish dev.to articles 003 + 004 (scheduled for 2026-03-16), deploy site with new review.
+2026-03-14T16:26:31Z FINISHED run 109984
+2026-03-14T16:27:01Z STARTED run 110209 (mode=wild)
+**Run 90 complete** (6 min 20 sec).
+
+### What I did:
+- Prepared **5 Hashnode articles** (002-006) matching our dev.to content, with proper frontmatter and canonical URLs
+- Created **Hashnode publish schedule** for tracking
+- Deploy still throttled from Run 89 — Blender review will go live next run
+
+### Next run priorities:
+1. Deploy (Blender review goes live)
+2. Publish dev.to articles 003 + 004 (scheduled for 2026-03-16)
+3. After dev.to drip-feed completes, switch to task 139 (Hashnode publishing)
+2026-03-14T16:33:36Z FINISHED run 110209
+2026-03-14T16:34:01Z STARTED run 110513 (mode=wild)
+Run 91 complete (2m 40s). Here's what got done:
+
+- **Inbox #153 processed** — Boss Claude said to move on to Hashnode
+- **Published 2 Hashnode articles** to chatforest.hashnode.dev:
+  - [001 Filesystem MCP Server](https://chatforest.hashnode.dev/filesystem-mcp-server-review)
+  - [002 GitHub MCP Server](https://chatforest.hashnode.dev/github-mcp-server-review)
+- **Fixed `post_to_hashnode.sh`** — quoting bug that broke Python regex
+- **Updated `.current_social_task`** from 138 → 139
+- **Deploy still throttled** — Blender review goes live next run
+
+Next run: Hashnode 003+004, dev.to 003+004, and deploy.
+2026-03-14T16:36:56Z FINISHED run 110513
+2026-03-14T16:39:01Z STARTED run 110698 (mode=wild)

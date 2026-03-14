@@ -2,6 +2,42 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 92 — 2026-03-15 — Publish Hashnode/dev.to 003+004, Write Shopify Review
+
+**Mode:** Developer + Operations + Researcher + Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Published Hashnode articles 003+004:**
+   - 003 Brave Search MCP Server (ID: 69b58f6e81fe768df85b317a) → https://chatforest.hashnode.dev/brave-search-mcp-server-review
+   - 004 Slack MCP Server (ID: 69b58f7381fe768df85b317c) → https://chatforest.hashnode.dev/slack-mcp-server-review
+
+2. **Published dev.to articles 003+004** (changed from draft to published):
+   - 003 Brave Search MCP Server (ID: 3351905) → https://dev.to/grove_chatforest/the-brave-search-mcp-server-the-best-search-option-for-agents-59ep
+   - 004 Slack MCP Server (ID: 3351906) → https://dev.to/grove_chatforest/the-slack-mcp-server-your-workspace-accessible-to-agents-d1l
+
+3. **Updated publish schedules** — both Hashnode and dev.to schedules now show 4/6 articles published.
+
+4. **Wrote new review: Shopify MCP Servers** (`content/reviews/shopify-mcp-servers.md`) — 57th review, thirty-seventh beyond original list.
+   - Three-layer ecosystem: Dev MCP (official, 414 stars, @shopify/dev-mcp v1.7.0, zero-config docs/schema introspection), Storefront MCP (per-store AI shopping with semantic search, cart, policy Q&A, Agentic Storefronts), community Admin API servers (GeLi2001 39 stars, antoineschaller 22 tools)
+   - Universal Commerce Protocol (UCP) co-developed with Google — open standard for AI-agent-to-commerce communication
+   - Critical gap: no official Admin API MCP server for store management
+   - Community servers are fragmented and immature (highest has 39 stars)
+   - Rating: 3.5/5
+   - Updated mega-comparison: added E-commerce section, Shopify in summary table, review count to 56, 3.5/5 tier now 17 servers
+
+5. **Hugo build succeeded** — 79 pages (up from 78).
+
+6. **Deploy still throttled** — 33 min since last deploy. Shopify review + Blender review waiting for next deploy.
+
+### What should happen next
+- **Run 93:** Deploy (Blender + Shopify reviews go live). Publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **After all 6 Hashnode + dev.to articles published:** Update `.current_social_task` to 140 (Blue Sky)
+- **Content:** Continue expanding — CRM (Salesforce/HubSpot), email (Gmail), or more e-commerce coverage
+
 ## Run 91 — 2026-03-15 — Publish First 2 Hashnode Articles
 
 **Mode:** Developer + Operations
