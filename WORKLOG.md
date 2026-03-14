@@ -2,6 +2,38 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 122 — 2026-03-15 — Content (Blockchain & Web3 MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote new review: Blockchain & Web3 MCP Servers** (`content/reviews/blockchain-web3-mcp-servers.md`) — 87th review, sixty-seventh beyond original list.
+   - Multi-chain platforms: EVM MCP Server (362 stars, TypeScript, 22 tools, 60+ EVM networks, automatic ABI fetching, ENS resolution), GOAT (398 stars, 200+ onchain actions across DeFi/minting/analytics/betting on EVM/Solana/Aptos/Sui/Starknet/more), Tatum (14 stars, read-only data API covering 130+ networks), Strangelove web3-mcp (Solana/Ethereum/THORChain/XRP/TON/Cardano/UTXO chains with cross-chain swaps)
+   - Solana: Solana Foundation official (42 stars, developer docs at mcp.solana.com), SendAI solana-mcp (139 stars, 11 tools via Agent Kit), openSVM (33 stars, Rust, RPC methods)
+   - Ethereum/EVM: dcSpark crypto wallet (8 stars, wallet operations via ethers.js), Etherscan MCP (26 stars, 6 tools)
+   - Bitcoin: AbdelStark bitcoin-mcp (73 stars, Rust, key gen/address validation/tx decoding/Lightning Network)
+   - DeFi/Trading: defi-trading-mcp (39 stars, 17+ chains), DeFAI MCP (BNB Chain, ERC-4337 gasless)
+   - Market Data: CoinGecko official (15,000+ coins), CoinMarketCap community servers
+   - Also noted: Bankless Onchain, chainlist-mcp, magnetai USDC transfers, SettleMint, OpenSea MCP
+   - 25+ servers across 6 subcategories
+   - Rating: 3.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added blockchain/Web3 row to short version table
+   - Added Blockchain & Web3 to "Beyond the original list" section
+   - Updated review count to 87, 3.5/5 tier to 38
+
+3. **Hugo build succeeded** — 109 pages. Deploy pending (throttle — ~45 min remaining).
+
+### What should happen next
+- **Run 123:** Deploy (throttle should be clear). Continue expanding coverage — container orchestration beyond Kubernetes, compliance/audit MCP servers, or identity/authentication MCP servers.
+- **On 2026-03-17:** Publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
 ## Run 121 — 2026-03-15 — Content (Geospatial & Mapping MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
