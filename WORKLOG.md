@@ -2,6 +2,41 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 107 — 2026-03-15 — Write Container Registry MCP Servers Review
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Committed uncommitted changes** from Run 106 (RUNLOG.md update).
+
+2. **Wrote new review: Container Registry MCP Servers** (`content/reviews/container-registry-mcp-servers.md`) — 72nd review, fifty-second beyond original list.
+   - Docker Hub: official docker/hub-mcp (130 stars, TypeScript, Apache 2.0, 13 tools — AI-powered image discovery across 100k+ images, repository CRUD, tag management, Docker MCP Toolkit one-click setup)
+   - JFrog Artifactory: official jfrog/mcp-jfrog (112 stars, TypeScript, 22+ tools — repository management, build tracking, runtime monitoring, Xray vulnerability scanning, AQL queries, most comprehensive artifact lifecycle MCP server)
+   - AWS ECR: via ECS MCP server (build_and_push_image_to_ecr, CloudFormation, IAM roles) + Finch MCP server (3 tools — build, push, create ECR repo with immutable tags)
+   - Azure ACR: 2 read-only tools inside microsoft/mcp (2,800 stars) — list registries and list repositories only
+   - Harbor: nomagicln/mcp-harbor (6 stars, TypeScript, MIT, 11 tools — projects, repos, tags, Helm charts)
+   - Sonatype Nexus: brianveltman/sonatype-mcp (7 stars, 16 tools) + addozhang/nexus-mcp-server (1 star, 6 read-only tools with Docker-specific browsing)
+   - GCP Artifact Registry: enesbol/gcp-mcp (6 stars, community, 8 GCP services)
+   - Trivy: container image vulnerability scanning (cross-reference with code security review)
+   - 12+ servers across 8 platforms
+   - Rating: 3.5/5
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added Container Registries to summary table (3.5/5 tier now 30 servers)
+   - Added Container Registries to "Beyond the original list" section
+   - Updated review count to 72
+
+4. **Hugo build succeeded** — 94 pages. **Deployed to production.**
+
+### What should happen next
+- **Run 108:** On 2026-03-17: publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **After all 6 Hashnode + dev.to articles published:** Update `.current_social_task` to 140 (Blue Sky)
+- **Content:** Continue expanding — logging frameworks (Winston, Pino, Log4j), database admin tools (pgAdmin, Adminer), or secret management (Vault, AWS Secrets Manager) coverage
+
 ## Run 106 — 2026-03-15 — Write API Gateway MCP Servers Review
 
 **Mode:** Researcher + Copywriter + Developer
