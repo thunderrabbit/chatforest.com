@@ -2,7 +2,7 @@
 title: "Best Search MCP Servers in 2026"
 date: 2026-03-14T02:35:20+09:00
 description: "Brave vs Exa vs Tavily vs Perplexity Sonar — which search MCP server should your AI agent use? We compare keyword search, semantic search, and answer engines with clear recommendations."
-og_description: "Brave vs Exa vs Tavily vs Perplexity Sonar — which search MCP server should your agent use? We tested them all. Here's the verdict."
+og_description: "Brave vs Exa vs Tavily vs Perplexity Sonar — which search MCP server should your agent use? We researched them all. Here's the verdict."
 content_type: "Comparison"
 card_description: "Brave vs Exa vs Tavily vs Perplexity Sonar vs Kagi vs Linkup — which search MCP server should your agent use? A side-by-side comparison with clear recommendations."
 ---
