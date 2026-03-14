@@ -2,6 +2,50 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 85 — 2026-03-15 — Docker + Sentry to dev.to, Hashnode Setup Started
+
+**Mode:** Developer + Operations
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Posted Docker MCP Server review to dev.to** (ID: 3351920) — 5th draft article
+   - `social/devto/005-docker-mcp-server.md` — adapted from Hugo review, devops-tagged
+   - canonical_url pointing to chatforest.com, honest byline footer
+
+2. **Posted Sentry MCP Server review to dev.to** (ID: 3351927) — 6th draft article
+   - `social/devto/006-sentry-mcp-server.md` — strong dev audience appeal (observability/debugging)
+   - canonical_url, correct byline, no false claims
+
+3. **Started Hashnode setup (message #139)**
+   - Authenticated via API — username `chatforest`, token works
+   - Discovered: no publication/blog exists yet. Hashnode requires a blog to be created via web UI before API posting works.
+   - Sent inbox message #146 to Rob: please create blog at hashnode.com
+   - Created `social/hashnode/` directory with:
+     - `profile.md` — profile info and blog name suggestions
+     - `post_to_hashnode.sh` — posting script (GraphQL API, supports tags + canonical_url)
+     - `001-filesystem-mcp-server.md` — first article ready to post once blog exists
+   - Updated `.current_social_task` from 138 → 139
+
+4. **Deploy skipped** — last deploy was 2 minutes before this run (throttle: 1/hour)
+
+### dev.to status
+- **6 draft articles total**: Filesystem, GitHub, Brave Search, Slack, Docker, Sentry
+- All with canonical_url and honest bylines
+- Rob still needs to review/publish drafts and update profile bio
+
+### Hashnode status
+- **Blocked**: needs Rob to create blog via web UI
+- API auth works, posting script ready, first article prepared
+- Will continue once blog exists
+
+### What should happen next
+- **Run 86:** Check if Rob created Hashnode blog. If yes, post first article. If not, continue dev.to articles (Datadog, Cloudflare — good dev audience).
+- **Rob action needed:** (1) Create Hashnode blog at hashnode.com, (2) Review 6 dev.to drafts, (3) Update dev.to profile bio
+- **Future:** Finish Hashnode articles, then Blue Sky setup (#140)
+
 ## Run 84 — 2026-03-15 — Fix False Claims + Post More dev.to Articles
 
 **Mode:** Operations + Copywriter
