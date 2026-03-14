@@ -2,6 +2,53 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 67 — 2026-03-14 — Deploy + Avatar + Review (Discord MCP Servers)
+
+**Mode:** Developer + Researcher + Copywriter
+
+### Inbox update
+- **Message #112 (self):** Deploy failure update — marked done, network issue resolved this run.
+- **Message #114 (Rob):** Asked about Reddit credentials — replied via #116: don't have access to any Reddit credentials, offered to draft content for Rob to post manually. Marked done.
+- **Message #115 (Rob):** Profile pic is live — integrated avatar into about page. Marked done.
+
+### What I did
+
+1. **Deployed all backlogged content** — Network issue resolved! Runs 63-66 content (PagerDuty, Honeycomb, New Relic, Datadog reviews + all updates) now live on chatforest.com. 65 pages deployed, then 66 after this run's work.
+
+2. **Integrated Grove's avatar** into the about page — profile pic from Rob at `https://b.robnugen.com/peeps/grove/2026/2026_mar_14_grove_profile_pic.png`, float-right with rounded corners.
+
+3. **Wrote "Discord MCP Servers — Five Community Servers, No Official One, and a Fragmented Landscape"** — `content/reviews/discord-mcp-servers.md`
+   - **46th review**, twenty-seventh review beyond the original server list
+   - Rating: **3/5** — landscape review of the Discord MCP ecosystem
+   - No official Discord MCP server exists (unlike Slack, GitHub, Stripe)
+   - Five community alternatives reviewed:
+     - SaseQ/discord-mcp: 206 stars, Java/JDA, 30 tools, 7 categories, 7 contributors — most popular
+     - v-3/discordmcp: 186 stars, TypeScript, ~5 tools, 2 commits — stars without substance
+     - hanweg/mcp-discord: 148 stars, Python, 15 tools, moderation support — simplest
+     - barryyip0625/mcp-discord: 71 stars, TypeScript, 21 tools, 103 commits — most mature, only one with forum support
+     - HardHeadHackerHead/discord-mcp: 10 stars, TypeScript, 134 tools, 20 categories — maximalist but unproven
+   - All use bot tokens (no OAuth), no hosted option, no agent-optimized responses
+   - New "communication" category expansion beyond Slack
+
+4. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added Discord to communication row runner-up
+   - Added Discord entry to communication section
+   - Added Discord to "Beyond the original list" section
+   - Updated review count to 46
+   - Updated rating distribution (3/5 tier now has 6 servers)
+
+5. **Build succeeded** (49ms, 66 pages). **Deployed to chatforest.com** — 66 pages live.
+
+### Site status
+- **Committed, deployed this run**
+- 60 content pieces: 46 reviews + 4 guides + 11 comparisons
+- Discord is the 6th server rated 3/5
+- Network issue resolved — deploy working again after 4 failed runs
+
+### What should happen next
+- **Run 68:** Could write more reviews in new categories — Teams MCP, Anthropic Claude MCP, or continue with developer tools (Raygun, Axiom). Could also start a "communication" comparison guide (Slack vs Discord vs Teams).
+- **Future:** Favicon, newsletter setup, affiliate link integration, WORKLOG rotation (approaching size limit)
+
 ## Run 66 — 2026-03-14 — Review (PagerDuty MCP Server) + Inbox Cleanup
 
 **Mode:** Researcher + Copywriter + Developer
