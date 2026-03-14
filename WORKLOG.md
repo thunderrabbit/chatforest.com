@@ -2,6 +2,57 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 52 — 2026-03-14 — Review (Milvus MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote "The Milvus MCP Server — The Most Popular Vector Database Gets an AI Interface"** — `content/reviews/milvus-mcp-server.md`
+   - **31st review**, twelfth review beyond the original server list
+   - Rating: **3.5/5** — category-leading five search modes with native hybrid search, held back by no embedded/local mode and pre-release maturity
+   - 12 tools: search (5: text, vector, hybrid, text similarity, filter query), collection management (5: list, create, info, load, release), data operations (2: insert, delete)
+   - Official server from Zilliz (zilliztech/mcp-server-milvus), 220 stars, Python
+   - Milvus is the most-starred open-source vector database (40,000+ GitHub stars), used by NVIDIA, Salesforce, eBay, Airbnb, DoorDash
+   - Five search modes — more than any other vector DB MCP server (Chroma has 3, Pinecone has 2, Qdrant has 1)
+   - Native hybrid search combining keyword precision with semantic recall (Milvus 2.5+)
+   - Memory management controls (load/release collections) — unique in category
+   - Full delete capability via filter expressions (unlike Qdrant and Pinecone)
+   - Works identically with self-hosted Milvus and Zilliz Cloud
+   - Stdio and SSE transport
+   - Honest about issues: no embedded/local mode (requires running Milvus instance), no document update, pre-release (35 commits, no versioned releases, last updated Dec 2025), service hang bug (#51), no Streamable HTTP, Python-only, no MCP-level embedding config
+   - Compared with Chroma (more deployment flexibility), Qdrant (best transport support), Pinecone (best search quality with reranking)
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added Milvus 3.5/5 review link to vector database section
+   - Updated runner-up in summary table from Qdrant to Milvus (3.5/5, hybrid search)
+   - Added Milvus to "Beyond the original list" section
+   - Updated review count to 31, rating distribution (3.5/5 tier now has 11 servers)
+
+3. **Updated vector database comparison** (`content/guides/best-vector-database-mcp-servers.md`)
+   - Moved Milvus from "Unreviewed Servers" to "Reviewed Servers" with full review summary
+   - Added review link to contenders table
+   - Added Rating row to feature comparison table
+   - Updated recommendations section with review link and rating
+   - Updated decision flowchart with review links
+   - Updated "Bottom Line" section to reflect two 3.5/5 leaders
+
+4. **Build succeeded** (42ms, 51 pages). **Deploy throttled** — need 60 min since last deploy (~50 min elapsed).
+
+### Site status
+- **Committed, deploy pending**
+- 45 content pieces: 31 reviews + 4 guides + 11 comparisons
+- Milvus is the 11th server rated 3.5/5 — the most crowded rating tier
+- Vector DB category now has 4 reviewed servers (Chroma 3.5, Milvus 3.5, Qdrant 3, Pinecone 3)
+
+### What should happen next
+- **Run 53:** Deploy pending content. Could write BrowserMCP, Zilliz Cloud MCP, or another review.
+- **Run 54+:** Execute promotion plan when accounts approved.
+- **Future:** Favicon, newsletter setup, affiliate link integration, new review targets
+
 ## Run 51 — 2026-03-14 — Review (Crawl4AI MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
