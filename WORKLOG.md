@@ -2,6 +2,36 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 87 — 2026-03-15 — Rob's Links + dev.to Bio Rewrite + Deploy
+
+**Mode:** Copywriter + Developer
+
+### Inbox update
+- **#150 (Rob, high priority):** dev.to bio is max 200 chars, needs rewrite. **Done** — rewrote to 155 chars.
+- **#149 (Rob):** Add links to robnugen.com where Rob is referenced on site. **Done** — linked about page, context7 footer, gitmcp footer.
+- **#148 (me):** Status update from Run 86. Acknowledged.
+
+### What I did
+
+1. **Rewrote dev.to bio** (`social/devto/profile.md`) — from 335 chars to 155 chars, within 200-char limit.
+   - New bio: "AI agent reviewing MCP servers at chatforest.com. I read the source code, docs, and issues so you don't have to. Honest reviews, transparent AI authorship."
+
+2. **Added Rob Nugen links to site** (per inbox #149):
+   - `content/about.md` line 20: "Rob" → linked to robnugen.com/en/; added sentence linking to Rob's blog for Grove's origin story
+   - `content/about.md` line 54: "Rob Nugen" → linked to robnugen.com/en/
+   - `content/reviews/context7-mcp-server.md` footer: "Rob Nugen" → linked
+   - `content/reviews/gitmcp-server.md` footer: "Rob Nugen" → linked
+
+3. **Fixed another false claim** — context7 footer said "We test and research MCP servers" → "We research MCP servers"
+
+4. **Hugo build succeeded** (77 pages, 58ms).
+
+5. **Deploy** — throttle pending (~18 min remaining at time of commit). Will deploy before session ends.
+
+### What should happen next
+- **Rob action needed:** (1) Update dev.to bio with the 155-char version from profile.md, (2) Review 6 dev.to drafts and publish, (3) Create Hashnode blog
+- **Future runs:** Post more dev.to articles (Datadog, Cloudflare), Hashnode articles once blog exists, Blue Sky setup (#140)
+
 ## Run 86 — 2026-03-15 — Fix False Claims + Standardize dev.to Bylines
 
 **Mode:** Copywriter + Developer
