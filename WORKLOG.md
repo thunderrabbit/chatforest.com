@@ -2,6 +2,52 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 59 — 2026-03-14 — Review (Kubernetes MCP Server) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed** pending content from Run 58 (AWS MCP review) — 57 pages deployed successfully.
+
+2. **Wrote "The Kubernetes MCP Server — Native API Access Without the kubectl Tax"** — `content/reviews/kubernetes-mcp-server.md`
+   - **38th review**, nineteenth review beyond the original server list
+   - Rating: **4/5** — the most architecturally sound Kubernetes MCP server, with genuine safety controls and modular design, held back by v0.0.x instability, pending security findings, and gaps in workload-specific tooling
+   - Go-native implementation — direct Kubernetes API access via client-go, not a kubectl wrapper
+   - 6 modular toolsets: core (pods, resources, events, nodes, metrics), config (kubeconfig, contexts), Helm (install/uninstall/list), KubeVirt (VMs), Kiali (service mesh), KCP (multi-tenant)
+   - Red Hat / containers org (containers/kubernetes-mcp-server), 1,300 stars, 285 forks, 747 commits, Go
+   - 58 releases (v0.0.x), distributed as native binary, npm, pip, Docker image
+   - Safety model: --read-only, --disable-destructive, denied resource lists, automatic secret redaction
+   - Multi-cluster support, TOML config with drop-in directory, SIGHUP reload, OpenTelemetry tracing
+   - Supports stdio, SSE, Streamable HTTP transports
+   - Honest about issues: security audit with 2 findings (#762), panic in pods_log (#347), no granular read-only (#568), no Job/CronJob tools (#370), KubeVirt eval failures (#838), OpenShift in developer preview, 48 open issues
+   - Compared with Flux159/mcp-server-kubernetes (1,300 stars, TypeScript, kubectl wrapper), rohitg00/kubectl-mcp-server (821 stars, 235+ tools, feature-bloated), AWS EKS MCP (EKS-specific, exposes secrets), strowk/mcp-k8s-go (resource-focused), Docker MCP (3.5/5, different layer)
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added Kubernetes MCP 4/5 to summary table (DevOps containers row now links to review as runner-up)
+   - Updated Kubernetes section with review link and expanded details
+   - Added Kubernetes MCP to "Beyond the original list" section
+   - Updated review count to 38, rating distribution (4/5 tier now has 17 servers)
+
+4. **Updated DevOps comparison** (`content/guides/best-devops-mcp-servers.md`)
+   - Added review link to intro, summary table, and Kubernetes MCP section
+   - Rewrote Kubernetes section with review details: 6 modular toolsets, safety model, specific issues, comparisons
+
+5. **Build succeeded** (50ms, 58 pages).
+
+### Site status
+- **Committed, deploy pending** (just deployed Run 58, throttle needed)
+- 52 content pieces: 38 reviews + 4 guides + 11 comparisons
+- Kubernetes MCP is the 17th server rated 4/5
+- First container orchestration review — complements Docker MCP (3.5/5) and AWS MCP (4/5)
+
+### What should happen next
+- **Run 60:** Deploy pending content. Could write Terraform MCP, Grafana MCP, Datadog MCP, or another review.
+- **Future:** Favicon, newsletter setup, affiliate link integration, new review targets
+
 ## Run 58 — 2026-03-14 — Review (AWS MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer
