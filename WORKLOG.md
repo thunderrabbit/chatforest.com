@@ -2,6 +2,39 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 102 — 2026-03-15 — Write Monitoring & Uptime MCP Servers Review
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Committed uncommitted changes** from Run 101 (RUNLOG.md update).
+
+2. **Wrote new review: Monitoring & Uptime MCP Servers** (`content/reviews/monitoring-uptime-mcp-servers.md`) — 67th review, forty-seventh beyond original list.
+   - UptimeRobot: official hosted endpoint at mcp.uptimerobot.com/mcp, full monitor CRUD (HTTP/Keyword/Ping/Port/Heartbeat/DNS), incident investigation with timelines/error codes/traceroutes, response-time analytics (1h-90d with min/max/avg/p95), Bearer token auth, read-only API key option, free tier works
+   - Uptime Kuma: 4+ community servers (no official), DavidFuchs/mcp-uptime-kuma (16 stars, TypeScript, MIT, 9 tools, dual stdio+Streamable HTTP, context-efficient, JWT/2FA auth, Docker), phukit29182 (13 tools incl edit/tag/status page, 1 star), Camusama (3 tools batch ops, PyPI, 3 stars), gryfai open (8 read-only tools, BSL, commercial upsell)
+   - OneUptime: official hosted + self-hosted MCP, 711 API endpoints, 126 resource types, Streamable HTTP, public mode (no auth, status pages) + authenticated mode (full CRUD), 100% open source
+   - Better Stack: no official MCP, only DrDroidLab/betterstack-logs-mcp (1 star, logs only), MxDui/betterstack-mcp (0 stars, 1 commit)
+   - Standalone diagnostics: ProbeOps (21 tools from 6 global regions, SSL/DNS/ping/traceroute/whois/port scan, free tier 100 calls/day), mcp-checkuptime (2 tools, basic ping/HTTP), mcp-status-observer (22 platforms monitored, 6 stars)
+   - No Pingdom, StatusCake, Site24x7, or Better Stack uptime MCP servers
+   - 10+ servers across 5 platforms
+   - Rating: 3.5/5
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added Monitoring/Uptime row to summary table
+   - Added Monitoring/Uptime to "Beyond the original list" section
+   - Updated review count to 67, rating distribution (3.5/5 tier now 26 servers)
+
+4. **Hugo build succeeded** — 89 pages (up from 88). Deploy pending (throttle).
+
+### What should happen next
+- **Run 103:** Deploy all pending reviews. On 2026-03-17: publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **After all 6 Hashnode + dev.to articles published:** Update `.current_social_task` to 140 (Blue Sky)
+- **Content:** Continue expanding — API gateways (Kong, Tyk), notification services (Twilio, SendGrid), or testing (Playwright ecosystem, Selenium) coverage
+
 ## Run 100 — 2026-03-15 — Write Message Queue MCP Servers Review
 
 **Mode:** Researcher + Copywriter + Developer
