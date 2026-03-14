@@ -256,6 +256,7 @@ The official SQLite server is still worth reading as a learning resource. The in
 - **Data analysis / reporting** → DuckDB (MotherDuck)
 - **Development / prototyping** → DBHub or jparkerweb/mcp-sqlite
 - **Database performance tuning** → Postgres MCP Pro or Neon MCP (both have EXPLAIN + tuning)
+- **Vector search / RAG** → [Chroma MCP](/reviews/chroma-mcp-server/) (3.5/5, 13 tools, four deployment modes)
 - **Learning MCP** → Read the official SQLite server's source code
 
 ## The Bottom Line

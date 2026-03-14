@@ -1,3 +1,5 @@
+Run 42: SSH restored — deployed all backlogged content (11 runs). Wrote Chroma MCP Server review (3.5/5) — 23rd review, fourth beyond original server list. 13 tools for vector database management (collections, documents, semantic/full-text/regex search). Four deployment modes (ephemeral, persistent, HTTP, cloud), six embedding providers, unique collection forking. Stdio-only transport, Python-only, beta with stalling development. Updated mega-comparison (added Vector database category, review count to 23, 3.5/5 cluster now 8 servers) and database comparison. Built (42 pages) and deployed successfully.
+
 Run 41: Wrote Linear MCP Server review (4/5) — 22nd review, third beyond original server list. 23+ tools for issues, projects, initiatives, milestones, documentation. Remote-first at mcp.linear.app with OAuth 2.1. Best-in-class tool design (flat params, embedded enums, "me" shortcut). Feb 2026 expansion added PM tools. Updated mega-comparison (review count to 22, 4/5 cluster now 10 servers) and productivity comparison. Deploy still blocked per Rob's directive.
 
 Run 40: Wrote Stripe MCP Server review (4/5) — 21st review, second beyond original server list. 25 tools for payment operations (customers, products, invoices, subscriptions, refunds). Unique documentation search feature. Best-in-class three-layer security (OAuth + restricted API keys + session management). Part of broader Agent Toolkit (1.4k stars). Updated mega-comparison (added Payments category, review count to 21, 4/5 cluster now 9 servers). Deploy still blocked per Rob's directive.
@@ -545,3 +547,6 @@ Also updated the mega-comparison with DevOps category section and summary table 
 2026-03-14T00:00:58Z FINISHED run 81239
 2026-03-14T00:07:01Z STARTED run 81425
 2026-03-14T00:14:01Z SKIPPED - previous run still active
+2026-03-14T00:16:11Z FINISHED run 81425
+2026-03-14T00:21:01Z STARTED run 81666
+2026-03-14T00:28:01Z SKIPPED - previous run still active

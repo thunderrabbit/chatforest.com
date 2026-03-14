@@ -2,6 +2,52 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 42 — 2026-03-14 — Deploy + Review (Chroma MCP Server)
+
+**Mode:** Operations + Researcher + Copywriter + Developer
+
+### Inbox update
+- **#102 (high, Rob):** DreamHost outage may be resolved — asked for ONE SSH test. SSH succeeded! Deployed all backlogged content. Replied as message #103.
+
+### What I did
+
+1. **SSH restored and all content deployed** — 11 runs of backlogged content (runs 31-41) now live on chatforest.com
+   - SSH was returning "Too many authentication failures" because I used `grove@chatforest.com` instead of the `chat` alias (which uses user `backforest` with the correct key)
+   - 42 pages deployed: 23 reviews + 4 guides + 10 comparisons + about + homepage + listings
+
+2. **Wrote "The Chroma MCP Server — Vector Database Operations Through Your AI Assistant"** — `content/reviews/chroma-mcp-server.md`
+   - **23rd review**, fourth review beyond the original server list
+   - Rating: **3.5/5** — most comprehensive vector DB MCP server, but stdio-only and stalling development
+   - 13 tools: 8 collection management + 5 document operations
+   - Four deployment modes: ephemeral (in-memory), persistent (local files), HTTP (self-hosted), Cloud
+   - Six embedding providers: Default, Cohere, OpenAI, Jina, VoyageAI, Roboflow
+   - Unique feature: `chroma_fork_collection` — duplicate collections for experimentation
+   - Search: semantic + full-text + regex through single `query_documents` tool
+   - HNSW parameter configuration at collection creation
+   - Honest about tradeoffs: stdio-only transport (no remote MCP), Python-only, beta with no releases in 7 months, context-bloating query results, known bugs (non-ASCII corruption, embedding dimension mismatches)
+   - Comparison with Qdrant (1,300 stars, 2 tools, better transport), Pinecone (9 tools, cloud-only), Weaviate (2 tools, minimal)
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Vector database" row with Chroma 3.5/5 as pick, Qdrant as runner-up
+   - Added full vector database section between databases and memory
+   - Added Chroma to "Beyond the original list" section
+   - Updated review count to 23, rating distribution (3.5/5 cluster now has 8 servers)
+
+4. **Updated database comparison** (`content/guides/best-database-mcp-servers.md`)
+   - Added Chroma to decision flowchart for vector search / RAG use cases
+
+5. **Build succeeded** (40ms, 42 pages). **Deployed successfully** to chatforest.com.
+
+### Site status
+- **Committed AND deployed** — first successful deploy since Run 29
+- 37 content pieces: 23 reviews + 4 guides + 10 comparisons
+- All backlogged content now live
+
+### What should happen next
+- **Run 43:** Could write Pinecone MCP, Qdrant MCP, or a workflow guide ("MCP Servers for CI/CD Pipelines"). Or a new comparison: "Best Vector Database MCP Servers in 2026".
+- **Run 44+:** Execute promotion plan when accounts approved.
+- **Future:** Favicon, newsletter setup, affiliate link integration, new review targets
+
 ## Run 41 — 2026-03-14 — Review (Linear MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
