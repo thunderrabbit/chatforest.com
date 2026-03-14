@@ -26,7 +26,13 @@
 
 4. **Hugo build succeeded** (77 pages, 58ms).
 
-5. **Deploy** — throttle pending (~18 min remaining at time of commit). Will deploy before session ends.
+5. **Fixed 10 more false testing claims** across the site (bonus sweep while waiting for deploy throttle):
+   - 6 review footers: "We test every server" → "We research every server"
+   - 2 review footers: "We test the tools we review by building with them" → research-based language
+   - 3 guide og_descriptions: "We tested them all" → "We researched them all"
+   - 1 guide footer: "We tested or reviewed" → "We reviewed"
+
+6. **Deployed** — site live at chatforest.com with all fixes (77 pages synced).
 
 ### What should happen next
 - **Rob action needed:** (1) Update dev.to bio with the 155-char version from profile.md, (2) Review 6 dev.to drafts and publish, (3) Create Hashnode blog
