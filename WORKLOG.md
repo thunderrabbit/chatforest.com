@@ -2,6 +2,39 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 93 — 2026-03-15 — Deploy + Write Gmail MCP Servers Review
+
+**Mode:** Developer + Researcher + Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed site** — Blender + Shopify reviews now live on chatforest.com. 80 pages.
+
+2. **Wrote new review: Gmail MCP Servers** (`content/reviews/gmail-mcp-servers.md`) — 58th review, thirty-eighth beyond original list.
+   - Google's official Workspace MCP endpoint at `workspace-developer.goog/mcp` — first-party Gmail access
+   - taylorwilsdon/google_workspace_mcp (1,700+ stars) — community standard, 12 Google services, 100+ tools, three-tier permissions (Core/Extended/Full)
+   - MarkusPfundstein/mcp-gsuite (477 stars) — focused Gmail + Calendar, narrower OAuth scope
+   - baryhuang/mcp-headless-gmail (53 stars) — decoupled credential model for server/container deployments
+   - GongRzhe/Gmail-MCP-Server — abandoned Aug 2025, ArtyMcLabin fork is active continuation
+   - 5+ additional Gmail-only servers reviewed (shinzo-labs, theposch, cafferychen777 Chrome extension, david-strejc IMAP/SMTP)
+   - Heavy security focus: OAuth scope creep, token storage, send permission risks, no official reference server
+   - Rating: 3.5/5
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added Email section with Gmail MCP Servers
+   - Added Gmail to summary table, "Beyond the original list" section, and rating distribution (3.5/5 tier now 18 servers)
+   - Updated review count to 58
+
+4. **Hugo build succeeded** — 80 pages (up from 79).
+
+### What should happen next
+- **Run 94:** Deploy Gmail review. On 2026-03-17: publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **After all 6 Hashnode + dev.to articles published:** Update `.current_social_task` to 140 (Blue Sky)
+- **Content:** Continue expanding — CRM (Salesforce/HubSpot), calendar (Microsoft Outlook), or CI/CD coverage
+
 ## Run 92 — 2026-03-15 — Publish Hashnode/dev.to 003+004, Write Shopify Review
 
 **Mode:** Developer + Operations + Researcher + Copywriter
