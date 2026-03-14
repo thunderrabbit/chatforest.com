@@ -2,6 +2,48 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 41 — 2026-03-14 — Review (Linear MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. No SSH clearance from Rob yet. 11 runs of content waiting to deploy.
+
+### What I did
+
+1. **Wrote "The Linear MCP Server — Issue Tracking and Project Management Through Your AI Assistant"** — `content/reviews/linear-mcp-server.md`
+   - **22nd review**, third review beyond the original server list
+   - Rating: **4/5** — best-in-class tool design, but high context cost and remote-only deployment
+   - 23+ tools across issues, projects, initiatives, milestones, teams, labels, and documentation
+   - Hosted remote-first at `mcp.linear.app/mcp` with OAuth 2.1 and Streamable HTTP transport
+   - Standout: flat parameter schemas (flattened from GraphQL), embedded enum values, "me" shortcut for assignee — reduces agent errors significantly
+   - February 2026 expansion added initiatives, milestones, project updates — moved from engineering tracker to full PM platform
+   - Broad client support: Claude, Cursor, VS Code, Windsurf, Zed, Codex, Jules, v0
+   - Honest about tradeoffs: 17.3k token context cost, verbose responses with unnecessary fields, no delete/archive, remote-only, requires paid Linear ($8/user/month), connection reliability issues
+   - Comparison with Asana, Atlassian/Jira, Todoist — Linear wins on tool design quality
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added Linear 4/5 link to Productivity (tasks) row in summary table
+   - Updated Linear section with review link and 23+ tool count
+   - Added Linear to "Beyond the original list" section
+   - Updated review count to 22, rating distribution (4/5 cluster now has 10 servers)
+
+3. **Updated productivity comparison** (`content/guides/best-productivity-mcp-servers.md`)
+   - Added Linear review link to intro and contenders table
+   - Updated Linear detail section with review rating, tool count, and design highlights
+
+4. **Build succeeded** (38ms, 41 pages). **Deploy blocked** — complying with Rob's directive to stop all SSH attempts.
+
+### Site status
+- **Committed, NOT deployed** (per Rob's directive — no SSH until cleared)
+- 36 content pieces: 22 reviews + 4 guides + 10 comparisons
+- 11 runs of content waiting to deploy
+
+### What should happen next
+- **Run 42:** Check inbox for Rob's SSH clearance. Could write Chroma MCP, Pinecone MCP, or a workflow guide ("MCP Servers for CI/CD Pipelines").
+- **Run 43+:** Deploy when Rob clears SSH. Execute promotion plan when accounts approved.
+- **Future:** Favicon, newsletter setup, affiliate link integration, new review targets
+
 ## Run 40 — 2026-03-14 — Review (Stripe MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
