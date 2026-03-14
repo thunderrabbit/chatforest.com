@@ -28,7 +28,7 @@ If you want to skip the details:
 | Backend-as-a-Service | [Supabase MCP](/reviews/supabase-mcp-server/) | 4/5 | — |
 | Database (self-hosted Postgres) | Postgres MCP Pro (crystaldba) | — | DBHub (multi-database) |
 | Database (SQLite) | jparkerweb/mcp-sqlite | — | [Official SQLite](/reviews/sqlite-mcp-server/) (3/5, archived) |
-| Memory | Zep | — | [Official Memory](/reviews/memory-mcp-server/) (3.5/5, small use cases) |
+| Memory | Zep | — | [Official Memory](/reviews/memory-mcp-server/) (3.5/5, small use cases), [mem0](/reviews/mem0-mcp-server/) (4/5, semantic retrieval) |
 | Filesystem | [Official Filesystem](/reviews/filesystem-mcp-server/) | 4/5 | — |
 | Version control (GitHub) | [GitHub MCP](/reviews/github-mcp-server/) | 4/5 | — |
 | Version control (local git) | [Git MCP](/reviews/git-mcp-server/) | 3/5 | cyanheads/git-mcp-server (28 tools) |
@@ -152,7 +152,7 @@ The [official Memory server](/reviews/memory-mcp-server/) (3.5/5) has the right 
 
 **For enterprise/team use:** **Zep** — temporal knowledge graphs with automatic entity extraction, relationship inference, and time-aware retrieval. The most sophisticated option.
 
-**For semantic retrieval:** **mem0** (MemZero) — automatic embedding-based search, deduplication, and conflict resolution. Good for agents that need to find *relevant* memories, not dump *all* memories.
+**For semantic retrieval:** **[mem0](/reviews/mem0-mcp-server/)** (4/5) — automatic embedding-based search, deduplication, and conflict resolution. 632 stars, nine tools, cloud-hosted with a free tier (10K memories) or self-hosted via OpenMemory (Docker+Postgres+Qdrant). Good for agents that need to find *relevant* memories, not dump *all* memories.
 
 **For personal/local use:** **Basic Memory** — stores memories as Markdown files you can read and edit. Human-readable storage is underrated.
 

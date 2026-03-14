@@ -66,7 +66,7 @@ The MCP server exposes 13 read-only tools across users, threads, graph nodes, ed
 
 ## For Semantic Retrieval: mem0
 
-**[mem0](https://github.com/mem0ai/mem0)** (49,700 stars on the main repo, 630 on the MCP server) takes the vector search approach. Instead of graph traversal, it embeds memories and retrieves them by semantic similarity. Think "find memories related to this topic" rather than "traverse the graph from this entity."
+**[mem0](/reviews/mem0-mcp-server/)** (4/5) — (49,800 stars on the main repo, 632 on the MCP server) takes the vector search approach. Instead of graph traversal, it embeds memories and retrieves them by semantic similarity. Think "find memories related to this topic" rather than "traverse the graph from this entity."
 
 Nine MCP tools cover the full CRUD cycle: `add_memory`, `search_memories`, `get_memories`, `update_memory`, `delete_memory`, plus entity management. Memories can be scoped to users, agents, apps, or individual runs — a feature the official server lacks entirely.
 
