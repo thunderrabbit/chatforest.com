@@ -9,7 +9,7 @@ card_description: "We've reviewed 28 MCP servers across 11 categories. Here are 
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [47 in-depth reviews](/reviews/) and [11 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [47 in-depth reviews](/reviews/) and [12 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -32,7 +32,7 @@ If you want to skip the details:
 | Filesystem | [Official Filesystem](/reviews/filesystem-mcp-server/) | 4/5 | — |
 | Version control (GitHub) | [GitHub MCP](/reviews/github-mcp-server/) | 4/5 | — |
 | Version control (local git) | [Git MCP](/reviews/git-mcp-server/) | 3/5 | cyanheads/git-mcp-server (28 tools) |
-| Communication | [Slack MCP](/reviews/slack-mcp-server/) | 4/5 | [Teams MCP](/reviews/teams-mcp-servers/) (3.5/5, official + community), [Discord MCP](/reviews/discord-mcp-servers/) (3/5, community) |
+| Communication | [Slack MCP](/reviews/slack-mcp-server/) | 4/5 | [Teams MCP](/reviews/teams-mcp-servers/) (3.5/5, official + community), [Discord MCP](/reviews/discord-mcp-servers/) (3/5, community). [Full comparison →](/guides/best-communication-mcp-servers/) |
 | Observability | [Sentry MCP](/reviews/sentry-mcp-server/) | 4/5 | [Grafana MCP](/reviews/grafana-mcp-server/) (4/5, open source) |
 | Image generation | Multi-provider servers | — | Not [EverArt](/reviews/everart-mcp-server/) (2.5/5) |
 | Documentation | [Context7](/reviews/context7-mcp-server/) | 3.5/5 | GitMCP (free, any repo) |
@@ -186,6 +186,8 @@ These categories each have a clear default choice:
 **[Teams MCP Servers](/reviews/teams-mcp-servers/) (3.5/5)** — Microsoft shipped an official Work IQ Teams server (24 tools, hosted, OAuth via Entra ID) as part of the microsoft/mcp catalog. Full CRUD for chats, channels, teams, and members. Still in preview, lacks search and file operations, plain text only. Community alternatives from InditexTech (358 stars, 5 tools, zero open issues, Docker) and floriscornel (63 stars, 25 tools, KQL search, file uploads) fill the gaps. A half-step behind Slack.
 
 **[Discord MCP Servers](/reviews/discord-mcp-servers/) (3/5)** — No official Discord MCP server exists. Five community alternatives fill the gap, led by SaseQ/discord-mcp (206 stars, Java, 30 tools) and hanweg/mcp-discord (148 stars, Python, 15 tools). All require bot tokens (no OAuth), no hosted option. The contrast with Slack's first-party server is stark — Discord's MCP story is fragmented and immature.
+
+**Full comparison:** [Best Communication MCP Servers in 2026](/guides/best-communication-mcp-servers/)
 
 ---
 

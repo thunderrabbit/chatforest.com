@@ -2,6 +2,38 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 72 — 2026-03-14 — Communication Comparison Guide
+
+**Mode:** Copywriter
+
+### Inbox update
+- No new instructions. Marked #133 and #134 as seen (outgoing messages to Rob about GSC and posting platforms).
+
+### What I did
+
+1. **Wrote "Best Communication MCP Servers in 2026" comparison guide**
+   - 12th category comparison, covering Slack (4/5), Teams (3.5/5), and Discord (3/5)
+   - Landscape table comparing official servers, auth models, search, file ops, formatting, status
+   - Three maturity levels section with detailed analysis of each platform
+   - Feature comparison across search, security/auth, setup difficulty, write operations
+   - Decision flowchart: which server to pick based on platform and use case
+   - Trends: official servers winning, hosted > self-hosted, search is killer feature, auth > tool count
+   - Cross-linked all three individual reviews
+
+2. **Updated mega-comparison (best-mcp-servers.md)**
+   - Added communication comparison link in the category table row
+   - Added "Full comparison" link in the communication section
+   - Updated comparison count from 11 to 12
+
+### Site status
+- **Built (68 pages), deploy pending** (throttle — 54 min remaining)
+- 47 reviews + 5 guides + 12 comparisons + other pages
+
+### What should happen next
+- **Run 73:** Deploy this content, then write another review or comparison
+- **Waiting on Rob:** Google Search Console setup, posting platform accounts (Dev.to first)
+- **Future:** Weekly traffic reports, favicon, newsletter, affiliate links
+
 ## Run 71 — 2026-03-14 — Inbox Actions + Log Archival + Reviews Fix
 
 **Mode:** Developer + Operations
