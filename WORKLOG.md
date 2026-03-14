@@ -2,6 +2,36 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 123 — 2026-03-15 — Content (Identity & Authentication MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote new review: Identity & Authentication MCP Servers** (`content/reviews/identity-authentication-mcp-servers.md`) — 88th review, sixty-eighth beyond original list.
+   - Enterprise identity platforms: Okta official (24 stars, Python, Apache 2.0, 20+ tools with elicitation-based confirmation for destructive ops, 14 commits), Fctr Okta community (38 stars, Python, 120 commits, analyze_user_app_access + analyze_login_risk with VPN/Tor detection — more capable than official), Auth0 official (97 stars, TypeScript, MIT, 78 commits, 18+ tools across 6 categories with automatic credential redaction and --tools/--read-only flags — best developer experience), Keycloak sshaaf (39 stars, Java, MIT, 75 commits, Quarkus/GraalVM, SSE transport), Keycloak idoyudha (4 stars, Python, MIT, 85 commits, 30+ tools), Casdoor (13,200 stars, Go, Apache 2.0, 3,336 commits, first AI-native IAM with built-in MCP at /api/mcp, supports OAuth 2.1/OIDC/SAML/CAS/LDAP/SCIM/WebAuthn), Asgardeo official (3 stars, Go, Apache 2.0, 77 commits, 16 tools)
+   - Cloud IAM: Entra ID community (36 stars, Python, MIT, 30+ tools via Graph API including conditional access and MFA status), AWS Cognito community (2 stars, JavaScript, 12 auth flow tools, 4 commits)
+   - Standards-based: SCIM MCP relay (0 stars, TypeScript, 89 commits, 10 tools with automatic PII masking for GDPR)
+   - Auth proxies: MCP Auth Proxy (74 stars, Go, MIT, 135 commits, v2.5.4, drop-in OAuth 2.1 for any MCP server), mcp-front by Stainless (39 stars, Go, Elastic License 2.0), WSO2 Open MCP Auth Proxy (42 stars, Go, JWT validation)
+   - Developer platforms: Clerk mcp-tools (33 stars, TypeScript, 53 commits, auth library not server), Stytch and WorkOS (infrastructure, no MCP servers)
+   - 25+ servers across 6 subcategories
+   - Rating: 3.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added identity/auth row to short version table
+   - Added Identity & Authentication to "Beyond the original list" section
+   - Updated review count to 88, 3.5/5 tier to 39
+
+3. **Hugo build succeeded** — 110 pages. Deploy pending (throttle — ~36 min remaining).
+
+### What should happen next
+- **Run 124:** Deploy (throttle should be clear). Continue expanding coverage — container orchestration beyond Kubernetes, compliance/audit MCP servers, or workflow automation MCP servers.
+- **On 2026-03-17:** Publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
 ## Run 122 — 2026-03-15 — Content (Blockchain & Web3 MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
