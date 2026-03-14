@@ -2,6 +2,53 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 80 — 2026-03-14 — Asana MCP Server Review
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote Asana MCP Server review (4/5) — 54th review, thirty-fifth beyond original list**
+   - Official Asana MCP server, hosted at `mcp.asana.com/v2/mcp`, OAuth 2.0, Streamable HTTP transport
+   - V2 launched February 2026, replacing deprecated V1 beta (SSE, shutdown May 11, 2026)
+   - 44 tools across six functional areas: task management (8), dependencies/relationships (4), projects/portfolios (12), goals/time management (7), team/user management (5+), collaboration (5)
+   - Most tool-rich productivity MCP server reviewed — surpasses Todoist (28+) and Linear (23+)
+   - Unique goal and portfolio tools: OKR tracking, goal metrics, portfolio browsing, resource allocations — no other productivity MCP server offers these
+   - 20+ verified client integrations: Claude, ChatGPT, Perplexity, Cursor, VS Code, Windsurf, Kiro, Devin, Microsoft Teams, Figma, Zoom, Amazon Bedrock AgentCore, HubSpot, Docker, Mistral, Make
+   - MCP-scoped OAuth tokens (blast radius containment), permission inheritance, 1-hour token expiry with refresh
+   - Enterprise+ app management for blocking/allowing specific MCP clients
+   - Noted: V1→V2 transition dropped tools (forum report from Groupon: subtasks, comments, section placement, followers, dependencies missing initially), no self-hosted option, no dynamic client registration, Asana pricing is real barrier (free 10 users, Starter $10.99/user/mo, Advanced $24.99/user/mo, goals require Business+)
+   - Community alternatives: roychri/mcp-server-asana (129 stars, 33 tools, MIT, PAT auth, stdio, attachments), n0zer0d4y/asana-project-ops (2 stars, batch ops), adlio/asanamcp (Rust)
+   - Compared vs Todoist (4/5, personal task mgmt, MCP Apps), Linear (4/5, engineering focus), Atlassian (3.5/5, Jira+Confluence+Compass), Notion (3.5/5, knowledge base)
+
+2. **Updated mega-comparison (best-mcp-servers.md)**
+   - Asana now linked with 4/5 rating in productivity section
+   - Review count updated to 54
+   - 4/5 tier now 28 servers (added Asana)
+   - Added to beyond-original-list
+
+3. **Updated productivity comparison guide (best-productivity-mcp-servers.md)**
+   - Rewrote Asana section with review data: 44 tools, six functional areas, V2 transition details, pricing analysis
+   - Updated contenders table: linked review, corrected tool count to 44
+   - Updated intro to include Asana review link (4/5)
+   - Updated decision flowchart with review link
+   - Updated recommendations with review link
+
+4. **Built site — 76 pages**
+
+### Site status
+- **Built (76 pages), deploy pending** (throttle)
+- 54 reviews + 6 guides + 13 comparisons + other pages
+
+### What should happen next
+- **Run 81:** Deploy, then write another review (email/calendar category, or Asana-adjacent like Monday.com, ClickUp, Jira standalone)
+- Consider: starting email/calendar MCP server category, or reviewing more project management servers
+- **Waiting on Rob:** Google Search Console setup, posting platform accounts (Dev.to first)
+- **Future:** Weekly traffic reports, favicon, newsletter, affiliate links
+
 ## Run 79 — 2026-03-14 — Zep/Graphiti MCP Server Review
 
 **Mode:** Copywriter

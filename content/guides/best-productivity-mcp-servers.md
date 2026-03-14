@@ -11,7 +11,7 @@ AI agents that can read your codebase but not your project tracker are doing hal
 
 The MCP ecosystem now has productivity servers for nearly every major platform. But they vary wildly in maturity. Some are first-party, OAuth-authenticated, and actively maintained. Some are community projects with one contributor and no tests. Picking the wrong one means your agent is creating tasks in the wrong project, missing calendar conflicts, or silently failing on API changes.
 
-We've reviewed [Notion MCP](/reviews/notion-mcp-server/) (3.5/5), [Slack MCP](/reviews/slack-mcp-server/) (4/5), [Linear MCP](/reviews/linear-mcp-server/) (4/5), [Todoist MCP](/reviews/todoist-mcp-server/) (4/5), and [Atlassian MCP](/reviews/atlassian-mcp-server/) (3.5/5) individually. Here's how the broader productivity MCP server landscape compares, and which ones are actually worth configuring.
+We've reviewed [Notion MCP](/reviews/notion-mcp-server/) (3.5/5), [Slack MCP](/reviews/slack-mcp-server/) (4/5), [Linear MCP](/reviews/linear-mcp-server/) (4/5), [Todoist MCP](/reviews/todoist-mcp-server/) (4/5), [Atlassian MCP](/reviews/atlassian-mcp-server/) (3.5/5), and [Asana MCP](/reviews/asana-mcp-server/) (4/5) individually. Here's how the broader productivity MCP server landscape compares, and which ones are actually worth configuring.
 
 ## The Contenders
 
@@ -20,7 +20,7 @@ We've reviewed [Notion MCP](/reviews/notion-mcp-server/) (3.5/5), [Slack MCP](/r
 | [Notion](/reviews/notion-mcp-server/) | Notion (official) | Knowledge base + project mgmt | ~4,000 | 18 | OAuth (hosted) / API key (local) | Hosted + local | Yes |
 | [Linear](/reviews/linear-mcp-server/) | Linear (official) | Issue tracking + project mgmt | N/A | 23+ | OAuth | Hosted | Yes (with Linear plan) |
 | [Todoist](/reviews/todoist-mcp-server/) | Doist (official) | Task management | 382 | 28+ | OAuth | Hosted + local | Yes (with Todoist plan) |
-| Asana | Asana (official) | Project management | N/A | 30+ | OAuth | Hosted | Yes (with Asana plan) |
+| [Asana](/reviews/asana-mcp-server/) | Asana (official) | Project management | N/A | 44 | OAuth | Hosted | Yes (with Asana plan) |
 | Google Calendar | nspady (community) | Calendar management | ~1,000 | 12 | OAuth | Local | Yes |
 | Obsidian | cyanheads (community) | Knowledge base (local) | — | 15+ | None (local) | Local | Yes |
 | [Atlassian](/reviews/atlassian-mcp-server/) | Atlassian (official) | Project mgmt + knowledge base | 436 | Undocumented | OAuth 2.1 | Hosted | Yes (with Atlassian plan) |
@@ -93,15 +93,17 @@ Doist's official server (migrated from `Doist/todoist-mcp` to `Doist/todoist-ai`
 
 **Best for:** Individual developers and small teams who use Todoist as their daily task manager. The transport flexibility and MCP Apps make it the most architecturally advanced task management MCP server. [Full review →](/reviews/todoist-mcp-server/)
 
-### Asana — The Enterprise Option
+### [Asana](/reviews/asana-mcp-server/) (4/5) — The Enterprise Option
 
-Asana's official V2 MCP server at `mcp.asana.com/v2/mcp` is the most tool-rich productivity MCP server we found, with 30+ tools across tasks, projects, goals, and workflows.
+Asana's official V2 MCP server at `mcp.asana.com/v2/mcp` is the most tool-rich productivity MCP server we've reviewed, with 44 tools across tasks, projects, goals, portfolios, and teams. V2 launched February 2026 with Streamable HTTP, replacing the deprecated V1 beta (SSE, shutdown May 11, 2026).
 
-**30+ tools** covering task creation and management, project setup and tracking, goal management, status updates, and assignments. The breadth matches Asana's position as an enterprise project management platform.
+**44 tools** covering six functional areas: task management (create, update, delete, search, dependencies, followers), projects and portfolios (create projects, sections, status updates, portfolio browsing), goals and time management (OKR tracking, goal metrics, time periods), team and user management (workspaces, teams, allocations), and collaboration (comments, activity history, attachments). The goal and portfolio tools are unique — no other productivity MCP server offers OKR tracking through MCP.
 
-**The catch:** The V1 (beta) server is being deprecated on May 11, 2026 — if you set up Asana MCP before V2, you need to migrate. Enterprise platforms mean enterprise complexity: Asana's data model (workspaces, teams, projects, sections, tasks, subtasks, custom fields) requires more agent context to navigate correctly. OAuth authentication is mandatory.
+**What sets it apart:** 20+ verified client integrations (Claude, ChatGPT, Cursor, VS Code, Perplexity, Microsoft Teams, Zoom, and more) — the broadest client compatibility of any productivity MCP server. MCP-scoped OAuth tokens limit blast radius if compromised. Permission inheritance ensures agents can only access what the authenticated user can.
 
-**Best for:** Teams already deep in Asana for project management. The 30+ tools mean your agent can do nearly anything you'd do in the Asana UI. But if you're not already an Asana shop, the complexity overhead isn't worth it.
+**The catch:** The V1→V2 transition was rocky — V2 initially launched with only ~15 tools, dropping subtask creation, comments, section placement, and dependencies. Most have been restored, but it shook early adopter confidence. No self-hosted option. No dynamic client registration — developers must pre-register in the Asana developer console. Asana pricing is the real barrier: free tier caps at 10 users, Starter is $10.99/user/month, Advanced (portfolios, workload) is $24.99/user/month. Goal tracking requires Business tier or higher.
+
+**Best for:** Cross-functional teams already deep in Asana. The 44 tools cover the full Asana Work Graph — workspaces, teams, projects, goals, portfolios, allocations. If your organization manages quarterly OKRs and multi-project portfolios in Asana, this is the most complete AI integration available. Community alternative roychri/mcp-server-asana (129 stars, 33 tools, MIT) offers self-hosted deployment with Personal Access Token auth. [Full review →](/reviews/asana-mcp-server/)
 
 ### Google Calendar — The Calendar Gap-Filler
 
@@ -154,7 +156,7 @@ Eight community MCP servers compete to connect AI agents to Obsidian vaults, tak
 
 **"Task and project management"**
 - Using Linear? → **Linear MCP** (best engineering-team integration)
-- Using Asana? → **Asana MCP** (most tools, enterprise-ready)
+- Using Asana? → **[Asana MCP](/reviews/asana-mcp-server/)** (44 tools, enterprise-ready)
 - Using Todoist? → **Todoist MCP** (best personal task management, MCP Apps)
 - Not committed to a platform? → **Todoist** for personal, **Linear** for teams
 
@@ -188,7 +190,7 @@ The gap is Google. No official MCP server exists for Calendar, Drive, Docs, Shee
 
 **Our recommended stack:**
 - **Knowledge base:** [Notion](/reviews/notion-mcp-server/) (3.5/5) or Obsidian (local-first)
-- **Issue tracking:** Linear (for engineering) or Asana (for cross-functional teams)
+- **Issue tracking:** Linear (for engineering) or [Asana](/reviews/asana-mcp-server/) (4/5, for cross-functional teams)
 - **Task management:** [Todoist](/reviews/todoist-mcp-server/) (4/5, for individuals)
 - **Calendar:** nspady/google-calendar-mcp
 - **Communication:** [Slack](/reviews/slack-mcp-server/) (4/5)
