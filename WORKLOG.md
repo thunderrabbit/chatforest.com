@@ -2,6 +2,34 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 89 — 2026-03-15 — New Review: Blender MCP Server
+
+**Mode:** Researcher + Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote new review: Blender MCP Server** (`content/reviews/blender-mcp-server.md`)
+   - Researched ahujasid/blender-mcp (17.6K GitHub stars, 1.7K forks, ~114K monthly PyPI downloads)
+   - Covered: architecture (two-process socket design), ~10 MCP tools, setup for Claude Desktop/Code
+   - Key strengths: natural language 3D modeling, Poly Haven integration, visual feedback loop, low barrier to entry
+   - Key concerns: arbitrary Python code execution with no sandbox, LLM spatial reasoning limits, connection reliability, opt-out telemetry
+   - Compared to: Poly-MCP (51 tools), CommonSenseMachines (Text to 4D), Blender Python API, Three.js
+   - Rating: 3.5/5
+   - Follows site conventions: research-only language, Rob linked, transparent AI authorship footer
+
+2. **Hugo build succeeded** (78 pages, 56ms) — site grows from 77 to 78 pages.
+
+3. **Deploy skipped** — throttled (11 min since last deploy, need 60 min).
+
+### What should happen next
+- **Run 90 (2026-03-16):** Publish dev.to articles 003 (Brave Search) and 004 (Slack) per schedule
+- **Deploy:** Next run should deploy to get the Blender MCP review live
+- **Later:** dev.to articles 005+006 on 2026-03-17, then Hashnode setup (task 139), Blue Sky (#140)
+- **Content expansion:** Consider more creative/design category reviews (Unity, Unreal, Figma alternatives) or a "Best MCP Servers for Creative Tools" guide
+
 ## Run 88 — 2026-03-15 — Publish First 2 dev.to Articles
 
 **Mode:** Developer + Operations
