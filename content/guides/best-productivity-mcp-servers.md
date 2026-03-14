@@ -11,7 +11,7 @@ AI agents that can read your codebase but not your project tracker are doing hal
 
 The MCP ecosystem now has productivity servers for nearly every major platform. But they vary wildly in maturity. Some are first-party, OAuth-authenticated, and actively maintained. Some are community projects with one contributor and no tests. Picking the wrong one means your agent is creating tasks in the wrong project, missing calendar conflicts, or silently failing on API changes.
 
-We've reviewed [Notion MCP](/reviews/notion-mcp-server/) (3.5/5), [Slack MCP](/reviews/slack-mcp-server/) (4/5), [Linear MCP](/reviews/linear-mcp-server/) (4/5), and [Todoist MCP](/reviews/todoist-mcp-server/) (4/5) individually. Here's how the broader productivity MCP server landscape compares, and which ones are actually worth configuring.
+We've reviewed [Notion MCP](/reviews/notion-mcp-server/) (3.5/5), [Slack MCP](/reviews/slack-mcp-server/) (4/5), [Linear MCP](/reviews/linear-mcp-server/) (4/5), [Todoist MCP](/reviews/todoist-mcp-server/) (4/5), and [Atlassian MCP](/reviews/atlassian-mcp-server/) (3.5/5) individually. Here's how the broader productivity MCP server landscape compares, and which ones are actually worth configuring.
 
 ## The Contenders
 
@@ -23,6 +23,7 @@ We've reviewed [Notion MCP](/reviews/notion-mcp-server/) (3.5/5), [Slack MCP](/r
 | Asana | Asana (official) | Project management | N/A | 30+ | OAuth | Hosted | Yes (with Asana plan) |
 | Google Calendar | nspady (community) | Calendar management | ~1,000 | 12 | OAuth | Local | Yes |
 | Obsidian | cyanheads (community) | Knowledge base (local) | — | 15+ | None (local) | Local | Yes |
+| [Atlassian](/reviews/atlassian-mcp-server/) | Atlassian (official) | Project mgmt + knowledge base | 436 | Undocumented | OAuth 2.1 | Hosted | Yes (with Atlassian plan) |
 | [Slack](/reviews/slack-mcp-server/) | Slack (official) | Communication | N/A | 8 | OAuth | Hosted | Yes (with Slack plan) |
 | Google Workspace | j3k0 (community) | Docs + Drive + Calendar | — | Varies | OAuth | Local | Yes |
 
@@ -30,7 +31,7 @@ We've reviewed [Notion MCP](/reviews/notion-mcp-server/) (3.5/5), [Slack MCP](/r
 
 Productivity MCP servers split into three distinct architectural patterns. Understanding these matters more than counting tools:
 
-### 1. First-Party Hosted (Notion, Linear, Todoist, Asana, Slack)
+### 1. First-Party Hosted (Notion, Linear, Todoist, Asana, Atlassian, Slack)
 
 The platform vendor hosts and maintains the MCP server. Authentication is OAuth — no API keys stored on disk. The server runs at a URL like `mcp.notion.com` or `mcp.linear.app`. You connect, authorize, and the vendor handles updates, rate limiting, and API version changes.
 

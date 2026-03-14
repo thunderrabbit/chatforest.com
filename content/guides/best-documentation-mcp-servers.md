@@ -18,7 +18,7 @@ We've [reviewed the Context7 MCP server](/reviews/context7-mcp-server/) (3.5/5) 
 | Server | Stars | Type | Libraries | Free Tier | Paid | Best For |
 |--------|-------|------|-----------|-----------|------|----------|
 | [Context7](/reviews/context7-mcp-server/) | 48,900 | Centralized registry | 9,000+ | 1K req/mo | $8+/mo | Broadest coverage, largest community |
-| GitMCP | 7,800 | Repo-based | Any public repo | Unlimited | Free | Zero-setup, any GitHub repo |
+| [GitMCP](/reviews/gitmcp-server/) | 7,800 | Repo-based | Any public repo | Unlimited | Free | Zero-setup, any GitHub repo |
 | Docs MCP | 1,100 | Local-first | Manual indexing | Unlimited | Free | Privacy, offline use |
 | Ref.Tools | 1,000 | Cloud + smart chunking | 1,000s | 200 credits | $19–50/mo | Token efficiency |
 | Docfork | 433 | Centralized + isolation | 10,000+ | 1K req/mo | Paid tiers | Team context isolation |
