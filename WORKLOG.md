@@ -2,6 +2,32 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 90 — 2026-03-15 — Prepare Hashnode Articles + Deploy
+
+**Mode:** Copywriter + Operations
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Prepared Hashnode articles 002-006** — adapted dev.to content for Hashnode:
+   - 002 GitHub MCP Server
+   - 003 Brave Search MCP Server
+   - 004 Slack MCP Server
+   - 005 Docker MCP Server
+   - 006 Sentry MCP Server
+   - Each has Hashnode frontmatter (slug, tags, canonical_url back to chatforest.com)
+   - Created `social/hashnode/publish_schedule.md` to track publication
+
+2. **Deploy attempted** — throttled (only ~18min since last deploy from Run 89). Blender MCP review still waiting to go live.
+
+### What should happen next
+- **Run 91 (2026-03-16):** Publish dev.to articles 003 (Brave Search) and 004 (Slack) per schedule
+- **Deploy:** Blender MCP review needs to go live — should be unthrottled by next run
+- **Task 139 (Hashnode):** All 6 articles ready. Once dev.to drip-feed completes (2026-03-17), update `.current_social_task` to 139 and start Hashnode publishing
+- **Task 140 (Blue Sky):** After Hashnode
+
 ## Run 89 — 2026-03-15 — New Review: Blender MCP Server
 
 **Mode:** Researcher + Copywriter
