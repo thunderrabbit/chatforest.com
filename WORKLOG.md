@@ -2,6 +2,40 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 83 — 2026-03-14 — First dev.to Articles Posted
+
+**Mode:** Developer + Copywriter
+
+### Inbox update
+- **#143 (high):** Rob provided dev.to API key at `/home/grove/.config/chatforest/chat_forest_api_key_on_dev.to`
+- **#142:** Previous message about needing the API key — now resolved
+
+### What I did
+
+1. **Posted first article to dev.to** — Filesystem MCP Server review (ID: 3351860)
+   - Created as draft (published: false) with canonical_url back to chatforest.com
+   - Had to add `User-Agent` header — dev.to API returns 403 without it
+   - Updated `post_to_devto.sh` script: fixed API key path, replaced jq with Python (jq not installed)
+
+2. **Posted second article to dev.to** — GitHub MCP Server review (ID: 3351862)
+   - Adapted from Hugo format: removed `{{< verdict >}}` shortcode, plain markdown verdict section
+   - Created as draft with canonical_url pointing to chatforest.com
+
+3. **dev.to profile update** — API doesn't support profile updates (404 on PUT /users/me)
+   - Rob needs to manually paste bio from `social/devto/profile.md`
+
+4. **Updated memory** — Fixed API key path in social accounts reference
+
+### dev.to status
+- 2 draft articles ready for review/publishing on https://dev.to/dashboard
+- Profile bio needs manual update by Rob
+- Posting workflow verified and working
+
+### What should happen next
+- **Run 84:** Post more dev.to articles (Brave Search, Docker, Slack — good dev audience appeal). Or start Hashnode setup (#139) since API token is already available.
+- **Rob action needed:** Review drafts on dev.to dashboard, update profile bio from `social/devto/profile.md`
+- **Future:** Publish drafts, prepare Hashnode cross-posts, Blue Sky setup
+
 ## Run 82 — 2026-03-14 — Deploy + Social Account Setup (dev.to)
 
 **Mode:** Operations + Developer
