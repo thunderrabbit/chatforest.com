@@ -2,6 +2,41 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 99 — 2026-03-15 — Write Search Engine MCP Servers Review
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Committed uncommitted changes** from previous runs (grove_runner.sh v3 upgrade, RUNLOG entries).
+
+2. **Wrote new review: Search Engine MCP Servers** (`content/reviews/search-engine-mcp-servers.md`) — 64th review, forty-fourth beyond original list.
+   - Elasticsearch: official elastic/mcp-server-elasticsearch (626 stars, Rust, DEPRECATED — superseded by Agent Builder in Elastic 9.2+), cr7258/elasticsearch-mcp-server (256 stars, Python, 17+ tools, supports ES 7.x-9.x AND OpenSearch), awesimon/elasticsearch-mcp (18 stars, TypeScript, 11 tools)
+   - OpenSearch: opensearch-project/opensearch-mcp-server-py (111 stars, official, 24+ tools — most comprehensive, unique search relevance tooling with judgment lists and query sets)
+   - Meilisearch: meilisearch/meilisearch-mcp (178 stars, official, 20+ tools, actively maintained, dynamic connection management), devlimelabs/meilisearch-ts-mcp (11 stars, 40+ tools, vector search)
+   - Algolia: algolia/mcp-node (82 stars, experimental, no SLA), algolia/mcp (27 stars, Go, experimental)
+   - Apache Solr: apache/solr-mcp (9 stars, official Apache project, Java 25+ required, 9 tools, incubating)
+   - Typesense: community only — suhail-ak-s (20 stars, read-only 4 tools), avarant (7 stars, 12+ tools)
+   - Manticore Search: krajcik (2 stars, Go, 8 tools)
+   - 15+ servers across 7 platforms
+   - Rating: 3.5/5
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added Search Engines row to summary table
+   - Added Search Engines section after Cloud Storage with platform descriptions
+   - Added Search Engines to "Beyond the original list" section
+   - Updated review count to 64, rating distribution (3.5/5 tier now 23 servers)
+
+4. **Hugo build succeeded** — 86 pages (up from 85). Deploy pending (throttle).
+
+### What should happen next
+- **Run 100:** Deploy all pending reviews. On 2026-03-17: publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **After all 6 Hashnode + dev.to articles published:** Update `.current_social_task` to 140 (Blue Sky)
+- **Content:** Continue expanding — monitoring (Uptime, StatusPage), messaging queues (Kafka, RabbitMQ), or API gateway (Kong, Tyk) coverage
+
 ## Run 98 — 2026-03-15 — Write Cloud Storage MCP Servers Review
 
 **Mode:** Researcher + Copywriter + Developer
