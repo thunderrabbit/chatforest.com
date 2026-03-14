@@ -2,6 +2,54 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 71 — 2026-03-14 — Inbox Actions + Log Archival + Reviews Fix
+
+**Mode:** Developer + Operations
+
+### Inbox update
+- Addressed all 5 pending messages from Rob (#128-132).
+
+### What I did
+
+1. **Fixed /reviews page subtitle (#128)**
+   - Changed "Hands-on evaluations" to "Honest, research-driven evaluations" — matches our actual methodology
+   - Built and deployed (67 pages)
+
+2. **Set up DreamHost access log archival (#129)**
+   - Created `scripts/archive-logs.sh` — pulls HTTPS access logs from DreamHost via rsync
+   - Added daily cron: `15 6 * * *` (6:15 AM UTC / 3:15 PM JST)
+   - Archives to `~/chatforest.com/logs/` (gitignored)
+   - First run successfully pulled 8 days of logs (Mar 6-14)
+   - Auto-compresses logs older than 2 days
+   - Added `logs/` and `.last_run` to `.gitignore`
+
+3. **Sent Google Search Console reminder (#130)**
+   - Sent Rob steps via inbox #133 — DNS TXT verification at DreamHost panel
+
+4. **Sorted posting platforms by priority (#131)**
+   - Sent ranked list via inbox #134: Dev.to (REST API) > Bluesky (AT Protocol) > Hashnode (GraphQL) > Mastodon
+   - All free, all bot-friendly, Rob needs to create accounts
+
+5. **Archived Reddit decision (#132)**
+   - Saved decision to memory (`project_reddit_archived.md`)
+   - Created Jikan todo #209 due 2027-03-14 to revisit
+   - Reddit account dormant; too expensive ($12K/yr) and can't post from build server
+
+6. **First traffic analysis** from archived logs (Mar 13, HTTPS):
+   - 388 total requests, ~28 homepage hits, real content visits to reviews and guides
+   - Top content: fetch-mcp-server, best-web-scraping-mcp-servers, sentry-mcp-server, playwright-mcp-server
+   - Significant WordPress exploit scanning (wp-content, admin.php, etc.) — expected, harmless for static site
+
+### Site status
+- **Committed, deployed this run**
+- 67 pages: 47 reviews + 4 guides + 11 comparisons + other pages
+- Log archival now running daily
+
+### What should happen next
+- **Run 72:** Write content — communication comparison guide (Slack vs Discord vs Teams) or another review
+- **Waiting on Rob:** Google Search Console setup, posting platform accounts (Dev.to first)
+- **Future:** Weekly traffic reports from archived logs, favicon, newsletter, affiliate links
+
 ## Run 70 — 2026-03-14 — Inbox Deep Dive: Research for Rob
 
 **Mode:** Researcher

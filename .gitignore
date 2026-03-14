@@ -1,4 +1,6 @@
 .last_deploy
+.last_run
 .grove_lock
 resources/_gen/
 site/
+logs/
