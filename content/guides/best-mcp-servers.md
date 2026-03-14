@@ -57,7 +57,7 @@ Playwright MCP's killer feature is accessibility tree targeting. Instead of brit
 
 [Puppeteer MCP](/reviews/puppeteer-mcp-server/) (3.5/5) still works, but it's showing its age. CSS selector brittleness, Chrome-only, no accessibility tree. If you're starting a new project, use Playwright.
 
-For cloud-hosted browser automation (anti-bot detection, CAPTCHA solving), look at Browserbase or Firecrawl.
+For cloud-hosted browser automation (anti-bot detection, CAPTCHA solving), look at Browserbase or [Firecrawl](/reviews/firecrawl-mcp-server/) (4/5).
 
 **Full comparison:** [Best Browser Automation MCP Servers in 2026](/guides/best-browser-mcp-servers/)
 
@@ -92,7 +92,7 @@ The [official Fetch server](/reviews/fetch-mcp-server/) (3.5/5) works for basic 
 
 For JavaScript-rendered pages, use [Playwright MCP](/reviews/playwright-mcp-server/) or fetcher-mcp (Playwright-based fetching without the full browser automation toolkit).
 
-For scale (crawling entire sites, anti-bot, CAPTCHA solving), look at Firecrawl or Crawl4AI.
+For scale (crawling entire sites, structured extraction, autonomous research), [Firecrawl](/reviews/firecrawl-mcp-server/) (4/5) is the production platform — 12+ tools including an autonomous research agent and LLM-powered data extraction. For free open-source crawling, look at Crawl4AI.
 
 **Full comparison:** [Best Web Scraping & Fetching MCP Servers in 2026](/guides/best-web-scraping-mcp-servers/)
 
@@ -307,13 +307,13 @@ The fastest-growing MCP server category. Every major DevOps platform now ships a
 
 ## Beyond the original list
 
-We've reviewed every MCP server on our original list — and we're now expanding to new servers. Recent additions: [Todoist MCP](/reviews/todoist-mcp-server/) (4/5) for task management with MCP Apps, [Pinecone MCP](/reviews/pinecone-mcp-server/) (3/5) for cloud vector search with reranking, [Qdrant MCP](/reviews/qdrant-mcp-server/) (3/5) for semantic memory, [Chroma MCP](/reviews/chroma-mcp-server/) (3.5/5) for vector databases, [Linear MCP](/reviews/linear-mcp-server/) (4/5) for project management, [Stripe MCP](/reviews/stripe-mcp-server/) (4/5) for payment operations, and [Cloudflare MCP](/reviews/cloudflare-mcp-server/) (4.5/5), the most innovative MCP server architecture we've seen. Subscribe to our [RSS feed](/feed.xml) to get notified when we add new reviews.
+We've reviewed every MCP server on our original list — and we're now expanding to new servers. Recent additions: [Firecrawl MCP](/reviews/firecrawl-mcp-server/) (4/5) for production web scraping with autonomous research, [Todoist MCP](/reviews/todoist-mcp-server/) (4/5) for task management with MCP Apps, [Pinecone MCP](/reviews/pinecone-mcp-server/) (3/5) for cloud vector search with reranking, [Qdrant MCP](/reviews/qdrant-mcp-server/) (3/5) for semantic memory, [Chroma MCP](/reviews/chroma-mcp-server/) (3.5/5) for vector databases, [Linear MCP](/reviews/linear-mcp-server/) (4/5) for project management, [Stripe MCP](/reviews/stripe-mcp-server/) (4/5) for payment operations, and [Cloudflare MCP](/reviews/cloudflare-mcp-server/) (4.5/5), the most innovative MCP server architecture we've seen. Subscribe to our [RSS feed](/feed.xml) to get notified when we add new reviews.
 
 ---
 
 ## The pattern: official servers as starting points
 
-After reviewing 26 MCP servers, a clear pattern has emerged:
+After reviewing 27 MCP servers, a clear pattern has emerged:
 
 **Anthropic's reference implementations are starting points, not destinations.** The official Filesystem and GitHub servers are solid (4/5 each). But the official database servers are archived with security issues (2.5-3/5), the official Memory server doesn't scale (3.5/5), the official Fetch server has an SSRF gap (3.5/5), and the official EverArt server is minimal and archived (2.5/5).
 
@@ -326,7 +326,7 @@ Our rating distribution tells the story:
 | Rating | Count | Servers |
 |--------|-------|---------|
 | 4.5/5 | 2 | Playwright, Cloudflare |
-| 4.0/5 | 11 | Filesystem, GitHub, Brave Search, Slack, Sentry, Exa, Neon, Supabase, Stripe, Linear, Todoist |
+| 4.0/5 | 12 | Filesystem, GitHub, Brave Search, Slack, Sentry, Exa, Neon, Supabase, Stripe, Linear, Todoist, Firecrawl |
 | 3.5/5 | 8 | Context7, Puppeteer, Memory, Fetch, Notion, Vercel, Figma Dev Mode, Chroma |
 | 3.0/5 | 3 | SQLite, Qdrant, Pinecone |
 | 2.5/5 | 2 | PostgreSQL, EverArt |

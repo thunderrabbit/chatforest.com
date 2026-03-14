@@ -16,7 +16,7 @@ The MCP ecosystem now has over a dozen servers for web access, ranging from a si
 | [Official Fetch](/reviews/fetch-mcp-server/) | HTTP → Markdown | No | Local | Free | Basic page reading |
 | [zcaceres/fetch-mcp](https://github.com/zcaceres/fetch-mcp) | HTTP → Multiple formats | No | Local | Free | Secure multi-format fetch |
 | [fetcher-mcp](https://github.com/jae-jae/fetcher-mcp) | Playwright headless | Yes | Local | Free | JS-heavy pages without cloud |
-| [Firecrawl](https://github.com/mendableai/firecrawl-mcp-server) | Cloud scraping platform | Yes | Cloud + self-host | Free tier, then $9-599/mo | Production scraping at scale |
+| [Firecrawl](/reviews/firecrawl-mcp-server/) | Cloud scraping platform | Yes | Cloud + self-host | Free tier, then $16-599/mo | Production scraping at scale |
 | [Crawl4AI + RAG wrapper](https://github.com/coleam00/mcp-crawl4ai-rag) | Open-source crawler + vector DB | Yes | Local | Free | RAG pipelines, knowledge bases |
 | [Browserbase](https://github.com/browserbase/mcp-server-browserbase) | Cloud browser automation | Yes | Cloud | Free tier, then $20-99/mo | Bot-protected sites, CAPTCHAs |
 | [Jina AI MCP](https://github.com/jina-ai/MCP) | Remote reader + search + semantic | Via Reader API | Remote | Free (rate-limited) | Research, academic search |
@@ -91,14 +91,16 @@ Resource optimization is smart: blocks images, stylesheets, fonts, and media by 
 
 ### Firecrawl MCP Server — The Production Platform
 
-**5,800 GitHub stars | 7 tools | Cloud service**
+**Our rating: [4/5](/reviews/firecrawl-mcp-server/)**
 
-Firecrawl is a full scraping platform, not just a fetch tool. Seven tools covering single-page scraping, batch scraping, site crawling, URL discovery, web search with content extraction, a deep research agent, and interactive cloud browser sessions.
+**5,800 GitHub stars | 12+ tools | Cloud service**
 
-The standout feature is `firecrawl_agent` — a multi-source deep research tool that autonomously navigates across pages to answer complex questions. No other MCP server in this comparison offers anything like it.
+Firecrawl is a full scraping platform, not just a fetch tool. 12+ tools covering single-page scraping, batch scraping, site crawling, URL discovery, web search, LLM-powered structured extraction, an autonomous deep research agent, and interactive cloud browser sessions.
+
+The standout features are `firecrawl_agent` (autonomous multi-source research) and `firecrawl_extract` (LLM-powered structured data extraction with JSON schema). No other MCP server in this comparison offers anything like them.
 
 **Strengths:**
-- Most comprehensive tool set (7 tools covering the full scraping spectrum)
+- Most comprehensive tool set (12+ tools covering the full scraping spectrum)
 - Deep research agent for autonomous multi-page investigation
 - Cloud browser sessions for interactive scraping
 - Batch and crawl operations for site-wide extraction
@@ -106,16 +108,16 @@ The standout feature is `firecrawl_agent` — a multi-source deep research tool 
 - Self-hostable option
 
 **Weaknesses:**
-- Paid service after 500-credit free tier ($9-599/mo)
+- Paid service after 500-credit one-time free tier ($16-599/mo)
 - Overkill for simple page reading
 - Vendor lock-in if you build workflows around Firecrawl-specific features
 - Credit-based pricing requires monitoring usage
 
 **Pricing:**
-- Free: 500 credits (one-time)
-- Hobby: $9/mo (3K credits)
-- Standard: $47/mo (100K credits)
-- Growth: $177/mo (500K credits)
+- Free: 500 credits (one-time, non-renewable)
+- Hobby: $16/mo (3K credits)
+- Standard: $83/mo (100K credits)
+- Growth: $333/mo (500K credits)
 - Scale: $599/mo (1M credits)
 
 1 credit = 1 page scrape. Search = 2 credits/10 results. Browser = 2 credits/min.
@@ -204,7 +206,7 @@ The unique feature is **server-side tool filtering**: you can exclude tools by n
 
 | Feature | Official Fetch | zcaceres | fetcher-mcp | Firecrawl | Crawl4AI + RAG | Browserbase | Jina AI |
 |---------|---------------|----------|-------------|-----------|----------------|-------------|---------|
-| Tools | 1 | 6 | 3 | 7 | 4-8 | 5+ | 19 |
+| Tools | 1 | 6 | 3 | 12+ | 4-8 | 5+ | 19 |
 | JavaScript rendering | No | No | Yes | Yes | Yes | Yes | Via API |
 | SSRF protection | No | Yes | No | N/A (cloud) | No | N/A (cloud) | N/A (remote) |
 | Batch fetching | No | No | Yes | Yes | Yes | No | Yes |
@@ -214,6 +216,8 @@ The unique feature is **server-side tool filtering**: you can exclude tools by n
 | CAPTCHA solving | No | No | No | No | No | Yes | No |
 | Stealth/anti-bot | No | No | No | Partial | No | Yes | No |
 | RAG/vector search | No | No | No | No | Yes | No | No |
+| LLM extraction | No | No | No | Yes | No | No | No |
+| Autonomous agent | No | No | No | Yes | No | No | No |
 | Academic search | No | No | No | No | No | No | Yes |
 | Self-hosted | Yes | Yes | Yes | Yes | Yes | No | Yes |
 | Free | Yes | Yes | Yes | 500 credits | Yes | 1 hr/mo | Rate-limited |
@@ -224,7 +228,7 @@ The unique feature is **server-side tool filtering**: you can exclude tools by n
 
 **For JavaScript-rendered pages — use fetcher-mcp.** When static HTML fetch fails because the content loads via JavaScript, fetcher-mcp's Playwright backend renders the page before extraction. No cloud service, no API keys, no cost.
 
-**For production scraping at scale — use Firecrawl.** When you need batch processing, site crawling, deep research, or reliable extraction across thousands of pages, Firecrawl's paid platform is worth the investment. The deep research agent is unmatched.
+**For production scraping at scale — use [Firecrawl](/reviews/firecrawl-mcp-server/) (4/5).** When you need batch processing, site crawling, LLM-powered extraction, or autonomous deep research across thousands of pages, Firecrawl's paid platform is worth the investment. The deep research agent and structured extraction are unmatched.
 
 **For building knowledge bases — use Crawl4AI + RAG wrapper.** Crawl sites, store them in a vector database, then query semantically. The best open-source option for "make a site searchable by AI."
 
@@ -263,7 +267,7 @@ The web access MCP space has matured fast. A year ago, the official Fetch server
 
 **Our pick for most developers: zcaceres/fetch-mcp.** It fixes the official server's security gaps, adds five more output formats, and costs nothing. Start there, and reach for heavier tools only when you hit a wall.
 
-For the full picture of our web-related MCP server coverage, see our individual reviews of the [official Fetch server](/reviews/fetch-mcp-server/) and [Playwright MCP](/reviews/playwright-mcp-server/), plus our [browser automation comparison](/guides/best-browser-mcp-servers/).
+For the full picture of our web-related MCP server coverage, see our individual reviews of the [official Fetch server](/reviews/fetch-mcp-server/), [Firecrawl](/reviews/firecrawl-mcp-server/), and [Playwright MCP](/reviews/playwright-mcp-server/), plus our [browser automation comparison](/guides/best-browser-mcp-servers/).
 
 ---
 
