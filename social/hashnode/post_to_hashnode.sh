@@ -23,13 +23,20 @@ if [ ! -f "$ARTICLE_FILE" ]; then
     exit 1
 fi
 
-# Use Python to parse frontmatter and post via GraphQL
-~/.pyenv/versions/3.11.15/bin/python3.11 -c "
-import json, urllib.request, urllib.error, sys, re
+# Export vars so Python can read them from environment
+export HASHNODE_API_TOKEN="$API_TOKEN"
+export HASHNODE_PUBLICATION_ID="$PUBLICATION_ID"
+export HASHNODE_ARTICLE_FILE="$ARTICLE_FILE"
 
-content = open('$ARTICLE_FILE').read()
+~/.pyenv/versions/3.11.15/bin/python3.11 << 'PYEOF'
+import json, urllib.request, urllib.error, sys, re, os
 
-# Parse simple YAML frontmatter
+api_token = os.environ["HASHNODE_API_TOKEN"]
+publication_id = os.environ["HASHNODE_PUBLICATION_ID"]
+article_file = os.environ["HASHNODE_ARTICLE_FILE"]
+
+content = open(article_file).read()
+
 fm_match = re.match(r'^---\n(.*?)\n---\n(.*)', content, re.DOTALL)
 if not fm_match:
     print('ERROR: No frontmatter found', file=sys.stderr)
@@ -38,18 +45,15 @@ if not fm_match:
 fm_text = fm_match.group(1)
 body = fm_match.group(2).strip()
 
-# Extract fields from frontmatter
 def get_fm(key):
-    m = re.search(rf'^{key}:\s*[\"'\'']?(.*?)[\"'\'']?\s*$', fm_text, re.MULTILINE)
+    m = re.search(rf'^{key}:\s*["\']?(.*?)["\']?\s*$', fm_text, re.MULTILINE)
     return m.group(1) if m else None
 
 title = get_fm('title') or 'Untitled'
 slug = get_fm('slug')
 canonical_url = get_fm('canonical_url')
-description = get_fm('description')
 tags_str = get_fm('tags')
 
-# Build tags array (Hashnode uses tag slugs)
 tags = []
 if tags_str:
     for tag in tags_str.split(','):
@@ -57,15 +61,9 @@ if tags_str:
         if tag:
             tags.append({'slug': tag.lower().replace(' ', '-'), 'name': tag})
 
-# Build the GraphQL mutation
-query = '''mutation PublishPost(\$input: PublishPostInput!) {
-  publishPost(input: \$input) {
-    post {
-      id
-      slug
-      title
-      url
-    }
+query = '''mutation PublishPost($input: PublishPostInput!) {
+  publishPost(input: $input) {
+    post { id slug title url }
   }
 }'''
 
@@ -73,7 +71,7 @@ variables = {
     'input': {
         'title': title,
         'contentMarkdown': body,
-        'publicationId': '$PUBLICATION_ID',
+        'publicationId': publication_id,
     }
 }
 
@@ -89,7 +87,7 @@ req = urllib.request.Request(
     'https://gql.hashnode.com',
     data=payload,
     headers={
-        'Authorization': '$API_TOKEN',
+        'Authorization': api_token,
         'Content-Type': 'application/json',
     }
 )
@@ -98,16 +96,16 @@ try:
     resp = urllib.request.urlopen(req)
     data = json.loads(resp.read())
     if 'errors' in data:
-        print(f'GraphQL errors: {json.dumps(data[\"errors\"], indent=2)}', file=sys.stderr)
+        print(f'GraphQL errors: {json.dumps(data["errors"], indent=2)}', file=sys.stderr)
         sys.exit(1)
     post = data['data']['publishPost']['post']
-    print(f'SUCCESS — ID: {post[\"id\"]}')
-    print(f'Slug: {post[\"slug\"]}')
-    print(f'URL: {post[\"url\"]}')
+    print(f'SUCCESS — ID: {post["id"]}')
+    print(f'Slug: {post["slug"]}')
+    print(f'URL: {post["url"]}')
 except urllib.error.HTTPError as e:
     print(f'ERROR {e.code}: {e.read().decode()[:500]}', file=sys.stderr)
     sys.exit(1)
-"
+PYEOF
 
 echo ""
 echo "Article published on Hashnode."
