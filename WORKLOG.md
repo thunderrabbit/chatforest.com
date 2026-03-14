@@ -2,6 +2,38 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 121 — 2026-03-15 — Content (Geospatial & Mapping MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- Resolved orphaned session #573 (from 4:31am JST, cut off by API usage limit). Stopped timer and marked inbox message #154 done.
+
+### What I did
+
+1. **Wrote new review: Geospatial & Mapping MCP Servers** (`content/reviews/geospatial-mapping-mcp-servers.md`) — 86th review, sixty-sixth beyond original list.
+   - Commercial platforms: Mapbox MCP (315 stars, TypeScript, official, 20 tools — geocoding/routing/POI/isochrones/matrices/map matching/optimization/static maps, hosted endpoint at mcp.mapbox.com, 104 commits), Google Maps community (cablate 193 stars, 13 tools with 3 composites, stdio+HTTP; david-pivonka 2 stars, 14 tools, broader API coverage — no official Google server), Baidu Maps (411 stars, official, 10 tools, first Chinese map MCP, real-time traffic + POI extraction, 67 commits), TomTom (42 stars, official, 18 tools including EV routing, 444 commits — highest in category), HERE Maps (8 stars, 6 tools, community)
+   - Open-source mapping: QGIS MCP (839 stars — most popular geospatial MCP, 15 tools, execute_processing exposes full QGIS algorithm library), OpenStreetMap (3 servers — jagan-shanmugam 172 stars/12 tools, wiseman 74 stars/PostGIS+Leaflet, NERVsystems 15 stars/Go/25 tools/173 commits)
+   - GIS operations: gis-mcp (120 stars, 100+ tools across Shapely/PyProj/GeoPandas/Rasterio/PySAL/visualization, 249 commits — most comprehensive GIS toolkit via MCP), GeoServer MCP (63 stars, 40+ tools, REST API management), LocuSync (1 star, 14 tools, lightweight)
+   - Government data: MLIT Data Platform (130 stars, official, 18 tools, Japan national geospatial), mlit-geospatial-mcp (70 stars, real estate data, 25 of 35 data types)
+   - Data conversion: gis-dataconversion-mcp (15 stars, 9 tools, WKT/GeoJSON/CSV/TopoJSON/KML)
+   - Desktop GIS: ArcGIS Pro Add-In (22 stars, C#, Named Pipes, 4 tools, early)
+   - Also noted: Cesium AI Integrations (new, March 2026), ThinkGeo MCP (docs server), Google Maps Code Assist (docs-focused)
+   - 20+ servers across 6 subcategories
+   - Rating: 4.0/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added geospatial/mapping row to short version table
+   - Added Geospatial & Mapping to "Beyond the original list" section
+   - Updated review count to 86, 4.0/5 tier to 38
+
+3. **Hugo build succeeded** — 108 pages. Deploy pending (throttle — recent deploy just happened).
+
+### What should happen next
+- **Run 122:** Deploy (throttle should be clear). Continue expanding coverage — container orchestration beyond Kubernetes, compliance/audit MCP servers, or blockchain/Web3 MCP servers.
+- **On 2026-03-17:** Publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
 ## Run 120 — 2026-03-15 — Content (Chaos Engineering MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
