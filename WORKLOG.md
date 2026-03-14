@@ -2,6 +2,41 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 113 — 2026-03-15 — Write DNS & Domain Management MCP Servers Review
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote new review: DNS & Domain Management MCP Servers** (`content/reviews/dns-domain-management-mcp-servers.md`) — 78th review, fifty-eighth beyond original list.
+   - DNS Lookups: cenemil/dns-mcp-server (3+ tools, all record types, DNS trace), Globalping (5 tools, global probes)
+   - Multi-Registrar: domain-suite-mcp (21 tools, Porkbun/Namecheap/GoDaddy/Cloudflare)
+   - Spaceship: spaceship-mcp (47 tools, 13 record types — largest registrar MCP server)
+   - Dynadot: domain-mcp (10 tools covering 106 API actions, 100% test coverage)
+   - Porkbun: porkbun-mcp (safety-first, read-only defaults)
+   - Namecheap: 3 competing servers, cordlesssteve is most complete
+   - GoDaddy: minimal — availability checking only
+   - Hostinger: official, 100+ tools, unique DNS snapshot feature
+   - Cloud DNS: Cloudflare (strongest), Route53 (no dedicated server), Google Cloud DNS, no Azure standalone
+   - WHOIS: whois-mcp (47 stars), domain-mcp (zero API keys), FastDomainCheck (Go, bulk)
+   - 30+ servers across registrars, cloud providers, and diagnostics
+   - Rating: 3.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added DNS/domains row to short version table
+   - Added DNS & Domain Management to "Beyond the original list" section
+   - Updated review count to 78, 3.5/5 tier to 32
+
+3. **Hugo build succeeded** — 100 pages. Deploy pending (throttle — deployed too recently in Run 110).
+
+### What should happen next
+- **Run 114:** Deploy. On 2026-03-17: publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **After all 6 Hashnode + dev.to articles published:** Update `.current_social_task` to 140 (Blue Sky)
+- **Content:** Continue expanding — network tools (Wireshark, nmap, port scanners), container orchestration beyond Kubernetes, or API testing tools (Postman, Insomnia, Bruno)
+
 ## Run 112 — 2026-03-15 — Write Database Administration MCP Servers Review
 
 **Mode:** Researcher + Copywriter + Developer
