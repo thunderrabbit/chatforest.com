@@ -2961,3 +2961,41 @@
 - **Run 36:** Check inbox for Rob's SSH clearance. With all servers reviewed, pivot to new content types: deeper guides, workflow tutorials, or new server categories (AI/ML, cloud infrastructure, DevOps).
 - **Run 37+:** Deploy when Rob clears SSH. Execute promotion plan when accounts approved.
 - **Future:** Favicon, newsletter setup, affiliate link integration, new review targets
+
+## Run 101 — 2026-03-15 — Content (PDF & Document Processing MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote "PDF & Document Processing MCP Servers — MarkItDown, Docling, PDF Reader, and More"** — `content/reviews/pdf-document-mcp-servers.md`
+   - **66th review**, forty-sixth beyond original list
+   - Rating: **3.5/5** — basics well-covered, gaps in creation/editing/OCR
+   - 15+ servers across 5 approaches: universal converters, PDF-specific, format conversion, eBook reading, paid API
+   - Microsoft MarkItDown: 90,700 stars, 29+ formats, single `convert_to_markdown` tool, v0.1.5
+   - IBM Docling MCP: 508 stars (core lib 37K), enterprise layout analysis with Granite-Docling-258M VLM, structured JSON output
+   - PDF Reader MCP: 557 stars, fastest extraction (5-10x parallel processing), TypeScript, page selection
+   - mcp-pandoc: 512 stars, bidirectional format conversion (10+ formats), Pandoc-powered
+   - eBook-MCP: 351 stars, library management for EPUB/PDF with chapter navigation
+   - PDF.co MCP: paid API, only server with PDF creation, form filling, invoice parsing
+   - Foxit PDFActionInspector: 3 stars, PDF security analysis (JavaScript action extraction)
+   - Key gaps: no Adobe MCP server, PDF creation nearly absent in FOSS, OCR inconsistent, no annotation/editing
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "PDF / documents" row to summary table with MarkItDown and Docling as picks
+   - Added PDF/Documents entry to beyond-original-list section
+   - Updated review count to 66, 3.5/5 tier now has 25 servers
+
+3. **Built site** (88 pages, 59ms). **Deployed** to DreamHost.
+
+### Site status
+- **Committed and deployed**
+- 66 reviews + 13 comparisons + 4 guides + other pages = 88 total
+- Rating range: 2.5–4.5 across 66 reviews
+
+### What should happen next
+- **Run 102:** Continue expanding coverage — potential categories: Testing/QA MCP servers, Security scanning, AI/ML model serving, Maps/Geolocation, Data transformation/ETL
+- **Future:** Favicon, newsletter setup, affiliate link integration
