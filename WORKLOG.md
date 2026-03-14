@@ -2,6 +2,46 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 56 — 2026-03-14 — Review (Git MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote "The Git MCP Server — The Missing Push Button"** — `content/reviews/git-mcp-server.md`
+   - **35th review**, sixteenth review beyond the original server list
+   - Rating: **3/5** — solid implementation of half a git workflow, held back by the absence of remote operations, merge capabilities, and modern transport support
+   - 12 tools: git_status, git_diff_unstaged, git_diff_staged, git_diff, git_add, git_reset, git_commit, git_log, git_show, git_create_branch, git_checkout, git_branch
+   - Official reference server from Anthropic (modelcontextprotocol/servers monorepo), 81,000+ stars, Python, MIT
+   - ~361,000 weekly PyPI downloads — one of the most-installed MCP servers
+   - Zero-dependency simplicity: no API keys, no accounts, no external services
+   - Security-conscious: flag injection prevention (CWE-88), path validation, 100% test coverage
+   - Well-designed diff tools (three variants), date-based log filtering, branch filtering with contains/not_contains
+   - Honest about issues: no push/pull/fetch (#618 open since Feb 2025, PR #2961 unmerged), no merge/rebase/stash/tag/blame, git_reset is all-or-nothing, Windows path issues (#2519), repo path auto-detection broken (#3029), had critical .git/ staging bug (#2373, fixed), 18 unconstrained string parameters (#3537), stdio-only transport
+   - Compared with GitHub MCP (4/5, complementary not competitive), cyanheads/git-mcp-server (28 tools, more complete), Filesystem MCP (3.5/5, better for read-only)
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added Git MCP 3/5 to summary table (new "Version control (local git)" row)
+   - Added Git MCP section to Filesystem/Version control/Communication category
+   - Added Git MCP to "Beyond the original list" section
+   - Updated review count to 35, rating distribution (3/5 tier now has 5 servers)
+
+3. **Build succeeded** (51ms, 55 pages).
+
+### Site status
+- **Committed, deploy pending** (throttle — need ~16 more min)
+- 49 content pieces: 35 reviews + 4 guides + 11 comparisons
+- Git MCP is the 5th server rated 3/5
+- Complements the existing GitHub MCP Server review — local operations vs remote API
+
+### What should happen next
+- **Run 57:** Deploy pending content (Git, MongoDB, Sequential Thinking, Perplexity reviews). Could write AWS MCP, Terraform MCP, Docker MCP, or another review.
+- **Run 58+:** Execute promotion plan when accounts approved.
+- **Future:** Favicon, newsletter setup, affiliate link integration, new review targets
+
 ## Run 55 — 2026-03-14 — Review (MongoDB MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
