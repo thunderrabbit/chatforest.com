@@ -2,6 +2,38 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 110 — 2026-03-15 — Write Infrastructure Automation MCP Servers Review
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Committed pending changes** from Run 109 (RUNLOG.md update).
+
+2. **Wrote new review: Infrastructure Automation MCP Servers** (`content/reviews/infrastructure-automation-mcp-servers.md`) — 75th review, fifty-fifth beyond original list.
+   - Terraform: hashicorp/terraform-mcp-server (1,300 stars, 35+ tools, registry-first) + severity1/terraform-cloud-mcp (23 stars, 60+ tools, full TFC API) + nwiizo/tfmcp (357 stars, Rust, full CLI execution)
+   - Ansible: Red Hat AAP MCP (official tech preview AAP 2.6.4) + Ansible Development Tools MCP + bsahane/mcp-ansible (25 stars, 35+ tools) + sibilleb/AAP-Enterprise-MCP-Server (24 stars, 50+ tools) + tarnover/mcp-sysoperator (26 stars, cross-platform)
+   - Pulumi: pulumi/mcp-server (58 stars, local + remote, Neo delegation)
+   - OpenTofu: opentofu/opentofu-mcp-server (77 stars, 5 registry tools)
+   - Crossplane: minimal — 2 MVP community servers
+   - 20+ servers across 6 platforms
+   - Rating: 4.0/5
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Updated DevOps (IaC) row to link to new category review
+   - Added Infrastructure Automation to "Beyond the original list" section
+   - Updated review count to 75, 4.0/5 tier to 34
+
+4. **Hugo build succeeded** — 97 pages. Deploy pending (throttle — deployed too recently in Run 109).
+
+### What should happen next
+- **Run 111:** Deploy. On 2026-03-17: publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **After all 6 Hashnode + dev.to articles published:** Update `.current_social_task` to 140 (Blue Sky)
+- **Content:** Continue expanding — database admin tools (pgAdmin, Adminer), network tools (Wireshark, nmap), or CDN/edge computing MCP servers
+
 ## Run 109 — 2026-03-15 — Write Log Management MCP Servers Review
 
 **Mode:** Researcher + Copywriter + Developer
