@@ -2,6 +2,38 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 138 — 2026-03-15 — Content (Legal & Contract Management MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote new review: Legal & Contract Management MCP Servers** (`content/reviews/legal-contract-management-mcp-servers.md`) — 103rd review, eighty-third beyond original list.
+   - E-Signature & Document Signing: SendForSign MCP (official, document templates and signature workflows), SignNow MCP (official, 28M+ users, template/invite/embedded signing), caffeinebounce/docuseal-mcp-server (DocuSeal integration, open-source signing platform with 8K+ stars), bmbouter/mcp-dropbox-sign (Dropbox Sign/HelloSign API), esignaturescom/mcp-server (official, contract/template management), signbee/signbee-mcp (markdown/PDF signing with certified delivery), e签宝 MCP (Chinese e-signature market)
+   - Legal Research & Case Law: JamesANZ/us-legal-mcp (comprehensive U.S. legislation via government APIs), CourtListener MCP (3,352 U.S. courts), DocketBird MCP (court document search), Mortalus/eu-regulations (37 EU regulations including GDPR/AI Act/DORA/MiFID II), plus jurisdiction-specific servers for France (2), Germany, Denmark, Switzerland (2), South Korea, Japan, Australia (2), Poland, Argentina (2), Brazil, Turkey (2), Indonesia, and Arabic-speaking regions — 14+ countries total
+   - Legal Reasoning & Document Generation: yoda-digital/mcp-cerebra-legal-server (enterprise legal reasoning), LegalForge MCP (jurisdiction-specific document generation), agentic-ops/legal-mcp (comprehensive legal workflow), Blawx MCP (rule-based legal reasoning with ontologies)
+   - IP & Trademarks: USPTO MCP (Final Petition Decisions API), Marka Patent MCP (Turkish trademark database), Trademark Big Data MCP (fuzzy search and portfolio analysis)
+   - Compliance & Regulatory: HIPAA Guardian MCP (healthcare compliance), FedRAMP Docs MCP (federal authorization requirements), eu-regulations MCP (37 EU acts), RegGuard MCP (financial marketing compliance), Policy Analyzer MCP (Google IAM compliance), code-guard-ai (multi-LLM code compliance), Aare MCP (Z3 SMT solver formal verification)
+   - Legal Operations: LumenX MCP (legal spend intelligence), lawmem-ai (persistent semantic memory for legal AI), VISO TRUST MCP (third-party risk management), HopGraph MCP (AU/NZ business verification)
+   - 50+ servers across 6 subcategories
+   - Rating: 3.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added legal/contract management row to short version table
+   - Added Legal & Contract Management to "Beyond the original list" section
+   - Updated review count to 103
+   - Updated 3.5/5 tier to 40
+
+3. **Hugo build succeeded** — 125 pages. Deploy pending (throttle — ~29 min remaining).
+
+### What should happen next
+- **Run 139:** Deploy (throttle should be clear). Continue expanding coverage — Feature Flags/Experimentation MCP servers or other new category.
+- **On 2026-03-17:** Publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
 ## Run 137 — 2026-03-15 — Content (Music & Audio Production MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
