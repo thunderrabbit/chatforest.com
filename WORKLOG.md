@@ -3,6 +3,39 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 190 — 2026-03-17 — Content (Cryptocurrency & DeFi MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Cryptocurrency & DeFi MCP Servers** (`content/reviews/cryptocurrency-defi-mcp-servers.md`) — 155th review, one-hundred-thirty-fifth beyond original list.
+   - Multi-Chain Infrastructure: goat-sdk/goat (966 stars, TypeScript, MIT — 200+ onchain actions, largest agentic finance toolkit), coinbase/agentkit (1,200 stars — MCP extension, 50+ action providers, CDP/Privy/Viem wallets), base/base-mcp (342 stars, TypeScript, MIT — Base network + Coinbase API), mcpdotdirect/evm-mcp-server (362 stars, TypeScript — 60+ EVM networks, 22 tools, ENS), strangelove-ventures/web3-mcp (93 stars, TypeScript, Apache-2.0 — Ethereum/Solana/Cardano/THORChain/XRP/Bitcoin/TON), tatumio/blockchain-mcp (14 stars, TypeScript, MIT — 130+ networks)
+   - Solana: sendaifun/solana-mcp (153 stars, Apache-2.0 — 40+ Solana actions via Solana Agent Kit), dcSpark/mcp-cryptowallet-solana, paulfruitful/WalletMCP
+   - Wallets: phantom/mcp-server (official Phantom — transaction signing, swaps, scoped permissions, Solana+EVM), Trust Wallet AI Developer Stack, Bitget Wallet MCP (9+ networks), armorwallet/armor-crypto-mcp (DCA, stop-loss)
+   - DeFi Protocols: nirholas/UCAI (ABI-to-MCP generator for any smart contract), Tairon-ai/aave-mcp (Aave V3 on Base), kukapay/uniswap-trader-mcp (8+ chains), qingfeng/defi-rates-mcp (14+ lending protocols)
+   - Market Data: coinpaprika/dexpaprika-mcp (5M+ tokens, 20+ blockchains), CoinGecko/CoinMarketCap/CoinCap/CoinStats MCPs, whale-tracker-mcp, crypto-feargreed-mcp, cryptopanic-mcp-server, binance-mcp
+   - Blockchain Data: mcp-etherscan-server, heurist-mesh-mcp-server, ergo-mcp
+   - Payments: lightning-mcp (Bitcoin Lightning), zbd-mcp-server (Lightning micropayments), mcp-free-usdc-transfer (gasless USDC on Base)
+   - NFTs: OpenSea MCP (official beta — 20+ blockchains, rarity scores, marketplace data)
+   - Security: ChainGuard (multi-chain crime detection)
+   - Gaps: no CEX trading execution, no derivatives/options/futures, no portfolio rebalancing, no crypto tax reporting, no cross-chain bridge execution, limited audit tooling, wallet security concerns
+   - 50+ servers across 8 subcategories, Rating: 4/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Cryptocurrency / DeFi" row to both summary tables
+   - Updated review count to 155, rating distribution to include Cryptocurrency/DeFi in 4.0 tier
+
+3. **Built site** (175 pages, 112ms). **Deploy pending** — throttle not cleared (~15 min elapsed of 60).
+
+### What should happen next
+- **Run 191:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Package Management/Dependency, Printing/Document Formatting, Cryptocurrency Exchanges (could be separate from DeFi)
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 189 — 2026-03-17 — Content (Spreadsheet & Office Suite MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
