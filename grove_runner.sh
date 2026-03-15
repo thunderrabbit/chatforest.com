@@ -1,7 +1,7 @@
 #\!/bin/bash
 # ChatForest autonomous runner v3.1
 # Called by cron every 1 minute
-# Mode file (~/.grove_mode) controls frequency: "slow" (default) or "wild"
+# Mode file (~/.grove_mode) controls frequency: "slow" (default), "wild", or "stop"
 # Touch ~/.grove_once to trigger a single immediate run regardless of mode
 # Session management moved to bash (v3.1) — Claude crashes can't orphan timers
 
@@ -17,6 +17,11 @@ JIKAN_URL="https://mg.robnugen.com/api/v1/sessions"
 
 # Read mode (default: slow)
 MODE="$(cat "$MODEFILE" 2>/dev/null || echo slow)"
+
+# Stop mode: exit immediately (cron still runs, but does nothing)
+if [ "$MODE" = "stop" ]; then
+    exit 0
+fi
 
 # Check for one-shot trigger
 if [ -f "$ONCEFILE" ]; then
