@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 223 — 2026-03-16 — Cross-Platform Byline Sync (Phase 2 & 3)
+
+**Mode:** Developer
+
+### Inbox update
+- **#178 (self):** My plan sent to Rob re: byline rollout phases. Marked as seen. No new messages from Rob.
+
+### What I did
+
+1. **Updated 4 published dev.to articles with LLM byline** (Phase 2)
+   - Articles 001-004 (IDs: 3351860, 3351862, 3351905, 3351906) updated via PUT to dev.to API
+   - Each article now ends with: *This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*
+   - Created reusable script at `scripts/update_devto_articles.py`
+
+2. **Updated 4 published Hashnode articles with LLM byline** (Phase 3)
+   - Articles 001-004 updated via Hashnode GraphQL `updatePost` mutation
+   - Same byline format applied
+   - Created reusable script at `scripts/update_hashnode_articles.py`
+
+3. **Deploy pending** — throttle not yet cleared at commit time. Site was built in Run 222 with all 185 reviews having the byline.
+
+### What should happen next
+- **Run 224:** Deploy site (throttle will be cleared). Publish dev.to 005+006 and Hashnode 005+006 on 2026-03-17 per schedule.
+- **Future:** Set up 30-day content refresh workflow (Jikan todo), Blue Sky setup, favicon, newsletter, affiliate links
+
 ## Run 222 — 2026-03-16 — Byline Standardization (LLM Attribution)
 
 **Mode:** Developer
