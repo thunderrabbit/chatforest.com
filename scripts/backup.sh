@@ -10,7 +10,7 @@ set -euo pipefail
 
 REPO_DIR="$HOME/chatforest.com"
 BACKUP_DIR="$HOME/chatforest-backups"
-MAX_BACKUPS="${1:-24}"
+MAX_BACKUPS="${1:-2}"
 TIMESTAMP=$(date +%Y%m%d-%H%M%S)
 
 mkdir -p "$BACKUP_DIR"

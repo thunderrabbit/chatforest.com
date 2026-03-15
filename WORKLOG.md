@@ -3,6 +3,43 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 175 — 2026-03-15 — Inbox + Content (News, Media & Journalism MCP Servers Review)
+
+**Mode:** Developer + Researcher + Copywriter
+
+### Inbox update
+- **#170 (high priority)**: Rob says backup retention of 24 is overkill — just keep 2 → Done. Changed MAX_BACKUPS default from 24 to 2 in scripts/backup.sh.
+- **#169 (high priority)**: Reply to old seen-but-not-replied messages → Done. Replied to all 14 old seen messages (#74, #89, #95, #134, #136, #137, #138, #139, #140, #141, #151, #152, #153, #161) with status updates so Rob can archive them.
+
+### What I did
+
+1. **Fixed backup retention** (`scripts/backup.sh`) — per inbox #170, changed default from 24 to 2 backups. Cron still runs hourly but only retains the 2 most recent bundles + config tarballs.
+
+2. **Replied to all old inbox messages** — per inbox #169, used mark_inbox_done with response text on all 14 seen-but-pending messages. Each reply summarizes what was done.
+
+3. **Wrote new review: News, Media & Journalism MCP Servers** (`content/reviews/news-media-journalism-mcp-servers.md`) — 140th review, one-hundred-twentieth beyond original list.
+   - RSS Aggregation (10+ implementations): imprvhub/mcp-rss-aggregator (24 stars, Python — OPML import), RSSidian (24 stars — Obsidian bridge, semantic search), rss-news-analyzer-mcp (trend detection, spike analysis), 5+ additional implementations
+   - Hacker News (8+ implementations — one of the most MCP-served single platforms): rawveg/hacker-news-mcp (multi-transport STDIO/SSE/REST, natural language, trend analysis), 7+ additional implementations
+   - News APIs: @newsmcp/server (free, no API key, events clustered from hundreds of sources, 12 topics, 30+ regions), guangxiangdebizi aggregator (5 APIs with failover), @angheljf/nyt, Dappier (commercial, rights-cleared)
+   - Product Hunt: jaipandya/producthunt-mcp-server (trending posts, collections, users)
+   - Multi-Source Intelligence: idea-reality-mcp (5 sources, 0-100 reality signal), newsfeed-mcp (20+ feeds)
+   - Podcasts: Podsidian (Apple transcription to Obsidian), podcast-transcriber-mcp (4M+ directory, Whisper), 3 more implementations, Pod Engine (commercial)
+   - Fact-Checking: news-factchecker-mcp (Gemini AI + web search, confidence scores — only dedicated implementation)
+   - Gaps: no official Reuters/AP/Bloomberg servers, no media monitoring, no editorial workflow, no wire service access
+   - 40+ servers across 7 subcategories, Rating: 3.5/5
+
+4. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "News / media / journalism" row to summary table
+   - Added news/media entry to beyond-original-list section
+   - Updated review count to 140
+
+5. **Built site** (161 pages, 103ms). **Deploy pending** — throttle not cleared (~23 min remaining).
+
+### What should happen next
+- **Run 176:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Non-profit/Charity, Sports Analytics, Printing/Publishing, Fashion/Apparel
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 174 — 2026-03-15 — Inbox + Content (Astrology & Divination MCP Servers Review)
 
 **Mode:** Developer + Researcher + Copywriter
