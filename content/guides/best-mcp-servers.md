@@ -1,7 +1,7 @@
 ---
 title: "Best MCP Servers for Developers in 2026"
 date: 2026-03-14T02:52:53+09:00
-description: "We've reviewed 116 MCP servers and compared 40+ across 13 categories. Here are the ones worth installing — and the ones to avoid."
+description: "We've reviewed 117 MCP servers and compared 40+ across 13 categories. Here are the ones worth installing — and the ones to avoid."
 og_description: "We've tested 33 MCP servers and compared 40+ across 11 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
 content_type: "Comparison"
 card_description: "We've reviewed 28 MCP servers across 11 categories and beyond. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
@@ -9,7 +9,7 @@ card_description: "We've reviewed 28 MCP servers across 11 categories and beyond
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [116 in-depth reviews](/reviews/) and [13 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [117 in-depth reviews](/reviews/) and [13 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -108,6 +108,7 @@ If you want to skip the details:
 | Agriculture / farming | [Agriculture & Farming MCP](/reviews/agriculture-farming-mcp-servers/) | 3.0/5 | Leaf Agriculture (official, unified farm API), agri-weather-mcp (soil depth, ET₀) |
 | Travel / tourism | [Travel & Tourism MCP](/reviews/travel-tourism-mcp-servers/) | 4.0/5 | [openbnb-org/mcp-server-airbnb](https://github.com/openbnb-org/mcp-server-airbnb) (394 stars, no API key), [ravinahp/flights-mcp](https://github.com/ravinahp/flights-mcp) (169 stars, Duffel API), [Expedia MCP](https://github.com/ExpediaGroup/expedia-travel-recommendations-mcp) (official, 4 tools) |
 | Telecommunications / communications | [Telecom & Communications MCP](/reviews/telecommunications-communications-mcp-servers/) | 4.0/5 | [twilio-labs/mcp](https://github.com/twilio-labs/mcp) (96 stars, official, full API), [netboxlabs/netbox-mcp-server](https://github.com/netboxlabs/netbox-mcp-server) (127 stars, DCIM/IPAM), [sinch/sinch-mcp-server](https://github.com/sinch/sinch-mcp-server) (23 tools, multi-channel) |
+| Energy / utilities | [Energy & Utilities MCP](/reviews/energy-utilities-mcp-servers/) | 3.5/5 | [Power-Agent/PowerMCP](https://github.com/Power-Agent/PowerMCP) (88 stars, 9 power system simulators), [LBNL-ETA/EnergyPlus-MCP](https://github.com/LBNL-ETA/EnergyPlus-MCP) (69 stars, 35 tools from LBNL), [cdgaete/pypsa-mcp](https://github.com/cdgaete/pypsa-mcp) (49 stars, energy modeling) |
 | Vector database | [Chroma MCP](/reviews/chroma-mcp-server/) | 3.5/5 | [Milvus MCP](/reviews/milvus-mcp-server/) (3.5/5, hybrid search) |
 
 Now the details.
@@ -545,7 +546,7 @@ Our rating distribution tells the story:
 |--------|-------|---------|
 | 4.5/5 | 3 | Playwright, Cloudflare, CMS/Content Management |
 | 4.0/5 | 49 | Filesystem, GitHub, Brave Search, Slack, Sentry, Exa, Neon, Supabase, Stripe, Linear, Todoist, Firecrawl, Tavily, Perplexity, MongoDB, AWS, Kubernetes, Terraform, Grafana, Datadog, New Relic, Honeycomb, PagerDuty, Framelink, GitMCP, Mem0, Zep/Graphiti, Asana, Google Calendar, CI/CD, Code Security, Secret Management, Log Management, Infrastructure Automation, Database Administration, API Testing, Data Pipeline/ETL, Geospatial/Mapping, Time-Series Databases, Audio/Video Processing, Workflow Automation, Game Engines/3D, Desktop Automation/Browser Control, E-Commerce/Shopping, Feature Flags/Experimentation, Calendar/Scheduling, Sports/Fitness, Travel/Tourism, Telecommunications/Communications |
-| 3.5/5 | 42 | Context7, Puppeteer, Memory, Fetch, Notion, Vercel, Figma Dev Mode, Chroma, Browserbase, Crawl4AI, Milvus, Docker, Pulumi, Teams, Atlassian, Obsidian, Shopify, Gmail, Outlook, CRM, Analytics, Cloud Storage, Search Engines, Message Queues, PDF/Documents, Monitoring/Uptime, Notification/Email Delivery, Testing/QA, API Gateways, Container Registries, CDN/Edge Computing, DNS/Domains, Network Security, Performance/Load Testing, AI/ML Model Serving, Data Visualization, Chaos Engineering, Blockchain/Web3, Identity/Auth, Legal/Contract Management, Customer Support/Helpdesk, Supply Chain/Logistics |
+| 3.5/5 | 43 | Context7, Puppeteer, Memory, Fetch, Notion, Vercel, Figma Dev Mode, Chroma, Browserbase, Crawl4AI, Milvus, Docker, Pulumi, Teams, Atlassian, Obsidian, Shopify, Gmail, Outlook, CRM, Analytics, Cloud Storage, Search Engines, Message Queues, PDF/Documents, Monitoring/Uptime, Notification/Email Delivery, Testing/QA, API Gateways, Container Registries, CDN/Edge Computing, DNS/Domains, Network Security, Performance/Load Testing, AI/ML Model Serving, Data Visualization, Chaos Engineering, Blockchain/Web3, Identity/Auth, Legal/Contract Management, Customer Support/Helpdesk, Supply Chain/Logistics, Energy/Utilities |
 | 3.0/5 | 7 | SQLite, Sequential Thinking, Qdrant, Pinecone, Git, Discord, Agriculture/Farming |
 | 2.5/5 | 2 | PostgreSQL, EverArt |
 
