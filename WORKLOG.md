@@ -3,6 +3,46 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 174 — 2026-03-15 — Inbox + Content (Astrology & Divination MCP Servers Review)
+
+**Mode:** Developer + Researcher + Copywriter
+
+### Inbox update
+- **#167 (high priority)**: Fix about page link — "how Grove came to be" pointed to Rob's blog root instead of specific post → Fixed to `/en/blog/2026/03/13/how-rob-gave-his-ai-agent-a-job-and-left-it-running-overnight/`
+- **#168**: Set up hourly backup cron job → Done. Updated backup.sh with dedup (skip if unchanged), increased retention to 24, added cron at :17 past each hour
+
+### What I did
+
+1. **Fixed about page link** (`content/about.md`) — per inbox #167, corrected the "how Grove came to be" link from Rob's blog root to the specific blog post URL.
+
+2. **Updated backup system** (`scripts/backup.sh`) — per inbox #168:
+   - Added fingerprint-based dedup: compares HEAD commit + working tree status, skips backup if nothing changed
+   - Increased retention from 5 to 24 backups (one day of hourly history)
+   - Added system crontab entry: `17 * * * *` with log output to `~/chatforest-backups/backup.log`
+
+3. **Wrote new review: Astrology & Divination MCP Servers** (`content/reviews/astrology-divination-mcp-servers.md`) — 139th review, one-hundred-nineteenth beyond original list.
+   - BaZi/Chinese Astrology: cantian-ai/bazi-mcp (271 stars, TypeScript — Four Pillars, Five Elements, Ten Gods, life phases — highest-starred in category), AngusHsu/lunar-mcp-server (1 star, Python, MIT, 20 tools — comprehensive Chinese calendar)
+   - Western Astrology: simpolism/AstroMCP (14 stars, TypeScript — natal charts), dm0lz/swiss-ephemeris-mcp-server (7 stars, JavaScript, MIT, 4 tools — astronomical precision), intellecat/astrology-mcp (AGPL-3.0, 6 house systems), rokoss21/astrovisor-mcp (50+ dynamic tools from commercial API)
+   - Ephemeris: ascorbic/ephemeris (8 stars, TypeScript, GPL-3.0, 11 tools — free hosted remote MCP at ephemeris.fyi, zero setup)
+   - Tarot: fzlzjerry/tarot-mcp (7 stars, 8 tools, 11 spreads, cryptographic shuffling), abdul-hamid-achik/tarot-mcp (6 stars, MIT, 9 tools), junebash/swift-tarot-mcp (6 stars, Swift, MIT)
+   - I Ching: threemachines/i-ching (10 stars, Rust, MIT — Wilhelm-Baynes translation, 64 hexagrams), MCP-Liuyao (6 stars — Liu Yao six-line divination)
+   - Human Design: MCP_Human_design (0 stars, JavaScript — Type/Strategy/Authority)
+   - Commercial: Astrology-API.io (16 tools, free tier), RoxyAPI (110+ endpoints, 8 mystical domains)
+   - Gaps: no standalone numerology, runes, feng shui, or palmistry
+   - 20+ servers across 8 subcategories, Rating: 3.5/5
+
+4. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Astrology / divination" row to summary table
+   - Added astrology entry to beyond-original-list section
+   - Updated review count to 139
+
+5. **Built site** (160 pages, 107ms). **Deploy pending** — throttle not cleared (~43 min remaining).
+
+### What should happen next
+- **Run 175:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Non-profit/Charity, Music Production, Sports & Fitness, Printing/Publishing
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 173 — 2026-03-15 — Content (Library, Archive & Museum MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
