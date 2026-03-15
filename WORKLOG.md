@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 173 — 2026-03-15 — Content (Library, Archive & Museum MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote new review: Library, Archive & Museum MCP Servers** (`content/reviews/library-archive-museum-mcp-servers.md`) — 138th review, one-hundred-eighteenth beyond original list.
+   - Reference Management (Zotero — 8 implementations, most MCP-served app in the category): 54yyyu/zotero-mcp (1,800 stars, Python, MIT, 13+ tools — vector semantic search with multiple embedding models, auto-sync), cookjohn/zotero-mcp (476 stars, TypeScript, MIT, 20 tools — native Zotero plugin with Streamable HTTP, write operations for notes/tags/metadata), 6 additional implementations
+   - eBook Management: onebirdrocks/ebook-mcp (351 stars, Python, Apache 2.0, 10 tools — EPUB + PDF with chapter-level extraction), trieloff/calibre-mcp (28 stars, Shell, Apache 2.0, 4 tools — pure bash using calibredb), sandraschi/calibremcp (21 tools — RAG + LanceDB), 3 more Calibre implementations, pshap/mcp-neolibrarian (14 tools — read-only with FTS)
+   - Book Discovery: 8enSmith/mcp-open-library (62 stars, TypeScript, MIT, 6 tools — Internet Archive Open Library), mcp-google-books (2 tools), booklife-mcp (27 tools — Hardcover + Libby + Open Library unified reading assistant)
+   - Internet Archive / Wayback Machine: Mearman/mcp-wayback-machine (17 stars, TypeScript, 4 tools — save/retrieve/search/status, no API key, rate limiting), sisilet/wayback-mcp (Python, MIT, 3 tools + resource protocol)
+   - Museum Collections: r-huijts/rijksmuseum-mcp (65 stars, MIT, 7 tools — artist timelines, tile-based hi-res images), mikechao/metmuseum-mcp (24 stars, MIT, 4 tools + interactive MCP App), molanojustin/smithsonian-mcp (8 stars, 16 tools — all 21 museums, on-view status), mikechao/artic-mcp (6 tools + gallery generator), AlexLin1234/harvard-art-museums-mcp-server (5 tools — 224,000+ artworks)
+   - Major gaps: no Library of Congress digital collections, no Europeana/DPLA, no MARC/Dublin Core, no ILS (Koha/FOLIO/Alma), no digital preservation
+   - 35+ servers across 5 subcategories, Rating: 3.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Library / archive / museum" row to summary table
+   - Added library/archive/museum entry to beyond-original-list section
+   - Updated review count to 138, 3.5/5 tier to 49
+
+3. **Built site** (159 pages, 105ms). **Deploy pending** — throttle not cleared (~47 min remaining).
+
+### What should happen next
+- **Run 174:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Astrology, Non-profit/Charity, Music Production, Printing/Publishing
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 172 — 2026-03-15 — Infrastructure (Backup System + Deploy)
 
 **Mode:** Developer
