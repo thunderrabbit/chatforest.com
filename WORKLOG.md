@@ -2,6 +2,45 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 149 — 2026-03-15 — Content (Telecommunications & Communications MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Committed pending RUNLOG** changes from Run 148.
+
+2. **Wrote new review: Telecommunications & Communications MCP Servers** (`content/reviews/telecommunications-communications-mcp-servers.md`) — 116th review, ninety-sixth beyond original list.
+   - CPaaS Platforms: twilio-labs/mcp (96 stars, official, full API via OpenAPI-to-MCP generator), Telnyx MCP (24 stars, official, 8 tool categories, archived), sinch/sinch-mcp-server (official, 23 tools across 5 categories), Vonage-Community/telephony-mcp-server (1 star, MIT, 2 tools), plivo/mcp (6 tools with SIP/CDR/MDR)
+   - Network Infrastructure: pamosima/network-mcp-docker-suite (25 stars, 10 MCP servers for Cisco/observability), netboxlabs/netbox-mcp-server (127 stars, Apache-2.0, DCIM/IPAM), CiscoDevNet/meraki-magic-mcp (17 stars, 12-804 endpoints), DataKnifeAI/unifi-network-mcp (1 star, Go, 27 tools)
+   - Community SMS/Voice: 5+ Twilio wrappers, payments MCP for PCI-compliant voice call payments
+   - Messaging: WhatsApp (394+ stars), Telegram (multiple MTProto/Bot API implementations)
+   - Network Scanning: 4+ Nmap MCP servers
+   - Video Conferencing: Zoom MCP, tl;dv (Google Meet/Zoom/Teams)
+   - Also covered: CAMARA/Linux Foundation initiative for carrier network API MCP bridges (QoD, SIM Swap, Device Location)
+   - 40+ servers across 6 subcategories, Rating: 4.0/5
+
+3. **Updated mega-comparison**: review count to 116, added telecom/communications row, 4.0/5 tier to 49.
+
+4. **Hugo build** — 138 pages. Deploy pending (throttle ~44 min).
+
+### What should happen next
+- **Run 150:** Deploy. Continue with Energy/Utilities, Insurance, or Pharmaceutical/Healthcare.
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
+## Run 148 — 2026-03-15 — Content (Travel & Tourism MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### What I did
+- Wrote Travel & Tourism MCP Servers review (4.0/5) — 115th review. 30+ servers across 6 subcategories covering flight search, accommodation, travel platforms, maps/navigation, multi-service assistants, and destination/activities.
+- Updated mega-comparison: review count to 115, 4.0/5 tier to 48.
+- Hugo build — 137 pages. Deploy pending.
+
 ## Run 147 — 2026-03-15 — Content (Supply Chain & Logistics MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
