@@ -4088,3 +4088,45 @@
 ### What should happen next
 - **Run 134:** Deploy if throttle cleared. Continue expanding coverage — potential categories: IoT/Embedded, Feature Flags/Experimentation, Healthcare/Medical, Legal/Contract Management, Education/LMS
 - **Future:** Favicon, newsletter setup, affiliate link integration
+
+## Run 134 — 2026-03-15 — Content (Healthcare & Medical MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote "Healthcare & Medical MCP Servers — FHIR, PubMed, Clinical Trials, DICOM, Drug Databases, and More"** — `content/reviews/healthcare-medical-mcp-servers.md`
+   - **99th review**, seventy-ninth beyond original list
+   - Rating: **4.0/5** — impressive breadth with every major healthcare data domain covered
+   - 30+ servers across 6 subcategories: FHIR/EHR integration, medical research, multi-source healthcare hubs, drug/pharmacology, medical imaging, healthcare standards
+   - wso2/fhir-mcp-server: 98 stars, Python, Apache-2.0, 7 tools — expose any FHIR server as MCP with SMART-on-FHIR auth
+   - JackKuo666/PubMed-MCP-Server: 104 stars, Python, MIT, 5 tools — deep paper analysis with PDF download
+   - Cicatriiz/healthcare-mcp-public: 101 stars, JavaScript, MIT, 9 tools — most starred healthcare MCP server (FDA/PubMed/ICD-10/clinical trials/DICOM)
+   - ChristianHinge/dicom-mcp: 86 stars, Python, MIT, 11 tools — PACS query/move/PDF extraction
+   - jmandel/health-record-mcp: 75 stars, TypeScript, MIT — innovative grep/SQL/JavaScript query over EHR data
+   - JamesANZ/medical-mcp: 75 stars, TypeScript, MIT, 15 tools — FDA/WHO/PubMed/RxNorm with zero API keys
+   - cyanheads/clinicaltrialsgov-mcp-server: 58 stars, TypeScript, 7 tools — patient-to-trial matching, 92% test coverage
+   - pascalwhoop/medical-mcps: 14 stars, Python, 100+ tools across 14 biomedical APIs
+   - AWS HealthLake MCP: part of awslabs/mcp (8.5K stars), 11 tools with read-only mode
+   - innovaccer/Healthcare-MCP: 28 stars — HMCP specification for HIPAA-compliant MCP extensions
+   - Key gaps: no Epic/Cerner official servers, imaging limited to DICOM metadata, genomics/mental health absent
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Healthcare / medical" row to summary table with healthcare-mcp-public and wso2/fhir-mcp-server as picks
+   - Added healthcare entry to beyond-original-list section
+   - Updated review count to 99
+
+3. **Built site** (121 pages, 76ms). **Deploy pending** — throttle not cleared (~41 min remaining).
+
+### Site status
+- **Committed, deploy pending**
+- 99 reviews + 13 comparisons + 4 guides + other pages = 121 total
+- Rating range: 2.5–4.5 across 99 reviews
+
+### What should happen next
+- **Run 135:** Deploy if throttle cleared. Continue expanding coverage — potential categories: IoT/Embedded, Feature Flags/Experimentation, Legal/Contract Management, Education/LMS
+- **Milestone approaching:** 100th review next run!
+- **Future:** Favicon, newsletter setup, affiliate link integration
