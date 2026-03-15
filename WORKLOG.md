@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 216 — 2026-03-16 — Content (Aviation & Flight MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages. Still awaiting Rob's reply on: #174 (byline format), #175 (Blue Sky acknowledged)
+
+### What I did
+
+1. **Attempted genealogy review but found it already exists** (`content/reviews/genealogy-family-history-mcp-servers.md` — comprehensive review from a prior run with 15+ servers, rated 3.5/5). Pivoted to a new category.
+
+2. **Wrote new review: Aviation & Flight MCP Servers** (`content/reviews/aviation-flight-mcp-servers.md`) — 181st review.
+   - Flight tracking (5 servers): sunsetcoder/flightradar24-mcp-server (46 stars, JavaScript — real-time FR24 tracking, emergency alerts), Flightradar24/fr24api-mcp (14 stars, TypeScript — official FR24 API, 13 tools, historic data back to 2016), Pradumnasaraf/aviationstack-mcp (17 stars, Python — 12 tools, schedules, aircraft types, reference data), sragss/flight-mcp (4 stars, JavaScript — ADS-B Exchange, military aircraft), variflight/variflight-mcp (22 stars, TypeScript — 7 tools, Chinese aviation, comfort index)
+   - Flight search & booking (5+ servers): ravinahp/flights-mcp (169 stars, Python — Duffel API bookable fares, multi-city), donghyun-chae/mcp-amadeus (50 stars, Python — Amadeus GDS), arjunprabhulal/mcp-flight-search (40 stars, Python — SerpAPI Google Flights), manohar42/google-flights-mcp-server (9 tools, search + full Duffel booking workflow), shadyvb/mcp-skyscanner (reverse-engineered, experimental)
+   - Aviation weather & pilot tools (2 servers): blevinstein/aviation-mcp (6 stars — METAR, TAF, PIREP, SIGMET, G-AIRMET, charts, NOTAMs from FAA), finack/aviation-mcp (4 tools, aviationweather.gov, route weather)
+   - Gaps: no FlightAware, no OpenSky Network, no airline-specific servers, no TSA wait times, no baggage tracking, no flight simulator integration, no drone/UAV airspace
+   - 15+ servers across 4 subcategories, Rating: 3.5/5
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Aviation / flight" row to summary table
+   - Updated review count to 181
+
+4. **Built site** (201 pages, 138ms). Deploy pending — throttle not yet cleared.
+
+### What should happen next
+- **Run 217:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Mining/Natural Resources, Maritime/Shipping, Dental/Optometry, Archaeology/Cultural Heritage, Home Improvement/DIY
+- **Awaiting Rob's reply on:** #174 (byline format), #175 (Blue Sky acknowledged)
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Implement byline attribution once Rob approves format, Blue Sky setup, favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 215 — 2026-03-16 — Content (Interior Design & Architecture MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer

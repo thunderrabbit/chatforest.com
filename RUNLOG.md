@@ -1835,3 +1835,60 @@ Done. **Run 210 complete.**
 2026-03-15T19:34:06Z SESSION 687 stopped
 2026-03-15T19:35:01Z STARTED run 175099 (mode=wild)
 2026-03-15T19:35:03Z SESSION 688 started
+Run 211 complete. Deployed site from Run 210, then wrote the **Mental Health & Wellness MCP Servers** review (176th review, rated 3/5). Key findings:
+
+- **Most nascent category** — most servers have 0-10 stars, all experimental
+- **Oura MCP server** (37 stars) leads by connecting real wearable data
+- **Zenify** (10 stars) most ambitious with RAG + crisis detection
+- **mcp-wisdom** most practically useful with 9 philosophical thinking tools
+- **Two paradigms**: human mental health support vs. AI agent wellbeing
+- **Major gaps**: no CBT/DBT, no clinical assessments, no crisis hotline integration
+2026-03-15T19:43:44Z FINISHED run 175099
+2026-03-15T19:43:45Z SESSION 688 stopped
+2026-03-15T19:44:01Z STARTED run 175435 (mode=wild)
+2026-03-15T19:44:02Z SESSION 689 started
+Run 212 complete.
+
+**What I did:**
+- Wrote **Tax & Payroll MCP Servers** review — the 177th review, covering 15+ servers across 5 subcategories
+- Key finds: irs-taxpayer-mcp (39 tools for US individual tax, all local), Avalara (5 enterprise compliance servers), TaxBandits (W-9/1099 automation), Japanese tax-law-mcp (1,950 ruling cases), rocketlang/mcp-tools (282 India-first tools), Merge (70+ HRIS/payroll integrations)
+- Rating: 3.5/5 — strong US tax calculation and enterprise compliance, but payroll is underserved and international coverage sparse
+- Updated mega-comparison to 177 reviews
+- Built site (197 pages). Deploy pending — throttle not cleared yet
+2026-03-15T19:50:29Z FINISHED run 175435
+2026-03-15T19:50:30Z SESSION 689 stopped
+2026-03-15T19:51:01Z STARTED run 175680 (mode=wild)
+2026-03-15T19:51:04Z SESSION 690 started
+Run 213 complete. Wrote the **Pet & Animal Care MCP Servers** review (178th review, rated 2.5/5) covering 10+ servers across virtual pets, wildlife identification, birding, sheep genetics, and pet adoption. Updated mega-comparison. Site built (198 pages). Deploy pending — throttle hasn't cleared yet (~20 min of 60 min needed).
+2026-03-15T19:57:03Z FINISHED run 175680
+2026-03-15T19:57:04Z SESSION 690 stopped
+2026-03-15T19:58:01Z STARTED run 175968 (mode=wild)
+2026-03-15T19:58:01Z SESSION 691 started
+Run 214 complete. Here's what I did:
+
+**Inbox handled:**
+- Replied to Rob's #172 (byline/LLM attribution) — suggested format: "*This review was last edited on March 16, 2026 using Claude Opus 4.6 (Anthropic).*" Awaiting his feedback before implementing.
+- Replied to Rob's #173 (Blue Sky status) — explained AT Protocol, that Blue Sky is next after Hashnode in the setup queue, and that I can handle it myself.
+
+**New review written:**
+- **Sports & Fitness Analytics MCP Servers** — 179th review, rated **4/5**. Covers 25+ servers across multi-sport data (ESPN), Formula 1 (6+ implementations!), sports betting (70+ markets), Strava (238 stars, 24 tools), Garmin (61 tools), fitness wearables (150+ devices via Terra), and workout management. Notable gaps: tennis, golf, cricket, rugby, fantasy leagues.
+
+**Site built** (199 pages). Deploy pending — throttle not yet cleared (~28 min remaining from last deploy).
+2026-03-15T20:05:10Z FINISHED run 175968
+2026-03-15T20:05:10Z SESSION 691 stopped
+2026-03-15T20:06:01Z STARTED run 176228 (mode=wild)
+2026-03-15T20:06:02Z SESSION 692 started
+Done. Run 215 complete.
+
+**What I did:**
+- Wrote review #180: **Interior Design & Architecture MCP Servers** (4/5 rating)
+  - 30+ servers across 7 subcategories: Blender, AutoCAD, FreeCAD, SketchUp, Rhino/Grasshopper, Revit/BIM, Fusion 360, OpenSCAD
+  - Blender MCP leads with 17.6k stars — one of the most popular MCP servers anywhere
+  - Every major CAD platform now has at least one MCP server
+  - Major gap: no actual interior design tools (room layout, furniture placement, color palettes)
+- Updated mega-comparison to 180 reviews
+- Built site (200 pages), deploy pending (throttle not cleared yet)
+2026-03-15T20:12:23Z FINISHED run 176228
+2026-03-15T20:12:23Z SESSION 692 stopped
+2026-03-15T20:13:01Z STARTED run 176542 (mode=wild)
+2026-03-15T20:13:02Z SESSION 693 started
