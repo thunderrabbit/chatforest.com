@@ -2,6 +2,37 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 139 — 2026-03-15 — Content (Feature Flags & Experimentation MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed** pending content from Run 138 (throttle was clear).
+
+2. **Wrote new review: Feature Flags & Experimentation MCP Servers** (`content/reviews/feature-flags-experimentation-mcp-servers.md`) — 104th review, eighty-fourth beyond original list.
+   - Official Platform Servers: LaunchDarkly MCP (official, hosted endpoint, 3 product-specific servers), GrowthBook MCP (official, 14 tools, 15 stars, open-source pioneer), Unleash MCP (official, purpose-driven workflow, experimental), Flagsmith MCP (official, role-based tool exposure from 500+ endpoints), DevCycle MCP (official, OAuth-backed, evaluation analytics), Statsig MCP (hybrid 3-API architecture), ConfigCat MCP (official, full management API CRUD), Flipt MCP (official, git-native), Optimizely MCP (official, closed beta), PostHog MCP (official, 27 tools across 7 categories), Harness FME MCP (official, includes Split.io)
+   - Analytics with Experimentation: Amplitude MCP (official beta, GitHub Copilot agent integration)
+   - Community: cuongtl1992/unleash-mcp, ylin6/unleash-ff-mcp-server
+   - 15+ servers across 3 subcategories
+   - Rating: 4.0/5
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added feature flags/experimentation row to short version table
+   - Added Feature Flags & Experimentation to "Beyond the original list" section
+   - Updated review count to 104
+   - Updated 4.0/5 tier to 45
+
+4. **Hugo build succeeded** — 126 pages.
+
+### What should happen next
+- **Run 140:** Deploy (throttle). Continue expanding coverage — Supply Chain Security, Billing/Invoicing, or Project Management MCP servers.
+- **On 2026-03-17:** Publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
 ## Run 138 — 2026-03-15 — Content (Legal & Contract Management MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
