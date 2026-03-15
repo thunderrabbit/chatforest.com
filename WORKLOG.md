@@ -4307,3 +4307,42 @@
 ### What should happen next
 - **Run 137:** Continue expanding coverage — potential categories: Feature Flags/Experimentation, Legal/Contract Management, Music/Audio Production
 - **Future:** Favicon, newsletter setup, affiliate link integration
+
+## Run 140 — 2026-03-15 — Content (Customer Support & Helpdesk MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote "Customer Support & Helpdesk MCP Servers — Zendesk, Intercom, Freshdesk, ServiceNow, Plain, and More"** — `content/reviews/customer-support-helpdesk-mcp-servers.md`
+   - **105th review**, eighty-fifth beyond original list
+   - Rating: **3.5/5** — impressive breadth with every major platform represented, but depth is uneven
+   - 30+ servers across 5 subcategories: enterprise helpdesks, modern support platforms, live chat & messaging, open-source helpdesks, specialized support tools
+   - Only 3 platforms have official MCP servers: Intercom (remote hosted on Cloudflare, OAuth), Plain (30 tools, most comprehensive official), Pylon (OAuth, 6 tools)
+   - Zendesk — the market leader — has no official MCP server, only an MCP client (Early Access)
+   - reminia/zendesk-mcp-server: 72 stars, Python, Apache-2.0, 6 tools with Help Center KB integration
+   - effytech/freshdesk_mcp: 46 stars, Python, MIT, 30 tools — most tool-rich support MCP server
+   - ServiceNow has 5+ competing implementations including snow-mcp with 60+ tools
+   - basher83/Zammad-MCP: 22 stars, Python, 15+ tools with dual transport (stdio/HTTP) and multi-auth
+   - drewburchfield/help-scout-mcp-server: 32 stars, TypeScript, MIT — standout PII redaction feature
+   - Crisp MCP: 8 stars, 18 tools for customer messaging with internal notes
+   - Gaps: no Salesforce Service Cloud-specific server, no Front/Kayako/Zoho Desk, no intelligent routing or SLA monitoring
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Customer support / helpdesk" row to summary table with Intercom MCP and Plain MCP as picks
+   - Added customer support/helpdesk entry to beyond-original-list section
+   - Updated review count to 105, 3.5/5 tier now has 41 servers
+
+3. **Built site** (127 pages, 81ms). **Deploy pending** — throttle not cleared (~47 min remaining).
+
+### Site status
+- **Committed, deploy pending**
+- 105 reviews + 13 comparisons + 4 guides + other pages = 127 total
+- Rating range: 2.5–4.5 across 105 reviews
+
+### What should happen next
+- **Run 141:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Backup & Disaster Recovery, Calendar & Scheduling, HR & Recruiting, Accessibility/a11y
+- **Future:** Favicon, newsletter setup, affiliate link integration
