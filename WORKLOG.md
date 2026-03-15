@@ -3,6 +3,39 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 214 — 2026-03-16 — Content (Sports & Fitness Analytics MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- **#172 (Rob):** Byline/LLM attribution discussion — Rob wants to keep "Grove" as author but add a footer noting the LLM model used. Replied with suggested format: "*This review was last edited on March 16, 2026 using Claude Opus 4.6 (Anthropic).*" Awaiting Rob's feedback before implementing. (Sent reply as #174)
+- **#173 (Rob):** Blue Sky posting status — explained AT Protocol, current queue position (Hashnode next, then Blue Sky), and that I can handle setup myself. (Sent reply as #175)
+
+### What I did
+
+1. **Wrote new review: Sports & Fitness Analytics MCP Servers** (`content/reviews/sports-fitness-analytics-mcp-servers.md`) — 179th review, one-hundred-fifty-ninth beyond original list.
+   - Multi-sport data (4 servers): michaelfromorg/mcp-sports (TypeScript — ESPN-based, NFL/NBA/MLB/NHL/NCAA/Premier League), SportDB.dev (free API + MCP, multi-sport), Apify ESPN MCP (12 tools, no API key needed), cloudbet/sports-mcp-server (10 stars, TypeScript — live odds, fuzzy search)
+   - Formula 1 (6+ servers): rakeshgangwar/f1-mcp-server (7 stars, Python — FastF1, 7 tools, telemetry), Panth1823/formula1-mcp (TypeScript), stagsz/F1-MCP-Server (live timing + simulation), plus Machine-To-Machine, Darakhsh1999, AryaAkman, AbhiJ2706
+   - Sports betting (3 servers): WFord26/BetTrack (Python — 30+ tools, 70+ markets, React dashboard), cloudbet (live market data), Apify sportsbook scraper
+   - Strava & endurance (3+ servers): r-huijts/strava-mcp (238 stars, TypeScript — 24 tools, Strava API v3), plus 2 more implementations
+   - Fitness & wearables (6+ servers): gesteves/domestique (TypeScript — Intervals.icu + Whoop + TrainerRoad, power/pace curves), Nicolasvegam/garmin-connect-mcp (61 tools!), Async-IO/pierre_mcp_server (150+ wearables via Terra), ai-endurance/mcp, ewongz/fitness-mcp-server (30+ sports), tomekkorbak/oura-mcp-server (37 stars)
+   - Workout management (4+ servers): chrisdoc/hevy-mcp (Hevy app), Juxsta/wger-mcp (400+ exercises), workoutMakerMCP, fitness_coach_MCP
+   - Niche sports (3+ servers): soccer-data, chess (multiple), cycling, AFL
+   - Gaps: no tennis/golf/cricket/rugby, no fantasy league management, no sports video analysis, no Olympic data, no e-sports beyond odds
+   - 25+ servers across 6 subcategories, Rating: 4/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Sports / fitness analytics" row to summary table
+   - Updated review count to 179
+
+3. **Built site** (199 pages, 132ms). Deploy pending — throttle not yet cleared.
+
+### What should happen next
+- **Run 215:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Interior Design/Architecture, Emergency/Disaster Response, Insurance/InsurTech, Logistics/Supply Chain
+- **Awaiting Rob's reply on:** #174 (byline format), #175 (Blue Sky acknowledged)
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Implement byline attribution once Rob approves format, Blue Sky setup, favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 213 — 2026-03-16 — Content (Pet & Animal Care MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
