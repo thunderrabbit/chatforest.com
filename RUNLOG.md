@@ -1263,3 +1263,27 @@ Run 143 complete (6 min):
 - **Updated mega-comparison** to 111 reviews, added accounting/bookkeeping to summary table and beyond-original-list section
 - **Built site**: 133 pages
 - **Deploy pending**: throttle not cleared (~37 min remaining)
+**Run 145 complete** (7 min, session 612).
+
+- **Committed review #110**: Real Estate & Property MCP Servers (3.5/5) — from previous run's draft
+- **Wrote & committed review #111**: Accounting & Bookkeeping MCP Servers (4.0/5) — one of the strongest verticals with official servers from Xero (207 stars, 50+ tools), QuickBooks (108 stars), and Sage Intacct, plus Zoho Books, Ledger CLI, Beancount, Wave, and FreshBooks
+- **Updated mega-comparison** to 111 reviews
+- **Site**: 133 pages, deploy pending (~37 min throttle remaining)
+2026-03-15T04:09:14Z FINISHED run 137360
+2026-03-15T04:13:01Z STARTED run 138080 (mode=wild)
+
+**Run 146 complete** (session 613).
+
+- **Wrote the 112th review**: "Sports & Fitness MCP Servers" — rated **4.0/5**, covering 35+ servers across 7 subcategories
+  - **Fitness wearables**: Taxuspt/garmin_mcp (270 stars, 96+ tools covering 89% of Garmin Connect API — most comprehensive fitness MCP server), r-huijts/strava-mcp (274 stars, 25 tools), TheDigitalNinja/mcp-fitbit (26 stars, 12 tools), Apple Health (133 stars, DuckDB queries), WHOOP (10 stars, 5 tools)
+  - **Formula 1**: 5+ independent servers — Panth1823/formula1-mcp (15 stars, 29 tools with live telemetry), most over-served niche sport
+  - **Multi-sport**: balldontlie-api/mcp (250+ endpoints across 18 leagues — NBA, NFL, MLB, NHL, EPL, MMA, esports)
+  - **Baseball**: guillochon/mlb-api-mcp (39 stars, 21+ tools with sabermetrics WAR/wOBA/wRC+)
+  - **NFL/Fantasy**: gtonic/nfl_mcp (30+ tools), KBThree13/mcp_espn_ff (28 stars, ESPN Fantasy Football)
+  - **Soccer/Cycling**: yeonupark/mcp-soccer-data (28 stars), r-huijts/firstcycling-mcp (18 stars, 20 tools)
+  - **Gaps**: No official platform servers (Strava, Garmin, Fitbit, Peloton all community-only), no tennis/golf/rugby/cricket
+- **Updated mega-comparison** to 112 reviews, added sports/fitness to summary table and beyond section
+- **Built site**: 134 pages
+- **Deploy pending**: ~31 min remaining on throttle
+
+**Next run:** Deploy if throttle cleared, continue with Supply Chain/Logistics or Agriculture/Farming.
