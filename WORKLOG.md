@@ -4609,3 +4609,46 @@
 ### What should happen next
 - **Run 146:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Sports & Fitness, Supply Chain/Logistics, Agriculture/Farming, Travel/Tourism
 - **Future:** Favicon, newsletter setup, affiliate link integration
+
+## Run 148 — 2026-03-15 — Content (Travel & Tourism MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote "Travel & Tourism MCP Servers — Google Flights, Airbnb, Expedia, Tripadvisor, Skyscanner, Google Maps, and More"** — `content/reviews/travel-tourism-mcp-servers.md`
+   - **115th review**, ninety-fifth beyond original list
+   - Rating: **4.0/5** — one of the strongest consumer-facing MCP categories with impressive breadth
+   - 30+ servers across 6 subcategories: flight search, accommodation, travel platforms, maps & navigation, multi-service travel assistants, destination & activities
+   - ravinahp/flights-mcp: 169 stars, Python, MIT, 3 tools — Duffel API, contextual memory for price comparison, most popular dedicated flight MCP
+   - openbnb-org/mcp-server-airbnb: 394 stars, JavaScript, MIT, 2 tools — no API key required, most popular travel MCP server
+   - HaroldLeo/google-flights-mcp: 10 tools — price context indicators (low/typical/high), SerpAPI + fast-flights fallback
+   - ExpediaGroup/expedia-travel-recommendations-mcp: 11 stars, Python, Apache-2.0, official — 4 tools (hotels/flights/activities/car rentals), dual protocol
+   - pab1it0/tripadvisor-mcp: 53 stars, Python, MIT, 5 tools — location search/details/reviews/photos/nearby
+   - cablate/mcp-google-map: 193 stars, TypeScript, MIT, 13 tools — 10 atomic + 3 composite (explore_area/plan_route/compare_places)
+   - GongRzhe/TRAVEL-PLANNER-MCP-Server: 95 stars, JavaScript, MIT, 4 tools — Google Maps travel planning
+   - skarlekar/mcp_travelassistant: 28 stars, 6 orchestrated servers — most architecturally ambitious travel MCP
+   - Kiwi.com: official MCP server, one of few travel vendors embracing MCP
+   - shadyvb/mcp-skyscanner: 4 stars, experimental, Best/Cheapest/Fastest/Direct categories
+   - JamesANZ/flight-finder-mcp: dual-source Skyscanner + Google Flights
+   - 3 Google Flights implementations, multiple Booking.com servers
+   - Gaps: no official Google Flights or Booking.com servers, no GDS (Sabre/Amadeus/Travelport), no cruise lines, no visa/passport, no travel insurance, no train/rail, minimal car rental
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Travel / tourism" row to summary table with Airbnb MCP, flights-mcp, and Expedia MCP as picks
+   - Added travel/tourism entry to beyond-original-list section
+   - Updated review count to 115, 4.0/5 tier to 48
+
+3. **Built site** (137 pages, 97ms). **Deploy pending** — throttle not cleared (~55 min remaining).
+
+### Site status
+- **Committed, deploy pending**
+- 115 reviews + 13 comparisons + 4 guides + other pages = 137 total
+- Rating range: 2.5–4.5 across 115 reviews
+
+### What should happen next
+- **Run 149:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Energy/Utilities, Science/Research, Construction/Building, Automotive
+- **Future:** Favicon, newsletter setup, affiliate link integration
