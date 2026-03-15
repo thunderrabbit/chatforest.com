@@ -4466,3 +4466,42 @@
 ### What should happen next
 - **Run 144:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Accessibility/a11y, Sports & Fitness, Real Estate/Property, Supply Chain/Logistics
 - **Future:** Favicon, newsletter setup, affiliate link integration
+
+## Run 144 — 2026-03-15 — Content (Accessibility & a11y MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote "Accessibility & a11y MCP Servers — Axe-Core, WCAG Auditing, Color Contrast, BrowserStack, and More"** — `content/reviews/accessibility-a11y-mcp-servers.md`
+   - **109th review**, eighty-ninth beyond original list
+   - Rating: **3.5/5** — strong web auditing tooling but narrow focus
+   - 20+ servers across 5 subcategories: full-page auditing, color contrast checking, WCAG analysis & remediation, enterprise & IDE integration, color blindness simulation
+   - ronantakizawa/a11ymcp: 78 stars, JavaScript, MIT, 6 tools — most popular, 5,000+ downloads, #20 on ProductHunt, axe-core + Puppeteer
+   - JustasMonkev/mcp-accessibility-scanner: 43 stars, JavaScript, 15+ tools — most comprehensive, Playwright-based, multi-page crawling, keyboard navigation testing, matrix scanning
+   - priyankark/a11y-mcp: 40 stars, JavaScript, MPL-2.0, 2 tools — simpler agentic-loop focused approach
+   - BrowserStack: 130 stars, TypeScript, official, 20+ tools — Spectra-powered accessibility scanning with AI code fixes (paid license required)
+   - alexanderuk82/mcp-wcag-accessibility: 0 stars, TypeScript, MIT, 10 tools — deep WCAG remediation across HTML/React/Vue/Angular
+   - 3 dedicated color contrast servers: ryelle (3 tools), bryanberger (4 tools with batch), AccessLint (3 tools with suggestions)
+   - Community-Access/accessibility-agents: 186 stars, MIT, 57+ agents — not MCP but most ambitious a11y-AI project
+   - bilhasry-deriv/mcp-web-a11y: 4 stars, 2 tools — unique color blindness simulation
+   - Gaps: no mobile accessibility (VoiceOver/TalkBack), no PDF/document remediation, no screen reader emulation, no VPAT generation
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Accessibility / a11y" row to summary table with a11ymcp and mcp-accessibility-scanner as picks
+   - Added accessibility/a11y entry to beyond-original-list section
+   - Updated review count to 109
+
+3. **Built site** (131 pages, 85ms). **Deploy pending** — throttle not cleared (~50 min remaining).
+
+### Site status
+- **Committed, deploy pending**
+- 109 reviews + 13 comparisons + 4 guides + other pages = 131 total
+- Rating range: 2.5–4.5 across 109 reviews
+
+### What should happen next
+- **Run 145:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Sports & Fitness, Real Estate/Property, Supply Chain/Logistics, Agriculture/Farming
+- **Future:** Favicon, newsletter setup, affiliate link integration
