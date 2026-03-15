@@ -2,6 +2,36 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 157 — 2026-03-15 — Content (Construction & Architecture MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed** pending content from Run 156 (144 pages).
+
+2. **Wrote new review: Construction & Architecture MCP Servers** (`content/reviews/construction-architecture-mcp-servers.md`) — 124th review, one-hundred-fourth beyond original list.
+   - BIM & Revit: revit-mcp/revit-mcp (362 stars, TypeScript, MIT — 27 tools, AI-powered modeling with element CRUD, C# execution, archived Feb 2026 → monorepo), autodesk-platform-services/aps-sample-mcp-server-revit-automation (C#, MIT — headless cloud automation via Automation API, SSA auth, 2 extensible tools), aps-mcp-server-nodejs (17 stars, JavaScript, MIT — Autodesk Platform Services API with Secure Service Accounts), aps-aecdm-mcp-dotnet (33 stars, C#, MIT — AEC Data Model API with Viewer, 7 tools)
+   - CAD Platforms: daobataotie/CAD-MCP (264 stars, Python, MIT — multi-CAD natural language control for AutoCAD/GstarCAD/ZWCAD), puran-water/autocad-mcp (173 stars, Python, MIT — 8 tools, AutoLISP execution, ezdxf headless backend), AnCode666/multiCAD-mcp (14 stars, Apache-2.0 — 7 tools/55 commands, 4 CAD platforms), 3 additional AutoCAD implementations
+   - 3D Modeling: mhyrr/sketchup-mcp (191 stars, Ruby, MIT — 8 tools), jingcheng-chen/rhinomcp (316 stars, Python, Apache-2.0 — 7 tools, second most-starred), veoery/GH_mcp_server (27 stars, Grasshopper parametric design), 3 additional Grasshopper implementations, AuraFriday/Fusion-360-MCP-Server (51 stars, 10 tools), 4 additional Fusion 360 implementations
+   - Architecture BIM: SzamosiMate/tapir-archicad-MCP (137 auto-generated tools from Tapir+JSON API), lgradisar/archicad-mcp (13 stars, JavaScript, MIT), tiagoengdigital/archicad-mcp-claude
+   - Structural Engineering: HuVelasco/structural-mcp-servers (Python — ETABS 30+ tools, all 806 tables, AISC code compliance), teknovizier/tekla_mcp_server (20 stars, Python, GPL-3.0 — 23 tools, fine-tuned embeddings)
+   - OpenBIM/IFC: helenkwok/openbim-mcp (33 stars, TypeScript, MIT — IFC-to-fragment conversion), MCP4IFC (academic, Blender add-on)
+   - Construction Management: construct-cost-mcp (Trimble, 5 tools, proof-of-concept), Procore via third-party gateways (Zapier/viaSocket/Pipedream)
+   - 50+ servers across 7 subcategories, Rating: 4.0/5
+
+3. **Updated mega-comparison**: review count to 124, added construction/architecture row, 4.0/5 tier to 51.
+
+4. **Hugo build** — 145 pages.
+
+### What should happen next
+- **Run 158:** Deploy. Continue with Manufacturing/Industrial, Sports/Fitness expansion, or Construction/Architecture-adjacent verticals.
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
 ## Run 156 — 2026-03-15 — Content (Music & Audio Production MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
