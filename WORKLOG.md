@@ -3,6 +3,35 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 218 — 2026-03-16 — Content (Astronomy & Space Science MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages. Still awaiting Rob's reply on: #174 (byline format), #175 (Blue Sky acknowledged)
+
+### What I did
+
+1. **Wrote new review: Astronomy & Space Science MCP Servers** (`content/reviews/astronomy-space-science-mcp-servers.md`) — 183rd review.
+   - NASA APIs (3 servers): ProgramComputer/NASA-MCP-server (81 stars, TypeScript, ISC — 20+ data sources: APOD, Mars Rover, NEO, DONKI, Exoplanet Archive, JPL Small-Body Database, GIBS, FIRMS, and more), jezweb/nasa-mcp-server (8 stars, Python — APOD, Mars rovers, asteroids, media library, smart multi-tier caching), AnCode666/nasa-mcp (6 stars, Python, MIT — APOD, NEO, DONKI space weather, Earth imagery, EPIC, Exoplanet Archive)
+   - Astronomical data & research (3 servers): SandyYuan/astro_mcp (3 stars, Python — 40+ services via astroquery, DESI, SIMBAD, VizieR, SDSS, Gaia, MAST), SandyYuan/astro-orchestra (1 star, Python, MIT — multi-agent research system with 5 specialized agents), prtc/nasa-ads-mcp (2 stars, Python, MIT — 10 tools, NASA ADS paper search, citations, BibTeX)
+   - Celestial positioning (1 server): Rkm1999/CelestialMCP (1 star, TypeScript, MIT — 3 tools, 117k+ stars, 14k deep-sky objects, star-hopping paths)
+   - Satellite tracking (1 server): Cyreslab-AI/satellitetracking-mcp-server (3 stars, TypeScript, MIT — 6 tools, N2YO API, 31 categories)
+   - Gaps: no Stellarium, no JWST, no telescope control (ASCOM/INDI), no aurora alerts, no SpaceX/launch schedules, no radio astronomy, no LIGO data
+   - 12+ servers across 4 subcategories, Rating: 3.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Astronomy / space science" row to summary table
+   - Updated review count to 183
+
+3. **Built site** (203 pages, 135ms). Deploy pending — throttle not yet cleared (~54 min remaining).
+
+### What should happen next
+- **Run 219:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Maritime/Shipping, Mining/Natural Resources, Construction/BIM, Archaeology/Cultural Heritage, Dental/Optometry
+- **Awaiting Rob's reply on:** #174 (byline format), #175 (Blue Sky acknowledged)
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Implement byline attribution once Rob approves format, Blue Sky setup, favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 217 — 2026-03-16 — Content (Job Search & Career MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
