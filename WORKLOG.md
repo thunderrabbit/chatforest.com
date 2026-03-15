@@ -2,6 +2,35 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 161 — 2026-03-15 — Content (Food & Restaurant MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote new review: Food & Restaurant MCP Servers** (`content/reviews/food-restaurant-mcp-servers.md`) — 128th review, one-hundred-eighth beyond original list.
+   - Recipes & Cooking: worryzyy/HowToCook-mcp (569 stars, TypeScript, MIT — 4 tools, meal planning, programmer's cooking guide), ddsky/spoonacular-mcp (official Spoonacular API, 6 tools), blaideinc/recipe-mcp + cookwith-mcp (CookWith.co AI, recipe generation/transformation, no key needed), TheMealDB + USDA combo servers, cooking-with-claude (full workflow)
+   - Tandoor Recipe Manager: 3 implementations (TypeScript/Rust/Python), mc-mario auto-creates missing entities
+   - Nutrition & Food Databases: deadletterq/mcp-opennutrition (122 stars, TypeScript — 300,000+ foods, fully local, no API), 6 USDA FoodData Central implementations, official Edamam MCP (image analysis, barcode), Nutritionix, FatSecret
+   - Food Tracking & Calories: 6+ trackers using OpenFoodFacts/USDA/Nutritionix, thitiph0n/calorie-tracker (Cloudflare Workers, OAuth 2.1, BMR/TDEE), 4 OpenFoodFacts implementations
+   - Restaurants & Reservations: Yelp/yelp-mcp (official, agent-to-agent design), jrklein343-svg/restaurant-mcp (unified Resy + OpenTable, reservation sniper, DPAPI encryption), samwang0723/mcp-booking (Go, Google Maps, mood-based), SevenRooms, Resy
+   - Food Delivery: ericzakariasson/uber-eats-mcp-server (217 stars, browser automation), DoorDash (2 servers + demo), Swiggy (official — 3 services, first quick-commerce MCP globally, 40K+ SKUs), Zomato (official — QR code payment), GrubHub scraper
+   - Grocery: Instacart (official — recipes + shopping lists, shareable URLs), CupOfOwls/kroger-mcp (4 stars, MIT — shopping path optimization)
+   - Beverages: zhdenny/bar-assistant-mcp-server (cocktail search, similarity engine, 70%+ cache hit rate)
+   - 55+ servers across 9 subcategories, Rating: 4.0/5
+
+2. **Updated mega-comparison**: review count to 128, added food/restaurant row, added to beyond-original-list.
+
+3. **Hugo build** — 149 pages.
+
+### What should happen next
+- **Run 162:** Deploy. Continue with Video Production/Streaming, Printing/Publishing, Veterinary/Pet Care, or Aerospace/Defense verticals.
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
 ## Run 158 — 2026-03-15 — Content (Manufacturing & Industrial MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
