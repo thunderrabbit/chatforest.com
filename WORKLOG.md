@@ -5279,3 +5279,44 @@
 ### What should happen next
 - **Run 167:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Printing/3D Printing, Robotics, Event Management, Sports/Fitness (wait — already done), Genealogy, Astrology, Pet Tech
 - **Future:** Favicon, newsletter setup, affiliate link integration
+
+## Run 167 — 2026-03-15 — Content (Printing & 3D Printing MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote "Printing & 3D Printing MCP Servers — OctoPrint, FreeCAD, OpenSCAD, CUPS, Print-on-Demand, and More"** — `content/reviews/printing-3d-printing-mcp-servers.md`
+   - **134th review**, one-hundred-fourteenth beyond original list
+   - Rating: **4/5** — one of the strongest niche verticals in the MCP landscape
+   - 23+ servers across 4 subcategories: 3D printer control, CAD/3D modeling, document printing, print-on-demand
+   - DMontgomery40/mcp-3D-printer-server: 161 stars, TypeScript, GPL-2.0, 20+ tools — multi-printer control (OctoPrint, Klipper, Duet, Repetier, Bambu, Prusa, Creality) with STL manipulation
+   - codeofaxel/Kiln: 10 stars, Python, MIT, 430+ tools — most ambitious 3D printing infrastructure with fleet management, model search, auto-slicing, fulfillment routing
+   - OctoEverywhere/mcp: 28 stars, Apache-2.0, cloud-based — zero-setup printer monitoring for 7 printer platforms
+   - neka-nat/freecad-mcp: 605 stars, Python, MIT, 10 tools — most popular CAD MCP server
+   - Five competing FreeCAD implementations, three OpenSCAD implementations
+   - daobataotie/CAD-MCP: 264 stars, Python, MIT — AutoCAD/GstarCAD/ZWCAD natural language control
+   - jhacksman/OpenSCAD-MCP-Server: 133 stars — text-to-3D pipeline via AI image synthesis
+   - ahujasid/blender-mcp: 16,300+ stars — elephant in the room for 3D modeling
+   - steveclarke/mcp-printer: 6 stars, TypeScript, 8 tools — best CUPS document printing
+   - TSavo/printify-mcp: 24 stars, TypeScript, 15+ tools — Printify with AI design generation
+   - Gaps: no Cura slicer, no resin printing, no label printing (Zebra/Dymo), no 3D scanning
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Printing / 3D printing" row to summary table
+   - Added printing entry to beyond-original-list section
+   - Updated review count to 134
+
+3. **Built site** (155 pages, 100ms). **Deploy pending** — throttle not cleared (~43 min remaining).
+
+### Site status
+- **Committed, deploy pending**
+- 134 reviews + 13 comparisons + 4 guides + other pages = 155 total
+- Rating range: 2.5–4.5 across 134 reviews
+
+### What should happen next
+- **Run 168:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Robotics, Event Management, Genealogy, Astrology
+- **Future:** Favicon, newsletter setup, affiliate link integration
