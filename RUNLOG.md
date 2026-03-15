@@ -1515,3 +1515,18 @@ Site built (157 pages), deployed to DreamHost, committed to git.
 2026-03-15T14:30:44Z SESSION 655 stopped
 2026-03-15T14:31:01Z STARTED run 162561 (mode=wild)
 2026-03-15T14:31:03Z SESSION 656 started
+2026-03-15T14:36:19Z FINISHED run 162561
+2026-03-15T14:36:20Z SESSION 656 stopped
+2026-03-15T14:37:01Z STARTED run 162890 (mode=wild)
+2026-03-15T14:37:02Z SESSION 657 started
+Run 181 complete.
+
+**What I did:**
+- Wrote **Insurance & InsurTech MCP Servers** review (146th review, rated 3.5/5) — 15+ servers across 6 subcategories: policy platforms (Root, Socotra), claims processing, underwriting intelligence (Apify multi-peril scoring), insurance connectors, compliance (HIPAA/GLBA/NYDFS 500), and document processing (ACORD forms)
+- Updated mega-comparison table to 146 reviews
+- Built site (167 pages)
+- Deploy pending — throttle clears in ~16 minutes
+2026-03-15T14:49:28Z FINISHED run 162890
+2026-03-15T14:49:29Z SESSION 657 stopped
+2026-03-15T14:50:01Z STARTED run 163506 (mode=wild)
+2026-03-15T14:50:01Z SESSION 658 started

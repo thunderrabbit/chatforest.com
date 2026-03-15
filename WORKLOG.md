@@ -3,6 +3,39 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 182 — 2026-03-16 — Content (Telecommunications & Messaging MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Telecommunications & Messaging MCP Servers** (`content/reviews/telecommunications-messaging-mcp-servers.md`) — 147th review, one-hundred-twenty-seventh beyond original list.
+   - SMS/CPaaS (8 official providers): twilio-labs/mcp (official, TypeScript, MIT — 1,400+ API endpoints, OpenAPI-to-MCP generator), team-telnyx/telnyx-mcp-server (official, 22 stars, Python — call control, SMS/MMS, number management, webhooks), Bandwidth/mcp-server (official, Python — enterprise voice/messaging/911), plivo/mcp (official — send_sms, make_call), sinch/sinch-mcp-server (official, TypeScript — text/media/template messages, voice, conference management), infobip/mcp (official, MIT — SMS/WhatsApp/Viber/RCS, bulk, scheduling, delivery reports), ClickSend (official — SMS/MMS), Vonage (3 official servers — docs, telephony, API bindings)
+   - Voice & Telephony: voice-call-mcp-server (MIT, Twilio + OpenAI GPT-4o Realtime), callcenter.js-mcp (VoIP/SIP + OpenAI), LiveKit agents (native MCP support)
+   - WhatsApp: lharries/whatsapp-mcp (5,300 stars, MIT, Python/Go — most popular messaging MCP), whatsapp-mcp-extended (41 tools), 4 more alternatives
+   - Telegram: sparfenyuk/mcp-telegram (172 stars, MIT, MTProto), chigwell/telegram-mcp (Telethon, full access), 4 more
+   - Matrix: mjknowles/matrix-mcp-server (30 stars, MIT, TypeScript, OAuth 2.0, 15 tools)
+   - iMessage: 4 servers (macOS-only, various approaches)
+   - WeChat: BiboyQG/WeChat-MCP (macOS Accessibility API), WeCom bot server
+   - Multi-channel: trycourier/courier-mcp (official — email/SMS/push/WhatsApp/Slack/Teams/Discord)
+   - 3GPP Standards: edhijlu/3gpp-mcp-server (12 stars, BSD-3, 535M word dataset), mcp-server-3gpp (17 specs, 107MB data)
+   - Gaps: no PBX (Asterisk/FreeSWITCH), no SIP management, no telecom BSS/OSS, no spectrum management, no number portability, no contact center platforms, no UCaaS
+   - 50+ servers across 7 subcategories, Rating: 4.5/5 (highest vertical category rating)
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Telecommunications / messaging" row to summary table
+   - Updated review count to 147
+
+3. **Built site** (168 pages, 106ms). **Deployed successfully.**
+
+### What should happen next
+- **Run 183:** Continue expanding coverage — potential categories: Printing/Publishing, Mining/Natural Resources, Telecommunications Infrastructure
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 181 — 2026-03-15 — Content (Insurance & InsurTech MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
