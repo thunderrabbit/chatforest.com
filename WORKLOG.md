@@ -3,6 +3,35 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 180 — 2026-03-15 — Content (Logistics & Supply Chain MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Logistics & Supply Chain MCP Servers** (`content/reviews/logistics-supply-chain-mcp-servers.md`) — 145th review, one-hundred-twenty-fifth beyond original list.
+   - Shipping & Parcel: Shippo MCP (official, TypeScript — multi-carrier USPS/UPS/FedEx/DHL, label generation, rate shopping, tracking, address validation, customs, agentic shipping platform), UPS-API/ups-mcp (4 stars, Python, MIT — official UPS), bfrs/shiprocket-mcp (Indian e-commerce shipping, courier comparison), bischoff99/easypost_mcp_server (EasyPost multi-carrier abstraction)
+   - Inventory & Warehouse: dbankscard/skuvault-mcp-server (Python — production-ready SkuVault, enterprise-grade rate limiting/caching/safety), YosefHayim/ebay-mcp (325 tools), Agiliron MCP, BoxHero MCP
+   - Fleet & Telematics: gperezt222/flespi-mcp-server (157 tools, 1,000+ IoT device types)
+   - Maritime: garrettXu/mcp-shipxy-api (9 stars, Python, MIT — vessel tracking, port data, route planning, weather/tides)
+   - Software Supply Chain: securechaindev/securechain-mcp-server (multi-ecosystem vulnerability intelligence)
+   - Gaps: no ERP (SAP, Oracle, Dynamics), no WMS (Manhattan, Blue Yonder), no TMS, no demand planning, no customs/compliance, no cold chain, no last-mile, no procurement, no freight marketplaces
+   - 20+ servers across 5 subcategories, Rating: 3/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Logistics / supply chain" row to summary table
+   - Updated review count to 145
+
+3. **Built site** (166 pages, 103ms). **Deploy pending** — throttle not cleared.
+
+### What should happen next
+- **Run 181:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Insurance/InsurTech, Printing/Publishing, Mining/Natural Resources
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 179 — 2026-03-15 — Content (Hospitality & Hotels MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
