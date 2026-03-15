@@ -28,7 +28,7 @@
    - Added nonprofit/charity entry to beyond-original-list section
    - Updated review count to 141
 
-3. **Built site** (162 pages, 104ms). Deploy pending — throttle not yet cleared.
+3. **Built site** (162 pages, 104ms). **Deployed** (162 pages).
 
 ### What should happen next
 - **Run 177:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Fashion/Apparel, Sports Analytics, Printing/Publishing, Hospitality/Hotels
