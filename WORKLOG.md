@@ -2,6 +2,34 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 158 — 2026-03-15 — Content (Manufacturing & Industrial MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote new review: Manufacturing & Industrial MCP Servers** (`content/reviews/manufacturing-industrial-mcp-servers.md`) — 125th review, one-hundred-fifth beyond original list.
+   - Robotics/ROS: robotmcp/ros-mcp-server (1,100 stars, Python, Apache-2.0 — bidirectional ROS1/ROS2, most popular industrial MCP by far), lpigeon/ros-mcp-server (873 stars — natural language to ROS commands), Yutarop/ros-mcp (30 stars, MIT — topics/services/actions with GUI/Gazebo integration), IliaLarchenko/robot_MCP (70 stars, Apache-2.0 — SO-ARM100/LeKiwi physical robot arm control, vision-equipped), TakanariShimbo/rosbridge-mcp-server (MIT — 8 tools, WebSocket-based)
+   - OPC UA: midhunxavier/OPCUA-MCP (10 stars, Python/TypeScript — 7 tools, dual implementation, read/write/browse/batch/method), kukapay/opcua-mcp (20 stars, Python — read/write/browse for industrial systems)
+   - Industrial IoT/SCADA: poly-mcp/IoT-Edge-MCP-Server (20 stars, Python — 15+ tools, MQTT/Modbus, InfluxDB, Redis, enterprise security), AWS IoT SiteWise MCP (official, 47 tools across 8 categories — most comprehensive industrial MCP server), Litmus MCP (official, edge platform, DeviceHub tags/time-series/Docker), kmanditereza/mcp-server-for-industrial-data (3 stars, MIT — 2 tools, OPC UA standardized access)
+   - 3D Printing: DMontgomery40/mcp-3D-printer-server (161 stars, TypeScript, GPL-2.0 — 15+ tools, 7 printer platforms, STL manipulation/slicing), OctoEverywhere/mcp (28 stars, Apache-2.0 — cloud-based, webcam snapshots, Gadget AI failure detection)
+   - Predictive Maintenance: LGDiMaggio/predictive-maintenance-mcp (19 stars, Python, MIT — 20+ tools, FFT/envelope analysis, ISO 20816-3, ML anomaly detection, Plotly reports)
+   - Engineering Simulation: matlab/matlab-mcp-core-server (236 stars, Go, BSD-3 — official MathWorks, 5 tools, MATLAB code execution, Simulink)
+   - OT Security: Ansvar-Systems/ot-security-mcp (3 stars, TypeScript, Apache-2.0 — 7 tools, IEC 62443/NIST 800-82/MITRE ATT&CK for ICS)
+   - 40+ servers across 7 subcategories, Rating: 3.5/5
+
+2. **Updated mega-comparison**: review count to 125, added manufacturing/industrial row, 3.5/5 tier to 45.
+
+3. **Hugo build** — 146 pages.
+
+### What should happen next
+- **Run 159:** Deploy. Continue with Sports/Fitness expansion, Aerospace/Defense, or Mining/Resources verticals.
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
 ## Run 157 — 2026-03-15 — Content (Construction & Architecture MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
