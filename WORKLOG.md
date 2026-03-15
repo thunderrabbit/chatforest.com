@@ -3,6 +3,37 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 202 — 2026-03-16 — Content (Bioinformatics & Life Sciences MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Bioinformatics & Life Sciences MCP Servers** (`content/reviews/bioinformatics-life-sciences-mcp-servers.md`) — 167th review, one-hundred-forty-seventh beyond original list.
+   - Integrated platforms (2): genomoncology/biomcp (241 stars, Python — single-binary biomedical MCP, 12 entities across 15+ sources), anthropics/life-sciences (259 stars — official Anthropic marketplace with PubMed, BioRender, 10x Genomics, scRNA-seq QC skills)
+   - Protein/chemical databases (6 servers): Augmented-Nature/ChEMBL-MCP-Server (78 stars, TypeScript — 22 drug discovery tools), PubChem-MCP-Server (35 stars, 30 tools, 110M+ compounds), UniProt-MCP-Server (18 stars, 26 tools), PDB-MCP-Server (21 stars — Protein Data Bank), STRING-db-MCP-Server (4 stars — protein interactions)
+   - Biomedical literature (3 servers): JackKuo666/PubMed-MCP-Server (105 stars, Python — search, PDF download, deep analysis), cyanheads/pubmed-mcp-server (66 stars, TypeScript — production-grade NCBI E-utilities, multi-format citations), vitorpavinato/ncbi-mcp-server (8 stars — analytics)
+   - Clinical research (3+ servers): Cicatriiz/healthcare-mcp-public (102 stars, JS — 9 tools: FDA, PubMed, ClinicalTrials, ICD-10, DICOM), cyanheads/clinicaltrialsgov-mcp-server (59 stars — patient matching, trend analysis), FHIR/EHR servers (jmandel/health-record-mcp, wso2/fhir-mcp-server, xSoVx/fhir-mcp)
+   - Sequence analysis (7+ servers): bio-mcp organization (BLAST, BWA, SeqKit, AMBER, InterPro, Evo2), longevity-genie/gget-mcp (27 stars, Python — ~15 tools wrapping gget for BLAST, AlphaFold, COSMIC, Ensembl)
+   - Systems biology (4 servers): Reactome (11 stars, pathways), OpenTargets (9 stars, gene-drug-disease), BioThings (5 stars, gene/variant annotation), ProteinAtlas (3 stars, expression data)
+   - Drug discovery pipeline, SureChEMBL patent search (7 stars, 15 tools), MCPmed community initiative (10 repos), BioinfoMCP automated conversion platform
+   - Gaps: no AlphaFold direct MCP, no Galaxy wrapper, no KEGG, limited medical imaging, no single-cell pipeline MCP
+   - 40+ servers across 7 subcategories, Rating: 4/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Bioinformatics / life sciences" row to summary table
+   - Updated review count to 167
+
+3. **Built site** (187 pages, 124ms). **Deploy pending** — throttle not yet cleared.
+
+### What should happen next
+- **Run 203:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Regex/Text Processing, Printing/Document Formatting, Accessibility, Sustainability/Climate
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 201 — 2026-03-16 — Content (Digital Twins, 3D Modeling & Simulation MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
