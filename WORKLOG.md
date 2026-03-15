@@ -3,6 +3,35 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 208 — 2026-03-16 — Content (Compliance & Data Governance MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Compliance & Data Governance MCP Servers** (`content/reviews/compliance-data-governance-mcp-servers.md`) — 173rd review, one-hundred-fifty-third beyond original list.
+   - Compliance automation (3 servers): VantaInc/vanta-mcp-server (41 stars, TypeScript — 6+ tools, SOC 2/ISO 27001/HIPAA/GDPR monitoring with 1,200+ automated tests), secureframe/secureframe-mcp-server (TypeScript — 11 read-only endpoints, Lucene query syntax, SOC 2/ISO 27001/CMMC/FedRAMP), Drata MCP (compliance tests, risk reports, evidence collection for SOC 2/HIPAA/ISO 27001)
+   - GRC platforms (1): CISO Assistant (open source — 100+ global frameworks, automatic control mapping, risk management, AppSec, audit, TPRM, privacy)
+   - Privacy/GDPR (1): DPO2U MCP Server (Python — LGPD/GDPR compliance automation, self-hosted, homomorphic encryption, zero-knowledge proofs, data flow mapping, breach simulation)
+   - Data catalog/metadata (4 servers): acryldata/mcp-server-datahub (62 stars, Python — search, lineage, metadata, SQL query analysis, mutation tools), OpenMetadata MCP (enterprise DQ tooling, semantic search, vector embeddings), Atlan MCP (pyatlan SDK, asset search, lineage, glossary, DQ rules), RafaelCartenet/mcp-databricks-server (Unity Catalog, lineage, SQL execution)
+   - Data quality (1): davidf9999/gx-mcp-server (Python — Great Expectations validation as MCP tools, CSV/Snowflake/BigQuery support)
+   - Gaps: no NIST RMF server, no EU AI Act compliance, no automated data classification, no consent management (OneTrust/TrustArc), no data retention enforcement
+   - 15+ servers across 5 subcategories, Rating: 4/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Compliance / data governance" row to summary table
+   - Updated review count to 173
+
+3. **Built site** (193 pages, 135ms). Deploy pending — throttle applies.
+
+### What should happen next
+- **Run 209:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Transportation/Mobility, Supply Chain/Logistics, Insurance/InsurTech, Nonprofit/Philanthropy
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 207 — 2026-03-16 — Content (Sustainability & Climate MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
