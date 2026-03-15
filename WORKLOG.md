@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 194 — 2026-03-17 — Content (Code Quality, Linting & Static Analysis MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Code Quality, Linting & Static Analysis MCP Servers** (`content/reviews/code-quality-linting-mcp-servers.md`) — 159th review, one-hundred-thirty-ninth beyond original list.
+   - Cross-language: isaacphi/mcp-language-server (1,500 stars, Go, BSD-3-Clause — LSP bridge exposing diagnostics/definitions/references/hover/rename for gopls, rust-analyzer, pyright, TypeScript, clangd)
+   - Static analysis: SonarSource/sonarqube-mcp-server (424 stars, Java — official, project metrics/issues/security hotspots/snippet analysis), semgrep/mcp (639 stars, Python — 5,000+ security rules, archived Oct 2025 → main repo), advanced-security/codeql-development-mcp-server (8 stars, TypeScript — CodeQL query development for 9 languages)
+   - JavaScript/TypeScript: ESLint MCP (@eslint/mcp — built into ESLint 27,200 stars, native MCP support), RyuzakiShinji/biome-mcp-server (4 stars, unofficial Biome), ncalteen/prettier-mcp (1 star, Prettier formatting)
+   - Python: Anselmoo/mcp-server-analyzer (5 stars — Ruff + Vulture + quality scoring), MarcusJellinghaus/mcp-code-checker (14 stars — pylint + pytest + mypy), drewsonne/ruff-mcp-server (1 star — Ruff check/format/fix)
+   - Rust: lh/rust-mcp-server (1 star — cargo check/clippy/rustfmt/test/build)
+   - Enterprise: wadew/sonar-mcp (0 stars — 21 SonarQube tools, 6 prompts, 7 resources)
+   - Gaps: no official Prettier/Biome/Stylelint MCP, no golangci-lint/Checkstyle/PHPStan, no CI/CD integration, no code coverage, most servers early-stage
+   - 15+ servers across 6 subcategories, Rating: 3.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Code quality / linting" row to summary table
+   - Updated review count to 159, rating distribution to include Code Quality/Linting in 3.5 tier
+
+3. **Built site** (179 pages, 117ms). **Deploy pending** — throttle not cleared (~49 min elapsed of 60).
+
+### What should happen next
+- **Run 195:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Cryptocurrency Exchanges (separate from DeFi), Serverless Monitoring/Observability, Web Scraping/Crawling (separate from existing)
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 193 — 2026-03-17 — Content (Serverless & FaaS MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
