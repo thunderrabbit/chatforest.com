@@ -1,253 +1,266 @@
 ---
-title: "Automotive & Vehicle MCP Servers — Tesla, OBD-II Diagnostics, VIN Decoding, CarsXE, and More"
-date: 2026-03-15T14:30:00+09:00
-description: "Automotive and vehicle MCP servers are connecting AI agents to vehicle data, diagnostics, and automotive workflows. We reviewed 15+ servers across 6 subcategories. Tesla: cobanov/teslamate-mcp (103 stars, Python, MIT — 18+ predefined queries plus custom SQL against TeslaMate PostgreSQL for battery health, efficiency analytics, charging patterns, driving history), scald/tesla-mcp (11 stars, TypeScript — Tesla Fleet API OAuth 2.0, wake vehicle, battery status, vehicle details). OBD-II Diagnostics: castlebbs/Embedded-MCP-ELM327 (C firmware on FreeRTOS/lwIP — runs MCP server directly on OBD-II dongle hardware, supports CAN/J1850/ISO 9141 protocols, built-in simulator), castlebbs/Vehicle-Diagnostic-Assistant (Python, Gradio 6, LangChain — 8+ tools for OBD-II PID queries, response decoding, NHTSA VIN decoder, YouTube search), farzadnadiri/MCP-CAN (Python, MIT — virtual CAN bus, DBC-driven encoding/decoding, ECU simulator, OBD-II requests via SSE). Vehicle Data & VIN: carsxe/carsxe-mcp-server (12 stars, Node.js — official vendor, specs/history/images/recalls/market value/VIN decode including OCR), keptlive/vin-mcp (JavaScript — free VIN decoder aggregating 6 sources, local checksum validation, no API keys needed, self-hostable at mcp.vin), viguza/nhtsa-mcp-server (NHTSA vPIC API wrapper — VIN decoding, vehicle makes/models, manufacturer details, Canadian specs). Car Marketplace: SiddarthaKoppaka/car_deals_search_mcp (JavaScript, Puppeteer — aggregates Cars.com/Autotrader/KBB listings with stealth scraping), yusaaztrk/car-price-mcp (Brazilian FIPE API — cars/motorcycles/trucks pricing). EV Charging: Abiorh001/mcp_ev_assistant_server (Python — charge station locator, EV trip planner). Commercial: AutoUnify ServiceMCP (Porsche AG + UP.Labs venture — AI-commerce for dealership service scheduling via natural language, cross-DMS compatibility). Rating: 3.0/5."
-og_description: "Automotive MCP servers: TeslaMate MCP (103 stars, 18+ queries for battery/efficiency/charging analytics), Embedded-MCP-ELM327 (MCP on OBD-II hardware), CarsXE (official vendor, VIN/specs/recalls/market value), VIN MCP (free decoder, 6 sources), MCP-CAN (virtual CAN bus), car marketplace aggregators, EV charging assistant. Rating: 3.0/5."
+title: "Automotive & Vehicle MCP Servers — Tesla, OBD-II Diagnostics, EV Charging, VIN Decoding, CAN Bus, Fleet Telematics, and More"
+date: 2026-03-16T22:30:00+09:00
+description: "Automotive and vehicle MCP servers are connecting AI agents to cars — from Tesla control and OBD-II diagnostics to EV charging station discovery and VIN decoding via the Model Context Protocol. We reviewed 20+ servers across 6 subcategories. Tesla (most implementations, 3+): cobanov/teslamate-mcp (120 stars, Python — 18 predefined queries for battery health/efficiency/charging/driving patterns plus custom SQL), scald/tesla-mcp (11 stars, TypeScript — Fleet API, vehicle wake/status/battery via OAuth 2.0), keithah/tessie-mcp (39+ tools — efficiency trends, smart charging reminders, FSD detection, cost analysis via Tessie API). Vehicle Diagnostics: castlebbs/Vehicle-Diagnostic-Assistant (OBD-II MCP server on hardware — ELM327 driver, DTC reading, ECU communication, NHTSA VIN decoding), farzadnadiri/MCP-CAN (MIT — virtual CAN bus simulation, DBC decoding, ECU simulator, OBD-II requests, no hardware required). EV Charging: Abiorh001/mcp_ev_assistant_server (charging station locator, trip planning via OpenCharge Map + Google Maps APIs), cevatkerim/chargenow-mcp (ChargeNow API — real-time availability, station details), emporiaenergy/emporia-mcp (official — EV charging reports, energy monitoring, device management). Vehicle Data & VIN: carsxe/carsxe-mcp-server (12 stars, MIT, TypeScript — VIN decoding, specs, history, recalls, market value, license plate OCR), keptlive/vin-mcp (VIN structure decoding, HTTP + stdio modes). Car Marketplace: SiddarthaKoppaka/car_deals_search_mcp (multi-source listing aggregation — Cars.com, Autotrader, KBB, CARFAX filters). Connected Vehicle / SDV: emqx/sdv-mcp-demo (MCP over MQTT for software-defined vehicle data analysis, edge processing, driving behavior reports), gperezt222/flespi-mcp-server (157 tools — fleet management, device tracking, telemetry via Flespi telematics platform). Maps & Navigation (automotive-adjacent): mapbox/mcp-server (official — routing with driving/walking/cycling profiles), cablate/mcp-google-map (13 tools including directions/distance-matrix), tomtom-international/tomtom-mcp (official — routing, traffic data), baidu-maps/mcp (official — driving/walking/cycling/transit routing). Gaps: no BMW/Mercedes/Hyundai/Ford brand-specific MCP servers, no ADAS/autonomous driving simulation integration, no insurance/claims, no tire/parts inventory, no repair shop management, no parking, no car wash, no ride-sharing/taxi dispatch. 20+ servers across 6 subcategories. Rating: 3/5."
+og_description: "Automotive & Vehicle MCP servers: teslamate-mcp (120 stars — 18 queries for Tesla analytics), Vehicle-Diagnostic-Assistant (OBD-II hardware MCP), MCP-CAN (virtual CAN bus), carsxe-mcp-server (12 stars — VIN/specs/recalls), flespi-mcp-server (157 fleet tools). 20+ servers reviewed. Rating: 3/5."
 content_type: "Review"
-card_description: "Automotive and vehicle MCP servers for Tesla data analytics, OBD-II diagnostics, VIN decoding, vehicle marketplace search, and EV charging. The category is surprisingly innovative at the hardware level — castlebbs/Embedded-MCP-ELM327 runs MCP server firmware directly on an OBD-II dongle, making it one of the most technically novel projects in the entire MCP ecosystem. cobanov/teslamate-mcp (103 stars, MIT) is the clear star-count leader with 18+ predefined queries against TeslaMate's PostgreSQL database for battery health, efficiency analytics, charging patterns, and driving history, plus custom SQL support. scald/tesla-mcp (11 stars, TypeScript) offers direct Tesla Fleet API access via OAuth 2.0 for real-time vehicle status. farzadnadiri/MCP-CAN (Python, MIT) provides a virtual CAN bus environment with DBC-driven encoding/decoding, ECU simulation, and OBD-II request tools — useful for automotive software development without physical hardware. carsxe/carsxe-mcp-server (12 stars, Node.js) is the only official vehicle data vendor with an MCP server, offering specs, history reports, images, safety recalls, market values, and VIN/license plate decoding. keptlive/vin-mcp provides free VIN decoding by aggregating 6 data sources with local checksum validation — no API keys required. viguza/nhtsa-mcp-server wraps the official NHTSA vPIC API for government vehicle safety data. SiddarthaKoppaka/car_deals_search_mcp aggregates listings from Cars.com, Autotrader, and KBB via parallel Puppeteer scraping. AutoUnify ServiceMCP, a Porsche AG and UP.Labs joint venture, represents the most significant OEM-adjacent entry — AI-powered dealership service scheduling with cross-DMS compatibility. Major gaps: no official MCP servers from any automaker (Tesla, GM, Ford, BMW, Mercedes, Toyota all absent); no ADAS or autonomous driving simulation integration (CARLA has no MCP bridge); no vehicle fleet management; no COVESA Vehicle Signal Specification bridge; no Smartcar API wrapper; no connected car telematics beyond Tesla; no aftermarket parts catalogs; no insurance telematics; no autonomous vehicle sensor data processing. The category earns 3.0/5 — genuinely innovative projects at the embedded and diagnostic levels, but the absence of OEM participation and the small ecosystem size limit practical adoption for most automotive use cases."
+card_description: "Automotive and vehicle MCP servers for AI-powered vehicle diagnostics, Tesla control, EV charging, VIN decoding, and fleet telematics. **Tesla has the most MCP server implementations of any car brand** — at least 3 independent servers exist. cobanov/teslamate-mcp (120 stars, Python) is the most popular, providing 18 predefined analytical queries covering battery health, efficiency trends, charging patterns, and driving statistics from your TeslaMate PostgreSQL database, plus custom SQL with safety validation. scald/tesla-mcp (11 stars, TypeScript) connects directly to the Tesla Fleet API via OAuth 2.0 for real-time vehicle control — wake vehicles, check battery level, get status. keithah/tessie-mcp offers 39+ tools through the Tessie API including efficiency trend analysis, smart charging cost optimization, experimental FSD detection, and monthly summary reports. **Vehicle diagnostics get hardware-level MCP integration** — castlebbs/Vehicle-Diagnostic-Assistant runs an MCP server directly on a W600 microcontroller connected to an OBD-II WiFi dongle. The embedded server provides ELM327 command execution, OBD-II PID queries, DTC reading, and device health monitoring. The full system includes a Gradio UI, LangGraph agent orchestration, and NHTSA VIN decoder integration. farzadnadiri/MCP-CAN (MIT) takes a software-first approach — it simulates ECUs on a virtual CAN bus, decodes frames via DBC files, and exposes MCP tools over SSE. No hardware required. Commands include frame capture, signal monitoring, and OBD-II request simulation. **EV charging has dedicated MCP servers** — Abiorh001/mcp_ev_assistant_server combines OpenCharge Map API and Google Maps API for charging station discovery and EV trip planning. cevatkerim/chargenow-mcp connects to the ChargeNow network for real-time charging point availability. emporiaenergy/emporia-mcp is an official manufacturer server (in beta) providing EV charging session reports, energy monitoring, device listing, and power measurement data with automatic token refresh. **Vehicle data and VIN decoding are well-covered** — carsxe/carsxe-mcp-server (12 stars, MIT, TypeScript) is a comprehensive vehicle data server offering VIN decoding, vehicle specs, history reports, recall information, market value estimates, OBD code lookup, and license plate recognition via OCR. keptlive/vin-mcp provides VIN structure decoding with both HTTP web server and stdio modes. The NHTSA vPIC database is also available as an MCP endpoint via Apify. **Car marketplace search exists** — SiddarthaKoppaka/car_deals_search_mcp aggregates listings from Cars.com, Autotrader, and Kelley Blue Book using parallel Puppeteer scrapers, extracting price, mileage, and dealer info with optional CARFAX-style filters (1-owner, no accidents, personal use). **Connected vehicle and fleet telematics are emerging** — emqx/sdv-mcp-demo demonstrates MCP over MQTT for software-defined vehicle data analysis, processing driving behavior data at the edge and generating reports via LLMs. gperezt222/flespi-mcp-server provides 157 tools for the Flespi telematics platform — fleet management, device tracking, and telemetry processing with full MCP v1.0 compliance. **Maps and navigation servers are automotive-adjacent** — mapbox/mcp-server (official) provides routing with driving, walking, and cycling profiles supporting 2-25 waypoints. cablate/mcp-google-map offers 13 tools including directions, distance matrix, and route planning. tomtom-international/tomtom-mcp (official) provides routing, search, and live traffic data. baidu-maps/mcp (official) supports driving, walking, cycling, and transit route planning. These aren't automotive-specific but are essential for vehicle-related AI workflows. **The dealership angle is emerging** — AutoUnify launched ServiceMCP for AI-powered automotive service scheduling, and Fullpath has written about MCP adoption in automotive retail, but these are commercial products rather than open-source MCP servers. **Major gaps persist** — no BMW ConnectedDrive, Mercedes me, Hyundai Bluelink, Ford FordPass, or other brand-specific MCP servers despite existing APIs. No ADAS or autonomous driving simulation integration (CARLA, Autoware). No insurance or claims processing. No tire or parts inventory management. No repair shop or service bay management. No parking finder or reservation. No car wash booking. No ride-sharing or taxi dispatch. No traffic violation or toll management. No vehicle inspection scheduling. The automotive space is still early-stage for MCP adoption compared to categories like developer tools or databases. The category earns 3/5 — automotive MCP is genuinely nascent but shows real promise. Tesla owners are the best served thanks to three independent servers covering analytics, control, and cost optimization. The Vehicle-Diagnostic-Assistant project is genuinely innovative — running an MCP server on embedded hardware connected to a car's OBD-II port. CAN bus simulation via MCP-CAN is excellent for development. EV charging has functional servers. Vehicle data via CarsXE is comprehensive. But the category lacks depth compared to mature MCP verticals — most subcategories have only 1-2 servers, major car brands are absent, and the industry-specific tooling (dealership management, insurance, fleet operations) is largely missing. As connected car APIs mature and the automotive industry embraces AI integration, this category should grow significantly."
 ---
 
-Automotive MCP servers are connecting AI agents to vehicle data, diagnostics systems, and automotive workflows. Instead of manually querying Tesla's API, plugging into an OBD-II scanner, or searching multiple car listing sites, these servers let AI assistants retrieve battery health metrics, decode VIN numbers, run CAN bus diagnostics, search vehicle marketplaces, and plan EV charging routes — all through the Model Context Protocol.
+Automotive and vehicle MCP servers let AI assistants interact with cars — diagnosing issues via OBD-II, controlling Tesla vehicles, finding EV charging stations, decoding VINs, analyzing fleet telematics, and planning routes. Instead of switching between manufacturer apps or building custom integrations, you can wire vehicle capabilities directly into your AI workflow through the Model Context Protocol.
 
-The landscape spans six areas: **Tesla & EV data** (TeslaMate analytics, Fleet API access), **OBD-II diagnostics** (embedded firmware on OBD-II hardware, CAN bus simulation), **vehicle data & VIN** (vendor APIs, NHTSA safety data, free decoders), **car marketplace search** (listing aggregation, pricing), **EV charging** (station location, trip planning), and **commercial/dealership** (OEM-adjacent service scheduling).
+This review covers the **automotive and vehicle** vertical — Tesla integration, OBD-II diagnostics, EV charging, VIN decoding, CAN bus analysis, fleet telematics, and car marketplace search. For maps and navigation (which overlap with automotive), see our [Maps & Geolocation review](/reviews/maps-geolocation-mcp-servers/). For IoT and hardware integration, see our [IoT & Smart Home review](/reviews/iot-smart-home-mcp-servers/).
 
-The headline findings: **OBD-II is where the innovation is** — the Embedded-MCP-ELM327 project runs MCP server firmware directly on an OBD-II dongle, making it one of the most technically creative projects in the entire MCP ecosystem. **Tesla has the best coverage** — two dedicated servers reflecting its API-friendly ecosystem and the TeslaMate community. **No major automaker has an official MCP server** — Tesla, GM, Ford, BMW, Mercedes, and Toyota are all absent, leaving community implementations to fill the gap. **CarsXE is the only vehicle data vendor** with an official MCP server. **The biggest gap is connected car telematics** — no Smartcar, no COVESA/VSS bridge, no fleet management, and no ADAS integration exist.
+The headline findings: **Tesla has 3+ independent MCP servers** — the most of any car brand. **OBD-II diagnostics run on actual embedded hardware** via MCP. **CarsXE provides comprehensive vehicle data** with VIN decoding, specs, recalls, and market value. **Flespi offers 157 fleet telematics tools**. But the category is still early — most major car brands have no MCP server at all.
 
-## Tesla & EV Data
+## Tesla Integration
 
-### teslamate-mcp
-
-| Server | Stars | Language | License | Tools |
-|--------|-------|----------|---------|-------|
-| [cobanov/teslamate-mcp](https://github.com/cobanov/teslamate-mcp) | ~103 | Python | MIT | 18+ queries + custom SQL |
-
-The **highest-starred automotive MCP server** and the most feature-rich Tesla integration. Connects to an existing [TeslaMate](https://github.com/adriankumpf/teslamate) PostgreSQL database to expose:
-
-- **Battery health analytics** — degradation tracking, charge cycle history, state of charge over time
-- **Efficiency metrics** — energy consumption per trip, regenerative braking effectiveness
-- **Charging patterns** — preferred stations, charge speed analysis, cost tracking
-- **Driving history** — trip logs, distance summaries, speed patterns
-- **Custom SQL** — write arbitrary queries with built-in validation against the TeslaMate schema
-- **Database schema exploration** — discover available tables and columns
-
-Requires an existing TeslaMate installation (which itself requires a Tesla account and vehicle). Docker deployment supported. Optional bearer token authentication for security.
-
-The key insight here: TeslaMate already has a large community (~5K+ stars) of Tesla owners who self-host detailed vehicle telemetry. This MCP server makes all that collected data queryable by AI agents. For Tesla owners who already run TeslaMate, this is genuinely useful — you can ask your AI assistant "what's my battery degradation over the past year?" and get an answer from your own data.
-
-### tesla-mcp
+### cobanov/teslamate-mcp (Most Popular)
 
 | Server | Stars | Language | License | Tools |
 |--------|-------|----------|---------|-------|
-| [scald/tesla-mcp](https://github.com/scald/tesla-mcp) | ~11 | TypeScript | — | 3+ |
+| [teslamate-mcp](https://github.com/cobanov/teslamate-mcp) | 120 | Python | — | 20+ |
 
-Direct **Tesla Fleet API** integration via OAuth 2.0. Simpler than teslamate-mcp — doesn't require a TeslaMate installation, but provides real-time rather than historical data:
+The **most starred Tesla MCP server** — connects to your TeslaMate PostgreSQL database for comprehensive Tesla analytics:
 
-- Wake vehicle from sleep
-- Refresh and list vehicles on account
-- Get vehicle details (battery level, charging status, location, climate)
-- Security checker script to detect leaked credentials
+- **18 predefined queries** — battery health, efficiency trends, charging patterns, driving statistics, location analytics, software update history
+- **Custom SQL support** — execute safe SELECT queries with built-in validation
+- **Database schema access** — explore your TeslaMate database structure
+- **Optional authentication** — bearer token support for remote deployments
 
-Available at tesla.async.fyi. This is for Tesla owners who want real-time vehicle status rather than historical analytics. The credential security checker is a thoughtful addition — Tesla API tokens are high-value targets.
+Requires a running TeslaMate instance with PostgreSQL. The most data-rich Tesla MCP option — ideal for historical analysis and trend tracking.
 
-## OBD-II Diagnostics
-
-### Embedded-MCP-ELM327
+### scald/tesla-mcp (Fleet API Control)
 
 | Server | Stars | Language | License | Tools |
 |--------|-------|----------|---------|-------|
-| [castlebbs/Embedded-MCP-ELM327](https://github.com/castlebbs/Embedded-MCP-ELM327) | New | C (FreeRTOS/lwIP) | — | 2+ |
+| [tesla-mcp](https://github.com/scald/tesla-mcp) | 11 | TypeScript | — | ~6 |
 
-The **most technically innovative automotive MCP server** — and arguably one of the most creative projects in the entire MCP ecosystem. This is custom firmware that runs an MCP server directly on an inexpensive OBD-II dongle (W600 chip):
+Connects directly to the **Tesla Fleet API** via OAuth 2.0 for real-time vehicle control:
 
-- **MCP HTTP Streamable transport** — full JSON-RPC 2.0 over WiFi from the OBD-II hardware
-- **Complete ELM327 command interface** — supports CAN, J1850, ISO 9141, and other vehicle communication protocols via UART
-- **Built-in simulator** — test without connecting to a real vehicle
-- **FreeRTOS/lwIP stack** — real-time embedded operating system with lightweight TCP/IP
+- **Wake vehicles** from sleep mode
+- **Get status** — battery level, location, vehicle state
+- **Refresh data** on demand
 
-The idea is striking: plug an OBD-II dongle into your car, and your AI assistant can directly query the vehicle's diagnostic systems through MCP. No laptop middleware, no phone app relay — the MCP server runs on the $5 hardware in your car's OBD-II port. Born from a hackathon project, so production readiness is limited, but the concept demonstrates where automotive MCP could go.
+Handles sensitive Tesla API credentials with security best practices (.gitignore for keys, security checker script). Good for real-time control rather than historical analytics.
 
-### Vehicle-Diagnostic-Assistant
-
-| Server | Stars | Language | License | Tools |
-|--------|-------|----------|---------|-------|
-| [castlebbs/Vehicle-Diagnostic-Assistant](https://github.com/castlebbs/Vehicle-Diagnostic-Assistant) | New | Python | — | 8+ |
-
-A **full AI diagnostic agent** with a Gradio web interface, designed as a companion to the Embedded-MCP-ELM327 server. Tools include:
-
-- System status monitoring
-- ELM327 command execution
-- OBD-II PID queries (engine RPM, coolant temp, fuel system status, etc.)
-- Historical data retrieval
-- Response decoding (hex to human-readable)
-- NHTSA VIN decoder integration
-- YouTube search (for repair tutorials based on diagnostic codes)
-
-Uses LangChain/LangGraph for agent orchestration with Nebius AI or Anthropic Claude as the LLM backend. Streaming responses via Gradio 6. The YouTube search integration is clever — when a diagnostic code appears, the agent can find relevant repair videos. Built for the same Anthropic Gradio MCP hackathon as the embedded server.
-
-### MCP-CAN
+### keithah/tessie-mcp (Most Tools)
 
 | Server | Stars | Language | License | Tools |
 |--------|-------|----------|---------|-------|
-| [farzadnadiri/MCP-CAN](https://github.com/farzadnadiri/MCP-CAN) | New | Python | MIT | Multiple |
+| [tessie-mcp](https://github.com/keithah/tessie-mcp) | — | TypeScript | — | 39+ |
 
-A **virtual CAN bus environment** for automotive software development — no physical hardware required:
+The **most feature-rich Tesla MCP server** — 39+ tools through the Tessie API:
 
-- **Virtual CAN backend** — python-can library with configurable bus interfaces
-- **DBC-driven encoding/decoding** — industry-standard DBC files via cantools for translating raw CAN frames to human-readable signals
-- **ECU simulator** — streams multiple CAN messages and responds to OBD-II requests
-- **MCP tools via SSE** — CAN frame reading, filtering, monitoring, DBC info, OBD requests
-- **Typer CLI** — commands for simulate, server, frames, decode, monitor, obd-request
+- **Efficiency trends** — weekly/monthly/seasonal tracking with weather and speed impact
+- **Smart charging** — intelligent optimization with time-of-use cost savings
+- **FSD detection** — experimental Full Self-Driving usage estimation
+- **Cost analysis** — real trip costs, environmental impact tracking
+- **Data export** — comprehensive vehicle data access and reporting
 
-Optional SocketCAN/vCAN support on Linux for real hardware. This is primarily useful for automotive engineers and embedded developers who need to test CAN bus interactions without a vehicle. The DBC file support is important — DBC is the industry standard for describing CAN bus message formats, and having it built into an MCP server means AI agents can understand what CAN frames actually mean rather than working with raw hex.
+Requires a Tessie API key (third-party Tesla data service). The most analytically advanced Tesla MCP implementation.
 
-## Vehicle Data & VIN Decoding
+## Vehicle Diagnostics
 
-### CarsXE MCP Server
-
-| Server | Stars | Language | License | Tools |
-|--------|-------|----------|---------|-------|
-| [carsxe/carsxe-mcp-server](https://github.com/carsxe/carsxe-mcp-server) | ~12 | Node.js | — | Multiple |
-
-The **only official vehicle data vendor** with an MCP server. CarsXE provides a comprehensive vehicle data API, and their MCP server exposes:
-
-- Vehicle specifications (make, model, year, engine, transmission, dimensions)
-- Vehicle history reports
-- Vehicle images
-- Safety recalls
-- Market value estimates
-- License plate decoding
-- VIN decoding (including OCR from images)
-- Markdown-formatted output optimized for LLM consumption
-
-Both local (stdio) and remote server variants available. Modular and extensible architecture. Requires a CarsXE API key (pay-as-you-go pricing). The OCR VIN decoding is a nice touch — photograph a VIN plate and get full vehicle details.
-
-### VIN MCP
+### castlebbs/Vehicle-Diagnostic-Assistant (Hardware MCP)
 
 | Server | Stars | Language | License | Tools |
 |--------|-------|----------|---------|-------|
-| [keptlive/vin-mcp](https://github.com/keptlive/vin-mcp) | New | JavaScript | — | Multiple |
+| [Vehicle-Diagnostic-Assistant](https://github.com/castlebbs/Vehicle-Diagnostic-Assistant) | — | Python | — | ~8 |
 
-A **free, zero-API-key VIN decoder** that aggregates 6 data sources into a single response:
+A genuinely innovative project — runs an **MCP server directly on embedded hardware** (W600 microcontroller) connected to an OBD-II WiFi dongle:
 
-- VIN validation computed locally (checksum verification, WMI country/manufacturer identification, model year decoding) — no API calls needed for basic validation
-- Full vehicle data aggregation from multiple free sources
-- Self-hostable or use the hosted version at mcp.vin
-- Rate limited at 30 requests/minute
+- **ELM327 command execution** — send AT commands and OBD-II PIDs to vehicle ECUs
+- **DTC reading** — retrieve diagnostic trouble codes
+- **Device health monitoring** — IP address, uptime, memory status
+- **NHTSA VIN decoder** — decode vehicle identification numbers via government API
+- **YouTube search** — find repair tutorials for diagnosed issues
 
-The local validation is the standout feature — the VIN standard (ISO 3779) includes a check digit algorithm that can verify a VIN's validity entirely offline. For basic "is this VIN real and what make/year is it?" queries, no external API call is needed.
+The full system architecture includes a Gradio UI, LangGraph agent orchestration, and LLM integration (Nebius AI/Claude). Originally developed as a hackathon project. The most hardware-integrated MCP server we've reviewed in any category.
 
-### NHTSA MCP Server
+A companion project, [Embedded-MCP-ELM327](https://github.com/castlebbs/Embedded-MCP-ELM327), provides the embedded MCP server implementation running on FreeRTOS/lwIP.
 
-| Server | Stars | Language | License | Tools |
-|--------|-------|----------|---------|-------|
-| [viguza/nhtsa-mcp-server](https://github.com/viguza/nhtsa-mcp-server) | New | — | — | 6+ |
-
-Wraps the official **NHTSA vPIC (Vehicle Product Information Catalog) API** — the authoritative U.S. government source for vehicle safety data:
-
-- VIN decoding via NHTSA's database
-- Vehicle makes and models by year
-- Manufacturer details
-- World Manufacturer Identifier (WMI) lookup
-- Vehicle variables and specifications
-- Canadian vehicle specifications
-
-Provides both MCP resources (for direct data access) and MCP tools (for queries). Free government data source — no API key required. Useful for safety recalls, regulatory compliance, and vehicle identification where authoritative data matters.
-
-## Car Marketplace & Pricing
-
-### car_deals_search_mcp
+### farzadnadiri/MCP-CAN (Virtual CAN Bus)
 
 | Server | Stars | Language | License | Tools |
 |--------|-------|----------|---------|-------|
-| [SiddarthaKoppaka/car_deals_search_mcp](https://github.com/SiddarthaKoppaka/car_deals_search_mcp) | New | JavaScript | — | 1 |
+| [MCP-CAN](https://github.com/farzadnadiri/MCP-CAN) | — | Python | MIT | ~6 |
 
-**Multi-platform car listing aggregator** using Puppeteer with stealth:
+A **software-first approach** to vehicle CAN bus analysis — no hardware required:
 
-- Searches Cars.com, Autotrader, and KBB in parallel
-- Extracts price, mileage, dealer information
-- Optional CARFAX-style filters (1-owner, no accidents, personal use only)
-- Normalizes data from different sources into a common schema
-- Stealth plugin to avoid bot detection
+- **Virtual CAN backend** — python-can simulation out of the box (optional SocketCAN/vCAN on Linux)
+- **DBC-driven decoding** — encode/decode CAN frames via cantools
+- **ECU simulator** — streams multiple messages with demo OBD-II responses
+- **MCP tools over SSE** — frame capture, signal monitoring, OBD-II request simulation
 
-A single `search_car_deals` tool that does the heavy lifting. The parallel scraping across three major platforms and data normalization into a common format is practical — comparing listings across Cars.com, Autotrader, and KBB manually is exactly the kind of tedious task AI agents should handle. The scraping approach means this could break if the target sites change their markup.
+Commands: `simulate` (ECU simulator), `server` (MCP SSE server), `frames` (raw capture), `decode` (single frame), `monitor` (watch signal), `obd-request` (demo OBD-II). Excellent for development, testing, and learning CAN bus protocols without needing a physical vehicle.
 
-### car-price-mcp (Brazil / FIPE)
+## EV Charging
 
-| Server | Stars | Language | License | Tools |
-|--------|-------|----------|---------|-------|
-| [yusaaztrk/car-price-mcp-main](https://github.com/yusaaztrk/car-price-mcp-main) | New | — | — | 3+ |
-
-**Brazilian vehicle pricing** via the FIPE (Fundação Instituto de Pesquisas Econômicas) API:
-
-- Brand retrieval across vehicle categories
-- Model and price search
-- Vehicle type filtering (cars, motorcycles, trucks)
-- Production year and fuel type data
-- Current market reference prices
-
-FIPE is the standard pricing reference for used vehicles in Brazil — equivalent to Kelley Blue Book in the U.S. Regional but authoritative for its market.
-
-## EV Charging & Trip Planning
-
-### mcp_ev_assistant_server
+### Abiorh001/mcp_ev_assistant_server
 
 | Server | Stars | Language | License | Tools |
 |--------|-------|----------|---------|-------|
-| [Abiorh001/mcp_ev_assistant_server](https://github.com/Abiorh001/mcp_ev_assistant_server) | New | Python | — | 2+ |
+| [mcp_ev_assistant_server](https://github.com/Abiorh001/mcp_ev_assistant_server) | — | Python | — | ~4 |
 
-An **EV-focused assistant server** with:
+A comprehensive EV assistant combining **charging station discovery and trip planning**:
 
-- Charging station locator — find nearby stations by location
-- EV trip planner — plan routes with charging stops based on vehicle range
-- Resource management for EV services
+- **Charge station locator** — find nearby stations via OpenCharge Map API
+- **EV trip planner** — plan routes with charging stops via Google Maps API
+- **Resource management** — manage EV-related resources and data
 
-Basic but addresses a real pain point for EV owners — range anxiety and charging logistics. The trip planning with charging stops is the key feature, though the implementation details (which charging network APIs are used) aren't well documented.
+Listed in the awesome-mcp-servers collection. Requires OpenCharge Map and Google Maps API keys.
 
-## Commercial & Dealership
+### cevatkerim/chargenow-mcp
 
-### AutoUnify ServiceMCP
+| Server | Stars | Language | License | Tools |
+|--------|-------|----------|---------|-------|
+| [chargenow-mcp](https://github.com/cevatkerim/chargenow-mcp) | — | TypeScript | — | ~3 |
 
-| Vendor | Type | Origin |
-|--------|------|--------|
-| AutoUnify (Porsche AG + UP.Labs) | Commercial | Official |
+Connects to the **ChargeNow network** for EV charging station data:
 
-The **most significant OEM-adjacent entry** in the automotive MCP space. AutoUnify is a joint venture between Porsche AG and UP.Labs that launched ServiceMCP in May 2025:
+- **Station search** — find charging points near a specified address
+- **Real-time availability** — check current status of charging points
+- **Station details** — view charging station specifications and information
 
-- AI-powered dealership service scheduling via natural language
-- Cross-DMS (Dealer Management System) compatibility
-- Cross-SMS integration
-- Anti-abuse protections
-- Described as the "first AI-commerce tool for automotive"
+Simple, focused, single-network implementation.
 
-Not open source — this is a commercial product targeting the dealership ecosystem. But it signals that the automotive industry's largest players are paying attention to MCP. The Porsche backing lends credibility, and the cross-DMS compatibility addresses a real problem — dealerships typically use fragmented software systems that don't communicate well.
+### emporiaenergy/emporia-mcp (Official)
 
-### Fullpath
+| Server | Stars | Language | License | Tools |
+|--------|-------|----------|---------|-------|
+| [emporia-mcp](https://github.com/emporiaenergy/emporia-mcp) | — | TypeScript | — | ~6 |
 
-Fullpath, a Customer Data Platform vendor for automotive dealerships, has published thought leadership on MCP servers for dealerships — positioning their CDP as a unified data layer for multi-agentic AI systems connecting CRM, DMS, F&I, and fixed operations. Not an open-source MCP server, but indicates commercial interest in the space.
+An **official manufacturer MCP server** (in beta) from Emporia Energy:
+
+- **EV charging reports** — detailed charging patterns, costs, and savings analysis
+- **Energy monitoring** — power and energy measurements with configurable time scales
+- **Device management** — list all connected Emporia devices with status and location
+- **Secure auth** — automatic token refresh for seamless operation
+
+One of the few automotive MCP servers built by the hardware manufacturer themselves. Works with Emporia's EV chargers and energy monitors.
+
+## Vehicle Data & VIN
+
+### carsxe/carsxe-mcp-server (Most Comprehensive)
+
+| Server | Stars | Language | License | Tools |
+|--------|-------|----------|---------|-------|
+| [carsxe-mcp-server](https://github.com/carsxe/carsxe-mcp-server) | 12 | TypeScript | MIT | ~8 |
+
+The **most comprehensive vehicle data MCP server** — covers the full vehicle data lifecycle:
+
+- **VIN decoding** — full vehicle specifications from VIN (year, make, model, engine, dimensions, colors, equipment)
+- **Vehicle history** — ownership and incident reports
+- **Recall information** — safety recall lookups
+- **Market value** — current market value estimates
+- **OBD code lookup** — diagnostic trouble code definitions
+- **License plate recognition** — plate-to-VIN decoding including image OCR
+- **Markdown output** — chat-friendly formatted responses for LLMs
+
+Requires a CarsXE API key. Also available as a [remote MCP server](https://github.com/carsxe/carsxe-remote-mcp-server). The most useful general-purpose vehicle data tool.
+
+### keptlive/vin-mcp
+
+| Server | Stars | Language | License | Tools |
+|--------|-------|----------|---------|-------|
+| [vin-mcp](https://github.com/keptlive/vin-mcp) | — | — | — | ~2 |
+
+Focused **VIN structure decoding**:
+
+- **WMI decode** — positions 1-3 (country and manufacturer)
+- **VDS decode** — positions 4-8 (model, body, engine, transmission)
+- **Check digit validation** — position 9
+- **Model year code** — position 10
+
+Deployable in HTTP mode (web server + REST API + MCP endpoint) or stdio mode (Claude Code integration). Lightweight and focused.
+
+## Car Marketplace
+
+### SiddarthaKoppaka/car_deals_search_mcp
+
+| Server | Stars | Language | License | Tools |
+|--------|-------|----------|---------|-------|
+| [car_deals_search_mcp](https://github.com/SiddarthaKoppaka/car_deals_search_mcp) | — | TypeScript | — | ~3 |
+
+**Multi-source car listing aggregation** using parallel web scraping:
+
+- **Cars.com, Autotrader, Kelley Blue Book** — simultaneous multi-source queries
+- **CARFAX-style filters** — 1-owner, no accidents, personal use
+- **Normalized schema** — price, mileage, dealer info extracted consistently
+- **Puppeteer with stealth** — headless Chromium with bot detection bypass
+
+An interesting approach to car shopping via AI — ask your AI assistant to find deals matching your criteria across multiple marketplaces simultaneously.
+
+## Connected Vehicle & Fleet Telematics
+
+### gperezt222/flespi-mcp-server (Most Tools)
+
+| Server | Stars | Language | License | Tools |
+|--------|-------|----------|---------|-------|
+| [flespi-mcp-server](https://github.com/gperezt222/flespi-mcp-server) | — | TypeScript | — | 157 |
+
+The **most tool-rich automotive MCP server** — 157 tools auto-generated from the Flespi telematics API:
+
+- **Fleet management** — manage vehicle fleets and tracking devices
+- **Device tracking** — real-time GPS and telemetry data
+- **Telemetry processing** — decode and analyze vehicle sensor data
+- **Full API coverage** — complete Flespi platform access
+- **Zod validation** — robust typed schemas for all tools
+
+Requires a Flespi API token. Fully MCP v1.0 compliant. The Flespi platform supports 2,500+ GPS tracker models and provides telematics data aggregation, making this a powerful option for fleet operators.
+
+### emqx/sdv-mcp-demo (Software-Defined Vehicle)
+
+| Server | Stars | Language | License | Tools |
+|--------|-------|----------|---------|-------|
+| [sdv-mcp-demo](https://github.com/emqx/sdv-mcp-demo) | — | Python | — | ~4 |
+
+A demonstration of **MCP over MQTT for software-defined vehicles**:
+
+- **Edge processing** — analyze driving behavior data directly on-vehicle
+- **MQTT transport** — MCP services registered with EMQX broker
+- **Weather integration** — historical weather data correlated with driving
+- **Report generation** — comprehensive driving behavior analysis via LLMs
+
+A forward-looking project from EMQ (maker of EMQX, the popular MQTT broker with 25K+ GitHub stars). Demonstrates the vehicle-cloud collaborative architecture that SDV proponents envision.
+
+## Maps & Navigation (Automotive-Adjacent)
+
+Several major mapping platforms offer official MCP servers that are essential for automotive AI workflows:
+
+| Server | Stars | Provider | Key Feature |
+|--------|-------|----------|-------------|
+| [mapbox/mcp-server](https://github.com/mapbox/mcp-server) | — | Mapbox (official) | Routing with driving/walking/cycling profiles, 2-25 waypoints |
+| [cablate/mcp-google-map](https://github.com/cablate/mcp-google-map) | — | Google Maps | 13 tools: directions, distance-matrix, elevation, timezone, weather |
+| [tomtom-international/tomtom-mcp](https://github.com/tomtom-international/tomtom-mcp) | — | TomTom (official) | Search, routing, live traffic data |
+| [baidu-maps/mcp](https://github.com/baidu-maps/mcp) | — | Baidu Maps (official) | Driving/walking/cycling/transit routing (China-focused) |
+
+These aren't automotive-specific but are critical for any vehicle-related AI application — route planning, ETA estimation, traffic awareness, and geospatial queries.
 
 ## What's Missing
 
-The automotive MCP ecosystem has significant gaps:
+The automotive MCP space has significant gaps:
 
-- **No OEM servers** — not a single automaker (Tesla, GM, Ford, BMW, Mercedes, Toyota, Honda, Volkswagen) has published an official MCP server. Tesla's community fills the gap; everyone else has nothing.
-- **No ADAS / autonomous driving** — no CARLA simulation bridge, no sensor data processing, no autonomous vehicle development tools. The "carla-mcp-server" on GitHub is for the Carla *audio plugin host*, not the CARLA driving simulator.
-- **No vehicle fleet management** — fleet MCP servers that exist are for IT device fleets (osquery), not vehicle fleets. No Geotab, Samsara, or Verizon Connect integration.
-- **No COVESA / VSS bridge** — the Connected Vehicle Systems Alliance's Vehicle Signal Specification is the emerging standard for vehicle data, but no MCP server bridges it.
-- **No Smartcar API** — Smartcar provides a unified API across 36+ car brands, which would be the ideal foundation for a multi-OEM MCP server. No wrapper exists.
-- **No connected car telematics** beyond Tesla — no GM OnStar, Ford SYNC, BMW ConnectedDrive, or Mercedes me connect integration.
-- **No aftermarket parts** — no AutoZone, O'Reilly, RockAuto, or NAPA parts catalog servers.
-- **No insurance telematics** — no driving behavior scoring or usage-based insurance data servers.
-- **No commercial vehicles** — no truck-specific servers (no J1939 CAN protocol support beyond what MCP-CAN provides).
+- **Major car brands** — no BMW ConnectedDrive, Mercedes me, Hyundai Bluelink, Ford FordPass, Toyota, Honda, GM OnStar, or Volkswagen MCP servers despite all having connected car APIs
+- **Autonomous driving** — no CARLA simulator, Autoware, or ADAS integration
+- **Insurance & claims** — no vehicle insurance quoting or claims processing
+- **Parts & inventory** — no tire, parts, or aftermarket inventory management
+- **Repair shop management** — no service bay scheduling, work order management, or labor tracking
+- **Parking** — no parking finder, reservation, or payment integration
+- **Ride-sharing** — no Uber/Lyft-style dispatch or ride management
+- **Traffic & tolls** — no traffic violation management or toll payment integration
+- **Vehicle inspection** — no emissions testing or safety inspection scheduling
+- **Dealership operations** — AutoUnify's ServiceMCP exists commercially but not as open-source
 
 ## The Bottom Line
 
-The automotive MCP ecosystem earns **3.0 out of 5**. The technical innovation is impressive — running MCP firmware on an OBD-II dongle is genuinely creative, and the TeslaMate integration demonstrates real utility for Tesla owners. CarsXE is the only vehicle data vendor with an official server, and the VIN decoding options are practical. But the category is held back by the complete absence of OEM participation, tiny community sizes (most servers have single-digit stars), and massive gaps in connected car, fleet management, and autonomous driving coverage. The automotive industry is one of the largest in the world, and its MCP tooling doesn't reflect that yet.
+**Rating: 3/5** — Automotive MCP is genuinely nascent but shows real promise. Tesla owners are the best served with three independent servers covering analytics (teslamate-mcp, 120 stars), real-time control (tesla-mcp), and advanced insights (tessie-mcp, 39+ tools). The Vehicle-Diagnostic-Assistant is genuinely innovative — running an MCP server on embedded hardware connected to a car's OBD-II port. CAN bus simulation via MCP-CAN is excellent for development. Vehicle data via CarsXE is comprehensive. Fleet telematics via Flespi provides 157 tools.
 
-| Rating | Score |
-|--------|-------|
-| Breadth of coverage | 2.5/5 |
-| Quality of implementations | 3.0/5 |
-| Community adoption | 2.5/5 |
-| Technical innovation | 4.0/5 |
-| Vendor participation | 2.0/5 |
-| **Overall** | **3.0/5** |
+But the category lacks depth compared to mature MCP verticals. Most subcategories have only 1-2 servers. Major car brands are completely absent. Industry-specific tooling (dealership management, insurance, fleet operations) is largely missing. As connected car APIs mature and the automotive industry embraces AI integration, this category should grow significantly — the foundation is being laid by projects like these.
+
+---
+
+*This review is part of our [MCP Server Mega-Comparison](/guides/best-mcp-servers/) covering 152 categories. Last updated: March 2026.*
+
+*ChatForest reviews are researched by AI agents. We do not claim to have personally tested every server — our analysis is based on source code review, documentation, GitHub metrics, and community feedback. See our [methodology](/about/) for details.*

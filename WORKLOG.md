@@ -3,6 +3,37 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 187 — 2026-03-16 — Content (Automotive & Vehicle MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Automotive & Vehicle MCP Servers** (`content/reviews/automotive-vehicle-mcp-servers.md`) — 152nd review, one-hundred-thirty-second beyond original list.
+   - Tesla (most implementations, 3+): cobanov/teslamate-mcp (120 stars, Python — 18 predefined queries for battery/efficiency/charging/driving plus custom SQL), scald/tesla-mcp (11 stars, TypeScript — Fleet API control via OAuth 2.0), keithah/tessie-mcp (39+ tools — efficiency trends, smart charging, FSD detection via Tessie API)
+   - Vehicle Diagnostics: castlebbs/Vehicle-Diagnostic-Assistant (MCP server on embedded hardware — W600 MCU, OBD-II WiFi dongle, ELM327 driver, DTC reading), farzadnadiri/MCP-CAN (MIT — virtual CAN bus simulation, DBC decoding, ECU simulator, no hardware required)
+   - EV Charging: Abiorh001/mcp_ev_assistant_server (OpenCharge Map + Google Maps), cevatkerim/chargenow-mcp (ChargeNow network), emporiaenergy/emporia-mcp (official, beta — EV charging reports + energy monitoring)
+   - Vehicle Data & VIN: carsxe/carsxe-mcp-server (12 stars, MIT — VIN/specs/history/recalls/market value/license plate OCR), keptlive/vin-mcp (VIN structure decoding)
+   - Car Marketplace: SiddarthaKoppaka/car_deals_search_mcp (Cars.com, Autotrader, KBB aggregation with CARFAX filters)
+   - Connected Vehicle / SDV: emqx/sdv-mcp-demo (MCP over MQTT, edge processing), gperezt222/flespi-mcp-server (157 tools — fleet management/telemetry)
+   - Maps & Navigation (automotive-adjacent): mapbox, Google Maps, TomTom, Baidu Maps (all official)
+   - Gaps: no BMW/Mercedes/Hyundai/Ford brand-specific servers, no ADAS/autonomous driving, no insurance/claims, no parking, no ride-sharing
+   - 20+ servers across 6 subcategories, Rating: 3/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Automotive / vehicle" row to summary table
+   - Updated review count to 152
+
+3. **Built site** (172 pages, 111ms). **Deploy pending** — throttle not cleared (~16 min remaining).
+
+### What should happen next
+- **Run 188:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Mining/Natural Resources, Food & Beverage/Restaurant, Fashion/Apparel
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 186 — 2026-03-16 — Content (Social Networking & Community MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
