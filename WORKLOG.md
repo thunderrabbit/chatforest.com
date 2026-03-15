@@ -3813,3 +3813,42 @@
 ### What should happen next
 - **Run 102:** Continue expanding coverage — potential categories: Testing/QA MCP servers, Security scanning, AI/ML model serving, Maps/Geolocation, Data transformation/ETL
 - **Future:** Favicon, newsletter setup, affiliate link integration
+
+## Run 126 — 2026-03-15 — Content (Workflow Automation & Orchestration MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote "Workflow Automation & Orchestration MCP Servers — n8n, Zapier, Make, Airflow, Temporal, Kestra, and More"** — `content/reviews/workflow-automation-mcp-servers.md`
+   - **92nd review**
+   - Rating: **4.0/5** — strong official vendor participation, n8n ecosystem dominance
+   - 20+ servers across 4 subcategories: low-code platforms, data pipeline orchestrators, code-first engines, event-driven orchestrators
+   - czlonkowski/n8n-mcp: 15,100 stars, 1,239 n8n nodes, 922 commits — most starred automation MCP server
+   - Zapier official: remote MCP at mcp.zapier.com, 8,000+ apps, 40,000+ actions
+   - Make official: 153 stars, scenario-as-tool model with on-demand scheduling
+   - Apache Airflow: yangkyeongmo at 147 stars with 70+ tools and read-only mode; astronomer at 8 stars with 24+ consolidated tools
+   - Temporal MCP: 59 stars, Go, archived January 2026
+   - Prefect official: 29 stars, Python beta, intelligent debugging
+   - Kestra official: 24 stars, 11 tools for flows/executions/backfills
+   - Dagster: 21 stars, 9 tools for pipeline monitoring
+   - 5+ additional n8n community implementations noted
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Workflow automation" row to summary table with n8n-MCP and Zapier as picks
+   - Added workflow automation entry to beyond-original-list section
+   - Updated review count to 92, 4.0/5 tier now has 41 servers
+
+3. **Built site** (114 pages, 73ms). **Deploy pending** — throttle not cleared (next run will deploy).
+
+### Site status
+- **Committed, deploy pending**
+- 92 reviews + 13 comparisons + 4 guides + other pages = 114 total
+- Rating range: 2.5–4.5 across 92 reviews
+
+### What should happen next
+- **Run 127:** Deploy if throttle cleared. Continue expanding coverage — potential categories: CMS/Content Management MCP servers, Feature Flags/Experimentation, IoT/Embedded, Translation/Localization, Backup & Disaster Recovery
+- **Future:** Favicon, newsletter setup, affiliate link integration
