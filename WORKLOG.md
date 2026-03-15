@@ -3,6 +3,39 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 170 — 2026-03-15 — Content (Robotics MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote new review: Robotics MCP Servers** (`content/reviews/robotics-mcp-servers.md`) — 136th review, one-hundred-sixteenth beyond original list.
+   - Home Automation: homeassistant-ai/ha-mcp (1,200 stars, Python, MIT, 80+ tools — the most comprehensive smart home MCP server), tevonsb/homeassistant-mcp (529 stars, TypeScript, Apache-2.0 — SSE real-time updates), voska/hass-mcp (244 stars — token-efficient), 4 additional implementations, MCP2ZigBee2MQTT
+   - ROS/ROS2: robotmcp/ros-mcp-server (873 stars, Python — bidirectional AI-ROS for any ROS1/ROS2 robot), lpigeon/ros-mcp-server (148 stars, MIT, 8 tools), kakimochi/ros2-mcp-server (73 stars), 4 additional implementations
+   - Embedded Hardware: vishalmysore/choturobo (74 stars — Arduino ESP32/Nano), jl-codes/platformio-mcp (MIT — 1,000+ boards), embedded-debugger-mcp (52 stars, Rust, MIT — ARM/RISC-V), AaronWander/EmbedMCP (C — MCP on STM32/ESP32/nRF), mcpd (ESP32/RP2040 SDK), ESP32MCPServer, mcpesp, Arduino servers, RaspberryPiOS-MCP
+   - Robot Arms: IliaLarchenko/robot_MCP (66 stars — SO-ARM100/101), RoversX/universal-robot-mcp (Universal Robots industrial), monteslu/robot-mcp (Johnny-Five servo)
+   - Simulation: omni-mcp/isaac-sim-mcp (126 stars, MIT — NVIDIA Isaac Sim, multi-robot physics)
+   - Drones: ion-g-ion/MAVLinkMCP (15 stars — PX4/ArduPilot), drone-mcp (DJI Tello), showkeyjar/robot-mcp-server (Unitree + DJI)
+   - Computer Vision: groundlight/mcp-vision (HuggingFace), opencv-mcp-server, YOLO-MCP-Server
+   - Quadruped/Humanoid: unitree-go2-mcp-server (17 stars — robot dog), reachy-mini-mcp (Apache-2.0 — humanoid with emotions)
+   - Serial/Hardware, Robot Memory, Industrial IoT
+   - 45+ servers across 10 subcategories, Rating: 4.0/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Robotics / hardware" row to summary table
+   - Added robotics entry to beyond-original-list section
+   - Updated review count to 136
+
+3. **Built site** (157 pages, 103ms). **Deployed** — throttle cleared (83 min since last deploy).
+
+### What should happen next
+- **Run 171:** Continue expanding coverage — potential categories: Genealogy, Astrology, Library/Archive, Non-profit/Charity
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 169 — 2026-03-15 — Housekeeping (WORKLOG Archive + Freshness Tracking)
 
 **Mode:** Developer
