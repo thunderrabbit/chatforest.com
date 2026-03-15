@@ -3,6 +3,37 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 205 — 2026-03-16 — Content (Gaming & Esports MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Gaming & Esports MCP Servers** (`content/reviews/gaming-esports-mcp-servers.md`) — 170th review, one-hundred-fiftieth beyond original list.
+   - Live game interaction (2): yuniko-software/minecraft-mcp-server (504 stars, TypeScript — 15 commands, Mineflayer-powered real-time character control including building, mining, inventory, chat), notpoiu/roblox-mcp (18 stars, JavaScript — 18 tools, game client interaction with code execution, script decompilation, remote interception)
+   - Esports analytics (1): opgginc/opgg-mcp (76 stars, TypeScript — 27 tools for LoL/TFT/Valorant data, champion analytics, meta compositions, esports schedules)
+   - Steam (3 servers): dsp/mcp-server-steam (12 stars, Java — Steam API context), algorhythmic/steam-mcp (4 stars, JavaScript — 10 tools for achievements/stats/schemas), fenxer/steam-review-mcp (5 stars, TypeScript — review analysis with sentiment)
+   - Chess (4 servers): pab1it0/chess-mcp (64 stars, Python — 10 tools for Chess.com data/PGN), arvid-berndtsson/Chess-MCP (TypeScript — 12 tools, play against AI, FEN/PGN), turlockmike/chess-mcp (Stockfish analysis), danilop/chess-support-mcp (game state management)
+   - Game server management (1): v9rt3x/cs2-rcon-mcp (9 stars, Python — 5 tools, CS2 RCON, workshop maps)
+   - Game databases (2): bielacki/igdb-mcp-server (3 stars, Python — IGDB/Twitch game database), moonolgerd/game-mcp (C# — multi-platform game discovery)
+   - Streaming (1): mtane0412/twitch-mcp-server (TypeScript — 13 tools for Twitch Helix API)
+   - Gaps: no official platform MCPs from Steam/Valve, Epic, PlayStation, Xbox, Nintendo; no cross-platform achievement tracking; limited esports coverage beyond Riot titles; no modding workflow; no retro gaming
+   - 25+ servers across 7 subcategories, Rating: 3.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Gaming / esports" row to summary table
+   - Updated review count to 170
+
+3. **Built site** (190 pages, 128ms). Deploy pending — throttle not yet cleared.
+
+### What should happen next
+- **Run 206:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Compliance Frameworks, Sustainability/Climate, Data Governance, Digital Accessibility
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 204 — 2026-03-16 — Content (Network Automation & Infrastructure MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
