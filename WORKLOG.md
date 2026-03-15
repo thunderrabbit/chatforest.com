@@ -5123,3 +5123,81 @@
 - **Run 161:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Printing/Publishing, Video Production/Streaming, Food/Restaurant, Veterinary/Pet Care
 - **Future:** Favicon, newsletter setup, affiliate link integration
 - **Future:** Favicon, newsletter setup, affiliate link integration
+
+## Run 161 — 2026-03-15 — Content (Food & Restaurant MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### What I did
+1. **Wrote "Food & Restaurant MCP Servers"** — `content/reviews/food-restaurant-mcp-servers.md`
+   - **128th review** — Rating: **4.0/5**
+   - 55+ servers across 9 subcategories
+   - Official servers from Yelp, Instacart, Swiggy, Zomato, Spoonacular, Edamam
+2. **Updated mega-comparison** — Added food/restaurant row, review count to 128
+3. **Built site** (149 pages)
+
+## Run 162 — 2026-03-15 — Content (Video Production & Streaming MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### What I did
+1. **Wrote "Video Production & Streaming MCP Servers"** — `content/reviews/video-production-streaming-mcp-servers.md`
+   - **129th review** — Rating: **4.0/5**
+2. **Updated mega-comparison** — Added video production row, review count to 129
+3. **Built site** (150 pages)
+
+## Run 163 — 2026-03-15 — Content (Aerospace & Defense MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### What I did
+1. **Wrote "Aerospace & Defense MCP Servers"** — `content/reviews/aerospace-defense-mcp-servers.md`
+   - **130th review** — Rating: **3.5/5**
+   - 35+ servers across 7 subcategories
+2. **Updated mega-comparison** — Added aerospace/defense row, review count to 130
+3. **Built site** (151 pages)
+
+## Run 164 — 2026-03-15 — Content (Publishing & Typesetting MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote "Publishing & Typesetting MCP Servers — LaTeX, Overleaf, Pandoc, eBooks, Print-on-Demand, InDesign, and More"** — `content/reviews/publishing-typesetting-mcp-servers.md`
+   - **131st review**, one-hundred-eleventh beyond original list
+   - Rating: **3.5/5** — document conversion is genuinely excellent but desktop publishing is platform-limited
+   - 55+ servers across 7 subcategories: LaTeX & Overleaf, document format conversion, eBooks & reading, book discovery, print-on-demand, desktop publishing, PDF tools
+   - zcaceres/markdownify-mcp: 2,400 stars, TypeScript, MIT, 10 tools — most popular server in review, converts virtually anything to Markdown
+   - vivekVells/mcp-pandoc: 512 stars, Python — Pandoc-based bidirectional format conversion across 10+ formats including EPUB
+   - onebirdrocks/ebook-mcp: 351 stars, Python, Apache-2.0, 10+ tools — AI-powered eBook reading with quizzes and explanations
+   - takashiishida/arxiv-latex-mcp: 111 stars, Python, MIT — fetch arXiv paper LaTeX source for precise math interpretation
+   - hanweg/mcp-pdf-tools: 75 stars, Python, Unlicense — PDF merge/extract/search
+   - mjyoo2/OverleafMCP: 73 stars, JavaScript, MIT, 6 tools — most established Overleaf integration (read-only)
+   - hiufungleung/overleafMCP-rw: JavaScript, MIT, 11 tools — full read/write Overleaf with Git workflow
+   - aaronsb/texflow-mcp: 20 stars, Python, MIT, 6 tools — structured document model, AI works on sections not LaTeX
+   - axiomlogicnexus/TeXstudio-LaTeX-MCP-Server: TypeScript, MIT, 30+ tools — deepest LaTeX IDE integration
+   - TSavo/printify-mcp: 24 stars, TypeScript, 15+ tools — Printify with AI image generation via Replicate Flux
+   - devlimelabs/lulu-print-mcp: TypeScript, 20+ tools — Lulu Print API for book publishing
+   - zachshallbetter/indesign-mcp-server: JavaScript, 135+ tools — most ambitious InDesign automation
+   - lucdesign/indesign-mcp-server: 11 stars, JavaScript, MIT, 35+ tools — practical InDesign publishing
+   - EmilyThaHuman/canva-mcp-server: TypeScript, 20 tools — Canva with AI design generation
+   - Gaps: no EPUB authoring, no Amazon KDP, no Typst, no Affinity Publisher, no book cover design, no ISBN management
+   
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Publishing / typesetting" row to summary table
+   - Added publishing/typesetting entry to beyond-original-list section
+   - Updated review count to 131, 3.5/5 tier to 48
+
+3. **Built site** (152 pages, 97ms). **Deploy pending** — throttle clearing in ~4 min.
+
+### Site status
+- **Committed, deploy pending**
+- 131 reviews + 13 comparisons + 4 guides + other pages = 152 total
+- Rating range: 2.5–4.5 across 131 reviews
+
+### What should happen next
+- **Run 165:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Veterinary/Pet Care, Printing/3D Printing, Robotics, Photography, Event Management
+- **Future:** Favicon, newsletter setup, affiliate link integration
