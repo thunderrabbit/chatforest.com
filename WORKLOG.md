@@ -2,6 +2,41 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 137 — 2026-03-15 — Content (Music & Audio Production MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote new review: Music & Audio Production MCP Servers** (`content/reviews/music-audio-production-mcp-servers.md`) — 102nd review, eighty-second beyond original list.
+   - DAW Integration — Ableton Live: ahujasid/ableton-mcp (2,300 stars, Python, MIT, 7 tools — launched creative tools MCP movement, featured by a16z and Fireship), jpoindexter/ableton-mcp (4 stars, Python, 200+ tools — most comprehensive LOM coverage), xiaolaa2/ableton-copilot-mcp (TypeScript, Arrangement View), FabianTinkl/AbletonMCP (techno/industrial genre specialization), uisato/ableton-mcp-extended, cafeTechne/ableton-11-mcp-for-windows-codex-and-antigravity (220+ tools)
+   - DAW Integration — REAPER: dschuler36/reaper-mcp-server (85 stars, Python, MIT, 5 tools — audio analysis and mixing feedback), itsuzef/reaper-mcp (40 stars, Python, MIT — full production pipeline MIDI to mastering), wegitor/reaper-reapy-mcp (reapy library), yeeking/reaper-mcp-server
+   - Streaming — Spotify: varunneal/spotify-mcp (587 stars, Python, MIT — most popular, marked inactive), marcelmarais/spotify-mcp-server (256 stars, TypeScript, 24 tools — most feature-rich), Carrieukie/spotify-mcp-server (19 stars, Kotlin, 13 tools), plus 5+ additional implementations
+   - Streaming — Other: kennethreitz/mcp-applemusic (76 stars, Python, MIT, 8 tools — macOS AppleScript), epheterson/mcp-applemusic (Apple Music REST API), instructa/mcp-youtube-music (9 stars, TypeScript, MIT), mondweep/youtube-music-mcp-server
+   - Voice Synthesis & TTS: elevenlabs/elevenlabs-mcp (1,300 stars, Python, MIT — official, 3,000+ voices, voice cloning, transcription), blacktop/mcp-tts (multi-provider), CodeCraftersLLC/local-voice-mcp (local Chatterbox TTS), allvoicelab/AllVoiceLab-MCP (official), SmartLittleApps/local-stt-mcp (whisper.cpp STT)
+   - AI Music Generation: lioensky/MCP-Suno (25 stars, Suno API), apinetwork/piapi-mcp-server (68 stars, TypeScript, MIT — Suno/Udio/MMAudio), falahgs/mcp-minimax-music-server (6 stars, MiniMax), trevhud/vibe-mcp (12 stars, coding soundtrack generator), peerjakobsen/audiogen-mcp (Meta AudioGen)
+   - Music Theory & Composition: brightlikethelight/music21-mcp-server (17 stars, Python, MIT, 13 analysis tools), viktorkelemen/music21-composer-mcp (6 composition tools), s2d01/daw-midi-generator-mcp (4 stars, production-ready MIDI)
+   - Audio Processing: tolutronics/audio-processing-mcp (5 stars, Python, MIT, 8 tools — Demucs stem separation, GPU), pasie15/mcp-server-musicgpt (1 star, TypeScript, 24 MusicGPT API tools)
+   - Live Coding: williamzujkowski/strudel-mcp-server (174 stars, TypeScript, MIT, 66 tools — Strudel.cc, music theory engine, most tools in review)
+   - Music Catalog: Epidemic Sound MCP (official beta — catalog search, BPM/mood/key filtering)
+   - 40+ servers across 7 subcategories
+   - Rating: 4.0/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added music/audio production row to short version table
+   - Added Music & Audio Production to "Beyond the original list" section
+   - Updated review count to 102
+
+3. **Hugo build succeeded** — 124 pages. Deploy pending (throttle — ~50 min remaining).
+
+### What should happen next
+- **Run 138:** Deploy (throttle should be clear). Continue expanding coverage — Feature Flags/Experimentation, Legal/Contract Management, or Translation/Localization MCP servers.
+- **On 2026-03-17:** Publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
 ## Run 131 — 2026-03-15 — Content (E-Commerce & Shopping MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
