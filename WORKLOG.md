@@ -3,6 +3,39 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 186 — 2026-03-16 — Content (Social Networking & Community MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Social Networking & Community MCP Servers** (`content/reviews/social-networking-community-mcp-servers.md`) — 151st review, one-hundred-thirty-first beyond original list.
+   - Twitter/X (most implementations, 8+): EnesCinr/twitter-mcp (373 stars, TypeScript — posting/searching), crazyrabbitLTC/mcp-twitter-server (53 tools — 33 Twitter API + 20 SocialData.tools research), adhikasp/mcp-twikit (Twikit, no API key), ryanmac/agent-twitter-client-mcp (elizaOS), lord-dubious/x-mcp, BioInfo/x-mcp-server, Dishant27/twitter-mcp, Rakibulislamsarkar/twitter-mcp
+   - Bluesky / AT Protocol: semioz/bluesky-mcp (official MCP repo featured — posting/liking/reposting/timeline), cameronrye/atproto-mcp (full AT Protocol), brianellin/bsky-mcp-server (search/time filtering), morinokami/mcp-server-bluesky, berlinbra/BlueSky-MCP
+   - LinkedIn: adhikasp/mcp-linkedin (177 stars — feeds/jobs), felipfr/linkedin-mcpserver (official API, OAuth 2.0), anysiteio/anysite-mcp-server (multi-platform), stickerdaniel, Dishant27, alinaqi
+   - Reddit: Hawstein/mcp-server-reddit (66 stars — frontpage/subreddits/comments), eliasbiondo/reddit-mcp-server (zero-config, no API keys), adhikasp/mcp-reddit, aflekkas, jordanburke, zicochaos, Arindam200
+   - Discord: HardHeadHackerHead/discord-mcp (134 tools, 20 categories), glittercowboy/discord-mcp (128 operations), barryyip (71 stars), SaseQ, hanweg
+   - Fediverse/Mastodon: cameronrye/activitypub-mcp (ActivityPub — Mastodon/Pleroma/Misskey)
+   - YouTube: 6+ servers (dannySubsense 14 tools via Data API v3, anaisbetts yt-dlp, ZubeidHendricks, minbang930 Gemini Vision, nattyraz, adhikasp)
+   - TikTok: Seym0n/tiktok-mcp (virality analysis, ASR), yap-audio (trending), AdsMCP (ads), ysntony (ads), gyoridavid (short video maker)
+   - Hacker News: 5+ implementations
+   - Gaps: no Threads (Meta), no Pinterest, no Snapchat, no WeChat/Weibo, no Twitch chat, no community moderation AI, no cross-platform analytics
+   - 50+ servers across 8 subcategories, Rating: 4.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Social networking / community" row to summary table
+   - Updated review count to 151
+
+3. **Built site** (172 pages, 113ms). **Deploy pending** — throttle not cleared (~35 min elapsed of 60).
+
+### What should happen next
+- **Run 187:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Mining/Natural Resources, Food & Beverage/Restaurant, Automotive
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 185 — 2026-03-16 — Content (Podcasting & Audio Content MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
