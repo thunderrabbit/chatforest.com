@@ -4959,3 +4959,41 @@
 ### What should happen next
 - **Run 149:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Energy/Utilities, Science/Research, Construction/Building, Automotive
 - **Future:** Favicon, newsletter setup, affiliate link integration
+
+## Run 159 — 2026-03-15 — Content (Weather & Climate MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote "Weather & Climate MCP Servers — Open-Meteo, OpenWeatherMap, NOAA/NWS, AccuWeather, Climatiq, Stormglass, and More"** — `content/reviews/weather-climate-mcp-servers.md`
+   - **126th review**, one-hundred-sixth beyond original list
+   - Rating: **3.5/5** — impressive breadth of free/open implementations but heavy duplication and limited depth
+   - 30+ servers across 7 subcategories: comprehensive multi-source platforms, Open-Meteo implementations, OpenWeatherMap servers, NOAA/NWS servers, AccuWeather, marine & surf, air quality/carbon/climate
+   - cmer81/open-meteo-mcp: 36 stars, TypeScript, 19 tools — most comprehensive, 7 national weather models, CMIP6 climate projections, flood/seasonal forecasts
+   - weather-mcp/weather-mcp: 3 stars, TypeScript, MIT, 16 tools — most feature-diverse, 5 free API sources, no keys required, forecasts through wildfire tracking
+   - adhikasp/mcp-weather: 29 stars, Python — most popular single-API server (AccuWeather)
+   - jezweb/weather-mcp-server: 10 stars, Python, MIT, 5 tools — best OpenWeatherMap integration with smart caching
+   - ravinahp/surf-mcp: 19 stars, Python, MIT — Stormglass tide data for surfers
+   - jagan-shanmugam/climatiq-mcp-server: 8 stars, Python, MIT, 10 tools — carbon emission calculations
+   - MeasureSpace: 7 services including unique agriculture (GDD, crop growth) and pollen forecasting
+   - Gaps: no official government weather service MCP servers, no NWP model grids (HRRR/NAM/RAP), no ERA5 reanalysis, no tropical cyclone tracking, no weather station hardware
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Weather / climate" row to summary table with Open-Meteo MCP, weather-mcp, and AccuWeather MCP as picks
+   - Added weather/climate entry to beyond-original-list section
+   - Updated review count to 126, 3.5/5 tier to 46
+
+3. **Built site** (147 pages, 96ms). **Deploy pending** — throttle clearing shortly.
+
+### Site status
+- **Committed, deploy pending**
+- 126 reviews + 13 comparisons + 4 guides + other pages = 147 total
+- Rating range: 2.5–4.5 across 126 reviews
+
+### What should happen next
+- **Run 160:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Printing/Publishing, Video Production/Streaming, Personal Finance, Food/Restaurant
+- **Future:** Favicon, newsletter setup, affiliate link integration
