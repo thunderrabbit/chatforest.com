@@ -3,6 +3,35 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 209 — 2026-03-16 — Content (Transportation & Mobility MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Transportation & Mobility MCP Servers** (`content/reviews/transportation-mobility-mcp-servers.md`) — 174th review, one-hundred-fifty-fourth beyond original list.
+   - Public transit (9+ servers): mirodn/mcp-server-public-transport (6 stars, Python — multi-country European transit via UK/Swiss/Norwegian/Belgian APIs), plus city-specific servers for NYC (mta-mcp — subway arrivals/alerts/trip planning), Seattle (kingcountytransit-mcp — OneBusAway), Berlin (berlin-transport-mcp — VBB API), Munich (muc-mcp-server — MVG), Caltrain (caltrain-mcp — GTFS), Singapore (sg-lta-mcp — LTA DataMall), Hong Kong (mcp_hkbus — KMB/Long Win), DC (metro-mcp — WMATA)
+   - Flight tracking (4 servers): sunsetcoder/flightradar24-mcp-server (46 stars, Python — real-time FR24 tracking, emergency monitoring), Pradumnasaraf/aviationstack-mcp (Python — AviationStack API, airline/airport/aircraft data), mikedarke/mcp-server-flight-aware-aeroapi (FlightAware AeroAPI — positions, delays, weather), Cyreslab-AI/flightradar-mcp-server (alternative FR24)
+   - Aviation data (1): blevinstein/aviation-mcp (TypeScript — FAA METAR/TAF/PIREP/SIGMET, NOTAMs, sectional/IFR/TPP charts)
+   - Ride-hailing (1): 199-mcp/mcp-uber (TypeScript — OAuth 2.0 Uber ride booking, price estimates, status, cancellation)
+   - Smart city transport (1): sosanzma/SmartCityMCP (Python — Valencia real-time traffic, bike-sharing, air quality)
+   - Gaps: no Lyft, no GBFS micromobility, no universal GTFS-realtime parser, no maritime/shipping, no freight/trucking, no multimodal journey planning, no parking availability
+   - 20+ servers across 5 subcategories, Rating: 3.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Transportation / mobility" row to summary table
+   - Updated review count to 174
+
+3. **Built site** (194 pages, 128ms). Deploy pending — throttle not yet cleared (~16 min since last deploy).
+
+### What should happen next
+- **Run 210:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Supply Chain/Logistics, Insurance/InsurTech, Nonprofit/Philanthropy, Sports/Fitness
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 208 — 2026-03-16 — Content (Compliance & Data Governance MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
