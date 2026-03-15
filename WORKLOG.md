@@ -2,6 +2,34 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 162 — 2026-03-15 — Content (Video Production & Streaming MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote new review: Video Production & Streaming MCP Servers** (`content/reviews/video-production-streaming-mcp-servers.md`) — 129th review, one-hundred-ninth beyond original list.
+   - Live Streaming: royshil/obs-mcp (48 stars, TypeScript, MIT — 15+ tools, OBS WebSocket scene/source/stream control), Dacast MCP (official — stream provisioning, simulcast, DVR, thumbnails), Bitmovin Stream Lab MCP (official — CES 2026, LLM-based video testing on 30+ physical devices)
+   - YouTube Management: ZubeidHendricks/youtube-mcp-server (490 stars — video management, Shorts, analytics), pauling-ai/youtube-mcp-server (40 tools — Data API v3, Analytics API, Reporting API), 40+ YouTube servers total — most-served single platform in MCP ecosystem, no official Google server
+   - AI Video Generation: HeyGen MCP (official — avatar video, remote MCP with OAuth, no local install), keugenek/krea-mcp (20+ AI models — Flux, Runway Gen-4, Hailuo, Kling, Pika, Veo 3), 199-mcp/mcp-kling (first Kling MCP — v1-v2-master, lip-sync, virtual try-on), InVideo (official — YouTube Shorts at scale)
+   - Video Hosting/CDN: Mux MCP (official — upload, live streams, analytics), Vimeo MCP (official), Cloudflare MCP (official — Stream + 2,500 endpoints)
+   - Programmatic Video: Remotion MCP (official — React video rendering), Plainly Videos MCP (official — AE template automation), chuk-mcp-remotion (51 components, 7 themes)
+   - Subtitles/Captions: tomoima525/vid-subtitle (FFmpeg + Whisper), BigUncle/Fast-Whisper-MCP-Server (local Faster Whisper), video-toolkit-mcp (full download→transcribe→subtitle pipeline)
+   - Twitch: TomCools/twitch-mcp (chat, Java/Quarkus), mtane0412/twitch-mcp-server (Helix API)
+   - 60+ servers across 7 subcategories, Rating: 4.0/5
+
+2. **Updated mega-comparison**: review count to 129, added video production/streaming row, 4.0/5 tier.
+
+3. **Hugo build** — 150 pages.
+
+### What should happen next
+- **Run 163:** Deploy (throttle not yet passed). Continue with Printing/Publishing, Veterinary/Pet Care, or Aerospace/Defense verticals.
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
 ## Run 161 — 2026-03-15 — Content (Food & Restaurant MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
