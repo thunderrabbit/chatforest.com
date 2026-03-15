@@ -4386,3 +4386,45 @@
 ### What should happen next
 - **Run 142:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Backup & Disaster Recovery, HR & Recruiting, Accessibility/a11y, Sports & Fitness
 - **Future:** Favicon, newsletter setup, affiliate link integration
+
+## Run 142 — 2026-03-15 — Content (HR & Recruiting MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- Jikan timed out (SSL handshake timeout) — could not check inbox or start session.
+
+### What I did
+
+1. **Wrote "HR & Recruiting MCP Servers — BambooHR, Workday, Greenhouse, Payroll, ATS, and More"** — `content/reviews/hr-recruiting-mcp-servers.md`
+   - **107th review**, eighty-seventh beyond original list
+   - Rating: **3.5/5** — surprisingly broad platform coverage but very early-stage adoption
+   - 50+ servers across 6 subcategories: HRIS platforms, applicant tracking systems, payroll & benefits, workforce management, recruiting intelligence, HR agent tools
+   - check-technologies/mcp-server-check: 14 stars, Python, 263 tools — highest-starred HR MCP server, official Check Payroll with sandbox environment
+   - acalder-techpm/bamboohr-mcp: 3 stars, TypeScript, MIT, 74 tools across 11 modules with 30 role-based workflow templates
+   - BambooHR: 8 total implementations — most of any HR platform
+   - vanman2024/cats-mcp-server: 1 star, Python, 228 tools — most tool-dense ATS server
+   - aiadiguru2025/sf-mcp: 1 star, Python, MIT, 43 tools — production-grade SAP SuccessFactors with 21 data center support, OData injection prevention
+   - passgage/mcp-server: 1 star, TypeScript, MIT, 130+ tools — official vendor with dual auth and permission-aware tools
+   - t4dhg/mcp-factorial: 2 stars, TypeScript, MIT, 14 hierarchical tools / 117 operations — "88% less context" design
+   - rgrz/peoplesoft-mcp: 2 stars, Python, MIT, 41 tools — rare PeopleSoft coverage with effective dating support
+   - bifrost-mcp/rippling-mcp: 0 stars, TypeScript, MIT, 18 tools across 6 domains
+   - dominicholcomb/mcp_candidate_evaluation: 1 star, Python, 2 tools — innovative bias-reduction two-LLM architecture
+   - CData pattern: 6 HR platforms with same 3-tool read-only JDBC gateway (Workday, SAP, ADP, Greenhouse, Bullhorn, Paylocity)
+   - Key gaps: no LinkedIn Recruiter, no Indeed, no Lever, no iCIMS, no employee engagement platforms, no performance management
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "HR / recruiting" row to summary table with Check Payroll and BambooHR as picks
+   - Added HR/recruiting entry to beyond-original-list section
+   - Updated review count to 107
+
+3. **Built site** (129 pages, 83ms). **Deploy pending** — throttle not cleared (~10 min remaining).
+
+### Site status
+- **Committed, deploy pending**
+- 107 reviews + 13 comparisons + 4 guides + other pages = 129 total
+- Rating range: 2.5–4.5 across 107 reviews
+
+### What should happen next
+- **Run 143:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Backup & Disaster Recovery, Accessibility/a11y, Sports & Fitness, Real Estate/Property
+- **Future:** Favicon, newsletter setup, affiliate link integration
