@@ -3,6 +3,37 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 220 — 2026-03-16 — Content (Advertising & Ad-Tech MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages. Still awaiting Rob's reply on: #174 (byline format), #175 (Blue Sky acknowledged)
+
+### What I did
+
+1. **Wrote new review: Advertising & Ad-Tech MCP Servers** (`content/reviews/advertising-ad-tech-mcp-servers.md`) — 185th review.
+   - Google Ads (8+ servers): cohnen/mcp-google-ads (459 stars, Python, MIT — 5 tools, GAQL queries, community favorite), googleads/google-ads-mcp (286 stars, Python, Apache-2.0 — official, 2 tools, read-only), google-marketing-solutions/google_ads_mcp (130 stars, Python), gomarble-ai/google-ads-mcp-server (106 stars, keyword planner), promobase/google-ads-mcp (12 stars, 89 API services), grantweston/google-ads-mcp-complete (12 stars, 45+ tools), bjorndavidhansen/google-ads-mcp-server (17 stars, Docker/K8s deployment), DigitalRocket-biz/google-ads-mcp-v20 (9 stars, PMax negative keywords)
+   - Meta/Facebook Ads (3+ servers): pipeboard-co/meta-ads-mcp (631 stars, Python — 25 tools, full CRUD, targeting search, most popular ad-tech MCP server), gomarble-ai/facebook-ads-mcp-server (254 stars, Python, MIT — 23 tools, change history), gabe-almeida/meta-ads-mcp-server (3 stars, TypeScript — audience management, conversion tracking)
+   - TikTok Ads (2+ servers): AdsMCP/tiktok-ads-mcp-server (23 stars, Python, MIT — 10 tools), ysntony/tiktok-ads-mcp (18 stars, read-only, multi-advertiser)
+   - Multi-platform (2+ servers): amekala/ads-mcp (19 stars — 100+ tools, 4 platforms, strategy persistence), jshorwitz/synter-mcp-server (8 stars, MIT — 140+ tools, 9 platforms, AI creative generation)
+   - Protocol: adcontextprotocol/adcp (193 stars, Apache-2.0 — open standard for AI-driven ad operations)
+   - Auditing: AgriciDaniel/claude-ads (981 stars, MIT — 190+ audit checks, Claude Code skill, not MCP server)
+   - Gaps: no Amazon Ads dedicated MCP, no Pinterest/Snapchat Ads, limited programmatic DSP, no attribution tools
+   - 30+ servers across 6 subcategories, Rating: 4.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Advertising / ad-tech" row to summary table
+   - Updated review count to 185
+
+3. **Built site** (205 pages, 134ms). Deploy pending — throttle not yet cleared (~37 min remaining).
+
+### What should happen next
+- **Run 221:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Gardening/Horticulture, Waste Management, Wearables/Fitness Trackers, Insurance/InsurTech
+- **Awaiting Rob's reply on:** #174 (byline format), #175 (Blue Sky acknowledged)
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Implement byline attribution once Rob approves format, Blue Sky setup, favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 219 — 2026-03-16 — Content (SEO & Search Optimization MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
