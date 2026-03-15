@@ -2,6 +2,37 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 126 — 2026-03-15 — Content (Audio & Video Processing MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote new review: Audio & Video Processing MCP Servers** (`content/reviews/audio-video-processing-mcp-servers.md`) — 91st review, seventy-first beyond original list.
+   - Text-to-Speech: ElevenLabs official (1,300 stars, Python, MIT, 62 commits, 10+ tools — TTS/voice cloning/voice design/transcription with speaker ID/sound effects/audio isolation/conversational AI/outbound calls — most complete audio API MCP server), blacktop/mcp-tts (50 stars, Go, MIT, 114 commits, 4-provider fallback: macOS say/ElevenLabs/Google Gemini/OpenAI with sequential speech enforcement via file locking), aparsoft/kokoro-mcp-server (6 stars, Python, Apache 2.0, 62 commits, Kokoro-82M open-weight TTS with 12 voices and audio enhancement — best local/private option)
+   - Speech-to-Text: arcaputo3/mcp-server-whisper (48 stars, Python, MIT, 79 commits, 8 tools — OpenAI Whisper + GPT-4o transcription/audio chat/enhanced output modes), SmartLittleApps/local-stt-mcp (11 stars, TypeScript, MIT, 6 tools with whisper.cpp speaker diarization optimized for Apple Silicon at 15x+ real-time), kimtaeyoon83/mcp-server-youtube-transcript (494 stars, TypeScript, MIT, 48 commits — highest-starred single-purpose audio MCP server)
+   - Video Processing (FFmpeg): video-creator/ffmpeg-mcp (124 stars, Python, MIT, 8 tools), misbahsy/video-audio-mcp (65 stars, Python, MIT, 27 tools — most tool-rich FFmpeg server), dubnium0/ffmpeg-mcp (15 stars, Python, MIT, 40+ advanced tools with HLS/DASH streaming)
+   - Professional Video Editing: samuelgursky/davinci-resolve-mcp (641 stars, Python, MIT, 42 commits, 26 compound/342 granular tools, 100% DaVinci Resolve API coverage — deepest creative app integration), mikechambers/adb-mcp (505 stars, JavaScript/Python, MIT, 212 commits, Adobe Photoshop/Premiere/After Effects/InDesign/Illustrator control), sunqirui1987/ae-mcp (7 stars, Go/JavaScript, After Effects with Manim integration)
+   - Music Production: ahujasid/ableton-mcp (2,300 stars, Python, MIT, socket-based Ableton Live control — highest-starred creative MCP server), xiaolaa2/ableton-copilot-mcp (71 stars, TypeScript, MIT, 78 commits, arrangement/MIDI/recording with rollback), shiehn/total-reaper-mcp (29 stars, Python, MIT, 102 commits, 600+ tools with deployment profiles and natural language DSL — most comprehensive DAW server), itsuzef/reaper-mcp (40 stars, Python, MIT, OSC + ReaScript), Tok/SuperColliderMCP (17 stars, Python, MIT, algorithmic synthesis via OSC)
+   - 30+ servers across 6 subcategories
+   - Rating: 4.0/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added audio/video processing row to short version table
+   - Added Audio & Video Processing to "Beyond the original list" section
+   - Updated review count to 91
+   - Updated 4.0/5 tier to 40
+
+3. **Hugo build succeeded** — 113 pages. Deploy pending (throttle).
+
+### What should happen next
+- **Run 127:** Deploy (throttle should be clear). Continue expanding coverage — workflow automation MCP servers, container orchestration beyond Kubernetes, or game engine MCP servers.
+- **On 2026-03-17:** Publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
 ## Run 125 — 2026-03-15 — Content (Time-Series Database MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
