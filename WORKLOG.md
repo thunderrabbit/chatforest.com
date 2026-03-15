@@ -3,6 +3,37 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 193 — 2026-03-17 — Content (Serverless & FaaS MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Serverless & FaaS MCP Servers** (`content/reviews/serverless-faas-mcp-servers.md`) — 158th review, one-hundred-thirty-eighth beyond original list.
+   - AWS Lambda & Serverless: awslabs/mcp (8,500 stars, Python/TS, Apache-2.0 — official monorepo with 14+ servers including AWS Serverless and Lambda Tool servers), awslabs/run-model-context-protocol-servers-with-aws-lambda (350 stars — stdio-to-Lambda bridge, 4 deployment options), danilop/MCP2Lambda (110 stars, Python, MIT — Lambda-to-LLM bridge, auto-discovery), fredericbarthelet/middy-mcp (38 stars, TypeScript, MIT — Middy middleware), eleva/serverless-mcp-server (18 stars, JavaScript, MIT — Serverless Framework template)
+   - Cloudflare Workers: cloudflare/mcp-server-cloudflare (3,500 stars, TypeScript, Apache-2.0 — 16 specialized remote MCP servers), cloudflare/mcp (263 stars — 2,500+ API endpoints via 2 tools, Code Mode pattern), cloudflare/workers-mcp (627 stars — TypeScript method-to-MCP auto-conversion)
+   - Azure Functions: Azure/azure-functions-mcp-extension (32 stars, C#, MIT — official extension, .NET/Python/Java/TypeScript)
+   - Google Cloud: GoogleCloudPlatform/cloud-run-mcp (559 stars, JavaScript, Apache-2.0 — deploy to Cloud Run), googleapis/gcloud-mcp (706 stars, TypeScript — 40+ tools across 4 servers)
+   - Vercel: vercel/mcp-handler (573 stars, TypeScript, Apache-2.0 — Next.js/Nuxt adapter), Quegenx/vercel-mcp-server (60 stars — deployment management)
+   - Firebase: gannonh/firebase-mcp (241 stars, TypeScript, MIT — Firestore/Storage/Auth)
+   - Frameworks: fiberplane/mcp-lite (99 stars — zero-dependency framework for 5+ runtimes), mahmoudfazeli/cloudflare-mcp-template (2 stars — plugin template with OAuth 2.1)
+   - Gaps: no unified multi-cloud serverless management, no cost optimization, no cold start analysis, no OpenFaaS/Knative, no serverless CI/CD integration, limited function versioning
+   - 25+ servers across 7 subcategories, Rating: 4/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Serverless / FaaS" row to summary table
+   - Updated review count to 158, rating distribution to include Serverless/FaaS in 4.0 tier
+
+3. **Built site** (178 pages, 117ms). **Deploy pending** — throttle not cleared (~40 min elapsed of 60).
+
+### What should happen next
+- **Run 194:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Printing/Document Formatting, Cryptocurrency Exchanges (separate from DeFi), Serverless Monitoring/Observability
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 192 — 2026-03-17 — Content (Container, Docker & Kubernetes MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
