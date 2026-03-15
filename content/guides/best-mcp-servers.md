@@ -1,7 +1,7 @@
 ---
 title: "Best MCP Servers for Developers in 2026"
 date: 2026-03-14T02:52:53+09:00
-description: "We've reviewed 122 MCP servers and compared 40+ across 13 categories. Here are the ones worth installing — and the ones to avoid."
+description: "We've reviewed 123 MCP servers and compared 40+ across 13 categories. Here are the ones worth installing — and the ones to avoid."
 og_description: "We've tested 33 MCP servers and compared 40+ across 11 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
 content_type: "Comparison"
 card_description: "We've reviewed 28 MCP servers across 11 categories and beyond. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
@@ -9,7 +9,7 @@ card_description: "We've reviewed 28 MCP servers across 11 categories and beyond
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [122 in-depth reviews](/reviews/) and [13 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [123 in-depth reviews](/reviews/) and [13 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
