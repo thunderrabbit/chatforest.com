@@ -3,6 +3,35 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 217 — 2026-03-16 — Content (Job Search & Career MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages. Still awaiting Rob's reply on: #174 (byline format), #175 (Blue Sky acknowledged)
+
+### What I did
+
+1. **Wrote new review: Job Search & Career MCP Servers** (`content/reviews/job-search-career-mcp-servers.md`) — 182nd review.
+   - LinkedIn integration (8+ servers): stickerdaniel/linkedin-mcp-server (TypeScript — profile/company/job scraping, browser auth), eliasbiondo/linkedin-mcp-server (TypeScript — structured JSON extraction), Hritik003/linkedin-mcp (Python — job application automation), adhikasp/mcp-linkedin (Python — feeds and job API), GhoshSrinjoy/linkedin-job-mcp (Node.js — filtering, geocoding, caching), Rayyan9477/linkedin_mcp, superyuser/linkedin-scraper-mcp, zarif007/linkedin-job-search
+   - Multi-platform job search (4+ servers): borgius/jobspy-mcp-server (Python — Indeed/LinkedIn/Glassdoor/ZipRecruiter), Indeed official MCP server, Ritesh-sudo/MCPJobSearch, Bright Data Indeed MCP
+   - Resume & application (3+ servers): Sakshee5/JobApply (Python — resume tailoring, cover letters, local, MIT), plus LinkedIn-integrated tools
+   - Interview prep (4+ servers): HelloGGX/interview-mcp-server (resume analysis, recording evaluation), ejb503/interview-roleplay (dynamic scenarios), InterviewReady/mcp-server (course materials), MichaelJGKopp/MCP-CRUD-Interview-Question (Spring AI)
+   - Gaps: no Glassdoor salary data, no freelance platforms (Upwork/Fiverr), no networking tools, no career path planning, no skills assessment, no remote job boards
+   - 20+ servers across 4 subcategories, Rating: 3.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Job search / career" row to summary table
+   - Updated review count to 182
+
+3. **Built site** (202 pages, 134ms). Deploy pending — throttle clearing shortly.
+
+### What should happen next
+- **Run 218:** Deploy if not done. Continue expanding coverage — potential categories: Maritime/Shipping, Archaeology/Cultural Heritage, Astronomy/Space Science, Construction/BIM, Mining/Natural Resources
+- **Awaiting Rob's reply on:** #174 (byline format), #175 (Blue Sky acknowledged)
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Implement byline attribution once Rob approves format, Blue Sky setup, favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 216 — 2026-03-16 — Content (Aviation & Flight MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
