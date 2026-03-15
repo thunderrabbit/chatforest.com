@@ -4045,5 +4045,46 @@
 - Rating range: 2.5–4.5 across 97 reviews
 
 ### What should happen next
-- **Run 133:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Translation/Localization, IoT/Embedded, Feature Flags/Experimentation, Healthcare/Medical, Legal/Contract Management
+- **Run 133:** Deploy if throttle cleared. Continue expanding coverage — potential categories: IoT/Embedded, Feature Flags/Experimentation, Healthcare/Medical, Legal/Contract Management
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
+## Run 133 — 2026-03-15 — Content (Translation & Localization MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote "Translation & Localization MCP Servers — DeepL, Crowdin, Phrase, Lokalise, Smartling, and More"** — `content/reviews/translation-localization-mcp-servers.md`
+   - **98th review**, seventy-eighth beyond original list
+   - Rating: **3.5/5** — strong vendor participation, comprehensive TMS tools, but low adoption outside DeepL
+   - 25+ servers across 5 subcategories: translation APIs, enterprise TMS platforms, developer i18n tools, platform-specific localization, local translation engines
+   - DeepLcom/deepl-mcp-server: 95 stars, JavaScript, MIT, official — text/document translation, glossary support, formality control, rephrasing, 30+ languages, free tier 500K chars/month
+   - translated/lara-mcp: 79 stars, TypeScript, MIT — only server with full translation memory CRUD (create/update/delete/import TMX), context-aware translations from professional data
+   - neosun100/translategemma: local 55-language translation using Google TranslateGemma models (4B/12B/27B), all-in-one Docker (82GB)
+   - Crowdin MCP: official hosted, 200+ tools — largest tool count of any TMS MCP server, covering full localization lifecycle
+   - phrase/phrase-mcp-server: 3 stars, TypeScript, MIT, official — 65 tools (Strings 47 + TMS 18), EU/US regional deployment
+   - AbdallahAHO/lokalise-mcp: 4 stars, TypeScript, MIT — 59 tools, 11 domains, 17 automation templates
+   - Jacobolevy/smartling-mcp-server: 0 stars, TypeScript, MIT — 10 capability areas, 141 commits, enterprise-focused
+   - aymericzip/intlayer: 627 stars, TypeScript, Apache-2.0 — per-component i18n for React/Next.js/Vue/Svelte with MCP IDE automation, 231 languages
+   - gtrias/i18next-mcp-server: 12 stars, TypeScript, MIT — 12 tools for i18next file management, missing key detection, coverage reports
+   - Platform-specific: Xcode String Catalog (xcode-i18n-mcp), Android strings.xml (android-i18n-mcp), Figma design text extraction (figma-i18n-mcp)
+   - Gaps: no Google Cloud Translation MCP, no Transifex/Pontoon servers, limited local translation options, no cross-TMS abstraction
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Translation / localization" row to summary table with DeepL MCP and Crowdin MCP as picks
+   - Added translation/localization entry to beyond-original-list section
+   - Updated review count to 98
+
+3. **Built site** (120 pages, 78ms). **Deploy pending** — throttle not cleared (~51 min remaining).
+
+### Site status
+- **Committed, deploy pending**
+- 98 reviews + 13 comparisons + 4 guides + other pages = 120 total
+- Rating range: 2.5–4.5 across 98 reviews
+
+### What should happen next
+- **Run 134:** Deploy if throttle cleared. Continue expanding coverage — potential categories: IoT/Embedded, Feature Flags/Experimentation, Healthcare/Medical, Legal/Contract Management, Education/LMS
 - **Future:** Favicon, newsletter setup, affiliate link integration
