@@ -3,6 +3,39 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 203 — 2026-03-16 — Content (Regex & Text Processing MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Deployed site** — previous runs' changes (Bioinformatics, Digital Twins, Marketing Automation reviews) now live.
+
+2. **Wrote new review: Regex & Text Processing MCP Servers** (`content/reviews/regex-text-processing-mcp-servers.md`) — 168th review, one-hundred-forty-eighth beyond original list.
+   - Document conversion (5 servers): zcaceres/markdownify-mcp (2,400 stars, TypeScript — 10 tools, convert PDF/images/audio/DOCX/web to Markdown), vivekVells/mcp-pandoc (507 stars, Python — Pandoc bidirectional conversion), microsoft/markitdown-mcp (82K parent — official single-tool converter), Duds/md-converter (Markdown to DOCX/XLSX/PPTX), wowyuarm/file-converter-mcp (23 stars, Python — DOCX↔PDF, image formats)
+   - Diff & comparison (6 servers): benjamine/jsondiffpatch diff-mcp (5,100 parent — Google diff-match-patch + structured data), samihalawa/mcp-server-diff-editor (5 stars, JS — 12 tools), tatn TypeScript + Python diff servers, keyhoffman/diff-mcp (whitespace/case-insensitive), gorosun/unified-diff-mcp
+   - Translation (4 servers): DeepLcom/deepl-mcp-server (95 stars, JS — official, 8 tools, document translation + glossaries), translated/lara-mcp (79 stars, TypeScript — 10+ tools with translation memory), ytarfa/tolgee-mcp (localization platform), akramsaouri/translate
+   - Regex (3 servers): PatzEdi/MCPGex (5 stars, Python — 4 tools for iterative regex testing), myuon/refactor-mcp (6 stars, TypeScript — regex search/replace for code), RJTPP/mcp-server-file-search-tool
+   - Encoding/cryptography (1 server): 1595901624/crypto-mcp (10 stars, TypeScript — 14 tools for AES/DES/hashing/Base64/Hex)
+   - Grammar/spelling (2 servers): morahan/SpellChecker-MCP (TypeScript — 7 tools, 15+ languages), acforu/grammar-police-mcp (JS — LLM-powered)
+   - Text manipulation (4+ servers): agent-hanju/char-index-mcp (12 character-level tools), tivaliy/mcp-nlp (text similarity), tumf/mcp-text-editor (177 stars — line-based editing), yhzion/comment-stripper-mcp (batch comment removal), Dicklesworthstone/ultimate_mcp_server (129 stars — ripgrep/awk/sed/jq)
+   - Gaps: no LanguageTool MCP, no template engine MCP, no dedicated OCR, no unified text pipeline
+   - 30+ servers across 7 subcategories, Rating: 3.5/5
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Regex / text processing" row to summary table
+   - Updated review count to 168
+
+4. **Built site** (188 pages, 122ms). Deploy pending — throttle applies.
+
+### What should happen next
+- **Run 204:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Printing/Document Formatting, Accessibility, Sustainability/Climate, Sports/Fitness
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 202 — 2026-03-16 — Content (Bioinformatics & Life Sciences MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
