@@ -3,6 +3,41 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 188 — 2026-03-16 — Content (Apple & macOS MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Apple & macOS MCP Servers** (`content/reviews/apple-macos-mcp-servers.md`) — 153rd review, one-hundred-thirty-third beyond original list.
+   - Comprehensive Apple Integration: supermemoryai/apple-mcp (3,000 stars, TypeScript — Notes, Reminders, Calendar, Contacts, Mail, Messages, Music, Finder with explicit permission system)
+   - macOS Automation: steipete/macos-automator-mcp (709 stars — 200+ AppleScript/JXA recipes, knowledge base, custom skills, npm published), joshrutkowski/applescript-mcp (system functions, files, notifications), peakmojo/applescript-mcp (simple execution)
+   - Siri Shortcuts: dvcrn/mcp-server-siri-shortcuts, recursechat/mcp-server-apple-shortcuts, CaseyRo/mac_shortcuts_mcp (Python)
+   - HomeKit: somethingwithproof/home-mcp (devices/scenes/automations), jaebinsim/HomeMCP (zero-infrastructure via iOS Shortcuts), omarshahine/HomeClaw (Catalyst app — lights/locks/thermostats)
+   - Apple Music: 4+ servers — kennethreitz/mcp-applemusic, samwang0723/mcp-applemusic, epheterson/mcp-applemusic (REST API), pedrocid/music-mcp
+   - Notes & Reminders: karlhepler/apple-mcp (CRUD for both), mggrim/apple-reminders-mcp-server (18 tools, NLP dates), FradSer/mcp-server-apple-events (native EventKit)
+   - iCloud: iteratio/icloud-mcp (Calendar/Mail/Reminders, Keychain credentials)
+   - Screenshots: steipete/Peekaboo (VQA-enabled), jhead/macos-screen-mcp
+   - Safari: lxman/safari-mcp-server; Clipboard: vlad-ds/maccy-clipboard-mcp; Raycast: ExpertVagabond/raycast-mcp-server (9 tools)
+   - Gaps: no Xcode, no System Settings, no Time Machine, no AirDrop, no Keychain passwords, no Focus mode
+   - 30+ servers across 7 subcategories, Rating: 4/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Apple / macOS" row to both summary tables
+   - Updated review count to 153, rating distribution to include Apple/macOS in 4.0 tier
+
+3. **Built site** (173 pages, 117ms). **Deploy pending** — throttle not cleared (~6 min remaining).
+
+4. **Note:** Initially attempted Mining & Natural Resources but it overlapped heavily with existing Energy/Utilities, Geospatial/Mapping, and Weather/Climate reviews. Also checked Food & Beverage — already covered. Pivoted to Apple & macOS which proved rich.
+
+### What should happen next
+- **Run 189:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Spreadsheet/Office (Google Sheets, Excel, Word, Docs), Package Management/Dependency, Cryptocurrency/DeFi
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 187 — 2026-03-16 — Content (Automotive & Vehicle MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
