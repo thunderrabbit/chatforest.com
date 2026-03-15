@@ -2,6 +2,36 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 150 — 2026-03-15 — Content (Energy & Utilities MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Committed pending RUNLOG** changes from Run 149.
+
+2. **Wrote new review: Energy & Utilities MCP Servers** (`content/reviews/energy-utilities-mcp-servers.md`) — 117th review, ninety-seventh beyond original list.
+   - Power Systems: Power-Agent/PowerMCP (88 stars, Python, MIT — 9 integrations: PowerWorld/OpenDSS/PSSE/PyPSA/pandapower/ANDES/Egret/LTSpice/PSLF), cdgaete/pypsa-mcp (49 stars, Python, MIT — 13 tools for energy system modeling)
+   - Building Energy: LBNL-ETA/EnergyPlus-MCP (69 stars, Python — 35 tools from Lawrence Berkeley National Lab for building energy simulation)
+   - Industrial IoT/SCADA: poly-mcp/IoT-Edge-MCP-Server (20 stars, Python — 11 tool categories for MQTT/Modbus/InfluxDB with alarm management and security)
+   - Energy Infrastructure: kasathur/energyatit-mcp-server (0 stars, JavaScript, MIT — 30+ tools across 8 protocols: IEC 61850/DNP3/Modbus/OpenADR/OCPP/IEEE 2030.5/ICCP/REST)
+   - Commodity Markets: OilpriceAPI/mcp-server (1 star, TypeScript, MIT — 4 tools for 40+ commodities)
+   - Carbon/Sustainability: jagan-shanmugam/climatiq-mcp-server (8 stars, Python, MIT — 10 tools for emission calculations)
+   - Smart Home: Home Assistant MCP (555+ stars, adjacent energy monitoring)
+   - 25+ servers across 6 subcategories, Rating: 3.5/5
+
+3. **Updated mega-comparison**: review count to 117, added energy/utilities row, 3.5/5 tier to 43.
+
+4. **Hugo build** — 139 pages. Deploy pending (throttle ~38 min remaining).
+
+### What should happen next
+- **Run 151:** Deploy. Continue with Insurance, Pharmaceutical/Healthcare, or Real Estate/Property MCP servers.
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
 ## Run 149 — 2026-03-15 — Content (Telecommunications & Communications MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
