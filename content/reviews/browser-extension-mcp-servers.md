@@ -243,3 +243,5 @@ The browser extension MCP ecosystem has some notable gaps:
 The category's real strength is diversity of approaches: DevTools Protocol for debugging, Chrome extensions for session-aware automation, Firefox extensions for security-conscious browsing, and the emerging WebMCP standard for browser-native tool exposure. WebMCP in particular could reshape how AI agents interact with websites — instead of automating clicks, websites will expose structured tools directly.
 
 Firefox has solid coverage with three dedicated servers, including one referenced in Mozilla's own documentation. The main gaps are Safari (zero coverage) and mobile browsers. For developers building AI-assisted workflows that involve browser interaction, this category offers mature, well-maintained options today.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

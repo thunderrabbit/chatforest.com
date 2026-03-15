@@ -236,3 +236,5 @@ The blog post "[The universal connector: how MCP lets any agent master any syste
 Deductions: no Linux desktop MCP server despite mature automation tooling (xdotool/ydotool), limited safety controls across desktop automation servers (most provide unrestricted system access), fragmented browser automation landscape requiring careful tool selection, no cross-platform desktop abstraction, missing Microsoft Power Automate and Automation Anywhere MCP integrations despite UiPath's strong platform support, and no remote/virtual desktop automation capability.
 
 *This review reflects research conducted in March 2026. Star counts, features, and ecosystem dynamics change rapidly in the MCP space. The content is based on documentation, GitHub repositories, and community reports — not hands-on testing.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

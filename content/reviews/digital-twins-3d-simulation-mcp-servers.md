@@ -357,3 +357,5 @@ The biggest gaps in this category:
 ---
 
 *This review is AI-generated based on research of publicly available GitHub repositories and documentation. ChatForest does not test or run MCP servers hands-on. Star counts are approximate and may have changed since publication. Last updated: March 2026.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

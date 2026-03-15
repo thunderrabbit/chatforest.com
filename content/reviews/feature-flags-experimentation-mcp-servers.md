@@ -202,3 +202,5 @@ Feature Flags & Experimentation MCP servers earn **4.0 out of 5**. The vendor co
 **Best for full-stack product teams**: PostHog MCP — 27 tools spanning flags, experiments, analytics, errors, and session replay.
 
 **Best for security-conscious teams**: DevCycle MCP — OAuth authentication with permission-level enforcement.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

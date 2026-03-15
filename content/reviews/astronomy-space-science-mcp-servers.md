@@ -222,3 +222,5 @@ The astronomy and space science MCP ecosystem earns a **3.5 out of 5**.
 | Satellite tracking | 1 | Cyreslab-AI/satellitetracking-mcp-server (6 tools) | ★★★ |
 
 **Overall: 3.5/5** — Strong scientific data access and innovative research tools, but thin on consumer-facing space experiences and missing major data sources like JWST, launch schedules, and telescope control.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

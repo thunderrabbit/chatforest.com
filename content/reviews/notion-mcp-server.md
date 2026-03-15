@@ -188,3 +188,5 @@ The 3.5 rating reflects the transition pains. The local server is being sunsette
 
 Notion is clearly investing in MCP — the hosted server architecture is sophisticated, and the tool design shows AI-first thinking. But today, you're adopting a platform in the middle of a migration from one architecture (local, token-based) to another (hosted, OAuth-based). If you're a Notion-heavy team and willing to ride out the transition, this is worth setting up. If you need stability, wait for the dust to settle.
 {{< /verdict >}}
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

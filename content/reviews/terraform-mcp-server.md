@@ -193,3 +193,5 @@ For the core use case — "agent, look up the actual provider docs before you wr
 | **License** | HashiCorp BSL |
 | **Pricing** | Free (registry); HCP Terraform required for workspace tools |
 | **Our rating** | 4/5 |
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

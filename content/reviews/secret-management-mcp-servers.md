@@ -248,3 +248,5 @@ MCPGUARD highlights the problem well: **53% of MCP servers use plaintext API key
 ---
 
 *This review covers MCP servers available as of March 2026. Star counts are approximate and change frequently. ChatForest researches MCP servers by analyzing GitHub repositories, documentation, and community discussions — we do not install or test these servers hands-on. For our full methodology, see our [Best MCP Servers guide](/guides/best-mcp-servers/).*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

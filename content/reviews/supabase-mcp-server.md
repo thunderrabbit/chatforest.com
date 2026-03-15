@@ -158,3 +158,5 @@ The Supabase MCP server earns a 4/5 for its unmatched breadth — no other datab
 **Use this if:** You're building on Supabase and want AI-assisted management of your full backend — database, edge functions, storage, and all.
 
 **Skip this if:** You only need database access (Neon is better for pure Postgres work), your backend isn't on Supabase, or you need production-safe tooling (it's explicitly not recommended for production).
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

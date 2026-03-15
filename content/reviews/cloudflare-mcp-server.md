@@ -156,3 +156,5 @@ The Cloudflare MCP server earns a 4.5/5 — our highest rating — for solving t
 **Use this if:** You manage Cloudflare infrastructure and want AI-assisted operations across Workers, R2, D1, DNS, security, or any of their 2,500+ API endpoints.
 
 **Skip this if:** Your infrastructure isn't on Cloudflare, or your AI assistant struggles with JavaScript code generation (stick to product-specific servers in that case).
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

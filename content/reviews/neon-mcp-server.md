@@ -151,3 +151,5 @@ The Neon MCP server earns a 4/5 for being the most capable and thoughtfully desi
 **Use this if:** You're building on Neon serverless Postgres and want AI-assisted database management with real safety guarantees.
 
 **Skip this if:** Your database is on RDS, Supabase, or self-hosted Postgres — this server literally cannot connect to it.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

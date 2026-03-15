@@ -226,3 +226,5 @@ The gap between "search and book as a traveler" (well-served) and "manage operat
 Hospitality MCP servers earn **3.5/5**. The consumer booking journey is well-covered: you can search Airbnb (393 stars, no API key needed), book from 2M+ hotels via Jinko, search both Resy and OpenTable for restaurant reservations with auto-sniping, discover businesses through official Yelp and TripAdvisor servers, and orchestrate full trip planning across 6 specialized servers. The official Yelp server and Amadeus Travel API integrations add commercial credibility.
 
 What holds the category back from a higher rating is the complete absence of enterprise hospitality tooling. A hotel general manager, revenue analyst, or operations director would find nothing useful here — no PMS integration, no revenue management, no guest communication, no housekeeping workflows. The category serves travelers excellently but hoteliers not at all. As PMS providers like Mews and Cloudbeds embrace AI, expect MCP servers for hotel operations to emerge — but they aren't here yet.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

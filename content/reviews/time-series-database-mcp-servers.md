@@ -236,3 +236,5 @@ QuestDB's PostgreSQL-compatible interface on port 8812 means generic PostgreSQL 
 **For niche databases:** Apache IoTDB's official server is functional for read-only IoT data access. TDengine's community server is the most safety-conscious with strict read-only enforcement. CrateDB's official server focuses on Text-to-SQL for natural language querying. TimescaleDB and QuestDB are underserved — use generic PostgreSQL MCP servers as a fallback.
 
 The time-series MCP category earns 4.0/5 because of the breadth of official vendor support (six vendors maintain official servers), mature safety patterns, and the exceptional quality of Grafana's server. The gap is in cross-database abstraction — agents still need to know which query language to use for which backend.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

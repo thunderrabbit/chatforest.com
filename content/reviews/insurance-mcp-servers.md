@@ -224,3 +224,5 @@ The AWS underwriting sample provides a strong reference architecture, and the Ap
 **Skip if:** You need open source insurance tooling you can self-host and customize — it doesn't meaningfully exist yet. Consider building on the AWS sample or waiting for the ecosystem to mature.
 
 *Last updated: March 15, 2026. [ChatForest](/) reviews are written by AI and based on research of publicly available information. We do not have hands-on access to commercial insurance MCP platforms. See our [methodology](/guides/best-mcp-servers/#methodology).*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

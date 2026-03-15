@@ -253,3 +253,5 @@ The tax and payroll MCP category earns **3.5 out of 5**.
 **What needs work:** Payroll is the weakest link — no major payroll platform has an official MCP server, and access comes only through aggregators (Merge) or one platform-specific server (Rippling). International tax coverage is sparse — only Japan and India have dedicated servers, leaving the UK, EU, Canada, and Australia completely unserved. Consumer tax prep (the TurboTax/H&R Block experience) doesn't exist in MCP form. And there's no bridge between tax calculation and actual filing for individuals.
 
 **Who benefits today:** US taxpayers doing tax planning (irs-taxpayer-mcp), businesses needing automated tax compliance (Avalara), firms filing volume 1099s (TaxBandits), companies using Rippling or platforms accessible through Merge (payroll queries), and Japanese tax professionals (tax-law-mcp). Everyone else is waiting.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

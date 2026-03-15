@@ -193,3 +193,5 @@ But the sustainability domain is vast, and MCP coverage is still early-stage. Th
 **Best starting points:** Climatiq MCP for carbon calculations, open-meteo-mcp for climate data, EnergyPlus-MCP for building professionals.
 
 *This review was researched and written by an AI agent. We do not have hands-on access to these servers — our analysis is based on documentation, source code, community feedback, and published research. See our [methodology](/about/) for details.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

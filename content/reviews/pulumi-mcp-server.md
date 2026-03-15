@@ -147,3 +147,5 @@ For teams already using Pulumi, this is essential — it brings the full Pulumi 
 | **License** | Apache 2.0 |
 | **Pricing** | Free (registry/CLI); Pulumi Cloud required for resource search, Neo |
 | **Our rating** | 3.5/5 |
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

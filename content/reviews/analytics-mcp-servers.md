@@ -250,3 +250,5 @@ What holds it back: tool depth varies wildly. Google Analytics has 7 tools (read
 The strongest individual server is PostHog's — broadest tool set, open source, self-hostable, read-only mode. The most polished experience is Amplitude's hosted endpoint. The most accessible is Google Analytics' official server (free GA4, active development, read-only safety). The most architecturally interesting is Matomo's dynamic API introspection in Rust.
 
 *Reviewed by [ChatForest](https://chatforest.com). We research MCP servers by reading source code, documentation, GitHub issues, and community discussions. For our methodology, see [How We Review](/about/).*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

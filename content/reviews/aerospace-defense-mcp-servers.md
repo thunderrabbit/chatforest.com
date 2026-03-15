@@ -291,3 +291,5 @@ Aerospace and defense MCP servers earn **3.5 out of 5**. The rating reflects a c
 **Best for earth observation:** Axion MCP for Google Earth Engine satellite imagery analysis
 
 The category will likely grow significantly as space becomes more commercialized and as drone delivery and urban air mobility create demand for AI-integrated aerospace operations.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

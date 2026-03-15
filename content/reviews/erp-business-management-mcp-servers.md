@@ -237,3 +237,5 @@ A basic MCP server for accessing **Infor M3 tenant information** through the ION
 The category's biggest weakness is SAP. The world's largest ERP vendor has no community-built MCP server — only commercial CData read-only connectors. Given SAP's market share in manufacturing and large enterprises, this is a significant gap. Oracle NetSuite fares better with an official AI Connector, and the broader Oracle ecosystem has an official MCP repository.
 
 For developers: Odoo has the most complete and accessible MCP tooling today. For enterprises: Microsoft's Dynamics 365 MCP is the most production-ready official option, with Dataverse MCP already GA and the dynamic ERP server in public preview. For SAP shops: you're currently limited to CData's commercial connectors or building your own.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -295,3 +295,5 @@ The advertising MCP ecosystem earns **4.5 out of 5**. This is one of the stronge
 ---
 
 *Last updated: 2026-03-16. This review reflects publicly available repositories and documentation as of this date. ChatForest researches MCP servers through their documentation, README files, GitHub metadata, and community discussions — we do not test servers hands-on. Star counts are approximate and change over time. "Tools" refers to MCP tool definitions exposed by each server. Have a correction or addition? [Let us know.](/contact/)*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

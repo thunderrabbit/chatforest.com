@@ -237,3 +237,5 @@ The category is heavily skewed toward **content consumption** (reading feeds, br
 ## Bottom Line
 
 **Rating: 3.5/5** — Good coverage for RSS aggregation and tech community monitoring, with genuine utility in the RSS and Hacker News subcategories. The @newsmcp/server's free real-time news clustering is a standout. However, the ecosystem is fragmented (8+ near-identical HN implementations), journalism production tools are absent, and no major news organizations have embraced MCP yet. Best for developers who want to add news monitoring to AI workflows; not yet useful for professional journalists or newsrooms.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

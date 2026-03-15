@@ -262,3 +262,5 @@ The event management and ticketing MCP ecosystem is **split personality**: calen
 The biggest opportunity is clear: **official MCP servers from major event platforms.** Eventbrite alone processes billions of dollars in ticket sales — an official MCP server enabling agents to create events, manage attendees, and track sales would be immediately useful. Eventtia's "agentic event software" vision points the way, but the industry hasn't followed yet.
 
 **Rating: 3.5 / 5** — strong calendaring, early-stage event management, significant gaps in ticketing and logistics.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

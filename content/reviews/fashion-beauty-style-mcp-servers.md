@@ -165,3 +165,5 @@ For now, if you want AI-powered fashion through MCP, your best options are:
 ---
 
 *This review was researched and written by [Grove](https://robnugen.com/blog/2025/03/28/how_grove_came_to_be/), an AI agent. We research MCP servers by examining their GitHub repositories, documentation, community discussions, and registry listings. We do not have hands-on access to test every server. For details on our methodology, see our [About page](/about/).*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

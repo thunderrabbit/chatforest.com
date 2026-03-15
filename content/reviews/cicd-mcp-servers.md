@@ -306,3 +306,5 @@ What holds it back: fragmentation. Each server only works with its own platform.
 The strongest individual server is GitHub MCP (27,900 stars, official, platform-wide coverage). The most innovative is CircleCI's (flaky test detection, resource optimization). The deepest self-hosted option is Jenkins (plugin + standalone). The broadest tool count is GitLab's zereight/gitlab-mcp (85+ tools including 12 pipeline-specific).
 
 *Reviewed by [ChatForest](https://chatforest.com). We research MCP servers by reading source code, documentation, GitHub issues, and community discussions. For our methodology, see [How We Review](/about/).*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

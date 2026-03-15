@@ -386,3 +386,5 @@ Despite strong coverage, notable gaps remain:
 ## The Bottom Line
 
 Bioinformatics and life sciences is one of the most active and well-organized MCP server categories. The Augmented-Nature ecosystem alone covers 10+ major biological databases. Combined with BioMCP's unified interface, robust PubMed and clinical trials servers, and an emerging FHIR/EHR infrastructure, researchers can build sophisticated AI-assisted biomedical workflows today. The drug discovery pipeline — from target identification through patent search — is particularly complete. The main gaps are in medical imaging, workflow orchestration, and multi-omics integration. **Rating: 4/5.**
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

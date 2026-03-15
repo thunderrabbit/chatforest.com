@@ -283,3 +283,5 @@ Robotics MCP servers earn **4.0 out of 5**. The category is surprisingly deep �
 The community is building faster than the manufacturers. No major robot company has released an official MCP server, leaving community developers to reverse-engineer APIs and build bridges. This pattern — community leading, vendors following — is consistent across the MCP ecosystem, but the stakes in robotics are higher because physical hardware is involved.
 
 For smart home enthusiasts, **ha-mcp** is essential. For roboticists, **robotmcp/ros-mcp-server** is the universal adapter. For makers and hobbyists, **platformio-mcp** and **choturobo** open up AI-controlled hardware projects. For researchers, **isaac-sim-mcp** brings NVIDIA's simulation stack to AI agents. The category has real depth — and it's only getting deeper.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

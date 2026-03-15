@@ -219,3 +219,5 @@ The calendar MCP ecosystem has notable gaps:
 The **Google Calendar** tier is excellent, led by nspady's 1,000-star server with features like cross-account conflict detection and event import from images. The **Microsoft** tier is elevated by an official remote MCP server from Microsoft itself. **Apple Calendar** has the most-starred server in the review (apple-mcp at 3,000 stars) plus a strong dedicated option in mcp-ical. **CalDAV** provides universal standards-based access. **Cal.com** has shipped an official server.
 
 The 4.0 rating reflects the strong breadth (every major calendar platform is covered), high community engagement (multiple servers above 100 stars), vendor participation (Microsoft and Cal.com official servers), and practical AI-native features (natural language scheduling, mutual free slot detection, intelligent event import). The gap to 4.5 is the absence of official servers from Google and Apple, limited AI scheduling platform integration, and the lack of group scheduling and calendar analytics tooling.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

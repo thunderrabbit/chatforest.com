@@ -251,3 +251,5 @@ The biggest limitation is the complete absence of official platform support. Eve
 For game *development* tools (Unity, Unreal Engine, Godot, Roblox Studio), see our [Game Engine & 3D Development review](/reviews/game-engine-3d-development-mcp-servers/).
 
 *Last updated: March 2026*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

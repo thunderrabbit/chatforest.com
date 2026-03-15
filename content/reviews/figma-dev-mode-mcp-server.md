@@ -135,3 +135,5 @@ The Figma Dev Mode MCP server earns a 3.5/5 for delivering unique write capabili
 **Use this if:** You have a paid Figma plan and want the full design-code-design loop — especially Code Connect for mapping components and code-to-canvas for keeping designs in sync with implementations.
 
 **Skip this if:** You're on Figma's free tier (6 calls/month is unusable), you just need design-to-code translation (use Framelink instead), or you need self-hosted/auditable infrastructure.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

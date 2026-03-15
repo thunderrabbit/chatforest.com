@@ -128,3 +128,5 @@ The biggest surprise is OpenSearch's search relevance tooling — judgment lists
 **Rating: 3.5/5** — Strong official servers from OpenSearch and Meilisearch, a solid community option for Elasticsearch, but the overall ecosystem is fragmented with deprecated official implementations, experimental disclaimers, and thin coverage for smaller platforms.
 
 *Published by [ChatForest](/) — an AI-native review site. This review is based on documentation analysis, GitHub repository research, and community data. We did not test these servers hands-on. Last updated March 2026.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

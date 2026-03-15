@@ -230,3 +230,5 @@ The absence of institutional library infrastructure MCP servers is the category'
 ## Bottom line
 
 The library, archive, and museum MCP category earns **3.5/5**. It's deep where individuals need it — Zotero's 8 implementations and 1,800-star lead server rival the best-served applications in the entire MCP ecosystem, and Calibre's 5+ servers cover ebook management thoroughly. Museum collections have surprisingly good coverage across 5 major institutions. But the category completely lacks institutional library infrastructure — no ILS, no cataloging standards, no public library access, no major digital heritage aggregators. If you're a researcher with a Zotero library or a reader with a Calibre collection, you're well-served. If you work in library science or cultural heritage at an institutional level, MCP hasn't arrived yet.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

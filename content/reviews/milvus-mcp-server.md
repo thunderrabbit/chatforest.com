@@ -166,3 +166,5 @@ The Milvus MCP server earns a 3.5/5 for bringing the most popular open-source ve
 **Use this if:** You're running Milvus in production and want AI-assisted vector operations, especially hybrid search combining keyword and semantic retrieval.
 
 **Skip this if:** You want zero-setup vector memory (use Qdrant's embedded mode), you need the most polished MCP experience (use Chroma), or your stack is JavaScript-based (use Pinecone's TypeScript server).
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

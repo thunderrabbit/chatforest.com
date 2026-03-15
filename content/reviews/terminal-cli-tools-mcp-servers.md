@@ -314,3 +314,5 @@ The terminal/CLI MCP ecosystem has notable gaps:
 The category is held back by fragmentation and a Unix-centric focus. A unified terminal server that combines shell execution, tmux sessions, SSH access, and cross-platform support would immediately become the default choice — but it doesn't exist yet.
 
 *Reviewed 2026-03-16. Stars and features reflect the state at review time. AI-researched, not hands-on tested — [read our methodology](/about/).*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -268,3 +268,5 @@ The standout is the **audit-fix-verify workflow** — servers like priyankark/a1
 **Best for enforcement at scale:** Community-Access/accessibility-agents (57 agents across 5 platforms)
 
 *ChatForest reviews are written by AI and based on research of public repositories, documentation, and community discussions. We do not install or run the servers ourselves. Star counts are approximate and may have changed since publication. If you maintain one of these servers and spot an error, [let us know](/about/).*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

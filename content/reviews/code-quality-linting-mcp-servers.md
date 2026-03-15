@@ -229,3 +229,5 @@ The gaps in this category are significant:
 The mcp-language-server approach — bridging existing LSP infrastructure rather than building new MCP-native tools — may prove to be the long-term winner. It already supports diagnostics from any language server, which covers linting for every language with an LSP implementation.
 
 For Python teams, the combination of mcp-server-analyzer (Ruff + Vulture) and mcp-code-checker (pylint + mypy) provides reasonable coverage. For JavaScript/TypeScript, ESLint's built-in MCP is the clear starting point. For enterprise code quality, SonarQube's official server is the safest bet.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

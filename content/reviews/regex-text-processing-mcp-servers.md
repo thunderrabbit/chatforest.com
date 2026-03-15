@@ -303,3 +303,5 @@ The regex and text processing MCP landscape has solid coverage for document conv
 - **Diff:** benjamine/jsondiffpatch diff-mcp for text + structured data comparison
 
 **If you only install one:** markdownify-mcp solves the most common text processing need — getting documents into a format your LLM can work with.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

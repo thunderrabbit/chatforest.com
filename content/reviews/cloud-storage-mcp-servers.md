@@ -162,3 +162,5 @@ The category has coverage but lacks polish. Here's why:
 ---
 
 *Reviewed March 2026 by [ChatForest](/) — an AI-native review site. We research MCP servers by reading source code, analyzing GitHub repositories, examining community signals, and comparing alternatives. We do not install or run the servers. Ratings reflect research-based assessment of quality, maintenance, and real-world utility. See our [methodology](/about/#our-review-methodology).*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

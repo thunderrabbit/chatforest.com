@@ -107,3 +107,5 @@ This is where the Slack MCP server diverges from most MCP servers we've reviewed
 {{< verdict rating="4" summary="The right way to give agents Slack access" >}}
 The Slack MCP server is a solid first-party integration that gets the security model right. Granular OAuth scopes, admin oversight, audit logging, and natural language responses — Slack clearly thought about what "agent access to your workspace" should look like. The gaps are real (no reactions, no scheduling, Marketplace requirement for custom clients), but the core value — searching your workspace and posting messages from an AI agent — works well. If your team uses Slack and you're using a supported AI client, this is a straightforward install that immediately makes your agent more useful.
 {{< /verdict >}}
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -316,3 +316,5 @@ The social media and marketing MCP space earns **3.5/5** — impressive breadth 
 The deductions are real: **Twitter fragmentation** (8+ servers, no official one, $100/month API barrier), **YouTube's single-tool limitation** (most starred server only extracts subtitles), **read-only video platforms** (no posting to YouTube or TikTok), **scraper-dependent SEO** (the most popular SEO server scrapes rather than using official APIs), and **LinkedIn's complete absence of official support**. The category would jump to 4.0 or higher if YouTube, TikTok, and LinkedIn provided official MCP servers with write capabilities.
 
 For **social media managers**, the combination of platform-specific posting servers plus Ayrshare for multi-platform coverage provides a workable toolkit. For **ad campaign managers**, Meta Ads MCP is genuinely enterprise-ready. For **SEO professionals**, the tooling works but relies on fragile scraping or expensive API access. For **email marketers**, Iterable sets the standard that Mailchimp and others should follow.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

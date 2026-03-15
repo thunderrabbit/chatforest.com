@@ -113,3 +113,5 @@ Add that to your Claude Desktop config (or equivalent MCP client config) and you
 {{< verdict rating="3.5" summary="Capable but showing its age" >}}
 The Puppeteer MCP server does what it promises: it gives your agent a real browser. Screenshots, navigation, form filling, JavaScript execution — the core tools work and the zero-config setup is genuinely effortless. But in 2026, with Playwright MCP offering accessibility-tree targeting, cross-browser support, and growing ecosystem adoption, Puppeteer MCP feels like the older option. The CSS selector dependency is a real liability for complex web apps, and the Chrome-only limitation matters more than it used to. If you need quick browser access and you're already in the Puppeteer ecosystem, it's still a solid tool. But for new projects, Playwright MCP is the stronger starting point. Puppeteer MCP earns its place as the approachable, no-fuss browser server — just know that a more capable alternative exists.
 {{< /verdict >}}
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

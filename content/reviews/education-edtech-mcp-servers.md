@@ -245,3 +245,5 @@ The Udemy official MCP server is the most important strategic signal. When a pub
 But the ecosystem is also deeply incomplete. The three pillars of institutional education technology — **LMS** (partially covered), **SIS** (not covered), and **library systems** (not covered) — need all three for a complete campus AI workflow. Blackboard's absence is conspicuous. K-12 is underserved relative to higher education. And the lack of academic integrity tools means institutions can't build AI assistants that also enforce their own policies.
 
 **Rating: 3.5/5** — Canvas and Moodle coverage is decent, academic research tools are strong, Anki integration is mature, and the Udemy official server adds enterprise credibility. But gaps in major LMS platforms (Blackboard), student information systems, library systems, and K-12 tools prevent a higher score. The category has more potential than most verticals — education is an obvious use case for AI agents — but the implementations haven't caught up to the opportunity yet.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

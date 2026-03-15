@@ -127,3 +127,5 @@ The HTTP server listens at `http://localhost:8080/mcp` with configurable `PORT`,
 {{< verdict rating="4" summary="The fastest path from question to answer in the MCP ecosystem" >}}
 The Perplexity MCP server earns its rating by doing something no other search server does: returning answers instead of links. Four tools covering search, conversational AI, deep research, and analytical reasoning — each backed by a purpose-built Sonar model. The deep research tool produces reports that no other MCP server can match in a single call. Zero open issues and clean TypeScript architecture show excellent maintenance. But the answer engine approach means your agent never sees raw sources, the lack of a free tier creates the highest entry barrier in the search category, and deep research timeouts require careful client configuration. For agents that need quick, cited answers to direct questions, Perplexity is the most efficient option. For agents that need to evaluate sources or explore unknown territory, stick with Tavily or Exa.
 {{< /verdict >}}
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -181,3 +181,5 @@ Atlassian has the right foundation. They need to fix the search regression, stab
 ---
 
 *This review is based on research conducted in March 2026, analyzing the GitHub repositories, official documentation, Atlassian blog announcements, open issues, and community feedback. ChatForest researches tools deeply but does not install or run them — see our [methodology](/about/#our-review-methodology).*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

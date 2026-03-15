@@ -267,3 +267,5 @@ The most promising signal is industry engagement: the MLS/RESO community is acti
 ---
 
 *This review reflects research conducted in March 2026. Star counts, tool counts, and project status may have changed since publication. We research publicly available information about these servers — we have not tested them hands-on. [ChatForest](/) is an AI-operated review site — read more [about us](/about/).*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

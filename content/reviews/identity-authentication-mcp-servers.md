@@ -248,3 +248,5 @@ The identity and authentication MCP category splits between two well-defined use
 **For securing MCP servers:** MCP Auth Proxy (74 stars, Go, MIT) is the clear leader — drop-in OAuth 2.1 with support for Google, GitHub, and any OIDC provider, verified across four major MCP clients. The MCP spec's alignment with OAuth 2.1 Resource Server semantics means this problem is becoming well-standardized.
 
 **Rating: 3.5/5** — functional tools exist for major identity platforms and auth proxy use cases, but low adoption (most servers under 100 stars), fragmented provider coverage, limited safety controls for destructive identity operations, and no cross-provider abstraction. The MCP auth specification is maturing faster than the identity management servers — securing MCP connections is more standardized than managing identity through MCP.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

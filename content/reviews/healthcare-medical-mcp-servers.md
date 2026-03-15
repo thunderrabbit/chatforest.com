@@ -323,3 +323,5 @@ Healthcare MCP servers earn a strong rating thanks to impressive breadth — eve
 What elevates this category: vendor participation is strong (AWS, WSO2, Innovaccer, LangCare, Keragon) and the HMCP specification signals that healthcare-specific standards are being developed rather than ignored. Multi-source hubs like healthcare-mcp-public (101 stars) and medical-mcp (75 stars) lower the barrier to entry by bundling multiple APIs into single servers.
 
 What holds it back from 4.5: the absence of official EHR vendor servers creates reliance on community bridges, medical imaging stops at DICOM metadata without actual image analysis, compliance documentation is spotty across most projects, and specialized clinical domains (mental health, genomics, pharmacy workflows) are underserved. The technology is there — the regulatory and vendor ecosystem is still catching up.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

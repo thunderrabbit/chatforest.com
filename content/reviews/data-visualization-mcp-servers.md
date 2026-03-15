@@ -136,3 +136,5 @@ Several gaps stand out:
 The category is broad and active but fragmented. The charting library servers (AntV, ECharts) are mature and production-ready. The grammar-of-graphics tools (Vega-Lite) are solid for their focused use case. Everything else — Plotly, Matplotlib, D3, BI platforms — ranges from early-stage to community experiments. The visualization space needs what dbt did for data transformation: a comprehensive, official-backed server that handles the full workflow.
 
 **Rating: 3.5/5** — Strong top-end servers (AntV at 3,800 stars is exceptional) but the category is fragmented with no unified solution. Significant gaps in enterprise BI tools and interactive exploration. The best servers generate charts well; none yet handle the complete data visualization lifecycle.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

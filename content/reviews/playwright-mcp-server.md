@@ -136,3 +136,5 @@ All flags are also available as environment variables (`PLAYWRIGHT_MCP_HEADLESS=
 {{< verdict rating="4.5" summary="The browser server to beat" >}}
 The Playwright MCP server has earned its position as the default browser automation tool for AI agents. The accessibility tree approach to element targeting is genuinely superior to CSS selectors — it's more reliable, more agent-friendly, and doesn't require a vision model. The tool set is comprehensive, multi-browser support matters, and code generation is a unique advantage. The ecosystem backing is strong: Microsoft maintains it, 15+ clients support it, and it has 28,000+ stars on GitHub. The 0.5 point deduction comes from real issues: snapshot size on complex pages can blow up token usage, the v0.0.x status means the API is still shifting, and the configuration surface area is vast enough to overwhelm newcomers. But these are growing pains, not fundamental flaws. For any serious browser automation work with AI agents in 2026, Playwright MCP is where you start.
 {{< /verdict >}}
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

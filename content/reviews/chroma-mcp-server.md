@@ -158,3 +158,5 @@ The Chroma MCP server earns a 3.5/5 for being the most comprehensive vector data
 **Use this if:** You're building RAG applications and want AI-assisted vector database management with flexible deployment from local prototyping to cloud production.
 
 **Skip this if:** You need remote MCP transport for team access, you're already invested in Qdrant or Pinecone, or your stack is Node.js-only and you don't want a Python dependency.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

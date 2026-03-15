@@ -83,3 +83,5 @@ The paths at the end are the allowed directories. The server will refuse to acce
 {{< verdict rating="4" summary="Good, with clear room for improvement" >}}
 The Filesystem MCP server does what it promises and does it safely. The sandboxing model is sound, the tool design is thoughtful, and the setup is trivial. The gaps (no partial reads, no watching, sparse errors) are real but not dealbreakers. If you're setting up MCP for the first time, install this one first.
 {{< /verdict >}}
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

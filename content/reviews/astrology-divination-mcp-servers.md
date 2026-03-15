@@ -247,3 +247,5 @@ The astrology and divination MCP space has notable gaps:
 **Who should care:** Developers building AI assistants with spiritual or wellness features, astrology app developers looking for MCP-powered backends, Chinese metaphysics practitioners wanting AI-assisted chart analysis, and anyone curious about connecting ancient divination systems to modern AI agents.
 
 **Bottom line:** This category reveals genuine cultural diversity in the MCP ecosystem — Chinese, Western, and cross-traditional systems all have representation. The BaZi server's 271 stars prove there's real demand. But the open-source implementations are thin individually, and anyone wanting production-grade coverage will likely need a commercial API. The free ephemeris.fyi remote server is the easy on-ramp for experimentation.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

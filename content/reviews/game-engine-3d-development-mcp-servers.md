@@ -260,3 +260,5 @@ The game engine MCP ecosystem is maturing rapidly. Every major engine now has at
 **For web game developers**: phaserjs/editor-mcp-server for Phaser, though the ecosystem is still early.
 
 **Rating: 4.0/5** — Every major game engine has MCP integration, adoption is strong (Unity servers alone total 7,000+ stars), Roblox's native support sets a high bar, and the combination of editor control, asset generation, and (in Unity-MCP's case) runtime agents shows the creative potential of MCP. Deductions for inconsistent safety controls, no official support from Unity or Epic, fragmentation across too many small implementations, and missing coverage for simpler game frameworks.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

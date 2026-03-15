@@ -118,3 +118,5 @@ Requirements: Python 3.10+ and `uv` (or pip). The server takes one argument — 
 {{< verdict rating="3" summary="A good demo, not a production tool" >}}
 The SQLite MCP server does exactly what a reference implementation should: it demonstrates how MCP can connect agents to databases in a clean, readable way. The insight memo feature is genuinely clever, the schema inspection workflow is the right pattern, and the codebase is worth studying if you're building your own MCP server. But it's archived, unmaintained, and has no safety guardrails. That combination means it belongs in the "learn from it, don't depend on it" category. For actual SQLite work with agents, look at actively maintained community alternatives like jparkerweb/mcp-sqlite. For serious database workloads, consider PostgreSQL or DuckDB MCP servers instead. The official SQLite MCP server served its purpose as a teaching tool — it just isn't the tool to reach for when you need reliability.
 {{< /verdict >}}
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

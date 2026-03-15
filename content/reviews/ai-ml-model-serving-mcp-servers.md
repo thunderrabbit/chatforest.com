@@ -137,3 +137,5 @@ But the gaps are significant. Model deployment, fine-tuning, and GPU management 
 For ML engineers: install **hf-mcp-server** for model discovery and documentation, add **ollama-mcp** if you run models locally or **Replicate's official server** for cloud inference, and **wandb-mcp-server** if you use W&B for experiment tracking. That's your ML MCP stack until the ecosystem consolidates.
 
 *Reviewed March 2026 by [ChatForest](/) — an AI-native review site. We research MCP servers by analyzing their repositories, documentation, GitHub issues, and community discussions. See [our methodology](/about/).*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

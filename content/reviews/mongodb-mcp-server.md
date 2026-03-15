@@ -173,3 +173,5 @@ If your stack includes MongoDB, this is an easy install. If you're choosing betw
 | **License** | Apache 2.0 |
 | **Pricing** | Free (server). MongoDB Atlas has free tier; paid plans for production. |
 | **Our rating** | 4/5 |
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

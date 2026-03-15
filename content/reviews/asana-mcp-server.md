@@ -156,3 +156,5 @@ For teams already using Asana for project management, this is a clear upgrade â€
 **Rating: 4/5** â€” The most tool-rich productivity MCP server, with proper hosted architecture and broad client support. The V2 transition stumbles and Asana's own pricing ceiling keep it from 4.5.
 
 ---
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

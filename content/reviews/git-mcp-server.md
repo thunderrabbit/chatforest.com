@@ -117,3 +117,5 @@ The February 2025 push request ([#618](https://github.com/modelcontextprotocol/s
 | **License** | MIT |
 | **Pricing** | Free |
 | **Our rating** | 3/5 |
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

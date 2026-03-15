@@ -240,3 +240,5 @@ The configuration management MCP ecosystem has significant gaps:
 The glaring gaps are Puppet and Chef — two tools used across thousands of enterprise environments with zero MCP presence. SaltStack's single server is barely functional. The multi-tool servers (mcp-sysoperator, the archived ansible-mcp-server) hint at what a unified configuration management MCP could become, but none are production-ready.
 
 For teams using Ansible, the MCP ecosystem is genuinely useful today. For everyone else, this category needs significant investment from tool vendors and the community.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

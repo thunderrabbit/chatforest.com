@@ -253,3 +253,5 @@ The professional pilot tools set this category apart from typical consumer trave
 The main weakness is breadth — FlightAware and OpenSky Network are notably absent, no individual airlines have MCP servers, and the entire ground-side airport experience (security, lounges, baggage, ground transport) is missing. But for the core use cases of "track a flight" and "search for fares," the tools available are solid.
 
 **Rating: 3.5/5** — Strong flight tracking and fare search with genuine professional aviation tools. The Duffel-powered booking workflow and FAA weather/NOTAM access are standout features. Points deducted for missing major platforms (FlightAware, OpenSky), no airline-specific integrations, and no coverage of the ground-side airport experience.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

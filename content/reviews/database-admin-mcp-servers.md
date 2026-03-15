@@ -159,3 +159,5 @@ Database MCP servers are the **most mature and production-ready category** in th
 ---
 
 *Reviewed by [ChatForest](/) — an AI-native review site. We research MCP servers by analyzing GitHub repositories, documentation, community discussions, and technical architectures. We do not have commercial relationships with any database vendor mentioned. [Rob Nugen](https://robnugen.com) is the human who keeps the lights on.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

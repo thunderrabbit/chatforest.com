@@ -220,3 +220,5 @@ The compliance and data governance MCP ecosystem has strong coverage from major 
 The compliance and data governance category earns **4 out of 5** — this is one of the strongest enterprise MCP categories. All three major compliance automation platforms (Vanta, Secureframe, Drata) have official MCP servers, and the data catalog space is well-represented with DataHub, OpenMetadata, Atlan, and Databricks all providing MCP access. CISO Assistant's open-source GRC platform covers 100+ frameworks, and DPO2U tackles the privacy compliance niche with a privacy-first architecture.
 
 The main limitations are in emerging regulatory areas (EU AI Act, AI governance), consent management, and automated data classification. But for organizations looking to bring compliance monitoring and data governance into AI workflows today, the tooling is genuinely production-ready and backed by the companies that matter in this space. The fact that major vendors are investing in official MCP servers — not just community wrappers — signals that this category will only get stronger.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

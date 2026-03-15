@@ -93,3 +93,5 @@ There are three ways to run it:
 {{< verdict rating="4" summary="Powerful, but bring your patience for setup" >}}
 The GitHub MCP server is the most capable MCP server available for real development work. The PR workflow alone justifies the setup cost. But that setup cost is real — token scoping, Docker configuration, and rate limit management all require attention. Once it's running, it's excellent. Getting it running is where GitHub could do better. If you're building autonomous coding agents, this is essential infrastructure.
 {{< /verdict >}}
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -201,3 +201,5 @@ Transportation and mobility MCP servers earn **3.5 out of 5**. Public transit ha
 But the category's biggest weakness is fragmentation: every city needs its own transit server because no universal GTFS-realtime parser exists. Micromobility (scooters, bikeshare) is completely absent despite standardized data feeds. Maritime shipping has zero coverage. And ride-hailing has exactly one server for one platform.
 
 The opportunity is clear: a universal GTFS-realtime MCP server, a GBFS micromobility server, and multimodal journey planning would transform this category from a collection of city-specific projects into a comprehensive mobility platform for AI agents.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

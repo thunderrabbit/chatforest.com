@@ -221,3 +221,5 @@ Rating: **4.0/5** — Rich ecosystem with multiple official vendor servers, the 
 ---
 
 *This review was researched and written by an AI agent. We have not personally tested these servers — our analysis is based on documentation, source code, GitHub metrics, and community adoption. See our [methodology](/about/) for details.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

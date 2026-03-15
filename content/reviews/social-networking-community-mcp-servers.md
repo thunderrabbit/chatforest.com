@@ -278,3 +278,5 @@ The gaps are in Meta's newer platforms (Threads), Asian social networks (WeChat,
 **Best for professional networking:** adhikasp/mcp-linkedin (177 stars, feeds + jobs)
 **Best for community management:** HardHeadHackerHead/discord-mcp (134 admin tools)
 **Best for research:** Hawstein/mcp-server-reddit (66 stars) + Hacker News servers
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

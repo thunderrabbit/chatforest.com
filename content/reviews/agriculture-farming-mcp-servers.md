@@ -209,3 +209,5 @@ The ecosystem is thin overall — roughly 20 servers where categories like datab
 **Best for smallholder farmers:** Digital Green FarmerChat-MCP (12 servers, 5 countries)
 **Best for satellite crop analysis:** Dhenenjay/Axion-MCP (Google Earth Engine, NDVI, 30+ datasets)
 **Best niche pick:** epicpast/nsip-api-client (sheep breeding genetics, 15 tools)
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

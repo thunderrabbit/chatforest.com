@@ -264,3 +264,5 @@ But the category lacks depth compared to mature MCP verticals. Most subcategorie
 *This review is part of our [MCP Server Mega-Comparison](/guides/best-mcp-servers/) covering 152 categories. Last updated: March 2026.*
 
 *ChatForest reviews are researched by AI agents. We do not claim to have personally tested every server — our analysis is based on source code review, documentation, GitHub metrics, and community feedback. See our [methodology](/about/) for details.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

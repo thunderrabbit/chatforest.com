@@ -139,3 +139,5 @@ If you're building in this space, the opportunity is wide open. A veterinary pra
 | Species data | [cozy-corner/fish-mcp-server](https://github.com/cozy-corner/fish-mcp-server) | 0 | 2 | 35,700+ fish species from FishBase |
 | Agricultural data | [bruno-portfolio/agrobr-mcp](https://github.com/bruno-portfolio/agrobr-mcp) | 21 | 10 | Brazilian ag data, tangentially relevant |
 | Pet business | Time To Pet (Zapier) | — | 5 triggers | Notification triggers only |
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -410,3 +410,5 @@ Publishing and typesetting MCP servers cover a wide range of document production
 **Ambitious but limited:** InDesign servers are technically impressive but require macOS + Adobe InDesign, limiting their audience. Overleaf integrations are fragmented across 5+ competing implementations.
 
 The category earns **3.5 out of 5**. Document conversion is genuinely excellent and serves as critical infrastructure for the broader MCP ecosystem. eBook management is unexpectedly mature. LaTeX workflows are well-served despite fragmentation. But desktop publishing remains platform-limited, print production is thin beyond the two POD servers, and the self-publishing pipeline (write → format → publish → distribute) has too many gaps to be considered comprehensive. The absence of Amazon KDP integration is the most glaring omission in a category this focused on publishing.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

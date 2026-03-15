@@ -142,3 +142,5 @@ The Qdrant MCP server earns a 3/5 for being the most adopted vector database MCP
 **Use this if:** You need persistent semantic memory for your AI agent, want remote MCP transport for team access, or plan to build a custom MCP server using the extensible class architecture.
 
 **Skip this if:** You need your agent to manage vector database infrastructure (collections, indexes, embeddings), you need delete or update capability, or you want comprehensive search options beyond semantic similarity.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

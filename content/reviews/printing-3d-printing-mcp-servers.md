@@ -216,3 +216,5 @@ What elevates this category is the **depth of ambition.** These aren't thin API 
 Document printing and print-on-demand round out the ecosystem with practical tools. The main gaps (Cura, resin printing, label printing) are notable but don't undermine the strength of what exists.
 
 If you're a maker or run a 3D print operation, this is one of the few verticals where MCP servers can meaningfully automate your workflow today.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -321,3 +321,5 @@ The OT security dimension is worth noting: Ansvar Systems' IEC 62443 server addr
 **Install if:** you work with ROS robots, 3D printers, OPC UA devices, or AWS IoT SiteWise and want AI-assisted monitoring, control, or diagnostics.
 
 **Skip if:** you need MES integration, CNC programming assistance, quality inspection, or PLM access — the MCP ecosystem hasn't reached the core manufacturing stack yet.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

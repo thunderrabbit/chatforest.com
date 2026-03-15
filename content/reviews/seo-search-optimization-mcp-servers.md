@@ -269,3 +269,5 @@ The all-in-one platforms each have different strengths: DataForSEO for breadth (
 The main weaknesses are in the gaps — Moz is conspicuously absent, there are no content optimization tools (Clearscope, SurferSEO), local SEO is completely missing, and link building workflows have no MCP presence. But for the core SEO research workflow — keyword research, backlink analysis, rank data, and site performance — the coverage is excellent.
 
 **Rating: 4/5** — Strong commercial backing from major SEO platforms with official MCP servers, excellent Google Search Console integration, and comprehensive keyword/backlink tooling. Points deducted for missing Moz ecosystem, no local SEO tools, and no content optimization integrations. The presence of multiple official enterprise servers puts this category ahead of most domain-specific MCP categories.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

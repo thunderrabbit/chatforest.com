@@ -155,3 +155,5 @@ Graphiti's MCP server earns a 4/5 for being the most architecturally sophisticat
 **Use this if:** You're building conversational agents or complex applications where facts change over time, you want full data control with self-hosted deployment, you need multi-LLM and multi-database flexibility, and your infrastructure can support Docker + a graph database.
 
 **Skip this if:** You want zero-setup memory (use Anthropic's Memory server), you need cloud-managed memory without infrastructure (use Mem0), you're building a simple coding assistant that just needs project context (use Basic Memory), or you're not prepared for the extraction LLM costs at scale.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

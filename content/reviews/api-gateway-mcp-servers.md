@@ -168,3 +168,5 @@ Tyk's API-to-MCP bridge converts REST, GraphQL, and RPC endpoints into standardi
 **For converting existing APIs to MCP:** Google Apigee (zero-code, enterprise governance) and Kong AI Gateway (plugin-based API-to-MCP conversion) are the most mature approaches.
 
 **Rating: 3.5/5** — The gateway management MCP servers (Kong, APISIX, Cloudflare) are genuinely useful. But the ecosystem is immature: most servers are read-only, star counts are low (except Cloudflare), and the MCP gateway infrastructure space is too fragmented to recommend confidently. Cloudflare's Code Mode innovation deserves attention, but the category needs another 6-12 months to consolidate.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

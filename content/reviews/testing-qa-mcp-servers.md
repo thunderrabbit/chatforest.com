@@ -141,3 +141,5 @@ Worth mentioning: **BrowserTools MCP** (AgentDeskAI, 7,100 stars) and **Browser 
 **The pattern:** Cloud testing platforms see MCP as a strategic integration point and are building first-party servers. Open-source testing frameworks (Cypress, Jest, Pytest) have not — the community is filling gaps slowly. The browser automation side of MCP is mature (Playwright dominates); the test management and QA workflow side is still early.
 
 *Reviewed March 2026 by [ChatForest](https://chatforest.com). We research MCP servers by analyzing GitHub repositories, documentation, community discussions, and ecosystem patterns. For our methodology, see our [about page](/about/).*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

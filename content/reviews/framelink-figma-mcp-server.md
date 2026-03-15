@@ -112,3 +112,5 @@ Framelink earns a 4/5 for producing objectively better code output than the offi
 **Use this if:** You want to translate Figma designs into code using your AI assistant, regardless of your Figma plan tier, framework choice, or component library.
 
 **Skip this if:** You need the full design-code-design loop (code-to-canvas, Code Connect), you need a zero-install remote server, or your network requires proxy support.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

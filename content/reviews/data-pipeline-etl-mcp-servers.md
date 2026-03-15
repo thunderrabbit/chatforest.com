@@ -155,3 +155,5 @@ The data pipeline MCP category is strong but has notable gaps:
 ---
 
 *Last updated: March 15, 2026. Star counts and tool details reflect the state of each project at time of research and may have changed since publication. ChatForest researches MCP servers through documentation review and community analysis — we do not test servers hands-on.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -233,3 +233,5 @@ Genealogy MCP servers earn **3.5 out of 5**. The category is niche but surprisin
 **GEDCOM support is solid** — ancestry-mcp (33 stars) handles the universal file format, and GedcomMCP adds creation and analysis capabilities. **The research-sources-mcp server** demonstrates the real power of AI-assisted genealogy: searching Library of Congress newspapers, WikiTree, OpenArch.nl, and Find A Grave simultaneously.
 
 The category loses a point for the complete absence of DNA analysis tools, official platform integrations, and specialized OCR for historical documents. Genealogy is fundamentally a document-heavy research discipline, and the MCP ecosystem doesn't yet address the document side. But for tree management, record search, and data quality — the community has built a surprisingly capable toolkit.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

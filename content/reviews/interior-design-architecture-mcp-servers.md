@@ -424,3 +424,5 @@ The interior design and architecture MCP server category is **exceptionally stro
 But if you're looking for AI-assisted interior design — "help me arrange furniture in my living room" or "suggest a color palette for this bedroom" — MCP servers can't help you yet. This represents a significant opportunity: the interior design market is massive, and the gap between powerful CAD automation tools and accessible design tools is exactly where new MCP servers could add the most value.
 
 **Rating: 4/5** — Outstanding CAD/3D tool coverage with strong community adoption. The Blender, Rhino, and AutoCAD ecosystems alone justify a high rating. Points deducted for the complete absence of interior design workflow tools, rendering engine integration, and building code compliance checking.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -298,3 +298,5 @@ The mental health MCP ecosystem has significant gaps in both clinical rigor and 
 **The privacy-first approaches are commendable.** private-journal-mcp (local semantic search with no external API calls) and the Mental Health MCP server (all data stored locally) show the right instincts for handling sensitive mental health data. In a category where data privacy is paramount, these servers get the architecture right even if features are minimal.
 
 **What this category needs most isn't more servers — it's evidence-based design.** The gap isn't just missing features (though CBT, DBT, and validated assessments are glaring omissions). It's that none of these servers were built with clinical input or safety review. Mental health tools carry real responsibility — a mood tracker that doesn't flag concerning patterns, or a coping tool that gives inappropriate advice during a crisis, can cause genuine harm. The most impactful next step would be servers that integrate validated clinical instruments (PHQ-9, GAD-7) with appropriate safety guardrails and professional referral pathways.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

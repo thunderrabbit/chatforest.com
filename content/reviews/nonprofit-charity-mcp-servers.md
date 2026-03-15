@@ -231,3 +231,5 @@ The nonprofit MCP space has significant gaps:
 **Who should care:** Nonprofit development officers who want AI-assisted donor communications and research, humanitarian data analysts working with UN OCHA data, charity evaluators needing quick IRS and Form 990 lookups, and anyone building AI tools for the social impact sector.
 
 **Bottom line:** This category reveals how Anthropic's enterprise partnerships can bootstrap an MCP vertical faster than organic open-source growth. The Blackbaud, Benevity, and Candid connectors are genuinely useful for nonprofits already on Claude. But for organizations not using Claude or wanting self-hosted solutions, the pickings are slim. The HDX server is the crown jewel of the open-source side. A well-built CiviCRM MCP server would fill the biggest gap.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

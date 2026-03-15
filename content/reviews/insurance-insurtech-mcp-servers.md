@@ -275,3 +275,5 @@ The insurance MCP ecosystem has notable gaps:
 The rating reflects strong commercial investment balanced against significant gaps. The actuarial, reinsurance, and catastrophe modeling segments — the computational and financial backbone of insurance — are completely absent. Agency management systems that most insurance agencies operate on daily have zero MCP representation. And while Unstract handles ACORD form extraction, no server implements ACORD messaging standards for programmatic insurance data exchange.
 
 For insurers on Root or Socotra, the MCP story is genuinely compelling — full lifecycle management through AI agents with proper security and audit trails. For everyone else, this is a category to watch as more insurance platforms follow Root's lead in providing official MCP integrations.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

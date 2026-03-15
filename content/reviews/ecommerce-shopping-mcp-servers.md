@@ -282,3 +282,5 @@ The e-commerce MCP ecosystem has notable gaps:
 The e-commerce MCP ecosystem earns **4.0/5** — Shopify's platform-native MCP is a genuine industry first (making millions of stores AI-accessible by default), Stripe's toolkit is the gold standard for payment processing integration, WooCommerce gets comprehensive coverage, and the commercetools server demonstrates enterprise-grade commerce tooling. The Google UCP and Stripe ACP protocols signal that agentic commerce standardization is a priority for the world's largest commerce companies.
 
 Deductions for: fragmented Shopify Admin server landscape with 6+ overlapping community implementations, no consumer-facing shopping intelligence (price comparison, deal-finding, review aggregation), missing major platforms (BigCommerce, Square, eBay), limited safety controls for AI-driven purchases, and the Amazon servers being unofficial with potential reliability concerns. The gap between Shopify's visionary platform-native approach and other platforms' absence is striking — this is a category where first-mover advantage matters enormously.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

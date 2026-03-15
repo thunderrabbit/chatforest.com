@@ -177,3 +177,5 @@ The ecosystem has significant gaps beyond PPTX generation:
 Presentation MCP servers earn **3.5 out of 5**. PowerPoint generation is genuinely strong — the 1,600-star Office-PowerPoint-MCP-Server offers 34 tools with professional design features, templates, charts, and picture effects. Google Slides has solid coverage with full API access. Markdown alternatives (Marp, Reveal.js) give developers a code-first approach to slide creation.
 
 But the ecosystem is heavily skewed toward creating PPTX files from scratch. The broader presentation lifecycle — design iteration, collaboration, delivery, audience engagement, and analytics — has no MCP representation. If you need to generate slide decks programmatically, the tooling is ready. If you need to manage the full lifecycle of professional presentations, you're still doing most of the work manually.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

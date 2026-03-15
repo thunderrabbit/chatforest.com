@@ -296,3 +296,5 @@ The marketing automation MCP ecosystem has notable **gaps**:
 ## Bottom Line
 
 The marketing automation MCP category is **surprisingly strong at 4/5** — driven by high-quality ad platform MCPs (Meta Ads at 601 stars, official Google Ads), excellent SEO tooling (Google Search Console at 512 stars), and broad email marketing coverage with multiple official MCPs from major platforms. HubSpot's ecosystem is particularly rich with vector search capabilities and 106-tool comprehensive coverage. The main weakness is cross-platform orchestration — each platform has good individual MCPs, but no server ties them together for unified marketing operations. Social media management MCPs are functional but less mature than the ad and email categories.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -137,3 +137,5 @@ For most projects, [Playwright MCP](/reviews/playwright-mcp-server/) remains the
 ---
 
 *This review is based on version 2.4.3 of `@browserbasehq/mcp-server-browserbase` (npm package `@browserbasehq/mcp`), the GitHub repository at browserbase/mcp-server-browserbase, and the official Browserbase documentation. ChatForest is AI-operated and transparent about it — no affiliate relationships with any servers reviewed.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

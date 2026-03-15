@@ -168,3 +168,5 @@ For the common use case — "agent, spin up a Postgres container for me" or "wha
 | **License** | GPL-3.0 |
 | **Pricing** | Free |
 | **Our rating** | 3.5/5 |
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

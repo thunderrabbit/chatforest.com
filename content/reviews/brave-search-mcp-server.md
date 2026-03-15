@@ -108,3 +108,5 @@ That's it. Two steps. Compare this to the GitHub MCP server's token-scoping danc
 {{< verdict rating="4" summary="The default search server for most agents" >}}
 The Brave Search MCP server is the most feature-complete search integration in the MCP ecosystem. Six tools, a real free tier, privacy by default, and setup that takes two minutes. The lack of rate limit handling and slightly weaker niche search quality keep it from a perfect score. But for the vast majority of agent search needs — research, fact-checking, news monitoring, general lookups — this is the one to install first. If you're building an agent that needs to know things, start here.
 {{< /verdict >}}
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

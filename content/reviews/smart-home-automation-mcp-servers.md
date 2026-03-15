@@ -185,3 +185,5 @@ The smart home MCP ecosystem has a massive consumer-platform gap:
 **If you don't run Home Assistant, smart home MCP barely exists.** Hubitat and OpenHAB have basic servers, and the Smart Home Orchestrator provides multi-brand control for Nest/Ring/Ecobee. But Google Home, Amazon Alexa, Apple HomeKit, and Samsung SmartThings — the platforms that collectively serve the vast majority of smart home users — have zero MCP servers. This is a striking gap given that smart home control is a natural fit for conversational AI.
 
 The Home Assistant focus makes strategic sense — it's the platform where technically-inclined users already live, and its REST API makes MCP integration straightforward. But until the major consumer platforms get MCP servers (or until someone builds a universal bridge through Matter), this category remains a niche serving the Home Assistant community rather than the broader smart home market.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

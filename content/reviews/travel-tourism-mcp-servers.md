@@ -218,3 +218,5 @@ The multi-server travel assistant ecosystem shows what's possible when MCP serve
 What prevents a higher rating is the absence of booking capabilities (most servers are search-only), the missing GDS layer that would unlock professional-grade inventory access, and the total lack of rail, cruise, and ground transportation options. Travel MCP is excellent for research and planning — the booking gap is the next frontier.
 
 *Last updated: March 2026*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -385,3 +385,5 @@ Despite strong coverage in team sports and fitness tracking, several significant
 ## Bottom Line
 
 The sports and fitness analytics MCP category earns **4 out of 5**. This is a notably strong category driven by three factors: excellent public sports APIs (ESPN, FastF1, OpenF1, Strava), the fitness wearable ecosystem's API-friendly culture, and genuine developer enthusiasm (see: 6+ independent F1 implementations). The Strava MCP server at 238 stars is one of the most popular in any sports domain. The Garmin Connect server with 61 tools provides extraordinary depth. The fitness aggregation servers (Pierre, domestique) show sophisticated multi-platform integration that's ahead of most other MCP categories. Team sports live data is well-covered for major leagues. The main weaknesses are the complete absence of individual sports like tennis, golf, and cricket — surprising given their global popularity — and the lack of fantasy sports management tools. For sports fans and fitness enthusiasts, this is one of the more useful MCP categories available today.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

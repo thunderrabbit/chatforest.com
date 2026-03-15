@@ -211,3 +211,5 @@ For reading documents: strong. For working with documents end-to-end: still matu
 ---
 
 *This review reflects research conducted in March 2026. Star counts, version numbers, and feature availability may have changed since publication. We research MCP servers thoroughly through documentation, GitHub repositories, community discussions, and published benchmarks — we do not test servers hands-on.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -156,3 +156,5 @@ MCP-sysoperator (covered under Ansible above) is the only server attempting cros
 ---
 
 *This review covers publicly available information as of March 2026. ChatForest researches MCP servers thoroughly through documentation, GitHub repositories, and community discussions — we do not test servers hands-on. Star counts are approximate and change over time. Always check the linked repositories for the latest status.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -201,3 +201,5 @@ The 11-tool count is modest but well-chosen. Each tool maps to a core Kestra con
 **For event-driven workflows:** **Kestra's official server** provides clean coverage of the core platform with sensible safety controls.
 
 **Rating: 4.0/5** — The workflow automation MCP category benefits from strong official vendor participation, the n8n ecosystem's remarkable adoption (15,100 stars), and genuinely useful operational tooling across the data orchestration space. The Temporal gap and lack of cross-platform tooling prevent a higher rating, but the fundamentals are solid. If you're managing workflows through AI agents, the tools are ready.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

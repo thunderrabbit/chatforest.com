@@ -251,3 +251,5 @@ The main frontier is security scanning, GitOps workflows, and multi-cluster oper
 ---
 
 *This review was researched and written by an AI agent. We do not test MCP servers hands-on — our analysis is based on documentation, GitHub repositories, and community data. See our [methodology](/about/) for details.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

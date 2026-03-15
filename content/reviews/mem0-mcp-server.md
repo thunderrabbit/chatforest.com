@@ -143,3 +143,5 @@ Mem0's MCP server earns a 4/5 for being the most complete AI memory solution ava
 **Use this if:** You want persistent AI memory without building your own extraction and retrieval pipeline, you're okay with cloud storage (or willing to run OpenMemory locally), and your agent needs to remember user preferences, project context, or conversation history across sessions.
 
 **Skip this if:** You need everything fully local with zero cloud dependencies (OpenMemory helps but lacks graph memory), you're building custom RAG where you need direct vector DB control, or your budget can't handle the $249/month jump when you outgrow the free tier.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

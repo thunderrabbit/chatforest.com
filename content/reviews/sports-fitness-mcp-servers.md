@@ -314,3 +314,5 @@ The ecosystem is entirely community-driven — no major fitness platform or spor
 **Best for sports data:** guillochon/mlb-api-mcp (21+ tools with sabermetrics) or balldontlie-api/mcp (18 leagues, 250+ endpoints)
 **Best niche pick:** Panth1823/formula1-mcp (29 tools with live telemetry)
 **Best for fantasy:** KBThree13/mcp_espn_ff (ESPN Fantasy Football, 28 stars)
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

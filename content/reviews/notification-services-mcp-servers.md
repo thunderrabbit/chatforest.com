@@ -211,3 +211,5 @@ The gap compared to more mature MCP categories is the absence of SendGrid and Am
 ---
 
 *Last updated: March 15, 2026. Have we missed a notification MCP server? Let us know — we research new servers regularly.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

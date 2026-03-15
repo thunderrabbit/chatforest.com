@@ -140,3 +140,5 @@ Every server in this review wraps tools that can cause real harm if misused. Unl
 ## Rating: 3.5/5
 
 The network security MCP ecosystem is active and growing, with strong entries from official vendors (PortSwigger/Burp Suite) and comprehensive community suites (FuzzingLabs, pentest-mcp). The distributed diagnostics category (Globalping, ProbeOps) is genuinely innovative — remote MCP servers that provide global network visibility without local tool installation. However, the space is fragmented (30+ servers with significant overlap), several servers have known security vulnerabilities (ironic for security tools), adoption is low outside of Burp Suite's MCP server, and there's no standardized approach to authorization or safety controls. The packet capture servers work but need security hardening. The pentest suites are powerful but require careful deployment. For security professionals with proper authorization, these tools meaningfully accelerate workflows — but the ecosystem needs maturation before it's ready for widespread adoption.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -136,3 +136,5 @@ For anyone using Google Calendar who wants their AI assistant to manage scheduli
 **Rating: 4/5** — The best Google Calendar MCP server available, with multi-account support and active maintenance. OAuth setup complexity and the lack of an official Google server keep it from 4.5.
 
 ---
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

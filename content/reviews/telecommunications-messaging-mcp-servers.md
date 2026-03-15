@@ -390,3 +390,5 @@ Twilio's approach of exposing all 1,400+ endpoints via an OpenAPI-to-MCP generat
 The only thing keeping this from 5/5 is the complete absence of traditional telecom infrastructure. PBX systems, BSS/OSS platforms, carrier interconnect, and contact center systems — the operational backbone of telecommunications — have zero MCP representation. The CPaaS layer is brilliantly covered; the telco infrastructure layer is untouched.
 
 For developers building AI-powered communication features, this is the most production-ready MCP category available. Pick your CPaaS provider, install their official server, and you have enterprise-grade messaging and voice accessible to AI agents immediately.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

@@ -156,3 +156,5 @@ Requires Node.js v24.13.0+ and CodeQL CLI installed. 6 open issues, 18 PRs — a
 The 4.0 rating (up from 3.5 in many categories) reflects: **(1)** exceptional official vendor participation — seven vendors with production MCP servers, **(2)** comprehensive coverage — every major scanning domain is represented, **(3)** practical utility — these servers solve the real problem of catching vulnerabilities in AI-generated code, and **(4)** active development — Snyk at v1.6.1, SonarQube at 321 commits, Cycode at 388 commits. The missing pieces (no Checkmarx, weak DAST, no runtime security) prevent a higher rating.
 
 For most teams, start with your existing security vendor's MCP server. If you use SonarQube, their MCP server is excellent. If you want comprehensive coverage from one tool, Snyk's 11-tool server is the best single integration. For open source, Trivy's plugin is the most accessible entry point.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

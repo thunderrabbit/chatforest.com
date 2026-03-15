@@ -250,3 +250,5 @@ The CMS MCP ecosystem is one of the strongest in the entire MCP landscape. Offic
 **For developers building CMS applications**: Payload CMS's development assistance server and Storyblok's 160-tool server show how MCP can help build CMS-powered applications, not just manage content.
 
 **Rating: 4.5/5** — This is one of the strongest MCP categories overall. WordPress's Abilities API represents a genuinely novel approach to CMS-AI integration that other platforms will likely emulate. The breadth of official support is unmatched in the MCP ecosystem. Headless CMS platforms are pushing the frontier with remote hosted servers, OAuth authentication, and schema-aware operations. Ghost's comprehensive single-server coverage, Sanity's "always-fresh" agent rules, and Directus's dynamic prompts show real innovation. Deductions for fragmented WordPress ecosystem, missing major website builders (Squarespace, Wix), limited safety controls, and no cross-CMS content migration tooling.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

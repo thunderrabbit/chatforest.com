@@ -227,3 +227,5 @@ For AWS-heavy teams, this is essential infrastructure — the Knowledge server a
 | **License** | Apache 2.0 |
 | **Pricing** | Free (open source) + AWS service costs |
 | **Our rating** | 4/5 |
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

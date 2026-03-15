@@ -199,3 +199,5 @@ For the core use case — "agent, help me debug this pod" or "what's happening i
 | **License** | GitHub License |
 | **Pricing** | Free |
 | **Our rating** | 4/5 |
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

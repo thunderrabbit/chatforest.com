@@ -247,3 +247,5 @@ For blockchain data querying, wallet management, DeFi protocol interaction, and 
 ---
 
 *This review is part of our comprehensive [MCP servers comparison](/guides/best-mcp-servers/) covering 155+ categories. Last updated: March 2026.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

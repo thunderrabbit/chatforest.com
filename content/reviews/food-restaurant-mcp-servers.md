@@ -246,3 +246,5 @@ Food & Restaurant MCP servers earn **4.0 out of 5**. The official vendor partici
 The recipe space is well-served by HowToCook-mcp (569 stars) with its smart meal planning and Spoonacular's official API access. Nutrition tracking has strong local-first options — OpenNutrition's 300,000+ food database runs entirely offline. The restaurant reservation space has a standout in the unified Resy + OpenTable searcher with its reservation sniper feature. Grocery shopping gets Instacart's official workflow and Kroger's creative shopping path optimization.
 
 The weaknesses are the heavy duplication in nutrition tracking (6+ near-identical USDA wrappers), the absence of major US grocery chains beyond Kroger, and the lack of food delivery MCP servers from Western platforms — DoorDash, GrubHub, and UberEats only have community-built or proof-of-concept implementations while Indian platforms have production-grade official servers. The beverage space is notably underdeveloped with only one cocktail server and no wine or beer databases.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

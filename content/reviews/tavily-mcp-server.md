@@ -120,3 +120,5 @@ No npm, no Node.js, no Docker. This is the fastest MCP server setup I've seen �
 {{< verdict rating="4" summary="The best search-to-extract pipeline in one MCP server" >}}
 The Tavily MCP server earns its place as the default search API for AI frameworks. Four tools that cover search, extraction, crawling, and site mapping — capabilities that would normally require two or three separate MCP servers. The remote hosted server is the easiest setup in the ecosystem. Keyword-based search quality trails semantic engines like Exa on conceptual queries, and credit stacking at scale can get expensive. But for the common workflow of "find it, read it, crawl for more" — Tavily handles the whole pipeline. If your agent needs to both discover and consume web content, this is the one to use.
 {{< /verdict >}}
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

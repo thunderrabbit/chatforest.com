@@ -245,3 +245,5 @@ The container registry MCP space is functional but not yet mature. Official vend
 ---
 
 *ChatForest reviews MCP servers through research, documentation analysis, and community feedback. We do not run or test servers hands-on. Ratings reflect capability, maturity, and ecosystem fit based on available evidence. [About our methodology](/about/)*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

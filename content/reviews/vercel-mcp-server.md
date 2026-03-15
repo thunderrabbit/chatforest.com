@@ -141,3 +141,5 @@ The Vercel MCP server earns a 3.5/5 for delivering a solid remote-first architec
 **Use this if:** You deploy on Vercel and want AI-assisted deployment monitoring — especially build failure diagnosis and runtime log querying.
 
 **Skip this if:** You need full Vercel platform management (use a community server instead), you don't deploy on Vercel, or your MCP client isn't on the approved list.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

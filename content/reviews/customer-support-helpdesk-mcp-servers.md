@@ -204,3 +204,5 @@ The gaps in this category are notable:
 ## The Bottom Line
 
 Customer support MCP servers earn **3.5 out of 5**. The breadth is impressive — every major support platform has at least one MCP implementation, and three (Intercom, Plain, Pylon) have official servers. The depth varies wildly: Freshdesk's 30-tool server and ServiceNow's 60+ tool implementation are genuinely comprehensive, while others offer minimal ticket search. The category's biggest weakness is the gap between what's possible and what's built — these servers handle ticket CRUD well but don't yet enable the intelligent support workflows (auto-routing, sentiment analysis, SLA monitoring) that would make AI-assisted customer support truly transformative. The absence of an official Zendesk server remains the most conspicuous gap.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

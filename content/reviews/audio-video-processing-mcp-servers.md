@@ -247,3 +247,5 @@ The audio and video MCP ecosystem earns 4.0/5 for breadth, official vendor parti
 The rating reflects both strengths and opportunities. On the positive side: strong official servers (ElevenLabs, DaVinci Resolve), mature multi-provider approaches (blacktop/mcp-tts), open-weight alternatives for privacy (Kokoro, whisper.cpp), and innovative patterns (REAPER's deployment profiles, DaVinci Resolve's compound/granular dual mode). On the gap side: no real-time audio, fragmented FFmpeg landscape, limited safety controls, and missing official servers from major speech AI providers (Deepgram, AssemblyAI).
 
 For **text-to-speech**, start with ElevenLabs if cloud APIs are acceptable, or Kokoro for local/private deployment. For **transcription**, use OpenAI Whisper MCP for cloud quality or local-stt-mcp for privacy. For **video editing**, choose DaVinci Resolve MCP for professional NLE control or misbahsy/video-audio-mcp for FFmpeg-based processing. For **music production**, Ableton MCP is the safe choice for adoption, but total-reaper-mcp offers dramatically more depth for REAPER users.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

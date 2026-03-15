@@ -203,3 +203,5 @@ The Salesforce ecosystem alone would rate 4/5. The broader CRM landscape — whe
 ---
 
 *This review covers the CRM MCP server landscape as of March 2026. ChatForest researches MCP servers by reading source code, analyzing GitHub repositories and issues, studying documentation, and examining community signals. We do not install or run the servers ourselves. See our [methodology](/about/#our-review-methodology) for details.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

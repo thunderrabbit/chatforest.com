@@ -420,3 +420,5 @@ The photography MCP ecosystem earns **3.5 out of 5**. Here's why:
 - **Lightroom fragmentation** — two competing implementations, neither with significant community adoption
 
 The photography MCP category mirrors the broader creative-tools pattern we've seen across reviews: the open-source tools (GIMP, ImageSorcery) have the strongest integrations, proprietary software (Photoshop, Lightroom) gets workable but more limited bridges, and the truly specialized photography workflows (RAW processing, tethered shooting, HDR) remain underserved. For web developers needing image optimization and stock photos, the ecosystem delivers well. For professional photographers wanting AI-assisted editing workflows, it's promising but incomplete.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

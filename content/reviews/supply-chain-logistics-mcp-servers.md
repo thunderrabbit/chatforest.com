@@ -272,3 +272,5 @@ The **ERP layer is surprisingly well-served**: Microsoft, Oracle, SAP, and Odoo 
 But the **logistics-specific tooling is thin**. The supply chain industry's $8 trillion+ market has minimal MCP representation beyond basic shipping and ERP connectivity. Whoever builds MCP servers for WMS, TMS, demand planning, and supply chain visibility will find virtually no competition.
 
 **Rating: 3.5/5** — Strong at the edges (shipping platforms, ERP systems) with a gaping hole in the logistics middle (WMS, TMS, visibility, forecasting). The ERP coverage lifts the score, but this category needs purpose-built supply chain operations servers to match the sophistication of other enterprise MCP categories.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

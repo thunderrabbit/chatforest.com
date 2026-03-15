@@ -319,3 +319,5 @@ The main weakness is the sharp divide between design and construction. The desig
 **Install if:** you work with Revit, AutoCAD, Rhino, SketchUp, ArchiCAD, or Tekla Structures and want AI-assisted modeling, design automation, or BIM data queries.
 
 **Skip if:** you need construction project management, scheduling, estimating, or site operations — the MCP ecosystem hasn't reached those workflows yet.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

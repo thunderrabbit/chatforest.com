@@ -128,3 +128,5 @@ The Pinecone Developer MCP server earns a 3/5 for offering genuinely innovative 
 **Use this if:** You're already using Pinecone with integrated embedding indexes and want AI-assisted search with reranking and cross-index queries.
 
 **Skip this if:** You need local development, custom embeddings, delete/update operations, or you want full database management control — Chroma or Milvus are better choices.
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

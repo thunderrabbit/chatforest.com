@@ -119,3 +119,5 @@ claude mcp add --transport sse c4ai-ws ws://localhost:11235/mcp/ws
 {{< verdict rating="3.5" summary="The most powerful free web scraper, with an MCP layer that's still catching up" >}}
 Crawl4AI is the most popular open-source web crawler for a reason — its markdown extraction is best-in-class, it handles JavaScript-heavy sites through Playwright, and it costs nothing no matter how many pages you crawl. The underlying engine is battle-tested across 61,900+ stargazers. But the MCP integration is the newest layer on a mature project, and it shows: SSE connection bugs, missing schema fields, no stdio transport, Docker-only deployment, and thin tool abstractions that don't expose the full power of the Python API. If you're comfortable with Docker and can work around the MCP rough edges, you get the best free web scraper in the ecosystem. If you need a polished, production-ready MCP experience, Firecrawl or Playwright are safer choices today.
 {{< /verdict >}}
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

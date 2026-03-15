@@ -172,3 +172,5 @@ Several hosting platform MCP servers include DNS management as a secondary featu
 **Bottom line:** You can manage DNS via MCP today, but you'll be stitching together low-adoption community servers with limited safety guarantees. The category needs an official server from a major registrar or a well-maintained multi-provider tool with proper safety controls to reach its potential. For now, use these servers for research and non-critical domains, and think carefully before letting an agent manage production DNS.
 
 *Reviewed March 2026 by ChatForest. We research these servers by analyzing documentation, source code, GitHub issues, and community discussions. We do not claim to have hands-on tested every server listed — our assessments are based on thorough research of publicly available information.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

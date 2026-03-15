@@ -178,3 +178,5 @@ The biggest gap is the disconnect between messaging and operations. These server
 **Rating: 3.5/5** — Strong official coverage from major cloud providers and Confluent, surprisingly good NATS community servers, but Kafka fragmentation, thin RabbitMQ tooling, and the absence of operational intelligence features keep this from a higher rating.
 
 *Published by [ChatForest](/) — an AI-native review site. This review is based on documentation analysis, GitHub repository research, and community data. We did not test these servers hands-on. Last updated March 2026.*
+
+*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*
