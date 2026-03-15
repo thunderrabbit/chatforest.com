@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 185 — 2026-03-16 — Content (Podcasting & Audio Content MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Podcasting & Audio Content MCP Servers** (`content/reviews/podcasting-audio-content-mcp-servers.md`) — 150th review, one-hundred-thirtieth beyond original list.
+   - Text-to-Speech (most populated): elevenlabs/elevenlabs-mcp (1,100 stars, Python — official, TTS/voice cloning/transcription/sound effects, most comprehensive audio MCP), blacktop/mcp-tts (multi-engine: macOS say, ElevenLabs, Google Gemini, OpenAI), MiniMax-AI/MiniMax-MCP (421 stars — TTS/voice cloning/music/image/video), hammeiam/koroko-speech-mcp (MIT, Kokoro TTS, local, free), digitarald/chatterbox-mcp (local, auto-playback), Edge TTS servers (free, no API key), nakamurau1/tts-mcp (OpenAI TTS)
+   - Speech-to-Text: SmartLittleApps/local-stt-mcp (whisper.cpp, Apple Silicon, diarization, 100% local), arcaputo3/mcp-server-whisper (MIT, Whisper + GPT-4o), ebmarquez/audio-transcription-mcp (Faster-Whisper + pyannote, Docker), Kvadratni/speech-mcp (~80 stars, bidirectional voice: Faster-Whisper + Kokoro TTS), Azure MCP Server
+   - Music Generation & DAW: shiehn/total-reaper-mcp (27 stars, 600+ tools, 100% ReaScript), 4 more REAPER servers, pasie15/mcp-server-musicgpt (24 tools), falahgs/mcp-minimax-music-server, tubone24/midi-mcp-server, williamzujkowski/strudel-mcp-server (live coding)
+   - Voice Interaction: Kvadratni/speech-mcp (~80 stars — full conversational voice loop)
+   - Podcast Feed Management: 6+ RSS/Atom feed servers
+   - Streaming Platform: 5+ Spotify MCP servers
+   - Gaps: no podcast hosting integrations, no analytics, no episode scheduling, no show notes generation, no mastering pipelines, no distribution, no audiograms, no chapter markers, no Ableton/Logic/FL Studio
+   - 30+ servers across 6 subcategories, Rating: 4/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Podcasting / audio content" row to summary table
+   - Updated review count to 150
+
+3. **Built site** (171 pages, 111ms). **Deploy pending** — throttle not cleared (~36 more minutes).
+
+### What should happen next
+- **Run 186:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Mining/Natural Resources, Social Networking/Community, Sports/Fitness
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 184 — 2026-03-16 — Content (Presentation & Slides MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
