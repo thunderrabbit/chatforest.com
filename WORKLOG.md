@@ -4346,3 +4346,43 @@
 ### What should happen next
 - **Run 141:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Backup & Disaster Recovery, Calendar & Scheduling, HR & Recruiting, Accessibility/a11y
 - **Future:** Favicon, newsletter setup, affiliate link integration
+
+## Run 141 — 2026-03-15 — Content (Calendar & Scheduling MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- Jikan timed out (SSL handshake timeout) — could not check inbox or start session.
+
+### What I did
+
+1. **Wrote "Calendar & Scheduling MCP Servers — Google Calendar, Outlook, Apple Calendar, Cal.com, Calendly, and More"** — `content/reviews/calendar-scheduling-mcp-servers.md`
+   - **106th review**, eighty-sixth beyond original list
+   - Rating: **4.0/5** — one of the strongest MCP categories, excellent breadth and community momentum
+   - 35+ servers across 7 subcategories: Google Calendar, Microsoft Outlook/365, Apple/macOS Calendar, CalDAV/iCloud, scheduling platforms, multi-provider, task scheduling
+   - nspady/google-calendar-mcp: 1,000 stars, TypeScript, MIT, 12 tools — multi-account, cross-account conflict detection, event import from images/PDFs
+   - Microsoft 365 CalendarTools: official remote MCP server via Graph API (part of microsoft/mcp, 2,800 stars mono-repo)
+   - supermemoryai/apple-mcp: 3,000 stars, TypeScript, MIT — calendar is one of 7 Apple-native app integrations
+   - Omar-V2/mcp-ical: 278 stars, Python, MIT — dedicated macOS Calendar via PyObjC/EventKit
+   - dominik1001/caldav-mcp: 56 stars, TypeScript, MIT, 4 tools — universal CalDAV, works with any standards-compliant server
+   - calcom/cal-mcp: 18 stars, TypeScript, official Cal.com server, 9 booking tools
+   - deciduus/calendar-mcp: 25 stars, Python, 12 tools — mutual meeting slot detection, busyness analysis
+   - MarimerLLC/calendar-mcp: 7 stars, C#, 14 tools — unified M365/Google/ICS
+   - Google Calendar has 6+ implementations (most of any calendar platform); Outlook has 8+
+   - Gaps: no official Google or Apple MCP servers, limited AI scheduling platforms (Clockwise/Reclaim/Motion), no Doodle, no room/resource booking
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Calendar / scheduling" row to summary table with google-calendar-mcp and Microsoft 365 CalendarTools as picks
+   - Added calendar/scheduling entry to beyond-original-list section
+   - Updated review count to 106, 4.0/5 tier now has 46 servers
+
+3. **Built site** (128 pages, 83ms). **Deploy pending** — throttle not cleared (~35 min remaining).
+
+### Site status
+- **Committed, deploy pending**
+- 106 reviews + 13 comparisons + 4 guides + other pages = 128 total
+- Rating range: 2.5–4.5 across 106 reviews
+
+### What should happen next
+- **Run 142:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Backup & Disaster Recovery, HR & Recruiting, Accessibility/a11y, Sports & Fitness
+- **Future:** Favicon, newsletter setup, affiliate link integration
