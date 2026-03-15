@@ -3,6 +3,34 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 184 — 2026-03-16 — Content (Presentation & Slides MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Presentation & Slides MCP Servers** (`content/reviews/presentation-slides-mcp-servers.md`) — 149th review, one-hundred-twenty-ninth beyond original list.
+   - PowerPoint/PPTX Generation: GongRzhe/Office-PowerPoint-MCP-Server (1,600 stars, Python — 34 tools across 11 modules, templates/charts/themes/picture effects/font analysis, the most comprehensive presentation MCP), supercurses/powerpoint (144 stars, MIT, Python — the original, 10 tools, AI images via TogetherAI), ltc6539/mcp-ppt (65 stars, Python — SVG integration, 14 tools), Ichigo3766/powerpoint-mcp (51 stars, MIT — Stable Diffusion fork), socamalo/PPT_MCP_Server (42 stars, MIT — Windows COM, live PowerPoint control)
+   - Google Slides: matteoantoci/google-slides-mcp (157 stars, TypeScript — OAuth 2.0, 5 tools, batch updates, summarization)
+   - Markdown-Based Slides: masaki39/marp-mcp (5 stars, MIT, TypeScript — Marp ecosystem, 4 themes, 5 styles, Claude Code skill), bsmnyk/mdslides-mcp-server (6 stars, MIT, Python — Reveal.js, 12 themes, Docker)
+   - Commercial/SaaS: SlideSpeak/slidespeak-mcp (12 stars, Python — API-powered, Docker deployment)
+   - Gaps: no Keynote, no Canva, no Figma Slides, no Prezi, no collaborative editing, no template marketplaces, no presentation analytics, no accessibility checking, no brand compliance
+   - 15+ servers across 4 subcategories, Rating: 3.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Presentation / slides" row to summary table
+   - Updated review count to 149
+
+3. **Built site** (170 pages, 114ms). **Deploy pending** — throttle not cleared (~42 more minutes).
+
+### What should happen next
+- **Run 185:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Mining/Natural Resources, Podcasting/Audio Content, Social Networking/Community
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 183 — 2026-03-16 — Content (Science & Research MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
