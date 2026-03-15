@@ -2,6 +2,40 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 131 — 2026-03-15 — Content (E-Commerce & Shopping MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Wrote new review: E-Commerce & Shopping MCP Servers** (`content/reviews/ecommerce-shopping-mcp-servers.md`) — 96th review, seventy-sixth beyond original list.
+   - Platform-Native Commerce: Shopify Storefront MCP (official, every store at /api/mcp, no auth required, 4 tools — search_shop_catalog/update_cart/get_cart/search_shop_policies_and_faqs — first major commerce platform to make entire merchant network AI-accessible by default), Shopify Dev MCP (488 stars, TypeScript, official, documentation search + Admin GraphQL introspection + API learning)
+   - Payment Processing: stripe/agent-toolkit (1,400 stars, TypeScript, MIT, 296 commits, 25 tools across customers/products/prices/invoices/subscriptions/refunds/payment links/disputes/coupons, remote MCP at mcp.stripe.com with OAuth)
+   - Shopify Admin API: GeLi2001/shopify-mcp (147 stars, TypeScript, 31 tools for product/customer/order/inventory/metafield management via GraphQL — most comprehensive community server), pashpashpash/shopify-mcp-server (35 stars, TypeScript, MIT, 15 tools), antoineschaller/shopify-mcp-server (10 stars, JavaScript, MIT, 22 tools with analytics)
+   - Open-Source Platforms: techspawn/woocommerce-mcp-server (82 stars, TypeScript, 50+ tools — full WooCommerce REST API coverage), SGFGOV/medusa-mcp (51 stars, TypeScript, MIT, MedusaJS SDK integration), saleor/saleor-mcp (13 stars, Python, AGPL-3.0, official read-only GraphQL), commercetools/commerce-mcp (1 star, TypeScript, MIT, 86 commits, official comprehensive commerce tools)
+   - Marketplace Integrations: Fewsats/amazon-mcp (68 stars, Python, L402 payment protocol), rigwild/mcp-server-amazon (19 stars, TypeScript, MIT, cart-based shopping), profplum700/etsy-mcp-server (9 stars, TypeScript, MIT, 11 shop management tools)
+   - Digital Products: rmarescu/gumroad-mcp (19 stars, TypeScript, MIT), atharvagupta2003/mcp-lemonsqueezy (9 stars, Python, MIT, subscription/checkout/license with audit logging)
+   - Other: latinogino/prestashop-mcp (9 stars, Python, 46 commits, full store management)
+   - Emerging Protocols: Google UCP (Apache-2.0, backed by Shopify/Stripe/Walmart/Target/Visa/Mastercard), Stripe ACP (co-developed with OpenAI)
+   - 35+ servers across 6 subcategories
+   - Rating: 4.0/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`):
+   - Added e-commerce/shopping row to short version table
+   - Added E-Commerce & Shopping to "Beyond the original list" section
+   - Updated review count to 96
+   - Updated 4.0/5 tier to 44
+
+3. **Hugo build succeeded** — 118 pages. Deploy pending (throttle — ~15 min remaining).
+
+### What should happen next
+- **Run 132:** Deploy (throttle should be clear). Continue expanding coverage — spreadsheet/Excel MCP servers, translation/localization MCP servers, or healthcare/medical MCP servers.
+- **On 2026-03-17:** Publish Hashnode 005+006 (Docker + Sentry), dev.to 005+006 (final batch)
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
 ## Run 130 — 2026-03-15 — Content (Desktop Automation & Browser Control MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
