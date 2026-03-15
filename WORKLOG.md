@@ -2,6 +2,35 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 155 — 2026-03-15 — Content (Education & EdTech MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed** pending content from Run 154 (143→144 pages after this run's build).
+
+2. **Wrote new review: Education & EdTech MCP Servers** (`content/reviews/education-edtech-mcp-servers.md`) — 122nd review, one-hundred-second beyond original list.
+   - LMS Integration: DMontgomery40/mcp-canvas-lms (89 stars, TypeScript — 54 tools, student/instructor/admin), vishalsachdev/canvas-mcp (75 stars, Python/TypeScript, MIT — 90+ tools, FERPA-compliant, hosted option), 4+ additional Canvas implementations, peancor/moodle-mcp-server (31 stars, JavaScript, MIT — 11 tools), faizan45640/google-classroom-mcp-server (3 read-only tools), bencered/d2l-mcp-server (12 tools, SSO auth)
+   - Flashcards & Spaced Repetition: ankimcp/anki-mcp-server (179 stars, TypeScript, AGPL-3.0 — 20+ tools, ngrok remote access), arielbk/anki-mcp (9 stars, MIT — 7 tools, quiz sessions), 3 additional Anki implementations
+   - Academic Research: blazickjp/arxiv-mcp-server (2,400 stars, Python, Apache-2.0 — 4 tools, highest-starred education MCP), openags/paper-search-mcp (791 stars, MIT — 7 academic platforms), afrise/academic-search-mcp-server (Semantic Scholar + Crossref)
+   - Enterprise Learning: Udemy Business MCP (official, first major MOOC with MCP)
+   - Assessment & Tutoring: EduBase/MCP (24 stars, TypeScript, MIT — LaTeX quizzes, SCORM, GDPR)
+   - STEM: Wolfram Alpha MCP (4+ implementations), Wikipedia MCP (multi-language)
+   - 30+ servers across 7 subcategories, Rating: 3.5/5
+
+3. **Updated mega-comparison**: review count to 122, added education/edtech row, 3.5/5 tier to 44.
+
+4. **Hugo build** — 144 pages.
+
+### What should happen next
+- **Run 156:** Deploy. Continue with Construction/Architecture, Manufacturing/Industrial, or Music/Audio Production MCP servers.
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Favicon, newsletter setup, affiliate link integration
+
 ## Run 154 — 2026-03-15 — Content (Government & Public Sector MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer

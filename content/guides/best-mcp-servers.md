@@ -1,7 +1,7 @@
 ---
 title: "Best MCP Servers for Developers in 2026"
 date: 2026-03-14T02:52:53+09:00
-description: "We've reviewed 121 MCP servers and compared 40+ across 13 categories. Here are the ones worth installing — and the ones to avoid."
+description: "We've reviewed 122 MCP servers and compared 40+ across 13 categories. Here are the ones worth installing — and the ones to avoid."
 og_description: "We've tested 33 MCP servers and compared 40+ across 11 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
 content_type: "Comparison"
 card_description: "We've reviewed 28 MCP servers across 11 categories and beyond. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
@@ -9,7 +9,7 @@ card_description: "We've reviewed 28 MCP servers across 11 categories and beyond
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [119 in-depth reviews](/reviews/) and [13 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [122 in-depth reviews](/reviews/) and [13 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -113,6 +113,7 @@ If you want to skip the details:
 | Pharmaceutical / healthcare | [Pharmaceutical & Healthcare MCP](/reviews/pharmaceutical-healthcare-mcp-servers/) | 4.5/5 | [healthcare-mcp-public](https://github.com/Cicatriiz/healthcare-mcp-public) (102 stars, 9 tools), [wso2/fhir-mcp-server](https://github.com/wso2/fhir-mcp-server) (98 stars, FHIR bridge), [ChEMBL-MCP-Server](https://github.com/Augmented-Nature/ChEMBL-MCP-Server) (77 stars, 22 drug discovery tools), [OpenPharma](https://github.com/openpharma-org) (45 repos) |
 | Automotive / vehicle | [Automotive & Vehicle MCP](/reviews/automotive-vehicle-mcp-servers/) | 3.0/5 | [cobanov/teslamate-mcp](https://github.com/cobanov/teslamate-mcp) (103 stars, 18+ queries, TeslaMate analytics), [carsxe/carsxe-mcp-server](https://github.com/carsxe/carsxe-mcp-server) (12 stars, official vendor, VIN/specs/recalls), [Embedded-MCP-ELM327](https://github.com/castlebbs/Embedded-MCP-ELM327) (MCP on OBD-II hardware) |
 | Government / public sector | [Government & Public Sector MCP](/reviews/government-public-sector-mcp-servers/) | 4.0/5 | [GovInfo MCP](https://www.govinfo.gov/features/mcp-public-preview) (official GPO, first U.S. federal MCP), [uscensusbureau/us-census-bureau-data-api-mcp](https://github.com/uscensusbureau/us-census-bureau-data-api-mcp) (34 stars, official), [datagouv/datagouv-mcp](https://github.com/datagouv/datagouv-mcp) (85 stars, official French), [us-gov-open-data-mcp](https://github.com/lzinga/us-gov-open-data-mcp) (188+ tools, 36+ APIs) |
+| Education / EdTech | [Education & EdTech MCP](/reviews/education-edtech-mcp-servers/) | 3.5/5 | [blazickjp/arxiv-mcp-server](https://github.com/blazickjp/arxiv-mcp-server) (2,400 stars, paper search/download), [openags/paper-search-mcp](https://github.com/openags/paper-search-mcp) (791 stars, 7 academic platforms), [ankimcp/anki-mcp-server](https://github.com/ankimcp/anki-mcp-server) (179 stars, 20+ tools, spaced repetition), [DMontgomery40/mcp-canvas-lms](https://github.com/DMontgomery40/mcp-canvas-lms) (89 stars, 54 Canvas LMS tools) |
 | Vector database | [Chroma MCP](/reviews/chroma-mcp-server/) | 3.5/5 | [Milvus MCP](/reviews/milvus-mcp-server/) (3.5/5, hybrid search) |
 
 Now the details.
@@ -550,7 +551,7 @@ Our rating distribution tells the story:
 |--------|-------|---------|
 | 4.5/5 | 4 | Playwright, Cloudflare, CMS/Content Management, Pharmaceutical/Healthcare |
 | 4.0/5 | 50 | Filesystem, GitHub, Brave Search, Slack, Sentry, Exa, Neon, Supabase, Stripe, Linear, Todoist, Firecrawl, Tavily, Perplexity, MongoDB, AWS, Kubernetes, Terraform, Grafana, Datadog, New Relic, Honeycomb, PagerDuty, Framelink, GitMCP, Mem0, Zep/Graphiti, Asana, Google Calendar, CI/CD, Code Security, Secret Management, Log Management, Infrastructure Automation, Database Administration, API Testing, Data Pipeline/ETL, Geospatial/Mapping, Time-Series Databases, Audio/Video Processing, Workflow Automation, Game Engines/3D, Desktop Automation/Browser Control, E-Commerce/Shopping, Feature Flags/Experimentation, Calendar/Scheduling, Sports/Fitness, Travel/Tourism, Telecommunications/Communications, Government/Public Sector |
-| 3.5/5 | 43 | Context7, Puppeteer, Memory, Fetch, Notion, Vercel, Figma Dev Mode, Chroma, Browserbase, Crawl4AI, Milvus, Docker, Pulumi, Teams, Atlassian, Obsidian, Shopify, Gmail, Outlook, CRM, Analytics, Cloud Storage, Search Engines, Message Queues, PDF/Documents, Monitoring/Uptime, Notification/Email Delivery, Testing/QA, API Gateways, Container Registries, CDN/Edge Computing, DNS/Domains, Network Security, Performance/Load Testing, AI/ML Model Serving, Data Visualization, Chaos Engineering, Blockchain/Web3, Identity/Auth, Legal/Contract Management, Customer Support/Helpdesk, Supply Chain/Logistics, Energy/Utilities |
+| 3.5/5 | 44 | Context7, Puppeteer, Memory, Fetch, Notion, Vercel, Figma Dev Mode, Chroma, Browserbase, Crawl4AI, Milvus, Docker, Pulumi, Teams, Atlassian, Obsidian, Shopify, Gmail, Outlook, CRM, Analytics, Cloud Storage, Search Engines, Message Queues, PDF/Documents, Monitoring/Uptime, Notification/Email Delivery, Testing/QA, API Gateways, Container Registries, CDN/Edge Computing, DNS/Domains, Network Security, Performance/Load Testing, AI/ML Model Serving, Data Visualization, Chaos Engineering, Blockchain/Web3, Identity/Auth, Legal/Contract Management, Customer Support/Helpdesk, Supply Chain/Logistics, Energy/Utilities, Education/EdTech |
 | 3.0/5 | 9 | SQLite, Sequential Thinking, Qdrant, Pinecone, Git, Discord, Agriculture/Farming, Insurance, Automotive/Vehicle |
 | 2.5/5 | 2 | PostgreSQL, EverArt |
 
