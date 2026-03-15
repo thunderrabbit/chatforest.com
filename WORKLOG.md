@@ -3,6 +3,41 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 221 — 2026-03-16 — Content (Fitness & Wearables MCP Servers Review)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages. Still awaiting Rob's reply on: #174 (byline format), #175 (Blue Sky acknowledged)
+
+### What I did
+
+1. **Wrote new review: Fitness & Wearables MCP Servers** (`content/reviews/fitness-wearables-mcp-servers.md`) — 186th review.
+   - Strava (7+ servers): r-huijts/strava-mcp (TypeScript — zero-install npx), eddmann/strava-mcp (TypeScript — 24 tools, activities/segments/routes/training), gcoombe/strava-mcp (all major endpoints), MariyaFilippova/mcp-strava (Claude Desktop), kw510/strava-mcp (Cloudflare Workers, remote OAuth), tomekkorbak/strava-mcp-server (Python), yorrickjansen/strava-mcp (Python)
+   - Garmin (5+ servers): Taxuspt/garmin_mcp (Python — 96+ tools, ~89% of python-garminconnect), Nicolasvegam/garmin-connect-mcp (Python — 61 tools, 7 categories), eddmann/garmin-connect-mcp (22 tools, 8 categories), jlwainwright/garmin-mcp-server, eversonl/garmin-health-mcp-server
+   - WHOOP (6+ servers): nissand/whoop-mcp-server-claude (TypeScript — 18+ endpoints, full OAuth), JedPattersonn/whoop-mcp, ctvidic/whoop-mcp-server, elizabethtrykin/whoop-mcp, k0va1/whoop-mcp (Ruby), xokvictor/whoop-mcp (Go)
+   - Apple Health & Open Wearables: the-momentum/apple-health-mcp-server (915 stars, Python — unified platform for 6 wearable ecosystems, companion app, DuckDB backend)
+   - Oura Ring (4+ servers): hemantkamalakar/oura-mcp-server (20 tools, anomaly detection, trend prediction), elizabethtrykin/oura-mcp, meimakes/oura-mcp-server, rajvirtual/oura-mcp-server
+   - Fitbit (2+ servers): TheDigitalNinja/mcp-fitbit (exercise, sleep, weight, heart rate, nutrition), NitayRabi/fitbit-mcp
+   - Training platforms (3+ servers): ai-endurance/mcp (remote MCP, ML race predictions, 20+ tools), Milofax/xert-mcp (cycling fitness signature), Dinesh-Satram/fitness_coach_MCP
+   - Multi-platform: Async-IO/pierre_mcp_server (Strava/Garmin/Fitbit/WHOOP/COROS, 150+ wearables via Terra, MCP + A2A + REST), Juxsta/wger-mcp (open-source wger platform)
+   - Nutrition: ai-mcp-garage/mcp-myfitnesspal (calories, macros, meals), AdamWalt/myfitnesspal-mcp-python
+   - Smart health devices: elizabethtrykin/8sleep-mcp (Eight Sleep Pod), schimmmi/withings-mcp-server, akutishevsky/withings-mcp, Dhivakarkd/corus-mcp (COROS)
+   - Gaps: no Peloton, no Zwift, no Apple Watch direct, no Google Fit standalone, no Amazfit/Xiaomi, no standardized health data format
+   - 40+ servers across 8 subcategories, Rating: 4/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Fitness / wearables" row to summary table
+   - Updated review count to 186
+
+3. **Built site** (206 pages, 132ms). Deploy pending — throttle not yet cleared (~30 min remaining).
+
+### What should happen next
+- **Run 222:** Deploy if throttle cleared. Continue expanding coverage — potential categories: Gardening/Horticulture, Waste Management, Insurance/InsurTech, Construction/BIM
+- **Awaiting Rob's reply on:** #174 (byline format), #175 (Blue Sky acknowledged)
+- **On 2026-03-17:** Publish Hashnode 005+006, dev.to 005+006
+- **Future:** Implement byline attribution once Rob approves format, Blue Sky setup, favicon, newsletter setup, affiliate link integration, run freshness check periodically
+
 ## Run 220 — 2026-03-16 — Content (Advertising & Ad-Tech MCP Servers Review)
 
 **Mode:** Researcher + Copywriter + Developer
