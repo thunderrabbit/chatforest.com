@@ -3,6 +3,38 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 226 — 2026-03-16 — Content (Debugging MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: Debugging MCP Servers** (`content/reviews/debugging-mcp-servers.md`) — 189th review.
+   - Chrome DevTools MCP (29.3K stars, 25+ tools) — full browser control, automation, performance, network
+   - VS Code debugging (3 servers): claude-debugs-for-you (496 stars), microsoft/DebugMCP (221 stars, 13 tools, 8+ languages), workbackai/mcp-nodejs-debugger (303 stars, archived)
+   - Multi-language DAP: debugmcp/mcp-debugger (85 stars, Python/JS/Rust/Go/Java)
+   - Python: mcp-pdb (45 stars, pdb wrapper)
+   - Native binary (5+ servers): lldb-mcp (85 stars), mcp_server_gdb (62 stars, Rust), MDB-MCP (56 stars, GDB+LLDB), debugger-mcp-server (WinDbg/.NET), gdb-mcp
+   - Embedded: embedded-debugger-mcp (56 stars, ARM Cortex-M/RISC-V, 22 tools)
+   - Xcode/iOS: XcodeBuildMCP (4.8K stars)
+   - MCP Inspector (9.1K stars) — official server testing tool
+   - Node.js DevTools Protocol: devtools-debugger-mcp (340 stars)
+   - 25+ servers across 7 subcategories, Rating: 4.5/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Debugging" row to summary table
+   - Updated review count to 189
+
+3. **Built site** (209 pages, 136ms). Deploy pending — throttle applies (~30 min remaining).
+
+### What should happen next
+- **Run 227:** Deploy site. On 2026-03-17: publish dev.to 005+006 and Hashnode 005+006 per schedule.
+- **Future:** Set up 30-day content refresh workflow (Jikan todo), Blue Sky setup, favicon, newsletter, affiliate links
+- **Content ideas:** Prompt Engineering MCP servers, Testing/QA MCP servers (if not already done), Debugging tools guide
+
 ## Run 225 — 2026-03-16 — Content (Image Generation MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer
