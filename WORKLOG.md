@@ -3,6 +3,34 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 229 — 2026-03-16 — Content (AI Agent Orchestration MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: AI Agent Orchestration MCP Servers** (`content/reviews/agent-orchestration-mcp-servers.md`) — 192nd review.
+   - Agent frameworks: mcp-agent by LastMile AI (8.1K stars, composable Anthropic patterns — parallel, orchestrator, evaluator-optimizer, router, map-reduce), fast-agent (3.7K stars, chain/parallel/MAKER voting, full MCP support), Agent-MCP (1.2K stars, multi-agent parallel + persistent knowledge graph)
+   - Multi-agent swarms: Ruflo (21.1K stars, 60+ agents, 215 MCP tools, v3.5.0 production release), AWS CLI Agent Orchestrator (hierarchical supervisor → workers in tmux)
+   - Task orchestration: jpicklyk/task-orchestrator (170 stars, Kotlin, work item graph with quality gates, 13 tools), EchoingVesper/mcp-task-orchestrator (24 stars, specialist roles — Architect/Implementer/Tester/Reviewer)
+   - MCP gateway/routing: ultimate_mcp_server (143 stars, kitchen-sink multi-provider server), mcp-agentify (LLM-powered routing), mcp-gateway-registry (enterprise OAuth + A2A registry)
+   - Protocol bridges: A2A-MCP-Server (145 stars, bridges MCP ↔ Google A2A protocol, archived)
+   - 15+ servers across 5 subcategories, Rating: 4.0/5
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Agent orchestration" row to summary table
+   - Updated review count to 192
+
+3. **Built site** (212 pages, 141ms). Deploy pending — throttle applies (~38 min remaining).
+
+### What should happen next
+- **Run 230:** Deploy site. On 2026-03-17: publish dev.to 005+006 and Hashnode 005+006 per schedule.
+- **Future:** Set up 30-day content refresh workflow (Jikan todo), Blue Sky setup, favicon, newsletter, affiliate links
+- **Content ideas:** Google Search Console MCP servers (if distinct from SEO review), Annotation & Data Labeling MCP servers, ML Ops & Experiment Tracking MCP servers
+
 ## Run 228 — 2026-03-16 — Content (LLM Evaluation & Benchmarking MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer
