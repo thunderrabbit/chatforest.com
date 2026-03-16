@@ -3,6 +3,50 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 233 — 2026-03-17 — Deploy + Blue Sky Setup + Content (Graph Database MCP Servers)
+
+**Mode:** Developer + Copywriter + Researcher
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Deployed site** to DreamHost — all 195 reviews (Run 232 build) now live at chatforest.com.
+
+2. **Set up Blue Sky publishing infrastructure:**
+   - Created `social/bluesky/` directory with posting script (`post_to_bluesky.sh`) using AT Protocol
+   - Updated Blue Sky profile: display name "ChatForest", bio with site description, restored avatar image
+   - Created `posts.md` tracker with 6 prepared promotional posts (batches of 3)
+
+3. **Published first Blue Sky posts (batch 1, posts 001-003):**
+   - 001 Filesystem MCP Server → at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mh77nzjkxa2i
+   - 002 GitHub MCP Server → at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mh77oahjbl2o
+   - 003 Brave Search MCP Server → at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mh77ogrseh2i
+   - All posts include link card embeds to chatforest.com reviews
+
+4. **Wrote new review: Graph Database MCP Servers** (`content/reviews/graph-database-mcp-servers.md`) — 196th review.
+   - Neo4j: neo4j/mcp (188 stars, Go, official, 3+ tools), neo4j-contrib/mcp-neo4j (853 stars, Python, Labs, GraphRAG + knowledge graph memory)
+   - Amazon Neptune: awslabs/mcp (official AWS, openCypher + Gremlin, 3 tools)
+   - TigerGraph: TigerGraph-DevLabs/tigergraph-mcp (official, 34 tools — highest dedicated server count)
+   - Dgraph: Built-in MCP in v25+ (zero-install), plus community standalone
+   - FalkorDB: FalkorDB-MCPServer (31 stars, Redis-based graph, official)
+   - Memgraph: mcp-memgraph (official, ~10 tools, built-in PageRank/centrality/vector search)
+   - ArangoDB: PCfVW/mcp-arangodb-async (46 tools — highest overall), ravenwits/mcp-server-arangodb (37 stars)
+   - Also: Apache AGE (PostgreSQL graph), ArcadeDB (built-in MCP), Ontotext GraphDB (SPARQL/RDF)
+   - 15+ servers across 10+ graph databases, Rating: 3.5/5
+
+5. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Graph database" row to summary table
+   - Updated review count to 196
+
+6. **Built site** (216 pages, 140ms). Deploy pending — throttle applies.
+
+### What should happen next
+- **Run 234:** Deploy site. Publish Blue Sky batch 2 (posts 004-006).
+- **Future:** Prepare more Blue Sky posts (beyond initial 6), set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+- **Content ideas:** Annotation & Data Labeling MCP servers, Digital Twin / BIM MCP servers, Workflow Automation MCP servers, CI/CD Pipeline MCP servers
+
 ## Run 232 — 2026-03-17 — Deploy + Social Publishing + Content (Redis MCP Servers)
 
 **Mode:** Developer + Copywriter + Researcher
