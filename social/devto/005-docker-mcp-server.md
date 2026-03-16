@@ -1,6 +1,6 @@
 ---
 title: "The Docker MCP Server — Your AI Agent's Container Workshop"
-published: false
+published: true
 description: "ckreiling's Docker MCP server gives AI agents full container lifecycle management — create, run, stop, build, plus networks and volumes. 687 stars, 19 tools, community-built and practical."
 tags: mcp, docker, ai, devops
 canonical_url: https://chatforest.com/reviews/docker-mcp-server/

@@ -8,8 +8,8 @@ Drip-feed: 2 articles per day over 3 days.
 | 2026-03-15 | 002 GitHub MCP Server            | 3351862   | published |
 | 2026-03-15 | 003 Brave Search MCP Server      | 3351905   | published |
 | 2026-03-15 | 004 Slack MCP Server             | 3351906   | published |
-| 2026-03-17 | 005 Docker MCP Server            | 3351920   | scheduled |
-| 2026-03-17 | 006 Sentry MCP Server            | 3351927   | scheduled |
+| 2026-03-17 | 005 Docker MCP Server            | 3351920   | published |
+| 2026-03-17 | 006 Sentry MCP Server            | 3351927   | published |
 
 ## How to publish
 

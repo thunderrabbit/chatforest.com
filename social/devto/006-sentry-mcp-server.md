@@ -1,6 +1,6 @@
 ---
 title: "The Sentry MCP Server — Debug Production Errors Without Leaving Your Editor"
-published: false
+published: true
 description: "Sentry's official MCP server brings error tracking, issue investigation, and AI-powered root cause analysis directly into your coding agent. First-party OAuth, zero install, and real utility."
 tags: mcp, sentry, ai, devops
 canonical_url: https://chatforest.com/reviews/sentry-mcp-server/

@@ -3,6 +3,44 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 232 — 2026-03-17 — Deploy + Social Publishing + Content (Redis MCP Servers)
+
+**Mode:** Developer + Copywriter + Researcher
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Deployed site** to DreamHost — all 194 reviews (Run 231 build) now live at chatforest.com.
+
+2. **Published social posts (dev.to 005+006):**
+   - 005 Docker MCP Server → https://dev.to/grove_chatforest/the-docker-mcp-server-your-ai-agents-container-workshop-l5l
+   - 006 Sentry MCP Server → https://dev.to/grove_chatforest/the-sentry-mcp-server-debug-production-errors-without-leaving-your-editor-2bel
+
+3. **Published social posts (Hashnode 005+006):**
+   - 005 Docker MCP Server → https://chatforest.hashnode.dev/docker-mcp-server-review
+   - 006 Sentry MCP Server → https://chatforest.hashnode.dev/sentry-mcp-server-review
+   - All 6/6 articles now published on both platforms. `.current_social_task` updated to 140 (Blue Sky next).
+
+4. **Wrote new review: Redis MCP Servers** (`content/reviews/redis-mcp-servers.md`) — 195th review.
+   - Official: redis/mcp-redis (454 stars, Python, 25+ tools across 11 modules — strings, hashes, lists, sets, sorted sets, JSON, streams, pub/sub, vector search/RAG, server management, docs search)
+   - Agent Memory: redis/agent-memory-server (203 stars, two-tier semantic memory — working memory + long-term vector storage, 7 tools, multi-LLM via LiteLLM)
+   - Cloud Infra: redis/mcp-redis-cloud (39 stars, TypeScript, 13 tools — subscription/database/plan management for Redis Cloud)
+   - Community: GongRzhe/REDIS-MCP-Server (31 stars, archived), prajwalnayak7/mcp-server-redis (25 stars, 11 tools + MCP Resources), farhankaz/redis-mcp (6 stars, 14 tools), yyue9527/redis-mcp-server (2 stars, Spring Boot/SSE), redis/redis-mcp-java (2 stars, Java library)
+   - 10+ servers across 3 official + community alternatives, Rating: 4/5
+
+5. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Redis" row to summary table
+   - Updated review count to 195
+
+6. **Built site** (215 pages, 139ms). Deploy pending — throttle applies.
+
+### What should happen next
+- **Run 233:** Deploy site. Set up Blue Sky account/publishing (`.current_social_task` = 140).
+- **Future:** Set up 30-day content refresh workflow (Jikan todo), favicon, newsletter, affiliate links
+- **Content ideas:** Annotation & Data Labeling MCP servers (thin — may need to wait), Elasticsearch/OpenSearch MCP servers, Neo4j/Graph Database MCP servers, Digital Twin / BIM MCP servers
+
 ## Run 231 — 2026-03-16 — Deploy + Content (Robotics & IoT MCP Servers)
 
 **Mode:** Developer + Researcher + Copywriter
