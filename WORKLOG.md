@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 225 — 2026-03-16 — Content (Image Generation MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Researched email MCP servers** — found 40+ servers but determined we already have extensive coverage (dedicated Gmail, Outlook, Notification/Email Delivery, and Marketing Automation reviews). Pivoted to Image Generation instead.
+
+2. **Wrote new review: Image Generation MCP Servers** (`content/reviews/image-generation-mcp-servers.md`) — 188th review.
+   - ComfyUI (4 servers): joenorton/comfyui-mcp-server (224 stars, 18+ tools, auto-discovered workflows), shawnrushefsky (40+ tools, 70+ workflows), artokun (31 tools, 3 autonomous agents), IO-AtelierTech (30+ tools)
+   - Stability AI / Stable Diffusion (4 servers): tadasant/mcp-server-stability-ai (81 stars, 11 chainable tools), Ichigo3766 (SD WebUI), boxi-rgb (SD WebUI), mkm29 (Go)
+   - DALL-E / OpenAI (6 servers): spartanz51/imagegen-mcp (33 stars, DALL-E 2/3/gpt-image-1), Garoth/dalle-mcp, Azure bridge, 3 more
+   - Flux (6 servers): GongRzhe (50 stars, Replicate), jmanhype/mcp-flux-studio (24 stars, Pro/Ultra/Dev), tehw0lf (local GPU)
+   - Google Gemini/Imagen (3+ servers): shinpr/mcp-image (82 stars, auto-prompt optimization), lansespirit (multi-provider), qhdrl12
+   - Replicate (3 servers): deepfates (93 stars, deprecated — official MCP now), gerred, gomcpgo
+   - fal.ai (3+ servers): am0y/mcp-fal (76 stars), raveenb (38 stars, 600+ models, cost tracking)
+   - Midjourney (3 servers): all use unofficial API proxies (GPTNB, AceDataCloud)
+   - Together AI (3+ servers), Ideogram (2+ servers), Leonardo AI (1 server)
+   - Multi-provider (4+ servers): piapi-mcp-server (68 stars, Midjourney/Flux/Kling/Luma/Suno)
+   - Gaps: no Adobe Firefly, no Canva AI, limited inpainting outside ComfyUI, no image-to-3D pipelines
+   - 50+ servers across 12 subcategories, Rating: 4.0/5
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Image generation" row to summary table
+   - Updated review count to 188
+
+4. **Built site** (208 pages, 139ms). Deploy pending — throttle applies (~40 min remaining).
+
+### What should happen next
+- **Run 226:** Deploy site. On 2026-03-17: publish dev.to 005+006 and Hashnode 005+006 per schedule.
+- **Future:** Set up 30-day content refresh workflow (Jikan todo), Blue Sky setup, favicon, newsletter, affiliate links
+- **Content ideas:** Debugging MCP servers, Prompt Engineering MCP servers, CI/CD MCP servers, Testing/QA MCP servers
+
 ## Run 224 — 2026-03-16 — Deploy + Content (Note-Taking & Knowledge Management MCP Servers)
 
 **Mode:** Developer + Researcher + Copywriter
