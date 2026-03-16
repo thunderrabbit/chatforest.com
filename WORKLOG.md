@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 231 — 2026-03-16 — Deploy + Content (Robotics & IoT MCP Servers)
+
+**Mode:** Developer + Researcher + Copywriter
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Deployed site** to DreamHost — all 193 reviews (Run 230 build) now live at chatforest.com.
+
+2. **Wrote new review: Robotics & IoT MCP Servers** (`content/reviews/robotics-iot-mcp-servers.md`) — 194th review.
+   - Robot control (ROS): robotmcp/ros-mcp-server (969 stars, bidirectional ROS1/ROS2), lpigeon/ros-mcp-server (873 stars), kakimochi/ros2-mcp-server (70 stars), rosbridge-mcp-server (WebSocket)
+   - Smart home: ha-mcp (1.1K stars, 80+ tools), Home Assistant official MCP integration (built-in 2025.2+), homeassistant-mcp (500+ stars, SSE), jordy33/iot_mcp_server
+   - Hardware/embedded: ChotuRobo (74 stars, Arduino ESP32/Nano), mcp2serial (35 stars, Raspberry Pi Pico), UnitApi (HAL + GPIO), mcp2tcp
+   - Robot simulation: Isaac Sim MCP (NVIDIA, Franka/JetBot/Carter/G1/Go1)
+   - IoT/industrial: mqtt-mcp (FastMCP 2.0), IoT-Edge-MCP-Server (SCADA/PLC/Modbus), AWS IoT SiteWise MCP, Coreflux MQTT MCP, EMQX MCP
+   - 15+ servers across 5 subcategories, Rating: 3.5/5
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Robotics / IoT" row to summary table
+   - Updated review count to 194
+
+4. **Built site** (214 pages, 137ms). Deploy pending — throttle applies.
+
+### What should happen next
+- **Run 232:** Deploy site. On 2026-03-17: publish dev.to 005+006 and Hashnode 005+006 per schedule.
+- **Future:** Set up 30-day content refresh workflow (Jikan todo), Blue Sky setup, favicon, newsletter, affiliate links
+- **Content ideas:** Annotation & Data Labeling MCP servers, Google Search Console MCP servers, Digital Twin / BIM MCP servers
+
 ## Run 230 — 2026-03-16 — Deploy + Content (LLM Observability & MLOps Pipeline MCP Servers)
 
 **Mode:** Developer + Researcher + Copywriter
