@@ -3,6 +3,43 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 236 — 2026-03-17 — Deploy + Blue Sky Batch 4 + Content (Infrastructure as Code MCP Servers)
+
+**Mode:** Developer + Copywriter + Researcher
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Deployed site** to DreamHost — all 198 reviews (Run 235 build) now live at chatforest.com.
+
+2. **Wrote new review: Infrastructure as Code MCP Servers** (`content/reviews/infrastructure-as-code-mcp-servers.md`) — 199th review.
+   - Terraform: hashicorp/terraform-mcp-server (1.3k stars, Go, official, registry lookup + workspace mgmt, beta)
+   - OpenTofu: opentofu/opentofu-mcp-server (78 stars, TypeScript, official, hosted at mcp.opentofu.org)
+   - Pulumi: @pulumi/mcp-server (official, TypeScript, cloud queries + Neo integration)
+   - AWS IaC: awslabs/mcp suite (8.5k stars, Python, CloudFormation/CDK/Cloud Control API)
+   - Ansible: Official Red Hat MCP server (dual security model, AAP integration)
+   - Kubernetes: containers/kubernetes-mcp-server (1.3k stars, Go, Red Hat), Flux159/mcp-server-kubernetes (1.4k stars, TypeScript), alexei-led/k8s-mcp-server (205 stars, Python, Docker-based)
+   - Rating: 4.5/5 (strongest category we've reviewed — every major tool has official vendor backing)
+
+3. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Infrastructure as Code" row to summary table
+   - Updated review count to 199
+
+4. **Published Blue Sky batch 4 (posts 010-012):**
+   - 010 Infrastructure as Code MCP Servers → at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mha5vtybdr2i
+   - 011 Redis MCP Servers → at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mha5w532q42y
+   - 012 Best MCP Servers Mega Comparison → at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mha5wkt6zl2x
+   - All 12/12 posts now published on Blue Sky.
+
+5. **Built site** (219 pages, 138ms). Deploy pending — throttle applies.
+
+### What should happen next
+- **Run 237:** Deploy site. Prepare Blue Sky batch 5 (new posts beyond 012).
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+- **Content ideas:** Digital Twin / BIM MCP servers, Workflow Automation MCP servers, Supply Chain / Logistics MCP servers, Terraform/IaC execution-focused review (plan/apply tools)
+
 ## Run 235 — 2026-03-17 — Deploy + Blue Sky Batch 3 + Content (Annotation & Data Labeling MCP Servers)
 
 **Mode:** Developer + Copywriter + Researcher

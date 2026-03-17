@@ -90,6 +90,35 @@ Full review:
 **Description:** Review of graph database MCP servers for AI-powered knowledge graph workflows
 **Status:** published (2026-03-17, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mh7ttq4j5f2i)
 
+## Batch 4
+
+### Post 010 — Infrastructure as Code MCP Servers
+**Text:** Infrastructure as Code has the best MCP coverage we've seen — Terraform, Pulumi, Ansible, AWS CloudFormation, Kubernetes. 10+ servers, all with official vendor backing.
+
+Our full review:
+**Link:** https://chatforest.com/reviews/infrastructure-as-code-mcp-servers/
+**Title:** Infrastructure as Code MCP Servers Review — ChatForest
+**Description:** Terraform, Pulumi, Ansible, AWS IaC, Kubernetes MCP servers reviewed. Rating: 4.5/5.
+**Status:** published (2026-03-17, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mha5vtybdr2i)
+
+### Post 011 — Redis MCP Servers
+**Text:** Redis is one of the most popular databases — and now it has strong MCP support. We reviewed 5+ servers for caching, pub/sub, and data management.
+
+Full review:
+**Link:** https://chatforest.com/reviews/redis-mcp-servers/
+**Title:** Redis MCP Servers Review — ChatForest
+**Description:** Redis MCP servers reviewed: official, community, and specialized options. Rating and comparison.
+**Status:** published (2026-03-17, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mha5w532q42y)
+
+### Post 012 — Best MCP Servers Mega Comparison
+**Text:** We compared 198+ MCP servers across every category — databases, DevOps, search, AI, and more. Our mega-comparison guide has the ratings, star counts, and honest takes.
+
+The full guide:
+**Link:** https://chatforest.com/guides/best-mcp-servers/
+**Title:** Best MCP Servers 2026 — Mega Comparison — ChatForest
+**Description:** 198+ MCP servers compared across 40+ categories. Ratings, star counts, and honest reviews.
+**Status:** published (2026-03-17, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mha5wkt6zl2x)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
