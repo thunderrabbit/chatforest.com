@@ -1,7 +1,7 @@
 ---
 title: "Best MCP Servers for Developers in 2026"
 date: 2026-03-14T02:52:53+09:00
-description: "We've reviewed 197 MCP servers and compared 40+ across 13 categories. Here are the ones worth installing — and the ones to avoid."
+description: "We've reviewed 198 MCP servers and compared 40+ across 13 categories. Here are the ones worth installing — and the ones to avoid."
 og_description: "We've tested 33 MCP servers and compared 40+ across 11 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
 content_type: "Comparison"
 card_description: "We've reviewed 28 MCP servers across 11 categories and beyond. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
@@ -9,7 +9,7 @@ card_description: "We've reviewed 28 MCP servers across 11 categories and beyond
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [166 in-depth reviews](/reviews/) and [13 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [167 in-depth reviews](/reviews/) and [13 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -191,6 +191,7 @@ If you want to skip the details:
 | Redis | [Redis MCP](/reviews/redis-mcp-servers/) | 4.0/5 | [redis/mcp-redis](https://github.com/redis/mcp-redis) (454 stars, Python, MIT — 25+ tools, all data structures, vector search/RAG, EntraID auth, Redis Cluster), [redis/agent-memory-server](https://github.com/redis/agent-memory-server) (203 stars, Python, Apache 2.0 — two-tier semantic memory for AI agents, 7 tools, multi-LLM), [redis/mcp-redis-cloud](https://github.com/redis/mcp-redis-cloud) (39 stars, TypeScript, MIT — 13 tools, Redis Cloud infrastructure management), [prajwalnayak7/mcp-server-redis](https://github.com/prajwalnayak7/mcp-server-redis) (25 stars, Python — 11 tools, MCP Resources, AWS MemoryDB) |
 | Graph database | [Graph Database MCP](/reviews/graph-database-mcp-servers/) | 3.5/5 | [neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j) (853 stars, Python — GraphRAG + knowledge graph memory), [neo4j/mcp](https://github.com/neo4j/mcp) (188 stars, Go — official, multi-deployment), [TigerGraph-DevLabs/tigergraph-mcp](https://github.com/TigerGraph-DevLabs/tigergraph-mcp) (34 tools), [memgraph/mcp-memgraph](https://github.com/memgraph/ai-toolkit) (10 tools, built-in PageRank/centrality), Dgraph v25+ (built-in MCP), ArcadeDB (built-in MCP) |
 | CI/CD pipeline | [CI/CD Pipeline MCP](/reviews/ci-cd-pipeline-mcp-servers/) | 4.0/5 | [github/github-mcp-server](https://github.com/github/github-mcp-server) (27.9k stars, Go — Actions toolset), [akuity/argocd-mcp](https://github.com/akuity/argocd-mcp) (350 stars, TypeScript — 12 GitOps tools), [Tiberriver256/mcp-server-azure-devops](https://github.com/Tiberriver256/mcp-server-azure-devops) (347 stars, TypeScript — full Azure DevOps), [lanbaoshen/mcp-jenkins](https://github.com/lanbaoshen/mcp-jenkins) (96 stars, Python), [CircleCI-Public/mcp-server-circleci](https://github.com/CircleCI-Public/mcp-server-circleci) (80 stars, TypeScript — 14 tools, flaky test detection), [jenkinsci/mcp-server-plugin](https://github.com/jenkinsci/mcp-server-plugin) (68 stars, Java — official plugin, 15+ tools, 3 transports) |
+| Annotation & data labeling | [Annotation & Data Labeling MCP](/reviews/annotation-data-labeling-mcp-servers/) | 2.5/5 | [HumanSignal/label-studio-mcp-server](https://github.com/HumanSignal/label-studio-mcp-server) (28 stars, Python — project/task/prediction management, Apache-2.0), Labelbox (MCP client integration for agent tool-use evaluation), Roboflow (via Pipedream, computer vision datasets) |
 | Vector database | [Chroma MCP](/reviews/chroma-mcp-server/) | 3.5/5 | [Milvus MCP](/reviews/milvus-mcp-server/) (3.5/5, hybrid search) |
 
 Now the details.

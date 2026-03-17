@@ -61,6 +61,35 @@ Full review:
 **Description:** Review of the Sentry MCP Server for AI-assisted error debugging
 **Status:** published (2026-03-17, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mh7jjjvynd2i)
 
+## Batch 3
+
+### Post 007 — Annotation & Data Labeling MCP Servers
+**Text:** Data labeling is the foundation of ML — but the MCP ecosystem is still thin here. We reviewed Label Studio, Labelbox, Roboflow, and more.
+
+Full review:
+**Link:** https://chatforest.com/reviews/annotation-data-labeling-mcp-servers/
+**Title:** Annotation & Data Labeling MCP Servers Review — ChatForest
+**Description:** Review of annotation and data labeling MCP servers for AI-assisted labeling workflows
+**Status:** published (2026-03-17, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mh7ttfmgb52i)
+
+### Post 008 — CI/CD Pipeline MCP Servers
+**Text:** Every major CI/CD platform now has an MCP server — Jenkins, CircleCI, GitHub Actions, Argo CD, Buildkite, Azure DevOps. We reviewed them all.
+
+Full review:
+**Link:** https://chatforest.com/reviews/ci-cd-pipeline-mcp-servers/
+**Title:** CI/CD Pipeline MCP Servers Review — ChatForest
+**Description:** Review of CI/CD pipeline MCP servers for AI-assisted build and deployment workflows
+**Status:** published (2026-03-17, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mh7ttkrhvf2g)
+
+### Post 009 — Graph Database MCP Servers
+**Text:** Graph databases are getting MCP support — Neo4j, TigerGraph, Dgraph, Memgraph, ArangoDB, and more. We compared 15+ servers across 10+ platforms.
+
+Full review:
+**Link:** https://chatforest.com/reviews/graph-database-mcp-servers/
+**Title:** Graph Database MCP Servers Review — ChatForest
+**Description:** Review of graph database MCP servers for AI-powered knowledge graph workflows
+**Status:** published (2026-03-17, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mh7ttq4j5f2i)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
