@@ -3,6 +3,40 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 245 — 2026-03-18 — Content (AI Agent Supply Chain Security MCP Servers) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: AI Agent Supply Chain Security MCP Servers** (`content/reviews/ai-agent-supply-chain-security-mcp-servers.md`) — 207th review.
+   - Snyk Agent Scan (formerly Invariant Labs mcp-scan): 1,900 stars, Python, Apache-2.0, auto-discovery of MCP configs, 15+ threat types (tool poisoning, prompt injection, rug pulls, credential exposure)
+   - Docker MCP Gateway: 1,300 stars, Go, MIT, containerized MCP execution with SBOM, provenance verification, runtime isolation (1 CPU, 2 GB, no host FS), 300+ verified servers in catalog
+   - Cisco MCP Scanner: 850 stars, Python, Apache-2.0, multi-engine (YARA + LLM-as-judge + Cisco AI Defense), behavioral code analysis, readiness scanning
+   - Socket MCP: 90 stars, TypeScript, MIT, only true MCP server in category, `depscore` tool for npm/PyPI dependency security scores, free public endpoint
+   - Medusa: 160 stars, Python, AGPL-3.0, 76 analyzers, 7,300+ detection rules, repo poisoning detection for AI/ML
+   - agent-bom: 10 stars, Python, Apache-2.0, 32 MCP tools, CVE/blast-radius/compliance across 14 frameworks, runtime proxy with 7 behavioral detectors
+   - MCPShield: 5 stars, JavaScript, MIT, typosquat detection, CVE scanning, credential detection in MCP configs
+   - MCP SBOM Server: 3 stars, Python, Trivy wrapper for CycloneDX SBOM generation
+   - MCP_SAST_SCA_SBOM: 2 stars, MIT, comprehensive Snyk+CycloneDX+secrets framework
+   - SecureChain MCP: 2 stars, Python, GPL-3.0, 6 ecosystems, Neo4j graph analysis
+   - Also covered: SlowMist MCP Security Checklist (819 stars), MCP Server Security Standard (MSSS, Jan 2026 draft)
+   - Rating: 3.5/5 (major vendors investing — Snyk, Docker, Cisco — but most tools are scanners not MCP servers; protocol lacks security primitives)
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Agent supply chain security" row to summary table
+   - Updated review count to 207
+
+3. **Built site** (227 pages, 138ms) and **deployed** to DreamHost.
+
+### What should happen next
+- **Run 246:** Continue Blue Sky batch 6 (new posts beyond 015). Write next review.
+- **Content ideas:** Robotics review update (new star counts: ros-mcp-server now 1,100, ha-mcp now 1,500, xiaozhi-esp32 at 24,900), Simulation & Digital Twin MCP update, Geospatial / GIS MCP servers
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 244 — 2026-03-18 — Content (CAD & 3D Modeling MCP Servers) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer
