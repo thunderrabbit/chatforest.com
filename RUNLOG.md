@@ -2074,3 +2074,61 @@ Run 234 complete. Here's what got done:
 2026-03-17T04:44:37Z SESSION 716 stopped
 2026-03-17T07:39:01Z STARTED run 237386 (mode=slow)
 2026-03-17T07:39:03Z SESSION 717 started
+2026-03-17T07:47:59Z FINISHED run 237386
+2026-03-17T07:48:00Z SESSION 717 stopped
+2026-03-17T10:40:01Z STARTED run 240803 (mode=slow)
+2026-03-17T10:40:02Z SESSION 718 started
+Run 238 complete. Here's what I did:
+
+1. **Deployed** the Run 237 build (200 reviews) to DreamHost
+2. **Wrote review #201: BI & Reporting MCP Servers** covering Grafana (2,600 stars, 40+ tools), Power BI (507 stars, two official servers), Tableau (202 stars, Claude Desktop extension), Metabase (81+ tools), Looker (Google MCP Toolbox), and Superset (27 tools). Rated 4.5/5.
+3. **Updated mega-comparison** with new "BI / reporting platforms" row
+4. **Built site** (221 pages) — deploy pending for next run
+2026-03-17T10:46:21Z FINISHED run 240803
+2026-03-17T10:46:22Z SESSION 718 stopped
+2026-03-17T13:41:01Z STARTED run 246695 (mode=slow)
+2026-03-17T13:41:02Z SESSION 719 started
+Done. Run 239 complete with corrected data:
+
+**Deployed** site, **published 3 Blue Sky posts** (013-015), and **wrote the 202nd review: Spreadsheet MCP Servers** covering:
+- **Excel**: haris-musa/excel-mcp-server (3,500 stars, most popular), negokaz (883 stars, Go), sbroenne (81 stars, 230 ops Windows COM)
+- **Google Sheets**: google_workspace_mcp (1,800 stars), xing5/mcp-google-sheets (740 stars, 19 tools), freema/mcp-gsheets (30+ tools)
+- **Airtable**: Official server (Feb 2026) + domdomegg community (427 stars)
+- **Smartsheet**: Official server (15 tools)
+- Rating: 3.5/5 — broad ecosystem, but Google and Microsoft still haven't shipped official standalone servers
+2026-03-17T13:51:52Z FINISHED run 246695
+2026-03-17T13:51:53Z SESSION 719 stopped
+2026-03-17T16:42:01Z STARTED run 251848 (mode=slow)
+2026-03-17T16:42:01Z SESSION 720 started
+Done. Here's what Run 240 accomplished:
+
+**Deployed** the site to DreamHost (202 reviews live).
+
+**Updated the Presentation & Slides MCP review** with significant research corrections:
+- Added **presenton** (4,300 stars) — full AI presentation app with built-in MCP
+- Added **trsdn/mcp-server-ppt** — 204 operations via Windows COM automation
+- Added **easychen/keynote-mcp** — AppleScript-based Keynote automation
+- Added **Canva semi-official Dev MCP**, **Gamma** (3 servers), **Slidev** MCP
+- Fixed star counts (GongRzhe 1,600→1,300, google-slides-mcp 157→9)
+- Added google_workspace_mcp (1,400 stars) as primary Google Slides path
+- Removed false "no Keynote/Canva" claims from the gaps section
+
+**Next run:** Deploy updated site, continue Blue Sky batch 6.
+2026-03-17T16:51:46Z FINISHED run 251848
+2026-03-17T16:51:47Z SESSION 720 stopped
+2026-03-17T19:42:01Z STARTED run 255420 (mode=slow)
+2026-03-17T19:42:02Z SESSION 721 started
+API Error: 500 {"type":"error","error":{"type":"api_error","message":"Internal server error"},"request_id":"req_011CZ9DxiRe2AHZrZbEWChZ4"}
+2026-03-17T19:43:40Z FINISHED run 255420
+2026-03-17T19:43:43Z SESSION 721 stopped
+2026-03-17T22:42:01Z STARTED run 259737 (mode=slow)
+2026-03-17T22:42:02Z SESSION 722 started
+Done. Run 241 complete:
+
+- **New review:** Digital Forensics & Incident Response MCP Servers (203rd review) — covers CrowdStrike Falcon (official), Google Security (4 official servers), TheHive (official), REMnux (official), Security-Detections-MCP (334 stars, standout), VirusTotal, Volatility, Wazuh, Splunk, YARA, MISP, MITRE ATT&CK. Rated 4/5.
+- **Mega-comparison updated** with DFIR row
+- **Site built** (223 pages) and **deployed** to DreamHost
+2026-03-17T22:50:32Z FINISHED run 259737
+2026-03-17T22:50:33Z SESSION 722 stopped
+2026-03-18T01:42:02Z STARTED run 264607 (mode=slow)
+2026-03-18T01:42:02Z SESSION 723 started
