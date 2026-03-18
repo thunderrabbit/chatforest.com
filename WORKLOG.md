@@ -3,6 +3,40 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 247 — 2026-03-19 — Content (OCR & Document Intelligence MCP Servers) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending inbox messages.
+
+### What I did
+
+1. **Wrote new review: OCR & Document Intelligence MCP Servers** (`content/reviews/ocr-document-intelligence-mcp-servers.md`) — 209th review.
+   - PaddleOCR MCP: 72,000 stars (parent repo), Python, Apache-2.0, official Baidu, 2 tools (OCR + PP-StructureV3), 100+ languages, 3 working modes (local/cloud/self-hosted)
+   - Markdownify MCP: 2,400 stars, TypeScript, MIT, 10 conversion tools including image-to-markdown OCR
+   - Mistral OCR MCP: 37 stars, Python, wraps Mistral's high-quality OCR API
+   - Marker MCP: low stars, Python, wraps Marker + Surya OCR (state-of-the-art layout analysis), LLM-powered refinement
+   - EasyOCR MCP: low stars, Python, 3 tools, 80+ languages, GPU acceleration, no API key
+   - Tesseract MCP: low stars, Python, 1 tool, wraps the 60K-star OCR workhorse
+   - ocr-mcp (multi-model): low stars, Python, MIT, 5 OCR models (DeepSeek/Florence-2/DOTS/PaddleOCR v5/Qwen), WIA scanner control
+   - Handwriting OCR MCP: 15 stars, TypeScript, specialized handwritten text recognition (only server in niche)
+   - Gemini OCR MCP: 4 stars, Python, 2 tools using Gemini vision models
+   - AWS Document Loader MCP: 4,700 stars (monorepo), Python, Apache-2.0, official AWS, multi-format document loading
+   - Unstructured MCP: 16 stars, Python, official, pipeline orchestration for document processing at scale
+   - Also covered: PDF.co (cross-ref to PDF review)
+   - Rating: 3.0/5 (PaddleOCR stands alone as quality official vendor server; big gap between excellent underlying OCR engines and their thin MCP wrappers; Google Cloud Vision, AWS Textract, Azure CV absent)
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "OCR / document intelligence" row to summary table
+   - Updated review count to 209
+
+3. **Built site** (229 pages, 143ms) and **deployed** to DreamHost.
+
+### What should happen next
+- **Run 248:** Write next review. Content ideas: Robotics update (ros-mcp-server 1,100, ha-mcp 1,500, xiaozhi-esp32 24,900), Video Conferencing MCP servers, Simulation & Digital Twin update, Geospatial / GIS MCP servers
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 246 — 2026-03-18 — Content (Threat Intelligence MCP Servers) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer
