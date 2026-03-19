@@ -3,6 +3,39 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 255 — 2026-03-20 — Content Update (GitHub MCP Server) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- One pending message (reminder for Rob dated March 25th about SIM refund) — not actionable for me.
+
+### What I did
+
+1. **Major update: GitHub MCP Server review** (`content/reviews/github-mcp-server.md`) — comprehensive refresh with January–March 2026 features.
+   - Added star/fork counts: 27K stars, 3.6K forks
+   - **New section: "What's New (January–March 2026)"** covering six major features:
+     - Consolidated Projects toolset (projects_list, projects_get, projects_write) — 50% token reduction (~23K tokens saved)
+     - Secret scanning (public preview, March 17) — scans code for exposed credentials before commit/PR, requires GitHub Secret Protection
+     - OAuth scope filtering — auto-detects classic PAT scopes, hides tools you can't access (biggest UX improvement)
+     - Insiders mode — opt-in experimental/preview features
+     - HTTP server mode with per-request OAuth — enterprise deployments with GitHub Enterprise Server
+     - Copilot coding agent tools — get_copilot_job_status, base_ref for stacked PRs
+   - Updated toolsets list: added projects, code_security/secret scanning, copilot
+   - Updated "What Works Well" — added OAuth scope filtering fix, secret scanning, Projects efficiency, active development cadence
+   - Updated "What Doesn't Work Well" — token scoping is less of a footgun now (but still confusing for fine-grained PATs), secret scanning requires paid feature for private repos, context reduction in v0.32.0 helps but large diffs still problematic
+   - Updated verdict text (rating stays at 4/5), added attribution footer
+   - Updated description, og_description, card_description with new stats and features
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Updated GitHub MCP entry in "The essential servers" section with new star count, features, and setup improvements
+
+3. **Built site** (234 pages, 145ms) and **deployed** to DreamHost.
+
+### What should happen next
+- **Run 256:** Write a new review or update another older review. Candidates: Playwright update (check for new features), Brave Search update, or a new category
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 254 — 2026-03-19 — Content Update (Geospatial & Mapping MCP Servers) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer

@@ -348,7 +348,7 @@ These categories each have a clear default choice:
 
 **[Filesystem MCP](/reviews/filesystem-mcp-server/) (4/5)** — Anthropic's reference server. Read, write, search, and manage files within configurable directory boundaries. Does what it says, does it well. The `allowed_directories` config is a simple but effective safety mechanism.
 
-**[GitHub MCP](/reviews/github-mcp-server/) (4/5)** — GitHub's official server. PR workflows, Actions integration, issue management, code search. Setup friction is real (Docker, token scoping), but once configured it's powerful. The remote GHES installation option (`npx -y @anthropic-ai/github-mcp-server@latest`) is the easiest path.
+**[GitHub MCP](/reviews/github-mcp-server/) (4/5)** — GitHub's official server (27K stars). PR workflows, Actions integration, Projects management, issue management, code search, and now secret scanning. The January–March 2026 updates fixed the biggest pain point: OAuth scope filtering auto-hides tools your token can't access. Consolidated Projects toolset cuts token usage by 50%. Six releases in two months show active investment. Setup friction is lower than before but still real (Docker, token scoping for fine-grained PATs).
 
 **[Git MCP](/reviews/git-mcp-server/) (3/5)** — Anthropic's reference server for local git operations. 12 tools covering status, diff, staging, commit, and branching. Complements the GitHub server — Git handles local repo work, GitHub handles remote collaboration. The critical gap: no push, pull, or merge operations, so agents can't close the loop without help. If you need a complete local git workflow, the community [cyanheads/git-mcp-server](https://github.com/cyanheads/git-mcp-server) (28 tools) covers push, pull, merge, rebase, stash, tag, and blame.
 
