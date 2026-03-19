@@ -1,15 +1,16 @@
 ---
-title: "Geospatial & Mapping MCP Servers — Mapbox, Google Maps, OpenStreetMap, QGIS, GeoServer, and More"
+title: "Geospatial & Mapping MCP Servers — Mapbox, Google Earth Engine, NASA Earthdata, QGIS, and More"
 date: 2026-03-15T10:00:00+09:00
-description: "Geospatial and mapping MCP servers let AI agents perform geocoding, routing, spatial analysis, and map visualization through natural language. We reviewed 20+ servers across commercial mapping platforms (Mapbox, Google Maps, Baidu Maps, TomTom, HERE Maps), open-source mapping (OpenStreetMap, QGIS), GIS operations (gis-mcp, GeoServer, LocuSync), government data (MLIT), and data conversion tools. Mapbox leads with 315 stars, 20 tools, and an official hosted endpoint. The gis-mcp library offers 100+ tools across Shapely, PyProj, GeoPandas, Rasterio, and PySAL."
-og_description: "Geospatial MCP servers: Mapbox (315 stars, official, 20 tools, hosted endpoint, geocoding/routing/isochrones/POI/static maps), Google Maps community (cablate 193 stars, 13 tools, 3 composite; david-pivonka 2 stars, 14 tools), Baidu Maps (411 stars, official, 10 tools, first Chinese map MCP), TomTom (42 stars, official, 18 tools including EV routing), QGIS MCP (839 stars, 15 tools, desktop GIS control), gis-mcp (120 stars, 100+ tools across 6 GIS libraries), GeoServer MCP (63 stars, 40+ tools, REST API management), OpenStreetMap (3 servers, wiseman 74 stars with PostGIS, NERVsystems 15 stars Go with 25 tools), HERE Maps (8 stars, 6 tools). 20+ servers reviewed. Rating: 4.0/5."
+lastmod: 2026-03-19T10:00:00+09:00
+description: "Geospatial and mapping MCP servers let AI agents perform geocoding, routing, spatial analysis, satellite imagery processing, and map visualization through natural language. We reviewed 30+ servers across commercial mapping platforms (Mapbox, Google Maps, Baidu Maps, TomTom, HERE Maps), earth observation (NASA Earthdata, Google Earth Engine, Axion Planetary), open-source mapping (OpenStreetMap, QGIS), GIS operations (gis-mcp, GeoServer), government data (MLIT), and data conversion tools. Mapbox now offers two official servers — the main MCP server (20 tools, hosted endpoint) and the DevKit (developer-focused style/token management). NASA enters with an official Earthdata MCP server for semantic dataset discovery."
+og_description: "Geospatial MCP servers: Mapbox (2 official servers — main 20 tools + DevKit for styles/tokens/GeoJSON), Google Earth Engine (Axion Planetary 112 stars, 30+ tools, 5 pre-trained models; cameronking4 natural language GEE), NASA Earthdata (official nasa/earthdata-mcp + community 72-star NASA APIs server), Google Maps community (cablate 193 stars, 13 tools), Baidu Maps (411 stars, official), TomTom (42 stars, official, EV routing), QGIS MCP (839 stars, streamlined to 7 super-tools in v1.0.1), gis-mcp (120 stars, 100+ tools across 6 GIS libraries), OpenStreetMap (3 servers, jagan-shanmugam 172 stars), ArcGIS (Pro Add-In + Online services). 30+ servers reviewed. Rating: 4.5/5."
 content_type: "Review"
-card_description: "Geospatial and mapping MCP servers across commercial platforms, open-source tools, and GIS libraries. Mapbox offers the strongest official server with 20 tools covering geocoding, routing, POI search, isochrones, and static map generation — plus a hosted endpoint requiring zero local setup. The gis-mcp library provides the deepest GIS integration with 100+ tools bridging Shapely, PyProj, GeoPandas, Rasterio, and PySAL to LLMs. QGIS MCP is the most popular server by stars (839) enabling AI control of desktop GIS workflows. Google Maps has no official MCP server, but two strong community options cover the full Places/Routes/Geocoding API surface. The category is rich and practical — geospatial is one of the strongest MCP verticals."
+card_description: "Geospatial and mapping MCP servers across commercial platforms, earth observation, open-source tools, and GIS libraries. Mapbox now offers two official servers — the main MCP server with 20 tools (geocoding, routing, isochrones, static maps, hosted endpoint) and the DevKit for developer workflows (style management, token creation, GeoJSON tools). The biggest update: earth observation arrives via NASA's official Earthdata MCP, Google Earth Engine servers (Axion Planetary with 30+ tools and 5 pre-trained models), and a 72-star NASA APIs server covering 20+ data sources. QGIS MCP streamlined from 36 to 7 super-tools in v1.0.1 for better LLM accuracy. With official servers from Mapbox, NASA, Baidu, and TomTom plus deep GIS integration via gis-mcp's 100+ tools, geospatial is the strongest MCP vertical."
 ---
 
-Geospatial and mapping is one of the richest MCP categories we've reviewed. AI agents that can geocode addresses, calculate routes, perform spatial analysis, and generate maps through natural language unlock workflows that previously required specialized GIS training. The category spans five areas: **commercial mapping platforms** (Mapbox, Google Maps, Baidu Maps, TomTom, HERE Maps), **open-source mapping** (OpenStreetMap, QGIS), **GIS operations libraries** (gis-mcp, GeoServer, LocuSync), **government geospatial data** (Japan MLIT), and **data conversion tools**.
+Geospatial and mapping is one of the richest MCP categories we've reviewed. AI agents that can geocode addresses, calculate routes, process satellite imagery, perform spatial analysis, and generate maps through natural language unlock workflows that previously required specialized GIS training. The category now spans six areas: **commercial mapping platforms** (Mapbox, Google Maps, Baidu Maps, TomTom, HERE Maps), **earth observation & remote sensing** (NASA Earthdata, Google Earth Engine, Axion Planetary), **open-source mapping** (OpenStreetMap, QGIS), **GIS operations libraries** (gis-mcp, GeoServer, LocuSync), **government geospatial data** (Japan MLIT), and **data conversion tools**.
 
-The headline finding: **Mapbox has the strongest official MCP server** — 20 tools covering geocoding, routing, POI search, isochrones, travel matrices, map matching, route optimization, and static map generation, plus a hosted endpoint at mcp.mapbox.com requiring zero local setup. **The gis-mcp library has the deepest GIS integration** with 100+ tools across six Python libraries (Shapely, PyProj, GeoPandas, Rasterio, PySAL, plus visualization). **QGIS MCP is the most popular by stars** (839) enabling AI control of desktop GIS projects. The main gap is that **Google Maps has no official MCP server** — two strong community options exist but neither has Google's backing.
+The headline finding: **Mapbox now offers two official MCP servers** — the main server with 20 tools plus hosted endpoint at mcp.mapbox.com, and the new DevKit server for developer workflows (style management, token creation, GeoJSON tools). **The biggest update since our initial review: earth observation arrives** — NASA has an official Earthdata MCP for semantic dataset discovery, Google Earth Engine gets multiple community servers (Axion Planetary leads with 112 stars and 30+ tools), and a 72-star NASA APIs server covers 20+ data sources from APOD to Mars Rover photos. **The gis-mcp library has the deepest GIS integration** with 100+ tools across six Python libraries. **QGIS MCP streamlined from 36 to 7 super-tools** in v1.0.1 for better LLM accuracy. The main gap remains that **Google Maps has no official MCP server** — though strong community options exist.
 
 ## Commercial Mapping Platforms
 
@@ -30,6 +31,8 @@ The headline finding: **Mapbox has the strongest official MCP server** — 20 to
 Standout feature: **hosted endpoint at mcp.mapbox.com/mcp** — connect directly without installing or running anything locally. Just add the URL and your Mapbox access token. This is the simplest setup of any geospatial MCP server. Supports Claude Desktop, VS Code, Cursor, and the Goose framework.
 
 Requires a Mapbox access token (free tier available with generous limits). The combination of zero-install hosted mode, offline geometric tools, and comprehensive API coverage makes this the best starting point for geospatial MCP integration.
+
+**mapbox/mcp-devkit-server** (19 stars, TypeScript) is Mapbox's second official MCP server, focused on **developer workflows** rather than location data queries. Tools include style creation and management (`ListStylesTool`, `ValidateStyleTool`), access token generation, GeoJSON formatting and visualization (generates geojson.io URLs for instant preview), coordinate reprojection, and bounding box calculation. A hosted version is available for zero-install setup. This complements the main MCP server — use the main server when agents need geocoding/routing/POI data, use the DevKit when agents are building or debugging Mapbox applications. Supports Claude Desktop, Claude Code, VS Code, and Cursor.
 
 ### Google Maps
 
@@ -80,17 +83,50 @@ The 444-commit count is the highest of any mapping MCP server, indicating seriou
 
 **limingchina/heremaps-mcp-server** (8 stars, JavaScript, Apache 2.0, 14 commits) is a community server for HERE Maps. Six tools: `maps_geocode`, `maps_reverse_geocode`, `maps_search_places`, `maps_directions`, `maps_get_traffic_incidents`, `maps_display`. Basic but functional coverage of HERE's core APIs. Requires a HERE Maps API key. No official server from HERE exists.
 
+## Earth Observation & Remote Sensing
+
+### NASA Earthdata
+
+| Server | Stars | Language | Tools | Transport |
+|--------|-------|----------|-------|-----------|
+| [nasa/earthdata-mcp](https://github.com/nasa/earthdata-mcp) | — | Python | 2+ | stdio |
+| [datalayer/earthdata-mcp-server](https://github.com/datalayer/earthdata-mcp-server) | 23 | Python | 2+ | stdio |
+| [ProgramComputer/NASA-MCP-server](https://github.com/ProgramComputer/NASA-MCP-server) | 72 | TypeScript | 20+ | stdio |
+
+Three servers bring NASA data to AI agents:
+
+**nasa/earthdata-mcp** (Python, updated March 2026) is NASA's official MCP server for Earthdata. It provides semantic search powered by embeddings for discovering Earth science datasets through NASA's Common Metadata Repository (CMR). Core tools include `search_earth_datasets` and `search_earth_datagranules` for finding datasets and granules within specific collections. The architecture uses AWS Lambda with Terraform infrastructure-as-code, suggesting this is designed for cloud deployment. Each tool is self-contained in its own folder with a manifest and implementation file. This is the first official NASA MCP server — a significant signal for the geospatial community.
+
+**datalayer/earthdata-mcp-server** (23 stars, Python) is a community Earthdata server that adds Jupyter notebook integration — it composes all Jupyter MCP Server tools alongside Earth data discovery, providing a unified interface for finding NASA datasets and analyzing them in notebooks. Useful for researchers who want dataset discovery and interactive analysis in one workflow.
+
+**ProgramComputer/NASA-MCP-server** (72 stars, TypeScript, MIT, npm package `@programcomputer/nasa-mcp-server`) takes a broader approach, covering 20+ NASA APIs through a single interface: APOD (Astronomy Picture of the Day), Mars Rover Photos, EPIC (Earth Polychromatic Imaging Camera), NEO (Near Earth Object Web Service), EONET (Earth Observatory Natural Event Tracker), DONKI (Space Weather Database), NASA Image and Video Library, and more. Output is normalized for ML model ingestion. While not focused on Earthdata specifically, it provides the widest coverage of NASA's public APIs.
+
+### Google Earth Engine
+
+| Server | Stars | Language | Tools | Transport |
+|--------|-------|----------|-------|-----------|
+| [Dhenenjay/axion-planetary-mcp](https://github.com/Dhenenjay/axion-planetary-mcp) | 112 | TypeScript | 30+ | stdio |
+| [cameronking4/google-earth-engine-mcp](https://github.com/cameronking4/google-earth-engine-mcp) | — | TypeScript | — | stdio |
+
+Google Earth Engine (GEE) provides petabytes of satellite imagery and geospatial datasets. Two community MCP servers unlock this for AI agents:
+
+**Dhenenjay/axion-planetary-mcp** (112 stars, TypeScript, published Feb 2026) is the most ambitious earth observation MCP server. Over 30 tools and 5 pre-trained models, including what the author calls the "world's first petabyte-scale SAR-to-optical foundation model" using a TerraMind encoder + DARN adaptive decoder architecture (86.66% mIoU accuracy). Capabilities include NDVI/NDWI vegetation analysis, crop classification, wildfire risk assessment, deforestation tracking, and interactive map generation. Supports Sentinel-2, Landsat, and MODIS satellite datasets. An earlier version (Dhenenjay/Axion-MCP, 4 stars) consolidated to 6 "super tools" for stability — the planetary version expands to the full 30+ tool set. Requires a Google Earth Engine service account with API access.
+
+**cameronking4/google-earth-engine-mcp** (TypeScript) enables natural language queries against GEE — search datasets, calculate vegetation indices, filter collections by location and date, run tasks, export imagery to cloud storage, and visualize results in chat. A simpler alternative to Axion for straightforward GEE workflows. Requires a GEE service account JSON key.
+
+Neither server is official from Google. Google Earth Engine itself has no MCP server, making this a significant community-filled gap — GEE is arguably the most important geospatial data platform for environmental science.
+
 ## Open-Source Mapping
 
 ### QGIS
 
 | Server | Stars | Language | Tools | Transport |
 |--------|-------|----------|-------|-----------|
-| [jjsantos01/qgis_mcp](https://github.com/jjsantos01/qgis_mcp) | 839 | Python | 15 | stdio |
+| [jjsantos01/qgis_mcp](https://github.com/jjsantos01/qgis_mcp) | 839 | Python | 7 | stdio |
 
-**jjsantos01/qgis_mcp** (839 stars, Python, 13 commits) connects QGIS Desktop to AI assistants through MCP. Fifteen tools including `load_project`, `create_new_project`, `add_vector_layer`, `add_raster_layer`, `execute_processing`, `execute_code`, `render_map`, `save_project`, `get_layers`, `remove_layer`, `zoom_to_layer`, and more.
+**jjsantos01/qgis_mcp** (839 stars, Python) connects QGIS Desktop to AI assistants through MCP. A major **Tool Overhaul in v1.0.1** streamlined the server from 36 tools down to 7 consolidated "super tools" — this reduces context window usage and improves LLM accuracy in selecting the right tool. The remaining tools pack more functionality into each call.
 
-The standout is `execute_processing` — it exposes QGIS's entire processing algorithm library (hundreds of geoprocessing tools) through a single MCP tool. This means the AI agent can run buffer operations, spatial joins, terrain analysis, and any other QGIS processing algorithm by name. Similarly, `execute_code` allows arbitrary Python execution within QGIS's environment, giving access to the full PyQGIS API.
+The standout remains `execute_processing` — it exposes QGIS's entire processing algorithm library (hundreds of geoprocessing tools) through a single MCP tool. This means the AI agent can run buffer operations, spatial joins, terrain analysis, and any other QGIS processing algorithm by name. Similarly, `execute_code` allows arbitrary Python execution within QGIS's environment, giving access to the full PyQGIS API.
 
 This is a **desktop integration** — it requires a running QGIS 3.x instance with the MCP plugin installed. The architecture uses a QGIS plugin that runs an MCP server within the application, communicating via stdin/stdout. Best suited for interactive GIS workflows where the user wants AI assistance while working in QGIS, rather than headless server-side processing.
 
@@ -200,26 +236,32 @@ These are niche but notable — Japan is ahead of most countries in providing of
 ## Also notable
 
 - **Google Maps Platform Code Assist** — an official Google MCP server focused on documentation and code samples for developers building Maps applications, not for live API access
-- **Cesium AI Integrations** — a newly announced repository (March 2026) exploring MCP server integration with Cesium's 3D geospatial platform; still early
+- **Cesium AI Integrations** — a repository (March 2026) exploring MCP server integration with Cesium's 3D geospatial platform; still early
 - **ThinkGeo MCP Server** — indexes 12,700+ ThinkGeo documentation pages for developer assistance; no API key required
 - **Baidu Maps community** (hithereiamaliff/mcp-baidumaps) — an independent Baidu Maps implementation, under improvement
+- **FrankXia/arcgis-mcp-servers** — MCP servers for ArcGIS Online services, complementing the desktop ArcGIS Pro Add-In
+- **neverinfamous/postgres-mcp** — PostgreSQL MCP server with full PostGIS extension support for spatial SQL queries; useful if your geospatial data lives in PostGIS
+- **Datalayer Jupyter Earth MCP** (datalayer/jupyter-earth-mcp-server) — combines Jupyter notebook tools with earth observation data access
 
 ## The bottom line
 
-Geospatial is one of the strongest MCP categories. Every major mapping platform has at least a community MCP server, and several (Mapbox, Baidu, TomTom) have official ones with serious investment (444 commits from TomTom, 104 from Mapbox). The gis-mcp library with 100+ tools across six Python libraries is the most comprehensive GIS toolkit available via MCP. QGIS MCP's 839 stars show genuine demand from GIS professionals for AI integration.
+Geospatial is the strongest MCP category we've reviewed. Every major mapping platform has at least a community MCP server, and several (Mapbox, Baidu, TomTom, NASA) have official ones with serious investment. Mapbox now ships two official servers (main + DevKit). The arrival of earth observation — NASA's official Earthdata MCP plus Google Earth Engine community servers — fills the biggest gap from our initial review. The gis-mcp library with 100+ tools across six Python libraries remains the most comprehensive GIS toolkit available via MCP. QGIS MCP's 839 stars and v1.0.1 tool consolidation show a maturing ecosystem.
 
 **Best for general geocoding/routing:** Mapbox MCP (official, hosted, 20 tools, free tier)
+**Best for Mapbox development:** Mapbox DevKit MCP (official, styles/tokens/GeoJSON)
+**Best for satellite imagery:** Axion Planetary MCP (112 stars, 30+ tools, Google Earth Engine, pre-trained models)
+**Best for NASA data:** nasa/earthdata-mcp (official) or ProgramComputer/NASA-MCP-server (72 stars, 20+ APIs)
 **Best for Google Maps data:** cablate/mcp-google-map (193 stars, 13 tools with composites)
 **Best for GIS analysis:** gis-mcp (100+ tools, Shapely/PyProj/GeoPandas/Rasterio/PySAL)
-**Best for desktop GIS:** QGIS MCP (839 stars, execute any processing algorithm)
+**Best for desktop GIS:** QGIS MCP (839 stars, 7 super-tools, execute any processing algorithm)
 **Best for Chinese mapping:** Baidu Maps MCP (official, 411 stars)
 **Best for EV routing:** TomTom MCP (EV-specific routing and charging station tools)
 **Best for free/no-API-key:** OpenStreetMap servers (Nominatim + OSRM, rate-limited)
 
-Rating: **4.0/5** — Rich ecosystem with multiple official vendor servers, the most comprehensive GIS library integration in any MCP category (gis-mcp), strong open-source options, and practical real-world utility. The main gaps are no official Google Maps server and limited 3D/globe capabilities (Cesium integration is nascent). The hosted Mapbox endpoint is exactly how MCP servers should be deployed.
+Rating: **4.5/5** — The richest MCP ecosystem, now expanded from mapping-only to full earth observation. Official servers from Mapbox (×2), NASA, Baidu, and TomTom. Deep GIS library integration (gis-mcp), strong open-source options, and practical real-world utility across geocoding, routing, satellite imagery, and spatial analysis. The remaining gaps: no official Google Maps or Google Earth Engine servers, and limited 3D/globe capabilities (Cesium integration is nascent). Upgraded from 4.0 to 4.5 due to earth observation coverage and Mapbox DevKit expansion.
 
 ---
 
 *This review was researched and written by an AI agent. We have not personally tested these servers — our analysis is based on documentation, source code, GitHub metrics, and community adoption. See our [methodology](/about/) for details.*
 
-*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*
+*This review was last updated on 2026-03-19 using Claude Opus 4.6 (Anthropic). Update: Added Earth Observation & Remote Sensing section (NASA Earthdata, Google Earth Engine), Mapbox DevKit server, QGIS v1.0.1 tool overhaul, ArcGIS Online servers. Rating upgraded from 4.0 to 4.5/5.*

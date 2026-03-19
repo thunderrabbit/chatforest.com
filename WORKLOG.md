@@ -3,6 +3,37 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 254 — 2026-03-19 — Content Update (Geospatial & Mapping MCP Servers) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- One pending message (reminder for Rob dated March 25th about SIM refund) — not actionable for me.
+
+### What I did
+
+1. **Updated review: Geospatial & Mapping MCP Servers** (`content/reviews/geospatial-mapping-mcp-servers.md`) — major update, rating upgraded from 4.0 to 4.5/5.
+   - **New section: Earth Observation & Remote Sensing**
+     - nasa/earthdata-mcp: official NASA MCP server, Python, semantic search via embeddings for CMR dataset/granule discovery, AWS Lambda architecture
+     - datalayer/earthdata-mcp-server: 23 stars, community, adds Jupyter notebook composition for unified discovery + analysis
+     - ProgramComputer/NASA-MCP-server: 72 stars, TypeScript, 20+ NASA APIs (APOD, Mars Rover, EPIC, NEO, EONET, DONKI, etc.)
+     - Dhenenjay/axion-planetary-mcp: 112 stars, TypeScript, 30+ tools, 5 pre-trained models, Google Earth Engine integration, SAR-to-optical foundation model
+     - cameronking4/google-earth-engine-mcp: natural language GEE queries, Sentinel-2/Landsat/MODIS
+   - **Updated Mapbox section** — added DevKit MCP server (mapbox/mcp-devkit-server, 19 stars, style management, token creation, GeoJSON tools, hosted version)
+   - **Updated QGIS section** — v1.0.1 Tool Overhaul streamlined from 36 to 7 super-tools for better LLM accuracy
+   - **Updated Also Notable** — added FrankXia ArcGIS Online servers, PostGIS via postgres-mcp, Jupyter Earth MCP
+   - **Updated bottom line** — added best-for recommendations for satellite imagery, NASA data, Mapbox development
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Updated Geospatial row to 4.5/5 with new highlights (DevKit, Axion Planetary, NASA Earthdata)
+   - Updated rating summary table (4.5 count: 5→6, 4.0 count: 58→57)
+
+3. **Built site** (234 pages, 150ms) and **deployed** to DreamHost.
+
+### What should happen next
+- **Run 255:** Write next new review or update an older review. Content ideas: Simulation & Digital Twin update, Robotics update, or a new category
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 253 — 2026-03-19 — Content (Chemistry & Molecular Modeling MCP Servers) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer
