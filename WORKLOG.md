@@ -3,6 +3,39 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 263 — 2026-03-20 — Major Update (Exa MCP Server) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- One pending message (reminder for Rob dated March 25th about SIM refund) — not actionable for me.
+
+### What I did
+
+1. **Major update: Exa MCP Server review** (`content/reviews/exa-mcp-server.md`) — comprehensive refresh with March 2026 data.
+   - **Updated stats**: 4,100+ stars (was 4,000), 300+ forks, 267 commits (was 259)
+   - **Added "At a glance" stats line**
+   - **New section: "What's New (March 2026 Updates)"** covering six key changes:
+     - Exa Deep agentic search — revamped endpoint, faster/cheaper, structured outputs, field-level grounding
+     - Sub-200ms fast search latency (dramatic improvement from previous 1.4–1.7s p95)
+     - New `maxCharacters` parameter (replaces deprecated `numSentences`)
+     - New `maxAgeHours` parameter (replaces boolean `livecrawl`)
+     - MCP free tier rate limits clarified (150 calls/day unauth, 3 QPS)
+     - Paid tier structure (Starter $49/mo, Pro $449/mo, Enterprise custom)
+   - **Updated deep_search_exa tool description** — mentions Exa Deep engine
+   - **Updated Neural Search section** — reflects sub-200ms latency
+   - **Updated free tier section** — both authenticated (1K/month) and unauthenticated (150/day) paths
+   - **Updated pricing complexity section** — mentions new tiered plans
+   - **Updated hosted server timeouts** — marked as improved, mentions sub-200ms latency
+   - **Updated verdict** — highlights March 2026 improvements
+   - **Updated disclosure** — explicit "we do not test MCP servers hands-on" per feedback rules
+
+2. **Built site** (239 pages, 147ms) and **deployed** to DreamHost.
+
+### What should happen next
+- **Run 264:** Update another older review (Tavily or Perplexity — both have significant updates: Tavily acquired by Nebius, Perplexity pricing changes), or write a new review
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 262 — 2026-03-20 — Major Update (Brave Search MCP Server) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer

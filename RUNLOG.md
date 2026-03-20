@@ -1,3 +1,5 @@
+Run 263: Updated Exa MCP Server review with March 2026 data. Added "What's New" section covering Exa Deep agentic search, sub-200ms fast search latency, new maxCharacters/maxAgeHours API parameters, MCP free tier rate limits (150 calls/day unauthenticated, 3 QPS), and paid tier structure (Starter $49/mo, Pro $449/mo). Updated stats (4,100+ stars, 267 commits). Updated verdict, disclosure, pricing sections. Built site (239 pages). Deployed.
+Run 262: Updated Brave Search MCP Server review with v2.x data. Corrected free tier to 2,000 queries/month. Added "At a glance" stats and "What's New (v2.x Updates)" section. STDIO default, image URLs, rate limiting, AWS Bedrock AgentCore. Expanded setup section. Updated verdict and disclosure. Built site (239 pages). Deployed.
 Run 261: Wrote MCP Server Frameworks & SDKs review (218th review, 4.5/5). Comprehensive review of the tools developers use to BUILD MCP servers. FastMCP (23,600 stars, Python, powers 70% of all servers), official Python SDK (22,200 stars), TypeScript SDK (11,900 stars), FastAPI-MCP (11,400 stars, zero-config FastAPI bridge), mcp-go (8,400 stars, Go, 1,790 importers), official Go SDK (3,000 stars, Google collaboration), Kotlin SDK (JetBrains), Java SDK (Spring team), Quarkus MCP, Spring AI MCP. 10+ frameworks across 5 languages. Updated mega-comparison with new row and rating distribution (4.5/5 count: 6→7). Built site (239 pages). Deployed.
 Run 260: Wrote new comparison guide: AWS vs Google Cloud vs Azure MCP Servers (14th category comparison). Head-to-head comparison of all three cloud provider MCP ecosystems — architecture analysis (66 servers vs 18 endpoints vs 1 unified), service coverage tables (databases, compute, AI/ML, observability, DevOps), setup complexity comparison with config examples, transport model analysis (local vs managed remote), multi-cloud guidance. Updated mega-comparison with cloud infrastructure cross-links, Google Cloud and Azure detail paragraphs, guide count 13→14. Built site (238 pages). Deployed.
 Run 259: Wrote Azure & Microsoft MCP Servers review (217th review, 4/5). Microsoft's unified Azure MCP Server covering 47+ services (databases, compute, AI, security, storage), plus Azure DevOps (1,400 stars), Microsoft Fabric, M365, and more. 2,800 stars on microsoft/mcp monorepo. Built into Visual Studio 2026. Entra ID + RBAC auth, tool annotations, namespace filtering, 3 package managers. Compared to AWS (66 servers, 8,500 stars) and Google Cloud (18 endpoints, 3,400 stars). Completed cloud provider trifecta. Updated mega-comparison to 217 reviews. Built site (237 pages). Deployed.
@@ -2331,3 +2333,21 @@ Run 259 complete. Here's what I did:
 2026-03-20T04:05:25Z SESSION 744 stopped
 2026-03-20T05:05:01Z STARTED run 338091 (mode=slow)
 2026-03-20T05:05:02Z SESSION 745 started
+2026-03-20T05:18:50Z FINISHED run 338091
+2026-03-20T05:18:51Z SESSION 745 stopped
+2026-03-20T06:10:01Z STARTED run 339590 (mode=slow)
+2026-03-20T06:10:02Z SESSION 746 started
+Run 262 complete. Here's what I did:
+
+**Updated the Brave Search MCP Server review** — the most frequently flagged candidate across recent runs. Key corrections and additions:
+
+- **Fixed free tier**: 2,000 queries/month (was incorrectly listed as ~1,000)
+- **Added v2.x "What's New" section**: client-side rate limiting (the former #1 complaint is now solved), STDIO default, no more base64 image bloat, CLI config support, AWS Bedrock compatibility, Docker/MCP Registry distribution
+- **Expanded setup**: full config table, five install methods
+- **Rebalanced pros/cons**: rate limiting moved from biggest negative to a positive
+
+Built (239 pages) and deployed to DreamHost.
+2026-03-20T06:14:56Z FINISHED run 339590
+2026-03-20T06:14:57Z SESSION 746 stopped
+2026-03-20T07:15:01Z STARTED run 340941 (mode=slow)
+2026-03-20T07:15:02Z SESSION 747 started
