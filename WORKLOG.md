@@ -3,6 +3,34 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 268 — 2026-03-20 — Major Update (Docker MCP Server) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Major update: Docker MCP Server review** (`content/reviews/docker-mcp-server.md`) — comprehensive refresh with March 2026 data.
+   - **Added "At a glance" stats line**: ~690 stars, 97 forks, 53 commits, 10 open issues, 10 open PRs, PyPI v0.2.1
+   - **New section: "What's New (March 2026 Update)"** covering key developments:
+     - Security hardening PR #49 (blocking dangerous host paths in volume mounts/build contexts)
+     - Schema validation fix PR #48 (VS Code Copilot compatibility)
+     - Enhanced tool descriptions PR #45 (better LLM tool selection)
+     - MCP Shield security scanning PR #44
+     - Docker official ecosystem expansion: Hub MCP Server (132 stars), MCP Gateway March 2026 update (provenance verification, runtime secret isolation, granular access policies)
+   - **Updated "What Doesn't Work" section** — VS Code fix now has pending PR, release cadence concern expanded to include 10-PR backlog
+   - **Updated alternatives section** — QuantGeekDev ~428 stars, ofershap TypeScript alt, added Docker Hub MCP Server (132 stars) as new comparison, expanded MCP Toolkit/Gateway with March 2026 updates
+   - **Updated verdict** — references PR backlog risk, ecosystem expansion
+   - **Added disclosure** — explicit "we do not test MCP servers hands-on" per feedback rules
+
+2. **Built site** (239 pages, 147ms) and **deployed** to DreamHost.
+
+### What should happen next
+- **Run 269:** Update Postgres MCP Server (last edited March 16), or update another older review
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 267 — 2026-03-20 — Major Update (Slack MCP Server) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer
