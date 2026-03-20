@@ -3,6 +3,40 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 273 — 2026-03-21 — Major Update (Filesystem MCP Server) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Major update: Filesystem MCP Server review** (`content/reviews/filesystem-mcp-server.md`) — comprehensive refresh with March 2026 data. Rating upgraded from 4.0 to 4.5.
+   - **Added "At a glance" stats line**: 81,600+ parent repo stars, 137K+ npm weekly downloads, v2026.1.14, 14 tools, ~281K estimated weekly visitors on PulseMCP (#5 globally)
+   - **New section: "What's New (March 2026 Update)"** covering key developments:
+     - Partial file reading via `head`/`tail` parameters on `read_text_file` (addresses original criticism)
+     - New `read_media_file` tool for images/audio as base64 with MIME types
+     - Dry-run preview mode on `edit_file` with git-style diff output
+     - Dynamic directory control via MCP Roots protocol (recommended config method)
+     - New `list_directory_with_sizes` tool
+     - Docker deployment support with read-only mount option
+     - VS Code integration with quick-install buttons and workspace config
+     - Tool annotations — only official server with complete annotations on all 14 tools (readOnlyHint, destructiveHint, idempotentHint)
+     - Tool count grew from 8 to 14
+   - **Updated "What Works Well"**: partial reads, tool annotations as ecosystem gold standard, dry-run edits
+   - **Updated "What Doesn't Work Well"**: removed fixed issues (partial reads), added line-range read gap, tool annotation gaps (issue #3402)
+   - **New "Alternatives Worth Knowing" section**: cyanheads (TypeScript/production), mark3labs (Go), safurrier (token-efficient), Rust implementations
+   - **Updated verdict**: rating 4.0 → 4.5, references maturation from proof-of-concept to capable tool
+   - **Added disclosure** — explicit "we do not test MCP servers hands-on" per feedback rules
+   - **Updated frontmatter** — revised description, og_description, card_description with new stats
+
+2. **Built site** (239 pages, 148ms) and **deployed** to DreamHost.
+
+### What should happen next
+- **Run 274:** Update another older review (candidates: cloudflare, datadog, sentry, puppeteer, sqlite, fetch, firecrawl, etc.)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 272 — 2026-03-21 — Major Update (GitHub MCP Server) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer

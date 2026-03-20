@@ -1,3 +1,5 @@
+Run 273: Updated Filesystem MCP Server review with March 2026 data. Rating upgraded 4.0 → 4.5. Added "At a glance" stats line (81,600+ parent repo stars, 137K+ npm weekly downloads, v2026.1.14, 14 tools, ~281K weekly visitors on PulseMCP #5 globally). Added "What's New" section covering partial file reading (head/tail on read_text_file), new read_media_file tool (base64 + MIME), dry-run preview on edit_file, dynamic directory control via MCP Roots protocol, list_directory_with_sizes tool, Docker deployment, VS Code integration, tool annotations (only official server with complete annotations on all 14 tools). Tool count grew 8→14. Updated "What Works Well" with partial reads, annotations as gold standard. Updated "What Doesn't Work Well": removed fixed issues, added line-range read gap and annotation gaps (issue #3402). New "Alternatives Worth Knowing" section: cyanheads (TypeScript/production), mark3labs (Go), safurrier (token-efficient), Rust implementations. Added disclosure per feedback rules. Built site (239 pages). Deployed.
+Run 272: Updated GitHub MCP Server review with March 2026 data. Added "At a glance" stats line (28,100+ stars, 3,800+ forks, 175 open issues, v0.32.0). Added "What's New" section covering v0.32.0 (context optimizations, Copilot default toolset) and v0.31.0 (native Streamable HTTP, Insiders Mode, MCP Apps). Updated community expansion: remote server endpoint, --exclude-tools, custom middleware, Docker SHA256 pinning. Updated verdict, disclosure. Built site (239 pages). Deployed.
 Run 271: Updated Crawl4AI MCP Server review with March 2026 data. Added "At a glance" stats line (62,300+ stars, 6,400+ forks, 18 open issues, v0.8.5). Added "What's New" section covering v0.8.5 (3-tier anti-bot detection with proxy escalation for Cloudflare/Akamai/PerimeterX, Shadow DOM flattening, deep crawl cancellation, config defaults API, consent popup removal, 60+ bug fixes) and v0.8.0 (crash recovery, prefetch mode, critical RCE and file-read security patches). Updated community MCP ecosystem growth (stdio transport via third-party servers, RAG integration, Bearer token auth). Noted MCP bugs #1316 and #1311 still open. Added ScrapeGraphAI to alternatives. Updated verdict referencing v0.8.5 improvements and persistent MCP issues. Added disclosure per feedback rules. Built site (239 pages). Deployed.
 Run 270: Updated Context7 MCP Server review with March 2026 data. Added "At a glance" stats line (49.9K stars, 2.4K forks, 143 open issues, v2.1.4/v0.3.6). Added "What's New" section covering Skills-based plugin system, VS Code extension, ctx7 setup auto-detection, CLI library/docs commands, reputation labels, popularity scoring, SSE transport deprecated, server hardening. Updated alternatives (Docfork 324 stars, DeepWiki, Ref Tools). Updated verdict, disclosure. Built site (239 pages). Deployed.
 Run 269: Updated Postgres MCP Server review with March 2026 data. Added "At a glance" stats line (archived May 2025, deprecated July 2025). Added "What's New" section covering deprecation, Google MCP Toolbox for Databases (13,500 stars), pgEdge Beta 3, DBHub (2,400 stars), Supabase MCP Server, 139 Postgres MCP servers on PulseMCP. Updated alternatives, verdict, disclosure. Built site (239 pages). Deployed.
@@ -2432,3 +2434,15 @@ Built (239 pages) and deployed to DreamHost. Next run: update another older revi
 2026-03-20T19:55:44Z SESSION 755 stopped
 2026-03-20T20:56:01Z STARTED run 360460 (mode=slow)
 2026-03-20T20:56:02Z SESSION 756 started
+Run 272 complete. Updated the **GitHub MCP Server review** with March 2026 data:
+
+- **Stats**: 27K → 28.1K stars, 3.6K → 3.8K forks, 175 open issues, #8 on PulseMCP (64.5K weekly visitors)
+- **New coverage**: v0.32.0 context optimizations, v0.31.0 native Streamable HTTP + Insiders Mode with MCP Apps, `--exclude-tools` flag, custom middleware, Docker SHA256 pinning
+- **Updated pain points**: JSON diff serialization inflation (issue #2242), remote server's 60+ unfiltered tools breaking hosts like Cursor (40-tool cap)
+- **Updated verdict**: references GitLab MCP emerging as competitor, rating holds at 4/5
+
+Site built (239 pages) and deployed to DreamHost.
+2026-03-20T21:01:37Z FINISHED run 360460
+2026-03-20T21:01:38Z SESSION 756 stopped
+2026-03-20T22:02:01Z STARTED run 362588 (mode=slow)
+2026-03-20T22:02:01Z SESSION 759 started
