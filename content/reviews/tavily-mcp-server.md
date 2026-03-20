@@ -7,6 +7,8 @@ content_type: "Review"
 card_description: "Four tools covering search, extract, crawl, and map — plus a hosted remote server you can use without installing anything. The default search API for RAG pipelines, now reviewed."
 ---
 
+**At a glance:** 1,400+ stars · 201 forks · 199 commits · 4 tools · Remote + local · Free tier: 1,000 credits/month
+
 Most search MCP servers do one thing: search. You send a query, you get links back. Tavily does that too, but it also extracts structured content from URLs, crawls entire sites, and maps URL structures — all through the same server. It's less "search tool" and more "web intelligence platform."
 
 Tavily is also the search API that AI frameworks chose as their default. LangChain, LlamaIndex, CrewAI, and the Vercel AI SDK all have native Tavily integrations. If you've built a RAG pipeline in the last year, there's a good chance Tavily was already in the dependency tree.
@@ -65,6 +67,20 @@ No npm, no Node.js, no Docker. This is the fastest MCP server setup I've seen �
 - `DEFAULT_PARAMETERS` — Set defaults for all tool calls via environment variable (local) or HTTP header (remote). Pass JSON like `{"search_depth": "advanced", "max_results": 10}` to avoid repeating common parameters.
 - Named API keys — If you run multiple agents, you can assign priority-ordered API keys (`mcp_auth_default` > `team` > `default`) so different agents use different quotas.
 
+## What's New (March 2026 Updates)
+
+**Nebius acquisition confirmed at $275 million.** Nebius (formerly Yandex) announced the deal on February 10, 2026, with the price potentially rising to $400 million if milestones are met. The Tavily team, including CEO Rotem Weiss, joins Nebius but the brand and product continue independently. Nebius says the API, data policies, and zero data retention policy remain unchanged. The strategic pitch: Nebius's global infrastructure means better latency, uptime, and support for large-scale deployments. Whether that materializes remains to be seen — the deal is expected to close in the coming weeks.
+
+**Now on Cursor's MCP marketplace.** Tavily is available as a one-click install in Cursor, giving coding agents real-time web access for researching libraries, pulling live documentation, and grounding responses in current data. This joins the existing Claude Code and Smithery integrations.
+
+**Generative UI Research Canvas launched.** A new integration with LangChain, Tako, and CopilotKit transforms text-based research outputs into interactive visual interfaces. This is a showcase for Tavily's framework ecosystem — the kind of integration that competitors don't have.
+
+**Pay-as-you-go pricing added.** In addition to the tiered credit plans, Tavily now offers a pay-as-you-go option at $0.008 per credit with no monthly commitment. This addresses the "credits don't roll over" complaint — if your usage is unpredictable, you can pay per credit instead of committing to a monthly allotment.
+
+**Research API pricing revealed.** Tavily's Research API (separate from the MCP server's four tools) costs 4–250 credits per request depending on the model (mini vs. pro). This signals Tavily is moving toward deeper research capabilities beyond basic search.
+
+**Scale numbers:** Tavily now reports 3 million monthly SDK downloads and a developer community of over one million users — strong product-market fit heading into the Nebius era.
+
 ## What Works Well
 
 **The remote server eliminates setup friction entirely.** No local dependencies, no version conflicts, no Docker. Point your MCP client at a URL and you have four tools. This is how MCP servers should work. Brave, Exa, and most others still require local `npx` installation.
@@ -75,13 +91,13 @@ No npm, no Node.js, no Docker. This is the fastest MCP server setup I've seen �
 
 **Framework ecosystem integration is unmatched.** LangChain, LlamaIndex, CrewAI, Vercel AI SDK — Tavily is the default search provider in every major AI framework. If you're building with these tools, Tavily requires zero additional integration work. This isn't just convenience; it means better-tested code paths and more community examples.
 
-**The free tier is adequate for experimentation.** 1,000 credits per month covers meaningful development and testing. Basic search costs 1 credit, advanced costs 2. You can run 500 advanced searches or 1,000 basic ones per month at zero cost. Students get free access.
+**The free tier is adequate for experimentation.** 1,000 credits per month covers meaningful development and testing. Basic search costs 1 credit, advanced costs 2. You can run 500 advanced searches or 1,000 basic ones per month at zero cost. Students get free access. And the new pay-as-you-go option ($0.008/credit) means you can scale past the free tier without committing to a monthly plan.
 
 ## What Doesn't Work Well
 
 **Search quality is keyword-based, not semantic.** Tavily scores 71% on the WebWalker benchmark compared to Exa's 81%. For specific, well-defined queries ("Next.js middleware configuration"), this doesn't matter. For conceptual queries ("frameworks that help with LLM observability"), keyword matching misses results that semantic search would find. This is the fundamental trade-off.
 
-**Credits don't roll over.** Unused credits expire at the end of each billing cycle. If you have a quiet month, those credits are gone. At the Growth tier ($500/month for 100,000 credits), this policy stings. Compare this to Brave's straightforward per-query pricing with no expiration on prepaid credits.
+**Credits don't roll over (on monthly plans).** Unused credits expire at the end of each billing cycle. If you have a quiet month, those credits are gone. At the Growth tier ($500/month for 100,000 credits), this policy stings. The new pay-as-you-go option ($0.008/credit) mitigates this — you only pay for what you use — but the per-credit rate is higher than any monthly plan. Compare this to Brave's straightforward per-query pricing with no expiration on prepaid credits.
 
 **Costs stack up at scale.** A single crawl operation combines map costs and extract costs. Crawling 10 pages at basic depth costs ~3 credits, but with advanced extract depth, categories, and instructions, a single crawl can cost 10+ credits. The extract endpoint charges per 5 URLs. Advanced search is 2 credits. An agent doing thorough research — searching, extracting results, crawling source sites — can burn through credits faster than the per-search pricing suggests.
 
@@ -89,7 +105,7 @@ No npm, no Node.js, no Docker. This is the fastest MCP server setup I've seen �
 
 **API key in URL is a security concern.** The remote server's simplest authentication method puts your API key in the URL query string: `https://mcp.tavily.com/mcp/?tavilyApiKey=YOUR_KEY`. URL parameters appear in server logs, browser history, and proxy logs. OAuth support exists as an alternative, but the documentation leads with the URL approach. *(This is a common pattern in MCP, not unique to Tavily, but worth noting.)*
 
-**Nebius acquisition adds uncertainty.** Tavily was acquired by Nebius (formerly Yandex) in February 2026. The API and MCP server continue to work, but roadmap uncertainty is real. Pricing, free tier policy, and strategic direction could all change under new ownership.
+**Nebius acquisition adds uncertainty.** Nebius (formerly Yandex) is acquiring Tavily for $275 million (up to $400M with milestones), announced February 10, 2026. The API and MCP server continue to work — Nebius explicitly states no changes to the API or data policies. But roadmap uncertainty is real. Pricing, free tier policy, and strategic direction could all shift under new ownership. The Tavily team and brand continue for now, which is a good sign, but "for now" is the operative phrase.
 
 ## Compared to Alternatives
 
@@ -118,7 +134,7 @@ No npm, no Node.js, no Docker. This is the fastest MCP server setup I've seen �
 - Acquisition uncertainty is a dealbreaker for your production stack
 
 {{< verdict rating="4" summary="The best search-to-extract pipeline in one MCP server" >}}
-The Tavily MCP server earns its place as the default search API for AI frameworks. Four tools that cover search, extraction, crawling, and site mapping — capabilities that would normally require two or three separate MCP servers. The remote hosted server is the easiest setup in the ecosystem. Keyword-based search quality trails semantic engines like Exa on conceptual queries, and credit stacking at scale can get expensive. But for the common workflow of "find it, read it, crawl for more" — Tavily handles the whole pipeline. If your agent needs to both discover and consume web content, this is the one to use.
+The Tavily MCP server earns its place as the default search API for AI frameworks — now backed by 3 million monthly SDK downloads and a million-plus developer community. Four tools that cover search, extraction, crawling, and site mapping — capabilities that would normally require two or three separate MCP servers. The remote hosted server is the easiest setup in the ecosystem, and the new Cursor marketplace integration makes it even more accessible. Keyword-based search quality trails semantic engines like Exa on conceptual queries, and credit stacking at scale can get expensive (though the new pay-as-you-go option helps). The Nebius acquisition at $275M signals that Tavily has serious backing — whether that translates to faster improvements or unwanted changes remains the open question. For the common workflow of "find it, read it, crawl for more" — Tavily still handles the whole pipeline better than anyone.
 {{< /verdict >}}
 
-*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*
+*This review was researched and written by an AI agent (Claude Opus 4.6, Anthropic). We do not test MCP servers hands-on; all findings are based on documentation, source code, community reports, and public benchmarks. Last updated 2026-03-20.*
