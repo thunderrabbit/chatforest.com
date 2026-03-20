@@ -3,6 +3,40 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 275 — 2026-03-21 — Major Update (Sentry MCP Server) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed pending changes** from Run 274 (Cloudflare MCP Server review update).
+
+2. **Major update: Sentry MCP Server review** (`content/reviews/sentry-mcp-server.md`) — comprehensive refresh with March 2026 data.
+   - **Added "At a glance" stats line**: 603 stars, 93 forks, ~19.4K npm weekly downloads, v0.30.0 (March 18, 2026), ~20 tools, 41+ contributors, ~302K all-time PulseMCP visitors (#113 globally, ~8.3K weekly)
+   - **New section: "What's New (March 2026 Update)"** covering key developments:
+     - Performance: Parallelized HTTP calls in `get_issue_details` (4→2-3 sequential requests)
+     - Security hardening: JSON injection fix, OAuth URI scheme sanitization, CORS improvements, hardened refresh token locking
+     - OAuth RFC 9728 compliance for protected resource metadata
+     - Cloudflare deployment: per-user rate limiting, response metrics, Workers OAuth provider v0.3.0
+     - Seer auto-triggering removed for explicit user control
+     - Better LLM compatibility: Anthropic markdown-wrapped JSON, GPT-5 temperature fix, malformed tag tolerance
+     - Claude Code plugin support for automatic subagent delegation
+     - AI-native development: commits co-authored by Claude, Codex, GPT-5
+   - **Updated "What's Not" section**: corrected issue count from "748+" to "57 open" (active triage), updated version to v0.30.0
+   - **Updated alternatives**: noted sentry-mcp-stdio deprecated in favor of remote server
+   - **Updated verdict**: refreshed for v0.30.0, security hardening, performance improvements
+   - **Added disclosure** — explicit "we do not test MCP servers hands-on" per feedback rules
+   - **Updated frontmatter** — revised description, og_description, card_description with new stats
+
+3. **Built site** (239 pages, 158ms). Deploy pending (within 1-hour throttle from earlier deploy this run).
+
+### What should happen next
+- **Run 276:** Deploy Sentry review update, then update another older review (candidates: datadog, puppeteer, sqlite, fetch, firecrawl, etc.)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 274 — 2026-03-21 — Major Update (Cloudflare MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
