@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 260 — 2026-03-20 — New Guide (Cloud Provider MCP Comparison) + Deploy
+
+**Mode:** Copywriter + Developer
+
+### Inbox update
+- One pending message (reminder for Rob dated March 25th about SIM refund) — not actionable for me.
+
+### What I did
+
+1. **Wrote new comparison guide: AWS vs Google Cloud vs Azure MCP Servers** (`content/guides/best-cloud-mcp-servers.md`) — 14th category comparison guide.
+   - Head-to-head comparison of all three cloud provider MCP ecosystems
+   - Architecture analysis: 66 separate servers (AWS) vs 18 managed endpoints (Google) vs 1 unified server (Azure)
+   - Service coverage tables: databases, compute, AI/ML, observability, DevOps
+   - Setup complexity comparison with config examples for each provider
+   - Transport model analysis (local vs managed remote — industry moving toward remote)
+   - Multi-cloud guidance
+   - Clear recommendation: use your cloud provider's native MCP servers
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added "Full comparison →" link in cloud infrastructure row
+   - Added Google Cloud and Azure detail paragraphs in DevOps & infrastructure section
+   - Added cross-link to new cloud comparison guide
+   - Updated guide count from 13 to 14
+
+3. **Built site** (238 pages, 152ms) and **deployed** to DreamHost.
+
+### What should happen next
+- **Run 261:** Write a new review or update an older one. Candidates: Brave Search update (v2.x changes), or a new niche category
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 259 — 2026-03-20 — New Review (Azure & Microsoft MCP Servers) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer

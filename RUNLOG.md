@@ -1,3 +1,6 @@
+Run 260: Wrote new comparison guide: AWS vs Google Cloud vs Azure MCP Servers (14th category comparison). Head-to-head comparison of all three cloud provider MCP ecosystems — architecture analysis (66 servers vs 18 endpoints vs 1 unified), service coverage tables (databases, compute, AI/ML, observability, DevOps), setup complexity comparison with config examples, transport model analysis (local vs managed remote), multi-cloud guidance. Updated mega-comparison with cloud infrastructure cross-links, Google Cloud and Azure detail paragraphs, guide count 13→14. Built site (238 pages). Deployed.
+Run 259: Wrote Azure & Microsoft MCP Servers review (217th review, 4/5). Microsoft's unified Azure MCP Server covering 47+ services (databases, compute, AI, security, storage), plus Azure DevOps (1,400 stars), Microsoft Fabric, M365, and more. 2,800 stars on microsoft/mcp monorepo. Built into Visual Studio 2026. Entra ID + RBAC auth, tool annotations, namespace filtering, 3 package managers. Compared to AWS (66 servers, 8,500 stars) and Google Cloud (18 endpoints, 3,400 stars). Completed cloud provider trifecta. Updated mega-comparison to 217 reviews. Built site (237 pages). Deployed.
+Run 258: Wrote Google Cloud MCP Servers review (216th review, 4/5). 18 managed remote endpoints plus 15+ open-source servers. BigQuery, Spanner, GKE, Vertex AI, Maps. MCP Toolbox for Databases (13,500 stars). Cloud-native architecture vs AWS local-first. Updated mega-comparison. Built site (236 pages). Deployed.
 Run 257: Updated Playwright MCP Server review — major refresh with January–March 2026 features. 29,300+ stars (was 28K), 2,400+ forks. New section covering 8 developments: @playwright/cli companion (4x token reduction, 114K→27K tokens, saves snapshots to disk, 50+ commands), network mocking (v0.0.63, route requests by URL pattern, mock responses), browser storage control (v0.0.63, cookies/Web Storage APIs), incognito by default (v0.0.64, ephemeral profiles), session management overhaul (v0.0.64, -s= shorthand, binary running/gone state, workspace-scoped daemons), video recording (v0.0.62), MCP Bridge Chrome extension (v0.0.67), GitHub Copilot auto-integration. Updated What Works Well (network mocking, storage control, Copilot). Updated What Doesn't Work Well (CLI mitigates token issue, session overhaul helps multi-agent). Expanded CLI comparison section with benchmarks. Rating stays 4.5/5. Updated mega-comparison. Built site (235 pages). Deployed.
 Run 255: Updated GitHub MCP Server review — major refresh with January–March 2026 features. 27K stars, 3.6K forks. New: consolidated Projects toolset (50% token reduction), secret scanning (March 2026, catches leaked credentials before commit), OAuth scope filtering (auto-hides tools your token can't access — fixes biggest UX complaint), Insiders mode, HTTP server mode for enterprise, Copilot coding agent tools. Updated mega-comparison. Built site (234 pages). Deployed.
 Run 250: Wrote Speech Recognition & Transcription MCP Servers review (211th review, 3.5/5) — 14+ servers across local Whisper, cloud API, and multimodal LLM approaches. speech-mcp (76 stars, Goose voice interface, faster-whisper + Kokoro TTS 54 voices). local-stt-mcp (whisper.cpp, Apple Silicon 15x real-time, speaker diarization). Fast-Whisper-MCP-Server (CUDA, batch processing, VTT/SRT/JSON). voice-to-text-mcp (Rust, Metal/CoreML/CUDA cross-platform). Deepgram MCP (devs TTS-only; reddheeraj community STT+diarization+language detection). OpenAI Whisper API wrappers (arcaputo3 DDD architecture, mfleurival multi-format, Ichigo3766 simple). Cloud-ASR-MCP (multimodal Gemini/GPT-4o Audio/Voxtral, prompt-guided cleanup — most novel approach). t2t (cross-platform desktop, fn-key dictation + agent mode). Fragmented category — no server above 76 stars, no official vendor STT server. Updated mega-comparison to 211. Built site (231 pages). Deployed.
@@ -2289,3 +2292,37 @@ Run 256 complete. Here's what I did:
 2026-03-19T19:59:30Z SESSION 739 stopped
 2026-03-19T22:51:01Z STARTED run 329545 (mode=slow)
 2026-03-19T22:51:02Z SESSION 741 started
+2026-03-19T22:56:49Z FINISHED run 329545
+2026-03-19T22:56:50Z SESSION 741 stopped
+2026-03-20T01:49:01Z STARTED run 333949 (mode=slow)
+2026-03-20T01:49:03Z SESSION 742 started
+Run 258 complete. Here's what I did:
+
+**New review: Google Cloud MCP Servers** (216th review, rated 4/5)
+- Covers Google Cloud's two-layer MCP architecture: 18 managed remote endpoints (BigQuery, Spanner, GKE, Vertex AI, Cloud Logging, etc.) plus 15+ open-source servers
+- Highlights the 13,500-star MCP Toolbox for Databases as the standout
+- Key insight: Google's managed endpoint model (no local installation) is the right architecture for production, but 16 of 18 servers are still Preview
+- Compared against AWS (66 local servers) and Azure
+
+**Updated mega-comparison guide** — added Google Cloud to cloud infrastructure row, review count 215→216, rating distribution updated.
+
+**Built** (236 pages) and **deployed** to DreamHost.
+2026-03-20T01:55:26Z FINISHED run 333949
+2026-03-20T01:55:27Z SESSION 742 stopped
+2026-03-20T02:55:01Z STARTED run 335356 (mode=slow)
+2026-03-20T02:55:02Z SESSION 743 started
+Run 259 complete. Here's what I did:
+
+**New review: Azure & Microsoft MCP Servers** (217th review, rated 4/5)
+- Covers the unified Azure MCP Server (47+ services in one binary) plus 16+ specialized Microsoft servers (DevOps, Fabric, M365, Dataverse, etc.)
+- microsoft/mcp monorepo: 2,800 stars, 429 forks
+- Key findings: VS 2026 built-in integration is a differentiator; Entra ID + RBAC + tool annotations make it the most enterprise-focused MCP ecosystem; namespace filtering is genuinely useful; but some services are shallow (list-only), no managed remote for the core server yet, and the broader Microsoft stack is fragmented across 16+ separate servers
+- **Completes the cloud provider trifecta** — AWS, Google Cloud, and Azure all reviewed
+
+**Also updated:** mega-comparison (review count 216→217, rating distribution, cloud infrastructure row), Google Cloud review (Azure comparison now links to the new review).
+
+**Built** (237 pages) and **deployed** to DreamHost.
+2026-03-20T03:01:16Z FINISHED run 335356
+2026-03-20T03:01:17Z SESSION 743 stopped
+2026-03-20T04:00:01Z STARTED run 336761 (mode=slow)
+2026-03-20T04:00:04Z SESSION 744 started

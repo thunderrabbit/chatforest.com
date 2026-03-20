@@ -9,7 +9,7 @@ card_description: "We've reviewed 28 MCP servers across 11 categories and beyond
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [167 in-depth reviews](/reviews/) and [13 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [167 in-depth reviews](/reviews/) and [14 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -51,7 +51,7 @@ If you want to skip the details:
 | Email delivery / Notifications | [Notification Services MCP](/reviews/notification-services-mcp-servers/) | 3.5/5 | Resend (470 stars, dual transport), Infobip (14 hosted servers), Mailgun (official), Twilio (OpenAPI-generated) |
 | CRM | [CRM MCP Servers](/reviews/crm-mcp-servers/) | 3.5/5 | salesforcecli/mcp (312 stars, official), peakmojo/mcp-hubspot (116 stars), kesslerio/attio (58 stars) |
 | E-commerce | [Shopify MCP Servers](/reviews/shopify-mcp-servers/) | 3.5/5 | Dev MCP (docs), Storefront MCP (shopping), community Admin API servers |
-| Cloud infrastructure | [Cloudflare MCP](/reviews/cloudflare-mcp-server/) | 4.5/5 | [AWS MCP](/reviews/aws-mcp-servers/) (4/5, 66 servers), [Google Cloud MCP](/reviews/google-cloud-mcp-servers/) (4/5, 30+ servers), [Azure MCP](/reviews/azure-mcp-servers/) (4/5, 47+ services) |
+| Cloud infrastructure | [Cloudflare MCP](/reviews/cloudflare-mcp-server/) | 4.5/5 | [AWS MCP](/reviews/aws-mcp-servers/) (4/5, 66 servers), [Google Cloud MCP](/reviews/google-cloud-mcp-servers/) (4/5, 30+ servers), [Azure MCP](/reviews/azure-mcp-servers/) (4/5, 47+ services). [Full comparison →](/guides/best-cloud-mcp-servers/) |
 | DevOps (IaC) | [Infrastructure Automation MCP](/reviews/infrastructure-automation-mcp-servers/) | 4.0/5 | [Terraform MCP](/reviews/terraform-mcp-server/) (1,300 stars, registry-first), [Pulumi MCP](/reviews/pulumi-mcp-server/) (Neo delegation) |
 | DevOps (containers) | [Docker MCP](/reviews/docker-mcp-server/) | 3.5/5 | [Kubernetes MCP](/reviews/kubernetes-mcp-server/) (4/5, clusters) |
 | DevOps (CI/CD) | [CI/CD MCP Servers](/reviews/cicd-mcp-servers/) | 4/5 | [GitHub MCP](/reviews/github-mcp-server/) (27.9K stars), [CircleCI MCP](https://github.com/CircleCI-Public/mcp-server-circleci) (flaky test detection) |
@@ -613,6 +613,12 @@ The fastest-growing MCP server category. Every major DevOps platform now ships a
 **For Kubernetes:** **[Kubernetes MCP](/reviews/kubernetes-mcp-server/) (4/5)** (Red Hat's `containers/kubernetes-mcp-server`). Native Go binary that talks directly to the K8s API — no kubectl wrapper, no external dependencies. 6 modular toolsets (core, config, Helm, KubeVirt, Kiali, KCP), multi-cluster support, read-only and non-destructive modes, automatic secret redaction. 1,300 stars, 747 commits, 58 releases. The most architecturally sound option in a fragmented ecosystem (6+ implementations).
 
 **For AWS:** **[AWS MCP](/reviews/aws-mcp-servers/) (4/5)** suite (awslabs/mcp). 66 specialized servers covering compute, storage, databases, AI/ML, security, and cost analysis. The Cloud Control API server enables natural language resource management; the Knowledge server at `knowledge-mcp.global.api.aws` is a free managed endpoint indexing all AWS documentation. The Core MCP Server orchestrates everything via role-based configurations. 8,500 stars, 190+ releases, active daily development. The breadth is unmatched but the complexity is overwhelming — start with the Knowledge server.
+
+**For Google Cloud:** **[Google Cloud MCP](/reviews/google-cloud-mcp-servers/) (4/5)** — 18 managed remote endpoints on googleapis.com plus 15+ open-source servers. The managed endpoint model is architecturally ahead: no local binaries, just HTTPS + credentials. The 13,500-star MCP Toolbox for Databases is battle-tested for cross-database scenarios.
+
+**For Azure:** **[Azure MCP](/reviews/azure-mcp-servers/) (4/5)** — one unified server covering 47+ services through filterable namespaces. Built into Visual Studio 2026. Three package managers (npm, NuGet, pip), Entra ID + RBAC auth, tool annotations for safety. Plus 16+ specialized servers for DevOps, Fabric, M365, and more.
+
+**[AWS vs Google Cloud vs Azure comparison →](/guides/best-cloud-mcp-servers/)** — architecture, coverage, and setup differences across all three cloud providers.
 
 **For Azure DevOps:** **Azure DevOps MCP** (Microsoft, GA). Covers work items, PRs, builds, pipelines, tests, and wikis. Now built into Visual Studio 2026. Remote hosted server coming in 2026.
 

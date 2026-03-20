@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Best MCP Servers for Developers in 2026 — ChatForest</title>
-  <meta name="description" content="We&#39;ve reviewed 216 MCP servers and compared 40&#43; across 13 categories. Here are the ones worth installing — and the ones to avoid.">
+  <meta name="description" content="We&#39;ve reviewed 217 MCP servers and compared 40&#43; across 13 categories. Here are the ones worth installing — and the ones to avoid.">
   <meta property="og:title" content="Best MCP Servers for Developers in 2026 — ChatForest">
   <meta property="og:description" content="We&#39;ve tested 33 MCP servers and compared 40&#43; across 11 categories. Here&#39;s every recommendation in one place — with honest ratings, not just feature lists.">
   <meta property="og:type" content="article">
@@ -45,7 +45,7 @@
 
       <div class="article-body">
         <p>Most &ldquo;best MCP servers&rdquo; lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don&rsquo;t tell you if it&rsquo;s good.</p>
-<p>We&rsquo;ve spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We&rsquo;ve published <a href="/reviews/">167 in-depth reviews</a> and <a href="/guides/">13 category comparisons</a> so far. This guide distills all of that into one page.</p>
+<p>We&rsquo;ve spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We&rsquo;ve published <a href="/reviews/">167 in-depth reviews</a> and <a href="/guides/">14 category comparisons</a> so far. This guide distills all of that into one page.</p>
 <p><strong>What makes this different:</strong> every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.</p>
 <h2 id="the-short-version">The short version</h2>
 <p>If you want to skip the details:</p>
@@ -255,7 +255,7 @@
 <td>Cloud infrastructure</td>
 <td><a href="/reviews/cloudflare-mcp-server/">Cloudflare MCP</a></td>
 <td>4.5/5</td>
-<td><a href="/reviews/aws-mcp-servers/">AWS MCP</a> (4/5, 66 servers), <a href="/reviews/google-cloud-mcp-servers/">Google Cloud MCP</a> (4/5, 30+ servers)</td>
+<td><a href="/reviews/aws-mcp-servers/">AWS MCP</a> (4/5, 66 servers), <a href="/reviews/google-cloud-mcp-servers/">Google Cloud MCP</a> (4/5, 30+ servers), <a href="/reviews/azure-mcp-servers/">Azure MCP</a> (4/5, 47+ services). <a href="/guides/best-cloud-mcp-servers/">Full comparison →</a></td>
 </tr>
 <tr>
 <td>DevOps (IaC)</td>
@@ -1314,7 +1314,7 @@
 <p><strong>For Google Cloud Storage:</strong> <strong><a href="https://github.com/googleapis/gcloud-mcp">googleapis/gcloud-mcp</a> storage-mcp</strong> is the best-designed storage MCP server in the category. 21 tools split into safe (always available) and destructive (opt-in via <code>--enable-destructive-tools</code>). New objects can be created safely; overwriting existing ones requires explicit opt-in. Storage Insights integration enables BigQuery queries on storage metadata. Official from Google, Apache 2.0, TypeScript, actively maintained.</p>
 <p><strong>For MinIO / self-hosted:</strong> <strong><a href="https://github.com/minio/mcp-server-aistor">minio/mcp-server-aistor</a></strong> is the most feature-rich storage MCP server overall — 26 tools including bucket management, object CRUD, presigned URLs, versioning, lifecycle policies, and unique AI-powered features (<code>ask_object</code> for content analysis, <code>text_to_object</code>). Three-level permissions (read-only, read-write, read-write-delete) via flags. Go, both stdio and Streamable HTTP.</p>
 <p><strong>For AWS S3:</strong> The surprise gap. AWS&rsquo;s official server covers only S3 Tables (Apache Iceberg), not standard S3 objects. The best general-purpose option is txn2/mcp-s3 (Go, 9 tools, security-focused) despite having only 1 star. AWS needs to ship a proper S3 MCP server.</p>
-<p><strong>For Azure Blob Storage:</strong> Microsoft&rsquo;s <a href="https://github.com/microsoft/mcp">official server</a> includes storage as part of 40+ Azure services, but <strong>can upload blobs but can&rsquo;t download them</strong> — a fundamental gap. No SAS URL generation either.</p>
+<p><strong>For Azure Blob Storage:</strong> Microsoft&rsquo;s <a href="/reviews/azure-mcp-servers/">Azure MCP Server</a> includes storage as part of 47+ Azure services, but <strong>can upload blobs but can&rsquo;t download them</strong> — a fundamental gap. No SAS URL generation either.</p>
 <p><strong>For Cloudflare R2:</strong> Fully covered through the <a href="/reviews/cloudflare-mcp-server/">Cloudflare API MCP server</a> at <code>mcp.cloudflare.com/mcp</code> — R2 operations are available via the universal search+execute pattern.</p>
 <p><strong><a href="/reviews/cloud-storage-mcp-servers/">Full review: Cloud Storage MCP Servers</a> (3.5/5)</strong> — 20+ servers across 7 platforms.</p>
 <hr>
@@ -1427,6 +1427,9 @@
 <p><strong>For containers:</strong> <strong><a href="/reviews/docker-mcp-server/">Docker MCP</a> (3.5/5)</strong> — the most complete Docker management MCP server. 19 tools covering containers, images, networks, and volumes, with SSH remote support and a plan-and-apply docker_compose prompt. Security-conscious (blocks <code>--privileged</code>). Missing <code>exec</code> and Compose file support, but covers the full container lifecycle. For the broader Docker MCP <em>ecosystem</em>, Docker&rsquo;s MCP Toolkit hosts 300+ verified server images with Dynamic MCP for mid-conversation tool discovery.</p>
 <p><strong>For Kubernetes:</strong> <strong><a href="/reviews/kubernetes-mcp-server/">Kubernetes MCP</a> (4/5)</strong> (Red Hat&rsquo;s <code>containers/kubernetes-mcp-server</code>). Native Go binary that talks directly to the K8s API — no kubectl wrapper, no external dependencies. 6 modular toolsets (core, config, Helm, KubeVirt, Kiali, KCP), multi-cluster support, read-only and non-destructive modes, automatic secret redaction. 1,300 stars, 747 commits, 58 releases. The most architecturally sound option in a fragmented ecosystem (6+ implementations).</p>
 <p><strong>For AWS:</strong> <strong><a href="/reviews/aws-mcp-servers/">AWS MCP</a> (4/5)</strong> suite (awslabs/mcp). 66 specialized servers covering compute, storage, databases, AI/ML, security, and cost analysis. The Cloud Control API server enables natural language resource management; the Knowledge server at <code>knowledge-mcp.global.api.aws</code> is a free managed endpoint indexing all AWS documentation. The Core MCP Server orchestrates everything via role-based configurations. 8,500 stars, 190+ releases, active daily development. The breadth is unmatched but the complexity is overwhelming — start with the Knowledge server.</p>
+<p><strong>For Google Cloud:</strong> <strong><a href="/reviews/google-cloud-mcp-servers/">Google Cloud MCP</a> (4/5)</strong> — 18 managed remote endpoints on googleapis.com plus 15+ open-source servers. The managed endpoint model is architecturally ahead: no local binaries, just HTTPS + credentials. The 13,500-star MCP Toolbox for Databases is battle-tested for cross-database scenarios.</p>
+<p><strong>For Azure:</strong> <strong><a href="/reviews/azure-mcp-servers/">Azure MCP</a> (4/5)</strong> — one unified server covering 47+ services through filterable namespaces. Built into Visual Studio 2026. Three package managers (npm, NuGet, pip), Entra ID + RBAC auth, tool annotations for safety. Plus 16+ specialized servers for DevOps, Fabric, M365, and more.</p>
+<p><strong><a href="/guides/best-cloud-mcp-servers/">AWS vs Google Cloud vs Azure comparison →</a></strong> — architecture, coverage, and setup differences across all three cloud providers.</p>
 <p><strong>For Azure DevOps:</strong> <strong>Azure DevOps MCP</strong> (Microsoft, GA). Covers work items, PRs, builds, pipelines, tests, and wikis. Now built into Visual Studio 2026. Remote hosted server coming in 2026.</p>
 <p><strong>For CI/CD:</strong> <strong><a href="/reviews/cicd-mcp-servers/">CI/CD MCP Servers</a> (4/5)</strong> — the ecosystem is surprisingly mature. <a href="/reviews/github-mcp-server/">GitHub MCP</a> (27,900 stars) covers Actions workflows alongside the full GitHub platform. <a href="https://github.com/CircleCI-Public/mcp-server-circleci">CircleCI MCP</a> (80 stars, 15 tools) has the best diagnostic tooling — <code>find_flaky_tests</code> and <code>find_underused_resource_classes</code> are tools every CI/CD server should copy. Jenkins has both an <a href="https://github.com/jenkinsci/mcp-server-plugin">official plugin</a> (66 stars, runs inside Jenkins) and <a href="https://github.com/lanbaoshen/mcp-jenkins">standalone servers</a> (95 stars, Python). <a href="https://github.com/zereight/gitlab-mcp">zereight/gitlab-mcp</a> (1,200 stars) covers GitLab pipelines as part of 85+ tools. <a href="https://github.com/microsoft/azure-devops-mcp">Azure DevOps MCP</a> (1,400 stars) is GA and built into Visual Studio 2026. <a href="https://github.com/akuity/argocd-mcp">Argo CD MCP</a> (348 stars) handles GitOps deployment for Kubernetes.</p>
 <p><strong>Safety note:</strong> DevOps MCP servers can modify production infrastructure. Use read-only modes, scope credentials tightly, start with non-production environments, and always review before applying changes.</p>
@@ -1457,8 +1460,8 @@
 </tr>
 <tr>
 <td>4.0/5</td>
-<td>59</td>
-<td>Filesystem, GitHub, Brave Search, Slack, Sentry, Exa, Neon, Supabase, Stripe, Linear, Todoist, Firecrawl, Tavily, Perplexity, MongoDB, AWS, Google Cloud, Kubernetes, Terraform, Grafana, Datadog, New Relic, Honeycomb, PagerDuty, Framelink, GitMCP, Mem0, Zep/Graphiti, Asana, Google Calendar, CI/CD, Code Security, Secret Management, Log Management, Infrastructure Automation, Database Administration, API Testing, Data Pipeline/ETL, Time-Series Databases, Audio/Video Processing, Workflow Automation, Game Engines/3D, Desktop Automation/Browser Control, E-Commerce/Shopping, Feature Flags/Experimentation, Calendar/Scheduling, Sports/Fitness, Travel/Tourism, Telecommunications/Communications, Government/Public Sector, Construction/Architecture, Personal Finance, Robotics, Apple/macOS, Spreadsheet/Office Suite, Cryptocurrency/DeFi, Container/Docker/Kubernetes, Serverless/FaaS, Vector Database/Embedding</td>
+<td>60</td>
+<td>Filesystem, GitHub, Brave Search, Slack, Sentry, Exa, Neon, Supabase, Stripe, Linear, Todoist, Firecrawl, Tavily, Perplexity, MongoDB, AWS, Google Cloud, Azure, Kubernetes, Terraform, Grafana, Datadog, New Relic, Honeycomb, PagerDuty, Framelink, GitMCP, Mem0, Zep/Graphiti, Asana, Google Calendar, CI/CD, Code Security, Secret Management, Log Management, Infrastructure Automation, Database Administration, API Testing, Data Pipeline/ETL, Time-Series Databases, Audio/Video Processing, Workflow Automation, Game Engines/3D, Desktop Automation/Browser Control, E-Commerce/Shopping, Feature Flags/Experimentation, Calendar/Scheduling, Sports/Fitness, Travel/Tourism, Telecommunications/Communications, Government/Public Sector, Construction/Architecture, Personal Finance, Robotics, Apple/macOS, Spreadsheet/Office Suite, Cryptocurrency/DeFi, Container/Docker/Kubernetes, Serverless/FaaS, Vector Database/Embedding</td>
 </tr>
 <tr>
 <td>3.5/5</td>
@@ -1503,7 +1506,7 @@
     
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","author":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"datePublished":"2026-03-14T02:52:53+09:00","description":"We've reviewed 216 MCP servers and compared 40+ across 13 categories. Here are the ones worth installing — and the ones to avoid.","headline":"Best MCP Servers for Developers in 2026","mainEntityOfPage":"https://chatforest.com/guides/best-mcp-servers/","publisher":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"url":"https://chatforest.com/guides/best-mcp-servers/"}
+{"@context":"https://schema.org","@type":"Article","author":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"datePublished":"2026-03-14T02:52:53+09:00","description":"We've reviewed 217 MCP servers and compared 40+ across 13 categories. Here are the ones worth installing — and the ones to avoid.","headline":"Best MCP Servers for Developers in 2026","mainEntityOfPage":"https://chatforest.com/guides/best-mcp-servers/","publisher":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"url":"https://chatforest.com/guides/best-mcp-servers/"}
 </script>
 
 
