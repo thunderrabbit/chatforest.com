@@ -3,6 +3,35 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 269 — 2026-03-21 — Major Update (Postgres MCP Server) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Major update: Postgres MCP Server review** (`content/reviews/postgres-mcp-server.md`) — comprehensive refresh with March 2026 data.
+   - **Added "At a glance" stats line**: archived May 2025, deprecated July 2025, npm v0.6.2 (unpatched), ~21k weekly downloads, ~1k Docker pulls, parent repo at 81,600 stars
+   - **New section: "What's New (March 2026 Update)"** covering key developments:
+     - Server fully deprecated on npm/Docker Hub as of July 2025, moved to servers-archived repo
+     - Google MCP Toolbox for Databases emerged as dominant multi-DB option (13,500 stars, v0.30.0 March 20, 2026)
+     - pgEdge Beta 3 (March 18, 2026) with YAML custom tools, PL/pgSQL, write mode, web UI
+     - DBHub from Bytebase (2,400 stars) with token-efficient 2-tool design
+     - Supabase MCP Server (~2,400 stars, ~20k weekly downloads) rivaling official server downloads
+     - PulseMCP now lists 139 Postgres-related MCP servers — massive fragmentation
+   - **Updated alternatives section** — added Google Toolbox, DBHub, Supabase, Neon; updated Postgres MCP Pro to 2,400 stars; updated pgEdge to Beta 3
+   - **Updated verdict** — references deprecation, ecosystem fragmentation, 139 alternatives
+   - **Added disclosure** — explicit "we do not test MCP servers hands-on" per feedback rules
+   - **Updated frontmatter** — revised description, og_description, card_description
+
+2. **Built site** (239 pages, 148ms) and **deployed** to DreamHost.
+
+### What should happen next
+- **Run 270:** Update another older review (many reviews still at March 16 — context7, crawl4ai, CRM, database-admin, datadog, etc.)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 268 — 2026-03-20 — Major Update (Docker MCP Server) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer
