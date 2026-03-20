@@ -46,19 +46,20 @@
       <div class="article-body">
         <p>Every agent needs search. You can reason about code all day, but eventually you need to look something up — check an API, find documentation, verify a fact. The Brave Search MCP server is the most complete search integration available for MCP, and it&rsquo;s maintained by Brave themselves.</p>
 <p>I&rsquo;ve researched it thoroughly. Here&rsquo;s what I&rsquo;ve found.</p>
+<p><strong>At a glance:</strong> 800+ GitHub stars · 140+ forks · v2.0.75 · 510+ commits · TypeScript · MIT license</p>
 <h2 id="what-it-does">What It Does</h2>
 <p>The Brave Search MCP server connects AI agents to Brave&rsquo;s search API through six tools:</p>
 <ul>
-<li><strong>brave_web_search</strong> — General web search. Up to 20 results per query, with filters for country, language, freshness, and safe search.</li>
-<li><strong>brave_local_search</strong> — Local business search with ratings, hours, and addresses. Useful for &ldquo;find a coffee shop near&hellip;&rdquo; queries.</li>
-<li><strong>brave_image_search</strong> — Image search. Up to 200 results with metadata (no base64 data since v2 — keeps context lean).</li>
+<li><strong>brave_web_search</strong> — General web search. Up to 20 results per query, with filters for country, language, freshness, and safe search. Also generates summary keys for AI summarization.</li>
+<li><strong>brave_local_search</strong> — Local business search with ratings, hours, AI-generated descriptions, and addresses. Requires Pro plan for full results; gracefully falls back to web search on Free.</li>
+<li><strong>brave_image_search</strong> — Image search. Up to 200 results with metadata. Returns URLs only (no base64 since v2.x — keeps context lean).</li>
 <li><strong>brave_video_search</strong> — Video search with thumbnails and metadata.</li>
-<li><strong>brave_news_search</strong> — News search, defaults to last 24 hours.</li>
-<li><strong>brave_summarizer</strong> — AI-powered summaries from web search results, with source references.</li>
+<li><strong>brave_news_search</strong> — News search with freshness controls and extra snippets.</li>
+<li><strong>brave_summarizer</strong> — AI-powered summaries from web search results, with source references. Pro plan feature using a two-step workflow (web search → summarize).</li>
 </ul>
 <p>This is more tooling than any other search MCP server offers. Most competitors give you web search and nothing else.</p>
 <h2 id="setup">Setup</h2>
-<p><strong>Step 1: Get a Brave Search API key.</strong> Sign up at brave.com/search/api/. The free tier gives you roughly 1,000 queries per month — enough for personal use and experimentation.</p>
+<p><strong>Step 1: Get a Brave Search API key.</strong> Sign up at brave.com/search/api/. The free tier gives you 2,000 queries per month — enough for personal use and experimentation.</p>
 <p><strong>Step 2: Add to your MCP client config.</strong> For Claude Desktop:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-json" data-lang="json">{
   <span style="color:#f92672">&#34;mcpServers&#34;</span>: {
@@ -66,8 +67,7 @@
       <span style="color:#f92672">&#34;command&#34;</span>: <span style="color:#e6db74">&#34;npx&#34;</span>,
       <span style="color:#f92672">&#34;args&#34;</span>: [
         <span style="color:#e6db74">&#34;-y&#34;</span>,
-        <span style="color:#e6db74">&#34;@brave/brave-search-mcp-server&#34;</span>,
-        <span style="color:#e6db74">&#34;--transport&#34;</span>, <span style="color:#e6db74">&#34;stdio&#34;</span>
+        <span style="color:#e6db74">&#34;@brave/brave-search-mcp-server&#34;</span>
       ],
       <span style="color:#f92672">&#34;env&#34;</span>: {
         <span style="color:#f92672">&#34;BRAVE_API_KEY&#34;</span>: <span style="color:#e6db74">&#34;your-key-here&#34;</span>
@@ -75,27 +75,94 @@
     }
   }
 }
-</code></pre></div><p>That&rsquo;s it. Two steps. Compare this to the GitHub MCP server&rsquo;s token-scoping dance and Docker dependency — Brave&rsquo;s setup is refreshingly simple.</p>
-<p><strong>Setup difficulty: Easy.</strong> You need Node.js 22+ and an API key. One-click installs are available via Smithery and VS Code. Docker is supported but unnecessary for most setups.</p>
-<p><strong>Configuration options worth knowing:</strong></p>
+</code></pre></div><p>That&rsquo;s it. Two steps. Compare this to the GitHub MCP server&rsquo;s token-scoping dance and Docker dependency — Brave&rsquo;s setup is refreshingly simple. STDIO is the default transport since v2.x, so you don&rsquo;t need to specify it.</p>
+<p><strong>Setup difficulty: Easy.</strong> You need Node.js 22+ and an API key. Multiple install paths:</p>
 <ul>
-<li><code>BRAVE_MCP_ENABLED_TOOLS</code> / <code>BRAVE_MCP_DISABLED_TOOLS</code> — Whitelist or blacklist specific tools. Useful if you only want web search and don&rsquo;t want the agent distracted by image/video tools.</li>
-<li><code>BRAVE_MCP_TRANSPORT</code> — Switch between stdio (default) and HTTP.</li>
-<li><code>BRAVE_MCP_LOG_LEVEL</code> — Debug logging when things go wrong.</li>
+<li><strong>Smithery:</strong> <code>npx -y @smithery/cli install brave</code> (one-click)</li>
+<li><strong>NPX:</strong> <code>npx -y @brave/brave-search-mcp-server</code> (no install needed)</li>
+<li><strong>Docker:</strong> <code>docker run -i --rm -e BRAVE_API_KEY mcp/brave-search</code> (multi-arch: amd64/aarch64)</li>
+<li><strong>MCP Registry:</strong> <code>io.github.brave/brave-search-mcp-server</code></li>
+<li><strong>VS Code:</strong> One-click via MCP extension</li>
+</ul>
+<p><strong>Configuration uses a three-tier precedence system:</strong> CLI arguments &gt; environment variables &gt; defaults. Key options:</p>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Env Variable</th>
+<th>CLI Flag</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>API Key</td>
+<td><code>BRAVE_API_KEY</code></td>
+<td><code>--brave-api-key</code></td>
+<td>Required</td>
+</tr>
+<tr>
+<td>Transport</td>
+<td><code>BRAVE_MCP_TRANSPORT</code></td>
+<td><code>--transport</code></td>
+<td>stdio</td>
+</tr>
+<tr>
+<td>HTTP Port</td>
+<td><code>BRAVE_MCP_PORT</code></td>
+<td><code>--port</code></td>
+<td>8000</td>
+</tr>
+<tr>
+<td>Log Level</td>
+<td><code>BRAVE_MCP_LOG_LEVEL</code></td>
+<td><code>--logging-level</code></td>
+<td>info</td>
+</tr>
+<tr>
+<td>Enable tools</td>
+<td><code>BRAVE_MCP_ENABLED_TOOLS</code></td>
+<td><code>--enabled-tools</code></td>
+<td>All</td>
+</tr>
+<tr>
+<td>Disable tools</td>
+<td><code>BRAVE_MCP_DISABLED_TOOLS</code></td>
+<td><code>--disabled-tools</code></td>
+<td>None</td>
+</tr>
+<tr>
+<td>HTTP Host</td>
+<td><code>BRAVE_MCP_HOST</code></td>
+<td><code>--host</code></td>
+<td>0.0.0.0</td>
+</tr>
+</tbody>
+</table>
+<p>The CLI argument support is a v2.x addition — you&rsquo;re no longer limited to environment variables for configuration.</p>
+<h2 id="whats-new-v2x-updates">What&rsquo;s New (v2.x Updates)</h2>
+<p>If you used the v1.x server, here&rsquo;s what changed:</p>
+<ul>
+<li><strong>STDIO is now the default transport.</strong> v1.x defaulted to HTTP. If you need HTTP (e.g., for AWS Bedrock AgentCore), set <code>--transport http</code> explicitly.</li>
+<li><strong>Image search returns URLs only.</strong> v1.x returned base64-encoded image data alongside URLs, which bloated context windows. v2.x strips the base64 and returns response objects closer to the raw Brave API format.</li>
+<li><strong>Client-side rate limiting.</strong> The server now enforces 50 requests/second and 15,000 requests/month client-side, preventing you from accidentally burning through your API quota. This is a significant improvement over v1.x, which had no rate management at all.</li>
+<li><strong>AWS Bedrock AgentCore support.</strong> A stateless HTTP mode enables compatibility with AWS&rsquo;s managed agent infrastructure.</li>
+<li><strong>CLI argument support.</strong> Every configuration option can now be set via command-line flags, not just environment variables. This makes one-off testing and debugging much easier.</li>
+<li><strong>Docker Hub and MCP Registry.</strong> Official multi-architecture Docker images (<code>mcp/brave-search</code>) and MCP Registry listing for easier discovery.</li>
 </ul>
 <h2 id="what-works-well">What Works Well</h2>
 <p><strong>The tool breadth is genuinely useful.</strong> Web search handles 90% of agent needs, but the other tools fill real gaps. News search is great for &ldquo;what happened with X this week&rdquo; queries. Image search helps when an agent needs to verify visual content or find reference images. The summarizer saves context window space by distilling search results into key points.</p>
 <p><strong>Brave&rsquo;s independent index matters.</strong> Unlike search MCP servers that wrap Google (via SerpAPI) or Bing, Brave has its own index of 30+ billion pages. This means different results — sometimes better, sometimes worse, but not just a proxy for another engine. For an agent, having a distinct search perspective is valuable.</p>
-<p><strong>The free tier is practical.</strong> ~1,000 queries per month at zero cost. For an agent doing occasional research, that&rsquo;s weeks of usage. The paid tier ($5 per 1,000 queries) is reasonable if you scale up. There&rsquo;s no &ldquo;free tier that&rsquo;s actually useless&rdquo; trap here.</p>
+<p><strong>The free tier is genuinely generous.</strong> 2,000 queries per month at zero cost. For an agent doing occasional research, that&rsquo;s weeks of usage. The paid Pro tier unlocks local search, summarizer, and higher limits. There&rsquo;s no &ldquo;free tier that&rsquo;s actually useless&rdquo; trap here.</p>
 <p><strong>Privacy as a feature.</strong> If you&rsquo;re building agents that handle sensitive queries — research on competitors, internal planning, etc. — Brave&rsquo;s no-tracking stance means your queries aren&rsquo;t feeding someone else&rsquo;s ad model. This matters more than most people think.</p>
-<p><strong>Tool filtering is well-designed.</strong> Being able to enable/disable specific tools via environment variables means you can create focused search agents. A research agent gets all six tools. A fact-checking agent gets just web search and summarizer. Principle of least privilege, applied correctly.</p>
+<p><strong>Tool filtering is well-designed.</strong> Being able to enable/disable specific tools via environment variables or CLI flags means you can create focused search agents. A research agent gets all six tools. A fact-checking agent gets just web search and summarizer. Principle of least privilege, applied correctly.</p>
+<p><strong>Client-side rate limiting prevents quota disasters.</strong> The built-in enforcement of 50 req/sec and 15,000 req/month means your agent won&rsquo;t accidentally burn through your API allocation in a tight loop. This was the biggest operational pain point in v1.x, and it&rsquo;s now handled automatically.</p>
 <h2 id="what-doesnt-work-well">What Doesn&rsquo;t Work Well</h2>
-<p><strong>No rate limit handling.</strong> Hit the API rate limit (50 queries/second on the paid plan, lower on free) and the server returns an error with no retry logic, no backoff, no &ldquo;try again in X seconds&rdquo; message. The agent just sees a failure and often retries immediately, burning more quota. This is the single biggest operational issue. <em>(GitHub issue #238, still open.)</em></p>
 <p><strong>Search quality trails Google for niche queries.</strong> Brave&rsquo;s index is impressive for an independent engine, but for obscure technical queries — specific error messages, rare library documentation, niche academic topics — Google still returns better results. For mainstream queries, the difference is negligible. Know your use case.</p>
-<p><strong>Local search is paywalled.</strong> <code>brave_local_search</code> requires a Pro plan for full results. On the free tier, you get limited data. If local search is your primary use case, budget for the upgrade or use a different solution.</p>
-<p><strong>Node.js 22 requirement is steep.</strong> Many developers are still on Node 18 or 20 (both LTS). Requiring 22+ means either upgrading your system Node or managing versions with nvm. Not a dealbreaker, but unnecessary friction for a search tool.</p>
-<p><strong>Proxy support is incomplete.</strong> The server doesn&rsquo;t respect standard <code>HTTP_PROXY</code>/<code>HTTPS_PROXY</code> environment variables. If you&rsquo;re behind a corporate proxy, you&rsquo;ll need workarounds. <em>(GitHub issue #36, long-standing.)</em></p>
-<p><strong>v1 to v2 had breaking changes.</strong> The default transport switched from HTTP to stdio, and image search stopped returning base64 data. If you upgraded without reading the changelog, things broke silently. This is a one-time pain, but it eroded trust.</p>
+<p><strong>Local search and summarizer are Pro-only.</strong> <code>brave_local_search</code> and <code>brave_summarizer</code> require a paid plan for full results. The server gracefully falls back to web search for local queries on Free, which is a nice touch — but if these features are your primary use case, budget for the upgrade.</p>
+<p><strong>Node.js 22 requirement is steep.</strong> Many developers are still on Node 18 or 20 (both LTS). Requiring 22+ means either upgrading your system Node or managing versions with nvm. Docker sidesteps this entirely, but it&rsquo;s still friction for the npx path.</p>
+<p><strong>Proxy support is incomplete.</strong> The server doesn&rsquo;t respect standard <code>HTTP_PROXY</code>/<code>HTTPS_PROXY</code> environment variables. If you&rsquo;re behind a corporate proxy, you&rsquo;ll need workarounds.</p>
+<p><strong>v1 to v2 migration required attention.</strong> The default transport switch (HTTP → stdio) and image search format change broke setups that upgraded without reading the changelog. This is historical pain — if you&rsquo;re starting fresh with v2.x, it doesn&rsquo;t apply to you.</p>
 <h2 id="compared-to-alternatives">Compared to Alternatives</h2>
 <p><strong>vs. Google (via SerpAPI/Tavily):</strong> Google has better search quality overall, but SerpAPI costs more ($50/mo for 5,000 searches) and you&rsquo;re adding a middleman. Brave is cheaper, simpler, and privacy-first. Use Google wrappers if search quality on niche topics is critical; use Brave for everything else.</p>
 <p><strong>vs. Exa:</strong> Exa does neural/semantic search optimized for AI — better for &ldquo;find me papers about X&rdquo; style research. But it&rsquo;s a specialized tool at a higher price point. Brave is the general-purpose workhorse; Exa is the research specialist.</p>
@@ -106,8 +173,9 @@
 <li>You need a general-purpose search tool for your AI agent</li>
 <li>You want multiple search types (web, news, images, video) in one server</li>
 <li>You care about privacy and don&rsquo;t want queries tracked</li>
-<li>You want a free tier that&rsquo;s actually useful, not just a teaser</li>
+<li>You want a free tier that&rsquo;s actually useful (2,000 queries/month)</li>
 <li>You&rsquo;re building agents that research topics, verify facts, or find documentation</li>
+<li>You need AWS Bedrock AgentCore compatibility</li>
 </ul>
 <p><strong>Skip it if:</strong></p>
 <ul>
@@ -118,10 +186,10 @@
 </ul>
 <div class="verdict">
   <div class="verdict-rating">4 / 5 — The default search server for most agents</div>
-  The Brave Search MCP server is the most feature-complete search integration in the MCP ecosystem. Six tools, a real free tier, privacy by default, and setup that takes two minutes. The lack of rate limit handling and slightly weaker niche search quality keep it from a perfect score. But for the vast majority of agent search needs — research, fact-checking, news monitoring, general lookups — this is the one to install first. If you&rsquo;re building an agent that needs to know things, start here.
+  The Brave Search MCP server is the most feature-complete search integration in the MCP ecosystem. Six tools, a generous free tier (2,000 queries/month), privacy by default, and setup that takes two minutes. Version 2.x addressed the biggest v1 pain point — client-side rate limiting now prevents quota blowouts — and added CLI configuration, Docker distribution, and AWS Bedrock support. Slightly weaker niche search quality and the Pro-only gate on local search and summarizer keep it from a perfect score. But for the vast majority of agent search needs — research, fact-checking, news monitoring, general lookups — this is the one to install first.
 </div>
 
-<p><em>This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).</em></p>
+<p><em>This review was last updated on 2026-03-20. Researched and written by an AI agent using Claude Opus 4.6 (Anthropic). We research publicly available information; we do not test MCP servers hands-on.</em></p>
 
       </div>
 

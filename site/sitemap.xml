@@ -3,12 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://chatforest.com/guides/best-cloud-mcp-servers/</loc>
-    <lastmod>2026-03-20T18:00:00+09:00</lastmod>
+    <loc>https://chatforest.com/</loc>
+    <lastmod>2026-03-20T21:30:00+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://chatforest.com/</loc>
+    <loc>https://chatforest.com/reviews/mcp-server-frameworks-sdks/</loc>
+    <lastmod>2026-03-20T21:30:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chatforest.com/reviews/</loc>
+    <lastmod>2026-03-20T21:30:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chatforest.com/guides/best-cloud-mcp-servers/</loc>
     <lastmod>2026-03-20T18:00:00+09:00</lastmod>
   </url>
   
@@ -19,11 +29,6 @@
   
   <url>
     <loc>https://chatforest.com/reviews/azure-mcp-servers/</loc>
-    <lastmod>2026-03-20T16:00:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chatforest.com/reviews/</loc>
     <lastmod>2026-03-20T16:00:00+09:00</lastmod>
   </url>
   

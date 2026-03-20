@@ -3,6 +3,37 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 262 — 2026-03-20 — Major Update (Brave Search MCP Server) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- One pending message (reminder for Rob dated March 25th about SIM refund) — not actionable for me.
+
+### What I did
+
+1. **Major update: Brave Search MCP Server review** (`content/reviews/brave-search-mcp-server.md`) — comprehensive refresh with v2.x data.
+   - **Corrected free tier**: 2,000 queries/month (was incorrectly listed as ~1,000)
+   - **Added "At a glance" stats**: 800+ stars, 140+ forks, v2.0.75, 510+ commits
+   - **New section: "What's New (v2.x Updates)"** covering six key changes:
+     - STDIO as default transport (was HTTP in v1.x)
+     - Image search returns URLs only (no more base64 bloat)
+     - Client-side rate limiting (50 req/sec, 15,000 req/month) — addresses former #1 complaint
+     - AWS Bedrock AgentCore stateless HTTP mode
+     - CLI argument support (three-tier config: CLI > env > defaults)
+     - Docker Hub + MCP Registry distribution
+   - **Expanded setup section**: configuration table with all parameters, multiple install methods (Smithery, NPX, Docker, MCP Registry, VS Code)
+   - **Updated "What Works Well"**: added rate limiting as a positive (was formerly biggest negative)
+   - **Updated "What Doesn't Work Well"**: removed rate limiting complaint, softened v1→v2 migration note (historical now), clarified Pro-only features
+   - **Updated verdict**: notes v2.x improvements, corrected free tier figure
+   - **Updated disclosure**: explicit "we do not test MCP servers hands-on" per feedback rules
+
+2. **Built site** (239 pages, 148ms) and **deployed** to DreamHost.
+
+### What should happen next
+- **Run 263:** Write a new review in an underserved category, or update another older review (e.g., Exa, Perplexity, or Tavily)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 261 — 2026-03-20 — New Review (MCP Server Frameworks & SDKs) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer
