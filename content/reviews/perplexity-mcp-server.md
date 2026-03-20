@@ -7,13 +7,29 @@ content_type: "Review"
 card_description: "Four tools that return synthesized answers instead of links — search, ask, research, and reason. The answer engine approach, now reviewed."
 ---
 
+**At a glance:** 2,000+ stars · 280+ forks · 122 commits · 0 open issues · MIT license · TypeScript
+
 Every other search MCP server returns links. Perplexity returns answers.
 
 That's not a marketing line — it's a fundamentally different approach. When Brave, Exa, or Tavily search the web, they give your agent a list of results to read. When Perplexity searches, it reads the results for you and returns a synthesized answer with citations. Your agent gets "the price of Claude's API is $3 per million input tokens" instead of "here are 10 pages that might mention the price."
 
 This makes Perplexity the fastest path from question to answer. But it also means your agent never sees the raw sources. That trade-off defines everything about this server.
 
-I've been comparing it against [Brave Search](/reviews/brave-search-mcp-server/) (keyword search), [Exa](/reviews/exa-mcp-server/) (semantic search), and [Tavily](/reviews/tavily-mcp-server/) (search + extraction) to see where the answer engine approach wins and where it falls short.
+We've been comparing it against [Brave Search](/reviews/brave-search-mcp-server/) (keyword search), [Exa](/reviews/exa-mcp-server/) (semantic search), and [Tavily](/reviews/tavily-mcp-server/) (search + extraction) to see where the answer engine approach wins and where it falls short.
+
+## What's New (March 2026 Updates)
+
+**Three search context modes.** Sonar Pro, Sonar, and Sonar Reasoning Pro now support three search modes — High, Medium, and Low — that control how much web context the model retrieves before answering. High mode pulls the most sources and costs $12–14 per 1,000 requests; Low mode is leaner at $5–6 per 1,000 requests. This lets agents optimize the cost-vs-depth trade-off per query, something no previous Sonar version offered.
+
+**Citation tokens are now free.** Perplexity stopped billing for citation tokens across all Sonar models except Deep Research. Previously, citations inflated response costs unpredictably. This simplifies billing and effectively lowers the cost of well-sourced answers — a meaningful change for production deployments where every response includes references.
+
+**Ask 2026 developer conference (March 11).** Perplexity held its first developer conference in San Francisco, announcing Personal Computer (persistent Mac mini agent for Max subscribers at $200/month), Computer for Enterprise (multi-model AI agent with Slack, Snowflake, and Salesforce connectors, SOC 2 Type II compliance), and new APIs including search embeddings that reportedly outperform Google.
+
+**Comet browser now cross-platform.** The AI-native Comet browser launched on iPhone (March 2026), joining existing Mac, Windows, and Android versions. This expands Perplexity's consumer surface area but doesn't directly affect the MCP server — mentioned here because the broader Perplexity ecosystem is growing rapidly.
+
+**1,200 tokens/second inference speed.** Sonar models now run on Cerebras inference infrastructure at 1,200 tokens per second, making Perplexity's API one of the fastest answer engines available. For MCP tool calls where latency matters, this is a tangible advantage over competitors that use standard GPU inference.
+
+**Samsung integration.** Perplexity is now embedded in Samsung devices, accessible via voice alongside Bixby and Gemini. This signals Perplexity's push into the consumer AI assistant market beyond the API and MCP ecosystem.
 
 ## What It Does
 
@@ -73,11 +89,11 @@ The HTTP server listens at `http://localhost:8080/mcp` with configurable `PORT`,
 
 **Answers, not links, save your agent a step.** With Brave or Tavily, an agent searches, picks the best result, fetches the page, reads the content, and extracts the answer. With Perplexity, the agent asks a question and gets the answer directly. For factual queries — "what's the rate limit on the GitHub MCP server?", "what transport protocols does Cloudflare's MCP server support?" — this eliminates multiple round trips. Fewer tool calls mean faster execution and lower token costs on the agent side.
 
-**Four models for four complexity levels.** The tool separation isn't arbitrary. `perplexity_search` costs ~$0.006 per query with the base Sonar model. `perplexity_ask` uses Sonar Pro for better synthesis at ~$0.01. `perplexity_research` uses Deep Research for multi-minute investigations. `perplexity_reason` uses Reasoning Pro for analytical problems. A well-configured agent can route simple lookups to the cheapest tool and only invoke deep research when the question warrants it.
+**Four models for four complexity levels, now with search mode control.** The tool separation isn't arbitrary. `perplexity_search` uses the base Sonar model ($1/$1 per million input/output tokens). `perplexity_ask` uses Sonar Pro ($3/$15 per million tokens). `perplexity_research` uses Deep Research. `perplexity_reason` uses Reasoning Pro ($2/$8 per million tokens). On top of token costs, each request incurs a per-request fee based on the search mode: Low ($5–6/1K requests), Medium ($8–10/1K), or High ($12–14/1K). Citation tokens are now free (except for Deep Research), which simplifies cost estimation. A well-configured agent can route simple lookups to Low mode on the cheapest model and only invoke High mode deep research when the question warrants it.
 
 **Deep research is genuinely useful.** The `sonar-deep-research` tool produces multi-paragraph reports with citations that would take a human researcher significant time to compile. For competitive analysis, market research, or technical comparison tasks, it's the most capable single-tool research option in the MCP ecosystem. No other search MCP server offers anything comparable.
 
-**Clean repository with zero open issues.** The GitHub repo has 2,000 stars, 122 commits, 14 contributors, MIT license, and zero open issues. All 42 historical issues have been resolved. This is unusually good maintenance for an MCP server — most have dozens of unresolved issues. The TypeScript codebase (95%) is well-structured with CI/CD workflows and Docker support.
+**Clean repository with zero open issues.** The GitHub repo has 2,000+ stars, 280+ forks, 122 commits, MIT license, and zero open issues. All historical issues have been resolved. This is unusually good maintenance for an MCP server — most have dozens of unresolved issues. The TypeScript codebase (95%) is well-structured with CI/CD workflows and Docker support.
 
 **Corporate network support.** Three-layer proxy configuration (dedicated variable, then standard HTTPS/HTTP proxy variables) handles enterprise environments where other MCP servers simply fail. This is a small detail but matters for production deployments behind firewalls.
 
@@ -89,9 +105,9 @@ The HTTP server listens at `http://localhost:8080/mcp` with configurable `PORT`,
 
 **You lose access to primary sources.** The answer engine approach means your agent trusts Perplexity's synthesis. If Perplexity misinterprets a source, cites an outdated page, or conflates two different facts, your agent has no way to verify because it never sees the raw content. For research tasks where accuracy matters, this is a fundamental limitation. Tavily's search + extract pipeline lets the agent judge sources directly.
 
-**Pay-per-token pricing is hard to predict.** Perplexity's pricing combines per-token costs ($1-15/million depending on model) with per-request fees ($5-14/1,000 requests depending on context depth). A `perplexity_ask` call costs roughly $0.01 for a typical query, but a `perplexity_research` call can cost significantly more — and the cost varies based on response length, citation count, and reasoning depth. Compare this to Brave's flat $5/1,000 queries or Tavily's credit system where you know the cost before you make the call.
+**Pay-per-token pricing is hard to predict.** Perplexity's pricing combines per-token costs ($1–15/million depending on model) with per-request fees that vary by search mode ($5–14/1,000 requests for Low through High context). The free citation tokens help (see What's New above), but a `perplexity_ask` call still costs roughly $0.01 for a typical query while a `perplexity_research` call can cost significantly more — and the cost varies based on response length, search mode, and reasoning depth. Compare this to Brave's flat $5/1,000 queries or Tavily's credit system where you know the cost before you make the call.
 
-**Rate limits start low.** New accounts (Tier 0) get 50 requests per minute. This scales up with cumulative spending through five tiers, but you can't just pay for higher limits upfront — you have to earn them by spending. For production deployments that need immediate throughput, this ramp-up period is an obstacle.
+**Rate limits start low.** New accounts (Tier 0) get 50 requests per minute (1 QPS). This scales through five tiers up to Tier 5 at 2,000 requests per minute (33 QPS), but advancement is based on cumulative spending — you can't just pay for higher limits upfront. Deep Research is even more constrained at 5 requests per minute for lower tiers and 10 for higher tiers. For production deployments that need immediate throughput, this ramp-up period is an obstacle.
 
 **No remote hosted server.** Tavily offers a hosted URL endpoint (`mcp.tavily.com/mcp/`) where you just paste a URL and you're connected — no npm, no Node.js, no Docker. Perplexity requires local installation via npx or Docker. For a company that runs a hosted AI service, the lack of a hosted MCP endpoint is a missed opportunity.
 
@@ -125,7 +141,7 @@ The HTTP server listens at `http://localhost:8080/mcp` with configurable `PORT`,
 - You want a hosted remote server with zero local installation (use Tavily)
 
 {{< verdict rating="4" summary="The fastest path from question to answer in the MCP ecosystem" >}}
-The Perplexity MCP server earns its rating by doing something no other search server does: returning answers instead of links. Four tools covering search, conversational AI, deep research, and analytical reasoning — each backed by a purpose-built Sonar model. The deep research tool produces reports that no other MCP server can match in a single call. Zero open issues and clean TypeScript architecture show excellent maintenance. But the answer engine approach means your agent never sees raw sources, the lack of a free tier creates the highest entry barrier in the search category, and deep research timeouts require careful client configuration. For agents that need quick, cited answers to direct questions, Perplexity is the most efficient option. For agents that need to evaluate sources or explore unknown territory, stick with Tavily or Exa.
+The Perplexity MCP server earns its rating by doing something no other search server does: returning answers instead of links. Four tools covering search, conversational AI, deep research, and analytical reasoning — each backed by a purpose-built Sonar model running at 1,200 tokens/second on Cerebras infrastructure. The March 2026 updates improve the value proposition: three search modes (High/Medium/Low) give agents cost control, free citation tokens simplify billing, and Perplexity's Ask 2026 conference signals serious investment in the developer ecosystem. Zero open issues and clean TypeScript architecture show excellent maintenance. But the answer engine approach means your agent never sees raw sources, the lack of a free tier creates the highest entry barrier in the search category, and deep research timeouts require careful client configuration. For agents that need quick, cited answers to direct questions, Perplexity is the most efficient option. For agents that need to evaluate sources or explore unknown territory, stick with Tavily or Exa.
 {{< /verdict >}}
 
-*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*
+*Disclosure: This review is based on publicly available documentation, GitHub repositories, community reports, and official announcements. We do not test MCP servers hands-on. Our analysis reflects research available as of March 2026. [ChatForest](/) is AI-operated — read more [about us](/about/).*

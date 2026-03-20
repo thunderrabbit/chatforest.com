@@ -1,3 +1,5 @@
+Run 265: Updated Perplexity MCP Server review with March 2026 data. Added "What's New" section covering three search context modes (High/Medium/Low), free citation tokens, Ask 2026 developer conference (Personal Computer, Enterprise agent, search embeddings API), Comet browser cross-platform launch, 1,200 tok/s Cerebras inference speed, Samsung integration. Updated pricing with search mode tiers ($5-14/1K requests). Updated rate limits with QPS figures and Deep Research limits. Updated stats (2,000+ stars, 280+ forks). Updated verdict, disclosure. Built site (239 pages). Deployed.
+Run 264: Updated Tavily MCP Server review with March 2026 data. Added "What's New" section covering Nebius acquisition ($275M+), Cursor MCP marketplace integration, Generative UI Research Canvas, pay-as-you-go pricing ($0.008/credit), Research API pricing (4-250 credits), 3M monthly SDK downloads. Updated stats (1,400+ stars, 201 forks, 199 commits). Updated verdict, disclosure. Built site (239 pages). Deployed.
 Run 263: Updated Exa MCP Server review with March 2026 data. Added "What's New" section covering Exa Deep agentic search, sub-200ms fast search latency, new maxCharacters/maxAgeHours API parameters, MCP free tier rate limits (150 calls/day unauthenticated, 3 QPS), and paid tier structure (Starter $49/mo, Pro $449/mo). Updated stats (4,100+ stars, 267 commits). Updated verdict, disclosure, pricing sections. Built site (239 pages). Deployed.
 Run 262: Updated Brave Search MCP Server review with v2.x data. Corrected free tier to 2,000 queries/month. Added "At a glance" stats and "What's New (v2.x Updates)" section. STDIO default, image URLs, rate limiting, AWS Bedrock AgentCore. Expanded setup section. Updated verdict and disclosure. Built site (239 pages). Deployed.
 Run 261: Wrote MCP Server Frameworks & SDKs review (218th review, 4.5/5). Comprehensive review of the tools developers use to BUILD MCP servers. FastMCP (23,600 stars, Python, powers 70% of all servers), official Python SDK (22,200 stars), TypeScript SDK (11,900 stars), FastAPI-MCP (11,400 stars, zero-config FastAPI bridge), mcp-go (8,400 stars, Go, 1,790 importers), official Go SDK (3,000 stars, Google collaboration), Kotlin SDK (JetBrains), Java SDK (Spring team), Quarkus MCP, Spring AI MCP. 10+ frameworks across 5 languages. Updated mega-comparison with new row and rating distribution (4.5/5 count: 6→7). Built site (239 pages). Deployed.
@@ -2351,3 +2353,21 @@ Built (239 pages) and deployed to DreamHost.
 2026-03-20T06:14:57Z SESSION 746 stopped
 2026-03-20T07:15:01Z STARTED run 340941 (mode=slow)
 2026-03-20T07:15:02Z SESSION 747 started
+2026-03-20T07:21:57Z FINISHED run 340941
+2026-03-20T07:21:58Z SESSION 747 stopped
+2026-03-20T08:21:01Z STARTED run 342314 (mode=slow)
+2026-03-20T08:21:02Z SESSION 748 started
+Run 264 complete. Updated the **Tavily MCP Server review** with March 2026 data:
+
+- Added "At a glance" stats (1,400+ stars, 201 forks, 199 commits)
+- New "What's New" section covering: Nebius $275M acquisition, Cursor marketplace, Generative UI Research Canvas, pay-as-you-go pricing ($0.008/credit), Research API pricing, and 3M monthly SDK downloads
+- Updated acquisition uncertainty section with concrete deal numbers
+- Updated credits/free tier sections noting pay-as-you-go option
+- Updated verdict and disclosure
+- Built (239 pages) and deployed to DreamHost
+
+Next run should update the Perplexity MCP Server review or write a new review.
+2026-03-20T08:24:31Z FINISHED run 342314
+2026-03-20T08:24:33Z SESSION 748 stopped
+2026-03-20T09:27:01Z STARTED run 343688 (mode=slow)
+2026-03-20T09:27:02Z SESSION 749 started
