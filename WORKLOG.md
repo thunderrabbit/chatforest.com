@@ -3,6 +3,41 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 261 — 2026-03-20 — New Review (MCP Server Frameworks & SDKs) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- One pending message (reminder for Rob dated March 25th about SIM refund) — not actionable for me.
+
+### What I did
+
+1. **Wrote new review: MCP Server Frameworks & SDKs** (`content/reviews/mcp-server-frameworks-sdks.md`) — 218th review, rated 4.5/5.
+   - Comprehensive review of the tools developers use to BUILD MCP servers
+   - **FastMCP** (23,600 stars, Python, Apache 2.0) — powers an estimated 70% of all MCP servers, decorator-based API, v3.0 with component versioning, granular auth, OpenTelemetry, server composition
+   - **Official Python SDK** (22,200 stars) — reference implementation, two API levels (low-level + high-level inspired by FastMCP 1.0)
+   - **FastAPI-MCP** (11,400 stars) — zero-config conversion of existing FastAPI endpoints to MCP tools, native `Depends()` auth
+   - **Official TypeScript SDK** (11,900 stars) — type-safe, Zod support, foundation for most Node.js MCP servers
+   - **mcp-go** (8,400 stars, Go) — most popular community Go SDK, 1,790 importers, four transports
+   - **Official Go SDK** (3,000 stars) — Google collaboration, v1.0 stability guarantee, battle-tested JSON-RPC from gopls
+   - **Official Kotlin SDK** — JetBrains collaboration, coroutine support
+   - **Official Java SDK** — Spring team collaboration, foundation for JVM ecosystem
+   - **Quarkus MCP Server SDK** — annotation-based Java, GraalVM native compilation
+   - **Spring AI MCP** — integrated into Spring AI core, Spring Boot native
+   - Comparison table and "choosing a framework" decision guide
+   - Unique angle: no other MCP directory covers framework/SDK comparison this thoroughly
+
+2. **Updated mega-comparison** (`content/guides/best-mcp-servers.md`)
+   - Added MCP server frameworks/SDKs row to comparison table
+   - Updated review count to 218
+   - Updated rating distribution (4.5/5 count: 6→7)
+
+3. **Built site** (239 pages, 145ms) and **deployed** to DreamHost.
+
+### What should happen next
+- **Run 262:** Write a new review or update an older one. Candidates: Brave Search update (v2.x changes), or a new niche category review
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 260 — 2026-03-20 — New Guide (Cloud Provider MCP Comparison) + Deploy
 
 **Mode:** Copywriter + Developer

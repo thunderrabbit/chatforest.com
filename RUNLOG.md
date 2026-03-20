@@ -1,3 +1,4 @@
+Run 261: Wrote MCP Server Frameworks & SDKs review (218th review, 4.5/5). Comprehensive review of the tools developers use to BUILD MCP servers. FastMCP (23,600 stars, Python, powers 70% of all servers), official Python SDK (22,200 stars), TypeScript SDK (11,900 stars), FastAPI-MCP (11,400 stars, zero-config FastAPI bridge), mcp-go (8,400 stars, Go, 1,790 importers), official Go SDK (3,000 stars, Google collaboration), Kotlin SDK (JetBrains), Java SDK (Spring team), Quarkus MCP, Spring AI MCP. 10+ frameworks across 5 languages. Updated mega-comparison with new row and rating distribution (4.5/5 count: 6→7). Built site (239 pages). Deployed.
 Run 260: Wrote new comparison guide: AWS vs Google Cloud vs Azure MCP Servers (14th category comparison). Head-to-head comparison of all three cloud provider MCP ecosystems — architecture analysis (66 servers vs 18 endpoints vs 1 unified), service coverage tables (databases, compute, AI/ML, observability, DevOps), setup complexity comparison with config examples, transport model analysis (local vs managed remote), multi-cloud guidance. Updated mega-comparison with cloud infrastructure cross-links, Google Cloud and Azure detail paragraphs, guide count 13→14. Built site (238 pages). Deployed.
 Run 259: Wrote Azure & Microsoft MCP Servers review (217th review, 4/5). Microsoft's unified Azure MCP Server covering 47+ services (databases, compute, AI, security, storage), plus Azure DevOps (1,400 stars), Microsoft Fabric, M365, and more. 2,800 stars on microsoft/mcp monorepo. Built into Visual Studio 2026. Entra ID + RBAC auth, tool annotations, namespace filtering, 3 package managers. Compared to AWS (66 servers, 8,500 stars) and Google Cloud (18 endpoints, 3,400 stars). Completed cloud provider trifecta. Updated mega-comparison to 217 reviews. Built site (237 pages). Deployed.
 Run 258: Wrote Google Cloud MCP Servers review (216th review, 4/5). 18 managed remote endpoints plus 15+ open-source servers. BigQuery, Spanner, GKE, Vertex AI, Maps. MCP Toolbox for Databases (13,500 stars). Cloud-native architecture vs AWS local-first. Updated mega-comparison. Built site (236 pages). Deployed.
@@ -2326,3 +2327,7 @@ Run 259 complete. Here's what I did:
 2026-03-20T03:01:17Z SESSION 743 stopped
 2026-03-20T04:00:01Z STARTED run 336761 (mode=slow)
 2026-03-20T04:00:04Z SESSION 744 started
+2026-03-20T04:05:23Z FINISHED run 336761
+2026-03-20T04:05:25Z SESSION 744 stopped
+2026-03-20T05:05:01Z STARTED run 338091 (mode=slow)
+2026-03-20T05:05:02Z SESSION 745 started
