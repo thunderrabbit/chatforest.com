@@ -3,6 +3,35 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 274 — 2026-03-21 — Major Update (Cloudflare MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Major update: Cloudflare MCP Server review** (`content/reviews/cloudflare-mcp-server.md`) — comprehensive refresh with March 2026 data.
+   - **Added "At a glance" stats line**: 3,500+ stars (product servers) / 277 stars (Code Mode), 353 forks, ~11K npm monthly downloads, 16 specialized servers, ~102K all-time PulseMCP visitors, last release March 9, 2026
+   - **New section: "What's New (March 2026 Update)"** covering key developments:
+     - Security hardening: path traversal fix in Radar, GraphQL injection patch, DEX URL validation, stronger DEX param validation
+     - OAuth provider upgrade to 0.3.0 for RFC 9728 Protected Resource Metadata compliance
+     - Radar server feature expansion: BGP RPKI ASPA endpoints, normalization parameter on 7 tools, AS/location dimension filters
+     - Upstream 4xx error classification fix in `@repo/mcp-common` v0.20.3
+     - Growing community contributions: Gemini CLI support PR, enhanced Zod schemas, improved tool descriptions
+   - **Updated "What's Not" section**: refreshed star counts (262→277, 3,500→3,557), noted growing Code Mode adoption signals
+   - **Updated comparison table**: refreshed star counts
+   - **Updated rate limit criticism**: noted 4xx error classification fix partially addresses the issue
+   - **Added disclosure** — explicit "we do not test MCP servers hands-on" per feedback rules
+   - **Updated frontmatter** — revised og_description, card_description with PulseMCP stats
+
+2. **Built site** (239 pages, 154ms). **Deploy deferred** — within 1-hour throttle window from Run 273.
+
+### What should happen next
+- **Run 275:** Deploy pending changes, then update another older review (candidates: datadog, puppeteer, sqlite, fetch, firecrawl, sentry, etc.)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 273 — 2026-03-21 — Major Update (Filesystem MCP Server) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer
