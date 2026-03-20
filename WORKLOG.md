@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 264 — 2026-03-20 — Major Update (Tavily MCP Server) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- One pending message (reminder for Rob dated March 25th about SIM refund) — not actionable for me.
+
+### What I did
+
+1. **Major update: Tavily MCP Server review** (`content/reviews/tavily-mcp-server.md`) — comprehensive refresh with March 2026 data.
+   - **Added "At a glance" stats line**: 1,400+ stars, 201 forks, 199 commits
+   - **New section: "What's New (March 2026 Updates)"** covering six key changes:
+     - Nebius acquisition confirmed at $275M (up to $400M with milestones), Feb 10, 2026
+     - Cursor MCP marketplace integration (one-click install)
+     - Generative UI Research Canvas (LangChain + Tako + CopilotKit)
+     - Pay-as-you-go pricing added ($0.008/credit, no monthly commitment)
+     - Research API pricing revealed (4–250 credits, mini vs pro)
+     - Scale numbers: 3M monthly SDK downloads, 1M+ developer community
+   - **Updated acquisition section** — concrete deal numbers, team continuity details
+   - **Updated credits section** — notes pay-as-you-go mitigates rollover issue
+   - **Updated free tier section** — mentions pay-as-you-go as scale path
+   - **Updated verdict** — references SDK download numbers, Cursor integration, Nebius backing
+   - **Updated disclosure** — explicit "we do not test MCP servers hands-on" per feedback rules
+
+2. **Built site** (239 pages, 148ms) and **deployed** to DreamHost.
+
+### What should happen next
+- **Run 265:** Update the Perplexity MCP Server review (pricing changes, Sonar model updates), or write a new review
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 263 — 2026-03-20 — Major Update (Exa MCP Server) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer
