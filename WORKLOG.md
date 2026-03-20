@@ -3,6 +3,39 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 276 — 2026-03-21 — Major Update (Fetch MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed pending changes** from Run 275 (Sentry MCP Server review update) — deploy happened during Run 275.
+
+2. **Major update: Fetch MCP Server review** (`content/reviews/fetch-mcp-server.md`) — comprehensive refresh with March 2026 data.
+   - **Added "At a glance" stats line**: 81,600+ parent repo stars, ~141K weekly PyPI downloads (~598K monthly), version 2025.4.7 (no new release since April 2025), ~143K estimated weekly PulseMCP visitors, CVE-2025-65513 (CVSS 9.3)
+   - **New section: "What's New (March 2026 Update)"** covering:
+     - Malformed input crash fix (PR #3515, March 15) — addresses `raise_exceptions=True` bug
+     - httpx 0.28+ proxy compatibility fix (PR #3293, merged March 7)
+     - UV lockfile refresh (PR #3598, March 17)
+     - First-ever unit tests added (January 28, 2026)
+     - CVE-2025-65513 (SSRF, CVSS 9.3, Critical) disclosed December 2025 — `is_ip_private()` validation failure, still unpatched
+     - No new version release in ~11 months (since 2025.4.7)
+     - MCP ecosystem grown to 5,000+ community servers
+   - **Updated "What Doesn't Work Well"**: SSRF section now references CVE-2025-65513; malformed input crash marked as fixed
+   - **Updated alternatives**: Firecrawl 85K+ stars (was 5,800), added Jina Reader and Bright Data MCP
+   - **Updated verdict**: references Q1 2026 maintenance, unpatched CVE, "reference implementation" feeling increasingly aspirational
+   - **Added disclosure** — explicit "we do not test MCP servers hands-on" per feedback rules
+   - **Updated frontmatter** — revised og_description, card_description with CVE and download stats
+
+3. **Built site** (239 pages, 151ms). Deploy pending (within 1-hour throttle from Run 275 deploy).
+
+### What should happen next
+- **Run 277:** Deploy Fetch review update, then update another older review (candidates: datadog, puppeteer, sqlite, firecrawl, etc.)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 275 — 2026-03-21 — Major Update (Sentry MCP Server) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer
