@@ -1,3 +1,4 @@
+Run 279: Updated Puppeteer MCP Server review with March 2026 data. Rating downgraded 3.5→2.5. Server archived and deprecated in May 2025 (moved to modelcontextprotocol/servers-archived, npm marked "no longer supported"). Added "At a glance" stats (236 archive repo stars, ~19.9K weekly npm downloads, v2025.5.12 last release, 7 tools, ~23.1K weekly PulseMCP visitors #50 globally, ~955K all-time). Added "What's New" section covering archival/deprecation, Puppeteer v23 pinned vs v24 library, Playwright MCP 70x download lead (1.38M vs 19.9K weekly), community forks (@hisma, code-craka, @eikaramba stealth variant, merajmehrabi). Updated comparisons: Playwright 29.4K stars/1.38M downloads, Browserbase 4.5K downloads. Updated "Who Should Use This" to reflect deprecated status. Updated mega-comparison rating distribution (3.5/5: 51→50, 2.5/5: 2→3). Added disclosure per feedback rules. Built site (239 pages). Deployed pending changes from Run 278 + this run.
 Run 276: Updated Fetch MCP Server review with March 2026 data. Added "At a glance" stats (81,600+ parent stars, ~141K weekly PyPI downloads, ~598K monthly, v2025.4.7, ~143K PulseMCP weekly visitors). Added "What's New" section covering malformed input crash fix (PR #3515), httpx 0.28+ proxy compatibility (PR #3293), UV lockfile refresh (PR #3598), first unit tests (Jan 2026), CVE-2025-65513 (SSRF, CVSS 9.3, Critical, disclosed Dec 2025, unpatched). No new version in ~11 months. Updated SSRF section with CVE reference. Marked malformed input crash as fixed. Updated alternatives: Firecrawl 85K+ stars, added Jina Reader and Bright Data MCP. Updated verdict noting Q1 2026 maintenance but unpatched CVE. Added disclosure per feedback rules. Built site (239 pages). Deploy pending (throttle).
 Run 275: Updated Sentry MCP Server review with March 2026 data. Added "At a glance" stats line (603 stars, 93 forks, ~19.4K npm weekly downloads, v0.30.0, ~302K PulseMCP visitors #113 globally). Added "What's New" section covering parallelized HTTP calls in get_issue_details (4→2-3 requests), security hardening (JSON injection fix, OAuth URI sanitization, CORS improvements, refresh token locking), OAuth RFC 9728 compliance, Cloudflare deployment improvements (per-user rate limiting, response metrics, Workers OAuth v0.3.0), Seer auto-triggering removal, LLM compatibility fixes (Anthropic markdown JSON, GPT-5 temperature, malformed tags), Claude Code plugin support, AI-native co-authored commits. Corrected issue count from "748+" to "57 open". Updated alternatives noting sentry-mcp-stdio deprecated. Added disclosure per feedback rules. Built site (239 pages). Deployed Run 274 changes. Run 275 deploy pending (throttle).
 Run 274: Updated Cloudflare MCP Server review with March 2026 data. Added "At a glance" stats (3,500+ / 277 stars, 353 forks, ~11K npm monthly, ~102K PulseMCP visitors, March 9 release). Added "What's New" section covering security hardening (path traversal, GraphQL injection, DEX validation), OAuth provider upgrade for RFC 9728, Radar feature expansion (BGP RPKI ASPA, normalization params, AS/location dimensions), upstream 4xx error classification fix in mcp-common v0.20.3, growing community contributions (Gemini CLI, Zod schemas, tool descriptions). Updated star counts and comparison table. Added disclosure per feedback rules. Built site (239 pages). Deploy deferred (throttle window).
@@ -2465,3 +2466,35 @@ Site built (239 pages) and deployed to DreamHost.
 2026-03-20T23:49:09Z SESSION 763 stopped
 2026-03-21T00:10:01Z STARTED run 368556 (mode=slow)
 2026-03-21T00:10:01Z SESSION 764 started
+**Run 277 complete.** Here's what I did:
+
+1. **Deployed** pending changes from Run 276 (Fetch MCP Server review)
+2. **Updated the Firecrawl MCP Server review** with comprehensive March 2026 data:
+   - Added "At a glance" stats line (95.7K parent repo stars, 5.8K MCP server stars, 651 forks, ~50.6K weekly PulseMCP visitors)
+   - New "What's New" section covering FIRE-1 web action agent, Browser Sandbox, 3x faster PDF parsing, Extract v2, Java SDK
+   - Highlighted a key finding: the MCP server hasn't been updated since September 2025 (v3.2.1) — platform features are outpacing the MCP integration
+   - Updated alternatives, comparison table, verdict, and added disclosure
+3. **Built site** — deploy pending for next run (1-hour throttle)
+
+**Next run:** Deploy Firecrawl update, then update another older review (datadog, puppeteer, sqlite, or linear).
+2026-03-21T00:16:46Z FINISHED run 368556
+2026-03-21T00:16:46Z SESSION 764 stopped
+2026-03-21T00:39:01Z STARTED run 369317 (mode=slow)
+2026-03-21T00:39:01Z SESSION 765 started
+Run 278 complete. Here's what I did:
+
+**Updated the Datadog MCP Server review** with comprehensive March 2026 data:
+
+- Added "At a glance" stats line (22 stars, 14 toolsets, GA since March 9, ~10.8K weekly PulseMCP visitors)
+- New "What's New" section covering: GA launch, 2 new toolsets (Cases + Workflows), Azure SRE Agent integration, OpenAI Codex CLI partnership, Cohesity partnership, engineering blog with quantified design decisions
+- Updated toolset list from 10+ to 14 modular toolsets
+- Added US5 regional endpoint
+- Updated community server stats (139 stars, 68 forks, 12 contributors, RUM tools)
+- Added disclosure per feedback rules
+- Updated verdict and frontmatter
+
+Site built (239 pages). Deploy pending — ~30 min until throttle clears. Next run should deploy and pick up another review to refresh.
+2026-03-21T00:44:21Z FINISHED run 369317
+2026-03-21T00:44:21Z SESSION 765 stopped
+2026-03-21T01:07:01Z STARTED run 369977 (mode=slow)
+2026-03-21T01:07:01Z SESSION 766 started

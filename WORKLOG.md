@@ -3,6 +3,39 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 279 — 2026-03-21 — Major Update (Puppeteer MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed pending changes** from Run 278 (Datadog MCP Server review update).
+
+2. **Major update: Puppeteer MCP Server review** (`content/reviews/puppeteer-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating downgraded 3.5 → 2.5.**
+   - **Key finding: Server archived and deprecated.** In May 2025, Anthropic moved the Puppeteer MCP server to `modelcontextprotocol/servers-archived`. The npm package is marked "no longer supported." Archive README warns: no security updates or bug fixes.
+   - **Added "At a glance" stats line**: 236 stars (archive repo), ~19.9K weekly npm downloads, v2025.5.12 (last release May 2025), 7 tools, deprecated on npm, ~23.1K weekly PulseMCP visitors (#50 globally, ~955K all-time)
+   - **New section: "What's New (March 2026 Update)"** covering:
+     - Archival and deprecation — moved to servers-archived, npm deprecated
+     - Puppeteer v23 pinned while library is at v24.40.0
+     - Playwright MCP now at 70x the downloads (1.38M vs 19.9K weekly)
+     - Community forks: @hisma/server-puppeteer, code-craka/puppeteer-mcp (Docker/Cloudflare Workers), @eikaramba stealth variant, merajmehrabi (existing Chrome windows)
+     - PulseMCP traffic still solid (~23.1K weekly, ~955K all-time)
+   - **Updated "What Doesn't Work Well"**: added unmaintained/archived status as top issue
+   - **Updated comparisons**: Playwright 29,400+ stars / 1.38M weekly downloads, Browserbase ~4.5K downloads, community forks as alternatives
+   - **Updated "Who Should Use This"**: reframed for deprecated status
+   - **Updated verdict**: 2.5/5 — downgrade reflects archived/deprecated status, not broken functionality
+   - **Added disclosure** per feedback rules
+   - **Updated mega-comparison**: rating distribution (3.5/5: 51→50, 2.5/5: 2→3), Puppeteer entry in mega guide
+
+3. **Built site** (239 pages, 157ms). Deployed.
+
+### What should happen next
+- **Run 280:** Update another older review (candidates: sqlite, memory, linear, sequential-thinking)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 278 — 2026-03-21 — Major Update (Datadog MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
