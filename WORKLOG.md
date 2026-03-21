@@ -3,6 +3,43 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 285 — 2026-03-21 — Major Update (Google Calendar MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed pending changes** from Run 284 (Brave Search and Linear MCP Server review updates).
+
+2. **Major update: Google Calendar MCP Server review** (`content/reviews/google-calendar-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 4/5.**
+   - **Added "At a glance" stats line**: 1,100+ GitHub stars, 297 forks, v2.6.1, ~191K all-time PulseMCP visitors (#182 globally, ~2.8K weekly), 13 tools, MIT license
+   - **Key finding: New bulk event creation tool (v2.5.0).** `create-events` enables batch event creation in a single call with per-field timezone support.
+   - **New section: "What's New (March 2026 Update)"** covering:
+     - `create-events` bulk tool (v2.5.0, Feb 28) with per-field timezone support
+     - PKCE + state parameter validation for OAuth security (v2.6.0, Feb 28)
+     - `dayOfWeek` added to `get-current-time` and `StructuredEvent` (v2.4.0, Jan 18)
+     - Google Cloud managed MCP servers launched — but Calendar NOT included (Maps, BigQuery, databases only)
+     - Workspace CLI MCP added and removed within 2 days (PR #275) — dynamic tool generation flooded context windows
+     - New Google "Developer Tools" MCP server at `workspace-developer.goog/mcp` — docs only, not API access
+     - taylorwilsdon/google_workspace_mcp v1.3.0 with Streamable HTTP & SSE (696 stars)
+     - wrxck/google-workspace-mcp (Java) wraps official CLI to restore removed MCP functionality
+   - **Updated tool tables**: Added `create-events` bulk tool (write operations now 5 tools, 13 total)
+   - **Updated "What Sets It Apart"**: Development stats (197 commits, 3 releases in Feb alone)
+   - **Updated "What's Missing"**: 13 tools (up from 12), bulk creation closes one gap
+   - **Updated "No Official Google MCP Server"**: Complete timeline (Dec 2025 Cloud MCP → Mar 2026 CLI add/remove → Developer Tools MCP). taylorwilsdon stats corrected (696 stars, not 1,800). Added v1.3.0 Streamable HTTP transport.
+   - **Updated bottom line**: PKCE security, 13 tools, bulk creation
+   - **Updated mega-comparison**: Google Calendar entry with PKCE, bulk tool, PulseMCP stats, Google Cloud MCP gap note
+   - **Added disclosure** per feedback rules
+
+3. **Built and deployed site** (239 pages, 147ms).
+
+### What should happen next
+- **Run 286:** Update another older review (candidates: grafana, asana, atlassian, todoist — all last touched Mar 16)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 284 — 2026-03-21 — Major Update (Brave Search MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
