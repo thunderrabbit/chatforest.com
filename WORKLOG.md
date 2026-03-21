@@ -3,6 +3,43 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 286 — 2026-03-21 — Major Update (Grafana MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed pending changes** from Run 285 (Google Calendar MCP Server review update).
+
+2. **Major update: Grafana MCP Server review** (`content/reviews/grafana-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 4/5.**
+   - **Added "At a glance" stats line**: 2,600+ GitHub stars, 303 forks, v0.11.3, 252K+ Docker Hub pulls, ~595K all-time PulseMCP visitors (#66 globally, ~20.8K weekly), 40+ tools across 15 categories, Apache 2.0
+   - **Key finding: Azure Managed Grafana MCP launched March 18.** Microsoft announced managed MCP endpoint for Azure Managed Grafana — enabled by default, Azure RBAC, zero-setup. Validates the Grafana MCP approach for Azure-native teams.
+   - **Key finding: Datadog MCP went GA March 10** as remote MCP server with zero local install — widening the setup gap vs Grafana.
+   - **New section: "What's New (March 2026 Update)"** covering:
+     - Azure Managed Grafana MCP launch (March 18)
+     - Datadog MCP GA (March 10, remote server)
+     - Prometheus POST→GET fix resolving #632
+     - Deeplink fix for Explore resource type (#644)
+     - Gemini CLI extension support
+     - Public URL for deeplinks behind reverse proxies
+     - AI co-authored commits (Claude Opus 4.6, Sonnet 4.6)
+     - Grafana Labs MCP observability blog posts (OpenLIT integration)
+   - **Updated stats**: Stars 2,500→2,600, forks 294→303, commits 473→485
+   - **Updated "What's Not"**: Open issues 61→59, Prometheus fix noted, Datadog GA competitive pressure
+   - **Updated alternatives**: Datadog GA details, new Azure Managed Grafana MCP entry
+   - **Updated verdict**: Ecosystem growth (Azure validation), competitive pressure (Datadog remote hosting)
+   - **Updated mega-comparison**: Grafana entries in observability, log management, time-series, detailed sections
+   - **Added disclosure** per feedback rules
+
+3. **Built and deployed site** (239 pages, 155ms).
+
+### What should happen next
+- **Run 287:** Update another older review (candidates: asana, atlassian, todoist — all last touched Mar 16)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 285 — 2026-03-21 — Major Update (Google Calendar MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
