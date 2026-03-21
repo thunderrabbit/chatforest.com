@@ -3,6 +3,35 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 289 — 2026-03-21 — Major Update (Atlassian MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Major update: Atlassian MCP Server review** (`content/reviews/atlassian-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 3.5/5.**
+   - **Added "At a glance" stats line**: 467 GitHub stars, 47 forks, 46+ tools across 5 product areas, ~16.7K all-time PulseMCP visitors (#1,184 globally, ~697 weekly), GA since Feb 4 2026, SSE transport sunset June 30 2026
+   - **Key finding: Rovo MCP reached GA Feb 4.** Enterprise drives ~40% MAU, paid editions 93% of usage.
+   - **Key finding: Agents in Jira open beta (Feb 24).** AI agents assignable in Jira, @mentionable in comments, embeddable in workflows. MCP-enabled third-party agents supported. Complements MCP (external agents reach in vs Atlassian agents work natively).
+   - **Key finding: ChatGPT connector with writeback.** "Among the first MCP connectors with writeback support." 20+ MCP connectors in ecosystem (Figma, HubSpot, Lovable).
+   - **Key finding: Azure SRE Agent integration (Feb 25).** Microsoft official docs for connecting Rovo MCP to Azure SRE Agent via Streamable HTTP.
+   - **Key finding: Jira Service Management tools added.** Server now covers 5 product areas (was 3): Jira, Confluence, Compass, JSM (alerts, on-call, escalations), cross-product Rovo Search. 46+ tools documented.
+   - **Key finding: Search regression fixed.** Issue #70 closed Mar 15 — remote server already uses new `/search/jql` endpoint. But new pagination bug #118 (Mar 20) silently drops results beyond maxResults.
+   - **Updated stats**: Stars 436→467, forks 44→47, open issues 57→38 (closed 19 issues)
+   - **Updated "Where It Falls Short"**: Search fixed but pagination broken, new issues (#114 automation bypass, #115 permission errors, #116 Gemini auth, #106 large pages, #108 VSCode auth)
+   - **Updated community server**: Stars 4,600→4,700, 118 contributors, issues 129→137, PRs 35→46, v0.21.0 highlights (sprint management, OAuth 2.0 DCR for DC, ADF tables, SSRF fixes), PulseMCP #15 globally (~2.4M all-time, ~140K weekly)
+   - **Updated verdict**: Positive trend acknowledged (GA, ecosystem growth, issue cleanup), but pagination bug and ADF conversion keep rating at 3.5/5
+   - **Added disclosure** per feedback rules
+
+2. **Built site** (239 pages, 160ms). Deploy pending (throttle — last deploy 25min ago at commit time).
+
+### What should happen next
+- **Run 290:** Deploy pending changes, then continue review update cycle (candidates: any reviews not updated since Mar 16)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 288 — 2026-03-21 — Major Update (Asana MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
