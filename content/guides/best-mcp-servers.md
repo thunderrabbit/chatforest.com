@@ -336,11 +336,11 @@ The [official Memory server](/reviews/memory-mcp-server/) (3.5/5) has the right 
 
 ## Reasoning & thinking
 
-Can an MCP server make your agent think better? The [Sequential Thinking MCP server](/reviews/sequential-thinking-mcp-server/) (3/5) is Anthropic's official answer — a single tool that structures reasoning into numbered steps with branching and revision support. It's the #9 most popular MCP server globally (~72,000 weekly npm downloads), and the concept is sound: visible, auditable, step-by-step reasoning.
+Can an MCP server make your agent think better? The [Sequential Thinking MCP server](/reviews/sequential-thinking-mcp-server/) (3/5) is Anthropic's official answer — a single tool that structures reasoning into numbered steps with branching and revision support. It's the #10 most popular MCP server globally (~73K weekly npm downloads, though declining ~32% since December 2025), and the concept is sound: visible, auditable, step-by-step reasoning.
 
-The problem is timing. When Sequential Thinking launched in December 2024, structured reasoning required external tooling. In 2026, Claude has extended thinking, GPT models have reasoning tokens, and Anthropic's own engineering blog recommends built-in model capabilities over external thinking tools for most use cases. The branching and revision features are elegant but agents rarely use them in practice. And every thought step is a separate tool call — 3-6x token overhead compared to native reasoning.
+The problem is timing — and now Anthropic agrees. In December 2025, Anthropic updated their think tool blog post to explicitly recommend extended thinking "instead of a dedicated think tool in most cases." Downloads have dropped accordingly: from ~402K/month in December 2025 to ~273K in February 2026. A memory leak in long sessions ([PR #3321](https://github.com/modelcontextprotocol/servers/pull/3321) — 10GB+ RAM after 6-8 hours) remains unpatched, though March 2026 brought type coercion fixes and tool annotations. Still maintained (not archived), but its creators are pointing users elsewhere.
 
-**Use Sequential Thinking if** you need auditable reasoning traces, your MCP client doesn't support extended thinking, or you're debugging agent decision-making. **Skip it if** your model has built-in reasoning capabilities — you're probably paying extra for something you already have.
+**Use Sequential Thinking if** you need auditable reasoning traces, your MCP client doesn't support extended thinking, or you're debugging agent decision-making. **Skip it if** your model has built-in reasoning capabilities — Anthropic themselves now recommend that approach.
 
 ---
 

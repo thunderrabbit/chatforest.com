@@ -1,17 +1,36 @@
 ---
 title: "The Sequential Thinking MCP Server — When Your Agent Needs to Think Out Loud"
 date: 2026-03-14T11:35:09+09:00
-description: "The official Sequential Thinking MCP server gives AI agents a structured way to reason through complex problems step by step. One tool, dynamic branching, thought revision — but it's competing with capabilities now built into the models themselves. Here's the honest review."
-og_description: "The official Sequential Thinking MCP server provides structured step-by-step reasoning for AI agents. Popular and easy to set up, but increasingly redundant with built-in extended thinking. Rating: 3/5."
+lastmod: 2026-03-21T12:00:00+09:00
+description: "The official Sequential Thinking MCP server gives AI agents a structured way to reason through complex problems step by step. One tool, dynamic branching, thought revision — but downloads are declining and Anthropic now recommends extended thinking instead. Updated March 2026."
+og_description: "The official Sequential Thinking MCP server provides structured step-by-step reasoning for AI agents. Still maintained but downloads declining as built-in reasoning improves. Rating: 3/5."
 content_type: "Review"
-card_description: "Anthropic's structured reasoning server for step-by-step problem solving. Popular and elegant, but one tool that's increasingly redundant with built-in model capabilities."
+card_description: "Anthropic's structured reasoning server for step-by-step problem solving. Still maintained and popular, but downloads declining as models gain native reasoning capabilities."
 ---
 
 The Sequential Thinking MCP server (`@modelcontextprotocol/server-sequential-thinking`) is Anthropic's official reference implementation for structured AI reasoning. It provides a single tool — `sequential_thinking` — that lets agents break complex problems into numbered steps, revise earlier reasoning, and branch into alternative paths. The idea is to make thinking visible and controllable: instead of an agent jumping straight to an answer, it works through the problem step by step, and you can see (and steer) each step.
 
-It's the #9 most popular MCP server globally, with ~72,000 weekly npm downloads and 4.1 million estimated all-time visitors on PulseMCP. It lives in the main `modelcontextprotocol/servers` monorepo (81,000+ stars), alongside Memory, Filesystem, Fetch, and the other official reference servers. That's serious adoption for a tool that, on the surface, doesn't connect to any external service — it just helps agents think.
+**At a glance:** 81,600+ stars (monorepo), ~73K weekly npm downloads (declining from ~100K peak), v2025.12.18, 1 tool, Apache 2.0 license, ~66.5K weekly PulseMCP visitors (#10 globally, ~4.1M all-time).
+
+It lives in the main `modelcontextprotocol/servers` monorepo — not archived — alongside Memory, Filesystem, Fetch, and the other official reference servers. That's serious adoption for a tool that, on the surface, doesn't connect to any external service — it just helps agents think.
 
 But this server exists in an increasingly awkward position. When it launched in December 2024, giving models a structured space to reason was genuinely novel. Since then, Claude has gained extended thinking, GPT models have added chain-of-thought reasoning, and Anthropic themselves published a "think" tool pattern that achieves similar goals without an MCP server. The question isn't whether structured thinking helps — it does. The question is whether you need a separate MCP server for it in 2026.
+
+## What's New (March 2026 Update)
+
+**Downloads are declining.** Monthly npm downloads peaked around December 2025 (~402K) and have fallen steadily: 327K in January 2026, 273K in February. That's a ~32% drop in two months. Weekly downloads (~73K) are still substantial — this remains a top-10 MCP server — but the trend is clear.
+
+**Anthropic now explicitly recommends extended thinking over the think tool.** In a December 2025 update to their [think tool engineering blog post](https://www.anthropic.com/engineering/claude-think-tool), Anthropic stated: "Extended thinking capabilities have improved since its initial release, such that we recommend using that feature instead of a dedicated think tool in most cases." The think tool (and by extension, Sequential Thinking) is now recommended only for complex tool chains, policy-heavy environments, and sequential multi-step decisions.
+
+**Memory leak discovered in long sessions.** [PR #3321](https://github.com/modelcontextprotocol/servers/pull/3321) (opened February 2026, still open) documents that the `thoughtHistory` and `branches` arrays grow without bound — in sessions running 6-8+ hours, RAM consumption can hit 10GB+. The append-only design that makes reasoning traces auditable also makes the server a memory hog in long-running agent workflows.
+
+**Tool annotations added.** [PR #3534](https://github.com/modelcontextprotocol/servers/pull/3534) (merged March 15, 2026) added MCP tool annotations: `readOnlyHint: true`, `destructiveHint: false`, `idempotentHint: true`, `openWorldHint: false`. This helps MCP clients make better decisions about when and how to invoke the tool.
+
+**Better type coercion.** [PR #3533](https://github.com/modelcontextprotocol/servers/pull/3533) (merged March 15, 2026) switched to `z.coerce` for number and boolean parameters, properly fixing the long-standing issue where LLMs send `"1"` instead of `1`. This replaces earlier manual coercion workarounds.
+
+**License changed to Apache 2.0.** As of January 12, 2026, the entire `modelcontextprotocol/servers` monorepo switched from MIT to Apache 2.0. Functionally similar for most users, but worth noting for compliance teams.
+
+**No new npm release since December 2025.** The latest published version remains v2025.12.18. The March 2026 fixes (type coercion, tool annotations) are merged to main but not yet released to npm.
 
 ## What It Does
 
@@ -80,11 +99,13 @@ Requirements: Node.js 18+ or Docker. No API keys, no accounts, no external servi
 
 **Zero-dependency simplicity.** No API keys, no accounts, no cloud services, no persistent storage. The server runs locally, processes thoughts in memory, and produces a reasoning trace. In a landscape where most MCP servers require authentication, billing accounts, or external services, this simplicity is refreshing.
 
-**Well-maintained as part of the official monorepo.** The server benefits from the `modelcontextprotocol/servers` monorepo's maintenance — regular updates, TypeScript, MIT license. Recent PRs have improved parameter descriptions for better LLM type safety and added the `MAX_TOTAL_THOUGHTS` cap. Version 2025.12.18 is current.
+**Still maintained in the official monorepo.** Unlike Puppeteer and SQLite (moved to servers-archived), Sequential Thinking remains in the active `modelcontextprotocol/servers` repo. It received two fixes in March 2026 alone (type coercion, tool annotations). The license changed from MIT to Apache 2.0 in January 2026. Version 2025.12.18 is the latest npm release.
 
 ## What Doesn't Work Well
 
-**It's increasingly redundant with built-in model capabilities.** Claude's extended thinking, OpenAI's reasoning tokens, and Gemini's thinking mode all provide structured reasoning natively — without an MCP server, without tool call overhead, and with deeper model integration. Anthropic's own engineering blog recommends extended thinking over the think tool for most use cases, noting it provides "similar benefits with better integration and performance." The sequential thinking server was pioneering in late 2024; in 2026, it's solving a problem that models are learning to solve internally.
+**Anthropic now explicitly recommends against it for most use cases.** In December 2025, Anthropic updated their think tool blog post to state: "We recommend using [extended thinking] instead of a dedicated think tool in most cases." That's a stronger position than the original March 2025 post, which presented the think tool and extended thinking as complementary. Downloads have dropped ~32% since that update. The sequential thinking server was pioneering in late 2024; in 2026, even its creators are steering users elsewhere.
+
+**Memory leak in long-running sessions.** [PR #3321](https://github.com/modelcontextprotocol/servers/pull/3321) (February 2026, still open) documents that `thoughtHistory` and `branches` arrays grow without bound. In sessions running 6-8+ hours, RAM consumption can hit 10GB+. The append-only design is inherent to how the server works — there's no cleanup mechanism. This primarily affects long-running agent workflows, not short interactive sessions.
 
 **Every thought step is a separate tool call.** A 10-step reasoning chain means 10 tool calls. Each call carries serialization overhead, schema validation, and round-trip latency. Analysis from the community shows this makes token consumption 3-6x higher compared to letting the model reason in its context window. For agents paying per token, this overhead adds up quickly.
 
@@ -100,13 +121,13 @@ Requirements: Node.js 18+ or Docker. No API keys, no accounts, no external servi
 
 ## Compared to Alternatives
 
-**vs. Claude's Extended Thinking:** Extended thinking is built into the model — no MCP server, no tool call overhead, no type validation issues. It activates before response generation and provides deep reasoning natively. Anthropic recommends it over external thinking tools for most use cases. Sequential Thinking's advantage is visibility (you see each step) and branching (you can explore alternatives). But for raw reasoning quality and efficiency, extended thinking wins.
+**vs. Claude's Extended Thinking:** Extended thinking is built into the model — no MCP server, no tool call overhead, no type validation issues. It activates before response generation and provides deep reasoning natively. As of December 2025, Anthropic explicitly recommends extended thinking over external thinking tools for most use cases. Sequential Thinking's remaining advantage is visibility (you see each step as a tool call) and branching (you can explore alternatives). But for raw reasoning quality and efficiency, extended thinking wins — and Anthropic says so.
 
-**vs. Anthropic's "Think" Tool Pattern:** The [think tool](https://www.anthropic.com/engineering/claude-think-tool) is a simpler approach — a tool that accepts a single `thought` string with no schema, no step counting, no branching. It's designed for pausing during complex tool chains, not for structured multi-step reasoning. Anthropic's benchmark data shows it improves Claude's performance by 54% on complex airline customer service tasks. The sequential thinking server is more structured; the think tool is more practical.
+**vs. Anthropic's "Think" Tool Pattern:** The [think tool](https://www.anthropic.com/engineering/claude-think-tool) is a simpler approach — a tool that accepts a single `thought` string with no schema, no step counting, no branching. It's designed for pausing during complex tool chains, not for structured multi-step reasoning. Anthropic's benchmark data shows it improves Claude's performance by 54% on complex airline customer service tasks. Anthropic's December 2025 update narrows the think tool's recommended use cases to: complex tool chains, policy-heavy environments, and sequential decisions where each step builds on previous ones. For everything else, they now recommend extended thinking.
 
-**vs. Community Forks (LangGPT, arben-adm, FradSer):** Multiple community forks add features the official server lacks — stage-based thinking, multi-agent reasoning, tool usage recommendations. FradSer's multi-agent version passes each thought through multiple specialized AI agents for deeper analysis, at the cost of 3-6x token consumption. These forks address real gaps but fragment the ecosystem.
+**vs. Community Forks and Alternatives:** Multiple community alternatives have emerged — Clear Thought for structured reasoning, MCP Feedback Enhanced for human-in-the-loop checkpoints during reasoning, cgize/claude-mcp-think-tool as a community think tool implementation, and spences10's Sequential Thinking Tools optimized for programming tasks. LangGPT and FradSer's multi-agent version pass each thought through multiple specialized AI agents for deeper analysis, at the cost of 3-6x token consumption. These forks address real gaps but fragment the ecosystem.
 
-**vs. Our [Memory MCP Server review](/reviews/memory-mcp-server/):** Both are official reference servers from the `modelcontextprotocol/servers` monorepo. Memory solves persistent context; Sequential Thinking solves structured reasoning. Memory has 9 tools for a knowledge graph; Sequential Thinking has 1 tool for thought chains. Both are well-maintained, both are increasingly competing with capabilities built into the models themselves.
+**vs. Our [Memory MCP Server review](/reviews/memory-mcp-server/):** Both are official reference servers from the `modelcontextprotocol/servers` monorepo. Memory solves persistent context; Sequential Thinking solves structured reasoning. Memory has 9 tools for a knowledge graph; Sequential Thinking has 1 tool for thought chains. Both are still maintained (not archived), both are increasingly competing with capabilities built into the models themselves.
 
 ## Who Should Use This
 
@@ -124,8 +145,10 @@ Requirements: Node.js 18+ or Docker. No API keys, no accounts, no external servi
 - You want agents to actually use branching and revision (they mostly don't)
 - You're using Claude Code (session stickiness will frustrate you)
 
-{{< verdict rating="3" summary="Pioneering concept, increasingly redundant execution" >}}
-The Sequential Thinking MCP server introduced an important idea: making AI reasoning structured, visible, and controllable. The branching model is elegant, the thought revision concept is sound, and the zero-dependency setup is as simple as MCP servers get. It deserved its popularity when structured reasoning required external tooling. But the landscape has shifted. Extended thinking is built into major models. Anthropic's own think tool pattern achieves similar benefits with less overhead. Agents rarely use the branching and revision features that justify the server's existence over simpler approaches. And every thought step being a separate tool call means you're paying a real cost in tokens and latency for a capability that models increasingly provide for free. At 72,000 weekly downloads, it's clearly useful to many people — and for specific use cases like auditable reasoning traces or MCP clients without extended thinking support, it remains the right choice. But for most users in 2026, the structured reasoning that Sequential Thinking pioneered is now better served by the models themselves.
+{{< verdict rating="3" summary="Pioneering concept, declining relevance" >}}
+The Sequential Thinking MCP server introduced an important idea: making AI reasoning structured, visible, and controllable. The branching model is elegant, the thought revision concept is sound, and the zero-dependency setup is as simple as MCP servers get. It deserved its popularity when structured reasoning required external tooling. But the trajectory is now unmistakable. Downloads are down ~32% since December 2025. Anthropic explicitly updated their think tool blog post to recommend extended thinking "instead of a dedicated think tool in most cases." A memory leak in long-running sessions remains unpatched. Agents still rarely use the branching and revision features that justify this over simpler approaches. It's still maintained — it received two fixes in March 2026, and hasn't been archived like Puppeteer or SQLite — so it's not abandoned. At ~73,000 weekly downloads and #10 on PulseMCP, it clearly has users. For auditable reasoning traces, MCP clients without extended thinking support, or debugging agent decision-making, it remains the right choice. But its creators are now pointing users elsewhere, and the download numbers suggest users are listening.
 {{< /verdict >}}
 
-*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*
+*ChatForest does not test MCP servers hands-on. Our reviews are based on documentation analysis, source code review, community feedback, and public data. [Learn more about our methodology](/about/).*
+
+*This review was last updated on 2026-03-21 using Claude Opus 4.6 (Anthropic).*
