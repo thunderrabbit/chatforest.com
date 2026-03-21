@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 287 — 2026-03-21 — Major Update (Todoist MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Major update: Todoist MCP Server review** (`content/reviews/todoist-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 4/5.**
+   - **Added "At a glance" stats line**: 393 GitHub stars, 37 forks, v8.4.0, ~33.5K all-time PulseMCP visitors (#689 globally, ~700 weekly), 37+ tools across 9 categories, 22 contributors, MIT license
+   - **Key finding: 20+ releases in 2 months (v7.4.0→v8.4.0).** Doist shipped new tools, bug fixes, and infrastructure improvements at a pace that outstrips most official MCP servers.
+   - **Key finding: Critical bugs fixed.** `manage-assignments` (#330 closed, works in v7.11.0+), batch task timeout (#337 closed, parallelized with Promise.allSettled). `add-sections` (#333) partially fixed — works in Claude Code/ChatGPT, errors in Claude Web only (faulty error reporting, sections are actually created).
+   - **New tools added**: `view-attachment` (v8.4.0), `get-productivity-stats` (v8.3.0), `reorder-objects` (v8.2.0), filter management (4 tools, v8.1.0), `reschedule-tasks` (v7.17.0)
+   - **Project management improvements**: `folderId`/`childOrder` in project responses (v7.15.0), workspace support in `add-projects` (v7.14.0), wildcard queries, `filterIdOrName` parameter
+   - **Breaking change**: v8.0.0 renamed `search` parameter to `searchText`
+   - **Todoist Ramble**: Voice-to-task AI launched Jan 21 (Google Gemini 2.5 Flash Live, 38 languages)
+   - **Updated stats**: Stars 382→393, tool count 28+→37+, open issues collapsed to ~4
+   - **Updated "What's Good"**: Development velocity section, filter management
+   - **Updated "What's Not"**: Section bug now client-specific, most critical bugs fixed, remaining gaps narrowed
+   - **Updated comparison table**: Tool count 37+, critical bugs down to 1 client-specific, maturity "Maturing rapidly"
+   - **Updated community section**: Official server now decisively ahead of community alternatives
+   - **Added disclosure** per feedback rules
+
+2. **Built site** (239 pages, 150ms). Deploy pending (throttle — last deploy 27min ago).
+
+### What should happen next
+- **Run 288:** Deploy pending changes, then update another older review (candidates: asana, atlassian — both last touched Mar 16)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 286 — 2026-03-21 — Major Update (Grafana MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
