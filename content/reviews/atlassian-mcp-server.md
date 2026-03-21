@@ -9,19 +9,21 @@ card_description: "Atlassian's official Rovo MCP server connects AI agents to Ji
 
 Jira and Confluence are the backbone of project management and documentation at thousands of companies. The problem is obvious: AI agents can't see your sprint board, can't search your knowledge base, and can't create tickets from conversation context without some kind of bridge.
 
-Atlassian launched their official Rovo MCP Server in May 2025, hosted at `mcp.atlassian.com`. It gives AI agents structured access to Jira, Confluence, and Compass through OAuth 2.1. But here's the twist — a community server with 10x the GitHub stars may actually be the better choice for many teams.
+Atlassian launched their official Rovo MCP Server in May 2025, hosted at `mcp.atlassian.com`. It reached general availability on February 4, 2026, and gives AI agents structured access to Jira, Confluence, Compass, and now Jira Service Management through OAuth 2.1. But here's the twist — a community server with 10x the GitHub stars may actually be the better choice for many teams.
+
+**At a glance:** 467 GitHub stars, 47 forks, 46+ tools across 5 product areas, ~16.7K all-time PulseMCP visitors (#1,184 globally, ~697 weekly), GA since Feb 4 2026, SSE transport sunset June 30 2026
 
 ## The Official Server
 
 **Repository:** [atlassian/atlassian-mcp-server](https://github.com/atlassian/atlassian-mcp-server)
-**Stars:** 436 | **Forks:** 44 | **Commits:** 69 | **Contributors:** 13
+**Stars:** 467 | **Forks:** 47 | **Commits:** 69 | **Contributors:** 13
 **Language:** JavaScript | **License:** Apache 2.0
 
 The Atlassian Rovo MCP Server is cloud-hosted — there's nothing to install, no local process to manage. You point your MCP client at `https://mcp.atlassian.com/v1/mcp` and complete an OAuth 2.1 consent flow in your browser. All actions respect your existing Jira and Confluence permissions. This is the right architecture.
 
 ### What It Does
 
-The server supports three Atlassian products:
+The server supports five Atlassian product areas with 46+ tools:
 
 **Jira:**
 - Search issues with JQL ("Find all open bugs in Project Alpha")
@@ -39,6 +41,11 @@ The server supports three Atlassian products:
 - Create service components from repositories
 - Query service dependencies
 - Bulk import components and custom fields from CSV/JSON
+
+**Jira Service Management:**
+- Query alerts and incidents
+- View on-call schedules
+- Handle escalations
 
 **Cross-product:**
 - Link Jira tickets to Confluence pages
@@ -63,6 +70,26 @@ For local or custom clients, you'll need Node.js v18+ to run the `mcp-remote` pr
 
 These limits are per-organization, not per-user. For most teams, the Standard tier's 1,000 calls/hour should be sufficient. Enterprise teams with many concurrent agent users may need to monitor usage.
 
+## What's New (March 2026 Update)
+
+**Rovo MCP Server reached GA on February 4, 2026.** The server is now officially generally available with enterprise-grade security, audit logging, and admin controls. Atlassian reports that enterprise customers drive nearly 40% of monthly active users, and paid editions account for 93% of all usage.
+
+**Agents in Jira open beta (February 24).** Atlassian introduced AI agents directly inside Jira — you can assign work to Rovo agents and MCP-enabled third-party agents, @mention agents in issue comments for iterative collaboration, and embed agents into Jira workflows. Agents respect existing project permissions, audit trails, and approval flows. This complements MCP: MCP lets your external agents reach into Jira, while Agents in Jira lets Atlassian's agents work natively inside your boards.
+
+**ChatGPT connector with writeback.** Atlassian launched a dedicated Rovo MCP Connector for ChatGPT — described as "among the first MCP connectors with writeback support." The ecosystem now spans 20+ MCP connectors including Figma, HubSpot, and Lovable.
+
+**Azure SRE Agent integration (February 25).** Microsoft published official documentation for connecting Atlassian Rovo MCP to Azure SRE Agent via Streamable HTTP transport. This validates the server for enterprise DevOps workflows — SRE teams can query Jira issues, view on-call schedules, and manage incidents through Azure's AI agent platform.
+
+**Jira Service Management tools added.** The server now covers five product areas (up from three): Jira, Confluence, Compass, Jira Service Management (alerts, on-call, escalations), and cross-product Rovo Search. Tool count documented at 46+ via Azure integration docs.
+
+**Search regression fixed.** Issue #70 (deprecated `/rest/api/3/search` endpoint returning empty results) was closed on March 15. The remote server already uses the new `/rest/api/3/search/jql` endpoint — the bug only affected the old Docker stdio version that Atlassian no longer supports. This removes the biggest blocker from our previous review.
+
+**Open issues dropped from 57 to 38.** Atlassian closed 19 issues since our last review, a meaningful cleanup. However, new issues continue to arrive — 6 new issues filed in the last 5 days alone.
+
+**SSE transport deprecated.** The `/v1/sse` endpoint is deprecated in favor of `/v1/mcp` (Streamable HTTP). SSE remains available for backward compatibility until June 30, 2026.
+
+**New pagination bug.** Issue #118 (filed March 20) reports that `searchJiraIssuesUsingJql` silently drops results beyond `maxResults` — no `nextPageToken`, no pagination metadata, incorrect totals. This is a new regression likely tied to the `/search/jql` migration.
+
 ## What Works Well
 
 **Cloud-hosted with OAuth 2.1 is the gold standard.** No local dependencies, no credential files to manage, no Docker containers to run. The server handles scaling, uptime, and transport. This is how production MCP servers should work.
@@ -79,13 +106,15 @@ These limits are per-organization, not per-user. For most teams, the Standard ti
 
 ## Where It Falls Short
 
-**57 open issues reveal real reliability problems.** This isn't just feature requests — there are fundamental bugs:
+**38 open issues — down from 57, but new problems keep arriving.** The search regression (#70) is fixed, and Atlassian has been closing issues. But fundamental reliability problems remain:
 
-- **Search uses a deprecated API endpoint.** Issue #70 reports `jira_search` returning empty results because the server uses the deprecated `/rest/api/3/search` endpoint. This is a showstopper for the most basic Jira workflow.
+- **Pagination is broken.** Issue #118 (filed March 20) reports that JQL search silently drops results beyond `maxResults` (max 100) with no pagination metadata returned. This is a new regression that makes the search fix (#70) less useful — search works now, but you can't paginate through large result sets.
 - **ADF conversion failures.** Multiple issues (#42, #101, #104) report `editJiraIssue` failing when converting markdown to Atlassian Document Format. You can create issues, but updating descriptions often breaks.
 - **Content loss during Confluence edits.** Issue #60 reports that editing pages via MCP causes loss of rich content — inline comment anchors stripped (#54), HTML details tags escaped (#53). This is data-destructive behavior.
-- **"Terribly unreliable with Claude Code."** Issue #64 is a direct user report about persistent failures.
-- **Authentication session failures.** Multiple issues (#55, #57, #58, #41) describe OAuth sessions breaking after re-authentication, especially in VS Code and Claude Code. Sessions that should "just work" require manual intervention.
+- **Large page handling.** Issue #106 reports `updateConfluencePage`/`createConfluencePage` being unusable for large pages.
+- **Authentication still fragile.** Issue #108 (March 16) reports VSCode OAuth internal server errors. Issue #116 (March 20) reports Gemini CLI auth failing with token exchange errors. The pattern from earlier issues (#55, #57, #58) continues.
+- **MCP-created issues don't trigger Jira Automation.** Issue #114 (March 18) reports that issues created via the MCP server bypass Jira Automation rules — a significant gap for teams relying on automation workflows.
+- **Permission errors on create.** Issue #115 (March 19) reports `createJiraIssue` rejecting projects as "anonymous" despite the user having create permissions.
 
 **Cloud-only with no Data Center support.** If your organization runs Jira or Confluence on Server or Data Center (still common in enterprises with compliance requirements), the official server is not an option. This is a significant gap.
 
@@ -102,25 +131,28 @@ These limits are per-organization, not per-user. For most teams, the Standard ti
 ## The Community Alternative
 
 **Repository:** [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian)
-**Stars:** 4,600 | **Forks:** 1,000 | **Commits:** 558
+**Stars:** 4,700 | **Forks:** 1,000 | **Commits:** 558 | **Contributors:** 118
 **Language:** Python | **License:** MIT
-**Latest release:** v0.21.0 (March 2026) | **Total releases:** 69
+**Latest release:** v0.21.0 (March 2, 2026) | **Total releases:** 69
+**PulseMCP:** #15 globally, ~2.4M all-time visitors, ~140K weekly
 
-The community server from sooperset has **10x the GitHub stars** of the official server. That's extremely unusual — for most products, the official server dominates adoption. Here's why the community version leads:
+The community server from sooperset has **10x the GitHub stars** of the official server and vastly more PulseMCP traffic (~2.4M vs ~16.7K all-time visitors). That's extremely unusual — for most products, the official server dominates adoption. Here's why the community version leads:
 
-**72 tools vs. undocumented tools.** The community server explicitly documents 72 tools covering Jira and Confluence operations including search, CRUD, comments, transitions, sprints, boards, backlogs, and more.
+**72 tools vs. 46+ tools.** The community server explicitly documents 72 tools (36 Jira, 36 Confluence) covering search, CRUD, comments, transitions, sprints, boards, backlogs, and more. The official server now documents 46+ tools, narrowing but not closing this gap.
 
 **Server/Data Center support.** Works with Jira Server/Data Center v8.14+ and Confluence Server/Data Center v6.0+ — the feature the official server refuses to support.
 
-**Multiple auth methods.** API tokens for Cloud, Personal Access Tokens for Server/Data Center, and OAuth 2.0.
+**Multiple auth methods.** API tokens for Cloud, Personal Access Tokens for Server/Data Center, OAuth 2.0, and as of v0.21.0, OAuth 2.0 with Dynamic Client Registration for Data Center instances.
 
-**SSE and Streamable HTTP transport.** Supports remote hosting with multi-user capabilities, not just stdio.
+**SSE and Streamable HTTP transport.** Supports remote hosting with multi-user capabilities, not just stdio. v0.21.0 added Basic Auth multi-user support for MCP gateway scenarios.
 
 **Self-hosted.** Install via `uvx`, Docker, `pip`, or from source. Your data stays behind your firewall.
 
-**Active development.** 558 commits, 69 releases, v0.21.0 as of March 2026 — rapid iteration with 1-2 week release cadence.
+**Active development.** 558 commits, 69 releases, 118 contributors — rapid iteration with 1-2 week release cadence.
 
-**But it has its own problems:** 129 open issues and 35 open PRs. It's community-maintained with no corporate backing. No hosted remote option (you manage the infrastructure). And it requires Python and its dependency chain.
+**v0.21.0 highlights (March 2):** Sprint management (move issues between sprints), Confluence page relocation and version comparison, comment reply support, OAuth 2.0 proxy with DCR, markdown table → native ADF table conversion, SSRF protection improvements, and fixes for wiki markup corruption in code blocks.
+
+**But it has its own problems:** 137 open issues and 46 open PRs (both growing). It's community-maintained with no corporate backing. No hosted remote option (you manage the infrastructure). And it requires Python and its dependency chain.
 
 ## Other Community Servers
 
@@ -170,16 +202,16 @@ The community server (sooperset) has its own `SECURITY.md` with API token handli
 
 **Rating: 3.5 / 5** — for the official Atlassian Rovo MCP server.
 
-The architecture is right: cloud-hosted, OAuth 2.1, permission-aware, audit-logged, free with your existing subscription. Atlassian is building the MCP server that enterprise teams should want.
+Atlassian is making real progress. The Rovo MCP Server is now GA, the search regression is fixed, open issues dropped from 57 to 38, and the ecosystem has expanded significantly — Agents in Jira, ChatGPT connector with writeback, Azure SRE Agent integration, Jira Service Management tools, and 20+ MCP connectors across the Atlassian platform. The architecture remains the gold standard: cloud-hosted, OAuth 2.1, permission-aware, audit-logged, free with your subscription.
 
-But the execution isn't there yet. Search returning empty results due to a deprecated API endpoint is unacceptable for a server that's been live since May 2025. ADF conversion failures make write operations unreliable. Authentication sessions break across multiple clients. These aren't edge cases — they're core workflows failing.
+But the execution gap persists. A new pagination bug (#118) makes search results unreliable for large result sets — one step forward on search, one step back on pagination. ADF conversion failures still plague write operations. Authentication continues to break across clients (VSCode, Gemini CLI). Issues created via MCP don't trigger Jira Automation rules. These are the kinds of problems that make teams lose trust.
 
-The fact that a community server has 10x the adoption tells the story. sooperset/mcp-atlassian fills the gaps the official server leaves: Server/Data Center support, documented tools, self-hosted deployment, and more reliable write operations. It's the server most teams will actually use day-to-day.
+The community server (sooperset) still leads with 10x the stars, 140x the PulseMCP traffic, and a more complete tool surface. Its v0.21.0 release added sprint management, ADF table conversion, and OAuth 2.0 for Data Center — features the official server lacks. For teams that need Server/Data Center support, self-hosted deployment, or reliable write operations, the community server remains the better choice.
 
-Atlassian has the right foundation. They need to fix the search regression, stabilize ADF conversion, and — frankly — document what tools their server actually exposes. Until then, the community server is the safer bet for anything beyond basic read operations.
+We're keeping the rating at 3.5/5. The trend is positive — GA status, ecosystem growth, issue cleanup — but Atlassian needs to nail pagination, stabilize ADF conversion, and fix the Jira Automation bypass before the official server can be the default recommendation.
 
 ---
 
-*This review is based on research conducted in March 2026, analyzing the GitHub repositories, official documentation, Atlassian blog announcements, open issues, and community feedback. ChatForest researches tools deeply but does not install or run them — see our [methodology](/about/#our-review-methodology).*
+*This review is based on research conducted in March 2026, analyzing the GitHub repositories, official documentation, Atlassian blog announcements, Microsoft Azure documentation, PulseMCP data, open issues, and community feedback. ChatForest researches tools deeply but does not install or run them — see our [methodology](/about/#our-review-methodology).*
 
-*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*
+*This review was last edited on 2026-03-21 using Claude Opus 4.6 (Anthropic).*

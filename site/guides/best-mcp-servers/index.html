@@ -165,7 +165,7 @@
 <td>Observability</td>
 <td><a href="/reviews/sentry-mcp-server/">Sentry MCP</a></td>
 <td>4/5</td>
-<td><a href="/reviews/grafana-mcp-server/">Grafana MCP</a> (4/5, open source)</td>
+<td><a href="/reviews/grafana-mcp-server/">Grafana MCP</a> (4/5, 2,600 stars, open source), Azure Managed Grafana MCP (managed)</td>
 </tr>
 <tr>
 <td>Image generation</td>
@@ -345,7 +345,7 @@
 <td>Log management</td>
 <td><a href="/reviews/log-management-mcp-servers/">Log Management MCP Servers</a></td>
 <td>4.0/5</td>
-<td><a href="https://github.com/grafana/mcp-grafana">Grafana mcp-grafana</a> (2,500 stars, 6 Loki tools), <a href="https://mcp.datadoghq.com">Datadog MCP</a> (managed remote, 16+ tools)</td>
+<td><a href="https://github.com/grafana/mcp-grafana">Grafana mcp-grafana</a> (2,600 stars, 6 Loki tools), <a href="https://mcp.datadoghq.com">Datadog MCP</a> (GA remote, 16+ tools)</td>
 </tr>
 <tr>
 <td>Container registries</td>
@@ -471,7 +471,7 @@
 <td>Time-series databases</td>
 <td><a href="/reviews/time-series-database-mcp-servers/">Time-Series Database MCP</a></td>
 <td>4.0/5</td>
-<td><a href="https://github.com/grafana/mcp-grafana">Grafana mcp-grafana</a> (2,500 stars, 30+ tools, universal gateway), <a href="https://github.com/ClickHouse/mcp-clickhouse">ClickHouse MCP</a> (715 stars, read-only defaults)</td>
+<td><a href="https://github.com/grafana/mcp-grafana">Grafana mcp-grafana</a> (2,600 stars, 30+ tools, universal gateway), <a href="https://github.com/ClickHouse/mcp-clickhouse">ClickHouse MCP</a> (715 stars, read-only defaults)</td>
 </tr>
 <tr>
 <td>Audio / video</td>
@@ -1303,7 +1303,7 @@
 <p>The most &ldquo;first-party&rdquo; category in the MCP ecosystem — every major platform has shipped an official MCP server.</p>
 <p><strong><a href="/reviews/sentry-mcp-server/">Sentry MCP</a> (4/5)</strong> — the best example of how first-party MCP integration <em>should</em> work. OAuth 2.0 auth (no tokens on disk), zero-install remote server at mcp.sentry.dev, Seer AI root cause analysis. Pre-1.0 rough edges (748+ GitHub issues), but the architecture is right. If you use Sentry, install this.</p>
 <p><strong><a href="/reviews/datadog-mcp-server/">Datadog MCP</a> (4/5)</strong> — the broadest toolset (50+ tools across 10+ modular toolsets). Covers APM, infrastructure, logs, error tracking, feature flags, LLM observability, database monitoring, and synthetics. Agent-native design with token-budget pagination and SQL-like log queries. GA status. The enterprise choice.</p>
-<p><strong><a href="/reviews/grafana-mcp-server/">Grafana MCP</a> (4/5)</strong> — 40+ tools across 15 configurable categories: dashboards, Prometheus, Loki, ClickHouse, CloudWatch, Elasticsearch, alerting, incidents, OnCall, Sift, annotations, rendering. 2,500 stars, open source (Apache 2.0), works with any backend data source Grafana supports. The most comprehensive open-source observability MCP server.</p>
+<p><strong><a href="/reviews/grafana-mcp-server/">Grafana MCP</a> (4/5)</strong> — 40+ tools across 15 configurable categories: dashboards, Prometheus, Loki, ClickHouse, CloudWatch, Elasticsearch, alerting, incidents, OnCall, Sift, annotations, rendering. 2,600 stars, 252K+ Docker Hub pulls, open source (Apache 2.0), works with any backend data source Grafana supports. Azure Managed Grafana MCP launched March 18. Prometheus POST→GET fix merged. The most comprehensive open-source observability MCP server.</p>
 <p><strong><a href="/reviews/newrelic-mcp-server/">New Relic MCP</a> (4/5)</strong> — natural language to NRQL translation (no query language required). 35 tools, generous free tier (100GB/mo), golden metrics analysis, deployment impact assessment. Remote-hosted at mcp.newrelic.com. Public Preview.</p>
 <p><strong><a href="/reviews/honeycomb-mcp-server/">Honeycomb MCP</a> (4/5)</strong> — high-cardinality event analysis with BubbleUp anomaly decomposition. 14+ tools (self-hosted, deprecated) transitioning to hosted server at mcp.honeycomb.io with OAuth 2.1. Works on all tiers including Free (20M events/mo). Best for complex distributed debugging.</p>
 <p><strong><a href="/reviews/pagerduty-mcp-server/">PagerDuty MCP</a> (4/5)</strong> — 67 tools across 13 categories for incident management, not telemetry. Read-only by default with explicit write opt-in. Both hosted (mcp.pagerduty.com) and self-hosted (Apache-2.0, Python). Pairs with any debugging server for full incident response automation.</p>
@@ -1377,8 +1377,8 @@
 <p><strong><a href="/reviews/atlassian-mcp-server/">Atlassian MCP</a> (3.5/5)</strong> — The official Rovo MCP server connects to Jira, Confluence, and Compass via OAuth 2.1 at <code>mcp.atlassian.com</code>. Cloud-hosted, permission-aware, audit-logged, free with your subscription. But 57 open issues reveal reliability problems: search uses a deprecated API endpoint (#70), ADF conversion failures break write operations, and authentication sessions fail across multiple clients. The community alternative <a href="https://github.com/sooperset/mcp-atlassian">sooperset/mcp-atlassian</a> (4,600 stars, 72 tools) has 10x the adoption and adds Server/Data Center support.</p>
 <p><strong><a href="/reviews/obsidian-mcp-servers/">Obsidian MCP Servers</a> (3.5/5)</strong> — Eight community servers, no official support. Three architectural approaches: Local REST API plugin integration (mcp-obsidian, 3,000 stars, stale), direct filesystem access (mcpvault, 802 stars, lowest friction), and native Obsidian plugin (aaronsb, 256 stars, graph traversal + Dataview + Bases). The native plugin approach has the highest ceiling but is beta-only. For most users, mcpvault (one-line install, token-optimized, active) or cyanheads/obsidian-mcp-server (dual transport, auth, structured logging) are the practical choices.</p>
 <p><strong><a href="/reviews/asana-mcp-server/">Asana MCP</a> (4/5)</strong> — The most tool-rich productivity MCP server with 44 tools across tasks, projects, goals, portfolios, and teams. Hosted at <code>mcp.asana.com/v2/mcp</code> with OAuth, Streamable HTTP transport, 20+ verified client integrations. V2 launched Feb 2026 replacing deprecated V1 (shutdown May 2026). The full Asana Work Graph accessible through MCP — goal tracking, portfolio management, and resource allocation that no other productivity MCP server offers.</p>
-<p><strong><a href="/reviews/google-calendar-mcp-server/">Google Calendar MCP</a> (4/5)</strong> — The leading community Google Calendar server (nspady, 1,000+ stars, TypeScript, MIT). 12 tools for events, scheduling, availability, and multi-account management with cross-calendar conflict detection. OAuth 2.0, npm package (<code>@cocal/google-calendar-mcp</code>), Docker support. Unique features: intelligent event import from images/PDFs, tool filtering for security, recurring event granularity. No official Google MCP server exists — Google shipped and then removed MCP from their Workspace CLI in March 2026.</p>
-<p><strong>Notable gap:</strong> Google has no official MCP server for any product. The community Google Calendar server fills the calendar gap well, but Drive, Docs, Sheets, and Gmail remain underserved by dedicated MCP servers.</p>
+<p><strong><a href="/reviews/google-calendar-mcp-server/">Google Calendar MCP</a> (4/5)</strong> — The leading community Google Calendar server (nspady, 1,100+ stars, 297 forks, TypeScript, MIT). 13 tools for events, bulk creation, scheduling, availability, and multi-account management with cross-calendar conflict detection. OAuth 2.0 with PKCE (v2.6.0), npm package (<code>@cocal/google-calendar-mcp</code>), Docker support. v2.5.0 added <code>create-events</code> bulk tool and per-field timezone support. ~191K all-time PulseMCP visitors (#182). No official Google Calendar MCP server exists — Google Cloud&rsquo;s managed MCP servers cover Maps/BigQuery/databases but not Workspace products.</p>
+<p><strong>Notable gap:</strong> Google has no official MCP server for Workspace products. Google Cloud launched managed MCP for Cloud services (Maps, BigQuery, Compute Engine, databases), and a Developer Tools MCP for documentation queries, but Calendar, Gmail, Drive, and Docs remain community-served only. The Workspace CLI&rsquo;s MCP mode was added and removed within 2 days (PR #275).</p>
 <p><strong>Full comparison:</strong> <a href="/guides/best-productivity-mcp-servers/">Best Productivity &amp; Knowledge Management MCP Servers in 2026</a></p>
 <hr>
 <h2 id="deployment">Deployment</h2>

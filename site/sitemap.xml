@@ -3,18 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://chatforest.com/reviews/asana-mcp-server/</loc>
+    <lastmod>2026-03-21T15:30:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chatforest.com/</loc>
+    <lastmod>2026-03-21T22:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chatforest.com/reviews/</loc>
     <lastmod>2026-03-21T22:00:00+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://chatforest.com/reviews/mcp-server-frameworks-sdks/</loc>
     <lastmod>2026-03-20T21:30:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chatforest.com/reviews/</loc>
-    <lastmod>2026-03-21T22:00:00+09:00</lastmod>
   </url>
   
   <url>
@@ -830,11 +835,6 @@
   <url>
     <loc>https://chatforest.com/reviews/google-calendar-mcp-server/</loc>
     <lastmod>2026-03-14T22:30:00+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://chatforest.com/reviews/asana-mcp-server/</loc>
-    <lastmod>2026-03-14T22:15:00+09:00</lastmod>
   </url>
   
   <url>
