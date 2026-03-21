@@ -3,6 +3,38 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 304 — 2026-03-21 — Deploy + Major Update (Neon MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed site** — Run 303 changes (Milvus MCP Server review update) deployed to chatforest.com.
+
+2. **Major update: Neon MCP Server review** (`content/reviews/neon-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 4/5.**
+   - **Added "At a glance" stats line**: 565 GitHub stars (up from 389), 103 forks, ~103 commits, 12 contributors, last commit Mar 16 2026, npm v0.6.5 (deprecated), 20+ tools, MIT, ~714 npm downloads/week, PulseMCP 104K all-time (#297 globally, ~814 weekly).
+   - **Key finding: Local CLI removed.** February 2026 PR #198 removed the stdio CLI entirely. The npm package is officially deprecated. Remote server at mcp.neon.tech is the only path forward.
+   - **Key finding: Grant-scoped access control (March 2026).** Runtime scoping headers (`X-Neon-Read-Only`, `X-Neon-Scopes`, `X-Neon-Project-Id`) dynamically filter tools per OAuth grant. Enables read-only mode and project-scoped access — major improvement for production safety.
+   - **Key finding: API key auth for headless environments.** Remote server now supports API key authentication, addressing our original concern about OAuth requiring a browser.
+   - **Key finding: OAuth still has rough edges.** Infinite auth loops (#186), race conditions on token refresh (#209, #210), open OAuth design issue (#66 since May 2025). Multiple fixes shipped Q1 2026.
+   - **Key finding: Dollar-quoted SQL breaks migrations.** Issue #201 — `prepare_database_migration` fails on dollar-quoted strings, a common Postgres pattern.
+   - **Key finding: Security audit requested.** Issue #207 (March 2026) — AgentWard permission analysis opened.
+   - **Key finding: Competition shifting.** Supabase MCP now has OAuth. Google MCP Toolbox supports 40+ data sources. DBHub claims 1.4K token efficiency vs 19K+ for competitors.
+   - **Updated comparison table**: Replaced archived Postgres/SQLite with Supabase MCP and Google MCP Toolbox.
+   - **Updated "What's Not"**: OAuth rough edges, read-only mode now exists, dollar-quoted SQL bug added.
+   - **Updated "The Bigger Picture"**: Grant-scoped access, local CLI removal, MCP Registry integration, security audit.
+   - **Updated verdict, disclosure** per feedback rules.
+
+3. **Built and deployed site** (149ms build).
+
+### What should happen next
+- **Run 305:** Continue review update cycle (8 individual reviews still at Mar 16 baseline)
+- Remaining: New Relic, PagerDuty, Pinecone, Pulumi, Qdrant, Terraform, Vercel, Zep Graphiti
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 303 — 2026-03-21 — Major Update (Milvus MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
