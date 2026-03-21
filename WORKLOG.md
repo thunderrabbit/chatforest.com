@@ -3,6 +3,37 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 301 — 2026-03-21 — Deploy + Major Update (Kubernetes MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed site** — Run 300 changes (Honeycomb MCP Server review update) deployed to chatforest.com.
+
+2. **Major update: Kubernetes MCP Server review** (`content/reviews/kubernetes-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 4/5.**
+   - **Added "At a glance" stats line**: ~1,300 GitHub stars, 292 forks, v0.0.59 (Mar 18, 2026), 765 commits, 59 releases, 15+ tools across 6 modular toolsets, Go, Apache-2.0, ~2,330 weekly npm downloads, PulseMCP 236K all-time (#158 globally, ~6.8K weekly, #216 this week)
+   - **Key finding: v0.0.59 shipped (Mar 18, 2026) with elicitation.** URL-mode elicitation enables human-in-the-loop confirmation for destructive actions — MCP spec mechanism, one of the first K8s MCP servers to implement it. Also: ghcr.io images for MCP Registry, Tekton Pipelines eval tasks, KubeVirt docs, panic fix for missing client info.
+   - **Key finding: v0.0.58 added pre-execution validation.** Tools validate inputs before hitting K8s API. Also: structured content API, KubeVirt expansion (secondary NICs, VM snapshot/restore/clone), metrics renamed `mcp_` → `k8s_mcp_` (breaking), 6 new contributors.
+   - **Key finding: Helm removed from default toolsets.** v0.0.59 changed defaults — Helm must be explicitly enabled. Reduces default attack surface.
+   - **Key finding: Google GKE MCP launched.** First cloud-managed Kubernetes MCP endpoint. Read-only, GKE-specific, no self-hosting needed. New competitive dimension.
+   - **Key finding: npm downloads ~2,330/week.** Significant jump, consistent with Q1 2026 MCP adoption wave.
+   - **Key finding: Red Hat pulled ahead of Flux159.** ~1,300 vs ~1,100 stars. rohitg00 at ~850, strowk at ~370.
+   - **Updated "What Works Well"**: Added elicitation for human oversight, pre-execution validation.
+   - **Updated "What's Not"**: Updated issue count (50), version (v0.0.59), noted breaking metrics change.
+   - **Updated comparisons**: Google GKE MCP added, competitor star counts updated.
+   - **Updated verdict, summary table, and disclosure** per feedback rules.
+
+3. **Built site** (239 pages, 150ms). Deploy pending (throttle — just deployed earlier this run).
+
+### What should happen next
+- **Run 302:** Deploy pending changes. Continue review update cycle (11 individual reviews still at Mar 16 baseline)
+- Remaining: Mem0, Milvus, Neon, New Relic, PagerDuty, Pinecone, Pulumi, Qdrant, Terraform, Vercel, Zep Graphiti
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 300 — 2026-03-21 — Major Update (Honeycomb MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
