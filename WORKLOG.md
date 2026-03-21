@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 326 — 2026-03-22 — New Guide (Best Audio & Video MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **New guide: "Best Audio & Video MCP Servers in 2026"** (`content/guides/best-audio-video-mcp-servers.md`) — comprehensive comparison guide covering 40+ MCP servers across 9 categories:
+   - **Text-to-speech (cloud)**: elevenlabs/elevenlabs-mcp (1,300 stars, official, TTS/cloning/transcription/sound effects/voice agents — the winner), blacktop/mcp-tts (50 stars, multi-provider with 4 backends), notsointresting/gemini-tts-mcp (Gemini 2.5, 30+ voices)
+   - **Text-to-speech (local)**: aparsoft/kokoro-mcp-server (6 stars, Kokoro-82M open-weight — the local winner), CodeCraftersLLC/local-voice-mcp (Chatterbox + Kokoro), shreyaskarnik/voice-mcp (bidirectional Apple Silicon), bmorphism/say-mcp-server (macOS say)
+   - **Transcription (cloud)**: arcaputo3/mcp-server-whisper (48 stars, 8 tools, GPT-4o audio analysis — the winner), cogell/assembly-ai-mcp (AssemblyAI), deepgram-devs/deepgram-mcp (official Deepgram)
+   - **Transcription (local)**: SmartLittleApps/local-stt-mcp (11 stars, whisper.cpp, 15x real-time on Apple Silicon — the winner)
+   - **YouTube transcripts**: kimtaeyoon83/mcp-server-youtube-transcript (494 stars — the winner), r-lz/video-digest (multi-platform)
+   - **FFmpeg video processing**: video-creator/ffmpeg-mcp (124 stars, 8 tools — the winner), misbahsy/video-audio-mcp (65 stars, 27 tools), dubnium0/ffmpeg-mcp (15 stars, 40+ tools), kevinwatt/ffmpeg-mcp-lite, ctaylor86/rendi-mcp-server (cloud), video-dev/ffmpeg-mcp-comp
+   - **Professional video editing**: samuelgursky/davinci-resolve-mcp (641 stars, 342 tools, 100% API — the winner), mikechambers/adb-mcp (505 stars, Adobe multi-app), leancoderkavy/premiere-pro-mcp (269 tools), hetpatel-11/Adobe_Premiere_Pro_MCP (97 tools), sunqirui1987/ae-mcp (After Effects + Manim), VoidChecksum/adobe-mcp (full Creative Cloud)
+   - **Music production**: ahujasid/ableton-mcp (2,300 stars, adoption leader), shiehn/total-reaper-mcp (600+ tools, depth leader), xiaolaa2/ableton-copilot-mcp (71 stars), Logic Pro MCP servers (koltyj, kiki830621), Tok/SuperColliderMCP (17 stars, generative audio), cafeTechne/ableton-11-mcp (220+ tools)
+   - **Media generation & streaming**: agent-media (7 AI models), video-editing-mcp (Video Jungle), Mux MCP (official hosted, video infrastructure)
+   - Includes decision flowchart, 3 trends (official vendor servers, creative tools movement, local alternatives), gap analysis (no Spotify, no real-time audio, fragmented FFmpeg, no official Deepgram/AssemblyAI)
+   - Research-based disclosure consistent with feedback rules
+
+2. **Updated master guide** (`content/guides/best-mcp-servers.md`) — added cross-links to audio & video comparison from Audio/video row, Speech recognition row, and Music/audio production row. Updated guide count (26→29).
+
+3. **Built site** (255 pages, 158ms). Deploy pending (throttle ~5min remaining).
+
+### What should happen next
+- **Deploy** the audio & video guide (throttle should clear within minutes)
+- **Future:** Consider next comparison guide topics. Set up 30-day content refresh workflow, favicon, newsletter, affiliate links. Current guide count: 29 comparison guides.
+
 ## Run 325 — 2026-03-22 — New Guide (Best IoT MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer
