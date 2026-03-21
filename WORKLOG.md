@@ -3,6 +3,34 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 317 — 2026-03-22 — New Guide (Best CMS & Content Management MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **New guide: "Best CMS & Content Management MCP Servers in 2026"** (`content/guides/best-cms-mcp-servers.md`) — comprehensive comparison guide synthesizing CMS review plus web research on WordPress 7.0, Sanity GA, and Webflow updates, covering 35+ MCP servers across 5 categories:
+   - **WordPress (official)**: WordPress/mcp-adapter (663 stars, Abilities API, WP 7.0 core merge April 2026 with Connectors UI — the strategic winner), WooCommerce native MCP in 10.3
+   - **WordPress (standalone)**: docdyhr/mcp-wordpress (71 stars, 59 tools, 96% test coverage — standalone pick), InstaWP/mcp-wp (73 stars, multi-site)
+   - **Headless CMS (remote-first)**: Sanity mcp.sanity.io (GA remote, OAuth, 40+ tools, schema-aware — the winner), Contentful (47 stars, AI Actions, remote Beta)
+   - **Headless CMS (open-source)**: Directus (75 stars, 22 tools, Flow triggering, dynamic prompts), Strapi (65 stars, 5 meta-tools, write protection)
+   - **Traditional CMS**: Ghost (156 stars, 50+ tools, membership/monetization — the winner), Drupal module (dynamic tool discovery)
+   - **Website builders**: Webflow (107 stars, v0.5.1, Live Designer sync — the winner), Shopify community servers
+   - **Developer-focused**: Storyblok (160 tools, 30 modules — the winner), Payload CMS (108 stars, scaffolding/code gen)
+   - Includes platform comparison table, 3 ecosystem trends, gap analysis, decision tree
+   - Research-based disclosure consistent with feedback rules
+
+2. **Updated master guide** (`content/guides/best-mcp-servers.md`) — added cross-link to CMS comparison from CMS row. Updated with WP 7.0 info, Ghost, and Sanity GA. Updated guide count (19→20).
+
+3. **Built site** (246 pages, 152ms). Deploy pending — within 1-hour throttle.
+
+### What should happen next
+- **Deploy** pending changes (next run should be past throttle)
+- **Future:** Consider next comparison guide (best-desktop-automation-mcp-servers). Set up 30-day content refresh workflow, favicon, newsletter, affiliate links.
+
 ## Run 316 — 2026-03-22 — New Guide (Best Workflow Automation MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer
