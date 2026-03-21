@@ -3,6 +3,33 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 303 — 2026-03-21 — Major Update (Milvus MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Major update: Milvus MCP Server review** (`content/reviews/milvus-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 3.5/5.**
+   - **Added "At a glance" stats line**: 222 GitHub stars (up from 220), 64 forks (up from 63), 35 commits, last commit Dec 24, 2025, v0.1.1.dev9 (PyPI), 12 tools, Python, Apache-2.0, ~6,934 PyPI downloads total, PulseMCP 40.4K all-time visitors. Milvus core: 43.4K stars (up from 40K+), 3.9K forks, v2.6.12 (Mar 13, 2026), 24,242 commits, 432 contributors.
+   - **Key finding: MCP server stagnating.** Still 35 commits, last merge Dec 24, 2025. Two open PRs unreviewed: #57 (Streamable HTTP support, Dec 26) and #58 (create_collection bug fix, Feb 27). Six open issues unchanged. No versioned releases.
+   - **Key finding: Milvus core advancing rapidly.** v2.6.12 (Mar 13, 2026) with replication topology inspection, TLS improvements. v2.6.10 fixed CVE-2026-26190. v2.6.9 added highlight scores. 2.6.x series brought spatial data, timezone-aware timestamps, INT8 vectors, JSON shredding (100x metadata filter speedup), expanded embedding functions.
+   - **Key finding: PyPI downloads growing.** ~6,934 total, recent daily spikes to 174 downloads. Adoption outpacing maintenance.
+   - **Key finding: TaiLabs Go alternative emerged.** [tailabs/mcp-milvus](https://github.com/tailabs/mcp-milvus) — 1 star, v0.1.0, 15 tools, session-aware connection management, Go implementation. Too early to recommend but signals demand.
+   - **Key finding: Zilliz Cloud MCP server has Streamable HTTP.** 32 stars, 16 tools, supports Streamable HTTP — the open-source MCP server does not.
+   - **Updated "What's Not"**: Strengthened stagnation language (PRs unreviewed, widening gap with core), updated Streamable HTTP section (PR exists but unmerged, Zilliz Cloud server has it).
+   - **Updated "The Bigger Picture"**: Milvus v2.6.12 progress, TaiLabs alternative, PyPI adoption data, maintenance pace warning.
+   - **Updated comparison table stars, verdict, and disclosure** per feedback rules.
+
+2. **Built site** (239 pages, 152ms). Deploy pending (throttle — deployed ~31 min ago).
+
+### What should happen next
+- **Run 304:** Deploy pending changes. Continue review update cycle (9 individual reviews still at Mar 16 baseline)
+- Remaining: Neon, New Relic, PagerDuty, Pinecone, Pulumi, Qdrant, Terraform, Vercel, Zep Graphiti
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 302 — 2026-03-21 — Deploy + Major Update (Mem0 MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
