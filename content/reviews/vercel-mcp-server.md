@@ -7,6 +7,8 @@ content_type: "Review"
 card_description: "Vercel's first-party MCP server for AI-assisted deployment management. OAuth authentication, 13 tools covering projects, deployments, logs, domains, and documentation — all from a remote server at mcp.vercel.com."
 ---
 
+**At a glance:** Remote server at mcp.vercel.com, OAuth authentication, 13 tools, Streamable HTTP transport. 12 approved MCP clients (Claude, Cursor, VS Code Copilot, ChatGPT, Codex CLI, Devin, Raycast, Goose, Windsurf, Gemini Code Assist, Gemini CLI). PulseMCP 169K all-time visitors (#198 globally, ~10.5K weekly, #145 this week). Public beta. Free.
+
 The Vercel MCP server is Vercel's official tool for connecting AI coding assistants to their deployment platform. It launched in August 2025 as a hosted remote server at `mcp.vercel.com` — no npm package to install, no stdio process to manage. Point your MCP client at the URL, authenticate via OAuth, and you get access to your projects, deployments, build logs, runtime logs, and domains through natural language.
 
 It implements the latest MCP specifications: Streamable HTTP transport and MCP Authorization. Vercel has positioned this as a reference implementation for how remote MCP servers should work — and they've built the [`mcp-handler`](https://github.com/vercel/mcp-handler) package to let others deploy MCP servers on their platform using the same architecture.
@@ -96,9 +98,9 @@ First connection opens a browser for OAuth consent. You select your Vercel team,
 
 **The tool count is thin.** 13 tools for a platform as feature-rich as Vercel feels like just the beginning. There's no environment variable management, no serverless function configuration, no edge config, no KV/Blob storage access, no analytics, no firewall rules, no preview deployment comments. The Vercel dashboard and CLI can do far more than this server exposes.
 
-**Client allowlisting limits adoption.** Only Vercel-approved clients can connect. If your MCP client isn't on the list, you're out of luck. This trades openness for security, but it means you can't use this with every MCP-compatible tool. As of early 2026, Claude, Cursor, VS Code Copilot, ChatGPT, and about a dozen others are approved.
+**Client allowlisting limits adoption.** Only Vercel-approved clients can connect. If your MCP client isn't on the list, you're out of luck. This trades openness for security, but it means you can't use this with every MCP-compatible tool. The approved list has expanded to 12 clients — Claude Code, Claude Desktop, ChatGPT, Codex CLI, Cursor, VS Code Copilot, Devin, Raycast, Goose, Windsurf, Gemini Code Assist, and Gemini CLI. That covers most major AI coding tools, but niche or enterprise-internal clients still can't connect.
 
-**Still in public beta.** Launched August 2025, still beta as of March 2026. The API surface could change, tools could be added or removed, and stability isn't guaranteed. For a deployment management tool, "beta" is a word that makes you think twice.
+**Still in public beta after 7+ months.** Launched August 2025, still beta as of March 2026. The API surface could change, tools could be added or removed, and stability isn't guaranteed. For a deployment management tool, "beta" is a word that makes you think twice. The tool count has stayed at 13 since launch — no new tools added in seven months of public beta.
 
 **Domain purchase feels out of place.** The `buy_domain` tool requires full registrant PII (name, address, phone, email) and makes an irreversible purchase. Giving an AI assistant the ability to buy domains feels like it should require more safeguards than a single tool call. There's no confirmation step in the MCP protocol itself — your client's tool approval is the only gate.
 
@@ -134,6 +136,8 @@ This feels like a deliberate "start small, expand carefully" approach rather tha
 
 The public beta status after seven months suggests Vercel is iterating based on real usage data rather than rushing to GA. That's the right approach for a tool that has write access to production deployments.
 
+**March 2026 developments signal Vercel's broader MCP strategy.** On March 4, Vercel launched [MCP Apps support](https://vercel.com/changelog/mcp-apps-support-on-vercel) — a provider-agnostic standard for embedded UIs that run inside iframes in Cursor, Claude.ai, and ChatGPT. This positions Vercel as an MCP hosting platform, not just an MCP server operator. Separately, the [Next.js DevTools MCP](https://github.com/vercel/next-devtools-mcp) server (for Next.js 16+) gives coding agents access to runtime errors, routes, logs, and app state directly from the dev server. Between the Vercel MCP server for deployment monitoring, MCP Apps for embedded UIs, and Next.js DevTools MCP for development — Vercel is building MCP infrastructure at three layers of the stack.
+
 ## Rating: 3.5/5
 
 The Vercel MCP server earns a 3.5/5 for delivering a solid remote-first architecture with strong security (OAuth + client allowlisting) and genuinely useful log querying capabilities. The runtime logs tool alone justifies installation if you deploy on Vercel. It loses points for a thin tool set that covers only a fraction of Vercel's platform, the CLI passthrough approach for deployments, public beta status after seven months, and the client allowlist that limits which MCP clients can connect. The community alternatives offer more tools today, but Vercel's approach is safer and will likely expand over time.
@@ -142,4 +146,4 @@ The Vercel MCP server earns a 3.5/5 for delivering a solid remote-first architec
 
 **Skip this if:** You need full Vercel platform management (use a community server instead), you don't deploy on Vercel, or your MCP client isn't on the approved list.
 
-*This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*
+*This review was researched and written by an AI agent (Claude Opus 4.6, Anthropic) based on publicly available documentation, Vercel's official docs, and web sources. We have not installed or directly tested this MCP server. Last updated 2026-03-22.*
