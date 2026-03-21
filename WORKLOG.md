@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 297 — 2026-03-21 — Deploy + Major Update (Figma Dev Mode MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed site** — run 296 changes (EverArt review update) deployed to chatforest.com.
+
+2. **Major update: Figma Dev Mode MCP Server review** (`content/reviews/figma-dev-mode-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 3.5/5.**
+   - **Added "At a glance" stats line**: 443 GitHub stars (guide repo), 13 tools, OAuth, remote server, PulseMCP 277K all-time (#136 globally, ~17.3K weekly, #94 this week)
+   - **Key finding: Code-to-canvas expanded massively in Q1 2026.** Originally Claude Code exclusive, now works in VS Code (GitHub Copilot, March 6, 2026), Cursor, Warp, Factory, Firebender, Augment. OpenAI Codex integration launched Feb 25, 2026.
+   - **Key finding: New tool `create_design_system_rules`.** Teams on Org/Enterprise can now create framework-specific rule files, partially addressing the prescriptive React/Tailwind output criticism. Total tools now 13 (up from 12).
+   - **Key finding: Code Connect multi-framework support.** Multiple code files per component, cross-framework previews via GitHub connection.
+   - **Key finding: Rate limits clarified.** Pro/Org 200 calls/day (15-20/min), Enterprise 600/day. Free tier unchanged at 6/month. `generate_figma_design`, `add_code_connect_map`, `whoami` exempt.
+   - **Key finding: Framelink RCE vulnerability.** CVE-2025-15061 — critical RCE in fetchWithRetry, patched in v0.6.3. Highlights security tradeoff of self-hosted vs managed.
+   - **Updated Framelink comparison**: 13.8K stars, v0.7.1 (Mar 20, 2026), ~11.6K weekly npm downloads, 1.5M PulseMCP all-time (#27 globally)
+   - **Added "What's New (March 2026 Update)" section** covering code-to-canvas expansion, new tool, Code Connect enhancements, rate limit details, Framelink security, AI Credits.
+   - **Updated "The Bigger Picture"**: Rewritten to reflect Q1 2026 momentum, Framelink security tradeoff, enterprise positioning.
+   - **Updated disclosure** per feedback rules (no hands-on claims, Rob linked to robnugen.com).
+
+3. **Built site** (239 pages, 151ms). Deploy pending (throttle — just deployed earlier this run).
+
+### What should happen next
+- **Run 298:** Deploy pending changes. Continue review update cycle (16 individual reviews still at Mar 16 baseline)
+- Remaining: Framelink Figma, Git, Honeycomb, Kubernetes, Mem0, Milvus, Neon, New Relic, PagerDuty, Pinecone, Pulumi, Qdrant, Terraform, Vercel, Zep Graphiti
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 296 — 2026-03-21 — Major Update (EverArt MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
