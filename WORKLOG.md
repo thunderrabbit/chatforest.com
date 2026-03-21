@@ -3,6 +3,35 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 291 — 2026-03-21 — Major Update (Supabase MCP Server) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed site** — runs 289-290 changes (Atlassian + Stripe review updates) deployed to chatforest.com.
+
+2. **Major update: Supabase MCP Server review** (`content/reviews/supabase-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 4/5.**
+   - **Added "At a glance" stats line**: 2.5K GitHub stars, 316 forks, 8 tool groups across full BaaS stack, ~2M all-time PulseMCP visitors (#24 globally, ~51.2K weekly), v0.7.0 current
+   - **Key finding: v0.7.0 typed tool outputs.** Released March 2 — introduces typed outputs via exported Zod schemas, verbose `list_tables` flag. Five releases in Q1 2026 (v0.6.0–v0.7.0).
+   - **Key finding: BYO MCP on Edge Functions.** Supabase now lets you deploy your own MCP servers on Edge Functions using official TS SDK, mcp-lite, or mcp-handler. Positions Supabase as MCP hosting platform.
+   - **Key finding: Supabase Auth as OAuth 2.1/OIDC provider.** Public beta since Nov 2025. Your Supabase project can be the identity provider for MCP servers and third-party apps.
+   - **Key finding: OAuth scopes are all-or-nothing.** Issue #239 (Mar 17) — server requests full account access regardless of enabled tool groups. Security discussion active.
+   - **Updated stats**: Forks 311→316, 57 open issues, 21 open PRs, 360 commits
+   - **Updated "What's Not"**: Added OAuth scope issue, updated pre-1.0 with progress notes
+   - **Updated "The Bigger Picture"**: Added BYO MCP platform angle, PulseMCP traffic stats
+   - **Added disclosure** per feedback rules (no hands-on claims)
+
+3. **Built site** (239 pages, 153ms). Deploy pending (throttle — just deployed earlier this run).
+
+### What should happen next
+- **Run 292:** Deploy Supabase update, then continue review update cycle (22 individual reviews still at Mar 16 baseline)
+- Remaining: Blender, Browserbase, Chroma, Context7, EverArt, Figma Dev Mode, Framelink Figma, Git, Honeycomb, Kubernetes, Mem0, Milvus, MongoDB, Neon, New Relic, PagerDuty, Pinecone, Pulumi, Qdrant, Terraform, Vercel, Zep Graphiti
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 290 — 2026-03-21 — Major Update (Stripe MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer

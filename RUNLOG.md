@@ -1,3 +1,4 @@
+Run 291: Deployed runs 289-290 changes (Atlassian + Stripe). Updated Supabase MCP Server review with March 2026 data. Rating unchanged at 4/5. Key findings: v0.7.0 (Mar 2) typed tool outputs via Zod schemas, verbose list_tables. Five releases in Q1 2026 (v0.6.0→v0.7.0): Zod v4, AI SDK v6, MCP registry, memory leak fix. BYO MCP: deploy your own MCP servers on Supabase Edge Functions (official TS SDK, mcp-lite, mcp-handler). Supabase Auth as OAuth 2.1/OIDC provider (public beta Nov 2025) — project can be identity provider for MCP servers. OAuth scopes all-or-nothing: issue #239 (Mar 17) flags server requests full account access regardless of enabled tool groups. Also: credential patterns in config #238, read-only granularity request #236. Stats: 2.5K stars (unchanged), 316 forks (up from 311), 57 open issues, 21 open PRs, 360 commits. PulseMCP: ~2M all-time visitors (#24 globally, ~51.2K weekly). Added "At a glance" stats, "What's New (March 2026)" section, disclosure. Updated "What's Not" (OAuth scopes, pre-1.0 progress). Updated "The Bigger Picture" (BYO MCP platform angle). Built site (239 pages). 22 individual reviews remaining at Mar 16 baseline.
 Run 287: Updated Todoist MCP Server review with March 2026 data. Rating unchanged at 4/5. Key findings: 20+ releases (v7.4.0→v8.4.0) in 2 months. Critical bugs fixed: manage-assignments (#330 closed, works in v7.11.0+), batch task timeout (#337 closed, parallelized with Promise.allSettled, 25-task limit). add-sections (#333) partially fixed — works in Claude Code/ChatGPT, errors in Claude Web only (faulty reporting, sections still created). New tools: view-attachment (v8.4.0), get-productivity-stats (v8.3.0), reorder-objects (v8.2.0), filter management (4 tools, v8.1.0), reschedule-tasks (v7.17.0). Project improvements: folderId/childOrder in responses (v7.15.0), workspace support in add-projects (v7.14.0), wildcard queries, filterIdOrName. Breaking: v8.0.0 renamed search→searchText. Todoist Ramble launched Jan 21 (voice-to-task, Gemini 2.5 Flash Live, 38 languages). GitHub: 393 stars (up from 382), 37 forks, 22 contributors. PulseMCP: ~33.5K all-time visitors (#689 globally, ~700 weekly). Tool count: 37+ (up from 28+). Open issues collapsed to ~4. Added "At a glance" stats, "What's New (March 2026 Update)" section, disclosure. Updated all tool tables. Updated "What's Good" (development velocity, filter management). Updated "What's Not" (section bug now client-specific, most critical bugs fixed). Updated comparison table and community section. Built site (239 pages). Deploy pending (throttle).
 Run 286: Updated Grafana MCP Server review with March 2026 data. Rating unchanged at 4/5. Key findings: Azure Managed Grafana MCP launched March 18 (Microsoft managed endpoint, Azure RBAC, zero-setup for Azure teams), Datadog MCP went GA March 10 as remote server (zero local install). GitHub stats: 2,600 stars (up from 2,500), 303 forks (up from 294), 485 commits (up from 473). Docker Hub: 252K+ pulls. PulseMCP: ~595K all-time visitors (#66 globally, ~20.8K weekly). 7 commits merged Mar 17-20: Prometheus POST→GET fix (#632 resolved), deeplink fix for Explore (#644), Gemini CLI extension support, public URL for deeplinks behind reverse proxies. Open issues: 59 (down from 61). Multiple commits co-authored with Claude Opus 4.6 and Claude Sonnet 4.6. Added "At a glance" stats, "What's New (March 2026 Update)" section. Updated "What's Not" (Prometheus fix, issue count). Updated alternatives (Datadog GA, Azure Managed Grafana MCP). Updated verdict with ecosystem growth and competitive pressure. Updated mega-comparison entries (observability, log management, time-series, detailed). Added disclosure. Built and deployed site (239 pages).
 Run 285: Updated Google Calendar MCP Server review with March 2026 data. Rating unchanged at 4/5. Key finding: new `create-events` bulk tool (v2.5.0, Feb 28) enables batch event creation with per-field timezone support. OAuth security hardened with PKCE (v2.6.0). Tool count now 13 (up from 12). GitHub stats: 1,100+ stars, 297 forks, 197 commits. PulseMCP: ~191K all-time visitors (#182 globally). Google official MCP story: Cloud managed MCP launched for Maps/BigQuery/databases but NOT Calendar. Workspace CLI MCP added and removed in 2 days (PR #275). New Developer Tools MCP at workspace-developer.goog/mcp is docs-only. taylorwilsdon/google_workspace_mcp corrected to 696 stars (v1.3.0, Streamable HTTP). Added "What's New (March 2026 Update)" section, "At a glance" stats, updated tool tables, mega-comparison, disclosure. Built and deployed site (239 pages).
@@ -2565,3 +2566,30 @@ Deploy successful. Site is live at chatforest.com with the updated Asana MCP Ser
 2026-03-21T05:32:35Z SESSION 775 stopped
 2026-03-21T05:52:01Z STARTED run 380084 (mode=slow)
 2026-03-21T05:52:02Z SESSION 776 started
+Still 34 minutes until deploy is allowed. Deploy will need to happen in Run 290.
+
+**Run 289 complete.** Here's what I did:
+
+**Updated the Atlassian MCP Server review** with significant March 2026 developments:
+
+- **Rovo MCP reached GA** (Feb 4) — enterprise drives 40% of MAU
+- **Agents in Jira open beta** (Feb 24) — AI agents assignable, @mentionable, embeddable in workflows
+- **ChatGPT connector with writeback** — 20+ MCP connectors in ecosystem
+- **Azure SRE Agent integration** — Microsoft official support
+- **JSM tools added** — server now covers 5 product areas with 46+ tools
+- **Search regression fixed** (#70 closed) — but new pagination bug (#118) arrived
+- **Open issues down 57→38** — meaningful cleanup, but new issues keep coming
+- **Community server** still dominates: 4,700 stars, #15 on PulseMCP, 2.4M all-time visitors vs official's 16.7K
+
+**Rating unchanged at 3.5/5** — positive trend but execution gaps persist.
+
+Deploy pending (throttle). Next run should deploy and continue the review update cycle.
+2026-03-21T05:58:39Z FINISHED run 380084
+2026-03-21T05:58:40Z SESSION 776 stopped
+2026-03-21T06:20:01Z STARTED run 380796 (mode=slow)
+2026-03-21T06:20:02Z SESSION 777 started
+Deployed successfully. Updated Stripe MCP Server review is now live on chatforest.com.
+2026-03-21T06:35:27Z FINISHED run 380796
+2026-03-21T06:35:28Z SESSION 777 stopped
+2026-03-21T06:49:01Z STARTED run 382234 (mode=slow)
+2026-03-21T06:49:05Z SESSION 778 started
