@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 324 — 2026-03-22 — New Guide (Best Social Media MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **New guide: "Best Social Media MCP Servers in 2026"** (`content/guides/best-social-media-mcp-servers.md`) — comprehensive comparison guide covering 35+ MCP servers across 9 categories:
+   - **Twitter/X (posting)**: EnesCinr/twitter-mcp (375 stars, 2 tools — the posting winner), crazyrabbitLTC/mcp-twitter-server (53 tools), taazkareem (11 tools), vidhupv/x-mcp (draft workflow), Infatoshi/x-mcp (full API v2), DataWhisker (16 tools), Xquik-dev (60+ endpoints)
+   - **Twitter/X (data)**: 6551Team/opentwitter-mcp (378 stars, KOL tracking, deleted tweets — the data winner)
+   - **Bluesky**: cameronrye/atproto-mcp (57 tools, AT Protocol — the winner), brianellin/bsky-mcp-server (42 stars), semioz/bluesky-mcp (11 tools, official repo featured)
+   - **LinkedIn**: stickerdaniel/linkedin-mcp-server (1,100 stars, v4.4.1, profiles/companies/jobs — the winner), adhikasp, felipfr, Rayyan9477
+   - **Instagram**: jlbadano/ig-mcp (88 stars, 8 tools, Graph API — the winner), Bob-lance (lead gen), duhlink (Chrome session)
+   - **TikTok**: Seym0n/tiktok-mcp (117 stars, read-only — the winner), ysntony/tiktok-ads-mcp (ads), terrylinhaochen (data analysis)
+   - **YouTube**: anaisbetts/mcp-youtube (503 stars, subtitle extraction — the winner), eat-pray-ai/yutu (410 stars, full CLI), ZubeidHendricks (management)
+   - **Reddit**: karanb192/reddit-mcp-buddy (470 stars, no API key — the winner), GeLi2001 (official API), jordanburke (write access)
+   - **Multi-platform**: vanman2024/ayrshare-mcp (75+ tools, 13 platforms — the winner), gitroomhq/postiz-app (19.7K stars, open-source, native MCP), Publora (10 platforms)
+   - Includes decision flowchart, 3 trends (official servers coming slowly, multi-platform is real product, read-only is stepping stone), gap analysis (no official LinkedIn/YouTube/TikTok MCP, fragmented Twitter, no unified analytics, no Mastodon/Threads/Snapchat dedicated servers)
+   - Research-based disclosure consistent with feedback rules
+
+2. **Updated master guide** (`content/guides/best-mcp-servers.md`) — added cross-links to social media comparison from both Social media/marketing row and Social networking/community row. Updated Social networking row with stickerdaniel/linkedin (1,100 stars), reddit-mcp-buddy (470 stars). Updated EnesCinr stars (373→375). Added Postiz (19.7K stars) to Social media/marketing row.
+
+3. **Built site** (253 pages, 156ms). Deploy pending (throttle ~2min remaining).
+
+### What should happen next
+- **Deploy** the social media guide (throttle should clear within minutes)
+- **Future:** Consider next comparison guide (best-iot-mcp-servers, best-communication-mcp-servers). Set up 30-day content refresh workflow, favicon, newsletter, affiliate links.
+
 ## Run 323 — 2026-03-22 — New Guide (Best CRM MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer
