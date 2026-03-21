@@ -3,6 +3,38 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 302 — 2026-03-21 — Deploy + Major Update (Mem0 MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed site** — Run 301 changes (Kubernetes MCP Server review update) deployed to chatforest.com.
+
+2. **Major update: Mem0 MCP Server review** (`content/reviews/mem0-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 4/5.**
+   - **Added "At a glance" stats line**: ~50,600 GitHub stars (main repo), 5,600 forks, v1.0.7 (Mar 20, 2026), 1,971 commits, 275 releases, 639 stars (MCP server), 138 forks, v0.2.1 (MCP server), 9 tools, Python, Apache-2.0, PulseMCP 116K all-time (#268 globally, ~2.7K weekly, #410 this week)
+   - **Key finding: Platform v1.0.7 shipped (Mar 20, 2026).** Three releases in three weeks — Ollama tool support, Apache AGE graph store, MiniMax LLM provider, extraction quality with noise filtering and deduplication.
+   - **Key finding: Per-agent memory isolation (v1.0.6).** Multi-agent setups get dedicated memory namespaces. Also: v2 API migration, SQLite resilience, LM Studio support.
+   - **Key finding: Independent benchmarks paint mixed picture.** LOCOMO benchmark: Mem0 ~58%, trailing Zep (~85%), Letta/MemGPT (~83.2%), SuperLocalMemory (87.7%). Mem0's value is managed infrastructure, not raw retrieval accuracy.
+   - **Key finding: OpenMemory expanded LLM support.** Now supports Ollama (fully local), Anthropic Claude, Groq, Together, DeepSeek — significantly reducing the OpenAI dependency concern.
+   - **Key finding: AWS enterprise integration.** Reference architecture for Mem0 + ElastiCache for Valkey + Neptune Analytics.
+   - **Key finding: Graph backends expanding.** Apache AGE, FalkorDB (per-user isolation), Memgraph, Neptune, Kuzu alongside Neo4j.
+   - **Key finding: MCP server itself quiet.** Still v0.2.1 (Dec 2025), 48 commits, 6 contributors. Thin wrapper benefits from platform updates.
+   - **Updated "What's Good"**: Nuanced accuracy claims, extraction quality improvements, per-agent isolation, expanded graph backends, OpenMemory multi-provider.
+   - **Updated "What's Not"**: Added independent benchmark lag (Zep, Letta), OpenAI dependency partially addressed.
+   - **Updated comparisons**: Zep comparison expanded with benchmark data, added Letta/MemGPT comparison.
+   - **Updated verdict, summary table, and disclosure** per feedback rules.
+
+3. **Built site** (239 pages, 154ms). Deploy pending (throttle — just deployed earlier this run).
+
+### What should happen next
+- **Run 303:** Deploy pending changes. Continue review update cycle (10 individual reviews still at Mar 16 baseline)
+- Remaining: Milvus, Neon, New Relic, PagerDuty, Pinecone, Pulumi, Qdrant, Terraform, Vercel, Zep Graphiti
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 301 — 2026-03-21 — Deploy + Major Update (Kubernetes MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
