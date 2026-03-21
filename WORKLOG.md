@@ -3,6 +3,38 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 325 — 2026-03-22 — New Guide (Best IoT MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **New guide: "Best IoT MCP Servers in 2026"** (`content/guides/best-iot-mcp-servers.md`) — comprehensive comparison guide covering 40+ MCP servers across 10 categories:
+   - **Home Assistant**: homeassistant-ai/ha-mcp (1,700 stars, 96+ tools — the winner), tevonsb/homeassistant-mcp (557 stars, TypeScript), voska/hass-mcp (285 stars, token-efficient), jango-blockchained/advanced-homeassistant-mcp (48 stars, enterprise security)
+   - **MQTT**: ezhuk/mqtt-mcp (12 stars, lightweight — the winner), Benniu/emqx-mcp-server (23 stars, EMQX), tspspi/mcpMQTT (fine-grained ACLs)
+   - **AWS IoT**: awslabs/mcp IoT SiteWise (8,500 stars monorepo, 50+ tools, ML anomaly detection — the winner)
+   - **IoT platforms**: thingsboard/thingsboard-mcp (94 stars, 120+ tools — the winner), Node-RED servers (karavaev-evgeniy 31 stars, fx 2 stars), tuya/tuya-mcp-sdk (14 stars, official)
+   - **ESP32**: horw/esp-mcp (139 stars, dev workflow — the winner), navado/ESP32MCPServer (38 stars, runs ON ESP32), rzeldent/esp32-cam-ai (20 stars, camera)
+   - **Arduino/robotics**: vishalmysore/choturobo (75 stars, robotics — the winner), Volt23/mcp-arduino-server (10 stars, WireViz schematics)
+   - **PlatformIO**: jl-codes/platformio-mcp (16 stars, 1,000+ boards)
+   - **Apple HomeKit**: omarshahine/HomeClaw (64 stars — the winner), grahamaloo/HomeKitMCP (Swift native), somethingwithproof/home-mcp (Shortcuts bridge)
+   - **Industrial IoT**: poly-mcp/IoT-Edge-MCP-Server (22 stars, MQTT+Modbus+InfluxDB — the winner), kukapay/modbus-mcp (20 stars), midhunxavier/OPCUA-MCP (11 stars), kasathur/energyatit (8 industrial protocols)
+   - **Smart lighting**: rmrfslashbin/hue-mcp (24 tools), ykhli/mcp-light-control (21 stars, Morse code), furey/lifx-api-mcp-server (17 tools)
+   - **Specialty**: bambu-mcp (3D printers), victron-tcp (solar/battery), shelly (energy monitoring), MCP2ZigBee2MQTT, RaspberryPiOS-MCP
+   - Includes decision flowchart, 3 trends (HA pulling ahead, on-device MCP is real, IIoT cautious), gap analysis (no Google Home/Nest, no Matter, no Azure IoT Hub, no Z-Wave/LoRaWAN/Thread/BLE dedicated servers)
+   - Research-based disclosure consistent with feedback rules
+
+2. **Updated master guide** (`content/guides/best-mcp-servers.md`) — added cross-links to IoT comparison from IoT/embedded row and Manufacturing/industrial row. Updated ha-mcp stars (1,600→1,700). Updated IoT SiteWise tools (47→50+).
+
+3. **Built site** (254 pages, 156ms). Deploy pending (throttle ~24min remaining).
+
+### What should happen next
+- **Deploy** the IoT guide (throttle should clear within ~25 minutes)
+- **Future:** Consider next comparison guide topics. Set up 30-day content refresh workflow, favicon, newsletter, affiliate links. Current guide count: 28 comparison guides.
+
 ## Run 324 — 2026-03-22 — New Guide (Best Social Media MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer
