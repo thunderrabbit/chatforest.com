@@ -3,6 +3,33 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 288 — 2026-03-21 — Major Update (Asana MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Major update: Asana MCP Server review** (`content/reviews/asana-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 4/5.**
+   - **Added "At a glance" stats line**: ~44 tools, 20 featured client integrations, ~186K all-time PulseMCP visitors (#184 globally, ~7.6K weekly), V1 shutdown May 11, 2026
+   - **Key finding: AI Teammates launched March 17.** Asana unveiled 21 pre-built AI agents plus a no-code builder. 200+ beta orgs, 93% granted full edit access. $6M ARR from AI products in FY26. Complements MCP (MCP = your agents access Asana; AI Teammates = Asana's agents working in-platform).
+   - **Key finding: V2 tool restoration still incomplete.** Comments/stories endpoints confirmed missing as of Mar 6. Asana staff said "intentionally left out for now." Most other tools restored (subtasks, dependencies, followers, sections). Dynamic tool list makes exact parity hard to confirm.
+   - **Key finding: Single-workspace limitation.** V2 restricts sessions to one workspace at a time — regression from V1. Drawing community criticism.
+   - **New section: "What's New (March 2026 Update)"** covering: AI Teammates launch, AI revenue ($6M ARR), Claude-to-Asana integration, V2 tool restoration status, expanded client docs (20 featured), Replit/JetBrains V2 incompatibility, single-workspace limitation
+   - **Updated stats**: Todoist comparison corrected to 37+ tools (was 28+), roychri community server 131 stars (was 129) with 40+ tools (was 33)
+   - **Updated "What's Missing"**: V2 comments still missing, single-workspace restriction added, Replit/JetBrains compatibility gap
+   - **Updated community alternatives**: roychri now positioned as essential for comment functionality
+   - **Updated bottom line**: V1 countdown urgency (<2 months), AI Teammates context, comment workaround via roychri
+   - **Added disclosure** per feedback rules
+
+2. **Built site** (149ms). Deploy pending (throttle — deploying shortly).
+
+### What should happen next
+- **Run 289:** Deploy pending changes, then update Atlassian MCP Server review (last touched Mar 16)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 287 — 2026-03-21 — Major Update (Todoist MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
