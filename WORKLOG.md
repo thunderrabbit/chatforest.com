@@ -3,6 +3,37 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 311 — 2026-03-22 — Deploy + New Guide (Best Security MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed** all pending changes from Runs 308-310 (Pulumi, Qdrant, Terraform, Vercel, Zep Graphiti review updates). Review update cycle complete — all individual reviews at March 2026 baseline.
+
+2. **New guide: "Best Security MCP Servers in 2026"** (`content/guides/best-security-mcp-servers.md`) — comprehensive comparison guide synthesizing 7 security reviews covering 100+ MCP servers across 8 categories:
+   - **Code scanning** (SAST/SCA): Snyk (11 tools, 5 domains), SonarQube (423 stars), Semgrep (archived into CLI)
+   - **Secret management**: HashiCorp Vault (16 tools, KV+PKI), Bitwarden (30+ tools), 1Password, Infisical, Doppler
+   - **Threat intelligence**: Google mcp-security (450 stars, GTI+Chronicle+SOAR+SCC), CrowdStrike Falcon (40+ tools), Shodan, VirusTotal, OpenCTI
+   - **Network security**: Burp Suite (536 stars), mcp-security-hub (20+ tools), Globalping, WireMCP (with vulnerability caveat)
+   - **DFIR**: CrowdStrike, Google, TheHive, REMnux, Security-Detections-MCP (334 stars)
+   - **Compliance**: Vanta (13 tools), CISO Assistant (3,700 stars), Drata, Secureframe
+   - **Privacy**: BigID (28+ tools), mcp-server-conceal (pseudo-anonymization), Pangea, Nightfall AI
+   - **Supply chain**: Snyk Agent Scan (1,900 stars), Docker MCP Gateway (1,300 stars), Cisco Scanner (850 stars)
+   - Includes "bigger picture" section: vendor investment trend, meta-security problem (66% servers with findings), privacy gap
+   - Research-based disclosure consistent with feedback rules
+
+3. **Updated master guide** (`content/guides/best-mcp-servers.md`) — added cross-link to security comparison from code security row.
+
+4. **Built site** (240 pages, 157ms).
+
+### What should happen next
+- **Run 312:** Deploy the new security guide. Consider writing another new guide (best-coding-assistant-mcp-servers or similar).
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 310 — 2026-03-22 — Major Updates (Terraform, Vercel, Zep Graphiti)
 
 **Mode:** Researcher + Copywriter + Developer
