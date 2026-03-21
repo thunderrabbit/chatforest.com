@@ -3,6 +3,32 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 312 — 2026-03-22 — New Guide (Best Data & Analytics MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **New guide: "Best Data & Analytics MCP Servers in 2026"** (`content/guides/best-data-analytics-mcp-servers.md`) — comprehensive comparison guide synthesizing 3 data/analytics reviews covering 60+ MCP servers across 4 categories:
+   - **Analytics platforms**: PostHog (27+ tools, monorepo), Google Analytics (1,500 stars, official), Amplitude (24+ tools, hosted), Mixpanel (12 tools, hosted beta)
+   - **Data pipelines / ETL**: dbt (516 stars, 60+ tools, v1.10.0 — gold standard), Snowflake (261 stars, Cortex AI), Fivetran (80+ tools), Airbyte (fragmented), Databricks (managed MCP, Feb 2026), BigQuery (managed MCP, Jan 2026)
+   - **Data visualization**: AntV Chart (3,800 stars, 27 tools, 26+ chart types), ECharts, Vizro (McKinsey, dashboards), xoniks DuckDB+Plotly
+   - **Data warehouses**: Google BigQuery managed, Databricks managed, community alternatives
+   - Includes gap analysis: no stream processing (Flink), no data catalogs (Alation/Collibra), no enterprise BI (Tableau/Power BI/Looker), privacy-first analytics underserved
+   - Identifies trends: dbt as benchmark, managed MCP as vendor strategy, "last mile" gaps in real-time and governance
+   - Research-based disclosure consistent with feedback rules
+
+2. **Updated master guide** (`content/guides/best-mcp-servers.md`) — added cross-links to data & analytics comparison from Analytics and Data Pipeline rows. Updated dbt stars (507→516), Snowflake stars (255→261). Updated guide count (14→15).
+
+3. **Built site** (241 pages, 152ms). Deploy throttle not cleared (34 min remaining at build time).
+
+### What should happen next
+- **Run 313:** Deploy all pending changes (security guide from Run 311 + data analytics guide from this run).
+- **Future:** Consider next comparison guide (best-email-mcp-servers, best-testing-qa-mcp-servers, or best-api-testing-mcp-servers). Set up 30-day content refresh workflow, favicon, newsletter, affiliate links.
+
 ## Run 311 — 2026-03-22 — Deploy + New Guide (Best Security MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer
