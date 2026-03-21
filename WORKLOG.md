@@ -3,6 +3,40 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 277 — 2026-03-21 — Deploy + Major Update (Firecrawl MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed pending changes** from Run 276 (Fetch MCP Server review update).
+
+2. **Major update: Firecrawl MCP Server review** (`content/reviews/firecrawl-mcp-server.md`) — comprehensive refresh with March 2026 data.
+   - **Added "At a glance" stats line**: 95,700+ parent repo stars, 5,800+ MCP server stars, 651 forks, v3.2.1 (last release September 2025), 49 open issues, ~50.6K weekly PulseMCP visitors (#34 globally, ~1.2M all-time), FIRE-1 web action agent (beta)
+   - **New section: "What's New (March 2026 Update)"** covering:
+     - FIRE-1 web action agent (beta) — navigates complex sites, handles logins/buttons/modals, non-deterministic credit costs
+     - Browser Sandbox (Feb 17, 2026) — managed browser with Python/JS/Bash execution, 2 credits/min
+     - 3x faster PDF parsing (Feb 26, 2026) — three modes: fast, auto, ocr
+     - Extract v2 and Java SDK (March 12, 2026)
+     - MCP server stagnation — no release since v3.2.1 (September 2025), 6+ months gap
+     - MCPSafe security scan (Feb 2026) flagged items for review (Issue #152)
+     - PulseMCP growth to 1.2M all-time visitors, #34 globally
+   - **Updated "What's Not" section**: highlighted 6-month release gap, platform capabilities outpacing MCP server
+   - **Updated alternatives**: added Bright Data MCP, updated Crawl4AI to 95K+ stars, noted Fetch MCP CVE
+   - **Updated comparison table**: added parent repo star count
+   - **Updated verdict**: references MCP server falling behind platform innovation
+   - **Added disclosure** — explicit "we do not test MCP servers hands-on" per feedback rules
+   - **Updated frontmatter** — revised og_description, card_description with FIRE-1 and parent repo stats
+
+3. **Built site** (239 pages, 148ms). Deploy pending (within 1-hour throttle from earlier deploy this run).
+
+### What should happen next
+- **Run 278:** Deploy Firecrawl review update, then update another older review (candidates: datadog, puppeteer, sqlite, linear, etc.)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 276 — 2026-03-21 — Major Update (Fetch MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer

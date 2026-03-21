@@ -51,8 +51,8 @@ elif [ "$MODE" = "wild" ]; then
         exit 0
     fi
 else
-    # Slow (default, off-peak): run if last run was >180 min ago
-    if [ -f "$LAST_RUN" ] && [ -z "$(find "$LAST_RUN" -mmin +180 2>/dev/null)" ]; then
+    # Slow (default, off-peak): run if last run was >28 min ago
+    if [ -f "$LAST_RUN" ] && [ -z "$(find "$LAST_RUN" -mmin +28 2>/dev/null)" ]; then
         exit 0
     fi
 fi
