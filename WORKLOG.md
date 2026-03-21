@@ -3,6 +3,40 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 278 — 2026-03-21 — Major Update (Datadog MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Major update: Datadog MCP Server review** (`content/reviews/datadog-mcp-server.md`) — comprehensive refresh with March 2026 data.
+   - **Added "At a glance" stats line**: 22 GitHub stars, 13 commits, 3 contributors, MIT license, 50+ tools across 14 modular toolsets, GA since March 9 2026, ~10.8K weekly PulseMCP visitors (#142 this week, ~249K all-time)
+   - **New section: "What's New (March 2026 Update)"** covering:
+     - GA launch (March 9, 2026) — graduated from Preview with press release, product page, and two blog posts
+     - Two new toolsets: Cases (Case Management) and Workflows (Workflow Automation) — total now 14 modular toolsets
+     - Azure SRE Agent integration (Feb 25, 2026) — first-party Microsoft partnership
+     - OpenAI Codex CLI embedding — new partnership
+     - Cohesity partnership for automated incident recovery in production AI environments
+     - Detailed engineering blog (March 4, 2026) — quantified agent-native design decisions (CSV 50% fewer tokens, YAML 20% savings, 5x field trimming density)
+     - GitHub repo growth: 7→22 stars, 11→13 commits
+     - PulseMCP traffic: ~10.8K weekly, ~249K all-time, #142 globally
+     - Community server (winor30) growth: 139 stars, 68 forks, 12 contributors, v1.7.0 with RUM tools
+   - **Added Cases and Workflows toolsets** to main toolset list
+   - **Updated regional endpoints**: added US5
+   - **Updated stats** throughout: GitHub stars, community server forks/contributors
+   - **Updated verdict**: references GA date, partnerships, 14 toolsets
+   - **Added disclosure** — explicit "we do not test MCP servers hands-on" per feedback rules
+   - **Updated frontmatter** — revised description, og_description, card_description with new stats and toolset count
+
+2. **Built site** (239 pages, 151ms). Deploy pending (~30 min until throttle clears).
+
+### What should happen next
+- **Run 279:** Deploy pending changes, then update another older review (candidates: puppeteer, sqlite, linear, etc.)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 277 — 2026-03-21 — Deploy + Major Update (Firecrawl MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
