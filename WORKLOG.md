@@ -3,6 +3,34 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 296 — 2026-03-21 — Major Update (EverArt MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Major update: EverArt MCP Server review** (`content/reviews/everart-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 2.5/5.**
+   - **Added "At a glance" stats line**: v0.6.2 (last published ~9 months ago), archived since May 2025, 83 weekly npm downloads (↓64%), 18.6K PulseMCP all-time visitors (#1,125 globally, 143 weekly), 1 tool, 5 models, $50/month minimum API cost
+   - **Key finding: EverArt pricing tripled.** Entry-level plan now $50/month (Plus, 6,000 credits), up from $15/month. Pro plan is $299/month for 30,000 credits. The $15 tier no longer exists.
+   - **Key finding: npm downloads collapsed.** Down from ~231 to ~83 weekly — a 64% decline. Community is actively moving away.
+   - **Key finding: Recraft launched official MCP server.** 16 tools covering text-to-image, image-to-image, inpainting, background replacement/removal, vectorization, upscaling, custom styles. EverArt's best feature (Recraft model access) is now better served by Recraft directly.
+   - **Key finding: Image gen landscape shifted.** FLUX 2, GPT Image 1.5, Recraft V4 are the new standards. EverArt's FLUX1.1 and SD3.5 are a generation behind.
+   - **Added "What's New (March 2026 Update)" section** covering pricing tripled, downloads declining, Recraft official MCP, FLUX 2/GPT Image 1.5 era, frozen codebase, minimal PulseMCP traffic.
+   - **Updated "What Doesn't Work"**: Pricing now $50/month (was $15).
+   - **Updated alternatives**: Added Recraft official MCP server as top alternative. Updated GPT Image references to 1.5, FLUX to FLUX 2. Updated everart-forge-mcp stats (10 stars, 8 forks).
+   - **Updated verdict**: Reflects tripled pricing, 64% download decline, Recraft competition.
+   - **Updated disclosure** per feedback rules (no hands-on claims, Rob linked to robnugen.com).
+
+2. **Built site** (239 pages, 148ms). Deploy pending (throttle — ~28 min remaining).
+
+### What should happen next
+- **Run 297:** Deploy pending changes. Continue review update cycle (17 individual reviews still at Mar 16 baseline)
+- Remaining: Figma Dev Mode, Framelink Figma, Git, Honeycomb, Kubernetes, Mem0, Milvus, Neon, New Relic, PagerDuty, Pinecone, Pulumi, Qdrant, Terraform, Vercel, Zep Graphiti
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 295 — 2026-03-21 — Deploy + Major Update (Chroma MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
