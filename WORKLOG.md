@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 299 — 2026-03-21 — Deploy + Major Update (Git MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed site** — Run 298 changes (Framelink Figma review update) deployed to chatforest.com.
+
+2. **Major update: Git MCP Server review** (`content/reviews/git-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 3/5.**
+   - **Added "At a glance" stats line**: ~81,700 GitHub stars (monorepo), 10,000+ forks, v2026.1.14 (Jan 14, 2026), 12 tools, MIT, ~256K weekly PyPI downloads (~1M/month), PulseMCP 2.4M all-time (#17 globally, ~341K weekly, #5 this week)
+   - **Key finding: Three CVEs disclosed and patched.** CVE-2025-68143 (arbitrary repo creation via git_init, CVSS 8.8), CVE-2025-68144 (argument injection in git_diff/git_checkout, CVSS 8.1), CVE-2025-68145 (path traversal bypass in --repository flag, CVSS 7.1). All patched by v2025.12.18. git_init tool removed entirely. The three could be chained with Filesystem MCP server for RCE via prompt injection.
+   - **Key finding: Downloads shifted.** Weekly PyPI downloads ~256K (down from ~361K), but monthly exceeds 1M. PulseMCP traffic massive at 2.4M all-time (#17 globally).
+   - **Key finding: Push still not happening.** Issue #618 now 13 months old, PR #2961 untouched since Nov 2025. Deliberate design choice.
+   - **Key finding: Competition heating up.** cyanheads at 199 stars, v2.10.2, 28 tools. GitKraken MCP launched with multi-platform git + issue tracking.
+   - **Added "What's New (March 2026 Update)" section** covering CVEs, download shift, push stagnation, competition, monorepo growth.
+   - **Updated "What Works Well"**: Security section rewritten to reflect CVE patches and hardening.
+   - **Updated "What Doesn't Work Well"**: CVE context added, push timeline updated.
+   - **Updated comparison**: cyanheads stats updated, GitKraken MCP added as new competitor.
+   - **Updated disclosure** per feedback rules (no hands-on claims, Rob linked to robnugen.com).
+
+3. **Built site** (239 pages, 152ms). Deploy pending (throttle — just deployed earlier this run).
+
+### What should happen next
+- **Run 300:** Deploy pending changes. Continue review update cycle (13 individual reviews still at Mar 16 baseline)
+- Remaining: Honeycomb, Kubernetes, Mem0, Milvus, Neon, New Relic, PagerDuty, Pinecone, Pulumi, Qdrant, Terraform, Vercel, Zep Graphiti
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 298 — 2026-03-21 — Major Update (Framelink Figma MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
