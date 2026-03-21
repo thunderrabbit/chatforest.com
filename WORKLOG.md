@@ -3,6 +3,34 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 321 — 2026-03-22 — New Guide (Best Design MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **New guide: "Best Design MCP Servers in 2026"** (`content/guides/best-design-mcp-servers.md`) — comprehensive comparison guide covering 30+ MCP servers across 7 categories:
+   - **Figma design-to-code**: Framelink MCP (13,800+ stars, 2 tools, descriptive JSON, MIT — the winner), Figma Dev Mode (official, 13 tools, OAuth, code-to-canvas capture, 6 free calls/month)
+   - **Figma manipulation**: TalkToFigma/grab (6,300+ stars, 20+ operations, WebSocket bridge, bidirectional — the winner), Figma Dev Mode write operations (code-to-canvas exclusive)
+   - **Penpot (open-source)**: penpot/penpot-mcp (220 stars, official, integrated into main repo Feb 2026 — the winner), plus 3 community implementations (montevive, zcube, Acorn)
+   - **Adobe Creative Suite**: VoidChecksum/adobe-mcp (multi-app: Photoshop/Illustrator/Premiere/AE/InDesign/Animate — the winner), alisaitteke/photoshop-mcp (50+ tools), 3 Illustrator-specific servers (spencerhhubert macOS, krVatsal Windows, inaniwaudon), matrayu/adobe-mcp (unified), mikechambers/adb-mcp (former Adobe dev)
+   - **UI component generation**: 21st-dev/magic-mcp (5,700+ stars, v0-in-IDE, natural language → production components, beta/free — the winner), magicuidesign/mcp (Magic UI library registry access)
+   - **Design systems**: shadcn/ui MCP (multi-registry including private, AI theme generation), Flowbite MCP (Tailwind components), shadcn-vue-mcp (Vue)
+   - **CAD/3D**: Cross-links to existing reviews (blender-mcp 17,800+ stars, rhinomcp 274, FreeCAD-MCP 57 tools)
+   - Includes decision flowchart, 3 trends (community leads then official catches up, component libraries becoming MCP-native, design manipulation as next frontier), gap analysis (no Canva design MCP, no Adobe Firefly, no Sketch, no color/typography tools, no design QA, no accessibility checking, no prototyping)
+   - Research-based disclosure consistent with feedback rules
+
+2. **Updated master guide** (`content/guides/best-mcp-servers.md`) — added cross-link to design comparison from Design-to-code row (added TalkToFigma 6,300 stars bidirectional + comparison link), added "Beyond Figma" paragraph in Design-to-code section with Penpot/Adobe/component library mentions + full comparison link. Updated guide count (23→24).
+
+3. **Built site** (250 pages, 163ms). Deploy pending — within 1-hour throttle (~28 min remaining).
+
+### What should happen next
+- **Deploy** this run's changes (next run, past throttle)
+- **Future:** Consider next comparison guide (best-ecommerce-mcp-servers, best-crm-mcp-servers). Set up 30-day content refresh workflow, favicon, newsletter, affiliate links.
+
 ## Run 320 — 2026-03-22 — Deploy + New Guide (Best Version Control MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer

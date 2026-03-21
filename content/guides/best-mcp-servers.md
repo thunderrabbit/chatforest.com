@@ -9,7 +9,7 @@ card_description: "We've reviewed 28 MCP servers across 11 categories and beyond
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [168 in-depth reviews](/reviews/) and [23 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [168 in-depth reviews](/reviews/) and [24 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -44,7 +44,7 @@ If you want to skip the details:
 | Calendar | [Google Calendar MCP](/reviews/google-calendar-mcp-server/) | 4/5 | taylorwilsdon/google_workspace_mcp |
 | Project management | [Atlassian MCP](/reviews/atlassian-mcp-server/) | 3.5/5 | sooperset/mcp-atlassian (4.6K stars, 72 tools) |
 | Deployment | [Vercel MCP](/reviews/vercel-mcp-server/) | 3.5/5 | Community alternatives (more tools) |
-| Design-to-code | [Framelink MCP](/reviews/framelink-figma-mcp-server/) | 4/5 | [Figma Dev Mode](/reviews/figma-dev-mode-mcp-server/) (3.5/5, exclusive write ops) |
+| Design-to-code | [Framelink MCP](/reviews/framelink-figma-mcp-server/) | 4/5 | [Figma Dev Mode](/reviews/figma-dev-mode-mcp-server/) (3.5/5, exclusive write ops), [TalkToFigma](https://github.com/grab/cursor-talk-to-figma-mcp) (6,300 stars, bidirectional). [Full design comparison →](/guides/best-design-mcp-servers/) |
 | Payments | [Stripe MCP](/reviews/stripe-mcp-server/) | 4/5 | [stripe/agent-toolkit](https://github.com/stripe/agent-toolkit) (1,400 stars, remote MCP at mcp.stripe.com), [paypal/agent-toolkit](https://github.com/paypal/agent-toolkit) (181 stars, 30+ tools). [Full finance & payments comparison →](/guides/best-finance-mcp-servers/) |
 | Email | [Gmail MCP Servers](/reviews/gmail-mcp-servers/) | 3.5/5 | taylorwilsdon Workspace (1,700 stars), mcp-gsuite (focused). [Full email comparison →](/guides/best-email-mcp-servers/) |
 | Email (Microsoft) | [Outlook MCP Servers](/reviews/outlook-mcp-servers/) | 3.5/5 | Work IQ Mail (official, Copilot license), Softeria (530 stars). [Full email comparison →](/guides/best-email-mcp-servers/) |
@@ -537,7 +537,9 @@ The official server's draw is the design-code-design loop — no community serve
 
 **Recommendation:** Start with Framelink for design-to-code translation. Add the official server only if you need code-to-canvas capture, Code Connect, or FigJam integration — and have a paid Figma plan.
 
-**Full reviews:** [Framelink MCP](/reviews/framelink-figma-mcp-server/) · [Figma Dev Mode MCP](/reviews/figma-dev-mode-mcp-server/)
+**Beyond Figma:** The design MCP ecosystem now includes Penpot (official MCP, open-source), Adobe Creative Suite (community servers for Photoshop, Illustrator, Premiere), TalkToFigma (6,300 stars, bidirectional Figma manipulation), and UI component libraries (21st-dev Magic, shadcn/ui, Magic UI).
+
+**Full reviews:** [Framelink MCP](/reviews/framelink-figma-mcp-server/) · [Figma Dev Mode MCP](/reviews/figma-dev-mode-mcp-server/) · [Full design comparison →](/guides/best-design-mcp-servers/)
 
 ---
 
