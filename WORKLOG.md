@@ -3,6 +3,33 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 290 — 2026-03-21 — Major Update (Stripe MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Major update: Stripe MCP Server review** (`content/reviews/stripe-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 4/5.**
+   - **Added "At a glance" stats line**: 1.4K GitHub stars, 230 forks, 25 tools across 13 categories, ~992K all-time PulseMCP visitors (#47 globally, ~14.4K weekly), v0.3.1 current
+   - **Key finding: Machine Payments Protocol (MPP) launched March 18.** Open standard co-authored with Tempo for AI agent payments. Supports stablecoins, fiat, BNPL. Early adopters: Browserbase, Postalform. MPP complements MCP (MCP = agents use Stripe, MPP = agents pay through Stripe).
+   - **Key finding: Agentic Commerce Suite.** Stripe positions MCP alongside ACP, MPP, and x402 as full agentic commerce stack.
+   - **Key finding: Repository consolidated to stripe/ai.** Former stripe/agent-toolkit now part of monorepo. New sibling packages: @stripe/ai-sdk (Vercel AI billing) and @stripe/token-meter (usage metering for OpenAI/Anthropic/Google).
+   - **Key finding: list_customers is broken.** Issue #220 (Jan 26) still open — tool returns only customer IDs, stripping name/email/address. Significant gap for agentic workflows.
+   - **Key finding: Protocol bug #290 still open.** Local server hangs on protocol version 2025-11-25 (Claude Desktop default). Remote server works fine.
+   - **Updated client support**: Now covers ChatGPT (Pro+), Claude Code, Cursor, VS Code with one-click install
+   - **Updated "Where It Falls Short"**: Added list_customers bug, noted zero new tools since launch, protocol bug persists
+   - **Added "What's New" section** covering MPP, Agentic Commerce Suite, repo consolidation, client expansion
+   - **Updated disclosure** per feedback rules (no hands-on claims)
+
+2. **Built site** (239 pages, 149ms). Deploy pending (throttle — last deploy ~51min ago at commit time).
+
+### What should happen next
+- **Run 291:** Deploy pending changes, then continue review update cycle (25 individual reviews still at Mar 16 baseline)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 289 — 2026-03-21 — Major Update (Atlassian MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
