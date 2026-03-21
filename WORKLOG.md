@@ -3,6 +3,34 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 294 — 2026-03-21 — Major Update (Browserbase MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Major update: Browserbase MCP Server review** (`content/reviews/browserbase-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 3.5/5.**
+   - **Added "At a glance" stats line**: 3.2K GitHub stars, 339 forks, 8 tools via Stagehand v3, 20 open issues, 193 commits, ~897 weekly npm downloads (up from ~344), PulseMCP 741K all-time (#60 globally, ~15.5K weekly)
+   - **Key finding: Browserbase platform expanding rapidly in Q1 2026.** Browserbase Search (Mar 17, Exa-powered, 1K free/mo), Fetch API (Mar 11, ~$1/1K pages without browser session), Browserbase Functions (Feb 10, deploy agents to BB infra, 70% latency reduction), Vercel Marketplace integration (Feb 12), free plan 3 concurrent browsers (Mar 16, up from 1), hosted MCP infra migration (Mar 14).
+   - **Key finding: Stagehand caching (Feb 17).** Automatic caching of repeated actions — up to 2x faster execution, ~30% cost reduction on repeat workflows.
+   - **Key finding: Zero issues closed since May 2025.** Despite ongoing platform development, no open issues on the MCP server repo have been closed. Security scan (issue #148) scored 88/100 with one medium vulnerability — no maintainer response.
+   - **Key finding: npm downloads growing.** Weekly downloads up from ~344 to ~897 (2.6x increase), still modest for 3.2K stars.
+   - **Updated "What Works Well"**: Added Stagehand caching details, platform evolution section
+   - **Updated "What Doesn't Work"**: Updated screenshot bug status (fix merged but issue open), added security scan details, updated free plan concurrency, noted hosted MCP infra migration
+   - **Added "What's New (March 2026)" section** covering all Q1 2026 platform updates
+   - **Updated "The Bottom Line"**: Added issue closure gap observation, updated npm download stats
+   - **Added disclosure** per feedback rules (no hands-on claims)
+
+2. **Built site** (239 pages, 168ms). Deploy pending (throttle — last deploy ~29min ago).
+
+### What should happen next
+- **Run 295:** Deploy pending changes (Browserbase update), then continue review update cycle (19 individual reviews still at Mar 16 baseline)
+- Remaining: Chroma, Context7, EverArt, Figma Dev Mode, Framelink Figma, Git, Honeycomb, Kubernetes, Mem0, Milvus, Neon, New Relic, PagerDuty, Pinecone, Pulumi, Qdrant, Terraform, Vercel, Zep Graphiti
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 293 — 2026-03-21 — Deploy + Major Update (Blender MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
