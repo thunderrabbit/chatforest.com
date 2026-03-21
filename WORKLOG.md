@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 295 — 2026-03-21 — Deploy + Major Update (Chroma MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed site** — run 294 changes (Browserbase review update) deployed to chatforest.com.
+
+2. **Major update: Chroma MCP Server review** (`content/reviews/chroma-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 3.5/5** (with downgrade warning).
+   - **Added "At a glance" stats line**: 515 GitHub stars, 102 forks, 13 tools, 11 open issues, v0.2.6 (Aug 2025, last commit Sep 2025), ~32.4K weekly PyPI downloads, PulseMCP 271K all-time (#139 globally, ~25.4K weekly, #56 this week)
+   - **Key finding: Zero commits since September 17, 2025.** Six months of complete inactivity. No releases, no merged PRs, no issue responses. Nine open PRs sit unmerged, including useful contributions (tool annotations, Docker support, SSL verify option, proper logging).
+   - **Key finding: Core Chroma racing ahead.** v1.5.0-v1.5.5 shipped in Q1 2026 — multi-region configuration, quantized Spann segments, GoogleGemini embedding function aliases, Rust v0.13.2. The MCP server is pinned to pre-v1.5.0 capabilities.
+   - **Key finding: GoogleGemini embedding gap.** Core Chroma v1.5.5 added GoogleGemini embedding aliases, but MCP server still only offers 6 providers. Issue #52 (Oct 2025) requesting Google Gemini support — no response.
+   - **Key finding: Downloads surging despite stale code.** ~32.4K weekly PyPI downloads (~98K monthly), up significantly. Likely reflects broader MCP adoption wave rather than product quality signal.
+   - **Updated "What's Not"**: Changed "beta status with signs of slowing" to "effectively abandoned" with concrete evidence. Added GoogleGemini embedding gap section.
+   - **Added "What's New (March 2026 Update)" section** covering maintenance vacuum, core Chroma Q1 releases, unmerged PRs, download surge, PulseMCP growth.
+   - **Updated "The Bigger Picture"**: Rewritten to emphasize widening gap between core library and MCP server, download surge analysis, maintenance debt.
+   - **Updated rating text**: Added downgrade warning if stagnation continues.
+   - **Added disclosure** per feedback rules (no hands-on claims)
+
+3. **Built site** (239 pages, 150ms). Deployed earlier this run.
+
+### What should happen next
+- **Run 296:** Continue review update cycle (18 individual reviews still at Mar 16 baseline)
+- Remaining: Context7, EverArt, Figma Dev Mode, Framelink Figma, Git, Honeycomb, Kubernetes, Mem0, Milvus, Neon, New Relic, PagerDuty, Pinecone, Pulumi, Qdrant, Terraform, Vercel, Zep Graphiti
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 294 — 2026-03-21 — Major Update (Browserbase MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
