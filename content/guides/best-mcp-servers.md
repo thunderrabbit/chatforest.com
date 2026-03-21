@@ -9,7 +9,7 @@ card_description: "We've reviewed 28 MCP servers across 11 categories and beyond
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [168 in-depth reviews](/reviews/) and [16 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [168 in-depth reviews](/reviews/) and [17 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -46,9 +46,9 @@ If you want to skip the details:
 | Deployment | [Vercel MCP](/reviews/vercel-mcp-server/) | 3.5/5 | Community alternatives (more tools) |
 | Design-to-code | [Framelink MCP](/reviews/framelink-figma-mcp-server/) | 4/5 | [Figma Dev Mode](/reviews/figma-dev-mode-mcp-server/) (3.5/5, exclusive write ops) |
 | Payments | [Stripe MCP](/reviews/stripe-mcp-server/) | 4/5 | Community Python alternatives |
-| Email | [Gmail MCP Servers](/reviews/gmail-mcp-servers/) | 3.5/5 | taylorwilsdon Workspace (1,700 stars), mcp-gsuite (focused) |
-| Email (Microsoft) | [Outlook MCP Servers](/reviews/outlook-mcp-servers/) | 3.5/5 | Work IQ Mail (official, Copilot license), Softeria (530 stars) |
-| Email delivery / Notifications | [Notification Services MCP](/reviews/notification-services-mcp-servers/) | 3.5/5 | Resend (470 stars, dual transport), Infobip (14 hosted servers), Mailgun (official), Twilio (OpenAPI-generated) |
+| Email | [Gmail MCP Servers](/reviews/gmail-mcp-servers/) | 3.5/5 | taylorwilsdon Workspace (1,700 stars), mcp-gsuite (focused). [Full email comparison →](/guides/best-email-mcp-servers/) |
+| Email (Microsoft) | [Outlook MCP Servers](/reviews/outlook-mcp-servers/) | 3.5/5 | Work IQ Mail (official, Copilot license), Softeria (530 stars). [Full email comparison →](/guides/best-email-mcp-servers/) |
+| Email delivery / Notifications | [Notification Services MCP](/reviews/notification-services-mcp-servers/) | 3.5/5 | Resend (470 stars, dual transport), Infobip (14 hosted servers), Mailgun (official), Twilio (OpenAPI-generated). [Full email comparison →](/guides/best-email-mcp-servers/) |
 | CRM | [CRM MCP Servers](/reviews/crm-mcp-servers/) | 3.5/5 | salesforcecli/mcp (312 stars, official), peakmojo/mcp-hubspot (116 stars), kesslerio/attio (58 stars) |
 | E-commerce | [Shopify MCP Servers](/reviews/shopify-mcp-servers/) | 3.5/5 | Dev MCP (docs), Storefront MCP (shopping), community Admin API servers |
 | Cloud infrastructure | [Cloudflare MCP](/reviews/cloudflare-mcp-server/) | 4.5/5 | [AWS MCP](/reviews/aws-mcp-servers/) (4/5, 66 servers), [Google Cloud MCP](/reviews/google-cloud-mcp-servers/) (4/5, 30+ servers), [Azure MCP](/reviews/azure-mcp-servers/) (4/5, 47+ services). [Full comparison →](/guides/best-cloud-mcp-servers/) |

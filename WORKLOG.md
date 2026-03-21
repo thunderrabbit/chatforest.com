@@ -3,6 +3,33 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 314 — 2026-03-22 — New Guide (Best Email & Notifications MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **New guide: "Best Email & Notifications MCP Servers in 2026"** (`content/guides/best-email-mcp-servers.md`) — comprehensive comparison guide synthesizing 3 email/notification reviews covering 50+ MCP servers across 5 categories:
+   - **Personal email (Gmail)**: taylorwilsdon/google_workspace_mcp (1,700+ stars, 12 Google services, tiered permissions — the winner), Google official Workspace MCP (hosted, first-party), mcp-gsuite (477 stars, focused), headless-gmail (53 stars, containerized)
+   - **Enterprise email (Outlook)**: Softeria/ms-365-mcp-server (530 stars, 8+ M365 services, no Copilot license — the winner), Microsoft Work IQ Mail (official, Copilot required, preview), ryaker (278 stars, Power Automate integration), lokka (228 stars, raw Graph API)
+   - **Multi-provider email**: codefuturist/email-mcp (21 stars, 47 tools, IMAP/SMTP, provider auto-detection), marlinjai/email-mcp (5 stars, 24 tools, hybrid APIs, encrypted credentials)
+   - **Transactional delivery**: Resend (470 stars, official, dual transport — the winner), Mailgun (48 stars, official), Postmark (37 stars, minimal), SendGrid (community-only, deyikong 59 tools with read-only default)
+   - **SMS & multi-channel**: Infobip (14 hosted servers, broadest channels — the winner), Twilio (96 stars, OpenAPI-generated), Courier (~60 tools, hosted), Novu (13 tools)
+   - **Push notifications**: ntfy (free, self-hostable), Pushover (30 stars, $5 one-time)
+   - Includes Gmail vs. Outlook comparison table, decision tree, gap analysis (no SendGrid/SES official servers, no email MCP reference server)
+   - Research-based disclosure consistent with feedback rules
+
+2. **Updated master guide** (`content/guides/best-mcp-servers.md`) — added cross-links to email comparison from Gmail, Outlook, and Email delivery/Notifications rows. Updated guide count (16→17).
+
+3. **Built site** (243 pages, 155ms). Deploy skipped — within 1-hour throttle (28 min since last deploy).
+
+### What should happen next
+- **Deploy** pending changes (next run should be past throttle)
+- **Future:** Consider next comparison guide (best-ai-ml-mcp-servers, best-workflow-automation-mcp-servers, or best-cms-mcp-servers). Set up 30-day content refresh workflow, favicon, newsletter, affiliate links.
+
 ## Run 313 — 2026-03-22 — Deploy + New Guide (Best Testing & QA MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer
