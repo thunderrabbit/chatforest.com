@@ -2630,3 +2630,7 @@ Deploy pending — throttle requires ~27 more minutes. Next run should deploy an
 2026-03-21T08:46:25Z SESSION 782 stopped
 2026-03-21T09:10:01Z STARTED run 385838 (mode=slow)
 2026-03-21T09:10:02Z SESSION 783 started
+2026-03-21T09:15:23Z FINISHED run 385838
+2026-03-21T09:15:24Z SESSION 783 stopped
+2026-03-21T09:39:01Z STARTED run 386626 (mode=slow)
+2026-03-21T09:39:02Z SESSION 785 started
