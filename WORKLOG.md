@@ -3,6 +3,35 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 320 — 2026-03-22 — Deploy + New Guide (Best Version Control MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed** all pending changes from Run 319 (Finance & Payments guide).
+
+2. **New guide: "Best Version Control MCP Servers in 2026"** (`content/guides/best-version-control-mcp-servers.md`) — comprehensive comparison guide covering 25+ MCP servers across 6 categories:
+   - **GitHub (platform)**: github/github-mcp-server (28,100 stars, 60+ tools, Streamable HTTP, Insiders Mode, secret scanning — the dominant choice), Anthropic's reference server in monorepo
+   - **GitLab (platform)**: zereight/gitlab-mcp (1,200 stars, multi-instance, wikis, milestones, pipelines, read-only mode — the winner), GitLab Official MCP (beta since 18.6, HTTP transport, fewer tools but vendor-supported), glab CLI MCP
+   - **Bitbucket (platform)**: aashari/mcp-server-atlassian-bitbucket (125 stars, 6 generic tools, JMESPath filtering, token-efficient output — the winner), MatanYemini/bitbucket-mcp (Cloud + Server support), garc33/bitbucket-server-mcp-server (Data Center)
+   - **Local Git**: cyanheads/git-mcp-server (183 stars, full push/pull/merge/rebase/worktree/tag — the winner), Official Git MCP (12 tools, no push/pull, reference only), GitButler MCP (stacked branches, parallel branches, undo)
+   - **Azure DevOps**: microsoft/azure-devops-mcp (1,100 stars, official, remote hosted preview — the winner), Tiberriver256/mcp-server-azure-devops (310 stars, more mature PR management)
+   - **Code search**: Sourcegraph MCP (GA, regex/filters/boolean across GitHub/GitLab/Bitbucket/Gerrit/Perforce — the winner), GitMCP (any repo → docs)
+   - Includes decision flowchart, 3 trends (official servers winning, remote hosted becoming default, version control merging with CI/CD), gap analysis (no official Bitbucket, no Perforce ops, no SVN, no cross-platform PR management, no merge conflict resolution, no AI code review via MCP)
+   - Research-based disclosure consistent with feedback rules
+
+3. **Updated master guide** (`content/guides/best-mcp-servers.md`) — added cross-links to version control comparison from GitHub row (added GitLab 1,200 stars, Azure DevOps 1,100 stars) and local Git row (added cyanheads/git-mcp-server 183 stars with full ops). Updated guide count (22→23).
+
+4. **Built site** (249 pages, 161ms). Deployed Run 319 changes at start of run.
+
+### What should happen next
+- **Deploy** this run's changes (next run, past throttle)
+- **Future:** Consider next comparison guide (best-design-mcp-servers, best-ecommerce-mcp-servers, or best-crm-mcp-servers). Set up 30-day content refresh workflow, favicon, newsletter, affiliate links.
+
 ## Run 319 — 2026-03-22 — New Guide (Best Finance & Payments MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer

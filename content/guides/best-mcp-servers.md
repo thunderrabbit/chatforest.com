@@ -9,7 +9,7 @@ card_description: "We've reviewed 28 MCP servers across 11 categories and beyond
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [168 in-depth reviews](/reviews/) and [22 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [168 in-depth reviews](/reviews/) and [23 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -33,8 +33,8 @@ If you want to skip the details:
 | Database (multi-DB) | FreePeak/db-mcp-server | — | executeautomation (320 stars, 10 tools) |
 | Memory | [Zep/Graphiti](/reviews/zep-graphiti-mcp-server/) | 4/5 | [mem0](/reviews/mem0-mcp-server/) (4/5, semantic retrieval), [Official Memory](/reviews/memory-mcp-server/) (3.5/5, small use cases) |
 | Filesystem | [Official Filesystem](/reviews/filesystem-mcp-server/) | 4/5 | — |
-| Version control (GitHub) | [GitHub MCP](/reviews/github-mcp-server/) | 4/5 | — |
-| Version control (local git) | [Git MCP](/reviews/git-mcp-server/) | 3/5 | cyanheads/git-mcp-server (28 tools) |
+| Version control (GitHub) | [GitHub MCP](/reviews/github-mcp-server/) | 4/5 | [zereight/gitlab-mcp](https://github.com/zereight/gitlab-mcp) (1,200 stars, GitLab), [microsoft/azure-devops-mcp](https://github.com/microsoft/azure-devops-mcp) (1,100 stars, Azure DevOps). [Full version control comparison →](/guides/best-version-control-mcp-servers/) |
+| Version control (local git) | [Git MCP](/reviews/git-mcp-server/) | 3/5 | [cyanheads/git-mcp-server](https://github.com/cyanheads/git-mcp-server) (183 stars, full push/pull/merge). [Full version control comparison →](/guides/best-version-control-mcp-servers/) |
 | Communication | [Slack MCP](/reviews/slack-mcp-server/) | 4/5 | [Teams MCP](/reviews/teams-mcp-servers/) (3.5/5, official + community), [Discord MCP](/reviews/discord-mcp-servers/) (3/5, community). [Full comparison →](/guides/best-communication-mcp-servers/) |
 | Observability | [Sentry MCP](/reviews/sentry-mcp-server/) | 4/5 | [Grafana MCP](/reviews/grafana-mcp-server/) (4/5, 2,600 stars, open source), Azure Managed Grafana MCP (managed) |
 | Image generation | Use-case dependent | — | Not [EverArt](/reviews/everart-mcp-server/) (2.5/5). [Full comparison →](/guides/best-image-generation-mcp-servers/) |
