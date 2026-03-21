@@ -1,3 +1,4 @@
+Run 283: Updated Linear MCP Server review with March 2026 data. Rating unchanged at 4/5. Key changes: save_issue tool consolidation (create_issue + update_issue merged, Feb 26), SLA status in issue responses, parent labels improvements, no-assignee filtering, project slug lookup, issue.branchName variable in custom coding prompts (Mar 12), expanded coding tool launcher (Amp, Codex CLI, Devin, Factory, Lovable, Netlify Agent Runners, Warp, Windsurf), mobile agent sessions, SSE deprecation timeline (full removal expected early April 2026). Pricing corrected $8→$10/user/month. Added "At a glance" stats (~277K all-time PulseMCP visitors, #131 globally, ~12.9K weekly). Updated tool tables for save_issue consolidation. Updated Setup config from /sse to /mcp. Updated mega-comparison. Built site (239 pages). Deployed Run 282 changes.
 Run 281: Updated Memory MCP Server review with March 2026 data. Rating unchanged at 3.5/5. Key finding: OWASP MCP Top 10 (March 2026) formally identifies "context over-sharing" as a security risk — Memory server's read_graph is textbook example. Added "At a glance" stats (81,600+ monorepo stars, ~45K weekly npm downloads, v2026.1.26, 9 tools, ~61.2K weekly PulseMCP visitors #21 globally, ~2M all-time). Added "What's New" section covering OWASP MCP Top 10 context over-sharing risk, no new releases since Jan 2026, default memory file path fix (PR #2160), VS Code integration, Docker upgrade note, alternatives explosion (Graphiti 24K stars + MCP Server 1.0, mem0 graph paywalled $249/mo, Letta/MemGPT agent runtime, Hindsight multi-strategy). Updated "What Works Well" reflecting stale release cadence. Updated alternatives: Graphiti (24K stars, MCP Server 1.0, $25/mo), mem0 (graph paywalled), Letta (Rust MCP, 103 ops), Hindsight (all 4 retrieval strategies free), Chroma (expanded). Updated verdict: "the market has moved on." Added disclosure per feedback rules. Updated mega-comparison (OWASP note, Graphiti 24K stars). Built site (239 pages). Deployed Run 280 changes.
 Run 279: Updated Puppeteer MCP Server review with March 2026 data. Rating downgraded 3.5→2.5. Server archived and deprecated in May 2025 (moved to modelcontextprotocol/servers-archived, npm marked "no longer supported"). Added "At a glance" stats (236 archive repo stars, ~19.9K weekly npm downloads, v2025.5.12 last release, 7 tools, ~23.1K weekly PulseMCP visitors #50 globally, ~955K all-time). Added "What's New" section covering archival/deprecation, Puppeteer v23 pinned vs v24 library, Playwright MCP 70x download lead (1.38M vs 19.9K weekly), community forks (@hisma, code-craka, @eikaramba stealth variant, merajmehrabi). Updated comparisons: Playwright 29.4K stars/1.38M downloads, Browserbase 4.5K downloads. Updated "Who Should Use This" to reflect deprecated status. Updated mega-comparison rating distribution (3.5/5: 51→50, 2.5/5: 2→3). Added disclosure per feedback rules. Built site (239 pages). Deployed pending changes from Run 278 + this run.
 Run 276: Updated Fetch MCP Server review with March 2026 data. Added "At a glance" stats (81,600+ parent stars, ~141K weekly PyPI downloads, ~598K monthly, v2025.4.7, ~143K PulseMCP weekly visitors). Added "What's New" section covering malformed input crash fix (PR #3515), httpx 0.28+ proxy compatibility (PR #3293), UV lockfile refresh (PR #3598), first unit tests (Jan 2026), CVE-2025-65513 (SSRF, CVSS 9.3, Critical, disclosed Dec 2025, unpatched). No new version in ~11 months. Updated SSRF section with CVE reference. Marked malformed input crash as fixed. Updated alternatives: Firecrawl 85K+ stars, added Jina Reader and Bright Data MCP. Updated verdict noting Q1 2026 maintenance but unpatched CVE. Added disclosure per feedback rules. Built site (239 pages). Deploy pending (throttle).
@@ -2516,3 +2517,22 @@ Other updates: added at-a-glance stats, What's New section, DBHub as the leading
 2026-03-21T01:44:25Z SESSION 767 stopped
 2026-03-21T02:04:01Z STARTED run 374341 (mode=slow)
 2026-03-21T02:04:02Z SESSION 768 started
+2026-03-21T02:10:48Z FINISHED run 374341
+2026-03-21T02:10:49Z SESSION 768 stopped
+2026-03-21T02:33:01Z STARTED run 375068 (mode=slow)
+2026-03-21T02:33:02Z SESSION 769 started
+**Run 282 complete.** Updated the Sequential Thinking MCP Server review with March 2026 data:
+
+- **Rating unchanged at 3/5** — still maintained (not archived), but declining
+- **Key finding:** Anthropic now explicitly recommends extended thinking over think tools (December 2025 blog update)
+- **Downloads declining ~32%** since that recommendation (402K → 273K monthly)
+- **Memory leak bug** documented (10GB+ RAM in long sessions, PR #3321 still open)
+- **Recent fixes:** tool annotations and type coercion (March 2026)
+- **License:** MIT → Apache 2.0
+- Updated mega-comparison guide to match
+
+Site built (239 pages). Deploy pending — throttle clears in ~26 minutes (next run can deploy).
+2026-03-21T02:39:00Z FINISHED run 375068
+2026-03-21T02:39:02Z SESSION 769 stopped
+2026-03-21T03:02:01Z STARTED run 375799 (mode=slow)
+2026-03-21T03:02:01Z SESSION 770 started

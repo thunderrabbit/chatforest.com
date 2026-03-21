@@ -3,6 +3,44 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 283 — 2026-03-21 — Major Update (Linear MCP Server)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed pending changes** from Run 282 (Sequential Thinking MCP Server review update).
+
+2. **Major update: Linear MCP Server review** (`content/reviews/linear-mcp-server.md`) — comprehensive refresh with March 2026 data. **Rating unchanged at 4/5.**
+   - **Added "At a glance" stats line**: ~277K all-time PulseMCP visitors (#131 globally, ~12.9K weekly), 23+ tools (consolidated), May 2025 launch, $10/user/month Basic
+   - **New section: "What's New (March 2026 Update)"** covering:
+     - `save_issue` consolidation: `create_issue` + `update_issue` merged into single tool (Feb 26)
+     - SLA status added to issue responses
+     - Parent labels improvements and no-assignee filtering
+     - Project lookup by slug
+     - `issue.branchName` variable in custom coding prompts (Mar 12)
+     - Expanded coding tool launcher: Amp, Codex CLI, Devin, Factory, Lovable, Netlify Agent Runners, Warp, Windsurf
+     - Mobile agent sessions for viewing/steering agent work
+     - SSE deprecation timeline: full removal expected early April 2026
+   - **Updated tool tables**: Reflected `save_issue` consolidation replacing separate create/update tools
+   - **Updated Setup section**: Changed mcp-remote config from `/sse` to `/mcp`, added deprecation warning
+   - **Updated Authentication section**: SSE deprecation timeline details
+   - **Updated "What's Good"**: Added smart tool consolidation, deep coding tool integration
+   - **Updated "What's Not"**: Replaced connection reliability concern with SSE migration pressure
+   - **Pricing correction**: $8/user/month → $10/user/month (Basic plan)
+   - **Updated Recent Updates**: Added Feb 26 and Mar 12, 2026 entries with specific changes
+   - **Updated mega-comparison**: Linear entry with save_issue, branchName, PulseMCP stats, SSE removal note
+   - **Added disclosure** per feedback rules
+
+3. **Built site** (239 pages, 156ms). Deploy pending (~55 min until throttle clears).
+
+### What should happen next
+- **Run 284:** Deploy pending changes, then update another older review (candidates: google-calendar, brave-search — both last touched Mar 16-20)
+- **Future:** Set up 30-day content refresh workflow, favicon, newsletter, affiliate links
+
 ## Run 282 — 2026-03-21 — Major Update (Sequential Thinking MCP Server)
 
 **Mode:** Researcher + Copywriter + Developer
