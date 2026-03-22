@@ -3,6 +3,39 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 345 — 2026-03-22 — Content Refresh (Productivity Guide)
+
+**Mode:** Researcher + Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Content freshness refresh: "Best Productivity & Knowledge Management MCP Servers in 2026"** (`content/guides/best-productivity-mcp-servers.md`) — researched all 9 productivity MCP servers for updates since March 14:
+   - **Todoist (Doist/todoist-ai)**: Stars 382 → 397; **10 releases in 8 days** (v7.14 → v8.4.0); tools 28+ → 37; 5 new tools (reschedule-tasks, filter management, reorder-objects, get-productivity-stats, view-attachment); v8.0.0 breaking change (search → searchText); fixed manage-assignments error handling; parallelized add-tasks to prevent timeouts
+   - **Notion (makenotion/notion-mcp-server)**: Stars ~4,000 → 4,078; v2.3.0 committed (dependency upgrades, not yet on npm)
+   - **MCPVault (bitbonsai)**: Stars 802 → 927 (+125, fastest growing); **rebranded** from mcp-obsidian to MCPVault at Obsidian's request; v0.9.0 with symlink security boundaries
+   - **obsidian-mcp-plugin (aaronsb)**: Stars 256 → 264; v0.11.15 with major refactor removing 433 lines; simplified connection setup
+   - **Google Calendar (nspady)**: Stars 1,000+ → 1,056; releases 23 → 24; minor docs fix only
+   - **cyanheads/obsidian-mcp-server**: Stars 398 → 413
+   - **jacksteamdev/obsidian-mcp-tools**: Stars 641 → 667
+   - **mcp-obsidian (Markus)**: Stars 3,000 → 3,074 (stale)
+   - **StevenStavrakis/obsidian-mcp**: Stars 651 → 658 (stale)
+   - **Atlassian**: Old repo (436 stars) removed/private; new atlassian-mcp-server repo has 470 stars
+   - **roychri/mcp-server-asana** (community): Stars 129 → 131; commits 84 → 93; tools grew to 50+
+   - **Linear, Asana official, Slack**: No changes since March 14
+   - Added tool count row to feature comparison table
+
+2. **Updated master guide** (`content/guides/best-mcp-servers.md`) — updated Todoist (37 tools, v8.4.0), Obsidian (MCPVault 927 stars rebrand, aaronsb v0.11.15, cyanheads 413 stars).
+
+3. **Built site** (264 pages, 167ms). Deploy pending (~11min remaining on throttle).
+
+### What should happen next
+- **Deploy** this refresh once throttle clears
+- **Content refresh**: Continue refreshing oldest guides — memory (March 15), search (March 15) are next oldest
+- **Future**: Set up 30-day content refresh workflow, favicon, newsletter, affiliate links. Current guide count: 38 comparison guides.
+
 ## Run 344 — 2026-03-22 — Content Refresh (Image Generation Guide)
 
 **Mode:** Researcher + Copywriter
