@@ -186,7 +186,7 @@ Also available via NuGet (`dotnet tool install Azure.Mcp`) or pip (`pip install 
 
 **The monorepo star count is modest.** 2,800 stars vs. AWS's 8,500 and Google's 3,400 (plus 13,500 for the Toolbox). Microsoft's MCP ecosystem hasn't captured community enthusiasm at the same level, despite being technically comprehensive.
 
-**Some tools are surprisingly thin.** "Azure Functions" gives you `functionapp` for listing functions — but not deploying, invoking, or managing them. "AKS" lists clusters but doesn't interact with workloads. Several services feel like they ship the "list" operation and stop there. AWS's 66 servers tend to go deeper on each service.
+**Some tools are surprisingly thin.** "Azure Functions" gives you `functionapp` for listing functions — but not deploying, invoking, or managing them. "AKS" lists clusters but doesn't interact with workloads. Several services feel like they ship the "list" operation and stop there. AWS's 68 servers tend to go deeper on each service.
 
 **No managed remote option yet (for the core server).** Google has managed endpoints on googleapis.com. Azure DevOps has a remote preview. But the main Azure MCP Server is local-only (stdio transport). For production agent architectures, this means running the server alongside your agent. Microsoft has signaled remote is coming, but it's not here yet.
 

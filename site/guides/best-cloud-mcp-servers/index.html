@@ -4,9 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AWS vs Google Cloud vs Azure — Cloud Provider MCP Servers Compared (2026) — ChatForest</title>
-  <meta name="description" content="AWS ships 66 local servers, Google Cloud ships 18 managed remote endpoints, and Azure ships one unified server for 47&#43; services. We compare architecture, coverage, setup, and which one to pick for your cloud.">
+  <meta name="description" content="AWS ships 68 local servers, Google Cloud ships 18 managed remote endpoints, and Azure ships one unified server for 47&#43; services. We compare architecture, coverage, setup, and which one to pick for your cloud.">
   <meta property="og:title" content="AWS vs Google Cloud vs Azure — Cloud Provider MCP Servers Compared (2026) — ChatForest">
-  <meta property="og:description" content="AWS vs Google Cloud vs Azure MCP servers compared: 66 servers vs 18 endpoints vs 1 unified binary. Architecture, coverage, and recommendations.">
+  <meta property="og:description" content="AWS vs Google Cloud vs Azure MCP servers compared: 68 servers vs 18 endpoints vs 1 unified binary. Architecture, coverage, and recommendations.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://chatforest.com/guides/best-cloud-mcp-servers/">
   <meta property="og:site_name" content="ChatForest">
@@ -45,7 +45,7 @@
 
       <div class="article-body">
         <p>The three major cloud providers have all shipped MCP servers. Each took a fundamentally different approach — and the architecture matters more than the feature list.</p>
-<p>AWS built 66 separate servers in a monorepo. Google Cloud built 18 managed remote endpoints. Microsoft built one unified server covering 47+ services. Same problem, three philosophies.</p>
+<p>AWS built 68 separate servers in a monorepo. Google Cloud built 18 managed remote endpoints. Microsoft built one unified server covering 47+ services. Same problem, three philosophies.</p>
 <p>We&rsquo;ve reviewed all three: <a href="/reviews/aws-mcp-servers/">AWS MCP Servers</a> (4/5), <a href="/reviews/google-cloud-mcp-servers/">Google Cloud MCP Servers</a> (4/5), and <a href="/reviews/azure-mcp-servers/">Azure MCP Servers</a> (4/5). Here&rsquo;s how they compare head-to-head.</p>
 <h2 id="at-a-glance">At a Glance</h2>
 <table>
@@ -60,7 +60,7 @@
 <tbody>
 <tr>
 <td><strong>Architecture</strong></td>
-<td>66 separate local servers + managed remote preview</td>
+<td>68 separate local servers + managed remote preview</td>
 <td>18 managed remote endpoints + 15+ open-source</td>
 <td>1 unified server (47+ services) + 16 specialized</td>
 </tr>
@@ -123,7 +123,7 @@
 <ul>
 <li>Configuration complexity scales with services — using 10 AWS services means configuring 10 servers</li>
 <li>Local-first architecture requires Node.js/Python runtime on the agent&rsquo;s machine</li>
-<li>66 servers means 66 things to keep updated</li>
+<li>68 servers means 68 things to keep updated</li>
 </ul>
 <h3 id="google-cloud-the-managed-endpoint-model">Google Cloud: The Managed Endpoint Model</h3>
 <p>Google took the opposite approach. Instead of shipping servers you run locally, they host MCP endpoints on <code>googleapis.com</code>. Your agent connects over HTTPS, authenticates with Google Cloud credentials, and queries the service. No local binaries, no Docker, no runtime dependencies.</p>
@@ -401,7 +401,7 @@
 <h3 id="use-aws-mcp-servers-if">Use AWS MCP Servers if:</h3>
 <ul>
 <li>Your infrastructure runs on AWS</li>
-<li>You need deep per-service tooling (66 specialized servers)</li>
+<li>You need deep per-service tooling (68 specialized servers)</li>
 <li>You want the largest community (8,500 stars, 190+ releases)</li>
 <li>You&rsquo;re comfortable managing multiple servers per project</li>
 </ul>
@@ -429,7 +429,7 @@
 <p>The industry is moving toward remote. AWS&rsquo;s managed endpoint preview and Azure DevOps&rsquo;s remote server preview both signal that local-only won&rsquo;t be the long-term model. Google was early on this bet.</p>
 <h2 id="read-our-full-reviews">Read Our Full Reviews</h2>
 <ul>
-<li><a href="/reviews/aws-mcp-servers/">AWS MCP Servers</a> — 66 servers, 8,500 stars, the biggest MCP project in the ecosystem</li>
+<li><a href="/reviews/aws-mcp-servers/">AWS MCP Servers</a> — 68 servers, 8,500 stars, the biggest MCP project in the ecosystem</li>
 <li><a href="/reviews/google-cloud-mcp-servers/">Google Cloud MCP Servers</a> — 18 managed endpoints, the cloud-native architecture play</li>
 <li><a href="/reviews/azure-mcp-servers/">Azure &amp; Microsoft MCP Servers</a> — one unified server for 47+ services, built into VS 2026</li>
 </ul>
@@ -445,7 +445,7 @@
     
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","author":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"datePublished":"2026-03-20T18:00:00+09:00","description":"AWS ships 66 local servers, Google Cloud ships 18 managed remote endpoints, and Azure ships one unified server for 47+ services. We compare architecture, coverage, setup, and which one to pick for your cloud.","headline":"AWS vs Google Cloud vs Azure — Cloud Provider MCP Servers Compared (2026)","mainEntityOfPage":"https://chatforest.com/guides/best-cloud-mcp-servers/","publisher":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"url":"https://chatforest.com/guides/best-cloud-mcp-servers/"}
+{"@context":"https://schema.org","@type":"Article","author":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"datePublished":"2026-03-20T18:00:00+09:00","description":"AWS ships 68 local servers, Google Cloud ships 18 managed remote endpoints, and Azure ships one unified server for 47+ services. We compare architecture, coverage, setup, and which one to pick for your cloud.","headline":"AWS vs Google Cloud vs Azure — Cloud Provider MCP Servers Compared (2026)","mainEntityOfPage":"https://chatforest.com/guides/best-cloud-mcp-servers/","publisher":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"url":"https://chatforest.com/guides/best-cloud-mcp-servers/"}
 </script>
 
 

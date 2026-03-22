@@ -1,10 +1,10 @@
 ---
-title: "AWS MCP Servers — 66 Servers, One Monorepo, and the Biggest Bet in the MCP Ecosystem"
+title: "AWS MCP Servers — 68 Servers, One Monorepo, and the Biggest Bet in the MCP Ecosystem"
 date: 2026-03-14T12:28:00+09:00
-description: "AWS's awslabs/mcp monorepo ships 66 specialized MCP servers covering compute, databases, AI/ML, serverless, containers, security, and cost analysis. 8,500 stars, 190+ releases, Apache 2.0. The most ambitious MCP project in the ecosystem."
-og_description: "AWS MCP servers: 66 servers in one monorepo. 8,500 stars, 190+ releases, ~80K monthly core downloads. Cloud infrastructure through natural language. Rating: 4/5."
+description: "AWS's awslabs/mcp monorepo ships 68 specialized MCP servers covering compute, databases, AI/ML, serverless, containers, security, and cost analysis. 8,500 stars, 190+ releases, Apache 2.0. The most ambitious MCP project in the ecosystem."
+og_description: "AWS MCP servers: 68 servers in one monorepo. 8,500 stars, 190+ releases, ~80K monthly core downloads. Cloud infrastructure through natural language. Rating: 4/5."
 content_type: "Review"
-card_description: "The AWS MCP ecosystem — 66 specialized servers for compute, databases, AI/ML, serverless, containers, security, and cost analysis. Core MCP Server orchestrates them via role-based configurations."
+card_description: "The AWS MCP ecosystem — 68 specialized servers for compute, databases, AI/ML, serverless, containers, security, and cost analysis. Core MCP Server orchestrates them via role-based configurations."
 ---
 
 Sixty-six MCP servers. One monorepo. And a managed remote endpoint in preview. AWS hasn't just built an MCP server — they've built an MCP operating system for cloud infrastructure.
@@ -15,7 +15,7 @@ No other MCP project comes close in scope. But scope and quality aren't the same
 
 ## What It Is
 
-Unlike every other review on this site, this isn't a single server — it's a suite. The `awslabs/mcp` monorepo contains 66 specialized MCP servers organized into categories:
+Unlike every other review on this site, this isn't a single server — it's a suite. The `awslabs/mcp` monorepo contains 68 specialized MCP servers organized into categories:
 
 **Documentation & Knowledge** (3 servers):
 
@@ -155,7 +155,7 @@ Individual servers can also be run standalone:
 
 The **AWS Knowledge MCP Server** is the easiest to try — it's a fully managed remote server at `https://knowledge-mcp.global.api.aws` with Streamable HTTP transport, no authentication required, and no local setup. Just point your MCP client at the URL and start querying AWS documentation.
 
-**Setup difficulty: Moderate to Hard.** The Knowledge server is one-click. The Documentation server needs Python 3.10+ and `uv`. The API server and infrastructure servers require AWS credentials, proper IAM permissions, and understanding of which of the 66 servers you actually need. The Core MCP Server's role system helps, but "which roles do I enable?" is itself a non-trivial question.
+**Setup difficulty: Moderate to Hard.** The Knowledge server is one-click. The Documentation server needs Python 3.10+ and `uv`. The API server and infrastructure servers require AWS credentials, proper IAM permissions, and understanding of which of the 68 servers you actually need. The Core MCP Server's role system helps, but "which roles do I enable?" is itself a non-trivial question.
 
 ## What Works Well
 
@@ -175,11 +175,11 @@ The **AWS Knowledge MCP Server** is the easiest to try — it's a fully managed 
 
 ## What Doesn't Work Well
 
-**Overwhelming complexity.** 66 servers is not a feature — it's a configuration nightmare. Which server do I need for DynamoDB? Is it the DynamoDB MCP server, the NoSQL DB Specialist role in Core MCP, or the Data Platform Engineering role? The documentation site helps, but the sheer surface area makes getting started harder than it should be.
+**Overwhelming complexity.** 68 servers is not a feature — it's a configuration nightmare. Which server do I need for DynamoDB? Is it the DynamoDB MCP server, the NoSQL DB Specialist role in Core MCP, or the Data Platform Engineering role? The documentation site helps, but the sheer surface area makes getting started harder than it should be.
 
 **EKS exposes Kubernetes secrets in plain text.** Issue [#2588](https://github.com/awslabs/mcp/issues/2588) reports that the EKS MCP server decodes Kubernetes secrets into plain text when agents access them. While the server requires `--allow-sensitive-data-access` to enable this, the fact that secrets are decoded rather than referenced is a security concern. The documentation advises against using MCP tools for creating secrets, but the risk of accidental exposure remains.
 
-**stdio only (mostly).** The Knowledge server supports Streamable HTTP, and the managed AWS MCP preview is remote, but the vast majority of the 66 servers are stdio-only. SSE support was explicitly removed in May 2025. For teams that want shared infrastructure MCP endpoints, this is limiting.
+**stdio only (mostly).** The Knowledge server supports Streamable HTTP, and the managed AWS MCP preview is remote, but the vast majority of the 68 servers are stdio-only. SSE support was explicitly removed in May 2025. For teams that want shared infrastructure MCP endpoints, this is limiting.
 
 **125 open issues.** Region hardcoding bugs (#2677 — DataProcessing hardcodes us-east-1), Cassandra driver build failures (#2674), package filtering logic flaws (#2656), IAM authentication issues (#2505), and cursor-freezing bugs (#2495). Most carry the "needs-triage" label. For a project with 190+ releases, the issue backlog suggests velocity is in features, not stability.
 
@@ -195,7 +195,7 @@ The **AWS Knowledge MCP Server** is the easiest to try — it's a fully managed 
 
 There is no direct comparison — nobody else has attempted anything at this scale. But individual AWS MCP servers compete in categories we've reviewed:
 
-**vs. [Cloudflare MCP](/reviews/cloudflare-mcp-server/) (4.5/5):** Cloudflare's single server covers Workers, KV, R2, D1, and more with tighter integration and simpler setup. AWS distributes similar functionality across 66 servers. Cloudflare's approach is more user-friendly; AWS's is more comprehensive.
+**vs. [Cloudflare MCP](/reviews/cloudflare-mcp-server/) (4.5/5):** Cloudflare's single server covers Workers, KV, R2, D1, and more with tighter integration and simpler setup. AWS distributes similar functionality across 68 servers. Cloudflare's approach is more user-friendly; AWS's is more comprehensive.
 
 **vs. [Docker MCP](/reviews/docker-mcp-server/) (3.5/5) for containers:** AWS has three container-related servers (EKS, ECS, Finch) that operate at a higher level of abstraction — they manage cloud container services, not local Docker daemons. Different use cases: Docker MCP for local development, AWS container MCPs for cloud orchestration.
 
@@ -213,7 +213,7 @@ But ambition creates its own problems. The sheer number of servers makes discove
 
 For AWS-heavy teams, this is essential infrastructure — the Knowledge server alone is worth setting up. For teams evaluating cloud MCP options, start with the managed AWS MCP preview or the Knowledge server, then add specific servers as needs arise. Don't try to enable everything at once.
 
-**Rating: 4 out of 5** — the most comprehensive cloud MCP integration in the ecosystem, with active development, strong security design, and a managed remote endpoint, held back by overwhelming complexity, security gaps, and uneven polish across 66 servers.
+**Rating: 4 out of 5** — the most comprehensive cloud MCP integration in the ecosystem, with active development, strong security design, and a managed remote endpoint, held back by overwhelming complexity, security gaps, and uneven polish across 68 servers.
 
 | | |
 |---|---|
@@ -221,7 +221,7 @@ For AWS-heavy teams, this is essential infrastructure — the Knowledge server a
 | **Publisher** | AWS (awslabs) |
 | **Repository** | [awslabs/mcp](https://github.com/awslabs/mcp) |
 | **Stars** | ~8,500 |
-| **Servers** | 66 |
+| **Servers** | 68 |
 | **Transport** | stdio (most), Streamable HTTP (Knowledge, managed preview) |
 | **Language** | Python |
 | **License** | Apache 2.0 |

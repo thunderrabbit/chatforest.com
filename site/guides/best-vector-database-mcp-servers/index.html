@@ -37,7 +37,7 @@
     <article>
       <div class="article-meta">
         <span>Developer Guide</span>
-        <span>2026-03-14 09:56:00</span>
+        <span>2026-03-22 18:00:00</span>
       </div>
 
       <h1 class="article-title">Best Vector Database MCP Servers in 2026</h1>
@@ -62,7 +62,7 @@
 <tr>
 <td><a href="/reviews/chroma-mcp-server/">Chroma MCP</a></td>
 <td>515</td>
-<td>13</td>
+<td>12</td>
 <td>stdio</td>
 <td>Full vector DB management</td>
 </tr>
@@ -75,14 +75,14 @@
 </tr>
 <tr>
 <td><a href="/reviews/pinecone-mcp-server/">Pinecone MCP</a></td>
-<td>56</td>
+<td>59</td>
 <td>9</td>
 <td>stdio</td>
 <td>Cloud vector search with reranking</td>
 </tr>
 <tr>
 <td><a href="/reviews/milvus-mcp-server/">Milvus MCP</a> (Zilliz)</td>
-<td>220</td>
+<td>223</td>
 <td>12</td>
 <td>stdio, SSE</td>
 <td>Self-hosted vector operations</td>
@@ -112,22 +112,21 @@
 </table>
 <h2 id="two-philosophies-one-category">Two Philosophies, One Category</h2>
 <p>The vector database MCP space splits into two camps, and understanding the divide saves you from picking the wrong server.</p>
-<p><strong>Database management servers</strong> give your agent full control: create collections, configure indexes, insert documents, query, update, delete. Chroma (13 tools) and Milvus (12 tools) take this approach. Your agent can build and manage vector infrastructure from scratch.</p>
+<p><strong>Database management servers</strong> give your agent full control: create collections, configure indexes, insert documents, query, update, delete. Chroma (12 tools) and Milvus (12 tools) take this approach. Your agent can build and manage vector infrastructure from scratch.</p>
 <p><strong>Semantic memory servers</strong> hide the database entirely. Your agent stores text and retrieves it by meaning. Qdrant (2 tools) is the purest version of this — there&rsquo;s no collection management, no index configuration, no delete. The server handles embeddings, storage, and retrieval behind the scenes.</p>
 <p>Pinecone (9 tools) sits between the two. You can list and describe indexes, but creation is limited to Pinecone&rsquo;s integrated embedding models. The focus is on search quality — cascading search across indexes, built-in reranking — not infrastructure management.</p>
 <p>Which philosophy you want depends on your use case. Building a RAG pipeline that needs careful tuning? You want database management. Adding persistent memory to a coding agent? Semantic memory is simpler and sufficient.</p>
 <h2 id="the-reviewed-servers">The Reviewed Servers</h2>
 <h3 id="chroma-mcp--most-comprehensive-355">Chroma MCP — Most Comprehensive (3.5/5)</h3>
 <p><strong><a href="/reviews/chroma-mcp-server/">Read our full review</a></strong></p>
-<p><a href="https://github.com/chroma-core/chroma-mcp">Chroma&rsquo;s official MCP server</a> has 13 tools — more than any other vector database MCP server. Eight handle collection management (create, list, peek, fork, modify, delete), five handle document operations (add, query, get, update, delete). It&rsquo;s the only server that lets your agent configure HNSW index parameters at collection creation time.</p>
+<p><a href="https://github.com/chroma-core/chroma-mcp">Chroma&rsquo;s official MCP server</a> has 12 tools — tied with Milvus for the most in the category. Seven handle collection management (create, list, peek, get info, count, modify, delete), five handle document operations (add, query, get, update, delete). It&rsquo;s the only server that lets your agent configure HNSW index parameters at collection creation time.</p>
 <p><strong>What sets it apart:</strong></p>
 <ul>
 <li>Four deployment modes: ephemeral (in-memory), persistent (local files), self-hosted HTTP, and Chroma Cloud</li>
 <li>Six embedding providers: Default, Cohere, OpenAI, Jina, VoyageAI, Roboflow</li>
-<li><code>chroma_fork_collection</code> — duplicate collections for safe experimentation</li>
 <li>Combined semantic + full-text + regex search through a single <code>query_documents</code> tool</li>
 </ul>
-<p><strong>The catch:</strong> Stdio-only transport means no remote MCP connections. Python-only. Still in beta with no releases in seven months. Query results can bloat your context window — a single query returns full document text, metadata, embeddings, and distances without any way to limit fields.</p>
+<p><strong>The catch:</strong> Stdio-only transport means no remote MCP connections. Python-only. Currently at v0.2.6 (August 2025) with development slowing. Query results can bloat your context window — a single query returns full document text, metadata, embeddings, and distances without any way to limit fields.</p>
 <p><strong>Best for:</strong> Developers who need full vector database management through their agent and are comfortable with local Python tooling.</p>
 <h3 id="qdrant-mcp--most-adopted-35">Qdrant MCP — Most Adopted (3/5)</h3>
 <p><strong><a href="/reviews/qdrant-mcp-server/">Read our full review</a></strong></p>
@@ -138,13 +137,13 @@
 <li>Local embedded mode via <code>QDRANT_LOCAL_PATH</code> — zero infrastructure semantic memory</li>
 <li>Extensible <code>QdrantMCPServer</code> class for building custom servers on top</li>
 <li>Customizable tool descriptions via environment variables</li>
-<li>1,300 GitHub stars and 239 forks — most adopted by far</li>
+<li>1,300 GitHub stars and 243 forks — most adopted by far</li>
 </ul>
 <p><strong>The catch:</strong> Two tools is genuinely limiting. You can&rsquo;t delete stored information (open issues <a href="https://github.com/qdrant/mcp-server-qdrant/issues/74">#74</a> and <a href="https://github.com/qdrant/mcp-server-qdrant/issues/101">#101</a>). No collection management means you can&rsquo;t organize information by project or topic through the MCP interface. FastEmbed-only embedding by default.</p>
 <p><strong>Best for:</strong> Adding persistent semantic memory to coding agents. Not for managing vector infrastructure.</p>
 <h3 id="pinecone-mcp--best-search-quality-35">Pinecone MCP — Best Search Quality (3/5)</h3>
 <p><strong><a href="/reviews/pinecone-mcp-server/">Read our full review</a></strong></p>
-<p><a href="https://github.com/pinecone-io/pinecone-mcp">Pinecone&rsquo;s official Developer MCP server</a> (56 stars, v0.2.1) sits between the database-management and semantic-memory philosophies. Nine tools focus on search quality over infrastructure control — cascading search across indexes, built-in reranking, and documentation search without authentication.</p>
+<p><a href="https://github.com/pinecone-io/pinecone-mcp">Pinecone&rsquo;s official Developer MCP server</a> (59 stars, v0.2.1) sits between the database-management and semantic-memory philosophies. Nine tools focus on search quality over infrastructure control — cascading search across indexes, built-in reranking, and documentation search without authentication.</p>
 <p><strong>What sets it apart:</strong></p>
 <ul>
 <li><code>cascading-search</code> — the only vector DB MCP server with cross-index search and automatic deduplication</li>
@@ -156,7 +155,7 @@
 <p><strong>Best for:</strong> Pinecone users with integrated embedding indexes who want AI-assisted search with reranking and cross-index queries.</p>
 <h3 id="milvus-mcp--best-hybrid-search-355">Milvus MCP — Best Hybrid Search (3.5/5)</h3>
 <p><strong><a href="/reviews/milvus-mcp-server/">Read our full review</a></strong></p>
-<p><a href="https://github.com/zilliztech/mcp-server-milvus">Zilliz&rsquo;s Milvus MCP server</a> (220 stars) brings the most popular open-source vector database (40,000+ GitHub stars) to MCP with 12 tools — the second-highest tool count in the category after Chroma&rsquo;s 13.</p>
+<p><a href="https://github.com/zilliztech/mcp-server-milvus">Zilliz&rsquo;s Milvus MCP server</a> (223 stars) brings the most popular open-source vector database (40,000+ GitHub stars) to MCP with 12 tools — the second-highest tool count in the category after Chroma&rsquo;s 13.</p>
 <p><strong>What sets it apart:</strong></p>
 <ul>
 <li>Five search modes — text, vector, hybrid, text similarity, filter queries — more than any other vector DB MCP server</li>
@@ -194,7 +193,7 @@
 <tbody>
 <tr>
 <td><strong>Tools</strong></td>
-<td>13</td>
+<td>12</td>
 <td>2</td>
 <td>9</td>
 <td>12</td>
@@ -340,8 +339,8 @@
 <td><strong>GitHub stars</strong></td>
 <td>515</td>
 <td>1,300</td>
-<td>56</td>
-<td>220</td>
+<td>59</td>
+<td>223</td>
 <td>161</td>
 <td>23</td>
 </tr>
@@ -365,7 +364,7 @@
 </tr>
 <tr>
 <td><strong>Maturity</strong></td>
-<td>Beta</td>
+<td>v0.2.6</td>
 <td>Stable</td>
 <td>v0.2.1</td>
 <td>Pre-release</td>
@@ -380,7 +379,7 @@
 <p>If you&rsquo;re already using PostgreSQL with pgvector, your best option today is a general Postgres MCP server rather than a dedicated vector database MCP server. This gap will likely close as the ecosystem matures.</p>
 <h2 id="our-recommendations">Our Recommendations</h2>
 <h3 id="for-full-vector-database-management-chroma-mcp">For full vector database management: Chroma MCP</h3>
-<p>If you need your agent to create collections, configure indexes, manage documents, and run queries — Chroma is the only server that covers the full lifecycle. Thirteen tools, four deployment modes, six embedding providers. The stdio-only transport and stalling development are real concerns, but nothing else comes close on capability.</p>
+<p>If you need your agent to create collections, configure indexes, manage documents, and run queries — Chroma is the only server that covers the full lifecycle. Twelve tools, four deployment modes, six embedding providers. The stdio-only transport and stalling development are real concerns, but nothing else comes close on capability.</p>
 <h3 id="for-semantic-memory-qdrant-mcp">For semantic memory: Qdrant MCP</h3>
 <p>If you want to add persistent memory to a coding agent without thinking about vector infrastructure, Qdrant&rsquo;s two-tool approach is the right abstraction. Store text, find it later by meaning. The broadest transport support (stdio, SSE, Streamable HTTP) means it works in more deployment scenarios than any competitor. Just accept that you can&rsquo;t delete anything yet.</p>
 <h3 id="for-search-quality-pinecone-mcpreviewspinecone-mcp-server">For search quality: <a href="/reviews/pinecone-mcp-server/">Pinecone MCP</a></h3>
@@ -397,7 +396,7 @@
 <p>→ <strong>Need remote MCP (not stdio)?</strong> <a href="/reviews/qdrant-mcp-server/">Qdrant MCP</a> is the only option with all three transports. <a href="/reviews/milvus-mcp-server/">Milvus MCP</a> has SSE. Zilliz Cloud MCP has Streamable HTTP. Everyone else is stdio-only.</p>
 <p>→ <strong>Need zero infrastructure?</strong> <a href="/reviews/qdrant-mcp-server/">Qdrant MCP</a> with <code>QDRANT_LOCAL_PATH</code> or <a href="/reviews/chroma-mcp-server/">Chroma MCP</a> in persistent mode — both run embedded without a separate server process.</p>
 <h2 id="the-bottom-line">The Bottom Line</h2>
-<p>The vector database MCP space is young. The two best servers here — Chroma and <a href="/reviews/milvus-mcp-server/">Milvus</a> at 3.5/5 each — have significant gaps (Chroma: no remote transport; Milvus: no local mode, pre-release maturity). The most adopted server — Qdrant at 1,300 stars — has just two tools. No server in this category supports OAuth authentication. None have reached 1.0.</p>
+<p>The vector database MCP space is young. The two best servers here — Chroma and <a href="/reviews/milvus-mcp-server/">Milvus</a> at 3.5/5 each — are now tied at 12 tools apiece but have significant gaps (Chroma: no remote transport; Milvus: no local mode, pre-release maturity). The most adopted server — Qdrant at 1,300 stars — has just two tools. No server in this category supports OAuth authentication. None have reached 1.0.</p>
 <p>But the trajectory is clear. Every major vector database vendor has planted a flag in the MCP ecosystem. The servers that invest in tool coverage, transport flexibility, and developer experience will pull ahead. Right now, Chroma leads on deployment flexibility, Milvus leads on search breadth (hybrid search), Qdrant leads on simplicity and reach, and Pinecone leads on search quality.</p>
 <p>Pick the server that matches your database. If you don&rsquo;t have a database yet and want the most capable MCP experience, start with <a href="/reviews/chroma-mcp-server/">Chroma</a>. If you just want semantic memory with zero friction, start with <a href="/reviews/qdrant-mcp-server/">Qdrant</a>.</p>
 <p>For how vector databases fit into the broader MCP ecosystem, see our <a href="/guides/best-mcp-servers/">mega-comparison of all MCP servers</a> and our <a href="/guides/best-database-mcp-servers/">database MCP server comparison</a>.</p>
@@ -411,7 +410,7 @@
     
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","author":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"datePublished":"2026-03-14T09:56:00+09:00","description":"Chroma vs Qdrant vs Pinecone vs Milvus — which vector database MCP server should you use? We compare every official server, their tool counts, transport support, and real tradeoffs.","headline":"Best Vector Database MCP Servers in 2026","mainEntityOfPage":"https://chatforest.com/guides/best-vector-database-mcp-servers/","publisher":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"url":"https://chatforest.com/guides/best-vector-database-mcp-servers/"}
+{"@context":"https://schema.org","@type":"Article","author":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"datePublished":"2026-03-22T18:00:00+09:00","description":"Chroma vs Qdrant vs Pinecone vs Milvus — which vector database MCP server should you use? We compare every official server, their tool counts, transport support, and real tradeoffs.","headline":"Best Vector Database MCP Servers in 2026","mainEntityOfPage":"https://chatforest.com/guides/best-vector-database-mcp-servers/","publisher":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"url":"https://chatforest.com/guides/best-vector-database-mcp-servers/"}
 </script>
 
 

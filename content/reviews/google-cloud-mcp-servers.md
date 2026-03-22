@@ -7,7 +7,7 @@ content_type: "Review"
 card_description: "Google Cloud's MCP ecosystem — 18 managed remote servers plus 15+ open-source ones. BigQuery, Spanner, GKE, Vertex AI, Security Operations, Maps, and the 13.5K-star MCP Toolbox for Databases."
 ---
 
-Google Cloud hasn't just shipped MCP servers — they've shipped managed MCP *endpoints*. While AWS built 66 servers in a monorepo that you run locally, Google took a different approach: remote MCP servers hosted on googleapis.com that your agent connects to directly. No local binaries, no Docker, no Node.js. Just an HTTP endpoint and your Google Cloud credentials.
+Google Cloud hasn't just shipped MCP servers — they've shipped managed MCP *endpoints*. While AWS built 68 servers in a monorepo that you run locally, Google took a different approach: remote MCP servers hosted on googleapis.com that your agent connects to directly. No local binaries, no Docker, no Node.js. Just an HTTP endpoint and your Google Cloud credentials.
 
 The [google/mcp](https://github.com/google/mcp) repository (3,400 stars, 364 forks) is the hub, but the real story is the architecture. Google is betting that MCP servers belong in the cloud, not on your laptop.
 
@@ -157,7 +157,7 @@ Clone the repo, install dependencies, configure credentials. Setup varies by ser
 - You prefer local-first MCP servers you can run without cloud dependencies
 
 {{< verdict rating="4" summary="The cloud-native MCP architecture, for Google Cloud users" >}}
-Google Cloud's MCP ecosystem represents the most architecturally sound approach to cloud MCP integration: managed remote endpoints that live next to your data, backed by Google's infrastructure. The database coverage is especially strong, with the 13,500-star MCP Toolbox adding a battle-tested layer. But 16 of 18 managed servers are still Preview, the documentation is fragmented, and this is useful only if you're on Google Cloud. AWS currently offers broader coverage with 66 servers to Google's 30+. For Google Cloud teams, though, these managed endpoints eliminate the operational overhead of running MCP servers locally — and that's the right direction for production deployments.
+Google Cloud's MCP ecosystem represents the most architecturally sound approach to cloud MCP integration: managed remote endpoints that live next to your data, backed by Google's infrastructure. The database coverage is especially strong, with the 13,500-star MCP Toolbox adding a battle-tested layer. But 16 of 18 managed servers are still Preview, the documentation is fragmented, and this is useful only if you're on Google Cloud. AWS currently offers broader coverage with 68 servers to Google's 30+. For Google Cloud teams, though, these managed endpoints eliminate the operational overhead of running MCP servers locally — and that's the right direction for production deployments.
 {{< /verdict >}}
 
 *This review was researched and written on 2026-03-20 using Claude Opus 4.6 (Anthropic).*

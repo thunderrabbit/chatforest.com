@@ -1,15 +1,15 @@
 ---
 title: "AWS vs Google Cloud vs Azure — Cloud Provider MCP Servers Compared (2026)"
 date: 2026-03-20T18:00:00+09:00
-description: "AWS ships 66 local servers, Google Cloud ships 18 managed remote endpoints, and Azure ships one unified server for 47+ services. We compare architecture, coverage, setup, and which one to pick for your cloud."
-og_description: "AWS vs Google Cloud vs Azure MCP servers compared: 66 servers vs 18 endpoints vs 1 unified binary. Architecture, coverage, and recommendations."
+description: "AWS ships 68 local servers, Google Cloud ships 18 managed remote endpoints, and Azure ships one unified server for 47+ services. We compare architecture, coverage, setup, and which one to pick for your cloud."
+og_description: "AWS vs Google Cloud vs Azure MCP servers compared: 68 servers vs 18 endpoints vs 1 unified binary. Architecture, coverage, and recommendations."
 content_type: "Comparison"
-card_description: "AWS (66 servers, 8,500 stars) vs Google Cloud (18 managed endpoints, 3,400 stars) vs Azure (1 unified server, 47+ services, 2,800 stars) — three radically different architectures for cloud MCP."
+card_description: "AWS (68 servers, 8,500 stars) vs Google Cloud (18 managed endpoints, 3,400 stars) vs Azure (1 unified server, 47+ services, 2,800 stars) — three radically different architectures for cloud MCP."
 ---
 
 The three major cloud providers have all shipped MCP servers. Each took a fundamentally different approach — and the architecture matters more than the feature list.
 
-AWS built 66 separate servers in a monorepo. Google Cloud built 18 managed remote endpoints. Microsoft built one unified server covering 47+ services. Same problem, three philosophies.
+AWS built 68 separate servers in a monorepo. Google Cloud built 18 managed remote endpoints. Microsoft built one unified server covering 47+ services. Same problem, three philosophies.
 
 We've reviewed all three: [AWS MCP Servers](/reviews/aws-mcp-servers/) (4/5), [Google Cloud MCP Servers](/reviews/google-cloud-mcp-servers/) (4/5), and [Azure MCP Servers](/reviews/azure-mcp-servers/) (4/5). Here's how they compare head-to-head.
 
@@ -17,7 +17,7 @@ We've reviewed all three: [AWS MCP Servers](/reviews/aws-mcp-servers/) (4/5), [G
 
 | | AWS | Google Cloud | Azure |
 |---|---|---|---|
-| **Architecture** | 66 separate local servers + managed remote preview | 18 managed remote endpoints + 15+ open-source | 1 unified server (47+ services) + 16 specialized |
+| **Architecture** | 68 separate local servers + managed remote preview | 18 managed remote endpoints + 15+ open-source | 1 unified server (47+ services) + 16 specialized |
 | **GitHub** | [awslabs/mcp](https://github.com/awslabs/mcp) | [google/mcp](https://github.com/google/mcp) | [microsoft/mcp](https://github.com/microsoft/mcp) |
 | **Stars** | 8,500 | 3,400 (+ 13,500 for Toolbox) | 2,800 |
 | **Transport** | stdio (local) + streamable HTTP (preview) | HTTP (managed) + stdio (open-source) | stdio (local only) |
@@ -43,7 +43,7 @@ AWS built a server for everything. S3, DynamoDB, Lambda, ECS, CDK, Bedrock, Clou
 **Trade-offs:**
 - Configuration complexity scales with services — using 10 AWS services means configuring 10 servers
 - Local-first architecture requires Node.js/Python runtime on the agent's machine
-- 66 servers means 66 things to keep updated
+- 68 servers means 68 things to keep updated
 
 ### Google Cloud: The Managed Endpoint Model
 
@@ -193,7 +193,7 @@ Cloud MCP servers are deeply integrated with their provider's authentication, AP
 
 ### Use AWS MCP Servers if:
 - Your infrastructure runs on AWS
-- You need deep per-service tooling (66 specialized servers)
+- You need deep per-service tooling (68 specialized servers)
 - You want the largest community (8,500 stars, 190+ releases)
 - You're comfortable managing multiple servers per project
 
@@ -227,7 +227,7 @@ The industry is moving toward remote. AWS's managed endpoint preview and Azure D
 
 ## Read Our Full Reviews
 
-- [AWS MCP Servers](/reviews/aws-mcp-servers/) — 66 servers, 8,500 stars, the biggest MCP project in the ecosystem
+- [AWS MCP Servers](/reviews/aws-mcp-servers/) — 68 servers, 8,500 stars, the biggest MCP project in the ecosystem
 - [Google Cloud MCP Servers](/reviews/google-cloud-mcp-servers/) — 18 managed endpoints, the cloud-native architecture play
 - [Azure & Microsoft MCP Servers](/reviews/azure-mcp-servers/) — one unified server for 47+ services, built into VS 2026
 

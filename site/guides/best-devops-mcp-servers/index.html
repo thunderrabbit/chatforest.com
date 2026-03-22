@@ -118,7 +118,7 @@
 <td>AWS Labs (official)</td>
 <td>Local (stdio) + Remote (Knowledge, preview)</td>
 <td>AWS credentials</td>
-<td>66 servers</td>
+<td>68 servers</td>
 <td>Yes (free tier)</td>
 <td>AWS resource management</td>
 </tr>
@@ -126,7 +126,7 @@
 <td>Azure DevOps MCP</td>
 <td>DevOps platform</td>
 <td>Microsoft (official)</td>
-<td>Local + Remote (planned)</td>
+<td>Local + Remote (public preview)</td>
 <td>OAuth / PAT</td>
 <td>30+</td>
 <td>Yes (5 users)</td>
@@ -157,15 +157,15 @@
 <p><strong>Best for:</strong> Developers who use Docker Desktop and want a curated, secure way to discover and manage MCP servers alongside container operations.</p>
 <h3 id="kubernetes-mcp--cluster-operations-via-natural-language">Kubernetes MCP — Cluster Operations via Natural Language</h3>
 <p><strong><a href="https://github.com/containers/kubernetes-mcp-server">containers/kubernetes-mcp-server</a></strong> | Red Hat / Community | <strong><a href="/reviews/kubernetes-mcp-server/">Full review</a> (4/5)</strong></p>
-<p>The Kubernetes MCP ecosystem is fragmented — there are at least six implementations on GitHub. The most mature is Red Hat&rsquo;s <code>containers/kubernetes-mcp-server</code>, a Go-native binary that talks directly to the Kubernetes API server (not just wrapping kubectl). 1,300 stars, 285 forks, 747 commits, 58 releases. Other notable options include <code>Flux159/mcp-server-kubernetes</code> (1,300 stars, TypeScript, kubectl wrapper), <code>rohitg00/kubectl-mcp-server</code> (821 stars, 235+ tools including non-K8s features), and <code>strowk/mcp-k8s-go</code> (440 stars, resource-focused).</p>
+<p>The Kubernetes MCP ecosystem is fragmented — there are at least six implementations on GitHub. The most mature is Red Hat&rsquo;s <code>containers/kubernetes-mcp-server</code>, a Go-native binary that talks directly to the Kubernetes API server (not just wrapping kubectl). 1,300 stars, 292 forks, 765 commits, 59 releases. Other notable options include <code>Flux159/mcp-server-kubernetes</code> (1,300 stars, TypeScript, kubectl wrapper), <code>rohitg00/kubectl-mcp-server</code> (821 stars, 235+ tools including non-K8s features), and <code>strowk/mcp-k8s-go</code> (440 stars, resource-focused).</p>
 <p>Red Hat&rsquo;s implementation organizes capabilities into <strong>6 modular toolsets</strong>: core (pods, resources, events, nodes, metrics), config (kubeconfig, context switching), Helm (chart install/uninstall/list), KubeVirt (VM management), Kiali (service mesh observability), and KCP (multi-tenant workspaces). Enable only what you need with <code>--toolsets core,config,helm</code>.</p>
 <p>The safety model is the strongest in the Kubernetes MCP space: <code>--read-only</code> prevents all writes, <code>--disable-destructive</code> blocks deletes/updates while allowing creates, denied resource lists block access to sensitive types like Secrets, and automatic redaction strips tokens and credentials from output. Supports stdio, SSE, and Streamable HTTP transports. Distributed as native binary, npm, pip, and Docker image.</p>
-<p><strong>Strengths:</strong> Native Go binary (fast, no runtime dependencies), direct K8s API interaction, 6 modular toolsets, multi-cluster support, read-only and non-destructive modes, automatic secret redaction, TOML config with drop-in directory and SIGHUP reload, OpenTelemetry tracing, supports any K8s/OpenShift resource including CRDs, pod exec capability.</p>
-<p><strong>Weaknesses:</strong> Still v0.0.x (58 releases, API unstable), 48 open issues including a <a href="https://github.com/containers/kubernetes-mcp-server/issues/762">security audit with 2 findings</a>, <a href="https://github.com/containers/kubernetes-mcp-server/issues/347">panic bug in pods_log</a>, no granular read-only permissions (<a href="https://github.com/containers/kubernetes-mcp-server/issues/568">#568</a>), no dedicated Job/CronJob tools (<a href="https://github.com/containers/kubernetes-mcp-server/issues/370">#370</a>), OpenShift in developer preview, KubeVirt eval failures (<a href="https://github.com/containers/kubernetes-mcp-server/issues/838">#838</a>).</p>
+<p><strong>Strengths:</strong> Native Go binary (fast, no runtime dependencies), direct K8s API interaction, 6 modular toolsets, multi-cluster support, read-only and non-destructive modes, automatic secret redaction, TOML config with drop-in directory and SIGHUP reload, OpenTelemetry tracing, supports any K8s/OpenShift resource including CRDs, pod exec capability, container images now on ghcr.io for MCP Registry compatibility.</p>
+<p><strong>Weaknesses:</strong> Still v0.0.x (59 releases, API unstable), 50 open issues including a <a href="https://github.com/containers/kubernetes-mcp-server/issues/762">security audit with 2 findings</a>, no granular read-only permissions (<a href="https://github.com/containers/kubernetes-mcp-server/issues/568">#568</a>), no dedicated Job/CronJob tools (<a href="https://github.com/containers/kubernetes-mcp-server/issues/370">#370</a>), OpenShift in developer preview, KubeVirt eval failures (<a href="https://github.com/containers/kubernetes-mcp-server/issues/838">#838</a>).</p>
 <p><strong>Best for:</strong> Platform engineers who want AI-assisted Kubernetes operations with real safety controls. The modular architecture lets you start small (core + config) and add capabilities as needed.</p>
 <h3 id="terraform-mcp--infrastructure-as-code-intelligence">Terraform MCP — Infrastructure as Code Intelligence</h3>
 <p><strong><a href="https://github.com/hashicorp/terraform-mcp-server">hashicorp/terraform-mcp-server</a></strong> | Official, Beta | <strong><a href="/reviews/terraform-mcp-server/">Full review</a> (4/5)</strong></p>
-<p>HashiCorp&rsquo;s Terraform MCP server is focused on making AI agents write better Terraform configurations. Rather than managing infrastructure directly, it gives agents real-time access to the Terraform Registry — provider documentation, module specifications, Sentinel policies, and version information. 1,300 stars, 134 forks, 323 commits, 10 releases since May 2025, Go.</p>
+<p>HashiCorp&rsquo;s Terraform MCP server is focused on making AI agents write better Terraform configurations. Rather than managing infrastructure directly, it gives agents real-time access to the Terraform Registry — provider documentation, module specifications, Sentinel policies, and version information. 1,300 stars, 136 forks, 323 commits, 11 releases since May 2025, Go.</p>
 <p><strong>35+ tools</strong> across six functional areas: registry (8 tools for searching providers, modules, and policies with full documentation retrieval), HCP Terraform workspace management (12 tools for creating/updating/deleting workspaces, managing runs, and checking token permissions), private registry (4 tools for organization-specific modules and providers), variable management (9 tools for variable sets and workspace variables), policy and tags (4 tools for governance), and Stacks (2 tools for multi-component deployments).</p>
 <p>The server includes <strong>MCP resources</strong> for the Terraform Style Guide, Module Development Guide, and dynamic provider documentation — giving agents reference material beyond just tool calls.</p>
 <p>Setup is straightforward: Docker image (<code>hashicorp/terraform-mcp-server:0.4.0</code>), Go install, or one-click installers for VS Code, Cursor, Claude Desktop, and Claude Code. Registry lookups work immediately with no auth; HCP Terraform features require a <code>TFE_TOKEN</code>. Tool filtering via <code>--toolsets</code> and <code>--tools</code> flags controls the attack surface. Built-in rate limiting (global and per-session) protects APIs from overuse.</p>
@@ -182,20 +182,21 @@
 <p><strong>Best for:</strong> Teams already using Pulumi who want AI agents with full execution capabilities. Teams that want autonomous infrastructure provisioning via Neo. Teams that prefer writing IaC in general-purpose programming languages instead of HCL.</p>
 <h3 id="aws-mcp--the-cloud-infrastructure-suite">AWS MCP — The Cloud Infrastructure Suite</h3>
 <p><strong><a href="https://github.com/awslabs/mcp">awslabs/mcp</a></strong> | Official, Open Source | <strong><a href="/reviews/aws-mcp-servers/">Full review</a> (4/5)</strong></p>
-<p>AWS doesn&rsquo;t ship one MCP server — it ships a suite of 66 specialized servers covering the breadth of AWS services. 8,500 stars, 1,400 forks, 190+ releases with daily automated CI/CD. The flagship is the <strong>AWS MCP Server</strong> (preview), a managed remote server that provides authenticated access to AWS APIs with CloudTrail audit logging and IAM-based permissions.</p>
+<p>AWS doesn&rsquo;t ship one MCP server — it ships a suite of 68 specialized servers covering the breadth of AWS services. 8,500 stars, 1,400 forks, 190+ releases with daily automated CI/CD. The flagship is the <strong>AWS MCP Server</strong> (preview), a managed remote server that provides authenticated access to AWS APIs with CloudTrail audit logging and IAM-based permissions.</p>
 <p>The <strong>Core MCP Server</strong> (~80K monthly PyPI downloads) acts as an orchestration layer, dynamically importing and proxying other servers via 16 role-based configurations (solutions-architect, dev-tools, finops, etc.). The <strong>API server</strong> provides <code>call_aws</code>, <code>suggest_aws_commands</code>, and <code>get_execution_plan</code> tools with <code>READ_OPERATIONS_ONLY</code> and <code>REQUIRE_MUTATION_CONSENT</code> safety controls. The <strong>Cloud Control API server</strong> enables CRUDL on any AWS resource via natural language.</p>
 <p>The <strong>Knowledge MCP Server</strong> is the easiest entry point — a free managed endpoint at <code>knowledge-mcp.global.api.aws</code> with Streamable HTTP, no auth required, indexing AWS docs, blog posts, What&rsquo;s New, API references, and Well-Architected guidance.</p>
-<p><strong>Strengths:</strong> Broadest coverage of any MCP server suite (66 servers), covers infrastructure, compute, data, AI/ML, security, cost analysis, healthcare, and more, official AWS maintenance, role-based orchestration via Core MCP, managed Knowledge endpoint, CloudTrail audit logging, Apache 2.0.</p>
-<p><strong>Weaknesses:</strong> Overwhelming complexity (66 servers), EKS exposes K8s secrets in plain text (#2588), 125 open issues, stdio-only on most servers (SSE removed May 2025), Cost Explorer incompatible with Bedrock AgentCore (#2442), deprecation churn (CDK, Terraform, Diagram servers deprecated), requires Python 3.12+ and uv.</p>
+<p><strong>Strengths:</strong> Broadest coverage of any MCP server suite (68 servers), covers infrastructure, compute, data, AI/ML, security, cost analysis, healthcare, and more, official AWS maintenance, role-based orchestration via Core MCP, managed Knowledge endpoint, CloudTrail audit logging, Apache 2.0.</p>
+<p><strong>Weaknesses:</strong> Overwhelming complexity (68 servers), EKS exposes K8s secrets in plain text (#2588), 127 open issues, stdio-only on most servers (SSE removed May 2025), Cost Explorer incompatible with Bedrock AgentCore (#2442), deprecation churn (CDK, Terraform, Diagram servers deprecated), requires Python 3.12+ and uv.</p>
 <p><strong>Best for:</strong> Teams building on AWS who want AI agents with deep access to AWS services, documentation, and infrastructure management. Start with the Knowledge server, add specific servers as needs arise.</p>
 <h3 id="azure-devops-mcp--the-devops-workflow-hub">Azure DevOps MCP — The DevOps Workflow Hub</h3>
 <p><strong><a href="https://github.com/microsoft/azure-devops-mcp">microsoft/azure-devops-mcp</a></strong> | Official, GA</p>
 <p>Microsoft&rsquo;s Azure DevOps MCP Server connects AI agents to the Azure DevOps platform — work items, pull requests, builds, pipelines, test plans, and wikis. It reached General Availability in late 2025, making it one of the most mature DevOps MCP servers.</p>
 <p>The GA release brought improved authentication (OAuth and PAT), domain-scoping for tool management, and refined internal APIs based on preview feedback. Azure DevOps MCP is now built into <strong>Visual Studio 2026</strong> out-of-the-box, meaning Azure users get MCP integration without any setup.</p>
-<p>A <strong>Remote MCP Server</strong> is on the 2026 roadmap — a hosted version that eliminates the need to run a local server. The initial release will focus on core platform capabilities and work item management.</p>
+<p>The <strong>Remote MCP Server</strong> is now in <strong>public preview</strong> for all organizations — a hosted version that eliminates the need to run a local server. Microsoft recommends migrating to the remote server for a simpler setup experience.</p>
+<p>The latest v2.5.0 release (March 2025) added pipeline artifact listing and downloading, a <code>list_directory</code> tool for repository navigation, PR vote functionality, and work item comment updates.</p>
 <p>Microsoft also ships a separate <strong>Azure MCP Server</strong> for Azure cloud resources (compute, storage, databases, etc.), which is distinct from the DevOps server. Together, they cover both the development workflow and the cloud infrastructure.</p>
-<p><strong>Strengths:</strong> GA status (most mature in this comparison), built into Visual Studio 2026, covers work items, PRs, builds, pipelines, tests, and wikis, OAuth authentication, remote server coming in 2026, backed by Microsoft.</p>
-<p><strong>Weaknesses:</strong> Azure DevOps-specific (doesn&rsquo;t help GitHub/GitLab users), local-only transport currently, separate from Azure cloud resource management, enterprise-focused (less relevant for small teams or startups).</p>
+<p><strong>Strengths:</strong> GA status (most mature in this comparison), built into Visual Studio 2026, Remote MCP Server now in public preview, covers work items, PRs, builds, pipelines, tests, and wikis, OAuth authentication, pipeline artifact management, backed by Microsoft.</p>
+<p><strong>Weaknesses:</strong> Azure DevOps-specific (doesn&rsquo;t help GitHub/GitLab users), remote server still in preview, separate from Azure cloud resource management, enterprise-focused (less relevant for small teams or startups).</p>
 <p><strong>Best for:</strong> Teams using Azure DevOps for project management and CI/CD who want AI-assisted workflow management directly in their IDE.</p>
 <h2 id="feature-comparison">Feature Comparison</h2>
 <table>
@@ -244,7 +245,7 @@
 <td>No</td>
 <td>HCP workspaces</td>
 <td>Resource search (all clouds)</td>
-<td>Deep (60+ servers)</td>
+<td>Deep (68 servers)</td>
 <td>Azure resources (separate server)</td>
 </tr>
 <tr>
@@ -299,7 +300,7 @@
 <td>Both</td>
 <td>Both</td>
 <td>Local (stdio)</td>
-<td>Local (remote planned)</td>
+<td>Local + Remote (preview)</td>
 </tr>
 <tr>
 <td>Status</td>
@@ -348,7 +349,7 @@
 </ol>
 <p>The most dangerous MCP server is one with broad write access to production infrastructure and no human review step. Don&rsquo;t be that team.</p>
 <h2 id="the-bigger-picture">The Bigger Picture</h2>
-<p>DevOps is the fastest-growing MCP server category. A year ago, none of these servers existed. Now every major platform has an official implementation, and AWS alone ships 60+ specialized servers.</p>
+<p>DevOps is the fastest-growing MCP server category. A year ago, none of these servers existed. Now every major platform has an official implementation, and AWS alone ships 68 specialized servers.</p>
 <p>The trend we&rsquo;re watching: <strong>the split between documentation-first and execution-first IaC servers.</strong> Terraform MCP and AWS Knowledge MCP focus on helping agents <em>write correct configurations</em> rather than <em>executing changes directly</em> — a deliberate safety choice. Pulumi MCP takes the opposite approach with <code>pulumi up</code> and Neo agent delegation, betting that AI-driven execution with proper guardrails (review modes, policy enforcement) is the future. Both approaches have merit — the industry is still learning which failure mode is more costly: agents that can&rsquo;t close the loop, or agents that close it too aggressively.</p>
 <p>Kubernetes MCP splits the difference with execution-capable servers that offer read-only and non-destructive safety modes. This makes sense — Kubernetes operations (checking pod status, reading logs, scaling deployments) are often safe and time-sensitive.</p>
 <p>For related tools, see our reviews of the <a href="/reviews/github-mcp-server/">GitHub MCP server</a> (4.5/5) for CI/CD, and our comparison guides for <a href="/guides/best-database-mcp-servers/">databases</a>, <a href="/guides/best-observability-mcp-servers/">observability</a>, and <a href="/guides/best-productivity-mcp-servers/">productivity</a>.</p>
