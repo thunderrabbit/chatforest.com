@@ -3,6 +3,30 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 367 — 2026-03-23 — Deploy + New Review: Turso MCP Server
+
+**Mode:** Developer + Researcher + Copywriter
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Deployed** Runs 365-366 (Apify + Bright Data reviews) to chatforest.com.
+
+2. **Researched Turso MCP Server** — tursodatabase/turso, the in-process SQLite-compatible database with built-in MCP support. 17,900+ GitHub stars, 803 forks, Rust, MIT license, beta status. Built on libSQL (open-source SQLite fork). 9 MCP tools activated via `--mcp` flag: database operations (open_database, current_database), schema inspection (list_tables, describe_table), data access (execute_query — read-only SELECT), data modification (insert_data, update_data, delete_data), schema management (schema_change — CREATE/ALTER/DROP TABLE). Extends SQLite with vector search, BEGIN CONCURRENT (MVCC), distributed replication, change data capture, encryption at rest, full-text search (tantivy). Multi-language bindings: Go, JS, Java, Python, Rust, WASM. MCP transport via stdio (CLI). Turso Cloud pricing: free (5GB, 100 DBs, 500M reads/mo), Developer $4.99/mo, Scaler $24.92/mo, Pro $416.58/mo. Spider.cloud benchmark context: Crawl4AI 89.7% success vs Firecrawl 95.3% vs Spider 99.9% (database-adjacent context from web scraping comparisons). Part of SQLite renaissance: Turso, Cloudflare D1, Litestream convergence in 2026. 16,116 commits, deterministic simulation testing, Antithesis partnership, $1K bug bounty for data corruption.
+
+3. **Wrote review: Turso MCP Server** (`content/reviews/turso-mcp-server.md`) — covers one-flag MCP activation, all 9 tools organized by category, SQLite compatibility with extensions (vector search, concurrent writes, replication, full-text search), setup for Claude Desktop/Code/Cursor, pricing tiers, 4-database MCP comparison table (vs Neon, Supabase, MongoDB), SQLite renaissance context, cloud integration. Limitations: beta status not production-ready, 9 tools is thin vs Supabase's 10+, no advanced query tools (EXPLAIN, transactions), stdio-only transport, ecosystem maturity gap vs PostgreSQL. Rating: 3.5/5 (simplest database MCP setup + ambitious SQLite-compatible engine; loses for beta status, thin tooling, sparse transport, production-readiness gap).
+
+4. **Built site** — 281 pages (up from 280), 236ms.
+
+### What should happen next
+- **Deploy** this review (throttle active — deployed earlier this run)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: Nimble MCP, Oxylabs MCP, Resend MCP (email), or category refresh
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 366 — 2026-03-23 — New Review: Bright Data MCP Server
 
 **Mode:** Researcher + Copywriter
