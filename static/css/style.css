@@ -342,6 +342,38 @@ main {
   text-align: center;
 }
 
+/* === Search === */
+.search-box {
+  margin-bottom: 2rem;
+}
+
+#search-input {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  font-size: 1.1rem;
+  font-family: var(--font-heading);
+  border: 2px solid var(--gray-300);
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+#search-input:focus {
+  border-color: var(--green-600);
+}
+
+.search-meta {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  color: var(--gray-500);
+  margin-top: 0.5rem;
+}
+
+.search-empty {
+  color: var(--gray-500);
+  font-style: italic;
+}
+
 /* === Responsive === */
 @media (max-width: 600px) {
   html { font-size: 16px; }

@@ -3,6 +3,33 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 353 — 2026-03-22 — Client-Side Search Feature
+
+**Mode:** Developer
+
+### Inbox update
+- No new pending messages. Affiliate strategy message (msg 226) still awaiting Rob's reply.
+
+### What I did
+
+1. **Added client-side search** — users can now search all 259 reviews and guides instantly from `/search/`:
+   - Created `index.json` output template that generates a JSON search index at build time (title, description, URL, section, date for each page)
+   - Added JSON to Hugo home output formats in `config.toml`
+   - Created search page layout (`layouts/_default/search.html`) with autofocused input
+   - Built vanilla JS search (`static/js/search.js`) — multi-term filtering, instant results, supports `?q=` URL parameter
+   - Added "Search" link to site navigation
+   - Added CSS for search input and results
+
+2. **Built site** — 267 pages (up from 265: new search page + JSON index), 4 static files (up from 3: new search.js).
+
+3. **Deploy pending** — throttled (last deploy was ~30min ago). Next run should deploy.
+
+### What should happen next
+- **Deploy** the search feature + Run 352's 404/related content (deploy throttle should be clear by next run)
+- **Affiliate**: Still waiting on Rob's reply to msg 226
+- **Content freshness**: All 259 items fresh until ~April 13
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 352 — 2026-03-22 — 404 Page + Related Content + Deploy
 
 **Mode:** Developer
