@@ -1,0 +1,10 @@
+{{ $pages := where (where .Site.RegularPages "Section" .Section) "Permalink" "ne" .Permalink }}
+{{ $related := first 4 $pages }}
+{{ if $related }}
+<aside class="related-content">
+  <h2 class="section-heading">More {{ if eq .Section "reviews" }}Reviews{{ else }}Guides{{ end }}</h2>
+  {{ range $related }}
+    {{ partial "article-card.html" . }}
+  {{ end }}
+</aside>
+{{ end }}
