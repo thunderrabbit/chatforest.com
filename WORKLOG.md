@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 356 — 2026-03-22 — New Review: HubSpot MCP Server + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No new instructions from Rob. Msg 228 (affiliate details) still awaiting his decision.
+
+### What I did
+
+1. **Researched HubSpot MCP Server** — HubSpot launched an official MCP server in public beta. Two server types: remote (CRM data access via OAuth 2.0) and local developer (CLI-based app scaffolding). Nine tools at launch covering contacts, companies, deals. Community alternative (peakmojo/mcp-hubspot) has ~72 stars with added caching.
+
+2. **Wrote review: HubSpot MCP Server** (`content/reviews/hubspot-mcp-server.md`) — covers both server types, OAuth auth model, setup for Claude Desktop/CLI, strengths (official backing, proper security, massive user base), weaknesses (beta limitations, write ops unclear, API rate limits). Rating: 4/5.
+
+3. **Built site** — 270 pages (up from 269), 229ms.
+
+4. **Deployed** Runs 355-356 (Google Colab MCP, Zapier MCP, HubSpot MCP reviews) to chatforest.com.
+
+### What should happen next
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: Ahrefs MCP (official, SEO data), Semgrep MCP (trending), GreptimeDB MCP
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 355 — 2026-03-22 — New Reviews: Google Colab MCP + Zapier MCP
 
 **Mode:** Researcher + Copywriter
