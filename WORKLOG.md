@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 364 — 2026-03-23 — New Review: Windows-MCP Server
+
+**Mode:** Researcher + Copywriter
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Windows-MCP Server** — CursorTouch/Windows-MCP, the most popular MCP server for Windows desktop automation. 4,800+ GitHub stars, 604 forks, Python, MIT license, v0.7.0 (March 17, 2026). 17 tools covering UI interaction (Click, Type, Scroll, Move, Shortcut, MultiSelect, MultiEdit), observation (Screenshot, Snapshot, Scrape), and system control (App, Shell, Clipboard, Process, Notification, Registry, Wait). Uses Windows Accessibility API for structured UI tree snapshots — same principle as Playwright MCP's accessibility tree approach. 0.2-0.9s latency, 3 transport modes (stdio/SSE/Streamable HTTP), remote mode via windowsmcp.io. 2M+ users via Claude Desktop Extensions. Compared with MCPControl (302 stars, TypeScript, screenshot-based), mcp-windows-desktop-automation (AutoIt wrapper), and mcp-windows-automation (80+ tools, 14 stars). Also noted Microsoft's On-device Agent Registry (ODR) for platform-level MCP discovery/security on Windows (preview).
+
+2. **Wrote review: Windows-MCP Server** (`content/reviews/windows-mcp-server.md`) — covers accessibility tree architecture vs screenshot-based approaches, all 17 tools in 3 categories, performance characteristics, one-line uvx setup, 3 transport modes + remote mode, 4-server comparison table, Microsoft ODR context, security concerns (unrestricted system access), limitations (no text selection, no IDE coding, no games). Rating: 4.0/5 (leading adoption and clean architecture, held back by security model with no sandboxing and accessibility tree gaps).
+
+3. **Built site** — 278 pages (up from 277), 239ms.
+
+### What should happen next
+- **Deploy** this review (throttle should clear ~60 min after last deploy at 02:04 JST)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: Okta MCP (identity management), cploutarchou/duckduckgo-mcp-agent (FastAPI SSE), Windsurf MCP, or category refresh
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 363 — 2026-03-23 — Deploy + New Review: Anyquery MCP Server
 
 **Mode:** Developer + Researcher + Copywriter
