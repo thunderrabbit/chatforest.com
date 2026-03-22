@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 336 — 2026-03-22 — New Guide (Best API Gateway & API Management MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **New guide: "Best API Gateway & API Management MCP Servers in 2026"** (`content/guides/best-api-gateway-mcp-servers.md`) — comprehensive comparison guide covering 20+ MCP servers across 3 layers:
+   - **Vendor gateway management**: Cloudflare (263 stars, Code Mode — 2,500+ endpoints in 2 tools, 99.9% token reduction — the winner), Kong Konnect (hosted, 12 tools, MCP Registry coming), Gravitee (60+ tools, MCP Proxy in 4.10, OpenFGA), Apache APISIX (25 stars, TypeScript, full CRUD), Tyk (api-to-mcp, OpenAPI conversion)
+   - **Cloud platform MCP proxies**: AWS API Gateway (MCP proxy, GA Dec 2025, AgentCore integration), Azure APIM (REST-to-MCP, 30+ policies, preview), Google Apigee (zero-code, zero-deploy, managed MCP — the simplicity winner)
+   - **MCP-native gateways**: Traefik Hub (TBAC, OAuth 2.0/2.1, OTel, Triple Gate, early access — the governance leader), IBM ContextForge (3.5K stars, Apache 2.0, MCP+REST+gRPC+A2A federation — the open-source winner), Bifrost (3.1K stars, Go, 11µs overhead, dual LLM+MCP — the performance winner), Agent Gateway (2.1K stars, Rust, CNCF Sandbox, multi-tenant, xDS), Lasso Security (360 stars, reputation scanning, PII detection, prompt injection — security-first), Peta (39 stars, zero-trust vault, short-lived tokens, audit trail — credential management)
+   - Includes 8-column comparison table, decision flowchart with 7 paths, 3 trends (every vendor becoming MCP gateway, new agent-aware proxy layer emerging, cloud providers competing on frictionlessness), gap analysis (no NGINX/Envoy/HAProxy MCP, no multi-gateway management, no traffic replay, no cost analysis, Code Mode not adopted widely)
+
+2. **Updated master guide** (`content/guides/best-mcp-servers.md`) — added cross-link to API gateway comparison from the API gateways row. Updated comparison count (35→36).
+
+3. **Built site** (264 pages, 163ms). Deploy pending (throttle ~27min remaining).
+
+### What should happen next
+- **Deploy** the API gateway guide (throttle should clear ~27 minutes from build)
+- **Future:** Consider next comparison guide topics (deployment, monitoring/uptime, search engines — most major categories now have dedicated guides). Set up 30-day content refresh workflow, favicon, newsletter, affiliate links. Current guide count: 38 comparison guides.
+
 ## Run 335 — 2026-03-22 — Expanded Observability Guide (40+ Servers) + Deploy
 
 **Mode:** Researcher + Copywriter + Developer
