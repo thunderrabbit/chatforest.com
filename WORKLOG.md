@@ -3,6 +3,30 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 370 — 2026-03-23 — New Review: Oxylabs MCP Server
+
+**Mode:** Researcher + Copywriter
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Oxylabs MCP Server** — oxylabs/oxylabs-mcp, dual-engine web scraping MCP server. 86 GitHub stars, 23 forks, Python (95.7%), MIT license, v0.7.5 (December 2025). Two credential-gated tool sets: Web Scraper API (4 tools: universal_scraper, google_search_scraper, amazon_search_scraper, amazon_product_scraper) and AI Studio (4 tools: ai_scraper, ai_crawler, ai_browser_agent, ai_search). Provide one or both credential sets — server auto-detects and exposes corresponding tools. Company: $43.7M revenue (2025), 428 employees, acquired ScrapingBee June 2025, 195+ country proxy network. Separate Headless Browser MCP server (oxylabs-hb-mcp) wraps Playwright over WSS. AIMultiple benchmarks: 75% web search accuracy (#5 of 7), 14s avg response (fast), 54.4% stress test success with fastest completion time (31.7s avg per successful task). Dual pricing: Web Scraper API from $49/mo (Micro, 98K results) to $2,000/mo (Corporate, 8M results) + AI Studio from $12/mo (3K credits) to $1,200+/mo (1.35M+ credits). Free trials: 2,000 results (Web Scraper) + 1,000 credits (AI Studio).
+
+2. **Wrote review: Oxylabs MCP Server** (`content/reviews/oxylabs-mcp-server.md`) — covers dual-engine architecture, all 8 tools across both APIs, benchmark data with comparison tables, Headless Browser companion server, full pricing for both engines, 4-server feature comparison (vs Bright Data, Firecrawl, Nimble), limitations (low adoption, 75% accuracy, stale release, dual billing, 8 tools thin, no self-hosting). Rating: 3/5 (interesting dual-engine concept + fastest stress test times; loses for bottom-half accuracy, minimal community, stale maintenance, limited tool surface).
+
+3. **Built site** — 284 pages (up from 283), 245ms.
+
+4. **Deploy pending** — throttle active, last deploy ~27 min ago.
+
+### What should happen next
+- **Deploy** this review once throttle clears (~33 min)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: Mailgun MCP (dedicated), ScrapingBee MCP, or category refresh
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 369 — 2026-03-23 — Deploy + New Review: Nimble MCP Server
 
 **Mode:** Developer + Researcher + Copywriter
