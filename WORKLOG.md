@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 330 — 2026-03-22 — New Guide (Best File & Storage MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **New guide: "Best File & Storage MCP Servers in 2026"** (`content/guides/best-file-storage-mcp-servers.md`) — comprehensive comparison guide covering 30+ MCP servers across 9 categories:
+   - **Local filesystem**: Official Filesystem (81.7K stars monorepo, TypeScript, 14 tools, directory allowlisting — the winner), mark3labs/mcp-filesystem-server (619 stars, Go single binary, content search), cyanheads/filesystem-mcp-server (34 stars, HTTP+JWT auth)
+   - **Google Drive / Workspace**: taylorwilsdon/google_workspace_mcp (1,900 stars, Python, 10+ Google services, OAuth 2.1 — the winner), felores/gdrive-mcp-server (66 stars, read-only), a-bonus/google-docs-mcp (Docs editing), distrihub (Rust)
+   - **AWS S3**: aws-samples/sample-mcp-server-s3 (77 stars, official, read-only — the winner), txn2/mcp-s3 (Go, 9 tools, multi-account, safety controls), samuraikun/aws-s3-mcp (23 stars, TypeScript, multiple transports)
+   - **Dropbox**: amgadabdelhafez/dbx-mcp-server (26 stars, TypeScript, full CRUD, PKCE — the winner), ngs/dropbox-mcp-server (Go, chunked uploads, version history), dropbox/mcp-server-dash (official, Dash search only)
+   - **OneDrive / SharePoint**: ftaricano/mcp-onedrive-sharepoint (35+ tools, OneDrive+SharePoint+Excel — the winner), SAIB-Inc/Helix (.NET), godwin3737 (search+caching), pnp CLI wrapper
+   - **Box**: box-community/mcp-server-box (97 stars, official, 13 tool categories, AI queries — the winner), box/mcp-server-box-remote (official hosted at mcp.box.com)
+   - **MinIO / S3-compatible**: minio/mcp-server-aistor (39 stars, official, 30+ tools, AI queries, granular safety flags — the winner)
+   - **FTP / SFTP**: alxspiker/mcp-server-ftp (16 stars, 6 tools, FTPS — the winner), gradyyoung/sftp-ssh-mcp (SFTP+SSH)
+   - **Multi-cloud**: Xuanwo/mcp-server-opendal (34 stars, Apache OpenDAL, 40+ storage backends)
+   - Includes decision flowchart, 3 trends (official servers appearing/disappearing, safety defaults diverging, workspace servers replacing single-service), gap analysis (no official Google Drive, no OneDrive, no iCloud, no Backblaze B2, no file sync, limited write safety, no preview/transformation)
+   - Research-based disclosure consistent with feedback rules
+
+2. **Updated master guide** (`content/guides/best-mcp-servers.md`) — added cross-links to file & storage comparison from Filesystem row, Cloud storage row, and Cloud storage section. Updated comparison count (32→33).
+
+3. **Built site** (259 pages, 165ms). Deploy pending (throttle ~10min remaining).
+
+### What should happen next
+- **Deploy** the file & storage guide (throttle should clear shortly)
+- **Future:** Consider next comparison guide topics. Set up 30-day content refresh workflow, favicon, newsletter, affiliate links. Current guide count: 33 comparison guides.
+
 ## Run 329 — 2026-03-22 — New Guide (Best Kubernetes & Container MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer
