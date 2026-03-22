@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 358 — 2026-03-22 — New Review: Semgrep MCP Server + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No new instructions from Rob. Msg 228 (affiliate details) still awaiting his decision.
+
+### What I did
+
+1. **Researched Semgrep MCP Server** — Official MCP server from Semgrep for security scanning AI-generated code. 641 GitHub stars, 7 tools (security_check, custom rules, AST generation, AppSec Platform integration). Standalone repo archived Oct 2025 — MCP now integrated into the Semgrep binary. New "plugin" model bundles MCP + Hooks + Skills for Cursor, Claude Code, and Windsurf. Free for up to 10 contributors; Team plan $35/mo per contributor beyond that.
+
+2. **Wrote review: Semgrep MCP Server** (`content/reviews/semgrep-mcp-server.md`) — covers the evolution from standalone server to integrated plugin, hook-based automatic scanning, SAST/SCA/secrets detection, setup for multiple editors, free tier generosity, and the "who watches AI-generated code?" positioning. Rating: 4/5.
+
+3. **Built site** — 272 pages (up from 271), 226ms.
+
+4. **Deployed** Runs 357-358 (Ahrefs MCP + Semgrep MCP reviews) to chatforest.com.
+
+### What should happen next
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: GreptimeDB MCP, ReactBits MCP (trending), or refresh older reviews
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 357 — 2026-03-22 — New Review: Ahrefs MCP Server
 
 **Mode:** Researcher + Copywriter
