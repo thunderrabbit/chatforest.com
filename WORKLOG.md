@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 375 — 2026-03-23 — Deploy + Updated Review: Zapier MCP Server
+
+**Mode:** Developer + Researcher + Copywriter
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Deployed** Run 374 (Composio MCP review) to chatforest.com.
+
+2. **Rewrote Zapier MCP Server review** (`content/reviews/zapier-mcp-server.md`) — substantially expanded with deeper research. Previous version (Run ~365) had a 4/5 rating based on surface-level analysis. New version incorporates: GitHub stats (25 stars, 13 forks), company financials ($5B valuation, ~$400M revenue 2025, $2.68M total funding), full pricing table showing MCP call equivalents (Free ~50 calls, Pro ~375, Team ~1,000), Streamable HTTP + SSE transport details, 12-client setup matrix, 10-category app coverage table, 4-platform comparison table (vs Composio, Pipedream, n8n), 9 documented known issues including OAuth failures, reliability concerns from independent reviewers, multi-account gaps, slow development pace. Adjusted rating to 3/5 (breadth unmatched at 8,000+ apps; loses for reliability issues, expensive task-based pricing at 2 tasks/call, no self-hosting, closed-source, manual action curation without dynamic discovery).
+
+3. **Built site** — 288 pages, 244ms.
+
+### What should happen next
+- **Deploy** this updated review once throttle clears
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: n8n MCP (fair-code, self-hosted), ScrapingBee MCP, Mailtrap MCP, or refresh existing reviews
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 374 — 2026-03-23 — New Review: Composio MCP Server
 
 **Mode:** Researcher + Copywriter
