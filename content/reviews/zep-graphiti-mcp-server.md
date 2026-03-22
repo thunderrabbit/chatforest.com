@@ -2,14 +2,14 @@
 title: "Zep's Graphiti MCP Server — Temporal Knowledge Graphs for AI Agent Memory"
 date: 2026-03-14T22:10:00+09:00
 description: "Graphiti is Zep's open-source temporal knowledge graph framework with a built-in MCP server. Nine tools for episodes, entity search, and fact retrieval across FalkorDB or Neo4j. Here's the honest review."
-og_description: "Zep's Graphiti MCP server builds temporal knowledge graphs for AI agents. Nine tools, multi-database support, open source (Apache 2.0), 23.7K stars. Rating: 4/5."
+og_description: "Zep's Graphiti MCP server builds temporal knowledge graphs for AI agents. Nine tools, multi-database support, open source (Apache 2.0), 24.1K stars. Rating: 4/5."
 content_type: "Review"
 card_description: "Zep's Graphiti MCP server for temporal AI agent memory. Nine tools across episode management, entity search, and fact retrieval. Open source, multi-database (FalkorDB/Neo4j), multi-LLM provider support."
 ---
 
-**At a glance:** 24K GitHub stars (up from 23.7K), 2.4K forks, 795 commits, 199 open issues, 121 open PRs. Latest release: mcp-v1.0.2 + graphiti-core v0.28.2 (Mar 11, 2026). ~106K PyPI downloads/week (~324K monthly, 4.5M all-time). Apache-2.0.
+**At a glance:** 24.1K GitHub stars, 2.4K forks, 795 commits, 200 open issues, 121 open PRs. Latest release: mcp-v1.0.2 + graphiti-core v0.28.2 (Mar 11, 2026). ~106K PyPI downloads/week (~324K monthly, 4.5M all-time). Apache-2.0.
 
-Graphiti is Zep's open-source temporal knowledge graph framework — and it's now the centerpiece of Zep's strategy. With 24,000+ GitHub stars, 2,400 forks, and 795 commits, it's one of the most popular AI memory frameworks available. The built-in MCP server (MCP Server 1.0 as of March 2026) gives any MCP-compatible client access to a persistent, temporally-aware knowledge graph.
+Graphiti is Zep's open-source temporal knowledge graph framework — and it's now the centerpiece of Zep's strategy. With 24,100+ GitHub stars, 2,400 forks, and 795 commits, it's one of the most popular AI memory frameworks available. The built-in MCP server (MCP Server 1.0 as of March 2026) gives any MCP-compatible client access to a persistent, temporally-aware knowledge graph.
 
 Unlike flat memory stores that treat facts as static, Graphiti maintains temporal validity windows — it tracks not just what information exists, but when it was true, when it changed, and what replaced it. "Alice works at Acme" and "Alice left Acme in January" are both represented, with the graph understanding their temporal relationship.
 
@@ -124,7 +124,7 @@ You can define custom entity and edge types for domain-specific extraction, whic
 
 This is an important distinction. Zep operates two products:
 
-1. **Graphiti** (open source, Apache 2.0) — The temporal knowledge graph framework with the MCP server reviewed here. Self-hosted, free, 23.7K stars.
+1. **Graphiti** (open source, Apache 2.0) — The temporal knowledge graph framework with the MCP server reviewed here. Self-hosted, free, 24.1K stars.
 
 2. **Zep Cloud** (managed SaaS) — A hosted platform built on Graphiti. Credit-based pricing: free tier (1,000 episodes/month), Flex ($25/month for 20,000 credits), Flex Plus ($475/month for 300,000 credits), Enterprise (custom). Zep Cloud has its own MCP interface with read-only tools across users, threads, graph nodes, edges, and episodes.
 
@@ -134,7 +134,7 @@ Community MCP servers also exist: `quinnbmay/zep-mcp-server` and `kev-hu/mcp-ser
 
 ## How It Compares
 
-**vs. Mem0 MCP Server (4/5):** Both are serious memory platforms, but architecturally different. Mem0 stores memory snippets with semantic search — simple, effective, easy to start. Graphiti builds a temporal knowledge graph with entity relationships and fact validity windows — more powerful, but heavier. Mem0's cloud-first model is easier to deploy; Graphiti's self-hosted model gives full data control. Mem0 has stronger community adoption (49.8K stars vs. 24K) but Graphiti's graph approach is more sophisticated for complex memory needs.
+**vs. Mem0 MCP Server (4/5):** Both are serious memory platforms, but architecturally different. Mem0 stores memory snippets with semantic search — simple, effective, easy to start. Graphiti builds a temporal knowledge graph with entity relationships and fact validity windows — more powerful, but heavier. Mem0's cloud-first model is easier to deploy; Graphiti's self-hosted model gives full data control. Mem0 has stronger community adoption (50.7K stars vs. 24.1K) but Graphiti's graph approach is more sophisticated for complex memory needs.
 
 **vs. Anthropic's Knowledge Graph Memory Server:** Anthropic's server stores entities and relations in a local JSONL file — simple, zero-dependency, and surprisingly effective for personal use. Graphiti is orders of magnitude more capable: temporal tracking, proper graph database, semantic search, automatic extraction. But the Memory server works out of the box with no LLM costs, no Docker, no database — and that simplicity is its strength.
 

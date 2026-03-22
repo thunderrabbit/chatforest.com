@@ -322,11 +322,13 @@ Agents that forget everything between sessions are expensive autocomplete. But p
 
 The [official Memory server](/reviews/memory-mcp-server/) (3.5/5) has the right concept (entity-relation knowledge graph) but real scaling problems. The `read_graph` tool dumps the entire graph into context — 14K+ tokens reported — and there's no memory isolation between projects. The OWASP MCP Top 10 (March 2026) now formally identifies this "context over-sharing" pattern as a security risk category.
 
-**For temporal/enterprise use:** **[Zep/Graphiti](/reviews/zep-graphiti-mcp-server/)** (4/5) — temporal knowledge graphs with automatic entity extraction, relationship inference, and time-aware retrieval. 24K stars, MCP Server 1.0, multi-database (FalkorDB/Neo4j/Kuzu/Neptune), multi-LLM provider, fully open source (Apache 2.0). The most sophisticated memory architecture available — tracks not just what's true, but when it was true and when it changed.
+**For temporal/enterprise use:** **[Zep/Graphiti](/reviews/zep-graphiti-mcp-server/)** (4/5) — temporal knowledge graphs with automatic entity extraction, relationship inference, and time-aware retrieval. 24.1K stars, MCP Server 1.0, multi-database (FalkorDB/Neo4j/Kuzu/Neptune), multi-LLM provider, fully open source (Apache 2.0). The most sophisticated memory architecture available — tracks not just what's true, but when it was true and when it changed.
 
-**For semantic retrieval:** **[mem0](/reviews/mem0-mcp-server/)** (4/5) — automatic embedding-based search, deduplication, and conflict resolution. 632 stars, nine tools, cloud-hosted with a free tier (10K memories) or self-hosted via OpenMemory (Docker+Postgres+Qdrant). Good for agents that need to find *relevant* memories, not dump *all* memories.
+**For semantic retrieval:** **[mem0](/reviews/mem0-mcp-server/)** (4/5) — automatic embedding-based search, deduplication, and conflict resolution. 640 stars on MCP server (50.7K on main repo), nine tools, v1.0.7 with per-agent memory isolation, Ollama/LM Studio support. Cloud-hosted with a free tier or self-hosted via OpenMemory. Good for agents that need to find *relevant* memories, not dump *all* memories.
 
-**For personal/local use:** **Basic Memory** — stores memories as Markdown files you can read and edit. Human-readable storage is underrated.
+**For personal/local use:** **Basic Memory** (2.7K stars) — stores memories as Markdown files you can read and edit. v0.20.2 added auto-update and section-level editing. Human-readable storage is underrated.
+
+**For coding agents:** **Engram** (1.7K stars, fastest-growing in category) — single Go binary, zero dependencies, purpose-built for AI coding sessions. v1.10.3 with auto git project detection and Claude plugin marketplace support.
 
 **For simple use cases:** The official Memory server is fine if your graph stays small (under a few hundred entities) and you only use it for one project.
 

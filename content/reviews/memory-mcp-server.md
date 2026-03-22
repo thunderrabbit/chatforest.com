@@ -103,7 +103,7 @@ Requirements: Node.js 18+ and npm. That's it. No API keys, no accounts, no confi
 **Docker upgrade note.** Users upgrading Docker containers now need to delete legacy `index.js` files from prior volumes before upgrading — a minor but potentially confusing breaking change.
 
 **Alternatives landscape has exploded.** The agent memory space has matured dramatically since the original review:
-- **Graphiti/Zep** has grown from ~23.7K to ~24,000 GitHub stars and released MCP Server 1.0. Zep has repositioned as a "context engineering platform" with temporal knowledge graphs, automatic entity extraction, and multi-database support (FalkorDB, Neo4j, Kuzu, Neptune).
+- **Graphiti/Zep** has grown to ~24,100 GitHub stars and released MCP Server 1.0. Zep has repositioned as a "context engineering platform" with temporal knowledge graphs, automatic entity extraction, and multi-database support (FalkorDB, Neo4j, Kuzu, Neptune).
 - **mem0** has grown significantly but paywalled graph features at $249/month (Pro tier). The free/starter tiers provide vector search only. The open-source OpenMemory option (Docker + Postgres + Qdrant) remains available for self-hosting.
 - **Letta** (formerly MemGPT) has emerged as a full agent runtime where agents actively manage their own memory using an OS-inspired tiered architecture — core memory, archival memory, and recall memory. A high-performance Rust-based MCP server provides 7 consolidated tools covering 103 operations.
 - **Hindsight** is a newer entrant offering all four retrieval strategies (vector, graph, temporal, keyword) at every tier including the free self-hosted option — more retrieval depth than mem0 Pro without the price.

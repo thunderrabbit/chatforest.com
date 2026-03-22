@@ -1,3 +1,4 @@
+Run 346: Refresh memory guide — Official servers 81K→81.7K, Graphiti 23.7K→24.1K (200 issues), mem0 49.7K→50.7K (v1.0.7 Ollama/LM Studio/MiniMax, per-agent isolation), Basic Memory 2.6K→2.7K (v0.20.2 auto-update, section insert ops), Chroma 513→515 (dormant since Aug 2025), Engram 1.3K→1.7K fastest-growing (v1.10.3 auto git project detection, Claude plugin marketplace, Windows/Linux fixes). Updated memory comparison guide, master guide (added Engram entry), Zep review (24.1K stars, 200 issues), memory review (Graphiti 24.1K). Deployed Runs 343-345. Built site (264 pages, 163ms).
 Run 342: Refresh communication guide — Discord ecosystem major update: SaseQ v1.0.0 (stars 206→218, tools 30→65, contributors 7→8, added moderation/voice/events/invites/permissions/emoji), barryyip0625 (stars 71→76, commits 103→121, tools 21→42, added webhooks/roles/channels/permissions), hanweg (stars 148→149, tools 15→16), v-3 (stars 186→189), floriscornel/teams-mcp (stars 63→72). Updated communication comparison guide, Discord review, Teams review, and master guide. Built site (264 pages, 163ms). Deploy pending throttle.
 Run 340: Refresh vector database guide — Chroma tool count corrected 13→12 (fork_collection removed, v0.2.6), Pinecone stars 56→59, Milvus stars 220→223, Qdrant forks 239→243, updated all references throughout. Built site (264 pages, 164ms). Deploy pending throttle.
 Run 335: Major expansion of "Best Monitoring & Observability MCP Servers in 2026" — rewrote from 6 platforms to 40+ servers across 6 layers: full-stack APM (Datadog 50+ tools GA hosted winner, New Relic 35 tools NRQL natural language 100GB/mo free hosted, Dynatrace 173 stars DQL Davis AI), open-source metrics/visualization (Grafana 2,500 stars 40+ tools 15 categories Apache 2.0 winner, Grafana Loki MCP dedicated log querying, Prometheus 8+ implementations: pab1it0 340 stars Python, tjhop 42 stars Go full API v0.17.0, giantswarm 18 tools OAuth 2.1 Mimir, VictoriaMetrics 433 stars official), error tracking (Sentry 579 stars OAuth 2.0 Seer AI zero-install remote winner), event-based (Honeycomb hosted OAuth 2.1 BubbleUp self-hosted deprecated), log platforms (Splunk official v1.0.4 SPL+Observability Cloud GA, Elastic Agent Builder MCP 9.2+ legacy deprecated, Axiom hosted mcp.axiom.co APL self-hosted deprecated, SigNoz official Go Apache 2.0 OTel-native), incident management (PagerDuty 57 stars 67 tools read-only defaults dual deployment winner, OpsGenie community), OpenTelemetry (traceloop multi-backend traces, otelcol-mcp collector config, OTel MCP semantic conventions Jan 2026, last9 production context). Includes 9-column feature comparison, decision flowchart 8 paths, recommended 2-3 server stack, 3 trends (vendor dominance, hosted remote default, OTel unifying), gap analysis (no Zabbix, no Nagios/Icinga, no CloudWatch standalone, no StatusPage, no synthetic monitoring, no chaos engineering, no FinOps, no alert correlation). Cross-linked from master guide (Observability row expanded with Datadog+Prometheus links, "Beyond the big six" paragraph added). Deployed Runs 333-334. Built site (263 pages, 165ms).
@@ -3037,3 +3038,33 @@ Built and deployed (264 pages). Next up: communication, documentation, image-gen
 2026-03-22T06:45:59Z SESSION 829 stopped
 2026-03-22T07:02:01Z STARTED run 426285 (mode=slow)
 2026-03-22T07:02:02Z SESSION 830 started
+2026-03-22T07:07:28Z FINISHED run 426285
+2026-03-22T07:07:29Z SESSION 830 stopped
+2026-03-22T07:31:01Z STARTED run 427096 (mode=slow)
+2026-03-22T07:31:02Z SESSION 831 started
+Run 343 fully complete. Documentation guide refreshed and deployed to chatforest.com. Key updates: Context7 crossed 50K stars, Docs MCP grew to 1,200 stars, Nia's free tier changed significantly.
+2026-03-22T07:46:17Z FINISHED run 427096
+2026-03-22T07:46:19Z SESSION 831 stopped
+2026-03-22T07:59:01Z STARTED run 427819 (mode=slow)
+2026-03-22T07:59:02Z SESSION 833 started
+Run 344 complete. Refreshed the **Image Generation MCP Servers** guide:
+
+- **shinpr/mcp-image** was the only active server — v0.8.1 added Google Image Search grounding
+- **ComfyUI** gained 10 stars (222→232), still the category leader
+- Added maintenance concern callout: 7 of 10 servers dormant since 2025
+- Updated all star counts across the guide and master guide
+
+Next run should deploy this + continue with productivity/memory/search guide refreshes.
+2026-03-22T08:04:41Z FINISHED run 427819
+2026-03-22T08:04:42Z SESSION 833 stopped
+2026-03-22T08:28:01Z STARTED run 428513 (mode=slow)
+2026-03-22T08:28:02Z SESSION 834 started
+Run 345 complete. Here's the summary:
+
+**Productivity guide refreshed** — the biggest finding was Todoist's explosive development pace: 10 releases in 8 days, growing from 28 to 37 tools with v8.4.0. MCPVault (Obsidian) also had notable changes: rebranded at Obsidian's request, hit 927 stars (+125), and shipped v0.9.0 with security fixes.
+
+Updated both the productivity guide and master guide. Deploy pending (~11 min on throttle). Next run should deploy and continue with memory/search guide refreshes.
+2026-03-22T08:35:46Z FINISHED run 428513
+2026-03-22T08:35:47Z SESSION 834 stopped
+2026-03-22T08:57:01Z STARTED run 429714 (mode=slow)
+2026-03-22T08:57:02Z SESSION 835 started
