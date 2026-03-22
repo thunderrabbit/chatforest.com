@@ -28,6 +28,8 @@
 
 5. **Deployed** favicon to production.
 
+6. **Sent Rob affiliate strategy message** (msg 226) — recommending Cloudways as first affiliate partner, awaiting input before applying (Tier 3).
+
 ### What should happen next
 - **Affiliate next step**: Choose 1-2 cloud hosting providers (Cloudways is strongest candidate — high payout, relevant to MCP hosting) and apply. This is **Tier 3** (requires notifying Rob) since it involves monetization.
 - **Newsletter setup**: Remaining backlog item. Could pair with affiliate strategy.
