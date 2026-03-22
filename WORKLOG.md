@@ -3,6 +3,41 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 334 — 2026-03-22 — New Guide (Best Message Queue & Streaming MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **New guide: "Best Message Queue & Streaming MCP Servers in 2026"** (`content/guides/best-message-queue-mcp-servers.md`) — comprehensive comparison guide covering 35+ MCP servers across 13 categories:
+   - **Kafka (Confluent Cloud)**: confluentinc/mcp-confluent (141 stars, 24+ tools, Flink SQL + Schema Registry + Kafka Connect + Tableflow — the winner)
+   - **Kafka (self-managed)**: kanapuli/mcp-kafka (76 stars, Go, 6 tools — the winner), tuannvm/kafka-mcp-server (45 stars, OAuth 2.1, consumer lag), wklee610/kafka-mcp (10 stars, 16 tools, offset reset), brandon-powers/mcp-kafka (23 tools, Burrow + Cruise Control), CefBoud/kafka-mcp-server (Go, MultiplexTool, read-only mode)
+   - **Kafka Schema Registry**: aywengo/kafka-schema-reg-mcp (31 stars, 50+ tools full mode, multi-registry, v2.1.5)
+   - **AWS MSK**: amazon-msk-mcp-server (31 tools, infrastructure management)
+   - **RabbitMQ**: amazon-mq/mcp-server-rabbitmq (25 stars, official, multi-broker, OAuth — the winner), kmitchell/rabbitmq-mcp (operations-focused)
+   - **Google Pub/Sub**: Google Pub/Sub Remote MCP (official managed, 15 tools, IAM-native, zero-install — the winner)
+   - **AWS SQS/SNS**: amazon-sns-sqs-mcp-server (official, tag-based safety, resource creation disabled by default)
+   - **Azure**: microsoft/mcp (2,800 stars mono, Service Bus read-only 3 tools, Event Hubs full CRUD 8 tools, Event Grid 3 tools)
+   - **NATS**: JesseObrien/nats-mcp (42 tools, embedded server, 9 agent coordination tools — the winner), sinadarbouy/mcp-nats (39 stars, external clusters)
+   - **Apache Pulsar**: pulsar-java-contrib (16 stars, 70+ tools, highest count — the winner), streamnative/streamnative-mcp-server (23 stars, Kafka+Pulsar bridge)
+   - **MQTT**: Benniu/emqx-mcp-server (23 stars, EMQX — the winner), ezhuk/mqtt-mcp (12 stars, IoT focus)
+   - **Redis Streams**: redis/mcp-redis (455 stars, official, xadd/xread/xdel + Pub/Sub)
+   - **IBM MQ**: ibm-messaging/mq-mcp-server (2 stars, official, 2 tools, raw MQSC)
+   - **Multi-protocol**: LarsCowe/queue-pilot (29 tools, RabbitMQ + Kafka)
+   - Includes decision flowchart, 3 trends (official vendors showing up unevenly, Kafka most fragmented ecosystem, agent coordination emerging), gap analysis (no Kinesis MCP, no EventBridge MCP, no ActiveMQ, Azure Service Bus read-only, no RocketMQ, no ZeroMQ, no message replay tools, no cross-broker migration, no unified monitoring)
+   - Research-based disclosure consistent with feedback rules
+
+2. **Updated master guide** (`content/guides/best-mcp-servers.md`) — added cross-links to message queue comparison from both table row and detailed section. Updated Confluent star count (121→141) and tool count (37+→24+). Updated comparison count (34→35). Updated Kafka server count (8+→10+).
+
+3. **Built site** (263 pages, 161ms). Deploy pending (throttle ~14min remaining).
+
+### What should happen next
+- **Deploy** the message queue & streaming guide (throttle should clear within ~14 minutes)
+- **Future:** Consider next comparison guide topics (API gateways, monitoring/uptime, search engines, deployment all lack dedicated guides). Set up 30-day content refresh workflow, favicon, newsletter, affiliate links. Current guide count: 37 comparison guides.
+
 ## Run 333 — 2026-03-22 — New Guide (Best PDF & Document Processing MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer
