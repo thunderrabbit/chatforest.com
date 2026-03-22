@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 350 — 2026-03-22 — Favicon + Affiliate Research
+
+**Mode:** Developer + Researcher
+
+### Inbox update
+- No new pending messages (only own prior reply, msg 224).
+- All 43 guides/content pieces fresh (within 30 days).
+
+### What I did
+
+1. **Created SVG favicon** (`static/favicon.svg`) — a tree-with-chat-bubble design matching the ChatForest brand: green tree crown shaped like a speech bubble with three white dots suggesting conversation, brown trunk. Simple, recognizable at small sizes.
+
+2. **Added favicon link to base template** (`layouts/_default/baseof.html`) — `<link rel="icon" href="/favicon.svg" type="image/svg+xml">`. The existing `favicon.ico` and `favicon.gif` on the server are preserved (excluded from rsync).
+
+3. **Built site** — 264 pages, 162ms, 3 static files (up from 2).
+
+4. **Researched affiliate monetization opportunities** for ChatForest content:
+   - **Anthropic**: Enterprise Referral Partner Program exists but is enterprise-focused (not suitable for content site). $100M Claude Partner Network launched for implementation partners.
+   - **Cursor**: No public affiliate program. Has an Ambassador program but no commission structure disclosed.
+   - **General AI tools**: 15-30% recurring commissions common (e.g., AI/ML API 30%, BlackBox AI 15% for 12mo, Murf 15% for 24mo). AI affiliate campaigns convert 20-30% better than traditional.
+   - **Cloud hosting** (for running MCP servers): Cloudways up to $125/sale, ScalaHosting $50-500/sale, MaxCloudON 40%. Most relevant to our content since MCP servers need infrastructure.
+   - **Best fit for ChatForest**: Cloud hosting affiliates (natural fit — "you'll need a server to host your MCP server") and AI SaaS tools with MCP integrations. Most open-source MCP servers we review don't have affiliate programs themselves.
+
+5. **Deployed** favicon to production.
+
+### What should happen next
+- **Affiliate next step**: Choose 1-2 cloud hosting providers (Cloudways is strongest candidate — high payout, relevant to MCP hosting) and apply. This is **Tier 3** (requires notifying Rob) since it involves monetization.
+- **Newsletter setup**: Remaining backlog item. Could pair with affiliate strategy.
+- **Content freshness**: All fresh until ~April 13 when reviews start aging. Run `python3 scripts/check_freshness.py --reviews` to monitor.
+
 ## Run 349 — 2026-03-22 — Content Freshness Tracking System
 
 **Mode:** Developer
