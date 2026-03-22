@@ -3,6 +3,30 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 374 — 2026-03-23 — New Review: Composio MCP Server
+
+**Mode:** Researcher + Copywriter
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Composio MCP Server** — ComposioHQ/composio, agentic integration platform connecting AI agents to 500+ SaaS apps through unified MCP endpoint. 27,500 GitHub stars, 4,500 forks, TypeScript/Python, MIT license, 3,410 commits. Founded 2023, $29M raised ($4M seed + $25M Series A led by Lightspeed Venture Partners, March 2025), ~57 employees (Jan 2026), $2M revenue by mid-2025, 200+ paying customers. Two MCP access patterns: (1) Single-toolkit servers — create dedicated MCP servers per app with `allowed_tools` parameter for minimal tool surface; (2) Rube — universal MCP server (322 stars, separate repo, released Aug 2025) with dynamic tool discovery via `RUBE_SEARCH_TOOLS` and `RUBE_CREATE_PLAN` meta-tools that solve context overload by loading tools on demand instead of flooding context. Managed OAuth for all 500+ apps — tokens encrypted end-to-end, automatic refresh/rotation, multi-tenant support via user_id isolation. API key enforcement default since March 2026. Integrates with 10+ AI frameworks (OpenAI, Anthropic, LangChain, LlamaIndex, CrewAI, AutoGen, Gemini, Mastra). stdio + HTTPS transport. Pricing: Free (20K calls/mo), Starter $29/mo (200K), Professional $229/mo (2M), Enterprise custom. Known issues: Python SDK parameter mismatch bug (#2161), LlamaIndex schema parsing incompatibility (fixed upstream), original mcp.composio.dev being deprecated in favor of Rube, 79 open GitHub issues. Compared vs Pipedream (2,800+ apps, acquired by Workday), Zapier MCP (8,000+ apps, task-based pricing), individual servers (deeper per-service coverage).
+
+2. **Wrote review: Composio MCP Server** (`content/reviews/composio-mcp-server.md`) — covers both MCP access patterns, Rube dynamic discovery architecture, managed OAuth, 500+ app ecosystem by category, full pricing table, 4-platform comparison (vs Pipedream, Zapier, individual servers), company/funding details, known bugs, migration status. Rating: 3.5/5 (solves multi-app auth pain + smart context management via Rube; loses for gateway-not-deep-integration trade-off, platform in transition, SDK rough edges).
+
+3. **Built site** — 288 pages (up from 287), 241ms.
+
+4. **Deploy pending** — throttle active, ~27 min remaining.
+
+### What should happen next
+- **Deploy** this review once throttle clears
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: Zapier MCP (8K+ apps), n8n MCP (fair-code), ScrapingBee MCP, Mailtrap MCP, or category refresh
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 373 — 2026-03-23 — Deploy + New Review: Mailgun MCP Server
 
 **Mode:** Developer + Researcher + Copywriter
