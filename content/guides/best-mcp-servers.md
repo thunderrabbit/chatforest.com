@@ -40,9 +40,9 @@ If you want to skip the details:
 | Image generation | Use-case dependent | — | Not [EverArt](/reviews/everart-mcp-server/) (2.5/5). [Full comparison →](/guides/best-image-generation-mcp-servers/) |
 | Documentation | [Context7](/reviews/context7-mcp-server/) | 3.5/5 | [GitMCP](/reviews/gitmcp-server/) (4/5, free, any repo) |
 | Productivity (knowledge) | [Notion MCP](/reviews/notion-mcp-server/) | 3.5/5 | [Obsidian MCP](/reviews/obsidian-mcp-servers/) (3.5/5, local-first) |
-| Productivity (tasks) | [Linear MCP](/reviews/linear-mcp-server/) | 4/5 | [Todoist MCP](/reviews/todoist-mcp-server/) (4/5, personal) |
+| Productivity (tasks) | [Linear MCP](/reviews/linear-mcp-server/) | 4/5 | [Todoist MCP](/reviews/todoist-mcp-server/) (4/5, personal). [Full project management comparison →](/guides/best-project-management-mcp-servers/) |
 | Calendar | [Google Calendar MCP](/reviews/google-calendar-mcp-server/) | 4/5 | taylorwilsdon/google_workspace_mcp |
-| Project management | [Atlassian MCP](/reviews/atlassian-mcp-server/) | 3.5/5 | sooperset/mcp-atlassian (4.6K stars, 72 tools) |
+| Project management | [Atlassian MCP](/reviews/atlassian-mcp-server/) | 3.5/5 | sooperset/mcp-atlassian (4.6K stars, 72 tools). [Full project management comparison →](/guides/best-project-management-mcp-servers/) |
 | Deployment | [Vercel MCP](/reviews/vercel-mcp-server/) | 3.5/5 | Community alternatives (more tools) |
 | Design-to-code | [Framelink MCP](/reviews/framelink-figma-mcp-server/) | 4/5 | [Figma Dev Mode](/reviews/figma-dev-mode-mcp-server/) (3.5/5, exclusive write ops), [TalkToFigma](https://github.com/grab/cursor-talk-to-figma-mcp) (6,300 stars, bidirectional). [Full design comparison →](/guides/best-design-mcp-servers/) |
 | Payments | [Stripe MCP](/reviews/stripe-mcp-server/) | 4/5 | [stripe/agent-toolkit](https://github.com/stripe/agent-toolkit) (1,400 stars, remote MCP at mcp.stripe.com), [paypal/agent-toolkit](https://github.com/paypal/agent-toolkit) (181 stars, 30+ tools). [Full finance & payments comparison →](/guides/best-finance-mcp-servers/) |

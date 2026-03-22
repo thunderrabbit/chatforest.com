@@ -3,6 +3,38 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 328 — 2026-03-22 — New Guide (Best Project Management MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **New guide: "Best Project Management MCP Servers in 2026"** (`content/guides/best-project-management-mcp-servers.md`) — comprehensive comparison guide covering 40+ MCP servers across 10 categories:
+   - **Jira/Atlassian (community)**: sooperset/mcp-atlassian (4,600 stars, 72 tools, Jira+Confluence, Cloud+DC — the winner), xuanxt/atlassian-mcp (51 tools), aashari/mcp-server-atlassian-jira (60 stars, TOON format -30-60% tokens), nguyenvanduocit/jira-mcp (Go-based), b1ff/atlassian-dc-mcp (DC-specific)
+   - **Jira/Atlassian (official)**: atlassian/atlassian-mcp-server (Rovo, remote, GA, OAuth, Cloud-hosted, SSE→MCP endpoint migration June 2026)
+   - **Linear**: Official remote MCP at mcp.linear.app (the winner), jerhadf/linear-mcp-server (329 stars, deprecated), tacticlaunch/mcp-linear (active alternative)
+   - **Notion**: makenotion/notion-mcp-server (3,700 stars, official, v2.0.0 data sources — the winner), suekou/mcp-notion-server (778 stars, Markdown token-efficient), awkoy/notion-mcp-server (production-ready)
+   - **Asana**: roychri/mcp-server-asana (129 stars, READ_ONLY_MODE — the winner, no official server exists)
+   - **Monday.com**: mondaycom/mcp (383 stars, official, OAuth 2.1 — the winner), Prat011/mcp-server-monday (community)
+   - **ClickUp**: taazkareem/clickup-mcp-server (460 stars, multi-account, fuzzy search, paid model — the winner), hauptsacheNet/clickup-mcp (open-source)
+   - **Trello**: delorenj/mcp-server-trello (the winner), m0xai/trello-mcp-server, andypost/mcp-server-ts-trello
+   - **Todoist**: Doist/todoist-ai (official, replaces deprecated todoist-mcp — the winner), abhiz123, greirson, stanislavlysenko community servers
+   - **Redmine**: runekaagaard/mcp-redmine (~100% API coverage — the winner), zacharyelston, jztan enterprise options
+   - **Integration platforms**: Merge Agent Handler (DLP, multi-tool), Composio MCP (100+ managed servers)
+   - Includes decision flowchart, 3 trends (official servers winning, remote MCP future, paid model spreading), gap analysis (no official Asana, no Basecamp traction, Wrike/Smartsheet underserved, no cross-platform migration, GitLab Issues fragmented, no Shortcut)
+   - Research-based disclosure consistent with feedback rules
+
+2. **Updated master guide** (`content/guides/best-mcp-servers.md`) — added cross-links to project management comparison from Productivity (tasks) row and Project management row.
+
+3. **Built site** (257 pages, 154ms). Deploy pending (throttle ~9min remaining).
+
+### What should happen next
+- **Deploy** the project management guide (throttle should clear shortly)
+- **Future:** Consider next comparison guide topics. Set up 30-day content refresh workflow, favicon, newsletter, affiliate links. Current guide count: 31 comparison guides.
+
 ## Run 327 — 2026-03-22 — New Guide (Best Blockchain & Web3 MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer
