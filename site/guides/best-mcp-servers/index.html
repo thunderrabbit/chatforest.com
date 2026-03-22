@@ -45,7 +45,7 @@
 
       <div class="article-body">
         <p>Most &ldquo;best MCP servers&rdquo; lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don&rsquo;t tell you if it&rsquo;s good.</p>
-<p>We&rsquo;ve spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We&rsquo;ve published <a href="/reviews/">168 in-depth reviews</a> and <a href="/guides/">34 category comparisons</a> so far. This guide distills all of that into one page.</p>
+<p>We&rsquo;ve spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We&rsquo;ve published <a href="/reviews/">168 in-depth reviews</a> and <a href="/guides/">35 category comparisons</a> so far. This guide distills all of that into one page.</p>
 <p><strong>What makes this different:</strong> every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.</p>
 <h2 id="the-short-version">The short version</h2>
 <p>If you want to skip the details:</p>
@@ -303,7 +303,7 @@
 <td>Message queues</td>
 <td><a href="/reviews/message-queue-mcp-servers/">Message Queue MCP Servers</a></td>
 <td>3.5/5</td>
-<td><a href="https://github.com/confluentinc/mcp-confluent">Confluent MCP</a> (37+ tools, official), <a href="https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp">Google Pub/Sub</a> (managed remote, IAM)</td>
+<td><a href="https://github.com/confluentinc/mcp-confluent">Confluent MCP</a> (141 stars, 24+ tools, official), <a href="https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp">Google Pub/Sub</a> (managed remote, IAM). <a href="/guides/best-message-queue-mcp-servers/">Full message queue comparison →</a></td>
 </tr>
 <tr>
 <td>PDF / documents</td>
@@ -1335,14 +1335,14 @@
 <p><strong><a href="/reviews/search-engine-mcp-servers/">Full review: Search Engine MCP Servers</a> (3.5/5)</strong> — 15+ servers across 7 platforms.</p>
 <hr>
 <h2 id="message-queues">Message queues</h2>
-<p>Message queue MCP servers let agents produce and consume messages, manage topics and queues, and interact with event streaming platforms. Kafka has the most servers (8+) but also the most fragmentation. Cloud providers lead with official implementations.</p>
-<p><strong><a href="https://github.com/confluentinc/mcp-confluent">Confluent MCP</a> (official, ~121 stars)</strong> — the most comprehensive messaging MCP server with 37+ tools covering Kafka topics, Flink SQL execution, Schema Registry, Kafka Connect, and Tableflow. The only server that treats Kafka as a full data streaming platform. Confluent Cloud only.</p>
+<p>Message queue MCP servers let agents produce and consume messages, manage topics and queues, and interact with event streaming platforms. Kafka has the most servers (10+) but also the most fragmentation. Cloud providers lead with official implementations. <strong><a href="/guides/best-message-queue-mcp-servers/">Full message queue comparison →</a></strong></p>
+<p><strong><a href="https://github.com/confluentinc/mcp-confluent">Confluent MCP</a> (official, 141 stars)</strong> — the most comprehensive messaging MCP server with 24+ tools covering Kafka topics, Flink SQL execution, Schema Registry, Kafka Connect, and Tableflow. The only server that treats Kafka as a full data streaming platform. Confluent Cloud only.</p>
 <p><strong><a href="https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp">Google Pub/Sub Remote MCP</a> (official, managed)</strong> — the most architecturally mature messaging MCP server. Fully managed remote endpoint with OAuth 2.0, IAM-native authorization, IAM deny policies, zero installation. The gold standard for cloud-native MCP.</p>
 <p><strong><a href="https://github.com/awslabs/mcp">AWS SQS/SNS MCP</a> (official)</strong> — combined SQS + SNS server with a unique safety model: auto-tags created resources and only allows modifications to MCP-created resources. The safest infrastructure-mutation approach in the category.</p>
 <p><strong><a href="https://github.com/JesseObrien/nats-mcp">jesseobrien/nats-mcp</a> (community)</strong> — the most feature-rich NATS server with messaging, JetStream, KV stores, object stores, service discovery, and an embedded NATS server mode that requires no external installation.</p>
 <p><strong>Redis</strong> has official messaging support via <a href="https://github.com/redis/mcp-redis">redis/mcp-redis</a> covering Streams (durable, consumer groups) and Pub/Sub (fire-and-forget). <strong>RabbitMQ</strong> has an Amazon MQ official server plus community options. <strong>Azure Service Bus</strong> is covered in the official Azure MCP server. <strong>IBM MQ</strong> has an official but minimal server (2 tools). <strong>Apache Pulsar</strong> has 70+ admin tools in pulsar-java-contrib (highest count).</p>
 <p><strong>Our recommendation:</strong> Confluent for Kafka Cloud, Google Pub/Sub for GCP, AWS server for SQS/SNS, jesseobrien/nats-mcp for NATS.</p>
-<p><strong><a href="/reviews/message-queue-mcp-servers/">Full review: Message Queue MCP Servers</a> (3.5/5)</strong> — 25+ servers across 10 platforms.</p>
+<p><strong><a href="/reviews/message-queue-mcp-servers/">Full review: Message Queue MCP Servers</a> (3.5/5)</strong> — 35+ servers across 10 platforms. <strong><a href="/guides/best-message-queue-mcp-servers/">Full comparison: Best Message Queue &amp; Streaming MCP Servers →</a></strong></p>
 <hr>
 <h2 id="image-generation">Image generation</h2>
 <p>The most fragmented category we&rsquo;ve covered — 20+ servers, no dominant player, no working official server. The <a href="/reviews/everart-mcp-server/">EverArt reference server</a> (2.5/5) was archived in May 2025. No major provider (OpenAI, Stability, Google, Midjourney) has shipped their own MCP server yet.</p>

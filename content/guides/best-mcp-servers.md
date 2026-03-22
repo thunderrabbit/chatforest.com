@@ -9,7 +9,7 @@ card_description: "We've reviewed 28 MCP servers across 11 categories and beyond
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [168 in-depth reviews](/reviews/) and [34 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [168 in-depth reviews](/reviews/) and [35 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -59,7 +59,7 @@ If you want to skip the details:
 | Analytics | [Analytics MCP Servers](/reviews/analytics-mcp-servers/) | 3.5/5 | [Google Analytics MCP](https://github.com/googleanalytics/google-analytics-mcp) (1.5K stars, official), [PostHog MCP](https://github.com/PostHog/mcp) (27+ tools). [Full data & analytics comparison →](/guides/best-data-analytics-mcp-servers/) |
 | Cloud storage | [Cloud Storage MCP Servers](/reviews/cloud-storage-mcp-servers/) | 3.5/5 | [GCS](https://github.com/googleapis/gcloud-mcp) (21 tools, official), [MinIO](https://github.com/minio/mcp-server-aistor) (26 tools, AI-powered). [Full file & storage comparison →](/guides/best-file-storage-mcp-servers/) |
 | Search engines | [Search Engine MCP Servers](/reviews/search-engine-mcp-servers/) | 3.5/5 | [OpenSearch MCP](https://github.com/opensearch-project/opensearch-mcp-server-py) (24+ tools, official), [Meilisearch MCP](https://github.com/meilisearch/meilisearch-mcp) (20+ tools, official) |
-| Message queues | [Message Queue MCP Servers](/reviews/message-queue-mcp-servers/) | 3.5/5 | [Confluent MCP](https://github.com/confluentinc/mcp-confluent) (37+ tools, official), [Google Pub/Sub](https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp) (managed remote, IAM) |
+| Message queues | [Message Queue MCP Servers](/reviews/message-queue-mcp-servers/) | 3.5/5 | [Confluent MCP](https://github.com/confluentinc/mcp-confluent) (141 stars, 24+ tools, official), [Google Pub/Sub](https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp) (managed remote, IAM). [Full message queue comparison →](/guides/best-message-queue-mcp-servers/) |
 | PDF / documents | [PDF & Document MCP Servers](/reviews/pdf-document-mcp-servers/) | 3.5/5 | [MarkItDown](https://github.com/microsoft/markitdown) (91.4K stars, 29+ formats), [Docling MCP](https://github.com/docling-project/docling-mcp) (56.2K parent, layout analysis). [Full PDF & document comparison →](/guides/best-pdf-document-processing-mcp-servers/) |
 | Monitoring / uptime | [Monitoring & Uptime MCP Servers](/reviews/monitoring-uptime-mcp-servers/) | 3.5/5 | [UptimeRobot MCP](https://uptimerobot.com/mcp/) (official hosted, full CRUD), [OneUptime MCP](https://oneuptime.com/docs/ai/mcp-server) (711 endpoints, open source) |
 | Testing & QA | [Testing & QA MCP Servers](/reviews/testing-qa-mcp-servers/) | 3.5/5 | [BrowserStack MCP](https://github.com/browserstack/mcp-server) (457 commits, 20 tools), [Appium MCP](https://github.com/appium/appium-mcp) (47 tools, mobile). [Full testing & QA comparison →](/guides/best-testing-qa-mcp-servers/) |
@@ -436,9 +436,9 @@ Search engine MCP servers let agents query indices, manage documents, and tune r
 
 ## Message queues
 
-Message queue MCP servers let agents produce and consume messages, manage topics and queues, and interact with event streaming platforms. Kafka has the most servers (8+) but also the most fragmentation. Cloud providers lead with official implementations.
+Message queue MCP servers let agents produce and consume messages, manage topics and queues, and interact with event streaming platforms. Kafka has the most servers (10+) but also the most fragmentation. Cloud providers lead with official implementations. **[Full message queue comparison →](/guides/best-message-queue-mcp-servers/)**
 
-**[Confluent MCP](https://github.com/confluentinc/mcp-confluent) (official, ~121 stars)** — the most comprehensive messaging MCP server with 37+ tools covering Kafka topics, Flink SQL execution, Schema Registry, Kafka Connect, and Tableflow. The only server that treats Kafka as a full data streaming platform. Confluent Cloud only.
+**[Confluent MCP](https://github.com/confluentinc/mcp-confluent) (official, 141 stars)** — the most comprehensive messaging MCP server with 24+ tools covering Kafka topics, Flink SQL execution, Schema Registry, Kafka Connect, and Tableflow. The only server that treats Kafka as a full data streaming platform. Confluent Cloud only.
 
 **[Google Pub/Sub Remote MCP](https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp) (official, managed)** — the most architecturally mature messaging MCP server. Fully managed remote endpoint with OAuth 2.0, IAM-native authorization, IAM deny policies, zero installation. The gold standard for cloud-native MCP.
 
@@ -450,7 +450,7 @@ Message queue MCP servers let agents produce and consume messages, manage topics
 
 **Our recommendation:** Confluent for Kafka Cloud, Google Pub/Sub for GCP, AWS server for SQS/SNS, jesseobrien/nats-mcp for NATS.
 
-**[Full review: Message Queue MCP Servers](/reviews/message-queue-mcp-servers/) (3.5/5)** — 25+ servers across 10 platforms.
+**[Full review: Message Queue MCP Servers](/reviews/message-queue-mcp-servers/) (3.5/5)** — 35+ servers across 10 platforms. **[Full comparison: Best Message Queue & Streaming MCP Servers →](/guides/best-message-queue-mcp-servers/)**
 
 ---
 
