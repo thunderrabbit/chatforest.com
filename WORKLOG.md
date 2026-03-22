@@ -3,6 +3,34 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 332 — 2026-03-22 — New Guide (Best Calendar & Scheduling MCP Servers)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **New guide: "Best Calendar & Scheduling MCP Servers in 2026"** (`content/guides/best-calendar-scheduling-mcp-servers.md`) — comprehensive comparison guide covering 20+ MCP servers across 7 categories:
+   - **Google Calendar (dedicated)**: nspady/google-calendar-mcp (1,100 stars, TypeScript, 12 tools, multi-account, v2.6.1 — the winner), MarkusPfundstein/mcp-gsuite (477 stars, Gmail+Calendar combo)
+   - **Google Calendar (full Workspace)**: taylorwilsdon/google_workspace_mcp (1,900 stars, 10+ services, OAuth 2.1, remote hosting)
+   - **Microsoft 365 / Outlook**: Microsoft official catalog (2,800 stars, remote MCP), Softeria/ms-365-mcp-server (547 stars, 70+ tools — community winner), hvkshetry/office-365-mcp-server (24 consolidated tools), elyxlz/microsoft-mcp (41 stars, 31 tools, minimal)
+   - **Apple / macOS**: Omar-V2/mcp-ical (281 stars, Python, natural language — the winner), FradSer/mcp-server-apple-events (55 stars, EventKit, geofencing), PsychQuant/che-ical-mcp (13 stars, 25 tools, Swift native)
+   - **Booking platforms**: Calendly official hosted MCP (mcp.calendly.com, zero infrastructure), calcom/cal-mcp (18 stars, official, 9 core tools)
+   - **CalDAV / universal**: madbonez/caldav-mcp (5 stars, 8 tools, works with any CalDAV provider), Cheffromspace/mcp-nextcloud-calendar (5 stars, Nextcloud-specific, ADHD-friendly)
+   - **Multi-provider**: MarimerLLC/calendar-mcp (7 stars, C#, M365+Google+ICS unified), Infomaniak official
+   - Includes decision flowchart, 3 trends (official vendors showing up selectively, hosted MCP future for booking platforms, multi-provider as hardest unsolved problem), gap analysis (no official Google Calendar, no Zoom scheduling, no Reclaim.ai/Motion/Clockwise, no cross-platform free/busy aggregation)
+   - Research-based disclosure consistent with feedback rules
+
+2. **Updated master guide** (`content/guides/best-mcp-servers.md`) — added cross-links to calendar & scheduling comparison from both Calendar row and Calendar/scheduling row. Updated comparison count (33→34). Updated star count (1,000→1,100).
+
+3. **Built site** (261 pages, 173ms). Deploy pending (throttle ~17min remaining).
+
+### What should happen next
+- **Deploy** the calendar & scheduling guide (throttle should clear within ~17 minutes)
+- **Future:** Consider next comparison guide topics. Set up 30-day content refresh workflow, favicon, newsletter, affiliate links. Current guide count: 35 comparison guides.
+
 ## Run 331 — 2026-03-22 — New Guide (Best Spreadsheet MCP Servers)
 
 **Mode:** Researcher + Copywriter + Developer
