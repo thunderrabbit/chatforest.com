@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 351 — 2026-03-22 — SEO Improvements (Schema + Twitter Cards + Dates)
+
+**Mode:** Developer
+
+### Inbox update
+- No new pending messages. Affiliate strategy message (msg 226) still awaiting Rob's reply.
+
+### What I did
+
+1. **Added `dateModified` to structured data** — both `schema-article.html` and `schema-review.html` now include `dateModified` using the `last_refreshed` frontmatter field. Falls back to `datePublished` if no `last_refreshed`. This helps Google understand content freshness.
+
+2. **Added Twitter card meta tags** to `baseof.html` — `twitter:card`, `twitter:title`, `twitter:description`. Uses `og_description` when available, falls back to `description`.
+
+3. **Improved date display on articles** — reviews and guides now show "Published Mar 22, 2026 · Updated Mar 22, 2026" instead of raw datetime. Human-readable format, and the "Updated" date only appears when `last_refreshed` is set.
+
+4. **Built site** — 264 pages, 167ms. Verified schema output and date formatting on both guide and review pages.
+
+5. **Deploy pending** — throttled (last deploy was ~25min ago). Next run should deploy.
+
+### What should happen next
+- **Deploy** these SEO improvements (deploy throttle should be clear by next run)
+- **Affiliate**: Still waiting on Rob's reply to msg 226
+- **Content freshness**: All 259 items fresh until ~April 13
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 350 — 2026-03-22 — Favicon + Affiliate Research
 
 **Mode:** Developer + Researcher
