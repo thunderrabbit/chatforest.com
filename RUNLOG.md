@@ -3078,3 +3078,73 @@ Updated both the productivity guide and master guide. Deploy pending (~11 min on
 2026-03-22T09:30:32Z SESSION 836 stopped
 2026-03-22T09:54:01Z STARTED run 431091 (mode=slow)
 2026-03-22T09:54:02Z SESSION 837 started
+2026-03-22T09:59:00Z FINISHED run 431091
+2026-03-22T09:59:00Z SESSION 837 stopped
+2026-03-22T10:23:01Z STARTED run 431800 (mode=slow)
+2026-03-22T10:23:02Z SESSION 838 started
+Done. **Run 349 complete.**
+
+**What I did:**
+- Added `last_refreshed` frontmatter field to all 43 guides (set to 2026-03-22) and 216 reviews (set to their publish date)
+- Created `scripts/check_freshness.py` — a freshness checker that reports stale content with configurable thresholds (`--days`, `--reviews`, `--all`)
+- Verified Hugo build passes (264 pages, no errors)
+
+**Why this matters:** Future runs can now start with `python3 scripts/check_freshness.py` to instantly see what needs refreshing, instead of manually tracking in the WORKLOG. Reviews will start flagging as stale around April 13.
+2026-03-22T10:26:15Z FINISHED run 431800
+2026-03-22T10:26:15Z SESSION 838 stopped
+2026-03-22T10:52:01Z STARTED run 432482 (mode=slow)
+2026-03-22T10:52:02Z SESSION 839 started
+Deploy successful. Favicon is now live on chatforest.com along with all the latest content refreshes.
+
+**Run 350 complete:**
+- SVG favicon deployed to production
+- Affiliate monetization researched, message sent to Rob (msg 226)
+- Next priorities: await Rob's affiliate input, newsletter setup, content stays fresh until mid-April
+2026-03-22T10:58:40Z FINISHED run 432482
+2026-03-22T10:58:40Z SESSION 839 stopped
+2026-03-22T11:21:01Z STARTED run 433248 (mode=slow)
+2026-03-22T11:21:01Z SESSION 840 started
+Run 351 complete. Three SEO improvements shipped:
+
+1. **`dateModified` in structured data** — Article and Review schemas now tell Google when content was last refreshed, using the `last_refreshed` frontmatter field
+2. **Twitter card meta tags** — `twitter:card`, `twitter:title`, `twitter:description` added to all pages
+3. **Human-readable dates** — Articles now show "Published Mar 22, 2026 · Updated Mar 22, 2026" instead of raw datetime
+
+Deploy is pending (throttled). Next run will deploy and can pick up any new inbox messages from Rob about the affiliate strategy.
+2026-03-22T11:23:46Z FINISHED run 433248
+2026-03-22T11:23:47Z SESSION 840 stopped
+2026-03-22T11:49:01Z STARTED run 433960 (mode=slow)
+2026-03-22T11:49:02Z SESSION 841 started
+Run 352 complete. Here's what happened:
+
+- **Deployed Run 351** — SEO improvements (dateModified schema, Twitter cards, date formatting) are now live
+- **Created 404 page** — custom error page with navigation links (was missing entirely)
+- **Added related content sections** — every review now shows "More Reviews" (4 recent articles) and every guide shows "More Guides" at the bottom. Improves internal linking (SEO) and reader engagement
+- **Deploy pending** — the 404 + related content changes will deploy next run (throttle)
+- **Affiliate** — still waiting on Rob's reply to msg 226
+2026-03-22T11:52:32Z FINISHED run 433960
+2026-03-22T11:52:33Z SESSION 841 stopped
+2026-03-22T12:17:01Z STARTED run 436974 (mode=slow)
+2026-03-22T12:17:02Z SESSION 842 started
+
+
+**Run 353 complete.** Added client-side search to ChatForest:
+
+- **Search index**: 259 reviews + guides in a build-time JSON file
+- **Search page** at `/search/` with instant multi-term filtering
+- **Nav link** added to site header
+- **Deploy pending** — throttle clears in ~30 min, next run will deploy
+2026-03-22T12:19:37Z FINISHED run 436974
+2026-03-22T12:19:38Z SESSION 842 stopped
+2026-03-22T12:46:01Z STARTED run 437691 (mode=slow)
+2026-03-22T12:46:03Z SESSION 843 started
+Done. This run:
+
+- **Deployed** all pending changes from Runs 351-353 (search feature, 404 page, related content sections, SEO improvements) — now live on chatforest.com
+- **Replied to Rob** (msg 228) with detailed answers to his 4 questions about the Cloudways affiliate program — signup process, what I'd build, revenue expectations, and risk assessment
+
+Waiting on Rob's decision to proceed with affiliate setup.
+2026-03-22T12:47:15Z FINISHED run 437691
+2026-03-22T12:47:16Z SESSION 843 stopped
+2026-03-22T13:14:01Z STARTED run 438291 (mode=slow)
+2026-03-22T13:14:03Z SESSION 844 started

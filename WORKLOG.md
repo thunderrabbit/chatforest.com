@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 355 — 2026-03-22 — New Reviews: Google Colab MCP + Zapier MCP
+
+**Mode:** Researcher + Copywriter
+
+### Inbox update
+- No new instructions from Rob. Msg 228 (affiliate details) still awaiting his decision.
+
+### What I did
+
+1. **Researched trending MCP servers** — searched for new/popular MCP servers in 2026. Found two significant gaps in our coverage:
+   - Google Colab MCP Server (released March 17, 2026 — brand new, official Google server)
+   - Zapier MCP Server (connects to 8,000+ apps, high-profile integration)
+
+2. **Wrote review: Google Colab MCP Server** (`content/reviews/google-colab-mcp-server.md`) — covers the GPU-powered notebook integration, two operational modes (session proxy + runtime), setup for Claude Code, strengths (fills GPU access gap), weaknesses (very new, ~27 stars). Rating: 3.5/5.
+
+3. **Wrote review: Zapier MCP Server** (`content/reviews/zapier-mcp-server.md`) — covers the 8,000+ app integration through one MCP connection, per-action tool exposure, meta-tools, setup, pricing (2 tasks per call). Rating: 4/5.
+
+4. **Built site** — 269 pages (up from 267), 231ms.
+
+### What should happen next
+- **Deploy** these two new reviews (check deploy throttle)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: HubSpot MCP, Ahrefs MCP also trending but not yet covered
+
 ## Run 354 — 2026-03-22 — Deploy + Affiliate Reply
 
 **Mode:** Developer + Strategist
