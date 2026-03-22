@@ -9,7 +9,7 @@ card_description: "We've reviewed 28 MCP servers across 11 categories and beyond
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [168 in-depth reviews](/reviews/) and [33 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [168 in-depth reviews](/reviews/) and [34 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -41,7 +41,7 @@ If you want to skip the details:
 | Documentation | [Context7](/reviews/context7-mcp-server/) | 3.5/5 | [GitMCP](/reviews/gitmcp-server/) (4/5, free, any repo) |
 | Productivity (knowledge) | [Notion MCP](/reviews/notion-mcp-server/) | 3.5/5 | [Obsidian MCP](/reviews/obsidian-mcp-servers/) (3.5/5, local-first) |
 | Productivity (tasks) | [Linear MCP](/reviews/linear-mcp-server/) | 4/5 | [Todoist MCP](/reviews/todoist-mcp-server/) (4/5, personal). [Full project management comparison →](/guides/best-project-management-mcp-servers/) |
-| Calendar | [Google Calendar MCP](/reviews/google-calendar-mcp-server/) | 4/5 | taylorwilsdon/google_workspace_mcp |
+| Calendar | [Google Calendar MCP](/reviews/google-calendar-mcp-server/) | 4/5 | taylorwilsdon/google_workspace_mcp. [Full calendar & scheduling comparison →](/guides/best-calendar-scheduling-mcp-servers/) |
 | Project management | [Atlassian MCP](/reviews/atlassian-mcp-server/) | 3.5/5 | sooperset/mcp-atlassian (4.6K stars, 72 tools). [Full project management comparison →](/guides/best-project-management-mcp-servers/) |
 | Deployment | [Vercel MCP](/reviews/vercel-mcp-server/) | 3.5/5 | Community alternatives (more tools) |
 | Design-to-code | [Framelink MCP](/reviews/framelink-figma-mcp-server/) | 4/5 | [Figma Dev Mode](/reviews/figma-dev-mode-mcp-server/) (3.5/5, exclusive write ops), [TalkToFigma](https://github.com/grab/cursor-talk-to-figma-mcp) (6,300 stars, bidirectional). [Full design comparison →](/guides/best-design-mcp-servers/) |
@@ -112,7 +112,7 @@ If you want to skip the details:
 | Legal / contract management | [Legal & Contract Management MCP](/reviews/legal-contract-management-mcp-servers/) | 3.5/5 | CourtListener MCP (3,352 U.S. courts), [eu-regulations](https://github.com/Mortalus/eu-regulations) (37 EU acts incl. GDPR/AI Act) |
 | Feature flags / experimentation | [Feature Flags & Experimentation MCP](/reviews/feature-flags-experimentation-mcp-servers/) | 4.0/5 | [launchdarkly/mcp-server](https://github.com/launchdarkly/mcp-server) (official, hosted endpoint), [growthbook/growthbook-mcp](https://github.com/growthbook/growthbook-mcp) (14 tools, open-source) |
 | Customer support / helpdesk | [Customer Support & Helpdesk MCP](/reviews/customer-support-helpdesk-mcp-servers/) | 3.5/5 | [Intercom MCP](https://developers.intercom.com/docs/guides/mcp) (official, OAuth, remote hosted), [Plain MCP](https://mcp.plain.com/mcp) (official, 30 tools) |
-| Calendar / scheduling | [Calendar & Scheduling MCP](/reviews/calendar-scheduling-mcp-servers/) | 4.0/5 | [google-calendar-mcp](https://github.com/nspady/google-calendar-mcp) (1,000 stars, 12 tools, multi-account), [Microsoft 365 CalendarTools](https://github.com/microsoft/mcp) (official, remote MCP) |
+| Calendar / scheduling | [Calendar & Scheduling MCP](/reviews/calendar-scheduling-mcp-servers/) | 4.0/5 | [google-calendar-mcp](https://github.com/nspady/google-calendar-mcp) (1,100 stars, 12 tools, multi-account), [Microsoft 365 CalendarTools](https://github.com/microsoft/mcp) (official, remote MCP). [Full calendar & scheduling comparison →](/guides/best-calendar-scheduling-mcp-servers/) |
 | HR / recruiting | [HR & Recruiting MCP](/reviews/hr-recruiting-mcp-servers/) | 3.5/5 | [check-technologies/mcp-server-check](https://github.com/check-technologies/mcp-server-check) (14 stars, 263 tools, official payroll), [acalder-techpm/bamboohr-mcp](https://github.com/acalder-techpm/bamboohr-mcp) (74 tools, 11 modules) |
 | Backup / disaster recovery | [Backup & DR MCP](/reviews/backup-disaster-recovery-mcp-servers/) | 3.0/5 | [Commvault/commvault-mcp-server](https://github.com/Commvault/commvault-mcp-server) (official, 20+ tools, job/SLA/storage management), [jorgedlcruz/modelcontextprotocol_veeam](https://github.com/jorgedlcruz/modelcontextprotocol_veeam) (7 stars, VBR API) |
 | Accessibility / a11y | [Accessibility & a11y MCP](/reviews/accessibility-a11y-mcp-servers/) | 3.5/5 | [ronantakizawa/a11ymcp](https://github.com/ronantakizawa/a11ymcp) (78 stars, 6 tools, axe-core WCAG testing), [JustasMonkev/mcp-accessibility-scanner](https://github.com/JustasMonkev/mcp-accessibility-scanner) (43 stars, 15+ tools, Playwright) |
