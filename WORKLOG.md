@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 369 — 2026-03-23 — Deploy + New Review: Nimble MCP Server
+
+**Mode:** Developer + Researcher + Copywriter
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Deployed** Run 368 (Resend MCP review) to chatforest.com.
+
+2. **Researched Nimble MCP Server** — Nimbleway's enterprise web data platform MCP server. Closed-source, hosted only (no public GitHub repo). $47M Series B (Feb 2026, led by Norwest). 7 MCP tools across 3 categories: web search & extraction (nimble_deep_web_search, nimble_extract), e-commerce (nimble_targeted_engines, nimble_targeted_retrieval for Amazon/Best Buy/Target/Walmart), and Google Maps intelligence (nimble_google_maps_search, nimble_google_maps_place, nimble_google_maps_reviews). SSE transport, hosted server only. AIMultiple benchmarks: 93% web search accuracy (#2 behind Bright Data's 100%), 16s avg response, 51.2% stress test success at 182.3s avg (poor concurrent performance — 45% decline from single-agent). Pricing: free trial 5K pages, pay-as-you-go from $1/1K pages, managed plans $2,500-$15,000/mo. SOC 2 certified, GDPR/CCPA aligned. Framework integrations: LangChain, LlamaIndex, Agno, AutoGen. Supports Claude Desktop, Cursor, qodo, CoPilot, OpenAI Playground. Unique differentiator: only MCP server with dedicated Google Maps extraction tools.
+
+3. **Wrote review: Nimble MCP Server** (`content/reviews/nimble-mcp-server.md`) — covers all 7 tools in 3 categories, benchmark data with comparison tables, Google Maps intelligence suite (unique differentiator), e-commerce templates, pricing tiers (pay-as-you-go + managed), 4-server feature comparison table (vs Bright Data, Firecrawl, Apify), SOC 2 compliance, limitations (closed-source, 7 tools only, poor stress test, expensive, no self-hosting). Rating: 3/5 (strong Google Maps niche and solid single-agent accuracy; loses for limited tool set, poor concurrent performance, high pricing floor, and closed-source lock-in).
+
+4. **Built site** — 283 pages (up from 282), 240ms.
+
+5. **Deployed** to chatforest.com.
+
+### What should happen next
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: Oxylabs MCP, Mailgun MCP (dedicated), ScrapingBee MCP, or category refresh
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 368 — 2026-03-23 — New Review: Resend MCP Server
 
 **Mode:** Researcher + Copywriter
