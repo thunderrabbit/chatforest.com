@@ -37,7 +37,7 @@
     <article>
       <div class="article-meta">
         <span>Developer Guide</span>
-        <span>2026-03-14 02:35:20</span>
+        <span>2026-03-22 18:00:00</span>
       </div>
 
       <h1 class="article-title">Best Search MCP Servers in 2026</h1>
@@ -63,7 +63,7 @@
 <tbody>
 <tr>
 <td><a href="/reviews/brave-search-mcp-server/">Brave Search</a></td>
-<td>772</td>
+<td>811</td>
 <td>6</td>
 <td>Keyword</td>
 <td>$5/mo credit</td>
@@ -72,8 +72,8 @@
 </tr>
 <tr>
 <td><a href="/reviews/exa-mcp-server/">Exa</a></td>
-<td>4,000</td>
-<td>9</td>
+<td>4,100</td>
+<td>4</td>
 <td>Semantic/neural</td>
 <td>$10 credit</td>
 <td>~$7</td>
@@ -81,7 +81,7 @@
 </tr>
 <tr>
 <td><a href="/reviews/tavily-mcp-server/">Tavily</a></td>
-<td>1,400</td>
+<td>1,500</td>
 <td>4</td>
 <td>Keyword + extract</td>
 <td>1K credits/mo</td>
@@ -99,7 +99,7 @@
 </tr>
 <tr>
 <td>Kagi</td>
-<td>322</td>
+<td>334</td>
 <td>2</td>
 <td>Curated keyword</td>
 <td>None (closed beta)</td>
@@ -148,19 +148,20 @@
 <p><strong>Best for:</strong> General-purpose agent search. If you need one search server and your queries are specific (documentation lookups, fact-checking, API references), Brave is the default choice.</p>
 <h3 id="exa-mcp--the-research-engine">Exa MCP — The Research Engine</h3>
 <p><strong><a href="https://github.com/exa-labs/exa-mcp-server">exa-labs/exa-mcp-server</a></strong> | <a href="/reviews/exa-mcp-server/">Our full review</a> | Rating: 4/5</p>
-<p>Exa is the most powerful search MCP server for research workflows. Its neural search genuinely understands concepts, not just keywords. Query-dependent highlights cut token usage by 50–75% by extracting only the relevant passages from each result. And the async deep researcher feature can autonomously search, read, and synthesize a report — something no other search MCP server can do.</p>
+<p>Exa is the most powerful search MCP server for research workflows. Its neural search genuinely understands concepts, not just keywords. Query-dependent highlights cut token usage by 50–75% by extracting only the relevant passages from each result. In March 2026, Exa consolidated from 9 tools down to 4, deprecating specialized tools in favor of a unified <code>web_search_advanced_exa</code> that covers company research, people search, and other categories through filter parameters.</p>
 <p><strong>Why it&rsquo;s good:</strong></p>
 <ul>
 <li>Semantic search that measurably outperforms keyword matching (81% vs 71% on WebWalker)</li>
-<li>Nine tools including code search, company research, people search, and deep research</li>
+<li>Four active tools after March 2026 consolidation: <code>web_search_exa</code>, <code>web_search_advanced_exa</code>, <code>get_code_context_exa</code>, and <code>crawling_exa</code> — six specialized tools (company research, people search, deep search, LinkedIn search) were deprecated in favor of <code>web_search_advanced_exa</code></li>
 <li>Query-dependent highlights save tokens on content extraction</li>
-<li>Specialized search categories (company, research paper, financial report, tweet) with structured metadata</li>
-<li>4,000 GitHub stars — largest community of any search MCP server</li>
+<li><code>web_search_advanced_exa</code> covers company, research paper, financial report, and tweet categories with full filter capabilities</li>
+<li>4,100 GitHub stars — largest community of any search MCP server</li>
 </ul>
+<p><strong>What changed recently:</strong> In March 2026, Exa consolidated from 9 tools down to 4 by deprecating six specialized tools (<code>company_research_exa</code>, <code>people_search_exa</code>, <code>deep_search_exa</code>, <code>deep_researcher_start/check</code>, <code>linkedin_search_exa</code>) in favor of the unified <code>web_search_advanced_exa</code>. Existing users retain backward compatibility, but new setups should use the consolidated tools. Bearer token authentication was also added alongside the existing query parameter method.</p>
 <p><strong>The catch:</strong> Complex per-operation pricing that&rsquo;s hard to predict. Filter restrictions fail silently with opaque 400 errors. No offline or self-hosted option. The hosted endpoint has had timeout issues under load.</p>
 <p><strong>Best for:</strong> Research-heavy workflows — market analysis, competitive intelligence, exploring unfamiliar domains. When your agent needs to find things it doesn&rsquo;t know the name of yet.</p>
 <h3 id="tavily-mcp--the-rag-specialist">Tavily MCP — The RAG Specialist</h3>
-<p><strong><a href="https://github.com/tavily-ai/tavily-mcp">tavily-ai/tavily-mcp</a></strong> | <a href="/reviews/tavily-mcp-server/">Our full review</a> | Rating: 4/5 | 1,400 stars</p>
+<p><strong><a href="https://github.com/tavily-ai/tavily-mcp">tavily-ai/tavily-mcp</a></strong> | <a href="/reviews/tavily-mcp-server/">Our full review</a> | Rating: 4/5 | 1,500 stars</p>
 <p>Tavily is the search API most AI frameworks integrate by default. LangChain, LlamaIndex, and the Vercel AI SDK all have Tavily adapters out of the box. If you&rsquo;re building a RAG pipeline, Tavily is the path of least resistance.</p>
 <p><strong>Tools (4):</strong></p>
 <ul>
@@ -179,7 +180,7 @@
 <p><strong>The catch:</strong> Keyword-based search, not semantic — scores 71% on WebWalker vs Exa&rsquo;s 81%. Acquired by Nebius in February 2026, introducing roadmap uncertainty. Free tier credits don&rsquo;t roll over and expire after 90 days. At scale (100K queries), costs reach ~$800/month.</p>
 <p><strong>Best for:</strong> RAG pipelines and agent frameworks. If you&rsquo;re building with LangChain or LlamaIndex, Tavily&rsquo;s native integration removes friction. The crawl and extract tools also make it useful for content ingestion workflows.</p>
 <h3 id="perplexity-mcpreviewsperplexity-mcp-server--the-answer-engine-45"><a href="/reviews/perplexity-mcp-server/">Perplexity MCP</a> — The Answer Engine (4/5)</h3>
-<p><strong><a href="https://github.com/perplexityai/modelcontextprotocol">perplexityai/modelcontextprotocol</a></strong> | 2,000 stars | <a href="/reviews/perplexity-mcp-server/">Full review</a></p>
+<p><strong><a href="https://github.com/perplexityai/modelcontextprotocol">perplexityai/modelcontextprotocol</a></strong> | 2,000 stars | v0.8.4 | <a href="/reviews/perplexity-mcp-server/">Full review</a></p>
 <p>Perplexity Sonar is fundamentally different from the other servers here. Instead of returning search results for your agent to read, it returns synthesized answers with citations. It&rsquo;s not a search engine — it&rsquo;s an answer engine accessed through MCP.</p>
 <p><strong>Tools (4):</strong></p>
 <ul>
@@ -195,11 +196,12 @@
 <li>Zero open issues — best maintenance record of any search MCP server</li>
 <li>One-click installers for Cursor and VS Code, Docker support, proxy configuration for enterprise</li>
 <li>Citation tokens no longer billed (2026 cost cut)</li>
+<li>v0.8.4 (March 2026) with security updates — actively maintained</li>
 </ul>
 <p><strong>The catch:</strong> No free tier — highest entry barrier in the search category. Deep research can timeout in clients with short tool-call limits. Less control over the retrieval process — you get Perplexity&rsquo;s interpretation, not raw sources. Per-token pricing is harder to predict than flat-rate alternatives.</p>
 <p><strong>Best for:</strong> When your agent needs facts, not research. Direct questions, fact verification, quick lookups where you trust the synthesis model. Also strong for step-by-step reasoning tasks via the unique <code>perplexity_reason</code> tool.</p>
 <h3 id="kagi-mcp--the-privacy-purist">Kagi MCP — The Privacy Purist</h3>
-<p><strong><a href="https://github.com/kagisearch/kagimcp">kagisearch/kagimcp</a></strong> | 322 stars</p>
+<p><strong><a href="https://github.com/kagisearch/kagimcp">kagisearch/kagimcp</a></strong> | 334 stars</p>
 <p>Kagi is the search engine for people who pay for ad-free, tracker-free, high-quality results. Their MCP server extends this to agents — but with significant access barriers.</p>
 <p><strong>Tools (2):</strong></p>
 <ul>
@@ -212,7 +214,7 @@
 <li>No tracking, no profiling — strongest privacy stance of any search MCP</li>
 <li>Unique multi-engine summarizer with different models for different content types</li>
 </ul>
-<p><strong>The catch:</strong> The Search API is in closed beta — you must email <a href="mailto:support@kagi.com">support@kagi.com</a> to request access. Requires an existing Kagi subscription ($5–$25/month) on top of API costs. Highest per-query price at $0.025/search ($25 per 1K). Only 2 tools — minimal feature set compared to Brave&rsquo;s 6 or Exa&rsquo;s 9.</p>
+<p><strong>The catch:</strong> The Search API is in closed beta — you must email <a href="mailto:support@kagi.com">support@kagi.com</a> to request access. Requires an existing Kagi subscription ($5–$25/month) on top of API costs. Highest per-query price at $0.025/search ($25 per 1K). Only 2 tools — minimal feature set compared to Brave&rsquo;s 6.</p>
 <p><strong>Best for:</strong> Existing Kagi subscribers who want their agent to use the same ad-free, high-quality search they use personally. Not practical for most users until the API exits closed beta.</p>
 <h3 id="linkup-mcp--the-factual-accuracy-play">Linkup MCP — The Factual Accuracy Play</h3>
 <p><strong><a href="https://github.com/LinkupPlatform/linkup-mcp-server">LinkupPlatform/linkup-mcp-server</a></strong> | 24 stars</p>
@@ -228,7 +230,7 @@
 <li>Three depth modes let you trade cost for thoroughness</li>
 <li>Flat, predictable pricing (€0.50 cents per standard search)</li>
 </ul>
-<p><strong>The catch:</strong> Tiny community (24 stars). Only 2 tools. Last updated October 2025 — low development activity. Limited documentation. The factuality claim is based on a single benchmark and hasn&rsquo;t been independently verified by third parties.</p>
+<p><strong>The catch:</strong> Tiny community (24 stars). Only 2 tools. Last release v2.1.0 in October 2025 — <strong>dormant for 5 months</strong> with no commits since. Limited documentation. The factuality claim is based on a single benchmark and hasn&rsquo;t been independently verified by third parties.</p>
 <p><strong>Best for:</strong> Fact-checking workflows where accuracy matters more than features. But the small community and stale development are red flags — evaluate carefully before committing.</p>
 <h2 id="feature-comparison">Feature Comparison</h2>
 <table>
@@ -256,7 +258,7 @@
 <tr>
 <td>Number of tools</td>
 <td>6</td>
-<td>9</td>
+<td>4</td>
 <td>4</td>
 <td>4</td>
 <td>2</td>
@@ -319,7 +321,7 @@
 <tr>
 <td>Deep research</td>
 <td>No</td>
-<td>Yes (async)</td>
+<td>Deprecated</td>
 <td>No</td>
 <td>Yes</td>
 <td>No</td>
@@ -337,7 +339,7 @@
 <tr>
 <td>People search</td>
 <td>No</td>
-<td>Yes</td>
+<td>Via advanced search</td>
 <td>No</td>
 <td>No</td>
 <td>No</td>
@@ -454,7 +456,7 @@
 <p><strong>&ldquo;Find the docs for X&rdquo; / &ldquo;What&rsquo;s the latest version of Y&rdquo;</strong>
 → <strong>Brave Search.</strong> Specific, keyword-matchable queries. Brave&rsquo;s independent index, six search modalities, and predictable pricing make it the default general-purpose choice. <a href="/reviews/brave-search-mcp-server/">Read our full review</a>.</p>
 <p><strong>&ldquo;Find companies doing X&rdquo; / &ldquo;Research the landscape of Y&rdquo;</strong>
-→ <strong>Exa.</strong> Conceptual, exploratory queries where you don&rsquo;t know the exact terms. Exa&rsquo;s semantic search finds results keyword engines miss. The deep researcher feature can autonomously generate research reports. <a href="/reviews/exa-mcp-server/">Read our full review</a>.</p>
+→ <strong>Exa.</strong> Conceptual, exploratory queries where you don&rsquo;t know the exact terms. Exa&rsquo;s semantic search finds results keyword engines miss. The <code>web_search_advanced_exa</code> tool covers company research, people search, and specialized categories through a single unified interface. <a href="/reviews/exa-mcp-server/">Read our full review</a>.</p>
 <p><strong>&ldquo;Build a RAG pipeline with LangChain/LlamaIndex&rdquo;</strong>
 → <strong>Tavily.</strong> Native framework integration means less glue code. The crawl and extract tools help with content ingestion. But watch the Nebius acquisition — the roadmap may shift.</p>
 <p><strong>&ldquo;Answer this question for me&rdquo;</strong>
@@ -524,7 +526,7 @@
     
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Article","author":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"datePublished":"2026-03-14T02:35:20+09:00","description":"Brave vs Exa vs Tavily vs Perplexity Sonar — which search MCP server should your AI agent use? We compare keyword search, semantic search, and answer engines with clear recommendations.","headline":"Best Search MCP Servers in 2026","mainEntityOfPage":"https://chatforest.com/guides/best-search-mcp-servers/","publisher":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"url":"https://chatforest.com/guides/best-search-mcp-servers/"}
+{"@context":"https://schema.org","@type":"Article","author":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"datePublished":"2026-03-22T18:00:00+09:00","description":"Brave vs Exa vs Tavily vs Perplexity Sonar — which search MCP server should your AI agent use? We compare keyword search, semantic search, and answer engines with clear recommendations.","headline":"Best Search MCP Servers in 2026","mainEntityOfPage":"https://chatforest.com/guides/best-search-mcp-servers/","publisher":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"url":"https://chatforest.com/guides/best-search-mcp-servers/"}
 </script>
 
 

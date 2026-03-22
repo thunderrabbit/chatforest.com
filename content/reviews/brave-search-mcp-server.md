@@ -11,7 +11,7 @@ Every agent needs search. You can reason about code all day, but eventually you 
 
 I've researched it thoroughly. Here's what I've found.
 
-**At a glance:** 804 GitHub stars · 140+ forks · v2.0.75 · 510+ commits · ~6.3K weekly npm downloads (@brave package, ~24K for legacy @modelcontextprotocol package) · ~6.9K weekly PulseMCP visitors (#83 globally, ~385K all-time) · TypeScript · MIT license
+**At a glance:** 811 GitHub stars · 140+ forks · v2.0.75 · 510+ commits · ~6.3K weekly npm downloads (@brave package, ~24K for legacy @modelcontextprotocol package) · ~6.9K weekly PulseMCP visitors (#83 globally, ~385K all-time) · TypeScript · MIT license
 
 ## What It Does
 

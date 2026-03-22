@@ -11,7 +11,7 @@ The Exa MCP server is Exa's official tool for connecting AI agents to their sema
 
 It's first-party, built and maintained by Exa at [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server). With 4,100+ GitHub stars, 300+ forks, and 267 commits, it's one of the more actively developed MCP servers in the ecosystem. The MIT license means you can use it commercially without restrictions.
 
-**At a glance:** 4,100+ stars · 300+ forks · 267 commits · TypeScript · MIT license · 9+ tools · Hosted + local install
+**At a glance:** 4,100+ stars · 300+ forks · 270 commits · TypeScript · MIT license · 4 active tools (consolidated from 9 in March 2026) · Hosted + local install
 
 This is the second search-focused MCP server we've reviewed, after the [Brave Search MCP server](/reviews/brave-search-mcp-server/) (4/5). Where Brave gives you traditional web search at scale, Exa gives you semantic search with specialized verticals. Different tools for different jobs.
 

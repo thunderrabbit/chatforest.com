@@ -238,7 +238,7 @@ Search is the most fundamental agent capability, and there are three paradigms t
 - **Our pick: [Brave Search](/reviews/brave-search-mcp-server/) (4/5).** Six tools (web, local, image, video, news, summarizer), the only independent Western search index (Bing API discontinued summer 2025), no Google tracking. Free tier killed Feb 2026 — now $5/1,000 queries with $5 monthly credit. Still the default for most agents; Tavily/Exa free tiers are more accessible for hobbyists.
 
 **Semantic search** — neural embeddings that understand concepts, not just keywords. Best for research, finding similar content, and exploratory queries.
-- **Our pick: [Exa](/reviews/exa-mcp-server/) (4/5).** Outperforms Tavily on benchmarks (81% vs 71% WebWalker) with lower latency. Query-dependent highlights reduce token usage by 50-75%. Nine tools including async deep researcher. 1,000 free requests/month.
+- **Our pick: [Exa](/reviews/exa-mcp-server/) (4/5).** Outperforms Tavily on benchmarks (81% vs 71% WebWalker) with lower latency. Query-dependent highlights reduce token usage by 50-75%. Consolidated to 4 tools in March 2026 (from 9), with `web_search_advanced_exa` replacing specialized tools. 4,100 stars. 1,000 free requests/month.
 
 **Search + extraction** — search the web, then extract and crawl the results. Best for RAG pipelines and content ingestion.
 - **Worth considering: [Tavily](/reviews/tavily-mcp-server/) (4/5).** Four tools covering search, extract, crawl, and map. The default search API for LangChain and LlamaIndex. Hosted remote server with zero-install setup. Keyword search quality trails semantic engines, but the search-to-extract pipeline is unmatched.

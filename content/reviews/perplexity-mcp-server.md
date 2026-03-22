@@ -7,7 +7,7 @@ content_type: "Review"
 card_description: "Four tools that return synthesized answers instead of links — search, ask, research, and reason. The answer engine approach, now reviewed."
 ---
 
-**At a glance:** 2,000+ stars · 280+ forks · 122 commits · 0 open issues · MIT license · TypeScript
+**At a glance:** 2,000+ stars · 280+ forks · 124 commits · v0.8.4 · 0 open issues · MIT license · TypeScript
 
 Every other search MCP server returns links. Perplexity returns answers.
 
