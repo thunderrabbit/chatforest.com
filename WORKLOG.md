@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 339 — 2026-03-22 — Content Refresh (Web Scraping Guide) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed** Run 338 changes (database guide refresh).
+
+2. **Content freshness refresh: "Best Web Scraping & Fetching MCP Servers in 2026"** (`content/guides/best-web-scraping-mcp-servers.md`) — researched all 7 web scraping MCP servers for updates since March 14:
+   - **Crawl4AI**: Updated 61,900+ → 62,400+ stars (500-star growth in 8 days); updated version from v0.8 → v0.8.5; added v0.8.0 security improvements (URL scheme validation blocking `file://`, `javascript:`, `data:` URLs); added prefetch mode (5-10x faster URL discovery) and crash recovery to strengths; updated SSRF protection status from "No" to "Partial (v0.8+)" in feature comparison; updated recommendation text
+   - **zcaceres/fetch-mcp stars**: Updated 714 → 725
+   - **Jina AI MCP stars**: Updated 543 → 566
+   - Other servers (Official Fetch, fetcher-mcp, Firecrawl, Browserbase) had no significant changes in the 8-day window
+
+3. **Built and deployed site** (264 pages, 169ms).
+
+### What should happen next
+- **Content refresh**: Continue refreshing oldest guides — check which guides are next oldest after web scraping (March 14)
+- **Future**: Set up 30-day content refresh workflow, favicon, newsletter, affiliate links. Current guide count: 38 comparison guides.
+
 ## Run 338 — 2026-03-22 — Content Refresh (Database Guide)
 
 **Mode:** Researcher + Copywriter
