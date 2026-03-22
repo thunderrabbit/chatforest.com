@@ -9,7 +9,7 @@ card_description: "We've reviewed 28 MCP servers across 11 categories and beyond
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [168 in-depth reviews](/reviews/) and [32 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [168 in-depth reviews](/reviews/) and [33 category comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -32,7 +32,7 @@ If you want to skip the details:
 | Database (SQLite) | jparkerweb/mcp-sqlite | — | [Official SQLite](/reviews/sqlite-mcp-server/) (2.5/5, archived, SQL injection) |
 | Database (multi-DB) | FreePeak/db-mcp-server | — | executeautomation (320 stars, 10 tools) |
 | Memory | [Zep/Graphiti](/reviews/zep-graphiti-mcp-server/) | 4/5 | [mem0](/reviews/mem0-mcp-server/) (4/5, semantic retrieval), [Official Memory](/reviews/memory-mcp-server/) (3.5/5, small use cases) |
-| Filesystem | [Official Filesystem](/reviews/filesystem-mcp-server/) | 4/5 | — |
+| Filesystem | [Official Filesystem](/reviews/filesystem-mcp-server/) | 4/5 | [mark3labs Go](https://github.com/mark3labs/mcp-filesystem-server) (619 stars, single binary). [Full file & storage comparison →](/guides/best-file-storage-mcp-servers/) |
 | Version control (GitHub) | [GitHub MCP](/reviews/github-mcp-server/) | 4/5 | [zereight/gitlab-mcp](https://github.com/zereight/gitlab-mcp) (1,200 stars, GitLab), [microsoft/azure-devops-mcp](https://github.com/microsoft/azure-devops-mcp) (1,100 stars, Azure DevOps). [Full version control comparison →](/guides/best-version-control-mcp-servers/) |
 | Version control (local git) | [Git MCP](/reviews/git-mcp-server/) | 3/5 | [cyanheads/git-mcp-server](https://github.com/cyanheads/git-mcp-server) (183 stars, full push/pull/merge). [Full version control comparison →](/guides/best-version-control-mcp-servers/) |
 | Communication | [Slack MCP](/reviews/slack-mcp-server/) | 4/5 | [Teams MCP](/reviews/teams-mcp-servers/) (3.5/5, official + community), [Discord MCP](/reviews/discord-mcp-servers/) (3/5, community). [Full comparison →](/guides/best-communication-mcp-servers/) |
@@ -57,7 +57,7 @@ If you want to skip the details:
 | DevOps (CI/CD) | [CI/CD MCP Servers](/reviews/cicd-mcp-servers/) | 4/5 | [GitHub MCP](/reviews/github-mcp-server/) (27.9K stars), [CircleCI MCP](https://github.com/CircleCI-Public/mcp-server-circleci) (flaky test detection) |
 | DevOps (platform) | Azure DevOps MCP | — | [GitHub MCP](/reviews/github-mcp-server/) (4.5/5) |
 | Analytics | [Analytics MCP Servers](/reviews/analytics-mcp-servers/) | 3.5/5 | [Google Analytics MCP](https://github.com/googleanalytics/google-analytics-mcp) (1.5K stars, official), [PostHog MCP](https://github.com/PostHog/mcp) (27+ tools). [Full data & analytics comparison →](/guides/best-data-analytics-mcp-servers/) |
-| Cloud storage | [Cloud Storage MCP Servers](/reviews/cloud-storage-mcp-servers/) | 3.5/5 | [GCS](https://github.com/googleapis/gcloud-mcp) (21 tools, official), [MinIO](https://github.com/minio/mcp-server-aistor) (26 tools, AI-powered) |
+| Cloud storage | [Cloud Storage MCP Servers](/reviews/cloud-storage-mcp-servers/) | 3.5/5 | [GCS](https://github.com/googleapis/gcloud-mcp) (21 tools, official), [MinIO](https://github.com/minio/mcp-server-aistor) (26 tools, AI-powered). [Full file & storage comparison →](/guides/best-file-storage-mcp-servers/) |
 | Search engines | [Search Engine MCP Servers](/reviews/search-engine-mcp-servers/) | 3.5/5 | [OpenSearch MCP](https://github.com/opensearch-project/opensearch-mcp-server-py) (24+ tools, official), [Meilisearch MCP](https://github.com/meilisearch/meilisearch-mcp) (20+ tools, official) |
 | Message queues | [Message Queue MCP Servers](/reviews/message-queue-mcp-servers/) | 3.5/5 | [Confluent MCP](https://github.com/confluentinc/mcp-confluent) (37+ tools, official), [Google Pub/Sub](https://docs.cloud.google.com/pubsub/docs/use-pubsub-mcp) (managed remote, IAM) |
 | PDF / documents | [PDF & Document MCP Servers](/reviews/pdf-document-mcp-servers/) | 3.5/5 | [MarkItDown](https://github.com/microsoft/markitdown) (90.7K stars, 29+ formats), [Docling MCP](https://github.com/docling-project/docling-mcp) (layout analysis) |
@@ -411,6 +411,8 @@ Every major cloud provider has some MCP server coverage, but the gap between bes
 **For Cloudflare R2:** Fully covered through the [Cloudflare API MCP server](/reviews/cloudflare-mcp-server/) at `mcp.cloudflare.com/mcp` — R2 operations are available via the universal search+execute pattern.
 
 **[Full review: Cloud Storage MCP Servers](/reviews/cloud-storage-mcp-servers/) (3.5/5)** — 20+ servers across 7 platforms.
+
+**[Full file & storage comparison →](/guides/best-file-storage-mcp-servers/)** — 30+ servers covering local filesystem, Google Drive, S3, Dropbox, OneDrive, Box, MinIO, FTP/SFTP, and multi-cloud adapters.
 
 ---
 
