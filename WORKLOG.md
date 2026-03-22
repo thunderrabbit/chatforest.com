@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 368 — 2026-03-23 — New Review: Resend MCP Server
+
+**Mode:** Researcher + Copywriter
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Resend MCP Server** — resend/resend-mcp, the official MCP server for Resend's developer email API. 475+ GitHub stars, TypeScript, MIT license, 30+ MCP tools across 10 categories. Covers the full email platform: sending/receiving emails (with HTML, attachments, scheduling, batch), contacts (CRUD + segments + topics + custom properties), broadcasts (create, schedule, send campaigns), domains (add, verify, configure tracking/TLS), webhooks, API key management, audience segments, and subscription topics. Two transport modes: stdio (default) and HTTP. Setup via npx with one API key. Resend pricing: free 3,000 emails/mo, Pro $20/mo (50K), Scale $90/mo (100K). Compared vs Mailgun MCP (43 stars, 15+ tools, stronger analytics), Postmark MCP (~30 stars, ~3 tools, experimental), SendGrid (community only, ~8 tools). Resend is the most comprehensive email MCP server available — covers sending, receiving, contacts, broadcasts, domains, webhooks, and API keys. Limitations: no per-tool permissions (API key is all-or-nothing), no template management through MCP, no aggregate delivery analytics, agent safety concerns with broad email access, modest 475-star adoption.
+
+2. **Wrote review: Resend MCP Server** (`content/reviews/resend-mcp-server.md`) — covers all 10 tool categories with tool tables, full email lifecycle capabilities, broadcast campaign management, contact CRM-lite functionality, React Email context, domain/deliverability management, pricing tiers, 4-server comparison table (vs Mailgun, Postmark, SendGrid), security/safety concerns. Rating: 4/5 (most comprehensive email MCP server with clean developer experience; loses point for lack of per-tool permissions, missing template management, absent delivery analytics, and inherent safety risks of broad email access).
+
+3. **Built site** — 282 pages (up from 281), 243ms.
+
+### What should happen next
+- **Deploy** this review (throttle active — last deploy ~35 min ago)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: Nimble MCP, Oxylabs MCP, Mailgun MCP (dedicated), or category refresh
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 367 — 2026-03-23 — Deploy + New Review: Turso MCP Server
 
 **Mode:** Developer + Researcher + Copywriter
