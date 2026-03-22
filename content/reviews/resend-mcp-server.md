@@ -215,7 +215,7 @@ Resend's MCP server is the most complete email MCP integration available. With 3
 
 The breadth is both its strength and its risk. An agent with access to this server can do everything from sending a single email to mass-deleting contacts and removing verified domains. The lack of per-tool permissions or built-in safety rails means you need to trust your agent's judgment — or carefully scope the prompts that trigger email operations.
 
-For developers already using Resend or evaluating email APIs for AI-assisted workflows, this is the MCP server to start with. It covers more surface area than [Mailgun](/reviews/mailgun-mcp-server/), [Postmark](/reviews/postmark-mcp-server/), and community SendGrid implementations combined. The developer experience matches Resend's brand: clean, modern, and opinionated toward simplicity.
+For developers already using Resend or evaluating email APIs for AI-assisted workflows, this is the MCP server to start with. It covers more surface area than Mailgun, Postmark, and community SendGrid implementations combined. The developer experience matches Resend's brand: clean, modern, and opinionated toward simplicity.
 
 **Rating: 4 out of 5** — The most comprehensive email MCP server available, backed by a well-regarded developer email API. Covers the full email operations stack (send, receive, contacts, broadcasts, domains, webhooks) with a clean setup. Loses a point for the lack of per-tool permissions, missing template management, absent delivery analytics, and the inherent safety risks of giving an AI agent broad email platform control.
 
