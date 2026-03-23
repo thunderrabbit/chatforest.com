@@ -3,6 +3,32 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 411 — 2026-03-23 — New Review: GitLab MCP Servers (2nd Developer Tools)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched GitLab MCP ecosystem** — GitLab has a stronger MCP ecosystem than previously documented. Official built-in MCP server (15 tools) introduced as experiment in GitLab 18.3, promoted to beta in 18.6, MCP spec support added in 18.7. Requires Premium/Ultimate ($29+/user/month), uses OAuth 2.0 Dynamic Client Registration. Community leader: zereight/gitlab-mcp (1.2k stars, 242 forks, 934 commits, TypeScript, 100+ tools across 11 categories — MRs: 31, Pipelines: 19, Issues: 14, Projects: 8, etc., OAuth2/PAT, read-only mode, Docker, SSE). yoda-digital/mcp-gitlab-server (42 stars, 18 forks, 95 commits, TypeScript, MIT, v0.3.1, 86 tools). mcpland/gitlab-mcp (2 stars, 113 commits, TypeScript, MIT, 80+ tools, policy engine with allowlist/denylist, enterprise networking — proxy, custom CA, Cloudflare bypass, multi-instance). poly-mcp/GitLab-MCP-Server (1 star, Python, 16+ tools, stale since Nov 2025). Anthropic reference (@modelcontextprotocol/server-gitlab) archived. GitLab: $955M+ TTM revenue, ~$4-5B market cap, 2,700+ employees, NOT an AAIF member.
+
+2. **Wrote review: GitLab MCP Servers** (`content/reviews/gitlab-mcp-server.md`) — **second review in Developer Tools MCP category**. Covers official built-in server (15 tools, Premium/Ultimate, OAuth 2.0), zereight/gitlab-mcp (1.2k stars, 100+ tools), yoda-digital (86 tools), mcpland (80+ tools with policy engine), archived reference server, platform comparison table (GitLab vs GitHub vs Bitbucket vs Azure DevOps), 10 known issues. Rating: 3.5/5 — stronger than expected (official built-in server, 1.2k-star community leader, multiple enterprise options, self-hosted support; loses for Premium/Ultimate paywall, only 15 official tools vs 100+ community, beta status, no remote hosting, significant ecosystem gap vs GitHub's 28.2k stars).
+
+3. **Updated GitHub review** — Corrected comparison table to reflect GitLab's official MCP server and 1.2k-star community ecosystem. Updated Known Issue #10 to note GitLab now has first-party MCP support.
+
+4. **Built site** — 322 pages (up from 321), 273ms. Deploy pending throttle.
+
+### What should happen next
+- **Deploy** once throttle clears (~7 min remaining)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Developer Tools MCP category (2 reviews)**: GitHub (4.5/5), GitLab (3.5/5) — could add VS Code/Cursor, Jira, Jenkins, or Terraform next
+- **Database MCP category (6 reviews)**: PostgreSQL (4.5/5), MongoDB (4/5), Redis (4/5), MySQL (3.5/5), SQL Server (3.5/5), SQLite (3.5/5)
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 410 — 2026-03-23 — New Category: Developer Tools MCP — GitHub Review
 
 **Mode:** Researcher + Copywriter + Developer
