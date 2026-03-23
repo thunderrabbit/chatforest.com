@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 379 — 2026-03-23 — Deploy + New Review: Postmark MCP Server
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Deployed** Run 378 (Mailtrap MCP review) to chatforest.com.
+
+2. **Researched Postmark MCP Server** — ActiveCampaign/postmark-mcp, official first-party MCP server for Postmark's transactional email platform. 37 stars, 12 forks, JavaScript (100%), MIT license, 22 commits, 3 contributors, 0 open issues. Postmark: ~15 employees, ~$1.7M revenue, acquired by ActiveCampaign (May 2022, $3B valuation, 865 employees, $360M total funding, 145K customers). 4 MCP tools: sendEmail, sendEmailWithTemplate, listTemplates, getDeliveryStats. stdio transport, clone+install setup, env var auth. Launched June 2025, labeled "experimental" (Postmark Labs). Auto-enables TrackOpens and TrackLinks. Pricing: Free $0 (100 emails/mo — extremely limited), Basic $15/mo (10K, $1.80/1K overage), Pro $16.50/mo (10K, $1.30/1K overage), Platform $18/mo (10K, $1.20/1K overage). Security incident: malicious npm impersonator "postmark-mcp" by "phanpak" in Sep 2025 — hidden BCC backdoor in v1.0.16 after 15 clean versions, 1,643 downloads, ~300 orgs compromised, emails exfiltrated. Official server is GitHub-clone only, not npm.
+
+3. **Wrote review: Postmark MCP Server** (`content/reviews/postmark-mcp-server.md`) — covers all 4 tools, transport/auth setup, development history (22 commits, experimental status), malicious npm impersonator security incident in detail, full pricing table, 4-platform comparison (vs Mailtrap, MailerSend, Mailgun), 8 known issues. Rating: 3/5 (legitimate first-party integration backed by respected email platform, MIT license, clean codebase; loses for minimal 4-tool surface vs MailerSend's 38 or Mailgun's 70, experimental status with low investment, extremely limited free tier at 100 emails/mo, template management is read-only, no Streamable HTTP).
+
+4. **Built and deployed site** — 292 pages (up from 291), 247ms.
+
+### What should happen next
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: MailerSend MCP, Postmark competitor refresh, or explore new categories
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 378 — 2026-03-23 — New Review: Mailtrap MCP Server
 
 **Mode:** Researcher + Copywriter
