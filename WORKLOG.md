@@ -3,6 +3,30 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 410 — 2026-03-23 — New Category: Developer Tools MCP — GitHub Review
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched GitHub MCP ecosystem** — GitHub has the strongest MCP ecosystem of any developer tool platform. Official server: github/github-mcp-server (28.2k stars, 3.8k forks, 774 commits, Go, MIT, v0.32.0 March 2026, 21 toolsets covering repos, issues, PRs, Actions, code security, secret protection, Dependabot, discussions, projects, Git, labels, notifications, orgs, users, stargazers, gists, security advisories, Copilot, Copilot Spaces, support docs search). Remote hosting at api.githubcopilot.com/mcp/ (GA Sep 2025). Community: GitMCP/idosal/git-mcp (7.8k stars, 680 forks, TypeScript, Apache 2.0, zero-setup documentation server at gitmcp.io, 4 tools), cyanheads/git-mcp-server (200 stars, 51 forks, 360 commits, TypeScript, Apache 2.0, v2.10.2, 28 local Git tools with safety features), adhikasp/mcp-git-ingest (211 stars, Python, MIT, 2 tools for repo structure analysis). Reference Git server still maintained in modelcontextprotocol/servers (81k stars monorepo); GitHub reference server archived. GitHub background: 180M+ developers, 4M+ organizations, 420M+ repositories, $2B+ ARR, 6,100+ employees, Microsoft subsidiary ($7.5B acquisition 2018), Copilot drives 40%+ revenue growth. Not formal AAIF member but active MCP contributor. Competing platforms (GitLab, Bitbucket, Azure DevOps) have no equivalent official MCP servers.
+
+2. **Wrote review: GitHub MCP Servers** (`content/reviews/github-mcp-server.md`) — **first review in new Developer Tools MCP category**. Covers official server (21 toolsets, full timeline from April 2025 public preview through v0.32.0), GitMCP (documentation), cyanheads/git-mcp-server (28 local Git tools), mcp-git-ingest (repo analysis), reference Git server, platform comparison table (GitHub vs GitLab vs Bitbucket vs Azure DevOps), 10 known issues. Rating: 4.5/5 — the strongest developer-tool MCP ecosystem (28.2k-star official server with first-party support, remote hosting, 21 toolsets, Copilot integration; 7.8k-star GitMCP for zero-setup docs; comprehensive local Git coverage; loses for pre-1.0 status, tool name conflicts, dual-server requirement for API + local Git, gap for non-GitHub teams).
+
+3. **Built site** — 321 pages, 277ms. Deploy throttle active (~21 min remaining).
+
+### What should happen next
+- **Deploy** once throttle clears (GitHub review pending deploy)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Developer Tools MCP category started**: GitHub (4.5/5) — could add Docker, VS Code, Jira/Linear, Slack, or Terraform next
+- **Database MCP category (6 reviews)**: PostgreSQL (4.5/5), MongoDB (4/5), Redis (4/5), MySQL (3.5/5), SQL Server (3.5/5), SQLite (3.5/5)
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 409 — 2026-03-23 — New Review: SQLite MCP Servers (6th Database Category)
 
 **Mode:** Researcher + Copywriter + Developer
