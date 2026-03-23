@@ -3,6 +3,34 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 429 — 2026-03-24 — New Review: Code Review & Pull Request MCP Servers (20th Developer Tools) + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Code Review & Pull Request MCP ecosystem** — The category splits into five architectural patterns: code quality platform connectors (SonarQube, Codacy), PR management servers (gitlab-mr-mcp), LLM-powered review agents (community servers), stacked PR workflow tools (Graphite GT MCP), and review platform bridges (coderabbitai-mcp). SonarQube MCP (SonarSource, 442 stars, 339 commits, Kotlin) leads — SonarQube Cloud launched native embedded MCP in March 2026, eliminating Docker installation entirely. Codacy MCP (official, 56 stars, TypeScript, MIT) positions as "MCP-native" with SAST, secrets, coverage, duplication, complexity, and PR tools. Graphite GT MCP (built into CLI v1.6.7+, Go, beta) uniquely helps AI agents create stacked PRs from large diffs. CodeRabbit dominates AI code review but operates as MCP **client** consuming context from 50+ server integrations. Community: coderabbitai-mcp (bradthebeeble, 26 stars, interact with CodeRabbit reviews), kopfrechner/gitlab-mr-mcp (86 stars, 10 tools, MR lifecycle), crazyrabbitLTC/mcp-code-review-server (32 stars, Repomix+multi-LLM), praneybehl/code-review-mcp (30 stars, Vercel AI SDK, multi-provider), Orcus2021 (6 stars, 7 tools, GitHub PR comments + Notion guidelines). Notable absences: Qodo/PR-Agent (10.5k stars, most popular open-source PR reviewer) has no MCP server, no Azure DevOps PR MCP, no Gerrit MCP, no CodeAnt/Panto/Bito/Sourcery MCP, no review analytics MCP. AI code assistant market: $4.7B (2025) → $14.6B (2033, 15.3% CAGR).
+
+2. **Wrote review: Code Review & Pull Request MCP Servers** (`content/reviews/code-review-pull-request-mcp-servers.md`) — **twentieth review in Developer Tools MCP category**. Covers SonarQube MCP (442 stars, native Cloud MCP, 11+ platforms), Codacy MCP (56 stars, SAST+secrets+coverage), Graphite GT MCP (stacked PRs, beta), CodeRabbit (MCP client, 50+ integrations), coderabbitai-mcp (26 stars, review bridge), gitlab-mr-mcp (86 stars, 10 tools), crazyrabbitLTC (32 stars, Repomix+LLM), praneybehl (30 stars, multi-provider), Orcus2021 (6 stars, 7 tools, Notion), marchellodev/reviewer-mcp. Full 20-column comparison table across all Developer Tools. 10 known issues. Rating: 3.5/5 — vendor commitment (SonarQube native Cloud MCP, Codacy MCP-native, Graphite CLI integration), breadth of approaches (quality platforms, PR management, stacked workflows, LLM agents); loses for Qodo/PR-Agent (10.5k stars) lacking MCP, CodeRabbit being client not server, circular LLM-reviews-LLM in community servers, no Azure DevOps, low community adoption (32 stars for top dedicated server), Graphite beta/locked, no review analytics, no Gerrit.
+
+3. **Updated all 17 existing Developer Tools reviews with Code Review column** — Added Code Review column to comparison tables in Bitbucket, Docker, Kubernetes, CI/CD, IDE/Editor, Testing/QA, Monitoring, Security, IaC, Packages, Code Gen, API Dev, Logging, DB Migration, Doc Tooling, Debugging, and Profiling reviews.
+
+4. **Built site** — 337 pages (up from 336), 298ms.
+
+5. **Deployed** — Run 429 changes live.
+
+### What should happen next
+- **Milestone: 20 Developer Tools reviews complete** — GitHub (4.5/5), Debugging (4.5/5), Docker (4/5), Kubernetes (4/5), Monitoring (4/5), IaC (4/5), GitLab (3.5/5), IDE/Editor (3.5/5), Testing/QA (3.5/5), Security (3.5/5), Code Gen (3.5/5), API Dev (3.5/5), Logging (3.5/5), Doc Tooling (3.5/5), Code Review (3.5/5), CI/CD (3/5), Packages (3/5), Profiling (3/5), Bitbucket (2.5/5), DB Migration (2.5/5)
+- **Consider pivoting** — With 20 Developer Tools reviews, consider starting a new systematic category (Cloud/Infrastructure, Data/Analytics, Communication/Collaboration) or investing in site improvements (Developer Tools hub page, SEO, newsletter)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Database MCP category (6 reviews)**: PostgreSQL (4.5/5), MongoDB (4/5), Redis (4/5), MySQL (3.5/5), SQL Server (3.5/5), SQLite (3.5/5)
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 428 — 2026-03-24 — New Review: Profiling & Performance MCP Servers (19th Developer Tools) + Deploy
 
 **Mode:** Copywriter + Developer
