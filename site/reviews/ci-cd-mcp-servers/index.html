@@ -423,6 +423,7 @@
 <th>Monitoring</th>
 <th>Security</th>
 <th>IaC</th>
+<th>Packages</th>
 </tr>
 </thead>
 <tbody>
@@ -439,6 +440,7 @@
 <td><a href="/reviews/monitoring-observability-mcp-servers/">Yes (Grafana 2.5k, Datadog, Sentry, Dynatrace, New Relic, Instana)</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">Yes (Semgrep, SonarQube, Snyk, Trivy, GitGuardian, Cycode, Contrast)</a></td>
 <td>Yes (Terraform 1.3k, Pulumi remote, AWS IaC, OpenTofu 84)</td>
+<td>Yes (NuGet built-in VS 2026, Homebrew built-in)</td>
 </tr>
 <tr>
 <td><strong>Remote hosting</strong></td>
@@ -453,6 +455,7 @@
 <td><a href="/reviews/monitoring-observability-mcp-servers/">Yes (Datadog, Sentry — OAuth)</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">No (all local/CLI-based)</a></td>
 <td><a href="/reviews/infrastructure-as-code-mcp-servers/">Yes (Pulumi remote MCP)</a></td>
+<td>N/A</td>
 </tr>
 <tr>
 <td><strong>Top community server</strong></td>
@@ -467,6 +470,7 @@
 <td><a href="/reviews/monitoring-observability-mcp-servers/">pab1it0/prometheus (340 stars)</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">CodeQL community (143 stars)</a></td>
 <td>Ansible (25 stars, 40+ tools)</td>
+<td>mcp-package-version (122 stars, 9 registries)</td>
 </tr>
 <tr>
 <td><strong>Community tool count</strong></td>
@@ -481,6 +485,7 @@
 <td><a href="/reviews/monitoring-observability-mcp-servers/">16+ (Datadog) to 100+ (Instana)</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">7 (Semgrep) to full platform (Snyk)</a></td>
 <td><a href="/reviews/infrastructure-as-code-mcp-servers/">20+ (Terraform), full platform (Pulumi)</a></td>
+<td>N/A</td>
 </tr>
 <tr>
 <td><strong>Pipeline/workflow mgmt</strong></td>
@@ -495,6 +500,7 @@
 <td><a href="/reviews/monitoring-observability-mcp-servers/">Alerting management (Grafana, Datadog, New Relic)</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">Scan-and-fix capability</a></td>
 <td><a href="/reviews/infrastructure-as-code-mcp-servers/">IaC plan/apply workflows</a></td>
+<td>N/A</td>
 </tr>
 <tr>
 <td><strong>Build log access</strong></td>
@@ -509,6 +515,7 @@
 <td><a href="/reviews/monitoring-observability-mcp-servers/">Log analysis (Loki, Datadog, Elastic)</a></td>
 <td>N/A</td>
 <td>N/A</td>
+<td>N/A</td>
 </tr>
 <tr>
 <td><strong>Rollback support</strong></td>
@@ -518,6 +525,7 @@
 <td>N/A</td>
 <td>Rollout tools</td>
 <td>CircleCI, Argo CD</td>
+<td>N/A</td>
 <td>N/A</td>
 <td>N/A</td>
 <td>N/A</td>
@@ -537,6 +545,7 @@
 <td><a href="/reviews/monitoring-observability-mcp-servers/">API tokens / OAuth (remote)</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">API tokens / CLI auth</a></td>
 <td>API tokens / OAuth / CLI auth</td>
+<td>None (public registries)</td>
 </tr>
 <tr>
 <td><strong>AAIF membership</strong></td>
@@ -551,6 +560,7 @@
 <td><a href="/reviews/monitoring-observability-mcp-servers/">No</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">No</a></td>
 <td>No</td>
+<td>No (but Microsoft is Platinum)</td>
 </tr>
 <tr>
 <td><strong>Platform users</strong></td>
@@ -565,6 +575,7 @@
 <td><a href="/reviews/monitoring-observability-mcp-servers/">Datadog: 32.7k customers</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">SonarQube: 17.7% SAST mindshare</a></td>
 <td>Terraform: millions of users, 45% IaC adoption</td>
+<td>npm: 5B+ weekly downloads, PyPI: 421.6B yearly</td>
 </tr>
 <tr>
 <td><strong>Our rating</strong></td>
@@ -579,6 +590,7 @@
 <td><a href="/reviews/monitoring-observability-mcp-servers/">4/5</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">3.5/5</a></td>
 <td><a href="/reviews/infrastructure-as-code-mcp-servers/">4/5</a></td>
+<td><a href="/reviews/package-management-mcp-servers/">3/5</a></td>
 </tr>
 </tbody>
 </table>
@@ -649,6 +661,13 @@
   <h2 class="section-heading">More Reviews</h2>
   
     <div class="article-card">
+  <div class="card-meta"><span>Review</span> <span>2026-03-24 22:00:00</span></div>
+  <h3><a href="/reviews/package-management-mcp-servers/">Package Management MCP Servers — NuGet, npm, PyPI, Maven, and the Quest for AI-Assisted Dependency Intelligence</a></h3>
+  <p>Package management MCP servers cover dependency intelligence across npm, PyPI, Maven, NuGet, Cargo, and more. Microsoft&#39;s NuGet MCP server leads with first-party IDE integration — built into Visual Studio 2026 with vulnerability fixing and version management. Homebrew ships an official built-in MCP server for macOS package management. The community-driven mcp-package-version (122 stars, Go) covers 9 registries including Docker Hub and GitHub Actions. npm-sentinel-mcp offers the deepest single-registry analysis with 18&#43; tools. But vendor investment is thin: only NuGet and Homebrew have official servers.</p>
+</div>
+
+  
+    <div class="article-card">
   <div class="card-meta"><span>Review</span> <span>2026-03-24 21:00:00</span></div>
   <h3><a href="/reviews/infrastructure-as-code-mcp-servers/">Infrastructure as Code MCP Servers — Terraform, Pulumi, and the IaC Vendors Building AI-Native Infrastructure Workflows</a></h3>
   <p>Infrastructure as Code MCP servers are where IaC vendors are building AI-native infrastructure workflows. HashiCorp&#39;s Terraform MCP server leads (1.3k stars, Go, Registry &#43; HCP Terraform integration, workspace management). Pulumi offers a remote MCP server with Neo delegation for automated infrastructure tasks. AWS bundles CloudFormation and CDK support into a unified IaC MCP server (part of the 8.5k-star awslabs/mcp monorepo). OpenTofu&#39;s official server (84 stars, TypeScript) mirrors Terraform&#39;s Registry-first approach. Spacelift Intent (121 stars, Go, Apache-2.0) takes the boldest approach — provisioning cloud resources from natural language without generating IaC code.</p>
@@ -666,13 +685,6 @@
   <div class="card-meta"><span>Review</span> <span>2026-03-24 15:00:00</span></div>
   <h3><a href="/reviews/monitoring-observability-mcp-servers/">Monitoring &amp; Observability MCP Servers — From Grafana to Datadog, Vendor-Led Observability Meets MCP</a></h3>
   <p>Monitoring and observability MCP servers stand out from most Developer Tools categories: the major vendors are building official MCP servers themselves. Grafana&#39;s mcp-grafana (2.5k stars, Go) covers dashboards, Prometheus, Loki, alerting, and OnCall. Datadog offers an official remote MCP server (16&#43; core tools, HIPAA-eligible) launched March 2026. Sentry (519 stars) provides remote-hosted error tracking via MCP. Dynatrace (201 stars), New Relic (35 tools, public preview), and IBM Instana (100&#43; tools) round out the enterprise offerings. Community Prometheus servers (340 stars) and the deprecated Elastic MCP (626 stars) fill gaps.</p>
-</div>
-
-  
-    <div class="article-card">
-  <div class="card-meta"><span>Review</span> <span>2026-03-23 23:55:00</span></div>
-  <h3><a href="/reviews/bitbucket-mcp-server/">Bitbucket MCP Servers — The Missing Piece in Atlassian&#39;s AI Strategy</a></h3>
-  <p>Atlassian&#39;s official MCP server covers Jira, Confluence, and Compass — but pointedly excludes Bitbucket. Community developers have stepped in with multiple servers for Cloud and Server/Data Center, but the ecosystem remains fragmented with no dominant player. This is the weakest MCP ecosystem among the Big 3 Git hosting platforms.</p>
 </div>
 
   

@@ -447,6 +447,7 @@
 <th>Monitoring</th>
 <th>Security</th>
 <th>IaC</th>
+<th>Packages</th>
 </tr>
 </thead>
 <tbody>
@@ -463,6 +464,7 @@
 <td>Yes (Grafana 2.5k, Datadog, Sentry, Dynatrace, New Relic, Instana)</td>
 <td>Yes (Semgrep, SonarQube, Snyk, Trivy, GitGuardian, Cycode, Contrast)</td>
 <td>Yes (Terraform 1.3k, Pulumi remote, AWS IaC, OpenTofu 84)</td>
+<td>Yes (NuGet built-in VS 2026, Homebrew built-in)</td>
 </tr>
 <tr>
 <td><strong>Codeless provisioning</strong></td>
@@ -477,6 +479,7 @@
 <td>N/A</td>
 <td>N/A</td>
 <td>Yes (Spacelift Intent — NL to provider API calls)</td>
+<td>N/A</td>
 </tr>
 <tr>
 <td><strong>Top community server</strong></td>
@@ -491,6 +494,7 @@
 <td>pab1it0/prometheus (340 stars)</td>
 <td>CodeQL community (143 stars)</td>
 <td>Ansible (25 stars, 40+ tools)</td>
+<td>mcp-package-version (122 stars, 9 registries)</td>
 </tr>
 <tr>
 <td><strong>Vendor count</strong></td>
@@ -505,6 +509,7 @@
 <td>6 (Grafana, Datadog, Sentry, Dynatrace, New Relic, Instana)</td>
 <td>7+ (Semgrep, SonarQube, Snyk, Trivy, GitGuardian, Cycode, Contrast)</td>
 <td>5+ (HashiCorp, Pulumi, AWS, OpenTofu, Spacelift)</td>
+<td>2 (Microsoft/NuGet, Homebrew)</td>
 </tr>
 <tr>
 <td><strong>Template validation</strong></td>
@@ -519,6 +524,7 @@
 <td>N/A</td>
 <td>IaC scanning (Trivy, Cycode)</td>
 <td>Yes (AWS cfn-lint + cfn-guard)</td>
+<td>npm-sentinel-mcp (CVE), NuGet (fix vulns)</td>
 </tr>
 <tr>
 <td><strong>Authentication</strong></td>
@@ -533,6 +539,7 @@
 <td>API tokens / OAuth (remote)</td>
 <td>API tokens / CLI auth</td>
 <td>API tokens / OAuth / CLI auth</td>
+<td>None (public registries)</td>
 </tr>
 <tr>
 <td><strong>AAIF membership</strong></td>
@@ -547,6 +554,7 @@
 <td>No</td>
 <td>No</td>
 <td>No</td>
+<td>No (but Microsoft is Platinum)</td>
 </tr>
 <tr>
 <td><strong>Platform users</strong></td>
@@ -561,6 +569,7 @@
 <td>Datadog: 32.7k customers</td>
 <td>SonarQube: 17.7% SAST mindshare</td>
 <td>Terraform: millions of users, 45% IaC adoption</td>
+<td>npm: 5B+ weekly downloads, PyPI: 421.6B yearly</td>
 </tr>
 <tr>
 <td><strong>Our rating</strong></td>
@@ -575,6 +584,7 @@
 <td><a href="/reviews/monitoring-observability-mcp-servers/">4/5</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">3.5/5</a></td>
 <td>4/5</td>
+<td><a href="/reviews/package-management-mcp-servers/">3/5</a></td>
 </tr>
 </tbody>
 </table>
@@ -646,6 +656,13 @@
   <h2 class="section-heading">More Reviews</h2>
   
     <div class="article-card">
+  <div class="card-meta"><span>Review</span> <span>2026-03-24 22:00:00</span></div>
+  <h3><a href="/reviews/package-management-mcp-servers/">Package Management MCP Servers — NuGet, npm, PyPI, Maven, and the Quest for AI-Assisted Dependency Intelligence</a></h3>
+  <p>Package management MCP servers cover dependency intelligence across npm, PyPI, Maven, NuGet, Cargo, and more. Microsoft&#39;s NuGet MCP server leads with first-party IDE integration — built into Visual Studio 2026 with vulnerability fixing and version management. Homebrew ships an official built-in MCP server for macOS package management. The community-driven mcp-package-version (122 stars, Go) covers 9 registries including Docker Hub and GitHub Actions. npm-sentinel-mcp offers the deepest single-registry analysis with 18&#43; tools. But vendor investment is thin: only NuGet and Homebrew have official servers.</p>
+</div>
+
+  
+    <div class="article-card">
   <div class="card-meta"><span>Review</span> <span>2026-03-24 18:00:00</span></div>
   <h3><a href="/reviews/security-scanning-mcp-servers/">Security Scanning MCP Servers — From Semgrep to Snyk, AppSec Vendors Race to Instrument AI Coding Agents</a></h3>
   <p>Security scanning MCP servers are where application security vendors are placing their AI bets. Semgrep leads with its MCP built directly into the CLI (641 stars on the archived standalone repo, 7 tools covering SAST, SCA, and Secrets). SonarQube&#39;s official server (442 stars, Java) brings code quality analysis to AI agents. Snyk integrates MCP into its CLI as an experimental feature. Trivy (38 stars, Go) covers containers and IaC. GitGuardian (34 stars) focuses on secret scanning with 500&#43; detectors. Cycode (97 stars) and Contrast Security (16 stars) provide ASPM and IAST capabilities respectively.</p>
@@ -663,13 +680,6 @@
   <div class="card-meta"><span>Review</span> <span>2026-03-23 23:55:00</span></div>
   <h3><a href="/reviews/bitbucket-mcp-server/">Bitbucket MCP Servers — The Missing Piece in Atlassian&#39;s AI Strategy</a></h3>
   <p>Atlassian&#39;s official MCP server covers Jira, Confluence, and Compass — but pointedly excludes Bitbucket. Community developers have stepped in with multiple servers for Cloud and Server/Data Center, but the ecosystem remains fragmented with no dominant player. This is the weakest MCP ecosystem among the Big 3 Git hosting platforms.</p>
-</div>
-
-  
-    <div class="article-card">
-  <div class="card-meta"><span>Review</span> <span>2026-03-23 23:55:00</span></div>
-  <h3><a href="/reviews/postmark-mcp-server/">Postmark MCP Server — Send Transactional Emails From Your AI Agent</a></h3>
-  <p>Official first-party MCP server for Postmark&#39;s transactional email platform. Send emails, use templates, list templates, and check delivery stats. JavaScript, stdio transport, MIT license, free tier at 100 emails/mo.</p>
 </div>
 
   

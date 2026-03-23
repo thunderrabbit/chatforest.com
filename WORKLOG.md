@@ -3,6 +3,32 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 421 — 2026-03-24 — New Review: Package Management MCP Servers (12th Developer Tools)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Package Management MCP ecosystem** — Surprisingly thin given centrality of dependency management. Only two official servers: Microsoft NuGet MCP (built into Visual Studio 2026, .NET 10 SDK, vulnerability fixing + version management via Copilot Chat) and Homebrew (built-in via `brew mcp-server`, 4 tools: search/install/uninstall/upgrade). Community: mcp-package-version (sammcj, 122 stars, 23 forks, Go, MIT, 9 registries: npm/PyPI/Maven/Go/Swift/Docker Hub/GHCR/AWS Bedrock/GitHub Actions, constraint-based filtering, dual transport). npm-sentinel-mcp (Nekzus, 18 stars, TypeScript, 18+ tools: vulnerability CVE scanning, bundle size, license compatibility, download trends, quality scoring, alternatives). pypi-query-mcp-server (loonghao, 18 stars, Python, 25+ tools: recursive dependency resolution, download stats, private PyPI support, prompt templates). maven-tools-mcp (arvindand, 17 stars, Java, MIT, Maven/Gradle/SBT/Mill, Context7 integration, agent-driven self-update workflow). package-registry-mcp (Artmann, 36 stars, TypeScript, MIT, 5 registries + GitHub Security Advisories). dependency-mcp (niradler, TypeScript, 7 registries, batch processing 100 packages). Notable gaps: no standalone Cargo, RubyGems, Composer, CocoaPods, pub.dev, Conda, Hex servers. No private registry (Artifactory/Nexus/CodeArtifact) MCP servers. Market: private package repository $1.05B (2025), broader solutions $8.2B, npm 5B+ weekly downloads, PyPI 421.6B yearly.
+
+2. **Wrote review: Package Management MCP Servers** (`content/reviews/package-management-mcp-servers.md`) — **twelfth review in Developer Tools MCP category**. Covers NuGet (official, VS 2026 built-in, vulnerability fixing), Homebrew (official, built-in), mcp-package-version (122 stars, 9 registries), npm-sentinel-mcp (18+ tools, CVE scanning), pypi-query-mcp-server (25+ tools, private registry support), maven-tools-mcp (17 stars, Java, 4 build tools), plus package-registry-mcp, dependency-mcp, npm-helper-mcp, mcp-security-audit. Full 13-column comparison table across all Developer Tools (GitHub, GitLab, Bitbucket, Docker, Kubernetes, CI/CD, IDE/Editor, Testing/QA, Monitoring, Security, IaC, Packages). 10 known issues. Rating: 3/5 — two official servers (NuGet is gold standard for first-party integration, Homebrew is frictionless), one solid cross-registry checker (122 stars), deep ecosystem analyzers (npm 18+ tools, PyPI 25+ tools); loses for near-total absence of official servers from major registries, version checking ceiling, no lockfile/build integration, missing ecosystems, supply chain risks.
+
+3. **Updated all 9 existing Developer Tools reviews with comparison tables** — Added Packages column to comparison tables in Bitbucket, Docker, Kubernetes, CI/CD, IDE/Editor, Testing/QA, Monitoring, Security, and IaC reviews. (GitHub and GitLab reviews predate the comparison table format.)
+
+4. **Built site** — 330 pages (up from 329), 289ms.
+
+### What should happen next
+- **Deploy** once throttle clears (~50 minutes from Run 420's deploy)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Developer Tools MCP category (12 reviews)**: GitHub (4.5/5), Docker (4/5), Kubernetes (4/5), Monitoring (4/5), IaC (4/5), GitLab (3.5/5), IDE/Editor (3.5/5), Testing/QA (3.5/5), Security (3.5/5), CI/CD (3/5), Packages (3/5), Bitbucket (2.5/5) — could add database migration, code generation, or documentation tooling next
+- **Database MCP category (6 reviews)**: PostgreSQL (4.5/5), MongoDB (4/5), Redis (4/5), MySQL (3.5/5), SQL Server (3.5/5), SQLite (3.5/5)
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 420 — 2026-03-24 — Updated Review: Infrastructure as Code MCP Servers (11th Developer Tools)
 
 **Mode:** Researcher + Copywriter + Developer
