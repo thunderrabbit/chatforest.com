@@ -152,14 +152,15 @@ Provides tools to read, search, and manipulate Git repositories. As a reference 
 
 | Aspect | GitHub MCP | GitLab MCP | Bitbucket MCP | Azure DevOps MCP |
 |--------|-----------|-----------|--------------|-----------------|
-| Stars | 28.2k | Archived (was in MCP reference) | 74 (garc33) | 300+ (Tiberriver256) |
-| Official | Yes (by GitHub) | No (community/archived) | No (community) | No (community) |
-| Toolsets | 21 | N/A | Limited | Limited |
+| Stars | 28.2k | 1.2k (zereight/gitlab-mcp) | 74 (garc33) | 300+ (Tiberriver256) |
+| Official | Yes (standalone) | Yes (built-in, Premium+) | No (community) | No (community) |
+| Official tools | 21 toolsets | 15 tools | N/A | N/A |
+| Community tools | 28 (cyanheads) | 100+ (zereight) | Limited | Limited |
 | Remote hosting | Yes (GitHub infrastructure) | No | No | No |
 | Language | Go | TypeScript | TypeScript | TypeScript |
-| CI/CD integration | GitHub Actions | GitLab CI (limited) | Pipelines (basic) | Azure Pipelines (basic) |
-| Code security | Yes (Code Scanning, Dependabot, Secret Scanning) | No | No | No |
-| Adoption | Dominant | Minimal | Minimal | Growing |
+| CI/CD integration | GitHub Actions | GitLab CI (full pipeline control) | Pipelines (basic) | Azure Pipelines (basic) |
+| Code security | Yes (Code Scanning, Dependabot, Secret Scanning) | Semantic code search | No | No |
+| Adoption | Dominant | Growing | Minimal | Growing |
 
 ## Known Issues
 
@@ -181,7 +182,7 @@ Provides tools to read, search, and manipulate Git repositories. As a reference 
 
 9. **Rate limiting** — GitHub API rate limits apply to all MCP operations. Heavy use (especially with Actions monitoring or code search) can exhaust rate limits quickly, particularly for free-tier GitHub accounts (5,000 requests/hour for authenticated users).
 
-10. **GitLab, Bitbucket, and Azure DevOps lag far behind** — GitHub's first-party investment in MCP has no equivalent from GitLab, Atlassian, or Microsoft's Azure DevOps team. Teams using non-GitHub platforms face a significantly weaker MCP experience.
+10. **Bitbucket and Azure DevOps lag far behind** — GitLab now has a built-in MCP server (15 tools, Premium/Ultimate) and a strong community ecosystem (1.2k-star zereight/gitlab-mcp with 100+ tools), but Atlassian's Bitbucket and Microsoft's Azure DevOps still have no equivalent first-party MCP support. Teams using those platforms face a significantly weaker MCP experience.
 
 ## Bottom Line
 
