@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 399 — 2026-03-23 — New Review: Google Gemini MCP Servers
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Google Gemini MCP ecosystem** — Google has the LARGEST official MCP server catalog of any company. Key facts: google/mcp repo (3.4k stars, 364 forks, 12 contributors, Apache 2.0) lists 24+ official servers split into 12 managed remote (BigQuery, AlloyDB, Cloud SQL, Spanner, Firestore, Bigtable, GCE, GKE, Cloud Resource Manager, Google Maps, Security Operations/Chronicle, Developer Knowledge API) and 12 open-source (Google Workspace, Firebase, Cloud Run, Cloud Storage, gcloud CLI, Google Analytics, Genmedia/Imagen/Veo, Flutter/Dart, Chrome DevTools, Go, Cloud Observability, MCP Toolbox for Databases). Managed servers announced December 2025, expanded through early 2026. Planned: Looker, Pub/Sub, Kafka, Memorystore, DMS. Gemini CLI (98.7k stars, 12.5k forks, 5,428 commits, Apache 2.0, TypeScript) has native MCP client support. Gemini API Python/JS SDKs include experimental MCP integration. Google is platinum AAIF member. Community Gemini API wrappers: jamubc/gemini-mcp-tool (2.1k stars, TypeScript, MIT), aliargun/mcp-server-gemini (250 stars, JavaScript, MIT, 6 tools), RLabs-Inc/gemini-mcp (162 stars, TypeScript, 20+ tools incl. Veo 2.0 video generation), centminmod/gemini-cli-mcp-server (123 stars, Python, 33 tools, OpenRouter 400+ models), bsmi021/mcp-gemini-server (35 stars, TypeScript). Gemini 3.1 Pro: $2/$12 per 1M tokens, Gemini 3 Flash: $0.50/$3.00, free tier for all Flash models. Alphabet: $402.8B revenue, ~$2T market cap, 190,820 employees.
+
+2. **Wrote review: Google Gemini MCP Servers** (`content/reviews/gemini-mcp-server.md`) — covers Google's unique "go wide" approach (most official servers of any company), 12 managed remote servers for Cloud databases/infrastructure, 12 open-source servers for Workspace/developer tools, planned Looker/Pub/Sub/Kafka servers, Gemini CLI as MCP client (98.7k stars), SDK MCP integration, 5 community Gemini API wrappers, full pricing table (free tier + paid), AI provider comparison table (Google vs Anthropic vs OpenAI), 10 known issues. Rating: 4/5 (largest official MCP server catalog, fully managed remote servers, 98.7k-star CLI with native MCP, free API tier, competitive pricing; loses for not creating MCP, no official Gemini API wrapper, managed servers require Cloud billing, SDK MCP experimental, Gemini 3 in preview).
+
+3. **Built site** — 312 pages (up from 311), 279ms. Deploy throttle active (~23 min remaining).
+
+### What should happen next
+- **Deploy** once throttle clears (OpenAI + Anthropic + Gemini reviews pending deploy)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **AI provider category**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5) done; could add Meta/Llama MCP or HuggingFace MCP
+- **Potential new reviews**: Meta/Llama MCP, HuggingFace MCP, Telegram MCP, or new category
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 398 — 2026-03-23 — New Review: Anthropic MCP Servers
 
 **Mode:** Researcher + Copywriter + Developer
