@@ -181,20 +181,20 @@ The database MCP landscape splits into relational and document/NoSQL categories.
 
 ### Database MCP Category Comparison
 
-With four database reviews now complete, here's how they compare:
+With six database reviews now complete, here's how they compare:
 
-| Feature | MongoDB | [PostgreSQL](/reviews/postgresql-mcp-server/) | [MySQL](/reviews/mysql-mcp-server/) | [SQL Server](/reviews/sql-server-mcp-server/) |
-|---------|---------|-----------|-------|------------|
-| **Rating** | **4/5** | **4.5/5** | **3.5/5** | **3.5/5** |
-| Official server | Yes (970 stars, 41 tools) | No official | No (Oracle absent) | Experimental only |
-| Top community server | MongoDB Lens (200 stars, 50+ tools) | Postgres MCP Pro (2.4k stars) | benborla (1.4k stars) | PerformanceMonitor (272 stars, 63 tools) |
-| Multi-DB MCP support | No (absent from DBHub/Toolbox) | Yes (DBHub, Toolbox, etc.) | Yes (DBHub, Toolbox, etc.) | Yes (DBHub, Toolbox, etc.) |
-| Vendor backing | MongoDB Inc. (first-party) | Community-driven | Community-driven | Microsoft (experimental) |
-| Vector search MCP | Yes (unified index + auto embeddings) | Limited | No | No |
-| Performance tools | Performance Advisor (Atlas only) | Postgres MCP Pro (any PG) | None | PerformanceMonitor (76 tools, any SQL Server) |
-| Cloud management | Atlas (13 tools + Streams) | Supabase/Neon/Azure/AWS | AWS/Azure/Google | AWS/Azure |
+| Feature | MongoDB | [PostgreSQL](/reviews/postgresql-mcp-server/) | [Redis](/reviews/redis-mcp-servers/) | [MySQL](/reviews/mysql-mcp-server/) | [SQL Server](/reviews/sql-server-mcp-server/) | [SQLite](/reviews/sqlite-mcp-servers/) |
+|---------|---------|-----------|-------|-------|------------|--------|
+| **Rating** | **4/5** | **4.5/5** | **4/5** | **3.5/5** | **3.5/5** | **3.5/5** |
+| Official server | Yes (970 stars, 41 tools) | No official | Yes (458 stars, 25+ tools) | No (Oracle absent) | Experimental only | Archived (Anthropic) |
+| Top community server | MongoDB Lens (200 stars, 50+ tools) | Postgres MCP Pro (2.4k stars) | Agent Memory (207 stars) | benborla (1.4k stars) | PerformanceMonitor (272 stars, 63 tools) | sqlite-explorer (104 stars) |
+| Multi-DB MCP support | No (absent from DBHub/Toolbox) | Yes (DBHub, Toolbox, etc.) | No | Yes (DBHub, Toolbox, etc.) | Yes (DBHub, Toolbox, etc.) | Yes (DBHub, Toolbox, etc.) |
+| Vendor backing | MongoDB Inc. (first-party) | Community-driven | Redis Inc. (3 servers) | Community-driven | Microsoft (experimental) | None (Anthropic archived) |
+| Vector search MCP | Yes (unified index + auto embeddings) | Limited | Yes (built-in) | No | No | Via db-mcp/libSQL |
+| Performance tools | Performance Advisor (Atlas only) | Postgres MCP Pro (any PG) | Server info only | None | PerformanceMonitor (76 tools, any SQL Server) | None |
+| Cloud management | Atlas (13 tools + Streams) | Supabase/Neon/Azure/AWS | Redis Cloud | AWS/Azure/Google | AWS/Azure | Turso, SQLite Cloud |
 
-MongoDB has the strongest first-party server; PostgreSQL has the deepest community ecosystem. MySQL and SQL Server have more fragmented options with no dominant official server.
+MongoDB has the strongest first-party server; PostgreSQL has the deepest community ecosystem. Redis uniquely ships three official servers. SQLite has the most total servers but lowest top-server adoption.
 
 ## The Bottom Line
 

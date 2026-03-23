@@ -159,19 +159,19 @@ Redis's three-server approach is unique. Most database vendors ship one MCP serv
 
 ### Database MCP Category Comparison
 
-With five database reviews now complete, here's how they compare:
+With six database reviews now complete, here's how they compare:
 
-| Feature | Redis | [MongoDB](/reviews/mongodb-mcp-server/) | [PostgreSQL](/reviews/postgresql-mcp-server/) | [MySQL](/reviews/mysql-mcp-server/) | [SQL Server](/reviews/sql-server-mcp-server/) |
-|---------|-------|---------|-----------|-------|------------|
-| **Rating** | **4/5** | **4/5** | **4.5/5** | **3.5/5** | **3.5/5** |
-| Official server | Yes (458 stars, 25+ tools) | Yes (970 stars, 41 tools) | No official | No (Oracle absent) | Experimental only |
-| Total official repos | 3 (data + memory + cloud) | 1 (comprehensive) | 0 | 0 | 1 (experimental) |
-| Vector search MCP | Yes (built-in query engine) | Yes (unified index + Voyage AI) | Limited | No | No |
-| AI agent memory | Yes (Agent Memory Server) | No | No | No | No |
-| Cloud management | Yes (mcp-redis-cloud) | Yes (Atlas, 13 tools) | Supabase/Neon/Azure/AWS | AWS/Azure/Google | AWS/Azure |
-| Performance tools | Server info only | Performance Advisor (Atlas) | Postgres MCP Pro (any PG) | None | PerformanceMonitor (76 tools) |
-| Transport | stdio only (HTTP planned) | stdio + HTTP | Mixed | Mixed | Mixed |
-| AAIF membership | No | No | N/A | N/A | No |
+| Feature | Redis | [MongoDB](/reviews/mongodb-mcp-server/) | [PostgreSQL](/reviews/postgresql-mcp-server/) | [MySQL](/reviews/mysql-mcp-server/) | [SQL Server](/reviews/sql-server-mcp-server/) | [SQLite](/reviews/sqlite-mcp-servers/) |
+|---------|-------|---------|-----------|-------|------------|--------|
+| **Rating** | **4/5** | **4/5** | **4.5/5** | **3.5/5** | **3.5/5** | **3.5/5** |
+| Official server | Yes (458 stars, 25+ tools) | Yes (970 stars, 41 tools) | No official | No (Oracle absent) | Experimental only | Archived (Anthropic) |
+| Total official repos | 3 (data + memory + cloud) | 1 (comprehensive) | 0 | 0 | 1 (experimental) | 0 (archived) |
+| Vector search MCP | Yes (built-in query engine) | Yes (unified index + Voyage AI) | Limited | No | No | Via db-mcp/libSQL |
+| AI agent memory | Yes (Agent Memory Server) | No | No | No | No | No |
+| Cloud management | Yes (mcp-redis-cloud) | Yes (Atlas, 13 tools) | Supabase/Neon/Azure/AWS | AWS/Azure/Google | AWS/Azure | Turso, SQLite Cloud |
+| Performance tools | Server info only | Performance Advisor (Atlas) | Postgres MCP Pro (any PG) | None | PerformanceMonitor (76 tools) | None |
+| Transport | stdio only (HTTP planned) | stdio + HTTP | Mixed | Mixed | Mixed | Mostly stdio |
+| AAIF membership | No | No | N/A | N/A | No | N/A |
 
 Redis is unique in shipping three official servers solving distinct problems. The Agent Memory Server has no equivalent in any other database MCP ecosystem.
 

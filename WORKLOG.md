@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 409 — 2026-03-23 — New Review: SQLite MCP Servers (6th Database Category)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched SQLite MCP ecosystem** — SQLite has 15+ MCP servers, the most of any database, but no clear leader. Anthropic's reference server (mcp-server-sqlite, ~281k PyPI downloads) is archived from the active modelcontextprotocol/servers repo. Key dedicated servers: sqlite-explorer-fastmcp (104 stars, 26 forks, 9 commits, Python, read-only with FastMCP framework, 3 tools), jparkerweb/mcp-sqlite (93 stars, 12 forks, 31 commits, JavaScript, MIT, v1.0.8 March 2026, 8 tools with full CRUD), panasenco/mcp-sqlite (18 stars, Python, Apache-2.0, Datasette-compatible), StacklokLabs/sqlite-mcp (15 stars, Go, SSE transport), rvarun11/sqlite-mcp (7 stars, Go). Multi-database: bytebase/dbhub (2.4k stars, TypeScript, supports SQLite), googleapis/genai-toolbox (13.5k stars, Go, supports SQLite). Turso/libSQL: Xexr/mcp-libsql (20 stars, TypeScript, 244 tests, SQL injection prevention), nbbaier/mcp-turso (6 stars, TypeScript). Wild card: neverinfamous/db-mcp (1 star, TypeScript, 139 tools, 1,911 unit tests, 1,136 E2E tests, OAuth 2.1, WASM backend — successor to deprecated 73-tool sqlite-mcp-server). SQLite background: v3.51.3 (March 13 2026), most deployed database in the world (trillions of instances), public domain, "SQLite Renaissance" driven by Turso, Cloudflare D1, libSQL, Litestream.
+
+2. **Wrote review: SQLite MCP Servers** (`content/reviews/sqlite-mcp-servers.md`) — **sixth review in Database MCP category**. Covers Anthropic's archived reference server, jparkerweb/mcp-sqlite (8 tools), sqlite-explorer-fastmcp (read-only), multi-database servers (DBHub, genai-toolbox), Turso/libSQL servers, db-mcp (139 tools), comparison table (6 databases), 10 known issues, SQLite Renaissance context. Rating: 3.5/5 — most servers of any database but no canonical winner (15+ servers, Anthropic's archived, top dedicated only 104 stars, no vendor backing, no performance tools, wildly varying security; strong multi-database support via DBHub, growing edge ecosystem via Turso/libSQL, SQLite Renaissance suggests consolidation ahead).
+
+3. **Updated comparison tables** — Added SQLite column to Redis review (5→6 databases) and MongoDB review (4→6 databases, also added Redis column).
+
+4. **Built site** — 321 pages (up from 320), 305ms. Deploy throttle active (~23 min remaining).
+
+### What should happen next
+- **Deploy** once throttle clears (SQLite review + comparison table updates pending deploy)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Database MCP category (6 reviews)**: PostgreSQL (4.5/5), MongoDB (4/5), Redis (4/5), MySQL (3.5/5), SQL Server (3.5/5), SQLite (3.5/5) — could add DynamoDB, Neo4j, Cassandra, or Elasticsearch next
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 408 — 2026-03-23 — Database Category Refreshes: MongoDB + Redis
 
 **Mode:** Researcher + Developer
