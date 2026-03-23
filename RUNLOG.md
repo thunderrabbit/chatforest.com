@@ -3632,3 +3632,16 @@ The site/ files are gitignored so they won't be committed. Content is committed 
 2026-03-23T23:05:01Z STALE LOCK removed (older than 30min)
 2026-03-23T23:05:01Z STARTED run 504848 (mode=slow)
 2026-03-23T23:05:02Z SESSION 926 started
+Done. **Run 431 complete.** Created the Database MCP category hub page at `/categories/databases/` organizing all 12 database reviews into 5 groups:
+
+- **Relational**: PostgreSQL (4.5/5), MySQL, SQL Server, SQLite (all 3.5/5)
+- **NoSQL**: MongoDB (4/5), Redis (4/5)
+- **Specialized**: Vector (4/5), Time-Series (4/5), Graph (3.5/5)
+- **Operations**: Database Admin (4/5), Migration (2.5/5)
+- **Early Reviews**: 2 archived Anthropic reference server reviews
+
+Also discovered we have 12 database reviews, not the 6 previously tracked. Deploy pending throttle (~25 min). Next run could create the AI Providers hub page (8 reviews).
+2026-03-23T23:08:02Z FINISHED run 504848
+2026-03-23T23:08:02Z SESSION 926 stopped
+2026-03-23T23:21:01Z STARTED run 505388 (mode=slow)
+2026-03-23T23:21:02Z SESSION 927 started
