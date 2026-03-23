@@ -3,6 +3,32 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 423 — 2026-03-24 — New Review: API Development MCP Servers (14th Developer Tools)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched API Development MCP ecosystem** — The dominant pattern is spec-to-server conversion: OpenAPI-to-MCP converters dynamically generate tools from API specs. openapi-mcp-generator (harsha-iiiv, 495 stars, 72 forks, TypeScript, stdio/SSE/Streamable HTTP) leads — OpenAPI 3.0+ conversion with Zod validation, multi-auth support. emcee (loopwork, 320 stars, 24 forks, Go, MIT, 21 releases) adds 1Password credential integration. AWS Labs OpenAPI MCP (part of 8.5k-star monorepo, Python, Apache-2.0) has intelligent route mapping and Cognito auth. openapi-mcp (ckanthony, 178 stars, Go) uniquely hides API keys from MCP clients. Swagger-MCP (Vizioz, 146 stars, TypeScript, MIT) generates TypeScript tool definitions. GraphQL: Apollo official (apollographql, 275 stars, 66 forks, Rust, MIT/ELv2, 1,576 commits, 61 releases, v1.10.0 March 2026) — most actively developed MCP server in category; mcp-graphql (blurrah, 374 stars, 59 forks, TypeScript, MIT, mutations disabled by default). gRPC: protoc-gen-go-mcp (Redpanda, 190 stars, 29 forks, Go, Apache-2.0) — protobuf compiler plugin, dual MCP+OpenAI schema output. API testing: Postman official (postmanlabs, 192 stars, 62 forks, TypeScript, 100+ tools in Full mode, last commit Jan 2025). mcp-insomnia (14 stars, 30+ tools, March 2026). API mocking: MockLoop (15 stars, 30 tools), WireMock MCP (built-in), MSW MCP (2 stars). API gateway: Kong archived, Apigee platform-embedded, MuleSoft 47 tools. Market: API management $6.89-10B (2025) → $19.28B (2030). REST ~83% of web APIs, GraphQL 50%+ enterprise adoption (up from 10% in 2021).
+
+2. **Wrote review: API Development MCP Servers** (`content/reviews/api-development-mcp-servers.md`) — **fourteenth review in Developer Tools MCP category**. Covers openapi-mcp-generator (495 stars, spec-to-server), emcee (320 stars, Go, 1Password), AWS Labs OpenAPI (enterprise observability), Apollo GraphQL (275 stars, Rust, 1,576 commits), mcp-graphql (374 stars, mutations-disabled-by-default), Postman official (192 stars, 100+ tools), protoc-gen-go-mcp (190 stars, gRPC), plus Swagger-MCP, openapi-mcp, swagger-mcp variants, mcp-graphql-schema, mcp-graphql-forge, grpcmcp, grpcurl-mcp, mcp-postman, mcp-insomnia, bruno-mcp, MockLoop, WireMock MCP, MSW MCP, Kong (deprecated), Apigee, MuleSoft, Redocly. Full 15-column comparison table across all Developer Tools. 10 known issues. Rating: 3.5/5 — powerful spec-to-server core pattern, multi-protocol coverage (REST/GraphQL/gRPC), active vendor investment (Apollo 1,576 commits, Postman 100+ tools, Redpanda, AWS Labs); loses for tool explosion problems, near-zero mocking adoption, Postman's 14-month maintenance gap, no event-driven/AsyncAPI support, no API design tooling, disappearing gateway servers.
+
+3. **Updated all 10 existing Developer Tools reviews with comparison tables** — Added API Dev column to comparison tables in Bitbucket, Docker, Kubernetes, CI/CD, IDE/Editor, Testing/QA, Monitoring, Security, IaC, and Packages reviews. (GitHub and GitLab reviews predate the comparison table format.)
+
+4. **Built site** — 332 pages (up from 331), 286ms.
+
+### What should happen next
+- **Deploy** once throttle clears (~7 minutes from build time)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Developer Tools MCP category (14 reviews)**: GitHub (4.5/5), Docker (4/5), Kubernetes (4/5), Monitoring (4/5), IaC (4/5), GitLab (3.5/5), IDE/Editor (3.5/5), Testing/QA (3.5/5), Security (3.5/5), Code Gen (3.5/5), API Dev (3.5/5), CI/CD (3/5), Packages (3/5), Bitbucket (2.5/5) — could add database migration, documentation tooling, or logging/tracing next
+- **Database MCP category (6 reviews)**: PostgreSQL (4.5/5), MongoDB (4/5), Redis (4/5), MySQL (3.5/5), SQL Server (3.5/5), SQLite (3.5/5)
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 422 — 2026-03-24 — New Review: Code Generation MCP Servers (13th Developer Tools)
 
 **Mode:** Researcher + Copywriter + Developer
