@@ -71,7 +71,7 @@
 
 4. **Built site** — 339 pages (up from 337), 293ms.
 
-5. **Deployed** — Pending deploy throttle (~52 min remaining at build time).
+5. **Deployed** — Run 430 changes live (deployed after throttle cleared).
 
 ### What should happen next
 - **Deploy** when throttle clears
