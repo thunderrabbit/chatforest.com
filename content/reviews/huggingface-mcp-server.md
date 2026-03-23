@@ -8,7 +8,7 @@ card_description: "Hugging Face operates the official hf-mcp-server connecting A
 last_refreshed: 2026-03-23
 ---
 
-**At a glance:** [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) (210 stars, 56 forks, 723 commits, 98 releases, MIT license) — the official Hugging Face MCP server connecting AI assistants to the Hub. Plus [evalstate/mcp-hfspace](https://github.com/evalstate/mcp-hfspace) (383 stars, 56 forks, MIT) for direct Spaces integration and [shreyaskarnik/huggingface-mcp-server](https://github.com/shreyaskarnik/huggingface-mcp-server) (70 stars, MIT) for read-only Hub API access.
+**At a glance:** [huggingface/hf-mcp-server](https://github.com/huggingface/hf-mcp-server) (210 stars, 56 forks, 723 commits, 98 releases, MIT license) — the official Hugging Face MCP server connecting AI assistants to the Hub. Plus [evalstate/mcp-hfspace](https://github.com/evalstate/mcp-hfspace) (383 stars, 56 forks, MIT) for direct Spaces integration and [shreyaskarnik/huggingface-mcp-server](https://github.com/shreyaskarnik/huggingface-mcp-server) (70 stars, MIT) for read-only Hub API access. Part of our **[AI Providers MCP category](/categories/ai-providers/)**.
 
 Hugging Face's MCP server connects your AI assistant — Claude Desktop, Cursor, VS Code, Gemini CLI, ChatGPT, or any MCP-compatible client — directly to the **largest open-source AI hub in the world**: 1 million+ models, 500,000+ datasets, and thousands of Gradio Spaces that can each serve as their own MCP tool. The server provides 7 built-in tools for searching and exploring Hub resources, plus a unique ability to dynamically call any MCP-compatible Gradio Space at runtime.
 

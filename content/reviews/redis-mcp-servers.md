@@ -8,7 +8,7 @@ card_description: "The official Redis MCP server covers all data structures plus
 last_refreshed: 2026-03-23
 ---
 
-Redis has three official MCP servers — and they're all doing different things.
+Redis has three official MCP servers — and they're all doing different things. Part of our **[Databases MCP category](/categories/databases/)**.
 
 The [official mcp-redis](https://github.com/redis/mcp-redis) (458 stars) is a comprehensive data operations server covering every Redis data structure plus vector search. The [Agent Memory Server](https://github.com/redis/agent-memory-server) (207 stars) is a specialized semantic memory layer for AI agents. And [mcp-redis-cloud](https://github.com/redis/mcp-redis-cloud) (39 stars) manages Redis Cloud infrastructure — subscriptions, databases, and multi-cloud deployments.
 

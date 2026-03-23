@@ -8,7 +8,7 @@ card_description: "The most comprehensive database MCP server we've reviewed —
 last_refreshed: 2026-03-23
 ---
 
-No other database MCP server comes close to this tool count.
+No other database MCP server comes close to this tool count. Part of our **[Databases MCP category](/categories/databases/)**.
 
 **At a glance:** 970 GitHub stars, 210 forks, 41+ tools across six categories (database ops, Atlas clusters, stream processing, local deployments, performance advisory, knowledge search), 8 open issues, 675 commits, shipping every 1-2 weeks.
 

@@ -8,7 +8,7 @@ card_description: "OpenAI embraced MCP in March 2025, joining the steering commi
 last_refreshed: 2026-03-23
 ---
 
-**At a glance:** [lastmile-ai/openai-agents-mcp](https://github.com/lastmile-ai/openai-agents-mcp) (197 stars, active, MIT) + [pierrebrunelle/mcp-server-openai](https://github.com/pierrebrunelle/mcp-server-openai) (79 stars, active, MIT). OpenAI has 900+ million weekly ChatGPT users, a **$730 billion valuation**, and joined the MCP steering committee in March 2025 — but publishes **no official MCP server** wrapping their API. Their focus is on the client side: ChatGPT, Agents SDK, and the Responses API all connect TO MCP servers.
+**At a glance:** [lastmile-ai/openai-agents-mcp](https://github.com/lastmile-ai/openai-agents-mcp) (197 stars, active, MIT) + [pierrebrunelle/mcp-server-openai](https://github.com/pierrebrunelle/mcp-server-openai) (79 stars, active, MIT). OpenAI has 900+ million weekly ChatGPT users, a **$730 billion valuation**, and joined the MCP steering committee in March 2025 — but publishes **no official MCP server** wrapping their API. Their focus is on the client side: ChatGPT, Agents SDK, and the Responses API all connect TO MCP servers. Part of our **[AI Providers MCP category](/categories/ai-providers/)**.
 
 OpenAI MCP servers let AI agents **query GPT-4o/GPT-4.1/o3/GPT-5, generate images with DALL-E and gpt-image-1, search the web, and orchestrate multi-agent workflows** — all through natural language prompts in Claude, Cursor, or other MCP-compatible clients. This enables cross-model collaboration: a Claude agent calling GPT-4o for a second opinion, or using DALL-E for image generation without leaving the MCP workflow.
 

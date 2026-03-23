@@ -8,7 +8,7 @@ card_description: "SQLite has the most MCP servers of any database — but no ca
 last_refreshed: 2026-03-23
 ---
 
-SQLite is the most deployed database engine in the world — trillions of active databases across every iPhone, every Android device, every browser, every Mac, every Windows machine, and even the Mars rovers. It's likely used more than all other database engines combined.
+SQLite is the most deployed database engine in the world — trillions of active databases across every iPhone, every Android device, every browser, every Mac, every Windows machine, and even the Mars rovers. It's likely used more than all other database engines combined. Part of our **[Databases MCP category](/categories/databases/)**.
 
 You'd expect the MCP ecosystem to match that dominance. It doesn't — but it's interesting.
 

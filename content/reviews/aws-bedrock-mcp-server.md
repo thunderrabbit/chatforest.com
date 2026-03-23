@@ -8,7 +8,7 @@ card_description: "AWS operates the largest official MCP server collection: 68 s
 last_refreshed: 2026-03-23
 ---
 
-**At a glance:** AWS publishes **68 official MCP servers** in [awslabs/mcp](https://github.com/awslabs/mcp) (8,540 stars, Apache 2.0) — the largest MCP server collection from any single organization. Servers cover databases (DynamoDB, Neptune, Redshift), compute (ECS, EKS, Lambda), security (IAM, Well-Architected), cost management, and more. MCP client support exists in Amazon Q Developer (CLI + IDE plugins) and Bedrock AgentCore.
+**At a glance:** AWS publishes **68 official MCP servers** in [awslabs/mcp](https://github.com/awslabs/mcp) (8,540 stars, Apache 2.0) — the largest MCP server collection from any single organization. Servers cover databases (DynamoDB, Neptune, Redshift), compute (ECS, EKS, Lambda), security (IAM, Well-Architected), cost management, and more. MCP client support exists in Amazon Q Developer (CLI + IDE plugins) and Bedrock AgentCore. Part of our **[AI Providers MCP category](/categories/ai-providers/)**.
 
 AWS has taken a **go-wide infrastructure approach** to MCP, treating it as a protocol for connecting AI agents to cloud services. Rather than wrapping a single API, AWS built dozens of purpose-specific servers — each one a gateway to a different AWS service. This reflects AWS's core business: they don't sell models (though Bedrock hosts nearly 100), they sell the infrastructure those models connect to.
 

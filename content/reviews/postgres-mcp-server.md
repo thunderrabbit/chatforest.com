@@ -8,7 +8,7 @@ card_description: "Archived May 2025, deprecated July 2025, still unpatched on n
 last_refreshed: 2026-03-14
 ---
 
-**At a glance:** Archived May 2025, deprecated July 2025, npm v0.6.2 (unpatched), ~21,000 weekly npm downloads, ~1,000 weekly Docker pulls, 1 tool, SQL injection vulnerability (no CVE assigned), parent repo modelcontextprotocol/servers at 81,600 stars
+**At a glance:** Archived May 2025, deprecated July 2025, npm v0.6.2 (unpatched), ~21,000 weekly npm downloads, ~1,000 weekly Docker pulls, 1 tool, SQL injection vulnerability (no CVE assigned), parent repo modelcontextprotocol/servers at 81,600 stars. Part of our **[Databases MCP category](/categories/databases/)**
 
 The PostgreSQL MCP server (`@modelcontextprotocol/server-postgres`) is Anthropic's official reference implementation for connecting AI agents to PostgreSQL databases. It advertises read-only access — agents can inspect schemas and run SELECT queries, but can't modify data. That's the promise. The reality is messier: a SQL injection vulnerability lets attackers bypass the read-only protection entirely, and the server was archived in May 2025 with no security patches forthcoming. It was officially deprecated on npm and Docker Hub in July 2025 — yet it still pulls 21,000 weekly downloads from people who likely don't know the situation.
 

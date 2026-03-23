@@ -8,7 +8,7 @@ card_description: "Anthropic created the Model Context Protocol in November 2024
 last_refreshed: 2026-03-23
 ---
 
-**At a glance:** [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) (81.8k stars, 10k forks, 7 active reference servers) + [Python SDK](https://github.com/modelcontextprotocol/python-sdk) (22.3k stars) + [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) (11.9k stars). Anthropic **invented MCP** in November 2024 and operates the most comprehensive MCP ecosystem: reference servers, official SDKs in 10+ languages, the protocol specification, and the most mature MCP client support across Claude.ai, Claude Desktop, Claude Code, and the API.
+**At a glance:** [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) (81.8k stars, 10k forks, 7 active reference servers) + [Python SDK](https://github.com/modelcontextprotocol/python-sdk) (22.3k stars) + [TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) (11.9k stars). Anthropic **invented MCP** in November 2024 and operates the most comprehensive MCP ecosystem: reference servers, official SDKs in 10+ languages, the protocol specification, and the most mature MCP client support across Claude.ai, Claude Desktop, Claude Code, and the API. Part of our **[AI Providers MCP category](/categories/ai-providers/)**.
 
 Anthropic MCP servers provide the **reference implementations** that define how MCP servers should work — file system access, Git operations, web fetching, persistent memory, and sequential reasoning. These aren't wrappers around the Claude API (Anthropic's products ARE the MCP clients). Instead, they're the foundational tools that demonstrate what MCP can do and how to build servers correctly.
 

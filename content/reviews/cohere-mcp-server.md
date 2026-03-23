@@ -8,7 +8,7 @@ card_description: "Cohere takes an enterprise-client approach to MCP via its Nor
 last_refreshed: 2026-03-23
 ---
 
-**At a glance:** Cohere has **no official MCP server** wrapping its API. Instead, MCP integration lives inside [North](https://cohere.com/north), Cohere's enterprise AI agent platform, which can consume any MCP server as a custom tool. Cohere publishes [north-mcp-python-sdk](https://github.com/cohere-ai/north-mcp-python-sdk) (11 stars, MIT) for building authenticated MCP servers that work with North. Community servers are minimal: one community Cohere API wrapper exists but has been removed from GitHub.
+**At a glance:** Cohere has **no official MCP server** wrapping its API. Instead, MCP integration lives inside [North](https://cohere.com/north), Cohere's enterprise AI agent platform, which can consume any MCP server as a custom tool. Cohere publishes [north-mcp-python-sdk](https://github.com/cohere-ai/north-mcp-python-sdk) (11 stars, MIT) for building authenticated MCP servers that work with North. Community servers are minimal: one community Cohere API wrapper exists but has been removed from GitHub. Part of our **[AI Providers MCP category](/categories/ai-providers/)**.
 
 Cohere is the **enterprise-focused AI company** that built its reputation on retrieval-augmented generation (RAG) and multilingual models. Rather than publishing MCP servers or building broad MCP client support, Cohere channels MCP through North — a low-code enterprise agent platform where MCP is one of several tool integration options alongside built-in connectors.
 

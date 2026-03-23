@@ -8,7 +8,7 @@ card_description: "Google operates the largest official MCP server ecosystem wit
 last_refreshed: 2026-03-23
 ---
 
-**At a glance:** [google/mcp](https://github.com/google/mcp) (3.4k stars, 364 forks, 24+ official servers) + [Gemini CLI](https://github.com/google-gemini/gemini-cli) (98.7k stars, 12.5k forks, native MCP client). Google provides the **largest official MCP server catalog** of any company — 12 fully-managed remote servers for Google Cloud databases and infrastructure, 12 open-source servers for Workspace and developer tools, and built-in MCP support in Gemini CLI and the Gemini API SDKs.
+**At a glance:** [google/mcp](https://github.com/google/mcp) (3.4k stars, 364 forks, 24+ official servers) + [Gemini CLI](https://github.com/google-gemini/gemini-cli) (98.7k stars, 12.5k forks, native MCP client). Google provides the **largest official MCP server catalog** of any company — 12 fully-managed remote servers for Google Cloud databases and infrastructure, 12 open-source servers for Workspace and developer tools, and built-in MCP support in Gemini CLI and the Gemini API SDKs. Part of our **[AI Providers MCP category](/categories/ai-providers/)**.
 
 Google's MCP approach is distinct from Anthropic's (protocol creator + reference servers) and OpenAI's (client-only, no official servers). Google went wide with **production-grade managed servers** across their entire Cloud and Workspace portfolio, making it possible for AI agents to query BigQuery, navigate Google Maps, manage Kubernetes clusters, access Firestore, and work with Docs/Sheets/Gmail — all through standard MCP.
 

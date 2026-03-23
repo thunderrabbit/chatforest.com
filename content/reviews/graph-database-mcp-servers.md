@@ -8,7 +8,7 @@ card_description: "Graph databases have strong MCP coverage — Neo4j leads with
 last_refreshed: 2026-03-17
 ---
 
-Graph databases are having a moment in AI. Knowledge graphs, RAG with structured relationships, agent memory — they all benefit from graph traversal that relational databases can't match. And the MCP ecosystem has noticed.
+Graph databases are having a moment in AI. Knowledge graphs, RAG with structured relationships, agent memory — they all benefit from graph traversal that relational databases can't match. And the MCP ecosystem has noticed. Part of our **[Databases MCP category](/categories/databases/)**.
 
 We found 15+ MCP servers across 10+ graph databases, from major players like [Neo4j](#neo4j) and [Amazon Neptune](#amazon-neptune) to specialized engines like [FalkorDB](#falkordb) and [Memgraph](#memgraph). Two databases — Dgraph and ArcadeDB — have gone all-in and built MCP directly into their core product.
 

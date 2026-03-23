@@ -8,7 +8,7 @@ card_description: "Mistral AI takes a client-first approach to MCP, embedding 20
 last_refreshed: 2026-03-23
 ---
 
-**At a glance:** Mistral AI has **no official MCP server** — instead, they built MCP client support into [Le Chat](https://chat.mistral.ai/) (20+ MCP connectors) and the [Agents API](https://docs.mistral.ai/agents/tools/mcp) (stdio + SSE transport). Community servers are small: [everaldo/mcp-mistral-ocr](https://github.com/everaldo/mcp-mistral-ocr) (37 stars, MIT) for document OCR and [itisaevalex/mistr-agent](https://github.com/itisaevalex/mistr-agent) (17 stars, MIT) for autonomous Mistral task execution.
+**At a glance:** Mistral AI has **no official MCP server** — instead, they built MCP client support into [Le Chat](https://chat.mistral.ai/) (20+ MCP connectors) and the [Agents API](https://docs.mistral.ai/agents/tools/mcp) (stdio + SSE transport). Community servers are small: [everaldo/mcp-mistral-ocr](https://github.com/everaldo/mcp-mistral-ocr) (37 stars, MIT) for document OCR and [itisaevalex/mistr-agent](https://github.com/itisaevalex/mistr-agent) (17 stars, MIT) for autonomous Mistral task execution. Part of our **[AI Providers MCP category](/categories/ai-providers/)**.
 
 Mistral AI is **Europe's most prominent AI company** and a champion of open-weight models. Rather than publishing MCP servers that wrap its API, Mistral has taken a **client-first approach**: Le Chat connects to external MCP servers, and the Agents API lets developers wire MCP tools into Mistral-powered agents. The models themselves — from 3B Ministral to 675B Mistral Large 3 — are available under Apache 2.0 and run anywhere.
 

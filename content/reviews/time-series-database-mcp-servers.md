@@ -8,7 +8,7 @@ card_description: "Time-series database MCP servers across observability platfor
 last_refreshed: 2026-03-15
 ---
 
-Time-series data — metrics, logs, traces, IoT sensor readings, financial ticks — is one of the most common workloads AI agents encounter in production environments. The MCP ecosystem for time-series databases is surprisingly mature, with official servers from Grafana, ClickHouse, InfluxData, VictoriaMetrics, Apache IoTDB, and CrateDB.
+Time-series data — metrics, logs, traces, IoT sensor readings, financial ticks — is one of the most common workloads AI agents encounter in production environments. The MCP ecosystem for time-series databases is surprisingly mature, with official servers from Grafana, ClickHouse, InfluxData, VictoriaMetrics, Apache IoTDB, and CrateDB. Part of our **[Databases MCP category](/categories/databases/)**.
 
 The landscape divides into six areas: **observability platforms** (Grafana — the hub that queries multiple backends), **column-oriented databases** (ClickHouse — analytics-first with time-series capabilities), **Prometheus-compatible systems** (Prometheus, VictoriaMetrics — metrics monitoring), **time-series databases** (InfluxDB, TimescaleDB — purpose-built for time-series), **IoT and industrial** (Apache IoTDB, TDengine — high-write-throughput engines), and **specialized engines** (CrateDB, QuestDB — SQL-first time-series).
 

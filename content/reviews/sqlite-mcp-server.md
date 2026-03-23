@@ -8,7 +8,7 @@ card_description: "Anthropic's reference database MCP server. Clean code, clever
 last_refreshed: 2026-03-14
 ---
 
-**At a glance:** 236 stars (servers-archived repo), ~13K weekly PyPI downloads, v2025.4.25 (last release April 2025), 6 tools, archived on PyPI, known SQL injection vulnerability (unpatched), ~7.7K weekly PulseMCP visitors (#130 globally, ~279K all-time)
+**At a glance:** 236 stars (servers-archived repo), ~13K weekly PyPI downloads, v2025.4.25 (last release April 2025), 6 tools, archived on PyPI, known SQL injection vulnerability (unpatched), ~7.7K weekly PulseMCP visitors (#130 globally, ~279K all-time). Part of our **[Databases MCP category](/categories/databases/)**
 
 The SQLite MCP server (`mcp-server-sqlite`) is Anthropic's official reference implementation for giving AI agents database access. It ships six tools for querying, writing, and inspecting SQLite databases, plus a clever "insight memo" feature for accumulating analysis findings. The Python codebase is clean and well-structured — it was one of the original MCP example servers, built to demonstrate how MCP works with databases.
 

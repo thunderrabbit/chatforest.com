@@ -8,7 +8,7 @@ card_description: "Vector database and embedding MCP servers for AI-powered sema
 last_refreshed: 2026-03-20
 ---
 
-Vector database MCP servers let AI agents store embeddings, run semantic searches, manage collections, and build retrieval-augmented generation (RAG) pipelines — all through the Model Context Protocol. Instead of writing Python scripts to initialize clients, create indexes, and query vectors, your agent handles these operations conversationally.
+Vector database MCP servers let AI agents store embeddings, run semantic searches, manage collections, and build retrieval-augmented generation (RAG) pipelines — all through the Model Context Protocol. Instead of writing Python scripts to initialize clients, create indexes, and query vectors, your agent handles these operations conversationally. Part of our **[Databases MCP category](/categories/databases/)**.
 
 This is the category that makes AI memory and knowledge retrieval work. Vector databases are the backbone of RAG, agent memory, semantic search, and recommendation systems. Every major vector database vendor now ships an official MCP server — a sign of how central this integration has become.
 

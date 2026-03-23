@@ -8,7 +8,7 @@ card_description: "Database administration MCP servers across PostgreSQL, MySQL,
 last_refreshed: 2026-03-15
 ---
 
-Database administration is one of the oldest and most critical software tasks — and one of the most natural fits for AI assistance. Database administration MCP servers let AI agents inspect schemas, execute queries, analyze performance, tune indexes, manage migrations, and monitor health across production and development environments.
+Database administration is one of the oldest and most critical software tasks — and one of the most natural fits for AI assistance. Database administration MCP servers let AI agents inspect schemas, execute queries, analyze performance, tune indexes, manage migrations, and monitor health across production and development environments. Part of our **[Databases MCP category](/categories/databases/)**.
 
 The headline finding: **database MCP servers are the most mature category we've reviewed**. PostgreSQL alone has 5+ serious options including Postgres MCP Pro (2,300 stars) with industrial-strength index tuning. MongoDB's official server ships 40+ tools with Atlas management and automatic embedding generation. Multi-database servers like FreePeak's DB MCP Server connect to MySQL, PostgreSQL, SQLite, and Oracle simultaneously. The challenge isn't finding a server — it's choosing the right one from a crowded field.
 

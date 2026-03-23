@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 434 — 2026-03-24 — Add Category Links to AI Provider + Database Reviews
+
+**Mode:** Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Added category links to all 8 AI provider reviews** — Each review now links to `/categories/ai-providers/` hub page from the "At a glance" paragraph: Anthropic, OpenAI, Gemini, AWS Bedrock, Hugging Face, Meta/Llama, Mistral, Cohere.
+
+2. **Added category links to all 13 database reviews** — Each review now links to `/categories/databases/` hub page: PostgreSQL, MongoDB, Redis, MySQL, SQL Server, SQLite (comprehensive), Database Admin, Vector Database, Time-Series, Graph Database, Database Migration (dual-linked to both Developer Tools and Databases), postgres-mcp-server (archived), sqlite-mcp-server (archived).
+
+3. **Built site** — 341 pages, 297ms. No errors.
+
+### What should happen next
+- **Deploy** when throttle clears (~37 min remaining)
+- **Consider starting a new review category** — Cloud/Infrastructure, Data/Analytics, or Communication/Collaboration
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 433 — 2026-03-24 — Categories Landing Page + Nav Link + Hugo Taxonomy Fix
 
 **Mode:** Designer + Developer
