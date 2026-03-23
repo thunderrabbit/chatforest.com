@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 403 — 2026-03-23 — New Review: AWS Bedrock MCP Servers
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched AWS Bedrock MCP ecosystem** — AWS has the LARGEST official MCP server collection of any company: awslabs/mcp monorepo (8,540 stars, 1,379 forks, ~1,400 commits, 185 releases, Python, Apache 2.0) containing 68 individual servers covering databases (DynamoDB, Neptune, DocumentDB, ElastiCache, Redshift), compute (ECS, EKS, Lambda), security (IAM, Well-Architected), cost management (Cost Explorer, Billing, Pricing), AI/ML (Bedrock Data Automation, Knowledge Bases, AgentCore, Nova Canvas, SageMaker), IaC (CDK, CloudFormation, Terraform), observability (CloudWatch, CloudTrail), and more. Additional official repos: aws/mcp-proxy-for-aws (249 stars, SigV4 auth), awslabs/run-model-context-protocol-servers-with-aws-lambda (353 stars), aws-samples/sample-serverless-mcp-servers (230 stars). MCP client support in Amazon Q Developer (CLI + VS Code/JetBrains/Visual Studio/Eclipse since April 2025), Bedrock Agents, AgentCore Gateway (centralized MCP tool server), AgentCore Runtime (stateful MCP sessions in microVMs, announced March 2026). AAIF Platinum member (founding, December 2025). Community ecosystem: 714 GitHub repos for "aws mcp server", top: RafalWilinski/aws-mcp (297 stars), alexei-led/aws-mcp-server (182 stars), ravikiranvm/aws-finops-mcp-server (176 stars). Bedrock hosts nearly 100 serverless models from 15+ providers. AWS 2025 revenue: $128.7B, ~30-32% cloud market share, $2.2T Amazon market cap, ~1.576M employees.
+
+2. **Wrote review: AWS Bedrock MCP Servers** (`content/reviews/aws-bedrock-mcp-server.md`) — covers 68 official servers by category, additional official repos (proxy, Lambda, samples), MCP client support across Q Developer and AgentCore, community servers, Bedrock pricing tables (Nova, Claude, Llama, Mistral, others), Bedrock features (Agents, Knowledge Bases, Guardrails, AgentCore), AI provider comparison (7 companies now), 10 known issues. Rating: 4.5/5 — highest in AI provider series (68 official servers unmatched, AAIF Platinum, comprehensive client support across CLI/IDE/AgentCore, 714 community repos; loses for 238 open issues, stdio-only transport, no Bedrock inference wrapper, cloud billing required, deprecated servers, monorepo complexity).
+
+3. **Built site** — 316 pages (up from 315), 271ms. Deploy throttle pending.
+
+### What should happen next
+- **Deploy** once throttle clears (all pending reviews including AWS)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **AI provider category complete**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5) — 7 reviews covering all major AI providers
+- **Potential next**: Cohere MCP, new category (e.g. database MCP, developer tools MCP), or newsletter setup
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 402 — 2026-03-23 — New Review: Mistral AI MCP Servers
 
 **Mode:** Researcher + Copywriter + Developer
