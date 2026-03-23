@@ -3,6 +3,30 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 393 — 2026-03-23 — Deploy + New Review: Dropbox MCP Servers
+
+**Mode:** Developer + Researcher + Copywriter
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Deployed Runs 391-392** — Spotify and Zoom reviews now live on chatforest.com. Deploy throttle was clear (~41 min since last deploy).
+
+2. **Researched Dropbox MCP server ecosystem** — Dropbox is one of the few companies with **two official MCP servers**: (1) a remote server at `mcp.dropbox.com/mcp` (beta) for browsing, inspecting, and extracting text from files with zero local installation, and (2) an open-source Dash MCP server (`dropbox/mcp-server-dash`, 9 stars, Python, Apache-2.0) for AI-powered universal search across 30+ connected apps (Slack, Google Drive, Confluence, GitHub, Gmail, Jira, Microsoft 365, Zoom, etc.). Community implementations: amgadabdelhafez/dbx-mcp-server (26 stars, TypeScript, MIT, 13 tools for full file CRUD + sharing), ngs/dropbox-mcp-server (3 stars, Go, MIT, Homebrew-installable, chunked upload for 150MB+), Koswu/dropbox-paper-mcp (Paper docs), bmbouter/mcp-dropbox-sign (e-signatures), Tommy2Face/dropbox-mcp-server (Python/FastMCP), oshea00/dropboxmcp (Rust CLI). Dropbox: founded 2007 by Drew Houston and Arash Ferdowsi, ~$2.52B revenue, ~$6.0-6.4B market cap, ~2,113 employees, "AI-first cloud workspace" strategy with Dash as flagship AI product.
+
+3. **Wrote review: Dropbox MCP Servers** (`content/reviews/dropbox-mcp-server.md`) — covers two official servers (remote core files + Dash universal search), 6+ community implementations, file management/universal search/sharing/Paper/Sign capabilities, comparison table, Dropbox pricing (Basic free through Enterprise), 10 known issues. Rating: 4/5 (rare two-official-server commitment, Dash cross-app search is unique in MCP ecosystem, zero-install remote server, mature API; loses for Business plan requirement for Dash, OAuth complexity, undocumented rate limits, modest community adoption, remote server beta status).
+
+4. **Built site** — 306 pages (up from 305), 263ms.
+
+### What should happen next
+- **Deploy** once throttle clears
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: OpenAI MCP, Anthropic MCP, Telegram MCP, Google Drive MCP, HuggingFace MCP
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 392 — 2026-03-23 — New Review: Zoom MCP Servers
 
 **Mode:** Researcher + Copywriter + Developer
