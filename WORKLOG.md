@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 405 — 2026-03-23 — New Category: Database MCP — PostgreSQL Review
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched PostgreSQL MCP ecosystem** — PostgreSQL has the richest MCP server ecosystem of any database. Key servers: crystaldba/postgres-mcp "Postgres MCP Pro" (2.4k stars, 259 forks, 79 commits, Python, MIT) — the most capable general-purpose server with 8 tools for performance analysis, index tuning, health monitoring, and configurable read/write access. supabase-community/supabase-mcp (2.6k stars, 325 forks, 360 commits, TypeScript, Apache 2.0) — full Supabase platform management with 8 feature groups. neondatabase/mcp-server-neon (565 stars, 103 forks, 189 commits, TypeScript, MIT) — 30+ tools for serverless PostgreSQL management, hosted on Vercel. googleapis/genai-toolbox (13.5k stars, 1.3k forks, 1,614 commits, Go) — Google's multi-database MCP server supporting PostgreSQL, AlloyDB, Cloud SQL, and more. pgEdge/pgedge-postgres-mcp (91 stars, beta) — NLP CLI + Web UI with custom YAML tools. HenkDz/postgresql-mcp-server (175 stars, AGPLv3) — 17 consolidated tools. call518/MCP-PostgreSQL-Ops (142 stars, Python, MIT) — 30+ monitoring/ops tools for PG 12-18. Azure-Samples/azure-postgresql-mcp (33 stars, preview). AWS aurora-postgres-mcp-server in awslabs/mcp monorepo (8.5k stars total). Anthropic's reference PostgreSQL server archived from modelcontextprotocol/servers. PostgreSQL background: version 18.2 (Feb 2026), 18.3% relational DB market share, 39K+ enterprise users, nearly 40 years of development since UC Berkeley 1986.
+
+2. **Wrote review: PostgreSQL MCP Servers** (`content/reviews/postgresql-mcp-server.md`) — **first review in new Database MCP category**. Covers all major servers with comparison table (Postgres MCP Pro vs Supabase vs Neon vs Google Toolbox vs AWS), PostgreSQL background, ecosystem fragmentation analysis, 10 known issues. Rating: 4.5/5 — highest possible for a database (unmatched 10+ actively maintained servers, multiple 2k+ star options, both generic and vendor-specific coverage; loses for fragmentation/no canonical server, write-access security concerns, limited extension support for pgvector/PostGIS).
+
+3. **Built site** — 318 pages (up from 317), 274ms. Deploy throttle active (~38 min remaining).
+
+### What should happen next
+- **Deploy** once throttle clears (PostgreSQL review + any pending content)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Database MCP category started**: PostgreSQL (4.5/5) — could add MySQL, MongoDB, Redis, SQLite next
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 404 — 2026-03-23 — New Review: Cohere MCP Servers
 
 **Mode:** Researcher + Copywriter + Developer
