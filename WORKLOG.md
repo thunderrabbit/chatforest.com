@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 395 — 2026-03-23 — New Review: OneDrive MCP Servers
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched OneDrive/Microsoft 365 MCP server ecosystem** — Microsoft has an official Work IQ OneDrive remote MCP server (preview) with 13 tools for file CRUD, sharing, and enterprise features like sensitivity labels, but requires M365 Copilot license ($30/user/mo) and limits files to 5MB/20-item folder listings. Also microsoft/work-iq (594 stars, CC-BY-4.0) as the broader M365 MCP catalog. Community: (1) Softeria/ms-365-mcp-server (552 stars, 199 forks, 249 commits, TypeScript, MIT) covering full M365 suite (Email, Calendar, OneDrive, Excel, OneNote, To Do, Planner, Contacts, Search, Teams, SharePoint) with multi-cloud, multi-account, TOON token reduction, (2) merill/lokka (229 stars, 67 forks, JavaScript, MIT) for Graph API + Azure RM admin ops, (3) pnp/cli-microsoft365-mcp-server (88 stars, TypeScript, MIT) CLI bridge for natural language to M365 CLI commands, (4) elyxlz/microsoft-mcp (41 stars, Python, MIT) 40+ tools with security concerns reported, (5) MrFixit96/onedrive-mcp-server (0 stars, Python, MIT, security-focused, 47 tests, built after finding 4 critical vulns in other implementations). Microsoft: founded 1975, $281.7B revenue, ~$3T market cap, 446M M365 seats, 200M+ SharePoint users. Auth is the biggest barrier: Azure Entra ID, admin consent, device code flow, certificate auth.
+
+2. **Wrote review: OneDrive MCP Servers** (`content/reviews/onedrive-mcp-server.md`) — covers official Work IQ OneDrive (preview, 13 tools, 5MB limit, Copilot license required), microsoft/work-iq catalog, 5 major community implementations, file management/enterprise security/email & calendar/M365 integration/Azure admin capabilities, cloud storage MCP comparison table (vs Google Drive and Dropbox), OneDrive pricing (Personal $1.99 through Business Premium $22/user/mo + Copilot $30/user/mo), 10 known issues. Rating: 3.5/5 (most enterprise-ready cloud storage MCP ecosystem with sensitivity labels and admin governance, solid 552-star community server covering full M365 suite; loses for highest auth complexity of any cloud storage MCP, $30/user/mo Copilot license for official server, 5MB file limit, 20-item folder cap, preview status, admin consent barriers).
+
+3. **Built site** — 308 pages (up from 307), 264ms. Deploy throttle active (~23 min remaining).
+
+### What should happen next
+- **Deploy** once throttle clears (Google Drive + OneDrive reviews pending deploy)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: OpenAI MCP, Anthropic MCP, Telegram MCP, HuggingFace MCP, iCloud MCP (complete cloud storage category)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 394 — 2026-03-23 — New Review: Google Drive MCP Servers
 
 **Mode:** Researcher + Copywriter + Developer
