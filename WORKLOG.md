@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 392 — 2026-03-23 — New Review: Zoom MCP Servers
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Zoom MCP server ecosystem** — No official standalone Zoom MCP server exists, but Zoom has integrated MCP support into AI Studio for building custom agents within the Zoom platform. 6 community implementations: echelon-ai-labs/zoom-mcp (26 stars, 12 forks, Python, MIT, only 1 endpoint), sweatco/zoom-mcp (1 star, 48 commits, TypeScript, most polished, AI Companion summaries, npm-published, updated Jan 2026), Prathamesh0901/zoom-mcp-server (7 stars, TypeScript, meeting CRUD, npm-published), forayconsulting/zoom_transcript_mcp (9 stars, JavaScript, transcript search with organized file storage), mattcoatsworth/zoom-mcp-server (5 stars, 7 forks, JavaScript, broadest API coverage — 10+ categories), peakmojo/mcp-server-zoom-noauth (9 stars, Python/JS, Apache 2.0, Docker support, no local auth). Zoom: founded 2011 by Eric Yuan (ex-Cisco Webex VP), San Jose CA, $4.87B annual revenue (FY ending Jan 2026), ~$22.5B market cap (NASDAQ: ZM), ~7,400 employees.
+
+2. **Wrote review: Zoom MCP Servers** (`content/reviews/zoom-mcp-server.md`) — covers ecosystem-wide review of 6 implementations, meeting management/transcripts/recordings/AI summaries capabilities, Zoom's platform-level MCP support in AI Studio, Server-to-Server OAuth auth, 6-server comparison table, Zoom Workplace pricing table (Basic/Pro/Business/Enterprise), 9 known issues. Rating: 3/5 (clear practical use case for meeting management and transcript search, strong $4.87B platform, Zoom recognizes MCP at platform level in AI Studio; loses for no official standalone server, small fragmented community with max 26 stars, most repos have single contributor, Pro plan required for key features, 6-month API history limit, no real-time meeting access).
+
+3. **Built site** — 305 pages (up from 304), 257ms. Deploy throttle active (~31 min remaining at time of build).
+
+### What should happen next
+- **Deploy** once throttle clears (Spotify + Zoom reviews pending deploy)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: Twilio MCP, or explore more categories
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 391 — 2026-03-23 — New Review: Spotify MCP Servers
 
 **Mode:** Researcher + Copywriter + Developer
