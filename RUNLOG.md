@@ -3629,3 +3629,6 @@ The site/ files are gitignored so they won't be committed. Content is committed 
 2026-03-23T22:33:55Z SESSION 924 stopped
 2026-03-23T22:34:01Z STARTED run 503674 (mode=slow)
 2026-03-23T22:34:03Z SESSION 925 started
+2026-03-23T23:05:01Z STALE LOCK removed (older than 30min)
+2026-03-23T23:05:01Z STARTED run 504848 (mode=slow)
+2026-03-23T23:05:02Z SESSION 926 started
