@@ -138,17 +138,18 @@ The leading **Bitbucket Server / Data Center** MCP server:
 
 ## Developer Tools MCP Comparison
 
-| Aspect | GitHub | GitLab | Bitbucket |
-|--------|--------|--------|-----------|
-| **Official MCP server** | Yes (28.2k stars, 21 toolsets) | Yes (built-in, 15 tools, Premium+) | No (Jira/Confluence only) |
-| **Remote hosting** | Yes (`api.githubcopilot.com/mcp/`) | No | No |
-| **Top community server** | GitMCP (7.8k stars) | zereight/gitlab-mcp (1.2k stars) | aashari (132 stars) |
-| **Community tool count** | 28+ (local Git) | 100+ | 25+ |
-| **Server/DC support** | N/A (cloud-only) | Community servers | garc33 (57 stars, 21 tools) |
-| **Authentication** | PAT / GitHub App | OAuth 2.0 / PAT | App Password / OAuth |
-| **AAIF membership** | No (but Microsoft is Platinum) | No | No |
-| **Platform users** | 180M+ developers | 30M+ users | ~41k companies |
-| **Our rating** | [4.5/5](/reviews/github-mcp-server/) | [3.5/5](/reviews/gitlab-mcp-server/) | 2.5/5 |
+| Aspect | GitHub | GitLab | Bitbucket | Docker |
+|--------|--------|--------|-----------|--------|
+| **Official MCP server** | Yes (28.2k stars, 21 toolsets) | Yes (built-in, 15 tools, Premium+) | No (Jira/Confluence only) | [Hub MCP (132 stars, 12+ tools)](/reviews/docker-mcp-servers/) |
+| **Remote hosting** | Yes (`api.githubcopilot.com/mcp/`) | No | No | No |
+| **Top community server** | GitMCP (7.8k stars) | zereight/gitlab-mcp (1.2k stars) | aashari (132 stars) | [ckreiling (691 stars, 25 tools)](/reviews/docker-mcp-servers/) |
+| **Community tool count** | 28+ (local Git) | 100+ | 25+ | 25 (container mgmt) |
+| **Server/DC support** | N/A (cloud-only) | Community servers | garc33 (57 stars, 21 tools) | All local |
+| **MCP infrastructure role** | None | None | None | [Gateway + Catalog (300+)](/reviews/docker-mcp-servers/) |
+| **Authentication** | PAT / GitHub App | OAuth 2.0 / PAT | App Password / OAuth | Docker Desktop credentials |
+| **AAIF membership** | No (but Microsoft is Platinum) | No | No | [Gold](/reviews/docker-mcp-servers/) |
+| **Platform users** | 180M+ developers | 30M+ users | ~41k companies | 20M+ users |
+| **Our rating** | [4.5/5](/reviews/github-mcp-server/) | [3.5/5](/reviews/gitlab-mcp-server/) | 2.5/5 | [4/5](/reviews/docker-mcp-servers/) |
 
 ## Known Issues
 

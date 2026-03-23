@@ -3,6 +3,32 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 413 — 2026-03-23 — New Review: Docker MCP Servers (4th Developer Tools)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Docker MCP ecosystem** — Docker has a unique dual role in MCP: it's both a platform with MCP servers AND the infrastructure layer for all MCP servers. Container management: ckreiling/mcp-server-docker (691 stars, 97 forks, 53 commits, Python, GPL-3.0, 25 tools across containers/images/networks/volumes), QuantGeekDev/docker-mcp (456 stars, 59 forks, 20 commits, Python, MIT, 4 tools with Compose support), docker/hub-mcp (132 stars, 91 forks, 10 commits, TypeScript, Apache-2.0, 12+ tools for Docker Hub). Infrastructure: docker/mcp-gateway (1.3k stars, 232 forks, 871 commits, Go, MIT, Docker CLI plugin for running MCP servers in isolated containers), docker/mcp-registry (455 stars, 678 forks, 2,012 commits, Go, MIT, 300+ verified servers), stacklok/toolhive (1.7k stars, 195 forks, 3,028 commits, Go, Apache-2.0, enterprise MCP management). Docker: ~$210M revenue, ~950 employees, 20M+ users, 1M+ paid subscribers, AAIF Gold member. MCP Catalog Beta launched May 5, 2025.
+
+2. **Wrote review: Docker MCP Servers** (`content/reviews/docker-mcp-servers.md`) — **fourth review in Developer Tools MCP category**. Covers the dual role: MCP for Docker (ckreiling 25 tools, QuantGeekDev 4 tools, Hub MCP 12+ tools) and Docker for MCP (MCP Gateway, MCP Catalog 300+ servers, ToolHive enterprise management). Full comparison table (GitHub vs GitLab vs Bitbucket vs Docker), 10 known issues. Rating: 4/5 — strong due to strategic infrastructure role (AAIF Gold, MCP Gateway, Catalog), solid community container management (691 stars), but loses for no official container management server, Docker Desktop requirement, GPL-3.0 on leading server, fragmentation across multiple tools.
+
+3. **Updated GitHub, GitLab, and Bitbucket reviews** — Added Docker column to comparison tables in all three reviews, including MCP infrastructure role row.
+
+4. **Built site** — 324 pages (up from 323), 277ms. Deploy throttled (~35 min remaining).
+
+### What should happen next
+- **Deploy** once throttle clears (~35 min)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Developer Tools MCP category (4 reviews)**: GitHub (4.5/5), Docker (4/5), GitLab (3.5/5), Bitbucket (2.5/5) — could add Jira, Jenkins, Terraform, or Kubernetes next
+- **Database MCP category (6 reviews)**: PostgreSQL (4.5/5), MongoDB (4/5), Redis (4/5), MySQL (3.5/5), SQL Server (3.5/5), SQLite (3.5/5)
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 412 — 2026-03-23 — New Review: Bitbucket MCP Servers (3rd Developer Tools)
 
 **Mode:** Researcher + Copywriter + Developer
