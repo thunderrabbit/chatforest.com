@@ -153,19 +153,19 @@ Tools: list/get/create/modify any K8s resources, list nodes, retrieve events, po
 
 ## Developer Tools MCP Comparison
 
-| Aspect | GitHub | GitLab | Bitbucket | Docker | Kubernetes |
-|--------|--------|--------|-----------|--------|------------|
-| **Official MCP server** | Yes (28.2k stars, 21 toolsets) | Yes (built-in, 15 tools, Premium+) | No (Jira/Confluence only) | [Hub MCP (132 stars, 12+ tools)](/reviews/docker-mcp-servers/) | No (Red Hat leads, 1.3k stars) |
-| **Remote hosting** | Yes (`api.githubcopilot.com/mcp/`) | No | No | No | AWS EKS MCP (preview) |
-| **Top community server** | GitMCP (7.8k stars) | zereight/gitlab-mcp (1.2k stars) | aashari (132 stars) | [ckreiling (691 stars, 25 tools)](/reviews/docker-mcp-servers/) | Flux159 (1.4k stars, 20+ tools) |
-| **Community tool count** | 28+ (local Git) | 100+ | 25+ | 25 (container mgmt) | 20+ (core) to 253+ (claimed) |
-| **Server/DC support** | N/A (cloud-only) | Community servers | garc33 (57 stars, 21 tools) | All local | All local + cloud managed |
-| **Helm/package mgmt** | N/A | N/A | N/A | [Compose support](/reviews/docker-mcp-servers/) | Native in top 2 servers |
-| **Read-only mode** | N/A | N/A | Safety-first (no DELETE) | N/A | Yes (both leaders) |
-| **Authentication** | PAT / GitHub App | OAuth 2.0 / PAT | App Password / OAuth | Docker Desktop credentials | kubeconfig / OAuth / OIDC |
-| **AAIF membership** | No (but Microsoft is Platinum) | No | No | [Gold](/reviews/docker-mcp-servers/) | No (but Google/AWS/MS are Platinum) |
-| **Platform users** | 180M+ developers | 30M+ users | ~41k companies | 20M+ users | 5.6M developers |
-| **Our rating** | [4.5/5](/reviews/github-mcp-server/) | [3.5/5](/reviews/gitlab-mcp-server/) | [2.5/5](/reviews/bitbucket-mcp-server/) | [4/5](/reviews/docker-mcp-servers/) | 4/5 |
+| Aspect | GitHub | GitLab | Bitbucket | Docker | Kubernetes | CI/CD |
+|--------|--------|--------|-----------|--------|------------|-------|
+| **Official MCP server** | Yes (28.2k stars, 21 toolsets) | Yes (built-in, 15 tools, Premium+) | No (Jira/Confluence only) | [Hub MCP (132 stars, 12+ tools)](/reviews/docker-mcp-servers/) | No (Red Hat leads, 1.3k stars) | [Yes (Jenkins, CircleCI, Buildkite)](/reviews/ci-cd-mcp-servers/) |
+| **Remote hosting** | Yes (`api.githubcopilot.com/mcp/`) | No | No | No | AWS EKS MCP (preview) | [Yes (Buildkite remote MCP)](/reviews/ci-cd-mcp-servers/) |
+| **Top community server** | GitMCP (7.8k stars) | zereight/gitlab-mcp (1.2k stars) | aashari (132 stars) | [ckreiling (691 stars, 25 tools)](/reviews/docker-mcp-servers/) | Flux159 (1.4k stars, 20+ tools) | [Argo CD (356 stars, 12 tools)](/reviews/ci-cd-mcp-servers/) |
+| **Community tool count** | 28+ (local Git) | 100+ | 25+ | 25 (container mgmt) | 20+ (core) to 253+ (claimed) | [9-21 per server](/reviews/ci-cd-mcp-servers/) |
+| **Server/DC support** | N/A (cloud-only) | Community servers | garc33 (57 stars, 21 tools) | All local | All local + cloud managed | [Jenkins plugin (on-prem)](/reviews/ci-cd-mcp-servers/) |
+| **Helm/package mgmt** | N/A | N/A | N/A | [Compose support](/reviews/docker-mcp-servers/) | Native in top 2 servers | N/A |
+| **Read-only mode** | N/A | N/A | Safety-first (no DELETE) | N/A | Yes (both leaders) | [Limited](/reviews/ci-cd-mcp-servers/) |
+| **Authentication** | PAT / GitHub App | OAuth 2.0 / PAT | App Password / OAuth | Docker Desktop credentials | kubeconfig / OAuth / OIDC | [API tokens per platform](/reviews/ci-cd-mcp-servers/) |
+| **AAIF membership** | No (but Microsoft is Platinum) | No | No | [Gold](/reviews/docker-mcp-servers/) | No (but Google/AWS/MS are Platinum) | [No](/reviews/ci-cd-mcp-servers/) |
+| **Platform users** | 180M+ developers | 30M+ users | ~41k companies | 20M+ users | 5.6M developers | [Jenkins: 11.3M devs](/reviews/ci-cd-mcp-servers/) |
+| **Our rating** | [4.5/5](/reviews/github-mcp-server/) | [3.5/5](/reviews/gitlab-mcp-server/) | [2.5/5](/reviews/bitbucket-mcp-server/) | [4/5](/reviews/docker-mcp-servers/) | 4/5 | [3/5](/reviews/ci-cd-mcp-servers/) |
 
 ## Known Issues
 

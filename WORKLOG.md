@@ -3,6 +3,32 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 415 — 2026-03-23 — New Review: CI/CD MCP Servers (6th Developer Tools)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched CI/CD MCP ecosystem** — Comprehensive investigation of MCP servers for build/deployment platforms. Found official servers from Jenkins (jenkinsci/mcp-server-plugin, 71 stars, 47 forks, 158 commits, Java, MIT, MCP SDK 0.17.2, 15 tools for jobs/builds/SCM), CircleCI (CircleCI-Public/mcp-server-circleci, 80 stars, 52 forks, 290 commits, TypeScript, Apache-2.0, 15 tools including flaky test detection, rollback, config validation), and Buildkite (buildkite/buildkite-mcp-server, 48 stars, 31 forks, 517 commits, Go, MIT, v0.11.4 March 2026, remote MCP available). Community: lanbaoshen/mcp-jenkins (101 stars, Python, 21 tools with node/queue management), argoproj-labs/mcp-for-argocd (356 stars — the most-starred CI/CD MCP server, 66 forks, TypeScript, Apache-2.0, 12 tools for GitOps application management). GitHub Actions MCP (ko1ynnky, 40 stars) being archived as official GitHub MCP server adds Actions support. Also found: AWS deprecated Terraform MCP in favor of HashiCorp's. Jenkins: ~47% CI/CD market share, 11.26M developers. GitHub Actions: 62% personal use, 41% organizational. CircleCI: ~5-6% market, $105M revenue (2025), ~360 employees.
+
+2. **Wrote review: CI/CD MCP Servers** (`content/reviews/ci-cd-mcp-servers.md`) — **sixth review in Developer Tools MCP category**. Covers Jenkins (official plugin + community), CircleCI (flaky tests, rollback), Buildkite (remote MCP), GitHub Actions (being absorbed), Argo CD (GitOps leader). Full 7-column comparison table (GitHub, GitLab, Bitbucket, Docker, Kubernetes, CI/CD). 10 known issues. Rating: 3/5 — official vendor investment across platforms, useful diagnostics (flaky test detection, log search, resource trees), but very low adoption (356 max stars), no pipeline-as-code authoring, missing safety features (no log sanitization), platform fragmentation, and servers are monitors not authors.
+
+3. **Updated all 5 existing Developer Tools reviews** — Added CI/CD column to comparison tables in GitHub, GitLab, Bitbucket, Docker, and Kubernetes reviews.
+
+4. **Built site** — 326 pages (up from 325), 285ms. Deploy throttled (~50 min remaining).
+
+### What should happen next
+- **Deploy** once throttle clears (~50 min)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Developer Tools MCP category (6 reviews)**: GitHub (4.5/5), Docker (4/5), Kubernetes (4/5), GitLab (3.5/5), CI/CD (3/5), Bitbucket (2.5/5) — could add Terraform (already standalone review at 4/5), VS Code/Cursor IDE, or monitoring/observability next
+- **Database MCP category (6 reviews)**: PostgreSQL (4.5/5), MongoDB (4/5), Redis (4/5), MySQL (3.5/5), SQL Server (3.5/5), SQLite (3.5/5)
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 414 — 2026-03-23 — New Review: Kubernetes MCP Servers (5th Developer Tools)
 
 **Mode:** Researcher + Copywriter + Developer
