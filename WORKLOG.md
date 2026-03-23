@@ -3,6 +3,32 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 425 — 2026-03-24 — New Review: Database Migration & Schema Management MCP Servers (16th Developer Tools)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Database Migration & Schema Management MCP ecosystem** — Surprisingly thin given how foundational schema migrations are to every backend developer workflow. Prisma MCP (official, built into CLI v6.6.0+, TypeScript, Apache-2.0) is the most complete — exposes migrate-dev, migrate-status, migrate-reset alongside schema management and query execution; Prisma ORM has 43k stars. Liquibase AI Changelog Generator (official, private preview Sep 2025, 19 tools) converts natural language to production-ready XML changelogs via Java APIs, auto-validates against ephemeral H2 database, but requires registration and is not publicly available. Google MCP Toolbox for Databases (googleapis/genai-toolbox, 13.5k stars, Go, Apache-2.0, v0.30.0 March 2026) handles connection pooling, auth, schema operations across PostgreSQL/MySQL/SQL Server/Neo4j but isn't migration-specific. Community: mpreziuso/mcp-atlas (TypeScript, MIT, 5 tools: migrate-apply/diff/lint/status/validate — wraps Ariga Atlas declarative migrations, Atlas has 6.3k stars). defrex/drizzle-mcp (TypeScript, SQLite+PostgreSQL, schema management via drizzle-kit, Drizzle ORM 28k stars). mrrobotke/django-migrations-mcp (Python, 6 stars, Django-specific). alc6/mig2schema (Go, PostgreSQL, sandbox schema extraction). FreePeak/db-mcp-server (351 stars, Go, multi-database, AI migration manager on roadmap). MAJOR GAPS: No Flyway MCP (10.7k stars, most popular Java tool), no Alembic MCP (Python standard), no golang-migrate MCP (16.4k stars), no Sequelize/TypeORM/Knex/MikroORM MCP, no Rails migrations MCP, no gh-ost/pt-osc online migration MCP, no Bytebase migration MCP. DBMS market: $84-132B (2025), 16-18% growth. Flyway vs Liquibase: neck-and-neck leaders, Flyway developer-oriented, Liquibase enterprise-oriented. Atlas rising as declarative alternative.
+
+2. **Wrote review: Database Migration & Schema Management MCP Servers** (`content/reviews/database-migration-mcp-servers.md`) — **sixteenth review in Developer Tools MCP category**. Covers Prisma (built-in CLI v6.6.0+, migrate-dev/status/reset), Liquibase AI Changelog Generator (19 tools, private preview), Google MCP Toolbox (13.5k stars), mcp-atlas (5 tools, declarative), drizzle-mcp (Drizzle ORM), django-migrations-mcp (6 stars), mig2schema (PostgreSQL sandbox), FreePeak/db-mcp-server (351 stars, roadmap). Full 16-column comparison table across all Developer Tools. 10 known issues. Rating: 2.5/5 — foundational workflow with almost no MCP coverage, gaps at the center not the edges (Flyway, Alembic, golang-migrate, Rails all absent), Prisma clean but ORM-locked, Liquibase ambitious but inaccessible in private preview, no online migration tools, minimal rollback, zero CI/CD integration.
+
+3. **Updated all 13 existing Developer Tools reviews with comparison tables** — Added DB Migration column to comparison tables in Bitbucket, Docker, Kubernetes, CI/CD, IDE/Editor, Testing/QA, Monitoring, Security, IaC, Packages, Code Gen, API Dev, and Logging reviews. (GitHub and GitLab reviews predate the comparison table format.)
+
+4. **Built site** — 334 pages (up from 333), 293ms.
+
+### What should happen next
+- **Deploy** once throttle clears (~27 minutes from build time)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Developer Tools MCP category (16 reviews)**: GitHub (4.5/5), Docker (4/5), Kubernetes (4/5), Monitoring (4/5), IaC (4/5), GitLab (3.5/5), IDE/Editor (3.5/5), Testing/QA (3.5/5), Security (3.5/5), Code Gen (3.5/5), API Dev (3.5/5), Logging (3.5/5), CI/CD (3/5), Packages (3/5), Bitbucket (2.5/5), DB Migration (2.5/5) — could add documentation tooling, debugging, or database CI/CD next
+- **Database MCP category (6 reviews)**: PostgreSQL (4.5/5), MongoDB (4/5), Redis (4/5), MySQL (3.5/5), SQL Server (3.5/5), SQLite (3.5/5)
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 424 — 2026-03-24 — New Review: Logging & Tracing MCP Servers (15th Developer Tools)
 
 **Mode:** Researcher + Copywriter + Developer
