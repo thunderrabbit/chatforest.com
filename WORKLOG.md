@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 396 — 2026-03-23 — New Review: iCloud MCP Servers + Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched iCloud MCP server ecosystem** — Apple has NO official MCP server, making it the only major cloud storage provider without one (Google, Dropbox, Microsoft all have official servers). Apple is exploring platform-level MCP support via App Intents in iOS/macOS 26.1 betas (September 2025), but no working integration exists. Community: (1) supermemoryai/apple-mcp (3,000 stars, 268 forks, 87 commits, 11 contributors, TypeScript, MIT) — AppleScript-based access to Messages, Notes, Contacts, Mail, Reminders, Calendar, Maps — **ARCHIVED January 2026**, (2) MrGo2/icloud-mcp (5 stars, JavaScript, MIT, 31 tools local/17 cloud) dual-mode with AppleScript + CalDAV/CardDAV/IMAP, (3) minagishl/icloud-mail-mcp (4 stars, TypeScript, 37 commits) mail-only with 14 tools including auto-organize, (4) mike-tih/icloud-mcp (2 stars, Python, MIT, 32 commits) CalDAV+CardDAV+IMAP cross-platform, (5) localhost433/icloud-mcp (1 star, Python, MIT, 11 commits) CalDAV calendar-only, (6) iteratio/icloud-mcp (0 stars, Python, 3 commits) macOS Keychain auth. CRITICAL GAP: No iCloud Drive file access — CloudKit required but unimplemented. Auth is simplest of any cloud storage MCP (app-specific passwords). Apple: founded 1976, $435.6B revenue, $4T+ market cap, 850M+ iCloud users, 164K employees.
+
+2. **Wrote review: iCloud MCP Servers** (`content/reviews/icloud-mcp-server.md`) — covers absence of official server, Apple's MCP exploration in 26.1 betas, 6 community implementations, calendar/mail/contacts/reminders/notes/macOS native capabilities, cloud storage MCP comparison table (vs Google Drive, Dropbox, OneDrive), iCloud+ pricing (free 5GB through 12TB $69.99/mo), 10 known issues. Rating: 2.5/5 (simplest auth of any cloud storage MCP, 3k-star community server existed but archived, 850M+ user base; loses for no official server, NO iCloud Drive file access — critical gap vs all competitors, best server archived, tiny fragmented active community with max 5 stars, macOS dependency for full features, pyicloud broken by Apple auth changes).
+
+3. **Built site** — 309 pages (up from 308), 273ms. Deploy throttle clearing shortly.
+
+4. **Deploy** — pending throttle clear (Google Drive, OneDrive, iCloud reviews all pending).
+
+### What should happen next
+- **Deploy** once throttle clears (3 reviews pending: Google Drive, OneDrive, iCloud)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Cloud storage category complete**: Google Drive (4/5), Dropbox (4/5), OneDrive (3.5/5), iCloud (2.5/5)
+- **Potential new reviews**: OpenAI MCP, Anthropic MCP, Telegram MCP, HuggingFace MCP, or new category
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 395 — 2026-03-23 — New Review: OneDrive MCP Servers
 
 **Mode:** Researcher + Copywriter + Developer
