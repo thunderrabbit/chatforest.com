@@ -52,6 +52,13 @@
     
     
     <div class="article-card">
+  <div class="card-meta"><span>Review</span> <span>2026-03-24 23:00:00</span></div>
+  <h3><a href="/reviews/code-generation-mcp-servers/">Code Generation MCP Servers — UI Components, Context Providers, and the Paradox of AI Writing Its Own Tools</a></h3>
+  <p>Code generation MCP servers reveal a paradox: every major AI coding platform (GitHub Copilot, Cursor, Windsurf, Amazon Q, JetBrains AI, Claude Code) supports MCP as a client — consuming external tools and context — but none exposes its code generation engine as an MCP server. The real ecosystem is context provision: Context7 (50k stars) delivers version-specific library documentation, magic-mcp (4.5k stars) generates UI components from natural language, shadcn-ui MCP server (2.7k stars) provides component context, and Vercel&#39;s next-devtools-mcp (694 stars) gives coding agents real-time Next.js app internals. The strongest pattern is design-to-code: Figma&#39;s official MCP server enables bidirectional AI workflows.</p>
+</div>
+
+    
+    <div class="article-card">
   <div class="card-meta"><span>Review</span> <span>2026-03-24 22:00:00</span></div>
   <h3><a href="/reviews/package-management-mcp-servers/">Package Management MCP Servers — NuGet, npm, PyPI, Maven, and the Quest for AI-Assisted Dependency Intelligence</a></h3>
   <p>Package management MCP servers cover dependency intelligence across npm, PyPI, Maven, NuGet, Cargo, and more. Microsoft&#39;s NuGet MCP server leads with first-party IDE integration — built into Visual Studio 2026 with vulnerability fixing and version management. Homebrew ships an official built-in MCP server for macOS package management. The community-driven mcp-package-version (122 stars, Go) covers 9 registries including Docker Hub and GitHub Actions. npm-sentinel-mcp offers the deepest single-registry analysis with 18&#43; tools. But vendor investment is thin: only NuGet and Homebrew have official servers.</p>
@@ -76,6 +83,20 @@
   <div class="card-meta"><span>Review</span> <span>2026-03-24 15:00:00</span></div>
   <h3><a href="/reviews/monitoring-observability-mcp-servers/">Monitoring &amp; Observability MCP Servers — From Grafana to Datadog, Vendor-Led Observability Meets MCP</a></h3>
   <p>Monitoring and observability MCP servers stand out from most Developer Tools categories: the major vendors are building official MCP servers themselves. Grafana&#39;s mcp-grafana (2.5k stars, Go) covers dashboards, Prometheus, Loki, alerting, and OnCall. Datadog offers an official remote MCP server (16&#43; core tools, HIPAA-eligible) launched March 2026. Sentry (519 stars) provides remote-hosted error tracking via MCP. Dynatrace (201 stars), New Relic (35 tools, public preview), and IBM Instana (100&#43; tools) round out the enterprise offerings. Community Prometheus servers (340 stars) and the deprecated Elastic MCP (626 stars) fill gaps.</p>
+</div>
+
+    
+    <div class="article-card">
+  <div class="card-meta"><span>Review</span> <span>2026-03-24 06:00:00</span></div>
+  <h3><a href="/reviews/logging-tracing-mcp-servers/">Logging &amp; Tracing MCP Servers — Splunk Goes GA, Grafana Adds Tempo, and OpenTelemetry Becomes the Glue</a></h3>
+  <p>Logging and tracing MCP servers sit alongside — but distinct from — the broader monitoring and observability category. Where monitoring MCP servers focus on dashboards, metrics, and alerting, logging and tracing servers specialize in log search and analysis (SPL, LogQL, Elasticsearch queries) and distributed trace correlation (TraceQL, OpenTelemetry). Splunk&#39;s official MCP server (13 tools, GA March 2026) is the enterprise headliner. Grafana adds built-in Tempo MCP (TraceQL, Tempo 2.9&#43;) alongside standalone Loki MCP (103 stars). Traceloop&#39;s OpenTelemetry MCP (178 stars) unifies Jaeger and Tempo backends. The Elasticsearch community server (cr7258, 259 stars) surpasses the deprecated official one. Pydantic Logfire (157 stars) brings SQL-based trace querying. AWS Labs provides a dedicated Log Analyzer (154 stars).</p>
+</div>
+
+    
+    <div class="article-card">
+  <div class="card-meta"><span>Review</span> <span>2026-03-24 04:30:00</span></div>
+  <h3><a href="/reviews/api-development-mcp-servers/">API Development MCP Servers — OpenAPI Converters, GraphQL, gRPC, and the Rise of Spec-to-Server Generation</a></h3>
+  <p>API development MCP servers are dominated by a single pattern: convert an API specification into MCP tools. OpenAPI-to-MCP converters (openapi-mcp-generator at 495 stars, emcee at 320 stars, AWS Labs OpenAPI MCP, Swagger-MCP at 146 stars) dynamically generate MCP tools from OpenAPI/Swagger specs, letting AI agents call any REST API without manual tool definitions. GraphQL has official vendor support from Apollo (275 stars, Rust, 1,576 commits) and a strong community server (mcp-graphql at 374 stars). gRPC gets Redpanda&#39;s protoc-gen-go-mcp (190 stars), a compiler plugin that auto-generates Go MCP servers from .proto files. API testing has Postman&#39;s official MCP server (192 stars, 100&#43; tools). The strongest pattern is spec-to-server: give the MCP server an API spec, get tools for every endpoint.</p>
 </div>
 
     

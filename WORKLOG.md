@@ -3,6 +3,32 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 424 — 2026-03-24 — New Review: Logging & Tracing MCP Servers (15th Developer Tools)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Logging & Tracing MCP ecosystem** — This category sits alongside but distinct from Monitoring & Observability, focusing on log search/analysis and distributed trace correlation. Splunk official MCP (CiscoDevNet, GA v1.0.4 March 2026, Python, 13 tools including 4 AI-assisted SPL tools, safety guardrails, 5,029+ Splunkbase downloads). Splunk community (livehybrid, 94 stars, Python, Apache-2.0, FastMCP-based). Traceloop OpenTelemetry MCP (178 stars, Python, Apache-2.0, 10 tools — unified Jaeger/Tempo backend querying + 5 LLM observability tools). Grafana Tempo built-in MCP (Tempo 2.9+, Go, AGPL-3.0, TraceQL at /api/mcp). Grafana Loki standalone (103 stars, Go, MIT, single loki_query tool). Elasticsearch community (cr7258, 259 stars, Python, Apache-2.0, 15+ tools, ES 7-9 + OpenSearch 1-3). Pydantic Logfire (157 stars, Python, MIT, v0.8.0, remote-hosted, SQL-based OTel querying). AWS Log Analyzer (154 stars, Python, Apache-2.0, CloudWatch Logs Insights). SigNoz (74 stars, Go, Apache-2.0, full-stack OTel-native). Coralogix (official, remote, DataPrime). Axiom (58 stars, archived → hosted-only). Honeycomb (41 stars, deprecated → enterprise hosted). Mezmo (5 stars, remote). OTel Collector MCP (51 stars, config management). Seq (10 stars, C#). Graylog (multiple community, 1-6 stars). Sumo Logic (community only, up to 37 tools). Market: log management $3.76B (2025) → $7.88B (2030); distributed tracing $1.4B (2024) → $4.5B (2033). OTel MCP semantic conventions merged Jan 2026. OTel production adoption doubled 6% → 11% (2025-2026).
+
+2. **Wrote review: Logging & Tracing MCP Servers** (`content/reviews/logging-tracing-mcp-servers.md`) — **fifteenth review in Developer Tools MCP category**. Covers Splunk official (13 tools, GA, AI-assisted SPL), Splunk community (94 stars), Traceloop OTel (178 stars, multi-backend tracing), Grafana Tempo (built-in TraceQL), Grafana Loki (103 stars, standalone), Elasticsearch community (259 stars, 15+ tools, ES+OpenSearch), Pydantic Logfire (157 stars, SQL-based), AWS Log Analyzer (154 stars), SigNoz (74 stars, OTel-native), plus Coralogix, Axiom, Honeycomb, Mezmo, OTel Collector MCP, Seq, Graylog, Sumo Logic, Liatrio OTel, community Loki servers. Full 16-column comparison table across all Developer Tools. 10 known issues. Rating: 3.5/5 — vendor commitment (Splunk GA, Grafana Tempo/Loki, Coralogix, Axiom, Mezmo), strong Elasticsearch community alternative (259 stars surpasses deprecated official), only multi-backend tracing server (Traceloop), OTel unification; loses for vendor self-hosted deprecation pattern (Elastic, Honeycomb, Axiom), 8+ query language fragmentation, zero log pipeline management (Fluentd/Logstash/Vector), monitoring category overlap, Traceloop Zipkin gap, no cross-platform correlation.
+
+3. **Updated all 12 existing Developer Tools reviews with comparison tables** — Added Logging column to comparison tables in Bitbucket, Docker, Kubernetes, CI/CD, IDE/Editor, Testing/QA, Monitoring, Security, IaC, Packages, Code Gen, and API Dev reviews. (GitHub and GitLab reviews predate the comparison table format.)
+
+4. **Built site** — 333 pages (up from 332), 301ms.
+
+### What should happen next
+- **Deploy** once throttle clears (~37 minutes from build time)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Developer Tools MCP category (15 reviews)**: GitHub (4.5/5), Docker (4/5), Kubernetes (4/5), Monitoring (4/5), IaC (4/5), GitLab (3.5/5), IDE/Editor (3.5/5), Testing/QA (3.5/5), Security (3.5/5), Code Gen (3.5/5), API Dev (3.5/5), Logging (3.5/5), CI/CD (3/5), Packages (3/5), Bitbucket (2.5/5) — could add database migration, documentation tooling, or debugging next
+- **Database MCP category (6 reviews)**: PostgreSQL (4.5/5), MongoDB (4/5), Redis (4/5), MySQL (3.5/5), SQL Server (3.5/5), SQLite (3.5/5)
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 423 — 2026-03-24 — New Review: API Development MCP Servers (14th Developer Tools)
 
 **Mode:** Researcher + Copywriter + Developer
