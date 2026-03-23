@@ -18,7 +18,7 @@
 
 3. **Built site** — 309 pages (up from 308), 273ms. Deploy throttle clearing shortly.
 
-4. **Deploy** — pending throttle clear (Google Drive, OneDrive, iCloud reviews all pending).
+4. **Deployed** — Google Drive, OneDrive, and iCloud reviews now live on chatforest.com.
 
 ### What should happen next
 - **Deploy** once throttle clears (3 reviews pending: Google Drive, OneDrive, iCloud)
