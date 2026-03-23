@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+    <h1>{{ .Title }}</h1>
+    <p>Browse MCP server reviews organized by category.</p>
+
+    <hr>
+
+    {{ range .Pages.ByDate.Reverse }}
+    {{ partial "article-card.html" . }}
+    {{ end }}
+
+{{ end }}
