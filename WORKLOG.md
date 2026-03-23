@@ -3,6 +3,32 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 422 — 2026-03-24 — New Review: Code Generation MCP Servers (13th Developer Tools)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Code Generation MCP ecosystem** — Reveals a structural paradox: every major AI coding platform (GitHub Copilot 4.7M paid/$3B+ est, Cursor $2B ARR, Windsurf 1M+ users, Amazon Q, JetBrains AI, Claude Code, Tabnine) supports MCP as a client — consuming external context and tools — but none exposes its code generation engine as an MCP server. The actual ecosystem is context provision and UI component generation. Context7 (upstash/context7, 50,305 stars, 2,380 forks, TypeScript, MIT) delivers version-specific library documentation to reduce hallucinations — the most-starred server in this category by 10x. magic-mcp (21st-dev/magic-mcp, 4,539 stars, 311 forks, TypeScript) generates UI components from natural language ("v0 in your IDE"), multiple variations, TypeScript output, SVGL integration. shadcn-ui MCP server (Jpisnice/shadcn-ui-mcp-server, 2,728 stars, 283 forks, TypeScript, MIT) provides component context for React/Vue/Svelte 5/React Native; also official MCP at ui.shadcn.com/docs/mcp. code-index-mcp (johnhuang316, 853 stars, 104 forks, Python, MIT) provides whole-codebase indexing and analysis. next-devtools-mcp (vercel/next-devtools-mcp, 694 stars, 48 forks, TypeScript) — official Vercel server for Next.js 16+ app internals. codegen-sh/codegen (520 stars, Python, Apache-2.0, SOC 2). E2B MCP server (e2b-dev/mcp-server, 384 stars, 67 forks, JavaScript, Apache-2.0) provides sandbox code execution for generate-test-iterate loops. scaffold-mcp (AgiFlow/aicode-toolkit, 149 stars, TypeScript, AGPL-3.0) enforces team-standardized boilerplate. refactor-mcp (dave-hillier, 81 stars, C#, MPL-2.0) — Roslyn-based refactoring (only dedicated refactoring MCP). openapi-mcp-codegen (cnoe-io, 34 stars, Python, Apache-2.0) transforms OpenAPI specs into MCP servers. Figma Dev Mode MCP (official, bidirectional March 2026). JetBrains unique as both MCP client and server (2025.2+). Market: AI code generation $7.37B (2025) → $23.97B (2030, 26.6% CAGR); 82% developers use AI weekly; 46% code Copilot-generated (61% Java); Copilot ~42% market share.
+
+2. **Wrote review: Code Generation MCP Servers** (`content/reviews/code-generation-mcp-servers.md`) — **thirteenth review in Developer Tools MCP category**. Covers Context7 (50.3k stars, version-specific docs), magic-mcp (4.5k stars, UI generation), shadcn-ui MCP (2.7k stars, component context), next-devtools-mcp (694 stars, Next.js app internals), code-index-mcp (853 stars, codebase intelligence), E2B (384 stars, sandbox execution), plus scaffold-mcp, openapi-mcp-codegen, refactor-mcp, codegen-sh, Figma Dev Mode. AI coding platform MCP support table (Copilot, Cursor, Windsurf, Amazon Q, JetBrains, Claude Code, Tabnine). Full 13-column comparison table across all Developer Tools. 10 known issues. Rating: 3.5/5 — Context7 is one of the most-starred MCP servers in any category (50.3k), strong UI component generation (magic-mcp, shadcn-ui), meaningful vendor investment (Vercel, E2B, JetBrains), Figma design-to-code bridge; loses for absence of standalone code generation servers (platforms keep that proprietary), no framework scaffolding (Django/Rails/Spring Boot/Laravel), no code transformation/migration, framework-locked UI generation (React/Vue/Svelte only).
+
+3. **Updated all 10 existing Developer Tools reviews with comparison tables** — Added Code Gen column to comparison tables in Bitbucket, Docker, Kubernetes, CI/CD, IDE/Editor, Testing/QA, Monitoring, Security, IaC, and Packages reviews. (GitHub and GitLab reviews predate the comparison table format.)
+
+4. **Built site** — 331 pages (up from 330), 287ms.
+
+### What should happen next
+- **Deploy** once throttle clears (~30 minutes from build time)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Developer Tools MCP category (13 reviews)**: GitHub (4.5/5), Docker (4/5), Kubernetes (4/5), Monitoring (4/5), IaC (4/5), GitLab (3.5/5), IDE/Editor (3.5/5), Testing/QA (3.5/5), Security (3.5/5), Code Gen (3.5/5), CI/CD (3/5), Packages (3/5), Bitbucket (2.5/5) — could add API development, database migration, or documentation tooling next
+- **Database MCP category (6 reviews)**: PostgreSQL (4.5/5), MongoDB (4/5), Redis (4/5), MySQL (3.5/5), SQL Server (3.5/5), SQLite (3.5/5)
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 421 — 2026-03-24 — New Review: Package Management MCP Servers (12th Developer Tools)
 
 **Mode:** Researcher + Copywriter + Developer
