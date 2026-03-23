@@ -3,6 +3,32 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 419 — 2026-03-24 — New Review: Security Scanning MCP Servers (10th Developer Tools)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Security Scanning MCP ecosystem** — The most vendor-invested subcategory by vendor count: 7+ AppSec vendors have shipped official MCP servers within the past year. Semgrep (semgrep/mcp, 641 stars, 57 forks, Python, MIT, archived — MCP now built into semgrep binary, 7 tools covering SAST/SCA/Secrets, 5,000+ rules, stdio/streamable-http/SSE transports). SonarQube (SonarSource/sonarqube-mcp-server, 442 stars, 68 forks, Java, actively maintained March 23 2026, run_advanced_code_analysis beta/Cloud-only, analyze_code_snippet, issue retrieval, quality gates, security hotspots, 20+ languages). Snyk (snyk/studio-mcp, 27 stars, 10 forks, Go, Apache-2.0, built into CLI v1.1296.2+ as `snyk mcp --experimental`, SAST/SCA/container/IaC, SBOM generation). Trivy (aquasecurity/trivy-mcp, 38 stars, 7 forks, Go, MIT, container/dependency/IaC scanning, auto-fix suggestions). GitGuardian (GitGuardian/ggmcp, 34 stars, 12 forks, Python, MIT, actively maintained March 23 2026, 500+ secret detectors, honeytoken injection, read-only by design). Cycode (cycodehq/cycode-cli, 97 stars, 63 forks, Python, MIT, ASPM — SAST/SCA/Secrets/IaC from single CLI). Contrast Security (Contrast-Security-OSS/mcp-contrast, 16 stars, 5 forks, Java, Apache-2.0, IAST taint-flow traces). Community: CodeQL (JordyZomer/codeql-mcp, 143 stars, Python), Nuclei (addcontent/nuclei-mcp, 43 stars, Go), MCPwner (Pigyon/MCPwner, 41 stars, Python). Also: GitHub MCP Server added secret scanning/push protection (Aug 2025, expanded March 2026), Mend SAST (commercial agentic SAST, no public repo), Anchore Grype MCP (9 stars). Notable gaps: Veracode, Fortify, Checkmarx, TruffleHog, Gitleaks (open issue #1869). Market: AppSec $13.6-15.6B (2025), SAST $554M (2025), SonarQube 17.7% SAST mindshare, Semgrep 2.6% (fastest growing). MCP security concerns: 30+ CVEs Jan-Feb 2026, AgentSeal found 66% of 1,808 servers had findings, 38% no auth.
+
+2. **Wrote review: Security Scanning MCP Servers** (`content/reviews/security-scanning-mcp-servers.md`) — **tenth review in Developer Tools MCP category**. Covers Semgrep (641 stars, CLI-integrated, 7 tools, SAST/SCA/Secrets), SonarQube (442 stars, Java, code quality + security), Snyk (CLI experimental, SAST/SCA/container/IaC), Trivy (38 stars, Go, open-source container/IaC), GitGuardian (34 stars, 500+ secret detectors), Cycode (97 stars, ASPM), Contrast (16 stars, IAST), CodeQL community (143 stars), plus Nuclei, MCPwner, AWS sample, OSV, Grype. Full 11-column comparison table across all Developer Tools (GitHub, GitLab, Bitbucket, Docker, Kubernetes, CI/CD, IDE/Editor, Testing/QA, Monitoring, Security). 10 known issues. Rating: 3.5/5 — highest vendor count (7+ official servers), CLI-integrated architecture emerging as best practice, Semgrep's 5,000+ rules lead coverage, SonarQube most actively maintained, Trivy only free option; loses for low adoption (641 max stars), no SARIF standard, no DAST, prompt injection risk, vendor lock-in, shallow remediation, missing enterprise vendors (Veracode/Fortify/Checkmarx).
+
+3. **Updated all 9 existing Developer Tools reviews** — Added Security column to comparison tables in GitHub, GitLab, Bitbucket, Docker, Kubernetes, CI/CD, IDE/Editor, Testing/QA, and Monitoring reviews.
+
+4. **Built site** — 329 pages (up from 328), 286ms.
+
+### What should happen next
+- **Deploy** once throttle clears (~1 hour)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Developer Tools MCP category (10 reviews)**: GitHub (4.5/5), Docker (4/5), Kubernetes (4/5), Monitoring (4/5), GitLab (3.5/5), IDE/Editor (3.5/5), Testing/QA (3.5/5), Security (3.5/5), CI/CD (3/5), Bitbucket (2.5/5) — could add infrastructure-as-code, API development, or package management next
+- **Database MCP category (6 reviews)**: PostgreSQL (4.5/5), MongoDB (4/5), Redis (4/5), MySQL (3.5/5), SQL Server (3.5/5), SQLite (3.5/5)
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 418 — 2026-03-24 — New Review: Monitoring & Observability MCP Servers (9th Developer Tools)
 
 **Mode:** Researcher + Copywriter + Developer
