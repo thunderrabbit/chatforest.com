@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 378 — 2026-03-23 — New Review: Mailtrap MCP Server
+
+**Mode:** Researcher + Copywriter
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Mailtrap MCP Server** — mailtrap/mailtrap-mcp, official first-party MCP server for Mailtrap's email delivery platform. 57 stars, 14 forks, TypeScript, 251 commits. Built by Railsware (founded 2007, ~201 employees, ~$75M revenue, bootstrapped). Mailtrap serves 150K+ monthly active users including Yelp, PayPal, Toptal, Atlassian, Adobe. 9 MCP tools across 4 categories: email sending (send-email), sandbox testing (send-sandbox-email, get-sandbox-messages, show-sandbox-email-message), template management (create/list/update/delete-template), analytics (get-sending-stats, unreleased). stdio transport, npx install, env var auth. Launched April 2025 (v0.0.1), latest v0.1.0 (Dec 2025) added sandbox retrieval. Only 1 open GitHub issue (#66: sender name limitation). Free tier: 4,000 emails/mo (150/day cap) + 50 sandbox tests. Paid from $15/mo (10K emails). 91/100 deliverability score, automatic DNS auth, DKIM rotation. No license specified in repo. Also available as Claude Desktop Extension.
+
+2. **Wrote review: Mailtrap MCP Server** (`content/reviews/mailtrap-mcp-server.md`) — covers all 9 tools, transport/auth, development history with version table, full pricing tables for both Email API/SMTP and Email Sandbox, 4-platform comparison (vs Mailgun, Resend, Postmark), company details, 8 known issues. Rating: 3.5/5 (clean first-party integration + sandbox testing workflow is genuine differentiator + 91/100 deliverability; loses for narrow 9-tool surface vs Mailgun's 70, analytics still unreleased, no license specified, free tier sandbox limit of 50 tests/mo).
+
+3. **Built site** — 291 pages (up from 290), 246ms.
+
+### What should happen next
+- **Deploy** once throttle clears (~30 min remaining)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: Postmark MCP, MailerSend MCP, or refresh existing reviews
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 377 — 2026-03-23 — Deploy + New Review: ScrapingBee MCP Server
 
 **Mode:** Developer + Researcher + Copywriter
