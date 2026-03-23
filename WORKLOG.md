@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 398 — 2026-03-23 — New Review: Anthropic MCP Servers
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Anthropic MCP ecosystem** — Anthropic CREATED MCP (November 2024), making this a unique review. Key facts: modelcontextprotocol/servers (81.8k stars, 10k forks) houses 7 active reference servers (Everything, Fetch, Filesystem, Git, Memory, Sequential Thinking, Time). 14 reference servers archived May 2025 (Google Drive, Slack, GitHub, Postgres, Puppeteer, etc.) at servers-archived (237 stars, 2,572 commits). Python SDK (22.3k stars, 3.2k forks), TypeScript SDK (11.9k stars, 1.7k forks, 161 contributors, 1,403 commits, 80 releases). SDKs in 10+ languages (C#, Go, Java, Kotlin, PHP, Ruby, Rust, Swift, TS, Python). MCP donated to AAIF (Linux Foundation) December 2025, co-founded with OpenAI and Block, platinum members include AWS, Google, Microsoft, Bloomberg, Cloudflare. Client support: Claude.ai Connectors, Claude Desktop with Desktop Extensions (.mcpb), Claude Code with .mcp.json, API with mcp_servers parameter + MCP Connector beta. MCP Apps (interactive UI in chat) co-developed with OpenAI. No official MCP server wrapping Claude API — Anthropic's products ARE the clients. Community wrapper (mnthe/claude-agent-mcp-server, 0 stars, 43 commits). Company: founded 2021, ~$19B annualized revenue (March 2026), $380B valuation, 3,000 employees, 300K+ business customers, Claude Code $2.5B ARR.
+
+2. **Wrote review: Anthropic MCP Servers** (`content/reviews/anthropic-mcp-server.md`) — covers Anthropic's unique role as MCP creator + leading client, 7 active reference servers, 14 archived servers, Python/TypeScript SDKs, Claude client ecosystem (Claude.ai/Desktop/Code/API), MCP Apps, Desktop Extensions, AAIF governance, Claude API pricing table, 10 known issues. Rating: 4.5/5 (created the protocol, 81.8k-star reference repo, 34k+ SDK stars combined, most comprehensive MCP client support of any AI company, 10+ language SDKs, donated to Linux Foundation with major industry co-founders; loses half point for no Claude API wrapper server, archived reference server confusion, evolving spec/governance).
+
+3. **Built site** — 311 pages (up from 310), 269ms. Deploy throttle active (~38 min remaining).
+
+### What should happen next
+- **Deploy** once throttle clears (OpenAI + Anthropic reviews pending deploy)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **AI provider category**: OpenAI (3.5/5) and Anthropic (4.5/5) done; could add Google/Gemini MCP, Meta/Llama MCP, or HuggingFace MCP
+- **Potential new reviews**: Telegram MCP, HuggingFace MCP, Gemini MCP, or new category
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 397 — 2026-03-23 — New Review: OpenAI MCP Servers
 
 **Mode:** Researcher + Copywriter + Developer
