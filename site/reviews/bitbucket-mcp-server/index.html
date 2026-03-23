@@ -380,6 +380,7 @@
 <th>Testing/QA</th>
 <th>Monitoring</th>
 <th>Security</th>
+<th>IaC</th>
 </tr>
 </thead>
 <tbody>
@@ -395,6 +396,7 @@
 <td><a href="/reviews/testing-qa-mcp-servers/">Yes (MS Playwright, 9.8k stars, 24 tools)</a></td>
 <td><a href="/reviews/monitoring-observability-mcp-servers/">Yes (Grafana 2.5k, Datadog, Sentry, Dynatrace, New Relic, Instana)</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">Yes (Semgrep, SonarQube, Snyk, Trivy, GitGuardian, Cycode, Contrast)</a></td>
+<td>Yes (Terraform 1.3k, Pulumi remote, AWS IaC, OpenTofu 84)</td>
 </tr>
 <tr>
 <td><strong>Remote hosting</strong></td>
@@ -408,6 +410,7 @@
 <td><a href="/reviews/testing-qa-mcp-servers/">No (local browser required)</a></td>
 <td><a href="/reviews/monitoring-observability-mcp-servers/">Yes (Datadog, Sentry — OAuth)</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">No (all local/CLI-based)</a></td>
+<td><a href="/reviews/infrastructure-as-code-mcp-servers/">Yes (Pulumi remote MCP)</a></td>
 </tr>
 <tr>
 <td><strong>Top community server</strong></td>
@@ -421,6 +424,7 @@
 <td><a href="/reviews/testing-qa-mcp-servers/">executeautomation (5.3k stars)</a></td>
 <td><a href="/reviews/monitoring-observability-mcp-servers/">pab1it0/prometheus (340 stars)</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">CodeQL community (143 stars)</a></td>
+<td>Ansible (25 stars, 40+ tools)</td>
 </tr>
 <tr>
 <td><strong>Community tool count</strong></td>
@@ -434,6 +438,7 @@
 <td><a href="/reviews/testing-qa-mcp-servers/">24 (official) + API testing</a></td>
 <td><a href="/reviews/monitoring-observability-mcp-servers/">16+ (Datadog) to 100+ (Instana)</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">7 (Semgrep) to full platform (Snyk)</a></td>
+<td><a href="/reviews/infrastructure-as-code-mcp-servers/">20+ (Terraform), full platform (Pulumi)</a></td>
 </tr>
 <tr>
 <td><strong>Server/DC support</strong></td>
@@ -447,6 +452,7 @@
 <td>N/A</td>
 <td><a href="/reviews/monitoring-observability-mcp-servers/">Grafana, Prometheus (self-hosted)</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">Yes (all local/CLI-based)</a></td>
+<td><a href="/reviews/infrastructure-as-code-mcp-servers/">Yes (all local/CLI-based)</a></td>
 </tr>
 <tr>
 <td><strong>MCP infrastructure role</strong></td>
@@ -454,6 +460,7 @@
 <td>None</td>
 <td>None</td>
 <td><a href="/reviews/docker-mcp-servers/">Gateway + Catalog (300+)</a></td>
+<td>None</td>
 <td>None</td>
 <td>None</td>
 <td>None</td>
@@ -473,6 +480,7 @@
 <td><a href="/reviews/testing-qa-mcp-servers/">None (local browsers)</a></td>
 <td><a href="/reviews/monitoring-observability-mcp-servers/">API tokens / OAuth (remote)</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">API tokens / CLI auth</a></td>
+<td>API tokens / OAuth / CLI auth</td>
 </tr>
 <tr>
 <td><strong>AAIF membership</strong></td>
@@ -486,6 +494,7 @@
 <td><a href="/reviews/testing-qa-mcp-servers/">No (but Microsoft is Platinum)</a></td>
 <td><a href="/reviews/monitoring-observability-mcp-servers/">No</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">No</a></td>
+<td>No</td>
 </tr>
 <tr>
 <td><strong>Platform users</strong></td>
@@ -499,6 +508,7 @@
 <td><a href="/reviews/testing-qa-mcp-servers/">Playwright: 45.1% QA adoption</a></td>
 <td><a href="/reviews/monitoring-observability-mcp-servers/">Datadog: 32.7k customers</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">SonarQube: 17.7% SAST mindshare</a></td>
+<td>Terraform: millions of users, 45% IaC adoption</td>
 </tr>
 <tr>
 <td><strong>Our rating</strong></td>
@@ -512,6 +522,7 @@
 <td><a href="/reviews/testing-qa-mcp-servers/">3.5/5</a></td>
 <td><a href="/reviews/monitoring-observability-mcp-servers/">4/5</a></td>
 <td><a href="/reviews/security-scanning-mcp-servers/">3.5/5</a></td>
+<td><a href="/reviews/infrastructure-as-code-mcp-servers/">4/5</a></td>
 </tr>
 </tbody>
 </table>
@@ -582,6 +593,13 @@
   <h2 class="section-heading">More Reviews</h2>
   
     <div class="article-card">
+  <div class="card-meta"><span>Review</span> <span>2026-03-24 21:00:00</span></div>
+  <h3><a href="/reviews/infrastructure-as-code-mcp-servers/">Infrastructure as Code MCP Servers — Terraform, Pulumi, and the IaC Vendors Building AI-Native Infrastructure Workflows</a></h3>
+  <p>Infrastructure as Code MCP servers are where IaC vendors are building AI-native infrastructure workflows. HashiCorp&#39;s Terraform MCP server leads (1.3k stars, Go, Registry &#43; HCP Terraform integration, workspace management). Pulumi offers a remote MCP server with Neo delegation for automated infrastructure tasks. AWS bundles CloudFormation and CDK support into a unified IaC MCP server (part of the 8.5k-star awslabs/mcp monorepo). OpenTofu&#39;s official server (84 stars, TypeScript) mirrors Terraform&#39;s Registry-first approach. Spacelift Intent (121 stars, Go, Apache-2.0) takes the boldest approach — provisioning cloud resources from natural language without generating IaC code.</p>
+</div>
+
+  
+    <div class="article-card">
   <div class="card-meta"><span>Review</span> <span>2026-03-24 18:00:00</span></div>
   <h3><a href="/reviews/security-scanning-mcp-servers/">Security Scanning MCP Servers — From Semgrep to Snyk, AppSec Vendors Race to Instrument AI Coding Agents</a></h3>
   <p>Security scanning MCP servers are where application security vendors are placing their AI bets. Semgrep leads with its MCP built directly into the CLI (641 stars on the archived standalone repo, 7 tools covering SAST, SCA, and Secrets). SonarQube&#39;s official server (442 stars, Java) brings code quality analysis to AI agents. Snyk integrates MCP into its CLI as an experimental feature. Trivy (38 stars, Go) covers containers and IaC. GitGuardian (34 stars) focuses on secret scanning with 500&#43; detectors. Cycode (97 stars) and Contrast Security (16 stars) provide ASPM and IAST capabilities respectively.</p>
@@ -599,13 +617,6 @@
   <div class="card-meta"><span>Review</span> <span>2026-03-23 23:55:00</span></div>
   <h3><a href="/reviews/postmark-mcp-server/">Postmark MCP Server — Send Transactional Emails From Your AI Agent</a></h3>
   <p>Official first-party MCP server for Postmark&#39;s transactional email platform. Send emails, use templates, list templates, and check delivery stats. JavaScript, stdio transport, MIT license, free tier at 100 emails/mo.</p>
-</div>
-
-  
-    <div class="article-card">
-  <div class="card-meta"><span>Review</span> <span>2026-03-23 23:45:00</span></div>
-  <h3><a href="/reviews/gitlab-mcp-server/">GitLab MCP Servers — The Self-Hosted DevOps Platform&#39;s Growing AI Interface</a></h3>
-  <p>GitLab&#39;s built-in MCP server connects AI agents to issues, merge requests, pipelines, and code search — but requires Premium or Ultimate. The community leader zereight/gitlab-mcp (1.2k stars, 100&#43; tools) covers far more ground. Multiple enterprise-grade alternatives round out a growing ecosystem.</p>
 </div>
 
   

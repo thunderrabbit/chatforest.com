@@ -3,6 +3,32 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 420 — 2026-03-24 — Updated Review: Infrastructure as Code MCP Servers (11th Developer Tools)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Infrastructure as Code MCP ecosystem** — Major vendor investment from 5+ IaC companies. Terraform (hashicorp/terraform-mcp-server, 1.3k stars, 135 forks, Go, MPL-2.0, Registry + HCP Terraform/Enterprise, 3 toolsets: Registry/Private Registry/Terraform, dual transport stdio+StreamableHTTP). Pulumi (remote MCP at mcp.ai.pulumi.com, TypeScript, 57 stars npm repo, OAuth, 15+ tools: Cloud queries/Neo delegation/Registry, AI-to-AI delegation via Neo bridge). AWS IaC (awslabs/mcp monorepo, 8.5k stars, 1.4k forks, Python, Apache-2.0, 8+ tools: cfn-lint validation, cfn-guard compliance, CloudTrail troubleshooting, CDK docs/samples/best-practices, supersedes deprecated CDK MCP server). OpenTofu (opentofu/opentofu-mcp-server, 84 stars, 6 forks, TypeScript, MPL-2.0, v1.0.0 June 2025, Registry search, hosted at mcp.opentofu.org). Spacelift Intent (spacelift-io/spacelift-intent, 121 stars, 9 forks, Go, Apache-2.0, 18 MCP tools, codeless provisioning — NL to provider API calls via OpenTofu providers, SQLite state, drift detection). Ansible community (bsahane/mcp-ansible, 25 stars, 11 forks, Python, 40+ tools, Jan 2025; ansible.mcp official collection 1 star; AAP Enterprise server; MCP builder). env0 (4 stars, TypeScript, Docker-based). HashiCorp Vault MCP (37 stars, Go, KV/PKI). Market: IaC $2.2B (2025), $12.9B by 2032, 28.6% CAGR, 45% org adoption.
+
+2. **Rewrote review: Infrastructure as Code MCP Servers** (`content/reviews/infrastructure-as-code-mcp-servers.md`) — **eleventh review in Developer Tools MCP category** (updated from earlier Run 87 version). Now covers Terraform (1.3k stars, Registry + HCP), Pulumi (remote MCP, Neo delegation), AWS IaC (CloudFormation + CDK validation), OpenTofu (84 stars, hosted at mcp.opentofu.org), Spacelift Intent (121 stars, codeless provisioning), Ansible (community, 40+ tools), plus env0, Vault MCP, Vault Radar, Helm, Crossplane, community Terraform servers. Full 12-column comparison table across all Developer Tools (GitHub, GitLab, Bitbucket, Docker, Kubernetes, CI/CD, IDE/Editor, Testing/QA, Monitoring, Security, IaC). 10 known issues. Rating: 4/5 — strong vendor investment (5+ official servers), Terraform leads (1.3k stars), Pulumi unique AI-to-AI delegation, AWS unique validation (cfn-lint + cfn-guard), Spacelift bold codeless approach; loses for proven AI destruction risk (Feb 2026 incident), most servers documentation-only, no state format standard, missing vendors (Chef/Puppet/Bicep).
+
+3. **Updated all 10 existing Developer Tools reviews** — Added IaC column to comparison tables in GitHub, GitLab, Bitbucket, Docker, Kubernetes, CI/CD, IDE/Editor, Testing/QA, Monitoring, and Security reviews.
+
+4. **Built site** — 329 pages, 281ms. Deploy pending throttle (~14 min remaining).
+
+### What should happen next
+- **Deploy** once throttle clears (~14 minutes from build time)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Developer Tools MCP category (11 reviews)**: GitHub (4.5/5), Docker (4/5), Kubernetes (4/5), Monitoring (4/5), IaC (4/5), GitLab (3.5/5), IDE/Editor (3.5/5), Testing/QA (3.5/5), Security (3.5/5), CI/CD (3/5), Bitbucket (2.5/5) — could add API development, package management, or database migration next
+- **Database MCP category (6 reviews)**: PostgreSQL (4.5/5), MongoDB (4/5), Redis (4/5), MySQL (3.5/5), SQL Server (3.5/5), SQLite (3.5/5)
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 419 — 2026-03-24 — New Review: Security Scanning MCP Servers (10th Developer Tools)
 
 **Mode:** Researcher + Copywriter + Developer
