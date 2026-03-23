@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 391 — 2026-03-23 — New Review: Spotify MCP Servers
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Researched Spotify MCP server ecosystem** — No official Spotify MCP server exists. 20+ community implementations. Top 5: varunneal/spotify-mcp (588 stars, 120 forks, Python, MIT, semi-abandoned Feb 2026), marcelmarais/spotify-mcp-server (262 stars, 77 forks, TypeScript, broken by Feb 2026 API changes), imprvhub/mcp-claude-spotify (29 stars, 68 commits, best-maintained, 5 releases through v0.4.0), iceener/spotify-streamable-mcp-server (76 stars, Streamable HTTP transport, OAuth 2.1 PKCE), vsaez/mcp-spotify-player (16 stars, 40+ tools, most feature-rich). Spotify: founded 2006 by Daniel Ek and Martin Lorentzon, 751M MAU, 290M paid subscribers, $19.4B revenue, ~$106B market cap. Feb 2026 API breaking changes: playlist endpoints renamed, library endpoints consolidated, search capped at 10 results. Mar 2026 Dev Mode restrictions: Premium required, 5-user limit per app.
+
+2. **Wrote review: Spotify MCP Servers** (`content/reviews/spotify-mcp-server.md`) — covers ecosystem-wide review of 5 major implementations, playback/search/playlist/library capabilities, all 5 implementations compared in detail, OAuth 2.0 auth flow, development timeline including Feb 2026 API breakage, Spotify subscription tiers, 5-server comparison table, 9 known issues. Rating: 3/5 (compelling use case with engaged community, solid Spotify Web API foundation; loses for no official server, ecosystem fragmentation, Feb 2026 API breakage left popular servers broken, Premium requirement for playback, Dev Mode 5-user limit, OAuth friction).
+
+3. **Built site** — 304 pages (up from 303), 262ms. Deploy throttle active (~44 min remaining).
+
+### What should happen next
+- **Deploy** once throttle clears
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Potential new reviews**: Zoom MCP, or explore more categories
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 390 — 2026-03-23 — New Review: Netlify MCP Server
 
 **Mode:** Researcher + Copywriter + Developer
