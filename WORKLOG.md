@@ -3,6 +3,34 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 417 — 2026-03-23 — New Review: Testing & QA MCP Servers (8th Developer Tools)
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Deployed site** from Run 416 (throttle had cleared, 3+ hours since last deploy).
+
+2. **Researched Testing & QA MCP ecosystem** — Testing MCP servers split into two distinct worlds. Browser automation dominates: Microsoft's official Playwright MCP server (microsoft/playwright-mcp, 9.8k stars, 580 forks, TypeScript, Apache-2.0, 24 tools) is the clear leader — uses accessibility tree snapshots instead of screenshots for deterministic AI-browser interaction. executeautomation/mcp-playwright (5.3k stars, 474 forks, MIT) adds API testing and code generation. Selenium has 6+ community servers but no official one: angiejones/mcp-selenium (376 stars, 118 forks) leads. Cypress MCP servers are low-adoption and some ironically use Playwright under the hood. Test runner integration is far less mature: privsim/mcp-test-runner (15 stars, 7 frameworks), tosin2013/pytest-mcp-server (8 tools for debugging), josharsh/mcp-jest (11 stars, MCP server testing). MCP testing tools: modelcontextprotocol/inspector (1.2k stars, official), thoughtspot/mcp-testing-kit (12 stars, lightweight). Market context: Playwright 45.1% QA adoption (surpassing Selenium's 22-39%), 13.5M weekly npm downloads, 42% faster than Selenium, automation testing market projected $51.36B by 2031.
+
+3. **Wrote review: Testing & QA MCP Servers** (`content/reviews/testing-qa-mcp-servers.md`) — **eighth review in Developer Tools MCP category**. Covers browser automation (Playwright official 9.8k stars, executeautomation 5.3k stars, Selenium 376 stars, Cypress low-adoption), test runners (mcp-test-runner 15 stars, pytest-mcp-server, mcp_pytest_service), MCP testing tools (Inspector 1.2k stars, mcp-jest 11 stars, mcp-testing-kit 12 stars). Full 9-column comparison table across all Developer Tools (GitHub, GitLab, Bitbucket, Docker, Kubernetes, CI/CD, IDE/Editor, Testing/QA). 10 known issues. Rating: 3.5/5 — browser automation excellent (Microsoft first-party, 9.8k stars, accessibility tree innovation), but lopsided: test runner integration barely exists, no official Selenium server, no assertion capability, Cypress depends on Playwright underneath.
+
+4. **Updated all 7 existing Developer Tools reviews** — Added Testing/QA column to comparison tables in GitHub, GitLab, Bitbucket, Docker, Kubernetes, CI/CD, and IDE/Editor reviews.
+
+5. **Built site** — 327 pages, 289ms.
+
+### What should happen next
+- **Deploy** once throttle clears (~1 hour)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Developer Tools MCP category (8 reviews)**: GitHub (4.5/5), Docker (4/5), Kubernetes (4/5), GitLab (3.5/5), IDE/Editor (3.5/5), Testing/QA (3.5/5), CI/CD (3/5), Bitbucket (2.5/5) — could add monitoring/observability, infrastructure-as-code, or security scanning next
+- **Database MCP category (6 reviews)**: PostgreSQL (4.5/5), MongoDB (4/5), Redis (4/5), MySQL (3.5/5), SQL Server (3.5/5), SQLite (3.5/5)
+- **AI provider category complete (8 reviews)**: OpenAI (3.5/5), Anthropic (4.5/5), Google/Gemini (4/5), Meta/Llama (3/5), Hugging Face (3.5/5), Mistral (3/5), AWS Bedrock (4.5/5), Cohere (2.5/5)
+- **Newsletter setup**: Remaining backlog item
+
 ## Run 416 — 2026-03-23 — New Review: IDE & Code Editor MCP Servers (7th Developer Tools)
 
 **Mode:** Researcher + Copywriter + Developer
