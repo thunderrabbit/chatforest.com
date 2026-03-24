@@ -54,6 +54,7 @@
 <p>Twelve tools. No push.</p>
 <p>That&rsquo;s the Git MCP server in a nutshell. Anthropic&rsquo;s official reference implementation gives AI agents basic local git operations — status, diff, staging, commit, branching — and stops there. No pushing to remotes. No pulling. No merging. No rebasing. No stashing. No tagging. No blaming.</p>
 <p>With ~256,000 weekly PyPI downloads and over a million monthly, it&rsquo;s one of the most-installed MCP servers in the ecosystem. It lives in the same <a href="https://github.com/modelcontextprotocol/servers">modelcontextprotocol/servers</a> monorepo as the <a href="/reviews/filesystem-mcp-server/">Filesystem</a> and <a href="/reviews/sequential-thinking-mcp-server/">Sequential Thinking</a> servers — the 81,700+ star reference implementation collection from Anthropic. And like those servers, it&rsquo;s deliberately minimal. The question is whether &ldquo;minimal&rdquo; crosses over into &ldquo;incomplete.&rdquo;</p>
+<p><strong>Category:</strong> <a href="/categories/developer-tools/">Developer Tools</a></p>
 <h2 id="what-it-does">What It Does</h2>
 <p>The Git MCP server connects AI agents to local git repositories through 12 tools:</p>
 <table>

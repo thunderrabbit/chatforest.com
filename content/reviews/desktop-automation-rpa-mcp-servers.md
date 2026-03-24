@@ -238,4 +238,6 @@ Deductions: no Linux desktop MCP server despite mature automation tooling (xdoto
 
 *This review reflects research conducted in March 2026. Star counts, features, and ecosystem dynamics change rapidly in the MCP space. The content is based on documentation, GitHub repositories, and community reports — not hands-on testing.*
 
+**Category**: [Business & Productivity](/categories/business-productivity/)
+
 *This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

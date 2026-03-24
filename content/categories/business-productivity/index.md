@@ -1,12 +1,12 @@
 ---
-title: "Business & Productivity MCP Servers — 10 Reviews Covering CRM, ERP, HR, Marketing, Office Suites, Knowledge Management, Scheduling, and Workflow Automation"
+title: "Business & Productivity MCP Servers — 19 Reviews Covering CRM, ERP, HR, Marketing, Office Suites, Knowledge Management, Scheduling, Workflow Automation, and Desktop RPA"
 date: 2026-03-24T23:45:00+09:00
-description: "Comprehensive reviews of 10 Business & Productivity MCP server categories — from CRM and customer support to ERP, HR, marketing automation, office suites, knowledge management, calendar scheduling, and workflow orchestration. 300+ servers evaluated across the business tool ecosystem."
-og_description: "10 Business & Productivity MCP server reviews covering CRM, customer support, ERP, HR, marketing, office suites, spreadsheets, note-taking, calendar scheduling, and workflow automation. 300+ servers evaluated."
+description: "Comprehensive reviews of 19 Business & Productivity MCP server categories and individual servers — from CRM and customer support to ERP, HR, marketing automation, office suites, knowledge management, calendar scheduling, workflow orchestration, and desktop automation. 300+ servers evaluated across the business tool ecosystem."
+og_description: "19 Business & Productivity MCP server reviews covering CRM, customer support, ERP, HR, marketing, office suites, spreadsheets, note-taking, calendar scheduling, workflow automation, and desktop RPA. 300+ servers evaluated."
 content_type: "Category"
 ---
 
-We've reviewed **10 categories** of Business & Productivity MCP servers, evaluating over **300 individual servers** across CRM, customer support, ERP, HR, marketing automation, office suites, knowledge management, scheduling, and workflow orchestration. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
+We've reviewed **19 categories and individual servers** in the Business & Productivity space, evaluating over **300 individual servers** across CRM, customer support, ERP, HR, marketing automation, office suites, knowledge management, scheduling, workflow orchestration, and desktop automation. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
 
 Business & Productivity is the broadest MCP category — spanning every stage from lead generation to customer support, and every tool from spreadsheets to enterprise resource planning. The pattern is clear: vendors are racing to ship official MCP servers. Salesforce, Zapier, Make, Notion, Xero, and Kestra all have official integrations. Community servers fill the gaps where vendors haven't moved yet, particularly for platforms like Obsidian and Airtable.
 
@@ -49,3 +49,40 @@ The automation layer connects everything above. n8n-MCP (15,100 stars) is the ru
 | Review | Rating | Key Servers |
 |--------|--------|-------------|
 | [Workflow Automation & Orchestration](/reviews/workflow-automation-mcp-servers/) | 4/5 | n8n-MCP (15,100 stars, 1,239 nodes), Zapier official (8,000+ apps), Make official, Airflow (147 stars, 70+ tools), Prefect official, Kestra official — 20+ servers |
+
+## Individual Workflow & Integration Server Reviews
+
+Deep-dives on the most significant workflow automation and integration platforms. n8n stands out with its bidirectional MCP approach — exposing workflows as tools and consuming external MCP servers. Pipedream offers the largest tool catalog at 10,000+. Composio takes a different approach with dynamic tool discovery to prevent context overload.
+
+| Review | Rating | Key Stats |
+|--------|--------|-----------|
+| [n8n](/reviews/n8n-mcp-server/) | 4/5 | 181K stars, bidirectional MCP hub, 400+ integrations, unlimited self-hosted, fair-code license |
+| [Pipedream](/reviews/pipedream-mcp-server/) | 3.5/5 | 11.2K stars, 10,000+ tools across 2,800+ APIs, managed OAuth, per-app server architecture |
+| [Composio](/reviews/composio-mcp-server/) | 3.5/5 | 27.5K stars, 500+ apps via single endpoint, dynamic tool discovery (Rube), $29M funded |
+| [Zapier](/reviews/zapier-mcp-server/) | 3/5 | 8,000+ apps, 30,000+ actions, official remote server, task-based pricing |
+
+## Individual CRM & Sales Server Reviews
+
+HubSpot's official MCP server is in public beta with a proper OAuth 2.0 security model — one of the first major CRM platforms to ship an official MCP integration alongside its community ecosystem.
+
+| Review | Rating | Key Stats |
+|--------|--------|-----------|
+| [HubSpot](/reviews/hubspot-mcp-server/) | 4/5 | Official public beta, 9 tools at launch, OAuth 2.0, remote + local developer servers, community server at ~72 stars |
+
+## Individual Productivity & Task Management Server Reviews
+
+Deep-dives on tools that connect AI agents to personal productivity systems. Todoist leads with 37+ tools and official backing from Doist. Obsidian has the richest community ecosystem with 8 independent servers. Airtable is the most capable community-built server in this space.
+
+| Review | Rating | Key Stats |
+|--------|--------|-----------|
+| [Todoist](/reviews/todoist-mcp-server/) | 4/5 | 393 stars, official Doist server, 37+ tools, OAuth, MCP Apps widgets, 3 transports |
+| [Airtable](/reviews/airtable-mcp-server/) | 4/5 | 429 stars, community-built, 15 tools, full CRUD + schema management, MIT license |
+| [Obsidian](/reviews/obsidian-mcp-servers/) | 3.5/5 | 8 community servers, 3 architectures (REST plugin, filesystem, native), mcp-obsidian 3K stars |
+
+## Individual Desktop Automation & RPA Reviews
+
+Desktop automation fundamentally expands what AI agents can do beyond API calls. Microsoft's Playwright MCP (28,900 stars) set a new standard with accessibility-tree-driven browser interaction. Windows-MCP and macOS Automator cover native desktop control.
+
+| Review | Rating | Key Stats |
+|--------|--------|-----------|
+| [Desktop Automation & RPA](/reviews/desktop-automation-rpa-mcp-servers/) | 4/5 | 30+ servers, Playwright (28.9K stars), Windows-MCP (4.7K stars), BrowserMCP (6.1K stars), macOS 200+ AppleScript recipes |

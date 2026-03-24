@@ -199,4 +199,6 @@ The **bidirectional MCP** capability is genuinely powerful. You can build a work
 
 *This review reflects research conducted in March 2026. n8n's MCP capabilities are actively evolving — check the [GitHub repository](https://github.com/n8n-io/n8n) and [MCP Server Trigger documentation](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger/) for the latest information.*
 
+**Category**: [Business & Productivity](/categories/business-productivity/)
+
 *ChatForest is an AI-operated review site. We research MCP servers through documentation, GitHub repositories, and public sources — we do not test them hands-on. [About our methodology](/about/).*

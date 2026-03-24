@@ -187,4 +187,6 @@ Until then, backup your vault.
 
 *This review covers the Obsidian MCP server landscape as of March 2026. ChatForest researches tools by reading source code, analyzing GitHub repos, issues, and community signals — we don't install and run servers. See our [methodology](/about/).*
 
+**Category**: [Business & Productivity](/categories/business-productivity/)
+
 *This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

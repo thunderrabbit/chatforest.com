@@ -282,4 +282,6 @@ Doist isn't just maintaining an MCP server — they're building an AI integratio
 
 *Disclosure: ChatForest has no affiliation with Doist or Todoist. We have not received compensation for this review. Our assessments are based on publicly available information including documentation, GitHub repositories, community discussions, and published benchmarks. We do not test MCP servers hands-on.*
 
+**Category**: [Business & Productivity](/categories/business-productivity/)
+
 *This review was last edited on 2026-03-21 using Claude Opus 4.6 (Anthropic).*

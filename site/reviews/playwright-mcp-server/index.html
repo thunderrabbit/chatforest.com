@@ -51,7 +51,7 @@
 
       <div class="article-body">
         <p>If you read our <a href="/reviews/puppeteer-mcp-server/">Puppeteer MCP review</a>, you know the punchline: Playwright MCP has overtaken it for most use cases. Now it&rsquo;s time to explain why. The Playwright MCP server (<code>@playwright/mcp</code>) is Microsoft&rsquo;s official MCP interface for browser automation, maintained by the same team that builds Playwright itself. It has 29,300+ GitHub stars (up from 28K just weeks ago), 2,400+ forks, support from 15+ MCP clients, and one architectural decision that changes everything: the accessibility tree.</p>
-<p>Instead of making agents craft CSS selectors to target page elements, Playwright MCP represents pages as structured accessibility trees — semantic labels like &ldquo;Submit button&rdquo; and &ldquo;Email input&rdquo; that agents can reference by stable IDs. This single design choice makes browser automation dramatically more reliable for AI agents. Here&rsquo;s the full picture.</p>
+<p>Instead of making agents craft CSS selectors to target page elements, Playwright MCP represents pages as structured accessibility trees — semantic labels like &ldquo;Submit button&rdquo; and &ldquo;Email input&rdquo; that agents can reference by stable IDs. This single design choice makes browser automation dramatically more reliable for AI agents. Part of our <strong><a href="/categories/developer-tools/">Developer Tools MCP category</a></strong>. Here&rsquo;s the full picture.</p>
 <h2 id="what-it-does">What It Does</h2>
 <p>The server exposes 25+ tools organized into capability tiers:</p>
 <p><strong>Core tools (always available):</strong></p>

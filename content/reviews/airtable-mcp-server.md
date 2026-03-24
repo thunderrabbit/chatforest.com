@@ -189,3 +189,5 @@ The uncomfortable reality is that Airtable — a company positioning itself as A
 For practical use: if you're on the Team tier or above and want AI agents to manage your Airtable data, this server delivers. The 15-tool surface covers CRUD, schema management, and collaboration. If you're on the Free tier, the 1,000 API calls/month limit makes MCP usage impractical. And if you need automation workflows, webhooks, or advanced Airtable features beyond data operations, you'll need to supplement with the Airtable REST API directly.
 
 **Rating: 4 / 5** — The most complete and actively maintained Airtable MCP server available. Full CRUD with schema management, comments, and attachments. MIT license, multiple installation methods (npx, Homebrew, Docker, DXT), dual transport support. Loses points for lacking official Airtable backing (unlike Notion and Monday.com), no field filtering on record retrieval causing context waste, Free tier API limits that make casual use impractical, and no support for Airtable's automation and workflow features.
+
+**Category**: [Business & Productivity](/categories/business-productivity/)

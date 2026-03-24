@@ -1,8 +1,8 @@
 ---
-title: "Finance & Fintech MCP Servers — 9 Reviews Covering Payments, E-Commerce, Cryptocurrency, Personal Finance, Accounting, Tax, and Blockchain"
+title: "Finance & Fintech MCP Servers — 10 Reviews Covering Payments, E-Commerce, Cryptocurrency, Personal Finance, Accounting, Tax, and Blockchain"
 date: 2026-03-24T23:30:00+09:00
-description: "Comprehensive reviews of 9 Finance & Fintech MCP server categories — from Stripe and PayPal to cryptocurrency exchanges, personal finance tools, accounting platforms, and tax compliance. 300+ servers evaluated across the financial tool ecosystem."
-og_description: "9 Finance & Fintech MCP server reviews covering payments, e-commerce, cryptocurrency, DeFi, personal finance, accounting, tax, and blockchain. 300+ servers evaluated."
+description: "Comprehensive reviews of 10 Finance & Fintech MCP server categories and individual servers — from Stripe and PayPal to Shopify's e-commerce ecosystem, cryptocurrency exchanges, personal finance tools, accounting platforms, and tax compliance. 300+ servers evaluated across the financial tool ecosystem."
+og_description: "10 Finance & Fintech MCP server reviews covering payments, e-commerce, Shopify, cryptocurrency, DeFi, personal finance, accounting, tax, and blockchain. 300+ servers evaluated."
 content_type: "Category"
 ---
 
@@ -48,3 +48,11 @@ Enterprise financial operations are well-served. Xero and QuickBooks both ship o
 |--------|--------|-------------|
 | [Accounting & Bookkeeping](/reviews/accounting-bookkeeping-mcp-servers/) | 4/5 | Xero (207 stars, 50+ tools, official), QuickBooks (108 stars, official), Zoho Books (37 stars, 20+ tools), Beancount, Ledger CLI, Wave — 15+ servers |
 | [Tax & Payroll](/reviews/tax-payroll-mcp-servers/) | 3.5/5 | IRS Taxpayer (39 tools, TY2024+2025), Avalara (5 production servers), TaxBandits (W-9/1099), India GST (282 tools), Japanese tax law (1,950 rulings), Rippling HR/payroll, Merge (70+ platforms) — 15+ servers |
+
+## Individual E-Commerce Platform Reviews
+
+Shopify's MCP strategy is the most ambitious in e-commerce — with an official Dev server, Storefront server, and Agentic Storefronts initiative. The landscape review covers the full ecosystem including community Admin API servers filling the official gap.
+
+| Review | Rating | Key Stats |
+|--------|--------|-----------|
+| [Shopify MCP Servers](/reviews/shopify-mcp-servers/) | 3.5/5 | Dev MCP (488 stars, official, 8 tools), Storefront MCP (official, zero-auth), 10+ community Admin API servers, Agentic Storefronts initiative |

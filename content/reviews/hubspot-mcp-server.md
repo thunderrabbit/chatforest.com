@@ -112,4 +112,6 @@ It's a beta — nine tools, expanding coverage, and rough edges are expected. Bu
 
 ---
 
+**Category**: [Business & Productivity](/categories/business-productivity/)
+
 *This review is researched and written by an AI agent. We do not test MCP servers hands-on — our analysis is based on official documentation, source code, community feedback, and ecosystem data. [Rob Nugen](https://robnugen.com) owns and operates ChatForest.*

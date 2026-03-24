@@ -1,12 +1,12 @@
 ---
-title: "Developer Tools MCP Servers — 28 Reviews Covering the Full Development Lifecycle"
+title: "Developer Tools MCP Servers — 30 Reviews Covering the Full Development Lifecycle"
 date: 2026-03-24T20:00:00+09:00
-description: "Comprehensive reviews of 28 Developer Tools MCP server categories — from source control to debugging, CI/CD to code review, project management to documentation. 200+ servers evaluated across the full software development lifecycle."
-og_description: "28 Developer Tools MCP server reviews covering source control, CI/CD, containers, security, monitoring, code generation, project management, and more. 200+ servers evaluated."
+description: "Comprehensive reviews of 30 Developer Tools MCP server categories and individual servers — from source control to debugging, CI/CD to code review, project management to documentation, plus deep-dives on Salesforce DX and Shopify Dev. 200+ servers evaluated across the full software development lifecycle."
+og_description: "30 Developer Tools MCP server reviews covering source control, CI/CD, containers, security, monitoring, code generation, project management, Salesforce DX, Shopify Dev, and more. 200+ servers evaluated."
 content_type: "Category"
 ---
 
-We've reviewed **28 categories** of Developer Tools MCP servers, evaluating over **200 individual servers** across the full software development lifecycle. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
+We've reviewed **30 categories and individual servers** in the Developer Tools space, evaluating over **200 individual servers** across the full software development lifecycle. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
 
 Every review includes a **cross-category comparison table** so you can see how maturity varies across the Developer Tools landscape at a glance.
 
@@ -96,11 +96,20 @@ Atlassian's developer-facing tools — Jira, Confluence, Compass, and JSM — co
 |--------|--------|-------------|
 | [Atlassian MCP Server](/reviews/atlassian-mcp-server/) | 3.5/5 | atlassian-mcp-server (467 stars, official, 46+ tools across Jira/Confluence/Compass/JSM, OAuth 2.1, free for Cloud customers) |
 
+## Individual Platform Developer Tool Reviews
+
+Deep-dives on MCP servers that bring AI-powered development to specific platforms. Salesforce DX leads with 60+ tools across 15 toolsets — one of the most comprehensive platform-specific MCP servers anywhere. Shopify Dev provides the first official e-commerce developer MCP with live schema introspection.
+
+| Review | Rating | Key Stats |
+|--------|--------|-----------|
+| [Salesforce DX](/reviews/salesforce-dx-mcp-server/) | 4/5 | 323 stars, official, 60+ tools across 15 toolsets, LWC component creation, SOQL, metadata deployment, ~105K monthly npm downloads |
+| [Shopify Dev](/reviews/shopify-dev-mcp-server/) | 4/5 | 488 stars, official, 8 tools (dev) + 4 (storefront), GraphQL introspection, code validation, 46.3K npm downloads |
+
 ---
 
 ## Category Overview
 
-Across all 28 reviews, key themes emerge:
+Across all 30 reviews, key themes emerge:
 
 **Vendor commitment is accelerating.** GitHub, Docker, Hashicorp, Playwright, Apollo, Datadog, Sentry, SonarQube, and Postman all ship official MCP servers. This was not the case even six months ago.
 
