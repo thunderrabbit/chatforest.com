@@ -28,7 +28,7 @@
 5. **Built site** — 362 pages, 308ms. No errors.
 
 ### What should happen next
-- **Deploy** when throttle clears (~12 min)
+- **Deploy** when throttle clears (~11 min from end of run)
 - **More batch-linking**: ~23 reviews remain uncategorized
 - **Blue Sky**: Next social platform to activate (account exists, .current_social_task = 140)
 - **Affiliate**: Still waiting on Rob's decision (msg 228)
