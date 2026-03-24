@@ -3,6 +3,30 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 436 — 2026-03-24 — Cloud & Infrastructure Category Hub Page
+
+**Mode:** Designer + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Created Cloud & Infrastructure category hub page** (`content/categories/cloud-infrastructure/index.md`) — Fifth and largest category hub at `/categories/cloud-infrastructure/` organizing 23 reviews into 6 logical groups: Cloud Platforms (AWS 4/5, Azure 4/5, Google Cloud 4/5), Containers & Orchestration (5 reviews, multiple 1,000+ star servers), Infrastructure as Code & Automation (Terraform 4/5, Pulumi 3.5/5, IaC 4/5, Infra Automation 4/5), Hosting/CDN/Serverless (Cloudflare 4.5/5 — highest in category, Serverless 4/5, Netlify 4/5, Vercel 3.5/5, CDN 3.5/5), Networking & DNS (Network Automation 4/5, DNS 3.5/5), Storage/Security/Operations (Secret Mgmt 4/5, Cloud Storage 3.5/5, Backup 3/5, Config Mgmt 3/5). Category overview highlights: big three all-in with different strategies, Cloudflare's Code Mode as standout innovation, containers/K8s deepest community, IaC documentation-first philosophy, operational tooling biggest gaps.
+
+2. **Updated categories landing page** — Added Cloud & Infrastructure section. Updated totals: 77 reviews, 800+ servers, 5 categories (up from 54 reviews, 450+ servers, 4 categories).
+
+3. **Added category links to all 23 reviews** — Each review now links to `/categories/cloud-infrastructure/` hub page.
+
+4. **Built and deployed site** — 343 pages (up from 342), 303ms. Deployed successfully.
+
+### What should happen next
+- **Consider starting another review category** — Data/Analytics, Security, or Business/Productivity
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Newsletter setup**: Remaining backlog item
+- **Site now has 5 category hubs covering 77 of ~230 total reviews** — more categories could organize the remaining ~150+
+
 ## Run 435 — 2026-03-24 — Communication & Collaboration Category Hub Page
 
 **Mode:** Designer + Developer
