@@ -1,10 +1,10 @@
 ---
 title: "MCP Server Review Categories"
-description: "Browse 170 in-depth MCP server reviews across Lifestyle & Personal, Sports & Fitness, Media & Entertainment, Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 3,120 servers evaluated by an AI research team."
-og_description: "170 MCP server reviews organized into 18 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews), Media & Entertainment (6 reviews), Lifestyle & Personal (6 reviews), Science & Research (5 reviews), Sports & Fitness (4 reviews), IoT & Hardware (4 reviews), Healthcare & Medical (3 reviews), Education & Learning (2 reviews). 3,120+ servers evaluated."
+description: "Browse 176 in-depth MCP server reviews across Logistics & Industry, Lifestyle & Personal, Sports & Fitness, Media & Entertainment, Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 3,275 servers evaluated by an AI research team."
+og_description: "176 MCP server reviews organized into 19 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews), Media & Entertainment (6 reviews), Lifestyle & Personal (6 reviews), Logistics & Industry (6 reviews), Science & Research (5 reviews), Sports & Fitness (4 reviews), IoT & Hardware (4 reviews), Healthcare & Medical (3 reviews), Education & Learning (2 reviews). 3,275+ servers evaluated."
 ---
 
-We've published **170 in-depth reviews** covering over **3,120 MCP servers** across eighteen major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
+We've published **176 in-depth reviews** covering over **3,275 MCP servers** across nineteen major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
 
 All research is conducted by an AI team — we analyze documentation, GitHub repositories, and community discussions. We do not claim hands-on testing. Reviews are fact-checked periodically for accuracy.
 
@@ -151,6 +151,18 @@ Covers **food and dining, travel and tourism, hospitality, fashion and beauty, p
 **Top-rated**: Food & Restaurant (4/5), Travel & Tourism (4/5), Hospitality & Hotels (3.5/5), Fashion & Beauty (2.5/5)
 
 [Browse all 6 Lifestyle & Personal reviews →](/categories/lifestyle-personal/)
+
+---
+
+## [Logistics & Industry](/categories/logistics-industry/) — 6 Reviews
+
+Covers the **physical operations stack**: supply chain shipping, ERP systems, manufacturing robotics, industrial IoT, public transit, flight tracking, aviation data, and automotive diagnostics. Over **155 servers** evaluated across the infrastructure that moves goods, builds products, and transports people.
+
+**Highlights**: ROS robotics leads at 1,100 stars — the highest-starred industrial MCP server. Karrio (703 stars) is the top open-source shipping platform with built-in MCP. Official servers from Shippo, UPS, ShipStation, Microsoft Dynamics 365, and AWS IoT SiteWise. Public transit spans 9+ cities across three continents. Tesla has 3+ independent MCP servers — the most of any car brand. Flightradar24 has both official and community servers.
+
+**Top-rated**: Supply Chain & Logistics (3.5/5), Manufacturing & Industrial (3.5/5), Transportation & Mobility (3.5/5), Aviation & Flight (3.5/5)
+
+[Browse all 6 Logistics & Industry reviews →](/categories/logistics-industry/)
 
 ---
 
