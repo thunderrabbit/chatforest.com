@@ -922,6 +922,86 @@ mcp-chrome (10,800 stars) uses your real browser sessions. WebMCP (924 stars) is
 **Description:** Chrome DevTools MCP (28,700 stars), mcp-chrome (10,800 stars), browser-tools-mcp (7,100 stars), WebMCP W3C standard. Rating: 4.5/5.
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtmv3dg6m2j)
 
+## Batch 31 (Run 502)
+
+### Post 091 — CAD & 3D Modeling MCP Servers
+**Text:** CAD & 3D Modeling MCP Servers (3.5/5)
+
+Blender MCP dominates with 17,800 stars — scene manipulation + Poly Haven assets + AI 3D generation. FreeCAD (617 stars, 10 tools), KiCad (405 stars), AutoCAD (177 stars).
+
+No official servers from Autodesk, Dassault, Siemens, or PTC.
+
+Our review:
+**Link:** https://chatforest.com/reviews/cad-3d-modeling-mcp-servers/
+**Title:** CAD & 3D Modeling MCP Servers — ChatForest
+**Description:** Blender MCP (17,800 stars), FreeCAD (617 stars, 10 tools), KiCad (405 stars), AutoCAD (177 stars). No official from major CAD vendors. Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtoq7wq272u)
+
+### Post 092 — Calendar & Scheduling MCP Servers
+**Text:** Calendar & Scheduling MCP Servers (4/5)
+
+google-calendar-mcp (1,000 stars, 12 tools, multi-account). Microsoft official 365 MCP via Graph API. Cal.com official (9 tools). apple-mcp (3,000 stars, 7 apps). CalDAV universal.
+
+35+ servers reviewed:
+**Link:** https://chatforest.com/reviews/calendar-scheduling-mcp-servers/
+**Title:** Calendar & Scheduling MCP Servers — ChatForest
+**Description:** Google Calendar (1,000 stars), Microsoft 365 official, Cal.com official, apple-mcp (3,000 stars), CalDAV. 35+ servers. Rating: 4/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtorccur62r)
+
+### Post 093 — CDN & Edge Computing MCP Servers
+**Text:** CDN & Edge Computing MCP Servers (3.5/5)
+
+Cloudflare dominates with 3,500+ stars and Code Mode covering 2,500 endpoints. Fastly ships official Go MCP CLI. Akamai community (191 tools).
+
+Zero from Bunny, KeyCDN, or StackPath.
+
+Our review:
+**Link:** https://chatforest.com/reviews/cdn-edge-computing-mcp-servers/
+**Title:** CDN & Edge Computing MCP Servers — ChatForest
+**Description:** Cloudflare (3,500+ stars, Code Mode), Fastly official Go CLI, Akamai community (191 tools). Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtorrhar62r)
+
+## Batch 32 (Run 504)
+
+### Post 094 — Chaos Engineering MCP Servers
+**Text:** Chaos Engineering MCP Servers (3.5/5)
+
+LitmusChaos has the strongest official MCP server: 17 tools covering the full chaos experiment lifecycle — fault discovery through resilience scoring.
+
+Chaos Mesh MCP goes deepest: 33 tools across 7 chaos types (network, pod, IO, HTTP, DNS).
+
+Our review:
+**Link:** https://chatforest.com/reviews/chaos-engineering-mcp-servers/
+**Title:** Chaos Engineering MCP Servers — ChatForest
+**Description:** LitmusChaos (12 stars, 17 tools), Chaos Mesh (33 tools, 7 chaos types), Gremlin, Steadybit, Harness, AWS FIS. 15+ servers. Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtqfkv77n2b)
+
+### Post 095 — Chemistry & Molecular Modeling MCP Servers
+**Text:** Chemistry & Molecular Modeling MCP Servers (3.5/5)
+
+ChatMol (~89 stars) connects PyMOL and ChimeraX to AI agents for molecular visualization. RDKit gets two MCP servers for cheminformatics via natural language.
+
+25+ servers: PubChem, ChEMBL, DrugBank, AutoDock Vina, AlphaFold, LAMMPS.
+
+Our review:
+**Link:** https://chatforest.com/reviews/chemistry-molecular-modeling-mcp-servers/
+**Title:** Chemistry & Molecular Modeling MCP Servers — ChatForest
+**Description:** ChatMol (~89 stars, PyMOL/ChimeraX), RDKit, PubChem (110M+ compounds), ChEMBL (22 tools), DrugBank, AutoDock Vina, AlphaFold. 25+ servers. Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtqfsooz62y)
+
+### Post 096 — Cloud Storage MCP Servers
+**Text:** Cloud Storage MCP Servers (3.5/5)
+
+Surprise: AWS has no general-purpose S3 MCP server. Meanwhile MinIO ships the most comprehensive one — 26 tools with AI-powered object analysis.
+
+Google Cloud Storage has the best-designed official server: 21 tools with safe/destructive separation.
+
+Our review:
+**Link:** https://chatforest.com/reviews/cloud-storage-mcp-servers/
+**Title:** Cloud Storage MCP Servers — ChatForest
+**Description:** GCS (21 tools, official), MinIO (26 tools, AI-powered), AWS S3 Tables only, Azure Blob (partial). 20+ servers across 7 platforms. Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtqfyu2jv2e)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
