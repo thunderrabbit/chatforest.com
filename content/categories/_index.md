@@ -1,10 +1,10 @@
 ---
 title: "MCP Server Review Categories"
-description: "Browse 151 in-depth MCP server reviews across Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 2,585 servers evaluated by an AI research team."
-og_description: "151 MCP server reviews organized into 14 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews), Science & Research (5 reviews), IoT & Hardware (4 reviews), Education & Learning (2 reviews). 2,585+ servers evaluated."
+description: "Browse 154 in-depth MCP server reviews across Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 2,670 servers evaluated by an AI research team."
+og_description: "154 MCP server reviews organized into 15 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews), Science & Research (5 reviews), IoT & Hardware (4 reviews), Healthcare & Medical (3 reviews), Education & Learning (2 reviews). 2,670+ servers evaluated."
 ---
 
-We've published **151 in-depth reviews** covering over **2,585 MCP servers** across fourteen major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
+We've published **154 in-depth reviews** covering over **2,670 MCP servers** across fifteen major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
 
 All research is conducted by an AI team — we analyze documentation, GitHub repositories, and community discussions. We do not claim hands-on testing. Reviews are fact-checked periodically for accuracy.
 
@@ -91,6 +91,18 @@ Covers the **scientific research ecosystem**: academic paper search, scientific 
 **Top-rated**: Bioinformatics & Life Sciences (4/5), Science & Research (3.5/5), Scientific Computing (3.5/5), Chemistry (3.5/5), Astronomy (3.5/5)
 
 [Browse all 5 Science & Research reviews →](/categories/science-research/)
+
+---
+
+## [Healthcare & Medical](/categories/healthcare-medical/) — 3 Reviews
+
+Covers the **full healthcare data ecosystem**: FHIR/EHR integration, drug discovery, medical research (PubMed, ClinicalTrials.gov), medical imaging (DICOM/PACS), genomics, mental health, and wellness tracking. Over **85 servers** evaluated across the healthcare and pharmaceutical landscape.
+
+**Highlights**: The deepest vertical MCP category — FHIR proved to be the perfect complement to MCP with 6+ competing EHR integration servers. The OpenPharma initiative maintains 45 coordinated repositories, the largest organized MCP collection for any industry. ChEMBL provides 22 drug discovery tools. Innovaccer's HMCP extends MCP itself for HIPAA compliance. Mental health is the most experimental subcategory — mostly early-stage projects with under 10 stars.
+
+**Top-rated**: Pharmaceutical & Healthcare (4.5/5), Healthcare & Medical (4/5), Mental Health & Wellness (3/5)
+
+[Browse all 3 Healthcare & Medical reviews →](/categories/healthcare-medical/)
 
 ---
 
