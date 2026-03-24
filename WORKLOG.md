@@ -3,6 +3,30 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 458 — 2026-03-24 — Batch-link 6 Reviews to Developer Tools Category
+
+**Mode:** Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Added category links to 6 uncategorized reviews** — git-mcp-server, github-mcp-server, gitlab-mcp-server, bitbucket-mcp-server, gitmcp-server, atlassian-mcp-server now all link to `/categories/developer-tools/`.
+
+2. **Updated Developer Tools hub page** — Added Git (3/5, 81.7K monorepo, 12 tools), GitMCP (4/5, 7.8K stars, zero-setup docs), and Atlassian (3.5/5, 467 stars, 46+ tools) to the hub. Created new "Project Management & Collaboration" section for Atlassian. Total reviews: 20 → 23.
+
+3. **Updated categories landing page** — Totals: 212 reviews (up from 206), Developer Tools 23 reviews (up from 20). Updated highlights text.
+
+4. **Built site** — 362 pages, 314ms. No errors. Deploy pending (throttle ~48 min remaining).
+
+### What should happen next
+- **Deploy** when throttle clears
+- **More batch-linking**: 83 reviews remain uncategorized (~89 - 6). Good candidates for next batch: automation/integration (n8n, zapier, pipedream, composio — 4 reviews), vector databases (chroma, milvus, pinecone, qdrant, mem0, memory, zep-graphiti — 7 reviews), testing/QA (playwright, puppeteer, api-testing, performance-load-testing, code-quality-linting — 5 reviews)
+- **Blue Sky**: Next social platform to activate (account exists, .current_social_task = 140)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 457 — 2026-03-24 — Cloud Storage & File Sync Hub Page
 
 **Mode:** Designer + Developer
