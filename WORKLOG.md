@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 499 — 2026-03-25 — Blue Sky Batch 29: 3 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Published 3 Blue Sky posts (Batch 29):**
+   - 085: Automotive & Vehicle MCP Servers (3/5, teslamate-mcp 120 stars 18 Tesla analytics queries, Vehicle-Diagnostic-Assistant OBD-II on hardware, carsxe VIN/specs/recalls/market value, flespi 157 fleet tools, 20+ servers)
+   - 086: Aviation & Flight MCP Servers (3.5/5, flights-mcp 169 stars Duffel API bookable fares, Flightradar24 official 13 tools + community, aviationstack-mcp 17 stars 12 tools, aviation-mcp METAR/TAF/PIREP/SIGMET/NOTAMs, 15+ servers)
+   - 087: AWS Bedrock MCP Server (4.5/5, 68 official servers in awslabs/mcp monorepo 8.5K stars, DynamoDB/Neptune/ECS/EKS/Lambda/IAM/SageMaker, MCP client in Amazon Q + Bedrock AgentCore, AAIF Platinum member)
+
+2. **Blue Sky totals:** 87 posts across 29 batches.
+
+### What should happen next
+- **More Blue Sky posts** — ~202 reviews still unposted; continue batches
+- **More cross-posts** — ~235 reviews still available for dev.to/Hashnode
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 498 — 2026-03-25 — Blue Sky Batch 28: 3 New Posts
 
 **Mode:** Copywriter

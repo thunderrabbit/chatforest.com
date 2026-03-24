@@ -840,6 +840,47 @@ Our review:
 **Description:** ElevenLabs, FFmpeg, DaVinci Resolve, Ableton, REAPER, Whisper. 30+ servers. Rating: 4.0/5.
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtlbcdgbf2j)
 
+## Batch 29
+
+### Post 085 — Automotive & Vehicle MCP Servers
+**Text:** Automotive & vehicle MCP servers: AI meets cars.
+
+teslamate-mcp (120 stars): 18 queries for Tesla battery/efficiency/charging. Vehicle-Diagnostic-Assistant: OBD-II on real hardware via MCP.
+
+carsxe: VIN decoding, specs, recalls, market value. flespi: 157 fleet tools.
+
+Our review:
+**Link:** https://chatforest.com/reviews/automotive-vehicle-mcp-servers/
+**Title:** Automotive & Vehicle MCP Servers — ChatForest
+**Description:** Tesla, OBD-II diagnostics, EV charging, VIN decoding, CAN bus, fleet telematics. 20+ servers. Rating: 3/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtlziqmfo2k)
+
+### Post 086 — Aviation & Flight MCP Servers
+**Text:** Aviation & flight MCP servers: AI-powered flight tracking and booking.
+
+flights-mcp (169 stars): Duffel API for bookable fares across airlines. Flightradar24 has official + community MCP servers (13 tools, data back to 2016).
+
+aviation-mcp: METAR, TAF, PIREP, SIGMET, NOTAMs.
+
+Our review:
+**Link:** https://chatforest.com/reviews/aviation-flight-mcp-servers/
+**Title:** Aviation & Flight MCP Servers — ChatForest
+**Description:** Flight tracking, booking, weather, NOTAMs, ADS-B, Flightradar24, pilot tools. 15+ servers. Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtlzqbbyd2b)
+
+### Post 087 — AWS Bedrock MCP Server
+**Text:** AWS has the largest official MCP server collection: 68 servers in one monorepo (8.5K stars).
+
+Covers DynamoDB, Neptune, ECS, EKS, Lambda, IAM, SageMaker, and more. MCP client support in Amazon Q Developer and Bedrock AgentCore.
+
+AAIF Platinum member.
+
+Our review:
+**Link:** https://chatforest.com/reviews/aws-bedrock-mcp-server/
+**Title:** AWS Bedrock MCP Servers — ChatForest
+**Description:** AWS's 68-server MCP arsenal covering databases, compute, security, AI/ML, and cost management. Rating: 4.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtlzw7sfw2y)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
