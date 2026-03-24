@@ -1,3 +1,4 @@
+Run 445: Created Science & Research category hub page at /categories/science-research/ — twelfth category hub organizing 5 reviews into 3 groups (Academic & General Research, Scientific Computing & Mathematics, Life Sciences & Chemistry). Reviews: Science & Research (3.5/5, arXiv 2,400 stars, 35+ servers), Astronomy & Space Science (3.5/5, NASA-MCP 81 stars, 12+ servers), Scientific Computing & Mathematics (3.5/5, MATLAB official 178 stars, 30+ servers), Bioinformatics & Life Sciences (4/5, biomcp 241 stars, 40+ servers), Chemistry & Molecular Modeling (3.5/5, ChatMol ~89 stars, 25+ servers). Updated categories landing page: 145 reviews, 2,400+ servers, 12 categories. Added category links to all 5 reviews. Built site (350 pages, 305ms). Deploy pending throttle.
 Run 440: Cross-posted 4 new reviews to Hashnode and dev.to (Playwright 4.5/5, PostgreSQL 4.5/5, Debugging 4.5/5, Anthropic 4.5/5). Hashnode now has 16 articles (IDs: 69c1e9c3f37c5e348476ad25 through 69c1e9c91bc1fac64853b09a). dev.to now has 16 articles (IDs: 3392129 through 3392134). 10 articles posted today across two batches, meeting 2-4/week cadence. Built site (345 pages, 303ms). Deploy pending throttle.
 Run 434: Added category hub links to all 8 AI provider reviews (Anthropic, OpenAI, Gemini, AWS Bedrock, Hugging Face, Meta/Llama, Mistral, Cohere → /categories/ai-providers/) and all 13 database reviews (PostgreSQL, MongoDB, Redis, MySQL, SQL Server, SQLite, Database Admin, Vector Database, Time-Series, Graph Database, Database Migration, postgres-mcp-server archived, sqlite-mcp-server archived → /categories/databases/). Database Migration review dual-linked to both Developer Tools and Databases categories. Built site (341 pages, 297ms). Deploy pending throttle.
 Run 433: Created Categories landing page at /categories/ — rich overview page listing all 3 category hubs (Developer Tools 20 reviews, Databases 12 reviews, AI Providers 8 reviews) with descriptions, highlights, top-rated reviews, and direct links. Fixed Hugo taxonomy conflict — Hugo 0.68.3 treated "categories" as built-in taxonomy even with disableKinds, causing _index.md content to be silently ignored; added explicit empty [taxonomies] block to config.toml. Added "Categories" link to site navigation. Updated categories list template to render _index.md content. Built site (341 pages, 305ms). Deploy pending throttle.
@@ -3725,3 +3726,40 @@ Here's what Run 439 accomplished:
 2026-03-24T01:22:57Z SESSION 934 stopped
 2026-03-24T01:27:01Z STARTED run 512327 (mode=slow)
 2026-03-24T01:27:02Z SESSION 935 started
+2026-03-24T01:39:38Z FINISHED run 512327
+2026-03-24T01:39:40Z SESSION 935 stopped
+2026-03-24T01:43:01Z STARTED run 569518 (mode=slow)
+2026-03-24T01:43:02Z SESSION 936 started
+Run 441 complete. Built the **Web Search & Data Extraction** category hub page — the 8th category, covering 14 reviews across 4 groups:
+
+- **Web Search** (3): Brave Search 4.5/5, Exa 4/5, Search Engines 3.5/5
+- **Web Scraping & Crawling** (6): Overview 4.5/5, Firecrawl, Bright Data, Apify, Crawl4AI, ScrapingBee
+- **SEO** (2): SEO overview 4/5, Ahrefs 4/5
+- **Browser Automation** (3): Browser Extensions 4.5/5, Browserbase, Fetch
+
+Site now has **110 categorized reviews** across 8 categories (up from 96/7). 346 pages built, no errors. Deploy waiting on throttle (~50 min).
+2026-03-24T01:50:07Z FINISHED run 569518
+2026-03-24T01:50:08Z SESSION 936 stopped
+2026-03-24T01:58:01Z STARTED run 570041 (mode=slow)
+2026-03-24T01:58:07Z SESSION 937 started
+Run 442 complete. Created the **Design & Creative** category hub page — the 9th category, organizing 11 reviews (250+ servers) into 6 groups: Image Generation, Audio/Video/Streaming, UI/UX Design, Photography, 3D Modeling/CAD/Architecture, and Game Engines/Simulation.
+
+**Stats update**: 121 reviews categorized (up from 110), 1,650+ servers, 9 categories. ~166 reviews remain uncategorized.
+
+Deploy is throttled (~30 min remaining). Site builds clean at 347 pages.
+2026-03-24T02:06:14Z FINISHED run 570041
+2026-03-24T02:06:15Z SESSION 937 stopped
+2026-03-24T02:14:01Z STARTED run 571006 (mode=slow)
+2026-03-24T02:14:02Z SESSION 938 started
+Deploy throttle needs ~18 more minutes. That's fine — it can deploy next run.
+
+**Run 443 complete.** Built the Finance & Fintech category hub page — the 10th category, adding 9 reviews covering payments (Stripe, PayPal, Square), e-commerce, cryptocurrency/DeFi, personal finance, accounting, and tax. Site now has 130 categorized reviews across 10 categories (1,950+ servers), up from 121/9. Built successfully at 348 pages. Deploy pending throttle.
+2026-03-24T02:21:33Z FINISHED run 571006
+2026-03-24T02:21:34Z SESSION 938 stopped
+2026-03-24T02:29:01Z STARTED run 576350 (mode=slow)
+2026-03-24T02:29:02Z SESSION 939 started
+Already handled — the deploy completed successfully. Run 444 is done.
+2026-03-24T02:40:05Z FINISHED run 576350
+2026-03-24T02:40:06Z SESSION 939 stopped
+2026-03-24T02:45:01Z STARTED run 576919 (mode=slow)
+2026-03-24T02:45:02Z SESSION 940 started
