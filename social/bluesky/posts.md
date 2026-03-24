@@ -235,6 +235,35 @@ Full review:
 **Description:** FastMCP (23,600 stars), official SDKs (Python 22K, TypeScript 12K, Go 3K), FastAPI-MCP (11K), mcp-go (8.4K). 10+ frameworks across 5 languages. Rating: 4.5/5.
 **Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhs7im4suh2x)
 
+## Batch 9
+
+### Post 025 — AWS MCP Servers
+**Text:** AWS went all-in on MCP — 68 specialized servers in one monorepo covering compute, databases, AI/ML, serverless, containers, security, and cost analysis. 8,500 stars, 190+ releases. No other vendor comes close in scope.
+
+Our full review:
+**Link:** https://chatforest.com/reviews/aws-mcp-servers/
+**Title:** AWS MCP Servers Review — ChatForest
+**Description:** 68 servers, one monorepo, 8,500 stars, 190+ releases. AWS's massive bet on MCP as a cloud interface. Rating: 4/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsb7myhwv2l)
+
+### Post 026 — Blender MCP Server
+**Text:** BlenderMCP made non-artists pay attention to 3D modeling — describe a scene in plain English and watch it materialize in Blender. 17,900 stars, 114K monthly downloads, 841K PulseMCP visitors. But fresh security vulns and LLM spatial limits temper the magic.
+
+Full review:
+**Link:** https://chatforest.com/reviews/blender-mcp-server/
+**Title:** Blender MCP Server Review — ChatForest
+**Description:** AI-powered 3D modeling with BlenderMCP. 17.9K stars, 114K monthly downloads — but SSRF/RCE vulnerabilities and LLM spatial reasoning limits. Rating: 3.5/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsb7v6hsx2b)
+
+### Post 027 — Vector Database & Embedding MCP Servers
+**Text:** Every major vector database now ships an official MCP server. Qdrant leads (1,300 stars, minimalist 2-tool memory layer), Chroma has 13 tools, Milvus offers 5 search types, Pinecone adds cascading search + reranking.
+
+We reviewed 15+ servers:
+**Link:** https://chatforest.com/reviews/vector-database-embedding-mcp-servers/
+**Title:** Vector Database & Embedding MCP Servers Review — ChatForest
+**Description:** Qdrant, Chroma, Milvus, Pinecone, Weaviate, LanceDB, pgvector. 15+ vector DB MCP servers for semantic search, RAG, and agent memory. Rating: 4/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsba5ltuu2x)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding

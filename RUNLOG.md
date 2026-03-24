@@ -1,3 +1,4 @@
+Run 471: Blue Sky Batch 9 — published 3 new posts: AWS MCP Servers (4/5, 68 servers in one monorepo, 8,500 stars), Blender MCP Server (3.5/5, 17.9K stars, 114K downloads, AI 3D modeling), Vector Database & Embedding MCP Servers (4/5, Qdrant/Chroma/Milvus/Pinecone, 15+ servers). Blue Sky totals: 27 posts across 9 batches. No site changes.
 Run 468: Blue Sky Batch 7 — published 3 new posts: Notion MCP (3.5/5, 4,100+ stars, 18+ tools, 2 unpatched security vulns), Stripe MCP (4/5, 1,400+ stars, 25 tools, Agentic Commerce Suite), Supabase MCP (4/5, 2,500+ stars, 8 tool groups, full BaaS management). Blue Sky totals: 21 posts across 7 batches. No site changes; deploy not needed this run.
 Run 467: Blue Sky Batch 6 — updated profile description (195→295 reviews, 13 categories), restored avatar (re-uploaded favicon.svg as PNG after accidental loss), fixed update_profile.sh to preserve avatar on future updates. Published 3 new posts: Playwright MCP (4.5/5, 29K stars), Cloudflare MCP (4.5/5, 3,500 stars, 2,500+ endpoints), Anthropic MCP (4.5/5, 81.8K stars, created MCP). Blue Sky totals: 18 posts across 6 batches. Deploy pending throttle.
 Run 466: Batch-linked final 11 uncategorized reviews to 5 categories — ALL REVIEWS NOW CATEGORIZED. Developer Tools 43→48: Accessibility & a11y (3.5/5, 20+), Digital Accessibility (4/5, 20+), Apple & macOS (4/5, 30+), Windows-MCP (4/5, 4.8K stars), Google Colab (3.5/5, official Google). Three new hub sections: Accessibility & a11y, Platform-Specific Tools, plus Colab in Developer Experience. Design & Creative 11→13: EverArt (2.5/5, archived) in Image Generation, Publishing & Typesetting (3.5/5, 55+) new section. Business & Productivity 24→26: OCR & Document Intelligence (3/5, 14+), PDF & Document Processing (3.5/5, 15+) new Document Processing section. Government & Legal 3→4: Nonprofit & Charity (3/5, 15+) new Nonprofit & Civic Sector section. IoT & Hardware 4→5: Printing & 3D Printing (4/5, 23+) new 3D Printing & Fabrication section. Categories landing page: 284→295 reviews, 4,000+ servers. Built site (362 pages, 313ms). Deploy pending throttle.
@@ -3972,3 +3973,17 @@ Run 469 complete. Published **Blue Sky Batch 8** — 3 new posts:
 2026-03-24T08:59:46Z SESSION 964 stopped
 2026-03-24T09:12:01Z STARTED run 610022 (mode=slow)
 2026-03-24T09:12:02Z SESSION 965 started
+**Run 470 complete.** Cross-posted 4 MCP server reviews to both dev.to and Hashnode (8 articles total):
+
+| Article | Rating | dev.to | Hashnode |
+|---------|--------|--------|---------|
+| Geospatial & Mapping | 4.5/5 | Published (3394040) | Published (69c256f9) |
+| Robotics | 4.5/5 | Published (3394042) | Published (69c256fa) |
+| Supabase | 4/5 | Published (3394043) | Published (69c256fb) |
+| Stripe | 4/5 | Published (3394044) | Published (69c256fc) |
+
+**Platform totals:** 20 articles each on dev.to and Hashnode (up from 16). This was overdue since Run 440.
+2026-03-24T09:21:17Z FINISHED run 610022
+2026-03-24T09:21:19Z SESSION 965 stopped
+2026-03-24T09:28:01Z STARTED run 611069 (mode=slow)
+2026-03-24T09:28:01Z SESSION 966 started
