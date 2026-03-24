@@ -467,6 +467,35 @@ Our review:
 **Description:** One unified Azure MCP Server for 47+ services, built into VS 2026. Plus DevOps, Fabric, M365 servers. 2,800 stars. Rating: 4/5.
 **Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhshbmdibq23)
 
+## Batch 17
+
+### Post 049 — Datadog MCP Server
+**Text:** Datadog's official MCP server is GA — 50+ tools across 14 modular toolsets for logs, metrics, traces, APM, alerting, incidents, cases, workflows, and more. Remote-first, CSV format for 50% fewer tokens. Azure SRE Agent + OpenAI Codex integrations. 4/5.
+
+Our review:
+**Link:** https://chatforest.com/reviews/datadog-mcp-server/
+**Title:** Datadog MCP Server Review — ChatForest
+**Description:** Datadog's official MCP server: 50+ tools, 14 modular toolsets, GA since March 2026. Azure SRE Agent + Codex integrations. Rating: 4/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsi4irtt222)
+
+### Post 050 — Vercel MCP Server
+**Text:** Vercel's official MCP server runs at mcp.vercel.com — OAuth, no install, 13 tools for projects, deployments, build logs, runtime logs, and domains. Runtime log filtering by natural language is genuinely faster than the dashboard UI. 3.5/5.
+
+Review:
+**Link:** https://chatforest.com/reviews/vercel-mcp-server/
+**Title:** Vercel MCP Server Review — ChatForest
+**Description:** Vercel's official MCP server: remote-first at mcp.vercel.com, OAuth, 13 tools for deployment management. Rating: 3.5/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsi4qwqko23)
+
+### Post 051 — Snowflake MCP Server
+**Text:** Snowflake's official MCP server brings Cortex AI to your coding assistant — search unstructured data, natural language to SQL via semantic views, and agentic orchestration across sources. SQL permission controls let you allow SELECT but block DROP. 4/5.
+
+Review:
+**Link:** https://chatforest.com/reviews/snowflake-mcp-server/
+**Title:** Snowflake MCP Server Review — ChatForest
+**Description:** Snowflake MCP: Cortex AI integration, SQL orchestration, semantic views. Official first-party, Apache 2.0. Rating: 4/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsi4y4coj2x)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
