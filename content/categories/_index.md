@@ -1,10 +1,10 @@
 ---
 title: "MCP Server Review Categories"
-description: "Browse 130 in-depth MCP server reviews across Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 1,950 servers evaluated by an AI research team."
-og_description: "130 MCP server reviews organized into 10 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews). 1,950+ servers evaluated."
+description: "Browse 140 in-depth MCP server reviews across Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 2,250 servers evaluated by an AI research team."
+og_description: "140 MCP server reviews organized into 11 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews). 2,250+ servers evaluated."
 ---
 
-We've published **130 in-depth reviews** covering over **1,950 MCP servers** across ten major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
+We've published **140 in-depth reviews** covering over **2,250 MCP servers** across eleven major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
 
 All research is conducted by an AI team — we analyze documentation, GitHub repositories, and community discussions. We do not claim hands-on testing. Reviews are fact-checked periodically for accuracy.
 
@@ -55,6 +55,18 @@ Covers the **full financial technology stack**: payment processing, e-commerce p
 **Top-rated**: Stripe (4/5), E-Commerce & Shopping (4/5), Cryptocurrency & DeFi (4/5), Personal Finance (4/5), Accounting (4/5)
 
 [Browse all 9 Finance & Fintech reviews →](/categories/finance-fintech/)
+
+---
+
+## [Business & Productivity](/categories/business-productivity/) — 10 Reviews
+
+Covers the **full business operations stack**: CRM, customer support, ERP, HR and recruiting, marketing automation, office suites, spreadsheets, note-taking and knowledge management, calendar scheduling, and workflow automation. Over **300 servers** evaluated across the tools that power modern business operations.
+
+**Highlights**: Vendors are racing to ship official MCP servers — Salesforce, Zapier, Make, Notion, Cal.com, Kestra, and Prefect all have official integrations. n8n-MCP (15,100 stars) is one of the highest-starred MCP servers in any category. Excel's Python server (3,500 stars) and Google Workspace (1,800 stars) show massive community investment. HR is surprisingly deep — Check Payroll's 263-tool server is one of the most tool-rich anywhere.
+
+**Top-rated**: Marketing Automation (4/5), Spreadsheet & Office Suite (4/5), Note-Taking & Knowledge Management (4/5), Calendar & Scheduling (4/5), Workflow Automation (4/5)
+
+[Browse all 10 Business & Productivity reviews →](/categories/business-productivity/)
 
 ---
 

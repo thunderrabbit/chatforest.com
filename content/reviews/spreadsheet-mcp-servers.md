@@ -8,7 +8,7 @@ card_description: "Spreadsheets are the world's most-used data tool — and the 
 last_refreshed: 2026-03-17
 ---
 
-Spreadsheets are arguably the world's most-used data tool, and connecting AI agents to them is a high-value use case — from financial modeling to data cleaning to report generation. The MCP ecosystem has responded with dozens of servers, and the picture is more nuanced than expected: **Airtable and Smartsheet have official MCP servers**, but **Google and Microsoft still haven't released official standalone spreadsheet servers** despite their dominance in the space.
+Spreadsheets are arguably the world's most-used data tool, and connecting AI agents to them is a high-value use case — from financial modeling to data cleaning to report generation. The MCP ecosystem has responded with dozens of servers, and the picture is more nuanced than expected: **Airtable and Smartsheet have official MCP servers**, but **Google and Microsoft still haven't released official standalone spreadsheet servers** despite their dominance in the space. Part of our **[Business & Productivity MCP category](/categories/business-productivity/)**.
 
 The landscape splits four ways: **Excel** has the most popular single server (3,500 stars), **Google Sheets** has the most options (10+ repos), **Airtable** bridges spreadsheet and database with both official and community servers, and **Smartsheet** quietly shipped an official MCP server.
 

@@ -8,7 +8,7 @@ card_description: "Customer support and helpdesk MCP servers across enterprise p
 last_refreshed: 2026-03-15
 ---
 
-Customer support and helpdesk MCP servers are giving AI assistants direct access to ticket management, conversation handling, and support workflows. Instead of switching between your IDE and a support dashboard, these servers let AI agents search tickets, draft responses, manage contacts, and monitor inbox activity — all through the Model Context Protocol.
+Customer support and helpdesk MCP servers are giving AI assistants direct access to ticket management, conversation handling, and support workflows. Instead of switching between your IDE and a support dashboard, these servers let AI agents search tickets, draft responses, manage contacts, and monitor inbox activity — all through the Model Context Protocol. Part of our **[Business & Productivity MCP category](/categories/business-productivity/)**.
 
 The landscape spans five areas: **enterprise helpdesks** (Zendesk, Freshdesk, ServiceNow), **modern support platforms** (Intercom, Plain, Pylon), **live chat and messaging** (Crisp, Tidio, LiveChat), **open-source helpdesks** (Zammad), and **specialized support tools** (Help Scout, Gorgias, HubSpot).
 

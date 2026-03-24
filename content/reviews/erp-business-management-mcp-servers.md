@@ -8,7 +8,7 @@ card_description: "ERP and business management MCP servers for AI-powered intera
 last_refreshed: 2026-03-16
 ---
 
-ERP and business management MCP servers let AI assistants interact with enterprise resource planning systems through the Model Context Protocol. Instead of navigating complex ERP interfaces or writing API integrations manually, AI agents can query business data, create records, manage inventory, and automate workflows conversationally.
+ERP and business management MCP servers let AI assistants interact with enterprise resource planning systems through the Model Context Protocol. Instead of navigating complex ERP interfaces or writing API integrations manually, AI agents can query business data, create records, manage inventory, and automate workflows conversationally. Part of our **[Business & Productivity MCP category](/categories/business-productivity/)**.
 
 This review covers the **ERP ecosystem** — Odoo, Microsoft Dynamics 365, Oracle NetSuite, SAP, Oracle Cloud, and multi-ERP connectors. For related servers, see our [Accounting & Bookkeeping review](/reviews/accounting-bookkeeping-mcp-servers/), [Supply Chain & Logistics review](/reviews/supply-chain-logistics-mcp-servers/), and [CRM review](/reviews/crm-mcp-servers/).
 

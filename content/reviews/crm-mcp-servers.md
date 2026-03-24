@@ -8,7 +8,7 @@ card_description: "CRM MCP servers across Salesforce, HubSpot, Pipedrive, Attio,
 last_refreshed: 2026-03-15
 ---
 
-CRM data is some of the most valuable information a business owns — contacts, deals, pipeline stages, revenue forecasts, customer histories. Giving an AI agent access to that data changes how sales teams, customer success managers, and operations work. Instead of clicking through dashboards, you ask.
+CRM data is some of the most valuable information a business owns — contacts, deals, pipeline stages, revenue forecasts, customer histories. Giving an AI agent access to that data changes how sales teams, customer success managers, and operations work. Instead of clicking through dashboards, you ask. Part of our **[Business & Productivity MCP category](/categories/business-productivity/)**.
 
 The MCP ecosystem for CRM is uneven. Salesforce has a mature, officially-backed server with 60+ tools. HubSpot's official repo exists but is empty. Pipedrive's most popular server is read-only. Zoho, despite being one of the largest CRM platforms globally, has no production-ready MCP server. Here's the full picture.
 

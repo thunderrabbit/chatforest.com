@@ -8,7 +8,7 @@ card_description: "Note-taking and knowledge management MCP servers across Obsid
 last_refreshed: 2026-03-16
 ---
 
-Note-taking and knowledge management tools are where people store their most valuable thinking — research notes, project plans, meeting records, personal wikis, and the connective tissue between ideas. Connecting AI agents to these systems is one of the most natural MCP use cases: instead of copy-pasting context into prompts, an agent can search, read, and update your notes directly.
+Note-taking and knowledge management tools are where people store their most valuable thinking — research notes, project plans, meeting records, personal wikis, and the connective tissue between ideas. Connecting AI agents to these systems is one of the most natural MCP use cases: instead of copy-pasting context into prompts, an agent can search, read, and update your notes directly. Part of our **[Business & Productivity MCP category](/categories/business-productivity/)**.
 
 The ecosystem has responded accordingly. Over 40 MCP servers now cover every major note-taking platform, from mainstream tools like Obsidian and Notion to niche PKM systems like Tana and Capacities. The landscape splits into two broad camps: **platform-specific servers** that connect to a particular app, and **knowledge graph servers** that provide platform-agnostic persistent memory for AI agents.
 

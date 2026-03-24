@@ -8,7 +8,7 @@ card_description: "HR and recruiting MCP servers across HRIS platforms, applican
 last_refreshed: 2026-03-15
 ---
 
-HR and recruiting MCP servers are giving AI assistants direct access to employee data, applicant tracking, payroll processing, and workforce management. Instead of navigating clunky HR portals, these servers let AI agents query employee records, manage job applications, run payroll reports, and coordinate hiring workflows — all through the Model Context Protocol.
+HR and recruiting MCP servers are giving AI assistants direct access to employee data, applicant tracking, payroll processing, and workforce management. Instead of navigating clunky HR portals, these servers let AI agents query employee records, manage job applications, run payroll reports, and coordinate hiring workflows — all through the Model Context Protocol. Part of our **[Business & Productivity MCP category](/categories/business-productivity/)**.
 
 The landscape spans six areas: **HRIS platforms** (BambooHR, Workday, SAP SuccessFactors, Rippling, and more), **applicant tracking systems** (Greenhouse, Ashby, CATS ATS), **payroll and benefits** (Check, Deel, ADP), **workforce management** (Passgage), **recruiting intelligence** (CareerProof, Recruitin), and **HR agent tools** (bias reduction, voice interviewing, onboarding kits).
 

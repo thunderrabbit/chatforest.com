@@ -8,7 +8,7 @@ card_description: "Workflow automation and orchestration MCP servers across low-
 last_refreshed: 2026-03-15
 ---
 
-Workflow automation and orchestration is where MCP gets genuinely useful for operations teams. Instead of manually navigating UIs to build workflows, check pipeline statuses, or debug failed runs, these servers let AI agents do it through natural language.
+Workflow automation and orchestration is where MCP gets genuinely useful for operations teams. Instead of manually navigating UIs to build workflows, check pipeline statuses, or debug failed runs, these servers let AI agents do it through natural language. Part of our **[Business & Productivity MCP category](/categories/business-productivity/)**.
 
 The landscape splits into four categories: **low-code automation platforms** (n8n, Zapier, Make — visual workflow builders that connect apps), **data pipeline orchestrators** (Airflow, Dagster — scheduled DAG-based data processing), **code-first orchestration engines** (Temporal, Prefect — durable execution for distributed systems), and **event-driven orchestrators** (Kestra — declarative YAML-based workflows).
 

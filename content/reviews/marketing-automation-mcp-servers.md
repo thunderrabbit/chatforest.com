@@ -8,7 +8,7 @@ card_description: "Marketing automation MCP servers for AI-powered email campaig
 last_refreshed: 2026-03-16
 ---
 
-Marketing automation MCP servers let AI agents manage email campaigns, run advertising platforms, analyze SEO data, and schedule social media content. Instead of switching between marketing dashboards, AI assistants can directly create campaigns, analyze performance, and optimize marketing workflows.
+Marketing automation MCP servers let AI agents manage email campaigns, run advertising platforms, analyze SEO data, and schedule social media content. Instead of switching between marketing dashboards, AI assistants can directly create campaigns, analyze performance, and optimize marketing workflows. Part of our **[Business & Productivity MCP category](/categories/business-productivity/)**.
 
 This review covers **marketing automation MCP servers** — email marketing platforms, CRM/marketing hubs, advertising platforms, SEO tools, and social media management. For related servers, see our [Social Media & Marketing review](/reviews/social-media-marketing-mcp-servers/), [E-Commerce & Shopping review](/reviews/ecommerce-shopping-mcp-servers/), and [Analytics & Business Intelligence review](/reviews/analytics-business-intelligence-mcp-servers/).
 
