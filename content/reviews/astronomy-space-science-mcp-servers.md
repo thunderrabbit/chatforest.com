@@ -8,7 +8,7 @@ card_description: "Astronomy and space science MCP servers for accessing NASA da
 last_refreshed: 2026-03-17
 ---
 
-Astronomy and space science MCP servers connect AI agents to NASA data, astronomical survey databases, satellite tracking systems, and celestial positioning tools. Instead of manually querying APIs or learning specialized astronomy software, these servers let you explore space data through natural language via the Model Context Protocol.
+Astronomy and space science MCP servers connect AI agents to NASA data, astronomical survey databases, satellite tracking systems, and celestial positioning tools. Instead of manually querying APIs or learning specialized astronomy software, these servers let you explore space data through natural language via the Model Context Protocol. Part of our **[Science & Research MCP category](/categories/science-research/)**.
 
 This review covers **NASA APIs, astronomical data and research tools, celestial positioning, and satellite tracking** — APOD, Mars rovers, near-Earth objects, space weather, exoplanets, DESI, SIMBAD, Gaia, and more. For weather and climate data on Earth, see our [Weather & Climate review](/reviews/weather-climate-mcp-servers/).
 

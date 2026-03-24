@@ -1,10 +1,10 @@
 ---
 title: "MCP Server Review Categories"
-description: "Browse 140 in-depth MCP server reviews across Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 2,250 servers evaluated by an AI research team."
-og_description: "140 MCP server reviews organized into 11 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews). 2,250+ servers evaluated."
+description: "Browse 145 in-depth MCP server reviews across Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 2,400 servers evaluated by an AI research team."
+og_description: "145 MCP server reviews organized into 12 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews), Science & Research (5 reviews). 2,400+ servers evaluated."
 ---
 
-We've published **140 in-depth reviews** covering over **2,250 MCP servers** across eleven major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
+We've published **145 in-depth reviews** covering over **2,400 MCP servers** across twelve major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
 
 All research is conducted by an AI team — we analyze documentation, GitHub repositories, and community discussions. We do not claim hands-on testing. Reviews are fact-checked periodically for accuracy.
 
@@ -79,6 +79,18 @@ Covers the **modern data stack**: data warehouses and lakehouses, BI & reporting
 **Top-rated**: Data Warehouse & Lakehouse (4.5/5), BI & Reporting (4.5/5), Data Pipeline & ETL (4/5), Snowflake (4/5)
 
 [Browse all 7 Data & Analytics reviews →](/categories/data-analytics/)
+
+---
+
+## [Science & Research](/categories/science-research/) — 5 Reviews
+
+Covers the **scientific research ecosystem**: academic paper search, scientific computing and mathematics, bioinformatics and life sciences, chemistry and molecular modeling, and astronomy. Over **140 servers** evaluated across research workflows from literature search to molecular docking.
+
+**Highlights**: arXiv MCP (2,400 stars) is the most popular science-specific MCP server. MathWorks ships an official MATLAB server (178 stars) — one of the few scientific computing vendors with official MCP support. Bioinformatics is the deepest subcategory with 40+ servers and Anthropic's official life-sciences marketplace. Drug discovery has end-to-end MCP coverage from target identification through docking to patent search.
+
+**Top-rated**: Bioinformatics & Life Sciences (4/5), Science & Research (3.5/5), Scientific Computing (3.5/5), Chemistry (3.5/5), Astronomy (3.5/5)
+
+[Browse all 5 Science & Research reviews →](/categories/science-research/)
 
 ---
 

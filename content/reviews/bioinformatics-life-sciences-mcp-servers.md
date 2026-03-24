@@ -8,7 +8,7 @@ card_description: "Bioinformatics and life sciences MCP servers for AI-powered g
 last_refreshed: 2026-03-16
 ---
 
-Bioinformatics and life sciences MCP servers let AI agents query protein databases, run sequence analysis, explore clinical trials, access drug discovery data, and interact with medical records. Instead of manually navigating database web interfaces or writing API scripts, AI assistants can directly search biological databases, analyze sequences, and synthesize research findings through natural language.
+Bioinformatics and life sciences MCP servers let AI agents query protein databases, run sequence analysis, explore clinical trials, access drug discovery data, and interact with medical records. Instead of manually navigating database web interfaces or writing API scripts, AI assistants can directly search biological databases, analyze sequences, and synthesize research findings through natural language. Part of our **[Science & Research MCP category](/categories/science-research/)**.
 
 This review covers **bioinformatics and life sciences MCP servers** — protein/chemical databases, biomedical literature, clinical research, sequence analysis, systems biology, drug discovery, and healthcare interoperability. For related servers, see our [Scientific Research review](/reviews/scientific-research-mcp-servers/), [Data Science & Machine Learning review](/reviews/data-science-ml-mcp-servers/), and [Digital Twins & Simulation review](/reviews/digital-twins-3d-simulation-mcp-servers/).
 

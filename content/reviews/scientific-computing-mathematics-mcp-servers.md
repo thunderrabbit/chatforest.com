@@ -8,7 +8,7 @@ card_description: "Scientific computing and mathematics MCP servers for AI-power
 last_refreshed: 2026-03-19
 ---
 
-Scientific computing MCP servers let AI agents execute numerical code, solve equations symbolically, run statistical analyses, and submit jobs to supercomputers. Instead of manually writing MATLAB scripts, R commands, or Wolfram Language expressions, researchers can have AI assistants perform these computations through the Model Context Protocol.
+Scientific computing MCP servers let AI agents execute numerical code, solve equations symbolically, run statistical analyses, and submit jobs to supercomputers. Instead of manually writing MATLAB scripts, R commands, or Wolfram Language expressions, researchers can have AI assistants perform these computations through the Model Context Protocol. Part of our **[Science & Research MCP category](/categories/science-research/)**.
 
 This review covers MCP servers for **scientific computing and mathematics** — numerical analysis platforms (MATLAB, NumPy), symbolic math (SymPy, Wolfram, Mathematica), statistical computing (R), scientific programming languages (Julia), HPC infrastructure (Globus), and engineering simulation (OpenFOAM). For academic paper search and bioinformatics, see our [Science & Research review](/reviews/science-research-mcp-servers/). For 3D simulation and digital twins, see our [Digital Twins & 3D Simulation review](/reviews/digital-twins-3d-simulation-mcp-servers/).
 

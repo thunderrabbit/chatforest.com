@@ -8,7 +8,7 @@ card_description: "Science and research MCP servers for AI-powered academic pape
 last_refreshed: 2026-03-16
 ---
 
-Science and research MCP servers let AI assistants search academic literature, run mathematical computations, query protein databases, and analyze citation networks. Instead of manually searching PubMed, downloading PDFs from arXiv, or writing Wolfram Language scripts, researchers can have AI agents do this through the Model Context Protocol.
+Science and research MCP servers let AI assistants search academic literature, run mathematical computations, query protein databases, and analyze citation networks. Instead of manually searching PubMed, downloading PDFs from arXiv, or writing Wolfram Language scripts, researchers can have AI agents do this through the Model Context Protocol. Part of our **[Science & Research MCP category](/categories/science-research/)**.
 
 This review covers the **science and research** vertical — academic paper search, scientific computing, bioinformatics, and research tools. For geospatial analysis, see our [Geospatial & Mapping review](/reviews/geospatial-mapping-mcp-servers/). For weather and climate data, see our [Weather & Climate review](/reviews/weather-climate-mcp-servers/). For healthcare applications, see our [Healthcare & Medical review](/reviews/healthcare-medical-mcp-servers/).
 

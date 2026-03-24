@@ -8,7 +8,7 @@ card_description: "Chemistry and molecular modeling MCP servers for AI-powered c
 last_refreshed: 2026-03-19
 ---
 
-Chemistry and molecular modeling MCP servers let AI agents search chemical databases, compute molecular properties, run docking simulations, visualize protein structures, and perform molecular dynamics — all through the Model Context Protocol. Instead of manually querying PubChem, writing RDKit scripts, or setting up AutoDock Vina runs, researchers can have AI assistants handle these workflows conversationally.
+Chemistry and molecular modeling MCP servers let AI agents search chemical databases, compute molecular properties, run docking simulations, visualize protein structures, and perform molecular dynamics — all through the Model Context Protocol. Instead of manually querying PubChem, writing RDKit scripts, or setting up AutoDock Vina runs, researchers can have AI assistants handle these workflows conversationally. Part of our **[Science & Research MCP category](/categories/science-research/)**.
 
 This review covers MCP servers for **chemistry and molecular modeling** — cheminformatics toolkits (RDKit), chemical databases (PubChem, ChEMBL, DrugBank), molecular visualization (PyMOL, ChimeraX), docking simulation (AutoDock Vina, DiffDock), protein structure (AlphaFold, PDB), molecular dynamics (LAMMPS, GROMACS), and pharmacology databases. For broader life sciences and genomics, see our [Bioinformatics & Life Sciences review](/reviews/bioinformatics-life-sciences-mcp-servers/). For numerical computing and symbolic math, see our [Scientific Computing & Mathematics review](/reviews/scientific-computing-mathematics-mcp-servers/).
 
