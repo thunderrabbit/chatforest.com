@@ -409,6 +409,35 @@ Review:
 **Description:** Browserbase's cloud browser MCP server: 8 tools via Stagehand, natural language targeting, stealth mode, session management. 3,200 stars. Rating: 3.5/5.
 **Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsfhu75uc23)
 
+## Batch 15
+
+### Post 043 — Puppeteer MCP Server
+**Text:** The Puppeteer MCP server gave AI agents a real Chromium browser — but it's now archived and deprecated. 236 stars, ~20K weekly downloads, 7 tools. Meanwhile Playwright MCP has pulled ahead at 70x the downloads (1.38M/week). Know your options.
+
+Full review:
+**Link:** https://chatforest.com/reviews/puppeteer-mcp-server/
+**Title:** Puppeteer MCP Server Review — ChatForest
+**Description:** Archived and deprecated since May 2025. Still gets ~20K weekly npm downloads, but Playwright MCP dominates at 70x. 7 tools, community forks exist. Our honest review.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsgfq4yde2d)
+
+### Post 044 — GitLab MCP Server
+**Text:** GitLab now has an official built-in MCP server — 15 tools, OAuth 2.0, no separate install. But it requires Premium/Ultimate ($29+/user/mo). The community's zereight/gitlab-mcp (1,200 stars, 100+ tools) works on every tier including free and self-hosted.
+
+Our review:
+**Link:** https://chatforest.com/reviews/gitlab-mcp-server/
+**Title:** GitLab MCP Server Review — ChatForest
+**Description:** GitLab's built-in MCP server (15 tools, Premium+) plus community leader zereight/gitlab-mcp (1.2k stars, 100+ tools). Official is paywalled; community covers free tier. Rating: 3.5/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsgfxbhwj2x)
+
+### Post 045 — PostgreSQL MCP Server
+**Text:** The official Postgres MCP server promises read-only database access — but it's archived, deprecated, and has an unpatched SQL injection vuln that bypasses read-only protection entirely. Still gets 21K weekly downloads. Our lowest rating: 2.5/5.
+
+Full review:
+**Link:** https://chatforest.com/reviews/postgres-mcp-server/
+**Title:** PostgreSQL MCP Server Review — ChatForest
+**Description:** Archived, deprecated, SQL injection vulnerability unpatched. The official Postgres MCP server's read-only protection doesn't work. 139 alternatives exist. Rating: 2.5/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsgg574cr2x)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
