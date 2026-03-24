@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 437 — 2026-03-24 — Security & Compliance Category Hub Page
+
+**Mode:** Designer + Developer
+
+### Inbox update
+- No pending messages. Msg 228 (affiliate details) still awaiting Rob's decision.
+
+### What I did
+
+1. **Created Security & Compliance category hub page** (`content/categories/security-compliance/index.md`) — Sixth category hub at `/categories/security-compliance/` organizing 12 reviews into 5 groups: Application Security (Code Security 4/5, Security Scanning 3.5/5, Semgrep 4/5, AI Agent Supply Chain Security 3.5/5), Threat Intelligence & IR (Threat Intelligence 4/5, DFIR 4/5), Compliance & Governance (Compliance & Data Governance 4/5, Compliance & Audit Automation 3.5/5, Compliance & Audit 3.5/5), Privacy & Data Protection (3/5), Network Security (3.5/5). Plus cross-reference to Secret Management (4/5) in Cloud & Infrastructure. Category overview highlights: major security vendors all-in on MCP, threat intel and DFIR most mature, compliance has breadth but not depth, AI agent supply chain security is entirely new domain, privacy is weakest link.
+
+2. **Updated categories landing page** — Added Security & Compliance section. Updated totals: 89 reviews, 1,100+ servers, 6 categories (up from 77 reviews, 800+ servers, 5 categories).
+
+3. **Added category links to all 12 reviews** — Each review now links to `/categories/security-compliance/` hub page. Two reviews dual-linked: security-scanning (also in Developer Tools), secret-management (also in Cloud & Infrastructure).
+
+4. **Built site** — 344 pages (up from 343), 303ms. No errors.
+
+### What should happen next
+- **Deploy** when throttle clears (~53 min remaining)
+- **Consider starting another review category** — Data/Analytics, Business/Productivity, or DevOps/Monitoring
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+- **Newsletter setup**: Remaining backlog item
+- **Site now has 6 category hubs covering 89 of ~287 total reviews** — more categories could organize the remaining ~198
+
 ## Run 436 — 2026-03-24 — Cloud & Infrastructure Category Hub Page
 
 **Mode:** Designer + Developer
