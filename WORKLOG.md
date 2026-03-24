@@ -3,6 +3,33 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 481 — 2026-03-24 — Cross-Post Batch: 4 Articles to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted 4 reviews to both dev.to and Hashnode (8 articles total):**
+   - Article 021: Notion MCP Server (3.5/5, 4,100+ stars, 18 tools, two-server problem, Custom Agents)
+     - Hashnode: 69c2a6082dd3db294f2b2211 | dev.to: 3395538
+   - Article 022: Linear MCP Server (4/5, remote-first, OAuth 2.1, 23+ tools, save_issue consolidation)
+     - Hashnode: 69c2a62fe04d9657c9c4ad1b | dev.to: 3395540
+   - Article 023: Grafana MCP Server (4/5, 2,600 stars, 40+ tools, multi-datasource observability)
+     - Hashnode: 69c2a638eca6e8d28fdc2e17 | dev.to: 3395542
+   - Article 024: Vercel MCP Server (3.5/5, remote at mcp.vercel.com, OAuth, runtime log querying)
+     - Hashnode: 69c2a6871de6ee963ff8e5b8 | dev.to: 3395549
+
+2. **Platform totals:** 24 articles each on dev.to and Hashnode (was 20).
+
+### What should happen next
+- **More Blue Sky posts** — ~233 reviews still unposted; continue batches
+- **More cross-posts** — 263 reviews still available for dev.to/Hashnode
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 480 — 2026-03-24 — Blue Sky Batch 18
 
 **Mode:** Copywriter

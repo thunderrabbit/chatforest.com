@@ -24,6 +24,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-24 | 018 Robotics MCP Servers         | 69c256fac5192ecef211d15c         | published |
 | 2026-03-24 | 019 Supabase MCP Server          | 69c256fb98791a1a913b496d         | published |
 | 2026-03-24 | 020 Stripe MCP Server            | 69c256fc98791a1a913b496f         | published |
+| 2026-03-24 | 021 Notion MCP Server            | 69c2a6082dd3db294f2b2211         | published |
+| 2026-03-24 | 022 Linear MCP Server            | 69c2a62fe04d9657c9c4ad1b         | published |
+| 2026-03-24 | 023 Grafana MCP Server           | 69c2a638eca6e8d28fdc2e17         | published |
+| 2026-03-24 | 024 Vercel MCP Server            | 69c2a6871de6ee963ff8e5b8         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com
