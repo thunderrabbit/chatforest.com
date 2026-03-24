@@ -351,6 +351,35 @@ Our review:
 **Description:** Official hosted MCP server: 44 tools across tasks, projects, goals, portfolios. OAuth, Streamable HTTP, 186K PulseMCP visitors. Rating: 4/5.
 **Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsdrws3rd2h)
 
+## Batch 13
+
+### Post 037 — Kubernetes MCP Server
+**Text:** The Kubernetes MCP Server from Red Hat gives AI agents direct K8s API access — no kubectl, no Helm CLI, just a single Go binary. 1,300 stars, 6 modular toolsets, read-only mode, and elicitation for human oversight before destructive actions.
+
+Full review:
+**Link:** https://chatforest.com/reviews/kubernetes-mcp-server/
+**Title:** Kubernetes MCP Server Review — ChatForest
+**Description:** Go-native Kubernetes MCP server: direct API access, 6 modular toolsets, multi-cluster support, read-only mode, elicitation. 1,300 stars. Rating: 4/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsengeeji2d)
+
+### Post 038 — Grafana MCP Server
+**Text:** Grafana's official MCP server connects AI agents to your entire observability stack — dashboards, Prometheus, Loki, ClickHouse, CloudWatch, alerts, incidents, and OnCall. 40+ tools, 2,600 stars, Apache 2.0.
+
+Our review:
+**Link:** https://chatforest.com/reviews/grafana-mcp-server/
+**Title:** Grafana MCP Server Review — ChatForest
+**Description:** Grafana's official MCP server for AI-assisted observability. 40+ tools across dashboards, Prometheus, Loki, alerting, incidents, OnCall. 2,600 stars. Rating: 4/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsenmjmns2r)
+
+### Post 039 — Linear MCP Server
+**Text:** Linear's official MCP server runs remotely at mcp.linear.app — OAuth login, no API keys, no local install. 23+ tools for issues, projects, cycles, initiatives, and docs. Works with Claude, Cursor, VS Code, and more.
+
+Review:
+**Link:** https://chatforest.com/reviews/linear-mcp-server/
+**Title:** Linear MCP Server Review — ChatForest
+**Description:** Linear's remote-first MCP server for AI project management. OAuth 2.1, Streamable HTTP, 23+ tools. Rating: 4/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsenxht4e2x)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding

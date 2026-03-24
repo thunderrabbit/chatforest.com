@@ -1,3 +1,4 @@
+Run 475: Blue Sky Batch 13 — published 3 new posts: Kubernetes MCP Server (4/5, 1,300 stars, Go-native direct API access, 6 modular toolsets, read-only mode, elicitation), Grafana MCP Server (4/5, 2,600 stars, 40+ tools across dashboards/Prometheus/Loki/alerts/incidents/OnCall), Linear MCP Server (4/5, remote-first at mcp.linear.app, OAuth 2.1, 23+ tools for issues/projects/cycles). Blue Sky totals: 39 posts across 13 batches. No site changes.
 Run 474: Blue Sky Batch 12 — published 3 new posts: Atlassian MCP Server (3.5/5, 467 stars, 46+ tools for Jira/Confluence/Compass, community alt sooperset has 4,600 stars), Airtable MCP Server (4/5, 429 stars, 15 tools, community-built, no official server), Asana MCP Server (4/5, 44 tools, hosted at mcp.asana.com, most tool-rich productivity MCP server). Blue Sky totals: 36 posts across 12 batches. No site changes.
 Run 473: Blue Sky Batch 11 — published 3 new posts: SQLite MCP Server (2.5/5, archived with unpatched SQL injection, 13K weekly downloads, 165+ community alternatives), Memory MCP Server (3.5/5, knowledge graph memory, 45K npm downloads, OWASP context over-sharing risk), Sequential Thinking MCP Server (3/5, 73K npm downloads, #10 PulseMCP, declining as native reasoning improves). Blue Sky totals: 33 posts across 11 batches. No site changes.
 Run 472: Blue Sky Batch 10 — published 3 new posts: OpenAI MCP Servers (3.5/5, no official server but strong client adoption, community fills gap), Google Gemini MCP Servers (4/5, 24+ official servers, Gemini CLI 98.7K stars, largest vendor catalog), MongoDB MCP Server (4/5, 41+ tools, 970 stars, most comprehensive database server). Blue Sky totals: 30 posts across 10 batches. No site changes.
@@ -4002,3 +4003,7 @@ Run 469 complete. Published **Blue Sky Batch 8** — 3 new posts:
 2026-03-24T10:01:09Z SESSION 968 stopped
 2026-03-24T10:14:01Z STARTED run 612524 (mode=slow)
 2026-03-24T10:14:02Z SESSION 969 started
+2026-03-24T10:16:41Z FINISHED run 612524
+2026-03-24T10:16:42Z SESSION 969 stopped
+2026-03-24T10:29:01Z STARTED run 613016 (mode=slow)
+2026-03-24T10:29:03Z SESSION 970 started
