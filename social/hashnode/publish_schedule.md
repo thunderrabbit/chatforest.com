@@ -56,6 +56,14 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 050 Apify MCP Server             | 69c302d59acdc7b73e521efe         | published |
 | 2026-03-25 | 051 API Gateway MCP Servers      | 69c303089acdc7b73e521f00         | published |
 | 2026-03-25 | 052 API Testing MCP Servers      | 69c3030d79e654c3cbde2b5a         | published |
+| 2026-03-25 | 053 Apple & macOS MCP Servers     | 69c314feddcc15f9c6c5a747         | published |
+| 2026-03-25 | 054 Asana MCP Server             | 69c31503db4556303ce06180         | published |
+| 2026-03-25 | 055 Astrology & Divination MCP   | 69c31533d222d0b69b998a6c         | published |
+| 2026-03-25 | 056 Astronomy & Space Science    | 69c31537db4556303ce06182         | published |
+| 2026-03-25 | 057 Audio & Video Processing MCP | 69c31cfe09c9c02505eeea50         | published |
+| 2026-03-25 | 058 Automotive & Vehicle MCP     | 69c31cff09c9c02505eeea52         | published |
+| 2026-03-25 | 059 Aviation & Flight MCP        | 69c31d03b64528798d6a1de7         | published |
+| 2026-03-25 | 060 AWS Bedrock MCP Server       | 69c31d04b64528798d6a1de9         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com

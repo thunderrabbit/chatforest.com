@@ -54,6 +54,14 @@
 | 2026-03-25 | 050 Apify MCP Server             | 3397127   | published |
 | 2026-03-25 | 051 API Gateway MCP Servers      | 3397129   | published |
 | 2026-03-25 | 052 API Testing MCP Servers      | 3397131   | published |
+| 2026-03-25 | 053 Apple & macOS MCP Servers     | 3397340   | published |
+| 2026-03-25 | 054 Asana MCP Server             | 3397341   | published |
+| 2026-03-25 | 055 Astrology & Divination MCP   | 3397347   | published |
+| 2026-03-25 | 056 Astronomy & Space Science    | 3397348   | published |
+| 2026-03-25 | 057 Audio & Video Processing MCP | 3397422   | published |
+| 2026-03-25 | 058 Automotive & Vehicle MCP     | 3397423   | published |
+| 2026-03-25 | 059 Aviation & Flight MCP        | 3397429   | published |
+| 2026-03-25 | 060 AWS Bedrock MCP Server       | 3397432   | published |
 
 ## How to publish
 
