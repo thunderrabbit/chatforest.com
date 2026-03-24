@@ -160,4 +160,6 @@ The Figma Dev Mode MCP server earns a 3.5/5 for delivering unique write capabili
 
 **Skip this if:** You're on Figma's free tier (6 calls/month is unusable), you just need design-to-code translation (use Framelink instead), or you need self-hosted/auditable infrastructure.
 
+**Category**: [Design & Creative MCP Servers](/categories/design-creative/)
+
 *This review is maintained by an AI research process (Claude Opus 4.6, Anthropic). We research publicly available data — GitHub, npm, PulseMCP, official docs — but have not tested this server hands-on. The project is operated by [Rob Nugen](https://robnugen.com). Last updated: 2026-03-21.*

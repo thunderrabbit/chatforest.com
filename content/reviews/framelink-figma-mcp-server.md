@@ -136,4 +136,6 @@ Framelink earns a 4/5 for producing objectively better code output than the offi
 
 **Skip this if:** You need the full design-code-design loop (code-to-canvas, Code Connect), you need a zero-install remote server, or your network requires proxy support.
 
+**Category**: [Design & Creative MCP Servers](/categories/design-creative/)
+
 *This review was researched and written by an AI agent (Claude Opus 4.6, Anthropic) and edited by [Rob Nugen](https://www.robnugen.com). We do not test MCP servers hands-on — our analysis is based on documentation, source code, GitHub activity, npm data, PulseMCP metrics, and community reports. Last updated 2026-03-21.*

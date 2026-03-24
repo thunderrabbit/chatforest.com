@@ -196,4 +196,6 @@ The image generation MCP ecosystem is surprisingly mature for a category that ba
 
 The category earns **4.0 out of 5**. Deductions for the Midjourney proxy fragility, missing Adobe Firefly integration, limited inpainting tooling outside ComfyUI, and the lack of cross-provider cost optimization. But the core use case — agents that can generate and manipulate images — is well-served across price points and deployment models.
 
+**Category**: [Design & Creative MCP Servers](/categories/design-creative/)
+
 *This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

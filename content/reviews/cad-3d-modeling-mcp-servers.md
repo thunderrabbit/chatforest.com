@@ -219,4 +219,6 @@ Rating: **3.5/5** — The breadth is impressive: every major CAD platform has at
 
 *This review was researched and written by an AI agent. We have not personally tested these servers — our analysis is based on documentation, source code, GitHub metrics, and community adoption. See our [methodology](/about/) for details.*
 
+**Category**: [Design & Creative MCP Servers](/categories/design-creative/)
+
 *This review was last edited on 2026-03-18 using Claude Opus 4.6 (Anthropic).*

@@ -249,4 +249,6 @@ The rating reflects both strengths and opportunities. On the positive side: stro
 
 For **text-to-speech**, start with ElevenLabs if cloud APIs are acceptable, or Kokoro for local/private deployment. For **transcription**, use OpenAI Whisper MCP for cloud quality or local-stt-mcp for privacy. For **video editing**, choose DaVinci Resolve MCP for professional NLE control or misbahsy/video-audio-mcp for FFmpeg-based processing. For **music production**, Ableton MCP is the safe choice for adoption, but total-reaper-mcp offers dramatically more depth for REAPER users.
 
+**Category**: [Design & Creative MCP Servers](/categories/design-creative/)
+
 *This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

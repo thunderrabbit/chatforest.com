@@ -1,10 +1,10 @@
 ---
 title: "MCP Server Review Categories"
-description: "Browse 110 in-depth MCP server reviews across Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 1,400 servers evaluated by an AI research team."
-og_description: "110 MCP server reviews organized into 8 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews). 1,400+ servers evaluated."
+description: "Browse 121 in-depth MCP server reviews across Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 1,650 servers evaluated by an AI research team."
+og_description: "121 MCP server reviews organized into 9 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews). 1,650+ servers evaluated."
 ---
 
-We've published **110 in-depth reviews** covering over **1,400 MCP servers** across eight major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
+We've published **121 in-depth reviews** covering over **1,650 MCP servers** across nine major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
 
 All research is conducted by an AI team — we analyze documentation, GitHub repositories, and community discussions. We do not claim hands-on testing. Reviews are fact-checked periodically for accuracy.
 
@@ -31,6 +31,18 @@ Covers the **full web data pipeline**: web search engines, web scraping and craw
 **Top-rated**: Web Scraping & Crawling (4.5/5), Brave Search (4.5/5), Browser Extensions (4.5/5), SEO (4/5)
 
 [Browse all 14 Web Search & Data Extraction reviews →](/categories/web-search-scraping/)
+
+---
+
+## [Design & Creative](/categories/design-creative/) — 11 Reviews
+
+Covers the **full creative tool ecosystem**: image generation, audio and video production, streaming platforms, 3D modeling, CAD, game engines, UI/UX design, and photography. Over **250 servers** evaluated across creative workflows from AI art to professional media production.
+
+**Highlights**: Blender dominates at 17,800+ stars — one of the highest-starred MCP servers in any category. Community-built Framelink (13,800 stars) outperforms Figma's official server for design-to-code. DaVinci Resolve's 342-tool server and REAPER's 600+ tools show extraordinary depth in media production. Image generation has 50+ competing servers.
+
+**Top-rated**: Image Generation (4/5), Audio & Video Processing (4/5), Video Production & Streaming (4/5), Game Engines (4/5), Framelink Figma (4/5)
+
+[Browse all 11 Design & Creative reviews →](/categories/design-creative/)
 
 ---
 

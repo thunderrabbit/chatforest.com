@@ -426,4 +426,6 @@ But if you're looking for AI-assisted interior design — "help me arrange furni
 
 **Rating: 4/5** — Outstanding CAD/3D tool coverage with strong community adoption. The Blender, Rhino, and AutoCAD ecosystems alone justify a high rating. Points deducted for the complete absence of interior design workflow tools, rendering engine integration, and building code compliance checking.
 
+**Category**: [Design & Creative MCP Servers](/categories/design-creative/)
+
 *This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

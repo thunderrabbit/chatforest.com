@@ -321,4 +321,6 @@ AI video generation is the most exciting growth area, with HeyGen's remote MCP (
 
 The weaknesses are the near-complete absence of alternative streaming platforms (Kick, Rumble), the lack of professional broadcast protocol management (SRT, RTMP, NDI), and missing video accessibility tools. The subtitle servers generate captions but none translate them, missing an obvious multilingual opportunity.
 
+**Category**: [Design & Creative MCP Servers](/categories/design-creative/)
+
 *This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*
