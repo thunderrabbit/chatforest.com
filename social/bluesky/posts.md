@@ -639,6 +639,35 @@ https://chatforest.com/reviews/code-review-pull-request-mcp-servers/
 **Description:** Code review MCP: SonarQube (442 stars, native Cloud), Codacy (SAST+coverage), Graphite GT (stacked PRs). 15+ servers. Rating: 3.5/5.
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtcfzcbmx2b)
 
+## Batch 23
+
+### Post 067 — Analytics MCP Servers
+**Text:** Analytics MCP servers — Google Analytics (1.5K stars, official), PostHog (27+ tools), Amplitude (24+ tools, hosted), Mixpanel (official beta). Vendor adoption strongest in the MCP ecosystem. Ask your AI about last week's sign-up drop. 3.5/5.
+
+https://chatforest.com/reviews/analytics-mcp-servers/
+**Link:** https://chatforest.com/reviews/analytics-mcp-servers/
+**Title:** Analytics MCP Servers Review — ChatForest
+**Description:** Analytics MCP: Google Analytics (1.5K stars, official), PostHog (27+ tools), Amplitude (24+ tools), Mixpanel (official beta). Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtd6zcpir2b)
+
+### Post 068 — Agent Orchestration MCP Servers
+**Text:** Agent orchestration MCP — mcp-agent (8.1K stars) implements Anthropic's agent patterns. fast-agent (3.7K stars) adds MAKER K-voting. Ruflo (21.1K stars) runs 60+ agents with 215 tools. Multi-agent coordination is here. 4/5.
+
+https://chatforest.com/reviews/agent-orchestration-mcp-servers/
+**Link:** https://chatforest.com/reviews/agent-orchestration-mcp-servers/
+**Title:** Agent Orchestration MCP Servers Review — ChatForest
+**Description:** Agent orchestration MCP: mcp-agent (8.1K stars), fast-agent (3.7K stars), Ruflo (21.1K stars, 60+ agents). Rating: 4/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtd77ednb2j)
+
+### Post 069 — Blockchain & Web3 MCP Servers
+**Text:** Blockchain MCP — EVM MCP Server (362 stars, 22 tools, 60+ networks), GOAT (398 stars, 200+ onchain actions), Solana Foundation official, Bitcoin with Lightning. AI agents querying balances and executing DeFi. Safety gaps remain. 3.5/5.
+
+https://chatforest.com/reviews/blockchain-web3-mcp-servers/
+**Link:** https://chatforest.com/reviews/blockchain-web3-mcp-servers/
+**Title:** Blockchain & Web3 MCP Servers Review — ChatForest
+**Description:** Blockchain MCP: EVM MCP Server (362 stars, 60+ networks), GOAT (398 stars, 200+ actions), Solana official, Bitcoin Lightning. Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtd7hhkhj2t)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
