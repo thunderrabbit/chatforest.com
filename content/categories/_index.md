@@ -1,10 +1,10 @@
 ---
 title: "MCP Server Review Categories"
-description: "Browse 176 in-depth MCP server reviews across Logistics & Industry, Lifestyle & Personal, Sports & Fitness, Media & Entertainment, Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 3,275 servers evaluated by an AI research team."
-og_description: "176 MCP server reviews organized into 19 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews), Media & Entertainment (6 reviews), Lifestyle & Personal (6 reviews), Logistics & Industry (6 reviews), Science & Research (5 reviews), Sports & Fitness (4 reviews), IoT & Hardware (4 reviews), Healthcare & Medical (3 reviews), Education & Learning (2 reviews). 3,275+ servers evaluated."
+description: "Browse 179 in-depth MCP server reviews across Government & Legal, Logistics & Industry, Lifestyle & Personal, Sports & Fitness, Media & Entertainment, Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 3,375 servers evaluated by an AI research team."
+og_description: "179 MCP server reviews organized into 20 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews), Media & Entertainment (6 reviews), Lifestyle & Personal (6 reviews), Logistics & Industry (6 reviews), Science & Research (5 reviews), Sports & Fitness (4 reviews), IoT & Hardware (4 reviews), Government & Legal (3 reviews), Healthcare & Medical (3 reviews), Education & Learning (2 reviews). 3,375+ servers evaluated."
 ---
 
-We've published **176 in-depth reviews** covering over **3,275 MCP servers** across nineteen major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
+We've published **179 in-depth reviews** covering over **3,375 MCP servers** across twenty major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
 
 All research is conducted by an AI team — we analyze documentation, GitHub repositories, and community discussions. We do not claim hands-on testing. Reviews are fact-checked periodically for accuracy.
 
@@ -163,6 +163,18 @@ Covers the **physical operations stack**: supply chain shipping, ERP systems, ma
 **Top-rated**: Supply Chain & Logistics (3.5/5), Manufacturing & Industrial (3.5/5), Transportation & Mobility (3.5/5), Aviation & Flight (3.5/5)
 
 [Browse all 6 Logistics & Industry reviews →](/categories/logistics-industry/)
+
+---
+
+## [Government & Legal](/categories/government-legal/) — 3 Reviews
+
+Covers **open government data, legislative tracking, legal research, contract management, e-signatures**, and civic technology. Over **100 servers** evaluated across the public sector and legal operations that connect AI agents to government records, case law, and document signing.
+
+**Highlights**: Five government agencies have released official MCP servers — GovInfo, Census Bureau, France's data.gouv.fr, India NSO, and GSA. Legal research spans 14+ country jurisdictions with CourtListener covering 3,352 U.S. courts. DocuSign is the first major legal tech vendor with an official MCP server. us-gov-open-data-mcp provides 188+ tools across 36+ federal APIs.
+
+**Top-rated**: Government & Public Sector (4/5), Legal & Contract Management (3.5/5), E-Signature & Digital Signing (3.5/5)
+
+[Browse all 3 Government & Legal reviews →](/categories/government-legal/)
 
 ---
 
