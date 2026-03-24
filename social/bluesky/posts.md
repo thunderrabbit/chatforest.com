@@ -322,6 +322,35 @@ Review:
 **Description:** Structured step-by-step reasoning for AI agents. Still popular (#10 globally) but downloads declining as built-in reasoning improves. Rating: 3/5.
 **Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhscvqpgzb2a)
 
+## Batch 12
+
+### Post 034 — Atlassian MCP Server
+**Text:** Atlassian's official Rovo MCP server gives AI agents access to Jira, Confluence, and Compass — 46+ tools, cloud-hosted OAuth 2.1, zero install. But a community server (sooperset) with 10x the stars and 72 tools may actually be the better choice.
+
+Our honest review:
+**Link:** https://chatforest.com/reviews/atlassian-mcp-server/
+**Title:** Atlassian MCP Server Review — ChatForest
+**Description:** Official Rovo MCP server: 467 stars, 46+ tools for Jira/Confluence/Compass. Cloud-hosted OAuth 2.1. Community alt has 4,600 stars. Rating: 3.5/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsdritp5h2q)
+
+### Post 035 — Airtable MCP Server
+**Text:** The Airtable MCP server gives AI agents full CRUD access to your bases — 15 tools for records, tables, fields, and comments. 429 stars, community-built (no official server despite 8,700+ views on the request thread). TypeScript, MIT.
+
+Full review:
+**Link:** https://chatforest.com/reviews/airtable-mcp-server/
+**Title:** Airtable MCP Server Review — ChatForest
+**Description:** Community-built MCP server: 15 tools for full Airtable database CRUD. 429 stars, TypeScript, MIT. No official server exists. Rating: 4/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsdrpttkc2s)
+
+### Post 036 — Asana MCP Server
+**Text:** Asana's official MCP server is the most tool-rich productivity server we've reviewed — 44 tools for tasks, projects, goals, portfolios, and teams. Hosted at mcp.asana.com, OAuth, zero install. V2 launched Feb 2026 with Streamable HTTP.
+
+Our review:
+**Link:** https://chatforest.com/reviews/asana-mcp-server/
+**Title:** Asana MCP Server Review — ChatForest
+**Description:** Official hosted MCP server: 44 tools across tasks, projects, goals, portfolios. OAuth, Streamable HTTP, 186K PulseMCP visitors. Rating: 4/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsdrws3rd2h)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
