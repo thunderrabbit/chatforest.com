@@ -12,6 +12,8 @@ Agent orchestration is where the MCP ecosystem gets ambitious. Instead of a sing
 
 The ecosystem splits into two philosophies: **workflow-centric** (define patterns like chain, parallel, router, and let the framework handle execution) and **swarm-centric** (deploy fleets of specialized agents that coordinate autonomously). Both are well-represented, with serious projects from LastMile AI, AWS Labs, and a remarkably ambitious community effort in Ruflo.
 
+**Category:** [AI & ML Tools](/categories/ai-ml-tools/)
+
 For individual task management and planning tools, see our [Workflow Automation](/reviews/workflow-automation-mcp-servers/) review. For AI model serving and inference, see our [AI/ML Model Serving](/reviews/ai-ml-model-serving-mcp-servers/) review. For configuration and infrastructure management, see our [Configuration Management](/reviews/configuration-management-mcp-servers/) review.
 
 ## Agent Frameworks & Workflow Engines (3+ servers)

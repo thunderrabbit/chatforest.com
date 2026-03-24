@@ -8,6 +8,8 @@ card_description: "AI and ML model serving MCP servers across model hubs, local 
 last_refreshed: 2026-03-15
 ---
 
+**Category:** [AI & ML Tools](/categories/ai-ml-tools/)
+
 AI and ML model serving is one of the most natural fits for MCP — AI agents that can search model registries, run inference on local or cloud models, track experiments, compare metrics, and manage ML workflows without leaving the conversation. ML MCP servers span four areas: **model hubs and inference platforms** (HuggingFace, Replicate, Ollama, LM Studio, OpenAI), **experiment tracking** (Weights & Biases, MLflow), **ML training** (PyTorch Lightning), and **cloud ML services** (AWS SageMaker, Bedrock).
 
 The headline finding: **the major ML platforms all have MCP server implementations**, but they vary enormously in scope and maturity. HuggingFace's official server is the most polished with Hub search, documentation, and Gradio Space execution. Ollama MCP provides the richest local inference integration. Weights & Biases has an official server with experiment querying and report generation. But no single server covers the full ML lifecycle from training through experiment tracking to deployment — you'll need to combine multiple servers for a complete workflow.

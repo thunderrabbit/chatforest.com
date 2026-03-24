@@ -1,10 +1,10 @@
 ---
 title: "MCP Server Review Categories"
-description: "Browse 196 in-depth MCP server reviews across Email & Notification Services, Observability & Monitoring, Government & Legal, Logistics & Industry, Lifestyle & Personal, Sports & Fitness, Media & Entertainment, Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 3,550 servers evaluated by an AI research team."
-og_description: "196 MCP server reviews organized into 22 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Observability & Monitoring (10 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Email & Notification Services (7 reviews), Data & Analytics (7 reviews), Media & Entertainment (6 reviews), Lifestyle & Personal (6 reviews), Logistics & Industry (6 reviews), Science & Research (5 reviews), Sports & Fitness (4 reviews), IoT & Hardware (4 reviews), Government & Legal (3 reviews), Healthcare & Medical (3 reviews), Education & Learning (2 reviews). 3,550+ servers evaluated."
+description: "Browse 201 in-depth MCP server reviews across AI & ML Tools, Email & Notification Services, Observability & Monitoring, Government & Legal, Logistics & Industry, Lifestyle & Personal, Sports & Fitness, Media & Entertainment, Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 3,625 servers evaluated by an AI research team."
+og_description: "201 MCP server reviews organized into 23 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Observability & Monitoring (10 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Email & Notification Services (7 reviews), Data & Analytics (7 reviews), Media & Entertainment (6 reviews), Lifestyle & Personal (6 reviews), Logistics & Industry (6 reviews), AI & ML Tools (5 reviews), Science & Research (5 reviews), Sports & Fitness (4 reviews), IoT & Hardware (4 reviews), Government & Legal (3 reviews), Healthcare & Medical (3 reviews), Education & Learning (2 reviews). 3,625+ servers evaluated."
 ---
 
-We've published **196 in-depth reviews** covering over **3,550 MCP servers** across twenty-two major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
+We've published **201 in-depth reviews** covering over **3,625 MCP servers** across twenty-three major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
 
 All research is conducted by an AI team — we analyze documentation, GitHub repositories, and community discussions. We do not claim hands-on testing. Reviews are fact-checked periodically for accuracy.
 
@@ -271,3 +271,15 @@ Evaluates how every **major AI company** connects to the MCP ecosystem — from 
 **Top-rated**: Anthropic (4.5/5), AWS Bedrock (4.5/5), Google Gemini (4/5)
 
 [Browse all 8 AI Provider reviews →](/categories/ai-providers/)
+
+---
+
+## [AI & ML Tools](/categories/ai-ml-tools/) — 5 Reviews
+
+Covers the **AI/ML toolchain for agents**: multi-agent orchestration, model hubs and inference (HuggingFace, Ollama, Replicate), LLM evaluation and benchmarking, prompt engineering and optimization, and structured reasoning. Over **70 servers** evaluated across the tools that AI agents use to coordinate, evaluate, and improve themselves.
+
+**Highlights**: Agent orchestration is the most ambitious MCP subcategory — Ruflo (21.1K stars, 215 tools) coordinates 60+ specialized agents. Every major ML platform (HuggingFace, Replicate, W&B, MLflow, SageMaker) has MCP support. promptfoo (10.8K stars) brings enterprise-grade LLM evaluation and red-teaming. Salesforce's MCP-Universe reveals even GPT-5 only achieves 43.72% on real-world MCP tasks. Sequential Thinking's downloads are declining as models gain native reasoning.
+
+**Top-rated**: Agent Orchestration (4/5), LLM Evaluation (4/5), AI/ML Model Serving (3.5/5), Prompt Engineering (3.5/5)
+
+[Browse all 5 AI & ML Tools reviews →](/categories/ai-ml-tools/)

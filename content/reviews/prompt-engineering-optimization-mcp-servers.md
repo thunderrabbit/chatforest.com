@@ -8,6 +8,8 @@ card_description: "Prompt engineering and optimization MCP servers across multi-
 last_refreshed: 2026-03-16
 ---
 
+**Category:** [AI & ML Tools](/categories/ai-ml-tools/)
+
 Prompt engineering is the skill layer between humans and LLMs — and it's one of the few areas where MCP servers can make every other MCP tool more effective. A good prompt optimization server doesn't just rewrite text; it applies research-backed techniques, manages template libraries, and can even route prompts across multiple LLM providers to find the best response.
 
 The ecosystem here is younger than most MCP categories. The highest-starred server (just-prompt, 718 stars) is really a multi-LLM router, and the dedicated optimization tools are mostly under 25 stars. But there are some genuinely useful approaches — from evolutionary prompt optimization to research-backed technique libraries implementing Tree of Thoughts, Constitutional AI, and DSPy patterns.

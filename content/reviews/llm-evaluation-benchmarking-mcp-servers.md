@@ -8,6 +8,8 @@ card_description: "LLM evaluation and benchmarking MCP servers across eval frame
 last_refreshed: 2026-03-16
 ---
 
+**Category:** [AI & ML Tools](/categories/ai-ml-tools/)
+
 LLM evaluation is one of the hardest problems in AI engineering — and the MCP ecosystem is developing serious tooling for it. This category spans everything from unit-testing LLM outputs to benchmarking how well agents use MCP tools, to red-teaming AI systems for security vulnerabilities.
 
 The ecosystem splits into two distinct problems: **evaluating LLM outputs** (is the response correct, relevant, safe?) and **evaluating MCP servers** (does this server work reliably? how well can agents use its tools?). Both are well-represented, with some genuinely impressive projects from Accenture, Salesforce, and ModelScope bringing research rigor to the benchmarking side.

@@ -9,6 +9,8 @@ card_description: "Anthropic's structured reasoning server for step-by-step prob
 last_refreshed: 2026-03-14
 ---
 
+**Category:** [AI & ML Tools](/categories/ai-ml-tools/)
+
 The Sequential Thinking MCP server (`@modelcontextprotocol/server-sequential-thinking`) is Anthropic's official reference implementation for structured AI reasoning. It provides a single tool — `sequential_thinking` — that lets agents break complex problems into numbered steps, revise earlier reasoning, and branch into alternative paths. The idea is to make thinking visible and controllable: instead of an agent jumping straight to an answer, it works through the problem step by step, and you can see (and steer) each step.
 
 **At a glance:** 81,600+ stars (monorepo), ~73K weekly npm downloads (declining from ~100K peak), v2025.12.18, 1 tool, Apache 2.0 license, ~66.5K weekly PulseMCP visitors (#10 globally, ~4.1M all-time).
