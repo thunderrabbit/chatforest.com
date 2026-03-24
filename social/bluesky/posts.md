@@ -697,6 +697,35 @@ https://chatforest.com/reviews/ai-ml-model-serving-mcp-servers/
 **Description:** ML model serving MCP: HuggingFace official, Ollama (14 tools), Replicate, W&B + MLflow. Rating: 3.5/5.
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtf2d2m462o)
 
+## Batch 25
+
+### Post 073 — Accessibility & a11y MCP Servers
+**Text:** Accessibility MCP servers — a11ymcp (78 stars, axe-core WCAG testing), mcp-accessibility-scanner (43 stars, Playwright), BrowserStack official (130 stars, 20+ tools). 3 color contrast checkers + 57 specialized agents. 3.5/5.
+
+https://chatforest.com/reviews/accessibility-a11y-mcp-servers/
+**Link:** https://chatforest.com/reviews/accessibility-a11y-mcp-servers/
+**Title:** Accessibility & a11y MCP Servers Review — ChatForest
+**Description:** Accessibility MCP: a11ymcp (78 stars, 6 tools), mcp-accessibility-scanner (43 stars, 15+ tools), BrowserStack (130 stars), color contrast checkers, WCAG remediation. Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtgxerrpb2t)
+
+### Post 074 — Accounting & Bookkeeping MCP Servers
+**Text:** Accounting MCP servers — Xero official (207 stars, 50+ tools), QuickBooks official (108 stars), Zoho Books (37 stars, 20+ tools), Ledger CLI (45 stars), Beancount (41 stars). Two major vendors with official servers. 4/5.
+
+https://chatforest.com/reviews/accounting-bookkeeping-mcp-servers/
+**Link:** https://chatforest.com/reviews/accounting-bookkeeping-mcp-servers/
+**Title:** Accounting & Bookkeeping MCP Servers Review — ChatForest
+**Description:** Accounting MCP: Xero official (207 stars, 50+ tools), QuickBooks official (108 stars), Zoho Books (37 stars), Ledger CLI (45 stars), Beancount (41 stars). Rating: 4/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtgxpsj3v2b)
+
+### Post 075 — Advertising & Ad-Tech MCP Servers
+**Text:** Ad-tech MCP servers — meta-ads-mcp (631 stars, 25 tools), mcp-google-ads (459 stars), Google official (286 stars), multi-platform servers spanning 9+ networks. One of the fastest-growing MCP categories. 4.5/5.
+
+https://chatforest.com/reviews/advertising-ad-tech-mcp-servers/
+**Link:** https://chatforest.com/reviews/advertising-ad-tech-mcp-servers/
+**Title:** Advertising & Ad-Tech MCP Servers Review — ChatForest
+**Description:** Ad-tech MCP: meta-ads-mcp (631 stars, 25 tools), mcp-google-ads (459 stars), Google official (286 stars), multi-platform (100-140+ tools). Rating: 4.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtgy2qjyc2t)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
