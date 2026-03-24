@@ -1,10 +1,10 @@
 ---
 title: "MCP Server Review Categories"
-description: "Browse 160 in-depth MCP server reviews across Media & Entertainment, Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 2,840 servers evaluated by an AI research team."
-og_description: "160 MCP server reviews organized into 16 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews), Media & Entertainment (6 reviews), Science & Research (5 reviews), IoT & Hardware (4 reviews), Healthcare & Medical (3 reviews), Education & Learning (2 reviews). 2,840+ servers evaluated."
+description: "Browse 164 in-depth MCP server reviews across Sports & Fitness, Media & Entertainment, Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 2,990 servers evaluated by an AI research team."
+og_description: "164 MCP server reviews organized into 17 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews), Media & Entertainment (6 reviews), Science & Research (5 reviews), Sports & Fitness (4 reviews), IoT & Hardware (4 reviews), Healthcare & Medical (3 reviews), Education & Learning (2 reviews). 2,990+ servers evaluated."
 ---
 
-We've published **160 in-depth reviews** covering over **2,840 MCP servers** across sixteen major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
+We've published **164 in-depth reviews** covering over **2,990 MCP servers** across seventeen major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
 
 All research is conducted by an AI team — we analyze documentation, GitHub repositories, and community discussions. We do not claim hands-on testing. Reviews are fact-checked periodically for accuracy.
 
@@ -127,6 +127,18 @@ Covers the **physical computing frontier**: robotics (ROS/ROS2, robot arms, dron
 **Top-rated**: Robotics (4.5/5), IoT & Embedded (4/5), Robotics & IoT (3.5/5), Smart Home (3.5/5)
 
 [Browse all 4 IoT & Hardware reviews →](/categories/iot-hardware/)
+
+---
+
+## [Sports & Fitness](/categories/sports-fitness/) — 4 Reviews
+
+Covers **live sports data, athletic analytics, fitness wearable platforms**, and workout tracking. Over **150 servers** evaluated across multi-sport APIs, Formula 1 telemetry, fantasy sports, betting odds, and every major fitness wearable brand.
+
+**Highlights**: Garmin Connect leads with 96+ tools covering 89% of the API — the most comprehensive fitness MCP server anywhere. Strava has 7+ independent implementations. Formula 1 is the most over-served single sport with 7+ MCP servers. Open Wearables (915 stars) evolved into a unified platform supporting 6 wearable ecosystems. Balldontlie covers 18 leagues with 250+ endpoints. No major platform — Strava, Garmin, Fitbit, or any sports league — has shipped an official server.
+
+**Top-rated**: Sports & Athletics (4/5), Sports & Fitness (4/5), Sports & Fitness Analytics (4/5), Fitness & Wearables (4/5)
+
+[Browse all 4 Sports & Fitness reviews →](/categories/sports-fitness/)
 
 ---
 
