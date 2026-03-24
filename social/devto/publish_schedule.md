@@ -26,6 +26,10 @@
 | 2026-03-24 | 022 Linear MCP Server            | 3395540   | published |
 | 2026-03-24 | 023 Grafana MCP Server           | 3395542   | published |
 | 2026-03-24 | 024 Vercel MCP Server            | 3395549   | published |
+| 2026-03-25 | 025 Chrome DevTools MCP Server   | 3396391   | published |
+| 2026-03-25 | 026 Context7 MCP Server          | 3396392   | published |
+| 2026-03-25 | 027 Airtable MCP Server          | 3396395   | published |
+| 2026-03-25 | 028 Atlassian MCP Server         | 3396396   | published |
 
 ## How to publish
 

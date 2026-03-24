@@ -28,6 +28,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-24 | 022 Linear MCP Server            | 69c2a62fe04d9657c9c4ad1b         | published |
 | 2026-03-24 | 023 Grafana MCP Server           | 69c2a638eca6e8d28fdc2e17         | published |
 | 2026-03-24 | 024 Vercel MCP Server            | 69c2a6871de6ee963ff8e5b8         | published |
+| 2026-03-25 | 025 Chrome DevTools MCP Server   | 69c2d35fa8f9bbfb28ece99a         | published |
+| 2026-03-25 | 026 Context7 MCP Server          | 69c2d364839c0ecc3ba8cc51         | published |
+| 2026-03-25 | 027 Airtable MCP Server          | 69c2d368839c0ecc3ba8cc53         | published |
+| 2026-03-25 | 028 Atlassian MCP Server         | 69c2d36d839c0ecc3ba8cc55         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com
