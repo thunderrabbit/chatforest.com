@@ -14,6 +14,8 @@ This review covers the **library, archive, and museum** vertical — reference m
 
 The headline findings: **Zotero is the most MCP-served application in this category** with 8+ implementations led by 54yyyu/zotero-mcp (1,800 stars, 13+ tools with vector semantic search). **eBook management has two paths** — direct EPUB/PDF handling via ebook-mcp (351 stars) or Calibre library bridging via 5+ implementations. **Five major museums have community MCP servers** but no museum has built an official one. **Traditional library systems (ILS, OPAC, MARC) have zero MCP presence** — a significant gap given how many libraries exist worldwide.
 
+**Category:** [Education & Learning](/categories/education-learning/)
+
 ## Reference Management (Zotero)
 
 ### 54yyyu/zotero-mcp

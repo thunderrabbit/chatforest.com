@@ -14,6 +14,8 @@ The landscape spans six areas: **property search & listings** (Airbnb, Zillow, M
 
 The headline findings: **Airbnb dominates by star count** — openbnb-org/mcp-server-airbnb (394 stars) is the most popular real estate MCP server by a wide margin, though it only covers vacation rentals. **No major real estate platform has an official MCP server** — Zillow, Realtor.com, Redfin, and Trulia are all absent, leaving community implementations to fill the gap. **The MLS industry is paying attention** — David Gumpper's UNLOCK MLS RESO Reference server represents the first standards-based MLS data access via MCP, built on Bridge Interactive's RESO Web API. **Mortgage document parsing exists** — confersolutions/mcp-mortgage-server converts Loan Estimates and Closing Disclosures into MISMO-compliant JSON. **Regional diversity is remarkable** — servers exist for Korean, Australian, Swedish, French, Spanish, Philippine, and Russian property markets. **The biggest gap is commercial real estate** — no CoStar, LoopNet, CREXi, or commercial listing servers exist.
 
+**Category:** [Finance & Fintech](/categories/finance-fintech/)
+
 ## Property Search & Listings
 
 ### mcp-server-airbnb (openbnb-org)

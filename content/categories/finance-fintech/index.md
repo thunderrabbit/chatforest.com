@@ -1,12 +1,12 @@
 ---
-title: "Finance & Fintech MCP Servers — 10 Reviews Covering Payments, E-Commerce, Cryptocurrency, Personal Finance, Accounting, Tax, and Blockchain"
+title: "Finance & Fintech MCP Servers — 13 Reviews Covering Payments, E-Commerce, Cryptocurrency, Personal Finance, Accounting, Tax, Blockchain, Insurance, and Real Estate"
 date: 2026-03-24T23:30:00+09:00
-description: "Comprehensive reviews of 10 Finance & Fintech MCP server categories and individual servers — from Stripe and PayPal to Shopify's e-commerce ecosystem, cryptocurrency exchanges, personal finance tools, accounting platforms, and tax compliance. 300+ servers evaluated across the financial tool ecosystem."
-og_description: "10 Finance & Fintech MCP server reviews covering payments, e-commerce, Shopify, cryptocurrency, DeFi, personal finance, accounting, tax, and blockchain. 300+ servers evaluated."
+description: "Comprehensive reviews of 13 Finance & Fintech MCP server categories and individual servers — from Stripe and PayPal to Shopify's e-commerce ecosystem, cryptocurrency exchanges, personal finance tools, accounting platforms, tax compliance, insurance, and real estate. 350+ servers evaluated across the financial tool ecosystem."
+og_description: "13 Finance & Fintech MCP server reviews covering payments, e-commerce, Shopify, cryptocurrency, DeFi, personal finance, accounting, tax, blockchain, insurance, and real estate. 350+ servers evaluated."
 content_type: "Category"
 ---
 
-We've reviewed **9 categories** of Finance & Fintech MCP servers, evaluating over **300 individual servers** across payments, e-commerce, cryptocurrency, personal finance, accounting, tax compliance, and blockchain. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
+We've reviewed **13 categories** of Finance & Fintech MCP servers, evaluating over **350 individual servers** across payments, e-commerce, cryptocurrency, personal finance, accounting, tax compliance, blockchain, insurance, and real estate. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
 
 Finance is one of the most commercially mature MCP categories. Payment giants (Stripe, PayPal, Square) have all shipped official servers. Crypto and DeFi ecosystems are exploding with community tooling. The pattern is clear: financial operations that once required custom API integrations are becoming accessible through MCP — giving AI agents the ability to process payments, manage invoices, trade assets, and analyze financial data.
 
@@ -56,3 +56,20 @@ Shopify's MCP strategy is the most ambitious in e-commerce — with an official 
 | Review | Rating | Key Stats |
 |--------|--------|-----------|
 | [Shopify MCP Servers](/reviews/shopify-mcp-servers/) | 3.5/5 | Dev MCP (488 stars, official, 8 tools), Storefront MCP (official, zero-auth), 10+ community Admin API servers, Agentic Storefronts initiative |
+
+## Insurance & InsurTech
+
+Insurance platforms connecting AI agents to underwriting, claims processing, and policy management. The category spans commercial platforms (Socotra, Root, Sure) and open-source tools.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Insurance & InsurTech](/reviews/insurance-insurtech-mcp-servers/) | 3.5/5 | Root Platform MCP (official), Socotra (commercial, most mature), Apify Underwriting Intelligence (8 actors), ClaimsProcessingAssistant-MCP — 15+ servers |
+| [Insurance MCP Servers](/reviews/insurance-mcp-servers/) | 3/5 | ClaimsProcessingAssistant-MCP (TypeScript, Supabase), AWS sample insurance underwriting (6 tools), Socotra, Sure, One Inc — 15+ servers |
+
+## Real Estate & Property
+
+Property platforms connecting AI agents to listings, valuations, and property management across Zillow, Airbnb, MLS, and BatchData.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Real Estate & Property](/reviews/real-estate-property-mcp-servers/) | 3.5/5 | mcp-server-airbnb (394 stars), zillow-mcp-server (31 stars), BatchData (27 stars), real-estate-mcp (26 stars, 30+ tools) — 30+ servers |

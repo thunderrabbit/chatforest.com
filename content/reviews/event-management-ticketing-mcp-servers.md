@@ -14,6 +14,8 @@ This review covers the **event management and ticketing** vertical — calendar 
 
 The headline finding: **calendaring dominates**, with Google Calendar's nspady/google-calendar-mcp reaching 1,100 stars. But outside calendaring, the category lacks the official vendor participation seen in other verticals — no Ticketmaster, Eventbrite, or Live Nation official servers exist.
 
+**Category:** [Business & Productivity](/categories/business-productivity/)
+
 ## Calendar & Scheduling
 
 ### Google Calendar MCP

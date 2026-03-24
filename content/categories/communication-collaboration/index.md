@@ -1,12 +1,12 @@
 ---
-title: "Communication & Collaboration MCP Servers — 14 Reviews Covering Messaging, Email, Project Management, and More"
+title: "Communication & Collaboration MCP Servers — 15 Reviews Covering Messaging, Email, Project Management, Social Networking, and More"
 date: 2026-03-24T22:00:00+09:00
-description: "Comprehensive reviews of 14 Communication & Collaboration MCP server categories — from Slack and Teams to Gmail, Linear, Zoom, and Twilio. 200+ servers evaluated across workplace messaging, email, project management, calendars, video conferencing, and telecommunications."
-og_description: "14 Communication & Collaboration MCP server reviews covering Slack, Teams, Discord, Gmail, Outlook, Linear, Asana, Notion, Zoom, Google Calendar, and more. 200+ servers evaluated."
+description: "Comprehensive reviews of 15 Communication & Collaboration MCP server categories — from Slack and Teams to Gmail, Linear, Zoom, Twilio, and social networking platforms. 250+ servers evaluated across workplace messaging, email, project management, calendars, video conferencing, social networking, and telecommunications."
+og_description: "15 Communication & Collaboration MCP server reviews covering Slack, Teams, Discord, Gmail, Outlook, Linear, Asana, Notion, Zoom, Google Calendar, social networking, and more. 250+ servers evaluated."
 content_type: "Category"
 ---
 
-We've reviewed **14 categories** of Communication & Collaboration MCP servers, evaluating over **200 individual servers** across workplace messaging, email, project management, calendars, video conferencing, and telecommunications. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
+We've reviewed **15 categories** of Communication & Collaboration MCP servers, evaluating over **250 individual servers** across workplace messaging, email, project management, calendars, video conferencing, social networking, and telecommunications. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
 
 This is the most vendor-active category we've reviewed. Slack, Microsoft, Linear, Asana, and Notion all ship official MCP servers — a sharp contrast to categories like [Databases](/categories/databases/) where community servers dominate.
 
@@ -68,11 +68,19 @@ The infrastructure layer — SMS, voice, WhatsApp, Telegram through CPaaS platfo
 | [Telecom & Communications](/reviews/telecommunications-communications-mcp-servers/) | 4/5 | Twilio, Telnyx, Vonage, Sinch, Plivo, Cisco Meraki, NetBox |
 | [Telecom & Messaging](/reviews/telecommunications-messaging-mcp-servers/) | 4.5/5 | SMS, Voice, WhatsApp, Telegram — CPaaS and unified communications |
 
+## Social Networking & Community
+
+The platforms where online communities form and interact — from Twitter/X and Bluesky to Reddit, Discord, Mastodon, and LinkedIn.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Social Networking & Community](/reviews/social-networking-community-mcp-servers/) | 4.5/5 | twitter-mcp (373 stars), mcp-twitter-server (53 tools), bluesky-mcp (official repo), mcp-linkedin (177 stars), discord-mcp (134 tools) — 50+ servers |
+
 ---
 
 ## Category Overview
 
-**14 reviews. 200+ servers. Average rating: 3.7/5.**
+**15 reviews. 250+ servers. Average rating: 3.7/5.**
 
 ### What stands out
 

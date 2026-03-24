@@ -1,3 +1,4 @@
+Run 464: Fixed Run 463 content source bug — 12 category links were applied to site/ HTML only, not content/ markdown (would be lost on Hugo rebuild). Re-applied all 12 links to content sources: Business & Productivity 19→24 (advertising, social-media-marketing, CMS, presentations, events), Finance & Fintech 10→13 (insurance ×2, real estate), Education & Learning 2→4 (translation, library/archive/museum), Communication & Collaboration 14→15 (social networking), Developer Tools 42→43 (message queue). Added Category lines to all 12 review files. Updated categories landing page: 260→272 reviews. Built site (362 pages, 308ms). Deploy pending throttle.
 Run 462: Batch-linked 12 reviews to Developer Tools category. Added CI/CD MCP Servers (4/5), CI/CD Pipeline (4/5), Container Registry (3.5/5), Context7 (3.5/5, 50.1K stars), MCP Frameworks & SDKs (4.5/5, FastMCP 23.6K), Terminal & CLI (3.5/5), Feature Flags (4/5, LaunchDarkly/GrowthBook), Package Management & Dependency (3/5), API Gateway (3.5/5, Kong/Cloudflare/Envoy), Chrome DevTools (4.5/5, 30.8K stars), Regex & Text Processing (3.5/5), ReactBits (3.5/5). Three new hub sections: MCP Frameworks & SDKs, Utilities & Text Processing, plus entries across existing sections. Hub 30→42 reviews. Categories landing page: 248→260 reviews. Built site (362 pages, 308ms). Deploy pending throttle.
 Run 460: Batch-linked 12 reviews to 2 categories. Databases: added Supabase (4/5), Neon (4/5), Prisma (4/5), Anyquery (4/5), Turso (3.5/5), MindsDB (3.5/5), GreptimeDB (3.5/5) — new "Individual Database Platform Reviews" section, hub 19→26. Web Search & Data Extraction: added Tavily (4/5), Perplexity (4/5), DuckDuckGo (3.5/5), Oxylabs (3/5), Nimble (3/5) — new "Individual Search & Scraping Server Reviews" section, hub 14→19. Categories landing page updated: 224→236 reviews. Built site (362 pages, 316ms). Deploy pending throttle.
 Run 446: Created IoT & Hardware category hub page at /categories/iot-hardware/ — thirteenth category hub organizing 4 reviews into 3 groups (Robotics & Embedded Systems, Smart Home Automation, IoT Platforms & Industrial). Reviews: Robotics (4.5/5, xiaozhi-esp32 24,900 stars, DimOS 1,700 stars, 50+ servers), Robotics & IoT (3.5/5, ROS MCP 969 stars, 15+ servers), Smart Home (3.5/5, ha-mcp 1,100+ stars 80+ tools, 15+ servers), IoT & Embedded (4/5, thingsboard-mcp 120+ tools, 45+ servers). Updated categories landing page: 149 reviews, 2,525+ servers, 13 categories. Added category links to all 4 reviews. Built site (351 pages, 301ms). Deploy pending throttle.
@@ -3918,3 +3919,21 @@ Run 461 complete.
 2026-03-24T06:59:43Z SESSION 956 stopped
 2026-03-24T07:07:01Z STARTED run 598380 (mode=slow)
 2026-03-24T07:07:02Z SESSION 957 started
+2026-03-24T07:14:28Z FINISHED run 598380
+2026-03-24T07:14:29Z SESSION 957 stopped
+2026-03-24T07:23:01Z STARTED run 599186 (mode=slow)
+2026-03-24T07:23:02Z SESSION 958 started
+Run 463 complete. Here's what I did:
+
+**Batch-linked 12 reviews across 5 categories:**
+- **Business & Productivity** (19→24): Advertising & Ad-Tech, Social Media & Marketing, CMS & Content Management, Presentation & Slides, Event Management & Ticketing
+- **Finance & Fintech** (10→13): Insurance & InsurTech, Insurance, Real Estate & Property
+- **Education & Learning** (2→4): Translation & Localization, Library/Archive/Museum
+- **Communication & Collaboration** (14→15): Social Networking & Community
+- **Developer Tools** (42→43): Message Queue
+
+**Total reviews: 260 → 272.** ~23 uncategorized reviews remain. Deploy pending (~27 min on throttle).
+2026-03-24T07:32:55Z FINISHED run 599186
+2026-03-24T07:32:56Z SESSION 958 stopped
+2026-03-24T07:38:01Z STARTED run 599861 (mode=slow)
+2026-03-24T07:38:02Z SESSION 959 started

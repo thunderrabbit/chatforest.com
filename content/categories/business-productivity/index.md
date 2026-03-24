@@ -1,12 +1,12 @@
 ---
-title: "Business & Productivity MCP Servers — 19 Reviews Covering CRM, ERP, HR, Marketing, Office Suites, Knowledge Management, Scheduling, Workflow Automation, and Desktop RPA"
+title: "Business & Productivity MCP Servers — 24 Reviews Covering CRM, ERP, HR, Marketing, Advertising, CMS, Office Suites, Knowledge Management, Scheduling, Workflow Automation, Events, and Desktop RPA"
 date: 2026-03-24T23:45:00+09:00
-description: "Comprehensive reviews of 19 Business & Productivity MCP server categories and individual servers — from CRM and customer support to ERP, HR, marketing automation, office suites, knowledge management, calendar scheduling, workflow orchestration, and desktop automation. 300+ servers evaluated across the business tool ecosystem."
-og_description: "19 Business & Productivity MCP server reviews covering CRM, customer support, ERP, HR, marketing, office suites, spreadsheets, note-taking, calendar scheduling, workflow automation, and desktop RPA. 300+ servers evaluated."
+description: "Comprehensive reviews of 24 Business & Productivity MCP server categories and individual servers — from CRM and customer support to ERP, HR, marketing automation, advertising, CMS, office suites, knowledge management, calendar scheduling, workflow orchestration, event management, and desktop automation. 400+ servers evaluated across the business tool ecosystem."
+og_description: "24 Business & Productivity MCP server reviews covering CRM, customer support, ERP, HR, marketing, advertising, CMS, office suites, spreadsheets, note-taking, calendar scheduling, workflow automation, event management, and desktop RPA. 400+ servers evaluated."
 content_type: "Category"
 ---
 
-We've reviewed **19 categories and individual servers** in the Business & Productivity space, evaluating over **300 individual servers** across CRM, customer support, ERP, HR, marketing automation, office suites, knowledge management, scheduling, workflow orchestration, and desktop automation. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
+We've reviewed **24 categories and individual servers** in the Business & Productivity space, evaluating over **400 individual servers** across CRM, customer support, ERP, HR, marketing automation, advertising, CMS, office suites, knowledge management, scheduling, workflow orchestration, event management, and desktop automation. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
 
 Business & Productivity is the broadest MCP category — spanning every stage from lead generation to customer support, and every tool from spreadsheets to enterprise resource planning. The pattern is clear: vendors are racing to ship official MCP servers. Salesforce, Zapier, Make, Notion, Xero, and Kestra all have official integrations. Community servers fill the gaps where vendors haven't moved yet, particularly for platforms like Obsidian and Airtable.
 
@@ -86,3 +86,29 @@ Desktop automation fundamentally expands what AI agents can do beyond API calls.
 | Review | Rating | Key Stats |
 |--------|--------|-----------|
 | [Desktop Automation & RPA](/reviews/desktop-automation-rpa-mcp-servers/) | 4/5 | 30+ servers, Playwright (28.9K stars), Windows-MCP (4.7K stars), BrowserMCP (6.1K stars), macOS 200+ AppleScript recipes |
+
+## Marketing & Advertising
+
+Digital advertising and social media marketing tools that connect AI agents to campaign management, ad performance analytics, and content distribution across major platforms.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Advertising & Ad-Tech](/reviews/advertising-ad-tech-mcp-servers/) | 4.5/5 | meta-ads-mcp (631 stars, 25 tools), mcp-google-ads (459 stars), google-ads-mcp (286 stars, official), ads-mcp (100+ tools across 4 platforms) — 30+ servers |
+| [Social Media & Marketing](/reviews/social-media-marketing-mcp-servers/) | 3.5/5 | twitter-mcp (375 stars), meta-ads-mcp (628 stars), mcp-youtube (503 stars), seo-mcp (224 stars), tiktok-mcp (137 stars) — 40+ servers |
+
+## Content & Document Management
+
+CMS platforms that let AI agents create, edit, and publish content across WordPress, Ghost, Webflow, Contentful, Sanity, and Strapi.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [CMS & Content Management](/reviews/cms-content-management-mcp-servers/) | 4.5/5 | WordPress/mcp-adapter (663 stars, official), Ghost MCP (156 stars, 50+ tools), Webflow (107 stars), Contentful (47 stars, official), Sanity remote MCP — 35+ servers |
+
+## Event Management
+
+Calendar, scheduling, and event platforms that connect AI agents to ticketing, event coordination, and venue management.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Presentation & Slides](/reviews/presentation-slides-mcp-servers/) | 3.5/5 | presenton (4,300 stars), Office-PowerPoint-MCP (1,300 stars), google_workspace_mcp (1,400 stars), mcp-server-ppt (204 operations) — 20+ servers |
+| [Event Management & Ticketing](/reviews/event-management-ticketing-mcp-servers/) | 3.5/5 | google-calendar-mcp (1,100 stars), mcp-ical (278 stars), mcp-server-ticketmaster (23 stars), natural language macOS Calendar — 35+ servers |

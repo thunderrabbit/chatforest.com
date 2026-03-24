@@ -14,6 +14,8 @@ The landscape divides into five areas: **claims processing** (ClaimsProcessingAs
 
 The headline findings: **commercial vendors are leading the charge** — Socotra, Sure, and One Inc have all shipped production MCP implementations, making insurance one of the most commercially-invested vertical MCP categories. **Open source is embryonic** — most community projects have near-zero stars and are individual experiments rather than production tools. **Underwriting is the hottest subvertical** — multiple implementations target risk assessment specifically. **The gap between enterprise and community is wider than any other category we've reviewed** — there's essentially no middle ground between vendor-locked commercial platforms and single-developer hobby projects.
 
+**Category:** [Finance & Fintech](/categories/finance-fintech/)
+
 ## Claims Processing
 
 ### ClaimsProcessingAssistant-MCP

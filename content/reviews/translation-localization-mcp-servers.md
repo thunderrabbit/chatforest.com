@@ -14,6 +14,8 @@ The landscape spans five areas: **translation API wrappers** (DeepL leads with t
 
 The headline findings: **DeepL's official server is the most popular translation MCP server** at 95 stars with text, document, and glossary support. **Crowdin's hosted MCP server exposes 200+ tools** — one of the largest tool counts in any MCP category. **Intlayer leads developer i18n tools by stars** (627) with per-component internationalization across React, Next.js, Vue, and Svelte. **Lara Translate uniquely offers full translation memory management** through MCP. **Google Cloud Translation has no MCP server** despite Google's broad MCP investment elsewhere. **Most TMS servers are official vendor implementations** — a refreshing contrast with categories where fragmented community servers dominate.
 
+**Category:** [Education & Learning](/categories/education-learning/)
+
 ## Translation API Servers
 
 ### DeepLcom/deepl-mcp-server (Most Popular)

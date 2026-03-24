@@ -1,12 +1,12 @@
 ---
-title: "Developer Tools MCP Servers — 42 Reviews Covering the Full Development Lifecycle"
+title: "Developer Tools MCP Servers — 43 Reviews Covering the Full Development Lifecycle"
 date: 2026-03-24T20:00:00+09:00
-description: "Comprehensive reviews of 42 Developer Tools MCP server categories and individual servers — from source control to debugging, CI/CD to API gateways, frameworks & SDKs to component libraries, plus deep-dives on Context7, Chrome DevTools, Salesforce DX, and Shopify Dev. 350+ servers evaluated across the full software development lifecycle."
-og_description: "42 Developer Tools MCP server reviews covering source control, CI/CD, containers, registries, API gateways, feature flags, frameworks, terminal tools, security, monitoring, and more. 350+ servers evaluated."
+description: "Comprehensive reviews of 43 Developer Tools MCP server categories and individual servers — from source control to debugging, CI/CD to API gateways, message queues, frameworks & SDKs to component libraries, plus deep-dives on Context7, Chrome DevTools, Salesforce DX, and Shopify Dev. 375+ servers evaluated across the full software development lifecycle."
+og_description: "43 Developer Tools MCP server reviews covering source control, CI/CD, containers, registries, API gateways, message queues, feature flags, frameworks, terminal tools, security, monitoring, and more. 375+ servers evaluated."
 content_type: "Category"
 ---
 
-We've reviewed **42 categories and individual servers** in the Developer Tools space, evaluating over **350 individual servers** across the full software development lifecycle. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
+We've reviewed **43 categories and individual servers** in the Developer Tools space, evaluating over **375 individual servers** across the full software development lifecycle. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
 
 Every review includes a **cross-category comparison table** so you can see how maturity varies across the Developer Tools landscape at a glance.
 
@@ -122,6 +122,14 @@ Pattern matching, format conversion, diffing, and text transformation tools.
 |--------|--------|-------------|
 | [Regex & Text Processing](/reviews/regex-text-processing-mcp-servers/) | 3.5/5 | 30+ servers — markdownify-mcp (2.4K stars), mcp-pandoc (507 stars), DeepL (95 stars, official), markitdown (82K-star project) |
 
+## Message Queues & Event Streaming
+
+Distributed messaging infrastructure that connects AI agents to Kafka, RabbitMQ, NATS, SQS, and Pub/Sub.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Message Queue](/reviews/message-queue-mcp-servers/) | 3.5/5 | Confluent (37+ tools, official), Google Pub/Sub (official remote, OAuth), AWS SQS/SNS (official, IAM), RabbitMQ (official), Redis Streams (official) — 25+ servers |
+
 ## Individual Platform Developer Tool Reviews
 
 Deep-dives on MCP servers that bring AI-powered development to specific platforms. Salesforce DX leads with 60+ tools across 15 toolsets — one of the most comprehensive platform-specific MCP servers anywhere. Shopify Dev provides the first official e-commerce developer MCP with live schema introspection.
@@ -135,7 +143,7 @@ Deep-dives on MCP servers that bring AI-powered development to specific platform
 
 ## Category Overview
 
-Across all 42 reviews, key themes emerge:
+Across all 43 reviews, key themes emerge:
 
 **Vendor commitment is accelerating.** GitHub, Docker, Hashicorp, Playwright, Apollo, Datadog, Sentry, SonarQube, Postman, LaunchDarkly, GrowthBook, Kong, and Google all ship official MCP servers. This was not the case even six months ago.
 

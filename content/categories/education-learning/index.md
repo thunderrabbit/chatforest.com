@@ -1,12 +1,12 @@
 ---
-title: "Education & Learning MCP Servers — 2 Reviews Covering LMS Platforms, EdTech Tools, Flashcards, Academic Research, and Coding Education"
+title: "Education & Learning MCP Servers — 4 Reviews Covering LMS Platforms, EdTech Tools, Translation, Libraries, Archives, Flashcards, Academic Research, and Coding Education"
 date: 2026-03-25T02:00:00+09:00
-description: "Comprehensive reviews of 2 Education & Learning MCP server categories — covering Canvas LMS, Moodle, Google Classroom, Anki, LeetCode, arXiv, academic research tools, and STEM computation. 60+ servers evaluated across the education ecosystem."
-og_description: "2 Education & Learning MCP server reviews covering LMS platforms, flashcards, academic research, coding education, and STEM tools. 60+ servers evaluated."
+description: "Comprehensive reviews of 4 Education & Learning MCP server categories — covering Canvas LMS, Moodle, Google Classroom, Anki, LeetCode, arXiv, translation and localization, libraries and archives, academic research tools, and STEM computation. 120+ servers evaluated across the education ecosystem."
+og_description: "4 Education & Learning MCP server reviews covering LMS platforms, translation, libraries, archives, flashcards, academic research, coding education, and STEM tools. 120+ servers evaluated."
 content_type: "Category"
 ---
 
-We've reviewed **2 categories** of Education & Learning MCP servers, evaluating over **60 individual servers** across learning management systems, flashcard apps, academic research databases, coding education, assessment platforms, and STEM computation tools. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
+We've reviewed **4 categories** of Education & Learning MCP servers, evaluating over **120 individual servers** across learning management systems, flashcard apps, academic research databases, coding education, assessment platforms, translation, libraries, archives, museums, and STEM computation tools. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
 
 Education is where MCP meets institutional infrastructure. Canvas LMS dominates with more MCP implementations than any other education platform — at least six independent servers, led by vishalsachdev/canvas-mcp (90+ tools with FERPA-compliant data anonymization) and DMontgomery40/mcp-canvas-lms (89 stars, 54 tools). Academic research tools are the strongest subcategory — arXiv MCP (2,400 stars) and paper-search-mcp (791 stars, 7 platforms) provide deep scholarly access. Anki leads spaced repetition with 179 stars and 27 tools. The biggest signal: Instructure (Canvas vendor) announced IgniteAgent with MCP as its integration standard — the first major LMS vendor to officially adopt the protocol.
 
@@ -20,6 +20,22 @@ The education ecosystem is fragmented but surprisingly deep. Canvas LMS has the 
 |--------|--------|-------------|
 | [Education & EdTech](/reviews/education-edtech-mcp-servers/) | 3.5/5 | DMontgomery40/mcp-canvas-lms (89 stars, 54 tools), vishalsachdev/canvas-mcp (75 stars, 90+ tools, FERPA), ankimcp/anki-mcp-server (179 stars, 20+ tools), arXiv MCP (2,400 stars), paper-search-mcp (791 stars, 7 platforms), Udemy Business (official), EduBase (24 stars) — 30+ servers |
 | [Education & LMS](/reviews/education-lms-mcp-servers/) | 3.5/5 | vishalsachdev/canvas-mcp (90+ tools, FERPA bulk grading), DMontgomery40/mcp-canvas-lms (60 stars, 54 tools), ankimcp/anki-mcp-server (27 tools), jinzcdev/leetcode-mcp-server (57+ stars, dual LeetCode), Moodle (27 stars, read/write), EduBase (SCORM, cheating detection) — 30+ servers |
+
+## Translation & Localization
+
+Translation and localization platforms that connect AI agents to multilingual content workflows — from real-time translation to full i18n pipeline management.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Translation & Localization](/reviews/translation-localization-mcp-servers/) | 3.5/5 | DeepL (95 stars, official), lara-mcp (79 stars), intlayer (627 stars), Crowdin (official hosted, 200+ tools), Phrase (65 tools) — 25+ servers |
+
+## Libraries, Archives & Museums
+
+Cultural heritage and knowledge institutions connected through MCP — reference management, ebook libraries, digital archives, and museum collections.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Library, Archive & Museum](/reviews/library-archive-museum-mcp-servers/) | 3.5/5 | zotero-mcp (1,800 stars), ebook-mcp (351 stars), mcp-open-library (62 stars), rijksmuseum-mcp (65 stars, 7 tools), mcp-wayback-machine — 35+ servers |
 
 ## Notable Gaps
 

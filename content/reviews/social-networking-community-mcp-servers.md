@@ -14,6 +14,8 @@ This review covers the **social networking and community** vertical — Twitter/
 
 The headline findings: **Twitter/X has 8+ independent MCP servers** — the most of any social platform. **Bluesky is featured in the official MCP repo**. **Discord has 134+ admin tools** in a single server. **LinkedIn covers feeds and jobs** with 177 stars. **Reddit has 6+ implementations** including zero-config options. **The Fediverse gets proper ActivityPub support**. This is one of the deepest MCP categories we've reviewed.
 
+**Category:** [Communication & Collaboration](/categories/communication-collaboration/)
+
 ## Twitter / X
 
 ### EnesCinr/twitter-mcp (Most Popular)

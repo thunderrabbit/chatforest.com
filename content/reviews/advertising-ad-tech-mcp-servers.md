@@ -14,6 +14,8 @@ This review covers the **advertising and ad-tech** vertical — Google Ads, Meta
 
 The headline findings: **Meta Ads has the most popular single server** — pipeboard-co/meta-ads-mcp at 631 stars with 25 tools for full campaign lifecycle management. **Google Ads has the deepest ecosystem** — 8+ servers including an official one from Google. **Multi-platform servers are emerging fast** — ads-mcp covers 4 networks while synter-mcp-server spans 9. **The biggest gaps: no dedicated Amazon Ads server and no cross-platform attribution.**
 
+**Category:** [Business & Productivity](/categories/business-productivity/)
+
 ---
 
 ## Google Ads

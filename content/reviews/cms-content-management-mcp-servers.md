@@ -14,6 +14,8 @@ The landscape covers five areas: **WordPress** (the only major CMS with native c
 
 The headline findings: **WordPress is pioneering CMS-level AI integration** — the Abilities API shipping in WP 6.9 lets any plugin register capabilities that the MCP adapter automatically exposes as tools. **Headless CMS platforms are leading in remote MCP deployment** — Sanity and Contentful offer hosted servers requiring zero local setup. **Ghost has the most comprehensive single-server implementation** — 50+ tools covering posts, members, newsletters, tiers, offers, and webhooks. **Official support is unusually strong in this category** — WordPress, Contentful, Sanity, Directus, Webflow, and Storyblok all have official or official-adjacent MCP servers. **WooCommerce extends the pattern to e-commerce** with native MCP integration in WooCommerce 10.3+.
 
+**Category:** [Business & Productivity](/categories/business-productivity/)
+
 ## WordPress
 
 ### WordPress/mcp-adapter (Official — Abilities API Bridge)

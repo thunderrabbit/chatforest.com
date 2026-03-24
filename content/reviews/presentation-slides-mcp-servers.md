@@ -14,6 +14,8 @@ This review covers the **presentation and slides** vertical — PowerPoint gener
 
 The headline findings: **presenton** (4,300 stars) is a full AI presentation app with built-in MCP support. Among pure MCP servers, **Office-PowerPoint-MCP-Server** (1,300 stars, 32 tools) leads. **trsdn/mcp-server-ppt** offers 204 operations via Windows COM automation. Google Slides is covered through **google_workspace_mcp** (1,400 stars). **Keynote has AppleScript-based MCP support** via easychen/keynote-mcp. **Canva has a semi-official Dev MCP.** No major vendor has released an official presentation-specific MCP server.
 
+**Category:** [Business & Productivity](/categories/business-productivity/)
+
 ## presenton — Full AI Presentation App with MCP
 
 | Server | Stars | Language | License | Platforms |

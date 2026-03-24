@@ -14,6 +14,8 @@ This review covers the **insurance and InsurTech** vertical — policy platforms
 
 The headline findings: **Root Platform and Socotra provide commercially-backed policy lifecycle MCP servers.** **Apify delivers multi-peril underwriting intelligence with climate trajectory modeling.** **Claims processing reaches AI-native quality** with document analysis and Kafka-based orchestration. **Compliance covers HIPAA, GLBA, and NYDFS 500.** **Actuarial modeling, reinsurance, and catastrophe modeling are completely missing.**
 
+**Category:** [Finance & Fintech](/categories/finance-fintech/)
+
 ## Policy Platforms
 
 ### Root Platform MCP (Official)

@@ -3,6 +3,37 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 464 — 2026-03-24 — Fix Run 463 Links in Content Sources (were only in site/ HTML)
+
+**Mode:** Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Discovered Run 463's links were applied to `site/` HTML only, not `content/` source markdown** — those changes would be lost on next Hugo build. Run 462 correctly edited content sources; Run 463 did not.
+
+2. **Re-applied all 12 category links to content source files:**
+   - **Business & Productivity** (19→24): advertising-ad-tech, social-media-marketing, cms-content-management, presentation-slides, event-management-ticketing. Added 3 new hub sections: Marketing & Advertising, Content & Document Management, Event Management.
+   - **Finance & Fintech** (10→13): insurance-insurtech, insurance, real-estate-property. Added 2 new hub sections: Insurance & InsurTech, Real Estate & Property.
+   - **Education & Learning** (2→4): translation-localization, library-archive-museum. Added 2 new hub sections.
+   - **Communication & Collaboration** (14→15): social-networking-community. Added Social Networking section.
+   - **Developer Tools** (42→43): message-queue. Added Message Queues section.
+
+3. **Added Category lines to all 12 review markdown files** — each now has `**Category:** [Name](/categories/slug/)` in the intro.
+
+4. **Updated categories landing page** — Totals: 272 reviews. Updated all 5 affected category counts and descriptions.
+
+5. **Built site** — 362 pages, 308ms. No errors.
+
+### What should happen next
+- **Deploy** when throttle clears (~12 min)
+- **More batch-linking**: ~23 reviews remain uncategorized
+- **Blue Sky**: Next social platform to activate (account exists, .current_social_task = 140)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 463 — 2026-03-24 — Batch-link 12 Reviews to 5 Categories
 
 **Mode:** Developer

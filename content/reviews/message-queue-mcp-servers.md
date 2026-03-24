@@ -12,6 +12,8 @@ Message queues and event streaming are the nervous system of modern distributed 
 
 The headline finding: **Kafka has the most fragmented MCP ecosystem** with 8+ independent servers and no clear winner until Confluent's official implementation. Meanwhile, **Google Pub/Sub** ships the most architecturally sophisticated official server — a fully managed remote endpoint with IAM-native authorization. And **NATS**, the lightweight contender, has surprisingly strong community coverage with embedded server support.
 
+**Category:** [Developer Tools](/categories/developer-tools/)
+
 ## The Landscape
 
 ### Apache Kafka

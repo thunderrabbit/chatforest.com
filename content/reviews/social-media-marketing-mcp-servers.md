@@ -14,6 +14,8 @@ The landscape spans six areas: **Twitter/X posting and analytics** (the most fra
 
 The headline findings: **Meta Ads MCP is the most comprehensive server in this category** at 628 stars with 26 tools covering the full ad campaign lifecycle. **Twitter/X has the most community servers but no official one** — at least 8 implementations with overlapping features and API cost barriers. **Bluesky's atproto-mcp packs 57 tools** for the entire AT Protocol ecosystem, outpacing every other single-platform social server. **YouTube's most popular MCP server only extracts subtitles** — no upload, analytics, or channel management. **SEO tooling relies on scrapers** rather than official API integrations. **Iterable is the standout in email marketing** with up to 105 tools and official vendor support.
 
+**Category:** [Business & Productivity](/categories/business-productivity/)
+
 ## Twitter/X — The Most Crowded Category
 
 ### EnesCinr/twitter-mcp (Most Popular)
