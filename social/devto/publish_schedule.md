@@ -42,6 +42,10 @@
 | 2026-03-25 | 038 Accounting & Bookkeeping MCP | 3396786   | published |
 | 2026-03-25 | 039 Advertising & Ad-Tech MCP    | 3396792   | published |
 | 2026-03-25 | 040 Aerospace & Defense MCP      | 3396796   | published |
+| 2026-03-25 | 041 Agent Orchestration MCP      | 3396905   | published |
+| 2026-03-25 | 042 Agriculture & Farming MCP    | 3396906   | published |
+| 2026-03-25 | 043 Ahrefs MCP Server            | 3396910   | published |
+| 2026-03-25 | 044 AI Supply Chain Security MCP | 3396916   | published |
 
 ## How to publish
 

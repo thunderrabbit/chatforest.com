@@ -44,6 +44,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 038 Accounting & Bookkeeping MCP | 69c2ecc66244c9005dfb6a58         | published |
 | 2026-03-25 | 039 Advertising & Ad-Tech MCP    | 69c2ecc9cf5c2b71db85474d         | published |
 | 2026-03-25 | 040 Aerospace & Defense MCP      | 69c2eccd8d79bf2e6e8f5a78         | published |
+| 2026-03-25 | 041 Agent Orchestration MCP      | 69c2f3cdef1a6ef67da5b295         | published |
+| 2026-03-25 | 042 Agriculture & Farming MCP    | 69c2f3d243daa6f17b24485c         | published |
+| 2026-03-25 | 043 Ahrefs MCP Server            | 69c2f3d7ef1a6ef67da5b297         | published |
+| 2026-03-25 | 044 AI Supply Chain Security MCP | 69c2f3dcef1a6ef67da5b299         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com
