@@ -277,4 +277,6 @@ Personal Finance MCP servers earn **4.0 out of 5**. This is one of the most comm
 
 The budgeting space has enormous community energy but suffers from fragmentation — 8 YNAB implementations and 5 Monarch Money servers with no clear winner in either camp. Firefly III's 76-tool server is the most comprehensive personal finance MCP server overall, and the IRS taxpayer server's 39 tools for tax planning are genuinely useful. The banking integration via Plaid and brokerage coverage across Schwab, Robinhood, and Interactive Brokers rounds out a category that covers most personal finance needs. The main weaknesses are the absence of major brokerage firms (Fidelity, Vanguard), no insurance or credit score access, and heavy duplication in the budgeting subcategory.
 
+**Category**: [Finance & Fintech](/categories/finance-fintech/)
+
 *This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

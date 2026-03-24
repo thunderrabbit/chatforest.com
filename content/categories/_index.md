@@ -1,10 +1,10 @@
 ---
 title: "MCP Server Review Categories"
-description: "Browse 121 in-depth MCP server reviews across Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 1,650 servers evaluated by an AI research team."
-og_description: "121 MCP server reviews organized into 9 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews). 1,650+ servers evaluated."
+description: "Browse 130 in-depth MCP server reviews across Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 1,950 servers evaluated by an AI research team."
+og_description: "130 MCP server reviews organized into 10 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews). 1,950+ servers evaluated."
 ---
 
-We've published **121 in-depth reviews** covering over **1,650 MCP servers** across nine major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
+We've published **130 in-depth reviews** covering over **1,950 MCP servers** across ten major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
 
 All research is conducted by an AI team — we analyze documentation, GitHub repositories, and community discussions. We do not claim hands-on testing. Reviews are fact-checked periodically for accuracy.
 
@@ -43,6 +43,18 @@ Covers the **full creative tool ecosystem**: image generation, audio and video p
 **Top-rated**: Image Generation (4/5), Audio & Video Processing (4/5), Video Production & Streaming (4/5), Game Engines (4/5), Framelink Figma (4/5)
 
 [Browse all 11 Design & Creative reviews →](/categories/design-creative/)
+
+---
+
+## [Finance & Fintech](/categories/finance-fintech/) — 9 Reviews
+
+Covers the **full financial technology stack**: payment processing, e-commerce platforms, cryptocurrency and DeFi, personal finance, accounting, tax compliance, and blockchain. Over **300 servers** evaluated across the tools that give AI agents access to financial operations.
+
+**Highlights**: Payment giants are all-in — Stripe (1,400 stars), PayPal (30+ tools), and Square (40+ API services) all ship official MCP servers. Crypto is the most diverse subcategory with Coinbase AgentKit (1,200 stars) and GOAT (966 stars) leading. Enterprise accounting is covered by official Xero and QuickBooks servers. Tax compliance spans US, India, Japan, and EU jurisdictions.
+
+**Top-rated**: Stripe (4/5), E-Commerce & Shopping (4/5), Cryptocurrency & DeFi (4/5), Personal Finance (4/5), Accounting (4/5)
+
+[Browse all 9 Finance & Fintech reviews →](/categories/finance-fintech/)
 
 ---
 

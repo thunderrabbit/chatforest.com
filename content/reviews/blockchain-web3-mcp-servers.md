@@ -172,4 +172,6 @@ The fragmentation is notable. Rather than a few comprehensive servers, the space
 
 **Rating: 3.5/5** — Strong data access coverage across most major chains, an active community ecosystem, and good diversity of approaches. Loses points for fragmentation (no single server covers everything well), minimal safety controls on write operations, and the inherent risk of connecting AI agents to financial systems. The category will mature significantly as MCP security patterns (OAuth 2.1, permission scopes, transaction limits) become standard.
 
+**Category**: [Finance & Fintech](/categories/finance-fintech/)
+
 *This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*
