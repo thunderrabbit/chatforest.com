@@ -8,7 +8,7 @@ card_description: "Official first-party MCP server from Snowflake for data engin
 last_refreshed: 2026-03-23
 ---
 
-**At a glance:** [GitHub](https://github.com/Snowflake-Labs/mcp) — 261 stars, 81 forks, Python, 6 tool domains. [PyPI](https://pypi.org/project/snowflake-labs-mcp/) — snowflake-labs-mcp. Official first-party from [Snowflake](https://www.snowflake.com/). Apache 2.0 license. Two deployment options: open-source server + managed cloud endpoint (GA).
+**At a glance:** [GitHub](https://github.com/Snowflake-Labs/mcp) — 261 stars, 81 forks, Python, 6 tool domains. [PyPI](https://pypi.org/project/snowflake-labs-mcp/) — snowflake-labs-mcp. Official first-party from [Snowflake](https://www.snowflake.com/). Apache 2.0 license. Two deployment options: open-source server + managed cloud endpoint (GA). Part of our **[Data & Analytics](/categories/data-analytics/)** category.
 
 The Snowflake MCP Server is the **official first-party MCP integration** for working with the [Snowflake](https://www.snowflake.com/) Data Cloud. It provides AI assistants with access to Snowflake's Cortex AI suite — search over unstructured data, natural language to SQL via semantic models, agentic orchestration across data sources — plus SQL execution with fine-grained permission controls, database object management, and semantic view querying.
 

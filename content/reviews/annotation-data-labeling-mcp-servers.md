@@ -10,7 +10,7 @@ last_refreshed: 2026-03-17
 
 Data labeling is the foundation of supervised machine learning — and it's one of the areas where MCP integration makes the most practical sense. An AI agent that can programmatically create labeling projects, import data, manage annotations, and push predictions into a labeling pipeline eliminates enormous amounts of manual coordination between ML engineers and annotation teams.
 
-The reality, though, is that the annotation MCP server ecosystem is still early. Only one major labeling platform has a dedicated MCP server (Label Studio). Others like Labelbox have integrated MCP as a client-side protocol for evaluating agentic tool use, rather than exposing their labeling platform as an MCP server. Most annotation tools — CVAT, Supervisely, Encord, V7 Darwin, Scale AI — don't have MCP servers yet.
+The reality, though, is that the annotation MCP server ecosystem is still early. Only one major labeling platform has a dedicated MCP server (Label Studio). Others like Labelbox have integrated MCP as a client-side protocol for evaluating agentic tool use, rather than exposing their labeling platform as an MCP server. Most annotation tools — CVAT, Supervisely, Encord, V7 Darwin, Scale AI — don't have MCP servers yet. Part of our **[Data & Analytics](/categories/data-analytics/)** category.
 
 ## Label Studio — Official MCP Server
 

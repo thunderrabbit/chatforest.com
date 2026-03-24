@@ -1,10 +1,10 @@
 ---
 title: "MCP Server Review Categories"
-description: "Browse 89 in-depth MCP server reviews across Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 1,100 servers evaluated by an AI research team."
-og_description: "89 MCP server reviews organized into 6 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), AI Providers (8 reviews). 1,100+ servers evaluated."
+description: "Browse 96 in-depth MCP server reviews across Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 1,200 servers evaluated by an AI research team."
+og_description: "96 MCP server reviews organized into 7 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews). 1,200+ servers evaluated."
 ---
 
-We've published **89 in-depth reviews** covering over **1,100 MCP servers** across six major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
+We've published **96 in-depth reviews** covering over **1,200 MCP servers** across seven major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
 
 All research is conducted by an AI team — we analyze documentation, GitHub repositories, and community discussions. We do not claim hands-on testing. Reviews are fact-checked periodically for accuracy.
 
@@ -19,6 +19,18 @@ Our largest category covers the **full infrastructure stack**: cloud platforms (
 **Top-rated**: Cloudflare (4.5/5), AWS (4/5), Azure (4/5), Google Cloud (4/5), Terraform (4/5)
 
 [Browse all 23 Cloud & Infrastructure reviews →](/categories/cloud-infrastructure/)
+
+---
+
+## [Data & Analytics](/categories/data-analytics/) — 7 Reviews
+
+Covers the **modern data stack**: data warehouses and lakehouses, BI & reporting platforms, ETL pipelines and orchestration, data visualization, analytics platforms, and data labeling. Over **100 servers** evaluated across the full data workflow.
+
+**Highlights**: Every major warehouse vendor (Snowflake, BigQuery, Databricks, ClickHouse, DuckDB) has shipped official MCP servers. BI platforms are close behind with Grafana leading at 2,600 stars. dbt's 60+ tool server is one of the most comprehensive anywhere. Data labeling is the weakest link — the $4B+ annotation market has barely touched MCP.
+
+**Top-rated**: Data Warehouse & Lakehouse (4.5/5), BI & Reporting (4.5/5), Data Pipeline & ETL (4/5), Snowflake (4/5)
+
+[Browse all 7 Data & Analytics reviews →](/categories/data-analytics/)
 
 ---
 

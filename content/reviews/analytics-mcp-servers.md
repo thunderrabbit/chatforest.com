@@ -10,7 +10,7 @@ last_refreshed: 2026-03-15
 
 Analytics is the MCP category where vendor adoption is strongest. Google, PostHog, Amplitude, and Mixpanel all ship official MCP servers. That's unusual — most categories still rely on community implementations. The trade-off: most of these official servers are cloud-hosted and require existing subscriptions to their platforms.
 
-Giving an AI agent access to your analytics data is high-value. Instead of building dashboards or writing SQL, you can ask "what caused the sign-up drop last week?" and get an answer grounded in real data. The question is which platforms have MCP servers mature enough to deliver on that promise.
+Giving an AI agent access to your analytics data is high-value. Instead of building dashboards or writing SQL, you can ask "what caused the sign-up drop last week?" and get an answer grounded in real data. The question is which platforms have MCP servers mature enough to deliver on that promise. Part of our **[Data & Analytics](/categories/data-analytics/)** category.
 
 ## The Landscape
 

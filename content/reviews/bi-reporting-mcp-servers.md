@@ -10,7 +10,7 @@ last_refreshed: 2026-03-17
 
 Business intelligence and reporting platforms have rapidly become one of the best-supported MCP categories. Every major BI vendor — Grafana, Microsoft Power BI, Salesforce Tableau, Google Looker, and the open-source Metabase and Apache Superset — now offers official or high-quality MCP server support. This makes sense: BI platforms sit between raw data and business decisions, and connecting AI agents to dashboards, metrics, and semantic models is a high-value use case.
 
-The landscape splits into two tiers: **vendor-backed official servers** (Grafana, Power BI, Tableau, Looker) with deep platform integration, and **community-driven servers** (Metabase, Superset) with broad API coverage. The official servers tend to focus on curated, safe read operations; the community servers often expose more of the platform's write capabilities.
+The landscape splits into two tiers: **vendor-backed official servers** (Grafana, Power BI, Tableau, Looker) with deep platform integration, and **community-driven servers** (Metabase, Superset) with broad API coverage. The official servers tend to focus on curated, safe read operations; the community servers often expose more of the platform's write capabilities. Part of our **[Data & Analytics](/categories/data-analytics/)** category.
 
 ## Grafana — Official Server
 
