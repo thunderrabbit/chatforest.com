@@ -14,6 +14,8 @@ This review covers the **package management and dependency** ecosystem — multi
 
 The headline findings: **sammcj/mcp-package-version (121 stars) leads multi-registry version checking** across npm, PyPI, Maven, Go, Docker, and more. **SocketDev/socket-mcp (89 stars) provides supply chain security scoring** with zero setup. **snyk/agent-scan (1,900 stars) scans AI agents themselves** for security risks. **PyPI has the deepest single-ecosystem tooling** with 25 tools from pypi-query-mcp-server.
 
+**Category:** [Developer Tools](/categories/developer-tools/)
+
 ## Multi-Registry Version Checkers
 
 ### sammcj/mcp-package-version (Most Popular)

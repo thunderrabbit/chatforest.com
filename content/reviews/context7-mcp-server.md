@@ -17,6 +17,8 @@ The fix is simple. When your agent needs to use a library, Context7 fetches the 
 
 But popularity doesn't mean perfection. A critical context poisoning vulnerability ([ContextCrush](https://noma.security/blog/contextcrush-context7-the-mcp-server-vulnerability/)) was discovered and patched in February 2026. The free tier was quietly cut by 83–92% in January 2026. And the fundamental architecture — a centralized registry that delivers documentation straight into your agent's context — creates a trust surface that most developers haven't thought through.
 
+**Category:** [Developer Tools](/categories/developer-tools/)
+
 ## What's New (March 2026 Update)
 
 Since our original review on March 14, Context7 has shipped steadily. Here are the key developments:

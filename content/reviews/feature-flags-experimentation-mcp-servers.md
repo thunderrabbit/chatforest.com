@@ -14,6 +14,8 @@ The landscape spans three areas: **official platform servers** (every major vend
 
 The headline findings: **Vendor coverage is remarkably complete** — LaunchDarkly, GrowthBook, Unleash, Flagsmith, DevCycle, Statsig, ConfigCat, Flipt, Optimizely, PostHog, Harness (with Split.io), and Amplitude all have official MCP servers. **GrowthBook pioneered the category**, branding itself "the first MCP server for experimentation." **Flagsmith takes the smartest approach to tool exposure**, surfacing role-specific subsets rather than dumping 500+ API endpoints on an agent. **PostHog offers the broadest scope** with 27 tools spanning flags, experiments, analytics, error tracking, and session replay. **DevCycle has the strongest security model** with OAuth-backed authentication. **Most servers focus on CRUD** — create, read, update, delete — rather than helping agents make intelligent decisions about rollout strategy based on experiment data.
 
+**Category:** [Developer Tools](/categories/developer-tools/)
+
 ## Official Platform Servers
 
 ### LaunchDarkly MCP Server

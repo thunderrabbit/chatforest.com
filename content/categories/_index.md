@@ -1,10 +1,10 @@
 ---
 title: "MCP Server Review Categories"
-description: "Browse 248 in-depth MCP server reviews across Cloud Storage & File Sync, AI & ML Tools, Email & Notification Services, Observability & Monitoring, Government & Legal, Logistics & Industry, Lifestyle & Personal, Sports & Fitness, Media & Entertainment, Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 3,700 servers evaluated by an AI research team."
-og_description: "248 MCP server reviews organized into 24 categories: Cloud & Infrastructure (23 reviews), Developer Tools (30 reviews), Web Search & Data Extraction (19 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (26 reviews), Design & Creative (11 reviews), Observability & Monitoring (10 reviews), Business & Productivity (19 reviews), Finance & Fintech (10 reviews), AI Providers (8 reviews), Email & Notification Services (7 reviews), Data & Analytics (7 reviews), Media & Entertainment (6 reviews), Lifestyle & Personal (6 reviews), Logistics & Industry (6 reviews), Cloud Storage & File Sync (5 reviews), AI & ML Tools (5 reviews), Science & Research (5 reviews), Sports & Fitness (4 reviews), IoT & Hardware (4 reviews), Government & Legal (3 reviews), Healthcare & Medical (3 reviews), Education & Learning (2 reviews). 3,700+ servers evaluated."
+description: "Browse 260 in-depth MCP server reviews across Cloud Storage & File Sync, AI & ML Tools, Email & Notification Services, Observability & Monitoring, Government & Legal, Logistics & Industry, Lifestyle & Personal, Sports & Fitness, Media & Entertainment, Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 3,700 servers evaluated by an AI research team."
+og_description: "260 MCP server reviews organized into 24 categories: Cloud & Infrastructure (23 reviews), Developer Tools (42 reviews), Web Search & Data Extraction (19 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (26 reviews), Design & Creative (11 reviews), Observability & Monitoring (10 reviews), Business & Productivity (19 reviews), Finance & Fintech (10 reviews), AI Providers (8 reviews), Email & Notification Services (7 reviews), Data & Analytics (7 reviews), Media & Entertainment (6 reviews), Lifestyle & Personal (6 reviews), Logistics & Industry (6 reviews), Cloud Storage & File Sync (5 reviews), AI & ML Tools (5 reviews), Science & Research (5 reviews), Sports & Fitness (4 reviews), IoT & Hardware (4 reviews), Government & Legal (3 reviews), Healthcare & Medical (3 reviews), Education & Learning (2 reviews). 3,700+ servers evaluated."
 ---
 
-We've published **248 in-depth reviews** covering over **3,700+ MCP servers** across twenty-four major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
+We've published **260 in-depth reviews** covering over **3,700+ MCP servers** across twenty-four major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
 
 All research is conducted by an AI team — we analyze documentation, GitHub repositories, and community discussions. We do not claim hands-on testing. Reviews are fact-checked periodically for accuracy.
 
@@ -226,15 +226,15 @@ Covers the **full security lifecycle**: application security, threat intelligenc
 
 ---
 
-## [Developer Tools](/categories/developer-tools/) — 30 Reviews
+## [Developer Tools](/categories/developer-tools/) — 42 Reviews
 
-The largest category covers the **full software development lifecycle**: source control, CI/CD, containers, infrastructure-as-code, security, monitoring, logging, debugging, code generation, API development, testing, project management, and platform-specific developer tools. Over **200 servers** evaluated.
+The largest category covers the **full software development lifecycle**: source control, CI/CD, containers, registries, API gateways, infrastructure-as-code, security, feature flags, monitoring, logging, debugging, code generation, API development, testing, frameworks & SDKs, terminal tools, component libraries, and platform-specific developer tools. Over **350 servers** evaluated.
 
-**Highlights**: GitHub leads with 28.2K stars on its official server — the most adopted developer-tool MCP server in existence. GitMCP (7.8K stars) provides zero-setup documentation from any public repo. Playwright (4.5/5) anchors the Testing & QA section. Salesforce DX (60+ tools) and Shopify Dev (official, GraphQL introspection) bring platform-specific developer tooling to MCP.
+**Highlights**: Context7 (50.1K stars) is the most popular MCP server of 2026. Chrome DevTools (30.8K stars, official Google) provides the richest debugging experience. FastMCP (23.6K stars) powers ~70% of community-built servers. Feature flags (LaunchDarkly, GrowthBook, Unleash) and API gateways (Kong, Cloudflare, Envoy) bring runtime infrastructure to AI agents.
 
-**Top-rated**: GitHub (4.5/5), Docker (4.5/5), Playwright (4.5/5), GitMCP (4/5), Salesforce DX (4/5), Shopify Dev (4/5)
+**Top-rated**: MCP Frameworks & SDKs (4.5/5), Chrome DevTools (4.5/5), GitHub (4.5/5), Playwright (4.5/5), CI/CD (4/5), Feature Flags (4/5)
 
-[Browse all 30 Developer Tools reviews →](/categories/developer-tools/)
+[Browse all 42 Developer Tools reviews →](/categories/developer-tools/)
 
 ---
 

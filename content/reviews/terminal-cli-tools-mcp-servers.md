@@ -14,6 +14,8 @@ This review covers **terminal-focused MCP servers** — shell execution, tmux in
 
 The headline findings: **Security is the defining challenge** — giving AI agents shell access is powerful but dangerous, and the best servers use allowlists, flag validation, and audit trails. **tmux integration is the most active subcategory** with 6+ competing servers. **SSH management is surprisingly mature** with bvisible/mcp-ssh-manager offering 37 tools across 6 groups.
 
+**Category:** [Developer Tools](/categories/developer-tools/)
+
 ## Shell Execution
 
 ### tumf/mcp-shell-server — Most Popular Shell Execution Server

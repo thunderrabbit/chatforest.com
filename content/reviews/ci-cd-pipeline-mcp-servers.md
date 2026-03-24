@@ -12,6 +12,8 @@ CI/CD is one of the better-covered categories in the MCP ecosystem — and that 
 
 The landscape breaks into three tiers: platform-native official servers (Jenkins, CircleCI, GitHub, GitLab, Buildkite, Azure DevOps), GitOps deployment servers (Argo CD), and community alternatives that fill gaps. Most of these are actively maintained and backed by the CI/CD vendors themselves.
 
+**Category:** [Developer Tools](/categories/developer-tools/)
+
 ## Jenkins — Official Plugin
 
 | Detail | Info |

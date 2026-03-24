@@ -14,6 +14,8 @@ ReactBits is one of the most popular animated React component libraries on GitHu
 
 The idea is straightforward: instead of describing what you want and hoping the LLM hallucinates something close, the agent can look up battle-tested, community-vetted components from ReactBits.dev and give you the actual code. Each component comes in four variants (JS-CSS, JS-Tailwind, TS-CSS, TS-Tailwind), and the MCP server surfaces all of them.
 
+**Category:** [Developer Tools](/categories/developer-tools/)
+
 ## What It Does
 
 The server exposes five tools:

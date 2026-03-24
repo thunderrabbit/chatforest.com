@@ -14,6 +14,8 @@ This review covers **regex and text processing MCP servers** — document conver
 
 The headline findings: **Document conversion dominates** — markdownify-mcp (2,400 stars) and mcp-pandoc (507 stars) handle nearly any format. **Translation has strong official support** — DeepL and Lara Translate provide production-grade MCPs. **Diff tools are plentiful** — jsondiffpatch's diff-mcp covers text and structured data. **Regex testing is functional but niche** with only a few dedicated servers. **Grammar/spelling lacks a LanguageTool MCP**, leaving a significant gap.
 
+**Category:** [Developer Tools](/categories/developer-tools/)
+
 ---
 
 ## Document Conversion

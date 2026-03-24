@@ -14,6 +14,8 @@ API gateways sit at the intersection of every API call in production infrastruct
 
 The headline: **Cloudflare's Code Mode is the most architecturally innovative approach** — 2 tools covering 2,500+ API endpoints in ~1,000 tokens, versus the 244K+ tokens a traditional MCP implementation would require. **Kong Konnect offers the most polished official gateway management experience** with a hosted 12-tool server. And **APISIX provides the deepest gateway CRUD** with 30+ tools for routes, services, upstreams, plugins, consumers, SSL, and secrets.
 
+**Category:** [Developer Tools](/categories/developer-tools/)
+
 ## Part 1: MCP Servers for Managing API Gateways
 
 ### Kong Konnect (Official, Hosted)

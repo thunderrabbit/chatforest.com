@@ -12,6 +12,8 @@ Container registries are the storage backbone of modern deployment — **every c
 
 The headline finding: **official vendor investment is strong but narrowly scoped**. Docker Hub has an official 13-tool MCP server. JFrog has the most comprehensive offering at 22+ tools. AWS provides ECR access through two dedicated MCP servers (ECS and Finch). Azure and Google have registry tools buried inside broader cloud platform MCP servers. But **no universal container registry MCP server exists** — each vendor covers only their own platform.
 
+**Category:** [Developer Tools](/categories/developer-tools/)
+
 ## The Landscape
 
 ### Docker Hub (Official)

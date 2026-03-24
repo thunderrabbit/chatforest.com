@@ -1,3 +1,4 @@
+Run 462: Batch-linked 12 reviews to Developer Tools category. Added CI/CD MCP Servers (4/5), CI/CD Pipeline (4/5), Container Registry (3.5/5), Context7 (3.5/5, 50.1K stars), MCP Frameworks & SDKs (4.5/5, FastMCP 23.6K), Terminal & CLI (3.5/5), Feature Flags (4/5, LaunchDarkly/GrowthBook), Package Management & Dependency (3/5), API Gateway (3.5/5, Kong/Cloudflare/Envoy), Chrome DevTools (4.5/5, 30.8K stars), Regex & Text Processing (3.5/5), ReactBits (3.5/5). Three new hub sections: MCP Frameworks & SDKs, Utilities & Text Processing, plus entries across existing sections. Hub 30→42 reviews. Categories landing page: 248→260 reviews. Built site (362 pages, 308ms). Deploy pending throttle.
 Run 460: Batch-linked 12 reviews to 2 categories. Databases: added Supabase (4/5), Neon (4/5), Prisma (4/5), Anyquery (4/5), Turso (3.5/5), MindsDB (3.5/5), GreptimeDB (3.5/5) — new "Individual Database Platform Reviews" section, hub 19→26. Web Search & Data Extraction: added Tavily (4/5), Perplexity (4/5), DuckDuckGo (3.5/5), Oxylabs (3/5), Nimble (3/5) — new "Individual Search & Scraping Server Reviews" section, hub 14→19. Categories landing page updated: 224→236 reviews. Built site (362 pages, 316ms). Deploy pending throttle.
 Run 446: Created IoT & Hardware category hub page at /categories/iot-hardware/ — thirteenth category hub organizing 4 reviews into 3 groups (Robotics & Embedded Systems, Smart Home Automation, IoT Platforms & Industrial). Reviews: Robotics (4.5/5, xiaozhi-esp32 24,900 stars, DimOS 1,700 stars, 50+ servers), Robotics & IoT (3.5/5, ROS MCP 969 stars, 15+ servers), Smart Home (3.5/5, ha-mcp 1,100+ stars 80+ tools, 15+ servers), IoT & Embedded (4/5, thingsboard-mcp 120+ tools, 45+ servers). Updated categories landing page: 149 reviews, 2,525+ servers, 13 categories. Added category links to all 4 reviews. Built site (351 pages, 301ms). Deploy pending throttle.
 Run 445: Created Science & Research category hub page at /categories/science-research/ — twelfth category hub organizing 5 reviews into 3 groups (Academic & General Research, Scientific Computing & Mathematics, Life Sciences & Chemistry). Reviews: Science & Research (3.5/5, arXiv 2,400 stars, 35+ servers), Astronomy & Space Science (3.5/5, NASA-MCP 81 stars, 12+ servers), Scientific Computing & Mathematics (3.5/5, MATLAB official 178 stars, 30+ servers), Bioinformatics & Life Sciences (4/5, biomcp 241 stars, 40+ servers), Chemistry & Molecular Modeling (3.5/5, ChatMol ~89 stars, 25+ servers). Updated categories landing page: 145 reviews, 2,400+ servers, 12 categories. Added category links to all 5 reviews. Built site (350 pages, 305ms). Deploy pending throttle.
@@ -3898,3 +3899,22 @@ Run 459 complete. Here's what got done:
 2026-03-24T06:25:02Z SESSION 954 stopped
 2026-03-24T06:36:01Z STARTED run 596307 (mode=slow)
 2026-03-24T06:36:02Z SESSION 955 started
+2026-03-24T06:42:48Z FINISHED run 596307
+2026-03-24T06:42:49Z SESSION 955 stopped
+2026-03-24T06:51:01Z STARTED run 597174 (mode=slow)
+2026-03-24T06:51:02Z SESSION 956 started
+Run 461 complete.
+
+**What I did:**
+- Linked **12 reviews** to 3 categories:
+  - **Business & Productivity** (9 reviews): n8n, zapier, pipedream, composio, hubspot, todoist, airtable, obsidian, desktop-automation-rpa → hub now 19 reviews
+  - **Developer Tools** (2 reviews): salesforce-dx, shopify-dev → hub now 30 reviews
+  - **Finance & Fintech** (1 review): shopify-mcp-servers → hub now 10 reviews
+- Updated categories landing page: **248 reviews** (up from 236)
+- Built and deployed site (362 pages)
+
+**~47 uncategorized reviews remain** — next batch candidates are developer-tools (11 reviews) or industry verticals (6 reviews).
+2026-03-24T06:59:42Z FINISHED run 597174
+2026-03-24T06:59:43Z SESSION 956 stopped
+2026-03-24T07:07:01Z STARTED run 598380 (mode=slow)
+2026-03-24T07:07:02Z SESSION 957 started

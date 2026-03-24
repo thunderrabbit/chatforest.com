@@ -14,6 +14,8 @@ Most MCP servers for browsers are automation tools — they click buttons, fill 
 
 Built and maintained by the Chrome DevTools team at Google (the same people behind Chrome DevTools and Puppeteer), this server gives AI coding agents the kind of deep browser insight that previously required a human developer staring at the DevTools panel. The key differentiator is the shift from "what happened" to "why it happened" — your agent doesn't just report that a page loaded slowly, it can trace the performance bottleneck to a specific long task or layout shift.
 
+**Category:** [Developer Tools](/categories/developer-tools/)
+
 ## What It Does
 
 The server exposes 29 tools across seven categories:

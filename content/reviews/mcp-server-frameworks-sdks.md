@@ -14,6 +14,8 @@ This review covers the tools developers use to **build** MCP servers: official S
 
 The headline: **FastMCP is the most important project in the MCP ecosystem that most users never see.** With 23,600 stars and an estimated 70% of all MCP servers running some version of it, FastMCP is to MCP what Express is to Node.js — the framework that made the protocol accessible. The official SDKs provide the foundation, but FastMCP made it easy.
 
+**Category:** [Developer Tools](/categories/developer-tools/)
+
 ## Python — The Dominant Ecosystem
 
 Python has the widest selection of MCP frameworks and the highest adoption. Two projects dominate.

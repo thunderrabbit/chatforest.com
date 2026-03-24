@@ -12,6 +12,8 @@ CI/CD pipelines are the backbone of modern software delivery. When they break, d
 
 The CI/CD MCP landscape is surprisingly mature. GitHub's official MCP server covers Actions as part of a broader platform integration. Jenkins has both an official plugin and standalone servers. CircleCI shipped purpose-built diagnostic tooling. GitLab's community server has 85+ tools. Here's the full picture.
 
+**Category:** [Developer Tools](/categories/developer-tools/)
+
 ## The Landscape
 
 ### GitHub Actions
