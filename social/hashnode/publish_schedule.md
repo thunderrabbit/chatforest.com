@@ -36,6 +36,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 030 Puppeteer MCP Server         | 69c2de7943ef75a098f2534c         | published |
 | 2026-03-25 | 031 Figma Dev Mode MCP Server    | 69c2de7e30e4e5b4b9882f63         | published |
 | 2026-03-25 | 032 Firecrawl MCP Server         | 69c2de7f30e4e5b4b9882f65         | published |
+| 2026-03-25 | 033 Google Drive MCP Server      | 69c2e23499d96187e4290645         | published |
+| 2026-03-25 | 034 OpenAI MCP Server            | 69c2e23599d96187e4290647         | published |
+| 2026-03-25 | 035 Terraform MCP Server         | 69c2e236a5514e5e6a7bbeb3         | published |
+| 2026-03-25 | 036 n8n MCP Server               | 69c2e237a5514e5e6a7bbeb5         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com

@@ -34,6 +34,10 @@
 | 2026-03-25 | 030 Puppeteer MCP Server         | 3396545   | published |
 | 2026-03-25 | 031 Figma Dev Mode MCP Server    | 3396547   | published |
 | 2026-03-25 | 032 Firecrawl MCP Server         | 3396550   | published |
+| 2026-03-25 | 033 Google Drive MCP Server      | 3396600   | published |
+| 2026-03-25 | 034 OpenAI MCP Server            | 3396601   | published |
+| 2026-03-25 | 035 Terraform MCP Server         | 3396607   | published |
+| 2026-03-25 | 036 n8n MCP Server               | 3396613   | published |
 
 ## How to publish
 

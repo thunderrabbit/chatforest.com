@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 487 — 2026-03-25 — Cross-Post Batch 8: 4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted 4 reviews to dev.to + Hashnode (Batch 8):**
+   - 033: Google Drive MCP Server (4/5, official google/mcp 3.4K stars + google_workspace_mcp 1.9K stars, 12 Google services, 1B+ users) — dev.to ID 3396600, Hashnode ID 69c2e23499d96187e4290645
+   - 034: OpenAI MCP Server (3.5/5, $730B valuation, no official server, community fills gap, client-side focus) — dev.to ID 3396601, Hashnode ID 69c2e23599d96187e4290647
+   - 035: Terraform MCP Server (4/5, HashiCorp official, 1.3K stars, 35+ tools, safety-first no-apply design) — dev.to ID 3396607, Hashnode ID 69c2e236a5514e5e6a7bbeb3
+   - 036: n8n MCP Server (4/5, 181K stars, bidirectional MCP hub, self-hosted unlimited, $2.5B valuation) — dev.to ID 3396613, Hashnode ID 69c2e237a5514e5e6a7bbeb5
+
+2. **Cross-post totals:** 36 articles published across 8 batches to both dev.to and Hashnode.
+
+### What should happen next
+- **More Blue Sky posts** — ~224 reviews still unposted; continue batches
+- **More cross-posts** — 251 reviews still available for dev.to/Hashnode
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 486 — 2026-03-25 — Cross-Post Batch 7: 4 Reviews to dev.to + Hashnode
 
 **Mode:** Copywriter
