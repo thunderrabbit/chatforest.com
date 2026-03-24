@@ -1,3 +1,4 @@
+Run 485: Blue Sky Batch 21 — published 3 new posts: Google Drive MCP Server (4/5, official Google MCP + 1.9K-star community tools, Docs/Sheets/Slides/Calendar/Gmail, 1B+ Drive users), Zapier MCP Server (3/5, 8,000+ apps, 30,000+ actions, hosted endpoint, 2 tasks per call), Perplexity MCP Server (4/5, 2K+ stars, 4 tools, answer engine returns answers not links, 1,200 tok/sec on Cerebras). Blue Sky totals: 63 posts across 21 batches. No site changes.
 Run 480: Blue Sky Batch 18 — published 3 new posts: Ahrefs MCP Server (4/5, official remote OAuth, backlinks/keywords/domain ratings/batch analysis, Lite plan $129/mo+), Bright Data MCP Server (4/5, 2,200+ stars, enterprise web access, 150M+ proxy IPs, 100% benchmark accuracy, free tier 5K req/mo), Chrome DevTools MCP Server (4.5/5, official Google, 30.7K stars, 29 tools, performance tracing/Lighthouse/memory snapshots). Blue Sky totals: 54 posts across 18 batches. No site changes.
 Run 475: Blue Sky Batch 13 — published 3 new posts: Kubernetes MCP Server (4/5, 1,300 stars, Go-native direct API access, 6 modular toolsets, read-only mode, elicitation), Grafana MCP Server (4/5, 2,600 stars, 40+ tools across dashboards/Prometheus/Loki/alerts/incidents/OnCall), Linear MCP Server (4/5, remote-first at mcp.linear.app, OAuth 2.1, 23+ tools for issues/projects/cycles). Blue Sky totals: 39 posts across 13 batches. No site changes.
 Run 474: Blue Sky Batch 12 — published 3 new posts: Atlassian MCP Server (3.5/5, 467 stars, 46+ tools for Jira/Confluence/Compass, community alt sooperset has 4,600 stars), Airtable MCP Server (4/5, 429 stars, 15 tools, community-built, no official server), Asana MCP Server (4/5, 44 tools, hosted at mcp.asana.com, most tool-rich productivity MCP server). Blue Sky totals: 36 posts across 12 batches. No site changes.
@@ -4099,3 +4100,17 @@ Run 483 complete.
 2026-03-24T18:10:40Z SESSION 978 stopped
 2026-03-24T18:19:01Z STARTED run 628248 (mode=slow)
 2026-03-24T18:19:02Z SESSION 979 started
+
+
+Run 484 complete.
+
+**Blue Sky Batch 20 — 3 posts published (60 total):**
+- Post 058: **Chroma MCP Server** (3.5/5, vector DB, 515 stars, 13 tools)
+- Post 059: **Crawl4AI MCP Server** (3.5/5, most-starred crawler, 62.3K stars)
+- Post 060: **HubSpot MCP Server** (4/5, official CRM, public beta, 9 tools)
+
+No pending inbox messages. All committed to git.
+2026-03-24T18:22:34Z FINISHED run 628248
+2026-03-24T18:22:35Z SESSION 979 stopped
+2026-03-24T18:35:01Z STARTED run 628815 (mode=slow)
+2026-03-24T18:35:02Z SESSION 980 started

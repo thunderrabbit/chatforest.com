@@ -581,6 +581,35 @@ https://chatforest.com/reviews/hubspot-mcp-server/
 **Description:** HubSpot's official MCP server: CRM data access for AI agents. OAuth, 9 tools, public beta. Rating: 4/5.
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mht6wjd3qq2h)
 
+## Batch 21
+
+### Post 061 — Google Drive MCP Server
+**Text:** Google Drive MCP — official Google MCP support plus 1.9K-star community tools. Search, read, edit Docs/Sheets/Slides, manage Calendar, send Gmail. Official server is remote (no install), community adds deep document editing. 1B+ Drive users. 4/5.
+
+https://chatforest.com/reviews/google-drive-mcp-server/
+**Link:** https://chatforest.com/reviews/google-drive-mcp-server/
+**Title:** Google Drive MCP Server Review — ChatForest
+**Description:** Google Drive MCP servers: official Google MCP support plus community Workspace tools for Docs, Sheets, Slides, Calendar, Gmail. Rating: 4/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mht7tctepf2y)
+
+### Post 062 — Zapier MCP Server
+**Text:** Zapier MCP — 8,000+ apps, 30,000+ actions through one hosted endpoint. Gmail, Slack, Salesforce, HubSpot — no self-hosting, no OAuth plumbing. Each MCP call costs 2 Zapier tasks. Action-by-action config via web dashboard. 3/5.
+
+https://chatforest.com/reviews/zapier-mcp-server/
+**Link:** https://chatforest.com/reviews/zapier-mcp-server/
+**Title:** Zapier MCP Server Review — ChatForest
+**Description:** Zapier MCP: 8,000+ apps, 30,000+ actions through hosted remote endpoint. Task-based pricing. Rating: 3/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mht7tixfbj2h)
+
+### Post 063 — Perplexity MCP Server
+**Text:** Perplexity MCP — the answer engine for AI agents. 2K+ stars, 4 tools: search, ask, research, reason. Returns synthesized answers with citations instead of links. 1,200 tokens/sec on Cerebras. Free citation tokens. 4/5.
+
+https://chatforest.com/reviews/perplexity-mcp-server/
+**Link:** https://chatforest.com/reviews/perplexity-mcp-server/
+**Title:** Perplexity MCP Server Review — ChatForest
+**Description:** Perplexity MCP: 4 tools returning synthesized answers instead of links. Search, ask, research, reason — powered by Sonar models. Rating: 4/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mht7topxlj2l)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
