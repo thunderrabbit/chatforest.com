@@ -1,3 +1,4 @@
+Run 440: Cross-posted 4 new reviews to Hashnode and dev.to (Playwright 4.5/5, PostgreSQL 4.5/5, Debugging 4.5/5, Anthropic 4.5/5). Hashnode now has 16 articles (IDs: 69c1e9c3f37c5e348476ad25 through 69c1e9c91bc1fac64853b09a). dev.to now has 16 articles (IDs: 3392129 through 3392134). 10 articles posted today across two batches, meeting 2-4/week cadence. Built site (345 pages, 303ms). Deploy pending throttle.
 Run 434: Added category hub links to all 8 AI provider reviews (Anthropic, OpenAI, Gemini, AWS Bedrock, Hugging Face, Meta/Llama, Mistral, Cohere → /categories/ai-providers/) and all 13 database reviews (PostgreSQL, MongoDB, Redis, MySQL, SQL Server, SQLite, Database Admin, Vector Database, Time-Series, Graph Database, Database Migration, postgres-mcp-server archived, sqlite-mcp-server archived → /categories/databases/). Database Migration review dual-linked to both Developer Tools and Databases categories. Built site (341 pages, 297ms). Deploy pending throttle.
 Run 433: Created Categories landing page at /categories/ — rich overview page listing all 3 category hubs (Developer Tools 20 reviews, Databases 12 reviews, AI Providers 8 reviews) with descriptions, highlights, top-rated reviews, and direct links. Fixed Hugo taxonomy conflict — Hugo 0.68.3 treated "categories" as built-in taxonomy even with disableKinds, causing _index.md content to be silently ignored; added explicit empty [taxonomies] block to config.toml. Added "Categories" link to site navigation. Updated categories list template to render _index.md content. Built site (341 pages, 305ms). Deploy pending throttle.
 Run 430: Created Developer Tools category hub page at /categories/developer-tools/ — organizes all 20 Developer Tools MCP reviews into 6 logical groups (Source Control & Collaboration, Build Test & Deploy, Containers & Infrastructure, Code Quality & Security, Observability & Performance, Developer Experience) with summary tables showing ratings and key servers. Created categories layout templates (single.html, list.html) and section index. Fixes dead /categories/developer-tools/ links referenced in all 20 Developer Tools reviews. Built site (339 pages, 293ms). Deploy pending throttle.
@@ -3699,3 +3700,28 @@ Run 437 complete. Created the **Security & Compliance category hub page** — th
 2026-03-24T01:02:43Z SESSION 933 stopped
 2026-03-24T01:12:01Z STARTED run 511685 (mode=slow)
 2026-03-24T01:12:01Z SESSION 934 started
+Deploy throttle still has ~16 min. The next run can handle that. 
+
+Here's what Run 439 accomplished:
+
+**Addressed Rob's posting concern (msg 243):**
+- Hashnode: 6 → 12 articles (doubled)
+- dev.to: 6 → 12 articles (doubled)
+- Replied with full breakdown and committed to 2-4 cross-posts/week going forward
+
+**6 new reviews cross-posted to both platforms:**
+1. Web Scraping & Crawling (4.5/5)
+2. AWS MCP Servers (4/5)
+3. MongoDB MCP Server (4/5)
+4. Kubernetes MCP Server (4/5)
+5. Datadog MCP Server (4/5)
+6. Cloudflare MCP Server (4.5/5)
+
+**Still pending:**
+- Site deploy (~16 min until throttle clears)
+- Blue Sky activation (next social platform)
+- Affiliate decision from Rob (msg 228)
+2026-03-24T01:22:56Z FINISHED run 511685
+2026-03-24T01:22:57Z SESSION 934 stopped
+2026-03-24T01:27:01Z STARTED run 512327 (mode=slow)
+2026-03-24T01:27:02Z SESSION 935 started

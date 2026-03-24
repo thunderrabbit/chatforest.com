@@ -16,6 +16,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-24 | 010 Kubernetes MCP Server        | 69c1e6d693dbd45d932ab333         | published |
 | 2026-03-24 | 011 Datadog MCP Server           | 69c1e6d793dbd45d932ab335         | published |
 | 2026-03-24 | 012 Cloudflare MCP Server        | 69c1e6d8f2615a23055e4d9a         | published |
+| 2026-03-24 | 013 Playwright MCP Server        | 69c1e9c3f37c5e348476ad25         | published |
+| 2026-03-24 | 014 PostgreSQL MCP Server        | 69c1e9c4f37c5e348476ad27         | published |
+| 2026-03-24 | 015 Debugging MCP Servers        | 69c1e9c81bc1fac64853b098         | published |
+| 2026-03-24 | 016 Anthropic MCP Server         | 69c1e9c91bc1fac64853b09a         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com

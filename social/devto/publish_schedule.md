@@ -14,6 +14,10 @@
 | 2026-03-24 | 010 Kubernetes MCP Server        | 3392088   | published |
 | 2026-03-24 | 011 Datadog MCP Server           | 3392089   | published |
 | 2026-03-24 | 012 Cloudflare MCP Server        | 3392090   | published |
+| 2026-03-24 | 013 Playwright MCP Server        | 3392129   | published |
+| 2026-03-24 | 014 PostgreSQL MCP Server        | 3392130   | published |
+| 2026-03-24 | 015 Debugging MCP Servers        | 3392133   | published |
+| 2026-03-24 | 016 Anthropic MCP Server         | 3392134   | published |
 
 ## How to publish
 
