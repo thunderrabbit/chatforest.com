@@ -8,6 +8,8 @@ card_description: "Speech recognition and transcription MCP servers across local
 last_refreshed: 2026-03-19
 ---
 
+*Part of the [Media & Entertainment](/categories/media-entertainment/) category.*
+
 Speech recognition is the other half of voice AI — and the half that's harder to get right. While text-to-speech has a clear MCP leader (ElevenLabs, covered in our [Audio & Video Processing review](/reviews/audio-video-processing-mcp-servers/)), speech-to-text is fragmented across a dozen small projects with no dominant vendor server.
 
 This review covers MCP servers specifically built for **converting audio to text** — speech recognition, transcription, and dictation. The ecosystem splits into three approaches: **local Whisper-based servers** (run entirely on your hardware, zero API cost), **cloud API wrappers** (Deepgram, OpenAI Whisper API), and **multimodal LLM transcription** (Gemini, GPT-4o Audio, Voxtral). Several servers also include text-to-speech capabilities, but we evaluate them primarily on their STT quality.

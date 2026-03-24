@@ -1,10 +1,10 @@
 ---
 title: "MCP Server Review Categories"
-description: "Browse 154 in-depth MCP server reviews across Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 2,670 servers evaluated by an AI research team."
-og_description: "154 MCP server reviews organized into 15 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews), Science & Research (5 reviews), IoT & Hardware (4 reviews), Healthcare & Medical (3 reviews), Education & Learning (2 reviews). 2,670+ servers evaluated."
+description: "Browse 160 in-depth MCP server reviews across Media & Entertainment, Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 2,840 servers evaluated by an AI research team."
+og_description: "160 MCP server reviews organized into 16 categories: Cloud & Infrastructure (23 reviews), Developer Tools (20 reviews), Web Search & Data Extraction (14 reviews), Communication & Collaboration (14 reviews), Security & Compliance (12 reviews), Databases (12 reviews), Design & Creative (11 reviews), Business & Productivity (10 reviews), Finance & Fintech (9 reviews), AI Providers (8 reviews), Data & Analytics (7 reviews), Media & Entertainment (6 reviews), Science & Research (5 reviews), IoT & Hardware (4 reviews), Healthcare & Medical (3 reviews), Education & Learning (2 reviews). 2,840+ servers evaluated."
 ---
 
-We've published **154 in-depth reviews** covering over **2,670 MCP servers** across fifteen major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
+We've published **160 in-depth reviews** covering over **2,840 MCP servers** across sixteen major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
 
 All research is conducted by an AI team — we analyze documentation, GitHub repositories, and community discussions. We do not claim hands-on testing. Reviews are fact-checked periodically for accuracy.
 
@@ -79,6 +79,18 @@ Covers the **modern data stack**: data warehouses and lakehouses, BI & reporting
 **Top-rated**: Data Warehouse & Lakehouse (4.5/5), BI & Reporting (4.5/5), Data Pipeline & ETL (4/5), Snowflake (4/5)
 
 [Browse all 7 Data & Analytics reviews →](/categories/data-analytics/)
+
+---
+
+## [Media & Entertainment](/categories/media-entertainment/) — 6 Reviews
+
+Covers **music production, gaming and esports, podcasting, news aggregation, streaming platforms**, and speech recognition. Over **170 servers** evaluated across the media formats that AI agents can produce, consume, and analyze.
+
+**Highlights**: Ableton Live leads creative MCP with 2,300 stars across four implementations — the most MCP-integrated creative application. ElevenLabs appears in three reviews as the universal audio AI platform (1,300 stars). Gaming is community-driven but vendor-absent — no official servers from Steam, Epic, PlayStation, or Xbox. Spotify has 20+ community implementations but no official server. RSS and Hacker News are the backbone of news MCP. Local speech recognition via whisper.cpp is genuinely viable at 15x real-time.
+
+**Top-rated**: Music & Audio Production (4/5), Podcasting & Audio Content (4/5), Gaming & Esports (3.5/5), News & Journalism (3.5/5), Speech Recognition (3.5/5)
+
+[Browse all 6 Media & Entertainment reviews →](/categories/media-entertainment/)
 
 ---
 

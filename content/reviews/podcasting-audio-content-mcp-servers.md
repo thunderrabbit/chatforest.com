@@ -8,6 +8,8 @@ card_description: "Podcasting and audio content MCP servers for AI-powered audio
 last_refreshed: 2026-03-16
 ---
 
+*Part of the [Media & Entertainment](/categories/media-entertainment/) category.*
+
 Podcasting and audio content MCP servers let AI assistants produce speech, transcribe audio, generate music, control DAWs, clone voices, and create sound effects. Instead of manually juggling audio editors, transcription services, and TTS APIs, you can wire these capabilities directly into your AI workflow through the Model Context Protocol.
 
 This review covers the **podcasting and audio content** vertical — text-to-speech, speech-to-text transcription, music generation, DAW control, voice interaction, and podcast feed management. For video production, see our [Video & Streaming review](/reviews/video-streaming-mcp-servers/). For general content creation, see our [Content & Copywriting review](/reviews/content-copywriting-mcp-servers/).

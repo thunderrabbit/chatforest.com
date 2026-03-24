@@ -8,6 +8,8 @@ card_description: "Community-built MCP servers for Spotify enabling AI agents to
 last_refreshed: 2026-03-23
 ---
 
+*Part of the [Media & Entertainment](/categories/media-entertainment/) category.*
+
 **At a glance:** [varunneal/spotify-mcp](https://github.com/varunneal/spotify-mcp) (588 stars, leading implementation) — Python, MIT. Community-built (no official Spotify server). Multiple competing implementations. AI agents as music DJs.
 
 Spotify MCP servers let AI agents **control your music** — search for tracks, manage playlists, control playback, queue songs, and browse your library — all through natural language prompts. Unlike most MCP servers we review, there is **no official first-party implementation** from Spotify. The ecosystem is entirely community-built and fragmented across 20+ implementations.

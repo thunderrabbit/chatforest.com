@@ -8,6 +8,8 @@ card_description: "News, media, and journalism MCP servers for AI-powered conten
 last_refreshed: 2026-03-15
 ---
 
+*Part of the [Media & Entertainment](/categories/media-entertainment/) category.*
+
 News and media MCP servers let AI assistants aggregate RSS feeds, monitor tech community discussions, query news APIs across regions and topics, transcribe podcasts, and fact-check headlines. Instead of manually checking multiple news sources, refreshing Hacker News, or subscribing to scattered RSS feeds, these servers let AI agents monitor, analyze, and summarize information flows — all through the Model Context Protocol.
 
 This review covers the **news, media, and journalism** vertical — RSS feed aggregation, tech community platforms (Hacker News, Product Hunt), news API integrations, podcast discovery and transcription, and fact-checking tools. For social media platforms, see our [Social Media & Marketing MCP review](/reviews/social-media-marketing-mcp-servers/). For web scraping and content extraction, see our [CMS & Content Management MCP review](/reviews/cms-content-management-mcp-servers/).

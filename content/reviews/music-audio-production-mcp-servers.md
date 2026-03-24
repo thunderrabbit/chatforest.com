@@ -8,6 +8,8 @@ card_description: "Music and audio production MCP servers for DAWs, MIDI tools, 
 last_refreshed: 2026-03-15
 ---
 
+*Part of the [Media & Entertainment](/categories/media-entertainment/) category.*
+
 Music and audio production MCP servers are connecting AI agents to digital audio workstations, MIDI tools, music streaming platforms, AI music generators, synthesizers, notation software, and audio analysis libraries. Instead of manually clicking through DAW interfaces, programming MIDI sequences, or browsing music catalogs, these servers let AI assistants create tracks, compose MIDI, control playback, generate music from text prompts, synthesize audio, write sheet music, and analyze audio signals — all through the Model Context Protocol.
 
 The landscape spans eight areas: **DAW integration** (Ableton Live, REAPER, FL Studio), **MIDI tools** (virtual ports, file generation, hardware synthesizer control), **music streaming** (Spotify, Apple Music, YouTube Music), **AI music generation** (Suno, MiniMax, MusicGPT), **voice & TTS** (ElevenLabs), **music notation** (MuseScore), **audio synthesis** (SuperCollider), and **audio analysis & processing** (librosa, FFmpeg, Audacity).

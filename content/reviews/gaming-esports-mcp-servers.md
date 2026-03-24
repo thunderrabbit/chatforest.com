@@ -8,6 +8,8 @@ card_description: "Gaming and esports MCP servers for player analytics, game lib
 last_refreshed: 2026-03-16
 ---
 
+*Part of the [Media & Entertainment](/categories/media-entertainment/) category.*
+
 Gaming and esports MCP servers are bringing AI agents into the world of interactive entertainment — from controlling Minecraft characters through natural language to analyzing League of Legends matchups, managing Counter-Strike 2 game servers, and exploring Steam game libraries. Instead of manually navigating game dashboards, checking stats websites, or typing console commands, these servers let AI assistants handle gaming tasks through the Model Context Protocol.
 
 This review covers **gaming and esports MCP servers** — live game interaction (Minecraft, Roblox), esports analytics (OP.GG), Steam integration, chess platforms, game server management (CS2 RCON), game databases (IGDB), and streaming (Twitch). For game engine and development tools (Unity, Unreal, Godot), see our [Game Engine & 3D Development review](/reviews/game-engine-3d-development-mcp-servers/). For Discord bot integration commonly used by gaming communities, see our [Discord MCP review](/reviews/discord-mcp-servers/).
