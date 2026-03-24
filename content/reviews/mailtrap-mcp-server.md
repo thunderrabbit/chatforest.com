@@ -6,6 +6,7 @@ og_description: "Mailtrap MCP: send emails, manage templates, test in sandbox, a
 content_type: "Review"
 card_description: "Official first-party MCP server for Mailtrap's email delivery platform. Send transactional emails, manage templates, test in sandbox, and query delivery analytics. TypeScript, stdio transport, npx install, free tier at 4,000 emails/mo."
 last_refreshed: 2026-03-23
+category_url: "/categories/email-notification-services/"
 ---
 
 **At a glance:** [GitHub](https://github.com/mailtrap/mailtrap-mcp) — 57 stars, 14 forks, TypeScript, 251 commits, stdio transport, 9 tools, free tier (4,000 emails/mo). Official first-party from [Railsware](https://railsware.com/).

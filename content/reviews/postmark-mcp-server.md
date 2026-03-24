@@ -6,6 +6,7 @@ og_description: "Postmark MCP: send emails, use templates, check delivery stats 
 content_type: "Review"
 card_description: "Official first-party MCP server for Postmark's transactional email platform. Send emails, use templates, list templates, and check delivery stats. JavaScript, stdio transport, MIT license, free tier at 100 emails/mo."
 last_refreshed: 2026-03-23
+category_url: "/categories/email-notification-services/"
 ---
 
 **At a glance:** [GitHub](https://github.com/ActiveCampaign/postmark-mcp) — 37 stars, 12 forks, JavaScript (100%), 22 commits, stdio transport, 4 tools, MIT license, free tier (100 emails/mo). Official first-party from [ActiveCampaign](https://www.activecampaign.com/).

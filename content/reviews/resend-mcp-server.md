@@ -6,6 +6,7 @@ og_description: "Resend MCP Server: 475 stars, MIT license, 30+ MCP tools for em
 content_type: "Review"
 card_description: "Official MCP server for Resend's email API. 30+ tools covering email sending/receiving, contacts, broadcasts, domains, segments, webhooks, and API key management. TypeScript, MIT license, works with Claude Desktop, Claude Code, and Cursor."
 last_refreshed: 2026-03-23
+category_url: "/categories/email-notification-services/"
 ---
 
 **At a glance:** 475+ stars, MIT license, TypeScript, 30+ MCP tools across 10 categories, stdio + HTTP transport, free tier (3,000 emails/month).

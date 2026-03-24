@@ -6,6 +6,7 @@ og_description: "Twilio MCP: ~2,000 API endpoints across 40+ services — SMS, v
 content_type: "Review"
 card_description: "Official first-party MCP server from Twilio Labs exposing nearly 2,000 API endpoints across 40+ Twilio services including SMS, voice, video, conversations, TaskRouter, Studio, and Serverless. TypeScript monorepo with OpenAPI-to-MCP generator, stdio and Streamable HTTP transport, API key authentication."
 last_refreshed: 2026-03-23
+category_url: "/categories/email-notification-services/"
 ---
 
 **At a glance:** [GitHub](https://github.com/twilio-labs/mcp) — 96 stars, TypeScript, ISC license, 101 commits, ~2,000 API endpoints across 40+ services, stdio + Streamable HTTP transport, API key auth. Official first-party from [Twilio Labs](https://github.com/twilio-labs) ([Twilio Inc.](https://www.twilio.com/), NYSE: TWLO).

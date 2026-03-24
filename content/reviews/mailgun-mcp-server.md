@@ -6,6 +6,7 @@ og_description: "Mailgun MCP Server: 70 MCP tools for email sending, analytics, 
 content_type: "Review"
 card_description: "Official MCP server for Mailgun's email API. 70 tools covering messaging, analytics, templates, suppressions, mailing lists, webhooks, domains, routes, IP management, and bounce classification. No-delete safety design keeps blast radius low."
 last_refreshed: 2026-03-23
+category_url: "/categories/email-notification-services/"
 ---
 
 **At a glance:** 49 stars, 19 forks, Apache 2.0 license, JavaScript, stdio transport, 70 MCP tools, official first-party server from Mailgun (Sinch).

@@ -6,6 +6,7 @@ og_description: "MailerSend MCP: 34+ tools for email, domains, webhooks, verific
 content_type: "Review"
 card_description: "Official first-party cloud-hosted MCP server for MailerSend's transactional email platform. 34+ tools covering email sending, domain management, webhook configuration, email verification, template management, and analytics. Streamable HTTP transport, OAuth authentication, beta status."
 last_refreshed: 2026-03-23
+category_url: "/categories/email-notification-services/"
 ---
 
 **At a glance:** [Developer docs](https://developers.mailersend.com/mcp-server) — cloud-hosted, Streamable HTTP transport, 34+ tools, OAuth authentication, beta status, free tier (500 emails/mo). Official first-party from [MailerSend](https://www.mailersend.com/) (a [Vercom](https://vercom.pl/) company via [MailerLite](https://www.mailerlite.com/)).

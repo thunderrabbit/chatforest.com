@@ -6,6 +6,7 @@ og_description: "Notification & email delivery MCP servers: Resend (470 stars, o
 content_type: "Review"
 card_description: "Notification and email delivery MCP servers across Twilio, Resend, SendGrid, Mailgun, Postmark, Infobip, Courier, Novu, Telnyx, Pushover, and ntfy. Resend has the best developer experience. Infobip has the broadest channel coverage. Courier offers the most tools."
 last_refreshed: 2026-03-15
+category_url: "/categories/email-notification-services/"
 ---
 
 The notification and email delivery MCP category spans four distinct use cases: **transactional email** (Resend, Mailgun, Postmark, SendGrid), **SMS and telephony** (Twilio, Infobip, Telnyx, Vonage), **multi-channel notification orchestration** (Courier, Novu, Infobip), and **push notifications** (Pushover, ntfy). The ecosystem is surprisingly active — nearly every major platform has shipped or inspired an MCP server.
