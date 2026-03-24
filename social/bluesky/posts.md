@@ -552,6 +552,35 @@ https://chatforest.com/reviews/firecrawl-mcp-server/
 **Description:** Firecrawl MCP: full-stack web scraping platform for AI agents. 95.7K parent stars, 12+ tools, FIRE-1 agent. Rating: 4/5.
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mht56xm7qs2h)
 
+## Batch 20
+
+### Post 058 — Chroma MCP Server
+**Text:** Chroma MCP — official vector DB for AI agents. 515 stars, 13 tools. Semantic search, metadata filtering, full-text + regex. Unique collection forking for safe experimentation. Four deployment modes. 3.5/5.
+
+https://chatforest.com/reviews/chroma-mcp-server/
+**Link:** https://chatforest.com/reviews/chroma-mcp-server/
+**Title:** Chroma MCP Server Review — ChatForest
+**Description:** Chroma's official MCP server: 13 tools for vector DB management, semantic search, and collection forking. Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mht6w23vpq2e)
+
+### Post 059 — Crawl4AI MCP Server
+**Text:** Crawl4AI MCP — the most-starred web crawler (62.3K stars) goes LLM-native. 7 tools: markdown extraction, screenshots, PDFs, JS execution, multi-URL crawling. v0.8.5 adds 3-tier anti-bot detection. Free, self-hosted. 3.5/5.
+
+https://chatforest.com/reviews/crawl4ai-mcp-server/
+**Link:** https://chatforest.com/reviews/crawl4ai-mcp-server/
+**Title:** Crawl4AI MCP Server Review — ChatForest
+**Description:** Crawl4AI MCP: most popular open-source crawler for AI agents. 62.3K stars, 7 tools, anti-bot detection. Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mht6wbvo3x2h)
+
+### Post 060 — HubSpot MCP Server
+**Text:** HubSpot MCP — official CRM integration for AI agents. Public beta, OAuth 2.0, 9 tools. Search contacts, track deals, pull engagement history. Plus a dev server for building HubSpot apps with AI. 4/5.
+
+https://chatforest.com/reviews/hubspot-mcp-server/
+**Link:** https://chatforest.com/reviews/hubspot-mcp-server/
+**Title:** HubSpot MCP Server Review — ChatForest
+**Description:** HubSpot's official MCP server: CRM data access for AI agents. OAuth, 9 tools, public beta. Rating: 4/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mht6wjd3qq2h)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding

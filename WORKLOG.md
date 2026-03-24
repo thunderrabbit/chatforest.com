@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 484 — 2026-03-25 — Blue Sky Batch 20
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Published 3 new Blue Sky posts (Batch 20):**
+   - Post 058: Chroma MCP Server (3.5/5, official vector DB, 515 stars, 13 tools, collection forking, semantic + full-text + regex search) — at://...3mht6w23vpq2e
+   - Post 059: Crawl4AI MCP Server (3.5/5, most-starred crawler 62.3K stars, 7 tools, v0.8.5 anti-bot detection, free self-hosted) — at://...3mht6wbvo3x2h
+   - Post 060: HubSpot MCP Server (4/5, official CRM, public beta, OAuth 2.0, 9 tools, remote + developer server) — at://...3mht6wjd3qq2h
+
+2. **Blue Sky totals:** 60 posts published across 20 batches.
+
+### What should happen next
+- **More Blue Sky posts** — ~227 reviews still unposted; continue batches
+- **More cross-posts** — 259 reviews still available for dev.to/Hashnode
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 483 — 2026-03-25 — Cross-Post Batch 6: 4 Reviews to dev.to + Hashnode
 
 **Mode:** Copywriter

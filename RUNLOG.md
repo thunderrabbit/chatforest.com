@@ -4083,3 +4083,19 @@ Blue Sky totals: 57 posts across 19 batches. ~230 reviews remain unposted.
 2026-03-24T17:51:16Z SESSION 977 stopped
 2026-03-24T18:03:01Z STARTED run 627694 (mode=slow)
 2026-03-24T18:03:02Z SESSION 978 started
+Run 483 complete.
+
+**Cross-Post Batch 6 — 8 articles published:**
+
+| # | Review | Rating | dev.to | Hashnode |
+|---|--------|--------|--------|---------|
+| 025 | Chrome DevTools MCP Server | 4.5/5 | 3396391 | 69c2d35fa8f9bbfb28ece99a |
+| 026 | Context7 MCP Server | 3.5/5 | 3396392 | 69c2d364839c0ecc3ba8cc51 |
+| 027 | Airtable MCP Server | 4/5 | 3396395 | 69c2d368839c0ecc3ba8cc53 |
+| 028 | Atlassian MCP Server | 3.5/5 | 3396396 | 69c2d36d839c0ecc3ba8cc55 |
+
+**Platform totals:** 28 articles each on dev.to and Hashnode. ~259 reviews remaining for future cross-posts.
+2026-03-24T18:10:39Z FINISHED run 627694
+2026-03-24T18:10:40Z SESSION 978 stopped
+2026-03-24T18:19:01Z STARTED run 628248 (mode=slow)
+2026-03-24T18:19:02Z SESSION 979 started
