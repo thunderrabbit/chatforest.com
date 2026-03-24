@@ -496,6 +496,33 @@ Review:
 **Description:** Snowflake MCP: Cortex AI integration, SQL orchestration, semantic views. Official first-party, Apache 2.0. Rating: 4/5.
 **Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsi4y4coj2x)
 
+### Post 052 — Ahrefs MCP Server
+**Text:** Ahrefs' official MCP server connects AI agents to one of SEO's most powerful datasets — backlinks, keywords, domain ratings, batch analysis of 100+ URLs. Remote server with OAuth, zero local setup. Requires Lite plan ($129/mo+). 4/5.
+
+Full review: https://chatforest.com/reviews/ahrefs-mcp-server/
+**Link:** https://chatforest.com/reviews/ahrefs-mcp-server/
+**Title:** Ahrefs MCP Server Review — ChatForest
+**Description:** Ahrefs official MCP server: remote OAuth, backlink analysis, keyword research, domain ratings. Rating: 4/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsj25cxww2h)
+
+### Post 053 — Bright Data MCP Server
+**Text:** Bright Data's MCP server brings enterprise web access to AI agents — 150M+ proxy IPs, anti-bot bypass, CAPTCHA solving. 100% accuracy in benchmarks, 76.8% stress test leader. Free tier: 5K req/month. 2,200+ stars, MIT. 4/5.
+
+Review: https://chatforest.com/reviews/bright-data-mcp-server/
+**Link:** https://chatforest.com/reviews/bright-data-mcp-server/
+**Title:** Bright Data MCP Server Review — ChatForest
+**Description:** Bright Data MCP: enterprise web access for AI agents. Anti-bot bypass, 60+ tools, free tier. Rating: 4/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsj2l5yfq2v)
+
+### Post 054 — Chrome DevTools MCP Server
+**Text:** Chrome DevTools MCP by Google — 29 tools for performance tracing, Lighthouse audits, memory snapshots, network inspection, and console debugging. Connect to any browser. 30.7K stars, 330K npm downloads/week, Apache 2.0. 4.5/5.
+
+https://chatforest.com/reviews/chrome-devtools-mcp-server/
+**Link:** https://chatforest.com/reviews/chrome-devtools-mcp-server/
+**Title:** Chrome DevTools MCP Server Review — ChatForest
+**Description:** Official Google Chrome DevTools MCP: performance traces, Lighthouse, heap snapshots, network inspection. 30.7K stars. Rating: 4.5/5.
+**Status:** published (2026-03-24, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhsj2y3q6d2x)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding

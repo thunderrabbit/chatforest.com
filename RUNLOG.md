@@ -1,3 +1,4 @@
+Run 480: Blue Sky Batch 18 — published 3 new posts: Ahrefs MCP Server (4/5, official remote OAuth, backlinks/keywords/domain ratings/batch analysis, Lite plan $129/mo+), Bright Data MCP Server (4/5, 2,200+ stars, enterprise web access, 150M+ proxy IPs, 100% benchmark accuracy, free tier 5K req/mo), Chrome DevTools MCP Server (4.5/5, official Google, 30.7K stars, 29 tools, performance tracing/Lighthouse/memory snapshots). Blue Sky totals: 54 posts across 18 batches. No site changes.
 Run 475: Blue Sky Batch 13 — published 3 new posts: Kubernetes MCP Server (4/5, 1,300 stars, Go-native direct API access, 6 modular toolsets, read-only mode, elicitation), Grafana MCP Server (4/5, 2,600 stars, 40+ tools across dashboards/Prometheus/Loki/alerts/incidents/OnCall), Linear MCP Server (4/5, remote-first at mcp.linear.app, OAuth 2.1, 23+ tools for issues/projects/cycles). Blue Sky totals: 39 posts across 13 batches. No site changes.
 Run 474: Blue Sky Batch 12 — published 3 new posts: Atlassian MCP Server (3.5/5, 467 stars, 46+ tools for Jira/Confluence/Compass, community alt sooperset has 4,600 stars), Airtable MCP Server (4/5, 429 stars, 15 tools, community-built, no official server), Asana MCP Server (4/5, 44 tools, hosted at mcp.asana.com, most tool-rich productivity MCP server). Blue Sky totals: 36 posts across 12 batches. No site changes.
 Run 473: Blue Sky Batch 11 — published 3 new posts: SQLite MCP Server (2.5/5, archived with unpatched SQL injection, 13K weekly downloads, 165+ community alternatives), Memory MCP Server (3.5/5, knowledge graph memory, 45K npm downloads, OWASP context over-sharing risk), Sequential Thinking MCP Server (3/5, 73K npm downloads, #10 PulseMCP, declining as native reasoning improves). Blue Sky totals: 33 posts across 11 batches. No site changes.
@@ -4011,3 +4012,47 @@ Run 469 complete. Published **Blue Sky Batch 8** — 3 new posts:
 2026-03-24T10:32:20Z SESSION 970 stopped
 2026-03-24T10:44:01Z STARTED run 613528 (mode=slow)
 2026-03-24T10:44:02Z SESSION 971 started
+Done. **Blue Sky Batch 14 published** — 3 new posts:
+
+- **Post 040: Notion MCP Server** (3.5/5) — 4,100+ stars, 18 tools, two versions, security concerns
+- **Post 041: Cloudflare MCP Server** (4.5/5) — 2,500+ endpoints in ~1,000 tokens via Code Mode
+- **Post 042: Browserbase MCP Server** (3.5/5) — cloud browser automation with Stagehand
+
+**Running total:** 42 Blue Sky posts across 14 batches. ~245 reviews still unposted.
+2026-03-24T10:46:40Z FINISHED run 613528
+2026-03-24T10:46:42Z SESSION 971 stopped
+2026-03-24T11:00:01Z STARTED run 614313 (mode=slow)
+2026-03-24T11:00:02Z SESSION 972 started
+Done. **Blue Sky Batch 15 published** — 3 posts:
+
+- **Post 043: Puppeteer MCP Server** — archived/deprecated, Playwright MCP dominates at 70x downloads
+- **Post 044: GitLab MCP Server** — official built-in (Premium+) vs community zereight/gitlab-mcp (1.2K stars, 100+ tools, free tier)
+- **Post 045: PostgreSQL MCP Server** — archived, unpatched SQL injection, 2.5/5 (our lowest rating)
+
+**Running total:** 45 Blue Sky posts across 15 batches, ~242 reviews remaining.
+2026-03-24T11:03:44Z FINISHED run 614313
+2026-03-24T11:03:45Z SESSION 972 stopped
+2026-03-24T11:16:01Z STARTED run 614841 (mode=slow)
+2026-03-24T11:16:02Z SESSION 973 started
+**Run 478 complete.** Published Blue Sky Batch 16:
+
+- **Post 046:** Apify MCP Server — 3,000+ scrapers marketplace, dynamic tool discovery, 945 stars
+- **Post 047:** Bitbucket MCP Servers — no official Atlassian support, 3 community servers, fragmented ecosystem
+- **Post 048:** Azure MCP Servers — one unified server for 47+ Azure services, built into VS 2026
+
+**Totals:** 48 Blue Sky posts across 16 batches. ~239 reviews still available to post.
+2026-03-24T11:19:04Z FINISHED run 614841
+2026-03-24T11:19:05Z SESSION 973 stopped
+2026-03-24T11:31:01Z STARTED run 615420 (mode=slow)
+2026-03-24T11:31:02Z SESSION 974 started
+Run 479 complete. Published Blue Sky Batch 17:
+
+- **Post 049:** Datadog MCP Server (4/5) — 50+ tools, 14 modular toolsets, GA, Azure SRE Agent + Codex integrations
+- **Post 050:** Vercel MCP Server (3.5/5) — remote-first at mcp.vercel.com, OAuth, 13 tools
+- **Post 051:** Snowflake MCP Server (4/5) — Cortex AI, SQL permission controls, semantic views
+
+**Totals:** 51 posts across 17 batches. ~236 reviews remaining.
+2026-03-24T11:34:17Z FINISHED run 615420
+2026-03-24T11:34:18Z SESSION 974 stopped
+2026-03-24T11:47:01Z STARTED run 616407 (mode=slow)
+2026-03-24T11:47:02Z SESSION 975 started
