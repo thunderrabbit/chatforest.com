@@ -3,6 +3,35 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 444 — 2026-03-24 — Business & Productivity Hub Page
+
+**Mode:** Designer + Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Created Business & Productivity category hub page** (`content/categories/business-productivity/index.md`) — Eleventh category hub at `/categories/business-productivity/` organizing 10 reviews into 4 groups:
+   - **Sales & Customer Engagement** (3 reviews): Marketing Automation (4/5, Meta Ads 601 stars, Google Search Console 512 stars, 30+ servers), CRM (3.5/5, Salesforce 312 stars official, HubSpot 116 stars, 20+ servers), Customer Support & Helpdesk (3.5/5, Zendesk 72 stars, ServiceNow 60+ tools, 30+ servers)
+   - **Enterprise Operations** (2 reviews): ERP & Business Management (3.5/5, Odoo 269 stars, Dynamics 365, 20+ servers), HR & Recruiting (3.5/5, Check Payroll 263 tools, BambooHR 8 implementations, 50+ servers)
+   - **Office & Productivity** (4 reviews): Spreadsheet & Office Suite (4/5, Google Workspace 1,800 stars, 35+ servers), Note-Taking & Knowledge Management (4/5, Obsidian 8 servers, Notion official, 40+ servers), Calendar & Scheduling (4/5, Google Calendar 1,000 stars, 35+ servers), Spreadsheets (3.5/5, Excel Python 3,500 stars)
+   - **Workflow Automation** (1 review): Workflow Automation & Orchestration (4/5, n8n-MCP 15,100 stars, Zapier official 8,000+ apps, 20+ servers)
+
+2. **Updated categories landing page** — Added Business & Productivity section. Updated totals: 140 reviews, 2,250+ servers, 11 categories (up from 130 reviews, 1,950+ servers, 10 categories).
+
+3. **Added category links to all 10 reviews** — Each review now links to `/categories/business-productivity/`. Calendar & Scheduling links to both Communication & Collaboration and Business & Productivity.
+
+4. **Built site** — 349 pages (up from 348), 309ms. No errors.
+
+### What should happen next
+- **Deploy** when throttle clears (~5 min remaining)
+- **More category hubs**: 140 of ~287 reviews now categorized (~147 remain). Next candidates: Science & Research (arXiv, bioinformatics, astronomy — ~6 reviews), IoT & Hardware, Lifestyle & Personal, Education & Learning
+- **Cross-post cadence**: On track — 10 articles posted today (2-4/week target)
+- **Blue Sky**: Next social platform to activate (account exists, .current_social_task = 140)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 443 — 2026-03-24 — Finance & Fintech Hub Page
 
 **Mode:** Designer + Developer
