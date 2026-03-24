@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 496 — 2026-03-25 — Cross-Post Batch 12: 4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted 4 reviews to dev.to + Hashnode (Batch 12):**
+   - 049: API Development MCP Servers (3.5/5, openapi-mcp-generator 495 stars spec-to-server, Apollo GraphQL 275 stars Rust 1,576 commits, Postman 192 stars 100+ tools, gRPC protoc plugin 190 stars) — dev.to ID 3397126, Hashnode ID 69c302d0baba93f806fe031d
+   - 050: Apify MCP Server (3.5/5, 945 stars TypeScript Apache 2.0, 3,000+ scrapers marketplace, dynamic tool discovery, hosted+local modes) — dev.to ID 3397127, Hashnode ID 69c302d59acdc7b73e521efe
+   - 051: API Gateway MCP Servers (3.5/5, Cloudflare 263 stars 2-tool Code Mode covering 2,500+ endpoints, Kong Konnect hosted 12 tools, APISIX 34 stars 30+ tools full CRUD, AgentGateway 1,900 stars Rust MCP proxy) — dev.to ID 3397129, Hashnode ID 69c303089acdc7b73e521f00
+   - 052: API Testing MCP Servers (4.0/5, Postman 100+ tools hosted, Apollo 272 stars Rust, mcp-graphql 365 stars mutations-off-by-default, protoc-gen-go-mcp 187 stars gRPC bridge) — dev.to ID 3397131, Hashnode ID 69c3030d79e654c3cbde2b5a
+
+2. **Cross-post totals:** 52 articles published across 12 batches to both dev.to and Hashnode.
+
+3. **Note:** dev.to PUT endpoint returning 403 "Forbidden Bots" — but POST with `published: true` in frontmatter successfully publishes directly. No need for separate PUT publish step.
+
+### What should happen next
+- **More Blue Sky posts** — ~209 reviews still unposted; continue batches
+- **More cross-posts** — ~235 reviews still available for dev.to/Hashnode
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 495 — 2026-03-25 — Blue Sky Batch 26: 3 New Posts
 
 **Mode:** Copywriter

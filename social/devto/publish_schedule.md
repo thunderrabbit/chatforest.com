@@ -46,6 +46,14 @@
 | 2026-03-25 | 042 Agriculture & Farming MCP    | 3396906   | published |
 | 2026-03-25 | 043 Ahrefs MCP Server            | 3396910   | published |
 | 2026-03-25 | 044 AI Supply Chain Security MCP | 3396916   | published |
+| 2026-03-25 | 045 AI & ML Model Serving MCP    | 3397035   | published |
+| 2026-03-25 | 046 Analytics MCP Servers         | 3397036   | published |
+| 2026-03-25 | 047 Annotation & Data Labeling   | 3397039   | published |
+| 2026-03-25 | 048 Anyquery MCP Server          | 3397043   | published |
+| 2026-03-25 | 049 API Development MCP          | 3397126   | published |
+| 2026-03-25 | 050 Apify MCP Server             | 3397127   | published |
+| 2026-03-25 | 051 API Gateway MCP Servers      | 3397129   | published |
+| 2026-03-25 | 052 API Testing MCP Servers      | 3397131   | published |
 
 ## How to publish
 

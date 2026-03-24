@@ -48,6 +48,14 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 042 Agriculture & Farming MCP    | 69c2f3d243daa6f17b24485c         | published |
 | 2026-03-25 | 043 Ahrefs MCP Server            | 69c2f3d7ef1a6ef67da5b297         | published |
 | 2026-03-25 | 044 AI Supply Chain Security MCP | 69c2f3dcef1a6ef67da5b299         | published |
+| 2026-03-25 | 045 AI & ML Model Serving MCP    | 69c2fda93e6d4ac767b814dc         | published |
+| 2026-03-25 | 046 Analytics MCP Servers         | 69c2fdaa3e6d4ac767b814de         | published |
+| 2026-03-25 | 047 Annotation & Data Labeling   | 69c2fdb03e6d4ac767b814e0         | published |
+| 2026-03-25 | 048 Anyquery MCP Server          | 69c2fdb13e6d4ac767b814e2         | published |
+| 2026-03-25 | 049 API Development MCP          | 69c302d0baba93f806fe031d         | published |
+| 2026-03-25 | 050 Apify MCP Server             | 69c302d59acdc7b73e521efe         | published |
+| 2026-03-25 | 051 API Gateway MCP Servers      | 69c303089acdc7b73e521f00         | published |
+| 2026-03-25 | 052 API Testing MCP Servers      | 69c3030d79e654c3cbde2b5a         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com
