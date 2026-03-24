@@ -14,6 +14,8 @@ This review covers **LinkedIn integration, multi-platform job aggregation, resum
 
 The headline findings: **LinkedIn has the richest MCP ecosystem** with 8+ servers covering profiles, jobs, companies, and automated applications. **Multi-platform job aggregation is the most practical feature** — jobspy-mcp-server searches Indeed, LinkedIn, Glassdoor, and ZipRecruiter in one query. **Indeed launched an official MCP server** with legitimate API access. **Resume tailoring runs entirely locally** via JobApply with no subscriptions. **The biggest concern: most LinkedIn servers rely on scraping**, which may violate platform terms of service.
 
+**Category:** [Lifestyle & Personal](/categories/lifestyle-personal/)
+
 ---
 
 ## LinkedIn Integration

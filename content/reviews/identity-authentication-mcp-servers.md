@@ -12,6 +12,8 @@ Identity and authentication is a category that splits cleanly into two use cases
 
 The headline finding: **Auth0 has the most polished identity platform MCP server** — 97 stars, 18+ tools with automatic credential redaction, configurable tool access via `--tools` and `--read-only` flags, and Device Authorization Flow with secure keychain storage. **Casdoor is the most architecturally ambitious** — 13,200 stars, the first IAM platform to build MCP support directly into the product rather than as a separate server. **For securing MCP servers, MCP Auth Proxy is the strongest option** — a drop-in Go binary that adds OAuth 2.1 to any MCP server without code changes, supporting Google, GitHub, and any OIDC provider. **The main gap is fragmentation** — every identity provider has its own MCP server with its own tool names, auth flows, and permission models, with no abstraction layer across providers.
 
+**Category:** [Security & Compliance](/categories/security-compliance/)
+
 ## Enterprise Identity Platforms
 
 ### Okta (Official)

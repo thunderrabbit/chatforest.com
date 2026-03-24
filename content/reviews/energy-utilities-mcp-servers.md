@@ -14,6 +14,8 @@ The landscape spans six areas: **power system simulation** (PowerMCP, PyPSA — 
 
 The headline findings: **PowerMCP is the most ambitious multi-software integration** — 9 power system simulators unified under one MCP interface, enabling AI agents to coordinate across PowerWorld, OpenDSS, PSSE, and more. **EnergyPlus MCP has the most tools** at 35, covering the complete building energy simulation lifecycle with HVAC topology analysis. **The industrial IoT gap is closing** — IoT-Edge bridges AI agents to real SCADA/PLC systems via MQTT and Modbus with production-grade security. **Carbon tracking is accessible** — Climatiq provides 10 tools for emission calculations across multiple domains. **Operational utility systems remain underserved** — no billing, no DERMS, no ISO/RTO market feeds, no AMI/smart meter access.
 
+**Category:** [Logistics & Industry](/categories/logistics-industry/)
+
 ## Power System Simulation
 
 ### PowerMCP

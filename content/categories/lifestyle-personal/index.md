@@ -1,14 +1,14 @@
 ---
-title: "Lifestyle & Personal MCP Servers — 6 Reviews Covering Food, Travel, Hospitality, Fashion, Pet Care, and Veterinary Services"
+title: "Lifestyle & Personal MCP Servers — 10 Reviews Covering Food, Travel, Hospitality, Fashion, Pet Care, Weather, Astrology, Genealogy, and Job Search"
 date: 2026-03-24T22:30:00+09:00
-description: "Comprehensive reviews of 6 Lifestyle & Personal MCP server categories — from food delivery and restaurant discovery to travel planning, hotel booking, fashion styling, pet care, and veterinary services. 130+ servers evaluated across everyday life domains."
-og_description: "6 Lifestyle & Personal MCP server reviews covering Yelp, Instacart, Airbnb, Google Flights, Expedia, virtual try-on, pet adoption, livestock genetics, and more. 130+ servers evaluated."
+description: "Comprehensive reviews of 10 Lifestyle & Personal MCP server categories — from food and travel to weather, astrology, genealogy, job search, hospitality, fashion, and pet care. 215+ servers evaluated across everyday life domains."
+og_description: "10 Lifestyle & Personal MCP server reviews covering food, travel, weather, astrology, genealogy, job search, hospitality, fashion, pet care, and more. 215+ servers evaluated."
 content_type: "Category"
 ---
 
-We've reviewed **6 categories** of Lifestyle & Personal MCP servers, evaluating over **130 individual servers** across food and dining, travel and tourism, hospitality, fashion and beauty, pet care, and veterinary services. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
+We've reviewed **10 categories** of Lifestyle & Personal MCP servers, evaluating over **215 individual servers** across food, travel, weather, astrology, genealogy, job search, hospitality, fashion, pet care, and veterinary services. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
 
-Lifestyle & Personal is one of the most consumer-facing MCP categories. The ecosystem ranges from mature, high-star platforms (Airbnb at 394 stars, HowToCook at 569 stars, Google Maps at 193 stars) to experimental early-stage projects (virtual pet companions, wildlife identification, livestock genetics). Food and travel are the strongest verticals — both have multiple competing servers with real utility. Fashion and pet care are still emerging, with small ecosystems and low star counts that reflect how early these integrations are.
+Lifestyle & Personal is one of the most consumer-facing MCP categories. The ecosystem ranges from mature, high-star platforms (Airbnb at 394 stars, HowToCook at 569 stars, Weather at 30+ servers) to niche personal interest domains (astrology, genealogy, pet care). Food, travel, and weather are the strongest verticals — all have multiple competing servers with real utility. Job search and career tools are rapidly growing with LinkedIn scraping and resume optimization.
 
 ---
 
@@ -53,11 +53,43 @@ Two reviews cover the animal kingdom from opposite angles. Pet & Animal Care spa
 | [Pet & Animal Care](/reviews/pet-animal-care-mcp-servers/) | 2.5/5 | NSIP sheep genetics (15 tools), MCPet virtual pet (10 stars, 6 tools), wildlife ID, birding data, pet adoption — 10+ servers |
 | [Veterinary & Pet Care](/reviews/veterinary-pet-care-mcp-servers/) | 2.5/5 | NSIP API Client (15 tools), MCPet (10 stars, 6 tools), Fish MCP (2 tools) — very thin ecosystem |
 
+## Weather & Climate
+
+The broadest personal utility subcategory. Multi-source weather platforms, Open-Meteo, OpenWeatherMap, NOAA, AccuWeather, marine conditions, and air quality monitoring. Weather MCP servers are among the most practical lifestyle tools.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Weather & Climate](/reviews/weather-climate-mcp-servers/) | 3.5/5 | Multi-source platforms, Open-Meteo, OpenWeatherMap, NOAA, AccuWeather, marine conditions, air quality — 30+ servers |
+
+## Astrology & Divination
+
+BaZi/Chinese astrology, Western astrology, ephemeris calculations, tarot, I Ching, horoscopes, and numerology. A niche but surprisingly active ecosystem.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Astrology & Divination](/reviews/astrology-divination-mcp-servers/) | 3.5/5 | BaZi, Western astrology, ephemeris, tarot, I Ching, horoscopes, numerology — 20+ servers |
+
+## Genealogy & Family History
+
+GEDCOM file processing, Gramps Web integration, FamilySearch, WikiTree, historical records, and data quality analysis. A specialized but well-served domain for family researchers.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Genealogy & Family History](/reviews/genealogy-family-history-mcp-servers/) | 3.5/5 | GEDCOM, Gramps Web, FamilySearch, WikiTree, historical records, data quality analysis — 15+ servers |
+
+## Job Search & Career
+
+LinkedIn scraping, multi-platform job aggregation, resume tailoring, and interview preparation. The most commercially relevant lifestyle subcategory.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Job Search & Career](/reviews/job-search-career-mcp-servers/) | 3.5/5 | LinkedIn scraping, multi-platform job aggregation, resume tailoring, interview preparation — 20+ servers |
+
 ---
 
 ## Category Overview
 
-**6 reviews. 130+ servers. Average rating: 3.2/5.**
+**10 reviews. 215+ servers. Average rating: 3.3/5.**
 
 ### What stands out
 

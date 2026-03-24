@@ -14,6 +14,8 @@ The landscape spans seven areas: **BIM & Revit** (Autodesk's flagship and the la
 
 The headline findings: **Autodesk has made MCP a core part of its platform strategy** — with four official servers and a public roadmap for production-grade MCP connectors across Revit, AutoCAD, Civil 3D, and Construction Cloud. **Revit has the most mature MCP integration in construction** — revit-mcp (362 stars) offers 27 tools for full BIM automation. **AutoCAD has six independent implementations** — more than any other CAD platform. **Rhino is the second most-starred construction MCP server** — jingcheng-chen/rhinomcp (316 stars) plus Grasshopper parametric design integration. **Structural engineering has a surprisingly strong start** — the ETABS server provides 30+ tools with access to all 806 analysis tables and AISC steel code compliance. **The design phase is well-covered; the construction phase is not** — there's a sharp drop-off from modeling to actual project management, scheduling, and site operations.
 
+**Category:** [Logistics & Industry](/categories/logistics-industry/)
+
 ## BIM & Revit
 
 ### revit-mcp/revit-mcp

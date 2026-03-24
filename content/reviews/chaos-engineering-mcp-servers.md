@@ -12,6 +12,8 @@ Chaos engineering — the practice of deliberately injecting faults to find weak
 
 The headline finding: **LitmusChaos has the strongest official MCP server** with 17 tools covering experiment management, infrastructure monitoring, environment organization, resilience probes, ChaosHub integration, and analytics — the full chaos experiment lifecycle in one server. **Chaos Mesh MCP has the deepest fault injection coverage** with 33 tools across 7 chaos types (network, stress, pod, IO, HTTP, DNS, physical machine), but it's a community project with minimal adoption. Commercial platforms (Gremlin, Steadybit) focus on **read-only observability** — querying experiment results and generating reports rather than directly injecting faults through MCP. The main gap is in **direct fault execution** — most servers either manage experiments or report on results, but few give the AI agent a "break this now" button with proper safety controls.
 
+**Category:** [Cloud & Infrastructure](/categories/cloud-infrastructure/)
+
 ## CNCF Platforms
 
 ### LitmusChaos

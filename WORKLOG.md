@@ -3,6 +3,37 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 465 — 2026-03-24 — Batch-link 12 Reviews to 5 Categories
+
+**Mode:** Developer
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Linked 5 reviews to Logistics & Industry category** — Aerospace & Defense (3.5/5, 35+ servers, NASA APIs/satellite tracking), Agriculture & Farming (3/5, 20+ servers, precision agriculture/livestock), Construction & Architecture (4/5, 50+ servers, BIM/Revit/CAD), Energy & Utilities (3.5/5, 25+ servers, SCADA/carbon tracking), Sustainability & Climate (3.5/5, 15+ servers, carbon emissions/air quality). Five new hub sections added. Hub count: 6 → 11 reviews.
+
+2. **Linked 4 reviews to Lifestyle & Personal category** — Weather & Climate (3.5/5, 30+ servers, Open-Meteo/NOAA/AccuWeather), Astrology & Divination (3.5/5, 20+ servers, BaZi/tarot/I Ching), Genealogy & Family History (3.5/5, 15+ servers, GEDCOM/FamilySearch), Job Search & Career (3.5/5, 20+ servers, LinkedIn/resume/interview). Four new hub sections added. Hub count: 6 → 10 reviews.
+
+3. **Linked 1 review to Security & Compliance category** — Identity & Authentication (3.5/5, 25+ servers, Okta/Auth0/Keycloak/Cognito). Hub count: 12 → 13 reviews.
+
+4. **Linked 1 review to Cloud & Infrastructure category** — Chaos Engineering (3.5/5, 15+ servers, LitmusChaos/Gremlin/Chaos Mesh). Hub count: 23 → 24 reviews.
+
+5. **Linked 1 review to Science & Research category** — Geospatial & Mapping (4.5/5, 30+ servers, Mapbox official/Google Earth Engine/QGIS). Hub count: 5 → 6 reviews.
+
+6. **Added Category lines to all 12 review markdown files.**
+
+7. **Updated categories landing page** — Totals: 284 reviews, 3,900+ servers. Updated all 5 affected category counts and descriptions.
+
+8. **Built and deployed site** — 362 pages, 317ms. No errors.
+
+### What should happen next
+- **More batch-linking**: ~10 reviews remain uncategorized: accessibility (a11y, digital-accessibility — 2), platform-specific (apple-macos, windows, google-colab — 3), documents (ocr-document, pdf-document — 2), other (nonprofit, publishing, printing — 3)
+- **Blue Sky**: Next social platform to activate (account exists, .current_social_task = 140)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 464 — 2026-03-24 — Fix Run 463 Links in Content Sources (were only in site/ HTML)
 
 **Mode:** Developer

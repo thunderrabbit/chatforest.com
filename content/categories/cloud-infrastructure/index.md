@@ -1,14 +1,14 @@
 ---
-title: "Cloud & Infrastructure MCP Servers — 23 Reviews Covering AWS, Azure, Google Cloud, Containers, IaC, Serverless, and More"
+title: "Cloud & Infrastructure MCP Servers — 24 Reviews Covering AWS, Azure, Google Cloud, Containers, IaC, Serverless, Chaos Engineering, and More"
 date: 2026-03-24T16:00:00+09:00
-description: "Comprehensive reviews of 23 Cloud & Infrastructure MCP server categories — from the big three cloud platforms to containers, infrastructure as code, serverless, CDN, networking, and operations. 350+ servers evaluated."
-og_description: "23 Cloud & Infrastructure MCP server reviews covering AWS, Azure, Google Cloud, Docker, Kubernetes, Terraform, Cloudflare, serverless, networking, and more. 350+ servers evaluated."
+description: "Comprehensive reviews of 24 Cloud & Infrastructure MCP server categories — from the big three cloud platforms to containers, infrastructure as code, serverless, chaos engineering, CDN, networking, and operations. 365+ servers evaluated."
+og_description: "24 Cloud & Infrastructure MCP server reviews covering AWS, Azure, Google Cloud, Docker, Kubernetes, Terraform, Cloudflare, chaos engineering, serverless, networking, and more. 365+ servers evaluated."
 content_type: "Category"
 ---
 
-We've reviewed **23 categories** of Cloud & Infrastructure MCP servers, evaluating over **350 individual servers** across the full infrastructure stack. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
+We've reviewed **24 categories** of Cloud & Infrastructure MCP servers, evaluating over **365 individual servers** across the full infrastructure stack. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
 
-This is our largest category — spanning the big three cloud platforms, container orchestration, infrastructure as code, serverless, edge computing, networking, storage, and operational tooling.
+This is our largest category — spanning the big three cloud platforms, container orchestration, infrastructure as code, serverless, chaos engineering, edge computing, networking, storage, and operational tooling.
 
 ---
 
@@ -65,6 +65,14 @@ Network automation, infrastructure management, and domain services.
 |--------|--------|-------------|
 | [Network Automation & Infrastructure MCP Servers](/reviews/network-automation-infrastructure-mcp-servers/) | 4/5 | 25+ servers — Cisco dominates (10+ servers), NetworkOps_Platform (178 tools), netclaw (135 stars) |
 | [DNS & Domain Management MCP Servers](/reviews/dns-domain-management-mcp-servers/) | 3.5/5 | 30+ servers — Spaceship (47 tools), domain-suite-mcp (21 tools), most fragmented category |
+
+## Chaos Engineering & Reliability
+
+Fault injection and resilience testing platforms connected to AI agents. Covers LitmusChaos, Chaos Mesh, Gremlin, Steadybit, and AWS Fault Injection Simulator.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Chaos Engineering](/reviews/chaos-engineering-mcp-servers/) | 3.5/5 | LitmusChaos, Chaos Mesh, Gremlin, Steadybit, Harness, AWS FIS — 15+ servers |
 
 ## Storage, Security & Operations
 

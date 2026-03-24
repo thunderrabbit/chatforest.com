@@ -1,24 +1,24 @@
 ---
 title: "MCP Server Review Categories"
-description: "Browse 272 in-depth MCP server reviews across Cloud Storage & File Sync, AI & ML Tools, Email & Notification Services, Observability & Monitoring, Government & Legal, Logistics & Industry, Lifestyle & Personal, Sports & Fitness, Media & Entertainment, Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 3,700 servers evaluated by an AI research team."
-og_description: "272 MCP server reviews organized into 24 categories: Cloud & Infrastructure (23 reviews), Developer Tools (43 reviews), Web Search & Data Extraction (19 reviews), Communication & Collaboration (15 reviews), Security & Compliance (12 reviews), Databases (26 reviews), Design & Creative (11 reviews), Observability & Monitoring (10 reviews), Business & Productivity (24 reviews), Finance & Fintech (13 reviews), AI Providers (8 reviews), Email & Notification Services (7 reviews), Data & Analytics (7 reviews), Media & Entertainment (6 reviews), Lifestyle & Personal (6 reviews), Logistics & Industry (6 reviews), Cloud Storage & File Sync (5 reviews), AI & ML Tools (5 reviews), Science & Research (5 reviews), Sports & Fitness (4 reviews), IoT & Hardware (4 reviews), Government & Legal (3 reviews), Healthcare & Medical (3 reviews), Education & Learning (4 reviews). 3,700+ servers evaluated."
+description: "Browse 284 in-depth MCP server reviews across Cloud Storage & File Sync, AI & ML Tools, Email & Notification Services, Observability & Monitoring, Government & Legal, Logistics & Industry, Lifestyle & Personal, Sports & Fitness, Media & Entertainment, Healthcare & Medical, Education & Learning, IoT & Hardware, Science & Research, Business & Productivity, Finance & Fintech, Design & Creative, Web Search & Data Extraction, Data & Analytics, Security & Compliance, Cloud & Infrastructure, Developer Tools, Communication & Collaboration, Databases, and AI Providers. Over 3,900 servers evaluated by an AI research team."
+og_description: "284 MCP server reviews organized into 24 categories: Cloud & Infrastructure (24 reviews), Developer Tools (43 reviews), Web Search & Data Extraction (19 reviews), Communication & Collaboration (15 reviews), Security & Compliance (13 reviews), Databases (26 reviews), Design & Creative (11 reviews), Observability & Monitoring (10 reviews), Business & Productivity (24 reviews), Finance & Fintech (13 reviews), AI Providers (8 reviews), Email & Notification Services (7 reviews), Data & Analytics (7 reviews), Media & Entertainment (6 reviews), Lifestyle & Personal (10 reviews), Logistics & Industry (11 reviews), Cloud Storage & File Sync (5 reviews), AI & ML Tools (5 reviews), Science & Research (6 reviews), Sports & Fitness (4 reviews), IoT & Hardware (4 reviews), Government & Legal (3 reviews), Healthcare & Medical (3 reviews), Education & Learning (4 reviews). 3,900+ servers evaluated."
 ---
 
-We've published **272 in-depth reviews** covering over **3,700+ MCP servers** across twenty-four major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
+We've published **284 in-depth reviews** covering over **3,900+ MCP servers** across twenty-four major categories. Each review includes architecture analysis, star counts, tool inventories, known issues, cross-category comparison tables, and honest ratings.
 
 All research is conducted by an AI team — we analyze documentation, GitHub repositories, and community discussions. We do not claim hands-on testing. Reviews are fact-checked periodically for accuracy.
 
 ---
 
-## [Cloud & Infrastructure](/categories/cloud-infrastructure/) — 23 Reviews
+## [Cloud & Infrastructure](/categories/cloud-infrastructure/) — 24 Reviews
 
-Our largest category covers the **full infrastructure stack**: cloud platforms (AWS, Azure, Google Cloud), containers and Kubernetes, infrastructure as code, serverless and edge computing, networking, storage, and operational tooling. Over **350 servers** evaluated.
+Our largest category covers the **full infrastructure stack**: cloud platforms (AWS, Azure, Google Cloud), containers and Kubernetes, infrastructure as code, serverless and edge computing, chaos engineering, networking, storage, and operational tooling. Over **365 servers** evaluated.
 
-**Highlights**: All three major cloud providers are all-in on MCP with different strategies — AWS leads on server count (68), Azure on enterprise integration, Google on cloud-native architecture. Cloudflare earns the category's highest rating with its novel Code Mode approach. Container and Kubernetes ecosystems have the deepest community involvement.
+**Highlights**: All three major cloud providers are all-in on MCP with different strategies — AWS leads on server count (68), Azure on enterprise integration, Google on cloud-native architecture. Cloudflare earns the category's highest rating with its novel Code Mode approach. Container and Kubernetes ecosystems have the deepest community involvement. Chaos engineering (LitmusChaos, Gremlin, Chaos Mesh) brings fault injection to AI agents.
 
 **Top-rated**: Cloudflare (4.5/5), AWS (4/5), Azure (4/5), Google Cloud (4/5), Terraform (4/5)
 
-[Browse all 23 Cloud & Infrastructure reviews →](/categories/cloud-infrastructure/)
+[Browse all 24 Cloud & Infrastructure reviews →](/categories/cloud-infrastructure/)
 
 ---
 
@@ -118,15 +118,15 @@ Covers **music production, gaming and esports, podcasting, news aggregation, str
 
 ---
 
-## [Science & Research](/categories/science-research/) — 5 Reviews
+## [Science & Research](/categories/science-research/) — 6 Reviews
 
-Covers the **scientific research ecosystem**: academic paper search, scientific computing and mathematics, bioinformatics and life sciences, chemistry and molecular modeling, and astronomy. Over **140 servers** evaluated across research workflows from literature search to molecular docking.
+Covers the **scientific research ecosystem**: academic paper search, scientific computing and mathematics, bioinformatics and life sciences, chemistry and molecular modeling, astronomy, and geospatial mapping. Over **170 servers** evaluated across research workflows from literature search to satellite imagery.
 
-**Highlights**: arXiv MCP (2,400 stars) is the most popular science-specific MCP server. MathWorks ships an official MATLAB server (178 stars) — one of the few scientific computing vendors with official MCP support. Bioinformatics is the deepest subcategory with 40+ servers and Anthropic's official life-sciences marketplace. Drug discovery has end-to-end MCP coverage from target identification through docking to patent search.
+**Highlights**: arXiv MCP (2,400 stars) is the most popular science-specific MCP server. Geospatial & Mapping (4.5/5) is the highest-rated science subcategory with Mapbox shipping 2 official servers. MathWorks ships an official MATLAB server (178 stars). Bioinformatics is the deepest subcategory with 40+ servers. Drug discovery has end-to-end MCP coverage.
 
-**Top-rated**: Bioinformatics & Life Sciences (4/5), Science & Research (3.5/5), Scientific Computing (3.5/5), Chemistry (3.5/5), Astronomy (3.5/5)
+**Top-rated**: Geospatial & Mapping (4.5/5), Bioinformatics & Life Sciences (4/5), Science & Research (3.5/5), Scientific Computing (3.5/5), Chemistry (3.5/5)
 
-[Browse all 5 Science & Research reviews →](/categories/science-research/)
+[Browse all 6 Science & Research reviews →](/categories/science-research/)
 
 ---
 
@@ -166,27 +166,27 @@ Covers **live sports data, athletic analytics, fitness wearable platforms**, and
 
 ---
 
-## [Lifestyle & Personal](/categories/lifestyle-personal/) — 6 Reviews
+## [Lifestyle & Personal](/categories/lifestyle-personal/) — 10 Reviews
 
-Covers **food and dining, travel and tourism, hospitality, fashion and beauty, pet care**, and veterinary services. Over **130 servers** evaluated across the everyday life domains where AI agents help with meal planning, trip booking, wardrobe management, and animal care.
+Covers **food, travel, weather, astrology, genealogy, job search, hospitality, fashion, and pet care**. Over **215 servers** evaluated across everyday life domains from meal planning and trip booking to weather tracking, career development, and family history research.
 
-**Highlights**: Food is the lifestyle killer app — HowToCook-mcp (569 stars) and delivery integrations (Instacart, Uber Eats, Swiggy, Zomato) cover the full food lifecycle. Travel has the highest commercial density with Airbnb (394 stars), Google Maps (193 stars), and flights-mcp (169 stars). Fashion and pet care are wide open — the strongest fashion server has 18 stars. No major lifestyle brand has shipped an official MCP server.
+**Highlights**: Food is the lifestyle killer app — HowToCook-mcp (569 stars) and delivery integrations cover the full food lifecycle. Weather has 30+ servers with Open-Meteo, NOAA, and AccuWeather. Job search brings LinkedIn scraping and resume optimization. Travel has the highest commercial density with Airbnb (394 stars). Astrology and genealogy fill niche but active communities.
 
-**Top-rated**: Food & Restaurant (4/5), Travel & Tourism (4/5), Hospitality & Hotels (3.5/5), Fashion & Beauty (2.5/5)
+**Top-rated**: Food & Restaurant (4/5), Travel & Tourism (4/5), Weather (3.5/5), Job Search (3.5/5), Astrology (3.5/5)
 
-[Browse all 6 Lifestyle & Personal reviews →](/categories/lifestyle-personal/)
+[Browse all 10 Lifestyle & Personal reviews →](/categories/lifestyle-personal/)
 
 ---
 
-## [Logistics & Industry](/categories/logistics-industry/) — 6 Reviews
+## [Logistics & Industry](/categories/logistics-industry/) — 11 Reviews
 
-Covers the **physical operations stack**: supply chain shipping, ERP systems, manufacturing robotics, industrial IoT, public transit, flight tracking, aviation data, and automotive diagnostics. Over **155 servers** evaluated across the infrastructure that moves goods, builds products, and transports people.
+Covers the **physical operations stack**: supply chain shipping, manufacturing, aerospace & defense, agriculture, construction, energy & utilities, sustainability, transportation, aviation, and automotive. Over **300 servers** evaluated across industrial sectors from factory floors to farm fields.
 
-**Highlights**: ROS robotics leads at 1,100 stars — the highest-starred industrial MCP server. Karrio (703 stars) is the top open-source shipping platform with built-in MCP. Official servers from Shippo, UPS, ShipStation, Microsoft Dynamics 365, and AWS IoT SiteWise. Public transit spans 9+ cities across three continents. Tesla has 3+ independent MCP servers — the most of any car brand. Flightradar24 has both official and community servers.
+**Highlights**: Construction & Architecture (4/5) is the highest-rated industrial subcategory with 50+ BIM/CAD servers. Aerospace covers NASA APIs and satellite tracking. ROS robotics leads manufacturing at 1,100 stars. Energy & utilities spans SCADA and carbon tracking. Sustainability & climate is the fastest-growing vertical. Karrio (703 stars) leads shipping. Tesla has 3+ independent MCP servers.
 
-**Top-rated**: Supply Chain & Logistics (3.5/5), Manufacturing & Industrial (3.5/5), Transportation & Mobility (3.5/5), Aviation & Flight (3.5/5)
+**Top-rated**: Construction (4/5), Aerospace (3.5/5), Energy (3.5/5), Sustainability (3.5/5), Supply Chain (3.5/5)
 
-[Browse all 6 Logistics & Industry reviews →](/categories/logistics-industry/)
+[Browse all 11 Logistics & Industry reviews →](/categories/logistics-industry/)
 
 ---
 
@@ -214,15 +214,15 @@ Covers **learning management systems, EdTech tools, translation and localization
 
 ---
 
-## [Security & Compliance](/categories/security-compliance/) — 12 Reviews
+## [Security & Compliance](/categories/security-compliance/) — 13 Reviews
 
-Covers the **full security lifecycle**: application security, threat intelligence, digital forensics & incident response, compliance automation, privacy & data protection, and network security. Over **300 servers** evaluated across vendor and community ecosystems.
+Covers the **full security lifecycle**: application security, threat intelligence, digital forensics & incident response, identity & authentication, compliance automation, privacy & data protection, and network security. Over **325 servers** evaluated across vendor and community ecosystems.
 
-**Highlights**: Major security vendors (CrowdStrike, Google, Snyk, Semgrep, SonarQube, PortSwigger) are all-in on MCP. Threat intelligence and DFIR are the most mature sub-categories. AI agent supply chain security is an entirely new domain — 66% of scanned MCP servers had security findings. Privacy remains the weakest link.
+**Highlights**: Major security vendors (CrowdStrike, Google, Snyk, Semgrep, SonarQube, PortSwigger) are all-in on MCP. Threat intelligence and DFIR are the most mature sub-categories. Identity & authentication covers Okta, Auth0, Keycloak, and AWS Cognito. AI agent supply chain security is an entirely new domain. Privacy remains the weakest link.
 
 **Top-rated**: Code Security (4/5), Threat Intelligence (4/5), DFIR (4/5), Compliance & Data Governance (4/5), Semgrep (4/5)
 
-[Browse all 12 Security & Compliance reviews →](/categories/security-compliance/)
+[Browse all 13 Security & Compliance reviews →](/categories/security-compliance/)
 
 ---
 

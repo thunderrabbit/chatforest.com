@@ -14,6 +14,8 @@ The landscape spans six areas: **unified farm data platforms** (Leaf Agriculture
 
 The headline findings: **Leaf Agriculture is the only commercial vendor with an official MCP server** — their unified API aggregates data from John Deere, Climate FieldView, CNHi, AGCO, and other platforms through a single integration point. **Digital Green's FarmerChat-MCP is the most ambitious agricultural AI project using MCP** — 12 interconnected servers synthesizing soil, weather, elevation, and satellite data for smallholder farmers across five countries. **Agricultural weather MCP servers provide data that generic weather servers don't** — soil temperature at multiple depths, evapotranspiration metrics, and crop growth stage alerts. **No major equipment manufacturer has an official MCP server** — everything for John Deere, Case IH, and AGCO is community-built.
 
+**Category:** [Logistics & Industry](/categories/logistics-industry/)
+
 ## Unified Farm Data Platforms
 
 ### Leaf Agriculture MCP Server

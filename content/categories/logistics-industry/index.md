@@ -1,14 +1,14 @@
 ---
-title: "Logistics & Industry MCP Servers — 6 Reviews Covering Supply Chain, Manufacturing, Transportation, Aviation, Automotive, Fleet Telematics, and Industrial IoT"
+title: "Logistics & Industry MCP Servers — 11 Reviews Covering Supply Chain, Manufacturing, Transportation, Aviation, Automotive, Aerospace, Agriculture, Construction, Energy, and Sustainability"
 date: 2026-03-24T22:30:00+09:00
-description: "Comprehensive reviews of 6 Logistics & Industry MCP server categories — from supply chain shipping and ERP integration to manufacturing robotics, public transit, flight tracking, and automotive diagnostics. 155+ servers evaluated across logistics operations, factory automation, and transportation systems."
-og_description: "6 Logistics & Industry MCP server reviews covering supply chain shipping, ERP systems, manufacturing robotics, OPC UA, 3D printing, public transit, flight tracking, Tesla, OBD-II diagnostics, and fleet telematics. 155+ servers evaluated."
+description: "Comprehensive reviews of 11 Logistics & Industry MCP server categories — from supply chain shipping and manufacturing to aerospace, agriculture, construction, energy, sustainability, transportation, and automotive. 300+ servers evaluated across logistics operations, industrial sectors, and transportation systems."
+og_description: "11 Logistics & Industry MCP server reviews covering supply chain, manufacturing, aerospace, agriculture, construction, energy, sustainability, transportation, aviation, and automotive. 300+ servers evaluated."
 content_type: "Category"
 ---
 
-We've reviewed **6 categories** of Logistics & Industry MCP servers, evaluating over **155 individual servers** across supply chain operations, manufacturing and industrial automation, transportation systems, aviation, and automotive integration. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
+We've reviewed **11 categories** of Logistics & Industry MCP servers, evaluating over **300 individual servers** across supply chain operations, manufacturing, aerospace & defense, agriculture, construction, energy & utilities, sustainability, transportation, aviation, and automotive. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
 
-Logistics & Industry is the physical world's interface to AI. The ecosystem spans from enterprise supply chain management (Karrio at 703 stars, Odoo ERP at 193 stars, Shippo and UPS with official servers) to factory floor automation (ROS robotics at 1,100 stars, OPC UA bridges, predictive maintenance). Transportation is the most geographically diverse subcategory — public transit servers cover 9+ cities across three continents, but each city needs its own implementation. Tesla dominates automotive with 3+ independent MCP servers. The pattern: official vendor support exists for shipping and industrial IoT, but most logistics and industrial tooling is community-built.
+Logistics & Industry is the physical world's interface to AI. The ecosystem spans from enterprise supply chain management (Karrio at 703 stars, Odoo ERP at 193 stars, Shippo and UPS with official servers) to factory floor automation (ROS robotics at 1,100 stars, OPC UA bridges, predictive maintenance) to vertical industries like aerospace (NASA APIs, satellite tracking), construction (BIM/Revit, 50+ servers), and energy (SCADA, carbon tracking). Transportation is the most geographically diverse subcategory — public transit servers cover 9+ cities across three continents. Tesla dominates automotive with 3+ independent MCP servers.
 
 ---
 
@@ -46,11 +46,51 @@ The connected car subcategory. Tesla leads with 3+ independent servers, OBD-II d
 |--------|--------|-------------|
 | [Automotive & Vehicle](/reviews/automotive-vehicle-mcp-servers/) | 3/5 | teslamate-mcp (120 stars, 18 analytical queries), tesla-mcp (11 stars, Fleet API), tessie-mcp (39+ tools), Vehicle-Diagnostic-Assistant (OBD-II hardware), MCP-CAN (virtual CAN bus), carsxe-mcp-server (12 stars, VIN/specs/recalls), flespi-mcp-server (157 fleet tools) — 20+ servers |
 
+## Aerospace & Defense
+
+From NASA data and orbital mechanics to aviation weather, drone control, satellite tracking, and earth observation. The most science-adjacent industrial subcategory.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Aerospace & Defense](/reviews/aerospace-defense-mcp-servers/) | 3.5/5 | NASA APIs, orbital mechanics, aviation weather, drone control, satellite tracking, earth observation — 35+ servers |
+
+## Agriculture & Farming
+
+Precision agriculture, crop planning, livestock management, weather integration for farming, and satellite imagery analysis. Community-driven with no major agtech vendors yet.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Agriculture & Farming](/reviews/agriculture-farming-mcp-servers/) | 3/5 | Unified farm data, precision agriculture, weather for crops, smallholder AI, livestock genetics, satellite imagery — 20+ servers |
+
+## Construction & Architecture
+
+BIM/Revit integration, CAD platforms, 3D modeling, structural engineering, OpenBIM standards, and construction management. One of the highest-rated industry verticals.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Construction & Architecture](/reviews/construction-architecture-mcp-servers/) | 4/5 | BIM/Revit, CAD platforms, 3D modeling, structural engineering, OpenBIM, construction management — 50+ servers |
+
+## Energy & Utilities
+
+Power system simulation, building energy management, industrial IoT/SCADA, commodity markets, and carbon tracking. Spans both traditional utilities and clean energy.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Energy & Utilities](/reviews/energy-utilities-mcp-servers/) | 3.5/5 | Power system simulation, building energy, SCADA, commodity markets, carbon tracking — 25+ servers |
+
+## Sustainability & Climate
+
+Carbon emissions tracking, building energy optimization, power grid intelligence, air quality monitoring, and climate data access. The fastest-growing industrial vertical.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Sustainability & Climate](/reviews/sustainability-climate-mcp-servers/) | 3.5/5 | Carbon emissions, building energy, power grid intelligence, air quality, climate data — 15+ servers |
+
 ---
 
 ## Category Overview
 
-**6 reviews. 155+ servers. Average rating: 3.3/5.**
+**11 reviews. 300+ servers. Average rating: 3.4/5.**
 
 ### What stands out
 

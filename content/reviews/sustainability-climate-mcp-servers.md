@@ -14,6 +14,8 @@ This review covers **sustainability and climate MCP servers** — carbon emissio
 
 The headline findings: **Climatiq MCP wraps 68,000+ emission factors** for carbon calculations across electricity, travel, cloud, and freight. **EnergyPlus-MCP from Lawrence Berkeley National Lab offers 35 tools** for DOE building energy simulation. **MCP-Energy-Hub enables carbon-aware compute scheduling** across US power grid regions. **open-meteo-mcp provides CMIP6 climate projections** alongside weather, air quality, and flood forecasts — all free. **No major carbon registries or ESG frameworks** have MCP servers yet.
 
+**Category:** [Logistics & Industry](/categories/logistics-industry/)
+
 ---
 
 ## Carbon Emissions Calculation

@@ -14,6 +14,8 @@ This review covers the **astrology and divination** vertical — Western astrolo
 
 The headline findings: **BaZi dominates by stars** with cantian-ai/bazi-mcp (271 stars) far ahead of everything else. **Western astrology has multiple calculation engines** built on Swiss Ephemeris. **Tarot has three solid implementations** with professional spreads and proper randomization. **I Ching has the most culturally faithful implementation** in Rust with Wilhelm-Baynes translations. **Two commercial platforms** (Astrology-API.io, RoxyAPI) offer the broadest feature coverage. **No standalone numerology, rune, or feng shui servers exist yet.**
 
+**Category:** [Lifestyle & Personal](/categories/lifestyle-personal/)
+
 ## BaZi / Chinese Astrology
 
 ### cantian-ai/bazi-mcp

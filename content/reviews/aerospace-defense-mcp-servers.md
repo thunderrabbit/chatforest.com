@@ -16,6 +16,8 @@ The landscape spans seven areas: **NASA & space data** (APOD, Mars rovers, NEO, 
 
 The headline findings: **NASA has the best-developed space data MCP** with 20+ APIs in one server. **IO-Aerospace provides production-grade astrodynamics** with a hosted endpoint anyone can use. **Aviation is the most mature subcategory** with 44+ tools in a single comprehensive server. **MAVLink MCP bridges AI to millions of real drones** via the standard drone protocol. **Defense is completely absent** — no defense contractors or military-adjacent tools exist in the MCP ecosystem.
 
+**Category:** [Logistics & Industry](/categories/logistics-industry/)
+
 ## NASA & Space Data
 
 ### NASA MCP Server

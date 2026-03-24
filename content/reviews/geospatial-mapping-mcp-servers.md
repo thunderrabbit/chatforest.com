@@ -13,6 +13,8 @@ Geospatial and mapping is one of the richest MCP categories we've reviewed. AI a
 
 The headline finding: **Mapbox now offers two official MCP servers** — the main server with 20 tools plus hosted endpoint at mcp.mapbox.com, and the new DevKit server for developer workflows (style management, token creation, GeoJSON tools). **The biggest update since our initial review: earth observation arrives** — NASA has an official Earthdata MCP for semantic dataset discovery, Google Earth Engine gets multiple community servers (Axion Planetary leads with 112 stars and 30+ tools), and a 72-star NASA APIs server covers 20+ data sources from APOD to Mars Rover photos. **The gis-mcp library has the deepest GIS integration** with 100+ tools across six Python libraries. **QGIS MCP streamlined from 36 to 7 super-tools** in v1.0.1 for better LLM accuracy. The main gap remains that **Google Maps has no official MCP server** — though strong community options exist.
 
+**Category:** [Science & Research](/categories/science-research/)
+
 ## Commercial Mapping Platforms
 
 ### Mapbox

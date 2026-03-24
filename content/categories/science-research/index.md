@@ -1,14 +1,14 @@
 ---
-title: "Science & Research MCP Servers — 5 Reviews Covering Academic Papers, Scientific Computing, Bioinformatics, Chemistry, and Astronomy"
+title: "Science & Research MCP Servers — 6 Reviews Covering Academic Papers, Scientific Computing, Bioinformatics, Chemistry, Astronomy, and Geospatial"
 date: 2026-03-25T00:30:00+09:00
-description: "Comprehensive reviews of 5 Science & Research MCP server categories — from academic paper search and scientific computing to bioinformatics, chemistry, molecular modeling, and astronomy. 140+ servers evaluated across the scientific research ecosystem."
-og_description: "5 Science & Research MCP server reviews covering academic papers, scientific computing, bioinformatics, chemistry, molecular modeling, and astronomy. 140+ servers evaluated."
+description: "Comprehensive reviews of 6 Science & Research MCP server categories — from academic papers and scientific computing to bioinformatics, chemistry, astronomy, and geospatial mapping. 170+ servers evaluated across the scientific research ecosystem."
+og_description: "6 Science & Research MCP server reviews covering academic papers, scientific computing, bioinformatics, chemistry, astronomy, and geospatial mapping. 170+ servers evaluated."
 content_type: "Category"
 ---
 
-We've reviewed **5 categories** of Science & Research MCP servers, evaluating over **140 individual servers** across academic literature search, scientific computing, bioinformatics, chemistry, and astronomy. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
+We've reviewed **6 categories** of Science & Research MCP servers, evaluating over **170 individual servers** across academic literature search, scientific computing, bioinformatics, chemistry, astronomy, and geospatial mapping. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
 
-Science & Research is where MCP meets the lab bench. The pattern here differs from enterprise categories — instead of vendor-backed official servers, most science MCP servers come from individual researchers and academic groups. The exceptions matter: MathWorks ships an official MATLAB server, and Anthropic maintains a life-sciences marketplace. Community projects like mcp.science (12+ bundled servers) and the Augmented-Nature organization (10+ biology database servers) show that researchers are building their own AI infrastructure.
+Science & Research is where MCP meets the lab bench. The pattern here differs from enterprise categories — instead of vendor-backed official servers, most science MCP servers come from individual researchers and academic groups. The exceptions matter: MathWorks ships an official MATLAB server, Mapbox ships 2 official geospatial servers, and Anthropic maintains a life-sciences marketplace. Community projects like mcp.science (12+ bundled servers) and the Augmented-Nature organization (10+ biology database servers) show that researchers are building their own AI infrastructure.
 
 ---
 
@@ -37,3 +37,11 @@ The deepest science MCP ecosystem. Bioinformatics leads with 40+ servers — gen
 |--------|--------|-------------|
 | [Bioinformatics & Life Sciences](/reviews/bioinformatics-life-sciences-mcp-servers/) | 4/5 | biomcp (241 stars, biomedical queries), Anthropic life-sciences (259 stars), PubMed MCP (105 stars), ChEMBL MCP (78 stars, 22 drug discovery tools) — 40+ servers |
 | [Chemistry & Molecular Modeling](/reviews/chemistry-molecular-modeling-mcp-servers/) | 3.5/5 | ChatMol molecule-mcp (~89 stars, PyMOL/ChimeraX), RDKit MCP (cheminformatics), PubChem (110M+ compounds), DrugBank (17,430+ drugs), Vina docking — 25+ servers |
+
+## Geospatial & Mapping
+
+The highest-rated science subcategory. GIS platforms, satellite imagery, and mapping tools with official vendor support from Mapbox and Google Earth Engine. Covers the full geospatial stack from OpenStreetMap to NASA Earthdata.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Geospatial & Mapping](/reviews/geospatial-mapping-mcp-servers/) | 4.5/5 | Mapbox (2 official servers), Google Earth Engine, NASA Earthdata, QGIS, OpenStreetMap, GIS libraries — 30+ servers |

@@ -14,6 +14,8 @@ This review covers the **genealogy and family history** vertical — GEDCOM file
 
 The headline findings: **Gramps Web is the best-served genealogy platform** with 4 independent MCP implementations, led by cabout-me/gramps-mcp (25 stars, 16 tools). **A dedicated Genealogy-MCP GitHub organization** maintains coordinated servers for FamilySearch, WikiTree, and Gramps. **GEDCOM remains the lingua franca** — ancestry-mcp (33 stars) handles the standard file format that every genealogy platform can export. **No major commercial genealogy platform has an official MCP server** — not Ancestry.com, MyHeritage, Findmypast, or even FamilySearch (the community built one instead).
 
+**Category:** [Lifestyle & Personal](/categories/lifestyle-personal/)
+
 ## GEDCOM File Handling
 
 ### reeeeemo/ancestry-mcp

@@ -14,6 +14,8 @@ The landscape spans seven areas: **comprehensive multi-source platforms** (weath
 
 The headline findings: **Weather is one of the most duplicated MCP categories** — at least 30 implementations exist, many doing nearly the same thing. **Open-Meteo dominates the free tier** with comprehensive coverage and no API key requirement. **cmer81/open-meteo-mcp has the most tools** at 19, spanning 7 national weather models and CMIP6 climate projections. **weather-mcp/weather-mcp is the most feature-diverse** with 16 tools pulling from 5 free API sources covering forecasts through wildfire tracking. **The gap between basic and advanced is wide** — most servers offer simple current conditions and forecasts, while only a few tackle historical data, marine conditions, or climate projections.
 
+**Category:** [Lifestyle & Personal](/categories/lifestyle-personal/)
+
 ## Comprehensive Multi-Source Platforms
 
 ### weather-mcp

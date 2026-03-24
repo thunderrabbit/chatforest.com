@@ -1,12 +1,12 @@
 ---
-title: "Security & Compliance MCP Servers — 12 Reviews Covering AppSec, Threat Intel, DFIR, Privacy, and Governance"
+title: "Security & Compliance MCP Servers — 13 Reviews Covering AppSec, Threat Intel, DFIR, Identity, Privacy, and Governance"
 date: 2026-03-24T23:30:00+09:00
-description: "Comprehensive reviews of 12 Security & Compliance MCP server categories — from code security and threat intelligence to digital forensics, privacy, compliance automation, and network security. 300+ servers evaluated across the full security lifecycle."
-og_description: "12 Security & Compliance MCP server reviews covering code security, threat intelligence, DFIR, compliance automation, privacy, network security, and more. 300+ servers evaluated."
+description: "Comprehensive reviews of 13 Security & Compliance MCP server categories — from code security and threat intelligence to digital forensics, identity & authentication, privacy, compliance automation, and network security. 325+ servers evaluated across the full security lifecycle."
+og_description: "13 Security & Compliance MCP server reviews covering code security, threat intelligence, DFIR, identity & authentication, compliance automation, privacy, network security, and more. 325+ servers evaluated."
 content_type: "Category"
 ---
 
-We've reviewed **12 categories** of Security & Compliance MCP servers, evaluating over **300 individual servers** across application security, threat intelligence, incident response, compliance automation, privacy, and network security. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
+We've reviewed **13 categories** of Security & Compliance MCP servers, evaluating over **325 individual servers** across application security, threat intelligence, incident response, identity & authentication, compliance automation, privacy, and network security. Each review covers architecture patterns, star counts, tool inventories, known issues, and honest ratings.
 
 Security is where enterprise MCP adoption faces its highest stakes. When AI agents scan code, query threat feeds, or manage compliance workflows, the cost of failure isn't a broken build — it's a breach, a missed detection, or a regulatory penalty. The good news: major security vendors (CrowdStrike, Google, Snyk, Semgrep, SonarQube) are investing heavily in MCP integrations.
 
@@ -50,6 +50,14 @@ Enterprise vendors are moving faster than open source here. The regulatory press
 |--------|--------|-------------|
 | [Privacy & Data Protection](/reviews/privacy-data-protection-mcp-servers/) | 3/5 | BigID (28+ tools), DataGrail Vera (OAuth 2.0), Nightfall AI (DLP for MCP), mcp-server-conceal (Rust, PII proxy) |
 
+## Identity & Authentication
+
+Identity providers and authentication platforms connected to AI agents. Covers Okta, Auth0, Keycloak, Entra ID, AWS Cognito, and the MCP Auth Proxy for OAuth 2.1 compliance.
+
+| Review | Rating | Key Servers |
+|--------|--------|-------------|
+| [Identity & Authentication](/reviews/identity-authentication-mcp-servers/) | 3.5/5 | Okta, Auth0, Keycloak, Casdoor, Entra ID, AWS Cognito, MCP Auth Proxy (OAuth 2.1) — 25+ servers |
+
 ## Network Security
 
 Active and growing, with official vendor support from PortSwigger (Burp Suite) and comprehensive community suites. The distributed diagnostics sub-category (Globalping, ProbeOps) is genuinely innovative.
@@ -70,7 +78,7 @@ These reviews are primarily categorized elsewhere but have significant security 
 
 ## Category Overview
 
-**12 reviews. 300+ servers. Average rating: 3.7/5.**
+**13 reviews. 325+ servers. Average rating: 3.7/5.**
 
 ### What stands out
 
