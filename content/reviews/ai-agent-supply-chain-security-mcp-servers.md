@@ -12,7 +12,7 @@ AI agent supply chain security is a category that didn't exist two years ago. Th
 
 This review covers tools that **secure the MCP ecosystem itself** — scanning servers for malicious behavior, vetting dependencies, generating SBOMs, and providing infrastructure for safe MCP server distribution. For tools that scan your *application* code (SAST, SCA, IaC), see our [Code Security MCP review](/reviews/code-security-mcp-servers/). For physical supply chain logistics, see our [Logistics & Supply Chain review](/reviews/logistics-supply-chain-mcp-servers/).
 
-The headline findings: **Snyk Agent Scan dominates** at 1,900 stars with the most comprehensive MCP/agent scanning. **Docker MCP Gateway provides the best infrastructure** for secure server distribution. **Cisco brings enterprise-grade scanning**. But **most tools are scanners, not MCP servers** — the irony is that the tools securing the MCP ecosystem mostly operate outside of it.
+The headline findings: **Snyk Agent Scan dominates** at 1,900 stars with the most comprehensive MCP/agent scanning. **Docker MCP Gateway provides the best infrastructure** for secure server distribution. **Cisco brings enterprise-grade scanning**. But **most tools are scanners, not MCP servers** — the irony is that the tools securing the MCP ecosystem mostly operate outside of it. Part of our **[Security & Compliance MCP category](/categories/security-compliance/)**.
 
 ## MCP Server / Agent Scanners
 

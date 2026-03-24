@@ -51,7 +51,7 @@
 
       <div class="article-body">
         <p>Google Cloud hasn&rsquo;t just shipped MCP servers — they&rsquo;ve shipped managed MCP <em>endpoints</em>. While AWS built 68 servers in a monorepo that you run locally, Google took a different approach: remote MCP servers hosted on googleapis.com that your agent connects to directly. No local binaries, no Docker, no Node.js. Just an HTTP endpoint and your Google Cloud credentials.</p>
-<p>The <a href="https://github.com/google/mcp">google/mcp</a> repository (3,400 stars, 364 forks) is the hub, but the real story is the architecture. Google is betting that MCP servers belong in the cloud, not on your laptop.</p>
+<p>The <a href="https://github.com/google/mcp">google/mcp</a> repository (3,400 stars, 364 forks) is the hub, but the real story is the architecture. Google is betting that MCP servers belong in the cloud, not on your laptop. Part of our <strong><a href="/categories/cloud-infrastructure/">Cloud &amp; Infrastructure MCP category</a></strong>.</p>
 <h2 id="what-it-is">What It Is</h2>
 <p>Google&rsquo;s MCP offering has two layers:</p>
 <p><strong>Layer 1: Managed Remote MCP Servers</strong> — 18 servers hosted by Google, accessible via HTTP endpoints. These are the headline feature. You point your MCP client at a googleapis.com URL and authenticate with your Google Cloud credentials. The server runs on Google&rsquo;s infrastructure.</p>

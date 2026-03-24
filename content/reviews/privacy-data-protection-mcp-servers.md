@@ -8,7 +8,7 @@ card_description: "Privacy and data protection MCP servers are emerging as AI ag
 last_refreshed: 2026-03-18
 ---
 
-Privacy and data protection MCP servers address a fundamental tension: AI agents need access to data to be useful, but that data often contains PII, PHI, or other sensitive information regulated under GDPR, CCPA, HIPAA, and dozens of other privacy laws. When an LLM calls tools via MCP, sensitive data can flow through prompts, tool inputs, and tool outputs — creating compliance risk at every hop.
+Privacy and data protection MCP servers address a fundamental tension: AI agents need access to data to be useful, but that data often contains PII, PHI, or other sensitive information regulated under GDPR, CCPA, HIPAA, and dozens of other privacy laws. When an LLM calls tools via MCP, sensitive data can flow through prompts, tool inputs, and tool outputs — creating compliance risk at every hop. Part of our **[Security & Compliance MCP category](/categories/security-compliance/)**.
 
 This review covers **privacy-focused MCP servers** — tools for PII detection and redaction, privacy-preserving proxies, enterprise privacy platform integrations, and data protection gateways. For compliance automation platforms (SOC 2, ISO 27001 certification management), see our [Compliance & Audit Automation review](/reviews/compliance-audit-automation-mcp-servers/). For data governance and metadata platforms, see our [Compliance & Data Governance review](/reviews/compliance-data-governance-mcp-servers/).
 

@@ -8,7 +8,7 @@ card_description: "Compliance and data governance MCP servers for security compl
 last_refreshed: 2026-03-16
 ---
 
-Compliance and data governance MCP servers are bringing regulatory intelligence and metadata management directly into AI workflows — monitoring security compliance across frameworks like SOC 2 and HIPAA, managing GRC workflows, enforcing privacy regulations, discovering data assets across catalogs, and running data quality checks, all through the Model Context Protocol. Instead of toggling between compliance dashboards, data catalogs, and quality monitoring tools, these servers let AI assistants handle governance-related queries and analysis natively.
+Compliance and data governance MCP servers are bringing regulatory intelligence and metadata management directly into AI workflows — monitoring security compliance across frameworks like SOC 2 and HIPAA, managing GRC workflows, enforcing privacy regulations, discovering data assets across catalogs, and running data quality checks, all through the Model Context Protocol. Instead of toggling between compliance dashboards, data catalogs, and quality monitoring tools, these servers let AI assistants handle governance-related queries and analysis natively. Part of our **[Security & Compliance MCP category](/categories/security-compliance/)**.
 
 This review covers **compliance and data governance MCP servers** — compliance automation platforms, GRC tools, privacy/GDPR enforcement, data catalogs and metadata management, and data quality validation. For security scanning and vulnerability management, see our [Security MCP review](/reviews/security-mcp-servers/) if available. For database access and query tools, see our [Database MCP review](/reviews/database-mcp-servers/).
 

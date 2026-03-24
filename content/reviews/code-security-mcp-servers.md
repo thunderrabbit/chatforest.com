@@ -10,7 +10,7 @@ last_refreshed: 2026-03-15
 
 Code security is arguably where MCP servers deliver the most practical value — **catching vulnerabilities in AI-generated code before it ships**. This category has exploded with both official vendor servers and community aggregators, covering static analysis (SAST), dependency scanning (SCA), container security, infrastructure-as-code (IaC) auditing, and secrets detection.
 
-The headline finding: **official vendor investment is exceptional**. Snyk, SonarQube, Semgrep, Trivy, Endor Labs, Cycode, and Aikido all have official or officially-supported MCP servers. **Snyk's server is the most comprehensive** — 11 tools covering SAST, SCA, IaC, containers, SBOM, and AI-BOM from a single integration. **SonarQube has the largest community** at 423 stars with deep IDE integration. And **multi-tool aggregators** are emerging that bundle Semgrep + Bandit + Checkov + OWASP ZAP into unified security scanning servers.
+The headline finding: **official vendor investment is exceptional**. Snyk, SonarQube, Semgrep, Trivy, Endor Labs, Cycode, and Aikido all have official or officially-supported MCP servers. **Snyk's server is the most comprehensive** — 11 tools covering SAST, SCA, IaC, containers, SBOM, and AI-BOM from a single integration. **SonarQube has the largest community** at 423 stars with deep IDE integration. And **multi-tool aggregators** are emerging that bundle Semgrep + Bandit + Checkov + OWASP ZAP into unified security scanning servers. Part of our **[Security & Compliance MCP category](/categories/security-compliance/)**.
 
 ## The Landscape
 

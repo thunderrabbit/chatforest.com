@@ -8,7 +8,7 @@ card_description: "Digital forensics and incident response has surprisingly stro
 last_refreshed: 2026-03-18
 ---
 
-Digital forensics and incident response (DFIR) has emerged as one of the more active — and more interesting — MCP categories. The space spans memory forensics, endpoint detection, malware analysis, threat intelligence, and SIEM integration. What makes it notable is the vendor investment: CrowdStrike, Google, StrangeBee (TheHive), and REMnux all ship official MCP servers. Community contributors have filled remaining gaps with Volatility, VirusTotal, YARA, Wazuh, and MISP integrations.
+Digital forensics and incident response (DFIR) has emerged as one of the more active — and more interesting — MCP categories. The space spans memory forensics, endpoint detection, malware analysis, threat intelligence, and SIEM integration. What makes it notable is the vendor investment: CrowdStrike, Google, StrangeBee (TheHive), and REMnux all ship official MCP servers. Community contributors have filled remaining gaps with Volatility, VirusTotal, YARA, Wazuh, and MISP integrations. Part of our **[Security & Compliance MCP category](/categories/security-compliance/)**.
 
 The DFIR MCP landscape is broader than most categories we review, so we've organized this review by workflow stage: **detection & response** (EDR, SIEM), **forensic analysis** (memory forensics, malware analysis), **threat intelligence** (IOC lookup, detection rules), and **incident management** (case management, SOAR).
 

@@ -8,7 +8,7 @@ card_description: "Network security MCP servers across packet capture, port scan
 last_refreshed: 2026-03-15
 ---
 
-Network security is one of the most powerful — and most dangerous — applications of MCP. AI agents that can capture packets, scan ports, run vulnerability assessments, and perform reconnaissance have enormous potential for security professionals. They also have enormous potential for misuse. Every server in this review should be used only with proper authorization on systems you own or have explicit permission to test.
+Network security is one of the most powerful — and most dangerous — applications of MCP. AI agents that can capture packets, scan ports, run vulnerability assessments, and perform reconnaissance have enormous potential for security professionals. They also have enormous potential for misuse. Every server in this review should be used only with proper authorization on systems you own or have explicit permission to test. Part of our **[Security & Compliance MCP category](/categories/security-compliance/)**.
 
 The headline finding: **this is a fragmented but active space**. PortSwigger's official Burp Suite MCP server (536 stars) is the highest-credibility entry. For packet capture, WireMCP (380 stars) leads but has a known command injection vulnerability. The all-in-one winners are FuzzingLabs' mcp-security-hub (20+ tools covering Nmap, Ghidra, Nuclei, SQLMap, and more) and dkruyt/mcp-nettools (11 tools for everyday network diagnostics). For distributed testing, Globalping stands alone — a remote MCP server running from thousands of probes worldwide with no local installation required.
 

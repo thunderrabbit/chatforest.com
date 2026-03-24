@@ -8,7 +8,7 @@ card_description: "Semgrep's MCP server scans AI-generated code for security vul
 last_refreshed: 2026-03-22
 ---
 
-**At a glance:** Official Semgrep MCP server, 641 GitHub stars, 7 tools, SAST + SCA + secrets detection, free for up to 10 contributors, standalone repo archived — MCP now integrated into Semgrep CLI and available as a plugin for Cursor, Claude Code, and Windsurf
+**At a glance:** Official Semgrep MCP server, 641 GitHub stars, 7 tools, SAST + SCA + secrets detection, free for up to 10 contributors, standalone repo archived — MCP now integrated into Semgrep CLI and available as a plugin for Cursor, Claude Code, and Windsurf. Part of our **[Security & Compliance MCP category](/categories/security-compliance/)**.
 
 Semgrep has shipped an [MCP server](https://github.com/semgrep/mcp) that gives AI coding agents the ability to scan generated code for security vulnerabilities in real time. In the age of vibe coding — where LLMs generate more code than developers type — this addresses a critical gap: **who's reviewing AI-generated code for security issues?**
 
