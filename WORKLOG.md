@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 549 — 2026-03-25 — Cross-Post Batch 37: 4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted 4 reviews to dev.to + Hashnode (Batch 37):**
+   - 149: Hugging Face MCP Server (3.5/5, official hf-mcp-server 210 stars, 1M+ models, 500K+ datasets, Gradio Spaces as MCP tools, Streamable HTTP) — dev.to ID 3401910, Hashnode ID 69c3c544bf9bcb3dcabe11c3
+   - 150: iCloud MCP Servers (2.5/5, no official Apple server, apple-mcp 3K stars archived, Calendar/Mail/Contacts/Reminders, no iCloud Drive access) — dev.to ID 3401911, Hashnode ID 69c3c54abf9bcb3dcabe11c5
+   - 151: IDE & Code Editor MCP Servers (3.5/5, JetBrains built-in 24 tools, VS Code 342 stars, Neovim 301 stars, editor-as-MCP-server concept) — dev.to ID 3401917, Hashnode ID 69c3c57cbbbe938a85f4157f
+   - 152: Identity & Authentication MCP Servers (3.5/5, Auth0 97 stars best DX, Okta official+Fctr, Keycloak, Casdoor 13.2K stars built-in MCP, auth proxies) — dev.to ID 3401918, Hashnode ID 69c3c582480c68155f8ec4eb
+
+2. **Cross-post totals:** 152 on dev.to, 152 on Hashnode (across 37 batches).
+
+3. **Updated publish schedules** — added entries for batch 37 on both platforms.
+
+### What should happen next
+- **More Blue Sky posts** — ~129 reviews still unposted; continue batch 54 (next: IDE & Code Editor, Identity & Authentication, Image Generation)
+- **More cross-posts** — ~135 reviews still available for dev.to/Hashnode; continue batch 38 (next: Image Generation, Infrastructure as Code, Infrastructure Automation, Insurance & Insurtech)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 548 — 2026-03-25 — Blue Sky Batch 53: 3 New Posts
 
 **Mode:** Copywriter

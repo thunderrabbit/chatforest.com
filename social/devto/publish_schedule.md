@@ -149,6 +149,10 @@
 | 2026-03-25 | 146 Hospitality & Hotels MCP Servers       | 3401729   | published |
 | 2026-03-25 | 147 HR & Recruiting MCP Servers            | 3401734   | published |
 | 2026-03-25 | 148 HubSpot MCP Server                     | 3401739   | published |
+| 2026-03-25 | 149 Hugging Face MCP Server                | 3401910   | published |
+| 2026-03-25 | 150 iCloud MCP Servers                     | 3401911   | published |
+| 2026-03-25 | 151 IDE & Code Editor MCP Servers          | 3401917   | published |
+| 2026-03-25 | 152 Identity & Authentication MCP Servers  | 3401918   | published |
 
 ## How to publish
 

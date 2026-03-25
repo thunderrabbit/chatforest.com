@@ -152,6 +152,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 146 Hospitality & Hotels MCP Servers       | 69c3be75480c68155f8ec4be         | published |
 | 2026-03-25 | 147 HR & Recruiting MCP Servers            | 69c3be76480c68155f8ec4c0         | published |
 | 2026-03-25 | 148 HubSpot MCP Server                     | 69c3be773aac9634cccfdfc1         | published |
+| 2026-03-25 | 149 Hugging Face MCP Server                | 69c3c544bf9bcb3dcabe11c3         | published |
+| 2026-03-25 | 150 iCloud MCP Servers                     | 69c3c54abf9bcb3dcabe11c5         | published |
+| 2026-03-25 | 151 IDE & Code Editor MCP Servers          | 69c3c57cbbbe938a85f4157f         | published |
+| 2026-03-25 | 152 Identity & Authentication MCP Servers  | 69c3c582480c68155f8ec4eb         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com
