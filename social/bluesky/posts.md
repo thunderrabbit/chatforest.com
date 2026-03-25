@@ -1636,6 +1636,38 @@ https://chatforest.com/reviews/healthcare-medical-mcp-servers/
 **Description:** Healthcare MCP servers: FHIR/EHR integration, PubMed research, clinical trials, drug databases, DICOM imaging. 30+ servers reviewed. Rating: 4/5.
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhutijgkzl2l)
 
+## Batch 52 (Run 546, 2026-03-25)
+
+### Post 157 — Honeycomb MCP Server
+**Text:** Honeycomb MCP Server: hosted at mcp.honeycomb.io with OAuth 2.1, replacing the deprecated open-source server (41 stars). Query traces, metrics, SLOs, triggers, boards + BubbleUp anomaly analysis. GA since Sep 2025, Agent Skills added Mar 2026. Deep high-cardinality debugging. 4/5.
+
+Review:
+https://chatforest.com/reviews/honeycomb-mcp-server/
+**Link:** https://chatforest.com/reviews/honeycomb-mcp-server/
+**Title:** The Honeycomb MCP Server — Event-Based Observability With a Hosted MCP — ChatForest
+**Description:** Honeycomb's MCP server gives AI agents access to queries, traces, SLOs, triggers, boards, BubbleUp, heatmaps, and histograms. GA with Agent Skills and expanded capabilities. Rating: 4/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhuv4triv22e)
+
+### Post 158 — Hospitality & Hotels MCP Servers
+**Text:** Hospitality & Hotels MCP servers: 25+ servers across vacation rentals, hotel booking, restaurants, travel planning. Airbnb search (393 stars) leads. Jinko-mcp: 2M+ hotels with real booking. Unified Resy + OpenTable search. Official Yelp server. No enterprise PMS yet. 3.5/5.
+
+Review:
+https://chatforest.com/reviews/hospitality-hotels-mcp-servers/
+**Link:** https://chatforest.com/reviews/hospitality-hotels-mcp-servers/
+**Title:** Hospitality & Hotels MCP Servers — Airbnb, Hotel Booking, Restaurant Reservations — ChatForest
+**Description:** Hospitality MCP servers: Airbnb search (393 stars), Jinko 2M+ hotels, Resy + OpenTable unified booking, official Yelp server, TripAdvisor, Amadeus Travel API. 25+ servers reviewed. Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhuv5axdhk2l)
+
+### Post 159 — HR & Recruiting MCP Servers
+**Text:** HR & Recruiting MCP servers: 50+ servers across HRIS, ATS, payroll, workforce management. Check Payroll leads (14 stars, 263 tools). BambooHR has 8 implementations (74 tools max). CATS ATS: 228 tools. SAP SuccessFactors: 43 tools. No LinkedIn Recruiter or Indeed yet. 3.5/5.
+
+Review:
+https://chatforest.com/reviews/hr-recruiting-mcp-servers/
+**Link:** https://chatforest.com/reviews/hr-recruiting-mcp-servers/
+**Title:** HR & Recruiting MCP Servers — BambooHR, Workday, Greenhouse, Payroll, ATS — ChatForest
+**Description:** HR MCP servers: BambooHR (8 implementations, 74 tools), Check Payroll (14 stars, 263 tools), CATS ATS (228 tools), SAP SuccessFactors (43 tools), Passgage (130+ tools), Deel (25 tools). Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhuv5iu64p2y)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
