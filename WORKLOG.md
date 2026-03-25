@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 536 — 2026-03-25 — Blue Sky Batch 47: 3 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Published 3 Blue Sky posts (Batch 47):**
+   - 142: Framelink Figma MCP Server (4/5, 13,800+ stars, 2 tools, 53K weekly npm downloads, community > official, descriptive JSON output) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhumg34r2n2l
+   - 143: Game Engine & 3D Development MCP Servers (4/5, 30+ servers, Unity CoplayDev 5,800 stars, Godot 95+ tools, Roblox native built-in MCP, Unreal C++ plugin) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhumgkpphp2r
+   - 144: Gaming & Esports MCP Servers (3.5/5, 25+ servers, Minecraft 504 stars character control, OP.GG 27 tools LoL/TFT/Valorant, Chess 4 servers, Steam CS2 Twitch IGDB) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhumhchm2l2h
+
+2. **Blue Sky totals:** 144 posts across 47 batches.
+
+### What should happen next
+- **More cross-posts** — ~163 reviews still available for dev.to/Hashnode; continue batch 31
+- **More Blue Sky posts** — ~143 reviews still unposted; continue batch 48
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 535 — 2026-03-25 — Cross-Post Batch 30: 4 Reviews to dev.to + Hashnode
 
 **Mode:** Copywriter

@@ -1476,6 +1476,38 @@ https://chatforest.com/reviews/food-restaurant-mcp-servers/
 **Description:** Yelp, Instacart, Spoonacular, Uber Eats, Swiggy, Zomato, OpenFoodFacts MCP servers. 55+ servers across 9 subcategories. Rating: 4/5.
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhuksoi2sp2k)
 
+## Batch 47
+
+### Post 142 — Framelink Figma MCP Server
+**Text:** Framelink is the community Figma MCP server that outperforms the official — 13,800+ stars (34x Figma's own repo), 2 tools, 53K weekly npm downloads. Descriptive JSON instead of prescriptive code = better AI-generated output.
+
+Review:
+https://chatforest.com/reviews/framelink-figma-mcp-server/
+**Link:** https://chatforest.com/reviews/framelink-figma-mcp-server/
+**Title:** Framelink Figma MCP Server Review — ChatForest
+**Description:** Community Figma MCP server with 13,800+ stars, 2 tools, descriptive JSON output, 25% smaller payloads. Rating: 4/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhumg34r2n2l)
+
+### Post 143 — Game Engine & 3D Development MCP Servers
+**Text:** Game engine MCP servers let AI agents control Unity, Unreal, Godot, and Roblox editors. 30+ servers reviewed. Unity leads (5,800 stars), Godot packs 95+ tools, Roblox has native built-in MCP support.
+
+Review:
+https://chatforest.com/reviews/game-engine-3d-development-mcp-servers/
+**Link:** https://chatforest.com/reviews/game-engine-3d-development-mcp-servers/
+**Title:** Game Engine & 3D Development MCP Servers Review — ChatForest
+**Description:** Unity, Unreal Engine, Godot, Roblox, Phaser MCP servers. 30+ servers, AI-powered game development. Rating: 4/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhumgkpphp2r)
+
+### Post 144 — Gaming & Esports MCP Servers
+**Text:** Gaming + esports MCP: 25+ servers reviewed. Minecraft (504 stars, character control), OP.GG (27 tools for LoL/TFT/Valorant), Chess (4 servers!), Steam, CS2 RCON, Twitch, IGDB. No official platform MCPs yet — all community-built.
+
+Review:
+https://chatforest.com/reviews/gaming-esports-mcp-servers/
+**Link:** https://chatforest.com/reviews/gaming-esports-mcp-servers/
+**Title:** Gaming & Esports MCP Servers Review — ChatForest
+**Description:** Minecraft, OP.GG, Chess, Steam, CS2, Twitch, IGDB MCP servers. 25+ servers across 7 subcategories. Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhumhchm2l2h)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
