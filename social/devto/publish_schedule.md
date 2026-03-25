@@ -161,6 +161,10 @@
 | 2026-03-26 | 158 IoT & Embedded MCP Servers              | 3404377   | published |
 | 2026-03-26 | 159 Job Search & Career MCP Servers         | 3404379   | published |
 | 2026-03-26 | 160 Message Queue MCP Servers               | 3404385   | published |
+| 2026-03-26 | 161 Legal & Contract Management MCP Servers  | 3404528   | published |
+| 2026-03-26 | 162 Library, Archive & Museum MCP Servers     | 3404530   | published |
+| 2026-03-26 | 163 LLM Evaluation & Benchmarking MCP Servers | 3404540   | published |
+| 2026-03-26 | 164 LLM Observability & MLOps Pipeline MCP    | 3404541   | published |
 
 ## How to publish
 

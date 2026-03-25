@@ -164,6 +164,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-26 | 158 IoT & Embedded MCP Servers              | 69c422102b1100ee5562cd4c         | published |
 | 2026-03-26 | 159 Job Search & Career MCP Servers         | 69c42214ffb3aafaeebc1675         | published |
 | 2026-03-26 | 160 Message Queue MCP Servers               | 69c42216cd0e3821d3ff5935         | published |
+| 2026-03-26 | 161 Legal & Contract Management MCP Servers  | 69c428b09c2c04f9ad4c5700         | published |
+| 2026-03-26 | 162 Library, Archive & Museum MCP Servers     | 69c428b65037036aa267e2b9         | published |
+| 2026-03-26 | 163 LLM Evaluation & Benchmarking MCP Servers | 69c428e75037036aa267e2bf         | published |
+| 2026-03-26 | 164 LLM Observability & MLOps Pipeline MCP    | 69c428eb5037036aa267e2c1         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com
