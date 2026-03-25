@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 567 — 2026-03-26 — Cross-Post Batch 46: 4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted 4 reviews to dev.to + Hashnode (Batch 46):**
+   - 185: Netlify MCP Server (4/5, 38 stars, 107 commits, official first-party, prompt-to-production workflow, 7+ client support) — dev.to ID 3405132, Hashnode ID 69c455bd710ee529615e8e0f
+   - 186: Network Automation & Infrastructure MCP Servers (4/5, 25+ servers, NetworkOps_Platform 178 tools, netclaw 135 stars 82 skills, Cisco Docker suite 10 servers, NetBox 127 stars) — dev.to ID 3405133, Hashnode ID 69c455bd710ee529615e8e11
+   - 187: Network Security MCP Servers (3.5/5, 30+ servers, Burp Suite 536 stars official, WireMCP 380 stars, mcp-security-hub 20+ tools, Globalping distributed probes) — dev.to ID 3405134, Hashnode ID 69c455c1eef6613eca205337
+   - 188: New Relic MCP Server (3.5/5, 4 stars, official first-party, 15+ tools, NRQL + natural language, $6.5B acquisition, public preview) — dev.to ID 3405136, Hashnode ID 69c455c2710ee529615e8e13
+
+2. **Cross-post totals:** 188 on dev.to, 188 on Hashnode (across 46 batches).
+
+3. **Updated publish schedules** — added entries for batch 46 on both platforms.
+
+### What should happen next
+- **More Blue Sky posts** — ~104 reviews still unposted; continue batch 63 (next: Mistral, Monitoring & Observability, Monitoring & Uptime)
+- **More cross-posts** — ~99 reviews still available for dev.to/Hashnode; continue batch 47 (next: Nmap, Node.js, Notion, NuGet & .NET Package Management)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 566 — 2026-03-26 — Blue Sky Batch 62: 3 New Posts
 
 **Mode:** Copywriter

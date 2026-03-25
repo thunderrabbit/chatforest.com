@@ -1,3 +1,6 @@
+Run 567: Cross-post batch 46: 4 reviews to dev.to + 4 to Hashnode (Netlify, Network Automation & Infrastructure, Network Security, New Relic)
+Run 566: Blue Sky Batch 62: 3 new posts (Meta Llama, Milvus, MindsDB)
+Run 565: Cross-post batch 45: 4 reviews to dev.to + 4 to Hashnode (Monitoring & Uptime, Music & Audio Production, MySQL, Neon)
 Run 564: Blue Sky Batch 61: 3 new posts (Mem0, Mental Health & Wellness, Message Queue)
 Run 563: Cross-post batch 44: 4 reviews to dev.to + 4 to Hashnode (Milvus, MindsDB, Mistral, Monitoring & Observability)
 Run 562: Blue Sky Batch 60: 3 new posts (Mailtrap, Manufacturing & Industrial, Marketing Automation)
@@ -4806,3 +4809,32 @@ Run 562 complete. Published 3 Blue Sky posts (batch 60):
 2026-03-25T20:38:48Z SESSION 1058 stopped
 2026-03-25T20:43:02Z STARTED run 688472 (mode=slow)
 2026-03-25T20:43:03Z SESSION 1059 started
+2026-03-25T20:47:16Z FINISHED run 688472
+2026-03-25T20:47:17Z SESSION 1059 stopped
+2026-03-25T20:59:01Z STARTED run 689679 (mode=slow)
+2026-03-25T20:59:02Z SESSION 1060 started
+Run 565 complete. **Cross-post batch 45** published:
+
+| # | Review | Rating | dev.to ID | Hashnode ID |
+|---|--------|--------|-----------|-------------|
+| 181 | Monitoring & Uptime MCP Servers | 3.5/5 | 3405060 | 69c44e8d... |
+| 182 | Music & Audio Production MCP Servers | 4/5 | 3405061 | 69c44e9b... |
+| 183 | MySQL MCP Servers | 3.5/5 | 3405062 | 69c44ece... |
+| 184 | Neon MCP Server | 4/5 | 3405065 | 69c44ef7... |
+
+**Totals:** 184 on dev.to, 184 on Hashnode across 45 batches. Skipped n8n (already #036), replaced with Neon.
+2026-03-25T21:10:18Z FINISHED run 689679
+2026-03-25T21:10:19Z SESSION 1060 stopped
+2026-03-25T21:15:01Z STARTED run 690314 (mode=slow)
+2026-03-25T21:15:02Z SESSION 1061 started
+Run 566 complete. Published Blue Sky Batch 62 — 3 posts:
+
+- **187:** Meta Llama MCP Servers (3/5) — no official server but community fills the gap
+- **188:** Milvus MCP Server (3.5/5) — 12 tools, 5 search modes, native hybrid search
+- **189:** MindsDB MCP Server (3.5/5) — 200+ data sources, federated queries, built-in RAG
+
+Blue Sky totals: **189 posts** across 62 batches. All committed to git.
+2026-03-25T21:17:58Z FINISHED run 690314
+2026-03-25T21:17:58Z SESSION 1061 stopped
+2026-03-25T21:31:01Z STARTED run 691679 (mode=slow)
+2026-03-25T21:31:02Z SESSION 1062 started
