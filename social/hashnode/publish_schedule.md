@@ -156,6 +156,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 150 iCloud MCP Servers                     | 69c3c54abf9bcb3dcabe11c5         | published |
 | 2026-03-25 | 151 IDE & Code Editor MCP Servers          | 69c3c57cbbbe938a85f4157f         | published |
 | 2026-03-25 | 152 Identity & Authentication MCP Servers  | 69c3c582480c68155f8ec4eb         | published |
+| 2026-03-25 | 153 Image Generation MCP Servers            | 69c3ccd9e74aa0f746197172         | published |
+| 2026-03-25 | 154 Infrastructure as Code MCP Servers      | 69c3cce1efd0d98628b7cef8         | published |
+| 2026-03-25 | 155 Infrastructure Automation MCP Servers   | 69c3cd0f1bb0ea3c1a5d7588         | published |
+| 2026-03-25 | 156 Insurance & InsurTech MCP Servers       | 69c3cd39d31a5b5274cbdb9d         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com

@@ -153,6 +153,10 @@
 | 2026-03-25 | 150 iCloud MCP Servers                     | 3401911   | published |
 | 2026-03-25 | 151 IDE & Code Editor MCP Servers          | 3401917   | published |
 | 2026-03-25 | 152 Identity & Authentication MCP Servers  | 3401918   | published |
+| 2026-03-25 | 153 Image Generation MCP Servers            | 3402077   | published |
+| 2026-03-25 | 154 Infrastructure as Code MCP Servers      | 3402080   | published |
+| 2026-03-25 | 155 Infrastructure Automation MCP Servers   | 3402084   | published |
+| 2026-03-25 | 156 Insurance & InsurTech MCP Servers       | 3402089   | published |
 
 ## How to publish
 
