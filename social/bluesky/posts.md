@@ -1540,6 +1540,38 @@ https://chatforest.com/reviews/geospatial-mapping-mcp-servers/
 **Description:** Mapbox, NASA Earthdata, Google Earth Engine, QGIS, gis-mcp. 30+ servers, our highest-rated category. Rating: 4.5/5.
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhuoa3hxq62w)
 
+## Batch 49 (Run 540)
+
+### Post 148 — Git MCP Server
+**Text:** Git MCP Server: Anthropic's official, 12 tools for local git ops. ~256K weekly PyPI downloads, #17 globally on PulseMCP. But no push, pull, or merge — it's half a workflow. 3 CVEs patched late 2025. Rating: 3/5.
+
+Review:
+https://chatforest.com/reviews/git-mcp-server/
+**Link:** https://chatforest.com/reviews/git-mcp-server/
+**Title:** The Git MCP Server — The Missing Push Button — ChatForest
+**Description:** Anthropic's official Git MCP server: 12 tools for local git operations, ~256K weekly PyPI downloads. No push, pull, or merge. Rating: 3/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhupvyxiy42l)
+
+### Post 149 — GitMCP Server
+**Text:** GitMCP: Change github.com to gitmcp.io in any repo URL and get an MCP documentation server. 7,800 stars, zero setup, completely free. Public repos only, search can be unreliable. Rating: 4/5.
+
+Review:
+https://chatforest.com/reviews/gitmcp-server/
+**Link:** https://chatforest.com/reviews/gitmcp-server/
+**Title:** The GitMCP Server — Zero-Setup Documentation From Any GitHub Repo — ChatForest
+**Description:** GitMCP turns any GitHub repo into an MCP documentation server. 7,800 stars, zero setup, completely free. Rating: 4/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhupw7yg7l2k)
+
+### Post 150 — Gmail MCP Servers
+**Text:** Gmail MCP Servers: AI agents can now read, search, and send your email. Google's official endpoint, taylorwilsdon's Workspace server (1,700 stars), and 8+ community options. Proceed with caution. Rating: 3.5/5.
+
+Review:
+https://chatforest.com/reviews/gmail-mcp-servers/
+**Link:** https://chatforest.com/reviews/gmail-mcp-servers/
+**Title:** Gmail MCP Servers — Your Inbox Is Now an Agent Tool — ChatForest
+**Description:** Gmail MCP servers: Google's official endpoint, 1,700-star Workspace server, and 8+ community alternatives. Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhupwga5qy2c)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
