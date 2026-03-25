@@ -1668,6 +1668,41 @@ https://chatforest.com/reviews/hr-recruiting-mcp-servers/
 **Description:** HR MCP servers: BambooHR (8 implementations, 74 tools), Check Payroll (14 stars, 263 tools), CATS ATS (228 tools), SAP SuccessFactors (43 tools), Passgage (130+ tools), Deel (25 tools). Rating: 3.5/5.
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhuv5iu64p2y)
 
+## Batch 53 (Run 548, 2026-03-25)
+
+### Post 160 — HubSpot MCP Server
+**Text:** HubSpot launched an official MCP server (public beta) — AI agents can now search contacts, track deals, and pull engagement history from your CRM.
+
+Two server types: remote CRM + local developer. OAuth 2.0, 9 tools at launch.
+
+Our review: https://chatforest.com/reviews/hubspot-mcp-server/
+**Link:** https://chatforest.com/reviews/hubspot-mcp-server/
+**Title:** HubSpot MCP Server Review — ChatForest
+**Description:** HubSpot's official MCP server in public beta. AI agents can access CRM data — contacts, companies, deals — via OAuth 2.0. Rating: 4/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhuwwuinln2k)
+
+### Post 161 — Hugging Face MCP Server
+**Text:** Hugging Face's official MCP server connects AI assistants to 1M+ models, 500K+ datasets, and Gradio Spaces — each one a potential MCP tool.
+
+7 built-in tools, Streamable HTTP, OAuth. Any Gradio Space becomes an MCP tool with one line.
+
+Review: https://chatforest.com/reviews/huggingface-mcp-server/
+**Link:** https://chatforest.com/reviews/huggingface-mcp-server/
+**Title:** Hugging Face MCP Server Review — ChatForest
+**Description:** Official HF MCP server (210 stars) connects AI to 1M+ models, 500K+ datasets, and MCP-compatible Gradio Spaces. Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhuwxb6uah2r)
+
+### Post 162 — iCloud MCP Servers
+**Text:** No official Apple iCloud MCP server yet. Community projects cover Calendar, Mail, Contacts, Reminders — but no iCloud Drive file access.
+
+apple-mcp has 3K stars (archived). Apple exploring MCP in iOS/macOS 26.1 betas.
+
+Review: https://chatforest.com/reviews/icloud-mcp-server/
+**Link:** https://chatforest.com/reviews/icloud-mcp-server/
+**Title:** iCloud MCP Server Review — ChatForest
+**Description:** iCloud MCP servers: no official Apple server, community implementations for Calendar, Mail, Contacts, Reminders. No iCloud Drive access. Rating: 2.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhuwxxhmzl2h)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
