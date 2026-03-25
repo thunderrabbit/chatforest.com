@@ -1115,6 +1115,35 @@ Review:
 **Description:** 500+ apps, managed OAuth, dynamic tool discovery. 27.5K stars, MIT. Rating: 3.5/5.
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtvimryrx2t)
 
+## Batch 36
+
+### Post 106 — Configuration Management MCP Servers
+**Text:** Configuration Management MCP Servers — Ansible dominates with 6 servers (including official Red Hat AAP), NixOS has mcp-nixos (476 stars, 130K+ packages). No Chef or Puppet MCP servers exist yet.
+
+Our review of 15+ servers:
+**Link:** https://chatforest.com/reviews/configuration-management-mcp-servers/
+**Title:** Configuration Management MCP Servers — ChatForest
+**Description:** Review of 15+ Ansible, NixOS, SaltStack, and Consul MCP servers for AI-powered infrastructure config
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtx5vbvkl2u)
+
+### Post 107 — Construction & Architecture MCP Servers
+**Text:** Construction & Architecture MCP Servers — 50+ reviewed. Autodesk making MCP core to its platform. Revit-mcp (362 stars, 27 tools), Rhino (316 stars), AutoCAD 6 implementations, ETABS 30+ structural tools.
+
+Full review:
+**Link:** https://chatforest.com/reviews/construction-architecture-mcp-servers/
+**Title:** Construction & Architecture MCP Servers — ChatForest
+**Description:** Review of 50+ Revit, AutoCAD, SketchUp, Rhino, ArchiCAD, Tekla, and BIM MCP servers
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtx6cuglu2x)
+
+### Post 108 — Container, Docker & Kubernetes MCP Servers
+**Text:** Container, Docker & Kubernetes MCP Servers — 3 K8s servers with 1,000+ stars each. Docker investing heavily with official MCP Toolkit. kubectl-mcp-server offers 253 tools. 20+ servers across 6 subcategories.
+
+Our review:
+**Link:** https://chatforest.com/reviews/container-docker-kubernetes-mcp-servers/
+**Title:** Container, Docker & Kubernetes MCP Servers — ChatForest
+**Description:** Review of 20+ Docker, Kubernetes, Helm, Podman, and Portainer MCP servers
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtx6j43it2u)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding

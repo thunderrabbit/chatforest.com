@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 512 — 2026-03-25 — Blue Sky Batch 36: 3 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Published 3 Blue Sky posts (Batch 36):**
+   - 106: Configuration Management MCP Servers (3/5, Ansible 6 servers official AAP, mcp-nixos 476 stars 130K+ packages, SaltStack, Consul, no Chef/Puppet, 15+ servers) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtx5vbvkl2u
+   - 107: Construction & Architecture MCP Servers (4/5, 50+ servers, Revit 362 stars 27 tools, Rhino 316 stars, AutoCAD 6 implementations, Autodesk official MCP, ETABS 30+ tools, Tekla 23 tools) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtx6cuglu2x
+   - 108: Container Docker & Kubernetes MCP Servers (4/5, 3 K8s servers 1000+ stars, Docker official MCP Toolkit, kubectl-mcp 253 tools, 20+ servers 6 subcategories) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtx6j43it2u
+
+2. **Blue Sky totals:** 108 posts across 36 batches.
+
+### What should happen next
+- **More Blue Sky posts** — ~182 reviews still unposted; continue batches
+- **More cross-posts** — ~211 reviews still available for dev.to/Hashnode
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 511 — 2026-03-25 — Cross-Post Batch 18: 4 Reviews to dev.to + Hashnode
 
 **Mode:** Copywriter
