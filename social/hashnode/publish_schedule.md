@@ -136,6 +136,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 130 Game Engine & 3D Development MCP     | 69c3a104cf37a8b8e24be2fa         | published |
 | 2026-03-25 | 131 Gaming & Esports MCP                 | 69c3a10892170daca3d25de0         | published |
 | 2026-03-25 | 132 Gemini MCP Server                    | 69c3a109c624807dcc64dbdc         | published |
+| 2026-03-25 | 133 Genealogy & Family History MCP       | 69c3a82200ca0f990534211c         | published |
+| 2026-03-25 | 134 Git MCP Server                       | 69c3a829574af32cad0d80f6         | published |
+| 2026-03-25 | 135 GitMCP Server                        | 69c3a85a6b6384f2a351fae3         | published |
+| 2026-03-25 | 136 Gmail MCP Servers                    | 69c3a8619f0e305982d144b2         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com

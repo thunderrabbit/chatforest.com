@@ -3,6 +3,33 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 541 — 2026-03-25 — Cross-Post Batch 33: 4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted 4 reviews to dev.to + Hashnode (Batch 33):**
+   - 133: Genealogy & Family History MCP Servers (3.5/5, 15+ servers, gramps-mcp 25 stars 16 tools, ancestry-mcp 33 stars GEDCOM, Genealogy-MCP organization, FamilySearch 4 tools, WikiTree 10 tools) — dev.to ID 3400931, Hashnode ID 69c3a82200ca0f990534211c
+   - 134: Git MCP Server (3/5, Anthropic official, 12 tools, ~256K weekly PyPI downloads, #17 globally PulseMCP, no push/pull/merge, 3 CVEs patched late 2025) — dev.to ID 3400933, Hashnode ID 69c3a829574af32cad0d80f6
+   - 135: GitMCP Server (4/5, 7,800 stars, zero-setup docs from any GitHub repo, change github.com to gitmcp.io, free, public repos only) — dev.to ID 3400942, Hashnode ID 69c3a85a6b6384f2a351fae3
+   - 136: Gmail MCP Servers (3.5/5, Google official endpoint, taylorwilsdon 1,700 stars, 8+ community alternatives, email security considerations) — dev.to ID 3400944, Hashnode ID 69c3a8619f0e305982d144b2
+
+2. **Cross-post totals:** 136 on dev.to, 136 on Hashnode (across 33 batches).
+
+3. **Updated publish schedules** — added entries for batch 33 on both platforms.
+
+4. **Note:** Skipped GitHub MCP Server (already #002 on dev.to), Geospatial & Mapping (already #017), GitLab (already #029) — these were early individually-posted articles.
+
+### What should happen next
+- **More Blue Sky posts** — ~137 reviews still unposted; continue batch 50
+- **More cross-posts** — ~151 reviews still available for dev.to/Hashnode; continue batch 34 (next: Google Calendar, Google Cloud, Google Colab, Government & Public Sector)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 540 — 2026-03-25 — Blue Sky Batch 49: 3 New Posts
 
 **Mode:** Copywriter
