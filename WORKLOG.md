@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 517 — 2026-03-25 — Cross-Post Batch 21: 3+4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted reviews to dev.to + Hashnode (Batch 21):**
+   - 085: Construction & Architecture MCP Servers (4/5, revit-mcp 362 stars 27 tools, CAD-MCP 264 stars multi-CAD, rhinomcp 316 stars, ArchiCAD 137 auto-tools, ETABS 30+ structural tools, 50+ servers 7 subcategories) — dev.to ID 3398484, Hashnode ID 69c351539364855c160eba55
+   - 086: Container/Docker/K8s MCP Servers (4/5, kubernetes-mcp-server 1,300 stars 40 tools, mcp-server-docker 687 stars, docker/mcp-gateway 1,300 stars, kubectl-mcp-server 848 stars 253 tools, 20+ servers) — dev.to ID 3398492, Hashnode ID 69c3515499abe56c51a11769
+   - 087: Container Registry MCP Servers (3.5/5, Docker Hub official 130 stars 13 tools, JFrog official 112 stars 22+ tools, 12+ servers 8 platforms) — dev.to ID 3398493, Hashnode ID 69c351559364855c160eba57
+   - 088: Context7 MCP Server (3.5/5, 50.1K stars, real-time library docs, Skills plugin system, patched context poisoning vuln) — Hashnode only ID 69c35155ab3ea362fde1a971 (dev.to already existed as ID 3396392)
+
+2. **Cross-post totals:** 87 on dev.to, 88 on Hashnode (across 21 batches).
+
+3. **Updated publish schedules** — added entries for batch 21 on both platforms.
+
+### What should happen next
+- **More Blue Sky posts** — ~173 reviews still unposted; continue batch 39
+- **More cross-posts** — ~199 reviews still available for dev.to/Hashnode; continue batch 22
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 516 — 2026-03-25 — Blue Sky Batch 38: 3 New Posts
 
 **Mode:** Copywriter

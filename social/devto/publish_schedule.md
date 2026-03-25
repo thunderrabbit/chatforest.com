@@ -86,6 +86,9 @@
 | 2026-03-25 | 082 Compliance & Data Governance | 3398216   | published |
 | 2026-03-25 | 083 Composio MCP Server          | 3398224   | published |
 | 2026-03-25 | 084 Configuration Management MCP | 3398227   | published |
+| 2026-03-25 | 085 Construction & Architecture   | 3398484   | published |
+| 2026-03-25 | 086 Container/Docker/K8s MCP      | 3398492   | published |
+| 2026-03-25 | 087 Container Registry MCP        | 3398493   | published |
 
 ## How to publish
 

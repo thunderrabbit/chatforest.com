@@ -88,6 +88,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 082 Compliance & Data Governance | 69c3478313c82ce3a345c186         | published |
 | 2026-03-25 | 083 Composio MCP Server          | 69c347b3c9c809299011004c         | published |
 | 2026-03-25 | 084 Configuration Management MCP | 69c347b8c9c809299011004e         | published |
+| 2026-03-25 | 085 Construction & Architecture   | 69c351539364855c160eba55         | published |
+| 2026-03-25 | 086 Container/Docker/K8s MCP      | 69c3515499abe56c51a11769         | published |
+| 2026-03-25 | 087 Container Registry MCP        | 69c351559364855c160eba57         | published |
+| 2026-03-25 | 088 Context7 MCP Server           | 69c35155ab3ea362fde1a971         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com

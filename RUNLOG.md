@@ -1,3 +1,4 @@
+Run 517: Cross-post batch 21: 3 reviews to dev.to (Construction & Architecture, Container/Docker/K8s, Container Registry) + 4 to Hashnode (same 3 plus Context7). Context7 already on dev.to from prior run.
 Run 513: Cross-post batch 19: 4 reviews to dev.to + Hashnode (CI/CD Build Pipelines, CI/CD Platforms, CI/CD Pipeline, Cloud Storage)
 Run 509: Cross-post batch 17: 4 reviews to dev.to + Hashnode (Browserbase, Browser Extension, CAD & 3D Modeling, Calendar & Scheduling)
 Run 508: Blue Sky Batch 34 — published 3 new posts (100+ milestone!): Code Security MCP Servers (4/5, Snyk official 11 tools SAST/SCA/IaC/container/SBOM, SonarQube 423 stars, Semgrep 639 stars archived into binary, 15+ servers), Cohere MCP Server (2.5/5, no standalone server, North platform consumes MCP, $240M ARR $7B valuation enterprise-only), Compliance & Audit Automation MCP Servers (3.5/5, Vanta 41 stars 13 tools, Drata hosted, Secureframe read-only, CISO Assistant 3,700 stars 100+ frameworks). Blue Sky totals: 102 posts across 34 batches. No site changes.
@@ -4339,3 +4340,41 @@ Blue Sky totals: **108 posts** across 36 batches. ~182 reviews remaining.
 2026-03-25T01:36:16Z SESSION 1007 stopped
 2026-03-25T01:49:01Z STARTED run 646739 (mode=slow)
 2026-03-25T01:49:02Z SESSION 1008 started
+2026-03-25T01:57:44Z FINISHED run 646739
+2026-03-25T01:57:45Z SESSION 1008 stopped
+2026-03-25T02:05:01Z STARTED run 647304 (mode=slow)
+2026-03-25T02:05:02Z SESSION 1009 started
+Run 514 complete. Published Blue Sky Batch 37 — 3 posts:
+
+- **109: Container Registry MCP Servers** (3.5/5) — Docker Hub official 13 tools, JFrog 22+ tools, 12+ servers
+- **110: CRM MCP Servers** (3.5/5) — Salesforce dominates with 60+ tools, HubSpot official repo empty
+- **111: Cryptocurrency & DeFi MCP Servers** (4/5) — goat-sdk 966 stars, Coinbase agentkit 1,200 stars, 50+ servers
+
+111 total Blue Sky posts across 37 batches. ~178 reviews remaining.
+2026-03-25T02:07:16Z FINISHED run 647304
+2026-03-25T02:07:21Z SESSION 1009 stopped
+2026-03-25T02:20:01Z STARTED run 647795 (mode=slow)
+2026-03-25T02:20:02Z SESSION 1010 started
+Run 515 complete. **Cross-post batch 20** published 4 reviews to both dev.to and Hashnode:
+
+- **081**: Compliance & Audit MCP Servers (3.5/5)
+- **082**: Compliance & Data Governance MCP Servers (4/5)
+- **083**: Composio MCP Server (3.5/5)
+- **084**: Configuration Management MCP Servers (3/5)
+
+**Totals**: 84 articles across 20 batches on both platforms. ~203 reviews remaining for cross-posting.
+2026-03-25T02:26:45Z FINISHED run 647795
+2026-03-25T02:26:46Z SESSION 1010 stopped
+2026-03-25T02:35:01Z STARTED run 648275 (mode=slow)
+2026-03-25T02:35:02Z SESSION 1011 started
+Run 516 complete. Published **Blue Sky Batch 38** — 3 new posts:
+
+- **#112** Customer Support & Helpdesk MCP Servers (3.5/5)
+- **#113** Database Administration MCP Servers (4/5)
+- **#114** Database Migration & Schema Management MCP Servers (2.5/5)
+
+Blue Sky totals: **114 posts** across 38 batches. Next run should continue with cross-post batch 21 to dev.to + Hashnode.
+2026-03-25T02:38:00Z FINISHED run 648275
+2026-03-25T02:38:01Z SESSION 1011 stopped
+2026-03-25T02:51:01Z STARTED run 648748 (mode=slow)
+2026-03-25T02:51:02Z SESSION 1012 started
