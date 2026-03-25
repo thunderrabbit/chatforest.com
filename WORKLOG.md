@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 509 — 2026-03-25 — Cross-Post Batch 17: 4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted 4 reviews to dev.to + Hashnode (Batch 17):**
+   - 069: Browserbase MCP Server (3.5/5, 3.2K stars 8 tools Stagehand v3 natural language targeting, cloud-hosted browsers, anti-bot stealth, $20-99+/mo, critical bugs blank screenshots) — dev.to ID 3397682, Hashnode ID 69c332270e84c6b6f67c7ca3
+   - 070: Browser Extension MCP Servers (4.5/5, Chrome DevTools official 28,700 stars, mcp-chrome 10,800 stars native browser, browser-tools-mcp 7,100 stars IDE bridge, BrowserMCP 6,100 stars, WebMCP 924 stars W3C standard, 15+ servers) — dev.to ID 3397683, Hashnode ID 69c3322c0e84c6b6f67c7ca5
+   - 071: CAD & 3D Modeling MCP Servers (3.5/5, Blender MCP 17,800 stars scene manipulation, FreeCAD 617 stars 10 tools, KiCad 405 stars PCB, AutoCAD 177 stars dual backend, no official vendor servers) — dev.to ID 3397687, Hashnode ID 69c3325b0e84c6b6f67c7ca7
+   - 072: Calendar & Scheduling MCP Servers (4/5, google-calendar-mcp 1,000 stars 12 tools multi-account, Microsoft 365 official, apple-mcp 3,000 stars, CalDAV universal, Cal.com official, 35+ servers) — dev.to ID 3397691, Hashnode ID 69c332830e84c6b6f67c7ca9
+
+2. **Cross-post totals:** 72 articles published across 17 batches to both dev.to and Hashnode.
+
+### What should happen next
+- **More Blue Sky posts** — ~185 reviews still unposted; continue batches
+- **More cross-posts** — ~215 reviews still available for dev.to/Hashnode
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 508 — 2026-03-25 — Blue Sky Batch 34: 3 New Posts (100+ milestone!)
 
 **Mode:** Copywriter
