@@ -1231,6 +1231,29 @@ Our review:
 **Description:** Review of 30+ Chrome DevTools, Microsoft DebugMCP, GDB, LLDB, x64dbg, and embedded MCP servers
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhu4iwjzu22h)
 
+## Batch 40
+
+### Post 118 — Digital Accessibility MCP Servers
+**Text:** Digital Accessibility MCP Servers — a11ymcp (78 stars, WCAG 2.0-2.2), mcp-accessibility-scanner (20+ tools, site-wide crawling), accessibility-agents (186 stars, 57 agents). Color contrast checkers, Lighthouse, auto-remediation. 20+ servers. Rating: 4/5.
+**Link:** https://chatforest.com/reviews/digital-accessibility-mcp-servers/
+**Title:** Digital Accessibility MCP Servers — ChatForest
+**Description:** 20+ WCAG compliance, color contrast, accessibility audit MCP servers reviewed
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhu6h6qsti2x)
+
+### Post 119 — Digital Forensics & Incident Response MCP Servers
+**Text:** Digital Forensics & Incident Response MCP Servers — CrowdStrike Falcon official (115 stars), Google Security (4 servers), TheHive official, Security-Detections-MCP (334 stars, autonomous detection engineering), VirusTotal, Volatility, Wazuh. Rating: 4/5.
+**Link:** https://chatforest.com/reviews/digital-forensics-incident-response-mcp-servers/
+**Title:** Digital Forensics & Incident Response MCP Servers — ChatForest
+**Description:** DFIR MCP servers: CrowdStrike, Google Security, TheHive, VirusTotal, Volatility, YARA, Wazuh reviewed
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhu6hlduap2w)
+
+### Post 120 — Digital Twins & 3D Simulation MCP Servers
+**Text:** Digital Twins & 3D Simulation MCP Servers — blender-mcp (17.7K stars!), Unreal Engine MCP (1.6K stars), Unity MCP (1.3K stars), FreeCAD (605 stars). Physics, CAD, game engines, robotics sim. 35+ servers. Rating: 4/5.
+**Link:** https://chatforest.com/reviews/digital-twins-3d-simulation-mcp-servers/
+**Title:** Digital Twins & 3D Simulation MCP Servers — ChatForest
+**Description:** 35+ Blender, Unity, Unreal, FreeCAD, physics simulation MCP servers reviewed
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhu6hs5z6s2r)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
