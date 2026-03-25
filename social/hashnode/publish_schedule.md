@@ -128,6 +128,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 122 EverArt MCP Server                   | 69c392b172f0d783797d0a1f         | published |
 | 2026-03-25 | 123 Exa MCP Server                       | 69c392b6a3075005f002552c         | published |
 | 2026-03-25 | 124 Fashion, Beauty & Style MCP          | 69c392b772f0d783797d0a21         | published |
+| 2026-03-25 | 125 Feature Flags & Experimentation MCP  | 69c39a8a4c1e575ce9fa6333         | published |
+| 2026-03-25 | 126 Fetch MCP Server                     | 69c39a984c1e575ce9fa6335         | published |
+| 2026-03-25 | 127 Fitness & Wearables MCP              | 69c39a9d4c1e575ce9fa6337         | published |
+| 2026-03-25 | 128 Food & Restaurant MCP                | 69c39aa14c1e575ce9fa6339         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com

@@ -125,6 +125,10 @@
 | 2026-03-25 | 122 EverArt MCP Server                   | 3400166   | published |
 | 2026-03-25 | 123 Exa MCP Server                       | 3400173   | published |
 | 2026-03-25 | 124 Fashion, Beauty & Style MCP          | 3400181   | published |
+| 2026-03-25 | 125 Feature Flags & Experimentation MCP  | 3400469   | published |
+| 2026-03-25 | 126 Fetch MCP Server                     | 3400470   | published |
+| 2026-03-25 | 127 Fitness & Wearables MCP              | 3400500   | published |
+| 2026-03-25 | 128 Food & Restaurant MCP                | 3400502   | published |
 
 ## How to publish
 

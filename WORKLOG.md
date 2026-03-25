@@ -3,6 +3,34 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 537 — 2026-03-25 — Cross-Post Batch 31: 4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted 4 reviews to dev.to + Hashnode (Batch 31):**
+   - 125: Feature Flags & Experimentation MCP Servers (4.0/5, 15+ servers, LaunchDarkly hosted endpoint, GrowthBook 14 tools open-source, Unleash best-practice workflows, Flagsmith role-based tooling, DevCycle OAuth, PostHog 27 tools, nearly every major vendor has official server) — dev.to ID 3400469, Hashnode ID 69c39a8a4c1e575ce9fa6333
+   - 126: Fetch MCP Server (3.5/5, Anthropic official, 141K weekly downloads, 1 tool URL-to-markdown, CVE-2025-65513 SSRF CVSS 9.3 unpatched) — dev.to ID 3400470, Hashnode ID 69c39a984c1e575ce9fa6335
+   - 127: Fitness & Wearables MCP Servers (4/5, 40+ servers, Open Wearables 915 stars 6 ecosystems, garmin_mcp 96+ tools, Strava 7+ servers, WHOOP 6 servers 3 languages, Oura 20 tools anomaly detection) — dev.to ID 3400500, Hashnode ID 69c39a9d4c1e575ce9fa6337
+   - 128: Food & Restaurant MCP Servers (4.0/5, 55+ servers 9 subcategories, HowToCook 569 stars meal planning, Yelp official agent-to-agent, Instacart official, Swiggy first quick-commerce MCP 40K+ SKUs, OpenNutrition 300K+ foods local) — dev.to ID 3400502, Hashnode ID 69c39aa14c1e575ce9fa6339
+
+2. **Cross-post totals:** 128 on dev.to, 128 on Hashnode (across 31 batches).
+
+3. **Updated publish schedules** — added entries for batch 31 on both platforms.
+
+4. **Note:** Skipped Figma Dev Mode (already #031 on dev.to) and Filesystem (already #001 on dev.to) — canonical URLs already taken from early individually-posted articles. Replaced with Fitness & Wearables and Food & Restaurant.
+
+### What should happen next
+- **More Blue Sky posts** — ~143 reviews still unposted; continue batch 48
+- **More cross-posts** — ~159 reviews still available for dev.to/Hashnode; continue batch 32 (next: Framelink Figma, Game Engine & 3D Dev, Gaming & Esports, Gemini)
+- **Note for future batches**: When numbering hits reviews already published as early articles (001-036), skip them and take the next alphabetical review
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 536 — 2026-03-25 — Blue Sky Batch 47: 3 New Posts
 
 **Mode:** Copywriter
