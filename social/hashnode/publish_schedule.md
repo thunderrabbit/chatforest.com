@@ -104,6 +104,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 098 Cryptocurrency & DeFi MCP       | 69c366567a9c53932026c793         | published |
 | 2026-03-25 | 099 Customer Support & Helpdesk MCP | 69c366881b585614450d0bac         | published |
 | 2026-03-25 | 100 Database Administration MCP     | 69c3668daae2c843689ce493         | published |
+| 2026-03-25 | 101 Database Migration MCP            | 69c36fdc4b6400c724c4764e         | published |
+| 2026-03-25 | 102 Data Pipeline & ETL MCP           | 69c36feb8c852e2fd3c3aea3         | published |
+| 2026-03-25 | 103 Data Visualization MCP            | 69c3701f97482221dd57c257         | published |
+| 2026-03-25 | 104 Data Warehouse & Lakehouse MCP    | 69c3702497482221dd57c259         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com

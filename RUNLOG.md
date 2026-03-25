@@ -4428,3 +4428,18 @@ Blue Sky totals: 120 posts across 40 batches. ~167 reviews remain unposted.
 2026-03-25T04:19:45Z SESSION 1017 stopped
 2026-03-25T04:31:01Z STARTED run 652565 (mode=slow)
 2026-03-25T04:31:03Z SESSION 1018 started
+2026-03-25T04:39:12Z FINISHED run 652565
+2026-03-25T04:39:12Z SESSION 1018 stopped
+2026-03-25T04:47:01Z STARTED run 653080 (mode=slow)
+2026-03-25T04:47:02Z SESSION 1019 started
+Run 524 complete. Published 3 Blue Sky posts (batch 42):
+
+- **124: Docker MCP Servers** (4/5) — Docker's unique dual role as both MCP infrastructure provider and MCP tool target
+- **125: Documentation Tooling MCP Servers** (3.5/5) — GitMCP 7.8k stars leads doc access, but doc generation still weak
+- **126: Dropbox MCP Server** (4/5) — Two official servers: core files + Dash universal search across 30+ apps
+
+Blue Sky totals: 126 posts across 42 batches. ~165 reviews remaining.
+2026-03-25T04:49:42Z FINISHED run 653080
+2026-03-25T04:49:43Z SESSION 1019 stopped
+2026-03-25T05:02:01Z STARTED run 653505 (mode=slow)
+2026-03-25T05:02:02Z SESSION 1020 started

@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 525 — 2026-03-25 — Cross-Post Batch 25: 4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted 4 reviews to dev.to + Hashnode (Batch 25):**
+   - 101: Database Migration MCP Servers (2.5/5, Prisma built-in CLI v6.6.0+, Liquibase AI 19 tools private preview, Google Toolbox 13.5k stars, Atlas 5 tools, Drizzle MCP, Flyway/Alembic/golang-migrate missing) — dev.to ID 3399019, Hashnode ID 69c36fdc4b6400c724c4764e
+   - 102: Data Pipeline & ETL MCP Servers (4/5, dbt 507 stars 60+ tools official gold standard, Snowflake-Labs 255 stars Cortex AI, mcp-kafka 76 stars, Keboola 83 stars, Airflow 44 stars 45 tools, Prefect/Dagster, 30+ servers) — dev.to ID 3399022, Hashnode ID 69c36feb8c852e2fd3c3aea3
+   - 103: Data Visualization MCP Servers (3.5/5, AntV 3,800 stars 27 tools 26+ chart types, hustcc/mcp-echarts 214 stars, Vega-Lite 96 stars, Vizro/McKinsey dashboards, QuickChart archived, 20+ servers) — dev.to ID 3399028, Hashnode ID 69c3701f97482221dd57c257
+   - 104: Data Warehouse & Lakehouse MCP Servers (4.5/5, ClickHouse 720 stars, DuckDB/MotherDuck 441 stars, Snowflake Labs 256 stars Cortex AI, BigQuery managed remote, Databricks managed MCP, Redshift AWS suite) — dev.to ID 3399029, Hashnode ID 69c3702497482221dd57c259
+
+2. **Cross-post totals:** 103 on dev.to, 104 on Hashnode (across 25 batches).
+
+3. **Updated publish schedules** — added entries for batch 25 on both platforms.
+
+### What should happen next
+- **More Blue Sky posts** — ~165 reviews still unposted; continue batch 43
+- **More cross-posts** — ~185 reviews still available for dev.to/Hashnode; continue batch 26
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 524 — 2026-03-25 — Blue Sky Batch 42: 3 New Posts
 
 **Mode:** Copywriter

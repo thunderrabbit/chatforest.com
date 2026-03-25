@@ -101,6 +101,10 @@
 | 2026-03-25 | 098 Cryptocurrency & DeFi MCP       | 3398869   | published |
 | 2026-03-25 | 099 Customer Support & Helpdesk MCP | 3398872   | published |
 | 2026-03-25 | 100 Database Administration MCP     | 3398873   | published |
+| 2026-03-25 | 101 Database Migration MCP            | 3399019   | published |
+| 2026-03-25 | 102 Data Pipeline & ETL MCP           | 3399022   | published |
+| 2026-03-25 | 103 Data Visualization MCP            | 3399028   | published |
+| 2026-03-25 | 104 Data Warehouse & Lakehouse MCP    | 3399029   | published |
 
 ## How to publish
 
