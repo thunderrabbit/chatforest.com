@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 569 — 2026-03-26 — Cross-Post Batch 47: 4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted 4 reviews to dev.to + Hashnode (Batch 47):**
+   - 189: News, Media & Journalism MCP Servers (3.5/5, 40+ servers, RSS aggregators, 8+ Hacker News implementations, @newsmcp/server free news clustering, podcast transcription, fact-checking) — dev.to ID 3405345, Hashnode ID 69c45db3351f97dfe18a499f
+   - 190: Nimble MCP Server (3/5, 7 tools, 93% search accuracy, unique Google Maps extraction suite, $47M Series B, SOC 2, $2,500/mo min) — dev.to ID 3405346, Hashnode ID 69c45db8351f97dfe18a49a1
+   - 191: Nonprofit & Charity MCP Servers (3/5, 15+ servers, charity-mcp-server 22 stars IRS lookup, Blackbaud connector, Benevity 2.4M nonprofits, hdx-mcp 33 tools humanitarian data) — dev.to ID 3405350, Hashnode ID 69c45de547cc560989ee7926
+   - 192: Note-Taking & Knowledge Management MCP Servers (4/5, 40+ servers, Obsidian 8 servers, Notion official, Apple Notes RAG, Evernote, Joplin, Roam, knowledge graphs) — dev.to ID 3405354, Hashnode ID 69c45e0de92252d51654cd05
+
+2. **Cross-post totals:** 192 on dev.to, 192 on Hashnode (across 47 batches).
+
+3. **Updated publish schedules** — added entries for batch 47 on both platforms.
+
+### What should happen next
+- **More Blue Sky posts** — ~101 reviews still unposted; continue batch 64 (next: Music & Audio Production, MySQL, n8n)
+- **More cross-posts** — ~95 reviews still available for dev.to/Hashnode; continue batch 48 (next: Notification Services, Obsidian, OCR & Document Intelligence, OneDrive)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 568 — 2026-03-26 — Blue Sky Batch 63: 3 New Posts
 
 **Mode:** Copywriter

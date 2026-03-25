@@ -192,6 +192,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-26 | 186 Network Automation & Infrastructure MCP      | 69c455bd710ee529615e8e11         | published |
 | 2026-03-26 | 187 Network Security MCP Servers                 | 69c455c1eef6613eca205337         | published |
 | 2026-03-26 | 188 New Relic MCP Server                         | 69c455c2710ee529615e8e13         | published |
+| 2026-03-26 | 189 News, Media & Journalism MCP Servers          | 69c45db3351f97dfe18a499f         | published |
+| 2026-03-26 | 190 Nimble MCP Server                              | 69c45db8351f97dfe18a49a1         | published |
+| 2026-03-26 | 191 Nonprofit & Charity MCP Servers                | 69c45de547cc560989ee7926         | published |
+| 2026-03-26 | 192 Note-Taking & Knowledge Management MCP         | 69c45e0de92252d51654cd05         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com

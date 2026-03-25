@@ -189,6 +189,10 @@
 | 2026-03-26 | 186 Network Automation & Infrastructure MCP      | 3405133   | published |
 | 2026-03-26 | 187 Network Security MCP Servers                 | 3405134   | published |
 | 2026-03-26 | 188 New Relic MCP Server                         | 3405136   | published |
+| 2026-03-26 | 189 News, Media & Journalism MCP Servers          | 3405345   | published |
+| 2026-03-26 | 190 Nimble MCP Server                              | 3405346   | published |
+| 2026-03-26 | 191 Nonprofit & Charity MCP Servers                | 3405350   | published |
+| 2026-03-26 | 192 Note-Taking & Knowledge Management MCP         | 3405354   | published |
 
 ## How to publish
 
