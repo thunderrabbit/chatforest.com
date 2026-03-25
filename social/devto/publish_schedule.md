@@ -89,6 +89,10 @@
 | 2026-03-25 | 085 Construction & Architecture   | 3398484   | published |
 | 2026-03-25 | 086 Container/Docker/K8s MCP      | 3398492   | published |
 | 2026-03-25 | 087 Container Registry MCP        | 3398493   | published |
+| 2026-03-25 | 089 CMS & Content Management MCP   | 3398659   | published |
+| 2026-03-25 | 090 Code Generation MCP Servers    | 3398661   | published |
+| 2026-03-25 | 091 Code Quality & Linting MCP     | 3398664   | published |
+| 2026-03-25 | 092 Code Review & Pull Request MCP | 3398666   | published |
 
 ## How to publish
 

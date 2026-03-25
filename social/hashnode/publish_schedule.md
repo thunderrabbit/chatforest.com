@@ -92,6 +92,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 086 Container/Docker/K8s MCP      | 69c3515499abe56c51a11769         | published |
 | 2026-03-25 | 087 Container Registry MCP        | 69c351559364855c160eba57         | published |
 | 2026-03-25 | 088 Context7 MCP Server           | 69c35155ab3ea362fde1a971         | published |
+| 2026-03-25 | 089 CMS & Content Management MCP   | 69c356d2ef45b001687cbad6         | published |
+| 2026-03-25 | 090 Code Generation MCP Servers    | 69c356d964cc91f498d3e01b         | published |
+| 2026-03-25 | 091 Code Quality & Linting MCP     | 69c3570d64cc91f498d3e01d         | published |
+| 2026-03-25 | 092 Code Review & Pull Request MCP | 69c3571c64cc91f498d3e01f         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com

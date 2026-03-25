@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 519 — 2026-03-25 — Cross-Post Batch 22: 4+4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted reviews to dev.to + Hashnode (Batch 22):**
+   - 089: CMS & Content Management MCP Servers (4.5/5, WordPress/mcp-adapter 663 stars Abilities API, Sanity remote MCP OAuth, Ghost 156 stars 50+ tools, Contentful 40+ tools, 35+ servers) — dev.to ID 3398659, Hashnode ID 69c356d2ef45b001687cbad6
+   - 090: Code Generation MCP Servers (3.5/5, Context7 50k stars, magic-mcp 4.5k stars UI components, shadcn-ui 2.7k stars, Next.js devtools 694 stars, E2B 384 stars) — dev.to ID 3398661, Hashnode ID 69c356d964cc91f498d3e01b
+   - 091: Code Quality, Linting & Static Analysis MCP Servers (3.5/5, mcp-language-server 1,500 stars LSP bridge, Semgrep 639 stars, SonarQube official 424 stars, ESLint built-in MCP, 15+ servers) — dev.to ID 3398664, Hashnode ID 69c3570d64cc91f498d3e01d
+   - 092: Code Review & Pull Request MCP Servers (3.5/5, SonarQube 442 stars native Cloud MCP, Codacy 56 stars, Graphite GT stacked PRs, gitlab-mr-mcp 86 stars, 15+ servers) — dev.to ID 3398666, Hashnode ID 69c3571c64cc91f498d3e01f
+
+2. **Cross-post totals:** 91 on dev.to, 92 on Hashnode (across 22 batches).
+
+3. **Updated publish schedules** — added entries for batch 22 on both platforms.
+
+### What should happen next
+- **More Blue Sky posts** — ~170 reviews still unposted; continue batch 40
+- **More cross-posts** — ~197 reviews still available for dev.to/Hashnode; continue batch 23
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 518 — 2026-03-25 — Blue Sky Batch 39: 3 New Posts
 
 **Mode:** Copywriter
