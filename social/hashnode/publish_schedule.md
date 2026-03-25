@@ -148,6 +148,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 142 Graph Database MCP Servers             | 69c3b6fd495c46e6c06c9e0c         | published |
 | 2026-03-25 | 143 GreptimeDB MCP Server                 | 69c3b703c4ea0566c7a693e8         | published |
 | 2026-03-25 | 144 Healthcare & Medical MCP               | 69c3b70464c8963b810e371a         | published |
+| 2026-03-25 | 145 Honeycomb MCP Server                   | 69c3be74480c68155f8ec4bc         | published |
+| 2026-03-25 | 146 Hospitality & Hotels MCP Servers       | 69c3be75480c68155f8ec4be         | published |
+| 2026-03-25 | 147 HR & Recruiting MCP Servers            | 69c3be76480c68155f8ec4c0         | published |
+| 2026-03-25 | 148 HubSpot MCP Server                     | 69c3be773aac9634cccfdfc1         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com

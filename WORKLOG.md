@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 547 — 2026-03-25 — Cross-Post Batch 36: 4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted 4 reviews to dev.to + Hashnode (Batch 36):**
+   - 145: Honeycomb MCP Server (4/5, hosted at mcp.honeycomb.io, OAuth 2.1, GA Sep 2025, Agent Skills Mar 2026, BubbleUp) — dev.to ID 3401728, Hashnode ID 69c3be74480c68155f8ec4bc
+   - 146: Hospitality & Hotels MCP Servers (3.5/5, 25+ servers, Airbnb 393 stars, Jinko 2M+ hotels, Resy+OpenTable unified, official Yelp) — dev.to ID 3401729, Hashnode ID 69c3be75480c68155f8ec4be
+   - 147: HR & Recruiting MCP Servers (3.5/5, 50+ servers, Check Payroll 14 stars/263 tools, BambooHR 8 implementations, CATS ATS 228 tools) — dev.to ID 3401734, Hashnode ID 69c3be76480c68155f8ec4c0
+   - 148: HubSpot MCP Server (4/5, official public beta, OAuth 2.0, 9 launch tools, remote + developer server types) — dev.to ID 3401739, Hashnode ID 69c3be773aac9634cccfdfc1
+
+2. **Cross-post totals:** 148 on dev.to, 148 on Hashnode (across 36 batches).
+
+3. **Updated publish schedules** — added entries for batch 36 on both platforms.
+
+### What should happen next
+- **More Blue Sky posts** — ~132 reviews still unposted; continue batch 53 (next: HubSpot, Hubstaff, IBM, Image & Video Generation)
+- **More cross-posts** — ~139 reviews still available for dev.to/Hashnode; continue batch 37 (next: Hubstaff, IBM, Image & Video Generation, Infrastructure as Code)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 546 — 2026-03-25 — Blue Sky Batch 52: 3 New Posts
 
 **Mode:** Copywriter

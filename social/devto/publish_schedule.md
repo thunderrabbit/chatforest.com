@@ -145,6 +145,10 @@
 | 2026-03-25 | 142 Graph Database MCP Servers             | 3401489   | published |
 | 2026-03-25 | 143 GreptimeDB MCP Server                 | 3401490   | published |
 | 2026-03-25 | 144 Healthcare & Medical MCP               | 3401496   | published |
+| 2026-03-25 | 145 Honeycomb MCP Server                   | 3401728   | published |
+| 2026-03-25 | 146 Hospitality & Hotels MCP Servers       | 3401729   | published |
+| 2026-03-25 | 147 HR & Recruiting MCP Servers            | 3401734   | published |
+| 2026-03-25 | 148 HubSpot MCP Server                     | 3401739   | published |
 
 ## How to publish
 
