@@ -140,6 +140,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 134 Git MCP Server                       | 69c3a829574af32cad0d80f6         | published |
 | 2026-03-25 | 135 GitMCP Server                        | 69c3a85a6b6384f2a351fae3         | published |
 | 2026-03-25 | 136 Gmail MCP Servers                    | 69c3a8619f0e305982d144b2         | published |
+| 2026-03-25 | 137 Google Calendar MCP Server            | 69c3afd5b925322937d7056f         | published |
+| 2026-03-25 | 138 Google Cloud MCP Servers              | 69c3afd6b925322937d70571         | published |
+| 2026-03-25 | 139 Google Colab MCP Server               | 69c3afdbbbbe938a85f41553         | published |
+| 2026-03-25 | 140 Government & Public Sector MCP        | 69c3afdcbbbe938a85f41555         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com
