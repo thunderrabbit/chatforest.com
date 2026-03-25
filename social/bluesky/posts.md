@@ -1173,6 +1173,35 @@ Our review:
 **Description:** Review of 50+ Ethereum, Solana, Bitcoin, wallet, DEX, and analytics MCP servers
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtyw2626j2t)
 
+## Batch 38
+
+### Post 112 — Customer Support & Helpdesk MCP Servers
+**Text:** Customer Support & Helpdesk MCP Servers — only 3 platforms have official servers (Intercom, Plain, Pylon). Zendesk, the market leader, has none. Freshdesk leads community tools with 30 tools. ServiceNow has 5+ competing servers. 30+ servers reviewed.
+
+Our review:
+**Link:** https://chatforest.com/reviews/customer-support-helpdesk-mcp-servers/
+**Title:** Customer Support & Helpdesk MCP Servers — ChatForest
+**Description:** Review of 30+ Zendesk, Intercom, Freshdesk, ServiceNow, Plain, and more MCP servers
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhu2lyjwdr2j)
+
+### Post 113 — Database Administration MCP Servers
+**Text:** Database Admin MCP Servers — the most mature MCP category we've reviewed. Postgres MCP Pro (2,300 stars) has industrial-strength index tuning. MongoDB official (959 stars, 40+ tools) is the most feature-rich. 25+ servers across 7 platforms.
+
+Our review:
+**Link:** https://chatforest.com/reviews/database-admin-mcp-servers/
+**Title:** Database Administration MCP Servers — ChatForest
+**Description:** Review of 25+ PostgreSQL, MySQL, MongoDB, Redis, DynamoDB, and Supabase MCP servers
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhu2maasej2h)
+
+### Post 114 — Database Migration & Schema Management MCP Servers
+**Text:** Database Migration MCP Servers — Prisma ships built-in MCP (v6.6.0+), Liquibase previews AI changelogs (19 tools), but Flyway, Alembic, and golang-migrate have zero MCP presence. A critical gap. Rating: 2.5/5.
+
+Our review:
+**Link:** https://chatforest.com/reviews/database-migration-mcp-servers/
+**Title:** Database Migration & Schema Management MCP Servers — ChatForest
+**Description:** Review of Prisma, Liquibase, Atlas, Drizzle, and Google Toolbox migration MCP servers
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhu2mj54a22c)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
