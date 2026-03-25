@@ -93,6 +93,10 @@
 | 2026-03-25 | 090 Code Generation MCP Servers    | 3398661   | published |
 | 2026-03-25 | 091 Code Quality & Linting MCP     | 3398664   | published |
 | 2026-03-25 | 092 Code Review & Pull Request MCP | 3398666   | published |
+| 2026-03-25 | 093 Code Security MCP Servers       | 3398772   | published |
+| 2026-03-25 | 094 Cohere MCP Server              | 3398775   | published |
+| 2026-03-25 | 095 Compliance & Audit Automation MCP | 3398777 | published |
+| 2026-03-25 | 096 Crawl4AI MCP Server            | 3398778   | published |
 
 ## How to publish
 

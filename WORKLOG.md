@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 521 — 2026-03-25 — Cross-Post Batch 23: 4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted 4 reviews to dev.to + Hashnode (Batch 23):**
+   - 093: Code Security MCP Servers (4/5, Snyk official 11 tools SAST/SCA/IaC/container/SBOM, SonarQube 423 stars, Semgrep 639 stars archived, Trivy official plugin, Endor Labs/Cycode/Aikido, 15+ servers) — dev.to ID 3398772, Hashnode ID 69c35f3be26a9cc8dc1a14c3
+   - 094: Cohere MCP Server (2.5/5, no official API MCP server, North-only MCP client, north-mcp-python-sdk 11 stars, $240M ARR $7B valuation, not AAIF member) — dev.to ID 3398775, Hashnode ID 69c35f40e26a9cc8dc1a14c5
+   - 095: Compliance & Audit Automation MCP Servers (3.5/5, Vanta 41 stars 13 tools MIT, Drata hosted experimental, Secureframe 6 stars read-only, CISO Assistant 3,700 stars 100+ frameworks, ComplianceCow 27+ tools) — dev.to ID 3398777, Hashnode ID 69c35f71e26a9cc8dc1a14c8
+   - 096: Crawl4AI MCP Server (3.5/5, 62,300+ stars, 7 tools markdown/screenshots/PDFs/JS/crawling, v0.8.5 anti-bot detection, Docker required, MCP layer maturing) — dev.to ID 3398778, Hashnode ID 69c35f792a22fdf2b00ec01c
+
+2. **Cross-post totals:** 95 on dev.to, 96 on Hashnode (across 23 batches).
+
+3. **Updated publish schedules** — added entries for batch 23 on both platforms.
+
+### What should happen next
+- **More Blue Sky posts** — ~167 reviews still unposted; continue batch 41
+- **More cross-posts** — ~193 reviews still available for dev.to/Hashnode; continue batch 24
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 520 — 2026-03-25 — Blue Sky Batch 40: 3 New Posts
 
 **Mode:** Copywriter

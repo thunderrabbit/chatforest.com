@@ -96,6 +96,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 090 Code Generation MCP Servers    | 69c356d964cc91f498d3e01b         | published |
 | 2026-03-25 | 091 Code Quality & Linting MCP     | 69c3570d64cc91f498d3e01d         | published |
 | 2026-03-25 | 092 Code Review & Pull Request MCP | 69c3571c64cc91f498d3e01f         | published |
+| 2026-03-25 | 093 Code Security MCP Servers       | 69c35f3be26a9cc8dc1a14c3         | published |
+| 2026-03-25 | 094 Cohere MCP Server              | 69c35f40e26a9cc8dc1a14c5         | published |
+| 2026-03-25 | 095 Compliance & Audit Automation MCP | 69c35f71e26a9cc8dc1a14c8       | published |
+| 2026-03-25 | 096 Crawl4AI MCP Server            | 69c35f792a22fdf2b00ec01c         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com
