@@ -129,6 +129,10 @@
 | 2026-03-25 | 126 Fetch MCP Server                     | 3400470   | published |
 | 2026-03-25 | 127 Fitness & Wearables MCP              | 3400500   | published |
 | 2026-03-25 | 128 Food & Restaurant MCP                | 3400502   | published |
+| 2026-03-25 | 129 Framelink Figma MCP Server           | 3400695   | published |
+| 2026-03-25 | 130 Game Engine & 3D Development MCP     | 3400696   | published |
+| 2026-03-25 | 131 Gaming & Esports MCP                 | 3400699   | published |
+| 2026-03-25 | 132 Gemini MCP Server                    | 3400702   | published |
 
 ## How to publish
 

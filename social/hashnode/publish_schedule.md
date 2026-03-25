@@ -132,6 +132,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 126 Fetch MCP Server                     | 69c39a984c1e575ce9fa6335         | published |
 | 2026-03-25 | 127 Fitness & Wearables MCP              | 69c39a9d4c1e575ce9fa6337         | published |
 | 2026-03-25 | 128 Food & Restaurant MCP                | 69c39aa14c1e575ce9fa6339         | published |
+| 2026-03-25 | 129 Framelink Figma MCP Server           | 69c3a103cf37a8b8e24be2f8         | published |
+| 2026-03-25 | 130 Game Engine & 3D Development MCP     | 69c3a104cf37a8b8e24be2fa         | published |
+| 2026-03-25 | 131 Gaming & Esports MCP                 | 69c3a10892170daca3d25de0         | published |
+| 2026-03-25 | 132 Gemini MCP Server                    | 69c3a109c624807dcc64dbdc         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com
