@@ -121,6 +121,10 @@
 | 2026-03-25 | 118 Energy & Utilities MCP               | 3399884   | published |
 | 2026-03-25 | 119 ERP & Business Management MCP        | 3399896   | published |
 | 2026-03-25 | 120 E-Signature & Digital Signing MCP    | 3399897   | published |
+| 2026-03-25 | 121 Event Management & Ticketing MCP     | 3400165   | published |
+| 2026-03-25 | 122 EverArt MCP Server                   | 3400166   | published |
+| 2026-03-25 | 123 Exa MCP Server                       | 3400173   | published |
+| 2026-03-25 | 124 Fashion, Beauty & Style MCP          | 3400181   | published |
 
 ## How to publish
 

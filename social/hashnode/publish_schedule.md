@@ -124,6 +124,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 118 Energy & Utilities MCP               | 69c38b7a6667b9d1c19fd411         | published |
 | 2026-03-25 | 119 ERP & Business Management MCP        | 69c38b7b6667b9d1c19fd413         | published |
 | 2026-03-25 | 120 E-Signature & Digital Signing MCP    | 69c38b7c6667b9d1c19fd415         | published |
+| 2026-03-25 | 121 Event Management & Ticketing MCP     | 69c392b00aecf043d7b744f5         | published |
+| 2026-03-25 | 122 EverArt MCP Server                   | 69c392b172f0d783797d0a1f         | published |
+| 2026-03-25 | 123 Exa MCP Server                       | 69c392b6a3075005f002552c         | published |
+| 2026-03-25 | 124 Fashion, Beauty & Style MCP          | 69c392b772f0d783797d0a21         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com

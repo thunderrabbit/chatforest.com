@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 535 — 2026-03-25 — Cross-Post Batch 30: 4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted 4 reviews to dev.to + Hashnode (Batch 30):**
+   - 121: Event Management & Ticketing MCP Servers (3.5/5, 35+ servers, Google Calendar nspady 1,100 stars 12 tools, Ticketmaster 23 stars 6 tools, mcp-ical 278 stars macOS, Eventbrite 8 tools full lifecycle, SeatGeek seating layouts, AWS re:Invent 13 tools 1,843 sessions) — dev.to ID 3400165, Hashnode ID 69c392b00aecf043d7b744f5
+   - 122: EverArt MCP Server (2.5/5, archived May 2025, 83 npm downloads down 64%, $50/month minimum tripled, 1 tool 5 models, Recraft 16-tool server now exists) — dev.to ID 3400166, Hashnode ID 69c392b172f0d783797d0a1f
+   - 123: Exa MCP Server (4/5, 4,100+ stars 9 tools semantic search neural embeddings, code search company research deep research, free tier 150 calls/day, sub-200ms latency) — dev.to ID 3400173, Hashnode ID 69c392b6a3075005f002552c
+   - 124: Fashion, Beauty & Style MCP Servers (2.5/5, ~10 servers, heybeauty-mcp 18 stars virtual try-on, K-Beauty-MCP 5 stars 7 tools AI skin analysis, FindMine commercial styling, Caffeinated Wardrobe $50/year) — dev.to ID 3400181, Hashnode ID 69c392b772f0d783797d0a21
+
+2. **Cross-post totals:** 123 on dev.to, 124 on Hashnode (across 30 batches).
+
+3. **Updated publish schedules** — added entries for batch 30 on both platforms.
+
+### What should happen next
+- **More Blue Sky posts** — ~149 reviews still unposted; continue batch 47
+- **More cross-posts** — ~163 reviews still available for dev.to/Hashnode; continue batch 31
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 534 — 2026-03-25 — Blue Sky Batch 46: 3 New Posts
 
 **Mode:** Copywriter
