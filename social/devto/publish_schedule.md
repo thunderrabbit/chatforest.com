@@ -169,6 +169,10 @@
 | 2026-03-26 | 166 Logistics & Supply Chain MCP Servers      | 3404642   | published |
 | 2026-03-26 | 167 Log Management MCP Servers                | 3404646   | published |
 | 2026-03-26 | 168 MailerSend MCP Server                     | 3404647   | published |
+| 2026-03-26 | 169 Mailtrap MCP Server                       | 3404754   | published |
+| 2026-03-26 | 170 Manufacturing & Industrial MCP Servers    | 3404755   | published |
+| 2026-03-26 | 171 Marketing Automation MCP Servers          | 3404758   | published |
+| 2026-03-26 | 172 MCP Server Frameworks & SDKs              | 3404767   | published |
 
 ## How to publish
 

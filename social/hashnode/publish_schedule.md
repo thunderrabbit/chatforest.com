@@ -172,6 +172,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-26 | 166 Logistics & Supply Chain MCP Servers      | 69c430610b4231e276652377         | published |
 | 2026-03-26 | 167 Log Management MCP Servers                | 69c4309f4f00455e6580ce39         | published |
 | 2026-03-26 | 168 MailerSend MCP Server                     | 69c430a63513dbbd3691af92         | published |
+| 2026-03-26 | 169 Mailtrap MCP Server                       | 69c43778d98fab20ce446ff6         | published |
+| 2026-03-26 | 170 Manufacturing & Industrial MCP Servers    | 69c43781c1de30369e026200         | published |
+| 2026-03-26 | 171 Marketing Automation MCP Servers          | 69c437d4c83c6de67723be26         | published |
+| 2026-03-26 | 172 MCP Server Frameworks & SDKs              | 69c43820373c5c30e106d4f4         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com
