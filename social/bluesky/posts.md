@@ -1769,6 +1769,41 @@ https://chatforest.com/reviews/insurance-insurtech-mcp-servers/
 **Description:** Insurance MCP servers: Root Platform (official), Socotra (most mature), Apify underwriting intelligence. 15+ servers. Rating: 3.5/5.
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhvdph6dne2r)
 
+## Batch 56 (Run 554, 2026-03-26)
+
+### Post 169 — Interior Design & Architecture MCP Servers
+**Text:** blender-mcp (17.6K stars) — one of the most popular MCP servers. Every major CAD tool has MCP: AutoCAD, FreeCAD (57 tools), SketchUp, Rhino, Revit, Fusion 360.
+
+Gap: interior design (room layout, furniture) doesn't exist yet.
+
+https://chatforest.com/reviews/interior-design-architecture-mcp-servers/
+**Link:** https://chatforest.com/reviews/interior-design-architecture-mcp-servers/
+**Title:** Interior Design & Architecture MCP Servers Review — ChatForest
+**Description:** 30+ servers: blender-mcp (17.6K stars), rhinomcp (274 stars), FreeCAD-MCP (57 tools), autocad-mcp, revit-mcp. Rating: 4/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhvopb26uu2h)
+
+### Post 170 — IoT & Embedded MCP Servers
+**Text:** IoT MCP bridges AI and the physical world. ros-mcp-server (873 stars) leads with ROS/ROS2 control. Home Assistant has official MCP. ThingsBoard: 120+ tools. esp-mcp (135 stars) handles ESP-IDF.
+
+7 vendors ship official servers.
+
+https://chatforest.com/reviews/iot-embedded-mcp-servers/
+**Link:** https://chatforest.com/reviews/iot-embedded-mcp-servers/
+**Title:** IoT & Embedded MCP Servers Review — ChatForest
+**Description:** 45+ servers: ros-mcp-server (873 stars), Home Assistant official, ThingsBoard (120+ tools), esp-mcp (135 stars), AWS IoT SiteWise. Rating: 4/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhvopq3hzt2w)
+
+### Post 171 — Job Search & Career MCP Servers
+**Text:** 8+ LinkedIn MCP servers (most scraping-based). jobspy aggregates Indeed, LinkedIn, Glassdoor, ZipRecruiter. Indeed has an official MCP server.
+
+JobApply: local resume tailoring. interview-roleplay: dynamic scenarios.
+
+https://chatforest.com/reviews/job-search-career-mcp-servers/
+**Link:** https://chatforest.com/reviews/job-search-career-mcp-servers/
+**Title:** Job Search & Career MCP Servers Review — ChatForest
+**Description:** 20+ servers: jobspy (multi-platform), LinkedIn scrapers, Indeed official, JobApply (local resume), interview-roleplay. Rating: 3.5/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhvoqrr7cu2j)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
