@@ -1907,6 +1907,37 @@ https://chatforest.com/reviews/mailgun-mcp-server/
 **Description:** Official Mailgun MCP server: 70 tools across 11 categories. No-delete safety, Zod validation, Apache 2.0. Backed by Sinch. Rating: 3.5/5.
 **Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhvtsgn2552j)
 
+## Batch 60 (Run 562, 2026-03-26)
+
+### Post 181 — Mailtrap MCP Server
+**Text:** Mailtrap's MCP server: 9 tools for email sending, sandbox testing, template management, and delivery analytics. Official first-party from Railsware (150K+ users). Free tier: 4,000 emails/mo.
+
+TypeScript, stdio, npx install.
+
+https://chatforest.com/reviews/mailtrap-mcp-server/
+**Link:** https://chatforest.com/reviews/mailtrap-mcp-server/
+**Title:** Mailtrap MCP Server Review — ChatForest
+**Description:** Official first-party MCP server. 9 tools: email sending, sandbox testing, templates, analytics. TypeScript, stdio, free tier 4K emails/mo. Rating: 3.5/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhvvr5bpwf2w)
+
+### Post 182 — Manufacturing & Industrial MCP Servers
+**Text:** 40+ manufacturing & industrial MCP servers. Robotics leads: ros-mcp-server (1,100 stars) connects any LLM to any ROS robot. AWS IoT SiteWise: 47 tools. 3D printing covers 7 platforms. OPC UA bridges the factory floor.
+
+https://chatforest.com/reviews/manufacturing-industrial-mcp-servers/
+**Link:** https://chatforest.com/reviews/manufacturing-industrial-mcp-servers/
+**Title:** Manufacturing & Industrial MCP Servers Review — ChatForest
+**Description:** 40+ servers: ROS robotics (1,100 stars), AWS IoT SiteWise (47 tools), 3D printing (7 platforms), OPC UA, predictive maintenance, MATLAB. Rating: 3.5/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhvvs4avp52w)
+
+### Post 183 — Marketing Automation MCP Servers
+**Text:** 30+ marketing automation MCP servers. Meta Ads MCP (601 stars) handles full campaign lifecycle. Google Search Console MCP (512 stars) for SEO. HubSpot: vector search + 106 tools. Official MCPs from MailerLite, Brevo, Klaviyo.
+
+https://chatforest.com/reviews/marketing-automation-mcp-servers/
+**Link:** https://chatforest.com/reviews/marketing-automation-mcp-servers/
+**Title:** Marketing Automation MCP Servers Review — ChatForest
+**Description:** 30+ servers: Meta Ads (601 stars), Google Search Console (512 stars), HubSpot (106 tools), SendGrid (59 tools), SEO, social media. Rating: 4/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhvvsdhsms2r)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
