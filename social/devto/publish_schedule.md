@@ -113,6 +113,10 @@
 | 2026-03-25 | 110 DNS & Domain Management MCP          | 3399313   | published |
 | 2026-03-25 | 111 Docker MCP Servers                   | 3399318   | published |
 | 2026-03-25 | 112 Documentation Tooling MCP            | 3399323   | published |
+| 2026-03-25 | 113 Dropbox MCP Servers                   | 3399521   | published |
+| 2026-03-25 | 114 DuckDuckGo MCP Server                | 3399523   | published |
+| 2026-03-25 | 115 E-Commerce & Shopping MCP            | 3399552   | published |
+| 2026-03-25 | 116 Education & EdTech MCP               | 3399559   | published |
 
 ## How to publish
 

@@ -116,6 +116,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 110 DNS & Domain Management MCP          | 69c37c4d575ba9874c5ebaef         | published |
 | 2026-03-25 | 111 Docker MCP Servers                   | 69c37c7c07c8e6b04e305a70         | published |
 | 2026-03-25 | 112 Documentation Tooling MCP            | 69c37ca5b156a3a8fd4a3fa9         | published |
+| 2026-03-25 | 113 Dropbox MCP Servers                   | 69c38382c88268366fa9dc24         | published |
+| 2026-03-25 | 114 DuckDuckGo MCP Server                | 69c3838e72d14dc2de4fef1b         | published |
+| 2026-03-25 | 115 E-Commerce & Shopping MCP            | 69c383da9d06c5e1a79f3d6f         | published |
+| 2026-03-25 | 116 Education & EdTech MCP               | 69c3841ace07c642eff546ef         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com
