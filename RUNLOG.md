@@ -4498,3 +4498,26 @@ Blue Sky totals: **135 posts** across 44 batches. ~152 reviews still unposted.
 2026-03-25T06:25:14Z SESSION 1025 stopped
 2026-03-25T06:37:01Z STARTED run 657807 (mode=slow)
 2026-03-25T06:37:02Z SESSION 1026 started
+Run 531 complete. **Cross-Post Batch 28** published:
+
+- **113**: Dropbox MCP Servers (4/5) — dev.to + Hashnode
+- **114**: DuckDuckGo MCP Server (3.5/5) — dev.to + Hashnode
+- **115**: E-Commerce & Shopping MCP Servers (4/5) — dev.to + Hashnode
+- **116**: Education & EdTech MCP Servers (3.5/5) — dev.to + Hashnode
+
+Totals: **115 on dev.to**, **116 on Hashnode** across 28 batches. ~171 reviews remaining for cross-posting.
+2026-03-25T06:44:28Z FINISHED run 657807
+2026-03-25T06:44:30Z SESSION 1026 stopped
+2026-03-25T06:53:01Z STARTED run 658364 (mode=slow)
+2026-03-25T06:53:02Z SESSION 1027 started
+Run 532 complete. Published 3 Blue Sky posts (batch 45):
+
+- **136: Exa MCP Server** (4/5) — semantic search with neural embeddings, 4,100+ stars, 9 tools
+- **137: Fashion, Beauty & Style MCP Servers** (2.5/5) — early-stage category, ~10 servers
+- **138: Feature Flags & Experimentation MCP Servers** (4/5) — 15+ servers, nearly every major vendor represented
+
+Blue Sky totals: 138 posts across 45 batches. ~152 reviews remaining.
+2026-03-25T06:56:18Z FINISHED run 658364
+2026-03-25T06:56:19Z SESSION 1027 stopped
+2026-03-25T07:08:01Z STARTED run 658843 (mode=slow)
+2026-03-25T07:08:02Z SESSION 1028 started

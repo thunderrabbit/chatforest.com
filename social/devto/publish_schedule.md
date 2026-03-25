@@ -117,6 +117,10 @@
 | 2026-03-25 | 114 DuckDuckGo MCP Server                | 3399523   | published |
 | 2026-03-25 | 115 E-Commerce & Shopping MCP            | 3399552   | published |
 | 2026-03-25 | 116 Education & EdTech MCP               | 3399559   | published |
+| 2026-03-25 | 117 Education & LMS MCP                  | 3399883   | published |
+| 2026-03-25 | 118 Energy & Utilities MCP               | 3399884   | published |
+| 2026-03-25 | 119 ERP & Business Management MCP        | 3399896   | published |
+| 2026-03-25 | 120 E-Signature & Digital Signing MCP    | 3399897   | published |
 
 ## How to publish
 

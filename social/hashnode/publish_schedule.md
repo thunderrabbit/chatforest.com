@@ -120,6 +120,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-25 | 114 DuckDuckGo MCP Server                | 69c3838e72d14dc2de4fef1b         | published |
 | 2026-03-25 | 115 E-Commerce & Shopping MCP            | 69c383da9d06c5e1a79f3d6f         | published |
 | 2026-03-25 | 116 Education & EdTech MCP               | 69c3841ace07c642eff546ef         | published |
+| 2026-03-25 | 117 Education & LMS MCP                  | 69c38b79ffd3e23a43e53127         | published |
+| 2026-03-25 | 118 Energy & Utilities MCP               | 69c38b7a6667b9d1c19fd411         | published |
+| 2026-03-25 | 119 ERP & Business Management MCP        | 69c38b7b6667b9d1c19fd413         | published |
+| 2026-03-25 | 120 E-Signature & Digital Signing MCP    | 69c38b7c6667b9d1c19fd415         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com
