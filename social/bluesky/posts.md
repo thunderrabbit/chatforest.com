@@ -2000,6 +2000,35 @@ https://chatforest.com/reviews/mindsdb-mcp-server/
 **Description:** Federated query engine as MCP server: 200+ data sources, built-in RAG, cross-source JOINs, Docker deployment. Rating: 3.5/5.
 **Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhvz7cv6tt2w)
 
+## Batch 63 (Run 568, 2026-03-26)
+
+### Post 190 — Mistral MCP Server
+**Text:** Mistral AI has no official MCP server — they went client-first instead. Le Chat has 20+ MCP connectors (Databricks, GitHub, Notion, Stripe), and the Agents API supports stdio + SSE. AAIF Silver member, €300M ARR, Apache 2.0 open-weight models.
+
+https://chatforest.com/reviews/mistral-mcp-server/
+**Link:** https://chatforest.com/reviews/mistral-mcp-server/
+**Title:** Mistral AI MCP Server Review — ChatForest
+**Description:** No official server — client-first approach with Le Chat (20+ connectors) and Agents API. AAIF Silver, community OCR server. Rating: 3/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhw2xjghxd2w)
+
+### Post 191 — Monitoring & Observability MCP Servers
+**Text:** Monitoring & observability: the most vendor-invested MCP category. Grafana (2.5K stars), Datadog (remote, HIPAA, 16+ tools), Sentry (519 stars), New Relic (35 tools). When vendors see revenue, official servers follow.
+
+https://chatforest.com/reviews/monitoring-observability-mcp-servers/
+**Link:** https://chatforest.com/reviews/monitoring-observability-mcp-servers/
+**Title:** Monitoring & Observability MCP Servers Review — ChatForest
+**Description:** Grafana (2.5K stars), Datadog (remote, HIPAA), Sentry (519 stars), New Relic (35 tools), Prometheus (340 stars). Rating: 4/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhw2yb6knl2r)
+
+### Post 192 — Monitoring & Uptime MCP Servers
+**Text:** Uptime monitoring meets MCP: UptimeRobot ships an official hosted endpoint with full monitor CRUD. Uptime Kuma has 4+ community servers. OneUptime goes maximalist — 711 API endpoints via MCP. Plus ProbeOps for standalone diagnostics.
+
+https://chatforest.com/reviews/monitoring-uptime-mcp-servers/
+**Link:** https://chatforest.com/reviews/monitoring-uptime-mcp-servers/
+**Title:** Monitoring & Uptime MCP Servers Review — ChatForest
+**Description:** UptimeRobot (official hosted), Uptime Kuma (4+ community servers), OneUptime (711 endpoints), Better Stack, ProbeOps diagnostics. Rating: 3.5/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhw2yjbxmj2y)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
