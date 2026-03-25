@@ -2087,6 +2087,35 @@ https://chatforest.com/reviews/network-automation-infrastructure-mcp-servers/
 **Description:** NetworkOps_Platform (178 tools), netclaw (82 skills), NetBox (127 stars), Forward Networks (55+ tools). Rating: 4/5.
 **Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhw6ijwjkz2t)
 
+## Batch 66 (Run 574, 2026-03-26)
+
+### Post 199 — Network Security & Monitoring MCP Servers
+**Text:** Network security MCP: 30+ servers. Burp Suite official (536 stars) leads credibility. WireMCP (380 stars) for Wireshark. mcp-security-hub: 20+ offensive tools. Globalping: distributed probes, no install. Use responsibly.
+
+https://chatforest.com/reviews/network-security-mcp-servers/
+**Link:** https://chatforest.com/reviews/network-security-mcp-servers/
+**Title:** Network Security & Monitoring MCP Servers Review — ChatForest
+**Description:** Burp Suite (536 stars, official), WireMCP (380 stars), mcp-security-hub (20+ tools), mcp-nettools (11 tools), Globalping (distributed probes). 30+ servers. Rating: 3.5/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwa5tvpal2j)
+
+### Post 200 — New Relic MCP Server
+**Text:** New Relic official MCP server: 15+ observability tools. Natural language to NRQL queries, alert management, entity discovery, log analysis, deployment impact. API key + OAuth auth. $6.5B company, 960M revenue. Public preview.
+
+https://chatforest.com/reviews/new-relic-mcp-server/
+**Link:** https://chatforest.com/reviews/new-relic-mcp-server/
+**Title:** New Relic MCP Server Review — ChatForest
+**Description:** Official first-party New Relic MCP: NRQL queries, alerts, entity discovery, log analysis, deployment impact. 15+ tools. Rating: 3.5/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwa6764h22w)
+
+### Post 201 — News, Media & Journalism MCP Servers
+**Text:** News & media MCP: 40+ servers. @newsmcp/server: free real-time news, 12 topics, 30+ regions. RSS most crowded (10+ servers). Hacker News rivals YouTube for MCP coverage. Podcast transcription via Whisper. No major news orgs yet.
+
+https://chatforest.com/reviews/news-media-journalism-mcp-servers/
+**Link:** https://chatforest.com/reviews/news-media-journalism-mcp-servers/
+**Title:** News, Media & Journalism MCP Servers Review — ChatForest
+**Description:** mcp-rss-aggregator (24 stars), hacker-news-mcp (multi-transport), @newsmcp/server (free), Podsidian (podcast transcription), news-factchecker-mcp (AI). 40+ servers. Rating: 3.5/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwa6zjnmd2j)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
