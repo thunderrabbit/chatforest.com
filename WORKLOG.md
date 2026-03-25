@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 572 — 2026-03-26 — Blue Sky Batch 65: 3 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Published 3 Blue Sky posts (Batch 65):**
+   - 196: Neon MCP Server (4/5, 565 stars, official, 20 tools, OAuth 2.0, branch-based migrations, Databricks-acquired) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhw6hm5hcb2e
+   - 197: Netlify MCP Server (4/5, 38 stars, official first-party, prompt-to-production, deploy/manage/extensions, $2B company) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhw6hsfjci2k
+   - 198: Network Automation & Infrastructure MCP Servers (4/5, 25+ servers, NetworkOps_Platform 178 tools, Cisco dominates, NetBox official, Forward Networks 55+ tools) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhw6ijwjkz2t
+
+2. **Blue Sky totals:** 198 posts across 65 batches.
+
+### What should happen next
+- **More cross-posts** — ~91 reviews still available for dev.to/Hashnode; continue batch 49 (next: OpenAI, OpenAPI & Swagger, OpenSearch, Oracle Database)
+- **More Blue Sky posts** — ~95 reviews still unposted; continue batch 66 (next: Network Security, New Relic, News & Media Journalism)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 571 — 2026-03-26 — Cross-Post Batch 48: 4 Reviews to dev.to + Hashnode
 
 **Mode:** Copywriter

@@ -2058,6 +2058,35 @@ https://chatforest.com/reviews/n8n-mcp-server/
 **Description:** Bidirectional MCP hub: expose workflows as tools + consume external MCP servers. 181K stars, fair-code, self-hosted or cloud, 400+ integrations. Rating: 4/5.
 **Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhw4ry5aot2u)
 
+## Batch 65 (Run 572, 2026-03-26)
+
+### Post 196 — Neon MCP Server
+**Text:** Neon's official MCP server: best cloud database MCP we've reviewed. 565 stars, 20 tools, OAuth 2.0. Killer feature — branch-based migrations. Create a copy-on-write branch, test migration, then merge. No rollback scripts. Acquired by Databricks.
+
+https://chatforest.com/reviews/neon-mcp-server/
+**Link:** https://chatforest.com/reviews/neon-mcp-server/
+**Title:** Neon MCP Server Review — ChatForest
+**Description:** Official serverless Postgres MCP with branch-based migrations, 20 tools, OAuth auth. Rating: 4/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhw6hm5hcb2e)
+
+### Post 197 — Netlify MCP Server
+**Text:** Netlify's official MCP server: prompt-to-production in one conversation. Create sites, deploy, check logs, fix errors, redeploy — without leaving your editor. Extensions, env vars, access controls. $2B company, 400+ integrations.
+
+https://chatforest.com/reviews/netlify-mcp-server/
+**Link:** https://chatforest.com/reviews/netlify-mcp-server/
+**Title:** Netlify MCP Server Review — ChatForest
+**Description:** Official first-party Netlify MCP: deploy sites, manage projects, install extensions via AI agents. Rating: 4/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhw6hsfjci2k)
+
+### Post 198 — Network Automation & Infrastructure MCP Servers
+**Text:** Network automation MCP: 25+ servers. Cisco dominates with 10+ dedicated servers. NetworkOps_Platform: 178 tools, 5 vendors. NetBox official DCIM/IPAM. Forward Networks: 55+ tools, digital twin. Safety-first approach.
+
+https://chatforest.com/reviews/network-automation-infrastructure-mcp-servers/
+**Link:** https://chatforest.com/reviews/network-automation-infrastructure-mcp-servers/
+**Title:** Network Automation & Infrastructure MCP Servers Review — ChatForest
+**Description:** NetworkOps_Platform (178 tools), netclaw (82 skills), NetBox (127 stars), Forward Networks (55+ tools). Rating: 4/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhw6ijwjkz2t)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
