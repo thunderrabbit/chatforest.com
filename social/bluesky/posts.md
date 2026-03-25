@@ -1572,6 +1572,38 @@ https://chatforest.com/reviews/gmail-mcp-servers/
 **Description:** Gmail MCP servers: Google's official endpoint, 1,700-star Workspace server, and 8+ community alternatives. Rating: 3.5/5.
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhupwga5qy2c)
 
+## Batch 50 (Run 542)
+
+### Post 151 — Google Calendar MCP Server
+**Text:** Google Calendar MCP Server: 1,100+ stars, 13 tools for AI-managed scheduling. Multi-account support, bulk event creation, PKCE OAuth. No official Google server exists — this community project by nspady IS the standard. Rating: 4/5.
+
+Review:
+https://chatforest.com/reviews/google-calendar-mcp-server/
+**Link:** https://chatforest.com/reviews/google-calendar-mcp-server/
+**Title:** Google Calendar MCP Server — Multi-Account Calendar Management for AI Assistants — ChatForest
+**Description:** Google Calendar MCP server: 13 tools for events, scheduling, and availability across multiple Google accounts. Rating: 4/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhurnfggpz2y)
+
+### Post 152 — Google Cloud MCP Servers
+**Text:** Google Cloud MCP Servers: 18 managed remote endpoints on googleapis.com + 15 open-source servers. BigQuery, Spanner, GKE, Vertex AI, Maps — all accessible via HTTP. No local binaries needed. The most cloud-native MCP architecture yet. Rating: 4/5.
+
+Review:
+https://chatforest.com/reviews/google-cloud-mcp-servers/
+**Link:** https://chatforest.com/reviews/google-cloud-mcp-servers/
+**Title:** Google Cloud MCP Servers — 30+ Servers, Managed Endpoints, and the Cloud-Native MCP Play — ChatForest
+**Description:** Google Cloud MCP servers: 18 managed remote endpoints, 15+ open-source servers. BigQuery, Spanner, GKE, Vertex AI, Maps, and more. Rating: 4/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhurnn2lsm2x)
+
+### Post 153 — Google Colab MCP Server
+**Text:** Google Colab MCP Server: Google's official server lets AI agents control notebooks with GPU access. Session proxy or direct runtime mode. Brand new (March 2026), early-stage, but fills a real gap — most coding agents can't run GPU workloads. Rating: 3.5/5.
+
+Review:
+https://chatforest.com/reviews/google-colab-mcp-server/
+**Link:** https://chatforest.com/reviews/google-colab-mcp-server/
+**Title:** The Google Colab MCP Server — GPU-Powered Notebooks for Your AI Agent — ChatForest
+**Description:** Google's official Colab MCP server lets AI agents control notebooks with GPU access. Two operational modes, open-source, brand new (March 2026). Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhurnsyzxb2y)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
