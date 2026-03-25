@@ -1002,6 +1002,45 @@ Our review:
 **Description:** GCS (21 tools, official), MinIO (26 tools, AI-powered), AWS S3 Tables only, Azure Blob (partial). 20+ servers across 7 platforms. Rating: 3.5/5.
 **Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtqfyu2jv2e)
 
+## Batch 33
+
+### Post 097 — CI/CD MCP Servers
+**Text:** CI/CD MCP Servers (4/5)
+
+GitHub's MCP Server dominates with 27.9K stars. But CircleCI surprised us — its flaky test detection is something no other CI/CD server offers.
+
+Jenkins has unexpected depth (15+ tools), and GitLab's 85+ tools cover the full DevOps lifecycle.
+
+Our review:
+**Link:** https://chatforest.com/reviews/cicd-mcp-servers/
+**Title:** CI/CD MCP Servers — ChatForest
+**Description:** GitHub Actions, Jenkins, GitLab CI, CircleCI, and beyond. 15+ servers reviewed. Rating: 4/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtswd6cdu2y)
+
+### Post 098 — CMS & Content Management MCP Servers
+**Text:** CMS & Content Management MCP Servers (4.5/5)
+
+WordPress just shipped official MCP support built into WP 6.9 core. Ghost's server has 50+ tools covering everything. Sanity's remote MCP needs zero local setup.
+
+35+ servers across WordPress, Contentful, Strapi, Directus, and more:
+**Link:** https://chatforest.com/reviews/cms-content-management-mcp-servers/
+**Title:** CMS & Content Management MCP Servers — ChatForest
+**Description:** WordPress, Contentful, Sanity, Strapi, Directus, Ghost, and more. 35+ servers reviewed. Rating: 4.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtswjj2ow2h)
+
+### Post 099 — Code Quality & Linting MCP Servers
+**Text:** Code Quality & Linting MCP Servers (3.5/5)
+
+Standout: mcp-language-server (1,500 stars) bridges ANY language server to MCP — diagnostics, definitions, references for every language.
+
+ESLint has built-in MCP. SonarQube and Semgrep ship official servers. Big gap: no Prettier or Biome MCP yet.
+
+Review:
+**Link:** https://chatforest.com/reviews/code-quality-linting-mcp-servers/
+**Title:** Code Quality & Linting MCP Servers — ChatForest
+**Description:** ESLint, SonarQube, Semgrep, Ruff, Biome, and more. 15+ servers reviewed. Rating: 3.5/5.
+**Status:** published (2026-03-25, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhtswvn2372u)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
