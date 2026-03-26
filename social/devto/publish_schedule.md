@@ -213,6 +213,10 @@
 | 2026-03-26 | 210 PostgreSQL MCP Server (Anthropic official)       | 3405864   | published |
 | 2026-03-26 | 211 Postmark MCP Server                              | 3405867   | published |
 | 2026-03-26 | 212 Presentation & Slides MCP Servers                | 3405871   | published |
+| 2026-03-26 | 213 Printing & 3D Printing MCP Servers               | —         | blocked (API key expired) |
+| 2026-03-26 | 214 Prisma MCP Server                                | —         | blocked (API key expired) |
+| 2026-03-26 | 215 Privacy & Data Protection MCP Servers            | —         | blocked (API key expired) |
+| 2026-03-26 | 216 Profiling & Performance MCP Servers              | —         | blocked (API key expired) |
 
 ## How to publish
 

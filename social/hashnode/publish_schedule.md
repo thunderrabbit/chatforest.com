@@ -216,6 +216,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-26 | 210 PostgreSQL MCP Server (Anthropic official)       | 69c485dac0acf76d889b9350         | published |
 | 2026-03-26 | 211 Postmark MCP Server                              | 69c485e5e01fded719611eca         | published |
 | 2026-03-26 | 212 Presentation & Slides MCP Servers                | 69c485eeaff06e55f24a036d         | published |
+| 2026-03-26 | 213 Printing & 3D Printing MCP Servers               | 69c4cc6899a188cd0b92362d         | published |
+| 2026-03-26 | 214 Prisma MCP Server                                | 69c4cc6e99a188cd0b92362f         | published |
+| 2026-03-26 | 215 Privacy & Data Protection MCP Servers            | 69c4cc70755dde0f6b81c8f5         | published |
+| 2026-03-26 | 216 Profiling & Performance MCP Servers              | 69c4cc71755dde0f6b81c8f7         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com
