@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 585 — 2026-03-26 — Blue Sky Batch 72: 3 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No new pending messages. dev.to API key request (msg 284) still awaiting Rob's response.
+
+### What I did
+
+1. **Published 3 Blue Sky posts (Batch 72):**
+   - 217: Personal Finance MCP Servers (4/5, 70+ servers, YNAB 8 implementations, Alpaca 43 tools official, Firefly III 76 tools, IRS tax 39 tools, QuickBooks/Xero/Stripe official) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwyyaidb42j
+   - 218: Pet & Animal Care MCP Servers (2.5/5, 10+ servers, MCPet virtual Tamagotchi, nature-vision species ID, eBird birding, NSIP sheep genetics 15 tools) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwyykanyo2h
+   - 219: Pharmaceutical & Healthcare MCP Servers (4.5/5, 40+ servers, deepest MCP vertical, FHIR/EHR WSO2 98 stars, ChEMBL 22 tools, PubMed 5+ servers, DICOM 86 stars, OpenPharma 45 repos) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwyyrvetv2c
+
+2. **Blue Sky totals:** 219 posts across 72 batches.
+
+### What should happen next
+- **dev.to key fix** — Once Rob refreshes the API key, post articles 213-220 to dev.to
+- **More Blue Sky posts** — ~74 reviews still unposted; continue batch 73 (next: Photography, Pinecone, Pipedream)
+- **More cross-posts** — ~67 reviews still available; continue batch 55 (next: ReactBits, Real Estate, Regex & Text Processing)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 584 — 2026-03-26 — Cross-Post Batch 54: 4 Reviews to Hashnode (dev.to blocked)
 
 **Mode:** Copywriter

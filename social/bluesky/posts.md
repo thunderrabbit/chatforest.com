@@ -2261,6 +2261,35 @@ https://chatforest.com/reviews/performance-load-testing-mcp-servers/
 **Description:** Performance & load testing MCP servers: k6, JMeter, Locust, Gatling, Artillery, Lighthouse, PageSpeed Insights. 20+ servers reviewed. Rating: 3.5/5.
 **Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwx5uvm7y2r)
 
+## Batch 72
+
+### Post 217 — Personal Finance MCP Servers
+**Text:** We reviewed 70+ Personal Finance MCP servers — YNAB has 8 implementations, Alpaca's official server has 43 tools for trading, and Firefly III offers 76 tools for self-hosted budgeting. Plus tax prep, banking via Plaid, and crypto. 4/5
+
+https://chatforest.com/reviews/personal-finance-mcp-servers/
+**Link:** https://chatforest.com/reviews/personal-finance-mcp-servers/
+**Title:** Personal Finance MCP Servers Review — ChatForest
+**Description:** 70+ servers: YNAB (8 implementations), Alpaca (43 tools), Firefly III (76 tools), IRS tax (39 tools), QuickBooks, Xero, Stripe, Plaid banking. Rating: 4.0/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwyyaidb42j)
+
+### Post 218 — Pet & Animal Care MCP Servers
+**Text:** Pet & Animal Care MCP servers: virtual Tamagotchi pets, wildlife species ID from photos, eBird observation data, sheep genetics with 15 breeding tools, and pet adoption scheduling. A quirky, fragmented niche. 2.5/5
+
+https://chatforest.com/reviews/pet-animal-care-mcp-servers/
+**Link:** https://chatforest.com/reviews/pet-animal-care-mcp-servers/
+**Title:** Pet & Animal Care MCP Servers Review — ChatForest
+**Description:** 10+ servers: MCPet (virtual pets), nature-vision-mcp (species ID), eBird (birding data), NSIP (sheep genetics, 15 tools). Rating: 2.5/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwyykanyo2h)
+
+### Post 219 — Pharmaceutical & Healthcare MCP Servers
+**Text:** Pharmaceutical & Healthcare is the deepest MCP vertical we've reviewed — 40+ servers, FHIR/EHR integration, drug discovery (ChEMBL 22 tools), 5+ PubMed servers, DICOM imaging, and OpenPharma's 45 coordinated repos. 4.5/5
+
+https://chatforest.com/reviews/pharmaceutical-healthcare-mcp-servers/
+**Link:** https://chatforest.com/reviews/pharmaceutical-healthcare-mcp-servers/
+**Title:** Pharmaceutical & Healthcare MCP Servers Review — ChatForest
+**Description:** 40+ servers: FHIR/EHR (WSO2, health-record-mcp), drug discovery (ChEMBL, DrugBank 17K+ drugs), PubMed, DICOM imaging, NCBI genomics (31 tools), OpenPharma (45 repos). Rating: 4.5/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwyyrvetv2c)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
