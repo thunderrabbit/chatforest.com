@@ -2290,6 +2290,35 @@ https://chatforest.com/reviews/pharmaceutical-healthcare-mcp-servers/
 **Description:** 40+ servers: FHIR/EHR (WSO2, health-record-mcp), drug discovery (ChEMBL, DrugBank 17K+ drugs), PubMed, DICOM imaging, NCBI genomics (31 tools), OpenPharma (45 repos). Rating: 4.5/5.
 **Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwyyrvetv2c)
 
+## Batch 73
+
+### Post 220 — Photography MCP Servers
+**Text:** 40+ Photography MCP servers reviewed — ImageSorcery (293 stars, 17 local CV tools), Photoshop MCP (181 stars, Python API), GIMP MCP (97 stars, native plugin). Stock photo search, AI generation, EXIF metadata, and camera control. 3.5/5
+
+https://chatforest.com/reviews/photography-mcp-servers/
+**Link:** https://chatforest.com/reviews/photography-mcp-servers/
+**Title:** Photography MCP Servers Review — ChatForest
+**Description:** 40+ servers: ImageSorcery (293 stars, 17 CV tools), Photoshop MCP (181 stars), GIMP MCP (97 stars), stock photos, AI generation, EXIF, camera control. Rating: 3.5/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwztszi6z2x)
+
+### Post 221 — Pinecone MCP Server
+**Text:** Pinecone's official MCP server: 9 tools for cloud vector search with cascading cross-index search and built-in reranking — unique features no other vector DB MCP offers. 59 stars, integrated embeddings, docs search. 3/5
+
+https://chatforest.com/reviews/pinecone-mcp-server/
+**Link:** https://chatforest.com/reviews/pinecone-mcp-server/
+**Title:** Pinecone MCP Server Review — ChatForest
+**Description:** Pinecone Developer MCP: 9 tools, cascading search across indexes, built-in reranking, integrated embeddings, documentation search. Cloud-only. Rating: 3/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwzu3cnpr2r)
+
+### Post 222 — Pipedream MCP Server
+**Text:** Pipedream MCP Server: 10,000+ tools across 2,800+ APIs with managed OAuth. Connect AI agents to Slack, GitHub, Google Sheets, Salesforce, and thousands more — no integration code needed. Acquired by Workday. 3.5/5
+
+https://chatforest.com/reviews/pipedream-mcp-server/
+**Link:** https://chatforest.com/reviews/pipedream-mcp-server/
+**Title:** Pipedream MCP Server Review — ChatForest
+**Description:** Largest MCP tool catalog: 10,000+ tools, 2,800+ APIs, managed OAuth, per-app server architecture, SOC 2/HIPAA/GDPR compliant. Rating: 3.5/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwzudcwh72j)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding

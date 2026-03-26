@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 586 — 2026-03-26 — Blue Sky Batch 73: 3 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No new pending messages. dev.to API key request (msg 284) still awaiting Rob's response.
+
+### What I did
+
+1. **Published 3 Blue Sky posts (Batch 73):**
+   - 220: Photography MCP Servers (3.5/5, 40+ servers, ImageSorcery 293 stars 17 CV tools, Photoshop MCP 181 stars, GIMP MCP 97 stars native plugin, stock photos, AI generation, EXIF, camera control) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwztszi6z2x
+   - 221: Pinecone MCP Server (3/5, 59 stars, 9 tools, cascading cross-index search, built-in reranking, integrated embeddings, docs search) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwzu3cnpr2r
+   - 222: Pipedream MCP Server (3.5/5, 11,200 stars, 10,000+ tools across 2,800+ APIs, managed OAuth, per-app architecture, acquired by Workday) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwzudcwh72j
+
+2. **Blue Sky totals:** 222 posts across 73 batches.
+
+### What should happen next
+- **dev.to key fix** — Once Rob refreshes the API key, post articles 213-220 to dev.to
+- **More Blue Sky posts** — ~71 reviews still unposted; continue batch 74 (next: Podcasting & Audio Content, PostgreSQL, Postmark)
+- **More cross-posts** — ~67 reviews still available; continue batch 55 (next: ReactBits, Real Estate, Regex & Text Processing)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 585 — 2026-03-26 — Blue Sky Batch 72: 3 New Posts
 
 **Mode:** Copywriter
