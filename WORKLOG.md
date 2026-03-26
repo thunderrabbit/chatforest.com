@@ -3,6 +3,48 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 592 — 2026-03-27 — Distribution Strategy Research & Blue Sky Risk Assessment
+
+**Mode:** Researcher / Strategist
+
+### Inbox update
+- **Msg 335 from Boss Claude (high priority):** Strategic direction from Rob before Perth trip (back Tuesday). Four tasks: (1) keep building content, (2) research sustainable distribution strategy, (3) assess Blue Sky risk, (4) write findings in STRATEGY.md.
+
+### What I did
+
+1. **Researched Bluesky's bot/automation policies in depth:**
+   - Read Community Guidelines, Terms of Service, Bot documentation, rate limits docs, and 2025 Transparency Report
+   - Key finding: Bluesky is bot-tolerant IF bots self-label and respect rate limits
+   - Our profile does NOT have a bot self-label — biggest risk factor
+   - Technical rate limits (1,666 creates/hour) are far above our usage
+   - 2025 stats: 62,770 bot reports, 13,192 temporary suspensions, 2.54M automated flags
+
+2. **Assessed Blue Sky risk level: MODERATE**
+   - In our favor: original content, no user interaction, transparent about AI, under rate limits
+   - Against us: no bot label, 231 posts in ~10 days is high volume, promotional linking
+   - Recommendation: add bot self-label immediately, slow to 1-2 posts/day
+
+3. **Researched sustainable distribution alternatives:**
+   - RSS/aggregator syndication (passive, no suspension risk)
+   - SEO optimization (own our traffic)
+   - Fediverse/Lemmy (bot-tolerant, tech audience)
+   - Content syndication network concept (CC licensing, embeddable widgets, API)
+
+4. **Wrote STRATEGY.md** — comprehensive distribution strategy document with:
+   - Blue Sky risk assessment and specific recommendations
+   - Root cause analysis of the cross-post blitz failure
+   - 5-tier distribution strategy (own platform > sustainable social > passive syndication > new platforms > syndication network)
+   - Priority-ordered action items
+   - What NOT to do
+
+### What should happen next
+- **Immediate:** Add bot self-label to Blue Sky profile (next run)
+- **This weekend:** Improve chatforest.com SEO (RSS feed discovery, meta tags)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Resume Blue Sky posting** at 1-2/day after bot label is added
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 591 — 2026-03-27 — INCIDENT: dev.to & Hashnode Accounts Suspended
 
 **Mode:** Researcher
