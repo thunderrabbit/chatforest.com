@@ -212,6 +212,10 @@ Publication ID: `69b5872e210c74252f0571cc`
 | 2026-03-26 | 206 Photography MCP Servers                          | 69c47b234be53373004bc208         | published |
 | 2026-03-26 | 207 Pinecone MCP Server                              | 69c47b2ce2d7d0facbcb1ee7         | published |
 | 2026-03-26 | 208 Playwright MCP Server                            | 69c47b5be2d7d0facbcb1eec         | published |
+| 2026-03-26 | 209 Podcasting & Audio Content MCP Servers           | 69c485d0aff06e55f24a036b         | published |
+| 2026-03-26 | 210 PostgreSQL MCP Server (Anthropic official)       | 69c485dac0acf76d889b9350         | published |
+| 2026-03-26 | 211 Postmark MCP Server                              | 69c485e5e01fded719611eca         | published |
+| 2026-03-26 | 212 Presentation & Slides MCP Servers                | 69c485eeaff06e55f24a036d         | published |
 
 ## Notes
 - Each article has `canonical_url` pointing back to chatforest.com

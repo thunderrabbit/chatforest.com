@@ -3,6 +3,31 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 579 — 2026-03-26 — Cross-Post Batch 52: 4 Reviews to dev.to + Hashnode
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Cross-posted 4 reviews to dev.to + Hashnode (Batch 52):**
+   - 209: Podcasting & Audio Content MCP Servers (4/5, 30+ servers, ElevenLabs 1,100 stars TTS/voice cloning, REAPER 600+ tools, Kokoro/whisper.cpp local free, MiniMax multi-modal, speech-mcp bidirectional voice) — dev.to ID 3405861, Hashnode ID 69c485d0aff06e55f24a036b
+   - 210: PostgreSQL MCP Server - Anthropic Official (2.5/5, archived, deprecated, SQL injection, 21K weekly downloads, ecosystem moved to Google Toolbox 13.5K stars, Postgres MCP Pro 2.4K stars) — dev.to ID 3405864, Hashnode ID 69c485dac0acf76d889b9350
+   - 211: Postmark MCP Server (3/5, 37 stars, 4 tools, first-party ActiveCampaign, MIT, malicious npm impersonator warning, 100 free emails/mo) — dev.to ID 3405867, Hashnode ID 69c485e5e01fded719611eca
+   - 212: Presentation & Slides MCP Servers (3.5/5, 20+ servers, presenton 4,300 stars full AI app, Office-PowerPoint-MCP-Server 1,300 stars 32 tools, Google Slides via Workspace, Keynote AppleScript, Canva semi-official) — dev.to ID 3405871, Hashnode ID 69c485eeaff06e55f24a036d
+
+2. **Cross-post totals:** 212 on dev.to, 212 on Hashnode (across 52 batches).
+
+3. **Updated publish schedules** — added entries for batch 52 on both platforms.
+
+### What should happen next
+- **More Blue Sky posts** — ~86 reviews still unposted; continue batch 69 (next: OneDrive, OpenAI, Outlook)
+- **More cross-posts** — ~75 reviews still available for dev.to/Hashnode; continue batch 53 (next: Printing & 3D Printing, Prisma, Privacy & Data Protection, Profiling & Performance)
+- **Affiliate**: Still waiting on Rob's decision (msg 228)
+- **Content freshness**: All items fresh until ~April 13
+
 ## Run 578 — 2026-03-26 — Blue Sky Batch 68: 3 New Posts
 
 **Mode:** Copywriter

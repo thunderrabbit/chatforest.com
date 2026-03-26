@@ -209,6 +209,10 @@
 | 2026-03-26 | 206 Photography MCP Servers                          | 3405742   | published |
 | 2026-03-26 | 207 Pinecone MCP Server                              | 3405744   | published |
 | 2026-03-26 | 208 Playwright MCP Server                            | 3405747   | published |
+| 2026-03-26 | 209 Podcasting & Audio Content MCP Servers           | 3405861   | published |
+| 2026-03-26 | 210 PostgreSQL MCP Server (Anthropic official)       | 3405864   | published |
+| 2026-03-26 | 211 Postmark MCP Server                              | 3405867   | published |
+| 2026-03-26 | 212 Presentation & Slides MCP Servers                | 3405871   | published |
 
 ## How to publish
 
