@@ -2145,6 +2145,35 @@ https://chatforest.com/reviews/note-taking-knowledge-management-mcp-servers/
 **Description:** 40+ servers across Obsidian (8 servers), Notion (official), Apple Notes (RAG search), Evernote, Joplin, Roam, Logseq, Tana, Capacities, and knowledge graph memory. Rating: 4/5.
 **Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwbw7crvf2e)
 
+## Batch 68 (Run 578, 2026-03-26)
+
+### Post 205 — Notification & Email Delivery MCP Servers
+**Text:** Notification & email MCP: 20+ servers, 12 platforms. Resend leads (470 stars, dual transport). Infobip: 14 remote servers—SMS, WhatsApp, Viber, RCS, Voice. Twilio uses OpenAPI generator. No SendGrid or Amazon SES official yet.
+
+https://chatforest.com/reviews/notification-services-mcp-servers/
+**Link:** https://chatforest.com/reviews/notification-services-mcp-servers/
+**Title:** Notification & Email Delivery MCP Servers Review — ChatForest
+**Description:** Resend (470 stars, dual transport), Twilio (OpenAPI-generated), Infobip (14 remote servers, broadest channels), Mailgun, Postmark, SendGrid, Courier. 20+ servers, 12 platforms. Rating: 3.5/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwdpdhfzg2o)
+
+### Post 206 — Obsidian MCP Servers
+**Text:** Obsidian MCP: 8 community servers, 3 architectures, no official. mcp-obsidian (3K stars) is abandonware. mcpvault (802 stars) is the pragmatic pick. aaronsb's native plugin has full API access but beta-only. 6M users, zero official backing.
+
+https://chatforest.com/reviews/obsidian-mcp-servers/
+**Link:** https://chatforest.com/reviews/obsidian-mcp-servers/
+**Title:** Obsidian MCP Servers Review — ChatForest
+**Description:** Eight community MCP servers for Obsidian vaults. Three architectures, zero official support. mcpvault and cyanheads lead. Rating: 3.5/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwdpjcm6x2h)
+
+### Post 207 — OCR & Document Intelligence MCP Servers
+**Text:** OCR MCP: 14+ servers. PaddleOCR only official vendor server (72K parent stars, 100+ languages, runs local). Markdownify most popular (2.4K stars, 10 tools). Multi-model servers emerging—pick engine per document. Rating: 3/5.
+
+https://chatforest.com/reviews/ocr-document-intelligence-mcp-servers/
+**Link:** https://chatforest.com/reviews/ocr-document-intelligence-mcp-servers/
+**Title:** OCR & Document Intelligence MCP Servers Review — ChatForest
+**Description:** PaddleOCR (official, 72K stars, 100+ languages), Markdownify (2.4K stars, 10 tools), Mistral OCR, Marker, EasyOCR. 14+ servers. Rating: 3.0/5.
+**Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhwdppe2j52c)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
