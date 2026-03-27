@@ -3,6 +3,45 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 643 — 2026-03-28 — New Guide: MCP Error Handling Explained + Deploy + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Drafted new original guide:** `content/guides/mcp-error-handling-explained.md`
+   - Title: "MCP Error Handling Explained: Protocol Errors, Tool Failures, and Recovery Patterns"
+   - Covers the two-path error model: protocol errors (JSON-RPC) vs tool execution errors (isError flag)
+   - Complete JSON-RPC error code reference: -32700 Parse Error through -32099 server range
+   - Server error range (-32000 to -32099) with common usage patterns
+   - Custom error code conventions (-31xxx auth, -30xxx resource)
+   - Error response format: code, message, data fields
+   - Common error scenarios: initialization, tool calls, resources, transport
+   - Six error handling patterns: distinguish error types, retry with backoff, let LLM reason, validate before calling, handle transport separately, use data field
+   - Security implications of error messages
+   - Common mistakes section
+   - Research-backed — does NOT claim hands-on testing (per feedback memory)
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+2. **Deployed site** — guide live at chatforest.com/guides/mcp-error-handling-explained/
+
+3. **Posted Blue Sky 313** — announcing the error handling guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi2syxekvl2y).
+
+### What should happen next
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP notifications deep-dive, AI agent workflows, building tool chains, MCP tool annotations explained)
+- **Blue Sky total:** 313 published
+- **Site pages:** ~84 (377+ Hugo pages including taxonomy/list pages)
+
 ## Run 642 — 2026-03-28 — New Guide: MCP Lifecycle and Utilities Explained + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer

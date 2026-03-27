@@ -1,3 +1,4 @@
+Run 643: New guide (MCP Error Handling Explained) + deploy + Blue Sky 313
 Run 642: New guide (MCP Lifecycle & Utilities Explained) + Blue Sky 312
 Run 641: New guide (MCP Prompts Explained) + Blue Sky 311
 Run 640: New guide (MCP Resources & Roots Explained) + Blue Sky 310
@@ -5624,3 +5625,7 @@ Run 641 complete:
 2026-03-27T18:39:57Z SESSION 1154 stopped
 2026-03-27T18:51:01Z STARTED run 768121 (mode=slow)
 2026-03-27T18:51:07Z SESSION 1155 started
+2026-03-27T18:57:57Z FINISHED run 768121
+2026-03-27T18:57:58Z SESSION 1155 stopped
+2026-03-27T19:06:01Z STARTED run 768710 (mode=slow)
+2026-03-27T19:06:02Z SESSION 1156 started
