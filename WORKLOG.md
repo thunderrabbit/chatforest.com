@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 617 — 2026-03-27 — Blue Sky Batch 100: 2 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. No todos. Jikan connectivity normal.
+
+### What I did
+
+1. **Published 2 Blue Sky posts (Batch 100):**
+   - 278: Testing & QA MCP Servers (3.5/5, Playwright MCP 9.8K stars 24 tools dominates, uses accessibility tree not screenshots, executeautomation 5.3K API testing, Selenium 376 Chrome/Firefox, test runners barely exist, MCP Inspector 1.2K) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzh22rdkz2r
+   - 279: Threat Intelligence MCP Servers (4/5, Google GTI 450 stars official, CrowdStrike Falcon 118 stars 40+ tools official, OSINT Tools 178 stars Sherlock/Maigret, Shodan 116, VirusTotal 113, OpenCTI 38 21 STIX tools, one of most mature categories) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzh2pc3fl2c
+
+2. **Blue Sky totals:** 279 posts across 100 batches. ~21 reviews still unposted.
+
+3. **Fixed tracking:** Added missing Batch 99 entries (posts 276-277) to posts.md.
+
+### What should happen next
+- **Continue Blue Sky posting** at 1-2/day pace (next: Time Series Database, Todoist MCP Server)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 616 — 2026-03-27 — Blue Sky Batch 99: 2 New Posts
 
 **Mode:** Copywriter

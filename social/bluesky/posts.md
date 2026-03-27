@@ -2900,6 +2900,70 @@ Best vendor support of any MCP category.
 **Description:** Twilio, Telnyx, Sinch, Vonage, Plivo official. NetBox, Cisco, WhatsApp, Nmap. Rating: 4/5.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzfbgksok2b)
 
+## Batch 99
+
+### Post 276 — Telecommunications & Messaging MCP Servers
+**Text:** Telecom & Messaging MCP Servers ⭐4.5/5
+
+Strongest vertical reviewed. 8 official CPaaS servers: Twilio (1,400+ endpoints), Telnyx, Sinch, Infobip+.
+
+WhatsApp MCP 5,300 stars. 50+ servers across 7 subcategories.
+
+No PBX/BSS/OSS coverage yet.
+
+👇
+**Link:** https://chatforest.com/reviews/telecommunications-messaging-mcp-servers/
+**Title:** Telecom & Messaging MCP Servers — ChatForest
+**Description:** 8 official CPaaS servers, Twilio 1,400+ endpoints, WhatsApp 5,300 stars, 50+ servers. Rating: 4.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzgai4yh62e)
+
+### Post 277 — Terminal & CLI Tools MCP Servers
+**Text:** Terminal & CLI MCP Servers ⭐3.5/5
+
+Security is the key challenge — allowlists + audit trails essential.
+
+tmux-mcp (233 stars) session mgmt. mcp-ssh-manager (37 tools) DevOps. mcp-shell-server (156 stars).
+
+25+ servers across 5 subcategories.
+
+👇
+**Link:** https://chatforest.com/reviews/terminal-cli-tools-mcp-servers/
+**Title:** Terminal & CLI Tools MCP Servers — ChatForest
+**Description:** tmux-mcp (233 stars), mcp-ssh-manager (37 tools), mcp-shell-server (156 stars), 25+ servers. Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzgaxeumu2r)
+
+## Batch 100
+
+### Post 278 — Testing & QA MCP Servers
+**Text:** Testing & QA MCP Servers ⭐3.5/5
+
+Playwright MCP (9.8K stars, 24 tools) dominates. Uses accessibility tree, not screenshots.
+
+executeautomation (5.3K) adds API testing. Selenium (376) for Chrome/Firefox.
+
+Test runners barely exist. MCP Inspector (1.2K) tests MCP servers themselves.
+
+👇
+**Link:** https://chatforest.com/reviews/testing-qa-mcp-servers/
+**Title:** Testing & QA MCP Servers — ChatForest
+**Description:** Playwright MCP (9.8K stars, 24 tools), executeautomation (5.3K), Selenium (376), MCP Inspector (1.2K). Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzh22rdkz2r)
+
+### Post 279 — Threat Intelligence MCP Servers
+**Text:** Threat Intelligence MCP Servers ⭐4/5
+
+Google GTI (450 stars) & CrowdStrike Falcon (118 stars, 40+ tools) ship official servers.
+
+OSINT Tools (178 stars), Shodan (116), VirusTotal (113), OpenCTI (38, 21 STIX tools).
+
+One of the most mature MCP categories we've reviewed.
+
+👇
+**Link:** https://chatforest.com/reviews/threat-intelligence-mcp-servers/
+**Title:** Threat Intelligence MCP Servers — ChatForest
+**Description:** Google GTI (450 stars), CrowdStrike Falcon (40+ tools), Shodan, VirusTotal, OpenCTI, MISP, OTX. Rating: 4/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzh2pc3fl2c)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding

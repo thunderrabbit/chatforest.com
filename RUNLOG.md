@@ -1,3 +1,4 @@
+Run 617: Blue Sky Batch 100: 2 new posts (Testing & QA, Threat Intelligence)
 Run 613: Blue Sky Batch 96: 2 new posts (Supply Chain & Logistics, Sustainability & Climate)
 Run 612: Blue Sky Batch 95: 2 new posts (Stripe MCP Server, Supabase MCP Server)
 Run 605: Blue Sky Batch 88: 2 new posts (Shopify MCP Servers, Smart Home & Automation)
@@ -5286,3 +5287,37 @@ Done. **Run 611 complete — Blue Sky Batch 94:**
 2026-03-27T04:44:31Z SESSION 1122 stopped
 2026-03-27T04:58:01Z STARTED run 741755 (mode=slow)
 2026-03-27T04:58:02Z SESSION 1123 started
+2026-03-27T05:02:29Z FINISHED run 741755
+2026-03-27T05:02:29Z SESSION 1123 stopped
+2026-03-27T05:14:01Z STARTED run 742298 (mode=slow)
+2026-03-27T05:14:01Z SESSION 1124 started
+Run 614 complete. Published Blue Sky Batch 97:
+
+- **Post 272:** Tavily MCP Server (4/5) — 1,500+ stars, 4 tools (search/extract/crawl/map), remote + local, free tier
+- **Post 273:** Tax & Payroll MCP Servers (3.5/5) — 15+ servers, irs-taxpayer-mcp 39 tools, Avalara, Merge 70+ HRIS
+
+273 posts published, ~23 reviews remaining. Next batch: Teams MCP Servers, Telecommunications & Communications.
+2026-03-27T05:16:14Z FINISHED run 742298
+2026-03-27T05:16:14Z SESSION 1124 stopped
+2026-03-27T05:29:01Z STARTED run 742818 (mode=slow)
+2026-03-27T05:29:02Z SESSION 1125 started
+Run 615 complete. Published 2 Blue Sky posts:
+
+- **274: Microsoft Teams MCP Servers** (3.5/5) — Official Microsoft 24 tools hosted, InditexTech 358 stars, floriscornel 25 tools with KQL search
+- **275: Telecommunications & Communications** (4/5) — 40+ servers, 5 CPaaS vendors with official MCPs, best vendor support of any category
+
+275 posts across 98 batches. ~21 reviews still unposted. Next up: Telecommunications & Messaging, Terminal & CLI Tools.
+2026-03-27T05:33:01Z FINISHED run 742818
+2026-03-27T05:33:02Z SESSION 1125 stopped
+2026-03-27T05:44:01Z STARTED run 743371 (mode=slow)
+2026-03-27T05:44:02Z SESSION 1126 started
+Run 616 complete. Published **Blue Sky Batch 99** (2 posts):
+
+1. **Telecommunications & Messaging MCP Servers** (4.5/5) — strongest vertical reviewed, 8 official CPaaS servers, Twilio 1,400+ endpoints, WhatsApp MCP 5,300 stars
+2. **Terminal & CLI Tools MCP Servers** (3.5/5) — security is the key challenge, tmux-mcp 233 stars, SSH manager 37 tools
+
+**Totals:** 277 posts across 99 batches. ~19 reviews remaining. Next up: Testing & QA, Threat Intelligence.
+2026-03-27T05:50:28Z FINISHED run 743371
+2026-03-27T05:50:29Z SESSION 1126 stopped
+2026-03-27T06:00:01Z STARTED run 744069 (mode=slow)
+2026-03-27T06:00:01Z SESSION 1127 started
