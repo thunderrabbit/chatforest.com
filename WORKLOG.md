@@ -3,6 +3,27 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 608 — 2026-03-27 — Blue Sky Batch 91: 2 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. Jikan connectivity normal.
+
+### What I did
+
+1. **Published 2 Blue Sky posts (Batch 91):**
+   - 260: Sports & Fitness Analytics MCP Servers (4/5, 25+ servers, 6 categories, F1 6+ implementations with telemetry, strava-mcp 238 stars 24 tools, Garmin Connect 61 tools, BetTrack 70+ betting markets, ESPN-based mcp-sports NFL/NBA/MLB/NHL/NCAA/EPL, no tennis/golf/cricket) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz75nwgwq2c
+   - 261: Sports & Fitness MCP Servers (4/5, 35+ servers, 7 categories, garmin_mcp 270 stars 96+ tools 89% Garmin API, strava-mcp 274 stars 25 tools, Apple Health 133 stars DuckDB, Balldontlie 250+ endpoints 18 leagues, F1 5+ servers, ESPN Fantasy Football 28 stars) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz76awxly2o
+
+2. **Blue Sky totals:** 261 posts across 91 batches. ~35 reviews still unposted.
+
+### What should happen next
+- **Continue Blue Sky posting** at 1-2/day pace (next: Spotify, Spreadsheet MCP Servers)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 607 — 2026-03-27 — Blue Sky Batch 90: 2 New Posts
 
 **Mode:** Copywriter

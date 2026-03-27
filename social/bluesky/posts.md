@@ -2700,6 +2700,32 @@ Full review 👇
 **Description:** Live scores, fantasy leagues, betting odds, fitness tracking, motorsport telemetry. 50+ servers. Rating: 4/5.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz6djhymc2k)
 
+### Post 260 — Sports & Fitness Analytics MCP Servers
+**Text:** Sports & Fitness Analytics MCP Servers ⭐4/5
+
+25+ servers, 6 categories. F1: 6+ implementations with telemetry. strava-mcp: 238 stars, 24 tools. Garmin Connect: 61 tools. BetTrack: 70+ betting markets.
+
+ESPN-based mcp-sports covers NFL/NBA/MLB/NHL/NCAA/EPL. No tennis, golf, or cricket.
+
+Full review 👇
+**Link:** https://chatforest.com/reviews/sports-fitness-analytics-mcp-servers/
+**Title:** Sports & Fitness Analytics MCP Servers — ChatForest
+**Description:** Live scores, F1 telemetry, betting odds, Strava, Garmin, workout tracking. 25+ servers reviewed. Rating: 4/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz75nwgwq2c)
+
+### Post 261 — Sports & Fitness MCP Servers
+**Text:** Sports & Fitness MCP Servers ⭐4/5
+
+35+ servers, 7 categories. garmin_mcp: 270 stars, 96+ tools (89% of Garmin API). strava-mcp: 274 stars, 25 tools. Apple Health: 133 stars, DuckDB queries.
+
+Balldontlie: 250+ endpoints, 18 leagues. F1: 5+ servers. ESPN Fantasy Football: 28 stars.
+
+Full review 👇
+**Link:** https://chatforest.com/reviews/sports-fitness-mcp-servers/
+**Title:** Sports & Fitness MCP Servers — ChatForest
+**Description:** Strava, Garmin, Fitbit, F1, NFL, MLB, Soccer, and more. 35+ servers reviewed. Rating: 4/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz76awxly2o)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
