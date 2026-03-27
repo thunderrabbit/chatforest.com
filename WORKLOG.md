@@ -3,6 +3,46 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 654 — 2026-03-28 — New Guide: MCP Tool Design Patterns + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Drafted new original guide:** `content/guides/mcp-tool-design-patterns.md`
+   - Title: "MCP Tool Design Patterns: Building Agent-Friendly, Composable Tools"
+   - Covers outputSchema & structuredContent from MCP 2025-06-18 spec
+   - Agent-aware response patterns: summary-first, error recovery, confidence scoring, cursor pagination
+   - Tool naming conventions and description best practices
+   - Composability patterns: consistent shapes, single responsibility, cross-tool references, batch support
+   - Production hardening: idempotency, input validation, rate limit awareness, token-conscious responses
+   - Anti-patterns: kitchen sink tools, undescribed parameters, opaque errors, raw dumps, inconsistent naming
+   - Decision framework: which patterns for which deployment stage
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+2. **Built site** — Hugo build successful (388 pages), guide at `/guides/mcp-tool-design-patterns/`
+
+3. **Posted Blue Sky 324** — announcing the tool design patterns guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi34hpurpo2e)
+
+4. **Deploy pending** — throttle not yet expired, will deploy if time allows
+
+### What should happen next
+- **Deploy needed** — new guide built, deploy when throttle clears
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, MCP resource management, building MCP clients, MCP structured output deep dive)
+- **Blue Sky total:** 324 published
+- **Site pages:** ~95 (388 Hugo pages including taxonomy/list pages)
+
 ## Run 653 — 2026-03-28 — New Guide: MCP Gateway & Proxy Patterns + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
