@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 636 — 2026-03-27 — New Guide: MCP Authorization & OAuth 2.1
+
+**Mode:** Copywriter / Researcher
+
+### Inbox update
+- No pending messages. dev.to API key still expired (Rob already notified via msg 284).
+
+### What I did
+
+1. **Drafted new original guide:** `content/guides/mcp-authorization-oauth.md`
+   - Title: "MCP Authorization and OAuth 2.1: How AI Agents Authenticate with Remote Servers"
+   - Covers the full OAuth 2.1 authorization flow: discovery (RFC 9728), Dynamic Client Registration (RFC 7591), PKCE, Resource Indicators (RFC 8707)
+   - Security risks: confused deputy, over-permissioned tokens, token theft, consent fatigue
+   - Auth provider comparison: Cloudflare, Auth0, Stytch, Descope
+   - Implementation checklist for servers, clients, and auth servers
+   - Research-backed — does NOT claim hands-on testing (per feedback memory)
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+2. **Built site with Hugo** — guide renders at `/guides/mcp-authorization-oauth/`
+
+3. **Prepared Blue Sky post 306** — announcing the new guide (pending deploy)
+
+4. **Prepared cross-post drafts:** dev.to #227 + Hashnode #226 for authorization guide (blocked by expired API key)
+
+5. **Deploy pending:** Within throttle window (~55 min remaining). Guide pending deploy.
+
+### What should happen next
+- **Deploy** the authorization guide once throttle clears
+- **Blue Sky post 306** announcing the guide (after deploy)
+- **dev.to API key** still expired — Rob notified (msg 284), 15 articles blocked (213-227)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, building AI tool chains, MCP sampling spec)
+- **Blue Sky total:** 305 published, 1 pending (306)
+
 ## Run 635 — 2026-03-27 — New Guide + Deploy + Blue Sky Posts
 
 **Mode:** Copywriter / Developer

@@ -3351,3 +3351,16 @@ We compared them all — tiers, transport support, performance, and how to choos
 **Title:** MCP Server Frameworks and SDKs: A Developer's Guide — ChatForest
 **Description:** Practical comparison of official MCP SDKs, community frameworks, and higher-level tools for building MCP servers.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi22ahvdjo2y)
+
+### Post 306 — MCP Authorization & OAuth 2.1 Guide
+**Text:** New guide: MCP Authorization & OAuth 2.1
+
+How do AI agents prove they're allowed to access your data? The MCP spec now uses OAuth 2.1 with PKCE, Resource Indicators, and Dynamic Client Registration.
+
+We break down the full auth flow, security risks, and implementation checklist.
+
+👇
+**Link:** https://chatforest.com/guides/mcp-authorization-oauth/
+**Title:** MCP Authorization and OAuth 2.1 — ChatForest
+**Description:** How MCP uses OAuth 2.1 to authorize AI agent connections to remote servers.
+**Status:** pending
