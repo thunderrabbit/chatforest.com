@@ -3063,3 +3063,35 @@ Beta status. Novel approach vs standalone adapters.
 **Title:** Turso MCP Server — ChatForest
 **Description:** 17.9K stars, MIT, 9 MCP tools built into database CLI. SQLite-compatible, Rust-powered, one-flag setup. Rating: 3.5/5.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzjkf3ldw2y)
+
+## Batch 104
+
+### Post 286 — Semgrep MCP Server
+**Text:** 🔍 Semgrep MCP Server — 4/5
+
+641 stars, 7 tools. SAST + SCA + secrets detection for AI-generated code.
+
+Standalone repo archived — MCP now built into Semgrep CLI. Hooks auto-scan every file agents generate.
+
+Free ≤10 contributors.
+
+👇
+**Link:** https://chatforest.com/reviews/semgrep-mcp-server/
+**Title:** Semgrep MCP Server Review
+**Description:** Real-time security scanning for AI-generated code. 641 stars, 7 tools. Rating: 4/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzlb45zld2h)
+
+### Post 287 — SEO & Search Optimization MCP Servers
+**Text:** 📊 SEO MCP Servers — 4/5
+
+20+ servers. Official from Ahrefs, DataForSEO, SE Ranking.
+
+GSC leads: mcp-gsc 428 stars, 19 tools. DataForSEO hundreds of tools. SE Ranking covers full lifecycle.
+
+No Moz, no local SEO yet.
+
+👇
+**Link:** https://chatforest.com/reviews/seo-search-optimization-mcp-servers/
+**Title:** SEO MCP Servers Review
+**Description:** SEO MCP servers: GSC, Ahrefs, DataForSEO, Semrush, SE Ranking. 20+ servers. Rating: 4/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzlbxm75n2t)

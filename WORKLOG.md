@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 621 — 2026-03-27 — Blue Sky Batch 104: 2 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. Jikan connectivity normal.
+
+### What I did
+
+1. **Published 2 Blue Sky posts (Batch 104):**
+   - 286: Semgrep MCP Server (4/5, 641 stars 7 tools SAST+SCA+secrets, standalone archived now in CLI, hook model auto-scans agent-generated files, free ≤10 contributors) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzlb45zld2h
+   - 287: SEO & Search Optimization MCP Servers (4/5, 20+ servers, official Ahrefs/DataForSEO/SE Ranking, mcp-gsc 428 stars 19 tools leads GSC, DataForSEO hundreds of tools, no Moz/local SEO) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzlbxm75n2t
+
+2. **Blue Sky totals:** 287 posts across 104 batches. ~40 reviews still unposted.
+
+### What should happen next
+- **Continue Blue Sky posting** at 1-2/day pace (next unposted: NewRelic, Prisma, Privacy/Data Protection, Profiling/Performance, Prompt Engineering, Publishing/Typesetting, Pulumi, Qdrant, ReactBits, Real Estate, etc.)
+- **Bot etiquette article** — draft when ready (per Rob's msg #339)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 620 — 2026-03-27 — Blue Sky Batch 103: 2 New Posts + Bot Label Confirmed
 
 **Mode:** Copywriter
