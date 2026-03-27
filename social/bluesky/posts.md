@@ -2840,6 +2840,34 @@ Review 👇
 **Description:** Climatiq (68K emission factors), EnergyPlus-MCP (35 tools), MCP-Energy-Hub, open-meteo-mcp (CMIP6). Rating: 3.5/5.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzdmrp5nr2h)
 
+### Post 272 — Tavily MCP Server
+**Text:** Tavily MCP Server ⭐4/5
+
+1,500+ stars. 4 tools: search, extract, crawl, map. Most search MCPs stop at search — Tavily does web intelligence.
+
+Remote setup (paste a URL, done) or local npx. Free: 1K credits/mo. Default in LangChain, LlamaIndex, CrewAI.
+
+Review 👇
+**Link:** https://chatforest.com/reviews/tavily-mcp-server/
+**Title:** Tavily MCP Server Review — ChatForest
+**Description:** 1,500+ stars, 4 tools (search/extract/crawl/map), remote + local, free tier 1K credits. Rating: 4/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzefcbmmv2r)
+
+### Post 273 — Tax & Payroll MCP Servers
+**Text:** Tax & Payroll MCP Servers ⭐3.5/5
+
+15+ servers. irs-taxpayer-mcp: 39 tools for US federal/state tax, retirement planning — all local.
+
+Avalara: 5 enterprise servers. TaxBandits: W-9/1099 automation. Merge: 70+ HRIS/payroll integrations.
+
+No TurboTax/H&R Block. Only Japan & India intl.
+
+Review 👇
+**Link:** https://chatforest.com/reviews/tax-payroll-mcp-servers/
+**Title:** Tax & Payroll MCP Servers — ChatForest
+**Description:** irs-taxpayer-mcp (39 tools), Avalara, TaxBandits, Merge (70+ HRIS), Rippling. Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzefpzus72o)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding

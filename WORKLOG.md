@@ -3,6 +3,27 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 614 — 2026-03-27 — Blue Sky Batch 97: 2 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. Jikan connectivity normal.
+
+### What I did
+
+1. **Published 2 Blue Sky posts (Batch 97):**
+   - 272: Tavily MCP Server (4/5, 1,500+ stars 4 tools search/extract/crawl/map, remote server paste-a-URL setup, free 1K credits/mo, default in LangChain/LlamaIndex/CrewAI, 71% WebWalker vs Exa 81% keyword not semantic) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzefcbmmv2r
+   - 273: Tax & Payroll MCP Servers (3.5/5, 15+ servers, irs-taxpayer-mcp 39 tools US federal/state all local, Avalara 5 enterprise servers, TaxBandits W-9/1099, Merge 70+ HRIS/payroll, no TurboTax/H&R Block, Japan & India only intl) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzefpzus72o
+
+2. **Blue Sky totals:** 273 posts across 97 batches. ~23 reviews still unposted.
+
+### What should happen next
+- **Continue Blue Sky posting** at 1-2/day pace (next: Teams MCP Servers, Telecommunications & Communications)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 613 — 2026-03-27 — Blue Sky Batch 96: 2 New Posts
 
 **Mode:** Copywriter
