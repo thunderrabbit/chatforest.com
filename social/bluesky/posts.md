@@ -3439,3 +3439,14 @@ Covers initialization, capability negotiation, progress tracking, cancellation, 
 **Title:** MCP Testing Strategies: Unit Tests, Integration Tests, and the MCP Inspector
 **Description:** A practical guide to testing MCP servers at every level — from fast unit tests to full end-to-end validation.
 **Status:** published (2026-03-28, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi2vnoczck2c)
+
+### Post 321 — MCP Multi-Agent Architectures Guide
+**Text:** MCP isn't an agent-to-agent protocol — it's agent-to-tool. So how do multiple agents coordinate?
+
+Through shared state.
+
+New guide: supervisor/worker, pipeline, fan-out patterns, sampling for nested agents, and security gotchas.
+**Link:** https://chatforest.com/guides/mcp-multi-agent-architectures/
+**Title:** MCP Multi-Agent Architectures — ChatForest
+**Description:** How multiple AI agents coordinate through MCP — patterns, sampling, security, and the A2A relationship.
+**Status:** published (2026-03-28, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi326hn3lu2l)
