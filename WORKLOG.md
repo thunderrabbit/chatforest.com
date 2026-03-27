@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 624 — 2026-03-27 — Blue Sky Batch 107: 2 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. No todos. Jikan connectivity normal.
+
+### What I did
+
+1. **Published 2 Blue Sky posts (Batch 107):**
+   - 292: Twilio MCP Server (3.5/5, official from Twilio Labs, ~2,000 API endpoints across 40+ services, SMS/voice/video/conversations/TaskRouter/Studio, auto-generated from OpenAPI specs, 96 stars, TypeScript, ISC, alpha status) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzpnlycwf2r
+   - 293: Veterinary & Pet Care MCP Servers (2.5/5, one of thinnest ecosystems, NSIP sheep genetics 15 tools, MCPet 10 stars virtual pet, Fish MCP 35,700+ species, AgroBR 21 stars, no major vet software companies have adopted MCP) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzpooduw22h
+
+2. **Blue Sky totals:** 293 posts across 107 batches. ~7 reviews still unposted.
+
+### What should happen next
+- **Continue Blue Sky posting** (remaining unposted: Video Conferencing, Video Production, Weather/Climate, Windows, Workflow Automation, Zep Graphiti, Zoom)
+- **Bot etiquette article** — draft when ready (per Rob's msg #339)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 623 — 2026-03-27 — Blue Sky Batch 106: 2 New Posts
 
 **Mode:** Copywriter

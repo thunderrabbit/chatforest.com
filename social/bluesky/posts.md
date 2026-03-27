@@ -3127,3 +3127,35 @@ Best SQLite MCP might be a multi-database server that happens to support it.
 **Title:** SQLite MCP Servers — ChatForest
 **Description:** SQLite MCP servers: Anthropic reference (archived), sqlite-explorer (104 stars), DBHub (2.4K stars), db-mcp (139 tools). 15+ servers. Rating: 3.5/5.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhznwo2eyw2l)
+
+## Batch 107
+
+### Post 292 — Twilio MCP Server
+**Text:** 📱 Twilio MCP Server — 3.5/5
+
+Official from Twilio Labs. ~2,000 API endpoints across 40+ services: SMS, voice, video, conversations, TaskRouter, Studio.
+
+Auto-generated from OpenAPI specs — filter with --services and --tags or drown in tools.
+
+96 stars, TypeScript, ISC, alpha status.
+
+👇
+**Link:** https://chatforest.com/reviews/twilio-mcp-server/
+**Title:** Twilio MCP Server — ChatForest
+**Description:** Twilio MCP: ~2,000 API endpoints across 40+ services — SMS, voice, video, TaskRouter. Official, open-source. Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzpnlycwf2r)
+
+### Post 293 — Veterinary & Pet Care MCP Servers
+**Text:** 🐾 Veterinary & Pet Care MCP Servers — 2.5/5
+
+One of the thinnest MCP ecosystems we reviewed.
+
+NSIP (sheep genetics, 15 tools), MCPet (10 stars, virtual pet), Fish MCP (35,700+ species), AgroBR (21 stars, ag data).
+
+No IDEXX, no Covetrus, no pet health records.
+
+👇
+**Link:** https://chatforest.com/reviews/veterinary-pet-care-mcp-servers/
+**Title:** Veterinary & Pet Care MCP Servers — ChatForest
+**Description:** Veterinary MCP servers: NSIP (sheep genetics), MCPet (virtual pet), Fish MCP (35,700+ species). The ecosystem barely exists. Rating: 2.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzpooduw22h)
