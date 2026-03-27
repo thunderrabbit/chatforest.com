@@ -2482,6 +2482,26 @@ Full review:
 **Description:** 35+ science MCP servers: arxiv-mcp (2,400 stars), paper-search-mcp, mcp.science, UniProt, Wolfram. Papers, computing, bioinformatics. Rating: 3.5/5.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyvimvj4j2e)
 
+## Batch 81
+
+### Post 240 — Scientific Computing & Mathematics MCP Servers
+**Text:** Scientific Computing MCP servers: official MATLAB from MathWorks (178 stars), RMCP (197 stars, 52 R tools), mcp.science (12+ research servers), SymPy & Wolfram symbolic math, Globus for supercomputers. 30+ servers. 3.5/5
+
+https://chatforest.com/reviews/scientific-computing-mathematics-mcp-servers/
+**Link:** https://chatforest.com/reviews/scientific-computing-mathematics-mcp-servers/
+**Title:** Scientific Computing & Mathematics MCP Servers — ChatForest
+**Description:** MATLAB (178 stars), RMCP (197 stars, 52 R tools), mcp.science (12+ servers), SymPy, Wolfram, Globus HPC. 30+ servers. Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhywfaaevm2x)
+
+### Post 241 — ScrapingBee MCP Server
+**Text:** ScrapingBee MCP Server: fully hosted — no server to run, just an MCP URL. ~15 tools for scraping, screenshots, file downloads. Google, Amazon, Walmart scrapers. Proxy rotation + CAPTCHA handling built in. From $49/mo. 3.5/5
+
+https://chatforest.com/reviews/scrapingbee-mcp-server/
+**Link:** https://chatforest.com/reviews/scrapingbee-mcp-server/
+**Title:** ScrapingBee MCP Server Review — ChatForest
+**Description:** Hosted MCP: ~15 tools for web scraping, screenshots, Google/Amazon/Walmart scrapers. Proxy rotation, CAPTCHA, JS rendering. Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhywfocchd2b)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
