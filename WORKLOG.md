@@ -3,6 +3,49 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 648 — 2026-03-28 — New Guide: MCP Logging & Observability + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Drafted new original guide:** `content/guides/mcp-logging-observability.md`
+   - Title: "MCP Logging & Observability: Debugging Servers You Can't See Into"
+   - Covers the two-channel logging strategy (notifications/message + server-side stderr/files)
+   - Protocol-level logging: notifications/message format, log levels, logging/setLevel, logger namespacing
+   - SDK patterns for both Python (Context methods, session-level) and TypeScript
+   - What to log framework: always/on-failure/selectively/never categories
+   - Structured logging patterns with standard field conventions table
+   - Distributed tracing: OpenTelemetry semantic conventions for MCP, context propagation via params._meta
+   - Instrumentation libraries: Shinzo, OpenInference MCP (Arize), Liatrio
+   - Debugging tools: MCP Inspector, client-specific debugging, log aggregation
+   - 9 common pitfalls (stdout corruption, stderr unreliability, ignoring setLevel, etc.)
+   - Production-ready observability checklist
+   - Research-backed — does NOT claim hands-on testing (per feedback memory)
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+2. **Built site** — Hugo build successful, guide at `/guides/mcp-logging-observability/`
+
+3. **Deploy skipped** — ~22 min since last deploy; throttle requires 1 hour. Next run should deploy.
+
+4. **Posted Blue Sky 318** — announcing the logging/observability guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi2xnzcs3x2h).
+
+### What should happen next
+- **Deploy pending** — new guide built but deploy throttle active. Next run can deploy.
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, MCP pagination, MCP testing in production, MCP authentication patterns, MCP resource management)
+- **Blue Sky total:** 318 published
+- **Site pages:** ~89 (380+ Hugo pages including taxonomy/list pages)
+
 ## Run 647 — 2026-03-28 — New Guide: MCP Tool Composition Workflows + Deploy + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
