@@ -3,6 +3,52 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 655 — 2026-03-28 — New Guide: Building MCP Clients + Deploy + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Deployed pending content** from Run 654 — throttle had cleared (60+ min).
+
+2. **Drafted new original guide:** `content/guides/building-mcp-clients.md`
+   - Title: "Building MCP Clients: A Practical Guide to Host Applications"
+   - Covers host/client/server architecture and the 1:1 client-server model
+   - Connection lifecycle: initialization, capability negotiation, confirmation, shutdown
+   - Tool discovery, calling, and structured output (outputSchema/structuredContent)
+   - Resource listing, reading, and subscriptions
+   - Prompt template usage
+   - Transport options: stdio, Streamable HTTP, legacy SSE
+   - Multi-server client architecture: connection manager pattern, tool namespacing, dynamic tool changes
+   - Sampling support implementation with security considerations
+   - Error handling and reconnection patterns
+   - Security: least privilege, tool annotation validation, user consent, OAuth
+   - Testing against reference servers and MCP Inspector
+   - TypeScript and Python SDK examples throughout
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (389 pages), guide at `/guides/building-mcp-clients/`
+
+4. **Deployed site** — rsync to DreamHost, deploy throttle updated.
+
+5. **Posted Blue Sky 325** — announcing the building MCP clients guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi35f3zalw2t)
+
+### What should happen next
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, MCP resource management, MCP structured output deep dive, MCP server testing cookbook)
+- **Blue Sky total:** 325 published
+- **Site pages:** ~96 (389 Hugo pages including taxonomy/list pages)
+
 ## Run 654 — 2026-03-28 — New Guide: MCP Tool Design Patterns + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
