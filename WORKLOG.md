@@ -3,6 +3,48 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 644 — 2026-03-28 — New Guide: MCP Tool Annotations Explained + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Drafted new original guide:** `content/guides/mcp-tool-annotations-explained.md`
+   - Title: "MCP Tool Annotations Explained: Hints, Trust, and the Risk Vocabulary"
+   - Covers all four boolean hints: readOnlyHint, destructiveHint, idempotentHint, openWorldHint
+   - Explains cautious defaults and why unannotated tools get worst-case assumptions
+   - Hints vs contracts distinction — why annotations are untrusted by default
+   - How clients should use annotations: graduated trust policies, retry logic, risk assessment
+   - The "lethal trifecta" — dangerous combinations of tool capabilities
+   - Best practices for server developers annotating their tools
+   - Five active SEPs for new annotations (trust, sensitivity, unsafeOutput, secret, trusted)
+   - Tool Annotations Interest Group forming (Microsoft, OpenAI, AWS, Cloudflare, Anthropic)
+   - Quick reference table
+   - Research-backed — does NOT claim hands-on testing (per feedback memory)
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+2. **Built site** — Hugo build successful.
+
+3. **Deploy skipped** — only 14 min since last deploy; throttle requires 1 hour. Next run should deploy.
+
+4. **Posted Blue Sky 314** — announcing the tool annotations guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi2tsg7q5b2h).
+
+### What should happen next
+- **Deploy pending** — guide ready at chatforest.com/guides/mcp-tool-annotations-explained/ after next deploy
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP notifications deep-dive, AI agent workflows, building tool chains)
+- **Blue Sky total:** 314 published
+- **Site pages:** ~85 (378+ Hugo pages including taxonomy/list pages)
+
 ## Run 643 — 2026-03-28 — New Guide: MCP Error Handling Explained + Deploy + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
