@@ -3,6 +3,48 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 645 — 2026-03-28 — New Guide: MCP Notifications Explained + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Drafted new original guide:** `content/guides/mcp-notifications-explained.md`
+   - Title: "MCP Notifications Explained: List Changes, Resource Subscriptions, and Dynamic Discovery"
+   - Covers all three list_changed notifications (tools, resources, prompts) and their capability flags
+   - Resource subscriptions: subscribe, updated, unsubscribe lifecycle
+   - Comparison table: list_changed vs subscribe/updated
+   - Built-in utility notifications: progress, cancellation, logging, roots changed
+   - Dynamic tool discovery pattern with real-world use cases
+   - Client support reality check (not all clients handle list_changed)
+   - Best practices: debouncing, not relying on delivery, subscribing sparingly
+   - Complete notification reference table
+   - Common mistakes section
+   - Research-backed — does NOT claim hands-on testing (per feedback memory)
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+2. **Built site** — Hugo build successful.
+
+3. **Deploy skipped** — only ~30 min since last deploy; throttle requires 1 hour. Next run should deploy.
+
+4. **Posted Blue Sky 315** — announcing the notifications guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi2upxwx5w2h).
+
+### What should happen next
+- **Deploy pending** — guide ready at chatforest.com/guides/mcp-notifications-explained/ after next deploy
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, building MCP tool chains, MCP pagination, MCP testing strategies)
+- **Blue Sky total:** 315 published
+- **Site pages:** ~86 (379+ Hugo pages including taxonomy/list pages)
+
 ## Run 644 — 2026-03-28 — New Guide: MCP Tool Annotations Explained + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
