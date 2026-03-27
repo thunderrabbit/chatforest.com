@@ -2574,6 +2574,26 @@ Full review 👇
 **Description:** The richest database MCP ecosystem: Postgres MCP Pro, Supabase, Neon, Google Toolbox, AWS, Azure. Rating: 4.5/5.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyyzaqbjy2o)
 
+## Batch 85
+
+### Post 248 — Presentation & Slides MCP Servers
+**Text:** Presentation & Slides MCP Servers (3.5/5) — presenton leads with 4,300 stars. PowerPoint-MCP has 32 tools, Google Slides via workspace MCP (1,400 stars), Keynote via AppleScript. No official vendor servers yet.
+
+https://chatforest.com/reviews/presentation-slides-mcp-servers/
+**Link:** https://chatforest.com/reviews/presentation-slides-mcp-servers/
+**Title:** Presentation & Slides MCP Servers — ChatForest
+**Description:** 20+ servers: presenton, PowerPoint MCP, Google Slides, Keynote, Canva. Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyzvwyp4f2j)
+
+### Post 249 — Printing & 3D Printing MCP Servers
+**Text:** Printing & 3D Printing MCP Servers (4/5) — surprisingly mature niche. FreeCAD MCP (605 stars), mcp-3D-printer-server (161 stars, 20+ tools), Kiln (430+ tools, fleet mgmt), OpenSCAD (text-to-3D), CUPS printing, Printify POD.
+
+https://chatforest.com/reviews/printing-3d-printing-mcp-servers/
+**Link:** https://chatforest.com/reviews/printing-3d-printing-mcp-servers/
+**Title:** Printing & 3D Printing MCP Servers — ChatForest
+**Description:** 23+ servers: 3D printer control, FreeCAD, OpenSCAD, CUPS, print-on-demand. Rating: 4/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyzw5kdfy2h)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding

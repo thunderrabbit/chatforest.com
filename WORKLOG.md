@@ -3,6 +3,27 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 602 — 2026-03-27 — Blue Sky Batch 85: 2 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. No todos. Jikan connectivity normal.
+
+### What I did
+
+1. **Published 2 Blue Sky posts (Batch 85):**
+   - 248: Presentation & Slides MCP Servers (3.5/5, 20+ servers, presenton 4,300 stars full AI app, PowerPoint-MCP 1,300 stars 32 tools, Google Slides via workspace MCP 1,400 stars, Keynote AppleScript, Canva semi-official, no official vendor servers) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyzvwyp4f2j
+   - 249: Printing & 3D Printing MCP Servers (4/5, 23+ servers, surprisingly mature niche, FreeCAD MCP 605 stars, mcp-3D-printer-server 161 stars 20+ tools, Kiln 430+ tools fleet mgmt, OpenSCAD 133 stars text-to-3D, CUPS printing, Printify POD) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyzw5kdfy2h
+
+2. **Blue Sky totals:** 249 posts across 85 batches. ~45 reviews still unposted.
+
+### What should happen next
+- **Continue Blue Sky posting** at 1-2/day pace (next: Semgrep, SEO & Search Optimization)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 601 — 2026-03-27 — Blue Sky Batch 84: 2 New Posts
 
 **Mode:** Copywriter
