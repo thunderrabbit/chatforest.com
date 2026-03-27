@@ -3,6 +3,29 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 606 — 2026-03-27 — Blue Sky Batch 89: 2 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. No todos. Jikan connectivity normal.
+
+### What I did
+
+1. **Fixed tracker gap:** Added posts 254-255 (Batch 88: Shopify MCP Servers, Smart Home & Automation) to posts.md — they were published in Run 605 but not tracked.
+
+2. **Published 2 Blue Sky posts (Batch 89):**
+   - 256: Social Media & Marketing MCP Servers (3.5/5, 40+ servers, Meta Ads MCP 628 stars 26 tools leads ad management, atproto-mcp 57 Bluesky tools, Iterable up to 105 email tools, Twitter/X 8+ servers no official, YouTube top MCP only subtitles) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz5jy3w3h2w
+   - 257: Social Networking & Community MCP Servers (4.5/5, 50+ servers 8 platforms, Twitter/X 8+ implementations 53-tool max, Discord 134 admin tools, Reddit 6+ servers zero-config, LinkedIn 177 stars, Bluesky in official MCP repo, ActivityPub covers Fediverse) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz5k7pp7a2c
+
+3. **Blue Sky totals:** 257 posts across 89 batches. ~37 reviews still unposted.
+
+### What should happen next
+- **Continue Blue Sky posting** at 1-2/day pace (next: Speech Recognition & Transcription, Sports & Athletics)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 605 — 2026-03-27 — Blue Sky Batch 88: 2 New Posts
 
 **Mode:** Copywriter

@@ -2622,6 +2622,58 @@ Full review 👇
 **Description:** Official Shopify MCP: 8 tools for docs, GraphQL introspection, code validation. No auth required. Rating: 4/5.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz3pip3ya2b)
 
+### Post 254 — Shopify MCP Servers
+**Text:** Shopify MCP Servers ⭐3.5/5
+
+Two official first-party servers: Dev MCP (414 stars, 6 tools — docs/GraphQL/theme validation) and Storefront MCP (AI shopping with semantic search). Neither manages stores directly.
+
+Community Admin API servers fill the gap for store management.
+
+Full review 👇
+**Link:** https://chatforest.com/reviews/shopify-mcp-servers/
+**Title:** Shopify MCP Servers — ChatForest
+**Description:** Two official Shopify MCP servers plus community alternatives for store management. Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz4kftudg2c)
+
+### Post 255 — Smart Home & Automation MCP Servers
+**Text:** Smart Home & Automation MCP Servers ⭐3.5/5
+
+Home Assistant dominates — ha-mcp (1,100+ stars, 80+ tools). 8+ HA implementations exist. Hubitat and OpenHAB have basic support.
+
+No Google Home, Alexa, HomeKit, or SmartThings MCP servers yet.
+
+Full review 👇
+**Link:** https://chatforest.com/reviews/smart-home-automation-mcp-servers/
+**Title:** Smart Home & Automation MCP Servers — ChatForest
+**Description:** Home Assistant leads with 1,100+ stars. 8+ implementations. No Google Home/Alexa/HomeKit. Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz4kufl7n2y)
+
+### Post 256 — Social Media & Marketing MCP Servers
+**Text:** Social Media & Marketing MCP Servers ⭐3.5/5
+
+40+ servers. Meta Ads MCP (628 stars, 26 tools) leads ad management. atproto-mcp has 57 Bluesky tools. Iterable: up to 105 email tools.
+
+Twitter/X has 8+ servers, no official one. YouTube top MCP only does subtitles.
+
+Full review 👇
+**Link:** https://chatforest.com/reviews/social-media-marketing-mcp-servers/
+**Title:** Social Media & Marketing MCP Servers — ChatForest
+**Description:** Twitter/X, Instagram, LinkedIn, Bluesky, Meta Ads, SEO, email marketing. 40+ servers reviewed. Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz5jy3w3h2w)
+
+### Post 257 — Social Networking & Community MCP Servers
+**Text:** Social Networking & Community MCP Servers ⭐4.5/5
+
+50+ servers, 8 platforms. Twitter/X: 8+ servers (53-tool max). Discord: 134 admin tools. Reddit: 6+ servers incl. zero-config. LinkedIn: 177 stars.
+
+Bluesky in official MCP repo. ActivityPub covers the Fediverse.
+
+Full review 👇
+**Link:** https://chatforest.com/reviews/social-networking-community-mcp-servers/
+**Title:** Social Networking & Community MCP Servers — ChatForest
+**Description:** Twitter/X, Bluesky, LinkedIn, Reddit, Discord, Mastodon, YouTube, TikTok. 50+ servers reviewed. Rating: 4.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz5k7pp7a2c)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
