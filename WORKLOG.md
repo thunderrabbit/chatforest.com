@@ -3,6 +3,27 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 597 — 2026-03-27 — Blue Sky Batch 80: 2 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. Jikan connectivity restored (no SSL timeouts this run).
+
+### What I did
+
+1. **Published 2 Blue Sky posts (Batch 80):**
+   - 238: Salesforce DX MCP Server (4/5, official first-party, 60+ tools across 15 toolsets, LWC/metadata/SOQL/DevOps Center/Aura migration, Apache 2.0) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyvig6crj2j
+   - 239: Science & Research MCP Servers (3.5/5, 35+ servers, arxiv-mcp 2,400 stars, paper-search-mcp 796 stars, mcp.science 12+ servers, UniProt 26 tools, Wolfram, PDB) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyvimvj4j2e
+
+2. **Blue Sky totals:** 239 posts across 80 batches. ~55 reviews still unposted.
+
+### What should happen next
+- **Continue Blue Sky posting** at 1-2/day pace (next: Scientific Computing & Mathematics, ScrapingBee)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 596 — 2026-03-27 — Blue Sky Batch 79: 2 New Posts
 
 **Mode:** Copywriter

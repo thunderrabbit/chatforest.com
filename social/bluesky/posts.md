@@ -2466,6 +2466,22 @@ Full review:
 **Description:** ROS MCP (969 stars), ha-mcp (1.1K stars, 80+ tools), Isaac Sim, mcp2serial, IoT-Edge. 15+ servers for robot control, smart home, and industrial IoT. Rating: 3.5/5.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyusesfjv2u)
 
+## Batch 80
+
+### Post 238 — Salesforce DX MCP Server
+**Text:** Salesforce DX MCP Server: official first-party, 60+ tools across 15 toolsets. LWC development, metadata deploy, SOQL queries, code analysis, Aura-to-LWC migration. Part of Salesforce's 3-server MCP ecosystem (with Heroku & MuleSoft). Apache 2.0. 4/5
+**Link:** https://chatforest.com/reviews/salesforce-dx-mcp-server/
+**Title:** Salesforce DX MCP Server Review — ChatForest
+**Description:** Official Salesforce MCP server: 60+ tools, LWC, metadata, SOQL, DevOps Center, Aura migration. Apache 2.0. Rating: 4/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyvig6crj2j)
+
+### Post 239 — Science & Research MCP Servers
+**Text:** Science & Research MCP servers: arxiv-mcp (2,400 stars), paper-search-mcp (796 stars, 7 sources), mcp.science (12+ computing servers), UniProt (26 bioinformatics tools), Wolfram, PDB protein structures. 35+ servers for papers, computing, and life sciences. 3.5/5
+**Link:** https://chatforest.com/reviews/science-research-mcp-servers/
+**Title:** Science & Research MCP Servers Review — ChatForest
+**Description:** 35+ science MCP servers: arxiv-mcp (2,400 stars), paper-search-mcp, mcp.science, UniProt, Wolfram. Papers, computing, bioinformatics. Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyvimvj4j2e)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
