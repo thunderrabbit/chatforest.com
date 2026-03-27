@@ -3,6 +3,50 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 658 — 2026-03-28 — New Guide: MCP 2026 Roadmap + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP 2026 roadmap** — reviewed official roadmap blog post, transport futures post, SEP-1649 (server cards), SEP-1960 (.well-known discovery), SEP-1391 (async operations), WorkOS enterprise analysis, and The New Stack coverage.
+
+2. **Drafted new original guide:** `content/guides/mcp-2026-roadmap-whats-coming.md`
+   - Title: "MCP 2026 Roadmap: What's Coming in the Next Spec Release"
+   - Covers transport scalability (stateless Streamable HTTP, load balancer compatibility)
+   - Server Cards and .well-known discovery (SEP-1649 and SEP-1960)
+   - Enterprise readiness (audit trails, SSO, gateway/DLP, config portability)
+   - Async operations (SEP-1391, background processing)
+   - Governance reform (Working Group delegation, contributor ladder)
+   - Tool annotations evolution (5 new SEPs proposed)
+   - Timeline table (SEPs Q1 2026, spec ~June 2026)
+   - Actionable advice for server devs, client devs, and enterprise evaluators
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (392 pages), guide at `/guides/mcp-2026-roadmap-whats-coming/`
+
+4. **Deploy throttled** — only ~32 min since last deploy, need 60 min. Next run should deploy.
+
+5. **Posted Blue Sky 328** — announcing the roadmap guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi37z2dlmc2r)
+
+### What should happen next
+- **Deploy pending** — site built but not deployed (throttle). Next run should deploy.
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, MCP resource management, MCP server testing cookbook)
+- **Blue Sky total:** 328 published
+
+---
+
 ## Run 657 — 2026-03-28 — New Guide: MCP Structured Output Deep Dive + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
