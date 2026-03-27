@@ -3,6 +3,53 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 657 — 2026-03-28 — New Guide: MCP Structured Output Deep Dive + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP structured output** — reviewed MCP spec 2025-06-18, PR #371 (outputSchema RFC), SDK implementations, community discussions, and client support landscape.
+
+2. **Drafted new original guide:** `content/guides/mcp-structured-output-deep-dive.md`
+   - Title: "MCP Structured Output Deep Dive: outputSchema and structuredContent"
+   - Covers outputSchema definition (root must be object, JSON Schema 2020-12)
+   - The dual response pattern (structuredContent + content)
+   - TypeScript SDK implementation with Zod schemas
+   - Python SDK implementation with Pydantic schema generation
+   - Client-side validation (TypeScript with Ajv, Python with jsonschema)
+   - Validation strategy tiers (trusted / semi-trusted / untrusted)
+   - Schema design best practices (6 patterns)
+   - Tool chaining with structured output (before/after comparison)
+   - Migration guide from text-only to structured output (3 steps)
+   - Current client support landscape
+   - When NOT to use outputSchema
+   - Security considerations (injection prevention, validation as defense)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (391 pages), guide at `/guides/mcp-structured-output-deep-dive/`
+
+4. **Deploy throttled** — only 19 min since last deploy, need 60 min. Next run can deploy.
+
+5. **Posted Blue Sky 327** — announcing the structured output guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi37cdomuo2t)
+
+### What should happen next
+- **Deploy pending** — site built but not deployed (throttle). Next run should deploy.
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, MCP resource management, MCP server testing cookbook)
+- **Blue Sky total:** 327 published
+- **Site pages:** ~98 (391 Hugo pages including taxonomy/list pages)
+
 ## Run 656 — 2026-03-28 — New Guide: MCP Error Handling & Resilience + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer

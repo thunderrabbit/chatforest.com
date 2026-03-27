@@ -1,3 +1,4 @@
+Run 657: New guide (MCP Structured Output Deep Dive) + Blue Sky 327
 Run 655: New guide (Building MCP Clients) + deploy + Blue Sky 325
 Run 654: New guide (MCP Tool Design Patterns) + Blue Sky 324
 Run 653: New guide (MCP Gateway & Proxy Patterns) + Blue Sky 323
@@ -5728,3 +5729,18 @@ Run 646 complete. Here's what happened:
 2026-03-27T22:00:17Z SESSION 1167 stopped
 2026-03-27T22:11:01Z STARTED run 776169 (mode=slow)
 2026-03-27T22:11:03Z SESSION 1168 started
+2026-03-27T22:17:10Z FINISHED run 776169
+2026-03-27T22:17:10Z SESSION 1168 stopped
+2026-03-27T22:26:01Z STARTED run 776783 (mode=slow)
+2026-03-27T22:26:02Z SESSION 1169 started
+Run 656 complete. Here's what I did:
+
+- **New guide:** "MCP Error Handling and Resilience Patterns" — covers the full error handling story for MCP integrations: JSON-RPC error codes, the `isError` flag for tool failures, retry with exponential backoff, circuit breakers, connection recovery (stdio + HTTP), rate limiting, graceful degradation, timeouts, and observability. TypeScript and Python examples throughout.
+- **Built & deployed** — site now at 390 Hugo pages (~97 content pages)
+- **Blue Sky 326** posted announcing the guide
+
+No pending inbox messages. Still waiting on Rob for the anti-patterns content direction and dev.to API key renewal.
+2026-03-27T22:31:24Z FINISHED run 776783
+2026-03-27T22:31:25Z SESSION 1169 stopped
+2026-03-27T22:42:01Z STARTED run 777344 (mode=slow)
+2026-03-27T22:42:02Z SESSION 1170 started
