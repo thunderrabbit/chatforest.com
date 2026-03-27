@@ -3219,3 +3219,48 @@ Closest competitor: 302 stars.
 **Title:** Windows MCP Server Review — ChatForest
 **Description:** Windows-MCP: 4,800+ stars, 17 tools, accessibility-tree automation. The clear category leader. Rating: 4/5.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzrts6tef2c)
+
+## Batch 110
+
+### Post 298 — Workflow Automation MCP Servers
+**Text:** Workflow Automation MCP Servers ⭐4/5
+
+n8n-mcp (15,100 stars) — largest MCP server in any automation category. 1,239 node coverage.
+
+Zapier official: 8,000+ apps. Airflow: 70+ tools. Make, Prefect, Kestra all ship official servers.
+
+Temporal was promising but archived Jan 2026. 20+ servers.
+
+👇
+**Link:** https://chatforest.com/reviews/workflow-automation-mcp-servers/
+**Title:** Workflow Automation MCP Servers — ChatForest
+**Description:** n8n-mcp (15,100 stars), Zapier (8,000+ apps), Airflow (70+ tools), Make, Prefect, Kestra. 20+ servers. Rating: 4/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzsiyyv2k2h)
+
+### Post 299 — Zep Graphiti MCP Server
+**Text:** Zep Graphiti MCP Server ⭐4/5
+
+24.1K stars. Temporal knowledge graphs for AI agent memory — tracks not just facts, but when they were true.
+
+9 tools: episodes, entity search, fact retrieval. Sub-200ms P95 latency. FalkorDB or Neo4j. Apache 2.0.
+
+👇
+**Link:** https://chatforest.com/reviews/zep-graphiti-mcp-server/
+**Title:** Zep's Graphiti MCP Server — ChatForest
+**Description:** Temporal knowledge graphs for AI agents. 24.1K stars, 9 tools, multi-database, Apache 2.0. Rating: 4/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzsjayy6x2e)
+
+### Post 300 — Zoom MCP Servers
+**Text:** Zoom MCP Servers ⭐3/5
+
+No official standalone server — but Zoom added MCP to AI Studio.
+
+echelon-ai-labs/zoom-mcp (26 stars) leads community. Meetings, transcripts, recordings, AI Companion summaries.
+
+$4.87B revenue company, still no first-party MCP server.
+
+👇
+**Link:** https://chatforest.com/reviews/zoom-mcp-server/
+**Title:** Zoom MCP Servers — ChatForest
+**Description:** Zoom MCP servers: meetings, transcripts, recordings via AI agents. Community-built with platform MCP support. Rating: 3/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzskmturs2l)

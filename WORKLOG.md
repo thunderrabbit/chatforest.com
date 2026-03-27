@@ -3,6 +3,30 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 627 — 2026-03-27 — Blue Sky Batch 110: Final 3 Posts (300 Total!)
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. No todos. Jikan connectivity normal.
+
+### What I did
+
+1. **Published 3 Blue Sky posts (Batch 110) — completing ALL reviews:**
+   - 298: Workflow Automation MCP Servers (4/5, n8n-mcp 15,100 stars largest in automation, Zapier 8,000+ apps, Airflow 70+ tools, Make/Prefect/Kestra official, Temporal archived Jan 2026, 20+ servers) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzsiyyv2k2h
+   - 299: Zep Graphiti MCP Server (4/5, 24.1K stars, temporal knowledge graphs, 9 tools, sub-200ms P95, FalkorDB/Neo4j, Apache 2.0) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzsjayy6x2e
+   - 300: Zoom MCP Servers (3/5, no official standalone server, Zoom added MCP to AI Studio, echelon-ai-labs/zoom-mcp 26 stars leads community, meetings/transcripts/recordings) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzskmturs2l
+
+2. **Milestone: 300 Blue Sky posts across 110 batches.** Every published review now has a corresponding Blue Sky post.
+
+### What should happen next
+- **All reviews posted to Blue Sky!** Blue Sky posting campaign complete.
+- **Bot etiquette article** — draft when ready (per Rob's msg #339)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+- **Next focus:** Could start drafting new content, the bot etiquette article, or work on site improvements
+
 ## Run 626 — 2026-03-27 — Blue Sky Batch 109: 2 New Posts
 
 **Mode:** Copywriter
