@@ -1,3 +1,4 @@
+Run 625: Blue Sky Batch 108: 2 new posts (Video Conferencing, Video Production & Streaming)
 Run 617: Blue Sky Batch 100: 2 new posts (Testing & QA, Threat Intelligence)
 Run 613: Blue Sky Batch 96: 2 new posts (Supply Chain & Logistics, Sustainability & Climate)
 Run 612: Blue Sky Batch 95: 2 new posts (Stripe MCP Server, Supabase MCP Server)
@@ -5321,3 +5322,94 @@ Run 616 complete. Published **Blue Sky Batch 99** (2 posts):
 2026-03-27T05:50:29Z SESSION 1126 stopped
 2026-03-27T06:00:01Z STARTED run 744069 (mode=slow)
 2026-03-27T06:00:01Z SESSION 1127 started
+2026-03-27T06:04:12Z FINISHED run 744069
+2026-03-27T06:04:13Z SESSION 1127 stopped
+2026-03-27T06:15:01Z STARTED run 744616 (mode=slow)
+2026-03-27T06:15:02Z SESSION 1128 started
+Run 618 complete. Published Blue Sky Batch 101:
+- **Post 280:** Time-Series Database MCP Servers (4/5) — Grafana dominates with 2,500 stars and 30+ tools
+- **Post 281:** Todoist MCP Server (4/5) — Doist official, 37+ tools, hosted endpoint
+
+281 posts across 101 batches. ~19 reviews still unposted. Next batch: Translation & Localization, Transportation & Mobility.
+2026-03-27T06:17:58Z FINISHED run 744616
+2026-03-27T06:17:59Z SESSION 1128 stopped
+2026-03-27T06:30:01Z STARTED run 745116 (mode=slow)
+2026-03-27T06:30:02Z SESSION 1129 started
+Run 619 complete.
+
+**Published Batch 102 (2 posts):**
+- **Post 282:** Translation & Localization MCP Servers (3.5/5) — DeepL, Crowdin 200+ tools, Intlayer 627 stars
+- **Post 283:** Transportation & Mobility MCP Servers (3.5/5) — Flightradar24, 9+ city transit servers, Uber
+
+**Totals:** 283 Blue Sky posts across 102 batches. 17 reviews remaining to post.
+2026-03-27T06:33:44Z FINISHED run 745116
+2026-03-27T06:33:46Z SESSION 1129 stopped
+2026-03-27T06:45:01Z STARTED run 746243 (mode=slow)
+2026-03-27T06:45:02Z SESSION 1130 started
+Run 620 complete.
+
+**What I did:**
+- **Answered Rob's high-priority question (msg #338):** Confirmed the Blue Sky bot label (`val: "bot"`) is already active — added in Run 593, verified live. Sent reply with manual instructions (msg #340).
+- **Acknowledged msg #339:** Will draft a "bot etiquette" article after bot identity is established with followers.
+- **Published Batch 103** (2 posts):
+  - 284: Travel & Tourism MCP Servers (4/5)
+  - 285: Turso MCP Server (3.5/5)
+- **Blue Sky totals:** 285 posts, 103 batches, ~15 reviews remaining.
+2026-03-27T06:48:37Z FINISHED run 746243
+2026-03-27T06:48:41Z SESSION 1130 stopped
+2026-03-27T07:01:01Z STARTED run 746758 (mode=slow)
+2026-03-27T07:01:02Z SESSION 1131 started
+API Error: 500 {"type":"error","error":{"type":"api_error","message":"Internal server error"},"request_id":"req_011CZTA9sraqSbc7j273gYv3"}
+2026-03-27T07:04:26Z FINISHED run 746758
+2026-03-27T07:04:26Z SESSION 1131 stopped
+2026-03-27T07:16:01Z STARTED run 747164 (mode=slow)
+2026-03-27T07:16:02Z SESSION 1132 started
+Run 621 complete.
+
+**Published 2 Blue Sky posts (Batch 104):**
+- **#286 Semgrep MCP Server** (4/5) — 641 stars, 7 tools, security scanning for AI-generated code, hook model auto-scans every file
+- **#287 SEO & Search Optimization MCP Servers** (4/5) — 20+ servers, official Ahrefs/DataForSEO/SE Ranking, mcp-gsc 428 stars leads GSC
+
+**Totals:** 287 posts across 104 batches. ~40 reviews still unposted. No inbox messages.
+2026-03-27T07:19:37Z FINISHED run 747164
+2026-03-27T07:19:38Z SESSION 1132 stopped
+2026-03-27T07:32:01Z STARTED run 748624 (mode=slow)
+2026-03-27T07:32:02Z SESSION 1133 started
+API Error: 500 {"type":"error","error":{"type":"api_error","message":"Internal server error"},"request_id":"req_011CZTCRCSBZXiguHbWe7Zn9"}
+2026-03-27T07:34:22Z FINISHED run 748624
+2026-03-27T07:34:22Z SESSION 1133 stopped
+2026-03-27T07:48:01Z STARTED run 749014 (mode=slow)
+2026-03-27T07:48:02Z SESSION 1134 started
+API Error: 529 {"type":"error","error":{"type":"overloaded_error","message":"Overloaded. https://docs.claude.com/en/api/errors"},"request_id":"req_011CZTELE7yhtw9cSYFKuSHC"}
+2026-03-27T07:58:56Z FINISHED run 749014
+2026-03-27T07:58:57Z SESSION 1134 stopped
+2026-03-27T08:03:01Z STARTED run 749568 (mode=slow)
+2026-03-27T08:03:02Z SESSION 1135 started
+Run 622 complete. Published Blue Sky Batch 105:
+- **Post 288:** Security Scanning MCP Servers (3.5/5) — AppSec vendors racing to instrument AI coding agents
+- **Post 289:** SQLite MCP Servers (3.5/5) — 15+ servers, no clear leader, best option might be multi-DB
+
+289 total posts across 105 batches. ~11 reviews still unposted.
+2026-03-27T08:06:48Z FINISHED run 749568
+2026-03-27T08:06:49Z SESSION 1135 stopped
+2026-03-27T08:19:01Z STARTED run 750086 (mode=slow)
+2026-03-27T08:19:03Z SESSION 1136 started
+Run 623 complete. Published 2 Blue Sky posts:
+
+- **#290 — Square MCP Server** (3.5/5): Official from Block, 3 meta-tools wrapping 40+ APIs for payments, orders, inventory, loyalty, bookings
+- **#291 — Terraform MCP Server** (4/5): HashiCorp official, 35+ tools for real-time Registry access, HCP workspace management
+
+291 posts total across 106 batches. ~9 reviews still unposted.
+2026-03-27T08:21:19Z FINISHED run 750086
+2026-03-27T08:21:20Z SESSION 1136 stopped
+2026-03-27T08:35:01Z STARTED run 750554 (mode=slow)
+2026-03-27T08:35:03Z SESSION 1137 started
+Run 624 complete. Published Blue Sky Batch 107:
+- **#292:** Twilio MCP Server (3.5/5) — official, ~2,000 API endpoints across 40+ services
+- **#293:** Veterinary & Pet Care MCP Servers (2.5/5) — one of the thinnest ecosystems reviewed
+
+293 posts total across 107 batches. ~7 reviews remain unposted (Video Conferencing, Video Production, Weather/Climate, Windows, Workflow Automation, Zep Graphiti, Zoom).
+2026-03-27T08:54:14Z FINISHED run 750554
+2026-03-27T08:54:15Z SESSION 1137 stopped
+2026-03-27T08:55:01Z STARTED run 751143 (mode=slow)
+2026-03-27T08:55:02Z SESSION 1138 started

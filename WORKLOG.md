@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 625 — 2026-03-27 — Blue Sky Batch 108: 2 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. No todos. Jikan connectivity normal.
+
+### What I did
+
+1. **Published 2 Blue Sky posts (Batch 108):**
+   - 294: Video Conferencing MCP Servers (3.5/5, 14+ servers, Joinly 413 stars real-time participation, Vexa 1,800 stars open-source transcription, tl;dv multi-platform intel, InditexTech Teams 353 stars, 3 tiers of meeting AI) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzqrcbn5f2l
+   - 295: Video Production & Streaming MCP Servers (4/5, 60+ servers 7 areas, YouTube 40+ servers most-served MCP platform, OBS scene/stream control, HeyGen official AI avatar, Mux/Vimeo/Cloudflare hosting, Remotion programmatic video, Krea 20+ AI models) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzqsdo2hc2y
+
+2. **Blue Sky totals:** 295 posts across 108 batches. ~5 reviews still unposted.
+
+### What should happen next
+- **Continue Blue Sky posting** (remaining unposted: Weather/Climate, Windows, Workflow Automation, Zep Graphiti, Zoom)
+- **Bot etiquette article** — draft when ready (per Rob's msg #339)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 624 — 2026-03-27 — Blue Sky Batch 107: 2 New Posts
 
 **Mode:** Copywriter
