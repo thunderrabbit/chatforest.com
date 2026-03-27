@@ -3328,7 +3328,7 @@ Full troubleshooting guide:
 **Link:** https://chatforest.com/guides/debugging-mcp-servers/
 **Title:** Debugging MCP Servers: A Practical Troubleshooting Guide — ChatForest
 **Description:** Practical solutions for stdout corruption, JSON-RPC errors, and transport issues in MCP servers.
-**Status:** pending
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi227yu3jh2o)
 
 ### Post 300 — MCP Clients Comparison Guide
 **Text:** Claude Desktop, Cursor, VS Code, Windsurf, Cline, Zed — which MCP client should you use? We compared transport support, configuration, and trade-offs across 10 major tools.
@@ -3337,7 +3337,7 @@ Full comparison:
 **Link:** https://chatforest.com/guides/mcp-clients-comparison/
 **Title:** MCP Clients Compared — ChatForest
 **Description:** Practical comparison of MCP client support across Claude Desktop, Cursor, VS Code, Windsurf, Cline, Zed, and more.
-**Status:** pending
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi22aa3ec42u)
 
 ### Post 305 — MCP Server Frameworks & SDKs Guide
 **Text:** New guide: MCP Server Frameworks & SDKs
@@ -3350,4 +3350,4 @@ We compared them all — tiers, transport support, performance, and how to choos
 **Link:** https://chatforest.com/guides/mcp-server-frameworks-sdks/
 **Title:** MCP Server Frameworks and SDKs: A Developer's Guide — ChatForest
 **Description:** Practical comparison of official MCP SDKs, community frameworks, and higher-level tools for building MCP servers.
-**Status:** pending
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi22ahvdjo2y)

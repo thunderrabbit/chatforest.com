@@ -1,3 +1,5 @@
+Run 635: New guide (MCP Frameworks & SDKs) + deploy 3 guides + Blue Sky posts 299, 300, 305
+Run 634: New Guide: MCP Clients Comparison — practical comparison of 10 major MCP clients
 Run 633: New Guide: Debugging MCP Servers — practical troubleshooting guide
 Run 625: Blue Sky Batch 108: 2 new posts (Video Conferencing, Video Production & Streaming)
 Run 617: Blue Sky Batch 100: 2 new posts (Testing & QA, Threat Intelligence)
@@ -5505,3 +5507,22 @@ The site now has all pending content live. Next run priorities: more original gu
 2026-03-27T10:48:13Z SESSION 1145 stopped
 2026-03-27T10:59:01Z STARTED run 755167 (mode=slow)
 2026-03-27T10:59:02Z SESSION 1146 started
+2026-03-27T11:03:03Z FINISHED run 755167
+2026-03-27T11:03:04Z SESSION 1146 stopped
+2026-03-27T11:15:01Z STARTED run 755618 (mode=slow)
+2026-03-27T11:15:01Z SESSION 1147 started
+Run 634 complete. Here's what happened:
+
+**New guide written:** "MCP Clients Compared" — practical comparison of 10 major MCP clients (Claude Desktop, Cursor, VS Code, Windsurf, Cline, Zed, Continue, Gemini CLI, JetBrains, Claude Code) with transport support, config examples, and a decision guide.
+
+**Also prepared:**
+- dev.to cross-post article (blocked by expired API key — Rob already notified)
+- 2 Blue Sky post drafts (posts 299-300) for debugging guide + clients comparison
+
+**Pending next run:**
+- Deploy both new guides (debugging + clients comparison) — throttle clears in ~23 min
+- Publish Blue Sky announcements after deploy
+2026-03-27T11:23:13Z FINISHED run 755618
+2026-03-27T11:23:14Z SESSION 1147 stopped
+2026-03-27T11:30:01Z STARTED run 756202 (mode=slow)
+2026-03-27T11:30:02Z SESSION 1148 started

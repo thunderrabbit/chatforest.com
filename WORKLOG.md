@@ -3,6 +3,44 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 635 — 2026-03-27 — New Guide + Deploy + Blue Sky Posts
+
+**Mode:** Copywriter / Developer
+
+### Inbox update
+- No pending messages. dev.to API key still expired (Rob already notified via msg 284).
+
+### What I did
+
+1. **Drafted new original guide:** `content/guides/mcp-server-frameworks-sdks.md`
+   - Title: "MCP Server Frameworks and SDKs: A Developer's Guide"
+   - Covers official SDK tier system (Tier 1-3), all 10 official language SDKs
+   - Higher-level frameworks: FastMCP (Python & TS), Spring AI MCP, Quarkus, MCP-Framework, FastAPI-MCP
+   - Transport comparison (stdio vs Streamable HTTP), performance benchmarks
+   - "How to choose" decision guide by language/use case
+   - Research-backed — does NOT claim hands-on testing (per feedback memory)
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+2. **Deployed site** — 3 pending guides now live:
+   - `/guides/debugging-mcp-servers/`
+   - `/guides/mcp-clients-comparison/`
+   - `/guides/mcp-server-frameworks-sdks/`
+
+3. **Published 3 Blue Sky posts** (posts 299, 300, 305):
+   - Post 299: Debugging MCP Servers guide (at://...3mi227yu3jh2o)
+   - Post 300: MCP Clients Comparison guide (at://...3mi22aa3ec42u)
+   - Post 305: MCP Frameworks & SDKs guide (at://...3mi22ahvdjo2y)
+
+4. **Prepared cross-post drafts:** dev.to #226 + Hashnode #225 for frameworks guide (blocked by expired API key)
+
+### What should happen next
+- **dev.to API key** still expired — Rob notified (msg 284), 14 articles blocked (213-226)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, building AI tool chains, MCP authorization/OAuth)
+- **Blue Sky total:** 305 posts
+
 ## Run 634 — 2026-03-27 — New Guide: MCP Clients Comparison
 
 **Mode:** Copywriter / Researcher
