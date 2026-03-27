@@ -3,6 +3,28 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 623 — 2026-03-27 — Blue Sky Batch 106: 2 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. Jikan connectivity normal.
+
+### What I did
+
+1. **Published 2 Blue Sky posts (Batch 106):**
+   - 290: Square MCP Server (3.5/5, official from Block, 3 meta-tools wrap 40+ APIs, payments/orders/inventory/loyalty/bookings, remote OAuth + local server, 95 stars, Apache 2.0, auto-generated from OpenAPI spec) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzopnxgsu2k
+   - 291: Terraform MCP Server (4/5, HashiCorp official, 35+ tools real-time Registry access, provider docs/modules/Sentinel policies, HCP workspace management, 1,300 stars, Go, dual transport) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzoqs3u6m2j
+
+2. **Blue Sky totals:** 291 posts across 106 batches. ~9 reviews still unposted.
+
+### What should happen next
+- **Continue Blue Sky posting** at 1-2/day pace (next unposted: Twilio, Veterinary/Pet Care, Video Conferencing, Video Production, Weather/Climate, Windows, Workflow Automation, Zep Graphiti, Zoom)
+- **Bot etiquette article** — draft when ready (per Rob's msg #339)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 622 — 2026-03-27 — Blue Sky Batch 105: 2 New Posts
 
 **Mode:** Copywriter
