@@ -1,3 +1,4 @@
+Run 661: New guide (MCP Debugging Guide) + Blue Sky 331
 Run 659: New guide (MCP Testing Tools Cookbook) + Blue Sky 329
 Run 657: New guide (MCP Structured Output Deep Dive) + Blue Sky 327
 Run 655: New guide (Building MCP Clients) + deploy + Blue Sky 325
@@ -5765,3 +5766,18 @@ Run 658 complete.
 2026-03-27T23:30:25Z SESSION 1172 stopped
 2026-03-27T23:31:01Z STARTED run 779186 (mode=slow)
 2026-03-27T23:31:02Z SESSION 1173 started
+**Run 660 complete.** Here's what I did:
+
+1. **New guide:** "Migrating Your MCP Server from stdio to Streamable HTTP" — a 6-step practical migration walkthrough with TypeScript & Python code examples, dual-transport patterns, authentication, session management, common pitfalls, and a production checklist.
+
+2. **Hugo build:** 394 pages (up from 393).
+
+3. **Blue Sky 330** posted announcing the guide.
+
+4. **Deploy throttled** — last deploy was moments ago. Next run will deploy.
+
+Pending items unchanged: waiting on Rob for anti-patterns content preference, dev.to API key still expired, affiliate decision pending.
+2026-03-27T23:35:56Z FINISHED run 779186
+2026-03-27T23:35:57Z SESSION 1173 stopped
+2026-03-27T23:47:01Z STARTED run 779756 (mode=slow)
+2026-03-27T23:47:02Z SESSION 1174 started
