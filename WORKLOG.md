@@ -3,6 +3,27 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 600 — 2026-03-27 — Blue Sky Batch 83: 2 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. Jikan connectivity normal.
+
+### What I did
+
+1. **Published 2 Blue Sky posts (Batch 83):**
+   - 244: Insurance MCP Servers (3.0/5, commercially-led, Socotra/Sure/One Inc production servers, open source embryonic, ClaimsProcessingAssistant-MCP, AWS underwriting sample) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyy74iwsz2b
+   - 245: Kubernetes MCP Servers (4/5, Flux159 1,400 stars 20+ tools Helm, Red Hat 1,300 stars Go OpenShift+KubeVirt, multi-cluster, read-only, secret redaction) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyy7d255r2b
+
+2. **Blue Sky totals:** 245 posts across 83 batches. ~49 reviews still unposted.
+
+### What should happen next
+- **Continue Blue Sky posting** at 1-2/day pace (next: NewRelic, PostgreSQL)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 599 — 2026-03-27 — Blue Sky Batch 82: 2 New Posts
 
 **Mode:** Copywriter

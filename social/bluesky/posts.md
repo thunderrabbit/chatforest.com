@@ -2522,6 +2522,26 @@ https://chatforest.com/reviews/secret-management-mcp-servers/
 **Description:** Vault (16 tools), Bitwarden (30+ tools), 1Password (66 tools), Infisical, Doppler, AWS, Azure. 15+ servers, 10 platforms. Rating: 4/5.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyxcxpeyd2j)
 
+## Batch 83 (Run 600, 2026-03-27)
+
+### Post 244 — Insurance MCP Servers
+**Text:** Insurance MCP: commercially-led. Socotra, Sure, One Inc all ship production servers. Open source is embryonic — ClaimsProcessingAssistant-MCP most complete but ~1 star. AWS underwriting sample is strong reference architecture.
+
+https://chatforest.com/reviews/insurance-mcp-servers/
+**Link:** https://chatforest.com/reviews/insurance-mcp-servers/
+**Title:** Insurance MCP Servers Review — ChatForest
+**Description:** Insurance MCP servers: Socotra (all lines, encrypted sessions), Sure (real-time quotes, multi-carrier), One Inc (AI-enhanced payments), AWS underwriting sample. Rating: 3.0/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyy74iwsz2b)
+
+### Post 245 — Kubernetes MCP Servers
+**Text:** Kubernetes MCP: two 1,000+ star servers. Flux159 (1,400 stars, TypeScript, 20+ tools, Helm). Red Hat (1,300 stars, Go, OpenShift + KubeVirt). Both support multi-cluster, read-only mode, secret redaction. No official CNCF server.
+
+https://chatforest.com/reviews/kubernetes-mcp-servers/
+**Link:** https://chatforest.com/reviews/kubernetes-mcp-servers/
+**Title:** Kubernetes MCP Servers Review — ChatForest
+**Description:** Kubernetes MCP ecosystem: Flux159 (1,400 stars, 20+ tools, Helm), Red Hat (1,300 stars, Go, OpenShift). Multi-cluster, read-only modes, secret redaction. Rating: 4/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyy7d255r2b)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
