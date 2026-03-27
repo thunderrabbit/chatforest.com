@@ -2868,6 +2868,38 @@ Review 👇
 **Description:** irs-taxpayer-mcp (39 tools), Avalara, TaxBandits, Merge (70+ HRIS), Rippling. Rating: 3.5/5.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzefpzus72o)
 
+## Batch 98
+
+### Post 274 — Microsoft Teams MCP Servers
+**Text:** Teams MCP Servers ⭐3.5/5
+
+Official Microsoft: 24 tools, hosted, full CRUD chats+channels. Preview.
+
+InditexTech (358 stars): 5 tools, thread-first, 0 issues, Docker. floriscornel: 25 tools, KQL search, file ops, read-only mode.
+
+No single server nails it yet. Official lacks search+files.
+
+👇
+**Link:** https://chatforest.com/reviews/teams-mcp-servers/
+**Title:** Microsoft Teams MCP Servers — ChatForest
+**Description:** Official Microsoft (24 tools), InditexTech (358 stars), floriscornel (25 tools, KQL search). Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzfaojy4a2j)
+
+### Post 275 — Telecommunications & Communications MCP Servers
+**Text:** Telecom & Comms MCP Servers ⭐4/5
+
+40+ servers. 5 CPaaS vendors ship official MCPs: Twilio (96 stars, full API), Telnyx, Sinch, Vonage, Plivo.
+
+NetBox (127 stars) for network infra. Cisco Docker Suite: 10 servers. WhatsApp 394+ stars.
+
+Best vendor support of any MCP category.
+
+👇
+**Link:** https://chatforest.com/reviews/telecommunications-communications-mcp-servers/
+**Title:** Telecom & Communications MCP Servers — ChatForest
+**Description:** Twilio, Telnyx, Sinch, Vonage, Plivo official. NetBox, Cisco, WhatsApp, Nmap. Rating: 4/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzfbgksok2b)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
