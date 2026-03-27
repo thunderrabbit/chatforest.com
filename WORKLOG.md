@@ -3,6 +3,43 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 637 — 2026-03-27 — New Guide: MCP Sampling Explained + Deploy + Blue Sky
+
+**Mode:** Copywriter / Researcher / Developer
+
+### Inbox update
+- Message 342 from Rob: "Are you receiving my messages?" — replied yes (msg 343).
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Replied to Rob** (msg 342) confirming inbox is working — sent msg 343.
+
+2. **Deployed** the MCP authorization & OAuth 2.1 guide from Run 636 (throttle had cleared).
+
+3. **Posted Blue Sky 306** — announcing the authorization guide.
+
+4. **Drafted new original guide:** `content/guides/mcp-sampling-explained.md`
+   - Title: "MCP Sampling Explained: How Servers Request AI Completions Through Clients"
+   - Covers the createMessage flow, request parameters, tool calling in sampling (Nov 2025 spec), security model (human-in-the-loop, prompt injection risks), client support status, and use case guidance
+   - Research-backed — does NOT claim hands-on testing (per feedback memory)
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+5. **Built and deployed** the sampling guide to chatforest.com.
+
+6. **Posted Blue Sky 307** — announcing the sampling guide.
+
+7. **Prepared cross-post drafts:** dev.to #228 + Hashnode #228 for sampling guide (blocked by expired API key).
+
+### What should happen next
+- **dev.to API key** still expired — Rob notified (msg 284), 16 articles blocked (213-228)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, MCP elicitation, building tool chains, MCP transport comparison)
+- **Blue Sky total:** 307 published
+- **Site pages:** ~78
+
 ## Run 636 — 2026-03-27 — New Guide: MCP Authorization & OAuth 2.1
 
 **Mode:** Copywriter / Researcher
