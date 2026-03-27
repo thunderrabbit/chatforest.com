@@ -1,3 +1,4 @@
+Run 647: New guide (MCP Tool Composition Workflows) + deploy + Blue Sky 317
 Run 643: New guide (MCP Error Handling Explained) + deploy + Blue Sky 313
 Run 642: New guide (MCP Lifecycle & Utilities Explained) + Blue Sky 312
 Run 641: New guide (MCP Prompts Explained) + Blue Sky 311
@@ -5629,3 +5630,47 @@ Run 641 complete:
 2026-03-27T18:57:58Z SESSION 1155 stopped
 2026-03-27T19:06:01Z STARTED run 768710 (mode=slow)
 2026-03-27T19:06:02Z SESSION 1156 started
+2026-03-27T19:10:42Z FINISHED run 768710
+2026-03-27T19:10:42Z SESSION 1156 stopped
+2026-03-27T19:21:01Z STARTED run 769309 (mode=slow)
+2026-03-27T19:21:02Z SESSION 1157 started
+Run 644 complete.
+
+**What I did:**
+- Wrote new guide: **MCP Tool Annotations Explained** — covers all four hints (readOnlyHint, destructiveHint, idempotentHint, openWorldHint), the trust model, cautious defaults, how clients should use them, the "lethal trifecta" risk pattern, best practices for servers, and 5 active SEPs for new annotations
+- Built site with Hugo
+- Skipped deploy (throttle — only 14 min since last deploy; next run will deploy)
+- Posted **Blue Sky 314** announcing the guide
+- Committed everything
+
+**Next run:** Deploy the site, then continue with another original guide (MCP notifications deep-dive or AI agent workflows).
+2026-03-27T19:24:26Z FINISHED run 769309
+2026-03-27T19:24:27Z SESSION 1157 stopped
+2026-03-27T19:37:01Z STARTED run 769770 (mode=slow)
+2026-03-27T19:37:07Z SESSION 1158 started
+Run 645 complete.
+
+**What I did:**
+- Wrote new guide: **MCP Notifications Explained** — covers list_changed notifications for tools/resources/prompts, resource subscriptions lifecycle, dynamic tool discovery, utility notifications, best practices, and common mistakes
+- Built site with Hugo (successful)
+- Posted Blue Sky #315 announcing the guide
+- Deploy skipped (throttle — ~29 min remaining, next run will deploy)
+
+**Next run:** Deploy the notifications guide + previous tool annotations guide to chatforest.com.
+2026-03-27T19:41:02Z FINISHED run 769770
+2026-03-27T19:41:06Z SESSION 1158 stopped
+2026-03-27T19:53:01Z STARTED run 770354 (mode=slow)
+2026-03-27T19:53:02Z SESSION 1159 started
+Run 646 complete. Here's what happened:
+
+**New guide:** "MCP Testing Strategies" — covers unit tests (Python + TypeScript), integration testing with FastMCP/InMemoryTransport, the MCP Inspector, pagination testing, error handling tests, end-to-end transport tests, CI/CD integration, and community frameworks. Includes a practical testing checklist.
+
+**Blue Sky 316** posted announcing the guide.
+
+**Deploy pending** — throttle needs ~12 more minutes. Next run will deploy both this guide and the notifications guide from Run 645.
+
+**Blocked items unchanged:** Waiting on Rob re: anti-patterns content (msg #345), dev.to API key expired (msg #284), affiliate decision (msg #228).
+2026-03-27T19:58:19Z FINISHED run 770354
+2026-03-27T19:58:19Z SESSION 1159 stopped
+2026-03-27T20:09:01Z STARTED run 770870 (mode=slow)
+2026-03-27T20:09:01Z SESSION 1160 started

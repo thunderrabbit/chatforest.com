@@ -20,10 +20,14 @@ JIKAN_URL="https://mg.robnugen.com/api/v1/sessions"
 # Read mode (default: slow)
 MODE="$(cat "$MODEFILE" 2>/dev/null || echo slow)"
 
-# Stop mode: exit immediately (cron still runs, but does nothing)
-if [ "$MODE" = "stop" ]; then
+# /grove-once overpowers .grove_mode = stop
+if [ -f "$ONCEFILE" ]; then
+    rm -f "$ONCEFILE"
+    # fall through to run
+elif [ "$MODE" = "stop" ]; then
     exit 0
 fi
+
 
 # Determine effective interval based on peak hours
 # Peak: 5-11am PT (America/Los_Angeles) on weekdays

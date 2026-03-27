@@ -3,6 +3,44 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 647 — 2026-03-28 — New Guide: MCP Tool Composition Workflows + Deploy + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Deployed site** — testing strategies + notifications guides from Run 645/646 now live.
+
+2. **Drafted new original guide:** `content/guides/mcp-tool-composition-workflows.md`
+   - Title: "MCP Tool Composition: Building Multi-Server Workflows"
+   - Covers 5 composition patterns: sequential chains, parallel fan-out, routing, gateways/proxies, orchestrator-workers
+   - References mcp-agent framework, mcp-tool-chainer, MCPProxy, Lasso gateway, Virtual MCP Servers
+   - Practical architecture tips: designing outputs for chaining, tool descriptions, cross-chain error handling, token monitoring
+   - Pattern comparison table for choosing the right approach
+   - Links to related ChatForest guides (tool annotations, error handling, production, security)
+   - Research-backed — does NOT claim hands-on testing (per feedback memory)
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful, guide at `/guides/mcp-tool-composition-workflows/`
+
+4. **Posted Blue Sky 317** — announcing the tool composition guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi2wj6sbe62y).
+
+### What should happen next
+- **Deploy ready** — new guide built but deploy throttle active (just deployed this run). Next run can deploy.
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, MCP pagination, MCP testing in production, MCP logging/observability patterns)
+- **Blue Sky total:** 317 published
+- **Site pages:** ~88 (380+ Hugo pages including taxonomy/list pages)
+
 ## Run 646 — 2026-03-28 — New Guide: MCP Testing Strategies + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
