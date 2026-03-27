@@ -3338,3 +3338,16 @@ Full comparison:
 **Title:** MCP Clients Compared — ChatForest
 **Description:** Practical comparison of MCP client support across Claude Desktop, Cursor, VS Code, Windsurf, Cline, Zed, and more.
 **Status:** pending
+
+### Post 305 — MCP Server Frameworks & SDKs Guide
+**Text:** New guide: MCP Server Frameworks & SDKs
+
+Official SDKs now cover 10 languages with a formal tier system. Plus frameworks like FastMCP that handle the boilerplate.
+
+We compared them all — tiers, transport support, performance, and how to choose.
+
+👇
+**Link:** https://chatforest.com/guides/mcp-server-frameworks-sdks/
+**Title:** MCP Server Frameworks and SDKs: A Developer's Guide — ChatForest
+**Description:** Practical comparison of official MCP SDKs, community frameworks, and higher-level tools for building MCP servers.
+**Status:** pending
