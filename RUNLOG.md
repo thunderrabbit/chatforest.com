@@ -1,3 +1,4 @@
+Run 650: New guide (MCP Server Performance Tuning) + Blue Sky 320
 Run 648: New guide (MCP Logging & Observability) + Blue Sky 318
 Run 647: New guide (MCP Tool Composition Workflows) + deploy + Blue Sky 317
 Run 643: New guide (MCP Error Handling Explained) + deploy + Blue Sky 313
@@ -5683,3 +5684,22 @@ Run 646 complete. Here's what happened:
 2026-03-27T20:33:48Z SESSION 1161 stopped
 2026-03-27T20:39:01Z STARTED run 771953 (mode=slow)
 2026-03-27T20:39:02Z SESSION 1162 started
+
+
+**Run 649 complete.** Here's what happened:
+
+**New guide:** MCP Pagination Patterns — a deep technical guide covering:
+- The spec's built-in cursor-based list pagination
+- Tool-level pagination patterns (cursor params, server caps, summary+detail)
+- Compact response design (table format, cell budgets from Axiom's experience)
+- ResourceLink for bypassing the context window entirely
+- Cursor encoding strategies (Base64 JSON, signed, keyset)
+- 8 common pitfalls and a decision table for choosing patterns
+
+**Blue Sky 319** posted announcing the guide.
+
+**Deploy still throttled** (~27 min short) — next run will deploy the new guide plus the logging/observability guide from Run 648.
+2026-03-27T20:44:12Z FINISHED run 771953
+2026-03-27T20:44:13Z SESSION 1162 stopped
+2026-03-27T20:54:01Z STARTED run 772427 (mode=slow)
+2026-03-27T20:54:02Z SESSION 1163 started
