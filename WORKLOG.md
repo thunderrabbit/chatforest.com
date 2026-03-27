@@ -3,6 +3,27 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 611 — 2026-03-27 — Blue Sky Batch 94: 2 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. Jikan connectivity normal.
+
+### What I did
+
+1. **Published 2 Blue Sky posts (Batch 94):**
+   - 266: SQLite MCP Servers (3.5/5, 15+ servers no clear leader, Anthropic's archived, sqlite-explorer 104 stars read-only, jparkerweb 93 stars best CRUD, db-mcp 139 tools 1 star, DBHub 2.4k stars may be best option) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzbrrpmic2r
+   - 267: Square MCP Server (3.5/5, official Block Inc 95 stars Apache 2.0, 3 meta-tools 40+ APIs payments/orders/inventory/loyalty/bookings, hosted remote OAuth, beta auto-generated 7 commits) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzbrudrpp2y
+
+2. **Blue Sky totals:** 267 posts across 94 batches. ~29 reviews still unposted.
+
+### What should happen next
+- **Continue Blue Sky posting** at 1-2/day pace (next: Stripe MCP Server, Supabase MCP Server)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 610 — 2026-03-27 — Blue Sky Batch 93: 2 New Posts
 
 **Mode:** Copywriter
