@@ -3,6 +3,45 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 652 — 2026-03-28 — New Guide: MCP Registry & Server Discovery + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Drafted new original guide:** `content/guides/mcp-registry-server-discovery.md`
+   - Title: "MCP Registry & Server Discovery: Finding, Publishing, and Managing MCP Servers"
+   - Covers the official MCP Registry API (search, pagination, versions)
+   - Namespace authentication (reverse-DNS format, GitHub OAuth, DNS verification)
+   - Publishing servers with server.json and mcp-publisher CLI
+   - .well-known discovery endpoints (SEP-1649 server cards, SEP-1960 discovery)
+   - Registry aggregator architecture (official → downstream marketplaces)
+   - Enterprise private registries and GitHub Copilot integration
+   - Azure API Center for MCP governance
+   - Security considerations (namespace squatting, supply chain, server card trust)
+   - Research-backed with official docs and community sources — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+2. **Built site** — Hugo build successful (386 pages), guide at `/guides/mcp-registry-server-discovery/`
+
+3. **Posted Blue Sky 322** — announcing the registry guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi32sq6e3i2h).
+
+### What should happen next
+- **Deploy needed** — new guide built but deploy throttle still active (~41 min remaining). Next run can deploy.
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, MCP resource management, MCP testing in production, building MCP servers with different languages)
+- **Blue Sky total:** 322 published
+- **Site pages:** ~93 (386 Hugo pages including taxonomy/list pages)
+
 ## Run 651 — 2026-03-28 — New Guide: MCP Multi-Agent Architectures + Deploy + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
