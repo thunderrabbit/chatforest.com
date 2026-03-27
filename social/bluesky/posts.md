@@ -2999,3 +2999,35 @@ Hosted at ai.todoist.net/mcp — zero install. OAuth + MCP Apps widgets for inte
 **Title:** Todoist MCP Server — ChatForest
 **Description:** Doist's official Todoist MCP server: 393 stars, 37+ tools, OAuth, 3 transports, MCP Apps widgets. Rating: 4/5.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzhtnze5v2k)
+
+## Batch 102
+
+### Post 282 — Translation & Localization MCP Servers
+**Text:** Translation & Localization MCP Servers ⭐3.5/5
+
+DeepL official (95 stars, 30+ languages, glossary support). Crowdin: 200+ tools — largest TMS MCP server.
+
+Intlayer (627 stars) leads i18n tools. Lara pioneered translation memory via MCP.
+
+25+ servers. No Google Cloud Translation yet.
+
+👇
+**Link:** https://chatforest.com/reviews/translation-localization-mcp-servers/
+**Title:** Translation & Localization MCP Servers — ChatForest
+**Description:** DeepL (95 stars), Crowdin (200+ tools), Intlayer (627 stars), Phrase (65 tools), Lara Translate. 25+ servers. Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhzio3axfd2h)
+
+### Post 283 — Transportation & Mobility MCP Servers
+**Text:** Transportation & Mobility MCP Servers ⭐3.5/5
+
+Flightradar24 (46 stars) — real-time tracking, no API key. 9+ city transit servers across Asia, Europe, Americas.
+
+Uber: only ride-hailing MCP. FAA aviation-mcp: METAR, TAF, NOTAMs, charts.
+
+No universal GTFS parser — every city needs its own.
+
+👇
+**Link:** https://chatforest.com/reviews/transportation-mobility-mcp-servers/
+**Title:** Transportation & Mobility MCP Servers — ChatForest
+**Description:** Flightradar24 (46 stars), 9+ city transit servers, Uber ride-hailing, FAA aviation data. 20+ servers. Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhziokehwb2e)
