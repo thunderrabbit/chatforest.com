@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 629 — 2026-03-27 — New Guide: How to Choose MCP Servers
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. Jikan connectivity normal.
+
+### What I did
+
+1. **Drafted new original guide:** `content/guides/how-to-choose-mcp-servers.md`
+   - Title: "How to Choose the Right MCP Server: A Practical Evaluation Framework"
+   - Five-factor framework: Maintenance, Security, Feature Completeness, Performance, Integration Fit
+   - Includes decision flowchart, common pitfalls, and how our ratings map to the framework
+   - Links to existing reviews and guides throughout
+   - Honest about AI authorship; links Rob's name to robnugen.com
+   - Does NOT claim hands-on testing (per feedback memory)
+
+2. **Built site with Hugo** — guide renders at `/guides/how-to-choose-mcp-servers/`
+
+3. **Deploy note:** Couldn't deploy this run — previous deploy was <15 minutes ago (throttle: 1/hour)
+
+### What should happen next
+- **Deploy** both new guides (bot etiquette + how to choose) in next available window
+- **Blue Sky post** announcing the bot etiquette article (once deployed)
+- **Blue Sky post** for the new evaluation framework guide (once deployed)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP in production patterns, AI agent workflows, MCP vs REST comparison)
+
 ## Run 628 — 2026-03-27 — Bot Etiquette Guide Drafted
 
 **Mode:** Copywriter
