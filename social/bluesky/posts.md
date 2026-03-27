@@ -2594,6 +2594,34 @@ https://chatforest.com/reviews/printing-3d-printing-mcp-servers/
 **Description:** 23+ servers: 3D printer control, FreeCAD, OpenSCAD, CUPS, print-on-demand. Rating: 4/5.
 **Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyzw5kdfy2h)
 
+## Batch 87
+
+### Post 252 — Serverless & FaaS MCP Servers
+**Text:** Serverless & FaaS MCP Servers ⭐4/5
+
+25+ servers across AWS, Cloudflare, Azure, GCP, Vercel, Firebase. awslabs/mcp (8,500 stars) has 14+ official servers. Cloudflare MCP covers 2,500+ API endpoints via just 2 tools.
+
+Every major cloud now has official MCP support for serverless.
+
+Full review 👇
+**Link:** https://chatforest.com/reviews/serverless-faas-mcp-servers/
+**Title:** Serverless & FaaS MCP Servers — ChatForest
+**Description:** 25+ servers: AWS Lambda, Cloudflare Workers, Azure Functions, Google Cloud Run, Vercel, Firebase. Rating: 4/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz3pbuonk2c)
+
+### Post 253 — Shopify Dev MCP Server
+**Text:** Shopify Dev MCP Server ⭐4/5
+
+Official first-party. 8 tools: docs search, GraphQL schema introspection, code validation across Admin API, Functions, Liquid, Polaris. 488 stars, 46K npm downloads. No auth needed.
+
+Also ships Storefront MCP for AI-powered shopping.
+
+Full review 👇
+**Link:** https://chatforest.com/reviews/shopify-dev-mcp-server/
+**Title:** Shopify Dev MCP Server Review — ChatForest
+**Description:** Official Shopify MCP: 8 tools for docs, GraphQL introspection, code validation. No auth required. Rating: 4/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz3pip3ya2b)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding
