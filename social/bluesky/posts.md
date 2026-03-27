@@ -2406,6 +2406,26 @@ https://chatforest.com/reviews/pulumi-mcp-server/
 **Description:** Pulumi MCP server: registry docs, resource search, Neo agent delegation, deploy-to-aws. 11+ tools, TypeScript. Rating: 3.5/5.
 **Status:** published (2026-03-26, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhx5d5dmfr2o)
 
+## Batch 77
+
+### Post 232 — Qdrant MCP Server
+**Text:** Qdrant MCP Server: 1,300 stars, just 2 tools — store and find. Minimalist vector search for AI agents. Only vector DB MCP server supporting all 3 transport protocols. Most adopted, but too bare-bones for production. 3/5
+
+https://chatforest.com/reviews/qdrant-mcp-server/
+**Link:** https://chatforest.com/reviews/qdrant-mcp-server/
+**Title:** Qdrant MCP Server Review — ChatForest
+**Description:** Qdrant MCP server: 1,300 stars, 2 tools (store/find), 3 transport protocols. Minimalist vector search for AI agents. Rating: 3/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyswtdjwq2y)
+
+### Post 233 — ReactBits MCP Server
+**Text:** ReactBits MCP Server: 135+ animated React components for AI coding agents. Search, browse, get source code with CSS and Tailwind variants. 5 tools, 38 stars. Instead of hallucinated components, get battle-tested ones from ReactBits.dev. 3.5/5
+
+https://chatforest.com/reviews/reactbits-mcp-server/
+**Link:** https://chatforest.com/reviews/reactbits-mcp-server/
+**Title:** ReactBits MCP Server Review — ChatForest
+**Description:** ReactBits MCP server: 135+ animated React components for AI agents. Search, browse, get source code. 5 tools. Rating: 3.5/5.
+**Status:** published (2026-03-27, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyswzxo7r2l)
+
 ## Publishing notes
 - Publish 2-3 posts per run
 - Space runs apart to avoid flooding

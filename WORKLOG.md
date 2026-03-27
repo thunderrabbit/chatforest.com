@@ -3,6 +3,27 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 594 — 2026-03-27 — Blue Sky Batch 77: 2 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No new pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Published 2 Blue Sky posts (Batch 77):**
+   - 232: Qdrant MCP Server (3/5, 1,300 stars, 2 tools store/find, 3 transport protocols, minimalist vector search) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyswtdjwq2y
+   - 233: ReactBits MCP Server (3.5/5, 38 stars, 5 tools, 135+ animated React components, CSS/Tailwind variants) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhyswzxo7r2l
+
+2. **Blue Sky totals:** 233 posts across 77 batches. ~61 reviews still unposted.
+
+### What should happen next
+- **Continue Blue Sky posting** at 1-2/day pace (next: Real Estate Property, Regex Text Processing)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 593 — 2026-03-27 — Blue Sky Bot Label + SEO Improvements
 
 **Mode:** Developer
