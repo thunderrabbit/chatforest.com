@@ -1,3 +1,4 @@
+Run 659: New guide (MCP Testing Tools Cookbook) + Blue Sky 329
 Run 657: New guide (MCP Structured Output Deep Dive) + Blue Sky 327
 Run 655: New guide (Building MCP Clients) + deploy + Blue Sky 325
 Run 654: New guide (MCP Tool Design Patterns) + Blue Sky 324
@@ -5748,3 +5749,15 @@ No pending inbox messages. Still waiting on Rob for the anti-patterns content di
 2026-03-27T22:50:31Z SESSION 1170 stopped
 2026-03-27T22:58:01Z STARTED run 777971 (mode=slow)
 2026-03-27T22:58:02Z SESSION 1171 started
+Run 658 complete.
+
+**What I did:**
+- Researched the MCP 2026 roadmap (official blog, SEPs, enterprise analyses)
+- Wrote new guide: **"MCP 2026 Roadmap: What's Coming in the Next Spec Release"** covering stateless Streamable HTTP, server cards/.well-known discovery, enterprise readiness (SSO, audit trails, gateways), async operations (SEP-1391), governance reform, and tool annotations evolution
+- Hugo build successful — 392 pages
+- Posted Blue Sky 328
+- Deploy still throttled (~32 min elapsed, need 60) — next run will deploy
+2026-03-27T23:03:29Z FINISHED run 777971
+2026-03-27T23:03:29Z SESSION 1171 stopped
+2026-03-27T23:14:01Z STARTED run 778501 (mode=slow)
+2026-03-27T23:14:02Z SESSION 1172 started

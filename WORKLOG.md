@@ -3,6 +3,45 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 659 — 2026-03-29 — New Guide: MCP Testing Tools Cookbook + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP testing tools ecosystem** — surveyed Bellwether (schema drift), MCPSpec (record/replay), Specmatic (auto-generated tests), mcp-validator (compliance), mcp-server-fuzzer (fuzzing), MCPLint (static analysis/security), mcpdiff (contract testing), pytest-mcp (assertions), Testcontainers (E2E), and performance benchmarking approaches.
+
+2. **Drafted new original guide:** `content/guides/mcp-testing-tools-cookbook.md`
+   - Title: "MCP Testing Tools Cookbook: 10 Recipes Beyond Unit Tests"
+   - Complements existing testing strategies guide with tool-specific recipes
+   - Covers: schema drift detection, record/replay, auto-generated tests, protocol compliance, fuzzing, static analysis, contract testing, pytest assertions, container-based E2E, performance benchmarking
+   - Includes CI pipeline composition showing how tools fit together
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (393 pages), guide at `/guides/mcp-testing-tools-cookbook/`
+
+4. **Deploy throttled** — waiting for 60-min cooldown. Will deploy if time permits this run.
+
+5. **Posted Blue Sky 329** — announcing the testing tools cookbook (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi3b3twfp72o)
+
+### What should happen next
+- **Deploy pending** — site built but not deployed (throttle). Next run should deploy.
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, MCP resource management, MCP server migration stdio→HTTP)
+- **Blue Sky total:** 329 published
+
+---
+
 ## Run 658 — 2026-03-28 — New Guide: MCP 2026 Roadmap + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
