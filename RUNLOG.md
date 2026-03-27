@@ -1,3 +1,10 @@
+Run 642: New guide (MCP Lifecycle & Utilities Explained) + Blue Sky 312
+Run 641: New guide (MCP Prompts Explained) + Blue Sky 311
+Run 640: New guide (MCP Resources & Roots Explained) + Blue Sky 310
+Run 639: New guide (MCP Elicitation Explained) + deploy + Blue Sky 309
+Run 638: New guide (MCP Transports Explained) + deploy + Blue Sky 308
+Run 637: New guide (MCP Sampling Explained) + deploy + Blue Sky 307
+Run 636: New guide (MCP Authorization & OAuth) + deploy + Blue Sky 306
 Run 635: New guide (MCP Frameworks & SDKs) + deploy 3 guides + Blue Sky posts 299, 300, 305
 Run 634: New Guide: MCP Clients Comparison — practical comparison of 10 major MCP clients
 Run 633: New Guide: Debugging MCP Servers — practical troubleshooting guide
@@ -5526,3 +5533,94 @@ Run 634 complete. Here's what happened:
 2026-03-27T11:23:14Z SESSION 1147 stopped
 2026-03-27T11:30:01Z STARTED run 756202 (mode=slow)
 2026-03-27T11:30:02Z SESSION 1148 started
+2026-03-27T11:47:41Z FINISHED run 756202
+2026-03-27T11:47:43Z SESSION 1148 stopped
+2026-03-27T11:48:01Z STARTED run 756993 (mode=slow)
+2026-03-27T11:48:02Z SESSION 1149 started
+Run 636 complete. Here's what I did:
+
+**New guide: MCP Authorization & OAuth 2.1** (`content/guides/mcp-authorization-oauth.md`)
+- Full walkthrough of the OAuth 2.1 authorization flow for remote MCP servers
+- Covers discovery (RFC 9728), PKCE, Dynamic Client Registration (RFC 7591), Resource Indicators (RFC 8707)
+- Security risks section: confused deputy problem, over-permissioned tokens, token theft, consent fatigue
+- Auth provider comparison: Cloudflare, Auth0, Stytch, Descope
+- Implementation checklist for servers, clients, and auth servers
+
+**Also prepared:**
+- Blue Sky post 306 (pending deploy)
+- dev.to #227 + Hashnode #226 cross-post drafts (blocked by expired API key)
+
+**Pending:** Deploy is throttled (~55 min). Guide will go live next run.
+2026-03-27T11:53:17Z FINISHED run 756993
+2026-03-27T11:53:17Z SESSION 1149 stopped
+2026-03-27T14:48:01Z STARTED run 762547 (mode=slow)
+2026-03-27T14:48:02Z SESSION 1150 started
+Run 637 complete. Here's what I did:
+
+1. **Replied to Rob** (msg 342) — confirmed inbox is working
+2. **Deployed** the authorization guide from Run 636 + posted **Blue Sky 306**
+3. **Wrote new guide:** "MCP Sampling Explained" — covers the createMessage flow, security model, tool calling in sampling, client support status, and use cases
+4. **Deployed** the sampling guide + posted **Blue Sky 307**
+5. **Prepared cross-post drafts** (dev.to #228, Hashnode #228) — still blocked by expired API key
+6. **Committed** everything
+
+Site now has ~78 pages. Blue Sky total: 307 posts.
+2026-03-27T14:54:00Z FINISHED run 762547
+2026-03-27T14:54:00Z SESSION 1150 stopped
+2026-03-27T17:49:01Z STARTED run 765945 (mode=slow)
+2026-03-27T17:49:02Z SESSION 1151 started
+Run 638 complete. Here's what I did:
+
+1. **Replied to Rob** (msg 345) about his "things not to do" question — the bot etiquette guide is already live, offered to write a focused anti-patterns piece or Blue Sky series per his preference.
+
+2. **Wrote new guide:** "MCP Transports Explained: stdio vs Streamable HTTP (and Why SSE Was Deprecated)" — covers how both transports work technically, when to use each, the SSE deprecation timeline, backwards compatibility, and what's coming in the 2026 roadmap.
+
+3. **Built and deployed** to chatforest.com.
+
+4. **Posted Blue Sky 308** announcing the guide.
+
+5. **Committed** all changes.
+2026-03-27T17:55:51Z FINISHED run 765945
+2026-03-27T17:55:52Z SESSION 1151 stopped
+2026-03-27T18:04:01Z STARTED run 766448 (mode=slow)
+2026-03-27T18:04:03Z SESSION 1152 started
+Run 639 complete. Here's what I did:
+
+1. **New guide: MCP Elicitation Explained** — comprehensive guide covering:
+   - Form mode (structured JSON Schema data collection) and URL mode (out-of-band interactions for credentials/OAuth)
+   - Full protocol walkthrough: capability negotiation, request/response format, three-action model
+   - URL mode specifics: URLElicitationRequiredError, completion notifications, OAuth flow patterns, phishing prevention
+   - Real-world use cases, client support table, security model, and comparison with sampling
+   
+2. **Built and deployed** to chatforest.com (373 Hugo pages)
+
+3. **Blue Sky post 309** published announcing the guide
+
+4. **Committed** all changes
+
+**Still waiting on:** Rob's preference on anti-patterns content (msg #345), dev.to API key renewal, STRATEGY.md review.
+2026-03-27T18:09:39Z FINISHED run 766448
+2026-03-27T18:09:40Z SESSION 1152 stopped
+2026-03-27T18:20:01Z STARTED run 767065 (mode=slow)
+2026-03-27T18:20:02Z SESSION 1153 started
+**Run 640 complete.** Here's what I did:
+
+- **New guide:** "MCP Resources and Roots Explained" — covers the two often-overlooked MCP primitives. Resources let servers expose context data (files, schemas, configs); roots let clients define filesystem boundaries. Full protocol details, templates, subscriptions, annotations, security model.
+- **Hugo build:** 374 pages (up from 373)
+- **Blue Sky #310** posted announcing the guide
+- **Deploy deferred** — only 14 min since last deploy; will deploy next run when throttle clears
+- **No inbox messages** — still waiting on Rob re: anti-patterns content direction
+2026-03-27T18:24:40Z FINISHED run 767065
+2026-03-27T18:24:40Z SESSION 1153 stopped
+2026-03-27T18:35:01Z STARTED run 767579 (mode=slow)
+2026-03-27T18:35:02Z SESSION 1154 started
+Run 641 complete:
+
+- **New guide:** "MCP Prompts Explained: How Servers Share Reusable Prompt Templates" — covers the third MCP primitive (after tools and resources), including discovery flow, content types, multi-turn prompts, dynamic arguments, and security considerations
+- **Blue Sky 311** posted announcing the guide
+- **Fixed posts.md** — added missing entry for post 310
+- **Deploy deferred** — throttle still active (~30 min remaining), next run will deploy
+2026-03-27T18:39:56Z FINISHED run 767579
+2026-03-27T18:39:57Z SESSION 1154 stopped
+2026-03-27T18:51:01Z STARTED run 768121 (mode=slow)
+2026-03-27T18:51:07Z SESSION 1155 started
