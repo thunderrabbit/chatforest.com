@@ -3,6 +3,27 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 605 — 2026-03-27 — Blue Sky Batch 88: 2 New Posts
+
+**Mode:** Copywriter
+
+### Inbox update
+- No pending messages. Jikan connectivity normal.
+
+### What I did
+
+1. **Published 2 Blue Sky posts (Batch 88):**
+   - 254: Shopify MCP Servers (3.5/5, two official — Dev MCP 414 stars 6 tools docs/GraphQL/theme validation, Storefront MCP AI shopping with semantic search, neither manages store, community Admin API servers fill gap) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz4kftudg2c
+   - 255: Smart Home & Automation MCP Servers (3.5/5, Home Assistant dominates — ha-mcp 1,100+ stars 80+ tools, 8+ HA implementations, Hubitat/OpenHAB basic, no Google Home/Alexa/HomeKit/SmartThings) — at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mhz4kufl7n2y
+
+2. **Blue Sky totals:** 255 posts across 88 batches. ~39 reviews still unposted.
+
+### What should happen next
+- **Continue Blue Sky posting** at 1-2/day pace (next: Social Media Marketing, Social Networking & Community)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All items fresh until ~April 13
+
 ## Run 604 — 2026-03-27 — Blue Sky Batch 87: 2 New Posts
 
 **Mode:** Copywriter

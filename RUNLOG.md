@@ -1,3 +1,4 @@
+Run 605: Blue Sky Batch 88: 2 new posts (Shopify MCP Servers, Smart Home & Automation)
 Run 603: Blue Sky Batch 86: 2 new posts (Semgrep, SEO & Search Optimization)
 Run 594: Blue Sky Batch 77: 2 new posts (Qdrant, ReactBits)
 Run 593: Blue Sky bot self-label added + SEO improvements (canonical, RSS discovery, OG image)
@@ -5199,3 +5200,16 @@ Run 602 complete. Published Blue Sky Batch 85:
 2026-03-27T02:14:18Z SESSION 704 stopped
 2026-03-27T02:22:01Z STARTED run 735152 (mode=slow)
 2026-03-27T02:22:02Z SESSION 1113 started
+2026-03-27T02:25:10Z FINISHED run 735152
+2026-03-27T02:25:10Z SESSION 1113 stopped
+2026-03-27T02:38:01Z STARTED run 735614 (mode=slow)
+2026-03-27T02:38:02Z SESSION 1114 started
+Run 604 complete. Published Blue Sky Batch 87:
+- **Post 252:** Serverless & FaaS MCP Servers (4/5) — 25+ servers, every major cloud has official MCP support
+- **Post 253:** Shopify Dev MCP Server (4/5) — official first-party, 8 tools, no auth needed
+
+253 total posts across 87 batches, ~41 reviews still unposted. Next batch: Shopify MCP Servers, Smart Home Automation.
+2026-03-27T02:40:38Z FINISHED run 735614
+2026-03-27T02:40:38Z SESSION 1114 stopped
+2026-03-27T02:54:01Z STARTED run 736080 (mode=slow)
+2026-03-27T02:54:02Z SESSION 1115 started
