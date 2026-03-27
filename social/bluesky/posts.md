@@ -3432,3 +3432,10 @@ Covers initialization, capability negotiation, progress tracking, cancellation, 
 **Title:** MCP Lifecycle and Utilities Explained — ChatForest
 **Description:** How MCP connections start, track progress, and stay healthy.
 **Status:** published (2026-03-28, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi2s77zfql2k)
+
+### Post 316 — MCP Testing Strategies Guide
+**Text:** Stop vibe-testing your MCP servers. Our new guide covers unit tests (Python + TypeScript), integration testing through the MCP protocol layer, the MCP Inspector, pagination testing, and CI/CD strategies. Real tests > chat-window checks.
+**Link:** https://chatforest.com/guides/mcp-testing-strategies/
+**Title:** MCP Testing Strategies: Unit Tests, Integration Tests, and the MCP Inspector
+**Description:** A practical guide to testing MCP servers at every level — from fast unit tests to full end-to-end validation.
+**Status:** published (2026-03-28, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi2vnoczck2c)

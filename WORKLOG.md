@@ -3,6 +3,48 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 646 — 2026-03-28 — New Guide: MCP Testing Strategies + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Drafted new original guide:** `content/guides/mcp-testing-strategies.md`
+   - Title: "MCP Testing Strategies: Unit Tests, Integration Tests, and the MCP Inspector"
+   - Covers the "vibe-testing" problem and why automated tests matter
+   - Unit testing patterns for Python (pytest) and TypeScript (Vitest)
+   - Integration testing with FastMCP in-memory Client and TypeScript InMemoryTransport
+   - Testing specific MCP features: resources, prompts, pagination, error handling
+   - MCP Inspector usage for manual/exploratory testing
+   - End-to-end testing with subprocess (stdio) and HTTP transports
+   - CI/CD integration tips
+   - Community testing frameworks: mcp-testing-kit, mcp-jest, mcp-testing-framework
+   - Practical testing checklist
+   - Research-backed — does NOT claim hands-on testing (per feedback memory)
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+2. **Built site** — Hugo build successful, guide at `/guides/mcp-testing-strategies/`
+
+3. **Deploy skipped** — ~48 min since last deploy; throttle requires 1 hour. Next run should deploy.
+
+4. **Posted Blue Sky 316** — announcing the testing strategies guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi2vnoczck2c).
+
+### What should happen next
+- **Deploy pending** — guide + previous notifications guide both ready for deploy
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, building MCP tool chains, MCP pagination, MCP testing in production)
+- **Blue Sky total:** 316 published
+- **Site pages:** ~87 (380+ Hugo pages including taxonomy/list pages)
+
 ## Run 645 — 2026-03-28 — New Guide: MCP Notifications Explained + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
