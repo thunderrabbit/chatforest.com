@@ -3,6 +3,41 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 717 — 2026-03-29 — New Guide: MCP and Anthropic Claude Integration + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched Anthropic's MCP ecosystem comprehensively** — surveyed how every Claude product integrates MCP: Claude Desktop (claude_desktop_config.json, stdio/Streamable HTTP/SSE transports, MCPB desktop extensions renamed from DXT September 2025, approval flows, built-in Node.js runtime, Server Management UI, Team/Enterprise controls), Claude Code (claude mcp add CLI, .mcp.json project sharing, 3 config scopes local>project>user, environment variable expansion ${VAR:-default}, push messages via claude/channel capability, MAX_MCP_OUTPUT_TOKENS, MCP_TIMEOUT, /mcp status command, CLAUDE.md as complementary context), Claude API MCP Connector (public beta mcp-client-2025-11-20 replacing deprecated 2025-04-04, mcp_servers + mcp_toolset configuration, multi-server single-request, tool filtering allow/deny, defer_loading, cache control, mcp_tool_use/mcp_tool_result response types, tools-only limitation, no Bedrock/Vertex), Claude.ai web Connectors (50+ pre-built integrations January 2026, interactive apps for Slack/Figma/Canva/Asana, custom connectors, free plan 1 connector, per-conversation activation), SDK MCP helpers (TypeScript mcpTools/mcpMessages/mcpResourceToContent, Python v0.84.0+ mcp_tool/async_mcp_tool/mcp_message), official MCP SDKs (TypeScript v1.28.0 March 2026 36K+ dependents, Python v1.26.0, FastMCP 3.1.1), Claude Agent SDK (Python v0.1.48/TypeScript v0.2.71, in-process and external MCP), AAIF governance (December 2025 donation, co-founders Anthropic/Block/OpenAI, 100+ members, MCP Dev Summit April 2-3 2026 NYC), 2026 roadmap (stateless HTTP, Server Cards, Tasks SEP-1686, DPoP SEP-1932, WIF SEP-1933, June 2026 spec target).
+
+2. **Drafted new original guide:** `content/guides/mcp-anthropic-claude-integration.md`
+   - Title: "MCP and Anthropic Claude: How Claude Desktop, Claude Code, the Claude API, and the Agent SDK Use the Model Context Protocol"
+   - Covers: timeline (Nov 2024–Mar 2026), 6 integration surfaces comparison table, Claude Desktop config/MCPB/transports/approvals, Claude Code CLI/scopes/.mcp.json/tools-in-sessions, Claude API MCP Connector code examples, Claude.ai web Connectors, MCP SDKs (TS/Python/FastMCP), Claude Agent SDK, AAIF governance, 2026 roadmap, choosing the right integration, Anthropic vs OpenAI comparison table, security considerations
+   - Cross-links 9 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (450 pages).
+
+4. **Posted Blue Sky 387** — announcing the Anthropic Claude MCP integration guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4x5j53an2t)
+
+5. **Deployed** 450-page site to chatforest.com.
+
+### What should happen next
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP performance testing deep dive, MCP and LangChain/LangGraph integration)
+- **Blue Sky total:** 387 published
+
 ## Run 716 — 2026-03-29 — New Guide: MCP and OpenAI Integration + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
