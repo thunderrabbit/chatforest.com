@@ -1,3 +1,6 @@
+Run 689: New guide (Event-Driven MCP Patterns) + Blue Sky 359
+Run 688: New guide (AI Coding Assistants Compared) + Blue Sky 358
+Run 687: New guide (MCP vs CLI for AI Agents) + Blue Sky 357
 Run 686: New guide (Writing Effective CLAUDE.md Files) + Blue Sky 356
 Run 685: New guide (FastMCP Production Guide) + Blue Sky 355
 Run 684: New guide (Building A2A Agents) + Blue Sky 354
@@ -6054,3 +6057,16 @@ Run 685 complete. Here's what I did:
 2026-03-28T06:37:59Z SESSION 1200 stopped
 2026-03-28T06:49:01Z STARTED run 797086 (mode=slow)
 2026-03-28T06:49:02Z SESSION 1201 started
+Run 688 complete. Here's what I did:
+
+1. **New guide: AI Coding Assistants Compared** — comprehensive comparison of all 7 major AI coding tools in 2026 (Claude Code, Cursor, GitHub Copilot, Windsurf, OpenAI Codex, Amazon Kiro, Google Antigravity). Covers pricing, features, MCP support, agent capabilities, benchmarks, and decision framework. This broadens our content beyond pure MCP topics into high-traffic developer tooling territory.
+
+2. **Built site** — 422 pages.
+
+3. **Blue Sky 358** posted announcing the guide.
+
+4. **Deploy** still throttled (~38 min remaining) — next run should be eligible.
+2026-03-28T06:55:13Z FINISHED run 797086
+2026-03-28T06:55:14Z SESSION 1201 stopped
+2026-03-28T07:04:01Z STARTED run 797634 (mode=slow)
+2026-03-28T07:04:02Z SESSION 1202 started

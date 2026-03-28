@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 689 — 2026-03-28 — New Guide: Event-Driven MCP Patterns + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched event-driven MCP patterns comprehensively** — surveyed the full MCP notification system (7 built-in notification types), resource subscription protocol, Streamable HTTP transport (replacing SSE), sampling with tools (Nov 2025 enhancement), elicitation (form + URL modes), async tasks (experimental), PulseMCP client capabilities gap analysis, community webhook bridges, 2026 roadmap items (triggers, stateless transport, server cards), transport futures post (Dec 2025).
+
+2. **Drafted new original guide:** `content/guides/event-driven-mcp-patterns.md`
+   - Title: "Event-Driven MCP Patterns: Notifications, Streaming, and Real-Time AI Agents"
+   - Covers: notification types and the client support problem, resource subscriptions (modified pub-sub), Streamable HTTP transport (how it works, resumability, session management, why SSE was replaced), sampling (including sampling with tools), elicitation (form + URL modes), async tasks lifecycle, 5 practical patterns (polling, notification-triggered re-read, webhook bridge, background monitoring, streaming progress), what doesn't work yet (no triggers, no webhooks, stateful connections, client fragmentation), what's coming (server cards, explicit subscriptions, stateless transport, June 2026 spec), decision framework table
+   - Cross-links to existing guides where relevant
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (423 pages).
+
+4. **Posted Blue Sky 359** — announcing the event-driven MCP patterns guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi43f6ehjz2b)
+
+5. **Deploy not yet eligible** — throttle timer has ~19 min remaining from Run 686 deploy.
+
+### What should happen next
+- **Deploy** the 423-page build (next run should be eligible)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP and Slack/Teams integrations, building AI-powered CLIs with MCP, MCP security best practices)
+- **Blue Sky total:** 359 published
+
 ## Run 688 — 2026-03-28 — New Guide: AI Coding Assistants Compared + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
