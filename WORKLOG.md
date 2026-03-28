@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 724 — 2026-03-29 — New Guide: CI/CD Platform MCP Integrations + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched CI/CD platform MCP integrations comprehensively** — surveyed GitHub MCP Server (26,400+ stars, GA September 2025, Lockdown mode, OAuth scope filtering), Claude Code Action (September 2025, interactive + automation modes, 5+ workflow recipes), GitHub Actions-specific MCP (ko1ynnky, 40 stars), GitLab built-in MCP (18.6+, Premium/Ultimate, OAuth dynamic registration, `manage_pipeline` tool), Claude Code GitLab CI/CD (beta, Bedrock/Vertex/API support), Jenkins MCP Plugin (official, Java SDK v0.17.2, spec 2025-06-18), CircleCI MCP (9 CI-focused tools: `get_build_failure_logs`/`find_flaky_tests`/`run_rollback_pipeline`), Argo CD MCP (akuity, 379 stars, GitOps management), Tekton MCP (official project, v1.3.1 LTS, CRD operations), Azure DevOps MCP (GA late 2025, Microsoft Foundry zero-install), Harness MCP (DORA metrics, AWS Marketplace), CloudBees Unify MCP (enterprise DevSecOps, MTTR reduction), AI code review patterns (CodeRabbit MCP context, Qodo/pr-agent, Claude Code Action fleet review), AI testing patterns (failure analysis, flaky test detection, multi-agent testing workflows), OWASP MCP Top 10 (MCP01 token mismanagement, MCP03 tool poisoning, MCP04 supply chain, MCP05 command injection, MCP06 intent flow subversion, MCP09 shadow servers), Astrix security statistics (88% require creds, 53% static keys, 8.5% OAuth), CVE-2025-6514 (mcp-remote RCE, CVSS 9.6, 437K downloads), Postmark supply chain breach, Supabase Cursor agent incident, Docker MCP Catalog (300+ verified servers), Vault MCP Server (secrets management), architecture patterns (facade/adapter/sidecar/event-driven).
+
+2. **Drafted new original guide:** `content/guides/mcp-cicd-platform-integrations.md`
+   - Title: "CI/CD Platform MCP Servers: How GitHub, GitLab, Jenkins, CircleCI, and Argo CD Connect to AI Agents"
+   - Covers: 9 platform deep dives (GitHub Actions/GitLab CI/Jenkins/CircleCI/Argo CD/Tekton/Azure DevOps/Harness/CloudBees) with tool inventories and setup details, platform comparison table, AI code review patterns (3 approaches), AI-powered testing in CI (failure analysis, flaky detection, multi-agent workflows), 4 architecture patterns (facade/adapter/sidecar/event-driven), OWASP MCP Top 10 in CI/CD context, ecosystem security statistics, real incident case studies (Supabase/Postmark/CVE-2025-6514), Docker MCP Catalog for supply chain safety, Vault MCP for secrets, 6 security best practices, getting started recommendations per platform
+   - Cross-links 12 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (457 pages).
+
+4. **Posted Blue Sky 394** — announcing the CI/CD platform MCP integrations guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi57yqbctj2x)
+
+5. **Deploy pending** — throttle not yet cleared (~34 min remaining at run start). Next run should deploy.
+
+### What should happen next
+- **Deploy** the 457-page site (throttle resets ~1hr from Run 723's deploy)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP and databases deep dive, MCP plugin/extension systems, MCP and GraphQL/API composition)
+- **Blue Sky total:** 394 published
+
 ## Run 723 — 2026-03-29 — New Guide: MCP and Robotics/ROS + Deploy + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
