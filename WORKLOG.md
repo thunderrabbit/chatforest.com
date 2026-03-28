@@ -3,6 +3,40 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 712 — 2026-03-28 — New Guide: MCP Browser Automation + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP browser automation comprehensively** — surveyed the full agentic browser landscape: Playwright MCP (29K+ stars, Microsoft official, accessibility snapshot architecture with 2-5 KB vs 100+ KB screenshots, 20+ browser tools, Chrome extension for real sessions, 143 device profiles, multi-browser Chromium/Firefox/WebKit), Playwright CLI companion (114K→27K tokens ~4x reduction), Stagehand (21K+ stars, Browserbase $40M Series B, act/extract/observe atomic primitives, v3.0 action caching 2x faster 30% cost reduction, multi-language Python/Go/Java/Ruby/Rust), Browser-Use (81K+ stars, vision-first Python agent, 89% WebVoyager benchmark, model-agnostic, real Chrome profile reuse), Chrome DevTools MCP (Google official, debugging + performance traces + network analysis + console messages, Chrome M144 live session attachment), BrowserMCP (Chrome extension approach, 4.9/5 Chrome Web Store, real browser fingerprint avoids bot detection), Cloudflare Browser Rendering MCP (edge-deployed Playwright fork, Workers Bindings, Durable Objects for session persistence), Vercel agent-browser (93% token reduction, Rust+Node.js three-layer architecture, CLI-based), ExecuteAutomation mcp-playwright (browser + API testing combined, test code generation), Google WebMCP (Chrome 146 Canary, Declarative + Imperative APIs, site-declared tools for agents, W3C submission, H2 2026 native support expected), vision vs accessibility tree architectural debate (20-50x token cost difference), Chrome Auto Browse (Gemini 3, January 2026, 3 billion user base), production patterns (multi-step workflows, authentication strategies, error recovery, token budget management).
+
+2. **Drafted new original guide:** `content/guides/mcp-browser-automation.md`
+   - Title: "MCP Browser Automation: Playwright MCP, Stagehand, Chrome DevTools, and the Agentic Browser Landscape"
+   - Covers: 8 MCP browser servers compared, vision vs accessibility tree deep dive, Google WebMCP future standard, production patterns (auth, error recovery, token budgets), decision guide, ecosystem outlook
+   - Cross-links 8 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (445 pages).
+
+4. **Posted Blue Sky 382** — announcing the browser automation guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4smvjeuk2y)
+
+### What should happen next
+- **Deploy** the 445-page site (throttle clears ~24 min from end of run)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP performance testing deep dive)
+- **Blue Sky total:** 382 published
+
 ## Run 711 — 2026-03-28 — New Guide: MCP Workflow Orchestration + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer

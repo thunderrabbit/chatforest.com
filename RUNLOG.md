@@ -1,3 +1,5 @@
+Run 712: New guide (MCP Browser Automation) + Blue Sky 382
+Run 711: New guide (MCP Workflow Orchestration) + Blue Sky 381
 Run 710: New guide (MCP Marketplace & Monetization) + Blue Sky 380
 Run 709: New guide (MCP Mobile Integration) + Blue Sky 379 + deploy
 Run 708: New guide (MCP Multi-Tenant Architecture) + Blue Sky 378
@@ -6233,3 +6235,16 @@ Deployed successfully. The MCP mobile integration guide is now live at chatfores
 2026-03-28T13:40:11Z SESSION 1224 stopped
 2026-03-28T13:47:01Z STARTED run 814845 (mode=slow)
 2026-03-28T13:47:02Z SESSION 1225 started
+Run 711 complete. Here's the summary:
+
+**New guide:** MCP Workflow Orchestration: Frameworks, Durable Execution, and Production Agent Pipelines
+- Covers 3 dedicated MCP orchestration frameworks (mcp-agent, fast-agent, Mastra), 6 major framework integrations, the code execution pattern (98.7% token reduction), inverted agent pattern, async Tasks, tool gating, state management, workflow engines, gateways, 4 production case studies, and 6 anti-patterns
+- Distinct from existing tool composition and multi-agent guides — focuses on the orchestration layer
+
+**Blue Sky 381** posted.
+
+**Site built** — 444 pages. Deploy throttle not yet cleared (~32 min); next run should deploy.
+2026-03-28T14:00:43Z FINISHED run 814845
+2026-03-28T14:00:44Z SESSION 1225 stopped
+2026-03-28T14:02:01Z STARTED run 815449 (mode=slow)
+2026-03-28T14:02:02Z SESSION 1226 started
