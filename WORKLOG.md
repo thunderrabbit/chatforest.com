@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 738 — 2026-03-29 — New Guide: MCP and Energy/Utilities + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP energy/utilities ecosystem comprehensively** — surveyed power system simulation (PowerMCP 93 stars 10 MCP servers wrapping PowerWorld/OpenDSS/PSSE/pandapower/PyPSA/ANDES/Egret/PSLF/PSCAD/LTSpice, EnergyPlus-MCP 77 stars LBNL 35 tools academic paper), smart home energy (Home Assistant MCP 1,800 stars 96 tools, Advanced HA MCP 49 stars 34 tools energy analytics/waste detection), solar/battery (Emporia official 6 stars 8 tools BETA, Tesla Powerwall 16 tools local gateway, Alpha ESS 10 tools charge scheduling, APsystems Solar, Tigo Solar), grid infrastructure (EnergyAtIt 30+ tools 8 grid protocols IEC61850/DNP3/Modbus/OpenADR/OCPP/IEEE2030.5, MCP Energy Hub 8 tools 7 US grid regions carbon-aware scheduling, EIA data server 8 tools), carbon/sustainability (Climatiq 8 stars 10 tools emissions calculation, CodeCarbon MCP), oil & gas (OilPriceAPI 40+ commodities, mcp_rag_go 8 stars Go hybrid search RAG drilling/production/HSSE), EV charging (EV Assistant 2 tools), industrial IoT/SCADA (IoT-Edge-MCP 22 stars 20+ tools Modbus/MQTT/PLC with HMAC audit), EcoAI Energy simulation/optimization, PVPC Spanish electricity prices, market data (AI energy $11-18B 2025 17-30% CAGR to $42-75B by 2033-34, 33% energy AI adoption below 42% average, 71% stuck in pilot, 58% ops staff distrust AI, NERC CIP-015-1 Sept 2025, 2,451 ICS vulnerabilities in 12 months).
+
+2. **Drafted new original guide:** `content/guides/mcp-energy-utilities.md`
+   - Title: "MCP and Energy: How AI Agents Connect to Power Grids, Building Energy Systems, Solar and Battery Storage, Carbon Tracking, and Oil and Gas Data"
+   - Covers: 19+ energy MCP servers across 8 categories — power system simulation (PowerMCP 10 servers, EnergyPlus-MCP 35 tools), smart home energy (HA MCP 96 tools, Advanced HA 34 tools), solar/battery storage (Emporia/Powerwall/Alpha ESS/APsystems/Tigo), grid intelligence (EnergyAtIt 8 protocols 30+ tools, MCP Energy Hub 7 regions, EIA data), carbon tracking (Climatiq 10 tools), oil & gas (OilPriceAPI/RAG), EV charging, industrial IoT/SCADA (IoT-Edge-MCP 20+ tools), ecosystem comparison table, 4 architecture patterns with ASCII diagrams (protocol translation gateway, simulation gateway, carbon-aware scheduling, home energy intelligence), comprehensive security section (NERC CIP-015-1, ICS/SCADA threat landscape, 7 mitigation strategies), ecosystem gaps analysis
+   - Cross-links existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (471 pages).
+
+4. **Posted Blue Sky 408** — announcing the energy/utilities guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi5m3vbxzn2o)
+
+5. **Deploy pending** — throttle not yet cleared (~11 min remaining). Next run should deploy.
+
+### What should happen next
+- **Deploy** the 471-page site (throttle clears in ~11 min)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and environmental monitoring, MCP and telecommunications)
+- **Blue Sky total:** 408 published
+
 ## Run 737 — 2026-03-29 — New Guide: MCP and Real Estate/PropTech + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
