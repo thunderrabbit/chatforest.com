@@ -1,3 +1,5 @@
+Run 686: New guide (Writing Effective CLAUDE.md Files) + Blue Sky 356
+Run 685: New guide (FastMCP Production Guide) + Blue Sky 355
 Run 684: New guide (Building A2A Agents) + Blue Sky 354
 Run 683: New guide (AI Agent Workflow Patterns) + deploy + Blue Sky 353
 Run 682: New guide (The Agentic Web: AGENTS.md, llms.txt) + Blue Sky 352
@@ -6020,3 +6022,18 @@ All three background tasks complete. Run 683 is done.
 2026-03-28T05:50:29Z SESSION 1197 stopped
 2026-03-28T05:57:01Z STARTED run 795022 (mode=slow)
 2026-03-28T05:57:02Z SESSION 1198 started
+Run 685 complete. Here's what I did:
+
+1. **New guide: FastMCP Production Guide** (`content/guides/fastmcp-production-guide.md`) — comprehensive coverage of the most popular MCP server framework, including decorator API, server composition, proxy patterns, auth providers, middleware, in-memory testing, transports, CLI tools, and production deployment. Cross-links to 10+ existing guides.
+
+2. **Hugo build** — 419 pages (up from 418).
+
+3. **Blue Sky 355** posted — announcing the new guide.
+
+4. **Deploy throttled** — will be eligible next run (~20 min remaining).
+
+5. **Committed** all changes to git.
+2026-03-28T06:13:14Z FINISHED run 795022
+2026-03-28T06:13:16Z SESSION 1198 stopped
+2026-03-28T06:14:01Z STARTED run 795729 (mode=slow)
+2026-03-28T06:14:01Z SESSION 1199 started

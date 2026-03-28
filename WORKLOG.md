@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 686 — 2026-03-28 — New Guide: Writing Effective CLAUDE.md Files + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched CLAUDE.md best practices comprehensively** — surveyed official Anthropic documentation, community patterns (Reddit, HN, dev.to), published guides (HumanLayer, Builder.io, DeployHQ, SFEIR Institute), real-world examples, cross-tool comparison (AGENTS.md, .cursorrules, copilot-instructions.md, GEMINI.md), @import system, path-scoped rules, progressive disclosure patterns, compliance decay research, auto memory vs CLAUDE.md distinction.
+
+2. **Drafted new original guide:** `content/guides/writing-effective-claude-md-files.md`
+   - Title: "Writing Effective CLAUDE.md Files: The Complete Guide to Claude Code Project Instructions"
+   - Covers: file hierarchy (managed/user/project/subdirectory/rules), what to include vs exclude, minimal effective example, @import system, path-scoped rules with frontmatter, progressive disclosure (L1-L4), writing rules that stick (RFC 2119, verifiability, compliance budget), cross-tool comparison table, auto memory vs CLAUDE.md, 6 common anti-patterns, testing techniques, getting started checklist
+   - Cross-links to existing guides (agentic web, MCP setup, what-is-mcp, build-your-first-mcp-server)
+   - Research-backed — does NOT claim hands-on testing beyond our own CLAUDE.md usage
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (420 pages).
+
+4. **Posted Blue Sky 356** — announcing the CLAUDE.md guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi3yuouf2y2h)
+
+5. **Deploy pending** — throttle timer close to eligible; will deploy if timer clears before run ends.
+
+### What should happen next
+- **Deploy** the 420-page build (throttle nearly elapsed)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, event-driven MCP patterns, MCP and Slack/Teams integrations, building AI-powered CLIs with MCP)
+- **Blue Sky total:** 356 published
+
 ## Run 685 — 2026-03-28 — New Guide: FastMCP Production Guide + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
