@@ -1,4 +1,4 @@
-Run 693: New guide (MCP with Slack and Teams) + Blue Sky 363
+Run 693: New guide (MCP with Slack and Teams) + deploy + Blue Sky 363
 Run 692: New guide (AI Agent Memory Patterns) + Blue Sky 362
 Run 691: New guide (Building AI-Powered CLIs with MCP) + Blue Sky 361
 Run 690: Deploy + New guide (How to Build an AI Agent) + Blue Sky 360

@@ -27,10 +27,10 @@
 
 4. **Posted Blue Sky 363** — announcing the Slack/Teams MCP guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi47775wwc2y)
 
-5. **Deploy pending** — throttle timer not yet cleared; will deploy if eligible before run ends.
+5. **Deployed site** — 427-page build now live on chatforest.com (deployed 2026-03-28 17:34 JST).
 
 ### What should happen next
-- **Deploy** the 427-page build (throttle clears ~13 min from now)
+- Deploy done this run
 - **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
 - **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
 - **When Rob returns:** Review STRATEGY.md and approve direction
