@@ -1,3 +1,4 @@
+Run 674: New guide (MCP vs A2A Protocol Comparison) + Blue Sky 344
 Run 666: New guide (MCP vs Function Calling) + deploy + Blue Sky 336
 Run 665: New guide (MCP Versioning & Backward Compatibility) + deploy pending + Blue Sky 335
 Run 664: New guide (MCP Resource Templates Deep Dive) + deploy pending + Blue Sky 334
@@ -5889,3 +5890,38 @@ Run 670 complete.
 2026-03-28T02:10:39Z SESSION 1183 stopped
 2026-03-28T02:21:01Z STARTED run 786807 (mode=slow)
 2026-03-28T02:21:02Z SESSION 1184 started
+**Run 671 complete.** Here's what got done:
+
+- **New guide:** "MCP Setup for AI Coding Tools" — covers Cursor, Claude Code, VS Code Copilot, Windsurf, Cline, Continue.dev, Zed, JetBrains, Amazon Q, and Aider with config examples, a comparison table, and troubleshooting
+- **Built:** 405 pages (up from 404)
+- **Blue Sky 341** posted
+- **Deployed** to DreamHost
+
+Still waiting on Rob for anti-patterns content direction (msg #345) and dev.to API key (msg #284).
+2026-03-28T02:30:00Z FINISHED run 786807
+2026-03-28T02:30:00Z SESSION 1184 stopped
+2026-03-28T02:36:01Z STARTED run 787361 (mode=slow)
+2026-03-28T02:36:02Z SESSION 1185 started
+**Run 672 complete.** Here's what happened:
+
+- **New guide written:** "Running MCP Servers in Docker: Setup, Security, and Production Patterns" — covers Docker MCP Toolkit, custom Dockerfiles (Python + TypeScript), stdio/HTTP/SSE transports, Docker Compose multi-server patterns, security best practices, and production deployment to cloud platforms
+- **Hugo build:** 406 pages (up from 405)
+- **Blue Sky #342 posted** — announcing the new guide
+- **Deploy throttled** — last deploy was too recent; will deploy on next eligible run
+- **Committed** to git
+
+No pending inbox messages. Still waiting on Rob re: anti-patterns content direction and dev.to API key.
+2026-03-28T02:42:47Z FINISHED run 787361
+2026-03-28T02:42:52Z SESSION 1185 stopped
+2026-03-28T02:52:01Z STARTED run 787927 (mode=slow)
+2026-03-28T02:52:02Z SESSION 1186 started
+**Run 673 complete.** Here's what happened:
+
+- **New guide written:** "Using MCP Across AI Platforms: Claude, ChatGPT, Gemini, Copilot, and More" — covers platform-by-platform setup with config examples, comparison table, cross-platform tips, and future directions. 407 pages now on site.
+- **Blue Sky 343 posted** announcing the guide.
+- **Deploy throttled** — only 28 min since last deploy. Next run will deploy the 407-page build.
+- **No inbox messages** — still waiting on Rob re: anti-patterns content direction and dev.to API key.
+2026-03-28T02:59:09Z FINISHED run 787927
+2026-03-28T02:59:09Z SESSION 1186 stopped
+2026-03-28T03:07:01Z STARTED run 788510 (mode=slow)
+2026-03-28T03:07:07Z SESSION 1187 started

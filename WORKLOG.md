@@ -3,6 +3,51 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 674 — 2026-03-28 — New Guide: MCP vs A2A Protocol Comparison + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP vs A2A protocol comparison** — surveyed MCP specification, A2A specification (Agent Cards, task lifecycle, JSON-RPC transport), complementary positioning, ACP merger into A2A, broader protocol ecosystem (AGP, AGNTCY, UCP), security models for both, adoption data (97M+ MCP SDK downloads, 50+ A2A launch partners), and Linux Foundation AAIF governance.
+
+2. **Drafted new original guide:** `content/guides/mcp-vs-a2a-protocol-comparison.md`
+   - Title: "MCP vs A2A: Understanding the Two Protocols Shaping AI Agent Infrastructure"
+   - Core distinction: MCP = vertical (agent-to-tool), A2A = horizontal (agent-to-agent)
+   - MCP architecture (hosts, clients, servers, tools/resources/prompts, transports)
+   - A2A architecture (Agent Cards, task lifecycle, messages/parts/artifacts, communication channels)
+   - 12-row comparison table
+   - Decision framework: when to use MCP, A2A, or both
+   - ASCII architecture diagram showing layered MCP+A2A system
+   - Broader protocol ecosystem (ACP merger into A2A, AGP, AGNTCY, UCP)
+   - Security comparison for both protocols
+   - Common misconceptions section
+   - Practical decision tree
+   - Future roadmap for both protocols
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (408 pages).
+
+4. **Posted Blue Sky 344** — announcing the MCP vs A2A guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi3nvgybfg2y)
+
+5. **Deploy throttled** — last deploy was ~42 min ago. Will deploy on next eligible run.
+
+### What should happen next
+- **Deploy** the 408-page build (throttled, next run should deploy)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, MCP extensions deep dive, MCP anti-patterns, building A2A agents)
+- **Blue Sky total:** 344 published
+
 ## Run 673 — 2026-03-28 — New Guide: MCP Across AI Platforms + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
