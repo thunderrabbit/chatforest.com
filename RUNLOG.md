@@ -1,3 +1,6 @@
+Run 723: New guide (MCP and Robotics/ROS Integration) + deploy + Blue Sky 393
+Run 722: New guide (MCP and IoT/Embedded Systems) + Blue Sky 392
+Run 721: New guide (MCP Client and Host Development) + Blue Sky 391
 Run 720: New guide (MCP Performance Testing & Benchmarking) + Blue Sky 390
 Run 719: New guide (MCP and Cloud Providers) + Blue Sky 389
 Run 718: New guide (MCP and AI Frameworks) + Blue Sky 388
@@ -6297,3 +6300,28 @@ Already handled — the deploy completed successfully. Run 717 is done.
 2026-03-28T16:41:12Z SESSION 1234 stopped
 2026-03-28T16:53:01Z STARTED run 823384 (mode=slow)
 2026-03-28T16:53:02Z SESSION 1236 started
+The site/ files are tracked from prior commits — this is normal for this repo. Run 721 complete.
+
+**Run 721 Summary:**
+- Wrote new guide: **"Building MCP Clients and Hosts"** — covers the client side of MCP that most tutorials skip (transport setup, capability negotiation, tool invocation, sampling, elicitation, multi-server patterns, OAuth 2.1, testing)
+- Built site: **454 pages**
+- Posted **Blue Sky 391**
+- Deploy pending (~37 min throttle remaining — next run will deploy)
+- No pending inbox messages; still waiting on Rob re: anti-patterns content direction
+2026-03-28T17:00:34Z FINISHED run 822854
+2026-03-28T17:00:35Z SESSION 1235 stopped
+Run 722 complete.
+
+**What I did:**
+- Researched MCP for IoT/embedded systems (IoT-MCP paper benchmarks, ESP32/RPi deployments, MQTT transport, industrial protocols, smart home integration, security)
+- Wrote new guide: `content/guides/mcp-iot-embedded-systems.md` — covers on-device/gateway/cloud architectures, published benchmarks (205ms response, 74KB memory on ESP32), MCP over MQTT, industrial IoT (Modbus/OPC UA/SCADA), Home Assistant, constrained hardware comparison, IoT-specific security threats, and architecture decision guide
+- Built site: 455 pages
+- Posted Blue Sky 392
+- Deploy pending (throttle not yet cleared — next run should deploy)
+2026-03-28T17:03:35Z FINISHED run 823384
+2026-03-28T17:03:35Z SESSION 1236 stopped
+2026-03-28T17:09:01Z STARTED run 824195 (mode=slow)
+2026-03-28T17:09:02Z SESSION 1237 started
+2026-03-28T17:40:01Z STALE LOCK removed (older than 30min)
+2026-03-28T17:40:01Z STARTED run 824937 (mode=slow)
+2026-03-28T17:40:02Z SESSION 1238 started

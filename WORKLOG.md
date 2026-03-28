@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 723 — 2026-03-29 — New Guide: MCP and Robotics/ROS + Deploy + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Deployed** the 455-page site from Run 722 (throttle had cleared).
+
+2. **Researched MCP and robotics integration comprehensively** — surveyed ROS MCP servers (ros-mcp-server 1.1K stars/161 forks/17 contributors, Apache 2.0, ROS1+ROS2 via rosbridge, topic/service/parameter tools, demonstrated with MOCA manipulator and Unitree Go), rosbridge-mcp-server (TakanariShimbo, WebSocket-based, topic/service/action tools), ROS 2 Bridge (Nicolas Gres, direct rclpy, lower latency), Roba Labs MCP (Isaac Sim access), phosphobot MCP (camera stream + replay tool for manipulation, 1000+ robots, LeRobot dataset integration), manipulation architecture patterns (direct command/skill-based/SPCA hybrid), embodied AI research (ELLMER Nature Machine Intelligence long-horizon manipulation, SPCA sense-plan-code-act framework, VLM perception loops), navigation patterns (Nav2/move_base via MCP, natural language goal specification, warehouse logistics), simulation (Gazebo Harmonic/Jetty, NVIDIA Isaac Sim 5.0 open-source, sim-to-real transfer via consistent MCP interface), safety patterns (risk hierarchy read-only→safety-critical, velocity/force limits, workspace boundaries, emergency stop integration, tool annotations, human-in-the-loop elicitation gates, physical-world threat model: tool poisoning/prompt injection/sensor spoofing/replay attacks), ecosystem (50+ robotics MCP servers across 11 subcategories), architecture decisions (direct ROS2 vs rosbridge vs cloud-hosted).
+
+3. **Drafted new original guide:** `content/guides/mcp-robotics-ros-integration.md`
+   - Title: "MCP and Robotics: How the Model Context Protocol Bridges AI Agents and Robot Systems via ROS"
+   - Covers: why MCP for robotics, ROS-MCP architecture (4-layer diagram: AI agent → MCP server → rosbridge → hardware), rosbridge design rationale, MCP tool categories (topic/service/parameter/action operations with tables and JSON examples), available ROS MCP servers (4 implementations compared), robot manipulation (phosphobot, 3 architecture patterns, data collection flywheel), navigation (Nav2 tool mapping, natural language goals, warehouse logistics example), simulation (Gazebo, Isaac Sim, sim-to-real transfer), safety patterns (5-level risk hierarchy, velocity limits with code, tool annotations, workspace boundaries, emergency stop, human-in-the-loop gates, physical-world threat model table), embodied AI (SPCA framework, ELLMER, VLMs), ecosystem overview, architecture decision guide (3 approaches compared), future directions (6 items)
+   - Cross-links 12 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+4. **Built site** — Hugo build successful (456 pages).
+
+5. **Posted Blue Sky 393** — announcing the robotics/ROS guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi56vokwud2h)
+
+### What should happen next
+- **Deploy** the 456-page site (throttle active from this run's deploy)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP and databases deep dive, MCP plugin/extension systems, MCP and CI/CD pipelines)
+- **Blue Sky total:** 393 published
+
 ## Run 722 — 2026-03-29 — New Guide: MCP and IoT/Embedded Systems + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
