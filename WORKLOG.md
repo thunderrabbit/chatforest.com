@@ -3,6 +3,40 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 708 — 2026-03-28 — New Guide: MCP Multi-Tenant Architecture + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP multi-tenant architecture comprehensively** — surveyed the full multi-tenancy landscape: three isolation models (dedicated instance per tenant, pooled multi-tenant shared server, hybrid tenant-aware shared infrastructure), the multi-hop identity propagation challenge (User→AI Host→MCP Client→MCP Server→Backend), OAuth 2.1 patterns (JWT claims with tenant context, token exchange at each boundary RFC 8693, mTLS with tenant certificates, two-layer identity model from Aembit/GitGuardian), MCP spec gaps (no tenant_id concept, no credential scoping, silent on token forwarding/exchange), community discussions (GitHub #193 server-to-server multi-tenant support, #2173 multi-tenancy for all MCP servers), tenant-aware data separation (4 database strategies: separate DB/schema/RLS/app-level, vector DB isolation via namespaces/collections/metadata, per-tenant encryption keys with envelope encryption), gateway architectures (AWS Bedrock AgentCore Gateway managed service with OpenAPI-to-MCP auto-conversion, MCP Plexus 28 stars OAuth 2.1 URL-path routing, SageMCP 23+ integrations Fernet-encrypted credentials 3-tier API keys, McpToolKit Redis-backed stateless FastMCP replacement, Airflow MCP multi-instance, Fly.io machine-per-user blueprint, Smithery fresh-instance-per-session, Prefactor SOC 2 control plane), Redis-backed session management (composite keys, vault credential references, aggressive TTLs), SEP-1442 stateless future benefits for multi-tenancy, three-layer rate limiting (per-user/per-tenant/global), 142.4x token amplification denial-of-wallet attack, OpenTelemetry with tenant attributes, testing strategy (unit/integration/adversarial/chaos/load), 5 anti-patterns (global startup config, recycled user credentials, trust-the-client headers, shared vector namespaces, unscoped error messages), production blueprint with 5-layer checklist.
+
+2. **Drafted new original guide:** `content/guides/mcp-multi-tenant-patterns.md`
+   - Title: "MCP Multi-Tenant Architecture: Per-Tenant Isolation, Shared Servers, OAuth Identity Propagation, and SaaS Deployment Patterns"
+   - Covers: 3 isolation models with trade-offs and real-world examples, multi-hop identity propagation challenge, OAuth 2.1 patterns (JWT claims/token exchange/mTLS/two-layer identity), tenant-aware data separation (database/vector DB/encryption), gateway architectures (AgentCore/Plexus/SageMCP/McpToolKit + 5 more), Redis session management, SEP-1442 stateless future, 3-layer rate limiting, observability with tenant context, testing strategy, 5 anti-patterns, production blueprint with architecture diagram and 5-layer checklist, 9-project ecosystem table
+   - Cross-links 8 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (441 pages).
+
+4. **Posted Blue Sky 378** — announcing the multi-tenant guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4palqz6r2y)
+
+### What should happen next
+- **Deploy** the site (next run eligible — ~25 min remaining on throttle)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP performance testing deep dive, MCP mobile integration, MCP workflow orchestration patterns)
+- **Blue Sky total:** 378 published
+
 ## Run 707 — 2026-03-28 — New Guide: MCP Error Handling & Resilience + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
