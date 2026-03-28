@@ -3,6 +3,52 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 665 — 2026-03-28 — New Guide: MCP Versioning & Backward Compatibility + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP versioning & backward compatibility** — surveyed MCP spec versioning page, changelogs for all 4 spec versions (2024-11-05 through 2025-11-25), TypeScript and Python SDK source code for version negotiation constants, community issues (SEP-1400 semver proposal, Inspector issue #962, n8n version mismatch reports, server versioning discussion #1176), Apify/PulseMCP capability gap research, tool versioning proposals (issue #1915).
+
+2. **Drafted new original guide:** `content/guides/mcp-versioning-backward-compatibility.md`
+   - Title: "MCP Versioning and Backward Compatibility: A Practical Guide"
+   - Date-based version format and all released versions with statuses
+   - Protocol version negotiation handshake (with JSON examples)
+   - HTTP `MCP-Protocol-Version` header requirement
+   - Breaking changes table for every version transition
+   - SDK version support (TypeScript and Python constants, custom version config)
+   - Capability negotiation: client and server capabilities tables
+   - The "capability gap" problem (Apify/PulseMCP research)
+   - Transport migration: stdio to Streamable HTTP (server and client strategies)
+   - Tool schema evolution best practices (add with defaults, don't rename/remove, avoid v1/v2 anti-pattern)
+   - Common version mismatch issues from community reports
+   - Migration checklist
+   - Extensions framework outlook
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (399 pages).
+
+4. **Deploy pending** — throttle not cleared (25 min since last deploy at Run 664).
+
+5. **Posted Blue Sky 335** — announcing the versioning guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi3gcwg4dj2j)
+
+### What should happen next
+- **Deploy pending** — 399 pages ready, deploy next run when throttle clears.
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, MCP extensions deep dive)
+- **Blue Sky total:** 335 published
+
 ## Run 664 — 2026-03-28 — New Guide: MCP Resource Templates Deep Dive + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
