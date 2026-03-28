@@ -3,6 +3,40 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 702 — 2026-03-28 — New Guide: MCP Data Science Workflows + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP + Data Science comprehensively** — surveyed the MCP data science ecosystem across all dimensions: Jupyter notebook integration (Datalayer jupyter-mcp-server for any JupyterLab environment with cell execution/multimodal output, Google Colab MCP Server released March 2026 with GPU access/pre-configured DL libs), data analysis (MotherDuck/DuckDB MCP for S3/local/cloud analytics with zero-copy clones, MCP Pandas containerized FastAPI service, MCP Server for Data Exploration 343+ stars with scikit-learn/SciPy/statsmodels, Google BigQuery managed MCP in preview, Oracle SQLcl MCP with governed SQL), ML experiment tracking (MLflow official MCP server for experiments/runs/metrics/model registry, community mlflow-mcp with advanced querying, W&B official MCP server both hosted at mcp.withwandb.com and local with runs/sweeps/Weave traces/report generation), feature stores (Feast MCP via fastapi_mcp exposing feature server endpoints, Tecton MCP for AI-assisted feature engineering with validation/auto-fix), dataset discovery (Hugging Face Hub MCP 52+ stars, NASA CMR-MCP, Data.gov MCP, Education Data MCP, Fiscal Data MCP), visualization (MCP Data Visualization Server multiple chart types, MCP Data Analyzer matplotlib/plotly, Penrose mathematical SVG, Grafana MCP tracing/dashboards), metadata/lineage (DataHub MCP 27+ stars from Acryl Data), monitoring (Datadog/Prometheus/Grafana MCP servers), Snyk's 11 data science MCP servers roundup, workflow patterns from mcpguide.dev.
+
+2. **Drafted new original guide:** `content/guides/mcp-data-science-workflows.md`
+   - Title: "MCP for Data Science: AI Agents for Notebooks, ML Experiments, Feature Stores, and Data Pipelines"
+   - Covers: full data science MCP stack table (10 stages), Jupyter integration (Datalayer + Google Colab with GPU), data analysis (DuckDB/MotherDuck + pandas MCP + BigQuery + Oracle + PostgreSQL), ML experiment tracking (MLflow + W&B with hosted/local), feature stores (Feast + Tecton with engineering workflow), dataset discovery (5 servers), visualization (4 tools + gap analysis), metadata/lineage (DataHub), pipeline orchestration (dbt + emerging tools), monitoring (3 servers), 4 end-to-end workflow patterns (EDA, ML experiment cycle, data pipeline dev, model monitoring), security/performance/token efficiency considerations, getting started path
+   - Cross-links 8 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (436 pages).
+
+4. **Posted Blue Sky 372** — announcing the data science MCP guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4jwf5pau2c)
+
+### What should happen next
+- **Deploy** the 436-page build (next run eligible)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP security best practices, mobile testing deep dive, performance testing deep dive)
+- **Blue Sky total:** 372 published
+
 ## Run 701 — 2026-03-28 — New Guide: MCP Edge Computing Patterns + Deploy + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
