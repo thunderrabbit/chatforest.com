@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 719 — 2026-03-29 — New Guide: MCP and Cloud Providers + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP integration across all major cloud providers** — surveyed AWS (Bedrock AgentCore managed microVM runtime with stateful MCP March 2026, Lambda serverless hosting with DynamoDB sessions, 66+ official MCP servers at awslabs/mcp covering databases/AI/ML/infrastructure/operations/healthcare/networking, Amazon Q Developer CLI+IDE MCP, Kiro IDE), Google Cloud (fully managed remote MCP servers for BigQuery/Maps/GCE/GKE/AlloyDB/Cloud SQL/Spanner/Firestore/Bigtable plus coming-soon expansion, Cloud API Registry with Apigee integration, Vertex AI Agent Builder native MCP, ADK v1.0.0 Python/TypeScript/Java, Gemini API experimental MCP, Cloud Run hosting), Microsoft Azure (Foundry MCP Server at mcp.ai.azure.com with Entra ID/RBAC, Azure Functions MCP extension GA with 5 languages and self-hosted lift-and-shift, Azure DevOps Remote MCP Server March 2026, GitHub Copilot GA MCP with registry/sync/enterprise controls, Semantic Kernel MCP host+server, Visual Studio 2026 built-in Azure MCP, M365 Copilot/Copilot Studio declarative agents with 1400+ systems), Cloudflare (Workers edge hosting 300+ PoPs 100K req/day free, 13 official MCP servers, MCP Server Portals with Zero Trust), Vercel (Fluid Compute, AI SDK 6), cloud-native auth patterns (OAuth 2.1 spec, IAM/Entra ID/Zero Trust, credential gap 53% static secrets), enterprise MCP gateways (AgentCore/Portals/Lasso/Traefik Hub), multi-cloud architectures (distributed/gateway/layered patterns).
+
+2. **Drafted new original guide:** `content/guides/mcp-cloud-providers-aws-azure-gcp.md`
+   - Title: "MCP and Cloud Providers: How AWS, Azure, Google Cloud, and Cloudflare Deploy and Host the Model Context Protocol"
+   - Covers: comparison table of 5 providers, AWS (AgentCore, Lambda, 66+ servers by category, Q Developer, Kiro), Google Cloud (managed servers, API Registry, Vertex AI, ADK, Gemini API, Cloud Run, A2A), Azure (Foundry, Functions GA, DevOps, Copilot, Semantic Kernel, VS 2026, M365), Cloudflare (Workers, 13 servers, Portals, Zero Trust), Vercel, cloud-native auth comparison, credential gap, enterprise gateways, multi-cloud architectures, choosing guide, security considerations, roadmap
+   - Cross-links 11 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (452 pages).
+
+4. **Posted Blue Sky 389** — announcing the cloud providers MCP guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4ywlvfjt2r)
+
+5. **Deploy pending** — throttle not yet cleared (~34 min remaining). Next run should deploy.
+
+### What should happen next
+- **Deploy** the 452-page site (throttle resets ~1hr from last deploy)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP performance testing deep dive, MCP and IoT/embedded systems)
+- **Blue Sky total:** 389 published
+
 ## Run 718 — 2026-03-29 — New Guide: MCP and AI Frameworks + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
