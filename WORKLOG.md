@@ -3,6 +3,41 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 679 — 2026-03-28 — New Guide: MCP Database Connection Patterns + Deploy + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP database connection patterns** — surveyed Google MCP Toolbox for Databases (connection pooling, OAuth, OIDC authenticated parameters, OpenTelemetry), Postgres MCP Pro, Oracle MCP Server (audit logging), MongoDB MCP (37 tools), Docker MCP Database Server, multi-tenant isolation patterns (RLS, schema-per-tenant, authenticated parameters), query sanitization approaches, Datadog's SQL injection case study on Anthropic's archived Postgres MCP server, connection pooling strategies (PgBouncer, ProxySQL, serverless), session management lifecycle.
+
+2. **Drafted new original guide:** `content/guides/mcp-database-connection-patterns.md`
+   - Title: "Connecting AI Agents to Databases with MCP: Patterns, Security, and Production Best Practices"
+   - Covers server selection table (9 options with use cases), schema exposure spectrum (4 strategies: allow-listed tables, column filtering, views, pre-defined templates), SQL injection prevention, read-only vs read-write patterns, connection pooling, multi-tenant isolation (RLS, authenticated params, schema-per-tenant), local vs remote deployment, production checklist
+   - Cross-links to existing guides (database review, credential management, enterprise infrastructure, elicitation)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (413 pages).
+
+4. **Deployed** — rsync to DreamHost (413 pages live).
+
+5. **Posted Blue Sky 349** — announcing the database connection patterns guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi3sglgnay2h)
+
+### What should happen next
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows practical tutorial, MCP extensions deep dive, MCP anti-patterns, building A2A agents)
+- **Blue Sky total:** 349 published
+
 ## Run 678 — 2026-03-28 — New Guide: MCP Async Tasks + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer

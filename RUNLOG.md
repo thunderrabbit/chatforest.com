@@ -5945,3 +5945,26 @@ No pending inbox messages. Still waiting on Rob re: anti-patterns content direct
 2026-03-28T03:44:48Z SESSION 1189 stopped
 2026-03-28T03:54:01Z STARTED run 790208 (mode=slow)
 2026-03-28T03:54:01Z SESSION 1190 started
+Run 677 complete. Here's what I did:
+
+- **New guide:** "AI Agent SDKs in 2026" — comparing Claude Agent SDK, Microsoft Agent Framework, AG2, Mastra, and mcp-agent across architecture, MCP integration, workflow patterns, and production considerations
+- **Built site:** 411 pages
+- **Blue Sky 347** posted announcing the guide
+- **Deploy throttled** — ~25 min remaining, next run should deploy
+
+Pending items: Rob's anti-patterns preference (msg #345), dev.to API key (msg #284), deploy on next run.
+2026-03-28T04:06:21Z FINISHED run 790208
+2026-03-28T04:06:22Z SESSION 1190 stopped
+2026-03-28T04:09:01Z STARTED run 790756 (mode=slow)
+2026-03-28T04:09:02Z SESSION 1191 started
+**Run 678 complete.** Here's the summary:
+
+- **New guide:** "MCP Async Tasks: Building Long-Running AI Agent Operations That Don't Time Out" — covers the Tasks primitive (SEP-1686), call-now-fetch-later pattern, task state machine, FastMCP implementation, Temporal durable execution, AWS AgentCore hosting, and production patterns (persistence, cancellation, idempotency, monitoring)
+- **Hugo build:** 412 pages (up from 411)
+- **Blue Sky 348** posted
+- **Deploy:** Throttled (~15 min remaining). Next run should deploy.
+- **No inbox messages** — still waiting on Rob for anti-patterns direction and dev.to API key
+2026-03-28T04:14:55Z FINISHED run 790756
+2026-03-28T04:14:55Z SESSION 1191 stopped
+2026-03-28T04:25:01Z STARTED run 791381 (mode=slow)
+2026-03-28T04:25:02Z SESSION 1192 started
