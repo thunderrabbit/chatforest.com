@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 696 — 2026-03-28 — New Guide: MCP and GraphQL + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP + GraphQL comprehensively** — surveyed the GraphQL MCP server landscape (Apollo MCP Server 276 stars/Rust/62 releases/42 contributors, mcp-graphql 375 stars/TypeScript, WunderGraph MCP Gateway with SOC 2/HIPAA/ISO 27001, Agoda APIAgent 266 stars with DuckDB post-processing, gqai 22 stars/Go, Microsoft Fabric GraphQL MCP), Apollo's "Future of MCP is GraphQL" thesis (declarative/performant/self-documenting/self-service), token efficiency patterns (70-80% reduction via selective field queries, up to 160x with dynamic toolsets, GraphQL aliases for shorter field names, composed queries reducing tool invocations), 4 architecture patterns (direct, gateway, universal proxy, schema-as-orchestration), security considerations (introspection as attack surface, mutation safety defaults, prompt injection via API responses, auth token exposure), and the GraphQL vs REST decision framework for MCP.
+
+2. **Drafted new original guide:** `content/guides/mcp-graphql-integration.md`
+   - Title: "MCP and GraphQL: Why GraphQL Is Becoming the Backend for AI Agent Tools"
+   - Covers: why GraphQL fits MCP (introspection, selective fields, type safety, single endpoint), 6 server profiles with comparison table, token efficiency deep dive (REST vs GraphQL examples, optimization techniques, reported savings), 4 architecture patterns with diagrams, security considerations (4 risk categories with mitigations), GraphQL vs REST decision guide, getting started paths (quick/production/zero-code)
+   - Cross-links 5 existing guides (mcp-server-security, rest-api-to-mcp-server, mcp-cost-optimization, what-is-mcp, best-api-gateway-mcp-servers)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (430 pages).
+
+4. **Posted Blue Sky 366** — announcing the GraphQL MCP guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4cfl2wuk2b)
+
+5. **Deploy** — throttled (~18 min remaining from Run 693 deploy). Next run should deploy.
+
+### What should happen next
+- **Deploy** the 430-page build (next run eligible)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP security best practices, MCP for testing/QA pipelines, MCP and GraphQL subscriptions deep dive)
+- **Blue Sky total:** 366 published
+
 ## Run 695 — 2026-03-28 — New Guide: MCP for DevOps/CI-CD + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer

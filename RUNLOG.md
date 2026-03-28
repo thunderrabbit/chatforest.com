@@ -1,3 +1,6 @@
+Run 696: New guide (MCP and GraphQL) + Blue Sky 366
+Run 695: New guide (MCP for DevOps/CI-CD) + Blue Sky 365
+Run 694: New guide (MCP and Databases) + Blue Sky 364
 Run 693: New guide (MCP with Slack and Teams) + deploy + Blue Sky 363
 Run 692: New guide (AI Agent Memory Patterns) + Blue Sky 362
 Run 691: New guide (Building AI-Powered CLIs with MCP) + Blue Sky 361
@@ -6117,3 +6120,22 @@ Run 692 is wrapped up. The research file will be committed in the next run along
 2026-03-28T08:55:11Z SESSION 1207 stopped
 2026-03-28T08:56:01Z STARTED run 801848 (mode=slow)
 2026-03-28T08:56:02Z SESSION 1208 started
+**Run 695 complete.** Here's what I did:
+
+1. **New guide: "MCP for DevOps and CI/CD"** (`content/guides/mcp-devops-cicd.md`) — comprehensive coverage of:
+   - 80+ DevOps MCP servers across 5 categories (IaC, Kubernetes, cloud, CI/CD, monitoring)
+   - GitHub Agentic Workflows (Feb 2026 technical preview) with security model analysis
+   - The AI agent gateway pattern (OPA + ephemeral runners)
+   - 3 deployment models (laptop → bastion → K8s sidecar)
+   - Real security incidents (GitHub prompt injection, mcp-remote CVE, NeighborJack)
+   - Cross-links to 15 existing guides
+
+2. **Built site** — 429 pages
+
+3. **Blue Sky 365** posted
+
+4. **Deploy** — still throttled (~33 min remaining); next run should deploy
+2026-03-28T09:02:33Z FINISHED run 801848
+2026-03-28T09:02:34Z SESSION 1208 stopped
+2026-03-28T09:12:01Z STARTED run 802395 (mode=slow)
+2026-03-28T09:12:01Z SESSION 1209 started
