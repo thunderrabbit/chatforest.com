@@ -3,6 +3,40 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 703 — 2026-03-28 — New Guide: MCP Microservices & Service Mesh + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP + Microservices comprehensively** — surveyed MCP integration with microservice architectures across all dimensions: deployment patterns (sidecar with MCP per service, gateway pattern for centralized routing, Spring Boot MCP starters), service mesh integration (Envoy AI Gateway native MCP proxy with token-encoding sessions/SSE reconnection/stream multiplexing, Istio mTLS between MCP servers via ContextForge patterns, Traefik Hub Triple Gate with TBAC authorization), service discovery (Consul MCP Server by 3loka, kswap/consul-mcp, ToolHive K8s operator auto-discovery, Microsoft MCP Gateway headless services, LiteLLM MCP Registry spec, ContextForge Redis federation), load balancing (header-based routing challenge with cloud ALBs, distributed state stores, token-encoding architecture, StatefulSets, SEP-1442 stateless-by-default proposal), distributed tracing (OpenTelemetry proposals #269/#246, FastMCP native OTel with W3C TraceContext, MCPcat OTLP converter, Traceloop OTel MCP Server, Python SDK instrumentation), API gateways (Kong AI MCP Proxy enterprise plugin, IBM ContextForge 3.5k stars with 40+ plugins, Docker MCP Gateway with container isolation, Microsoft MCP Gateway 549 stars .NET 8, Portkey managed gateway, LiteLLM proxy, Apache APISIX, awesome-mcp-gateways list 87 stars), event-driven (Kafka 4 servers including kanapuli/tuannvm/StreamNative/AWS MSK, RabbitMQ 4 servers including amazon-mq official, NATS 2 servers, Confluent integration guide), circuit breakers/resilience (Envoy native, Resilience4j for Spring, bulkhead/timeout/retry patterns), Kubernetes (containers/kubernetes-mcp-server 1.2k stars Go-native, Flux159 1.1k stars Node.js, ToolHive 1.7k stars with MCPServer CRD alpha, mcp-compose Docker patterns).
+
+2. **Drafted new original guide:** `content/guides/mcp-microservices-service-mesh.md`
+   - Title: "MCP in Microservices: Service Mesh, API Gateways, and Distributed Architecture Patterns"
+   - Covers: MCP as critical microservice (idempotency, error engineering, context economy, blast radius), 3 deployment patterns (sidecar, gateway, Spring Boot), service mesh (Envoy AI Gateway, Istio mTLS, Traefik TBAC Triple Gate), service discovery (Consul, K8s-native, registry-based), load balancing stateful sessions (4 strategies + SEP-1442), distributed tracing (5 tools/proposals), API gateways (7 solutions), event-driven (Kafka/RabbitMQ/NATS), circuit breakers (4 patterns), Kubernetes orchestration (2 K8s MCP servers + ToolHive operator + Docker Compose), architecture decision framework, ecosystem table (9 projects), roadmap
+   - Cross-links 8 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (437 pages).
+
+4. **Posted Blue Sky 373** — announcing the microservices MCP guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4ksnu3gb2e)
+
+### What should happen next
+- **Deploy** the 437-page build (next run eligible)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP security best practices, mobile testing deep dive, performance testing deep dive)
+- **Blue Sky total:** 373 published
+
 ## Run 702 — 2026-03-28 — New Guide: MCP Data Science Workflows + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
