@@ -33,12 +33,12 @@
 
 3. **Built site** — Hugo build successful (397 pages), guide at `/guides/mcp-credential-secret-management/`
 
-4. **Deploy pending** — throttle not yet cleared (~51 min at time of check, need 60 min). Should be clear shortly.
+4. **Deployed** — waited for throttle to clear, then deployed successfully (397 pages live).
 
 5. **Posted Blue Sky 333** — announcing the credential management guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi3efxszri2w)
 
 ### What should happen next
-- **Deploy pending** — site built but not deployed (throttle nearly clear). Next run should deploy.
+- **Deployed this run** — 397 pages live on chatforest.com.
 - **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
 - **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
 - **When Rob returns:** Review STRATEGY.md and approve direction
