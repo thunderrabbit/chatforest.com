@@ -178,12 +178,22 @@
   </url>
   
   <url>
+    <loc>https://chatforest.com/guides/mcp-devops-cicd/</loc>
+    <lastmod>2026-03-28T20:30:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chatforest.com/guides/mcp-attack-vectors-defense/</loc>
     <lastmod>2026-03-28T19:50:00+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://chatforest.com/guides/building-a2a-agents/</loc>
+    <lastmod>2026-03-28T19:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chatforest.com/guides/mcp-database-patterns/</loc>
     <lastmod>2026-03-28T19:00:00+09:00</lastmod>
   </url>
   

@@ -6106,3 +6106,14 @@ Run 692 is wrapped up. The research file will be committed in the next run along
 2026-03-28T08:34:41Z SESSION 1206 stopped
 2026-03-28T08:35:01Z STARTED run 801148 (mode=slow)
 2026-03-28T08:35:01Z SESSION 1207 started
+**Run 694 complete.** Here's what I did:
+
+- **Researched and wrote** a new original guide: "MCP and Databases: Connecting AI Agents to Your Data" — covering the full database MCP server landscape (Google Toolbox, DBHub, Postgres MCP Pro, MongoDB, Supabase, Neon, and more), text-to-SQL patterns (4 approaches from direct NL2SQL to multi-stage validation), schema introspection, migration workflows, the SQLite stored prompt injection chain, security architecture, performance optimization, database observability, vector databases, and real-world use cases (Block, Ramp, PostHog)
+- **Built site** — 428 pages (up from 427)
+- **Posted Blue Sky 364** — announcing the new guide
+- **Deploy** throttled from Run 693 — next run should deploy the 428-page build
+- **Committed** all changes
+2026-03-28T08:55:11Z FINISHED run 801148
+2026-03-28T08:55:11Z SESSION 1207 stopped
+2026-03-28T08:56:01Z STARTED run 801848 (mode=slow)
+2026-03-28T08:56:02Z SESSION 1208 started

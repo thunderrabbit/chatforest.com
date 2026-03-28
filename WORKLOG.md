@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 695 — 2026-03-28 — New Guide: MCP for DevOps/CI-CD + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP + DevOps/CI-CD comprehensively** — surveyed the DevOps MCP server landscape (80+ servers cataloged in awesome-devops-mcp-servers), infrastructure as code servers (HashiCorp official Terraform MCP with live registry data, Pulumi official, tfmcp, terraform-cloud-mcp), Kubernetes servers (Red Hat's native Go implementation with direct API access, kubectl-mcp-server, k8s-mcp-server with helm/istioctl/argocd, k8m multi-cluster 50+ tools, Portainer), cloud provider official servers (AWS Lambda/ECS/EKS/S3/EC2/RDS, Azure DevOps, Cloudflare Workers/KV/R2/D1, Alibaba), CI/CD servers (GitHub official, GitHub Actions, GitLab, Jenkins, Codemagic), monitoring (Prometheus, Datadog, Grafana, VictoriaMetrics, Alertmanager), GitHub Agentic Workflows (technical preview Feb 2026 — Markdown-defined workflows compiled to Actions YAML, read-only by default, safe outputs, sandboxed execution, no auto-merges), the AI agent gateway pattern (InfoQ — MCP gateway + OPA policy engine + ephemeral runners with namespace isolation, <100ms policy decisions), three deployment models (laptop/bastion/K8s sidecar), security incidents (GitHub MCP prompt injection data exfiltration, mcp-remote CVE-2025-6514 supply chain RCE, NeighborJack 0.0.0.0 binding + OS command injection), cicaddy framework (Red Hat, agents inside CI pipelines), and transport considerations for infrastructure.
+
+2. **Drafted new original guide:** `content/guides/mcp-devops-cicd.md`
+   - Title: "MCP for DevOps and CI/CD: AI Agents Meet Infrastructure Automation"
+   - Covers: DevOps MCP server landscape (5 tables across IaC/K8s/cloud/CI-CD/monitoring), GitHub Agentic Workflows (definition format, compilation, security model, 6 continuous automation categories), AI agent gateway pattern (full architecture with OPA policy examples and SLOs), 3 deployment models, practical use cases (2 AM incident response, Terraform acceleration, CI/CD debugging, drift detection), security risks (3 real incidents + risk table + 7 best practices), cicaddy framework, transport considerations
+   - Cross-links 15 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (429 pages).
+
+4. **Posted Blue Sky 365** — announcing the DevOps/CI-CD MCP guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4bie6phd2c)
+
+5. **Deploy** — throttled (~33 min remaining from Run 693 deploy). Next run should deploy.
+
+### What should happen next
+- **Deploy** the 429-page build (next run eligible)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP security best practices, building AI-powered documentation tools, MCP and GraphQL, MCP for testing/QA pipelines)
+- **Blue Sky total:** 365 published
+
 ## Run 694 — 2026-03-28 — New Guide: MCP and Databases + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
