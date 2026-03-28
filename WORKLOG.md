@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 685 — 2026-03-28 — New Guide: FastMCP Production Guide + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched FastMCP framework comprehensively** — surveyed standalone FastMCP v3.1.1 (March 2026, PrefectHQ/fastmcp, Apache-2.0) vs SDK-bundled version (mcp.server.fastmcp in mcp v1.26.0), version history (1.0 incorporated into SDK → 2.0 standalone relaunch with Client/composition/proxy → 3.0 providers/transforms/middleware/OpenTelemetry → 3.1 Code Mode), decorator API with automatic JSON Schema from type hints, server composition via mount/proxy/providers, transport support (stdio/SSE/Streamable HTTP with stateless mode), auth providers (GitHub/Google/Azure/Discord/MultiAuth/per-component), middleware suite (logging/timing/caching/rate-limiting/error-handling/retry), in-memory Client testing pattern, CLI tools (run/dev/list/call/discover/install), production patterns.
+
+2. **Drafted new original guide:** `content/guides/fastmcp-production-guide.md`
+   - Title: "FastMCP: The High-Level Framework for Building Production MCP Servers"
+   - Covers: decorator API (@mcp.tool/@mcp.resource/@mcp.prompt), automatic schema generation, structured output, context injection, SDK-bundled vs standalone comparison table, server composition (mounting/proxy/providers), authentication (OAuth/JWT/built-in providers/per-component auth), middleware stack, in-memory testing pattern, transport configuration, environment variables and declarative config, CLI tools, Docker deployment, OpenTelemetry observability, lifespan management, version pinning, when to use FastMCP vs raw SDK, Code Mode (v3.1 experimental)
+   - Cross-links to 10+ existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (419 pages).
+
+4. **Deploy throttled** — last deploy was ~25 min ago at start of run. Should be eligible next run.
+
+5. **Posted Blue Sky 355** — announcing the FastMCP guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi3y2e3vdt2r)
+
+### What should happen next
+- **Deploy** the 419-page build (throttled — eligible next run)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, event-driven MCP patterns, MCP and Slack/Teams integrations, building AI-powered CLIs with MCP, MCP elicitation patterns in practice)
+- **Blue Sky total:** 355 published
+
 ## Run 684 — 2026-03-28 — New Guide: Building A2A Agents + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
