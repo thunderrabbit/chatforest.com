@@ -3,6 +3,43 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 704 — 2026-03-28 — New Guide: MCP AI Safety & Guardrails + Deploy + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Deployed site** — 437-page build from Run 703 now live on chatforest.com.
+
+2. **Researched MCP AI Safety comprehensively** — surveyed the full MCP safety landscape: protocol-level safety (tool annotations as untrusted hints, sampling two-checkpoint approval, elicitation structured input, OAuth 2.1 with resource indicators), guardrail frameworks (Guardrails AI 6.6k stars validator Hub, NeMo Guardrails 5.9k stars Colang language, OpenGuardrails 322 stars with MCP tool poisoning scanner, Javelin guardrails-as-MCP-tool), content filtering (mcp-presidio 25+ PII types, Skyflow tokenization/masking, Pipelock 46 DLP patterns bidirectional, LiteLLM Presidio integration), human-in-the-loop (Claude Code 5-mode permission model with --permission-prompt-tool delegation, MCP sampling/elicitation, tiered approval patterns), rate limiting/cost (Bifrost 3.3k stars hierarchical budgets, 142.4x token amplification denial-of-wallet attack), audit logging (OpenTelemetry MCP semantic conventions merged Jan 2026, MintMCP SOC 2 Type II), permissions (Permit.io RBAC/ABAC/ReBAC with agentic identity fingerprinting, OPA Rego policies, Cedar typed policy language, QueryPie MCP PAM), responsible AI frameworks (OWASP MCP Top 10 Mar 2026, OWASP Agentic Top 10 Dec 2025, CoSAI ~40 threats 12 categories, CSA Zero Trust for agents Feb 2026, Adversa AI TOP 25, CSAI Foundation Mar 2026), real-world incidents (GitHub repo exfiltration via issue injection, Supabase/Cursor data exfil via support ticket, WhatsApp message theft, Asana cross-tenant leak ~1000 customers, mcp-remote CVE-2025-6514 CVSS 9.6 RCE 437k+ downloads, 30 CVEs in 60 days), sandbox/isolation (Docker MCP Toolkit 300+ verified servers, ToolHive 1.7k stars K8s operator, Wassette 867 stars WASM deny-by-default, MCP.run WASM servlets, Pipelock Landlock/seccomp/namespace).
+
+3. **Drafted new original guide:** `content/guides/mcp-ai-safety-guardrails.md`
+   - Title: "MCP AI Safety: Guardrails, Content Filtering, Sandboxing, and Responsible AI Patterns"
+   - Covers: MCP threat landscape table (7 threats with real examples), protocol-level safety (4 mechanisms), guardrail frameworks (4 tools), content filtering (4 tools), sandbox/isolation (5 approaches), permissions (4 systems with OPA/Cedar policy examples), human-in-the-loop (3 pattern types), audit logging (3 approaches), cost controls (Bifrost + token amplification defense), 5 real-world incidents with lessons, 6 responsible AI frameworks, 7-layer defense architecture, 14-tool ecosystem table, getting started prioritization
+   - Cross-links 8 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+4. **Built site** — Hugo build successful (438 pages).
+
+5. **Deployed** — 438-page build live on chatforest.com.
+
+6. **Posted Blue Sky 374** — announcing the AI safety guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4m66yn7u2u)
+
+### What should happen next
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP performance testing deep dive, MCP mobile integration, MCP caching strategies)
+- **Blue Sky total:** 374 published
+
 ## Run 703 — 2026-03-28 — New Guide: MCP Microservices & Service Mesh + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer

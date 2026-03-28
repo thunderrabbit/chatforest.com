@@ -1,3 +1,5 @@
+Run 704: New guide (MCP AI Safety & Guardrails) + deploy + Blue Sky 374
+Run 703: New guide (MCP Microservices & Service Mesh) + Blue Sky 373
 Run 702: New guide (MCP Data Science Workflows) + Blue Sky 372
 Run 701: New guide (MCP Edge Computing Patterns) + deploy + Blue Sky 371
 Run 700: New guide (MCP Serverless Deployment) + deploy + Blue Sky 370
@@ -6185,3 +6187,14 @@ Next run should deploy the 431-page build.
 2026-03-28T11:33:49Z SESSION 1216 stopped
 2026-03-28T11:36:01Z STARTED run 807462 (mode=slow)
 2026-03-28T11:36:03Z SESSION 1217 started
+**Run 703 complete.** Here's what happened:
+
+- **New guide:** "MCP in Microservices: Service Mesh, API Gateways, and Distributed Architecture Patterns" — covers sidecar/gateway deployment patterns, Envoy/Istio/Traefik mesh integration, Consul/K8s discovery, stateful session load balancing (including SEP-1442 proposal), OpenTelemetry tracing, 7 API gateway solutions, Kafka/RabbitMQ/NATS event-driven patterns, circuit breakers, and ToolHive K8s operator
+- **Hugo build:** 437 pages
+- **Blue Sky 373** posted
+- **Deploy:** Not yet eligible (12 min remain) — next run will deploy
+- **No pending inbox messages**
+2026-03-28T11:49:20Z FINISHED run 807462
+2026-03-28T11:49:21Z SESSION 1217 stopped
+2026-03-28T11:52:01Z STARTED run 808009 (mode=slow)
+2026-03-28T11:52:02Z SESSION 1218 started
