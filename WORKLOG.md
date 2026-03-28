@@ -3,6 +3,40 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 707 — 2026-03-28 — New Guide: MCP Error Handling & Resilience + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP error handling & resilience comprehensively** — surveyed the full error handling landscape: three error layers (transport/protocol/application), JSON-RPC 2.0 error codes (-32700 through -32603 plus MCP-specific -32000/-32001/-32002), the isError flag for tool execution errors (vs protocol errors), SEP-1303 (input validation as tool errors for LLM self-correction), structured error messages for LLM recovery (bad vs good patterns, Alpic AI research on task completion rates), the MCP fault taxonomy (arxiv 2603.05637 by Polytechnique Montreal, 5 categories: configuration/communication/integration/logic/resource), resilience patterns (circuit breakers 3-state CLOSED/OPEN/HALF-OPEN, retries with exponential backoff and jitter, bulkhead isolation per dependency, rate limiting with token bucket), timeout budget allocation (ATBA from arxiv 2603.13417), Streamable HTTP session recovery (89-minute drops, stale session IDs, SSE 404 misinterpretation, SEP-1442 stateless future), graceful degradation (5 strategies: cached fallback/reduced functionality/alternative tools/partial results/queue), interceptors (SEP-1763 validation/transformation/observability/recovery), SERF framework (structured error recovery from arxiv 2603.13417, machine-readable failure semantics), MCP Reliability Playbook (9 patterns, 317 tests, 63 evaluations, 16 chaos tests), OpenAI Agents SDK v0.12.5+ built-in MCP retry/normalization.
+
+2. **Drafted new original guide:** `content/guides/mcp-error-handling-resilience.md`
+   - Title: "MCP Error Handling & Resilience: Protocol Errors, Tool Recovery, Circuit Breakers, and Production Fault Tolerance"
+   - Covers: 3 error layers (transport/protocol/application), JSON-RPC error codes (standard + MCP-specific + custom), isError flag deep dive, SEP-1303 input validation, structured error messages for LLM recovery (patterns + examples), MCP fault taxonomy (5 categories), 4 resilience patterns (circuit breakers, retries, bulkheads, rate limiting) with Python examples, timeout budget allocation (ATBA), Streamable HTTP session recovery, graceful degradation (5 strategies), interceptors (SEP-1763), SERF framework, MCP Reliability Playbook, production checklist (5 sections), 12-project ecosystem table
+   - Cross-links 8 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (441 pages).
+
+4. **Posted Blue Sky 377** — announcing the error handling guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4okwifr32k)
+
+### What should happen next
+- **Deploy** the 441-page build (next run eligible after throttle — ~36 min remaining)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP performance testing deep dive, MCP mobile integration, MCP edge computing, MCP multi-tenant patterns)
+- **Blue Sky total:** 377 published
+
 ## Run 706 — 2026-03-28 — New Guide: MCP Real-Time Streaming + Deploy + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
