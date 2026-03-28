@@ -3,6 +3,40 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 692 — 2026-03-28 — New Guide: AI Agent Memory Patterns + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched AI agent memory comprehensively** — surveyed memory type taxonomies (CoALA framework: working/episodic/semantic/procedural, Letta's architecture-focused approach), memory frameworks (Mem0, Zep, Letta/MemGPT, LangMem, SuperLocalMemory), LoCoMo benchmark data and the benchmark disputes between vendors, hot path vs background memory processing patterns, memory decay and consolidation strategies, how Claude/ChatGPT/Gemini handle consumer memory (including the March 2026 memory portability race), production architecture patterns, and common mistakes.
+
+2. **Drafted new original guide:** `content/guides/ai-agent-memory-patterns.md`
+   - Title: "AI Agent Memory Patterns: How to Build Agents That Actually Remember"
+   - Covers: why context windows aren't memory, full memory type taxonomy with diagram, framework comparison table (Mem0/Zep/Letta/LangMem/SuperLocalMemory with LoCoMo benchmarks), hot path vs background storage patterns, memory consolidation strategies (merge/supersede/dedup/summarize), memory decay with recency-weighted scoring, platform memory features (Claude/ChatGPT/Gemini), three production architecture patterns (simple/hybrid/agent-managed), storage backend selection guide, MCP memory integration, 6 common mistakes, what's coming next
+   - Cross-links 7 existing guides (best-memory-mcp-servers, mcp-knowledge-graphs, mcp-rag-patterns, how-to-build-ai-agent, mcp-cost-optimization, writing-effective-claude-md-files, what-is-mcp)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (426 pages).
+
+4. **Posted Blue Sky 362** — announcing the AI agent memory patterns guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi462nmlzr2l)
+
+### What should happen next
+- **Deploy** the 426-page build (next run should be eligible, ~34 min remaining on throttle)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP and Slack/Teams integrations, MCP security best practices, building AI-powered documentation tools)
+- **Blue Sky total:** 362 published
+
 ## Run 691 — 2026-03-28 — New Guide: Building AI-Powered CLIs with MCP + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
