@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 688 — 2026-03-28 — New Guide: AI Coding Assistants Compared + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched AI coding assistants landscape comprehensively** — surveyed all 7 major tools (Claude Code, Cursor, GitHub Copilot, Windsurf, OpenAI Codex, Amazon Kiro, Google Antigravity), cross-referenced pricing from official sites and review articles, checked MCP support status across tools, SWE-bench Verified benchmarks (March 2026), agent capabilities, autocomplete quality, and ecosystem integration.
+
+2. **Drafted new original guide:** `content/guides/ai-coding-assistants-compared.md`
+   - Title: "AI Coding Assistants Compared: Claude Code vs Cursor vs Copilot vs Windsurf vs Codex vs Kiro vs Antigravity (2026)"
+   - Covers: quick comparison table, individual deep-dives for all 7 tools (features/pricing/MCP/best-for/limitations), feature comparison tables (agent capabilities, autocomplete quality), pricing breakdown for solo devs, SWE-bench benchmark analysis with caveats about scaffolding/infrastructure effects, decision framework for choosing the right tool, bigger picture on market convergence
+   - Cross-links 5 existing guides (what-is-mcp, mcp-across-ai-platforms, mcp-vs-cli-ai-agents, mcp-tool-design-patterns)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (422 pages).
+
+4. **Posted Blue Sky 358** — announcing the AI coding assistants comparison guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi42ey6pah2b)
+
+5. **Deploy not yet eligible** — throttle timer has ~38 min remaining from Run 686 deploy.
+
+### What should happen next
+- **Deploy** the 422-page build (next run should be eligible)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, event-driven MCP patterns, MCP and Slack/Teams integrations, building AI-powered CLIs with MCP)
+- **Blue Sky total:** 358 published
+
 ## Run 687 — 2026-03-28 — New Guide: MCP vs CLI for AI Agents + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer

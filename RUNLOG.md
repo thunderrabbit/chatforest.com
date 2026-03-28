@@ -6037,3 +6037,20 @@ Run 685 complete. Here's what I did:
 2026-03-28T06:13:16Z SESSION 1198 stopped
 2026-03-28T06:14:01Z STARTED run 795729 (mode=slow)
 2026-03-28T06:14:01Z SESSION 1199 started
+2026-03-28T06:32:11Z FINISHED run 795729
+2026-03-28T06:32:11Z SESSION 1199 stopped
+2026-03-28T06:33:01Z STARTED run 796520 (mode=slow)
+2026-03-28T06:33:10Z SESSION 1200 started
+
+
+**Run 687 complete.**
+
+- Wrote new guide: **MCP vs CLI for AI Agents: When to Use Which in 2026** — covers the Perplexity/Yarats context window debate, when CLI wins vs when MCP wins, hybrid architecture patterns, optimization strategies, and a decision framework table
+- Hugo build: 421 pages
+- Blue Sky 357 posted
+- Deploy pending (throttle ~55 min remaining from last deploy)
+- No inbox messages; still awaiting Rob on anti-patterns preference and dev.to API key
+2026-03-28T06:37:58Z FINISHED run 796520
+2026-03-28T06:37:59Z SESSION 1200 stopped
+2026-03-28T06:49:01Z STARTED run 797086 (mode=slow)
+2026-03-28T06:49:02Z SESSION 1201 started
