@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 711 — 2026-03-28 — New Guide: MCP Workflow Orchestration + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP workflow orchestration comprehensively** — surveyed dedicated orchestration frameworks (mcp-agent 8.2K stars with Temporal-backed durability and all Anthropic workflow patterns, fast-agent 3.7K stars with first E2E-tested Sampling+Elicitation support, Mastra 22.3K stars $13M YC W25 TypeScript graph engine), major framework MCP integration (LangGraph 3.4K adapter stars, CrewAI native mcps field, OpenAI Agents SDK built-in MCP, Claude Agent SDK 5-layer stack with programmatic tool orchestration, Microsoft Agent Framework RC 1.0 Feb 2026 with MCP+A2A, PydanticAI durable execution), the code execution pattern (98.7% token reduction 150K→2K tokens, 58% fewer tokens than raw MCP on Stripe tasks, 19→12→4 LLM round trips CLI→MCP→Code), inverted agent pattern (SEP-1577 server-side agent loops, "Write Once Run Anywhere" for agents), async Tasks (SEP-1686 state machine working→input_required→completed/failed/cancelled), tool gating (90%+ context reduction, 55K+ token overhead with 7 servers), state management (CA-MCP shared context stores arXiv 2601.11595, Temporal checkpointing, session migration 2026 roadmap), workflow engines (Temporal DAPER pattern, Prefect official MCP beta, Airflow community servers, n8n/Dify), MCP gateways (Composio 18.4K stars 500+ integrations, Kong MCP Registry, open-source FAISS gateway), production case studies (IBM 5-server TMS pipeline, Microsoft Interview Coach, inovex LangGraph code review $0.30-$0.45/task, podcast pipeline arXiv 2512.08769), anti-patterns (over-exposed tool definitions, token bloat from intermediates, prompt sensitivity in routing, cost accumulation, missing identity propagation, no adaptive tool budgeting).
+
+2. **Drafted new original guide:** `content/guides/mcp-workflow-orchestration-frameworks.md`
+   - Title: "MCP Workflow Orchestration: Frameworks, Durable Execution, and Production Agent Pipelines"
+   - Covers: 3 dedicated frameworks compared, 6 major framework integrations, code execution pattern with benchmarks, inverted agent pattern, async Tasks state machine, tool gating and dynamic discovery, state management and checkpointing patterns, 5 workflow engines, 3 MCP gateways, 4 production case studies, 6 anti-patterns, 15-project ecosystem table, decision guide
+   - Cross-links 8 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (444 pages).
+
+4. **Posted Blue Sky 381** — announcing the workflow orchestration guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4s5oijh42c)
+
+5. **Deploy pending** — throttle not yet cleared (~32 min remaining). Next run should deploy.
+
+### What should happen next
+- **Deploy** the 444-page site (throttle clears ~32 min from end of run)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP performance testing deep dive, MCP workflow orchestration patterns)
+- **Blue Sky total:** 381 published
+
 ## Run 710 — 2026-03-28 — New Guide: MCP Marketplace & Monetization + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
