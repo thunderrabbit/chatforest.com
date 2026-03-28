@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 741 — 2026-03-29 — New Guide: MCP and Government/Public Sector + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP government/public sector ecosystem comprehensively** — surveyed 34+ government MCP servers across legislative (CongressMCP 27 stars 91+ tools, Congress.gov MCP 19 stars 50+ endpoints, LegiScan MCP all 50 states, OpenDiscourse MCP 13+ tools bulk ingestion), open data portals (data.gouv.fr OFFICIAL 1,100 stars highest-starred gov MCP, CKAN MCP 31 stars 950+ portals worldwide, OpenDataMCP 146 stars template platform, Data.gov MCP 19, Israeli Gov 63 stars Hebrew/English, HK Open Data 5, Canada Gov 1 star 250K+ datasets), census (US Census Bureau OFFICIAL 58 stars 4 tools, Open Census 17 stars statistical consulting, Census API MCP), procurement (Capture MCP 16 stars 15 tools SAM.gov+USASpending+Tango), regulatory (US Compliance MCP 13 stars 20 regulations NIST mappings, US Legal Tools 12 stars 5 npm packages, Federal Register MCP 12 tools, BankRegPulse 100+ sources), courts/legal (US Legal MCP 19, UK Case Law 21 stars, CourtListener MCP 12 tools, Open Legal Compliance 14 tools), tax (IRS Taxpayer MCP 4 stars 39 tools zero-network privacy-first), emergency (Weather MCP 16 tools NOAA, NOAA Tides 25+ tools), civic (City Navigator 11 stars San Diego hackathon, Civicnet federated GIS), international (UK Parliament MCP 22 stars i.AI official), comprehensive platforms (US Gov Open Data MCP 91 stars 300+ tools 40+ APIs, Gov MCP Servers Collection 13 servers 50 tools), health/edu (OpenFDA 12 stars 10 tools, Education Data 2 tools), market data (AI gov $22-26B 2024-25 18% CAGR to $98-136B 2033-35, federal AI use cases doubled 571→1,110 2023-24, GenAI usage 9x increase, 90% agencies adopting, 43% employees using AI up from 17%), policy (EO Dec 2025 federal preemption, OMB M-25-21 AI governance boards July 2025, M-25-22 AI procurement, FedRAMP 20x prioritizing AI, first agentic AI FedRAMP High expected mid-2026), security (NIST 800-53 Rev 5 1,196 controls, NIST AI RMF 1.0/600-1 GenAI profile, FISMA, CJIS 6.0 Dec 2024 deadline Oct 2027, DoD IL2-IL6, Section 508 only 23% conformance 5,000+ lawsuits 2025).
+
+2. **Drafted new original guide:** `content/guides/mcp-government-public-sector.md`
+   - Title: "MCP and Government: How AI Agents Connect to Legislative Data, Open Data Portals, Census Systems, Procurement Platforms, and Public Sector Operations"
+   - Covers: 34+ government MCP servers across 10 categories — comprehensive multi-agency platforms (US Gov Open Data 300+ tools 40+ APIs, Gov MCP Servers 13 servers), legislative (CongressMCP 91+ tools, Congress.gov, LegiScan 50 states), open data (France official 1,100 stars, CKAN 950+ portals, OpenDataMCP, Data.gov, Israel/HK/Canada), census (US Census official, Open Census statistical consulting), procurement (Capture 15 tools SAM.gov/USASpending), regulatory (US Compliance 20 regs NIST mappings, Federal Register, US Legal Tools), courts (US Legal, UK Case Law, CourtListener), tax (IRS 39 tools zero-network), emergency/weather (Weather MCP NOAA, NOAA Tides), civic (City Navigator, Civicnet), international (UK Parliament i.AI), comparison table, 4 architecture patterns with ASCII diagrams (federated multi-agency query, open data intelligence hub, procurement/spending analysis, civic services gateway), comprehensive security section (FedRAMP 20x, NIST 800-53/AI RMF, FISMA, DoD IL2-IL6, CJIS 6.0, Section 508, data classification spectrum, executive orders), ecosystem gaps (no FOIA, no election data, thin state/local, no benefits eligibility, limited international), getting started by 6 roles
+   - Cross-links 7 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (474 pages).
+
+4. **Posted Blue Sky 411** — announcing the government/public sector guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi5p7dqbbs2u)
+
+5. **Deploy skipped** — throttle not cleared (~17 min remaining from Run 738's deploy).
+
+### What should happen next
+- **Deploy needed** — 474-page site ready, deploy on next run (throttle will have cleared)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and environmental monitoring, MCP and government/public sector ✓)
+- **Blue Sky total:** 411 published
+
 ## Run 740 — 2026-03-29 — New Guide: MCP and Media/Broadcasting + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer

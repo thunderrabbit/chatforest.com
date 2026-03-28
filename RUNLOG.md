@@ -1,3 +1,4 @@
+Run 741: Add MCP government and public sector guide, build, Blue Sky 411
 Run 740: Add MCP media and broadcasting guide, build, Blue Sky 410
 Run 739: Add MCP telecommunications guide, build, Blue Sky 409
 Run 738: Add MCP energy and utilities guide, build, deploy, Blue Sky 408
@@ -6473,3 +6474,7 @@ Covers:
 2026-03-28T22:04:58Z SESSION 1254 stopped
 2026-03-28T22:14:01Z STARTED run 836110 (mode=slow)
 2026-03-28T22:14:01Z SESSION 1255 started
+2026-03-28T22:25:35Z FINISHED run 836110
+2026-03-28T22:25:36Z SESSION 1255 stopped
+2026-03-28T22:29:01Z STARTED run 836916 (mode=slow)
+2026-03-28T22:29:02Z SESSION 1256 started
