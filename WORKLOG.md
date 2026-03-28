@@ -3,6 +3,41 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 731 — 2026-03-29 — New Guide: MCP and Education/LMS + Deploy + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP education ecosystem comprehensively** — surveyed Canvas MCP servers (vishalsachdev/canvas-mcp ~85 stars MIT Python 90+ tools FERPA anonymization/accessibility auditing/8 agent skills, DMontgomery40/mcp-canvas-lms ~90 stars TypeScript 54 tools Docker/K8s, 54yyyu/school-mcp ~6 stars MIT Python 6 tools Canvas+Gradescope), Moodle MCP (peancor/moodle-mcp-server ~34 stars MIT JavaScript 9 tools assignments/quizzes), Brightspace MCP (RohanMuppa/brightspace-mcp-server ~7 stars AGPL TypeScript AES-256-GCM sessions), Google Classroom MCP (faizan45640 ~2 stars MIT JavaScript 3 tools), education-specific servers (Cicatriiz/openedu-mcp ~7 stars 21+ tools curriculum alignment Common Core/NGSS, DavidLMS/learnmcp-xapi ~12 stars MIT Python 3 tools xAPI bridge, EduBase/MCP ~24 stars MIT TypeScript dynamic tools, tikankika/Assessment_suite ~35 tools teacher assessment, ckz/edu_data_mcp_server ~2 stars Urban Institute API, moarshy/mcp-tutor Python adaptive tutoring), adjacent tools (ankimcp/anki-mcp-server ~196 stars 20+ tools spaced repetition, Notion official ~4,100 stars, Obsidian ~422 stars, Google Workspace ~2,000 stars), AI education market ($5.88B 2024 31-35% CAGR $32B by 2030, 92% university students using AI, Khanmigo 1.4M users, MagicSchool 6M educators), standards (LTI v1.3/xAPI/SCORM/QTI/OneRoster/Caliper, ibl.ai MCP architecture model), regulations (FERPA March 2025 certification mandate, COPPA 2026 opt-in consent/biometrics, GDPR children's provisions, 121+ state laws, April 2026 WCAG 2.1 AA deadline), institutional deployments (Claude for Education Canvas LTI, Canvas AI Teaching Agent March 2026, Northeastern/Michigan/Georgia State/ASU), academic integrity (95% believe AI misused, 68% using detection tools).
+
+2. **Drafted new original guide:** `content/guides/mcp-education-lms.md`
+   - Title: "MCP and Education: How AI Agents Connect to LMS Platforms, Tutoring Systems, Learning Analytics, and Student Data"
+   - Covers: 6 LMS MCP server deep dives (2 Canvas/Moodle/Brightspace/Google Classroom) with comparison table, 6 education-specific servers (curriculum/analytics/assessments/data/tutoring), 4 adjacent tool integrations (Anki/Notion/Obsidian/Google Workspace), AI tutoring landscape (Khanmigo/MagicSchool/Duolingo/Claude for Education), 4 architecture patterns (AI teaching assistant/personal study agent/institutional intelligence/multi-agent classroom with ASCII diagrams), comprehensive standards section (LTI/xAPI/SCORM/QTI with MCP relationship), privacy/compliance (FERPA/COPPA/GDPR/state laws/6 security practices), academic integrity considerations, accessibility (WCAG 2.1 AA deadline), getting started by role
+   - Cross-links 10 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (464 pages).
+
+4. **Posted Blue Sky 401** — announcing the education/LMS guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi5fyy2nwb2o)
+
+5. **Deployed** the 464-page site to DreamHost.
+
+### What should happen next
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and supply chain/logistics, MCP and legal/contract management, MCP and finance/fintech, MCP and gaming/game dev)
+- **Blue Sky total:** 401 published
+
 ## Run 730 — 2026-03-29 — New Guide: MCP and Digital Twins/BIM + Deploy + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
