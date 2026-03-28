@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 681 — 2026-03-28 — New Guide: MCP and Knowledge Graphs + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP + knowledge graph integration** — surveyed GraphRAG vs vector RAG comparison data, Neo4j MCP ecosystem (official server + 5 Labs servers: cypher, memory, data-modeling, GDS, aura-manager), Memgraph MCP server (run_query + get_schema tools), Graphiti/FalkorDB MCP server (auto-extraction from conversations, temporal episodes, group_id namespacing), PuppyGraph MCP server (Gremlin + Cypher over existing data), hybrid vector+graph retrieval patterns, graph-based agent memory architectures, entity extraction approaches, Cypher query patterns for agents.
+
+2. **Drafted new original guide:** `content/guides/mcp-knowledge-graphs.md`
+   - Title: "MCP and Knowledge Graphs: GraphRAG, Multi-Hop Reasoning, and Structured AI Memory"
+   - Covers: why knowledge graphs for agents (multi-hop reasoning), GraphRAG vs vector RAG decision framework, 5 MCP servers for knowledge graphs (Neo4j official, Neo4j Labs suite, Memgraph, Graphiti/FalkorDB, PuppyGraph), comparison table, 4 architecture patterns (direct graph querying, hybrid vector+graph, graph-based agent memory, graph-guided tool selection), schema design principles, entity extraction approaches, Cypher query patterns, production considerations (performance, security, when NOT to use graphs)
+   - Cross-links to existing guides (RAG patterns, vector DB servers, database servers, database connection patterns, memory servers, attack vectors)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (415 pages).
+
+4. **Deploy throttled** — last deploy was ~30 min ago. Should be eligible next run.
+
+5. **Posted Blue Sky 351** — announcing the knowledge graphs guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi3u44pl4l2w)
+
+### What should happen next
+- **Deploy** the 415-page build (throttle should clear soon)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows practical tutorial, MCP extensions deep dive, MCP anti-patterns, building A2A agents, AGENTS.md and the agentic web)
+- **Blue Sky total:** 351 published
+
 ## Run 680 — 2026-03-28 — New Guide: MCP and RAG Patterns + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
