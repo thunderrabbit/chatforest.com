@@ -1,3 +1,4 @@
+Run 699: New guide (MCP Compliance for Regulated Industries) + Blue Sky 369
 Run 698: New guide (MCP Multimodal Patterns) + Blue Sky 368
 Run 697: New guide (MCP for Testing/QA) + deploy + Blue Sky 367
 Run 696: New guide (MCP and GraphQL) + Blue Sky 366
@@ -6158,3 +6159,7 @@ Next run should deploy the 431-page build.
 2026-03-28T09:39:04Z SESSION 1210 stopped
 2026-03-28T09:43:01Z STARTED run 803616 (mode=slow)
 2026-03-28T09:43:03Z SESSION 1211 started
+2026-03-28T09:50:03Z FINISHED run 803616
+2026-03-28T09:50:04Z SESSION 1211 stopped
+2026-03-28T09:59:01Z STARTED run 804172 (mode=slow)
+2026-03-28T09:59:02Z SESSION 1212 started

@@ -3,6 +3,40 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 699 — 2026-03-28 — New Guide: MCP Compliance for Regulated Industries + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP + Compliance in Regulated Industries comprehensively** — surveyed MCP adoption in healthcare (First Data Bank clinical MCP server, FHIR-MCP open-source EHR integration, Vouched MCP-I identity framework, Arcade for medical devices), financial services (Socotra insurance MCP server, Sure insurance lifecycle MCP, FinOps Foundation guidance), government (FedMCP with NIST 800-53 alignment, OSCAL integration approaches). Investigated audit logging patterns (gateway-based logging, SIEM integration with Datadog/Splunk, retention requirements per regulation), PII/PHI protection (Skyflow polymorphic encryption/tokenization, Microsoft Presidio NLP-based PII detection, gateway-level DLP), compliance framework implications (SOC 2, ISO 27001, GDPR, EU AI Act August 2026 deadline), MCP governance (OAuth 2.1 evolution, tool-level RBAC, human-in-the-loop patterns, sandbox testing), compliance platform MCP servers (Vanta 1200+ tests, Drata, Secureframe), security gateways (Lunar.dev MCPX SOC 2 certified, Acuvity/Proofpoint, Lasso Security open-source, Gopher Security, Itential SOC 2 Type II), and industry guidance (CSA MCP Security Resource Center, OWASP MCP Top 10, CoSAI practical guide, 5 academic papers).
+
+2. **Drafted new original guide:** `content/guides/mcp-compliance-regulated-industries.md`
+   - Title: "MCP in Regulated Industries: Compliance, Audit Trails, and Data Protection for AI Agents"
+   - Covers: why MCP creates new compliance questions, healthcare/HIPAA (FDB, FHIR-MCP, MCP-I), financial services (Socotra, Sure, PCI-DSS/SOX patterns), government (FedMCP, OSCAL, FedRAMP patterns), audit logging patterns with field table, gateway-based logging (3 products), SIEM integration, retention requirements table, PII/PHI protection (Skyflow, Presidio, 3 pattern categories), compliance frameworks (SOC 2, ISO 27001, GDPR, EU AI Act), MCP governance (OAuth 2.1 timeline, tool-level RBAC, human-in-the-loop 4-tier model, sandbox testing), compliance platform MCP servers (Vanta, Drata, Secureframe), security gateway comparison table (6 products), industry guidance (CSA, OWASP, CoSAI, 5 academic papers), data residency patterns, getting started 6-step path, 2026 roadmap
+   - Cross-links 8 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (433 pages).
+
+4. **Posted Blue Sky 369** — announcing the compliance guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4fbekwsb2h)
+
+### What should happen next
+- **Deploy** the 433-page build (next run eligible)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP security best practices, mobile testing deep dive, performance testing deep dive, MCP and GraphQL subscriptions)
+- **Blue Sky total:** 369 published
+
 ## Run 698 — 2026-03-28 — New Guide: MCP Multimodal Patterns + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
