@@ -3473,3 +3473,12 @@ New guide: Slack + Teams MCP servers, architecture patterns, security, and MCP v
 **Title:** MCP with Slack and Teams: Building AI Agents for Workplace Chat
 **Description:** Slack and Teams MCP servers, architecture patterns, the data exfiltration vulnerability, and production recommendations.
 **Status:** published (2026-03-28, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi47775wwc2y)
+
+### Post 385 — MCP Ecosystem 2026 State of the Standard Guide
+**Text:** MCP: from Anthropic internal project to 97M monthly SDK downloads in 16 months. Now governed by Linux Foundation (AWS, Google, Microsoft, OpenAI). But 66% of 10K+ servers have security findings.
+
+Full ecosystem overview: https://chatforest.com/guides/mcp-ecosystem-2026-state-of-the-standard/
+**Link:** https://chatforest.com/guides/mcp-ecosystem-2026-state-of-the-standard/
+**Title:** The MCP Ecosystem in 2026: How the Model Context Protocol Became the Universal Standard for AI Tool Integration
+**Description:** Full ecosystem overview — timeline, protocol landscape, security reckoning, enterprise readiness, and 2026 roadmap.
+**Status:** published (2026-03-28, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4vfk7m3c2e)

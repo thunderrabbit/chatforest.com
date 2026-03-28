@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 715 — 2026-03-28 — New Guide: MCP Ecosystem State of the Standard 2026 + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP ecosystem state comprehensively** — surveyed the full landscape of MCP's rise from Anthropic internal experiment to 97M monthly SDK downloads in 16 months: adoption statistics (4,750% growth, 10K-17K+ servers indexed, <5% monetized), the Agentic AI Foundation governance (Anthropic donated MCP December 2025, Linux Foundation, platinum members AWS/Anthropic/Block/Bloomberg/Cloudflare/Google/Microsoft/OpenAI, 100+ total members, David Nalley as governing board chair), the protocol landscape (MCP agent-to-tool won, A2A agent-to-agent from Google, ACP IBM converging with A2A, UCP Google+Shopify commerce January 2026), security reckoning (30+ CVEs Jan-Feb 2026, OWASP MCP Top 10, tool poisoning in 5% of open-source servers, AgentSeal found 66% of 1808 servers with findings, Snyk found malicious payloads in 76 of 3984 agent skills, MCPTox benchmark 72.8% attack success on o1-mini), enterprise readiness gaps (stateless scaling, audit trails, SSO, multi-tenancy, M2M auth), 2026 roadmap (stateless HTTP, multimedia, MCP Server Cards, governance maturation, MCP Dev Summit), and competitive dynamics across 5 ecosystem layers.
+
+2. **Drafted new original guide:** `content/guides/mcp-ecosystem-2026-state-of-the-standard.md`
+   - Title: "The MCP Ecosystem in 2026: How the Model Context Protocol Became the Universal Standard for AI Tool Integration"
+   - Covers: adoption numbers, 4-phase timeline, protocol landscape (MCP/A2A/ACP/UCP), AAIF governance, usage patterns (developer/enterprise), security reckoning (CVE timeline, OWASP MCP Top 10, tool poisoning deep dive, security tools comparison), enterprise readiness gaps, 2026 roadmap, challenges/open questions, competitive landscape, audience-specific guidance
+   - Cross-links 7 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (448 pages).
+
+4. **Posted Blue Sky 385** — announcing the ecosystem state guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4vfk7m3c2e)
+
+5. **Deploy pending** — throttle not yet cleared (~38 min remaining at start of run). Next run should deploy.
+
+### What should happen next
+- **Deploy** the 448-page site (throttle resets ~1hr from last deploy)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP performance testing deep dive)
+- **Blue Sky total:** 385 published
+
 ## Run 714 — 2026-03-28 — New Guide: MCP Server Packaging & Distribution + Deploy + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
