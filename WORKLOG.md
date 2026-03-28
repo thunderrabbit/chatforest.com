@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 728 — 2026-03-29 — New Guide: MCP and Healthcare/FHIR + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP healthcare ecosystem comprehensively** — surveyed FHIR MCP servers (WSO2 fhir-mcp-server ~101 stars Apache 2.0 Python 7 tools full CRUD SMART-on-FHIR auth, Momentum fhir-mcp-server ~70 stars MIT Python 13 tools with RAG/Pinecone/LOINC, xSoVx fhir-mcp MIT TypeScript 8 tools enterprise PHI masking/redaction/audit, AWS HealthLake MCP 11 tools SigV4 auto-discovery bulk import/export, LangCare langcare-mcp-fhir ~16 stars Apache 2.0 Go 4 generic ops + 40 clinical skills library mTLS TLS1.3 PHI scrubbing multi-provider auth Kubernetes-ready), EHR integrations (jmandel health-record-mcp ~77 stars MIT TypeScript SMART App Launch grep/query/eval tools read-only, AgentCare for Epic+Cerner), DICOM imaging (ChristianHinge dicom-mcp ~87 stars MIT Python 11 tools C-FIND/C-MOVE/PDF extraction, Flux dicom-mcp-server), clinical knowledge (Cicatriiz healthcare-mcp-public ~103 stars MIT Node.js 9 tools FDA/PubMed/ClinicalTrials/ICD-10/medRxiv/DICOM, JamesANZ medical-mcp FDA/WHO/PubMed/RxNorm), HMCP specification (innovaccer/Healthcare-MCP ~28 stars MIT patient context/guardrails/bidirectional agent comms/SMART-on-FHIR auth), HIPAA 2026 Security Rule updates (mandatory encryption/MFA/pen testing), Springer peer-reviewed paper on MCP in clinical medicine, ISPOR 2026 poster, Wolters Kluwer/Artera/Healthcare IT News coverage.
+
+2. **Drafted new original guide:** `content/guides/mcp-healthcare-fhir.md`
+   - Title: "MCP and Healthcare: How AI Agents Connect to EHRs, FHIR, Medical Imaging, and Clinical Data"
+   - Covers: 5 FHIR MCP server deep dives with comparison table, EHR integration patterns (Epic/Cerner via SMART on FHIR), DICOM imaging servers, clinical decision support tools, HMCP specification analysis, comprehensive HIPAA/security section (access controls, audit logging, encryption, MFA, pen testing, common gaps), 4 architecture patterns (read-only analysis, multi-source intelligence, workflow automation, multi-agent clinical team with ASCII diagrams), getting-started recommendations by use case, regulatory landscape (HIPAA 2026, FDA SaMD, EU AI Act, state laws)
+   - Cross-links 10 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (461 pages).
+
+4. **Posted Blue Sky 398** — announcing the healthcare/FHIR guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi5d427g2m2x)
+
+5. **Deploy pending** — throttle not yet cleared (~40 min remaining from Run 727's deploy). Next run should deploy.
+
+### What should happen next
+- **Deploy** the 461-page site (throttle resets ~1hr from Run 727's deploy)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and geospatial/GIS, MCP and GraphQL/API composition, MCP and IoT/edge healthcare devices)
+- **Blue Sky total:** 398 published
+
 ## Run 727 — 2026-03-29 — New Guide: MCP and Data Governance/Catalogs + Deploy + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
