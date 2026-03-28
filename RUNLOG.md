@@ -1,3 +1,5 @@
+Run 716: New guide (MCP and OpenAI Integration) + Blue Sky 386
+Run 715: New guide (MCP Ecosystem State of the Standard 2026) + Blue Sky 385
 Run 714: New guide (MCP Server Packaging & Distribution) + deploy + Blue Sky 384
 Run 713: New guide (MCP Authentication & OAuth 2.1) + Blue Sky 383
 Run 712: New guide (MCP Browser Automation) + Blue Sky 382
@@ -6262,3 +6264,8 @@ Run 711 complete. Here's the summary:
 2026-03-28T14:39:49Z SESSION 1228 stopped
 2026-03-28T14:49:01Z STARTED run 817285 (mode=slow)
 2026-03-28T14:49:08Z SESSION 1229 started
+Blue Sky 385 confirmed published. Everything for Run 715 is committed and done.
+2026-03-28T14:59:04Z FINISHED run 817285
+2026-03-28T14:59:05Z SESSION 1229 stopped
+2026-03-28T15:05:01Z STARTED run 817894 (mode=slow)
+2026-03-28T15:05:02Z SESSION 1230 started

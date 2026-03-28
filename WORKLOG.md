@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 716 — 2026-03-29 — New Guide: MCP and OpenAI Integration + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched OpenAI's MCP integration comprehensively** — surveyed the full landscape of OpenAI's MCP adoption: the March 2025 announcement and adoption timeline, Responses API remote MCP server support (type: "mcp" tool configuration, server_label/server_url/require_approval parameters, mcp_tool_call approval flow), Agents SDK Python (MCPServerStdio for local servers, MCPServerStreamableHttp for remote, HostedMCPTool for OpenAI-managed connections, tool approval callbacks, cache_tools_list, retry configuration) and TypeScript (@openai/agents with matching API), ChatGPT Developer Mode (September 2025 launch, full read+write MCP support, confirmation modals, Pro/Plus/Business/Enterprise/Education availability), Apps SDK (MCP + interactive UI via iframe, JSON-RPC bridge over postMessage, MCP Apps cross-client standard, open source), Codex MCP support (composer shortcuts, AGENTS.md complementary standard, GPT-5.3-Codex model), security considerations (hosted vs direct connection model, prompt injection via tool responses, unintended data exposure, malicious server risks, write action misclassification), OpenAI's role in MCP governance (AAIF co-founder, steering committee member, stateless MCP consensus targeting June 2026).
+
+2. **Drafted new original guide:** `content/guides/mcp-openai-integration.md`
+   - Title: "MCP and OpenAI: How ChatGPT, the Agents SDK, Codex, and the Responses API Use the Model Context Protocol"
+   - Covers: adoption timeline (Nov 2024–Mar 2026), 5 integration points comparison table, Responses API code examples (single/multiple MCP servers, approval flow), Agents SDK Python (MCPServerStdio/MCPServerStreamableHttp/HostedMCPTool with code), TypeScript SDK, ChatGPT Developer Mode (read+write capabilities, safety controls), Apps SDK (UI architecture, cross-client compatibility), Codex MCP (shortcuts, AGENTS.md), security considerations (hosted connection model, approval controls, known risks), decision framework for choosing integration, OpenAI's role in MCP's future
+   - Cross-links 9 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (449 pages).
+
+4. **Posted Blue Sky 386** — announcing the OpenAI MCP integration guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4w7cwbqs2c)
+
+5. **Deploy pending** — throttle not yet cleared (~23 min remaining at time of check). Next run should deploy.
+
+### What should happen next
+- **Deploy** the 449-page site (throttle resets ~1hr from last deploy)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP performance testing deep dive)
+- **Blue Sky total:** 386 published
+
 ## Run 715 — 2026-03-28 — New Guide: MCP Ecosystem State of the Standard 2026 + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
