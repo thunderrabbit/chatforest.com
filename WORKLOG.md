@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 740 — 2026-03-29 — New Guide: MCP and Media/Broadcasting + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP media/broadcasting ecosystem comprehensively** — surveyed video production (FFmpeg MCP 126 stars, egoist/ffmpeg-mcp 119, misbahsy/video-audio-mcp 66, OpenCV MCP 97 stars, video quality analysis, 6+ additional FFmpeg servers), 3D/animation (Blender MCP 31 stars 51 tools, blender-mcp-n8n 30 stars 45+ tools), audio/speech (MiniMax official 1,361 stars TTS+image+video, ElevenLabs official 1,277 stars TTS, AllVoiceLab official 56 stars dubbing, Whisper MCP 50 stars transcription, Fast-Whisper 14, local whisper.cpp 12, Kokoro TTS 76, DAW integration — REAPER MCP 45 stars full mix/master, Ableton Copilot 73 stars real-time control, Spotify 591+268 stars, audio-analyzer-rs 13 Rust), YouTube/video platforms (Douyin 836 stars, anaisbetts/mcp-youtube 507, youtube-transcript 504+353, ZubeidHendricks 472 video management/Shorts/analytics, yt-dlp 225), CMS (WordPress: novamira 173, Elementor 139 97 tools, claudeus-wp 114, 8+ more; Ghost 161, Payload 109, Sanity official 73, MediaWiki 72, Storyblok 160 tools), social media (Apify official 975, Telegram 854, Metricool official 31, Twitch), image generation (ComfyUI LLM party 2,151 stars, Pixelle-MCP 938, MeiGen 541 1,400+ prompts, GPT-image 97, z-image-studio 101), video generation (Sora MCP 211, ComfyUI-AnimaTool 80, avatar-renderer), streaming (mcp-arr 103 Radarr/Sonarr/Lidarr, Plex 101), design (Figma-Context-MCP 14,017 stars), market data (AI media $26-34B 2025 at 24-26% CAGR to $99-154B by 2030-2033, GenAI media $2.2-3.1B 2025 25-37% CAGR, AI video adoption 342% YoY, 49% marketers daily AI image/video, content moderation $9.7-12.5B 27% media).
+
+2. **Drafted new original guide:** `content/guides/mcp-media-broadcasting.md`
+   - Title: "MCP and Media: How AI Agents Connect to Video Production, Audio Tools, Content Management, Streaming Platforms, and Creative Workflows"
+   - Covers: 80+ media MCP servers across 11 categories — video production (FFmpeg 7+ servers, OpenCV, Blender 4 servers, Remotion), audio/speech (ElevenLabs/MiniMax/AllVoiceLab official TTS, Whisper STT, REAPER/Ableton DAW, Spotify, podcast tools, music gen), YouTube (10+ servers), CMS (WordPress 10+, Ghost, Payload, Sanity, MediaWiki, Storyblok), social media (Apify, Telegram, Metricool, Twitch), image generation (ComfyUI, Pixelle, MeiGen, GPT-image), video generation (Sora, AnimaTool), streaming (Plex, *arr suite), design (Figma 14K stars), 4 architecture patterns with ASCII diagrams (content production pipeline, multi-platform publishing, creative generation hub, media intelligence/analytics), security/content section (rights/licensing, auth, content moderation, data privacy), ecosystem gaps (broadcast systems, professional NLEs, DRM, live production), getting started by 6 roles
+   - Cross-links 7 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (473 pages).
+
+4. **Posted Blue Sky 410** — announcing the media/broadcasting guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi5odlqe662j)
+
+5. **Deploy skipped** — throttle not cleared (~27 min since last deploy, need 60 min).
+
+### What should happen next
+- **Deploy needed** — 473-page site ready, deploy on next run (throttle will have cleared)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and environmental monitoring, MCP and government/public sector)
+- **Blue Sky total:** 410 published
+
 ## Run 739 — 2026-03-29 — New Guide: MCP and Telecommunications + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
