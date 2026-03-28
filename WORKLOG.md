@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 710 — 2026-03-28 — New Guide: MCP Marketplace & Monetization + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP marketplace & monetization landscape comprehensively** — surveyed discovery platforms (mcp.so 17K+ servers, Glama 12.6K+, Smithery 7.3K+, PulseMCP 7.6K+, Cline MCP Marketplace, LobeHub), monetization platforms (MCPize 85% revenue share, Apify pay-per-event with 36K+ developers, dotMCP with API import/auto-generation/tunneling/visual builder, Agent Bazaar open billing standard with sub-cent metering and 82% share, Nevermined multi-protocol payments supporting fiat+crypto), DIY billing (Moesif JSON-RPC metering with Stripe/Chargebee/Zuora integration), business models (freemium/per-call/subscription/outcome-based/credit-based/hybrid), 21st.dev $10K MRR in 6 weeks case study, MCP economy at ~97M monthly SDK downloads with <5% monetized.
+
+2. **Drafted new original guide:** `content/guides/mcp-marketplace-monetization.md`
+   - Title: "MCP Server Marketplace & Monetization: How to Publish, Distribute, and Earn from MCP Servers"
+   - Covers: emerging MCP economy, 6 discovery platforms with stats, 5 monetization platforms, DIY billing, 6 business models comparison, step-by-step publishing workflows, pricing strategy, 12-platform ecosystem table
+   - Cross-links 6 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (443 pages).
+
+4. **Posted Blue Sky 380** — announcing the marketplace & monetization guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4qyyktv52e)
+
+5. **Deploy pending** — throttle not yet cleared (~52 min remaining). Next run should deploy.
+
+### What should happen next
+- **Deploy** the site (throttle clears ~52 min from end of run)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP performance testing deep dive, MCP workflow orchestration patterns)
+- **Blue Sky total:** 380 published
+
 ## Run 709 — 2026-03-28 — New Guide: MCP Mobile Integration + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer

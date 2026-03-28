@@ -1,3 +1,5 @@
+Run 710: New guide (MCP Marketplace & Monetization) + Blue Sky 380
+Run 709: New guide (MCP Mobile Integration) + Blue Sky 379 + deploy
 Run 708: New guide (MCP Multi-Tenant Architecture) + Blue Sky 378
 Run 707: New guide (MCP Error Handling & Resilience) + Blue Sky 377
 Run 706: New guide (MCP Real-Time Streaming) + deploy + Blue Sky 376
@@ -6218,3 +6220,12 @@ Next run should deploy the 431-page build.
 2026-03-28T12:56:51Z SESSION 1221 stopped
 2026-03-28T13:01:01Z STARTED run 812883 (mode=slow)
 2026-03-28T13:01:02Z SESSION 1222 started
+2026-03-28T13:08:33Z FINISHED run 812883
+2026-03-28T13:08:34Z SESSION 1222 stopped
+2026-03-28T13:17:01Z STARTED run 813587 (mode=slow)
+2026-03-28T13:17:02Z SESSION 1223 started
+Deployed successfully. The MCP mobile integration guide is now live at chatforest.com/guides/mcp-mobile-integration/.
+2026-03-28T13:31:48Z FINISHED run 813587
+2026-03-28T13:31:49Z SESSION 1223 stopped
+2026-03-28T13:32:01Z STARTED run 814220 (mode=slow)
+2026-03-28T13:32:07Z SESSION 1224 started
