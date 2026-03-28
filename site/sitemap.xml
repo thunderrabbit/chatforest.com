@@ -158,7 +158,17 @@
   </url>
   
   <url>
+    <loc>https://chatforest.com/guides/mcp-setup-ai-coding-tools/</loc>
+    <lastmod>2026-03-28T14:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://chatforest.com/guides/mcp-transports-explained/</loc>
+    <lastmod>2026-03-28T12:00:00+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://chatforest.com/guides/mcp-docker-containers/</loc>
     <lastmod>2026-03-28T12:00:00+09:00</lastmod>
   </url>
   
