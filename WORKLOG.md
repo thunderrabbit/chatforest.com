@@ -3,6 +3,41 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 735 — 2026-03-29 — New Guide: MCP and Legal/Contract Management + Deploy + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP legal/contract management ecosystem comprehensively** — surveyed legal research MCP servers (JamesANZ/us-legal-mcp ~19 stars MIT TypeScript 8 tools Congress/FedReg/CourtListener, TCoder920x/open-legal-compliance-mcp ~2 stars MIT TypeScript 20+ tools 12 data source categories US/Canada/EU/UK, yoda-digital/mcp-cerebra-legal-server ~27 stars MIT TypeScript 3 tools legal reasoning/domain templates/citation formatting, agentic-ops/legal-mcp ~13 stars early-stage 5 planned tools), jurisdiction-specific servers (Ansvar Systems suite: EU_compliance_MCP ~56 stars Apache 2.0 49 EU regs 2,528 articles 709 ISO/NIST control mappings, US_Compliance_MCP ~13 stars 20 US regs HIPAA/SOX/CCPA/GLBA/FERPA, German-law-mcp ~4 stars 6,870 statutes 91,843 provisions 19 tools daily freshness, Estonian/Spanish/Polish/Dutch/Swedish/Slovak/Maltese-law-mcp 70+ national servers planned), e-signature servers (esignaturescom/mcp-server-esignatures ~35 stars MIT Python 13 tools official, boldsign/boldsign-mcp ~4 stars MIT TypeScript 15 tools official Syncfusion, DocuSign MCP Beta official, SignNow ~15 stars MIT), legal AI platforms (Harvey AI dual MCP client+server Dec 2025 5 tools OAuth Claude-only, iManage MCP ILTACON Aug 2025 permission-aware data-stays-in-place, Concord CLM MCP live Horizon AI OAuth 2.1 SOC 2 Type II), document/PDF servers (SylphxAI/pdf-reader-mcp ~577 stars, rsp2k/mcp-pdf 46 tools 7 categories, sandraschi/ocr-mcp 10+ engines, AWS document-loader-mcp), LegalContext/Clio bridge (protomated/legal-context-ce ~24 stars MPL-2.0 local processing semantic search), Global Compliance Audit MCP (120 rules 14 regs offline), market data (AI legal $1.75-4.59B 2025 at 13-28% CAGR, law firm adoption 19%→79%, legal tech spending +9.7%), ethics/security (ABA Opinion 512 July 2024, SDNY Feb 2026 privilege ruling on consumer AI, California Rule 10.430, Florida/Texas/NY disclosure rules, EU Data Act/AI Act, data sovereignty).
+
+2. **Drafted new original guide:** `content/guides/mcp-legal-contract-management.md`
+   - Title: "MCP and Legal: How AI Agents Connect to Legal Research, Contract Management, Compliance, and Document Systems"
+   - Covers: 4 legal research MCP servers with comparison, Ansvar Systems jurisdiction suite (EU/US/7+ national law servers with comparison table), 4 e-signature servers with comparison table, 3 major platform integrations (Harvey AI dual-role, iManage, Concord CLM), LegalContext/Clio bridge, compliance servers, 4 document/PDF processing servers, 4 architecture patterns with ASCII diagrams (legal research assistant, contract review pipeline, compliance monitoring, Harvey-as-hub DMS bridge), comprehensive security section (privilege, ABA guidance, state court rules, data sovereignty, 7 best practices), market context with adoption data, getting started by 5 roles
+   - Cross-links existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (468 pages).
+
+4. **Deployed** the 468-page site to DreamHost.
+
+5. **Posted Blue Sky 405** — announcing the legal/contract management guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi5jfssfij2c)
+
+### What should happen next
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and legal/contract management done, MCP and agriculture/farming, MCP and real estate/property)
+- **Blue Sky total:** 405 published
+
 ## Run 734 — 2026-03-29 — New Guide: MCP and Gaming/Game Development + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
