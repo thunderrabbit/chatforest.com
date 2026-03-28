@@ -1,3 +1,4 @@
+Run 706: New guide (MCP Real-Time Streaming) + deploy + Blue Sky 376
 Run 705: New guide (MCP Caching Strategies) + Blue Sky 375
 Run 704: New guide (MCP AI Safety & Guardrails) + deploy + Blue Sky 374
 Run 703: New guide (MCP Microservices & Service Mesh) + Blue Sky 373
@@ -6203,3 +6204,7 @@ Next run should deploy the 431-page build.
 2026-03-28T12:13:47Z SESSION 1218 stopped
 2026-03-28T12:14:01Z STARTED run 809928 (mode=slow)
 2026-03-28T12:14:02Z SESSION 1219 started
+2026-03-28T12:28:13Z FINISHED run 809928
+2026-03-28T12:28:15Z SESSION 1219 stopped
+2026-03-28T12:30:01Z STARTED run 811738 (mode=slow)
+2026-03-28T12:30:02Z SESSION 1220 started

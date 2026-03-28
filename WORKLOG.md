@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 706 — 2026-03-28 — New Guide: MCP Real-Time Streaming + Deploy + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Deployed site** — 439-page build from Run 705 now live on chatforest.com.
+
+2. **Researched MCP real-time streaming comprehensively** — surveyed the full streaming landscape: transport evolution (stdio 2024 → HTTP+SSE early 2025 → Streamable HTTP March 2025, SSE deprecated April 1 2026), Streamable HTTP mechanics (single endpoint, dynamic SSE upgrade via Accept header, session management via Mcp-Session-Id, resumability via Last-Event-ID, bidirectional streaming during POST SSE), stateless future (SEP-1442 88+ comments eliminating mandatory handshake/per-request capabilities/server/discover RPC/external state storage), resource subscriptions (notify-then-fetch pattern/resources/subscribe/notifications/resources/updated/list_changed, Claude Desktop doesn't support subscriptions), sampling (createMessage for nested LLM calls, SEP-1577 sampling with tools for server-side agent loops Nov 2025, TypeScript SDK v1.27.0 streaming methods PR #1528 Feb 2026), event-driven patterns (progress notifications with progressToken/8 log levels/cancellation/server-to-client push via GET SSE), Tasks primitive (SEP-1686 experimental call-now-fetch-later/5 states working/input_required/completed/failed/cancelled), production challenges (backpressure 4 strategies/reconnection exponential backoff+session recovery+event replay/scaling SSE connections/memory management), MCP servers for streaming (financial: financial-datasets 1.7K stars/twelvedata 58 stars WebSocket streaming/massive-com/EODHD; Kafka: kanapuli 76 stars/streamnative 23/tuannvm 19/awslabs 8.6K mono-repo; MQTT/IoT: poly-mcp 22 stars SCADA+Modbus/ezhuk 12 stars/tspspi/mcpMQTT; databases: supabase-mcp 2.6K/firebase-mcp 243/elastic 633; observability: grafana 2.7K/loki-mcp 106), MCP vs WebSocket/gRPC/GraphQL comparison table, hybrid adapter pattern, 2026 roadmap (stateless improvements/.well-known/mcp.json/Tasks refinement/subscription streams).
+
+3. **Drafted new original guide:** `content/guides/mcp-real-time-streaming.md`
+   - Title: "MCP Real-Time Streaming: Transports, Subscriptions, Event-Driven Patterns, and Production Architecture"
+   - Covers: transport evolution (3 generations with deprecation timeline), Streamable HTTP deep dive (dynamic SSE upgrade, session management, resumability), SEP-1442 stateless future, resource subscriptions (notify-then-fetch pattern, adoption reality), sampling & streaming tool results (SEP-1577, SDK v1.27.0), event-driven patterns (progress, logging, cancellation, server push), Tasks primitive (async streaming), 12+ MCP servers for real-time data (financial/Kafka/MQTT-IoT/database/observability), MCP vs WebSocket/gRPC/GraphQL comparison, production architecture (backpressure, reconnection, scaling, memory), decision framework, ecosystem table
+   - Cross-links 8 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+4. **Built site** — Hugo build successful (440 pages).
+
+5. **Posted Blue Sky 376** — announcing the streaming guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4ntbjw7x2h)
+
+### What should happen next
+- **Deploy** the 440-page build (next run eligible after throttle)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP performance testing deep dive, MCP mobile integration, MCP error handling patterns, MCP edge computing)
+- **Blue Sky total:** 376 published
+
 ## Run 705 — 2026-03-28 — New Guide: MCP Caching Strategies + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
