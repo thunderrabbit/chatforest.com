@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 733 — 2026-03-29 — New Guide: MCP and Finance/Fintech + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP finance/fintech ecosystem comprehensively** — surveyed market data MCP servers (Alpha Vantage official OAuth/API-key stocks/options/forex/crypto/commodities/indicators/economic, Financial Datasets TypeScript financials/prices/news, EODHD official 150K+ tickers 70+ exchanges historical/bulk, Bloomberg BLPAPI-MCP Python open-source bridge requires Terminal subscription real-time/historical/reference, Massive.com TypeScript 4 meta-tools search/docs/call/query, FinancialData.Net official real-time/fundamentals/institutional), banking MCP servers (Personetics official enterprise 135M+ customers financial behavior/predictive analytics/contextual engagement/goal coaching privacy-by-design, Plaid official SSE OAuth 9,698+ banks 4 tools accounts/transactions/auth/identity, Grasshopper first US bank MCP server with Narmi partnership ChatGPT-enabled), payment processing (Stripe official ~1,400 stars 25 tools 13 categories OAuth+local products/prices/subscriptions/invoices/refunds/disputes/balance plus @stripe/agent-toolkit Python+TypeScript, community atharvagupta2003 ~41 stars, hideokamoto testing tools), cryptocurrency/DeFi (CoinGecko official in MCP official servers repo 15K+ coins 1,000+ exchanges 8M+ tokens 200+ networks via GeckoTerminal, HiveIntelligence/Sharpe AI 60+ blockchains, Tatum Blockchain MCP 130+ networks read/write, Polygon MCP wallet/contract/L2/DeFi/simulation, Solana MCP via Agent Kit, deBridge cross-chain non-custodial), accounting/ERP (QuickBooks community laf-rge, Coupler.io 70+ connectors including QuickBooks/Xero/Stripe, Microsoft Dynamics 365 official dynamic MCP server replacing static 13-tool server full app scope no custom code Copilot Studio billing), enterprise platforms (Microsoft 2026 Release Wave 1 enhanced MCP + immersive home, Personetics banking platform accelerated time-to-market), market data (AI agents financial services $1.79B 2025 to $6.54B 2035 at 13.84% CAGR, broader AI fintech $30B 2025 to $99B 2031 at 22% CAGR, banks 40.5% share fintech 28.5% CAGR, sanctions fines $228.8M H1 2025 vs $3.7M H1 2024), security (OAuth enterprise identity integration, least privilege tool-level permissions, DLP pattern-based redaction, data residency, AML/KYC requirements, SOX compliance, PSD2/open banking, SEC/FINRA record-keeping, GDPR, 7 financial-specific best practices including read/write separation, human-in-the-loop for transactions, sandbox environments, vendor assessment, cross-system data leakage prevention, context poisoning defense, regulatory change management).
+
+2. **Drafted new original guide:** `content/guides/mcp-finance-fintech.md`
+   - Title: "MCP and Finance: How AI Agents Connect to Market Data, Banking, Payments, Crypto, and Accounting Systems"
+   - Covers: 6 market data MCP server deep dives (Alpha Vantage/Financial Datasets/EODHD/Bloomberg/Massive.com/FinancialData.Net) with comparison table, 3 banking servers (Personetics/Plaid/Grasshopper), Stripe payments (25 tools), crypto/DeFi ecosystem (CoinGecko/HiveIntelligence/Tatum/Polygon/Solana/deBridge + curated lists), accounting/ERP (QuickBooks/Dynamics 365/Xero), enterprise platform analysis, 4 architecture patterns (market research/banking intelligence/payment operations/multi-agent trading with ASCII diagrams), comprehensive security section (auth/data protection/regulatory compliance/audit/7 financial best practices), getting started by 5 roles
+   - Cross-links existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (466 pages).
+
+4. **Posted Blue Sky 403** — announcing the finance/fintech guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi5hh4u6zw2u)
+
+5. **Deploy pending** — throttle not yet cleared (~35 min remaining from Run 731's deploy). Next run should deploy.
+
+### What should happen next
+- **Deploy** the 466-page site (throttle clears ~35 min from now)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and legal/contract management, MCP and gaming/game dev)
+- **Blue Sky total:** 403 published
+
 ## Run 732 — 2026-03-29 — New Guide: MCP and Supply Chain/Logistics + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer

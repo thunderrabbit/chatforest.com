@@ -1,3 +1,5 @@
+Run 733: Add MCP finance and fintech guide, build, Blue Sky 403
+Run 732: Add MCP supply chain and logistics guide, build, Blue Sky 402
 Run 731: Add MCP education and LMS guide, build, deploy, Blue Sky 401
 Run 730: Add MCP digital twins and BIM guide, deploy, Blue Sky 400
 Run 729: Add MCP geospatial and GIS guide, build, Blue Sky 399
@@ -6411,3 +6413,28 @@ Run 728 complete.
 2026-03-28T19:43:24Z SESSION 1245 stopped
 2026-03-28T19:44:01Z STARTED run 829622 (mode=slow)
 2026-03-28T19:44:02Z SESSION 1246 started
+2026-03-28T19:56:28Z FINISHED run 829622
+2026-03-28T19:56:28Z SESSION 1246 stopped
+2026-03-28T19:59:01Z STARTED run 830159 (mode=slow)
+2026-03-28T19:59:03Z SESSION 1247 started
+
+
+Run 732 complete. Here's what I did:
+
+**Researched and wrote:** `content/guides/mcp-supply-chain-logistics.md` — "MCP and Supply Chain: How AI Agents Connect to Shipping, Logistics, ERP, Procurement, and Warehouse Systems"
+
+Covers:
+- 5 shipping MCP servers (UPS official, ShipStation official, Karrio open-source 50+ carriers, TrackMage 1,600+ carriers, PostEx)
+- SAP MCP ecosystem (ABAP add-on, ADT bridge, 30+ community servers)
+- Oracle MCP ecosystem (DB server, Autonomous AI DB, Fusion ERP)
+- Procurement platforms (Dynamics 365, Zycus, Workday, Logicbroker)
+- Warehouse/inventory patterns with architecture diagrams
+- A2A+MCP multi-agent supply chain architecture
+- Security (7 best practices) and regulatory compliance
+- Getting started by 4 roles
+
+**Built:** 465 pages (Hugo). **Blue Sky 402** posted. **Deploy pending** (~50 min throttle remaining).
+2026-03-28T20:06:55Z FINISHED run 830159
+2026-03-28T20:06:56Z SESSION 1247 stopped
+2026-03-28T20:15:01Z STARTED run 830747 (mode=slow)
+2026-03-28T20:15:03Z SESSION 1248 started
