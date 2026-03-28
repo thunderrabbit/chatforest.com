@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 736 — 2026-03-29 — New Guide: MCP and Agriculture/Farming + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP agriculture/farming ecosystem comprehensively** — surveyed unified farm data platforms (Leaf Agriculture official MCP server wrapping unified API for JD/FieldView/CNHi/AGCO/Trimble/AgLeader with field ops/boundaries/satellite/weather/prescriptions/assets/irrigation, CoreyFransen08/john-deere-ops-mcp TypeScript Cloudflare Workers double OAuth proxy 4 tools orgs/fields/operations, easavin/ag-mcp JD+Auravant+weather multi-platform chat, FieldMCP commercial platform OAuth 2.1 managed free tier 1K calls/mo), soil and environmental data (tharlestsa/openlandmap_mcp Python CC-BY-SA-4.0 27 tools 104+ collections global 30m soil/vegetation/landcover/climate/terrain/water/atmosphere, AiAgentKarl/agriculture-mcp-server MIT Python 8 tools soil/weather/climate history NASA POWER since 1981/World Bank 20+ indicators/Open Food Facts 3M+ products), weather intelligence (etudelab/agri-weather-mcp MIT Python 6 tools Open-Meteo growth-stage-aware alerts/soil depth/ET₀, eagleisbatman/gap-agriculture-mcp East Africa Tomorrow.io GAP 50-member ensemble 14-day forecasts, FarmerChat Tomorrow.io integration), satellite/crop monitoring (Dhenenjay/Axion-MCP MIT JS/TS 6 super tools Google Earth Engine 30+ datasets NDVI/NDWI/EVI/SAVI/NBR crop classification cloud-free composites time series, axion-planetary-mcp 30+ tools 5 pre-trained models), smallholder farmer intelligence (Digital Green FarmerChat-MCP 12 interconnected servers iSDA/OpenLandMap soil + Tomorrow.io weather + NASA GRACE groundwater + elevation + pest monitoring + community patterns 830K+ users 5M+ queries India/Ethiopia/Kenya/Nigeria/Brazil SMS/WhatsApp/web/Claude Desktop), livestock (epicpast/nsip-api-client MIT Python 15 tools NSIP sheep breeding 10 API + 5 shepherd consultation EBV/pedigree/progeny/economics), regional data (bruno-portfolio/agrobr-mcp 23 stars MIT Python 10 tools 19 Brazilian sources CEPEA/B3/CONAB/IBGE/INPE/NASA POWER prices/futures/crop estimates/deforestation), market data (AI agriculture $2.5-5.9B 2025 at 22-26% CAGR to $40-61B by 2030-2035, 60%+ large farm AI adoption, 20-25% small/medium, 15-20% yield increase, 30% water reduction).
+
+2. **Drafted new original guide:** `content/guides/mcp-agriculture-farming.md`
+   - Title: "MCP and Agriculture: How AI Agents Connect to Farm Data, Soil Analysis, Weather, Satellite Imagery, and Livestock Systems"
+   - Covers: 4 unified farm data platforms (Leaf/JD/ag-mcp/FieldMCP) with comparison table, soil/environmental servers (OpenLandMap 27 tools, agriculture-mcp-server 8 tools), 3 weather intelligence servers (agri-weather/GAP/FarmerChat), satellite monitoring (Axion-MCP Google Earth Engine 6 tools + planetary), FarmerChat-MCP smallholder system (12 servers, 830K+ users, 5 countries), NSIP sheep breeding (15 tools), AgroBR Brazilian data (10 tools), 4 architecture patterns with ASCII diagrams (precision farming assistant, smallholder advisory, commodity intelligence, multi-agent farm management), security/data considerations (farm data privacy, auth models, data sovereignty US/EU/Brazil/India/Africa, 7 best practices), getting started by 6 roles
+   - Cross-links existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (469 pages).
+
+4. **Posted Blue Sky 406** — announcing the agriculture/farming guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi5k46d4au2y)
+
+5. **Deploy pending** — throttle not yet cleared (~47 min remaining from Run 735's deploy). Next run should deploy.
+
+### What should happen next
+- **Deploy** the 469-page site (throttle clears ~47 min from now)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and real estate/property, MCP and energy/utilities, MCP and environmental monitoring)
+- **Blue Sky total:** 406 published
+
 ## Run 735 — 2026-03-29 — New Guide: MCP and Legal/Contract Management + Deploy + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
