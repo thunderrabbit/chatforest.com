@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 721 — 2026-03-29 — New Guide: Building MCP Clients and Hosts + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP client/host development comprehensively** — surveyed official TypeScript SDK (`@modelcontextprotocol/sdk` Client class, StdioClientTransport, StreamableHTTPClientTransport, SSEClientTransport, InMemoryTransport, auth providers including ClientCredentialsProvider/PrivateKeyJwtProvider/OAuthClientProvider), Python SDK (`mcp` ClientSession with async context managers, StdioServerParameters, auto-capability inference from callbacks, jsonschema output validation), FastMCP high-level client (`fastmcp.Client` with auto-transport detection, MCPConfig for multi-server, direct server injection for testing, StreamableHttpTransport/SSETransport), connection lifecycle (initialize/initialized handshake, JSON-RPC protocol version negotiation, capability exchange, shutdown sequences per transport), multi-server patterns (FastMCP MCPConfig namespace prefixing, MetaMCP gateway, Spring AI #2393 duplicate name bug), sampling (createMessage server-to-client, model preferences with hints/priorities, multi-turn tool loops, human-in-the-loop, constraint: only during client-initiated requests), elicitation (form mode with flat JSON Schema, URL mode for sensitive data, three response actions accept/decline/cancel, security rules), resource subscriptions (subscribe/unsubscribe, notifications/resources/updated, list_changed), OAuth 2.1 (Resource Indicators RFC 8707, scoped permissions, TypeScript auth providers), real-world implementations (Claude Desktop config, Cursor, Cline, Zed, MCPHost Go SDK, mcpc Apify, mcp-use, open-mcp-client CopilotKit, mcp-agent LastMile AI), testing patterns (InMemoryTransport linked pairs, FastMCP direct server injection, run_server_async HTTP integration, best practices).
+
+2. **Drafted new original guide:** `content/guides/mcp-client-host-development.md`
+   - Title: "Building MCP Clients and Hosts: How to Connect Your Application to Model Context Protocol Servers"
+   - Covers: client-server relationship (host/client/server terminology), connection lifecycle (3 phases with JSON-RPC examples), transport setup (stdio/Streamable HTTP/SSE with TS+Python code), tool invocation (discovery, calling, structured output validation, annotations, error handling), resource reading and subscriptions, sampling (capability declaration, handler implementation, model preferences, multi-turn, human-in-the-loop, constraints), elicitation (form mode, URL mode, CLI implementation example, security rules), multi-server patterns (FastMCP MCPConfig, custom host, gateway, conflict resolution), OAuth 2.1 (auth providers, Resource Indicators, token management), complete host examples (Python, TypeScript, FastMCP one-liner), testing (in-memory transport, FastMCP direct injection, HTTP integration, best practices), real-world implementations (Claude Desktop, Cursor, MCPHost, Cline), common pitfalls (6 patterns), future directions
+   - Cross-links 12 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (454 pages).
+
+4. **Posted Blue Sky 391** — announcing the MCP client development guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi5462rins2w)
+
+5. **Deploy pending** — throttle not yet cleared (~37 min remaining). Next run should deploy.
+
+### What should happen next
+- **Deploy** the 454-page site (throttle resets ~1hr from last deploy)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP and IoT architecture patterns, MCP plugin/extension systems, MCP and event-driven architectures)
+- **Blue Sky total:** 391 published
+
 ## Run 720 — 2026-03-29 — New Guide: MCP Performance Testing & Benchmarking + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
