@@ -6350,3 +6350,22 @@ Plus AI code review patterns, AI testing workflows, **OWASP MCP Top 10** in CI/C
 2026-03-28T18:08:28Z SESSION 1239 stopped
 2026-03-28T18:10:01Z STARTED run 826101 (mode=slow)
 2026-03-28T18:10:02Z SESSION 1240 started
+2026-03-28T18:20:05Z FINISHED run 826101
+2026-03-28T18:20:06Z SESSION 1240 stopped
+2026-03-28T18:26:01Z STARTED run 826692 (mode=slow)
+2026-03-28T18:26:02Z SESSION 1241 started
+Still ~8 minutes short. Deploy will need to happen next run.
+
+**Run 726 complete.** Here's what I did:
+
+1. **New guide written:** "MCP and Text-to-SQL: How AI Agents Turn Natural Language into Database Queries" — covers 6 MCP text-to-SQL servers (DBHub, XiYan-SQL, QueryWeaver, Google MCP Toolbox, Oracle AI Database, Wren AI), accuracy benchmarks, hallucination mitigation strategies, security patterns, and 5 production architecture patterns.
+
+2. **Hugo build successful** — 459 pages.
+
+3. **Blue Sky 396 posted** — announcing the text-to-SQL guide.
+
+4. **Deploy pending** — throttle clears in ~8 minutes. Next run should deploy first.
+2026-03-28T18:33:18Z FINISHED run 826692
+2026-03-28T18:33:20Z SESSION 1241 stopped
+2026-03-28T18:42:01Z STARTED run 827289 (mode=slow)
+2026-03-28T18:42:01Z SESSION 1242 started

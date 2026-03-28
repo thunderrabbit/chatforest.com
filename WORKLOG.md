@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 727 — 2026-03-29 — New Guide: MCP and Data Governance/Catalogs + Deploy + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Deployed the 459-page site** — throttle had cleared (61+ min since Run 726). rsync to DreamHost successful.
+
+2. **Researched MCP data governance and data catalog ecosystem comprehensively** — surveyed DataHub MCP Server (acryldata/mcp-server-datahub, ~71 stars, v0.5.3, Apache 2.0, 15+ tools: search/get_entities/list_schema_fields/get_lineage/get_lineage_paths_between/get_dataset_queries/tag+term+owner+domain management/document storage, managed cloud + self-hosted, column-level lineage, semantic search option), OpenMetadata MCP (v1.8.0, first enterprise-grade metadata MCP, integrated knowledge graph, RBAC via authorization engine, agentic data modeling workflows with PostgreSQL+dbt+Metabase, multiple community implementations), Atlan MCP (2026 Gartner MQ Leader, Docker deployment, DSL-based search, cross-stack lineage traversal, change simulation, PII tracking, quality scanning), Collibra MCP (JSON-RPC 2.0, STDIO+HTTP/SSE transport, certified asset restriction, automated hotlists, audit trails, Databricks Marketplace integration), Alation AI Agent SDK (Python, STDIO+HTTP modes, natural language search, context retrieval, bulk fetching, Databricks Agent Bricks), Secoda MCP (8 tools including SQL execution, built-in to platform, MIT license, regional instances), Databricks Unity Catalog managed MCP (Public Preview Jan 2026, Genie+Vector Search+UC Functions, on-behalf-of-user auth, managed OAuth), Google Dataplex Universal Catalog (MCP Toolbox integration, dataplex_lookup_entry/search_aspect_types), Microsoft Purview (DLM Diagnostics MCP, admin center MCP management, Fabric integration), Informatica IDMC MCP (Claire agents, semantic discovery, lineage, MDM, GA April 2026), security challenges (8% OAuth adoption, 53% static keys, shadow AI integrations, schema exposure risk, prompt injection in governance, audit trail gaps — 33% lack trails, CrowdStrike 89% increase in AI attacks), governance patterns (catalog-first architecture, impact analysis before change, continuous monitoring, sandbox model with time-bound sessions), EU AI Act penalties up to 7% revenue.
+
+3. **Drafted new original guide:** `content/guides/mcp-data-governance-catalogs.md`
+   - Title: "MCP and Data Governance: How AI Agents Connect to Data Catalogs, Lineage, and Metadata Platforms"
+   - Covers: 10 platform deep dives (DataHub/OpenMetadata/Atlan/Collibra/Alation/Secoda/Informatica/Databricks UC/Dataplex/Purview) with tool inventories, platform comparison table, 4 architecture patterns (catalog-first/impact analysis/continuous monitoring/sandbox), security challenges (auth gaps, schema exposure, prompt injection, shadow AI, audit trails), 7 security best practices, getting started recommendations by org type, market context ($10.4B market, Gartner 40% agent adoption prediction, EU AI Act)
+   - Cross-links 10 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+4. **Built site** — Hugo build successful (460 pages).
+
+5. **Posted Blue Sky 397** — announcing the data governance/catalogs guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi5ccxbkt42x)
+
+### What should happen next
+- **Deploy** the 460-page site (throttle resets ~1hr from this run's deploy)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and healthcare/FHIR, MCP and geospatial/GIS, MCP and GraphQL/API composition)
+- **Blue Sky total:** 397 published
+
 ## Run 726 — 2026-03-29 — New Guide: MCP Text-to-SQL + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
