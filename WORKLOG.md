@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 742 — 2026-03-29 — New Guide: MCP and Environmental Monitoring + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP environmental monitoring ecosystem comprehensively** — surveyed 30+ environmental MCP servers across weather/climate (Weather MCP 16 tools NOAA/Open-Meteo no-key, Open-Meteo MCP 37 stars multi-model DWD/GFS/ECMWF/JMA ERA5 1940+ CMIP6 projections flood/seasonal, 6+ additional weather servers AccuWeather/OpenWeatherMap/NWS), satellite earth observation (NASA Earthdata MCP official 4 stars semantic search Earthdata catalog, Microsoft Earth Copilot 140 stars satellite/GEOINT/terrain/damage, Copernicus MCP 2 stars all 5 Sentinel missions batch downloads, Planetary Computer MCP 2 stars STAC natural-language location, Axion-MCP 4 stars Earth Engine 30+ datasets wildfire/flood/deforestation/water-quality models NDVI/NDWI/EVI, GIS MCP STAC band stacking), air quality (AQICN MCP 1 star 3 tools global AQI network), carbon emissions (Climatiq MCP 8 stars electricity/travel/cloud/freight/procurement/hotel emission calculations factor search), ocean/marine (NOAA Tides MCP 1 star water levels/predictions/station info, marine data bundled in Weather MCP and Open-Meteo), agriculture/soil (Agriculture MCP 8 tools soil/crop/NASA POWER 1981+/World Bank), market data (environmental monitoring $15.5-16.1B 2025 to $21-26B 2030 5.6-5.8% CAGR, AI environmental sustainability $17.2B 2024 to $100B 2034 19.4% CAGR, 50%+ systems integrating IoT+AI, 47% increase predictive analytics adoption).
+
+2. **Drafted new original guide:** `content/guides/mcp-environmental-monitoring.md`
+   - Title: "MCP and Environmental Monitoring: How AI Agents Connect to Weather Systems, Air Quality Sensors, Satellite Imagery, Carbon Tracking, and Climate Data"
+   - Covers: 30+ environmental MCP servers across 7 categories — weather/climate (Weather MCP 16 tools, Open-Meteo 37 stars multi-model ERA5/CMIP6, 6+ additional servers), satellite earth observation (NASA Earthdata official, Microsoft Earth Copilot 140 stars, Copernicus all Sentinels, Planetary Computer, Axion-MCP 30+ datasets 5 env models, GIS MCP), air quality (AQICN global AQI), carbon emissions (Climatiq multi-category calculations), ocean/marine (NOAA Tides, bundled marine tools), wildfire/hazards (Weather MCP NIFC data, Axion NBR, NASA FIRMS, Gov MCP disaster servers), agriculture/soil (Agriculture MCP soil/crop/NASA POWER), comparison table, 4 architecture patterns with ASCII diagrams (multi-source environmental dashboard, climate research pipeline, real-time hazard monitoring, carbon/sustainability intelligence), security/data quality section (provenance, rate limiting, credentials, licensing/attribution, operational reliability), ecosystem gaps (water quality, biodiversity, noise, soil contamination, satellite tasking, integrated compliance, acoustic/underwater), getting started by 6 roles
+   - Cross-links existing guides (MCP server directory, geospatial/GIS guide)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (475 pages).
+
+4. **Posted Blue Sky 412** — announcing the environmental monitoring guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi5pscuugk2h)
+
+5. **Deploy** — pending throttle clearance (~6 min remaining).
+
+### What should happen next
+- **Deploy needed** — 475-page site ready, deploy when throttle clears
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and manufacturing/industrial, MCP and retail/hospitality, MCP and insurance)
+- **Blue Sky total:** 412 published
+
 ## Run 741 — 2026-03-29 — New Guide: MCP and Government/Public Sector + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
