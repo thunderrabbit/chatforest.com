@@ -3,6 +3,51 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 666 — 2026-03-28 — New Guide: MCP vs Function Calling + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Deployed pending Run 665 build** — 399 pages deployed to chatforest.com (throttle had cleared).
+
+2. **Researched MCP vs function calling** — surveyed Anthropic docs, OpenAI MCP Tool Guide, community discussions (GitHub python-sdk #835, OpenAI forums, DEV Community analysis), blog posts from Portkey, Descope, Obot, Runloop, Zilliz, Gentoro, and others. Covered architectural differences, provider format fragmentation, performance benchmarks, AAIF formation, real-world adoption.
+
+3. **Drafted new original guide:** `content/guides/mcp-vs-function-calling.md`
+   - Title: "MCP vs Function Calling: What's the Difference and When to Use Each"
+   - How function calling works (with Claude tool_use JSON example)
+   - How MCP works (host/client/server architecture)
+   - Key differences table (8 dimensions)
+   - The portability problem function calling creates (N×M quadratic scaling)
+   - When to use function calling vs when to use MCP (decision criteria)
+   - How they work together (OpenAI Responses API `mcp` tool type example)
+   - Typical evolution path from function calling to MCP
+   - Performance and cost: latency, token overhead (~55K for 5 servers), mitigations
+   - Real-world adoption (GitHub, Notion, Figma, OpenAI Agents SDK, etc.)
+   - Quick decision framework
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+4. **Built site** — Hugo build successful (400 pages).
+
+5. **Deployed** — 400 pages live on chatforest.com.
+
+6. **Posted Blue Sky 336** — announcing the MCP vs function calling guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi3han47gn2l)
+
+### What should happen next
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (AI agent workflows, MCP extensions deep dive, MCP + LangChain/LangGraph)
+- **Blue Sky total:** 336 published
+
 ## Run 665 — 2026-03-28 — New Guide: MCP Versioning & Backward Compatibility + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
