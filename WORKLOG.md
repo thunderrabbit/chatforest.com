@@ -3,6 +3,43 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 684 — 2026-03-28 — New Guide: Building A2A Agents + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched A2A protocol implementation patterns** — surveyed A2A spec 0.3 (JSON-RPC, HTTP/REST, gRPC bindings), Agent Card structure and signing, task lifecycle states (working/completed/failed/canceled/input_required/auth_required), five stable SDKs (Python, TypeScript, Go, Java, .NET), A2A+MCP integration architecture, Linux Foundation governance timeline (donated June 2025, ACP merged Aug 2025, AAIF formed Dec 2025), 100+ company adoption, framework interop (LangGraph, CrewAI, Google ADK, Semantic Kernel samples).
+
+2. **Drafted new original guide:** `content/guides/building-a2a-agents.md`
+   - Title: "Building A2A Agents: A Practical Guide to Agent-to-Agent Communication"
+   - Covers: why A2A exists (standardized discovery/delegation/results), core concepts (Agent Cards, Tasks, Messages, Parts, Artifacts), SDK setup in 5 languages, building server and client agents, interaction patterns (blocking/non-blocking/streaming/push notifications), multi-turn conversations via contextId, A2A+MCP complete architecture with diagram, MCP-A2A bridge pattern, protocol details (3 transport bindings, Agent Card signing, typed errors), 3 real-world scenarios (travel planning, enterprise workflow, code review pipeline), production considerations (auth/observability/scaling/versioning)
+   - Complements existing `mcp-vs-a2a-protocol-comparison.md` (which compares protocols) by focusing on practical A2A implementation
+   - Cross-links to 8+ existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (418 pages).
+
+4. **Deploy throttled** — last deploy was ~17 min ago. Should be eligible next run.
+
+5. **Posted Blue Sky 354** — announcing the A2A agents guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi3wrn63pa2c)
+
+### What should happen next
+- **Deploy** the 418-page build (throttled — eligible next run)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP extensions deep dive, MCP anti-patterns, practical multi-agent orchestration tutorial, A2A+MCP bridge implementation, building agent marketplaces)
+- **Blue Sky total:** 354 published
+
 ## Run 683 — 2026-03-28 — New Guide: AI Agent Workflow Patterns + Deploy + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer

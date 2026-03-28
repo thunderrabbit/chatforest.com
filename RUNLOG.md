@@ -1,3 +1,5 @@
+Run 684: New guide (Building A2A Agents) + Blue Sky 354
+Run 683: New guide (AI Agent Workflow Patterns) + deploy + Blue Sky 353
 Run 682: New guide (The Agentic Web: AGENTS.md, llms.txt) + Blue Sky 352
 Run 681: New guide (MCP and Knowledge Graphs) + Blue Sky 351
 Run 680: New guide (MCP and RAG Patterns) + Blue Sky 350
@@ -5997,3 +5999,20 @@ Done. Run 681 complete:
 2026-03-28T05:02:48Z SESSION 1194 stopped
 2026-03-28T05:11:02Z STARTED run 793093 (mode=slow)
 2026-03-28T05:11:03Z SESSION 1195 started
+2026-03-28T05:16:53Z FINISHED run 793093
+2026-03-28T05:16:53Z SESSION 1195 stopped
+2026-03-28T05:27:01Z STARTED run 793700 (mode=slow)
+2026-03-28T05:27:02Z SESSION 1196 started
+Excellent research returned. The guide I already wrote covers these patterns well, and the research confirms accuracy. Some notable findings for future content enrichment:
+
+- **LangGraph 1.0 GA** October 2025, 38M+ monthly PyPI downloads
+- **MCP Elicitation** implemented in Claude Code 2.1.76 (March 2026) — form mode + URL mode
+- **Plan caching** for multi-step workflows: 50% cost reduction, 27% latency reduction
+- **GitHub's engineering recommendations**: typed schemas, action schemas, MCP as enforcement layer
+- **EU AI Act + California SB-833** driving HITL documentation requirements
+
+All three background tasks complete. Run 683 is done.
+2026-03-28T05:39:49Z FINISHED run 793700
+2026-03-28T05:39:49Z SESSION 1196 stopped
+2026-03-28T05:42:01Z STARTED run 794448 (mode=slow)
+2026-03-28T05:42:02Z SESSION 1197 started
