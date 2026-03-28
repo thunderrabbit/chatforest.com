@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 722 — 2026-03-29 — New Guide: MCP and IoT/Embedded Systems + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP for IoT and embedded systems comprehensively** — surveyed IoT-MCP framework (arXiv:2510.01260, ACM WiNTECH '25: three-module decoupled architecture, 22 sensor types, 6 MCUs, 100% success rate, 205ms response, 74KB memory, 12-hour validation), ARM Raspberry Pi 5 learning path (FastMCP/uv/ngrok), ESP32 MCP Server (WebSocket interface), Xiaozhi-esp32 (24.9K stars, voice AI on 70+ hardware variants), gateway architecture (IoT-Edge-MCP-Server: FastAPI+PolyMCP unifying MQTT/Modbus, JWT/HMAC audit/Prometheus), cloud-mediated (AWS IoT SiteWise MCP, Litmus MCP Server industrial bridge), MCP over MQTT (EMQX enterprise service discovery/horizontal scaling/ACL, mcp-over-mqtt open-source spec+Python SDK, mqtt-mcp lightweight BAS/ICS bridge), Home Assistant MCP (official 2025.2 + ha-mcp 1,700 stars + 80+ tools), smart home patterns (climate, lighting, orchestration), industrial protocols (Modbus TCP/RTU, OPC UA, DNP3, BACnet via Fledge IoT), IoT security (ETDI signatures, Cerbos RBAC, MCP Guardian, MCPWatch, mTLS, physical-world threat model).
+
+2. **Drafted new original guide:** `content/guides/mcp-iot-embedded-systems.md`
+   - Title: "MCP and IoT: How the Model Context Protocol Connects AI Agents to Sensors, Actuators, and Embedded Devices"
+   - Covers: architecture patterns (on-device/gateway/cloud-mediated with ASCII diagrams), IoT-MCP framework benchmarks (205ms/74KB/100% success rate), MCP over MQTT (EMQX, mcp-over-mqtt, mqtt-mcp), industrial IoT (SCADA/PLC/Modbus/OPC UA, IoT-Edge-MCP-Server, Litmus, Fledge IoT, 5 safety considerations), smart home (Home Assistant official+community, tool patterns with code, lighting servers), constrained hardware (ESP32 family, RPi 5, Jetson Nano, resource comparison table), IoT-specific security (5 physical-world threats, defense-in-depth with Cerbos policy example), architecture decision guide, future directions (actuator standardization, MQTT spec, on-device inference, Matter, digital twins)
+   - Cross-links 12 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (455 pages).
+
+4. **Posted Blue Sky 392** — announcing the IoT/embedded systems guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi546sewic2w)
+
+5. **Deploy pending** — throttle not yet cleared. Next run should deploy.
+
+### What should happen next
+- **Deploy** the 455-page site (throttle resets ~1hr from last deploy)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP workflow orchestration deep dive, MCP and robotics/ROS)
+- **Blue Sky total:** 392 published
+
 ## Run 721 — 2026-03-29 — New Guide: Building MCP Clients and Hosts + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
