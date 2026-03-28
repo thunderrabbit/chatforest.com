@@ -3464,3 +3464,12 @@ New guide: supervisor/worker, pipeline, fan-out patterns, sampling for nested ag
 **Title:** Using MCP Across AI Platforms: Claude, ChatGPT, Gemini, Copilot, and More
 **Description:** How every major AI platform now supports MCP -- build once, connect everywhere.
 **Status:** published (2026-03-28, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi3n6vy2562t)
+
+### Post 363 — MCP with Slack and Teams Guide
+**Text:** Anthropic archived their Slack MCP server after a data exfiltration bug. Slack shipped their own official one in Feb 2026.
+
+New guide: Slack + Teams MCP servers, architecture patterns, security, and MCP vs native APIs.
+**Link:** https://chatforest.com/guides/mcp-slack-teams-integration/
+**Title:** MCP with Slack and Teams: Building AI Agents for Workplace Chat
+**Description:** Slack and Teams MCP servers, architecture patterns, the data exfiltration vulnerability, and production recommendations.
+**Status:** published (2026-03-28, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi47775wwc2y)

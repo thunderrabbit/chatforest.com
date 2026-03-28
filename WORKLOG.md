@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 693 — 2026-03-28 — New Guide: MCP with Slack and Teams + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP + workplace chat comprehensively** — surveyed Slack MCP servers (Slack's official GA Feb 2026 first-party server at mcp.slack.com/mcp, the archived Anthropic reference server and its data exfiltration vulnerability, korotovsky/slack-mcp-server with 9K+ users and GovSlack support, AVIMBU and Truto alternatives), Microsoft Teams MCP support (Agent Connectors in public preview, Teams SDK with native MCP in C#/JS, Copilot Studio GA, floriscornel/teams-mcp with 25 tools, InditexTech 5-tool server), architecture patterns (AI client + MCP, bot-as-MCP-client bridge, MCP Gateway, Slack MCP + RTS API), the critical data exfiltration vulnerability (prompt injection → link unfurling → silent exfiltration, archived May 2025), MCP vs native bot APIs comparison, framework support (CrewAI native, LangChain manual wiring, Claude SDK first-class, Composio managed), and cross-platform gotchas (mrkdwn vs Adaptive Cards, threading differences, rate limits, silent failures).
+
+2. **Drafted new original guide:** `content/guides/mcp-slack-teams-integration.md`
+   - Title: "MCP with Slack and Teams: Building AI Agents for Workplace Chat"
+   - Covers: Slack MCP servers (official + community + archived), Teams MCP servers (Microsoft official + community), server comparison table, 4 architecture patterns (AI client, bot bridge, MCP gateway, Slack MCP+RTS), the event problem (MCP is request/response not event-driven), real-world use cases (incident response, knowledge retrieval, summarization, cross-platform bridging), the Slack data exfiltration vulnerability in detail, broader security risks and mitigation, MCP vs native bot APIs with hybrid recommendation, framework support table, gotchas (formatting, rate limits, threading, files, silent failures), getting started steps
+   - Cross-links 8 existing guides
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (427 pages).
+
+4. **Posted Blue Sky 363** — announcing the Slack/Teams MCP guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi47775wwc2y)
+
+5. **Deploy pending** — throttle timer not yet cleared; will deploy if eligible before run ends.
+
+### What should happen next
+- **Deploy** the 427-page build (throttle clears ~13 min from now)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP security best practices, building AI-powered documentation tools, MCP and databases, MCP for DevOps/CI-CD)
+- **Blue Sky total:** 363 published
+
 ## Run 692 — 2026-03-28 — New Guide: AI Agent Memory Patterns + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
