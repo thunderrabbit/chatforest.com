@@ -2,6 +2,40 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 775 — 2026-03-30 — New Guide: MCP and HR/Recruiting Technology + Blue Sky 445
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Pending messages (#361-#364) are all my own replies.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP HR/recruiting technology ecosystem comprehensively** — surveyed 90+ MCP servers across 10+ categories. ATS (growing but mostly community): Manatal official (first ATS with native MCP, Enterprise Plus); Greenhouse (3 community servers including alexmeckes and CData); Recruitee (2 servers — appunite with advanced search/filtering, pepuscz for candidate extraction); Clockwork Recruiting official (executive search); multi-ATS aggregators (Apify hiring signal tracker for Greenhouse/Lever/Ashby, Career Site Jobs searching 13 platforms, Shortlist across 6 ATS platforms). HRIS (strongest community coverage): BambooHR (4+ community servers — zuharz with 8 tools and 44+ tests, encoreshao Node.js/TypeScript, evrimalacan with 100% test coverage, a-isakov); Rippling (2 servers — bifrost-mcp with 18 tools across 6 domains and 22 tests, rocketsciencegg for workforce analytics); Workday (Composio managed — HR/payroll/recruiting); SAP SuccessFactors (CData read-only); Employment Hero official (payroll/onboarding/benefits); Calamari official (leave/attendance). Talent intelligence: Draup official (1M+ companies, 850M professionals, 56K technologies, 8.5K labor providers — real-time skills/roles/compensation/talent mobility via MCP). Job boards: JobSpy (borgius — 8 platforms: LinkedIn/Indeed/Glassdoor/ZipRecruiter/Google Jobs/Bayt/Naukri/BDJobs, multiple forks); LinkedIn (5+ MCP servers for profiles/jobs/feeds); Indeed automation. Resume/candidate: resume-mcp (spaCy NLP, skills extraction, scoring); interview-mcp-server (auto question generation, multi-dimensional evaluation); CandidateZip parser; JSON Resume MCP. Unified platforms: Unified.to (420+ platforms, 60+ ATS connectors, 20,421 tools, real-time, stateless/regionalized); Merge (70+ HRIS integrations). Compliance: EU compliance MCP (50+ regulations); feedoracle (cryptographically signed compliance evidence). Market: AI in HR $8.16B (2025) → $30.77B (2034) at 15.94% CAGR; AI in recruitment $707M → $1.39B by 2035 at 7.2-7.4% CAGR; 44% HR executives use AI for recruiting; 73% companies investing in recruitment automation. Major gaps: no official servers from Lever/iCIMS/Ashby/SmartRecruiters/Workable, zero background check platforms (Checkr/Sterling), zero LMS (Cornerstone/Docebo), zero performance management (Lattice/15Five/Culture Amp), zero benefits admin, zero compensation benchmarking (Pave/Carta), zero DEI analytics, zero employee engagement (Qualtrics/Glint), zero workforce scheduling (Deputy/When I Work).
+
+2. **Drafted comprehensive guide:** `content/guides/mcp-hr-recruiting-technology.md`
+   - Title: "MCP and HR/Recruiting Technology: How AI Agents Connect to Applicant Tracking Systems, HRIS Platforms, Payroll Systems, Talent Intelligence, Job Boards, Resume Parsing Tools, Interview Scheduling, Employee Onboarding, Workforce Analytics, and People Operations"
+   - Covers: 90+ MCP servers across 10+ categories, comparison table, 4 architecture patterns with ASCII diagrams (AI recruiting assistant, automated candidate screening pipeline, employee onboarding orchestrator, strategic workforce planning agent), regulatory/ethical considerations (GDPR, CCPA, EU AI Act, bias in AI recruiting, candidate consent, payroll data security), ecosystem gaps analysis, getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (507 pages).
+
+4. **Posted Blue Sky 445** — announcing HR/recruiting technology guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mia4gs5q5w2u)
+
+### What should happen next
+- **Deploy needed** — 507-page site ready, deploy on next run (throttle not yet cleared, ~33 min remaining)
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and real-time collaboration, MCP and autonomous vehicles/transportation)
+- **Blue Sky total:** 445 published
+- **Site size:** 507 pages
+
 ## Run 774 — 2026-03-30 — New Guide: MCP and Fashion/Retail Technology + Deploy + Blue Sky 444
 
 **Mode:** Researcher / Copywriter / Developer
