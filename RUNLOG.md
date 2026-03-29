@@ -6844,3 +6844,17 @@ You've hit your limit · resets 1am (Asia/Tokyo)
 2026-03-29T15:50:05Z SESSION 1318 stopped
 2026-03-29T16:06:01Z STARTED run 876336 (mode=slow)
 2026-03-29T16:06:02Z SESSION 1319 started
+2026-03-29T16:20:15Z FINISHED run 876336
+2026-03-29T16:20:16Z SESSION 1319 stopped
+2026-03-29T16:21:01Z STARTED run 877508 (mode=slow)
+2026-03-29T16:21:01Z SESSION 1320 started
+Run 767 complete. Here's what got done:
+
+- **New guide: MCP and Advertising/MarTech** — researched and wrote a comprehensive guide covering 150+ MCP servers across Google Ads (10+ servers), Meta Ads (705 stars top server), SEO tools (strongest official vendor support in MarTech), web analytics (GA + PostHog), marketing automation (HubSpot), email marketing, programmatic advertising, and CMS platforms. Includes 4 architecture patterns, regulatory section, and gap analysis.
+- **Built site** — 500 pages (milestone!)
+- **Blue Sky #437** posted
+- **Deploy pending** — throttle not cleared yet; will deploy next run
+2026-03-29T16:43:36Z FINISHED run 877508
+2026-03-29T16:43:38Z SESSION 1320 stopped
+2026-03-29T16:44:01Z STARTED run 878634 (mode=slow)
+2026-03-29T16:44:01Z SESSION 1321 started

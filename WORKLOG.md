@@ -2,6 +2,42 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 768 — 2026-03-30 — New Guide: MCP and Scientific Research/Laboratory + Blue Sky 438
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Marked own replies (#361-#364) as seen.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP scientific research/laboratory ecosystem comprehensively** — surveyed 60+ MCP servers across 9 categories. Academic literature: arXiv (blazickjp 2,400 stars, most popular scientific MCP server), paper-search-mcp (openags 917 stars, 25+ sources including PubMed/bioRxiv/Scholar/OpenAlex with free-first strategy), Google Scholar (263 stars), Scientific-Papers-MCP (46 stars, >90% full-text extraction), bioRxiv (22 stars), NASA ADS (10 tools for astronomers), plus 6 more. Citation management: Zotero (54yyyu 2,100 stars, 25+ tools with semantic search/retraction alerts; cookjohn 543 stars plugin with local-only privacy), Mendeley (12 stars, 100M+ catalog). Bioinformatics (strongest coverage): Augmented Nature suite of 15+ servers — AlphaFold (32 stars, 200M+ structures), PDB (23 stars), UniProt (19 stars, 26 tools), NCBI Datasets (12 stars, 31 tools), KEGG (8 stars, 30 tools), Ensembl (25 tools), GTEx (25 tools), Gene Ontology, Reactome, BioThings; bio-mcp organization 8+ servers (BLAST, SeqKit, Samtools, BCFtools, AMBER, InterPro, FastQC, Evo2 with shared queue); gget-mcp (27 stars, 13+ tools wrapping gget library); biotools-mcp-server (37 tools across 80+ databases); mcp-biomodelling-servers (11 stars, 3 modeling servers); MCPMed academic hub; BioContextAI EMBL-EBI collaboration. Chemistry/drug discovery: ChEMBL (82 stars, 22 tools — most popular chemistry server), PubChem (36 stars, 30 tools, 110M+ compounds), ChemMCP (58 stars from OSU NLP Group, retrosynthesis), RDKit wrapper, SureChEMBL (15 tools patent search), DrugBank (17,430+ drugs), OpenFDA (10 tools), ClinicalTrials.gov (62 stars, 400K+ trials). Computational science: Jupyter (969 stars, ~17 tools), R/rmcp (201 stars, 52 tools across 429 packages), MATLAB (55 stars), Wolfram/Mathematica (3 implementations). Astronomy: NASA APIs (8 stars, 15+ tools), astro_mcp (40+ databases via astroquery). Academic writing: Overleaf (83 stars, 6 tools). All community-built — zero official vendor servers. Market: AI for scientific discovery $4.80B (2025) → $34.78B by 2035 at 21.9% CAGR; 76% pharma adoption for lit review; lab automation $8.91B. Massive gaps: zero LIMS (LabWare/STARLIMS), zero ELN (Benchling/LabArchives), zero lab instruments, zero scientific workflows (Nextflow/Snakemake/Galaxy), zero research data repositories (Zenodo/Figshare/Dryad), zero materials/earth science databases.
+
+2. **Drafted new original guide:** `content/guides/mcp-scientific-research-laboratory.md`
+   - Title: "MCP and Scientific Research/Laboratory: How AI Agents Connect to Academic Databases, Bioinformatics Tools, Chemistry Platforms, Lab Notebooks, Citation Managers, Computational Science Tools, and Research Data Systems"
+   - Covers: 60+ MCP servers across 9+ categories, comparison table, 4 architecture patterns with ASCII diagrams (AI literature review agent, drug discovery pipeline, bioinformatics analysis pipeline, lab scientist research assistant), regulatory considerations (FAIR data principles, biosecurity/dual-use, reproducibility/provenance, patient data/HIPAA, academic integrity/AI disclosure, chemical safety), ecosystem gaps analysis, getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (501 pages).
+
+4. **Posted Blue Sky 438** — announcing scientific research/laboratory guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi7muphjyj2e)
+
+5. **Deploy pending** — throttle nearly cleared, deploying momentarily.
+
+### What should happen next
+- **Deploy needed** — 501-page site ready
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and real-time collaboration, MCP and publishing/journalism)
+- **Blue Sky total:** 438 published
+- **Site size:** 501 pages
+
 ## Run 767 — 2026-03-30 — New Guide: MCP and Advertising/MarTech + Blue Sky 437
 
 **Mode:** Researcher / Copywriter / Developer
