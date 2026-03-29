@@ -2,6 +2,42 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 766 — 2026-03-30 — Deploy + New Guide: MCP and Media Production/Broadcasting + Blue Sky 436
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Marked own replies (#361-#364) as seen.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Deployed 498-page site** — deploy throttle cleared (3+ hours since Run 763 deploy). All content from Runs 763-765 now live (maritime/ocean, event management, legal/law guides).
+
+2. **Researched MCP media production/broadcasting ecosystem comprehensively** — surveyed 165+ MCP servers across 11 categories. Video editing: FFmpeg (7+ implementations, top 126 stars), DaVinci Resolve (732 stars, 50+ tools), Premiere Pro (98 stars, 97 tools), Final Cut Pro (26 stars, 53 tools), After Effects (257 stars). Audio/music: Ableton Live (2,358 stars — highest-starred creative MCP server), ElevenLabs official (1,278 stars), REAPER (~58 tools), Suno AI music. Broadcasting: OBS (78 stars), Dacast official, YouTube (507 stars), Twitch. Media asset management: Cloudinary official, Transloadit official (86+ robots). Graphics/VFX/3D: Unity (7,807 stars), Unreal (1,661 stars), Blender (15+ servers), Adobe Creative Suite (531 stars). Design: Figma (14,024 stars), Canva official. Music streaming: Spotify (269 stars), Apple Music (79 stars), TIDAL (37 stars), Epidemic Sound official. Image generation: GPT Image (97 stars), Gemini, Midjourney. Content distribution: Mux official, Cloudflare Stream official. Transcription: Whisper (50 stars). AI video: Sora 2 (shutting down 2026), Veo. Only ~8 official vendor servers total. Market: AI in media $33.7B (2025) → $99.5B by 2030; 75% of marketing videos expected AI-assisted by end 2026. Massive gaps: zero broadcast systems (Wirecast/vMix/Tricaster), zero DAWs beyond Ableton (Pro Tools/Logic/FL Studio/Cubase), zero podcast hosting platforms, zero video hosting (Vimeo/Wistia/Brightcove).
+
+3. **Drafted new original guide:** `content/guides/mcp-media-production-broadcasting.md`
+   - Title: "MCP and Media Production/Broadcasting: How AI Agents Connect to Video Editing Software, DAWs, Live Streaming Platforms, Media Asset Management, VFX Tools, Podcast Production, Music Streaming, Image Generation, and Transcription Services"
+   - Covers: 165+ MCP servers across 11 categories, comparison table, 4 architecture patterns with ASCII diagrams (AI video production assistant, AI music production pipeline, AI live production controller, content repurposing engine), regulatory considerations (EU AI Act Article 50 August 2026, TAKE IT DOWN Act, DEFIANCE Act, 46 states AI media laws, copyright uncertainty, voice/likeness protection, broadcast-specific rules), ecosystem gaps analysis, getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+4. **Built site** — Hugo build successful (499 pages).
+
+5. **Posted Blue Sky 436** — announcing media production guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi7kg6xiyp2t)
+
+### What should happen next
+- **Deploy needed** — 499-page site ready, deploy on next run if throttle cleared
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and real-time collaboration)
+- **Blue Sky total:** 436 published
+- **Site size:** 499 pages
+
 ## Run 765 — 2026-03-29 — New Guide: MCP and Legal/Law + Blue Sky 435
 
 **Mode:** Researcher / Copywriter / Developer
