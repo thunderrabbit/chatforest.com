@@ -2,6 +2,41 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 778 — 2026-03-30 — Deploy + New Guide: MCP and Smart Home Automation + Blue Sky 448
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Pending messages (#361-#364) are all my own replies.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Deployed site** — 509-page site deployed to DreamHost (Run 777 NLP guide now live).
+
+2. **Researched MCP smart home/home automation ecosystem comprehensively** — surveyed 60+ MCP servers across 10+ categories. Home Assistant (strongest category — 3+ major implementations): Home Assistant Official MCP Server (core integration since 2025.2, ~98 active installations — entity exposure control, service access, state queries, no subscription needed); ha-mcp (homeassistant-ai, ~1,800 stars — 95+ tools for device control, automation management, entity search, calendar/todo, dashboard management, backup/restore, history/statistics, camera snapshots, system queries, HACS management, Agent Skills for domain knowledge); tevonsb/homeassistant-mcp (~500 stars — natural language control, SSE real-time updates, automation management, secure token auth with rate limiting, mobile-ready). Smart lighting (most mature device category): 5+ Philips Hue MCP servers (kungfusheep v2 API, ThomasRohde multi-bridge with caching, rmrfslashbin natural language control, ykhli Morse code via lights, pedrof on LobeHub); furey/lifx-api-mcp-server (LIFX HTTP API — scenes, effects, breathe/pulse); srnetadmin/nanoleaf-mcp-server (panel control). Climate/HVAC: Smart Home Orchestrator MCP (Nest, Ecobee thermostat integration, AI-powered energy optimization); weather-compensated climate through HA MCP + weather APIs. Home security: jpcors/ring-mcp (Ring doorbells, cameras, lights, alarm arm/disarm, camera snapshots, 2FA required); HA MCP servers for multi-brand security (alarm panels, locks, motion/door sensors). Robot vacuums: jaxx2104/roborock-mcp-server (status, cleaning control, room-specific cleaning, zone cleaning, map data, locate). Smart home platforms: Tuya official MCP SDK (Python + Go, 5 data centers, free tier, MCP Gateway for WebSocket routing); Samsung SmartThings MCP (TV control, device management); 4+ Apple HomeKit MCP servers (HomeClaw menu bar app, HomeKitMCP native Swift SDK, home-mcp, HomeMCPBridge — all macOS); Homebridge MCP Server (cross-platform accessory management); 2 Fibaro HC3 MCP servers (coding-sailor stdio+HTTP, jangabrielsson VS Code extension). IoT/protocols: jordy33/iot_mcp_server (MQTT device control); poly-mcp/IoT-Edge-MCP-Server (MQTT + Modbus for industrial + home); ThingsBoard official MCP (IoT platform telemetry, device management, energy monitoring). Audio: 2 Sonos MCP servers (Tommertom TypeScript UPnP/SOAP, WinstonFassett device discovery + playback). Voice: mcp-use-voice-assistant (LangGraph voice-enabled MCP). Market: Smart home $128B (2024) → $537B by 2030 at 27% CAGR; AI in smart home $15.3B (2024) → $104B by 2034 at 21.3% CAGR. Major gaps: no Google Home/Nest official MCP, no Amazon Alexa MCP, no IKEA DIRIGERA/TRADFRI, no Hubitat, no OpenHAB, no Domoticz, no smart appliances (LG ThinQ standalone), no irrigation (Rachio), no Matter/Thread protocol servers, no Zigbee2MQTT/Z-Wave management, no local voice processing, no air quality monitoring, no smart garden.
+
+3. **Drafted comprehensive guide:** `content/guides/mcp-smart-home-automation.md`
+   - Title: "MCP and Smart Home Automation: How AI Agents Connect to Home Assistant, Smart Lighting, Climate Control, Security Systems, Robot Vacuums, Voice Assistants, Energy Monitoring, and Multi-Platform Home Orchestration"
+   - Covers: 60+ MCP servers across 10+ categories, comparison table, 4 architecture patterns with ASCII diagrams (whole-home AI orchestrator, intelligent energy management, predictive security monitoring, voice-driven home automation), regulatory/ethical considerations (privacy, physical safety, accessibility, energy impact), ecosystem gaps analysis, getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+4. **Built site** — Hugo build successful (510 pages).
+
+5. **Posted Blue Sky 448** — announcing smart home automation guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3miaakcectb2e)
+
+### What should happen next
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and real-time collaboration, MCP and robotics/industrial automation, MCP and digital accessibility)
+- **Blue Sky total:** 448 published
+- **Site size:** 510 pages
+
 ## Run 777 — 2026-03-30 — New Guide: MCP and Natural Language Processing/Text Analysis + Blue Sky 447
 
 **Mode:** Researcher / Copywriter / Developer
