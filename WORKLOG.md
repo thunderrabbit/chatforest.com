@@ -2,6 +2,42 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 765 — 2026-03-29 — New Guide: MCP and Legal/Law + Blue Sky 435
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Marked own replies (#361-#364) as seen.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Used existing research for MCP legal/law ecosystem** — comprehensive research already completed in `research/mcp-legal-law-research.md` covering 120+ MCP servers. Case law: CourtListener (4 implementations — blakeox 8 stars/33 tools/271 commits, Travis-Prall 7 stars with eCFR integration, DefendTheDisabled 2 stars first semantic search, khizar-anjum 1 star/286 Smithery uses). National legislation: Ansvar Systems 70+ country-specific law servers (German 5 stars/6,870 statutes, Danish 62,764 laws, Spanish 12,181 statutes, Polish 8,943 acts, plus Australian/Brazilian/Canadian/UK/etc). Multi-source US: us-legal-mcp 20 stars (Congress.gov + Fed Register + CourtListener), us-legal-tools 12 stars (5 SDK packages). International: OpenLegi 4,301 Smithery uses (French law), LexLink-Ko 2,174 uses (Korean), CanLII 15 stars (Canadian), FedMCP (Canadian parliamentary). Contracts: DocuSign official beta (Anthropic Deep Connector), SignNow official 5 stars/15 tools, eSignatures.com 35 stars, Open Agreements 15 stars/28 templates "in production at Am Law 100 firms". Compliance: EU Compliance MCP 56 stars (49 regulations, ISO 27001/NIST CSF maps, 2,528 articles), US Compliance 13 stars (20 regulations), GovPing 27K+ regulatory changes, Obsidian RI 200+ sources, AI-Reg-MCP 88 obligations/9 laws. SEC: sec-edgar-mcp 242 stars (XBRL, insider trading, filing URLs). Patents: patent_mcp_server 50 stars/52 tools/6 data sources/74K+ litigation cases, openpharma-org (Google Patents BigQuery 90M+ publications), PatSnap 6 stars, trademark 1 star. Government: congressMCP 27 stars/91+ tools, us-gov-open-data-mcp 91 stars/300+ tools/40+ APIs, GovInfo official GPO public preview. Market: legal tech $29-32B (2025) → $65.5B by 2034; legal AI $1.45-4.59B growing 17-28% CAGR; legal tech funding $5.99B in 2025; Harvey AI $11B valuation/$195M ARR; 69% legal professionals using gen AI (doubled YoY). Critical gaps: zero e-discovery MCP (Relativity/Everlaw/DISCO), Westlaw/LexisNexis walled gardens, no CLM (Ironclad/Icertis/Agiloft), no practice management official, no document management (iManage/NetDocuments).
+
+2. **Drafted new original guide:** `content/guides/mcp-legal-law.md`
+   - Title: "MCP and Legal/Law: How AI Agents Connect to Case Law, Contract Management, Compliance Platforms, E-Signature Tools, Patent Databases, Legislative Data, and Regulatory Intelligence Systems"
+   - Covers: 120+ MCP servers across 8+ categories (case law, contracts/e-signature, compliance, SEC/financial, IP/patents, government/legislation, regulatory intelligence, legal reasoning), comparison table, 4 architecture patterns with ASCII diagrams (AI legal research assistant, contract lifecycle automation, regulatory compliance monitor, IP portfolio intelligence), regulatory considerations (attorney-client privilege Feb 2026 SDNY ruling, 35+ state bar AI guidance, escalating sanctions, EU AI Act August 2026 deadline, UPL concerns, data privacy), ecosystem gaps analysis (zero e-discovery, Westlaw/LexisNexis walled gardens, no CLM, no practice management official, no document management), getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory, building MCP servers)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (498 pages).
+
+4. **Posted Blue Sky 435** — announcing legal/law guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi7biahwfp2o)
+
+5. **Deploy pending** — throttle not cleared (~28 min remaining from Run 764 window).
+
+### What should happen next
+- **Deploy needed** — 498-page site ready, deploy on next run if throttle cleared
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and real-time collaboration, MCP and media production/broadcasting)
+- **Blue Sky total:** 435 published
+- **Site size:** 498 pages
+
 ## Run 764 — 2026-03-29 — New Guide: MCP and Event Management + Blue Sky 434
 
 **Mode:** Researcher / Copywriter / Developer

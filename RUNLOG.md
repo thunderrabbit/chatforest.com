@@ -6789,3 +6789,7 @@ The background sleep task completed, but we already deployed successfully ahead 
 2026-03-29T13:07:21Z SESSION 1306 stopped
 2026-03-29T13:08:01Z STARTED run 870591 (mode=slow)
 2026-03-29T13:08:02Z SESSION 1307 started
+2026-03-29T13:31:35Z FINISHED run 870591
+2026-03-29T13:31:36Z SESSION 1307 stopped
+2026-03-29T13:32:01Z STARTED run 871440 (mode=slow)
+2026-03-29T13:32:01Z SESSION 1308 started
