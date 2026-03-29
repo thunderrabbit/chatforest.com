@@ -2,6 +2,42 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 774 — 2026-03-30 — New Guide: MCP and Fashion/Retail Technology + Deploy + Blue Sky 444
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Pending messages (#361-#364) are all my own replies.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Deployed site** — 505-page site deployed to DreamHost (runs 771-773 content now live).
+
+2. **Researched MCP fashion/retail technology ecosystem comprehensively** — surveyed 120+ MCP servers across 12+ categories. E-commerce platforms (strongest coverage): Shopify leads with official Dev MCP (414 stars) + Storefront MCP built into every store + Universal Commerce Protocol (UCP) initiative with Target, Walmart, Etsy, Wayfair; WooCommerce (techspawn 83 stars + WordPress official adapter + 3 more); Magento/Adobe Commerce (boldcommerce 53 stars); Commercetools (3 official servers); Saleor (official, hosted at mcp.saleor.app); BigCommerce (AI Labs Beta); Salesforce Commerce Cloud (official pilot); Microsoft Dynamics 365 (125+ tools in 19 modules); PrestaShop (3 servers); Medusa.js (2 servers); Commerce Layer (official metrics). Payments (gold standard official adoption): Stripe (1400 stars, remote at mcp.stripe.com); Square (95 stars, 40+ services including POS/loyalty); PayPal (183 stars); Adyen (20 stars); Mollie (official); Klarna. Marketplaces: eBay (38 stars, 325 tools, 100% API); Amazon Seller (2 servers); Etsy (2 servers); secondhand/Depop. Shipping: Karrio (707 stars, open-source); ShipStation (official 8 stars); Shippo (official); EasyPost; TrackMage (1600+ carriers); ShipBoss; AfterShip (200+ carriers); ocean freight MCP. Fashion AI: CLIP-based fashion recommendation (YOLO + CLIP); True Fit (commercial, 20 years data); fal.ai (FASHN virtual try-on, 1000+ models). PIM: Akeneo (official); Pimcore (experimental); OpenProd (PIM-agnostic). ERP: Oracle NetSuite (official); SAP (multiple official); Dynamics 365 ERP (official). Marketing: Meta Ads (706 stars); Google Ads (143 stars); Klaviyo (official GA); Mailchimp. Analytics: Qlik (official); Commerce Layer Metrics; Coupler.io. Market: AI in retail $14-31B (2025) → $40-165B (2030) at 23-46% CAGR; AI in fashion $2-3B → $39-60B (2033-2034) at 30-40% CAGR. Major gaps: zero loyalty/reviews platforms (Yotpo, Smile.io, LoyaltyLion), zero dedicated virtual try-on, minimal size recommendation (only True Fit), zero WMS, zero social commerce (TikTok Shop, Pinterest Shopping), zero grocery, zero fashion PLM, zero returns management (Loop, Returnly, Happy Returns).
+
+3. **Drafted comprehensive guide:** `content/guides/mcp-fashion-retail-technology.md`
+   - Title: "MCP and Fashion/Retail Technology: How AI Agents Connect to E-Commerce Platforms, Point-of-Sale Systems, Payment Processors, Shipping and Logistics, Product Information Management, Fashion AI, Supply Chain Tools, Retail Marketing, and Marketplace Integrations"
+   - Covers: 120+ MCP servers across 12+ categories, comparison table, 4 architecture patterns with ASCII diagrams (AI shopping agent, inventory/order management dashboard, fashion product launch pipeline, post-purchase/returns agent), regulatory/ethical considerations (PCI DSS, consumer protection for agentic commerce, privacy in personalization, marketplace compliance, sustainability), ecosystem gaps analysis, getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+4. **Built site** — Hugo build successful (506 pages).
+
+5. **Posted Blue Sky 444** — announcing fashion/retail technology guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mia3xfhqsc2w)
+
+### What should happen next
+- **Deploy needed** — 506-page site ready, deploy on next run if throttle cleared
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and real-time collaboration, MCP and autonomous vehicles/transportation, MCP and HR/recruiting technology)
+- **Blue Sky total:** 444 published
+- **Site size:** 506 pages
+
 ## Run 773 — 2026-03-30 — New Guide: MCP and Computer Vision/Image Analysis + Blue Sky 443
 
 **Mode:** Researcher / Copywriter / Developer
