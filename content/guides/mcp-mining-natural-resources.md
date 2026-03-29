@@ -1,9 +1,9 @@
 ---
 title: "MCP and Mining: How AI Agents Connect to Geological Modeling, Mine Planning, Resource Estimation, Environmental Monitoring, Oil & Gas, and Commodity Trading Tools"
 date: 2026-03-29T21:00:00+09:00
-description: "A comprehensive guide to MCP integrations for mining and natural resources — covering geospatial/GIS tools (QGIS 871 stars, ArcGIS), geological survey data (NASA Earthdata), industrial IoT/SCADA, oil & gas commodity pricing, environmental compliance, and architecture patterns for AI-powered mineral exploration, autonomous fleet management, and ESG reporting."
+description: "A comprehensive guide to 100+ MCP integrations for mining and natural resources — covering geospatial/GIS tools (QGIS 871 stars, ArcGIS, GDAL 59 stars), geological survey data (Macrostrat, USGS, BGS, NASA Earthdata), critical minerals databases, industrial IoT/SCADA, oil & gas commodity pricing, satellite imagery, environmental compliance, and architecture patterns for AI-powered mineral exploration, autonomous fleet management, and ESG reporting."
 content_type: "Guide"
-card_description: "Mining operations generate massive datasets across geological modeling, drill-hole databases, fleet telemetry, environmental sensors, and commodity markets — yet most of this data lives in disconnected systems. This guide covers 80+ MCP servers relevant to the mining and natural resources sector, from GIS platforms and geological databases to industrial IoT, oil & gas pricing, and environmental compliance — plus architecture patterns for AI-powered exploration, autonomous operations, and ESG reporting."
+card_description: "Mining operations generate massive datasets across geological modeling, drill-hole databases, fleet telemetry, environmental sensors, and commodity markets — yet most of this data lives in disconnected systems. This guide covers 100+ MCP servers relevant to the mining and natural resources sector, from GIS platforms and geological databases to critical minerals data, satellite imagery, industrial IoT, oil & gas pricing, and environmental compliance — plus architecture patterns for AI-powered exploration, autonomous operations, and ESG reporting."
 last_refreshed: 2026-03-29
 ---
 
@@ -69,9 +69,77 @@ Provides direct PostgreSQL database integration with PostGIS spatial extension s
 
 A geospatial tools server for AI agents providing geocoding, routing, spatial analysis, and file operations. Useful for logistics-heavy mining operations that need to optimize haul routes, plan infrastructure access, and analyze spatial relationships between mining tenements and environmental features.
 
+### GDAL MCP Server — Geospatial Data Processing
+
+**JordanGunn/gdal-mcp** | 59 stars | GDAL-style geospatial workflows
+
+Provides GDAL-style geospatial workflows via Rasterio, GeoPandas, and PyProj, including catalog discovery, raster and vector processing, and format conversion. For mining, this means AI agents can process elevation models (DEMs) for pit design, convert between coordinate systems used in different mining jurisdictions, and process satellite-derived raster data for geological interpretation — all through the industry-standard GDAL ecosystem.
+
+### Google Earth Engine MCP
+
+**Dhenenjay/Axion-MCP** | 4 stars | Google Earth Engine geospatial analysis
+
+Provides access to Google Earth Engine's planetary-scale geospatial analysis platform. For mining, GEE offers decades of satellite imagery for change detection, vegetation monitoring, and environmental baseline studies — capabilities particularly valuable for exploration-stage projects and environmental compliance monitoring across large tenement areas.
+
+### Satellite Imagery MCP Servers
+
+**PSkinnerTech/SkyFi-MCP-server** | 3 stars | SkyFi satellite imagery platform
+
+Enables ordering satellite imagery, searching archives, and tasking new captures through the SkyFi platform. For mining, on-demand high-resolution imagery supports pit progression monitoring, tailings dam surveillance, and environmental impact assessment.
+
+**isaaccorley/planetary-computer-mcp** | 2 stars | Microsoft Planetary Computer STAC API
+
+Query and download satellite imagery from Microsoft's Planetary Computer STAC catalog, which includes Sentinel-2, Landsat, and numerous other Earth observation datasets. The STAC (SpatioTemporal Asset Catalog) standard is increasingly used in mining for organizing and accessing remote sensing data.
+
 ## Geological and Earth Science Data
 
 Mining depends on geological data — from regional surveys that identify exploration targets to detailed drill-hole databases that define ore bodies.
+
+### Macrostrat MCP Server — Geological Data
+
+**blake365/macrostrat-mcp** | 6 stars | Macrostrat geological database API
+
+Provides access to the Macrostrat API for querying geological data including stratigraphic columns, lithological descriptions, and geological map data. Macrostrat covers geological information across North America and globally, making it valuable for regional geological context during exploration — understanding the broader geological setting, stratigraphic relationships, and lithological patterns surrounding a mining tenement.
+
+### USGS Earthquake and Volcano Data
+
+**blake365/usgs-quakes-mcp** | ~5 stars | USGS Earthquake API
+
+Query USGS earthquake data with natural language. Seismic data is directly relevant to mining — both for assessing geotechnical risk at mine sites and for monitoring induced seismicity from underground mining or hydraulic fracturing operations.
+
+**blake365/volcanoes-mcp** | Community | Smithsonian Global Volcanism Program
+
+Access volcanic activity data from the Smithsonian's Global Volcanism Program. Relevant for mining operations near volcanic regions — common in Pacific Rim mineral provinces — where volcanic hazard assessment is part of mine planning.
+
+### Geological Survey MCP Servers
+
+Several country-specific geological survey MCP servers have emerged:
+
+**pouliens/MCP---AGS-Boreholes-OGC-API** | Community | British Geological Survey borehole data
+
+Access British Geological Survey (BGS) borehole data through the OGC API standard. BGS maintains one of the world's oldest and most comprehensive geological databases, with borehole records spanning centuries.
+
+**furrytailapps/mcp-sgu** | Community | Swedish Geological Survey (SGU)
+
+Access geological data from Sweden's Geological Survey — relevant for the Nordic mining sector, which includes major iron ore (LKAB), base metal, and rare earth element operations.
+
+**MackinHung/mcp-taiwan-geology** | Community | Taiwan geological hazard data
+
+Geological hazard data for Taiwan, demonstrating the pattern of national geological surveys becoming accessible through MCP.
+
+### Mining-Specific Data Servers
+
+**Redliana/critical-minerals-data-tools** | Community | Critical minerals data (CLAIMM + BGS)
+
+MCP servers and REST APIs specifically for critical minerals data, connecting to the CLAIMM database and British Geological Survey. Critical minerals (lithium, cobalt, rare earths, nickel) are at the center of the energy transition — this server addresses a specific and growing need for AI-powered analysis of critical mineral supply chains.
+
+**Ryan-Clinton/critical-minerals-dependency-mcp** | Community | Critical minerals dependency analysis
+
+A dedicated MCP server for analyzing critical mineral dependencies — useful for understanding supply chain risks, geopolitical exposure, and sourcing alternatives for strategic minerals.
+
+**KatLabPuss/minemarket-mcp** | Community | Search mining projects via Claude
+
+Search mining projects through Claude, providing market intelligence on active mining projects, development-stage properties, and exploration prospects.
 
 ### NASA Earthdata MCP Server — Official
 
@@ -87,7 +155,7 @@ A comprehensive server accessing NASA's open APIs including Earth observation im
 
 ### USGS Data Resources
 
-The U.S. Geological Survey maintains the National Geochemical Database with data for over 1.5 million rock, sediment, soil, and mineral samples analyzed from 1962 through 2023. Their Mineral Resources Online Spatial Data portal provides interactive maps and downloadable data for regional and global geology, geochemistry, geophysics, and mineral resources. While no dedicated USGS MCP server exists yet, USGS maintains data repositories through their GitHub organization (github.com/DOI-USGS) that could serve as foundations for future MCP integrations.
+The U.S. Geological Survey maintains the National Geochemical Database with data for over 1.5 million rock, sediment, soil, and mineral samples analyzed from 1962 through 2023. Their Mineral Resources Data System (MRDS) covers metallic and nonmetallic mineral deposits worldwide. The USMIN database provides authoritative U.S. mineral deposit data. Their Mineral Resources Online Spatial Data portal provides interactive maps and downloadable data for regional and global geology, geochemistry, geophysics, and mineral resources. While no dedicated USGS MCP server exists yet, USGS maintains data repositories through their GitHub organization (github.com/DOI-USGS) that could serve as foundations for future MCP integrations.
 
 ### Open Geoscience Ecosystem
 
@@ -156,6 +224,26 @@ Provides forecasts, current conditions, historical weather data (1940–present)
 ### Open-Meteo MCP Servers
 
 Multiple implementations provide weather data through the Open-Meteo API, including historical weather data essential for hydrological modeling in mine design — calculating probable maximum precipitation, designing water management infrastructure, and planning for extreme weather events.
+
+### Air Quality and Chemical Data
+
+**mattmarcin/aqicn-mcp** | ~5 stars | Air quality data from AQICN.org
+
+Provides real-time air quality index data globally. Mining operations face strict air quality regulations — particulate matter from blasting, dust from haul roads, and emissions from processing plants all require continuous monitoring. This server helps contextualize site-specific air quality readings against regional baselines.
+
+**ToxMCP/comptox-mcp** | ~1 star | EPA CompTox chemical and hazard data
+
+Access EPA's CompTox Dashboard for chemical, bioactivity, exposure, and hazard data. Relevant for mining operations handling hazardous chemicals in processing (cyanide in gold extraction, sulfuric acid in copper leaching) and for environmental impact assessment of mine discharge on surrounding ecosystems.
+
+### Regulatory and Maritime Compliance
+
+**apifyforge/maritime-resource-compliance-mcp** | Community | Maritime resource compliance
+
+Covers fishing quotas, oil & gas licenses, waste carriers, and coastal hazards. Relevant for offshore mining operations, seabed mineral exploration, and port-based bulk commodity shipping.
+
+**apifyforge/uk-regulatory-ecosystem-mcp** | Community | UK regulatory intelligence
+
+Access to UK regulatory databases including NSTA (North Sea Transition Authority) oil and gas licensing data. Useful for oil & gas operations in UK waters and onshore mining operations navigating British regulatory frameworks.
 
 ## Mining Software Landscape — Where MCP Gaps Exist
 
