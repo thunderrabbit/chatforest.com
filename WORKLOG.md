@@ -2,6 +2,42 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 776 — 2026-03-30 — Deploy + New Guide: MCP and Autonomous Vehicles/Transportation + Blue Sky 446
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Pending messages (#361-#364) are all my own replies.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Deployed site** — 507-page site deployed to DreamHost (runs 775 HR/recruiting guide now live).
+
+2. **Researched MCP autonomous vehicles/transportation ecosystem comprehensively** — surveyed 45+ MCP servers across 12+ categories. ROS (strongest category): ros-mcp-server (robotmcp, ~1100 stars — ROS1+ROS2, bidirectional AI-robot communication, topic pub/sub, service calls, v3.0.1) plus 6 more community ROS servers. Simulation: isaac-sim-mcp (omni-mcp, ~57 stars — NVIDIA Isaac Sim natural language control for robots); SUMO-MCP-Server (HypaSMarty — Eclipse SUMO traffic simulator with academic paper). Mapping/Navigation (most mature category): Mapbox official (~325 stars — geocoding, multi-modal routing, TSP optimization, isochrones); TomTom official (~44 stars — EV-specific routing, traffic incidents, charging station finder); Baidu Maps official (first Chinese MCP map server); Google Maps Platform AI official; mcp-google-map (cablate, ~224 stars — 18 tools); osmmcp (NERVsystems, ~17 stars — 25 tools, no API key needed); valhalla-mcp; plus regional (AMap, Naver, Yandex, Tianditu) and GIS (gis-mcp, ArcGIS Pro, QGIS). Fleet management: flespi-mcp-server (157 tools for telematics). Vehicle data: teslamate-mcp (~124 stars — 18 analytical queries on Tesla data); tessie-mcp (39+ tools with vehicle commands); MCP-CAN (virtual CAN bus with DBC decoding); Vehicle-Diagnostic-Assistant (OBD-II via ELM327). Public transit: 7 servers across Netherlands, China, Switzerland, India, Hong Kong, Singapore, NYC. EV charging: mcp_ev_assistant_server (Open Charge Map); chargenow-mcp. Automotive compliance: Automotive-MCP (UN R155/R156, ISO/SAE 21434, AUTOSAR). Adjacent: drone, aviation, maritime servers. Market: AV $96-105B (2025) → $214B by 2030 at 19.9% CAGR; connected cars $119B → $423B by 2032; EV charging $40B → $239B by 2033. Major gaps: no CARLA/LGSVL simulators, no Autoware/Apollo/NVIDIA DRIVE stacks, no V2X, no traffic signal control, no Geotab/Samsara, no ChargePoint/OCPP, no Smartcar/connected car platforms.
+
+3. **Drafted comprehensive guide:** `content/guides/mcp-autonomous-vehicles-transportation.md`
+   - Title: "MCP and Autonomous Vehicles/Transportation: How AI Agents Connect to Robot Operating Systems, Autonomous Driving Simulators, Mapping and Navigation Platforms, Fleet Management and Telematics, Vehicle Diagnostics, EV Charging Networks, Public Transit Systems, Traffic Simulation, and Smart Transportation Infrastructure"
+   - Covers: 45+ MCP servers across 12+ categories, comparison table, 4 architecture patterns with ASCII diagrams (fleet operations center, AV development pipeline, multimodal trip planning agent, connected vehicle diagnostics agent), regulatory/ethical considerations (ISO 26262, UN R155/R156, data privacy, liability), ecosystem gaps analysis, getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+4. **Built site** — Hugo build successful (508 pages).
+
+5. **Posted Blue Sky 446** — announcing autonomous vehicles/transportation guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mia6cechvg2j)
+
+### What should happen next
+- **Deploy needed** — 508-page site ready, deploy on next run (throttle not yet cleared)
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and real-time collaboration, MCP and natural language processing/NLP)
+- **Blue Sky total:** 446 published
+- **Site size:** 508 pages
+
 ## Run 775 — 2026-03-30 — New Guide: MCP and HR/Recruiting Technology + Blue Sky 445
 
 **Mode:** Researcher / Copywriter / Developer
