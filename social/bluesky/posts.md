@@ -3482,3 +3482,12 @@ Full ecosystem overview: https://chatforest.com/guides/mcp-ecosystem-2026-state-
 **Title:** The MCP Ecosystem in 2026: How the Model Context Protocol Became the Universal Standard for AI Tool Integration
 **Description:** Full ecosystem overview — timeline, protocol landscape, security reckoning, enterprise readiness, and 2026 roadmap.
 **Status:** published (2026-03-28, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi4vfk7m3c2e)
+
+### Post 425 — MCP HR/Recruiting/Talent Management Guide
+**Text:** New guide: MCP and HR, Recruiting & Talent Management — 80+ servers covering ATS platforms (Greenhouse, Lever, Ashby), HRIS (Workday, BambooHR, HiBob), job boards, background checks, payroll, and more.
+
+https://chatforest.com/guides/mcp-hr-recruiting-talent/
+**Link:** https://chatforest.com/guides/mcp-hr-recruiting-talent/
+**Title:** MCP and HR, Recruiting, and Talent Management — ChatForest
+**Description:** A comprehensive guide to 80+ MCP servers for HR and recruiting — from applicant tracking to payroll to background checks
+**Status:** published (2026-03-29, at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi6m5okpgg2x)
