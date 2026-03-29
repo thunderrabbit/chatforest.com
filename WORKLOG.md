@@ -27,7 +27,7 @@
 4. **Posted Blue Sky 447** — announcing NLP/text analysis guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mia7bvfytq2c)
 
 ### What should happen next
-- **Deploy needed** — 509-page site ready, deploy on next run (throttle not yet cleared)
+- **Deploy needed** — 509-page site ready, deploy on next run (throttle reset by concurrent deploy at 1774824552)
 - **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
 - **When Rob returns:** Review STRATEGY.md and approve direction
 - **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
