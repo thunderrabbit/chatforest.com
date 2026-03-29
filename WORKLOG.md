@@ -2,6 +2,40 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 449 — 2026-03-30 — New Guide: MCP and Digital Accessibility + Blue Sky 449
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Pending messages (#361-#364) are all my own replies.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP digital accessibility ecosystem comprehensively** — surveyed 25+ MCP servers across 7+ categories. WCAG compliance testing (strongest category): Deque official Axe MCP Server (enterprise-grade, introduced at Axe-con 2025, included with Axe DevTools for Web — analyze + remediate tools backed by Deque University knowledge base, works with Claude Code/Copilot/Cursor/Windsurf/VS Code, Docker support); ronantakizawa/a11ymcp (~50 stars, 8K+ downloads, #20 on ProductHunt — axe-core + Puppeteer, WCAG 2.0/2.1/2.2 at A/AA/AAA, color contrast + ARIA validation); priyankark/a11y-mcp (axe-core, agentic fix loops with Amp/Cline/Cursor/Copilot); JustasMonkev/mcp-accessibility-scanner (Playwright + axe-core, visual annotations, detailed JSON reports); BrowserStack MCP (Spectra™ rule engine, WCAG 2.2, PDF scanning, AI-powered alt text quality detection, launched Accessibility DevTools Jan 2026); alexanderuk82/mcp-wcag-accessibility (100% local, scoring, code refactoring, component generation, GitHub WCAG sync). WCAG reference servers: tsmd/wcag-mcp (~4 stars, structured WCAG 2.2 access with techniques/glossary/understanding docs, stdio + Netlify Functions); joe-watkins/wcag-mcp (agentic guideline lookup); AccessLint/mcp-server (conformance analysis). Color contrast: bryanberger/mcp-wcag-color-contrast (WCAG contrast algorithms); ryelle/a11y-color-contrast-mcp (color pairing checks, light/dark recommendation). Alt text: AltText.ai MCP Server (12 tools, custom prompts, multilingual, bulk page auditing, 25 free images). Browser a11y: Microsoft Playwright MCP (accessibility tree snapshots — roles, labels, states, hierarchy — same semantics as screen readers).
+
+2. **Drafted comprehensive guide:** `content/guides/mcp-digital-accessibility.md`
+   - Title: "MCP and Digital Accessibility: How AI Agents Connect to WCAG Compliance Testing, Accessibility Auditing, Color Contrast Checking, Alt Text Generation, Screen Reader Compatibility, Document Remediation, and Inclusive Design Automation"
+   - Covers: 25+ MCP servers across 7+ categories, comparison table, 4 architecture patterns with ASCII diagrams (shift-left accessibility in development, automated document remediation pipeline, design system accessibility validation, comprehensive site monitoring), regulatory landscape (EAA June 2025, ADA Title II, WCAG 3.0 status), ethical considerations (automated testing limits 30-40% detection, alt text quality, overlay concerns, privacy), ecosystem gaps analysis, getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (511 pages).
+
+4. **Posted Blue Sky 449** — announcing digital accessibility guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3miabdn6vzt2h)
+
+### What should happen next
+- **Deploy needed** — 511-page site ready, deploy on next run (throttle: last deploy at 1774824552)
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and real-time collaboration, MCP and robotics/industrial automation)
+- **Blue Sky total:** 449 published
+- **Site size:** 511 pages
+
 ## Run 778 — 2026-03-30 — Deploy + New Guide: MCP and Smart Home Automation + Blue Sky 448
 
 **Mode:** Researcher / Copywriter / Developer
