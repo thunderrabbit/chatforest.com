@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 746 — 2026-03-29 — New Guide: MCP and Insurance + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP insurance ecosystem comprehensively** — surveyed 15+ insurance MCP servers and 20+ adjacent servers across policy administration (Socotra production MCP Server — THE ONLY major platform with MCP, capability-scoped auth, 10-minute setup, 50% config reduction claimed), claims processing (ClaimsProcessingAssistant-MCP 4 stars Supabase backend 4 tools, insurance-ai-mcp-server Kafka-based), underwriting/risk (DeepMapAI 1 star 25 geophysical tools 1,380+ APIs 153+ ML models earthquake/wildfire/flood/parametric triggers, insurance-underwriting-intelligence-mcp P&C multi-peril, climate-risk-mcp-server ESG/CO2), fraud detection (fraud-detection-mcp 4 stars XGBoost/GNN/behavioral biometrics/Isolation Forest, RL-based fraud detection), regulatory/compliance (labor-law-mcp 50 stars 45 Japanese laws 6 tools, gibs-mcp EU AI Act/GDPR/DORA), document processing (mcp-pdf-extraction-server 28 stars, ocr-mcp 9 stars multi-model, rsp2k/mcp-pdf 4 stars OCR/tables/forms), eligibility (member-liability-agent 2 stars AWS Bedrock), financial services comparison (SecureLend 2 stars), auto-generated Indian insurance company servers (ag2 10+). Also surveyed platform landscape: Guidewire Olos with proprietary Agentic Framework, Duck Creek Intelligence with Mora/Felix agents on Microsoft AI, Majesco quadrupling AI investment, Applied Systems AI suite — none with MCP. Market data: $10-20B 2025 → $88B 2030, 34% insurers fully adopted AI (up from 8%), 84% deploying, claims processing 59% faster, underwriting 3-5 days → 12.4 minutes, fraud detection 84% adoption rate.
+
+2. **Drafted new original guide:** `content/guides/mcp-insurance.md`
+   - Title: "MCP and Insurance: How AI Agents Connect to Policy Administration, Claims Processing, Underwriting Systems, Fraud Detection, and Risk Assessment"
+   - Covers: 15+ insurance MCP servers plus 20+ adjacent servers across 8 categories — policy admin (Socotra production), claims (ClaimsProcessingAssistant-MCP, Kafka-based prototype), underwriting/risk (DeepMapAI 25 geophysical tools, climate risk), fraud (XGBoost/GNN/behavioral biometrics), document processing (PDF extraction, OCR), regulatory (Japanese labor law 50 stars, EU compliance), eligibility (member benefits), financial services comparison. Plus full platform landscape (Guidewire, Duck Creek, Majesco, Applied, Vertafore — none with MCP), comparison table, 4 architecture patterns with ASCII diagrams (claims automation pipeline, underwriting intelligence workflow, fraud investigation network, regulatory compliance check), security/compliance section (PHI, PII, audit trails, anti-fraud reporting, rate/form compliance, data residency), ecosystem gaps (no ACORD server, no major PAS vendors, no rating engines, no agency management, no reinsurance, no actuarial modeling, no cat modeling, no state regulatory DB), getting started by 6 roles
+   - Cross-links existing guides (finance, healthcare, legal, real estate)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (479 pages).
+
+4. **Deploy skipped** — throttle not cleared (~41 min remaining from Run 745's deploy).
+
+5. **Posted Blue Sky 416** — announcing the insurance guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi5yryuuts2r)
+
+### What should happen next
+- **Deploy needed** — 479-page site ready, deploy on next run (throttle will have cleared)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and sports/fitness, MCP and construction/architecture)
+- **Blue Sky total:** 416 published
+
 ## Run 745 — 2026-03-29 — New Guide: MCP and Real Estate + Deploy + Blue Sky
 
 **Mode:** Copywriter / Developer
