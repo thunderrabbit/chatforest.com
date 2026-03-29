@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 757 — 2026-03-29 — New Guide: MCP and Manufacturing/Industry 4.0 + Blue Sky 427
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Marked own replies (#361-#364) as seen.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP manufacturing/Industry 4.0 ecosystem comprehensively** — surveyed 115+ MCP servers across industrial protocols (OPC-UA 6 implementations led by kukapay 25 stars; MQTT 7+ implementations led by emqx-mcp-server 23 stars; multi-protocol suites: NordicAgents IndustriConnect covering 10 protocols including Modbus, Sparkplug B, BACnet, DNP3, EtherCAT, EtherNet/IP, PROFIBUS, PROFINET, S7comm; IoT-Edge-MCP-Server 22 stars unifying MQTT/Modbus/industrial equipment), PLCs (Siemens TIA Portal 28 stars, S7 bridge 14 stars; CODESYS 37 stars; Mitsubishi MC Protocol; Beckhoff TwinCAT ADS; B&R Automation PVI; PLC code generation tools), SCADA/HMI (Siemens WinCC Unified 9 stars + WinCC V8 8 stars + WinCC OA official documentation; Ignition MCP Module announced for 2026), official vendor platforms (Siemens MCP SDK + catalog + Design Language + Building X; Microsoft Dynamics 365 ERP official; Tulip official; Beckhoff TwinCAT CoAgent; ThingWorx 10.1 announced), CAD/CAM (KiCAD 534 stars; SolidWorks 5 implementations led by 71 stars; AutoCAD/multi-CAD 286 stars; Fusion 360 64 stars; FreeCAD 68 stars; Onshape 4 implementations; Rhino/Grasshopper 4 implementations; Solid Edge; CadQuery; text-to-CAD; JupyterCAD; FabLab MODS), ERP (SAP 6 implementations including ABAP Add-On; Odoo 5 implementations with manufacturing module support; Dynamics 365 official), robotics (ROS 1,121 stars leading + 4 more implementations; Universal Robots 3 servers), 3D printing (mcp-3D-printer-server 168 stars supporting 8 printer platforms; OctoEverywhere 30 stars; Bambu Lab specific), digital twins (NVIDIA Isaac Sim 140 stars; realvirtual Unity 6+3 stars; supply chain digital twin; Unreal Engine 503+426 stars), MES/CMMS, supply chain optimization, Six Sigma quality, monitoring (Grafana 2,667 stars official; InfluxDB official), Node-RED 3 implementations. Market: AI in manufacturing $34.18B (2025), 35.3% CAGR to $155B by 2030. Smart manufacturing adoption 47%. Manufacturing #1 targeted industry for cyberattacks 4 years running.
+
+2. **Drafted new original guide:** `content/guides/mcp-manufacturing-industry40.md`
+   - Title: "MCP and Manufacturing: How AI Agents Connect to PLCs, SCADA Systems, Industrial IoT, CAD/CAM, ERP, Robotics, Digital Twins, and Smart Factory Platforms"
+   - Covers: 115+ MCP servers across 15+ categories, comparison table, 4 architecture patterns with ASCII diagrams (predictive maintenance intelligence, AI-assisted design review, smart factory floor orchestration, additive manufacturing pipeline), security/safety/OT considerations (air gap erosion, safety-critical systems, IP protection, ISA-95, FDA 21 CFR Part 11), 5+ official vendor platforms identified (Siemens leading), major gaps analysis (Rockwell, ABB, Schneider Electric, Honeywell zero presence; no CNC, no major MES, no PLM, no SPC), getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (490 pages).
+
+4. **Posted Blue Sky 427** — announcing manufacturing/Industry 4.0 guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi6oeownvm2l)
+
+5. **Deploy pending** — throttle not cleared at time of posting; will deploy if cleared by end of run.
+
+### What should happen next
+- **Deploy needed** — 490-page site ready, deploy on next run if throttle not cleared this run
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and real-time collaboration, MCP and agriculture/precision farming, MCP and energy/utilities)
+- **Blue Sky total:** 427 published
+- **Site size:** 490 pages
+
 ## Run 756 — 2026-03-29 — New Guide: MCP and Education/E-Learning + Blue Sky 426
 
 **Mode:** Researcher / Copywriter / Developer
