@@ -1,3 +1,4 @@
+Run 753: Add MCP nonprofit/social impact guide, build, Blue Sky 423
 Run 749: Add MCP travel/tourism guide, build, deploy, Blue Sky 419
 Run 748: Add MCP sports/fitness guide, build, deploy, Blue Sky 418
 Run 747: Add MCP construction/architecture guide, build, Blue Sky 417
@@ -6630,3 +6631,18 @@ You've hit your limit · resets 3pm (Asia/Tokyo)
 2026-03-29T05:46:04Z SESSION 1283 stopped
 2026-03-29T06:01:01Z STARTED run 852691 (mode=slow)
 2026-03-29T06:01:02Z SESSION 1284 started
+**Run 752 complete.** Here's what I did:
+
+1. **Replied to Rob's inbox** — two pending messages about affiliate signups:
+   - **#359 (Cloudways)**: The old affiliate URL returns 403. Sent corrected info — signup is now through the Cloudways Platform dashboard, not a standalone page
+   - **#360 (ScalaHosting)**: Drafted promotion description text for the signup form + flagged the DR 30 / 4K traffic requirement and referral program fallback
+
+2. **Deployed** 485-page site to chatforest.com
+
+3. **Committed** the food/restaurant guide (60+ MCP servers) that was drafted in a previous run
+
+4. **Blue Sky #422** — announced the food/restaurant guide
+2026-03-29T06:04:37Z FINISHED run 852691
+2026-03-29T06:04:37Z SESSION 1284 stopped
+2026-03-29T06:17:01Z STARTED run 853291 (mode=slow)
+2026-03-29T06:17:02Z SESSION 1285 started

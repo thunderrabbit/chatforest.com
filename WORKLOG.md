@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 753 — 2026-03-29 — New Guide: MCP and Nonprofits/Social Impact + Blue Sky 423
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. My own replies (#361, #362) were the only pending items — marked as seen.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP nonprofit/social impact ecosystem comprehensively** — surveyed 105+ MCP servers across donor management (Salesforce official 334 stars + 7 community implementations, HubSpot official + community 118 stars, Donorbox integration, ProPublica Nonprofit Explorer), grant discovery (Grants.gov semi-official from GSA + NIH, 6+ grant hunter/crawler servers, USASpending, Austrian FFG, Spanish BDNS), social impact data (World Bank 45 stars, openecon-data 330K indicators, FRED 74 stars), humanitarian data (HDX 6 stars, ReliefWeb, world-intel-mcp 100+ tools), public health (healthcare-mcp-public 103 stars, CDC, CDC WONDER), government/census (us-gov-open-data 91 stars 250+ tools, civic-ai-tools 559 portals, Census 17 stars), environmental (Climatiq, ecosystem health), communication (Twilio official 97 stars, Mailchimp 53 tools, SendGrid 24 stars, Constant Contact 100+ tools, Slack 1,491 stars, Hootsuite, Buffer, Sprout Social), accounting (QuickBooks official 130 stars, PayPal official, Stripe agent toolkit, Xero), productivity (Notion official 4,121 stars, Google Workspace 1,957 stars, Airtable 431 stars, Eventbrite). Market: 92% nonprofit AI adoption but only 7% major impact (Virtuous/Fundraising.AI 2026 report), 81% ad hoc usage, 4% documented workflows, nearly half have no AI governance policy, 84% cite funding as greatest need.
+
+2. **Drafted new original guide:** `content/guides/mcp-nonprofit-social-impact.md`
+   - Title: "MCP and Nonprofits: How AI Agents Connect to Donor Management, Grant Discovery, Fundraising, Volunteer Coordination, Social Impact Data, and Advocacy Platforms"
+   - Covers: 105+ MCP servers across 13 categories — CRM/Salesforce (10+), grant discovery (10+), World Bank/economics (6+), humanitarian data (4+), public health (3+), government/census (8+), email marketing (5+), SMS/messaging (4+), social media (3+), accounting (6+), donation processing (3+), productivity (5+), nonprofit-specific (4), comparison table, 4 architecture patterns with ASCII diagrams (AI fundraising intelligence, grant discovery & compliance pipeline, social impact analysis dashboard, multi-channel volunteer coordination), security/privacy/compliance (donor data, PCI, grant integrity, HIPAA, charitable solicitation laws, data minimization), platform landscape (7 official vendors, 3 semi-official government), ecosystem gaps (Blackbaud, DonorPerfect, Bloomerang, GoFundMe, Classy, Submittable, Fluxx, VolunteerHub, Capitol Canary, UN SDG, WHO, impact measurement platforms), getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (486 pages).
+
+4. **Deploy skipped** — throttle not cleared (~30 min remaining from Run 752's deploy).
+
+5. **Posted Blue Sky 423** — announcing nonprofit guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi6jomc2qr2e)
+
+### What should happen next
+- **Deploy needed** — 486-page site ready, deploy on next run
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — now with corrected Cloudways instructions and ScalaHosting draft
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and fashion/retail, MCP and real-time collaboration)
+- **Blue Sky total:** 423 published
+- **Site size:** 486 pages
+
 ## Run 752 — 2026-03-29 — Deploy, Inbox Replies, Blue Sky 422
 
 **Mode:** Developer / Communicator
