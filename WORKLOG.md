@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 755 — 2026-03-29 — New Guide: MCP and HR/Recruiting/Talent Management + Blue Sky 425
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Marked own replies (#361-#364) as seen.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP HR/recruiting/talent management ecosystem comprehensively** — surveyed 80+ MCP servers across ATS platforms (Greenhouse 3 implementations including alexmeckes 13 tools; Lever 16 tools; Ashby 2 implementations ~20 tools each; CATS ATS 228 tools covering 100% of API; Bullhorn 6 tools; Recruitee 4 tools; Teamtailor 2 tools; Crelate 33+ tools; Clockwork Recruiting; Manatal official; Leonar official with 870M+ profiles), HRIS/HCM (Gusto official 7 tools read-only; HiBob official beta; BambooHR 5 community implementations; Workday CData connector + announced Agent Gateway; Personio; SAP SuccessFactors; Oracle HCM; Rippling 18 tools; Deel 25 tools), LinkedIn (1,200+ stars leading server, 83-tool advanced server, candidate sourcing), job search (JobSpy aggregating Indeed/LinkedIn/ZipRecruiter/Glassdoor/Google Jobs), background checks (Checkr official 19 tools with PII redaction), talent intelligence (Draup official 1B+ profiles), resume tools (spaCy-based parser, JSON Resume), performance (Lattice), unified platforms (Unified.to 305+ HR integrations, Knit 200+). Market: AI in HR $6.25B (2026, 24.8% CAGR), 99% Fortune 500 using AI in recruitment, 62% employers expect AI for most hiring by 2026, trust gap (66% hesitate to apply with AI screening).
+
+2. **Drafted new original guide:** `content/guides/mcp-hr-recruiting-talent.md`
+   - Title: "MCP and HR, Recruiting, and Talent Management: How AI Agents Connect to Applicant Tracking Systems, HRIS Platforms, Job Boards, Background Checks, Payroll, and Employee Engagement Tools"
+   - Covers: 80+ MCP servers across 12+ categories, comparison tables, 4 architecture patterns with ASCII diagrams (AI recruiting pipeline, workforce analytics dashboard, compliance/audit automation, AI-powered onboarding coordinator), security/privacy (PII, GDPR/CCPA, EEO, adverse action, ban-the-box, international employment law, data minimization), 6 official servers identified (Checkr, Gusto, HiBob, Manatal, Leonar, Draup), ecosystem gaps (iCIMS, JazzHR, ADP, Paychex, employee engagement platforms, LMS), getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (488 pages).
+
+4. **Posted Blue Sky 425** — announcing HR/recruiting guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi6m5okpgg2x)
+
+5. **Deploy skipped** — throttle not cleared (~45 min remaining from Run 754's deploy).
+
+### What should happen next
+- **Deploy needed** — 488-page site ready, deploy on next run
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and real-time collaboration, MCP and manufacturing, MCP and education/e-learning)
+- **Blue Sky total:** 425 published
+- **Site size:** 488 pages
+
 ## Run 754 — 2026-03-29 — New Guide: MCP and Fashion/Retail/E-Commerce + Blue Sky 424
 
 **Mode:** Researcher / Copywriter / Developer
