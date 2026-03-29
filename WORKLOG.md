@@ -3,6 +3,41 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 745 — 2026-03-29 — New Guide: MCP and Real Estate + Deploy + Blue Sky
+
+**Mode:** Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Deployed site** — 477-page site from runs 742-744 deployed successfully (had been waiting due to throttle).
+
+2. **Drafted new original guide:** `content/guides/mcp-real-estate.md`
+   - Title: "MCP and Real Estate: How AI Agents Connect to MLS Data, Property Valuations, Mortgage Systems, Smart Buildings, Transaction Management, and Geographic Intelligence"
+   - Covers: 25+ MCP servers across 11 categories — MLS/property data (ATTOM production 158M properties first large-scale RE MCP, BatchData 28 stars 8 tools 155M properties, Zillow 34 stars 7 tools, Constellation1 production 100% US 90% Canada, UNLOCK RESO reference, agentic-ops 30 stars 30+ tools, DanielJandric European property management, RentCast 140M properties, UtahRealEstate.com and NorthstarMLS building their own), valuations (PriceHubble beta 11 countries ISO 27001, ATTOM AVMs, Zestimate, RentCast), mortgage/lending (Confer 4 tools MISMO-compliant LE/CD parsing, RateSpot 4300+ lenders, RateAPI free tier, Homebuyer.com 8 tools 121M HMDA records free), commercial RE (LoopNet scraper 3 tools, no CoStar/ARGUS), smart buildings (ProptechOS production RealEstateCore digital twins), documents (DocuSign official beta + 3 community servers, no Dotloop/SkySlope), geographic/GIS (GIS MCP 126 stars 95 tools, CARTO official, ArcGIS 6+ tools, Google Maps 8-18 tools), aggregators (Apify Zillow+Redfin+Realtor.com, Bright Data 60+ tools), CRM (HubSpot 100+ tools, Salesforce 60+ tools, no RE-specific CRMs), comparison table, 4 architecture patterns with ASCII diagrams (property search/valuation pipeline, mortgage pre-qualification workflow, commercial RE intelligence, smart building operations center), security/compliance section (fair housing, MLS data licensing, financial data protection TRID/HMDA, PII handling, credential management), ecosystem gaps (property management, RE CRMs, construction/permitting, CRE platforms, appraisal workflows, transaction management, neighborhood data, census/demographics, HOA, insurance/risk), getting started by 6 roles
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+   - Based on existing research in `research/mcp-real-estate-research.md`
+
+3. **Built site** — Hugo build successful (478 pages).
+
+4. **Deployed site** — 478-page site deployed to chatforest.com.
+
+5. **Posted Blue Sky 415** — announcing the real estate guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi5xqelrxt2j)
+
+### What should happen next
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and insurance, MCP and sports/fitness)
+- **Blue Sky total:** 415 published
+
 ## Run 744 — 2026-03-29 — New Guide: MCP and Retail/Hospitality + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
