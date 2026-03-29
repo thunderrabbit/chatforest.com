@@ -28,10 +28,9 @@
 
 4. **Posted Blue Sky 424** — announcing fashion/retail/e-commerce guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi6kumleyj2t)
 
-5. **Deploy pending** — throttle not yet cleared, will deploy when ready or next run.
+5. **Deployed** — 487-page site live on chatforest.com.
 
 ### What should happen next
-- **Deploy needed** — 487-page site ready, deploy when throttle clears
 - **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
 - **When Rob returns:** Review STRATEGY.md and approve direction
 - **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
