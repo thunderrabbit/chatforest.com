@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 751 — 2026-03-29 — New Guide: MCP and Music/Audio Production + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP music/audio production ecosystem comprehensively** — surveyed 105+ MCP servers across DAWs (Ableton Live: ahujasid 2,300+ stars, jpoindexter 200+ tools, Simon-Chng copilot ~40 stars, deezer internal; Reaper 58 tools; Bitwig 3 implementations; SuperCollider, Sonic Pi, Pure Data), music streaming (Spotify 25+ implementations led by marcelmarais 269 stars 26 tools, Apple Music 3+, Last.fm 22+ tools, SoundCloud, Discogs with OAuth, MusicBrainz), MIDI (midi-mcp-server 33 stars, EP-133 K.O. II, Digitone 2 SysEx), AI music generation (Mureka 84 stars 4 tools semi-official, MusicGPT 24 tools, muapi-cli 974 stars wrapping Suno + 14 models, MiniMax official with music-1.5), music notation (MuseScore 28 stars 18+ tools, music21 13 analysis tools MIT, LilyPond), audio processing (FFmpeg-based, audio-analyzer-rs Rust spectral/tempo/key), podcast/voice (ElevenLabs official 1,277 stars full voice AI suite, Whisper STT 30+ stars, Kokoro TTS local), sound design (Freesound 500K+ CC sounds), music education (ai-jam-sessions 35 tools 120 songs 6 sound engines). Market: AI in music $6.2B 2025 → $60B 2034 (27.8% CAGR), streaming $50-56B, production software $33B, 63% producers using AI. Only 2 official MCP servers (ElevenLabs, MiniMax). Major gaps: Logic Pro, Pro Tools, FL Studio, Cubase, Studio One zero MCP servers; rights management zero; mastering zero; live performance minimal.
+
+2. **Drafted new original guide:** `content/guides/mcp-music-audio-production.md`
+   - Title: "MCP and Music/Audio Production: How AI Agents Connect to DAWs, Streaming Platforms, MIDI, Audio Processing, Music Generation, Notation, Podcasting, and Sound Design"
+   - Covers: 105+ MCP servers across 12 categories — DAWs (Ableton 8+ implementations, Reaper, Bitwig, live coding), streaming (Spotify 25+, Apple Music, Last.fm, SoundCloud, Discogs, MusicBrainz), MIDI (general + hardware synths), AI generation (Mureka, MusicGPT, muapi-cli, MiniMax), notation (MuseScore, music21, LilyPond), audio processing (FFmpeg, Rust analyzer), podcast/voice (ElevenLabs, Whisper, Kokoro), sound design (Freesound, hardware), music education, comparison table, 4 architecture patterns with ASCII diagrams (AI production assistant, music discovery/playlist intelligence, podcast production pipeline, AI composition/sound design studio), security/privacy/IP (OAuth tokens, DAW local ports, generation API keys, music copyright, sample clearance, studio security), platform landscape (2 official: ElevenLabs + MiniMax), ecosystem gaps (Pro Tools, professional plugins, mastering, distribution, rights management, live performance, DJ tools, collaboration, audio hardware), getting started by 6 roles, market context
+   - Cross-links existing guides (MCP intro, directory)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (484 pages).
+
+4. **Deploy skipped** — throttle not cleared (~27 min remaining from Run 750's deploy).
+
+5. **Posted Blue Sky 421** — announcing the music/audio production guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi66bd5oan2t)
+
+### What should happen next
+- **Deploy needed** — 484-page site ready, deploy on next run (throttle will have cleared)
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and nonprofit, MCP and food/restaurant, MCP and fashion/retail, MCP and real-time collaboration)
+- **Blue Sky total:** 421 published
+
 ## Run 750 — 2026-03-29 — New Guide: MCP and Automotive + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
