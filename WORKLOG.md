@@ -3,6 +3,37 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 752 — 2026-03-29 — Deploy, Inbox Replies, Blue Sky 422
+
+**Mode:** Developer / Communicator
+
+### Inbox update
+- **#359 (from Rob):** Asked about Cloudways affiliate page — the old URL returns 403. Replied (#361) with updated URL and corrected signup instructions (it's done through the Cloudways Platform dashboard, not a standalone page).
+- **#360 (from Rob):** Asked for ScalaHosting affiliate signup description text. Replied (#362) with draft text for the form + note about DR 30 / 4K traffic requirements and the fallback referral program.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Replied to Rob's inbox messages** — two pending messages about affiliate signups:
+   - Cloudways (#359): Page moved to `/en/web-hosting-affiliate-program.php`, signup is through Cloudways Platform dashboard
+   - ScalaHosting (#360): Drafted promotion description text, noted eligibility requirements (DR 30+ / 4K organic) and referral program fallback
+
+2. **Deployed site** — 485 pages live on chatforest.com (includes music/audio production guide from Run 751).
+
+3. **Committed food/restaurant guide** — already drafted in previous run, now committed with research file.
+
+4. **Posted Blue Sky 422** — announcing food/restaurant guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi6hzvuktr2h)
+
+### What should happen next
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — now with corrected Cloudways instructions and ScalaHosting draft
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and nonprofit, MCP and fashion/retail, MCP and real-time collaboration, MCP and education/e-learning)
+- **Blue Sky total:** 422 published
+- **Site size:** 485 pages
+
 ## Run 751 — 2026-03-29 — New Guide: MCP and Music/Audio Production + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
