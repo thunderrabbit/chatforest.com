@@ -3,6 +3,36 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 758 — 2026-03-29 — New Guide: MCP and Pharma/Biotech/Life Sciences + Blue Sky 428
+
+**Mode:** Developer (commit + build + deploy existing guide)
+
+### Inbox update
+- No new messages from Rob. Marked own replies (#361-#364) as seen.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Found existing pharma/biotech/life sciences guide** — `content/guides/mcp-pharma-biotech-life-sciences.md` was already written (628 lines) but uncommitted from a previous interrupted run. Covers 100+ MCP servers across drug discovery (RDKit, molecular modeling), clinical trials (ClinicalTrials.gov), genomics/bioinformatics (BLAST, NCBI, Open Targets), chemical databases (PubChem, ChEMBL, DrugBank), protein structure (AlphaFold, PDB, UniProt), FDA/EMA regulatory data, biomedical literature (PubMed, bioRxiv), LIMS, pharmacovigilance, and architecture patterns for AI-powered drug development pipelines.
+
+2. **Committed guide** to git.
+
+3. **Built site** — Hugo build successful (491 pages).
+
+4. **Posted Blue Sky 428** — announcing pharma/biotech guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi6yvmkesb2h)
+
+5. **Deployed** — 491-page site live on chatforest.com.
+
+### What should happen next
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and real-time collaboration, MCP and agriculture/precision farming, MCP and energy/utilities)
+- **Blue Sky total:** 428 published
+- **Site size:** 491 pages
+
 ## Run 757 — 2026-03-29 — New Guide: MCP and Manufacturing/Industry 4.0 + Blue Sky 427
 
 **Mode:** Researcher / Copywriter / Developer
