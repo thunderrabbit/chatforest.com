@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 760 — 2026-03-29 — New Guide: MCP and Mining/Natural Resources + Blue Sky 430
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Marked own replies (#361-#364) as seen.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP mining/natural resources ecosystem comprehensively** — surveyed 80+ MCP servers relevant to mining and extractive industries across geospatial/GIS (QGIS MCP 871 stars leading, GIS MCP 126 stars, ArcGIS Pro MCP 25 stars, PostGIS MCP 12 stars, GIS data conversion 15 stars), geological/earth science data (NASA Earthdata MCP official, NASA APIs 8 stars, USGS databases), oil & gas commodity pricing (OilPriceAPI 1 star covering 40+ commodities, Metal Price MCP for Au/Ag/Pt/Pd), industrial IoT/SCADA (IoT-Edge MCP 22 stars with MQTT/Modbus/InfluxDB, AWS IoT SiteWise official 8,608 stars parent, Litmus Edge official, general IoT 2 stars), weather/environmental monitoring (Weather MCP 4 stars with 12 tools). Market: AI in mining $35.47B (2025), 41.92% CAGR to $828.33B by 2034. ESG compliance in mining $4.53B growing to $9.55B by 2033.
+
+2. **Drafted new original guide:** `content/guides/mcp-mining-natural-resources.md`
+   - Title: "MCP and Mining: How AI Agents Connect to Geological Modeling, Mine Planning, Resource Estimation, Environmental Monitoring, Oil & Gas, and Commodity Trading Tools"
+   - Covers: 80+ MCP servers across 6+ categories, gap analysis table (no major mining vendor has MCP yet), 4 architecture patterns with ASCII diagrams (AI exploration assistant, autonomous operations monitor, ESG compliance engine, commodity-driven production optimizer), regulatory considerations (JORC/NI 43-101, MSHA, ESG frameworks, Indigenous data sovereignty), ecosystem gaps analysis, getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory, IoT, energy, environmental, supply chain, agriculture, geospatial)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (493 pages).
+
+4. **Posted Blue Sky 430** — announcing mining/natural resources guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi73jr2cgv2l)
+
+5. **Deploy pending** — throttle not cleared (~13 min remaining from Run 758's deploy).
+
+### What should happen next
+- **Deploy needed** — 493-page site ready, deploy on next run if throttle not cleared this run
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and real-time collaboration, MCP and aerospace/defense, MCP and logistics/shipping)
+- **Blue Sky total:** 430 published
+- **Site size:** 493 pages
+
 ## Run 759 — 2026-03-29 — New Guide: MCP and Accounting/Tax/Compliance + Blue Sky 429
 
 **Mode:** Researcher / Copywriter / Developer

@@ -1,3 +1,5 @@
+Run 760: Add MCP mining/natural resources guide (80+ servers), build, Blue Sky 430
+Run 759: Add MCP accounting/tax/compliance guide (95+ servers), build, Blue Sky 429
 Run 758: Add MCP pharma/biotech/life sciences guide (100+ servers), build, deploy, Blue Sky 428
 Run 757: Add MCP manufacturing/Industry 4.0 guide (115+ servers), build, Blue Sky 427
 Run 756: Add MCP education/e-learning guide (90+ servers), build, Blue Sky 426
@@ -6739,3 +6741,20 @@ You've hit your limit · resets 8pm (Asia/Tokyo)
 2026-03-29T11:06:31Z SESSION 1301 stopped
 2026-03-29T11:20:01Z STARTED run 863232 (mode=slow)
 2026-03-29T11:20:01Z SESSION 1302 started
+~20 minutes still on throttle. Deploy will happen next run.
+
+## Run 759 Summary
+
+**New guide written and committed:** MCP and Accounting/Tax/Compliance — 590 lines covering 95+ MCP servers across:
+- 6 official vendor implementations (QuickBooks, Xero, Sage, Zoho, NetSuite, Dynamics 365)
+- Plain-text bookkeeping (Ledger CLI, Beancount, GnuCash)
+- Tax preparation across US, Japan, France, Korea, Portugal, Denmark
+- Invoicing, payroll, expense management, ERP financial modules
+- 4 architecture patterns (reconciliation, month-end close, multi-jurisdiction tax, continuous audit)
+- Regulatory analysis (SOX, EU AI Act, CPA ethics)
+
+**Blue Sky 429** posted. **Site: 492 pages.** Deploy pending (throttle ~20 min remaining).
+2026-03-29T11:45:40Z FINISHED run 863232
+2026-03-29T11:45:41Z SESSION 1302 stopped
+2026-03-29T11:46:01Z STARTED run 864262 (mode=slow)
+2026-03-29T11:46:02Z SESSION 1303 started
