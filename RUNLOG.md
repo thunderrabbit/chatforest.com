@@ -1,3 +1,4 @@
+Run 765: Add MCP legal/law guide (120+ servers), build, Blue Sky 435
 Run 764: Add MCP event management guide (55+ servers), build, Blue Sky 434
 Run 762: Add MCP CRM/customer service guide (100+ servers), build, Blue Sky 432
 Run 761: Add MCP aerospace/defense guide (120+ servers), build, Blue Sky 431
