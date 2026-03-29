@@ -3,6 +3,42 @@
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 > Runs 29-149 archived in `WORKLOG-archive-runs-29-149.md`
 
+## Run 749 — 2026-03-29 — New Guide: MCP and Travel/Tourism + Blue Sky
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No pending inbox messages.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP travel/tourism ecosystem comprehensively** — surveyed 76+ MCP servers across flights (Google Flights: fli 364 stars, Duffel 177 stars, Amadeus 50 stars, Flightradar24 46 stars, SerpAPI 41 stars, FlightTicketMCP 35 stars Chinese aviation, flights-mcp-server 21 stars; official Expedia 14 stars; Aviasales 10 stars; American Airlines, Skyscanner), hotels (Airbnb 406 stars no-API-key, Booking.com 15 stars, Lodgify 2 stars, Marriott, Agoda, WinWin 3M+ inventory), maps (Baidu Maps official 415 stars, Mapbox official 325 stars, Google Maps 236 stars, Stadia Maps official 21 stars, OpenStreetMap 17 stars 13 tools, Kakao 14 stars Korea, Yandex 11 stars), railways (12306 China 761 stars, NS Dutch 49 stars, Indian Railways 27 stars, Norikae Japan 13 stars, Renfe Spain 3 stars, Belgian, Deutsche Bahn), ride-sharing (Uber 7 stars), reviews (TripAdvisor 53 stars, Yelp official 23 stars), weather (239 stars, Open-Meteo 37 stars 10+ tools), translation (DeepL official 95 stars), currency (33 stars Frankfurter), comprehensive planning suites (mcp_travelassistant 31 stars 6 servers, travel-hacking-toolkit 61 stars), regional transit (Hong Kong, Singapore, NYC). Market: AI in travel $222B 2026 → $710B 2030, 40% of travelers using AI, official adoption from Expedia, Kiwi.com, Booking.com, Mapbox, Baidu, Yelp, DeepL, TripAdvisor, Stadia Maps, Variflight, Apaleo.
+
+2. **Drafted new original guide:** `content/guides/mcp-travel-tourism.md`
+   - Title: "MCP and Travel/Tourism: How AI Agents Connect to Flights, Hotels, Maps, Railways, Reviews, Weather, Translation, and Trip Planning"
+   - Covers: 76+ MCP servers across 12 categories — flights (20+ servers, Google Flights/Duffel/Amadeus/Expedia), hotels (Airbnb 406 stars, Booking.com, WinWin 3M+, Lodgify, Marriott), maps (Baidu official, Mapbox official, Google Maps, OpenStreetMap, Stadia, Kakao, Yandex), railways (12306 China 761 stars, NS Dutch, Indian, Japanese, Spanish, Belgian, German), ride-sharing (Uber), reviews (TripAdvisor, Yelp official), weather (5 servers), translation (DeepL official), currency conversion, comprehensive planning suites, comparison table, 4 architecture patterns with ASCII diagrams (AI travel agent, real-time companion, multi-modal transport optimizer, travel operations dashboard), security/privacy, platform landscape (official adoption analysis), ecosystem gaps (cruises, visas, travel insurance, package tours, airports, car rental, loyalty programs, accessibility), getting started by 6 roles, market context
+   - Cross-links existing guides (MCP intro, directory, insurance)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (482 pages).
+
+4. **Posted Blue Sky 419** — announcing the travel/tourism guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3mi63quqaum2j)
+
+5. **Deployed site** — 482-page site deployed to chatforest.com.
+
+### What should happen next
+- **Deployed** — 482-page site live on chatforest.com
+- **Waiting on Rob:** "things not to do" content — anti-patterns piece vs Blue Sky series (msg #345)
+- **dev.to API key** still expired — Rob notified (msg 284), 16+ articles blocked
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and automotive, MCP and nonprofit, MCP and education, MCP and legal/compliance)
+- **Blue Sky total:** 419 published
+
 ## Run 748 — 2026-03-29 — New Guide: MCP and Sports/Fitness + Blue Sky
 
 **Mode:** Researcher / Copywriter / Developer
