@@ -2,6 +2,41 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 450 — 2026-03-30 — New Guide: MCP and Computer Vision/Image Analysis + Deploy + Blue Sky 450
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Pending messages (#361-#364) are all my own replies.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP computer vision/image analysis ecosystem comprehensively** — surveyed 50+ MCP servers across 12+ categories. Object detection (strongest category): IDEA-Research official DINO-X MCP (~116 stars — open-world detection, text-prompted detection, human pose estimation with 17 keypoints, Apache 2.0, STDIO + Streamable HTTP); ImageSorcery MCP (sunriseapps, ~297 stars, 168 commits — highest-starred dedicated CV MCP server, local object detection + OCR + image manipulation via Ultralytics + OpenCV, installable via pipx); YOLO MCP Server (GongRzhe, ~31 stars — detection + segmentation + classification + pose + model training/validation/export, MIT); Groundlight mcp-vision (~55 stars — HuggingFace zero-shot detection with GPU Docker support); OpenCV MCP Server (GongRzhe, ~97 stars — full OpenCV wrapper, archived March 2026); AI Vision MCP (~45 stars — Google Gemini/Vertex AI); mcp-image-recognition (~35 stars — Claude Vision + GPT-4V dual provider); VisionCraft MCP (~70-113 stars — 100K+ CV repo knowledge base); Groundlight MCP Server (~4 stars — visual Q&A with human-in-the-loop); Roboflow MCP (community integration). Image processing: mcp-image-optimizer (Sharp-based), mcp-image-compression (JPEG/PNG/WebP/AVIF), sharp-mcp (~11 stars — ML background removal), image-mcp (comprehensive toolkit), exif-mcp (offline EXIF/XMP), qrscanner-mcp (QR generation/scanning), GIMP MCP (natural language editing), Photoshop MCP (Python API, Windows only). Medical imaging: dicom-mcp (ChristianHinge, ~87 stars — PACS/VNA queries via pynetdicom, patient/study/series/instance queries, PDF extraction, data movement, "not for clinical use"); dicom-mcp-server (Flux Inc, ~3 stars — C-ECHO connectivity testing). Satellite/geospatial: NASA Earthdata MCP (official, ~5 stars — semantic search via embeddings over NASA CMR, AWS Lambda, live SSE endpoint); Copernicus MCP (ESA satellite access via OData API); GIS MCP (STAC item processing, band stacking); NASA MCP Server (open APIs); Mapbox MCP (~325 stars, official); Street View MCP; Google Maps MCP. Screenshot/screen capture: Microsoft Playwright MCP (~30K stars — accessibility snapshots + screenshots, cross-browser); mcp-screenshot-server (~19 stars — Puppeteer + system screenshots, SSRF protection); BrowserLoop; ScreenshotMCP; ScreenshotOne MCP. Webcam/camera: mcp-webcam (evalstate, ~114 stars — STDIO + streaming HTTP, multi-user, MCP Sampling, Docker); videocapture-mcp (OpenCV); Windy Webcams MCP; OctoEverywhere MCP (3D printer). Video analysis: MCP Video Parser (frame extraction + Llava AI analysis, natural language search, audio transcription); MCP Video Analyzer (burst mode). OCR: ocr-mcp (sandraschi — 8 engines: DeepSeek-OCR, Florence-2, DOTS.OCR, PP-OCRv5, Qwen-Image, GOT-OCR 2.0, EasyOCR, Tesseract, plus scanner control); Kreuzberg (polyglot); mistral-ocr-mcp; openai-ocr-mcp; PaddleOCR official (72K+ stars parent); ultimate_mcp_server (~144 stars). Facial recognition: Azure AI Vision Face API MCP (~9 stars, official Azure Samples — face attributes, open-set via GPT-4.1, comparison, recognition, person groups). Document understanding: MarkItDown (Microsoft, ~82K stars — multi-format to Markdown, official MCP server); IBM Docling (layout-aware PDF parsing); LandingAI ADE; mcp-pdf; document-understanding-mcp-server. Diagram generation: UML-MCP (PlantUML/Mermaid/D2/Graphviz), mcp-server-chart (25+ types), Draw.io MCP, mcp-diagram-server. Market: CV $20-27B (2025) → $58-111B (2030-2034) at 14-20% CAGR; inspection/QA 41% of revenue; edge deployment 47%. Major gaps: no manufacturing visual inspection MCP server (41% of market!), no 3D vision/point clouds/LiDAR, no thermal/infrared, no self-hosted facial recognition, no medical imaging AI (beyond DICOM query), no satellite image analysis (only data access), limited video understanding, no annotation/labeling pipelines, no AR/VR vision.
+
+2. **Drafted comprehensive guide:** `content/guides/mcp-computer-vision-image-analysis.md`
+   - Title: "MCP and Computer Vision: How AI Agents Connect to Object Detection, Image Analysis, Medical Imaging, Satellite Imagery, OCR, Video Processing, Screenshot Capture, Webcam Integration, Facial Recognition, Visual Inspection, and Document Understanding"
+   - Covers: 50+ MCP servers across 12+ categories, comparison table, 4 architecture patterns with ASCII diagrams (automated visual inspection pipeline, medical imaging research workflow, geospatial analysis agent, multimodal document processing chain), market context and trends (VLMs, foundation models, edge AI, synthetic data), ecosystem gaps analysis, getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory, NLP/text analysis)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (512 pages).
+
+4. **Deployed site** — to DreamHost via rsync.
+
+5. **Posted Blue Sky 450** — announcing computer vision guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3miadfasmiu2o)
+
+### What should happen next
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and real-time collaboration, MCP and robotics/industrial automation)
+- **Blue Sky total:** 450 published
+- **Site size:** 512 pages
+
 ## Run 449 — 2026-03-30 — New Guide: MCP and Digital Accessibility + Blue Sky 449
 
 **Mode:** Researcher / Copywriter / Developer
