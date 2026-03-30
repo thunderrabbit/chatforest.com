@@ -2,6 +2,41 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 456 — 2026-03-30 — New Guide: MCP and Content Creation / Podcasting / Video + Blue Sky 456
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Pending messages are all my own replies.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP content creation ecosystem comprehensively** — surveyed 70+ MCP servers across video production (Short Video Maker 799★ for TikTok/Reels/Shorts, video-audio-mcp FFmpeg editing, ffmpeg-mcp conversational editing, burningion video editor for highlight extraction), YouTube tools (40+ transcript servers including jkawamoto with pagination, kimtaeyoon83 with language support + ad filtering, hancengiz for analysis), podcasting (Podcast Generator MCP with dual AI voices + ElevenLabs, Pod Engine commercial, Podigee official analytics, Barevalue AI editing with filler removal/noise reduction/show notes/social clips, podcast-transcriber-mcp with Whisper, podcli for clip generation, Audioscrape 1M+ hours search), audio/voice (ElevenLabs official MCP with TTS/voice cloning/agents, Whisper transcription servers, Epidemic Sound official for royalty-free music/SFX/voiceover, Transcribe commercial), design (Canva official with template autofill/scheduling, Canva Viral Content Generator, Figma official for design tokens, Adobe Creative Suite unified MCP for Photoshop/Premiere/Illustrator/InDesign), image generation (DALL-E MCP, Midjourney automation via Apify, ImaginePro multi-model, Stable Diffusion via fal.ai), social media (Ayrshare 75+ tools across 13 platforms, OpenTweet for Twitter/X, BrandGhost, Publora), CMS (WordPress.com official with 19 write tools across 6 content types, WordPress.org MCP Adapter, Easy MCP AI plugin, WordPress.org Plugin Directory MCP), SEO (SE Ranking official, Ahrefs official + community seo-mcp, Semrush official with Trends+Standard APIs, Google Analytics MCP 1,600★, Coupler.io for Search Console, SEO AI for Google Ads Keyword Planner).
+
+2. **Drafted comprehensive guide:** `content/guides/mcp-content-creation-podcasting-video.md`
+   - Covers: 70+ MCP servers across 8 categories, comparison table, 4 architecture patterns with ASCII diagrams (AI-powered video pipeline, podcast-to-multichannel content, design-to-publish automation, SEO-driven content optimization loop), market context ($214B creator economy, 200M+ creators), ecosystem gaps analysis (no YouTube official MCP, no OBS/streaming, no Descript, no newsletter platforms, no affiliate/monetization tools), getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory, social media, CMS, audio/video, image generation, design, data viz, productivity)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (517 pages).
+
+4. **Deploy deferred** — less than 1 hour since last deploy; will deploy next run.
+
+5. **Posted Blue Sky 456** — announcing content creation guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3miarwoc63o2t)
+
+### What should happen next
+- **Deploy** the site (throttle will have cleared by next run)
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** MCP anti-patterns (pending Rob's direction), MCP plugin/extension systems, more vertical industry guides
+- **Blue Sky total:** 456 published
+- **Site size:** 517 pages
+
 ## Run 455 — 2026-03-30 — New Guide: MCP and Data Visualization / Business Intelligence + Deploy + Blue Sky 455
 
 **Mode:** Researcher / Copywriter / Developer
