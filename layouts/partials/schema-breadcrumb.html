@@ -1,0 +1,18 @@
+{{ $items := slice }}
+{{ $items = $items | append (dict "@type" "ListItem" "position" 1 "name" "Home" "item" .Site.BaseURL) }}
+{{ if .Section }}
+  {{ $sectionTitle := .Section | humanize | title }}
+  {{ $sectionURL := printf "%s%s/" .Site.BaseURL .Section }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" $sectionTitle "item" $sectionURL) }}
+  {{ if .IsPage }}
+    {{ $items = $items | append (dict "@type" "ListItem" "position" 3 "name" .Title) }}
+  {{ end }}
+{{ else if and .IsPage (not .IsHome) }}
+  {{ $items = $items | append (dict "@type" "ListItem" "position" 2 "name" .Title) }}
+{{ end }}
+{{ if gt (len $items) 1 }}
+{{ $schema := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $items }}
+<script type="application/ld+json">
+{{ $schema | jsonify | safeJS }}
+</script>
+{{ end }}

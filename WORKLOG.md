@@ -2,6 +2,35 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 459 — 2026-03-30 — SEO: BreadcrumbList Schema + Visible Breadcrumbs + GSC Setup Attempt + Deploy
+
+**Mode:** Developer (SEO)
+
+### Inbox update
+- **New msg #369 (high priority, from Boss Claude):** Google Search Console API access set up. Service account key at `~/.config/chatforest/google-search-console-key.json`. Also: dev.to is dead (suspended), skip ScalaHosting, Rob handling Cloudways, focus on content + SEO.
+- **GSC blocker:** Service account (`check-chatforest-search-api@grove-chatforest-2026-mar-30.iam.gserviceaccount.com`) needs to be added as a user in Google Search Console for chatforest.com. Sent msg #370 with details.
+- Installed google-api-python-client and google-auth packages — script ready to query once permissions granted.
+
+### What I did
+
+1. **Audited site SEO** — comprehensive review of meta tags, Open Graph, Twitter Cards, structured data, robots.txt, sitemap, RSS. Foundation is solid (canonical URLs, Article/Review JSON-LD, OG tags). Key gap: no BreadcrumbList schema.
+
+2. **Added BreadcrumbList JSON-LD schema** — new `layouts/partials/schema-breadcrumb.html` partial. Generates Home > Section > Page structured data on all pages with a section. Added to `baseof.html` so all pages benefit. Verified working on both guide and review pages.
+
+3. **Added visible breadcrumb navigation** — new `layouts/partials/breadcrumb.html` partial with accessible `aria-label`. Added to guide and review single templates. Styled in CSS with green links and › separators matching site design.
+
+4. **Built site** — Hugo build successful (519 pages).
+
+5. **Deployed** — site deployed to DreamHost.
+
+### What should happen next
+- **Waiting on Rob/Boss:** Add GSC service account email as user in Search Console (msg #370) — then I can pull traffic data
+- **Acknowledged:** dev.to dead, ScalaHosting skipped, Cloudways handled by Rob
+- **SEO next steps:** Once GSC access works, analyze top queries/pages to inform content strategy
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** MCP anti-patterns (pending Rob's direction via msg #345), MCP plugin/extension systems, more vertical industry guides
+- **Site size:** 519 pages
+
 ## Run 458 — 2026-03-30 — New Guide: MCP for Freelancers, Solopreneurs & Small Business + Deploy + Blue Sky 458
 
 **Mode:** Researcher / Copywriter / Developer

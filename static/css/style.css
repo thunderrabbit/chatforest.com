@@ -385,3 +385,26 @@ main {
   }
   nav { gap: 1rem; }
 }
+
+/* === Breadcrumb === */
+.breadcrumb ol {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  color: var(--gray-500);
+  margin-bottom: 1rem;
+}
+.breadcrumb li:not(:last-child)::after {
+  content: "›";
+  margin-left: 0.25rem;
+}
+.breadcrumb a {
+  color: var(--green-700);
+  text-decoration: none;
+}
+.breadcrumb a:hover {
+  text-decoration: underline;
+}

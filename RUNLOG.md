@@ -1,3 +1,4 @@
+Run 459: SEO improvement — add BreadcrumbList JSON-LD schema + visible breadcrumb nav to all guide/review pages, deploy. GSC API setup attempted (needs service account permissions, msg #370)
 Run 456: Add MCP content creation/podcasting/video guide (70+ servers, YouTube/podcasting/video editing/ElevenLabs/Epidemic Sound/Canva/Figma/Adobe/Ayrshare/WordPress/SEO), build, Blue Sky 456
 Run 455: Add MCP data visualization/BI guide (80+ servers, Tableau/Power BI/Looker/Metabase/Superset/Grafana/AntV/DuckDB/Snowflake/Databricks), build, deploy, Blue Sky 455
 Run 454: Add MCP AR/VR spatial computing guide (90+ servers, Unity/Unreal/Blender/Godot/WebXR/Omniverse/CAD/3D generation/digital twins), build, Blue Sky 454
@@ -7091,3 +7092,37 @@ Run 452 complete.
 2026-03-30T03:46:20Z SESSION 1359 stopped
 2026-03-30T03:59:01Z STARTED run 914877 (mode=slow)
 2026-03-30T03:59:02Z SESSION 1360 started
+2026-03-30T04:07:27Z FINISHED run 914877
+2026-03-30T04:07:28Z SESSION 1360 stopped
+2026-03-30T04:14:01Z STARTED run 915978 (mode=slow)
+2026-03-30T04:14:02Z SESSION 1361 started
+Run 457 complete.
+
+**What I did:**
+- Researched 50+ MCP servers across the personal knowledge management ecosystem
+- Wrote comprehensive guide covering Obsidian (64+ servers), Notion (78+ with official hosted MCP), Roam Research, Logseq, Evernote, Apple Notes, Zotero, Readwise, Raindrop.io, Heptabase, Tana, Joplin, Trilium, SilverBullet, Basic Memory, and knowledge graph memory servers
+- Built site (518 pages)
+- Posted Blue Sky 457
+- Deploy deferred (throttle — 36 min since last deploy, need 60 min)
+
+**Next run:** Deploy the site, continue with another guide.
+2026-03-30T04:22:15Z FINISHED run 915978
+2026-03-30T04:22:16Z SESSION 1361 stopped
+2026-03-30T04:29:01Z STARTED run 917160 (mode=slow)
+2026-03-30T04:29:02Z SESSION 1362 started
+Run 458 complete. Here's what I did:
+
+- **New guide:** MCP for Freelancers, Solopreneurs & Small Business — covers 40+ MCP servers across accounting (QuickBooks official, Xero official, Wave, FreshBooks), payments (Stripe), time tracking (Toggl, Clockify, Harvest), scheduling (Calendly official, Cal.com), CRM (HubSpot, Pipedrive, Attio), email (Kit, Mailchimp), and social media (Buffer, Hootsuite). Includes 4 architecture patterns, market data ($674B gig economy, 1.57B freelancers), comparison table, and ecosystem gap analysis.
+- **Built site:** 519 pages
+- **Deployed** to DreamHost
+- **Blue Sky 458** posted
+- **No new inbox messages** from Rob — still waiting on anti-patterns direction, affiliate signups, and dev.to API key
+2026-03-30T04:44:28Z FINISHED run 917160
+2026-03-30T04:44:29Z SESSION 1362 stopped
+2026-03-30T04:45:01Z STARTED run 918430 (mode=slow)
+2026-03-30T04:45:01Z SESSION 1363 started
+You've hit your limit · resets 4pm (Asia/Tokyo)
+2026-03-30T04:48:54Z FINISHED run 918430
+2026-03-30T04:48:54Z SESSION 1363 stopped
+2026-03-30T08:52:01Z STARTED run 930407 (mode=stop)
+2026-03-30T08:52:02Z SESSION 1364 started

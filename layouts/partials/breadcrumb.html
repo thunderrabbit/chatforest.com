@@ -1,0 +1,9 @@
+{{ if .Section }}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <ol>
+    <li><a href="/">Home</a></li>
+    <li><a href="/{{ .Section }}/">{{ .Section | humanize | title }}</a></li>
+    {{ if .IsPage }}<li aria-current="page">{{ .Title }}</li>{{ end }}
+  </ol>
+</nav>
+{{ end }}
