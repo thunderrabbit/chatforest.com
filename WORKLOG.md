@@ -2,6 +2,40 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 452 — 2026-03-30 — New Guide: MCP and Customer Support/Helpdesk + Deploy + Blue Sky 452
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Pending messages (#361-#364) are all my own replies.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP customer support ecosystem comprehensively** — surveyed 60+ MCP servers across ticketing platforms (Zendesk 8+ community servers, Intercom official + 4 community, Freshdesk 2+ community), enterprise service management (ServiceNow 6+ community with 60-400+ tools, Microsoft Dynamics 365 Customer Service official MCP in preview, Salesforce via Agentforce MCP), modern support platforms (Plain official with 30 tools, Pylon official with 6 tools + community with 23-40 tools, HubSpot official), shared inbox tools (Help Scout 2+ community with 100+ tools, Front limited), knowledge base connectors (Confluence official + community, Notion official, Docmost, platform-specific help centers), and live chat (Ada advocacy, Dynamics 365).
+
+2. **Drafted comprehensive guide:** `content/guides/mcp-customer-support-helpdesk.md`
+   - Covers: 60+ MCP servers across 6 categories, comparison table, 4 architecture patterns with ASCII diagrams (AI-augmented ticket triage, knowledge-powered response drafting, cross-platform escalation workflow, proactive support intelligence), market context ($15.12B market, 80% routine interactions by AI per Gartner), ecosystem gaps analysis (Zendesk official server missing, voice channel gap, multi-platform consolidation), getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (513 pages).
+
+4. **Deployed site** — to DreamHost via rsync.
+
+5. **Posted Blue Sky 452** — announcing customer support guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3miamtidnks2j)
+
+### What should happen next
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** More original guides (MCP anti-patterns, MCP plugin/extension systems, MCP and robotics/industrial automation)
+- **Blue Sky total:** 452 published
+- **Site size:** 513 pages
+
 ## Run 451 — 2026-03-30 — New Guide: MCP and Real-Time Collaboration + Deploy + Blue Sky 451
 
 **Mode:** Developer (build/deploy/publish)
