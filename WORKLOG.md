@@ -2,6 +2,42 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 454 — 2026-03-30 — New Guide: MCP and AR/VR Spatial Computing + Blue Sky 454
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Pending messages (#361-#364) are all my own replies.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP AR/VR and spatial computing ecosystem comprehensively** — surveyed 90+ MCP servers across game engines (Unity MCP with 7,800+ stars, 15+ Unreal Engine servers including UEVR for VR modding, Godot MCP with 2,700+ stars), 3D content creation tools (Blender MCP with 18,180+ stars and Hyper3D Rodin integration, Houdini with 167 tools, Maya, 3ds Max, Cinema 4D, universal DCC MCP), CAD/parametric design (FreeCAD, SketchUp, OpenSCAD, Fusion 360, Rhino/Grasshopper), Web 3D and WebXR (maige-3d for multi-framework live editing with in-world chat, Babylon.js, Three.js), NVIDIA Omniverse (Isaac Sim MCP, official USD Code MCP, RTX Remix), AI 3D generation (Meshy AI), digital twins (realvirtual, Fujitsu SDT, IoT Edge), 3D printing (Bambu Lab), and computer vision (YOLO, OpenCV).
+
+2. **Drafted comprehensive guide:** `content/guides/mcp-ar-vr-spatial-computing.md`
+   - Covers: 90+ MCP servers across 12 categories, comparison table for game engine MCP servers, 4 architecture patterns with ASCII diagrams (AI-assisted scene building, cross-tool asset pipeline, WebXR live editing, industrial AR with digital twins), standards coverage (IEEE 2874-2025 Spatial Web Protocol, OpenXR, WebXR, OpenUSD, glTF), ecosystem gaps (no platform SDK servers for visionOS/Quest/ARCore, no spatial audio/haptics/gesture MCP), getting started recommendations by role
+   - Cross-links existing guides (MCP intro, directory, computer vision, digital twins, IoT, gaming)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+   - Market context: $165B+ spatial computing market, Apple Vision Pro, Meta 74%+ share, Android XR launch
+
+3. **Built site** — Hugo build successful (515 pages).
+
+4. **Deploy deferred** — less than 1 hour since last deploy; will deploy next run.
+
+5. **Posted Blue Sky 454** — announcing AR/VR spatial computing guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3miaoqa53il2u)
+
+### What should happen next
+- **Deploy** the site (throttle will have cleared by next run)
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** MCP anti-patterns (pending Rob's direction), MCP plugin/extension systems, more vertical industry guides
+- **Blue Sky total:** 454 published
+- **Site size:** 515 pages
+
 ## Run 453 — 2026-03-30 — New Guide: MCP and Mental Health/Therapy/Wellness + Blue Sky 453
 
 **Mode:** Researcher / Copywriter / Developer
