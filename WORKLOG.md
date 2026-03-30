@@ -2,6 +2,41 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 457 — 2026-03-30 — New Guide: MCP and Personal Knowledge Management (PKM) + Blue Sky 457
+
+**Mode:** Researcher / Copywriter / Developer
+
+### Inbox update
+- No new messages from Rob. Pending messages are all my own replies.
+- Msg #345 (from me, re Rob's #344): Still awaiting Rob's preference on anti-patterns content.
+- dev.to API key still expired (Rob notified via msg 284).
+
+### What I did
+
+1. **Researched MCP personal knowledge management ecosystem comprehensively** — surveyed 50+ MCP servers across PKM platforms. Obsidian (most active — 64+ community servers): mcp-obsidian (MarkusPfundstein, earliest/most popular, Local REST API, list/read/search/patch/create), obsidian-mcp-server (cyanheads, comprehensive with list_all_tags v0.11.0 March 2026, frontmatter management, createServer() factory v0.10.0), obsidian-mcp (StevenStavrakis, lightweight), MCP-Obsidian.org (universal AI bridge). Notion (best official support — 78+ servers): official notion-mcp-server (makenotion, hosted + self-hosted, token-optimized Markdown output, v2.0.0 migrated to API 2025-09-03 with data sources abstraction), Composio Notion integration. Roam Research: roam-research-mcp (2b3pro, graph traversal, block operations, bidirectional link navigation). Logseq: mcp-pkm-logseq (customizable AI workspace, outliner structure, local-first). Evernote: mcp-evernote (verygoodplugins, OAuth 1.0a, full CRUD), evernote-mcp-server (brentmid, read-only queries). Apple Notes: mcp-apple-notes (multiple, macOS-only, semantic search + RAG). Zotero: mcp-zotero (gyger, library browsing, research paper analysis). Readwise: official MCP (document search, highlight retrieval). Raindrop.io: official MCP (bookmark search/management). Heptabase: official MCP (whiteboard + notes read/write/search). Tana: official API + MCP (node operations, Tracker Viz contribution graphs). Joplin: 2+ servers (dweigend TypeScript, alondmnt Python/FastMCP). Trilium/TriliumNext: 4+ servers (trillium-mcp, triliumnext-mcp, mcp_trilium, trilium-bolt with markdown output). SilverBullet: silverbullet-mcp (wiki-style). Knowledge graph memory: Anthropic official (74.6K+ stars), Cognee (15K stars, 30+ data sources), Basic Memory (semantic graph from Markdown files, Obsidian-compatible), mem0 (enterprise).
+
+2. **Drafted comprehensive guide:** `content/guides/mcp-personal-knowledge-management-pkm.md`
+   - Covers: 50+ MCP servers across 15+ platforms, comparison table, 4 architecture patterns with ASCII diagrams (AI-augmented second brain, automated knowledge capture pipeline, cross-platform knowledge sync, persistent memory layer), market context ($16.2B knowledge management market in 2026, growing to $74B by 2034), ecosystem gaps analysis (no unified PKM protocol, limited graph awareness, missing platforms like Google Keep/Bear/Craft/Capacities/DEVONthink, no migration tools, limited mobile support), getting started by 6 roles
+   - Cross-links existing guides (MCP intro, directory)
+   - Research-backed — does NOT claim hands-on testing
+   - Links Rob to robnugen.com; transparent about AI authorship
+
+3. **Built site** — Hugo build successful (518 pages).
+
+4. **Deploy deferred** — less than 1 hour since last deploy; will deploy next run.
+
+5. **Posted Blue Sky 457** — announcing PKM guide (at://did:plc:gknkcind5xg62bqekgu7qx4b/app.bsky.feed.post/3miasr4okxr2b)
+
+### What should happen next
+- **Deploy** the site (throttle will have cleared by next run)
+- **Waiting on Rob:** Anti-patterns content direction (msg #345), affiliate signup progress (#361/#362/#364), dev.to API key (msg 284)
+- **When Rob returns:** Review STRATEGY.md and approve direction
+- **Affiliate decision** still pending (msg 228) — ScalaHosting eligibility question answered (#364)
+- **Content freshness:** All reviews fresh until ~April 13
+- **Content ideas:** MCP anti-patterns (pending Rob's direction), MCP plugin/extension systems, more vertical industry guides
+- **Blue Sky total:** 457 published
+- **Site size:** 518 pages
+
 ## Run 456 — 2026-03-30 — New Guide: MCP and Content Creation / Podcasting / Video + Blue Sky 456
 
 **Mode:** Researcher / Copywriter / Developer
