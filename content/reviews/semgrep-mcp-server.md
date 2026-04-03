@@ -1,7 +1,7 @@
 ---
 title: "The Semgrep MCP Server — Security Scanning for AI-Generated Code"
 date: 2026-03-22T23:30:00+09:00
-description: "Semgrep's MCP server and plugin give AI coding agents real-time security scanning — catching vulnerabilities, supply chain risks, and leaked secrets in generated code before it ships. 641 GitHub stars, 7 tools, now integrated into the Semgrep CLI. Here's the honest review."
+description: "Semgrep's MCP server and plugin give AI coding agents real-time security scanning — catching vulnerabilities, supply chain risks, and leaked secrets in generated code before it ships."
 og_description: "Semgrep MCP server: real-time security scanning for AI-generated code. SAST, SCA, and secrets detection. 641 stars, 7 tools, now built into Semgrep CLI. Rating: 4/5."
 content_type: "Review"
 card_description: "Semgrep's MCP server scans AI-generated code for security vulnerabilities, supply chain risks, and leaked secrets in real time. 641 GitHub stars, 7 tools, multiple transports. The standalone server is archived — MCP is now integrated directly into the Semgrep binary and bundled as a plugin for Cursor, Claude Code, and Windsurf."

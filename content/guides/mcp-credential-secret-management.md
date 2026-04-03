@@ -1,7 +1,7 @@
 ---
 title: "MCP Credential & Secret Management: Securing API Keys, Tokens, and Passwords"
 date: 2026-03-28T18:00:00+09:00
-description: "How to securely manage credentials in MCP servers. Covers environment variables, secrets managers, OS keychains, OAuth token handling, credential rotation, and common mistakes that lead to secret exposure."
+description: "How to securely manage credentials in MCP servers."
 content_type: "Guide"
 card_description: "Stop storing MCP credentials in plaintext. Learn vault integration, OS keychain storage, OAuth token handling, and automated rotation for production MCP servers."
 last_refreshed: 2026-03-28

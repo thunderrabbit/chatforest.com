@@ -1,7 +1,7 @@
 ---
 title: "MCP and Government: How AI Agents Connect to Legislative Data, Open Data Portals, Census Systems, Procurement Platforms, and Public Sector Operations"
 date: 2026-03-29T23:45:00+09:00
-description: "A comprehensive guide to MCP integrations for government and public sector — covering legislative tracking, open data portals, census and demographics, procurement and contracting, regulatory compliance, courts and legal systems, civic services, and architecture patterns for AI-assisted government operations."
+description: "A comprehensive guide to MCP integrations for government and public sector — covering legislative tracking, open data portals, census and demographics, procurement and"
 content_type: "Guide"
 card_description: "Government agencies are adopting AI agents to connect legislative databases, open data portals, census systems, and procurement platforms. This guide covers 34+ government MCP servers for congressional data (CongressMCP 91 tools), open data (France official 1,100 stars, CKAN 950+ portals), US Census (official), procurement (SAM.gov, USASpending), regulatory compliance, courts, civic services, and architecture patterns for public sector AI workflows."
 last_refreshed: 2026-03-29

@@ -1,7 +1,7 @@
 ---
 title: "The Grafana MCP Server — Your Entire Observability Stack in One Agent Interface"
 date: 2026-03-14T13:21:10+09:00
-description: "Grafana's official MCP server connects AI agents to dashboards, Prometheus, Loki, ClickHouse, CloudWatch, Elasticsearch, alerts, incidents, and OnCall — 40+ tools across 15 categories. The most comprehensive open-source observability MCP server. Here's the honest review."
+description: "Grafana's official MCP server connects AI agents to dashboards, Prometheus, Loki, ClickHouse, CloudWatch, Elasticsearch, alerts, incidents, and OnCall — 40+ tools across 15 categories."
 og_description: "Grafana's official MCP server gives AI agents access to dashboards, Prometheus, Loki, ClickHouse, alerts, incidents, and OnCall. 40+ tools, open source, 2,600 stars. Rating: 4/5."
 content_type: "Review"
 card_description: "Grafana's official MCP server for AI-assisted observability. 40+ configurable tools across dashboards, Prometheus, Loki, ClickHouse, CloudWatch, Elasticsearch, alerting, incidents, OnCall, Sift, and admin management. Open source, Go, Apache 2.0."

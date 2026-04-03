@@ -1,7 +1,7 @@
 ---
 title: "Data & Analytics MCP Servers — 7 Reviews Covering Warehouses, BI, Pipelines, Visualization, and Analytics Platforms"
 date: 2026-03-24T23:45:00+09:00
-description: "Comprehensive reviews of 7 Data & Analytics MCP server categories — from data warehouses and BI platforms to ETL pipelines, visualization libraries, analytics tools, and annotation. 100+ servers evaluated across the modern data stack."
+description: "Comprehensive reviews of 7 Data & Analytics MCP server categories — from data warehouses and BI platforms to ETL pipelines, visualization libraries, analytics tools, and annotation."
 og_description: "7 Data & Analytics MCP server reviews covering data warehouses, BI & reporting, ETL pipelines, visualization, analytics platforms, Snowflake, and annotation. 100+ servers evaluated."
 content_type: "Category"
 ---

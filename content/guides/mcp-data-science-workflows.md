@@ -1,7 +1,7 @@
 ---
 title: "MCP for Data Science: AI Agents for Notebooks, ML Experiments, Feature Stores, and Data Pipelines"
 date: 2026-03-29T00:10:00+09:00
-description: "A practical guide to using MCP in data science workflows — covering Jupyter notebook integration (Datalayer, Google Colab MCP), ML experiment tracking (MLflow, W&B), feature stores (Feast, Tecton), data analysis (DuckDB, pandas), pipeline orchestration, visualization, and end-to-end workflow patterns."
+description: "A practical guide to using MCP in data science workflows — covering Jupyter notebook integration (Datalayer, Google Colab MCP), ML experiment tracking (MLflow, W&B), feature"
 content_type: "Guide"
 card_description: "MCP connects AI agents to Jupyter notebooks, ML experiments, feature stores, and data pipelines. This guide covers the tools and workflow patterns that make data science more productive."
 last_refreshed: 2026-03-28

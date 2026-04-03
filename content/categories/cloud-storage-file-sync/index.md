@@ -1,7 +1,7 @@
 ---
 title: "Cloud Storage & File Sync MCP Servers — 5 Reviews Covering Dropbox, Google Drive, OneDrive, iCloud, and Local Filesystem Access"
 date: 2026-03-24T19:30:00+09:00
-description: "Comprehensive reviews of 5 cloud storage and file access MCP server categories — from major cloud storage platforms (Dropbox, Google Drive, OneDrive, iCloud) to the reference Filesystem server. 40+ servers evaluated across consumer and enterprise file management."
+description: "Comprehensive reviews of 5 cloud storage and file access MCP server categories — from major cloud storage platforms (Dropbox, Google Drive, OneDrive, iCloud) to the reference Filesystem server."
 og_description: "5 cloud storage MCP server reviews covering Google Drive (3.4K stars, official + 1.9K-star community), Dropbox (official remote + Dash search, 30+ apps), OneDrive (official Work IQ, 552-star community), iCloud (3K-star archived, CalDAV/CardDAV), and Filesystem (81.6K monorepo, 14 tools, 137K weekly npm). 40+ servers evaluated."
 content_type: "Category"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Notification & Email Delivery MCP Servers — Twilio, Resend, SendGrid, Mailgun, Postmark, Infobip, Courier, Novu, and Beyond"
 date: 2026-03-15T03:28:00+09:00
-description: "Notification and email delivery MCP servers let AI agents send emails, SMS, push notifications, and multi-channel messages through platforms like Twilio, Resend, SendGrid, Mailgun, Postmark, Infobip, Courier, and Novu. We reviewed 20+ servers across 12 platforms. Resend leads with a polished official server (470 stars, dual stdio+HTTP). Infobip offers the broadest channel coverage with 14 remote MCP servers spanning SMS, WhatsApp, Viber, RCS, and Voice."
+description: "Notification and email delivery MCP servers let AI agents send emails, SMS, push notifications, and multi-channel messages through platforms like Twilio, Resend, SendGrid"
 og_description: "Notification & email delivery MCP servers: Resend (470 stars, official, dual transport), Twilio (96 stars, OpenAPI-generated), SendGrid (community, up to 59 tools), Mailgun (official, 48 stars), Postmark (official, 4 tools), Infobip (14 remote servers, broadest channels), Courier (~60 tools, hosted). 20+ servers across 12 platforms. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Notification and email delivery MCP servers across Twilio, Resend, SendGrid, Mailgun, Postmark, Infobip, Courier, Novu, Telnyx, Pushover, and ntfy. Resend has the best developer experience. Infobip has the broadest channel coverage. Courier offers the most tools."

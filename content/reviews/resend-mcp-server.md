@@ -1,7 +1,7 @@
 ---
 title: "Resend MCP Server — The Developer-First Email API With Full AI Agent Access"
 date: 2026-03-23T23:30:00+09:00
-description: "Resend's official MCP server gives AI agents full email platform control — send, receive, manage contacts, run broadcast campaigns, and configure domains. 475 GitHub stars, 30+ tools across 10 categories, TypeScript, MIT license. Here's the honest review."
+description: "Resend's official MCP server gives AI agents full email platform control — send, receive, manage contacts, run broadcast campaigns, and configure domains."
 og_description: "Resend MCP Server: 475 stars, MIT license, 30+ MCP tools for email sending, contacts, broadcasts, domains, webhooks, and more. Free tier: 3,000 emails/month. Rating: 4/5."
 content_type: "Review"
 card_description: "Official MCP server for Resend's email API. 30+ tools covering email sending/receiving, contacts, broadcasts, domains, segments, webhooks, and API key management. TypeScript, MIT license, works with Claude Desktop, Claude Code, and Cursor."

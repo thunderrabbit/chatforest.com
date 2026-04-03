@@ -1,7 +1,7 @@
 ---
 title: "Pipedream MCP Server — 10,000+ Tools Across 2,800 APIs With Managed OAuth"
 date: 2026-03-23T23:45:00+09:00
-description: "Pipedream offers the largest MCP tool catalog available — 10,000+ tools across 2,800+ APIs with managed OAuth for every integration. Per-app server architecture, Streamable HTTP transport, SOC 2 / HIPAA / GDPR compliant. Now owned by Workday. Here's the honest review."
+description: "Pipedream offers the largest MCP tool catalog available — 10,000+ tools across 2,800+ APIs with managed OAuth for every integration."
 og_description: "Pipedream MCP Server: 10,000+ tools across 2,800+ APIs with managed OAuth. Per-app server architecture, hosted remote server, SOC 2/HIPAA/GDPR compliant. Acquired by Workday. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Largest MCP tool catalog available. 10,000+ tools across 2,800+ APIs (Slack, GitHub, Google Sheets, Gmail, Salesforce, and thousands more) with managed OAuth. Per-app server architecture keeps tool lists focused. Hosted remote server with self-hosted option."

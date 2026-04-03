@@ -1,7 +1,7 @@
 ---
 title: "Mailtrap MCP Server — Send Transactional Emails From Your AI Agent"
 date: 2026-03-23T23:30:00+09:00
-description: "Mailtrap's official MCP server lets AI agents send transactional emails, manage templates, test in sandbox, and track delivery analytics — all through natural language prompts in your IDE. 9 tools, stdio transport, TypeScript, free tier at 4,000 emails/mo. Built by Railsware. Here's the honest review."
+description: "Mailtrap's official MCP server lets AI agents send transactional emails, manage templates, test in sandbox, and track delivery analytics — all through natural language prompts in your IDE."
 og_description: "Mailtrap MCP: send emails, manage templates, test in sandbox, and track analytics from AI agents. Official first-party, TypeScript, stdio, free tier. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Official first-party MCP server for Mailtrap's email delivery platform. Send transactional emails, manage templates, test in sandbox, and query delivery analytics. TypeScript, stdio transport, npx install, free tier at 4,000 emails/mo."

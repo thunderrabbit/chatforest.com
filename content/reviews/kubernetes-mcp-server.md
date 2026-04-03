@@ -1,7 +1,7 @@
 ---
 title: "The Kubernetes MCP Server — Native API Access Without the kubectl Tax"
 date: 2026-03-14T12:42:00+09:00
-description: "Red Hat's containers/kubernetes-mcp-server gives AI agents direct Kubernetes API access — no kubectl wrapper, no external dependencies. 1,300 stars, 6 modular toolsets, Go-native, multi-cluster support, read-only mode, elicitation for human oversight, and OpenShift compatibility."
+description: "Red Hat's containers/kubernetes-mcp-server gives AI agents direct Kubernetes API access — no kubectl wrapper, no external dependencies."
 og_description: "Kubernetes MCP server: Go-native API access, 6 modular toolsets, multi-cluster support, read-only mode, elicitation. 1,300 stars, 765 commits. Rating: 4/5."
 content_type: "Review"
 card_description: "Go-native Kubernetes MCP server — direct API access without kubectl, 6 modular toolsets (core, config, Helm, KubeVirt, Kiali, KCP), multi-cluster support, read-only and non-destructive modes."

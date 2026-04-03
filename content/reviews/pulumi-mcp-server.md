@@ -1,7 +1,7 @@
 ---
 title: "The Pulumi MCP Server — From Registry Lookups to Autonomous Infrastructure via Neo"
 date: 2026-03-14T13:30:00+09:00
-description: "Pulumi's MCP server bridges AI assistants to the Pulumi ecosystem — registry lookups, stack management, resource search, and delegation to Neo for autonomous infrastructure provisioning. 188 stars, 11+ tools, TypeScript, dual local/remote modes."
+description: "Pulumi's MCP server bridges AI assistants to the Pulumi ecosystem — registry lookups, stack management, resource search, and delegation to Neo for autonomous infrastructure provisioning."
 og_description: "Pulumi MCP server: registry docs, resource search, Neo agent delegation, deploy-to-aws, local + remote modes. 11+ tools, TypeScript. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Pulumi's MCP server — registry documentation, stack management, resource search across clouds, and autonomous infrastructure via Neo agent delegation. Local npm + remote hosted modes."

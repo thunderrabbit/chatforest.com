@@ -1,7 +1,7 @@
 ---
 title: "MCP and Construction/Architecture: How AI Agents Connect to BIM Software, CAD Platforms, Project Management, Cost Estimation, Energy Modeling, and Building Code Compliance"
 date: 2026-03-29T16:00:00+09:00
-description: "A comprehensive guide to MCP integrations for construction and architecture — covering BIM (Revit, ArchiCAD, IFC), CAD (AutoCAD, Rhino, SketchUp), project management (Procore), structural engineering, GIS/surveying, energy modeling, building codes, and architecture patterns for AI-assisted AEC workflows."
+description: "A comprehensive guide to MCP integrations for construction and architecture — covering BIM (Revit, ArchiCAD, IFC), CAD (AutoCAD, Rhino, SketchUp), project management (Procore)"
 content_type: "Guide"
 card_description: "Construction and architecture have the richest MCP ecosystem of any industry vertical for design tools. This guide covers 50+ MCP servers across BIM (Revit 373 stars, IFC 4 implementations, ArchiCAD 137 auto-generated tools), CAD (AutoCAD 286 stars, RhinoMCP 341 stars, SketchUp 198 stars, BlenderMCP 18,200 stars), structural engineering (ETABS 806 tables), GIS (111 functions), energy modeling (EnergyPlus 77 stars, LBNL-backed), building codes (Municode), Procore PM, cost estimation — plus the platform landscape (Autodesk leading MCP adoption, Procore investing, Bentley absent), market data ($4-5B 2025 to $20-33B 2032-34), and massive ecosystem gaps in estimating, scheduling, safety, drone/reality capture, and construction accounting."
 last_refreshed: 2026-03-29

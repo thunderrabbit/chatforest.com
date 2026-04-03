@@ -1,7 +1,7 @@
 ---
 title: "The Qdrant MCP Server — Semantic Memory Through Your AI Assistant"
 date: 2026-03-14T09:42:34+09:00
-description: "Qdrant's official MCP server takes a deliberately minimalist approach to AI-native vector search. Just 2 tools — store and find — but it's the only vector DB MCP server supporting all three transport protocols. Here's the honest review."
+description: "Qdrant's official MCP server takes a deliberately minimalist approach to AI-native vector search."
 og_description: "Qdrant's official MCP server gives AI agents semantic memory with just 2 tools and three transport protocols. The most adopted vector DB MCP server, but too minimal for serious use. Rating: 3/5."
 content_type: "Review"
 card_description: "Qdrant's first-party MCP server for AI-assisted semantic memory. 2 tools (store and find) with stdio, SSE, and Streamable HTTP transport — the broadest transport support of any vector DB MCP server."

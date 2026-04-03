@@ -1,7 +1,7 @@
 ---
 title: "MCP Gateway & Proxy Patterns: Aggregating, Securing, and Scaling MCP Servers"
 date: 2026-03-28T18:00:00+09:00
-description: "How MCP gateways and proxies aggregate multiple servers behind a single endpoint, bridge transports, enforce security policies, and scale for enterprise use — covering open-source tools, cloud-managed services, and architectural patterns."
+description: "How MCP gateways and proxies aggregate multiple servers behind a single endpoint, bridge transports, enforce security policies, and scale for enterprise use — covering open-source"
 content_type: "Guide"
 card_description: "MCP gateways aggregate servers, bridge transports, and enforce security. Here's how they work and which tools to use."
 last_refreshed: 2026-03-28

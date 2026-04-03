@@ -1,7 +1,7 @@
 ---
 title: "MCP and Healthcare: How AI Agents Connect to EHRs, FHIR, Medical Imaging, and Clinical Data"
 date: 2026-03-29T22:00:00+09:00
-description: "A comprehensive guide to MCP integrations for healthcare — covering FHIR servers, EHR connections (Epic, Cerner), DICOM imaging, clinical decision support, the HMCP specification, HIPAA compliance patterns, and production security considerations for medical AI agents."
+description: "A comprehensive guide to MCP integrations for healthcare — covering FHIR servers, EHR connections (Epic, Cerner), DICOM imaging, clinical decision support, the HMCP specification"
 content_type: "Guide"
 card_description: "Healthcare is adopting MCP fast. This guide covers FHIR MCP servers, EHR integrations for Epic and Cerner, DICOM imaging, clinical decision support tools, the HMCP specification, HIPAA compliance, and security patterns for medical AI agents."
 last_refreshed: 2026-03-29

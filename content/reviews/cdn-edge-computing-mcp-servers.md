@@ -1,7 +1,7 @@
 ---
 title: "CDN & Edge Computing MCP Servers — Cloudflare, Fastly, Akamai, Gcore, and Beyond"
 date: 2026-03-15T06:30:00+09:00
-description: "CDN and edge computing MCP servers let AI agents manage content delivery, cache purging, edge workers, and performance analytics across major CDN platforms. We reviewed 10+ servers across 5 platforms. Cloudflare dominates with 3,500+ stars and a token-efficient Code Mode design covering 2,500 API endpoints. Fastly ships an official Go-based MCP with CLI security wrapping. Akamai has community options reaching 191 tools for enterprise edge management."
+description: "CDN and edge computing MCP servers let AI agents manage content delivery, cache purging, edge workers, and performance analytics across major CDN platforms."
 og_description: "CDN & edge computing MCP servers: Cloudflare (3,500 stars, 2,500 API endpoints, Code Mode), Fastly (official, 34 stars, Go, CLI security), Akamai (community, 191 tools), Gcore (official, CDN + GPU Cloud). 10+ servers across 5 platforms. Rating: 3.5/5."
 content_type: "Review"
 card_description: "CDN & edge computing MCP servers across Cloudflare, Fastly, Akamai, Gcore, and Netlify. Cloudflare leads with 3,500+ stars and Code Mode covering 2,500 endpoints. Fastly ships official Go-based MCP with secure CLI wrapping. Community Akamai servers reach 191 tools for enterprise edge management."

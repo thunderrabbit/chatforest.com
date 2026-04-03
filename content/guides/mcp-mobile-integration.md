@@ -1,7 +1,7 @@
 ---
 title: "MCP Mobile Integration: On-Device Agents, Phone Automation, Native SDKs, and Edge Deployment Patterns"
 date: 2026-03-28T23:30:00+09:00
-description: "A comprehensive guide to MCP mobile integration — covering on-device AI agents with MCP, mobile automation servers (Mobile MCP 4.1K stars, Appium MCP, PhonePi), the official Kotlin and Swift SDKs for building native MCP clients, MCP Bridge for mobile/browser/edge deployment, Google's Android Management API MCP server, React Native MCP patterns, on-device LLMs with MCP tool calling, SAP MDK MCP server, and production architecture for mobile-first AI applications."
+description: "A comprehensive guide to MCP mobile integration — covering on-device AI agents with MCP, mobile automation servers (Mobile MCP 4.1K stars, Appium MCP, PhonePi), the official"
 content_type: "Guide"
 card_description: "Mobile is where AI meets daily life — but MCP was designed for desktop IDEs and server-side tools. How do you bridge that gap? This guide covers the full mobile MCP landscape: native SDKs (Kotlin Multiplatform, Swift), phone automation servers, MCP Bridge for REST-based mobile access, on-device LLMs with tool calling, React Native integration, Google's official Android Management MCP server, and production patterns for building mobile AI agents."
 last_refreshed: 2026-03-28

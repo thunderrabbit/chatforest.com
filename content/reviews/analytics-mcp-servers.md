@@ -1,7 +1,7 @@
 ---
 title: "Analytics MCP Servers — Google Analytics, Mixpanel, PostHog, Amplitude, and Beyond"
 date: 2026-03-15T02:30:00+09:00
-description: "Analytics MCP servers let AI agents query traffic data, analyze user behavior, run retention reports, and manage experiments across Google Analytics, Mixpanel, PostHog, Amplitude, Plausible, and Matomo. We reviewed 15+ servers across 6 platforms. Google Analytics has an official server with 1,500 stars. PostHog moved into its monorepo with 27+ tools. Amplitude and Mixpanel both ship hosted MCP endpoints."
+description: "Analytics MCP servers let AI agents query traffic data, analyze user behavior, run retention reports, and manage experiments across Google Analytics, Mixpanel, PostHog, Amplitude"
 og_description: "Analytics MCP servers: Google Analytics (1.5K stars, official), PostHog (27+ tools, monorepo), Amplitude (24+ tools, OAuth hosted), Mixpanel (official beta). 15+ servers reviewed. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Analytics MCP servers across Google Analytics, PostHog, Amplitude, Mixpanel, Plausible, and Matomo. Official vendor servers lead; community implementations fill gaps for privacy-first platforms."

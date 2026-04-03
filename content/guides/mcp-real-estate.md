@@ -1,7 +1,7 @@
 ---
 title: "MCP and Real Estate: How AI Agents Connect to MLS Data, Property Valuations, Mortgage Systems, Smart Buildings, Transaction Management, and Geographic Intelligence"
 date: 2026-03-29T23:00:00+09:00
-description: "A comprehensive guide to MCP integrations for real estate — covering MLS/property data, valuations, mortgage/lending, commercial real estate, smart buildings, document/transaction management, geographic intelligence, and architecture patterns for AI-assisted property operations."
+description: "A comprehensive guide to MCP integrations for real estate — covering MLS/property data, valuations, mortgage/lending, commercial real estate, smart buildings, document/transaction"
 content_type: "Guide"
 card_description: "Real estate is rapidly adopting MCP for AI-powered property operations. This guide covers 25+ MCP servers across MLS/property data (ATTOM production 158M properties, Zillow 34 stars, BatchData 28 stars, Constellation1 production), valuations (PriceHubble beta, Zestimate, RentCast), mortgage/lending (Confer 4 tools MISMO-compliant, RateSpot 4300+ lenders, Homebuyer.com 121M HMDA records), commercial RE (LoopNet scraper), smart buildings (ProptechOS RealEstateCore), documents (DocuSign official beta), geographic/GIS (GIS MCP 126 stars 95 tools, CARTO official, ArcGIS, Google Maps), aggregators (Bright Data, Apify), and architecture patterns for agentic real estate."
 last_refreshed: 2026-03-29

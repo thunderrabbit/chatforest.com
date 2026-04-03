@@ -1,7 +1,7 @@
 ---
 title: "MCP and Pharma: How AI Agents Connect to Drug Discovery, Clinical Trials, Genomics, Chemical Databases, Protein Structure, FDA Regulatory Data, and Life Sciences Platforms"
 date: 2026-03-29T23:00:00+09:00
-description: "A comprehensive guide to MCP integrations for pharmaceuticals, biotechnology, and life sciences — covering drug discovery tools (RDKit, molecular modeling), clinical trials (ClinicalTrials.gov), genomics and bioinformatics (BLAST, NCBI, Open Targets), chemical databases (PubChem, ChEMBL, DrugBank), protein structure (AlphaFold, PDB, UniProt), FDA/EMA regulatory data, biomedical literature (PubMed, bioRxiv), LIMS, pharmacovigilance, and architecture patterns for AI-powered drug development pipelines."
+description: "A comprehensive guide to MCP integrations for pharmaceuticals, biotechnology, and life sciences — covering drug discovery tools (RDKit, molecular modeling), clinical trials"
 content_type: "Guide"
 card_description: "Drug discovery takes 10-15 years and $2.6 billion per approved drug. This guide covers 100+ MCP servers across the pharma and life sciences ecosystem — from RDKit molecular modeling and ChEMBL bioactivity data to ClinicalTrials.gov, AlphaFold protein structures, PubMed literature, FDA regulatory data, and genomics platforms — plus architecture patterns for AI-powered drug development, clinical trial matching, and regulatory intelligence."
 last_refreshed: 2026-03-29

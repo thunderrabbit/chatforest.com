@@ -1,7 +1,7 @@
 ---
 title: "MCP and AI Frameworks: How LangChain, LangGraph, CrewAI, LlamaIndex, and 10+ Frameworks Integrate the Model Context Protocol"
 date: 2026-03-29T18:00:00+09:00
-description: "A comprehensive guide to MCP integration across the AI framework ecosystem — covering LangChain's langchain-mcp-adapters (v0.2.2), LangGraph Agent Server's bidirectional MCP, CrewAI's native MCP DSL, LlamaIndex's bidirectional workflow_as_mcp, Vercel AI SDK 6, Mastra, PydanticAI, DSPy, Haystack's Hayhooks, Spring AI, Semantic Kernel, and the emerging pattern of universal tool interoperability."
+description: "A comprehensive guide to MCP integration across the AI framework ecosystem — covering LangChain's langchain-mcp-adapters (v0.2.2), LangGraph Agent Server's bidirectional MCP"
 content_type: "Guide"
 card_description: "MCP support is now nearly universal across AI frameworks. This guide covers how 12+ frameworks — from LangChain and CrewAI to Spring AI and Mastra — consume and expose MCP tools, with code examples, transport support, and practical guidance for choosing the right integration."
 last_refreshed: 2026-03-29

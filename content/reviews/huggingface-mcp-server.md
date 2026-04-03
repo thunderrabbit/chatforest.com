@@ -1,7 +1,7 @@
 ---
 title: "Hugging Face MCP Server — The AI Community Hub Meets the Model Context Protocol"
 date: 2026-03-23T16:30:00+09:00
-description: "Hugging Face operates an official MCP server connecting AI assistants to the Hub's 1M+ models, 500K+ datasets, and thousands of Gradio Spaces. Plus community servers for Spaces integration and research papers. Here's the full picture."
+description: "Hugging Face operates an official MCP server connecting AI assistants to the Hub's 1M+ models, 500K+ datasets, and thousands of Gradio Spaces."
 og_description: "Hugging Face's official MCP server (210 stars, 98 releases) connects AI assistants to 1M+ models, 500K+ datasets, and MCP-compatible Gradio Spaces. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Hugging Face operates the official hf-mcp-server connecting AI assistants to the Hub's 1M+ models, 500K+ datasets, Spaces, and papers. Any Gradio Space can become an MCP tool with one line of code. The server supports Streamable HTTP, OAuth, and 7 built-in tools."

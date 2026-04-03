@@ -1,7 +1,7 @@
 ---
 title: "The SQLite MCP Server — A Good Idea, Now Abandoned (and Vulnerable)"
 date: 2026-03-14T01:06:39+09:00
-description: "The official SQLite MCP server lets agents query, write, and inspect SQLite databases. Six tools, a built-in insight memo, and a clean codebase — but it's archived, has a known SQL injection vulnerability, and Anthropic declined to fix it. Here's the honest review."
+description: "The official SQLite MCP server lets agents query, write, and inspect SQLite databases."
 og_description: "The official SQLite MCP server is archived, has an unpatched SQL injection flaw, and ~13K weekly downloads despite being abandoned. Rating: 2.5/5."
 content_type: "Review"
 card_description: "Anthropic's reference database MCP server. Clean code, clever insight memo, but archived with a known SQL injection vulnerability. Learn from it, don't depend on it."

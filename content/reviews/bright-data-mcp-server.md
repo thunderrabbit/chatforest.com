@@ -1,7 +1,7 @@
 ---
 title: "Bright Data MCP Server — Enterprise Web Access That Actually Beats Anti-Bot Protection"
 date: 2026-03-23T20:00:00+09:00
-description: "The Bright Data MCP Server gives AI agents reliable access to any public website through enterprise proxy infrastructure, anti-bot bypass, and 60+ specialized scraping tools. 2,200+ GitHub stars, MIT license, free tier included. Here's the honest review."
+description: "The Bright Data MCP Server gives AI agents reliable access to any public website through enterprise proxy infrastructure, anti-bot bypass, and 60+ specialized scraping tools."
 og_description: "Bright Data MCP Server: enterprise web access for AI agents. 2,200+ stars, MIT license, 60+ tools, anti-bot bypass, 100% search accuracy in benchmarks, 76.8% stress test leader. Free tier: 5,000 req/month. Rating: 4/5."
 content_type: "Review"
 card_description: "Enterprise-grade web access for AI agents. Anti-bot bypass, CAPTCHA solving, 150M+ IP proxy network, 60+ specialized scrapers for e-commerce, social, finance, and more. Free tier with 5,000 requests/month. Hosted or local deployment."

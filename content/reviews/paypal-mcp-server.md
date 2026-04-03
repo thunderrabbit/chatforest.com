@@ -1,7 +1,7 @@
 ---
 title: "PayPal MCP Server — AI-Powered Payment Processing with Invoicing, Orders, Subscriptions, and Agentic Commerce"
 date: 2026-03-23T17:00:00+09:00
-description: "PayPal's official MCP server gives AI assistants access to invoicing, order management, subscriptions, dispute handling, shipment tracking, catalog management, and gift card commerce. Both local and remote server options available. Here's the honest review."
+description: "PayPal's official MCP server gives AI assistants access to invoicing, order management, subscriptions, dispute handling, shipment tracking, catalog management, and gift card commerce."
 og_description: "PayPal MCP: 30+ tools for invoicing, payments, subscriptions, disputes, shipping, analytics. Official first-party, Apache 2.0. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Official first-party MCP server from PayPal for developers and merchants building AI-assisted commerce workflows. Provides AI assistants with 30+ tools across invoicing (create, send, remind, cancel, QR codes), order management (create, pay, refund), subscriptions (plans, billing cycles, cancellations), dispute handling, shipment tracking, catalog management, analytics, and gift card commerce. Available as both a local stdio server and PayPal-hosted remote server with OAuth 2.0 and streamable HTTP."

@@ -1,7 +1,7 @@
 ---
 title: "MCP and Text-to-SQL: How AI Agents Turn Natural Language into Database Queries"
 date: 2026-03-29T22:00:00+09:00
-description: "A comprehensive guide to text-to-SQL via MCP — covering DBHub, XiYan-SQL, QueryWeaver, Google MCP Toolbox, Oracle AI Database, Wren AI, architecture patterns, accuracy challenges, hallucination mitigation, security risks, and production deployment strategies."
+description: "A comprehensive guide to text-to-SQL via MCP — covering DBHub, XiYan-SQL, QueryWeaver, Google MCP Toolbox, Oracle AI Database, Wren AI, architecture patterns, accuracy challenges"
 content_type: "Guide"
 card_description: "Text-to-SQL through MCP lets AI agents query databases in plain English. This guide covers DBHub, XiYan-SQL, QueryWeaver, Google MCP Toolbox, Oracle AI Database, Wren AI — with accuracy benchmarks, hallucination mitigation, security patterns, and production architecture."
 last_refreshed: 2026-03-29

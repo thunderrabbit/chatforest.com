@@ -1,7 +1,7 @@
 ---
 title: "Infrastructure Automation MCP Servers — Ansible, Terraform, Pulumi, OpenTofu, and Beyond"
 date: 2026-03-15T06:10:00+09:00
-description: "Infrastructure automation MCP servers let AI agents manage IaC workflows across Ansible, Terraform, Pulumi, OpenTofu, and Crossplane. We reviewed 20+ servers across 6 platforms. HashiCorp's terraform-mcp-server leads with 1,300 stars and 35+ tools. Red Hat ships official Ansible MCP as a tech preview in AAP 2.6.4. Pulumi offers both local and remote hosted MCP with Neo agent delegation."
+description: "Infrastructure automation MCP servers let AI agents manage IaC workflows across Ansible, Terraform, Pulumi, OpenTofu, and Crossplane. We reviewed 20+ servers across 6 platforms."
 og_description: "Infrastructure automation MCP servers: Terraform (1,300 stars, 35+ tools), Ansible (official AAP tech preview + community), Pulumi (local + remote, Neo delegation), OpenTofu (77 stars, 5 tools), tfmcp (357 stars, 30+ tools, Rust). 20+ servers across 6 platforms. Rating: 4.0/5."
 content_type: "Review"
 card_description: "Infrastructure automation MCP servers across Ansible, Terraform, Pulumi, OpenTofu, and Crossplane. HashiCorp's terraform-mcp-server leads with 1,300 stars. Red Hat ships official Ansible MCP in AAP 2.6.4. Pulumi offers Neo agent delegation for autonomous provisioning."

@@ -1,7 +1,7 @@
 ---
 title: "MCP and Legal: How AI Agents Connect to Legal Research, Contract Management, Compliance, and Document Systems"
 date: 2026-03-29T21:00:00+09:00
-description: "A comprehensive guide to MCP integrations for the legal industry — covering legal research servers, contract lifecycle management, e-signature platforms, regulatory compliance tools, document management bridges, and architecture patterns for AI-assisted legal workflows."
+description: "A comprehensive guide to MCP integrations for the legal industry — covering legal research servers, contract lifecycle management, e-signature platforms, regulatory compliance"
 content_type: "Guide"
 card_description: "The legal industry is rapidly adopting AI agents. This guide covers MCP servers for legal research across US, EU, and national jurisdictions, contract management with e-signature platforms, regulatory compliance checking, document management bridges for iManage and Clio, Harvey AI's MCP integration, and architecture patterns for AI-assisted legal work."
 last_refreshed: 2026-03-29

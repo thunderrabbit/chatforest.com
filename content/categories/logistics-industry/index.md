@@ -1,7 +1,7 @@
 ---
 title: "Logistics & Industry MCP Servers — 11 Reviews Covering Supply Chain, Manufacturing, Transportation, Aviation, Automotive, Aerospace, Agriculture, Construction, Energy, and Sustainability"
 date: 2026-03-24T22:30:00+09:00
-description: "Comprehensive reviews of 11 Logistics & Industry MCP server categories — from supply chain shipping and manufacturing to aerospace, agriculture, construction, energy, sustainability, transportation, and automotive. 300+ servers evaluated across logistics operations, industrial sectors, and transportation systems."
+description: "Comprehensive reviews of 11 Logistics & Industry MCP server categories — from supply chain shipping and manufacturing to aerospace, agriculture, construction, energy"
 og_description: "11 Logistics & Industry MCP server reviews covering supply chain, manufacturing, aerospace, agriculture, construction, energy, sustainability, transportation, aviation, and automotive. 300+ servers evaluated."
 content_type: "Category"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Best Audio & Video MCP Servers in 2026"
 date: 2026-03-22T22:00:00+09:00
-description: "ElevenLabs, DaVinci Resolve, Ableton, REAPER, FFmpeg, Premiere Pro, and more — we've reviewed 40+ audio and video MCP servers across 9 categories. Here's what works, what's emerging, and where the gaps are."
+description: "ElevenLabs, DaVinci Resolve, Ableton, REAPER, FFmpeg, Premiere Pro, and more — we've reviewed 40+ audio and video MCP servers across 9 categories."
 og_description: "40+ audio and video MCP servers reviewed across text-to-speech, transcription, video editing, music production, and creative applications. The definitive comparison with honest ratings."
 content_type: "Comparison"
 card_description: "The definitive guide to audio and video MCP servers in 2026. We've reviewed 40+ servers across text-to-speech (ElevenLabs, Kokoro, multi-provider), transcription (Whisper, local STT, YouTube), FFmpeg video processing, professional NLEs (DaVinci Resolve, Premiere Pro, After Effects), music production (Ableton, REAPER, Logic Pro, SuperCollider), and streaming platforms (Mux). Every recommendation links to a full review."

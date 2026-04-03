@@ -1,7 +1,7 @@
 ---
 title: "Postmark MCP Server — Send Transactional Emails From Your AI Agent"
 date: 2026-03-23T23:55:00+09:00
-description: "Postmark's official MCP server lets AI agents send transactional emails, use email templates, and check delivery stats — all through natural language prompts. 4 tools, stdio transport, JavaScript, MIT license, free tier at 100 emails/mo. Built by ActiveCampaign. Here's the honest review."
+description: "Postmark's official MCP server lets AI agents send transactional emails, use email templates, and check delivery stats — all through natural language prompts."
 og_description: "Postmark MCP: send emails, use templates, check delivery stats from AI agents. Official first-party, JavaScript, stdio, MIT license. Rating: 3/5."
 content_type: "Review"
 card_description: "Official first-party MCP server for Postmark's transactional email platform. Send emails, use templates, list templates, and check delivery stats. JavaScript, stdio transport, MIT license, free tier at 100 emails/mo."

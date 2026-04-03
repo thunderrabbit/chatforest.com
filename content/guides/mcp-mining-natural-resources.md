@@ -1,7 +1,7 @@
 ---
 title: "MCP and Mining: How AI Agents Connect to Geological Modeling, Mine Planning, Resource Estimation, Environmental Monitoring, Oil & Gas, and Commodity Trading Tools"
 date: 2026-03-29T21:00:00+09:00
-description: "A comprehensive guide to 100+ MCP integrations for mining and natural resources — covering geospatial/GIS tools (QGIS 871 stars, ArcGIS, GDAL 59 stars), geological survey data (Macrostrat, USGS, BGS, NASA Earthdata), critical minerals databases, industrial IoT/SCADA, oil & gas commodity pricing, satellite imagery, environmental compliance, and architecture patterns for AI-powered mineral exploration, autonomous fleet management, and ESG reporting."
+description: "A comprehensive guide to 100+ MCP integrations for mining and natural resources — covering geospatial/GIS tools (QGIS 871 stars, ArcGIS, GDAL 59 stars), geological survey data"
 content_type: "Guide"
 card_description: "Mining operations generate massive datasets across geological modeling, drill-hole databases, fleet telemetry, environmental sensors, and commodity markets — yet most of this data lives in disconnected systems. This guide covers 100+ MCP servers relevant to the mining and natural resources sector, from GIS platforms and geological databases to critical minerals data, satellite imagery, industrial IoT, oil & gas pricing, and environmental compliance — plus architecture patterns for AI-powered exploration, autonomous operations, and ESG reporting."
 last_refreshed: 2026-03-29

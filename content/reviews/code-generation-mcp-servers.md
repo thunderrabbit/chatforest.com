@@ -1,7 +1,7 @@
 ---
 title: "Code Generation MCP Servers — UI Components, Context Providers, and the Paradox of AI Writing Its Own Tools"
 date: 2026-03-24T23:00:00+09:00
-description: "Code generation MCP servers flip the expected pattern: AI coding platforms consume MCP, they don't expose code generation as MCP servers. The real action is context provision — Context7 (50k stars), magic-mcp (4.5k stars, UI components), shadcn-ui MCP (2.7k stars), Next.js devtools (694 stars), E2B sandbox (384 stars). Rating: 3.5/5."
+description: "Code generation MCP servers flip the expected pattern: AI coding platforms consume MCP, they don't expose code generation as MCP servers."
 og_description: "Code generation MCP servers: Context7 (50k stars), magic-mcp (4.5k stars, UI components), shadcn-ui MCP (2.7k stars), Next.js devtools (694 stars), code-index-mcp (853 stars). Rating: 3.5/5."
 content_type: "Review"
 card_description: "Code generation MCP servers reveal a paradox: every major AI coding platform (GitHub Copilot, Cursor, Windsurf, Amazon Q, JetBrains AI, Claude Code) supports MCP as a client — consuming external tools and context — but none exposes its code generation engine as an MCP server. The real ecosystem is context provision: Context7 (50k stars) delivers version-specific library documentation, magic-mcp (4.5k stars) generates UI components from natural language, shadcn-ui MCP server (2.7k stars) provides component context, and Vercel's next-devtools-mcp (694 stars) gives coding agents real-time Next.js app internals. The strongest pattern is design-to-code: Figma's official MCP server enables bidirectional AI workflows."

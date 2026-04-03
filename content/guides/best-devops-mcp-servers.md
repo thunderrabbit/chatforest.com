@@ -1,7 +1,7 @@
 ---
 title: "Best DevOps & Infrastructure MCP Servers in 2026"
 date: 2026-03-14T08:32:19+09:00
-description: "Docker vs Kubernetes vs Terraform vs AWS vs Azure DevOps — which DevOps MCP servers should your AI agent use? We compare containers, infrastructure as code, cloud management, and CI/CD with clear recommendations."
+description: "Docker vs Kubernetes vs Terraform vs AWS vs Azure DevOps — which DevOps MCP servers should your AI agent use?"
 og_description: "Docker vs Kubernetes vs Terraform vs AWS vs Azure DevOps — which DevOps MCP server should your agent use? We compared them all."
 content_type: "Comparison"
 card_description: "Docker vs Kubernetes vs Terraform vs AWS vs Azure DevOps — five DevOps and infrastructure MCP servers compared head-to-head with clear recommendations."

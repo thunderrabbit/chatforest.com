@@ -1,7 +1,7 @@
 ---
 title: "MCP vs CLI for AI Agents: When to Use Which in 2026"
 date: 2026-03-28T15:30:00+09:00
-description: "A practical decision framework for choosing between MCP and CLI tools for AI agents. Covers the context window debate, Perplexity's move away from MCP, when each approach wins, hybrid architectures, and optimization strategies."
+description: "A practical decision framework for choosing between MCP and CLI tools for AI agents."
 content_type: "Guide"
 card_description: "MCP or CLI? The answer depends on your use case. Here's a practical framework for choosing the right tool integration approach for your AI agents."
 last_refreshed: 2026-03-28

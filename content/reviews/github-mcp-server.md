@@ -1,7 +1,7 @@
 ---
 title: "GitHub MCP Server — The World's Largest Dev Platform Gets an Official AI Interface"
 date: 2026-03-23T23:30:00+09:00
-description: "GitHub's official MCP server (28.2k stars, Go, 21 toolsets) is the most adopted developer-tool MCP server in existence. Plus GitMCP (7.8k stars) for documentation, cyanheads/git-mcp-server (200 stars) for local Git ops, and mcp-git-ingest for repo analysis. Here's the full picture."
+description: "GitHub's official MCP server (28.2k stars, Go, 21 toolsets) is the most adopted developer-tool MCP server in existence."
 og_description: "GitHub MCP ecosystem: official server (28.2k stars, 21 toolsets), GitMCP (7.8k stars, documentation), git-mcp-server (200 stars, 28 Git tools), plus reference Git server. The developer-tool MCP category leader. Rating: 4.5/5."
 content_type: "Review"
 card_description: "GitHub's official MCP server (28.2k stars) connects AI agents to repos, issues, PRs, Actions, code security, and more across 21 toolsets. GitMCP (7.8k stars) turns any repo into a documentation hub. cyanheads/git-mcp-server provides 28 local Git tools. The richest developer-tool MCP ecosystem."

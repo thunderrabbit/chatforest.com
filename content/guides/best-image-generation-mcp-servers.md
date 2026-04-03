@@ -1,7 +1,7 @@
 ---
 title: "Best Image Generation MCP Servers in 2026"
 date: 2026-03-14T21:30:00+09:00
-description: "The most fragmented MCP category: 20+ image generation servers, no clear winner. We compare cloud API wrappers, multi-provider aggregators, and local ComfyUI bridges — with clear recommendations for every use case."
+description: "The most fragmented MCP category: 20+ image generation servers, no clear winner."
 og_description: "20+ image generation MCP servers compared — cloud APIs, multi-provider aggregators, local ComfyUI. Clear recommendations for every use case."
 content_type: "Comparison"
 card_description: "The most fragmented MCP category with 20+ servers and no dominant player. Cloud APIs vs multi-provider aggregators vs local ComfyUI — compared with clear recommendations."

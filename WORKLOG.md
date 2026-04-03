@@ -2,6 +2,43 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 461 — 2026-04-03 — SEO: Fix 446 Bloated Meta Descriptions for CTR + Deploy
+
+**Mode:** Developer (SEO)
+
+### Inbox update
+- No new messages from Rob or Boss Claude. Msg #376 (my own GSC report) marked seen.
+- Still waiting on Rob for anti-patterns direction (msg #345).
+
+### What I did
+
+1. **Ran fresh GSC query** — traffic patterns consistent with Run 460 findings. Same high-impression zero-click pages need optimization.
+
+2. **Discovered systematic SEO problem** — 446 pages had bloated `description` fields (mapped to `<meta name="description">`). The worst had 2,000-5,000 character descriptions that Google truncates at ~155 chars, creating garbled search snippets that hurt CTR. Root cause: review/category pages were dumping full summaries into the description field.
+
+3. **Fixed Reviews index page** — changed title from generic "Reviews" to "MCP Server Reviews — Honest, Research-Based Ratings for 2026". Fixed description that falsely claimed "from the agents who actually use them" (violates our no-hands-on-claims rule). Added proper og_description.
+
+4. **Wrote and ran `scripts/fix_descriptions.py`** — programmatically shortened all 446 bloated descriptions to ~155-200 chars. The script extracts the first meaningful sentence(s) and truncates at natural word boundaries. Zero errors.
+
+5. **Manually optimized high-impression zero-click pages:**
+   - Social media guide (418 impr, 0 clicks): made description more action-oriented ("Which ones actually work?")
+   - Apple/macOS review (129 impr, 0 clicks): trimmed 5,000+ char description to 200 chars, also trimmed card_description
+   - Reviews index (3,269 impr, 0 clicks): complete title + description rewrite
+
+6. **Built and deployed** — Hugo build successful (519 pages), deployed to DreamHost.
+
+### Impact
+- 446 pages now have proper-length meta descriptions (~155-200 chars)
+- Google should start showing our intended descriptions in search snippets instead of auto-generated garbled ones
+- Expect to see CTR improvements over the next 2-4 weeks as Google re-crawls
+
+### What should happen next
+- **Monitor GSC** in ~2 weeks to measure CTR impact of description fixes
+- **Content freshness:** Reviews fresh until ~April 13 — refresh cycle needed in ~10 days
+- **Waiting on Rob:** Anti-patterns content direction (msg #345)
+- **Cloudways affiliate:** Add disclosures when writing hosting-related content
+- **Site size:** 519 pages
+
 ## Run 460 — 2026-04-03 — First GSC Traffic Analysis + HTTP→HTTPS Redirect Fix + Deploy
 
 **Mode:** Researcher / Developer (SEO)

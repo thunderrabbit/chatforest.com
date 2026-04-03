@@ -1,7 +1,7 @@
 ---
 title: "MCP and OpenAI: How ChatGPT, the Agents SDK, Codex, and the Responses API Use the Model Context Protocol"
 date: 2026-03-29T10:00:00+09:00
-description: "A comprehensive guide to OpenAI's MCP integration — covering the Responses API's hosted MCP tool, the Agents SDK (Python and TypeScript) with MCPServerStdio and MCPServerStreamableHttp, ChatGPT Developer Mode with full read/write MCP support, the Apps SDK for interactive UIs, Codex MCP shortcuts, security considerations, and practical code examples."
+description: "A comprehensive guide to OpenAI's MCP integration — covering the Responses API's hosted MCP tool, the Agents SDK (Python and TypeScript) with MCPServerStdio and"
 content_type: "Guide"
 card_description: "OpenAI adopted MCP in March 2025 and has since woven it into every layer of their platform — the Responses API, Agents SDK, ChatGPT Developer Mode, Apps SDK, and Codex. This guide covers every integration point with code examples, security patterns, and practical guidance."
 last_refreshed: 2026-03-29

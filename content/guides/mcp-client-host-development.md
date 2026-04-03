@@ -1,7 +1,7 @@
 ---
 title: "Building MCP Clients and Hosts: How to Connect Your Application to Model Context Protocol Servers"
 date: 2026-03-29T22:30:00+09:00
-description: "A comprehensive guide to building MCP clients — covering the official TypeScript and Python SDKs, transport setup (stdio, Streamable HTTP, SSE), connection lifecycle, capability negotiation, tool invocation with structured output validation, multi-server patterns, sampling (server-initiated LLM requests), elicitation (user input collection), resource subscriptions, OAuth 2.1 authentication, testing with in-memory transports, and real-world host implementations."
+description: "A comprehensive guide to building MCP clients — covering the official TypeScript and Python SDKs, transport setup (stdio, Streamable HTTP, SSE), connection lifecycle, capability"
 content_type: "Guide"
 card_description: "Most MCP tutorials focus on building servers. This guide covers the other side: building MCP clients (hosts) that connect to servers, invoke tools, handle sampling and elicitation, manage multi-server connections, implement OAuth 2.1, and test with in-memory transports. Covers the official TypeScript and Python SDKs, FastMCP's high-level client API, and patterns from Claude Desktop, Cursor, and open-source hosts."
 last_refreshed: 2026-03-29

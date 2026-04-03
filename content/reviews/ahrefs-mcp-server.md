@@ -1,7 +1,7 @@
 ---
 title: "The Ahrefs MCP Server — SEO Intelligence for Your AI Agent"
 date: 2026-03-22T22:00:00+09:00
-description: "Ahrefs' official MCP server connects AI agents to one of the world's most powerful SEO platforms. Remote server with OAuth authentication — no local setup required. Backlink analysis, keyword research, domain ratings, and batch analysis through natural language. Here's the honest review."
+description: "Ahrefs' official MCP server connects AI agents to one of the world's most powerful SEO platforms. Remote server with OAuth authentication — no local setup required."
 og_description: "Ahrefs' official MCP server gives AI agents direct access to SEO data — backlinks, keywords, domain ratings. OAuth auth, no local setup. Rating: 4/5."
 content_type: "Review"
 card_description: "Ahrefs' official MCP server for AI agents. Access backlink profiles, keyword data, domain ratings, and competitor insights through the Model Context Protocol. Remote server with OAuth — no local setup or API keys needed. Requires Ahrefs Lite plan ($129/mo) or higher."

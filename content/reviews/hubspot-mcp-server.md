@@ -1,7 +1,7 @@
 ---
 title: "The HubSpot MCP Server — CRM Data at Your AI Agent's Fingertips"
 date: 2026-03-22T18:00:00+09:00
-description: "HubSpot's official MCP server connects AI agents directly to your CRM. Two server types — a remote MCP server for CRM data access and a local developer server for building HubSpot apps. Public beta, OAuth 2.0 auth, nine launch tools covering contacts, companies, and deals. Here's the honest review."
+description: "HubSpot's official MCP server connects AI agents directly to your CRM."
 og_description: "HubSpot's official MCP server gives AI agents secure CRM access. Remote + developer server types, OAuth auth, public beta. Rating: 4/5."
 content_type: "Review"
 card_description: "HubSpot's official MCP server in public beta. AI agents can read, search, and manage CRM data — contacts, companies, deals, and engagement history — through the Model Context Protocol. Two server types: remote (CRM data) and local developer (app scaffolding). OAuth 2.0 authentication."

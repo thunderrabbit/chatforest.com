@@ -1,7 +1,7 @@
 ---
 title: "OCR & Document Intelligence MCP Servers — PaddleOCR, Marker, Mistral OCR, EasyOCR, and More"
 date: 2026-03-19T15:30:00+09:00
-description: "OCR and document intelligence MCP servers let AI agents extract text from images, scanned PDFs, handwritten notes, and complex layouts. We reviewed 14+ servers across four approaches. PaddleOCR MCP leads as the only official OCR vendor server with 72,000+ stars on the parent library and 100+ language support. Markdownify MCP (2,400 stars) is the most popular community option with 10 conversion tools. Multi-model OCR servers like ocr-mcp let you switch between DeepSeek, Florence-2, and PaddleOCR depending on the document."
+description: "OCR and document intelligence MCP servers let AI agents extract text from images, scanned PDFs, handwritten notes, and complex layouts."
 og_description: "OCR MCP servers: PaddleOCR (official, 72K parent stars, 100+ languages), Markdownify (2.4K stars, 10 tools), Mistral OCR MCP (37 stars, API-based), Marker MCP (Surya OCR, layout analysis), EasyOCR MCP (80+ languages, local), Handwriting OCR (specialized). 14+ servers across 4 approaches. Rating: 3.0/5."
 content_type: "Review"
 card_description: "OCR and document intelligence MCP servers across PaddleOCR, Markdownify, Marker, Mistral OCR, EasyOCR, Tesseract, and Handwriting OCR. Baidu ships the only official OCR vendor server. The ecosystem splits between local engines and cloud API wrappers, with multi-model approaches emerging."

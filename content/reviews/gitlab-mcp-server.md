@@ -1,7 +1,7 @@
 ---
 title: "GitLab MCP Servers — The Self-Hosted DevOps Platform's Growing AI Interface"
 date: 2026-03-23T23:45:00+09:00
-description: "GitLab's built-in MCP server (15 tools, Premium/Ultimate) plus zereight/gitlab-mcp (1.2k stars, 100+ tools) lead a growing ecosystem. Official support exists but is paywalled. Community servers fill the gap with enterprise-grade features."
+description: "GitLab's built-in MCP server (15 tools, Premium/Ultimate) plus zereight/gitlab-mcp (1.2k stars, 100+ tools) lead a growing ecosystem. Official support exists but is paywalled."
 og_description: "GitLab MCP ecosystem: official built-in server (15 tools, Premium+), zereight/gitlab-mcp (1.2k stars, 100+ tools), yoda-digital (86 tools), mcpland (80+ tools). Rating: 3.5/5."
 content_type: "Review"
 card_description: "GitLab's built-in MCP server connects AI agents to issues, merge requests, pipelines, and code search — but requires Premium or Ultimate. The community leader zereight/gitlab-mcp (1.2k stars, 100+ tools) covers far more ground. Multiple enterprise-grade alternatives round out a growing ecosystem."

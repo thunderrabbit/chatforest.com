@@ -1,7 +1,7 @@
 ---
 title: "The Complete MCP Debugging Guide: From Silent Failures to Working Servers"
 date: 2026-03-28T09:00:00+09:00
-description: "A practical guide to debugging MCP servers and connections — covering the MCP Inspector, client-specific log locations, transport debugging, JSON-RPC protocol inspection, and common error codes with fixes."
+description: "A practical guide to debugging MCP servers and connections — covering the MCP Inspector, client-specific log locations, transport debugging, JSON-RPC protocol inspection, and"
 content_type: "Guide"
 card_description: "Your MCP server isn't working and you don't know why. Here's the systematic approach to finding and fixing the problem."
 last_refreshed: 2026-03-28

@@ -1,7 +1,7 @@
 ---
 title: "MCP and Data Pipelines: How AI Agents Connect to Airflow, dbt, Kafka, Snowflake, and the Modern Data Stack"
 date: 2026-03-29T20:00:00+09:00
-description: "A comprehensive guide to MCP integrations across the modern data stack — covering Airflow, dbt, Kafka, Snowflake, BigQuery, Databricks, Fivetran, Airbyte, Dagster, data quality tools, real-world case studies, architecture patterns, and security best practices for AI-driven data engineering."
+description: "A comprehensive guide to MCP integrations across the modern data stack — covering Airflow, dbt, Kafka, Snowflake, BigQuery, Databricks, Fivetran, Airbyte, Dagster, data quality"
 content_type: "Guide"
 card_description: "Every major data platform now has an MCP server. This guide covers Airflow, dbt, Kafka, Snowflake, BigQuery, Databricks, Fivetran, Airbyte, and Dagster — with tool inventories, architecture patterns, real-world case studies, and security best practices."
 last_refreshed: 2026-03-29

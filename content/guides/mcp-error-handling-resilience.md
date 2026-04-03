@@ -1,7 +1,7 @@
 ---
 title: "MCP Error Handling & Resilience: Protocol Errors, Tool Recovery, Circuit Breakers, and Production Fault Tolerance"
 date: 2026-03-28T21:45:00+09:00
-description: "A comprehensive guide to MCP error handling and resilience — covering JSON-RPC error codes, the isError flag for tool execution errors, structured error messages for LLM self-correction, circuit breakers, retries with exponential backoff and jitter, bulkhead isolation, rate limiting, timeout budget allocation, session recovery for Streamable HTTP, graceful degradation patterns, the MCP fault taxonomy (arxiv 2603.05637), SERF framework (arxiv 2603.13417), interceptors (SEP-1763), and the MCP Reliability Playbook."
+description: "A comprehensive guide to MCP error handling and resilience — covering JSON-RPC error codes, the isError flag for tool execution errors, structured error messages for LLM"
 content_type: "Guide"
 card_description: "MCP servers fail. Networks drop. APIs time out. Databases lock. The question isn't whether your MCP server will encounter errors — it's whether your error handling helps the AI recover or leaves it stuck. This guide covers the full error handling stack: JSON-RPC protocol errors, tool execution errors with isError, structured messages for LLM self-correction, circuit breakers, retries, bulkheads, timeout budgets, session recovery, and production fault tolerance."
 last_refreshed: 2026-03-28

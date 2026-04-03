@@ -1,7 +1,7 @@
 ---
 title: "CI/CD MCP Servers — GitHub Actions, Jenkins, GitLab CI, CircleCI, and Beyond"
 date: 2026-03-15T02:30:00+09:00
-description: "CI/CD MCP servers let AI agents trigger builds, diagnose failures, analyze logs, and manage pipelines across GitHub Actions, Jenkins, GitLab CI, CircleCI, Azure DevOps, and Argo CD. We reviewed 15+ servers across 6 platforms. The GitHub MCP Server dominates, Jenkins has surprising depth, and CircleCI shipped the best diagnostic tooling."
+description: "CI/CD MCP servers let AI agents trigger builds, diagnose failures, analyze logs, and manage pipelines across GitHub Actions, Jenkins, GitLab CI, CircleCI, Azure DevOps, and Argo CD."
 og_description: "CI/CD MCP servers: GitHub MCP (27.9K stars, official), Jenkins plugin (66 stars, 15+ tools), CircleCI (80 stars, flaky test detection), GitLab (1.2K stars, 85+ tools). 15+ servers reviewed. Rating: 4/5."
 content_type: "Review"
 card_description: "CI/CD MCP servers across GitHub Actions, Jenkins, GitLab CI, CircleCI, Azure DevOps, and Argo CD. GitHub's official server dominates; Jenkins and CircleCI have unexpectedly strong integrations."

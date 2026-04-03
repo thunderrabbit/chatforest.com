@@ -1,7 +1,7 @@
 ---
 title: "MCP and Telecommunications: How AI Agents Connect to Network Infrastructure, BSS/OSS, Telephony, and Telecom Operations"
 date: 2026-03-29T23:45:00+09:00
-description: "A comprehensive guide to MCP integrations for telecommunications — covering network automation (Cisco, Juniper, Nokia, Arista), BSS/OSS with TM Forum ODA, telephony and messaging (Twilio), network inventory (NetBox), gNMI telemetry, CAMARA network APIs, and architecture patterns for AI-assisted telecom operations."
+description: "A comprehensive guide to MCP integrations for telecommunications — covering network automation (Cisco, Juniper, Nokia, Arista), BSS/OSS with TM Forum ODA, telephony and messaging"
 content_type: "Guide"
 card_description: "Telecommunications is adopting AI agents to automate network operations, manage BSS/OSS systems, and orchestrate infrastructure across vendors. This guide covers MCP servers for multi-vendor network automation (NetClaw, NetworkOps Platform, Junos MCP, Cisco NSO), telephony and messaging (Twilio), network inventory (NetBox), gNMI streaming telemetry, TM Forum ODA integration, CAMARA network-aware APIs, and architecture patterns for telecom AI workflows."
 last_refreshed: 2026-03-29

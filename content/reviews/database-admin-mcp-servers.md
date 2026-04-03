@@ -1,7 +1,7 @@
 ---
 title: "Database Administration MCP Servers — PostgreSQL, MySQL, MongoDB, Redis, DynamoDB, and Beyond"
 date: 2026-03-15T06:30:00+09:00
-description: "Database administration MCP servers let AI agents query, manage, and optimize databases directly. We reviewed 25+ servers across 7 database platforms. PostgreSQL leads with Postgres MCP Pro (2,300 stars, 8 tools, index tuning + health checks). MongoDB's official server (959 stars, 40+ tools) is the most feature-rich. Redis and Supabase each have official servers with 450+ and 2,500 stars. Multi-database servers like DB MCP Server (353 stars, Go) cover MySQL/PostgreSQL/SQLite/Oracle simultaneously."
+description: "Database administration MCP servers let AI agents query, manage, and optimize databases directly. We reviewed 25+ servers across 7 database platforms."
 og_description: "Database admin MCP servers: PostgreSQL (2,300 stars, index tuning), MongoDB (959 stars, 40+ tools), MySQL (1,300 stars), Redis (452 stars, official), Supabase (2,500 stars, 30+ tools), DynamoDB (AWS official, 8 tools). 25+ servers across 7 platforms. Rating: 4.0/5."
 content_type: "Review"
 card_description: "Database administration MCP servers across PostgreSQL, MySQL, MongoDB, Redis, DynamoDB, Supabase, and SQLite. Postgres MCP Pro leads with 2,300 stars and index tuning. MongoDB official server offers 40+ tools. Multi-database servers cover MySQL/PostgreSQL/SQLite/Oracle in a single connection."

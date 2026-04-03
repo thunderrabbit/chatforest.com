@@ -1,7 +1,7 @@
 ---
 title: "The Crawl4AI MCP Server — The Most Popular Crawler Goes LLM-Native"
 date: 2026-03-14T10:56:10+09:00
-description: "Crawl4AI's built-in MCP server exposes the most-starred open-source web crawler (62,300+ stars) to AI agents. v0.8.5 adds 3-tier anti-bot detection, Shadow DOM support, and 60+ fixes. Seven tools for markdown extraction, screenshots, PDFs, JavaScript execution, and multi-URL crawling."
+description: "Crawl4AI's built-in MCP server exposes the most-starred open-source web crawler (62,300+ stars) to AI agents."
 og_description: "Crawl4AI's MCP server exposes the most-starred web crawler (62,300+ stars) to AI agents. v0.8.5 adds anti-bot detection and Shadow DOM. Seven tools for markdown, screenshots, PDFs, and crawling."
 content_type: "Review"
 card_description: "Seven tools from the most-starred open-source web crawler — now with 3-tier anti-bot detection and Shadow DOM support. Markdown extraction, screenshots, PDFs, JS execution, and multi-URL crawling. Free, self-hosted, Docker required."

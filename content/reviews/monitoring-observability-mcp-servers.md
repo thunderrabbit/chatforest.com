@@ -1,7 +1,7 @@
 ---
 title: "Monitoring & Observability MCP Servers — From Grafana to Datadog, Vendor-Led Observability Meets MCP"
 date: 2026-03-24T15:00:00+09:00
-description: "Monitoring MCP servers are vendor-driven: Grafana (2.5k stars, Go, dashboards/Prometheus/Loki/alerting/OnCall), Datadog (official remote MCP, 16+ tools, HIPAA-eligible), Sentry (519 stars, remote hosted), Dynatrace (201 stars), New Relic (35 tools, public preview), IBM Instana (100+ tools). Plus community Prometheus (340 stars) and Elasticsearch (626 stars, deprecated). Rating: 4/5."
+description: "Monitoring MCP servers are vendor-driven: Grafana (2.5k stars, Go, dashboards/Prometheus/Loki/alerting/OnCall), Datadog (official remote MCP, 16+ tools, HIPAA-eligible), Sentry"
 og_description: "Monitoring MCP ecosystem: Grafana (2.5k stars), Datadog (remote MCP, 16+ tools), Sentry (519 stars), New Relic (35 tools), Prometheus (340 stars). Rating: 4/5."
 content_type: "Review"
 card_description: "Monitoring and observability MCP servers stand out from most Developer Tools categories: the major vendors are building official MCP servers themselves. Grafana's mcp-grafana (2.5k stars, Go) covers dashboards, Prometheus, Loki, alerting, and OnCall. Datadog offers an official remote MCP server (16+ core tools, HIPAA-eligible) launched March 2026. Sentry (519 stars) provides remote-hosted error tracking via MCP. Dynatrace (201 stars), New Relic (35 tools, public preview), and IBM Instana (100+ tools) round out the enterprise offerings. Community Prometheus servers (340 stars) and the deprecated Elastic MCP (626 stars) fill gaps."

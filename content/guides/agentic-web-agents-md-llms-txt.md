@@ -1,7 +1,7 @@
 ---
 title: "The Agentic Web: AGENTS.md, llms.txt, and Making Your Site Agent-Ready"
 date: 2026-03-28T22:00:00+09:00
-description: "A practical guide to the emerging standards that help AI agents interact with websites and codebases — covering AGENTS.md, llms.txt, agenticweb.md, the relationship to MCP and A2A, and how to prepare your site for agent-driven traffic."
+description: "A practical guide to the emerging standards that help AI agents interact with websites and codebases — covering AGENTS.md, llms.txt, agenticweb.md, the relationship to MCP and"
 content_type: "Guide"
 card_description: "AI agents don't just browse — they act. Here's how AGENTS.md, llms.txt, and related standards are reshaping how websites communicate with autonomous AI systems."
 last_refreshed: 2026-03-28

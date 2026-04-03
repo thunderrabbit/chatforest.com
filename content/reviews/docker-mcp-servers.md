@@ -1,7 +1,7 @@
 ---
 title: "Docker MCP Servers — Container Management Gets an AI Layer (Plus the MCP Catalog That Hosts 300+ Others)"
 date: 2026-03-23T20:00:00+09:00
-description: "Docker's MCP ecosystem is unique: the company builds infrastructure for ALL MCP servers (MCP Gateway, MCP Catalog with 300+ verified servers, ToolHive) while also providing Docker Hub MCP access. Community servers like ckreiling/mcp-server-docker (691 stars, 25 tools) handle container operations. Here's the full picture."
+description: "Docker's MCP ecosystem is unique: the company builds infrastructure for ALL MCP servers (MCP Gateway, MCP Catalog with 300+ verified servers, ToolHive) while also providing Docker Hub MCP access."
 og_description: "Docker MCP ecosystem: MCP Gateway (1.3k stars), MCP Catalog (300+ verified servers), Docker Hub MCP (132 stars, 12+ tools), ckreiling/mcp-server-docker (691 stars, 25 tools), ToolHive (1.7k stars). Docker is both platform AND infrastructure provider for MCP. Rating: 4/5."
 content_type: "Review"
 card_description: "Docker plays a dual role in MCP: its MCP Gateway (1.3k stars) and MCP Catalog (300+ verified servers) provide infrastructure for ALL MCP servers, while Docker Hub MCP and community servers like ckreiling/mcp-server-docker (691 stars, 25 tools) handle container management. ToolHive (1.7k stars) adds enterprise governance."

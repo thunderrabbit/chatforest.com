@@ -1,7 +1,7 @@
 ---
 title: "MindsDB MCP Server — Federated Queries Across 200+ Data Sources From a Single Interface"
 date: 2026-03-23T23:30:00+09:00
-description: "MindsDB is an open-source federated query engine that doubles as an MCP server, letting AI agents query 200+ data sources — databases, warehouses, and SaaS apps — through SQL or natural language. 38,800 GitHub stars, Elastic License 2.0. Here's the honest review."
+description: "MindsDB is an open-source federated query engine that doubles as an MCP server, letting AI agents query 200+ data sources — databases, warehouses, and SaaS apps — through SQL or natural language."
 og_description: "MindsDB MCP Server: federated query engine connecting AI agents to 200+ live data sources. 38,800 stars, Elastic License 2.0, 6+ MCP tools (query, knowledge bases, job scheduling), Docker deployment. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Federated query engine as MCP server. Connects AI agents to 200+ live data sources (Postgres, MongoDB, Slack, Gmail, Snowflake, and more) via SQL or natural language. Built-in knowledge bases for RAG, job scheduling, and no-ETL architecture. Docker deployment."

@@ -1,7 +1,7 @@
 ---
 title: "New Relic MCP Server — AI-Powered Observability with NRQL Queries, Alerts, Entity Discovery, and Log Analysis"
 date: 2026-03-23T23:30:00+09:00
-description: "New Relic's official MCP server gives AI assistants access to observability data including NRQL queries, alert management, entity discovery, deployment analysis, and log examination. Supports API key and OAuth authentication. Here's the honest review."
+description: "New Relic's official MCP server gives AI assistants access to observability data including NRQL queries, alert management, entity discovery, deployment analysis, and log examination."
 og_description: "New Relic MCP: NRQL queries, alerts, entity discovery, log analysis, deployment impact. Official first-party observability MCP. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Official first-party MCP server from New Relic for engineers and SREs building AI-assisted observability workflows. Provides AI assistants with access to NRQL query execution, natural language to NRQL conversion, alert management, entity discovery, synthetic monitor listing, deployment impact analysis, golden metrics analysis, Kafka metrics, thread analysis, and log examination. Supports both API key and OAuth 2.0 authentication."

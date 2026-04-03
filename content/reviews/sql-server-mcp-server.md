@@ -1,7 +1,7 @@
 ---
 title: "SQL Server MCP Servers — Enterprise Database Gets AI-Powered Performance Monitoring"
 date: 2026-03-23T23:30:00+09:00
-description: "SQL Server's MCP ecosystem features 15+ dedicated servers, Microsoft's experimental official server, uniquely powerful performance monitoring from PerformanceMonitor (272 stars, 63 MCP tools), and strong multi-database support from DBHub (2.4k stars) and Google Toolbox (13.5k stars). Rating: 3.5/5."
+description: "SQL Server's MCP ecosystem features 15+ dedicated servers, Microsoft's experimental official server, uniquely powerful performance monitoring from PerformanceMonitor (272 stars"
 og_description: "SQL Server MCP ecosystem: PerformanceMonitor (272 stars, 63 tools), RichardHan's mssql_mcp_server (323 stars), Microsoft's experimental official server, DBHub (2.4k stars), Google Toolbox (13.5k stars). The best AI-assisted database performance monitoring. Rating: 3.5/5."
 content_type: "Review"
 card_description: "SQL Server has 15+ dedicated MCP servers plus Microsoft's experimental official server. The standout is PerformanceMonitor (272 stars) with 63 read-only MCP tools for query analysis, wait statistics, and execution plans — unmatched by any database. Multi-database servers DBHub (2.4k stars) and Google Toolbox (13.5k stars) add breadth. AWS notably absent."

@@ -1,7 +1,7 @@
 ---
 title: "Package Management MCP Servers — NuGet, npm, PyPI, Maven, and the Quest for AI-Assisted Dependency Intelligence"
 date: 2026-03-24T22:00:00+09:00
-description: "Package management MCP servers span the full dependency lifecycle: NuGet (official, built into VS 2026), mcp-package-version (122 stars, Go, 9 registries), npm-sentinel-mcp (18 stars, 18+ tools), Homebrew (official, built-in), PyPI query (18 stars, 25+ tools), Maven tools (17 stars, Java). Multi-registry checkers dominate. Rating: 3/5."
+description: "Package management MCP servers span the full dependency lifecycle: NuGet (official, built into VS 2026), mcp-package-version (122 stars, Go, 9 registries), npm-sentinel-mcp (18"
 og_description: "Package management MCP servers: NuGet (official, VS 2026 built-in), mcp-package-version (122 stars, 9 registries), npm-sentinel-mcp (18+ tools), Homebrew (official), PyPI query (25+ tools), Maven tools (17 stars). Rating: 3/5."
 content_type: "Review"
 card_description: "Package management MCP servers cover dependency intelligence across npm, PyPI, Maven, NuGet, Cargo, and more. Microsoft's NuGet MCP server leads with first-party IDE integration — built into Visual Studio 2026 with vulnerability fixing and version management. Homebrew ships an official built-in MCP server for macOS package management. The community-driven mcp-package-version (122 stars, Go) covers 9 registries including Docker Hub and GitHub Actions. npm-sentinel-mcp offers the deepest single-registry analysis with 18+ tools. But vendor investment is thin: only NuGet and Homebrew have official servers."

@@ -1,7 +1,7 @@
 ---
 title: "MCP and Geospatial: How AI Agents Connect to GIS, Mapping, Satellite Imagery, and Spatial Analysis"
 date: 2026-03-29T23:30:00+09:00
-description: "A comprehensive guide to MCP integrations for geospatial work — covering GIS operations servers, QGIS and ArcGIS Pro bridges, CARTO's agentic platform, Mapbox location intelligence, earth observation with Google Earth Engine and Copernicus, NASA data access, spatial data security, and architecture patterns for location-aware AI agents."
+description: "A comprehensive guide to MCP integrations for geospatial work — covering GIS operations servers, QGIS and ArcGIS Pro bridges, CARTO's agentic platform, Mapbox location"
 content_type: "Guide"
 card_description: "GIS meets AI agents through MCP. This guide covers geospatial MCP servers for spatial analysis, mapping platforms like CARTO and Mapbox, satellite imagery from Earth Engine and Copernicus, desktop GIS bridges for QGIS and ArcGIS Pro, and security considerations for location data."
 last_refreshed: 2026-03-29

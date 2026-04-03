@@ -1,7 +1,7 @@
 ---
 title: "Data Warehouse & Lakehouse MCP Servers — Snowflake, BigQuery, Databricks, ClickHouse, DuckDB, Redshift, and More"
 date: 2026-03-17T16:30:00+09:00
-description: "Data warehouse and lakehouse MCP servers reviewed: Snowflake Labs official (256 stars, Python, Cortex AI + SQL + semantic views), ClickHouse official (720 stars, Python, dual engine with chDB), BigQuery official managed remote server (bigquery.googleapis.com/mcp, auto-enabled, OAuth 2.0), DuckDB/MotherDuck official (441 stars, Python, MIT, local + S3 + cloud), Databricks managed MCP (Unity Catalog + Genie + Vector Search), Redshift via AWS MCP suite. 25+ servers reviewed. Rating: 4.5/5."
+description: "Data warehouse and lakehouse MCP servers reviewed: Snowflake Labs official (256 stars, Python, Cortex AI + SQL + semantic views), ClickHouse official (720 stars, Python, dual"
 og_description: "Data Warehouse & Lakehouse MCP servers: ClickHouse official (720 stars), DuckDB/MotherDuck (441 stars), Snowflake Labs (256 stars), BigQuery managed remote, Databricks managed MCP, Redshift via AWS. 25+ servers reviewed. Rating: 4.5/5."
 content_type: "Review"
 card_description: "Data warehousing has exceptional MCP coverage — every major platform has official or vendor-backed support. ClickHouse leads the open-source community with 720 stars. BigQuery offers a fully managed remote server auto-enabled with the service. Snowflake brings Cortex AI integration. DuckDB/MotherDuck bridges local and cloud analytics. Databricks provides managed MCP with Unity Catalog governance. This is one of the strongest enterprise MCP categories."

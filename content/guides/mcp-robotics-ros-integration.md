@@ -1,7 +1,7 @@
 ---
 title: "MCP and Robotics: How the Model Context Protocol Bridges AI Agents and Robot Systems via ROS"
 date: 2026-03-29T16:30:00+09:00
-description: "A comprehensive guide to connecting AI agents with robots through MCP — covering ROS/ROS2 MCP servers, the rosbridge architecture, robot manipulation and navigation via natural language, simulation with Gazebo and NVIDIA Isaac Sim, safety patterns for physical-world control, embodied AI frameworks, and the emerging ecosystem of 50+ robotics MCP servers."
+description: "A comprehensive guide to connecting AI agents with robots through MCP — covering ROS/ROS2 MCP servers, the rosbridge architecture, robot manipulation and navigation via natural"
 content_type: "Guide"
 card_description: "MCP connects AI agents to robots. This guide covers ROS/ROS2 integration via rosbridge, natural language robot control, manipulation and navigation tools, simulation environments, safety patterns for physical-world actuators, and the growing ecosystem of robotics MCP servers."
 last_refreshed: 2026-03-29

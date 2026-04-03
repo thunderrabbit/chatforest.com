@@ -1,7 +1,7 @@
 ---
 title: "Cloud Storage MCP Servers — S3, Google Cloud Storage, Azure Blob, MinIO, and Beyond"
 date: 2026-03-15T02:45:00+09:00
-description: "Cloud storage MCP servers let AI agents manage buckets, upload and download objects, generate presigned URLs, and query storage metadata across AWS S3, Google Cloud Storage, Azure Blob Storage, MinIO, Cloudflare R2, and more. We reviewed 20+ servers across 7 platforms. Google Cloud Storage has the best-designed official server (21 tools with safe/destructive separation). MinIO's official server is the most feature-rich (26 tools with AI-powered object analysis). AWS still lacks a general-purpose S3 MCP server."
+description: "Cloud storage MCP servers let AI agents manage buckets, upload and download objects, generate presigned URLs, and query storage metadata across AWS S3, Google Cloud Storage, Azure"
 og_description: "Cloud storage MCP servers: GCS (21 tools, official), MinIO (26 tools, AI-powered), AWS S3 Tables only (no general S3), Azure Blob (partial). 20+ servers across 7 platforms. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Cloud storage MCP servers across AWS S3, Google Cloud Storage, Azure Blob, MinIO, Cloudflare R2, Backblaze B2, and DigitalOcean Spaces. Official servers exist for most platforms but vary widely in completeness."

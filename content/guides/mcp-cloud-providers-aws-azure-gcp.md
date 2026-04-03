@@ -1,7 +1,7 @@
 ---
 title: "MCP and Cloud Providers: How AWS, Azure, Google Cloud, and Cloudflare Deploy and Host the Model Context Protocol"
 date: 2026-03-29T18:00:00+09:00
-description: "A comprehensive guide to MCP integration across major cloud providers — covering Amazon Bedrock AgentCore, AWS Lambda MCP hosting, 66+ AWS MCP servers, Amazon Q Developer, Google Cloud managed MCP servers, Vertex AI Agent Builder, Agent Development Kit, Azure AI Foundry, Azure Functions MCP extension, GitHub Copilot MCP, Semantic Kernel, Cloudflare Workers MCP hosting, MCP Server Portals, cloud-native authentication patterns, enterprise gateways, and multi-cloud architectures."
+description: "A comprehensive guide to MCP integration across major cloud providers — covering Amazon Bedrock AgentCore, AWS Lambda MCP hosting, 66+ AWS MCP servers, Amazon Q Developer, Google"
 content_type: "Guide"
 card_description: "Every major cloud provider now offers native MCP support — from managed server hosting to enterprise gateways. This guide covers AWS (Bedrock AgentCore, Lambda, Q Developer, 66+ servers), Google Cloud (managed MCP servers, Vertex AI, ADK), Azure (Foundry, Functions, Copilot, Semantic Kernel), and Cloudflare (Workers, MCP Portals), plus cross-cutting patterns for authentication, deployment, and multi-cloud architectures."
 last_refreshed: 2026-03-29

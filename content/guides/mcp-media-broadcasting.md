@@ -1,7 +1,7 @@
 ---
 title: "MCP and Media: How AI Agents Connect to Video Production, Audio Tools, Content Management, Streaming Platforms, and Creative Workflows"
 date: 2026-03-29T23:55:00+09:00
-description: "A comprehensive guide to MCP integrations for media and broadcasting — covering video production (FFmpeg, Blender), audio and speech (ElevenLabs, Whisper, DAWs), content management systems (WordPress, Ghost, Sanity), YouTube and video platforms, social media management, image and video generation, streaming platforms (Plex, *arr), and architecture patterns for AI-assisted media workflows."
+description: "A comprehensive guide to MCP integrations for media and broadcasting — covering video production (FFmpeg, Blender), audio and speech (ElevenLabs, Whisper, DAWs), content"
 content_type: "Guide"
 card_description: "Media and broadcasting is adopting AI agents to automate video production, audio processing, content management, and creative workflows. This guide covers 80+ MCP servers for video editing (FFmpeg, Blender), audio production (ElevenLabs, REAPER, Ableton), CMS platforms (WordPress, Ghost, Sanity), YouTube integration, social media management, image/video generation (ComfyUI, Sora), streaming platforms (Plex), transcription (Whisper), and architecture patterns for AI-assisted media operations."
 last_refreshed: 2026-03-29

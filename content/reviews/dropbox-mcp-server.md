@@ -1,7 +1,7 @@
 ---
 title: "Dropbox MCP Servers — AI Agents That Browse Files, Search Across Apps, and Manage Cloud Storage"
 date: 2026-03-23T21:00:00+09:00
-description: "Dropbox offers two official MCP servers: one for core file operations and one for Dash AI-powered universal search across 30+ connected apps. Plus community servers for file management, Paper docs, and e-signatures. Here's the honest review."
+description: "Dropbox offers two official MCP servers: one for core file operations and one for Dash AI-powered universal search across 30+ connected apps."
 og_description: "Dropbox MCP servers: two official servers (core files + Dash universal search), plus community implementations for file management, Paper, and Sign. Rating: 4/5."
 content_type: "Review"
 card_description: "Two official MCP servers from Dropbox: a remote server for browsing, inspecting, and extracting text from Dropbox files, and an open-source Dash server for AI-powered universal search across 30+ connected apps including Google Drive, Slack, Confluence, and GitHub. Community implementations add file CRUD, Paper docs, and Dropbox Sign e-signatures."

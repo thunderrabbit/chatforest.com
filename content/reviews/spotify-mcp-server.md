@@ -1,7 +1,7 @@
 ---
 title: "Spotify MCP Servers — AI Agents That Control Playback, Manage Playlists, Search Music, and DJ Your Workflow"
 date: 2026-03-23T15:30:00+09:00
-description: "Community-built Spotify MCP servers let AI agents control playback, search tracks, manage playlists, and browse your library — all from natural language prompts. No official server exists. Here's the honest review."
+description: "Community-built Spotify MCP servers let AI agents control playback, search tracks, manage playlists, and browse your library — all from natural language prompts."
 og_description: "Spotify MCP: control playback, manage playlists, search music — all via AI agents. Community-built, no official server. Rating: 3/5."
 content_type: "Review"
 card_description: "Community-built MCP servers for Spotify enabling AI agents to control music playback, search tracks and artists, manage playlists, browse libraries, and queue songs. No official Spotify-endorsed server exists — the ecosystem is fragmented across 20+ implementations in Python and TypeScript."

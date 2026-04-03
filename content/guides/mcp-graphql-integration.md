@@ -1,7 +1,7 @@
 ---
 title: "MCP and GraphQL: Why GraphQL Is Becoming the Backend for AI Agent Tools"
 date: 2026-03-28T22:00:00+09:00
-description: "A comprehensive guide to integrating MCP with GraphQL APIs — covering Apollo MCP Server, mcp-graphql, WunderGraph, Agoda APIAgent, token efficiency patterns, Microsoft Fabric integration, security considerations, and when GraphQL beats REST for AI agent tooling."
+description: "A comprehensive guide to integrating MCP with GraphQL APIs — covering Apollo MCP Server, mcp-graphql, WunderGraph, Agoda APIAgent, token efficiency patterns, Microsoft Fabric"
 content_type: "Guide"
 card_description: "GraphQL's schema introspection, selective field queries, and type safety make it a natural fit for MCP. Here's how to connect AI agents to your GraphQL APIs — and when it actually makes sense."
 last_refreshed: 2026-03-28

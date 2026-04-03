@@ -1,7 +1,7 @@
 ---
 title: "Square MCP Server — AI-Powered Commerce with Payments, Orders, Inventory, Loyalty, and Full API Access"
 date: 2026-03-23T22:00:00+09:00
-description: "Square's official MCP server gives AI assistants access to 40+ API services including payments, orders, inventory, customers, loyalty, invoices, subscriptions, bookings, and team management. Both hosted remote and local server options available. Here's the honest review."
+description: "Square's official MCP server gives AI assistants access to 40+ API services including payments, orders, inventory, customers, loyalty, invoices, subscriptions, bookings, and team management."
 og_description: "Square MCP: 40+ API services for payments, orders, inventory, loyalty, bookings. Official first-party from Block, Apache 2.0. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Official first-party MCP server from Square (Block, Inc.) for developers and merchants building AI-assisted commerce workflows. Provides AI assistants with access to 40+ Square API services including payment processing, order management, catalog and inventory, customer management, loyalty programs, gift cards, invoices, subscriptions, bookings, team management, and more. Available as both a hosted remote server with OAuth and a local stdio server with access token authentication."

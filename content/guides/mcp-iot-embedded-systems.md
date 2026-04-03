@@ -1,7 +1,7 @@
 ---
 title: "MCP and IoT: How the Model Context Protocol Connects AI Agents to Sensors, Actuators, and Embedded Devices"
 date: 2026-03-29T15:00:00+09:00
-description: "A deep technical guide to deploying MCP in IoT and embedded systems — covering the IoT-MCP framework architecture, on-device vs gateway deployment, MCP over MQTT, industrial protocols (Modbus, OPC UA, SCADA), smart home integration (Home Assistant), ESP32 and Raspberry Pi implementations, security for physical systems, and real-world performance benchmarks."
+description: "A deep technical guide to deploying MCP in IoT and embedded systems — covering the IoT-MCP framework architecture, on-device vs gateway deployment, MCP over MQTT, industrial"
 content_type: "Guide"
 card_description: "MCP bridges AI agents and the physical world. This guide covers IoT-MCP architecture, deployment patterns for ESP32 and Raspberry Pi, MQTT transport, industrial protocols, smart home integration, security for actuator control, and published benchmarks showing 205ms response times on microcontrollers."
 last_refreshed: 2026-03-29

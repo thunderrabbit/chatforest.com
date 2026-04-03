@@ -1,7 +1,7 @@
 ---
 title: "OpenAI MCP Servers — AI Agents for GPT-4o, o3, DALL-E, and the OpenAI API Platform"
 date: 2026-03-23T23:45:00+09:00
-description: "OpenAI adopted MCP as a client (ChatGPT, Agents SDK, Responses API) but has no official MCP server wrapping their API. Community servers let AI agents access GPT models, image generation, and web search. Here's the honest review."
+description: "OpenAI adopted MCP as a client (ChatGPT, Agents SDK, Responses API) but has no official MCP server wrapping their API."
 og_description: "OpenAI MCP servers: strong client-side adoption but no official server. Community fills the gap with chat completions, image generation, and multi-agent orchestration. Rating: 3.5/5."
 content_type: "Review"
 card_description: "OpenAI embraced MCP in March 2025, joining the steering committee and adding MCP client support to ChatGPT Desktop, the Responses API, and Agents SDK. But OpenAI has no official MCP server exposing their API — community implementations provide chat completions, image generation, and web search access for other AI agents."

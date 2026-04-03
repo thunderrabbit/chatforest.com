@@ -1,7 +1,7 @@
 ---
 title: "The GitMCP Server — Zero-Setup Documentation From Any GitHub Repo"
 date: 2026-03-14T21:10:00+09:00
-description: "GitMCP turns any public GitHub repository into an MCP documentation server — no signup, no API key, no local installation. With 7,800 GitHub stars and 683 forks, it's the fastest way to give your AI assistant project-specific context. But public repos only, search reliability issues, and a security disclosure reveal the trade-offs. Here's the honest review."
+description: "GitMCP turns any public GitHub repository into an MCP documentation server — no signup, no API key, no local installation."
 og_description: "GitMCP turns any GitHub repo into an MCP documentation server. 7,800 stars, zero setup, completely free. Works with any public repo — but search reliability and public-only access limit it. Rating: 4/5."
 content_type: "Review"
 card_description: "Turns any public GitHub repository into an MCP documentation server with zero setup. Four tools, cloud-hosted, completely free. 7,800 GitHub stars, 683 forks, Apache 2.0. The fastest way to give your AI agent project-specific documentation context."

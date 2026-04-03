@@ -1,7 +1,7 @@
 ---
 title: "MCP + AI Agent Frameworks: LangChain, CrewAI, OpenAI Agents SDK & More"
 date: 2026-03-28T23:50:00+09:00
-description: "How to integrate MCP servers with popular AI agent frameworks. Covers LangChain/LangGraph, CrewAI, OpenAI Agents SDK, and PydanticAI with code examples, transport options, multi-server patterns, and framework comparison."
+description: "How to integrate MCP servers with popular AI agent frameworks."
 content_type: "Guide"
 card_description: "Every major AI agent framework now supports MCP. Learn how to connect MCP servers to LangChain, CrewAI, OpenAI Agents SDK, and PydanticAI — with working code examples and practical comparisons."
 last_refreshed: 2026-03-28

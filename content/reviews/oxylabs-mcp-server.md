@@ -1,7 +1,7 @@
 ---
 title: "Oxylabs MCP Server — Two Scraping Engines in One, With the Fastest Stress Test Times"
 date: 2026-03-23T22:00:00+09:00
-description: "The Oxylabs MCP Server combines a traditional Web Scraper API with AI-powered extraction tools in a single Python package. 86 GitHub stars, MIT license, 8 tools across two modes. Here's the honest review."
+description: "The Oxylabs MCP Server combines a traditional Web Scraper API with AI-powered extraction tools in a single Python package. 86 GitHub stars, MIT license, 8 tools across two modes."
 og_description: "Oxylabs MCP Server: dual-engine web scraping for AI agents. 86 stars, MIT license, 8 tools (Web Scraper API + AI Studio), 75% search accuracy, fastest stress test completion (31.7s avg). Free trials for both engines. Rating: 3/5."
 content_type: "Review"
 card_description: "Dual-engine web scraping for AI agents. Combines traditional Web Scraper API (proxies, anti-bot, structured parsers) with AI Studio (AI-powered extraction, crawling, browser automation). Two free trials. Python-based, Claude Desktop and Cursor support."

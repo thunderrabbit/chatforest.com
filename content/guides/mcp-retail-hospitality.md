@@ -1,7 +1,7 @@
 ---
 title: "MCP and Retail/Hospitality: How AI Agents Connect to POS Systems, E-Commerce Platforms, Hotel Property Management, Restaurant Operations, and Payment Processing"
 date: 2026-03-29T22:00:00+09:00
-description: "A comprehensive guide to MCP integrations for retail and hospitality — covering point-of-sale systems, e-commerce platforms, inventory management, hotel property management, restaurant operations, payment processing, CRM/loyalty, analytics, and architecture patterns for AI-assisted commerce."
+description: "A comprehensive guide to MCP integrations for retail and hospitality — covering point-of-sale systems, e-commerce platforms, inventory management, hotel property management"
 content_type: "Guide"
 card_description: "Retail and hospitality are rapidly adopting MCP for AI-powered commerce. This guide covers 70+ MCP servers across POS (Square official 95 stars), e-commerce (Shopify built-in on every store, WooCommerce 83 stars, Magento 53 stars), hotel PMS (Apaleo first hotel MCP, Airbnb 406 stars), restaurant operations (Uber Eats 216 stars, DoorDash 22 stars), payments (Stripe 1,400 stars official, PayPal, Adyen), CRM (Salesforce 312 stars, HubSpot 100+ tools), inventory (Dynamics 365, Pipe17), Google's Universal Commerce Protocol, and architecture patterns for agentic commerce."
 last_refreshed: 2026-03-29

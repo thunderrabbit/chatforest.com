@@ -1,7 +1,7 @@
 ---
 title: "Message Queue MCP Servers — Kafka, RabbitMQ, Pulsar, NATS, SQS, and Beyond"
 date: 2026-03-15T03:04:00+09:00
-description: "Message queue MCP servers let AI agents produce and consume messages, manage topics and queues, monitor clusters, and orchestrate event streaming across Kafka, RabbitMQ, Pulsar, NATS, SQS, Google Pub/Sub, Azure Service Bus, and IBM MQ. We reviewed 25+ servers across 10 platforms. Confluent leads with 37+ tools covering Kafka, Flink SQL, and Schema Registry. Google Pub/Sub has the strongest official MCP story with managed remote endpoints and IAM-native auth."
+description: "Message queue MCP servers let AI agents produce and consume messages, manage topics and queues, monitor clusters, and orchestrate event streaming across Kafka, RabbitMQ, Pulsar"
 og_description: "Message queue MCP servers: Confluent (37+ tools, official), Google Pub/Sub (official remote, OAuth), AWS SQS/SNS (official, IAM), RabbitMQ (Amazon MQ official), Redis Streams (official). 25+ servers across 10 platforms. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Message queue MCP servers across Kafka, RabbitMQ, Pulsar, NATS, SQS, Google Pub/Sub, Azure Service Bus, and IBM MQ. Official servers exist for most major platforms, with Kafka having the most fragmented community (8+ implementations)."

@@ -1,7 +1,7 @@
 ---
 title: "MCP Logging & Observability: Debugging Servers You Can't See Into"
 date: 2026-03-28T23:30:00+09:00
-description: "How to add logging and observability to MCP servers — covering the notifications/message protocol, structured logging patterns, distributed tracing with OpenTelemetry, and the tools that make MCP debugging practical."
+description: "How to add logging and observability to MCP servers — covering the notifications/message protocol, structured logging patterns, distributed tracing with OpenTelemetry, and the"
 content_type: "Guide"
 card_description: "MCP servers run as separate processes, often via stdio. When something goes wrong, you need logging that actually works. Here's how."
 last_refreshed: 2026-03-28

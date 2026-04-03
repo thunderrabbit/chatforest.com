@@ -1,7 +1,7 @@
 ---
 title: "MCP and Gaming: How AI Agents Connect to Game Engines, 3D Tools, Analytics, and Game Development Workflows"
 date: 2026-03-29T18:00:00+09:00
-description: "A comprehensive guide to MCP integrations for gaming and game development — covering game engine servers for Unity, Unreal Engine, Godot, Roblox, and Defold, 3D modeling tools like Blender MCP, game analytics platforms (GameAnalytics, OP.GG), NPC and narrative AI, and architecture patterns for AI-assisted game development."
+description: "A comprehensive guide to MCP integrations for gaming and game development — covering game engine servers for Unity, Unreal Engine, Godot, Roblox, and Defold, 3D modeling tools"
 content_type: "Guide"
 card_description: "Game development is being transformed by AI agents. This guide covers MCP servers for Unity, Unreal Engine, Godot, Roblox, and Defold, 3D asset creation with Blender MCP, game analytics with GameAnalytics and OP.GG, NPC dialogue and narrative AI, and architecture patterns for AI-assisted game development."
 last_refreshed: 2026-03-29

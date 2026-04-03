@@ -2,7 +2,7 @@
 title: "The PagerDuty MCP Server — 60+ Tools for Incident Management With the Most Comprehensive Write API in the Category"
 date: 2026-03-14T16:20:00+09:00
 lastmod: 2026-03-21T00:00:00+09:00
-description: "PagerDuty's official MCP server gives AI agents full incident lifecycle management — incidents, schedules, escalation policies, event orchestrations, status pages, and teams. Both hosted and self-hosted, with read-only defaults and explicit write opt-in. Now with Spring 2026 AI ecosystem expansion and multi-agent cloud integrations."
+description: "PagerDuty's official MCP server gives AI agents full incident lifecycle management — incidents, schedules, escalation policies, event orchestrations, status pages, and teams."
 og_description: "PagerDuty's MCP server gives AI agents 60+ tools for incident management, on-call, and event orchestration. Both hosted and self-hosted, Apache-2.0. Rating: 4/5."
 content_type: "Review"
 card_description: "PagerDuty's official MCP server for AI-assisted incident management. 60+ tools across 13 categories — incidents, schedules, event orchestrations, status pages, teams. Both hosted and self-hosted options. Spring 2026 AI ecosystem expansion with Azure/AWS multi-agent support."

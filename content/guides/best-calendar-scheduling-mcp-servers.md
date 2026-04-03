@@ -1,7 +1,7 @@
 ---
 title: "Best Calendar & Scheduling MCP Servers in 2026 — Google Calendar vs Outlook vs Apple vs Booking Platforms"
 date: 2026-03-22T22:00:00+09:00
-description: "We compared 20+ calendar and scheduling MCP servers across Google Calendar, Microsoft Outlook, Apple Calendar, Cal.com, Calendly, and CalDAV. Here's which ones are worth using — and which approach fits your workflow."
+description: "We compared 20+ calendar and scheduling MCP servers across Google Calendar, Microsoft Outlook, Apple Calendar, Cal.com, Calendly, and CalDAV."
 og_description: "20+ calendar & scheduling MCP servers compared: Google Calendar, Outlook, Apple Calendar, Cal.com, Calendly, CalDAV. Honest recommendations from research."
 content_type: "Comparison"
 card_description: "google-calendar-mcp (1,100 stars, 12 tools, multi-account) vs ms-365-mcp-server (547 stars, 70+ tools) vs mcp-ical (281 stars, macOS native) vs Calendly (official hosted) vs Cal.com (official) — plus CalDAV, multi-provider, and self-hosted options."

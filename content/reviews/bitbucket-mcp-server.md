@@ -1,7 +1,7 @@
 ---
 title: "Bitbucket MCP Servers — The Missing Piece in Atlassian's AI Strategy"
 date: 2026-03-23T23:55:00+09:00
-description: "Atlassian's official MCP server supports Jira and Confluence but not Bitbucket. Community servers fill the gap — MatanYemini/bitbucket-mcp (109 stars, 25+ tools), aashari's server (132 stars, 6 generic tools), garc33's Bitbucket Server/DC server (57 stars, 21 tools) — but no clear leader has emerged."
+description: "Atlassian's official MCP server supports Jira and Confluence but not Bitbucket."
 og_description: "Bitbucket MCP ecosystem: no official support from Atlassian, community-only with 132 max stars, fragmented across Cloud vs Server/DC. Rating: 2.5/5."
 content_type: "Review"
 card_description: "Atlassian's official MCP server covers Jira, Confluence, and Compass — but pointedly excludes Bitbucket. Community developers have stepped in with multiple servers for Cloud and Server/Data Center, but the ecosystem remains fragmented with no dominant player. This is the weakest MCP ecosystem among the Big 3 Git hosting platforms."

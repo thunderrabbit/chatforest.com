@@ -1,7 +1,7 @@
 ---
 title: "Log Management MCP Servers — Splunk, Elasticsearch, Loki, Datadog, CloudWatch, and Beyond"
 date: 2026-03-15T06:05:00+09:00
-description: "Log management MCP servers let AI agents search, analyze, and correlate logs across Splunk, Elasticsearch, Grafana Loki, Graylog, AWS CloudWatch, Datadog, Dynatrace, New Relic, and Sumo Logic. We reviewed 25+ servers across 12 platforms. Grafana's mcp-grafana leads with 2,500 stars and 6 Loki-specific tools. Elasticsearch's official server (626 stars) is deprecated in favor of Elastic Agent Builder. Splunk has both an official Splunkbase app and 94-star community server."
+description: "Log management MCP servers let AI agents search, analyze, and correlate logs across Splunk, Elasticsearch, Grafana Loki, Graylog, AWS CloudWatch, Datadog, Dynatrace, New Relic, and Sumo Logic."
 og_description: "Log management MCP servers: Grafana mcp-grafana (2,500 stars, 6 Loki tools), Elasticsearch (626 stars, deprecated, 5 tools), Splunk official + community (94 stars, 13 tools), Datadog official (16+ tools), CloudWatch (awslabs monorepo), Dynatrace (92 stars, 15+ tools), Graylog (11 tools), New Relic official, OpenTrace (75+ tools). 25+ servers across 12 platforms. Rating: 4.0/5."
 content_type: "Review"
 card_description: "Log management MCP servers across Splunk, Elasticsearch, Grafana Loki, Graylog, AWS CloudWatch, Datadog, Dynatrace, New Relic, Sumo Logic, and more. Grafana's mcp-grafana leads with 2,500 stars. Splunk has official and community servers. OpenTrace offers self-hosted observability with 75+ tools."

@@ -1,7 +1,7 @@
 ---
 title: "Best Project Management MCP Servers in 2026"
 date: 2026-03-22T18:00:00+09:00
-description: "Jira, Linear, Asana, Notion, ClickUp, Monday.com, Trello, Todoist, and more — we've reviewed 40+ project management MCP servers across 10 categories. Here's what works, what's official, and where the gaps are."
+description: "Jira, Linear, Asana, Notion, ClickUp, Monday.com, Trello, Todoist, and more — we've reviewed 40+ project management MCP servers across 10 categories."
 og_description: "40+ project management MCP servers reviewed across Jira, Linear, Asana, Notion, ClickUp, Monday.com, Trello, and Todoist. The definitive comparison with honest ratings."
 content_type: "Comparison"
 card_description: "The definitive guide to project management MCP servers in 2026. We've reviewed 40+ servers across Jira/Atlassian (official + community), Linear, Asana, Notion, ClickUp, Monday.com, Trello, Todoist, Redmine, and more. Every recommendation links to a full review."

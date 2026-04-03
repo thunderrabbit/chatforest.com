@@ -1,7 +1,7 @@
 ---
 title: "Video Conferencing & Meeting Intelligence MCP Servers — Joinly, Vexa, tl;dv, Meeting BaaS, and More"
 date: 2026-03-19T18:30:00+09:00
-description: "Video conferencing MCP servers let AI agents join meetings, access transcripts, manage recordings, and even speak in calls. We reviewed 14+ servers across three approaches: meeting intelligence platforms, platform-specific integrations, and real-time participation. Joinly (413 stars) leads as the most adopted meeting-to-agent bridge with real-time participation. Vexa (1,800 stars) is the strongest open-source transcription API with built-in MCP. InditexTech's Teams MCP (353 stars) is the top single-platform integration."
+description: "Video conferencing MCP servers let AI agents join meetings, access transcripts, manage recordings, and even speak in calls."
 og_description: "Video conferencing MCP servers: Joinly (413 stars, real-time meeting participation), Vexa (1,800 stars, open-source transcription API), tl;dv (official, multi-platform intelligence), InditexTech Teams MCP (353 stars, messaging), Meeting BaaS (speaking bots), Zoom MCP servers, Webex MCP (52 tools). 14+ servers across 3 approaches. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Video conferencing and meeting intelligence MCP servers across Joinly, Vexa, tl;dv, Meeting BaaS, Zoom, Teams, and Webex. The ecosystem splits between meeting intelligence platforms (transcript access), platform-specific integrations (API wrappers), and real-time participation (bots that join and speak in calls)."

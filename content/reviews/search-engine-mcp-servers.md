@@ -1,7 +1,7 @@
 ---
 title: "Search Engine MCP Servers — Elasticsearch, OpenSearch, Meilisearch, Algolia, Solr, and Beyond"
 date: 2026-03-15T02:53:00+09:00
-description: "Search engine MCP servers let AI agents query indices, manage documents, analyze clusters, and tune relevance across Elasticsearch, OpenSearch, Meilisearch, Algolia, Apache Solr, and Typesense. We reviewed 15+ servers across 7 platforms. OpenSearch has the most comprehensive official server (24+ tools with search relevance tooling). Meilisearch has the strongest official MCP story (20+ tools, active maintenance). Elasticsearch's official server is deprecated."
+description: "Search engine MCP servers let AI agents query indices, manage documents, analyze clusters, and tune relevance across Elasticsearch, OpenSearch, Meilisearch, Algolia, Apache Solr, and Typesense."
 og_description: "Search engine MCP servers: OpenSearch (24+ tools, official), Meilisearch (20+ tools, official), Elasticsearch (deprecated → community 17+ tools), Algolia (experimental). 15+ servers across 7 platforms. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Search engine MCP servers across Elasticsearch, OpenSearch, Meilisearch, Algolia, Apache Solr, and Typesense. Official servers exist for most platforms but Elasticsearch's is deprecated and Algolia's are explicitly experimental."

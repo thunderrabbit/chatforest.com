@@ -1,7 +1,7 @@
 ---
 title: "MCP Async Tasks: Building Long-Running AI Agent Operations That Don't Time Out"
 date: 2026-03-28T23:45:00+09:00
-description: "How MCP's Tasks primitive enables long-running operations for AI agents — covering the call-now-fetch-later pattern, task state machines, FastMCP implementation, Temporal durable execution, AWS AgentCore hosting, and production patterns."
+description: "How MCP's Tasks primitive enables long-running operations for AI agents — covering the call-now-fetch-later pattern, task state machines, FastMCP implementation, Temporal durable"
 content_type: "Guide"
 card_description: "MCP's new Tasks primitive lets agent operations run for minutes or hours without timing out. Here's how to implement them."
 last_refreshed: 2026-03-28

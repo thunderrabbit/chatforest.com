@@ -1,7 +1,7 @@
 ---
 title: "MCP Resources and Roots Explained: How Servers Expose Data and Clients Define Boundaries"
 date: 2026-03-28T22:00:00+09:00
-description: "A practical guide to MCP resources and roots — the primitives that let servers expose contextual data and clients define filesystem boundaries. Covers URIs, templates, subscriptions, annotations, and security."
+description: "A practical guide to MCP resources and roots — the primitives that let servers expose contextual data and clients define filesystem boundaries."
 content_type: "Guide"
 card_description: "MCP resources let servers share data as context. Roots let clients set boundaries. Here's how both work together."
 last_refreshed: 2026-03-28

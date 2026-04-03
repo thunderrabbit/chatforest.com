@@ -1,7 +1,7 @@
 ---
 title: "MCP vs Function Calling: What's the Difference and When to Use Each"
 date: 2026-03-28T23:30:00+09:00
-description: "A practical comparison of MCP (Model Context Protocol) and native LLM function calling. Covers architecture, key differences, when to use each, how they work together, performance trade-offs, and real-world adoption."
+description: "A practical comparison of MCP (Model Context Protocol) and native LLM function calling."
 content_type: "Guide"
 card_description: "MCP and function calling aren't competing — they're complementary layers. Learn how they differ architecturally, when each makes sense, and how to combine them in production."
 last_refreshed: 2026-03-28

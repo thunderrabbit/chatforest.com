@@ -1,7 +1,7 @@
 ---
 title: "MCP Performance Testing and Benchmarking: How to Measure, Profile, and Optimize Model Context Protocol Servers"
 date: 2026-03-29T19:30:00+09:00
-description: "A comprehensive guide to MCP performance testing — covering published benchmarks (Java 0.84ms, Rust 4,845 RPS, Python 259 RPS ceiling), k6 extensions (Grafana xk6-mcp, Infobip), transport comparisons (stdio vs Streamable HTTP with session pooling as a 10x lever), profiling with OpenTelemetry and FastMCP, load testing frameworks (pytest-mcp, k6, Locust), memory leak detection, token efficiency optimization, pagination strategies, and production-scale patterns."
+description: "A comprehensive guide to MCP performance testing — covering published benchmarks (Java 0.84ms, Rust 4,845 RPS, Python 259 RPS ceiling), k6 extensions (Grafana xk6-mcp, Infobip)"
 content_type: "Guide"
 card_description: "Published benchmarks show Java and Go MCP servers at sub-millisecond latency and 1,600+ RPS, while Python peaks at 259 RPS. Session pooling delivers 10x throughput gains. This guide covers benchmarking with k6 extensions, OpenTelemetry profiling, transport comparisons, memory leak detection, token efficiency (CSV saves 29%), and production patterns from the MCP ecosystem."
 last_refreshed: 2026-03-29

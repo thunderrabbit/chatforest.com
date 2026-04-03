@@ -1,7 +1,7 @@
 ---
 title: "MailerSend MCP Server — Full Email Management From Your AI Agent"
 date: 2026-03-23T10:30:00+09:00
-description: "MailerSend's official MCP server gives AI agents 34+ tools for sending emails, managing domains, configuring webhooks, verifying addresses, and pulling analytics — all through natural language. Cloud-hosted, Streamable HTTP transport, OAuth auth, beta. Free tier at 500 emails/mo. Here's the honest review."
+description: "MailerSend's official MCP server gives AI agents 34+ tools for sending emails, managing domains, configuring webhooks, verifying addresses, and pulling analytics — all through natural language."
 og_description: "MailerSend MCP: 34+ tools for email, domains, webhooks, verification, analytics. Cloud-hosted, Streamable HTTP, OAuth. Rating: 4/5."
 content_type: "Review"
 card_description: "Official first-party cloud-hosted MCP server for MailerSend's transactional email platform. 34+ tools covering email sending, domain management, webhook configuration, email verification, template management, and analytics. Streamable HTTP transport, OAuth authentication, beta status."

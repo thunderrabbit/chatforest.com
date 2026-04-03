@@ -1,7 +1,7 @@
 ---
 title: "MCP and Manufacturing: How AI Agents Connect to PLCs, Industrial IoT, CAD Systems, ERP Platforms, Robotics, and Smart Factory Operations"
 date: 2026-03-29T19:00:00+09:00
-description: "A comprehensive guide to MCP integrations for manufacturing and industrial operations — covering PLC and SCADA connectivity, industrial IoT platforms, CAD/CAM automation, ERP/MES integration, robotics, 3D printing, predictive maintenance, digital twins, and architecture patterns for AI-assisted smart factory operations."
+description: "A comprehensive guide to MCP integrations for manufacturing and industrial operations — covering PLC and SCADA connectivity, industrial IoT platforms, CAD/CAM automation, ERP/MES"
 content_type: "Guide"
 card_description: "Manufacturing generates vast amounts of sensor, equipment, and process data across disconnected systems. This guide covers 60+ manufacturing MCP servers for PLC connectivity (OPC-UA 25 stars, Siemens S7, Beckhoff TwinCAT, Modbus), industrial IoT (ThingsBoard official 94 stars, IoT-Edge 22 stars), CAD/CAM (Blender 18K+ stars, FreeCAD 61 stars, OpenSCAD 137 stars, Autodesk), ERP (SAP, Dynamics 365, Odoo), robotics (ROS 1,121 stars, Universal Robots), 3D printing, predictive maintenance, digital twins, and architecture patterns for smart factory AI workflows."
 last_refreshed: 2026-03-29

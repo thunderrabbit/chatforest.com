@@ -1,7 +1,7 @@
 ---
 title: "Azure & Microsoft MCP Servers — 47+ Services, VS 2026 Built-In, and the Enterprise MCP Bet"
 date: 2026-03-20T16:00:00+09:00
-description: "Microsoft ships a unified Azure MCP Server covering 47+ Azure services via a single binary, plus 16+ specialized servers for DevOps, Fabric, M365, and more. 2,800 stars on the microsoft/mcp monorepo. The most enterprise-integrated MCP ecosystem, now built into Visual Studio 2026."
+description: "Microsoft ships a unified Azure MCP Server covering 47+ Azure services via a single binary, plus 16+ specialized servers for DevOps, Fabric, M365, and more."
 og_description: "Azure MCP servers: one unified server for 47+ Azure services, plus DevOps, Fabric, M365 servers. Built into VS 2026. Rating: 4/5."
 content_type: "Review"
 card_description: "Microsoft's MCP ecosystem — one unified Azure MCP Server covering 47+ services (databases, compute, AI, security, storage), plus Azure DevOps (1,400 stars), Microsoft Fabric, M365, and more. Built into Visual Studio 2026."

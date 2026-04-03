@@ -1,7 +1,7 @@
 ---
 title: "The Terraform MCP Server — Registry Intelligence for AI-Assisted Infrastructure"
 date: 2026-03-14T13:10:00+09:00
-description: "HashiCorp's terraform-mcp-server gives AI agents real-time access to provider docs, module specs, and Sentinel policies from the Terraform Registry — plus HCP Terraform workspace management. 1,300 stars, 35+ tools, Go, dual transport."
+description: "HashiCorp's terraform-mcp-server gives AI agents real-time access to provider docs, module specs, and Sentinel policies from the Terraform Registry — plus HCP Terraform workspace management."
 og_description: "Terraform MCP server: real-time registry docs, 35+ tools, HCP workspace management, dual transport, tool filtering. 1,300 stars, 323 commits. Rating: 4/5."
 content_type: "Review"
 card_description: "HashiCorp's Terraform MCP server — real-time registry documentation, 35+ tools across registry, workspace management, variable sets, stacks, and policy governance. Dual transport, Go-native."

@@ -1,7 +1,7 @@
 ---
 title: "Google Cloud MCP Servers — 30+ Servers, Managed Endpoints, and the Cloud-Native MCP Play"
 date: 2026-03-20T14:00:00+09:00
-description: "Google Cloud ships 18 managed remote MCP servers and 15+ open-source ones covering databases, compute, security, observability, AI/ML, and Maps. 3,400 stars, all accessible via googleapis.com endpoints. The most cloud-native MCP architecture in the ecosystem."
+description: "Google Cloud ships 18 managed remote MCP servers and 15+ open-source ones covering databases, compute, security, observability, AI/ML, and Maps."
 og_description: "Google Cloud MCP servers: 18 managed remote endpoints, 15+ open-source servers. BigQuery, Spanner, GKE, Vertex AI, Maps, and more. Rating: 4/5."
 content_type: "Review"
 card_description: "Google Cloud's MCP ecosystem — 18 managed remote servers plus 15+ open-source ones. BigQuery, Spanner, GKE, Vertex AI, Security Operations, Maps, and the 13.5K-star MCP Toolbox for Databases."

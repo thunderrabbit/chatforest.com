@@ -1,7 +1,7 @@
 ---
 title: "AI Agent Workflow Patterns: Building Multi-Step Automation with MCP"
 date: 2026-03-28T15:00:00+09:00
-description: "How to build multi-step AI agent workflows using MCP — covering workflow patterns (sequential, parallel, conditional, human-in-the-loop), framework comparisons (LangGraph, CrewAI, OpenAI Agents SDK, Mastra), guardrails, error handling, and cost optimization."
+description: "How to build multi-step AI agent workflows using MCP — covering workflow patterns (sequential, parallel, conditional, human-in-the-loop), framework comparisons (LangGraph, CrewAI"
 content_type: "Guide"
 card_description: "A single AI prompt is useful. A multi-step workflow that chains tool calls, makes decisions, and recovers from failures is where agents become genuinely productive."
 last_refreshed: 2026-03-28

@@ -1,7 +1,7 @@
 ---
 title: "Best File & Storage MCP Servers in 2026 — Local Filesystem vs Cloud Storage vs Enterprise Platforms"
 date: 2026-03-22T14:00:00+09:00
-description: "We compared 30+ file and storage MCP servers across local filesystem, Google Drive, AWS S3, Dropbox, OneDrive, Box, MinIO, and multi-cloud options. Here's which ones are worth using — and which approach fits your workflow."
+description: "We compared 30+ file and storage MCP servers across local filesystem, Google Drive, AWS S3, Dropbox, OneDrive, Box, MinIO, and multi-cloud options."
 og_description: "30+ file & storage MCP servers compared: local filesystem, Google Drive, S3, Dropbox, OneDrive, Box, MinIO. Honest recommendations from research."
 content_type: "Comparison"
 card_description: "Official Filesystem (81K stars monorepo) vs Google Workspace (1,900 stars) vs Box (97 stars, official) vs MinIO (39 stars, official) — plus S3, Dropbox, OneDrive, and multi-cloud adapters."

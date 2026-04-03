@@ -1,7 +1,7 @@
 ---
 title: "Science & Research MCP Servers — 6 Reviews Covering Academic Papers, Scientific Computing, Bioinformatics, Chemistry, Astronomy, and Geospatial"
 date: 2026-03-25T00:30:00+09:00
-description: "Comprehensive reviews of 6 Science & Research MCP server categories — from academic papers and scientific computing to bioinformatics, chemistry, astronomy, and geospatial mapping. 170+ servers evaluated across the scientific research ecosystem."
+description: "Comprehensive reviews of 6 Science & Research MCP server categories — from academic papers and scientific computing to bioinformatics, chemistry, astronomy, and geospatial mapping."
 og_description: "6 Science & Research MCP server reviews covering academic papers, scientific computing, bioinformatics, chemistry, astronomy, and geospatial mapping. 170+ servers evaluated."
 content_type: "Category"
 ---

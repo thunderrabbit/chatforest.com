@@ -1,7 +1,7 @@
 ---
 title: "Zapier MCP Server — 8,000+ Apps and 30,000+ Actions for AI Agents"
 date: 2026-03-22T15:30:00+09:00
-description: "Zapier's official MCP server connects AI agents to 8,000+ apps and 30,000+ actions — Gmail, Slack, Salesforce, HubSpot, Google Sheets, and thousands more — through a hosted remote endpoint. No self-hosting, no OAuth plumbing. Task-based pricing (2 Zapier tasks per MCP call). 25 GitHub stars. Here's the honest review."
+description: "Zapier's official MCP server connects AI agents to 8,000+ apps and 30,000+ actions — Gmail, Slack, Salesforce, HubSpot, Google Sheets, and thousands more — through a hosted remote endpoint."
 og_description: "Zapier MCP Server: 8,000+ apps, 30,000+ actions, hosted remote endpoint, OAuth built-in. Task-based pricing. Rating: 3/5."
 content_type: "Review"
 card_description: "Official remote MCP server from the largest automation platform. Connects AI agents to 8,000+ apps through Zapier's hosted infrastructure. Action-by-action configuration via web dashboard. No self-hosting option. Each MCP call costs 2 Zapier tasks."

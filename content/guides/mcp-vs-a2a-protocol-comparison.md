@@ -1,7 +1,7 @@
 ---
 title: "MCP vs A2A: Understanding the Two Protocols Shaping AI Agent Infrastructure"
 date: 2026-03-28T23:00:00+09:00
-description: "A clear comparison of Model Context Protocol (MCP) and Agent-to-Agent Protocol (A2A) — covering architecture, when to use each, how they work together, the broader protocol ecosystem, and practical decision guidance."
+description: "A clear comparison of Model Context Protocol (MCP) and Agent-to-Agent Protocol (A2A) — covering architecture, when to use each, how they work together, the broader protocol"
 content_type: "Guide"
 card_description: "MCP connects agents to tools. A2A connects agents to each other. This guide explains both protocols, when to use which, and how they fit together in real-world AI systems."
 last_refreshed: 2026-03-28

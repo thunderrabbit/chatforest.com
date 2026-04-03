@@ -1,7 +1,7 @@
 ---
 title: "Netlify MCP Server — AI Agents That Deploy, Manage Sites, Handle Extensions, and Go From Prompt to Production"
 date: 2026-03-23T13:45:00+09:00
-description: "Netlify's official MCP server enables AI agents to create sites, deploy projects, manage environment variables, install extensions, and handle access controls — all from natural language prompts. Here's the honest review."
+description: "Netlify's official MCP server enables AI agents to create sites, deploy projects, manage environment variables, install extensions, and handle access controls — all from natural language prompts."
 og_description: "Netlify MCP: deploy sites, manage projects, install extensions, handle env vars — all via AI agents. Official first-party. Rating: 4/5."
 content_type: "Review"
 card_description: "Official first-party MCP server from Netlify for developers building AI-assisted deployment workflows. Enables AI agents to create and deploy sites, manage environment variables and secrets, install and uninstall extensions, configure access controls, fetch user and team information, and manage form submissions — going from prompt to production in a single conversation."

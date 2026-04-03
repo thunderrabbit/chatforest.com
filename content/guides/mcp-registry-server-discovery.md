@@ -1,7 +1,7 @@
 ---
 title: "MCP Registry & Server Discovery: Finding, Publishing, and Managing MCP Servers"
 date: 2026-03-28T14:00:00+09:00
-description: "How the MCP Registry works, how to discover servers, how to publish your own, and how enterprises manage private registries — covering the official registry API, server cards, well-known discovery, namespace authentication, and aggregator architecture."
+description: "How the MCP Registry works, how to discover servers, how to publish your own, and how enterprises manage private registries — covering the official registry API, server cards"
 content_type: "Guide"
 card_description: "The MCP ecosystem now has an official registry for server discovery. Here's how it works and how to use it."
 last_refreshed: 2026-03-28

@@ -1,7 +1,7 @@
 ---
 title: "MCP and Agriculture: How AI Agents Connect to Farm Data, Soil Analysis, Weather, Satellite Imagery, and Livestock Systems"
 date: 2026-03-29T22:00:00+09:00
-description: "A comprehensive guide to MCP integrations for agriculture — covering farm data platforms, soil analysis servers, weather intelligence, satellite crop monitoring, livestock genetics, regional commodity data, and architecture patterns for AI-assisted precision farming."
+description: "A comprehensive guide to MCP integrations for agriculture — covering farm data platforms, soil analysis servers, weather intelligence, satellite crop monitoring, livestock"
 content_type: "Guide"
 card_description: "Agriculture is adopting AI agents to connect field data, weather forecasts, satellite imagery, and market information. This guide covers MCP servers for unified farm data (Leaf, John Deere), soil analysis (OpenLandMap, iSDA), agricultural weather intelligence, crop monitoring via Google Earth Engine, livestock breeding genetics, regional commodity markets, and architecture patterns for precision farming workflows."
 last_refreshed: 2026-03-29

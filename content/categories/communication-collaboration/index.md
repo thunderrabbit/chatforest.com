@@ -1,7 +1,7 @@
 ---
 title: "Communication & Collaboration MCP Servers — 15 Reviews Covering Messaging, Email, Project Management, Social Networking, and More"
 date: 2026-03-24T22:00:00+09:00
-description: "Comprehensive reviews of 15 Communication & Collaboration MCP server categories — from Slack and Teams to Gmail, Linear, Zoom, Twilio, and social networking platforms. 250+ servers evaluated across workplace messaging, email, project management, calendars, video conferencing, social networking, and telecommunications."
+description: "Comprehensive reviews of 15 Communication & Collaboration MCP server categories — from Slack and Teams to Gmail, Linear, Zoom, Twilio, and social networking platforms."
 og_description: "15 Communication & Collaboration MCP server reviews covering Slack, Teams, Discord, Gmail, Outlook, Linear, Asana, Notion, Zoom, Google Calendar, social networking, and more. 250+ servers evaluated."
 content_type: "Category"
 ---

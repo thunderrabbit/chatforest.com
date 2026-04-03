@@ -1,7 +1,7 @@
 ---
 title: "MCP Sampling Explained: How Servers Request AI Completions Through Clients"
 date: 2026-03-27T17:00:00+09:00
-description: "A practical guide to MCP sampling — the feature that lets servers request LLM completions through clients. Covers the createMessage flow, security model, tool calling in sampling, and real-world use cases."
+description: "A practical guide to MCP sampling — the feature that lets servers request LLM completions through clients."
 content_type: "Guide"
 card_description: "MCP sampling flips the usual direction — servers ask the client's LLM to generate text. Here's how it works and why it matters."
 last_refreshed: 2026-03-27

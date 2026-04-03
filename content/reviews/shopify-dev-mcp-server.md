@@ -1,7 +1,7 @@
 ---
 title: "Shopify Dev MCP Server — AI-Powered Shopify Development with Docs, Schema, and Code Validation"
 date: 2026-03-23T23:00:00+09:00
-description: "Shopify's official Dev MCP server gives AI assistants access to Shopify docs, GraphQL schema introspection, and code validation across Admin API, Functions, Liquid, and Polaris. 8 tools, TypeScript, no auth required. Plus: Shopify's Storefront and Customer Accounts MCP servers for commerce. Here's the honest review."
+description: "Shopify's official Dev MCP server gives AI assistants access to Shopify docs, GraphQL schema introspection, and code validation across Admin API, Functions, Liquid, and Polaris."
 og_description: "Shopify Dev MCP: 8 tools for docs search, GraphQL introspection, code validation. Official first-party, no auth. Plus Storefront MCP for AI shopping. Rating: 4/5."
 content_type: "Review"
 card_description: "Official first-party MCP server from Shopify for developers building on the Shopify platform. 8 tools cover documentation search, GraphQL schema introspection, and code validation for Admin API, Functions, Liquid, and Polaris. Runs locally via npx, no authentication required. Shopify also offers Storefront and Customer Accounts MCP servers for AI-powered commerce experiences."

@@ -1,7 +1,7 @@
 ---
 title: "Turso MCP Server — The 17.9K-Star SQLite Database With Built-In AI Agent Access"
 date: 2026-03-23T23:00:00+09:00
-description: "Turso's built-in MCP server gives AI agents direct SQL access to SQLite-compatible databases. 17.9K GitHub stars, 9 tools, MIT license, one-flag setup. Here's the honest review of the database-native MCP approach."
+description: "Turso's built-in MCP server gives AI agents direct SQL access to SQLite-compatible databases. 17.9K GitHub stars, 9 tools, MIT license, one-flag setup."
 og_description: "Turso MCP Server: 17.9K stars, MIT license, 9 MCP tools built into the database CLI. SQLite-compatible, Rust-powered, one-flag setup. Free tier: 5GB storage, 100 databases. Rating: 3.5/5."
 content_type: "Review"
 card_description: "SQLite-compatible database with built-in MCP server. 9 tools for schema inspection, querying, and data modification — activated with a single --mcp flag. Rust-powered, MIT license, works with Claude Desktop, Claude Code, and Cursor."

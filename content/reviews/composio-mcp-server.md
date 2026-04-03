@@ -1,7 +1,7 @@
 ---
 title: "Composio MCP Server — 500+ App Integrations Through a Single Endpoint"
 date: 2026-03-23T15:30:00+09:00
-description: "Composio's MCP server connects AI agents to 500+ apps — Gmail, Slack, GitHub, Notion, Salesforce, and more — through a single managed endpoint with built-in OAuth. 27,500 GitHub stars, MIT license, 1,000+ toolkits, dynamic tool discovery via Rube. Backed by $29M in funding. Here's the honest review."
+description: "Composio's MCP server connects AI agents to 500+ apps — Gmail, Slack, GitHub, Notion, Salesforce, and more — through a single managed endpoint with built-in OAuth."
 og_description: "Composio MCP Server: 500+ app integrations, 1,000+ toolkits, managed OAuth, dynamic tool discovery via Rube. 27.5K GitHub stars, MIT license, $29M funded. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Agentic integration platform exposing 500+ apps as MCP tools. Managed OAuth handles authentication for Gmail, Slack, GitHub, Notion, and hundreds more. Dynamic tool discovery prevents context overload. Single endpoint, multiple AI clients."

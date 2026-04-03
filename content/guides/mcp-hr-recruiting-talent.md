@@ -1,7 +1,7 @@
 ---
 title: "MCP and HR, Recruiting, and Talent Management: How AI Agents Connect to Applicant Tracking Systems, HRIS Platforms, Job Boards, Background Checks, Payroll, and Employee Engagement Tools"
 date: 2026-03-29T15:30:00+09:00
-description: "A comprehensive guide to MCP integrations for HR and recruiting — covering applicant tracking systems (Greenhouse, Lever, Ashby), HRIS platforms (Workday, BambooHR, HiBob), job boards (LinkedIn, Indeed), background checks (Checkr), payroll (Gusto, Deel), talent intelligence, and architecture patterns for AI-powered hiring and workforce management."
+description: "A comprehensive guide to MCP integrations for HR and recruiting — covering applicant tracking systems (Greenhouse, Lever, Ashby), HRIS platforms (Workday, BambooHR, HiBob), job"
 content_type: "Guide"
 card_description: "HR teams juggle dozens of disconnected systems — from applicant tracking to payroll to background checks. This guide covers 80+ MCP servers across the HR and recruiting ecosystem, from Greenhouse and Lever to LinkedIn, Workday, BambooHR, Checkr, and Gusto, plus architecture patterns for AI-powered recruiting pipelines, onboarding automation, and workforce analytics."
 last_refreshed: 2026-03-29

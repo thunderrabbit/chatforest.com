@@ -1,7 +1,7 @@
 ---
 title: "Zep's Graphiti MCP Server — Temporal Knowledge Graphs for AI Agent Memory"
 date: 2026-03-14T22:10:00+09:00
-description: "Graphiti is Zep's open-source temporal knowledge graph framework with a built-in MCP server. Nine tools for episodes, entity search, and fact retrieval across FalkorDB or Neo4j. Here's the honest review."
+description: "Graphiti is Zep's open-source temporal knowledge graph framework with a built-in MCP server. Nine tools for episodes, entity search, and fact retrieval across FalkorDB or Neo4j."
 og_description: "Zep's Graphiti MCP server builds temporal knowledge graphs for AI agents. Nine tools, multi-database support, open source (Apache 2.0), 24.1K stars. Rating: 4/5."
 content_type: "Review"
 card_description: "Zep's Graphiti MCP server for temporal AI agent memory. Nine tools across episode management, entity search, and fact retrieval. Open source, multi-database (FalkorDB/Neo4j), multi-LLM provider support."

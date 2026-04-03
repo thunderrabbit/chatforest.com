@@ -1,7 +1,7 @@
 ---
 title: "MCP and Music/Audio Production: How AI Agents Connect to DAWs, Streaming Platforms, MIDI, Audio Processing, Music Generation, Notation, Podcasting, and Sound Design"
 date: 2026-03-29T23:30:00+09:00
-description: "A comprehensive guide to MCP integrations for music and audio — covering Ableton Live MCP servers (2,300+ stars), Spotify integration (25+ implementations), Reaper (58 tools), MIDI control, AI music generation (Suno, Mureka, MiniMax), ElevenLabs TTS (1,277 stars), music notation (MuseScore, music21), audio analysis, podcast production, sound design, and architecture patterns for AI-assisted music workflows."
+description: "A comprehensive guide to MCP integrations for music and audio — covering Ableton Live MCP servers (2,300+ stars), Spotify integration (25+ implementations), Reaper (58 tools)"
 content_type: "Guide"
 card_description: "Music production is embracing MCP fast. This guide covers 105+ MCP servers across DAWs (Ableton Live 2,300 stars with 200+ tools, Reaper 58 tools, Bitwig, SuperCollider, Sonic Pi), streaming platforms (Spotify 25+ implementations, Apple Music, Last.fm, SoundCloud, Discogs), MIDI control (33 stars, hardware synths, controllers), AI music generation (Mureka 84 stars, MusicGPT 24 tools, muapi-cli 974 stars wrapping Suno + 14 models, MiniMax official), music notation (MuseScore 18+ tools, music21 13 analysis tools, LilyPond), audio processing (FFmpeg-based, Rust audio analyzer), podcast/voice (ElevenLabs official 1,277 stars, Whisper transcription, Kokoro TTS), sound design (Freesound, hardware synth control), plus market data ($6.2B AI in music 2025 → $60B 2034), platform landscape, and ecosystem gaps in rights management, mastering, and live performance."
 last_refreshed: 2026-03-29

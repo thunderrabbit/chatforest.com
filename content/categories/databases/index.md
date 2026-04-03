@@ -1,7 +1,7 @@
 ---
 title: "Database MCP Servers — 26 Reviews Covering Relational, NoSQL, Vector, Graph, Time-Series, Memory, and More"
 date: 2026-03-24T21:00:00+09:00
-description: "Comprehensive reviews of 26 Database MCP servers — 12 category reviews plus 14 individual server deep-dives covering vector databases, AI memory, and database platforms. 100+ servers evaluated across the full data layer."
+description: "Comprehensive reviews of 26 Database MCP servers — 12 category reviews plus 14 individual server deep-dives covering vector databases, AI memory, and database platforms."
 og_description: "26 Database MCP server reviews covering PostgreSQL, MongoDB, Redis, MySQL, SQLite, Supabase, Neon, Turso, Prisma, vector databases, AI memory, graph, time-series, and more. 100+ servers evaluated."
 content_type: "Category"
 ---

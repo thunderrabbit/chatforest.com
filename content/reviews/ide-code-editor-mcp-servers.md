@@ -1,7 +1,7 @@
 ---
 title: "IDE & Code Editor MCP Servers — Your Editor as an AI-Accessible Tool"
 date: 2026-03-23T23:30:00+09:00
-description: "JetBrains is the only major IDE with a built-in MCP server (24 tools since 2025.2). VS Code has community servers (juehang 342 stars, 15 tools; acomagu 113 stars, 13 tools). Neovim's mcp-neovim-server (301 stars, 19 tools) exposes vim operations. Most IDEs are MCP clients — JetBrains flips the script by being an MCP server too."
+description: "JetBrains is the only major IDE with a built-in MCP server (24 tools since 2025.2). VS Code has community servers (juehang 342 stars, 15 tools; acomagu 113 stars, 13 tools)."
 og_description: "IDE MCP servers: JetBrains built-in 24 tools, VS Code community 342 stars, Neovim 301 stars 19 tools. Your editor becomes an AI-accessible tool. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Most IDEs are MCP clients — they connect to external MCP servers. But a growing ecosystem flips this: IDEs as MCP servers, exposing editor capabilities (code analysis, refactoring, debugging, terminal) to external AI agents. JetBrains leads with a built-in MCP server (24 tools since 2025.2) across IntelliJ, PyCharm, WebStorm, and Android Studio. VS Code has community extensions (juehang/vscode-mcp-server 342 stars, 15 tools; acomagu/vscode-as-mcp-server 113 stars, 13 tools). Neovim's mcp-neovim-server (301 stars, 19 tools) exposes vim operations like buffers, marks, registers, and macros. This is the seventh review in our Developer Tools MCP category."

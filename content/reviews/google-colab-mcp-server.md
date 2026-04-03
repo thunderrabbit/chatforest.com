@@ -1,7 +1,7 @@
 ---
 title: "The Google Colab MCP Server — GPU-Powered Notebooks for Your AI Agent"
 date: 2026-03-22T15:00:00+09:00
-description: "Google's official open-source MCP server connects any AI agent to Google Colab notebooks. Session proxy and runtime modes let agents create, edit, and execute code in cloud notebooks with GPU access. Brand new (March 17, 2026), early-stage, but backed by Google. Here's the honest review."
+description: "Google's official open-source MCP server connects any AI agent to Google Colab notebooks."
 og_description: "Google's official Colab MCP server lets AI agents control notebooks with GPU access. Two operational modes, open-source, brand new (March 2026). Rating: 3.5/5."
 content_type: "Review"
 card_description: "Google's official open-source MCP server for Colab. Agents can create notebooks, write and execute Python code, and access GPU runtimes — all through the Model Context Protocol. Two modes: session proxy (browser bridge) and runtime (direct kernel access). Released March 17, 2026."

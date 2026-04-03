@@ -1,7 +1,7 @@
 ---
 title: "Spreadsheet MCP Servers — Google Sheets, Excel, Airtable, Smartsheet, and More"
 date: 2026-03-17T22:50:00+09:00
-description: "Spreadsheet MCP servers reviewed: Excel via haris-musa/excel-mcp-server (3,500 stars, Python, most popular, 20+ tools, no Excel needed), Google Sheets via google_workspace_mcp (1,800 stars, 10+ Google services) and mcp-google-sheets (740 stars, 19 tools), Airtable official MCP server (Feb 2026) + domdomegg community (427 stars, 16 tools), Smartsheet official MCP (15 tools). Rating: 3.5/5."
+description: "Spreadsheet MCP servers reviewed: Excel via haris-musa/excel-mcp-server (3,500 stars, Python, most popular, 20+ tools, no Excel needed), Google Sheets via google_workspace_mcp"
 og_description: "Spreadsheet MCP servers: Excel (3,500 stars, most popular), Google Sheets (1,800 stars workspace, 740 stars dedicated), Airtable (official + 427-star community), Smartsheet (official). Rating: 3.5/5."
 content_type: "Review"
 card_description: "Spreadsheets are the world's most-used data tool — and the MCP ecosystem has responded with dozens of servers. Excel leads with a 3,500-star Python server that needs no Excel installation. Google Sheets has 10+ community options. Airtable and Smartsheet both have official MCP servers. But Google and Microsoft still haven't released official standalone spreadsheet servers."

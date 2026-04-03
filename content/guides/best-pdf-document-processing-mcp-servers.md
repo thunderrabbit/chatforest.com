@@ -1,7 +1,7 @@
 ---
 title: "Best PDF & Document Processing MCP Servers in 2026 — MarkItDown vs Docling vs Pandoc vs Dedicated PDF Tools"
 date: 2026-03-22T23:30:00+09:00
-description: "We compared 25+ PDF and document processing MCP servers across multi-format converters, dedicated PDF readers, PDF manipulation tools, Word document servers, and cloud APIs. Here's which ones are worth using — and which approach fits your workflow."
+description: "We compared 25+ PDF and document processing MCP servers across multi-format converters, dedicated PDF readers, PDF manipulation tools, Word document servers, and cloud APIs."
 og_description: "25+ PDF & document MCP servers compared: MarkItDown, Docling, Pandoc, Stirling PDF, Unstructured, AWS Document Loader. Honest recommendations from research."
 content_type: "Comparison"
 card_description: "MarkItDown (91.4K stars, 29+ formats) vs Docling (56.2K stars, layout analysis) vs markdownify-mcp (2,500 stars, 10 tools) vs mcp-pandoc (517 stars, format conversion) vs pdf-reader-mcp (571 stars, parallel processing) — plus Word, cloud API, and manipulation options."

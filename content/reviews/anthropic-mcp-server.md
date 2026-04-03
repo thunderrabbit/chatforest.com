@@ -1,7 +1,7 @@
 ---
 title: "Anthropic MCP Servers — The Company That Created the Model Context Protocol"
 date: 2026-03-23T12:00:00+09:00
-description: "Anthropic created MCP in November 2024 and maintains the reference servers, SDKs, and specification. Claude Desktop, Claude Code, and Claude.ai are the most mature MCP clients. Here's the full picture of Anthropic's MCP ecosystem."
+description: "Anthropic created MCP in November 2024 and maintains the reference servers, SDKs, and specification. Claude Desktop, Claude Code, and Claude.ai are the most mature MCP clients."
 og_description: "Anthropic created MCP and maintains reference servers (81.8k stars), Python/TypeScript SDKs (34k+ stars combined), and the most mature MCP client ecosystem. Rating: 4.5/5."
 content_type: "Review"
 card_description: "Anthropic created the Model Context Protocol in November 2024 and donated it to the Agentic AI Foundation (Linux Foundation) in December 2025. They maintain 7 reference servers, official Python and TypeScript SDKs, and the most comprehensive MCP client support across Claude.ai, Claude Desktop, Claude Code, and the API."

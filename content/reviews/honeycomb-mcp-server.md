@@ -1,7 +1,7 @@
 ---
 title: "The Honeycomb MCP Server — Event-Based Observability With a Hosted MCP That Replaced Its Own Open-Source Server"
 date: 2026-03-14T18:10:00+09:00
-description: "Honeycomb's MCP integration gives AI agents access to high-cardinality observability data — queries, traces, SLOs, triggers, boards, BubbleUp analysis, heatmaps, and histograms. Now GA with Agent Skills, Automated Investigations, and Slackbot. Here's the honest review."
+description: "Honeycomb's MCP integration gives AI agents access to high-cardinality observability data — queries, traces, SLOs, triggers, boards, BubbleUp analysis, heatmaps, and histograms."
 og_description: "Honeycomb's MCP server gives AI agents access to queries, traces, SLOs, triggers, boards, BubbleUp, heatmaps, and histograms. GA with Agent Skills and expanded capabilities. Rating: 4/5."
 content_type: "Review"
 card_description: "Honeycomb's MCP integration for AI-assisted observability. Query traces, metrics, SLOs, triggers, and boards via natural language. Now GA with Agent Skills, BubbleUp, heatmaps, histograms, and Automated Investigations."

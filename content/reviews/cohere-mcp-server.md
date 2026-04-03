@@ -1,7 +1,7 @@
 ---
 title: "Cohere MCP Server — Enterprise AI's North Star Meets the Model Context Protocol"
 date: 2026-03-23T21:00:00+09:00
-description: "Cohere has no standalone MCP server — instead, their North AI agent platform consumes MCP servers via built-in connectors and custom tool integration, with a North MCP Python SDK for developers building authenticated MCP servers. Here's the full picture."
+description: "Cohere has no standalone MCP server — instead, their North AI agent platform consumes MCP servers via built-in connectors and custom tool integration, with a North MCP Python SDK"
 og_description: "Cohere integrates MCP as a client in North (6+ connectors, custom MCP tool support) with a North MCP Python SDK. Enterprise-focused, $240M ARR, $7B valuation. Not an AAIF member. Rating: 2.5/5."
 content_type: "Review"
 card_description: "Cohere takes an enterprise-client approach to MCP via its North AI agent platform. North connects to Gmail, Slack, Salesforce, Outlook, Linear, and SharePoint, plus any custom MCP server. The North MCP Python SDK lets developers build authenticated MCP servers for the North ecosystem. No official Cohere API MCP server exists."

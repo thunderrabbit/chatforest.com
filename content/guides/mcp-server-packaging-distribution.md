@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Packaging & Distribution: npm, PyPI, Docker, DXT, and the Official Registry"
 date: 2026-03-28T16:00:00+09:00
-description: "A comprehensive guide to packaging and distributing MCP servers — covering npm/npx publishing, PyPI/uvx distribution, Docker containerization (Docker MCP Toolkit, ToolHive), DXT desktop extensions for one-click install, the official MCP Registry with namespace verification, Speakeasy automated generation, mcp-proxy transport bridging, Smithery CLI, and production deployment strategies for stdio-to-HTTP migration."
+description: "A comprehensive guide to packaging and distributing MCP servers — covering npm/npx publishing, PyPI/uvx distribution, Docker containerization (Docker MCP Toolkit, ToolHive), DXT"
 content_type: "Guide"
 card_description: "Building an MCP server is the easy part. Getting it into other people's hands — with the right dependencies, across different platforms, through the right registries — is where most projects stall. The ecosystem now offers at least six distinct distribution paths: npm packages for JavaScript servers, PyPI for Python, Docker containers for isolation, DXT files for one-click desktop install, the official MCP Registry for discovery, and managed platforms for production HTTP deployment. This guide covers every path, with trade-offs, tooling, and step-by-step publishing workflows."
 last_refreshed: 2026-03-28

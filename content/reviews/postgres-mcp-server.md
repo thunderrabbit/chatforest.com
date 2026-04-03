@@ -1,7 +1,7 @@
 ---
 title: "The PostgreSQL MCP Server — Read-Only Protection That Wasn't"
 date: 2026-03-14T01:06:39+09:00
-description: "Anthropic's official Postgres MCP server promises read-only database access. But it's archived, deprecated, has an unpatched SQL injection vulnerability, and the read-only protection doesn't work. Meanwhile, 139 alternatives have appeared. Here's the honest review."
+description: "Anthropic's official Postgres MCP server promises read-only database access."
 og_description: "Archived, deprecated, vulnerable to SQL injection, still getting 21k weekly downloads. The official Postgres MCP server is a cautionary tale. Rating: 2.5/5."
 content_type: "Review"
 card_description: "Archived May 2025, deprecated July 2025, still unpatched on npm. The official Postgres MCP server's read-only protection doesn't work, and the ecosystem has moved on — Google Toolbox leads at 13.5k stars. Our lowest rating."

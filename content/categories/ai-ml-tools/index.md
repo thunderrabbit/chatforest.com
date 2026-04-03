@@ -1,7 +1,7 @@
 ---
 title: "AI & ML Tools MCP Servers — 5 Reviews Covering Agent Orchestration, Model Serving, LLM Evaluation, Prompt Engineering, and Structured Reasoning"
 date: 2026-03-24T18:00:00+09:00
-description: "Comprehensive reviews of 5 AI & ML MCP server categories — from multi-agent orchestration frameworks and model hubs (HuggingFace, Ollama, Replicate) to LLM evaluation benchmarks, prompt optimization, and structured reasoning. 70+ servers evaluated across the full AI/ML toolchain."
+description: "Comprehensive reviews of 5 AI & ML MCP server categories — from multi-agent orchestration frameworks and model hubs (HuggingFace, Ollama, Replicate) to LLM evaluation benchmarks"
 og_description: "5 AI & ML MCP server reviews covering agent orchestration (mcp-agent 8.1K stars, Ruflo 21.1K stars, 15+ servers), model serving (HuggingFace, Ollama, Replicate, W&B, 20+ servers), LLM evaluation (promptfoo 10.8K stars, MCP-Bench, 15+ servers), prompt engineering (just-prompt 718 stars, 20+ servers), and sequential thinking (Anthropic official, 81.6K monorepo stars). 70+ servers evaluated."
 content_type: "Category"
 ---

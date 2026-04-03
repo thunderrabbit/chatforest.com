@@ -1,7 +1,7 @@
 ---
 title: "Business & Productivity MCP Servers — 26 Reviews Covering CRM, ERP, HR, Marketing, Advertising, CMS, Office Suites, Knowledge Management, Scheduling, Workflow Automation, Events, Document Processing, and Desktop RPA"
 date: 2026-03-24T23:45:00+09:00
-description: "Comprehensive reviews of 26 Business & Productivity MCP server categories and individual servers — from CRM and customer support to ERP, HR, marketing automation, advertising, CMS, office suites, knowledge management, calendar scheduling, workflow orchestration, event management, document processing, and desktop automation. 430+ servers evaluated across the business tool ecosystem."
+description: "Comprehensive reviews of 26 Business & Productivity MCP server categories and individual servers — from CRM and customer support to ERP, HR, marketing automation, advertising"
 og_description: "26 Business & Productivity MCP server reviews covering CRM, customer support, ERP, HR, marketing, advertising, CMS, office suites, spreadsheets, note-taking, calendar scheduling, workflow automation, event management, document processing, and desktop RPA. 430+ servers evaluated."
 content_type: "Category"
 ---

@@ -1,7 +1,7 @@
 ---
 title: "MCP and Nonprofits: How AI Agents Connect to Donor Management, Grant Discovery, Fundraising, Volunteer Coordination, Social Impact Data, and Advocacy Platforms"
 date: 2026-03-29T23:00:00+09:00
-description: "A comprehensive guide to MCP integrations for nonprofits and social impact organizations — covering Salesforce NPSP, donor platforms, grant discovery, volunteer management, humanitarian data, government open data, and architecture patterns for AI-assisted nonprofit operations."
+description: "A comprehensive guide to MCP integrations for nonprofits and social impact organizations — covering Salesforce NPSP, donor platforms, grant discovery, volunteer management"
 content_type: "Guide"
 card_description: "Nonprofits are adopting AI agents to connect donor databases, grant opportunities, volunteer systems, and impact data. This guide covers 105+ MCP servers relevant to nonprofit operations — from Salesforce NPSP and QuickBooks to World Bank data, Grants.gov, humanitarian platforms, and communication tools — plus architecture patterns for fundraising intelligence, grant discovery, and program impact analysis."
 last_refreshed: 2026-03-29

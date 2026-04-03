@@ -1,7 +1,7 @@
 ---
 title: "The Memory MCP Server — A Knowledge Graph That Needs a Better Brain"
 date: 2026-03-14T01:31:46+09:00
-description: "The official Knowledge Graph Memory MCP server gives agents persistent memory across conversations. Nine tools, JSONL storage, and a simple entity-relation model — but scalability, context over-sharing, and a surging alternatives landscape hold it back. Updated March 2026."
+description: "The official Knowledge Graph Memory MCP server gives agents persistent memory across conversations."
 og_description: "The official Memory MCP server gives agents persistent memory via a knowledge graph. Simple and useful for small-scale memory, but OWASP-flagged context over-sharing and a booming alternatives market limit it. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Anthropic's knowledge graph memory server for persistent agent context. 61K weekly PulseMCP visitors, ~45K npm downloads — but read_graph context bombing is now an OWASP-recognized risk, and alternatives like Graphiti (24K stars) have pulled far ahead."

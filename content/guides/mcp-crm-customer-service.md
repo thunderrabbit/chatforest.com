@@ -1,7 +1,7 @@
 ---
 title: "MCP and CRM/Customer Service: How AI Agents Connect to Salesforce, HubSpot, Zendesk, Helpdesk Platforms, Live Chat, Contact Centers, and Support Automation Tools"
 date: 2026-03-29T23:45:00+09:00
-description: "A comprehensive guide to 100+ MCP integrations for CRM and customer service — covering Salesforce (official, 312 stars), HubSpot (official, 116 stars), Attio (58 stars), Pipedrive, Zendesk, Freshdesk, Intercom, Pylon, Plain, live chat platforms, contact center tools, communication APIs (Twilio, SendGrid), open-source CRMs (Twenty, Odoo, SuiteCRM), and architecture patterns for AI-powered customer engagement."
+description: "A comprehensive guide to 100+ MCP integrations for CRM and customer service — covering Salesforce (official, 312 stars), HubSpot (official, 116 stars), Attio (58 stars)"
 content_type: "Guide"
 card_description: "CRM and customer service are among the most active MCP ecosystems. This guide covers 100+ MCP servers for Salesforce, HubSpot, Zendesk, Freshdesk, Intercom, Pylon, Plain, Attio, Pipedrive, live chat platforms, contact center tools, communication APIs, and open-source CRMs — plus architecture patterns for AI-powered customer engagement, ticket resolution, and support automation."
 last_refreshed: 2026-03-29

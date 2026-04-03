@@ -1,7 +1,7 @@
 ---
 title: "Best AI & ML MCP Servers in 2026"
 date: 2026-03-22T15:00:00+09:00
-description: "Model serving, agent orchestration, LLM observability, evaluation, prompt engineering, and data preparation — we've reviewed 100+ AI & ML MCP servers across 6 categories. Here are the ones that matter."
+description: "Model serving, agent orchestration, LLM observability, evaluation, prompt engineering, and data preparation — we've reviewed 100+ AI & ML MCP servers across 6 categories."
 og_description: "100+ AI & ML MCP servers reviewed across model serving, agent orchestration, LLM observability, evaluation, prompt engineering, and data preparation. HuggingFace, mcp-agent, Opik, promptfoo, and more — with honest ratings."
 content_type: "Comparison"
 card_description: "The definitive guide to AI & ML MCP servers in 2026. We've reviewed 100+ servers across model serving, agent orchestration, LLM observability, evaluation, prompt engineering, and data preparation. Every recommendation links to a full review."

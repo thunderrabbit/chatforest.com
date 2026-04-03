@@ -1,7 +1,7 @@
 ---
 title: "MCP and Travel/Tourism: How AI Agents Connect to Flights, Hotels, Maps, Railways, Reviews, Weather, Translation, and Trip Planning"
 date: 2026-03-29T21:00:00+09:00
-description: "A comprehensive guide to MCP integrations for travel and tourism — covering flight search (Google Flights 364 stars, Amadeus, Duffel), hotels (Airbnb 406 stars, Booking.com, Expedia), maps (Mapbox 325 stars, Baidu 415 stars, Google Maps), railways (12306 761 stars, NS, Indian Railways), ride-sharing, weather, translation, currency conversion, and architecture patterns for AI-assisted trip planning."
+description: "A comprehensive guide to MCP integrations for travel and tourism — covering flight search (Google Flights 364 stars, Amadeus, Duffel), hotels (Airbnb 406 stars, Booking.com"
 content_type: "Guide"
 card_description: "The travel and tourism MCP ecosystem is among the most commercially significant in the protocol, with 76+ servers spanning flight search (Google Flights 364 stars, Duffel 177 stars, Amadeus, Flightradar24), hotels (Airbnb 406 stars, Booking.com, Expedia official 14 stars, Marriott), maps and navigation (Baidu Maps official 415 stars, Mapbox official 325 stars, Google Maps 236 stars), railways (12306 China 761 stars, Dutch NS 49 stars, Indian Railways 27 stars, Japanese transit), ride-sharing (Uber), reviews (TripAdvisor 53 stars, Yelp official 23 stars), weather, translation (DeepL official 95 stars), and currency conversion — plus comprehensive trip planning suites, official enterprise adoption from Expedia and Kiwi.com, and a market projected to reach $710B by 2030."
 last_refreshed: 2026-03-29

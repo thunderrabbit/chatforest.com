@@ -1,7 +1,7 @@
 ---
 title: "AWS Bedrock MCP Servers — The Cloud Giant's 68-Server MCP Arsenal"
 date: 2026-03-23T18:00:00+09:00
-description: "AWS has the largest official MCP server collection of any company: 68 servers in a single monorepo covering databases, compute, security, cost management, and more. Plus MCP client support in Amazon Q and Bedrock AgentCore."
+description: "AWS has the largest official MCP server collection of any company: 68 servers in a single monorepo covering databases, compute, security, cost management, and more."
 og_description: "AWS publishes 68 official MCP servers (8.5K stars), is an AAIF Platinum member, and offers MCP client support in Amazon Q Developer and Bedrock AgentCore. Rating: 4.5/5."
 content_type: "Review"
 card_description: "AWS operates the largest official MCP server collection: 68 servers in a single Apache 2.0 monorepo covering every major AWS service. Combined with MCP client support in Amazon Q Developer and Bedrock AgentCore, AWS has built the most comprehensive cloud-native MCP ecosystem."

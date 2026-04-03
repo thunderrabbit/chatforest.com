@@ -1,7 +1,7 @@
 ---
 title: "MCP AI Safety: Guardrails, Content Filtering, Sandboxing, and Responsible AI Patterns"
 date: 2026-03-28T21:00:00+09:00
-description: "A comprehensive guide to implementing AI safety with MCP — covering guardrail frameworks (Guardrails AI, NeMo Guardrails, OpenGuardrails), content filtering (Presidio, Skyflow, Pipelock), human-in-the-loop approval patterns, sandbox isolation (Docker MCP Toolkit, ToolHive, Wassette, MCP.run), permission systems (Permit.io, OPA, Cedar), audit logging (OpenTelemetry), cost controls (Bifrost), real-world incidents (30 CVEs in 60 days), and responsible AI frameworks (OWASP MCP Top 10, CoSAI, CSA)."
+description: "A comprehensive guide to implementing AI safety with MCP — covering guardrail frameworks (Guardrails AI, NeMo Guardrails, OpenGuardrails), content filtering (Presidio, Skyflow"
 content_type: "Guide"
 card_description: "MCP gives AI agents real-world capabilities — database access, file operations, API calls, code execution. This guide covers the safety patterns you need: guardrail frameworks, content filtering, sandboxing, human-in-the-loop approvals, permission systems, audit logging, and lessons from real-world incidents."
 last_refreshed: 2026-03-28

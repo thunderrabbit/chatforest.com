@@ -1,7 +1,7 @@
 ---
 title: "Best Security MCP Servers in 2026"
 date: 2026-03-22T10:00:00+09:00
-description: "Code scanning, secret management, threat intelligence, network security, compliance, incident response, and supply chain protection — we've reviewed 100+ security MCP servers across 7 categories. Here are the ones that matter."
+description: "Code scanning, secret management, threat intelligence, network security, compliance, incident response, and supply chain protection — we've reviewed 100+ security MCP servers across 7 categories."
 og_description: "100+ security MCP servers reviewed across code scanning, secrets, threat intel, network security, compliance, DFIR, and supply chain. Snyk, CrowdStrike, Google, Vault, Burp Suite, and more — with honest ratings."
 content_type: "Comparison"
 card_description: "The definitive guide to security MCP servers in 2026. We've reviewed 100+ servers across code scanning, secret management, threat intelligence, network security, compliance, DFIR, and supply chain protection. Every recommendation links to a full review."

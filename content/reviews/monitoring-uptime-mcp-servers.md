@@ -1,7 +1,7 @@
 ---
 title: "Monitoring & Uptime MCP Servers — UptimeRobot, Uptime Kuma, OneUptime, Better Stack, and Beyond"
 date: 2026-03-15T03:20:00+09:00
-description: "Monitoring and uptime MCP servers let AI agents check website availability, manage monitors, investigate incidents, and query status pages across UptimeRobot, Uptime Kuma, OneUptime, Better Stack, and more. We reviewed 10+ servers across 5 platforms. UptimeRobot leads with a hosted official MCP endpoint and full monitor management. OneUptime offers the most comprehensive coverage with 711 API endpoints across 126 resource types."
+description: "Monitoring and uptime MCP servers let AI agents check website availability, manage monitors, investigate incidents, and query status pages across UptimeRobot, Uptime Kuma"
 og_description: "Monitoring & uptime MCP servers: UptimeRobot (official hosted, full CRUD), Uptime Kuma (4+ community servers, open-source), OneUptime (711 endpoints, 126 resources), Better Stack (logs-focused). 10+ servers across 5 platforms. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Monitoring and uptime MCP servers across UptimeRobot, Uptime Kuma, OneUptime, Better Stack, and infrastructure diagnostics. UptimeRobot has the strongest official MCP integration with a hosted endpoint. Uptime Kuma has the most community servers."

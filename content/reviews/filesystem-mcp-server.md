@@ -1,7 +1,7 @@
 ---
 title: "The Filesystem MCP Server — Simple, Useful, and Worth Understanding"
 date: 2026-03-14T01:06:39+09:00
-description: "Anthropic's Filesystem MCP server (81.6K parent repo stars, v2026.1.14, 14 tools) gives AI agents controlled file access with sandboxed directories, partial reads via head/tail, media file support, Docker deployment, and dynamic Roots protocol. #5 on PulseMCP with ~281K weekly visitors. The gold standard reference implementation."
+description: "Anthropic's Filesystem MCP server (81.6K parent repo stars, v2026.1.14, 14 tools) gives AI agents controlled file access with sandboxed directories, partial reads via head/tail"
 og_description: "Anthropic's Filesystem MCP server: 14 tools, v2026.1.14. Partial reads, media files, Roots protocol, Docker, tool annotations. #5 on PulseMCP. Rating: 4.5/5."
 content_type: "Review"
 card_description: "Anthropic's official Filesystem MCP server (81.6K parent repo stars, v2026.1.14) gives AI agents controlled file access within sandboxed directories. Now with 14 tools — partial reads via head/tail, media file support, dry-run edits, Docker deployment, VS Code integration, and dynamic directory control via MCP Roots protocol. The only official server with complete tool annotations. #5 on PulseMCP with ~281K estimated weekly visitors."

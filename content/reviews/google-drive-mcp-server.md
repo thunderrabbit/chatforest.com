@@ -1,7 +1,7 @@
 ---
 title: "Google Drive MCP Servers — AI Agents That Search, Read, Edit, and Organize Your Cloud Documents"
 date: 2026-03-23T22:00:00+09:00
-description: "Google now has official MCP support across all Google services, while community servers offer deep Drive, Docs, Sheets, and Slides integration. From the archived Anthropic reference server to 1.9k-star Workspace tools — here's the honest review."
+description: "Google now has official MCP support across all Google services, while community servers offer deep Drive, Docs, Sheets, and Slides integration."
 og_description: "Google Drive MCP servers: official Google MCP support plus top community implementations for Drive, Docs, Sheets, Slides, and Calendar. Rating: 4/5."
 content_type: "Review"
 card_description: "Google has announced official MCP support for all Google services via managed remote servers. Meanwhile, community implementations like google_workspace_mcp (1.9k stars) and google-docs-mcp (403 stars) provide deep integration with Drive, Docs, Sheets, Slides, Calendar, Gmail, and more. The original Anthropic reference server is archived, but the ecosystem has matured significantly."

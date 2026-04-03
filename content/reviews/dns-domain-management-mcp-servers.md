@@ -1,7 +1,7 @@
 ---
 title: "DNS & Domain Management MCP Servers — Registrars, DNS Providers, WHOIS, and Lookup Tools"
 date: 2026-03-15T06:32:00+09:00
-description: "DNS and domain management MCP servers let AI agents manage DNS records, check domain availability, perform WHOIS lookups, and interact with registrars. We reviewed 30+ servers across registrars (Porkbun, Namecheap, GoDaddy, Dynadot, Spaceship, Hostinger), cloud DNS providers (Cloudflare, AWS Route53, Google Cloud DNS), and diagnostic tools. Spaceship MCP leads with 47 tools across 13 record types. The multi-registrar domain-suite-mcp covers Porkbun, Namecheap, GoDaddy, and Cloudflare in 21 tools. For DNS lookups, cenemil/dns-mcp-server and Globalping offer complementary local and global perspectives."
+description: "DNS and domain management MCP servers let AI agents manage DNS records, check domain availability, perform WHOIS lookups, and interact with registrars."
 og_description: "DNS & domain MCP servers: Spaceship (47 tools, 13 record types), domain-suite-mcp (multi-registrar, 21 tools), Dynadot (106 API actions), Porkbun (read-only default), Namecheap (3+ servers), WHOIS (47 stars), DNS lookups (cenemil, Globalping). 30+ servers reviewed. Rating: 3.5/5."
 content_type: "Review"
 card_description: "DNS and domain management MCP servers across registrars, cloud DNS providers, and diagnostic tools. Spaceship MCP leads with 47 tools across 13 DNS record types. Multi-registrar domain-suite-mcp unifies Porkbun, Namecheap, GoDaddy, and Cloudflare. Dynadot MCP covers 106 API actions. For lookups, cenemil/dns-mcp-server handles local resolution while Globalping provides measurements from global probes."

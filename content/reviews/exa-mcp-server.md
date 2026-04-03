@@ -1,7 +1,7 @@
 ---
 title: "The Exa MCP Server — Semantic Search That Actually Understands What You Mean"
 date: 2026-03-14T02:25:03+09:00
-description: "Exa's official MCP server gives AI agents semantic web search, code search, company research, and deep research capabilities. Updated March 2026 with Exa Deep agentic search, sub-200ms latency, and new API parameters. Nine tools, neural search that outperforms keyword matching, and a generous free tier — but the API dependency and pricing complexity need attention."
+description: "Exa's official MCP server gives AI agents semantic web search, code search, company research, and deep research capabilities."
 og_description: "Exa's official MCP server gives agents semantic search, code context, company research, and deep research. Neural search outperforms keyword matching, but API costs add up. Rating: 4/5."
 content_type: "Review"
 card_description: "Exa's first-party MCP server for AI-native web search. Nine tools spanning semantic search, code search, company research, people search, and autonomous deep research — with neural search that genuinely outperforms keyword matching."

@@ -1,7 +1,7 @@
 ---
 title: "MCP Prompts Explained: How Servers Share Reusable Prompt Templates"
 date: 2026-03-28T23:00:00+09:00
-description: "A practical guide to MCP prompts — the primitive that lets servers expose reusable prompt templates to clients. Covers discovery, arguments, embedded resources, multi-turn conversations, and real-world use cases."
+description: "A practical guide to MCP prompts — the primitive that lets servers expose reusable prompt templates to clients."
 content_type: "Guide"
 card_description: "MCP prompts let servers share ready-made prompt templates that users can invoke like slash commands. Here's how they work."
 last_refreshed: 2026-03-28

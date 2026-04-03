@@ -1,7 +1,7 @@
 ---
 title: "Blender MCP Server — AI-Powered 3D Modeling with a Security Trade-Off"
 date: 2026-03-15T01:30:00+09:00
-description: "BlenderMCP connects Blender to AI agents through the Model Context Protocol, enabling natural language 3D modeling, scene creation, and manipulation. With 17,900 GitHub stars, 114K monthly PyPI downloads, and 841K all-time PulseMCP visitors, it's the most popular creative tool MCP server. But newly reported security vulnerabilities and LLM spatial reasoning limits mean the results range from impressive to unpredictable."
+description: "BlenderMCP connects Blender to AI agents through the Model Context Protocol, enabling natural language 3D modeling, scene creation, and manipulation."
 og_description: "BlenderMCP lets AI agents control Blender through natural language. 17.9K GitHub stars, 114K monthly downloads — but fresh security vulns (SSRF, file read, RCE) and LLM spatial limits temper the magic. Rating: 3.5/5."
 content_type: "Review"
 card_description: "The most popular creative tool MCP server — lets AI agents control Blender through natural language for 3D modeling, scene creation, and manipulation. 17.9K GitHub stars, 114K monthly PyPI downloads, 841K PulseMCP visitors. Impressive demos and new Sketchfab/Hunyuan3D integrations, but multiple reported security vulnerabilities and LLM spatial reasoning limits mean production use requires caution."

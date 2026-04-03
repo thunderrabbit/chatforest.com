@@ -1,7 +1,7 @@
 ---
 title: "MCP and Environmental Monitoring: How AI Agents Connect to Weather Systems, Air Quality Sensors, Satellite Imagery, Carbon Tracking, and Climate Data"
 date: 2026-03-29T14:30:00+09:00
-description: "A comprehensive guide to MCP integrations for environmental monitoring — covering weather and climate data, air quality monitoring, satellite earth observation, carbon emissions tracking, ocean and marine systems, wildfire detection, and architecture patterns for AI-assisted environmental intelligence."
+description: "A comprehensive guide to MCP integrations for environmental monitoring — covering weather and climate data, air quality monitoring, satellite earth observation, carbon emissions"
 content_type: "Guide"
 card_description: "Environmental monitoring generates enormous volumes of sensor, satellite, and climate data across fragmented systems. This guide covers 30+ environmental MCP servers for weather (Weather MCP 16 tools, Open-Meteo 37 stars), satellite imagery (NASA Earthdata official, Microsoft Earth Copilot 140 stars, Copernicus, Planetary Computer), air quality (AQICN), carbon emissions (Climatiq 8 stars), ocean/tides (NOAA), wildfire tracking, and architecture patterns for environmental AI workflows."
 last_refreshed: 2026-03-29

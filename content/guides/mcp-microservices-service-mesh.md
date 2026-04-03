@@ -1,7 +1,7 @@
 ---
 title: "MCP in Microservices: Service Mesh, API Gateways, and Distributed Architecture Patterns"
 date: 2026-03-28T18:00:00+09:00
-description: "A comprehensive guide to deploying MCP servers in microservice architectures — covering sidecar patterns, service mesh integration (Envoy, Istio, Traefik), API gateways (Kong, ContextForge, Docker), service discovery (Consul, Kubernetes), load balancing stateful MCP sessions, distributed tracing (OpenTelemetry, FastMCP), event-driven patterns (Kafka, RabbitMQ, NATS), circuit breakers, and Kubernetes orchestration (ToolHive operator, StatefulSets, HPA)."
+description: "A comprehensive guide to deploying MCP servers in microservice architectures — covering sidecar patterns, service mesh integration (Envoy, Istio, Traefik), API gateways (Kong"
 content_type: "Guide"
 card_description: "MCP servers are becoming first-class microservices. This guide covers the architectural patterns for deploying MCP in distributed systems — sidecar patterns, service mesh integration, API gateways, service discovery, load balancing, distributed tracing, event-driven messaging, and Kubernetes orchestration."
 last_refreshed: 2026-03-28

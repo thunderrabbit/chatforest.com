@@ -1,7 +1,7 @@
 ---
 title: "Event-Driven MCP Patterns: Notifications, Streaming, and Real-Time AI Agents"
 date: 2026-03-28T22:00:00+09:00
-description: "How to build event-driven AI agents with MCP. Covers notifications, resource subscriptions, Streamable HTTP transport, sampling, elicitation, async tasks, and the patterns that make real-time MCP architectures work today."
+description: "How to build event-driven AI agents with MCP."
 content_type: "Guide"
 card_description: "Build real-time AI agents with MCP. Notifications, resource subscriptions, Streamable HTTP streaming, sampling, async tasks — what works today and what's coming."
 last_refreshed: 2026-03-28

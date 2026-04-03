@@ -1,7 +1,7 @@
 ---
 title: "Developer Tools MCP Servers — 48 Reviews Covering the Full Development Lifecycle"
 date: 2026-03-24T20:00:00+09:00
-description: "Comprehensive reviews of 48 Developer Tools MCP server categories and individual servers — from source control to debugging, CI/CD to API gateways, message queues, accessibility, platform-specific tools, frameworks & SDKs to component libraries, plus deep-dives on Context7, Chrome DevTools, Salesforce DX, Shopify Dev, and Google Colab. 425+ servers evaluated across the full software development lifecycle."
+description: "Comprehensive reviews of 48 Developer Tools MCP server categories and individual servers — from source control to debugging, CI/CD to API gateways, message queues, accessibility"
 og_description: "48 Developer Tools MCP server reviews covering source control, CI/CD, containers, registries, API gateways, message queues, accessibility, platform tools, feature flags, frameworks, terminal tools, security, monitoring, and more. 425+ servers evaluated."
 content_type: "Category"
 ---

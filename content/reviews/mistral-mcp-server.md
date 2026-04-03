@@ -1,7 +1,7 @@
 ---
 title: "Mistral AI MCP Server — Europe's Open-Weight Champion Embraces the Model Context Protocol"
 date: 2026-03-23T17:00:00+09:00
-description: "Mistral AI has no standalone MCP server — instead, they built MCP client support directly into Le Chat (20+ connectors) and the Agents API. Plus community OCR and API wrapper servers. Here's the full picture."
+description: "Mistral AI has no standalone MCP server — instead, they built MCP client support directly into Le Chat (20+ connectors) and the Agents API."
 og_description: "Mistral AI integrates MCP as a client in Le Chat (20+ connectors) and Agents API, with Apache 2.0 open-weight models from 3B to 675B. AAIF Silver member. Rating: 3/5."
 content_type: "Review"
 card_description: "Mistral AI takes a client-first approach to MCP, embedding 20+ MCP-powered connectors into Le Chat and full MCP support in the Agents API and Python SDK. No official MCP server exists — Mistral positions its open-weight models and European data sovereignty as the differentiator."

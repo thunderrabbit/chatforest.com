@@ -1,7 +1,7 @@
 ---
 title: "MCP for Testing and QA: AI Agents in Software Testing Pipelines"
 date: 2026-03-28T23:00:00+09:00
-description: "A comprehensive guide to MCP servers for software testing — covering Playwright MCP, Selenium MCP, Appium MCP, browser automation, AI-assisted test generation, visual testing, self-healing tests, CI/CD integration, security considerations, and when MCP-based testing beats traditional automation."
+description: "A comprehensive guide to MCP servers for software testing — covering Playwright MCP, Selenium MCP, Appium MCP, browser automation, AI-assisted test generation, visual testing"
 content_type: "Guide"
 card_description: "AI agents can now browse, click, type, and assert through MCP-connected testing tools. Here's the full landscape — from Playwright MCP's 30K stars to self-healing test pipelines — and when it actually makes sense."
 last_refreshed: 2026-03-28

@@ -1,7 +1,7 @@
 ---
 title: "MCP Workflow Orchestration: Frameworks, Durable Execution, and Production Agent Pipelines"
 date: 2026-03-28T23:45:00+09:00
-description: "A comprehensive guide to MCP workflow orchestration — covering dedicated frameworks (mcp-agent, fast-agent, Mastra), durable execution with Temporal, the code execution pattern for 98.7% token reduction, the inverted agent pattern (SEP-1577), async Tasks (SEP-1686), LangGraph/CrewAI/OpenAI Agents SDK/Claude Agent SDK MCP integration, tool gating, state management, checkpointing, and production case studies from IBM, Microsoft, and inovex."
+description: "A comprehensive guide to MCP workflow orchestration — covering dedicated frameworks (mcp-agent, fast-agent, Mastra), durable execution with Temporal, the code execution pattern"
 content_type: "Guide"
 card_description: "Composing MCP tools into workflows is one thing. Orchestrating them reliably in production — with retries, checkpointing, human-in-the-loop, and durable execution — is another. This guide covers the frameworks and patterns that make MCP workflows production-ready: mcp-agent with Temporal-backed durability, Mastra's graph engine, the code execution pattern that cuts token costs 98.7%, the inverted agent pattern, async Tasks, and lessons from real-world deployments."
 last_refreshed: 2026-03-28

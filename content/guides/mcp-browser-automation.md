@@ -1,7 +1,7 @@
 ---
 title: "MCP Browser Automation: Playwright MCP, Stagehand, Chrome DevTools, and the Agentic Browser Landscape"
 date: 2026-03-28T23:45:00+09:00
-description: "A comprehensive guide to MCP browser automation — covering Playwright MCP (29K+ stars, Microsoft official, accessibility snapshots), Stagehand (21K+ stars, act/extract/observe primitives), Browser-Use (81K+ stars, vision-based Python agent), Chrome DevTools MCP (Google official, debugging + performance), BrowserMCP (Chrome extension, real browser profile), Cloudflare Browser Rendering MCP (edge-deployed), Vercel agent-browser (93% token reduction CLI), Google WebMCP (Chrome 146 Canary, site-declared tools), vision vs accessibility tree trade-offs, and production patterns for building AI-driven browser workflows."
+description: "A comprehensive guide to MCP browser automation — covering Playwright MCP (29K+ stars, Microsoft official, accessibility snapshots), Stagehand (21K+ stars, act/extract/observe"
 content_type: "Guide"
 card_description: "AI agents need to browse the web — but traditional browser automation was built for scripted test suites, not LLM-driven decision making. MCP bridges this gap by exposing browser capabilities as structured tools that agents can invoke. This guide covers the full MCP browser automation landscape: Microsoft's Playwright MCP, Stagehand's natural language primitives, Chrome DevTools MCP, Browser-Use, Cloudflare edge deployment, Vercel's agent-browser CLI, Google's WebMCP standard, the vision vs accessibility tree debate, and production patterns for reliable agentic browsing."
 last_refreshed: 2026-03-28

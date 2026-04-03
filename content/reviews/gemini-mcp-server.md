@@ -1,7 +1,7 @@
 ---
 title: "Google Gemini MCP Servers — The Largest Official MCP Server Ecosystem"
 date: 2026-03-23T18:00:00+09:00
-description: "Google offers the most extensive official MCP server catalog: 12 managed remote servers for Cloud services, 12 open-source servers for Workspace and developer tools, plus Gemini CLI with native MCP client support. Here's the full picture."
+description: "Google offers the most extensive official MCP server catalog: 12 managed remote servers for Cloud services, 12 open-source servers for Workspace and developer tools, plus Gemini"
 og_description: "Google provides 24+ official MCP servers (BigQuery, Maps, Workspace, Firebase), Gemini CLI (98.7k stars) as MCP client, and the google/mcp repo (3.4k stars). Rating: 4/5."
 content_type: "Review"
 card_description: "Google operates the largest official MCP server ecosystem with 12 managed remote servers (BigQuery, Maps, GKE, Cloud SQL, Spanner, Firestore, and more) and 12 open-source servers (Workspace, Firebase, Cloud Run, Analytics). Gemini CLI (98.7k stars) provides native MCP client support, and Gemini API SDKs include built-in MCP integration."

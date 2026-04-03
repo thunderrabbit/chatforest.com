@@ -1,7 +1,7 @@
 ---
 title: "CI/CD Platform MCP Servers: How GitHub, GitLab, Jenkins, CircleCI, and Argo CD Connect to AI Agents"
 date: 2026-03-29T18:00:00+09:00
-description: "A deep dive into MCP integrations for every major CI/CD platform — covering GitHub Actions, GitLab CI, Jenkins, CircleCI, Argo CD, Tekton, Azure DevOps, Harness, and CloudBees with tool inventories, setup patterns, AI code review workflows, AI-powered testing, OWASP MCP Top 10 risks, and real incident case studies."
+description: "A deep dive into MCP integrations for every major CI/CD platform — covering GitHub Actions, GitLab CI, Jenkins, CircleCI, Argo CD, Tekton, Azure DevOps, Harness, and CloudBees"
 content_type: "Guide"
 card_description: "Every major CI/CD platform now has an MCP server. This guide covers platform-specific tool inventories, setup patterns, AI code review and testing workflows, security risks from the OWASP MCP Top 10, and real-world incident case studies."
 last_refreshed: 2026-03-29

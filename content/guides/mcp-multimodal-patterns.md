@@ -1,7 +1,7 @@
 ---
 title: "MCP and Multimodal AI: How Agents Handle Images, Video, Audio, and Rich Media"
 date: 2026-03-28T23:00:00+09:00
-description: "A comprehensive guide to multimodal content in MCP — covering ImageContent, AudioContent, EmbeddedResource content types, image generation servers (DALL-E, Stable Diffusion, Flux), video intelligence (TwelveLabs), audio/speech servers (ElevenLabs, Whisper), large file handling patterns, streaming strategies, and the multimodal roadmap for 2026."
+description: "A comprehensive guide to multimodal content in MCP — covering ImageContent, AudioContent, EmbeddedResource content types, image generation servers (DALL-E, Stable Diffusion"
 content_type: "Guide"
 card_description: "MCP now supports images, audio, and rich media natively. Here's how to build and use multimodal MCP servers — from content types to production patterns."
 last_refreshed: 2026-03-28

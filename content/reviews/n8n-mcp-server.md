@@ -1,7 +1,7 @@
 ---
 title: "n8n MCP Server — Turn Any Workflow Into an AI-Callable Tool"
 date: 2026-03-23T21:00:00+09:00
-description: "n8n's built-in MCP support turns the workflow automation platform into a bidirectional AI hub — expose workflows as MCP tools for Claude, Cursor, and VS Code, while consuming external MCP servers as agent tools. 181,000 GitHub stars, fair-code license, self-hostable, SSE + Streamable HTTP transport, 400+ integrations. $2.5B valuation, $40M ARR. Here's the honest review."
+description: "n8n's built-in MCP support turns the workflow automation platform into a bidirectional AI hub — expose workflows as MCP tools for Claude, Cursor, and VS Code, while consuming"
 og_description: "n8n MCP: expose any workflow as an AI-callable tool. Bidirectional MCP hub — serve tools to Claude/Cursor + consume external MCP servers. 181K GitHub stars, fair-code, self-hosted or cloud. Rating: 4/5."
 content_type: "Review"
 card_description: "Fair-code workflow automation platform with native bidirectional MCP support. Expose any n8n workflow as a tool that Claude Desktop, Cursor, or VS Code can call via SSE or Streamable HTTP. Simultaneously consume external MCP servers as tools within n8n's AI agents. 400+ integrations, self-hostable, no per-call fees."

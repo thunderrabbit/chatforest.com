@@ -1,7 +1,7 @@
 ---
 title: "Shopify MCP Servers — Agentic Commerce Arrives, But It's Still Early"
 date: 2026-03-15T01:45:00+09:00
-description: "Shopify ships two official MCP servers — Dev MCP for building apps and Storefront MCP for AI-powered shopping. Plus a growing ecosystem of community Admin API servers. 414+ stars combined. Here's the honest breakdown."
+description: "Shopify ships two official MCP servers — Dev MCP for building apps and Storefront MCP for AI-powered shopping. Plus a growing ecosystem of community Admin API servers."
 og_description: "Shopify MCP servers: official Dev MCP (414 stars) + Storefront MCP, plus community Admin API servers. Agentic commerce is real but early. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Shopify's MCP ecosystem — official Dev MCP for app development, Storefront MCP for AI-powered shopping, and community servers for Admin API access. Agentic commerce arrives."

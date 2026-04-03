@@ -1,7 +1,7 @@
 ---
 title: "Best Blockchain & Web3 MCP Servers in 2026"
 date: 2026-03-22T23:00:00+09:00
-description: "GOAT, Coinbase AgentKit, EVM MCP Server, Solana MCP, Bitcoin MCP, and more — we've researched 40+ blockchain and Web3 MCP servers across 8 categories. Here's what works, what's emerging, and where the gaps are."
+description: "GOAT, Coinbase AgentKit, EVM MCP Server, Solana MCP, Bitcoin MCP, and more — we've researched 40+ blockchain and Web3 MCP servers across 8 categories."
 og_description: "40+ blockchain and Web3 MCP servers reviewed across multi-chain toolkits, EVM networks, Solana, Bitcoin, DeFi data, NFT/marketplace, Starknet/L2, and market analytics. The definitive comparison with honest ratings."
 content_type: "Comparison"
 card_description: "The definitive guide to blockchain and Web3 MCP servers in 2026. We've researched 40+ servers across multi-chain toolkits, EVM networks, Solana, Bitcoin, DeFi data, NFT marketplaces, L2/alt-chain specialists, and market analytics. Every recommendation links to a full review."

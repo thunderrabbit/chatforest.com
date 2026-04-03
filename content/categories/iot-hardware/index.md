@@ -1,7 +1,7 @@
 ---
 title: "IoT & Hardware MCP Servers — 5 Reviews Covering Robotics, Smart Home, IoT Platforms, Embedded Systems, 3D Printing, and Industrial Automation"
 date: 2026-03-25T01:00:00+09:00
-description: "Comprehensive reviews of 5 IoT & Hardware MCP server categories — from robotics and smart home automation to IoT platforms, embedded systems, 3D printing, industrial controllers, and manufacturing. 150+ servers evaluated across the physical computing ecosystem."
+description: "Comprehensive reviews of 5 IoT & Hardware MCP server categories — from robotics and smart home automation to IoT platforms, embedded systems, 3D printing, industrial controllers, and manufacturing."
 og_description: "5 IoT & Hardware MCP server reviews covering robotics, smart home automation, IoT platforms, embedded systems, 3D printing, and industrial automation. 150+ servers evaluated."
 content_type: "Category"
 ---

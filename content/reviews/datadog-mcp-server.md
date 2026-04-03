@@ -1,7 +1,7 @@
 ---
 title: "The Datadog MCP Server — Enterprise Observability With Agent-Native Tool Design"
 date: 2026-03-14T13:35:10+09:00
-description: "Datadog's official MCP server puts 50+ tools across 14 modular toolsets at your agent's fingertips — logs, metrics, traces, APM, alerting, case management, workflows, database monitoring, error tracking, feature flags, LLM observability, and synthetics. GA since March 9, 2026, with Azure SRE Agent and OpenAI Codex integrations. Here's the honest review."
+description: "Datadog's official MCP server puts 50+ tools across 14 modular toolsets at your agent's fingertips — logs, metrics, traces, APM, alerting, case management, workflows, database"
 og_description: "Datadog's official MCP server: 50+ tools, 14 modular toolsets, GA since March 2026. 22 GitHub stars, ~10.8K weekly PulseMCP visitors. Azure SRE Agent + Codex integrations. Rating: 4/5."
 content_type: "Review"
 card_description: "Datadog's official MCP server for AI-assisted observability. 50+ tools across 14 modular toolsets covering logs, metrics, traces, APM, alerting, case management, workflows, database monitoring, error tracking, feature flags, LLM observability, and synthetics. Remote-first, Streamable HTTP, GA since March 9, 2026."

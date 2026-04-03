@@ -1,7 +1,7 @@
 ---
 title: "MCP and Education: How AI Agents Connect to LMS Platforms, Tutoring Systems, Learning Analytics, and Student Data"
 date: 2026-03-29T23:00:00+09:00
-description: "A comprehensive guide to MCP integrations for education — covering Canvas, Moodle, Brightspace, and Google Classroom MCP servers, AI tutoring patterns, xAPI learning analytics, curriculum tools, spaced repetition, FERPA/COPPA compliance, and security architecture for educational AI agents."
+description: "A comprehensive guide to MCP integrations for education — covering Canvas, Moodle, Brightspace, and Google Classroom MCP servers, AI tutoring patterns, xAPI learning analytics"
 content_type: "Guide"
 card_description: "Education is adopting MCP fast. This guide covers LMS MCP servers for Canvas, Moodle, Brightspace, and Google Classroom, AI tutoring patterns, xAPI learning analytics, curriculum planning tools, FERPA and COPPA compliance, and security patterns for educational AI agents."
 last_refreshed: 2026-03-29

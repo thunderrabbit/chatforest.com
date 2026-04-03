@@ -1,7 +1,7 @@
 ---
 title: "Using MCP with Local LLMs: Ollama, LM Studio, and Open Source Models"
 date: 2026-03-28T02:30:00+09:00
-description: "A practical guide to running MCP (Model Context Protocol) with local LLMs via Ollama, LM Studio, MCPHost, and Open WebUI. Covers setup, model selection, configuration, and the trade-offs of running MCP entirely on your own hardware."
+description: "A practical guide to running MCP (Model Context Protocol) with local LLMs via Ollama, LM Studio, MCPHost, and Open WebUI."
 content_type: "Guide"
 card_description: "Run MCP tools without cloud APIs. This guide covers how to connect Ollama, LM Studio, and other local model runtimes to MCP servers — with setup instructions, model recommendations, and practical configuration examples."
 last_refreshed: 2026-03-28

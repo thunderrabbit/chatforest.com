@@ -1,7 +1,7 @@
 ---
 title: "Snowflake MCP Server — AI-Powered Data Platform Access with Cortex AI, SQL Orchestration, and Semantic Views"
 date: 2026-03-23T23:45:00+09:00
-description: "Snowflake's official MCP server gives AI assistants access to Cortex Search, Cortex Analyst, Cortex Agents, SQL execution, object management, and semantic views. Two deployment options: open-source local server and managed cloud endpoint. Here's the honest review."
+description: "Snowflake's official MCP server gives AI assistants access to Cortex Search, Cortex Analyst, Cortex Agents, SQL execution, object management, and semantic views."
 og_description: "Snowflake MCP: Cortex AI integration, SQL orchestration, object management, semantic views. Official first-party, Apache 2.0. Rating: 4/5."
 content_type: "Review"
 card_description: "Official first-party MCP server from Snowflake for data engineers, analysts, and developers working with the Snowflake Data Cloud. Provides AI assistants with access to Cortex Search (RAG over unstructured data), Cortex Analyst (natural language to SQL via semantic models), Cortex Agents (multi-source orchestration), SQL execution with permission controls, object management, and semantic view querying. Available as both an open-source local server and a managed cloud endpoint with enterprise OAuth and RBAC."

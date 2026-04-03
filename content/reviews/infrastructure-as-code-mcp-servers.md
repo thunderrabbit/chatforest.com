@@ -1,7 +1,7 @@
 ---
 title: "Infrastructure as Code MCP Servers — Terraform, Pulumi, and the IaC Vendors Building AI-Native Infrastructure Workflows"
 date: 2026-03-24T21:00:00+09:00
-description: "Infrastructure as Code MCP servers are vendor-driven: Terraform (1.3k stars, Go, Registry + HCP), Pulumi (remote MCP, Neo delegation), AWS IaC (8.5k stars monorepo, CloudFormation + CDK), OpenTofu (84 stars, TypeScript, Registry), Spacelift Intent (121 stars, Go, natural language provisioning), Ansible (community, 25 stars). Rating: 4/5."
+description: "Infrastructure as Code MCP servers are vendor-driven: Terraform (1.3k stars, Go, Registry + HCP), Pulumi (remote MCP, Neo delegation), AWS IaC (8.5k stars monorepo, CloudFormation"
 og_description: "IaC MCP ecosystem: Terraform (1.3k stars), Pulumi (remote), AWS IaC (CloudFormation/CDK), OpenTofu (84 stars), Spacelift Intent (121 stars). Rating: 4/5."
 content_type: "Review"
 card_description: "Infrastructure as Code MCP servers are where IaC vendors are building AI-native infrastructure workflows. HashiCorp's Terraform MCP server leads (1.3k stars, Go, Registry + HCP Terraform integration, workspace management). Pulumi offers a remote MCP server with Neo delegation for automated infrastructure tasks. AWS bundles CloudFormation and CDK support into a unified IaC MCP server (part of the 8.5k-star awslabs/mcp monorepo). OpenTofu's official server (84 stars, TypeScript) mirrors Terraform's Registry-first approach. Spacelift Intent (121 stars, Go, Apache-2.0) takes the boldest approach — provisioning cloud resources from natural language without generating IaC code."

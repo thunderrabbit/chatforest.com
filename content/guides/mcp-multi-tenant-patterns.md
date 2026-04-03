@@ -1,7 +1,7 @@
 ---
 title: "MCP Multi-Tenant Architecture: Per-Tenant Isolation, Shared Servers, OAuth Identity Propagation, and SaaS Deployment Patterns"
 date: 2026-03-28T22:15:00+09:00
-description: "A comprehensive guide to MCP multi-tenant architecture — covering isolation models (dedicated instance, pooled, hybrid), tenant-aware routing, OAuth 2.1 identity propagation across multi-hop chains, per-tenant data separation (row-level security, namespaced vectors, encrypted storage), gateway patterns (AgentCore Gateway, MCP Plexus, SageMCP, McpToolKit), session management with Redis, rate limiting and cost controls, observability with tenant context, anti-patterns to avoid, and production deployment blueprints for SaaS MCP servers."
+description: "A comprehensive guide to MCP multi-tenant architecture — covering isolation models (dedicated instance, pooled, hybrid), tenant-aware routing, OAuth 2.1 identity propagation"
 content_type: "Guide"
 card_description: "MCP works great for a single user with a local AI assistant. But what happens when you need one MCP server to serve hundreds of tenants — each with their own credentials, data, permissions, and rate limits? This guide covers the three isolation models, OAuth identity propagation across multi-hop chains, tenant-aware data separation, gateway architectures, session management, and production blueprints for multi-tenant MCP deployments."
 last_refreshed: 2026-03-28

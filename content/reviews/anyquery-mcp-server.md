@@ -1,7 +1,7 @@
 ---
 title: "Anyquery MCP Server — SQL Everything: Query 40+ Apps, Files, and Databases from Your AI Agent"
 date: 2026-03-23T15:00:00+09:00
-description: "Anyquery MCP server lets AI agents query 40+ apps (GitHub, Notion, Slack, Gmail), files (CSV, JSON, Parquet), and databases (MySQL, PostgreSQL) using SQL. 1,600 GitHub stars, Go, AGPLv3. The universal data bridge for agents — but plugin setup and AGPL licensing need attention. Here's the honest review."
+description: "Anyquery MCP server lets AI agents query 40+ apps (GitHub, Notion, Slack, Gmail), files (CSV, JSON, Parquet), and databases (MySQL, PostgreSQL) using SQL."
 og_description: "Anyquery MCP server: query 40+ apps with SQL from AI agents. 1,600 stars, Go, AGPLv3. 54 plugins, 13 databases, MySQL server mode. Rating: 4.0/5."
 content_type: "Review"
 card_description: "Query anything with SQL from your AI agent. 1,600 GitHub stars, 54 plugins covering GitHub, Notion, Slack, Gmail, Google Sheets, Todoist, and more. Also queries CSV, JSON, Parquet files and connects to MySQL, PostgreSQL, ClickHouse, DuckDB. Acts as a MySQL-compatible server for BI tools. The widest data access surface of any single MCP server."

@@ -1,7 +1,7 @@
 ---
 title: "MCP and Sports/Fitness: How AI Agents Connect to Wearables, Training Platforms, Sports Data, Nutrition Tracking, and Athletic Performance Analytics"
 date: 2026-03-29T17:00:00+09:00
-description: "A comprehensive guide to MCP integrations for sports and fitness — covering wearable devices (Garmin, Oura, Whoop, Fitbit, Apple Health), training platforms (Strava, TrainingPeaks, Intervals.icu), sports data APIs, nutrition tracking, fantasy sports, workout apps, and architecture patterns for AI-assisted athletic performance."
+description: "A comprehensive guide to MCP integrations for sports and fitness — covering wearable devices (Garmin, Oura, Whoop, Fitbit, Apple Health), training platforms (Strava"
 content_type: "Guide"
 card_description: "The sports and fitness MCP ecosystem is one of the most active community-driven spaces in the protocol. This guide covers 100+ MCP servers across wearables (Garmin 311 stars 96 tools, Oura 113 stars, Apple Health 143 stars, Whoop, Fitbit, COROS, Wahoo), training platforms (Strava 305 stars 25 tools, TrainingPeaks 52 tools, Intervals.icu 48 tools), the Open Wearables platform (1,100 stars unified hub), sports data (BALLDONTLIE 250+ endpoints 18 leagues), nutrition databases (300K+ foods), fantasy sports, and coaching tools — plus architecture patterns, market data ($34B sports tech 2025), and ecosystem gaps."
 last_refreshed: 2026-03-29

@@ -1,7 +1,7 @@
 ---
 title: "MCP on Serverless: Deploying AI Agent Tools on Lambda, Cloudflare Workers, Vercel, and Beyond"
 date: 2026-03-28T23:30:00+09:00
-description: "A comprehensive guide to running MCP servers on serverless platforms — covering AWS Lambda, Cloudflare Workers, Vercel, Azure Functions, Google Cloud Run, Streamable HTTP transport, stateless architecture patterns, cold start mitigation, cost comparison, and when serverless makes sense for AI agent tooling."
+description: "A comprehensive guide to running MCP servers on serverless platforms — covering AWS Lambda, Cloudflare Workers, Vercel, Azure Functions, Google Cloud Run, Streamable HTTP"
 content_type: "Guide"
 card_description: "Serverless platforms can host MCP servers with scale-to-zero economics and global distribution. Here's how to deploy on Lambda, Workers, Vercel, and Azure — and where stateless MCP works (and doesn't)."
 last_refreshed: 2026-03-28

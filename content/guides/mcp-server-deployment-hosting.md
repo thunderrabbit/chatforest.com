@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Deployment & Hosting: Docker, Cloud, Serverless, and Self-Hosted"
 date: 2026-03-28T22:00:00+09:00
-description: "A comprehensive guide to deploying MCP servers in production — covering Docker containers, cloud platforms (AWS, GCP, Azure), serverless (Cloudflare Workers, Vercel), VPS with nginx, and Kubernetes, with working examples and configuration for each."
+description: "A comprehensive guide to deploying MCP servers in production — covering Docker containers, cloud platforms (AWS, GCP, Azure), serverless (Cloudflare Workers, Vercel), VPS with"
 content_type: "Guide"
 card_description: "Your MCP server works locally. Here's how to deploy it everywhere — Docker, cloud, serverless, or your own VPS — with production-ready configuration for each platform."
 last_refreshed: 2026-03-28

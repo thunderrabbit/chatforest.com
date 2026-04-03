@@ -1,7 +1,7 @@
 ---
 title: "iCloud MCP Servers — AI Agents for Apple Calendar, Mail, Contacts, Reminders, and Notes"
 date: 2026-03-23T23:30:00+09:00
-description: "Apple has no official iCloud MCP server, but community projects let AI agents access Calendar, Mail, Contacts, and Reminders via CalDAV, CardDAV, and IMAP. The biggest gap: no iCloud Drive file access. Here's the honest review."
+description: "Apple has no official iCloud MCP server, but community projects let AI agents access Calendar, Mail, Contacts, and Reminders via CalDAV, CardDAV, and IMAP."
 og_description: "iCloud MCP servers: no official Apple server, community implementations for Calendar, Mail, Contacts, and Reminders. No iCloud Drive access. Rating: 2.5/5."
 content_type: "Review"
 card_description: "Apple has no official iCloud MCP server and is only beginning to explore MCP support in iOS/macOS 26.1 betas. Community implementations provide access to Calendar (CalDAV), Mail (IMAP/SMTP), Contacts (CardDAV), and Reminders, but no server offers iCloud Drive file access — the critical gap versus Google Drive, Dropbox, and OneDrive."

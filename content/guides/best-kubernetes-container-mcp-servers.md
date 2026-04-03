@@ -1,7 +1,7 @@
 ---
 title: "Best Kubernetes & Container MCP Servers in 2026 — Native API vs kubectl Wrappers vs Docker Management"
 date: 2026-03-22T10:00:00+09:00
-description: "We compared 30+ Kubernetes and container MCP servers across native API implementations, kubectl wrappers, Docker management, and Helm integration. Here's which ones are worth using — and which approach fits your workflow."
+description: "We compared 30+ Kubernetes and container MCP servers across native API implementations, kubectl wrappers, Docker management, and Helm integration."
 og_description: "30+ Kubernetes & container MCP servers compared: native API vs kubectl wrappers, Docker management, Helm tools. Honest recommendations from research."
 content_type: "Comparison"
 card_description: "containers/kubernetes-mcp-server (1,200 stars, native Go API) vs Flux159 (1,041 stars, TypeScript) vs kubectl-mcp-server (850 stars, 270+ tools) — plus Docker, Helm, and read-only options."

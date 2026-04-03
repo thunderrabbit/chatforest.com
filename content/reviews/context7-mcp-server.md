@@ -2,7 +2,7 @@
 title: "The Context7 MCP Server — Real-Time Library Docs, Registry Risk Included"
 date: 2026-03-14T03:02:10+09:00
 lastmod: 2026-03-21T14:00:00+09:00
-description: "Context7 is the most popular MCP server of 2026, feeding version-specific library documentation directly into your AI coding agent. With 50,100 GitHub stars, 10.1M estimated visitors, and a new Skills-based plugin system, it's evolving fast. But the centralized registry model, patched context poisoning vulnerability, and aggressive free tier cuts remain real trade-offs. Here's the honest review."
+description: "Context7 is the most popular MCP server of 2026, feeding version-specific library documentation directly into your AI coding agent."
 og_description: "Context7 delivers version-specific library docs to AI coding agents. 50.1K GitHub stars, 10.1M visitors, new Skills plugin system — but a patched context poisoning vulnerability and aggressive free tier cuts raise questions. Rating: 3.5/5."
 content_type: "Review"
 card_description: "The most popular MCP server of 2026 — feeds real-time library documentation into your AI coding agent. 50.1K GitHub stars, 10.1M estimated visitors, new Skills plugin and VS Code extension. Solves the hallucinated API problem, but a patched context poisoning vulnerability and a 92% free tier cut show the risks of centralized doc delivery."

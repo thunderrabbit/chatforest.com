@@ -1,7 +1,7 @@
 ---
 title: "Using MCP Across AI Platforms: Claude, ChatGPT, Gemini, Copilot, and More"
 date: 2026-03-28T14:00:00+09:00
-description: "How to use MCP servers with every major AI platform — covers Claude Desktop and Code, ChatGPT Apps and Agents SDK, Google Gemini CLI and Cloud, Microsoft Copilot Studio, Amazon Q Developer, plus cross-platform configuration patterns and tips."
+description: "How to use MCP servers with every major AI platform — covers Claude Desktop and Code, ChatGPT Apps and Agents SDK, Google Gemini CLI and Cloud, Microsoft Copilot Studio, Amazon Q"
 content_type: "Guide"
 card_description: "Build an MCP server once, use it everywhere. This guide covers MCP configuration for Claude, ChatGPT, Gemini, Copilot, Amazon Q, and coding tools — with platform comparison, config examples, and cross-platform tips."
 last_refreshed: 2026-03-28

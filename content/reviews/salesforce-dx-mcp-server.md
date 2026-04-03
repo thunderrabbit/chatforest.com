@@ -1,7 +1,7 @@
 ---
 title: "Salesforce DX MCP Server — AI-Powered Salesforce Development with 60+ Tools for LWC, Metadata, DevOps, and SOQL"
 date: 2026-03-23T23:30:00+09:00
-description: "Salesforce's official DX MCP server gives AI assistants 60+ tools for Lightning Web Components, metadata deployment, SOQL queries, code analysis, DevOps Center, and Aura-to-LWC migration. Part of Salesforce's three-server MCP ecosystem alongside Heroku and MuleSoft. Here's the honest review."
+description: "Salesforce's official DX MCP server gives AI assistants 60+ tools for Lightning Web Components, metadata deployment, SOQL queries, code analysis, DevOps Center, and Aura-to-LWC migration."
 og_description: "Salesforce DX MCP: 60+ tools across 15 toolsets for LWC, metadata, SOQL, code analysis, DevOps. Official first-party, Apache 2.0. Rating: 4/5."
 content_type: "Review"
 card_description: "Official first-party MCP server from Salesforce for developers working on the Salesforce platform. 60+ tools organized into 15 toolsets cover Lightning Web Components, metadata deployment and retrieval, SOQL queries, code analysis, DevOps Center workflows, Aura-to-LWC migration, and mobile development. Runs locally via npx with Salesforce CLI authentication. Part of Salesforce's broader MCP ecosystem including Heroku and MuleSoft MCP servers."

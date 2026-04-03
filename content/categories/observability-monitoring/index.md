@@ -1,7 +1,7 @@
 ---
 title: "Observability & Monitoring MCP Servers — 10 Reviews Covering Grafana, Datadog, Sentry, PagerDuty, New Relic, Honeycomb, Log Management, Uptime Monitoring, and LLM Observability"
 date: 2026-03-24T15:30:00+09:00
-description: "Comprehensive reviews of 10 Observability & Monitoring MCP server categories — from full-stack platforms like Grafana, Datadog, and New Relic to error tracking, incident management, log aggregation, uptime monitoring, and LLM observability. 75+ servers evaluated across the entire observability stack."
+description: "Comprehensive reviews of 10 Observability & Monitoring MCP server categories — from full-stack platforms like Grafana, Datadog, and New Relic to error tracking, incident"
 og_description: "10 Observability & Monitoring MCP server reviews covering Grafana (2,600+ stars), Datadog (50+ tools), Sentry (603 stars), PagerDuty (60+ tools), New Relic, Honeycomb, log management, uptime monitoring, and LLM observability. 75+ servers evaluated."
 content_type: "Category"
 ---

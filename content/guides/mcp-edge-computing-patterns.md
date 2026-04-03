@@ -1,7 +1,7 @@
 ---
 title: "MCP at the Edge: Deploying AI Agent Tools Closer to Users, Devices, and Data"
 date: 2026-03-28T23:45:00+09:00
-description: "A comprehensive guide to running MCP servers at the edge — covering Cloudflare Workers, Fastly Compute, Vercel Edge Functions, IoT devices (ESP32, Raspberry Pi), WebAssembly runtimes (wasmcp, Wassette), edge databases (Turso, D1), MCP over MQTT, on-device AI patterns, CDN-level caching, and when edge MCP beats centralized deployment."
+description: "A comprehensive guide to running MCP servers at the edge — covering Cloudflare Workers, Fastly Compute, Vercel Edge Functions, IoT devices (ESP32, Raspberry Pi), WebAssembly"
 content_type: "Guide"
 card_description: "Edge computing brings MCP servers closer to users, devices, and data. This guide covers edge platforms, IoT integration, WASM runtimes, edge databases, and the architectural patterns that make sub-10ms tool calls possible."
 last_refreshed: 2026-03-28

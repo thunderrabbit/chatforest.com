@@ -1,7 +1,7 @@
 ---
 title: "Secret Management MCP Servers — Vault, 1Password, Bitwarden, Infisical, and Beyond"
 date: 2026-03-15T04:22:00+09:00
-description: "Secret management MCP servers let AI agents store, retrieve, rotate, and audit secrets across HashiCorp Vault, 1Password, Bitwarden, AWS Secrets Manager, Azure Key Vault, Infisical, Doppler, and CyberArk. We reviewed 15+ servers across 10 platforms. HashiCorp's official Vault MCP server leads enterprise users with KV, PKI, and mount management. Bitwarden's official MCP server has the broadest password manager feature set at 129 stars."
+description: "Secret management MCP servers let AI agents store, retrieve, rotate, and audit secrets across HashiCorp Vault, 1Password, Bitwarden, AWS Secrets Manager, Azure Key Vault"
 og_description: "Secret management MCP servers: HashiCorp Vault (official, 16 tools, 35 stars), Bitwarden (official, 30+ tools, 129 stars), 1Password (community, 66 tools via op-mcp), Infisical (official, 9 tools), Doppler (official), AWS Secrets Manager, Azure Key Vault (7 tools), Vault Radar (4 tools). 15+ servers across 10 platforms. Rating: 4.0/5."
 content_type: "Review"
 card_description: "Secret management MCP servers across HashiCorp Vault, 1Password, Bitwarden, Infisical, Doppler, AWS, Azure, and CyberArk. Vault's official server handles KV secrets, PKI certificates, and mount management. Bitwarden covers full vault and org administration. Two 1Password community servers offer 8 to 66 tools."

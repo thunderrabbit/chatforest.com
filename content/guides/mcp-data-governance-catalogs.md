@@ -1,7 +1,7 @@
 ---
 title: "MCP and Data Governance: How AI Agents Connect to Data Catalogs, Lineage, and Metadata Platforms"
 date: 2026-03-29T21:00:00+09:00
-description: "A comprehensive guide to MCP integrations for data governance — covering DataHub, Atlan, Collibra, OpenMetadata, Databricks Unity Catalog, Alation, Google Dataplex, Microsoft Purview, Secoda, and Informatica IDMC with tool inventories, architecture patterns, security challenges, and governance best practices."
+description: "A comprehensive guide to MCP integrations for data governance — covering DataHub, Atlan, Collibra, OpenMetadata, Databricks Unity Catalog, Alation, Google Dataplex, Microsoft"
 content_type: "Guide"
 card_description: "Every major data catalog now ships an MCP server. This guide covers DataHub, Atlan, Collibra, OpenMetadata, Databricks Unity Catalog, Alation, Secoda, Dataplex, Purview, and Informatica — with tool inventories, governance patterns, security analysis, and production recommendations."
 last_refreshed: 2026-03-29

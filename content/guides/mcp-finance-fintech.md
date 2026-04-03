@@ -1,7 +1,7 @@
 ---
 title: "MCP and Finance: How AI Agents Connect to Market Data, Banking, Payments, Crypto, and Accounting Systems"
 date: 2026-03-29T23:45:00+09:00
-description: "A comprehensive guide to MCP integrations for finance and fintech — covering market data servers (Alpha Vantage, Bloomberg, Financial Datasets, EODHD), banking platforms (Personetics, Plaid, Grasshopper), payment processing (Stripe), cryptocurrency and DeFi (CoinGecko, Solana, blockchain MCPs), accounting integrations (QuickBooks, Xero, Dynamics 365), and security considerations for financial AI agents."
+description: "A comprehensive guide to MCP integrations for finance and fintech — covering market data servers (Alpha Vantage, Bloomberg, Financial Datasets, EODHD), banking platforms"
 content_type: "Guide"
 card_description: "Finance is going agentic. This guide covers market data MCP servers for Alpha Vantage, Bloomberg, and Financial Datasets, banking integrations with Personetics and Plaid, Stripe payments, crypto and DeFi servers, accounting connections, enterprise platforms, and security for financial AI agents."
 last_refreshed: 2026-03-29

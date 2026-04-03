@@ -1,7 +1,7 @@
 ---
 title: "The ReactBits MCP Server — 135+ Animated React Components for AI Coding Agents"
 date: 2026-03-23T18:00:00+09:00
-description: "ReactBits MCP server gives AI coding assistants access to 135+ animated React components from ReactBits.dev — searchable, with CSS and Tailwind variants, demo code, and dependency info. 38 GitHub stars, 5 tools, TypeScript. Here's the honest review."
+description: "ReactBits MCP server gives AI coding assistants access to 135+ animated React components from ReactBits.dev — searchable, with CSS and Tailwind variants, demo code, and dependency info."
 og_description: "ReactBits MCP server: 135+ animated React components for AI agents. Search, browse, get source code with CSS/Tailwind variants. 38 stars, 5 tools. Rating: 3.5/5."
 content_type: "Review"
 card_description: "ReactBits MCP server gives AI coding assistants direct access to 135+ animated React components from the ReactBits.dev library (24k+ GitHub stars). Browse by category, search by name, get source code in CSS or Tailwind variants, and generate demo code — all through 5 MCP tools. Community-built, TypeScript, MIT license."

@@ -1,7 +1,7 @@
 ---
 title: "CI/CD MCP Servers — Build Pipelines Get an AI Interface"
 date: 2026-03-23T22:00:00+09:00
-description: "CI/CD platforms are embracing MCP with official servers from Jenkins (71 stars, Java plugin), CircleCI (80 stars, 15 tools), and Buildkite (48 stars, Go). Plus community Argo CD (356 stars, 12 tools) and GitHub Actions (40 stars, being archived). Jenkins leads with 47% CI/CD market share but the MCP ecosystem is early and fragmented."
+description: "CI/CD platforms are embracing MCP with official servers from Jenkins (71 stars, Java plugin), CircleCI (80 stars, 15 tools), and Buildkite (48 stars, Go)."
 og_description: "CI/CD MCP ecosystem: Jenkins official plugin, CircleCI 15 tools, Buildkite remote MCP, Argo CD 356 stars. Official servers from 4 platforms, community GitOps. Rating: 3/5."
 content_type: "Review"
 card_description: "CI/CD platforms are building MCP servers, led by Jenkins (official plugin, 15 tools), CircleCI (15 tools with flaky test detection and rollback), Buildkite (official Go server with remote hosting), and community Argo CD (356 stars, 12 tools for GitOps). GitHub Actions support is being absorbed into the official GitHub MCP server. The ecosystem is early — no platform offers full pipeline-as-code authoring through MCP yet."

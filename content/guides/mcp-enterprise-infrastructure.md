@@ -1,7 +1,7 @@
 ---
 title: "Building Enterprise MCP Infrastructure: Governance, Access Control, and Audit at Scale"
 date: 2026-03-28T21:30:00+09:00
-description: "How enterprises deploy MCP at scale — covering governance models, shared server registries, gateway architecture, access control policies, audit logging, compliance frameworks, and the 2026 enterprise-managed authorization extension."
+description: "How enterprises deploy MCP at scale — covering governance models, shared server registries, gateway architecture, access control policies, audit logging, compliance frameworks"
 content_type: "Guide"
 card_description: "One developer running an MCP server locally is simple. Rolling it out to 500 engineers with compliance requirements is a different problem entirely."
 last_refreshed: 2026-03-28

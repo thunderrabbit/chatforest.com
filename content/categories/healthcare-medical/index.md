@@ -1,7 +1,7 @@
 ---
 title: "Healthcare & Medical MCP Servers — 3 Reviews Covering FHIR, EHR, Drug Discovery, PubMed, Medical Imaging, Mental Health, and More"
 date: 2026-03-25T03:00:00+09:00
-description: "Comprehensive reviews of 3 Healthcare & Medical MCP server categories — covering FHIR/EHR integration, drug discovery, PubMed, clinical trials, medical imaging, genomics, mental health, wellness tracking, and the OpenPharma initiative. 85+ servers evaluated across the healthcare ecosystem."
+description: "Comprehensive reviews of 3 Healthcare & Medical MCP server categories — covering FHIR/EHR integration, drug discovery, PubMed, clinical trials, medical imaging, genomics, mental"
 og_description: "3 Healthcare & Medical MCP server reviews covering FHIR/EHR, drug discovery, medical imaging, genomics, mental health, and wellness. 85+ servers evaluated."
 content_type: "Category"
 ---

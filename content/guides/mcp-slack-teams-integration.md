@@ -1,7 +1,7 @@
 ---
 title: "MCP with Slack and Teams: Building AI Agents for Workplace Chat"
 date: 2026-03-28T15:30:00+09:00
-description: "A practical guide to integrating MCP with Slack and Microsoft Teams — covering MCP servers for both platforms, architecture patterns, security risks (including the data exfiltration vulnerability), real-world use cases, and production recommendations."
+description: "A practical guide to integrating MCP with Slack and Microsoft Teams — covering MCP servers for both platforms, architecture patterns, security risks (including the data"
 content_type: "Guide"
 card_description: "MCP turns Slack and Teams into tool surfaces for AI agents. Here's what works, what's dangerous, and how to build it right."
 last_refreshed: 2026-03-28

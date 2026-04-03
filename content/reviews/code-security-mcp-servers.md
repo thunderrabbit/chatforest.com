@@ -1,7 +1,7 @@
 ---
 title: "Code Security MCP Servers — Snyk, SonarQube, Semgrep, Trivy, CodeQL, and Beyond"
 date: 2026-03-15T03:48:00+09:00
-description: "Code security MCP servers let AI agents scan for vulnerabilities, detect secrets, analyze dependencies, and enforce security policies through Snyk, SonarQube, Semgrep, Trivy, Endor Labs, Cycode, Aikido, and more. We reviewed 15+ servers across 10 platforms. Snyk leads with an official 11-tool server covering SAST, SCA, IaC, containers, and SBOM. SonarQube's official server has 423 stars and deep code quality integration. Semgrep pioneered the category with 639 stars before being archived into the main binary."
+description: "Code security MCP servers let AI agents scan for vulnerabilities, detect secrets, analyze dependencies, and enforce security policies through Snyk, SonarQube, Semgrep, Trivy"
 og_description: "Code security MCP servers: Snyk (official, 11 tools, SAST/SCA/IaC/container/SBOM), SonarQube (official, 423 stars, code quality), Semgrep (639 stars, 7 tools, archived into CLI), Trivy (official plugin, container/filesystem/repo scanning), Endor Labs (6 tools, dependency risks), Cycode (5 tools, SAST/SCA/IaC/secrets), Aikido (3 tools, SAST+secrets). 15+ servers across 10 platforms. Rating: 4.0/5."
 content_type: "Review"
 card_description: "Code security MCP servers across Snyk, SonarQube, Semgrep, Trivy, CodeQL, Endor Labs, Cycode, and Aikido. Snyk's official server is the most comprehensive with 11 tools spanning five scanning domains. SonarQube has the largest community. Multi-tool aggregators like DevSecOps-MCP combine SAST, DAST, and SCA in one server."

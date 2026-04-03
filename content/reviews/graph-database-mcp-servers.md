@@ -1,7 +1,7 @@
 ---
 title: "Graph Database MCP Servers — Neo4j, ArangoDB, Neptune, TigerGraph, Dgraph, Memgraph, FalkorDB, and More"
 date: 2026-03-17T20:00:00+09:00
-description: "Graph database MCP servers reviewed: Neo4j (official + Labs, 1,000+ combined stars), Amazon Neptune, TigerGraph (34 tools), Dgraph (built-in), Memgraph (graph analytics), FalkorDB, ArangoDB (46 tools), Apache AGE, and more. 15+ servers across 10+ graph databases."
+description: "Graph database MCP servers reviewed: Neo4j (official + Labs, 1,000+ combined stars), Amazon Neptune, TigerGraph (34 tools), Dgraph (built-in), Memgraph (graph analytics)"
 og_description: "Graph database MCP servers: Neo4j (official + Labs), Neptune (AWS), TigerGraph (34 tools), Dgraph (built-in), Memgraph, FalkorDB, ArangoDB (46 tools). 15+ servers across 10+ databases. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Graph databases have strong MCP coverage — Neo4j leads with two servers (official + Labs), TigerGraph has 34 tools, and both Dgraph and ArcadeDB ship built-in MCP endpoints. The ecosystem covers property graphs, RDF, and knowledge graphs."

@@ -1,7 +1,7 @@
 ---
 title: "The Mem0 MCP Server — AI Memory That Actually Scales (If You Pay)"
 date: 2026-03-14T21:50:00+09:00
-description: "Mem0's MCP server gives AI agents persistent, semantic memory with nine tools covering add, search, update, and delete. Cloud-hosted with a free tier, plus an open-source local option via OpenMemory. Here's the honest review."
+description: "Mem0's MCP server gives AI agents persistent, semantic memory with nine tools covering add, search, update, and delete."
 og_description: "Mem0's MCP server provides persistent AI memory with semantic search, graph memory, and nine tools. Free tier available, local self-hosting via OpenMemory. Rating: 4/5."
 content_type: "Review"
 card_description: "Mem0's MCP server for persistent AI agent memory. Nine tools, semantic search, optional graph memory, free tier with 10K memories, and a self-hosted OpenMemory option for full local control."

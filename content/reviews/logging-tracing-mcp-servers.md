@@ -1,7 +1,7 @@
 ---
 title: "Logging & Tracing MCP Servers — Splunk Goes GA, Grafana Adds Tempo, and OpenTelemetry Becomes the Glue"
 date: 2026-03-24T06:00:00+09:00
-description: "Logging and tracing MCP servers feature Splunk official (13 tools, GA March 2026), Grafana Tempo built-in (TraceQL), Traceloop OTel MCP (178 stars, multi-backend), Elasticsearch community (259 stars), Pydantic Logfire (157 stars, SQL queries), AWS Log Analyzer (154 stars). Plus SigNoz, Coralogix, Axiom, Graylog, Seq. Rating: 3.5/5."
+description: "Logging and tracing MCP servers feature Splunk official (13 tools, GA March 2026), Grafana Tempo built-in (TraceQL), Traceloop OTel MCP (178 stars, multi-backend), Elasticsearch"
 og_description: "Logging & tracing MCP servers: Splunk official (13 tools), Grafana Tempo (built-in), Traceloop OTel (178 stars), Elasticsearch community (259 stars), Logfire (157 stars). Rating: 3.5/5."
 content_type: "Review"
 card_description: "Logging and tracing MCP servers sit alongside — but distinct from — the broader monitoring and observability category. Where monitoring MCP servers focus on dashboards, metrics, and alerting, logging and tracing servers specialize in log search and analysis (SPL, LogQL, Elasticsearch queries) and distributed trace correlation (TraceQL, OpenTelemetry). Splunk's official MCP server (13 tools, GA March 2026) is the enterprise headliner. Grafana adds built-in Tempo MCP (TraceQL, Tempo 2.9+) alongside standalone Loki MCP (103 stars). Traceloop's OpenTelemetry MCP (178 stars) unifies Jaeger and Tempo backends. The Elasticsearch community server (cr7258, 259 stars) surpasses the deprecated official one. Pydantic Logfire (157 stars) brings SQL-based trace querying. AWS Labs provides a dedicated Log Analyzer (154 stars)."

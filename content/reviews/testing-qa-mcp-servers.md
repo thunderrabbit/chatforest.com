@@ -1,7 +1,7 @@
 ---
 title: "Testing & QA MCP Servers — From Browser Automation to Test Runner Integration"
 date: 2026-03-23T23:30:00+09:00
-description: "Testing MCP servers split into two worlds: browser automation (Microsoft Playwright MCP 9.8k stars, executeautomation 5.3k stars, Selenium 376 stars) and test runner integration (mcp-test-runner 15 stars, mcp-jest 11 stars). Playwright dominates with 45% QA adoption. Plus MCP Inspector (1.2k stars) for testing MCP servers themselves."
+description: "Testing MCP servers split into two worlds: browser automation (Microsoft Playwright MCP 9.8k stars, executeautomation 5.3k stars, Selenium 376 stars) and test runner integration"
 og_description: "Testing MCP ecosystem: Microsoft Playwright (9.8k stars, 24 tools), executeautomation (5.3k stars), Selenium (376 stars), test runners, MCP Inspector. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Testing MCP servers divide into browser automation and test framework integration. Microsoft's official Playwright MCP server (9.8k stars, 24 tools) dominates — it's the most-starred testing MCP server by far, using accessibility snapshots instead of screenshots. Community alternatives include executeautomation/mcp-playwright (5.3k stars) and angiejones/mcp-selenium (376 stars). Test runner MCP servers (pytest, Jest, multi-framework) remain early stage with low adoption. The MCP Inspector (1.2k stars) provides official tooling for testing MCP servers themselves."

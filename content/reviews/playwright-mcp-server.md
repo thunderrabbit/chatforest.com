@@ -1,7 +1,7 @@
 ---
 title: "The Playwright MCP Server — The New Standard for Browser Automation"
 date: 2026-03-14T01:06:39+09:00
-description: "The Playwright MCP server is the full-featured browser automation standard for AI agents. 29K+ stars, accessibility tree targeting, @playwright/cli companion, network mocking, and Microsoft backing. Here's the honest review."
+description: "The Playwright MCP server is the full-featured browser automation standard for AI agents."
 og_description: "The Playwright MCP server is the full-featured browser automation standard for AI agents. 29K+ stars, CLI companion with 4x token savings, network mocking. Rating: 4.5/5."
 content_type: "Review"
 card_description: "Microsoft's browser MCP server uses accessibility tree targeting instead of CSS selectors. Three browser engines, 25+ tools, CLI companion for 4x token savings, and the ecosystem is behind it."

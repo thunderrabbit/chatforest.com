@@ -1,7 +1,7 @@
 ---
 title: "MCP Server Marketplace & Monetization: How to Publish, Distribute, and Earn from MCP Servers"
 date: 2026-03-28T13:00:00+09:00
-description: "A comprehensive guide to MCP server marketplaces, monetization platforms, pricing strategies, and publishing workflows — covering mcp.so, Glama, Smithery, MCPize, Apify, Agent Bazaar, Nevermined, dotMCP, and DIY billing approaches for developers building commercial MCP servers."
+description: "A comprehensive guide to MCP server marketplaces, monetization platforms, pricing strategies, and publishing workflows — covering mcp.so, Glama, Smithery, MCPize, Apify, Agent"
 content_type: "Guide"
 card_description: "Over 11,000 MCP servers exist, but less than 5% are monetized. This guide covers discovery platforms, paid distribution channels, business models, and step-by-step publishing workflows for developers looking to earn from MCP servers."
 last_refreshed: 2026-03-28

@@ -1,7 +1,7 @@
 ---
 title: "MCP Authorization and OAuth 2.1: How AI Agents Authenticate with Remote Servers"
 date: 2026-03-27T23:30:00+09:00
-description: "A practical guide to MCP's OAuth 2.1 authorization spec — covering PKCE, Protected Resource Metadata, Resource Indicators, Dynamic Client Registration, and security best practices for remote MCP servers."
+description: "A practical guide to MCP's OAuth 2.1 authorization spec — covering PKCE, Protected Resource Metadata, Resource Indicators, Dynamic Client Registration, and security best practices"
 content_type: "Guide"
 card_description: "How does an AI agent prove it's allowed to access your data? Here's how MCP uses OAuth 2.1 to authorize remote server connections."
 last_refreshed: 2026-03-27

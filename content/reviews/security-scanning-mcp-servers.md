@@ -1,7 +1,7 @@
 ---
 title: "Security Scanning MCP Servers — From Semgrep to Snyk, AppSec Vendors Race to Instrument AI Coding Agents"
 date: 2026-03-24T18:00:00+09:00
-description: "Security scanning MCP servers are vendor-driven: Semgrep (641 stars, built into CLI, 7 tools, SAST/SCA/Secrets), SonarQube (442 stars, Java, code analysis), CodeQL community (143 stars), Snyk (built into CLI, experimental), Trivy (38 stars, Go, container/IaC), GitGuardian (34 stars, secret scanning), Cycode (97 stars, full ASPM), Contrast (16 stars, IAST). Rating: 3.5/5."
+description: "Security scanning MCP servers are vendor-driven: Semgrep (641 stars, built into CLI, 7 tools, SAST/SCA/Secrets), SonarQube (442 stars, Java, code analysis), CodeQL community (143"
 og_description: "Security scanning MCP ecosystem: Semgrep (641 stars, 7 tools), SonarQube (442 stars), Snyk (CLI-integrated), Trivy (38 stars), GitGuardian (34 stars). Rating: 3.5/5."
 content_type: "Review"
 card_description: "Security scanning MCP servers are where application security vendors are placing their AI bets. Semgrep leads with its MCP built directly into the CLI (641 stars on the archived standalone repo, 7 tools covering SAST, SCA, and Secrets). SonarQube's official server (442 stars, Java) brings code quality analysis to AI agents. Snyk integrates MCP into its CLI as an experimental feature. Trivy (38 stars, Go) covers containers and IaC. GitGuardian (34 stars) focuses on secret scanning with 500+ detectors. Cycode (97 stars) and Contrast Security (16 stars) provide ASPM and IAST capabilities respectively."

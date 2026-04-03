@@ -1,7 +1,7 @@
 ---
 title: "PDF & Document Processing MCP Servers — MarkItDown, Docling, PDF Reader, and More"
 date: 2026-03-15T03:12:00+09:00
-description: "PDF and document processing MCP servers let AI agents extract text, convert formats, parse tables, and analyze documents across PDF, DOCX, EPUB, and 30+ file types. We reviewed 15+ servers across five approaches. Microsoft MarkItDown leads with 90,700 stars and 29+ format support. IBM's Docling MCP brings enterprise-grade layout analysis with 37,000+ stars on the core library. PDF Reader MCP is the fastest pure-PDF option with 5-10x parallel processing."
+description: "PDF and document processing MCP servers let AI agents extract text, convert formats, parse tables, and analyze documents across PDF, DOCX, EPUB, and 30+ file types."
 og_description: "PDF & document MCP servers: MarkItDown (90.7K stars, 29+ formats, official), Docling (508 stars, IBM-backed, layout analysis), PDF Reader MCP (557 stars, fastest extraction). 15+ servers across 5 approaches. Rating: 3.5/5."
 content_type: "Review"
 card_description: "PDF and document processing MCP servers across MarkItDown, Docling, PDF Reader MCP, mcp-pandoc, eBook-MCP, and PDF.co. Microsoft and IBM both ship official servers, with the ecosystem split between universal converters and PDF-specific extractors."

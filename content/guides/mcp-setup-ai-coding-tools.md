@@ -1,7 +1,7 @@
 ---
 title: "MCP Setup for AI Coding Tools: Cursor, Claude Code, VS Code, Windsurf, and More"
 date: 2026-03-28T14:00:00+09:00
-description: "A practical guide to configuring MCP (Model Context Protocol) servers in every major AI coding tool — Cursor, Claude Code, VS Code Copilot, Windsurf, Cline, Continue.dev, Zed, JetBrains, and Amazon Q Developer. Includes config examples, comparison tables, and troubleshooting."
+description: "A practical guide to configuring MCP (Model Context Protocol) servers in every major AI coding tool — Cursor, Claude Code, VS Code Copilot, Windsurf, Cline, Continue.dev, Zed"
 content_type: "Guide"
 card_description: "Every AI coding tool handles MCP differently. This guide covers config file locations, setup examples, transport support, and troubleshooting for Cursor, Claude Code, VS Code Copilot, Windsurf, Cline, and more."
 last_refreshed: 2026-03-28

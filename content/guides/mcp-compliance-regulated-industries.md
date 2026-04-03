@@ -1,7 +1,7 @@
 ---
 title: "MCP in Regulated Industries: Compliance, Audit Trails, and Data Protection for AI Agents"
 date: 2026-03-28T23:00:00+09:00
-description: "A comprehensive guide to deploying MCP in regulated industries — covering HIPAA, PCI-DSS, SOX, FedRAMP compliance patterns, audit logging strategies, PII/PHI protection, data residency, MCP governance, compliance platform MCP servers (Vanta, Drata, Secureframe), security gateways (MCPX, Acuvity, Lasso), and industry guidance from OWASP, CSA, and CoSAI."
+description: "A comprehensive guide to deploying MCP in regulated industries — covering HIPAA, PCI-DSS, SOX, FedRAMP compliance patterns, audit logging strategies, PII/PHI protection, data"
 content_type: "Guide"
 card_description: "Running MCP in healthcare, finance, or government? Here's what you need for audit trails, data protection, governance, and regulatory compliance — with real solutions and industry guidance."
 last_refreshed: 2026-03-28

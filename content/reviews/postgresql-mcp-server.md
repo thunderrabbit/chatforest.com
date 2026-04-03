@@ -1,7 +1,7 @@
 ---
 title: "PostgreSQL MCP Servers — The Database That Ate the World Gets an AI Interface"
 date: 2026-03-23T22:00:00+09:00
-description: "PostgreSQL has the richest MCP server ecosystem of any database: 2.4k-star Postgres MCP Pro for performance analysis, vendor servers from Supabase (2.6k stars), Neon, pgEdge, Azure, AWS, and Google, plus Anthropic's archived reference server. Here's the full picture."
+description: "PostgreSQL has the richest MCP server ecosystem of any database: 2.4k-star Postgres MCP Pro for performance analysis, vendor servers from Supabase (2.6k stars), Neon, pgEdge"
 og_description: "PostgreSQL MCP ecosystem: Postgres MCP Pro (2.4k stars), Supabase MCP (2.6k stars), Neon MCP (565 stars), Google Toolbox (13.5k stars), plus vendor and community servers. The richest database MCP ecosystem. Rating: 4.5/5."
 content_type: "Review"
 card_description: "PostgreSQL has the deepest MCP server ecosystem of any database. Postgres MCP Pro (2.4k stars) provides performance analysis and index tuning. Supabase MCP (2.6k stars) adds full platform management. Neon, pgEdge, Azure, AWS, and Google all ship PostgreSQL MCP servers. Anthropic's archived reference server started it all."

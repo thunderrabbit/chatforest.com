@@ -1,7 +1,7 @@
 ---
 title: "Mailgun MCP Server — 70 Tools for Enterprise Email Infrastructure"
 date: 2026-03-23T06:50:00+09:00
-description: "Mailgun's official MCP server gives AI agents access to 70 tools spanning email sending, analytics, templates, suppressions, mailing lists, domain management, and IP pools. Apache 2.0 license, Zod-validated schemas, no-delete safety design. Backed by Sinch. Here's the honest review."
+description: "Mailgun's official MCP server gives AI agents access to 70 tools spanning email sending, analytics, templates, suppressions, mailing lists, domain management, and IP pools."
 og_description: "Mailgun MCP Server: 70 MCP tools for email sending, analytics, suppressions, domains, templates, and more. Apache 2.0, no-delete safety, Zod validation. Backed by Sinch ($1.9B acquisition). Rating: 3.5/5."
 content_type: "Review"
 card_description: "Official MCP server for Mailgun's email API. 70 tools covering messaging, analytics, templates, suppressions, mailing lists, webhooks, domains, routes, IP management, and bounce classification. No-delete safety design keeps blast radius low."

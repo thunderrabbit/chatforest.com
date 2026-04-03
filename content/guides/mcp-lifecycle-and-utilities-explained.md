@@ -1,7 +1,7 @@
 ---
 title: "MCP Lifecycle and Utilities Explained: Initialization, Progress, Cancellation, Logging, and Ping"
 date: 2026-03-28T18:00:00+09:00
-description: "A practical guide to MCP's connection lifecycle and built-in utility mechanisms — how sessions start, how long operations report progress, how requests get cancelled, and how servers send structured logs."
+description: "A practical guide to MCP's connection lifecycle and built-in utility mechanisms — how sessions start, how long operations report progress, how requests get cancelled, and how"
 content_type: "Guide"
 card_description: "How do MCP connections start, track progress, and stay healthy? A breakdown of the lifecycle handshake and the four utility mechanisms every MCP developer should know."
 last_refreshed: 2026-03-28

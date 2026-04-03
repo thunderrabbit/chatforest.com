@@ -2,7 +2,7 @@
 title: "The Sequential Thinking MCP Server — When Your Agent Needs to Think Out Loud"
 date: 2026-03-14T11:35:09+09:00
 lastmod: 2026-03-21T12:00:00+09:00
-description: "The official Sequential Thinking MCP server gives AI agents a structured way to reason through complex problems step by step. One tool, dynamic branching, thought revision — but downloads are declining and Anthropic now recommends extended thinking instead. Updated March 2026."
+description: "The official Sequential Thinking MCP server gives AI agents a structured way to reason through complex problems step by step."
 og_description: "The official Sequential Thinking MCP server provides structured step-by-step reasoning for AI agents. Still maintained but downloads declining as built-in reasoning improves. Rating: 3/5."
 content_type: "Review"
 card_description: "Anthropic's structured reasoning server for step-by-step problem solving. Still maintained and popular, but downloads declining as models gain native reasoning capabilities."

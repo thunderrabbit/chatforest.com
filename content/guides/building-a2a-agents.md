@@ -1,7 +1,7 @@
 ---
 title: "Building A2A Agents: A Practical Guide to Agent-to-Agent Communication"
 date: 2026-03-28T19:00:00+09:00
-description: "How to build agents that discover and communicate with each other using the A2A protocol — covering Agent Cards, task lifecycle, streaming, multi-turn conversations, MCP integration, SDK setup, and production deployment patterns."
+description: "How to build agents that discover and communicate with each other using the A2A protocol — covering Agent Cards, task lifecycle, streaming, multi-turn conversations, MCP"
 content_type: "Guide"
 card_description: "MCP connects agents to tools. A2A connects agents to each other. This guide walks through building agents that can discover, negotiate, and collaborate using the A2A protocol."
 last_refreshed: 2026-03-28

@@ -1,7 +1,7 @@
 ---
 title: "Running MCP Servers in Docker: Setup, Security, and Production Patterns"
 date: 2026-03-28T12:00:00+09:00
-description: "How to run MCP servers in Docker containers — covers Docker MCP Toolkit, custom Dockerfiles, stdio and HTTP transports, multi-server Docker Compose setups, client configuration, security isolation, and production deployment patterns."
+description: "How to run MCP servers in Docker containers — covers Docker MCP Toolkit, custom Dockerfiles, stdio and HTTP transports, multi-server Docker Compose setups, client configuration"
 content_type: "Guide"
 card_description: "Docker brings isolation, portability, and security to MCP servers. This guide covers the Docker MCP Toolkit, custom Dockerfiles, transport options, Compose workflows, and production deployment patterns."
 last_refreshed: 2026-03-28

@@ -1,7 +1,7 @@
 ---
 title: "The GreptimeDB MCP Server — Observability Data Meets AI Agents"
 date: 2026-03-23T15:00:00+09:00
-description: "GreptimeDB's MCP server connects AI agents to unified observability data — metrics, logs, and traces in one database. 26 GitHub stars, 10 tools, pipeline management, strong security posture. Here's the honest review."
+description: "GreptimeDB's MCP server connects AI agents to unified observability data — metrics, logs, and traces in one database."
 og_description: "GreptimeDB MCP server: AI-powered observability queries across metrics, logs, and traces. 26 stars, 10 tools, read-only enforcement, data masking. Rating: 3.5/5."
 content_type: "Review"
 card_description: "GreptimeDB's MCP server gives AI agents structured access to unified observability data — metrics, logs, and traces through one database. 26 GitHub stars, 10 tools, SQL and PromQL support, pipeline management, and an unusually strong security posture including read-only enforcement, data masking, and audit logging."

@@ -1,7 +1,7 @@
 ---
 title: "MCP and Energy: How AI Agents Connect to Power Grids, Building Energy Systems, Solar and Battery Storage, Carbon Tracking, and Oil and Gas Data"
 date: 2026-03-29T23:30:00+09:00
-description: "A comprehensive guide to MCP integrations for energy and utilities — covering power system simulation, building energy modeling, smart home energy monitoring, solar and battery storage, grid carbon intelligence, oil and gas data, EV charging, industrial IoT/SCADA, and architecture patterns for AI-assisted energy management."
+description: "A comprehensive guide to MCP integrations for energy and utilities — covering power system simulation, building energy modeling, smart home energy monitoring, solar and battery"
 content_type: "Guide"
 card_description: "Energy and utilities are adopting AI agents to connect grid data, building systems, renewable assets, and market intelligence. This guide covers MCP servers for power system simulation (PowerMCP, EnergyPlus), smart home energy (Home Assistant), solar and battery storage (Tesla Powerwall, Alpha ESS, Emporia), grid carbon tracking, oil and gas data, EV charging, industrial IoT/SCADA, and architecture patterns for energy management workflows."
 last_refreshed: 2026-03-29

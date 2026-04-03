@@ -1,7 +1,7 @@
 ---
 title: "The Sentry MCP Server — Debug Production Errors Without Leaving Your Editor"
 date: 2026-03-14T02:14:39+09:00
-description: "Sentry's official MCP server brings error tracking, issue investigation, and AI-powered root cause analysis directly into your coding agent. 603 GitHub stars, ~19.4K weekly npm downloads, ~302K all-time PulseMCP visitors, and v0.30.0 with security hardening and performance gains. Here's the honest review."
+description: "Sentry's official MCP server brings error tracking, issue investigation, and AI-powered root cause analysis directly into your coding agent."
 og_description: "Sentry's official MCP server lets AI agents investigate production errors with OAuth auth and AI-powered analysis. 603 stars, 19.4K npm weekly, v0.30.0 with parallelized API calls and security fixes. Rating: 4/5."
 content_type: "Review"
 card_description: "Sentry's first-party MCP server for AI-assisted debugging. 603 stars, ~19.4K npm weekly downloads, ~302K PulseMCP visitors. OAuth authentication, ~20 tools, Seer AI integration, and v0.30.0 with performance and security improvements."

@@ -1,7 +1,7 @@
 ---
 title: "MCP Real-Time Streaming: Transports, Subscriptions, Event-Driven Patterns, and Production Architecture"
 date: 2026-03-28T23:00:00+09:00
-description: "A comprehensive guide to real-time streaming in MCP — covering the transport evolution from stdio to Streamable HTTP, resource subscriptions and notifications, sampling and streaming tool results, event-driven patterns (progress, cancellation, server push), production challenges (backpressure, reconnection, scaling), Kafka/MQTT/IoT/financial MCP servers, and how MCP streaming compares to WebSocket, gRPC, and GraphQL."
+description: "A comprehensive guide to real-time streaming in MCP — covering the transport evolution from stdio to Streamable HTTP, resource subscriptions and notifications, sampling and"
 content_type: "Guide"
 card_description: "MCP's transport layer has evolved from stdio pipes to Streamable HTTP with SSE upgrade — but real-time streaming in MCP goes far beyond the wire protocol. This guide covers resource subscriptions, streaming tool results, event-driven patterns, and production architecture for live data."
 last_refreshed: 2026-03-28

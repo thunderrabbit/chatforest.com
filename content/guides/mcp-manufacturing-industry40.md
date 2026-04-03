@@ -1,7 +1,7 @@
 ---
 title: "MCP and Manufacturing: How AI Agents Connect to PLCs, SCADA Systems, Industrial IoT, CAD/CAM, ERP, Robotics, Digital Twins, and Smart Factory Platforms"
 date: 2026-03-29T19:00:00+09:00
-description: "A comprehensive guide to MCP integrations for manufacturing and Industry 4.0 — covering PLC programming (Siemens, CODESYS, Mitsubishi, Beckhoff), SCADA/HMI systems (WinCC, Ignition), industrial protocols (OPC-UA, MQTT, Modbus), CAD/CAM tools (SolidWorks, Fusion 360, FreeCAD, KiCAD), ERP systems (SAP, Dynamics 365, Odoo), robotics (ROS, Universal Robots), 3D printing, digital twins, and architecture patterns for AI-powered smart factories."
+description: "A comprehensive guide to MCP integrations for manufacturing and Industry 4.0 — covering PLC programming (Siemens, CODESYS, Mitsubishi, Beckhoff), SCADA/HMI systems (WinCC"
 content_type: "Guide"
 card_description: "Manufacturing runs on layers of specialized systems — PLCs, SCADA, MES, ERP, CAD — each with its own protocols and data formats. This guide covers 115+ MCP servers across the manufacturing ecosystem, from Siemens TIA Portal and OPC-UA to SolidWorks, SAP, ROS robotics, and 3D printing, plus architecture patterns for predictive maintenance, quality control, and smart factory orchestration."
 last_refreshed: 2026-03-29

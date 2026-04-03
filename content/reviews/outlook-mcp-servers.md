@@ -1,7 +1,7 @@
 ---
 title: "Outlook MCP Servers — Microsoft's Enterprise Email Meets the Agent Era"
 date: 2026-03-15T02:00:00+09:00
-description: "Outlook MCP servers let AI agents read, search, send, and manage Microsoft 365 email. We reviewed the landscape: Microsoft's official Work IQ server, the dominant community option (530 stars), and 5+ alternatives. Here's what works and what requires a Copilot license."
+description: "Outlook MCP servers let AI agents read, search, send, and manage Microsoft 365 email."
 og_description: "Outlook MCP servers: Microsoft's official Work IQ Mail, Softeria's ms-365-mcp-server (530 stars), and 5+ community options. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Outlook MCP servers — from Microsoft's official Work IQ Mail to community Graph API wrappers. Let agents manage enterprise email. The licensing requirements are significant."

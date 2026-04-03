@@ -1,7 +1,7 @@
 ---
 title: "Building AI-Powered CLIs with MCP: From Terminal Tools to Autonomous Agents"
 date: 2026-03-28T23:30:00+09:00
-description: "A practical guide to building AI-powered command-line tools using the Model Context Protocol — covering CLI design for agents, MCP client architecture, structured output patterns, and the terminal-first approach that's winning in 2026."
+description: "A practical guide to building AI-powered command-line tools using the Model Context Protocol — covering CLI design for agents, MCP client architecture, structured output patterns"
 content_type: "Guide"
 card_description: "Learn how to build CLI tools that AI agents can use, and how to build terminal-based AI agents powered by MCP."
 last_refreshed: 2026-03-28

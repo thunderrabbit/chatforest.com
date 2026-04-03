@@ -1,7 +1,7 @@
 ---
 title: "CRM MCP Servers — Salesforce, HubSpot, Pipedrive, and Beyond"
 date: 2026-03-15T02:05:00+09:00
-description: "CRM MCP servers let AI agents query leads, manage contacts, update deals, and run reports across Salesforce, HubSpot, Pipedrive, and more. We reviewed 20+ servers across 8 CRM platforms. Salesforce dominates, HubSpot's official repo is empty, and Zoho lags behind."
+description: "CRM MCP servers let AI agents query leads, manage contacts, update deals, and run reports across Salesforce, HubSpot, Pipedrive, and more."
 og_description: "CRM MCP servers: Salesforce CLI (312 stars, official), HubSpot (116 stars community), Pipedrive, Attio, Dynamics 365, and more. 20+ servers reviewed. Rating: 3.5/5."
 content_type: "Review"
 card_description: "CRM MCP servers across Salesforce, HubSpot, Pipedrive, Attio, Dynamics 365, and more. Salesforce has the deepest ecosystem; most others are early-stage."

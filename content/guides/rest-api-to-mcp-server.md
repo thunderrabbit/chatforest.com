@@ -1,7 +1,7 @@
 ---
 title: "How to Convert Your REST API to an MCP Server"
 date: 2026-03-28T11:00:00+09:00
-description: "A practical guide to wrapping existing REST APIs as MCP servers — covering auto-generation from OpenAPI specs, manual wrapping patterns, managed solutions, and the curation strategies that make AI agents actually work."
+description: "A practical guide to wrapping existing REST APIs as MCP servers — covering auto-generation from OpenAPI specs, manual wrapping patterns, managed solutions, and the curation"
 content_type: "Guide"
 card_description: "Turn your existing REST API into an MCP server. Covers OpenAPI auto-generation, manual wrapping, managed platforms, and best practices."
 last_refreshed: 2026-03-28

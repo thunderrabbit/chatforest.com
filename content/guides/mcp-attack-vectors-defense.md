@@ -1,7 +1,7 @@
 ---
 title: "MCP Attack Vectors: Tool Poisoning, Prompt Injection, and How to Defend Against Them"
 date: 2026-03-28T19:50:00+09:00
-description: "A practical guide to MCP security threats — tool poisoning, prompt injection, supply chain attacks, and shadow servers — with real-world incidents and a defense-in-depth strategy for protecting your AI agent stack."
+description: "A practical guide to MCP security threats — tool poisoning, prompt injection, supply chain attacks, and shadow servers — with real-world incidents and a defense-in-depth strategy"
 content_type: "Guide"
 card_description: "66% of MCP servers have security findings. Learn the real attack vectors — tool poisoning, prompt injection, supply chain compromise — and how to defend against them with concrete strategies."
 last_refreshed: 2026-03-28

@@ -1,7 +1,7 @@
 ---
 title: "Kubernetes MCP Servers — Cluster Management Gets an AI Interface"
 date: 2026-03-23T21:00:00+09:00
-description: "Kubernetes has a strong MCP ecosystem with two leading servers above 1,000 stars: Flux159/mcp-server-kubernetes (1,400 stars, TypeScript, 20+ tools) and Red Hat's containers/kubernetes-mcp-server (1,300 stars, Go, multi-toolset with Helm and OpenShift). Plus kubectl wrappers, Helm-specific servers, and cloud-managed MCP for EKS."
+description: "Kubernetes has a strong MCP ecosystem with two leading servers above 1,000 stars: Flux159/mcp-server-kubernetes (1,400 stars, TypeScript, 20+ tools) and Red Hat's"
 og_description: "Kubernetes MCP ecosystem: two 1,000+ star servers, Helm integration, OpenShift support, read-only modes, multi-cluster management. No official CNCF server but Red Hat leads. Rating: 4/5."
 content_type: "Review"
 card_description: "Kubernetes has a robust MCP ecosystem with two community leaders above 1,000 stars, Helm chart management, multi-cluster support, and secret redaction. Red Hat's server adds OpenShift and KubeVirt support. No official CNCF server exists, but the community has delivered strong coverage across pod management, deployments, services, and observability."

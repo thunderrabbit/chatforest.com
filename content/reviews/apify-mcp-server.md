@@ -1,7 +1,7 @@
 ---
 title: "Apify MCP Server — 3,000+ Scrapers at Your AI Agent's Fingertips"
 date: 2026-03-23T18:00:00+09:00
-description: "The Apify MCP Server connects AI agents to 3,000+ ready-made web scrapers (Actors) via the Model Context Protocol. 945 GitHub stars, TypeScript, Apache 2.0, hosted or local, dynamic tool discovery. Here's the honest review."
+description: "The Apify MCP Server connects AI agents to 3,000+ ready-made web scrapers (Actors) via the Model Context Protocol."
 og_description: "Apify MCP Server: connect AI agents to 3,000+ web scrapers and automation tools. 945 stars, TypeScript, Apache 2.0, hosted + local modes, dynamic tool discovery. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Connects AI agents to Apify's marketplace of 3,000+ web scrapers and automation tools. Search for scrapers, inspect their details, run them, and get structured data back — all through MCP. Hosted mode with OAuth or run locally via npx."

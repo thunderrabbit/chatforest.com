@@ -1,7 +1,7 @@
 ---
 title: "MCP and Aerospace/Defense: How AI Agents Connect to Flight Data, Satellite Tracking, Orbital Mechanics, Aviation Safety, Space Operations, Defense Intelligence, CAD/Simulation, and Cybersecurity Tools"
 date: 2026-03-29T23:00:00+09:00
-description: "A comprehensive guide to 120+ MCP integrations for aerospace and defense — covering aviation (Flights MCP 177 stars, Flightradar24 official), space operations (Ansys STK 25 stars, SpaceFrontiers, satellite tracking), defense intelligence (World Intel 16 stars, OSINT tools), CAD/simulation (KiCAD 535 stars, MATLAB official 285 stars, Fusion 360, FreeCAD), cybersecurity (Ghidra 8,073 stars, HexStrike 7,737 stars), GIS/mapping, earth observation, government data, and architecture patterns for AI-powered mission planning, flight operations, and defense analysis."
+description: "A comprehensive guide to 120+ MCP integrations for aerospace and defense — covering aviation (Flights MCP 177 stars, Flightradar24 official), space operations (Ansys STK 25 stars"
 content_type: "Guide"
 card_description: "Aerospace and defense organizations operate across some of the most complex and safety-critical environments on earth — and beyond it. This guide covers 120+ MCP servers relevant to the aerospace and defense sector, from flight data and aviation safety to orbital mechanics, satellite tracking, defense intelligence, CAD/simulation, cybersecurity, earth observation, and government procurement — plus architecture patterns for AI-powered mission planning, flight operations monitoring, and defense intelligence analysis."
 last_refreshed: 2026-03-29

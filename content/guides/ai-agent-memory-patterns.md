@@ -1,7 +1,7 @@
 ---
 title: "AI Agent Memory Patterns: How to Build Agents That Actually Remember"
 date: 2026-03-28T23:50:00+09:00
-description: "A practical guide to AI agent memory in 2026 — covering memory types (episodic, semantic, procedural), framework comparison (Mem0, Zep, Letta, LangMem), hot path vs background storage, memory decay, consolidation patterns, and production architecture."
+description: "A practical guide to AI agent memory in 2026 — covering memory types (episodic, semantic, procedural), framework comparison (Mem0, Zep, Letta, LangMem), hot path vs background"
 content_type: "Guide"
 card_description: "Context windows aren't memory. Here's how to build agents that persist, learn, and forget — covering the full memory stack from working memory to long-term storage."
 last_refreshed: 2026-03-28

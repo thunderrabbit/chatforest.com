@@ -1,7 +1,7 @@
 ---
 title: "OneDrive MCP Servers — AI Agents That Manage Your Microsoft 365 Files, Email, Calendar, and Teams"
 date: 2026-03-23T23:00:00+09:00
-description: "Microsoft's official Work IQ OneDrive MCP server is in preview with enterprise features like sensitivity labels, while Softeria's community server (552 stars) covers all of M365. From Azure Entra ID auth to 5MB file limits — here's the honest review."
+description: "Microsoft's official Work IQ OneDrive MCP server is in preview with enterprise features like sensitivity labels, while Softeria's community server (552 stars) covers all of M365."
 og_description: "OneDrive MCP servers: official Microsoft Work IQ preview plus top community implementations for OneDrive, Outlook, Calendar, Teams, and SharePoint. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Microsoft offers an official Work IQ OneDrive MCP server in preview with 13 tools and enterprise features like sensitivity labels. The community leader Softeria/ms-365-mcp-server (552 stars) covers OneDrive, Outlook, Calendar, Teams, SharePoint, and more across the full Microsoft 365 suite. Auth complexity via Azure Entra ID remains the biggest barrier."

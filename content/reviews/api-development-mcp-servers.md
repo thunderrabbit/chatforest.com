@@ -1,7 +1,7 @@
 ---
 title: "API Development MCP Servers — OpenAPI Converters, GraphQL, gRPC, and the Rise of Spec-to-Server Generation"
 date: 2026-03-24T04:30:00+09:00
-description: "API development MCP servers are dominated by OpenAPI-to-MCP converters: openapi-mcp-generator (495 stars), Apollo GraphQL (275 stars, Rust, 1.5k commits), Postman official (192 stars, 100+ tools), Redpanda protoc-gen-go-mcp (190 stars, gRPC), plus GraphQL community (374 stars) and mocking tools. Rating: 3.5/5."
+description: "API development MCP servers are dominated by OpenAPI-to-MCP converters: openapi-mcp-generator (495 stars), Apollo GraphQL (275 stars, Rust, 1.5k commits), Postman official (192"
 og_description: "API development MCP servers: openapi-mcp-generator (495 stars), Apollo GraphQL (275 stars), Postman (192 stars, 100+ tools), gRPC protoc plugin (190 stars). Rating: 3.5/5."
 content_type: "Review"
 card_description: "API development MCP servers are dominated by a single pattern: convert an API specification into MCP tools. OpenAPI-to-MCP converters (openapi-mcp-generator at 495 stars, emcee at 320 stars, AWS Labs OpenAPI MCP, Swagger-MCP at 146 stars) dynamically generate MCP tools from OpenAPI/Swagger specs, letting AI agents call any REST API without manual tool definitions. GraphQL has official vendor support from Apollo (275 stars, Rust, 1,576 commits) and a strong community server (mcp-graphql at 374 stars). gRPC gets Redpanda's protoc-gen-go-mcp (190 stars), a compiler plugin that auto-generates Go MCP servers from .proto files. API testing has Postman's official MCP server (192 stars, 100+ tools). The strongest pattern is spec-to-server: give the MCP server an API spec, get tools for every endpoint."

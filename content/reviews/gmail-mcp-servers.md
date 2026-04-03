@@ -1,7 +1,7 @@
 ---
 title: "Gmail MCP Servers — Your Inbox Is Now an Agent Tool (Proceed with Caution)"
 date: 2026-03-15T01:50:00+09:00
-description: "Gmail MCP servers let AI agents read, search, and send emails. We reviewed the ecosystem: Google's official endpoint, a 1,700-star Workspace server, and 8+ community options. Here's what works and what's risky."
+description: "Gmail MCP servers let AI agents read, search, and send emails. We reviewed the ecosystem: Google's official endpoint, a 1,700-star Workspace server, and 8+ community options."
 og_description: "Gmail MCP servers: Google's official endpoint, taylorwilsdon's Workspace server (1,700 stars), and 8+ community alternatives. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Gmail MCP servers — from Google's official Workspace endpoint to community servers. Let agents read, search, and send email. The security implications are significant."

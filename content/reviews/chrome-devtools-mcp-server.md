@@ -1,7 +1,7 @@
 ---
 title: "The Chrome DevTools MCP Server — Browser Debugging and Performance Profiling for AI Coding Agents"
 date: 2026-03-23T22:00:00+09:00
-description: "Chrome DevTools MCP server gives AI coding agents deep browser inspection — performance tracing, memory snapshots, Lighthouse audits, network monitoring, and console debugging. Official Google project. 30.7K GitHub stars, 29 tools, TypeScript, Apache 2.0. Here's the honest review."
+description: "Chrome DevTools MCP server gives AI coding agents deep browser inspection — performance tracing, memory snapshots, Lighthouse audits, network monitoring, and console debugging."
 og_description: "Chrome DevTools MCP: official Google browser debugging server for AI agents. Performance traces, Lighthouse, memory snapshots, network inspection. 30.7K stars, 29 tools. Rating: 4.5/5."
 content_type: "Review"
 card_description: "Official Google Chrome DevTools MCP server for AI coding agents. 29 tools covering browser automation, performance tracing with Core Web Vitals, memory heap snapshots, Lighthouse audits, network request inspection, and console debugging. Connect to your existing browser session or launch headless. 30.7K GitHub stars, 330K weekly npm downloads."

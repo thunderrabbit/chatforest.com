@@ -1,7 +1,7 @@
 ---
 title: "MCP and Real Estate: How AI Agents Connect to Property Listings, Valuations, Property Management, Mortgage Systems, and Geospatial Data"
 date: 2026-03-29T23:00:00+09:00
-description: "A comprehensive guide to MCP integrations for real estate and proptech — covering property listing platforms, property management servers, CRM tools, mortgage/lending systems, geospatial mapping, virtual staging, sustainability analysis, and architecture patterns for AI-assisted real estate workflows."
+description: "A comprehensive guide to MCP integrations for real estate and proptech — covering property listing platforms, property management servers, CRM tools, mortgage/lending systems"
 content_type: "Guide"
 card_description: "Real estate is adopting AI agents to connect property data, market analytics, and management tools. This guide covers MCP servers for property listings (Zillow, Redfin, BatchData, RESO), property management platforms (Buildium, Guesty, Rentalot, Smoobu), real estate CRM, mortgage processing, geospatial analysis, virtual staging, sustainability assessment, and architecture patterns for proptech workflows."
 last_refreshed: 2026-03-29

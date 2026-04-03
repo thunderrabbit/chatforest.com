@@ -1,7 +1,7 @@
 ---
 title: "MCP and Insurance: How AI Agents Connect to Policy Administration, Claims Processing, Underwriting Systems, Fraud Detection, and Risk Assessment"
 date: 2026-03-29T23:30:00+09:00
-description: "A comprehensive guide to MCP integrations for insurance — covering policy administration, claims automation, underwriting intelligence, fraud detection, risk assessment, document processing, regulatory compliance, and architecture patterns for AI-assisted insurance operations."
+description: "A comprehensive guide to MCP integrations for insurance — covering policy administration, claims automation, underwriting intelligence, fraud detection, risk assessment, document"
 content_type: "Guide"
 card_description: "Insurance is entering its agentic AI era, but the MCP ecosystem is still nascent. This guide covers the emerging landscape: Socotra's production MCP server (the only major platform with MCP), claims processing prototypes, geophysical risk scoring (DeepMapAI 25 tools), adjacent servers for fraud detection (behavioral biometrics, XGBoost, GNN), document processing (OCR, PDF extraction), regulatory compliance, and the broader platform landscape (Guidewire Olos, Duck Creek Intelligence, Applied Insurance AI) — plus architecture patterns, market data ($10-20B 2025 to $88B 2030), and ecosystem gaps."
 last_refreshed: 2026-03-29

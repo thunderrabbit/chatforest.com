@@ -1,7 +1,7 @@
 ---
 title: "Best Workflow Automation MCP Servers in 2026"
 date: 2026-03-22T16:00:00+09:00
-description: "Low-code platforms, data pipeline orchestrators, code-first engines, and event-driven schedulers — we've reviewed 20+ workflow automation MCP servers across 5 categories. Here's what works, what's fragmented, and what's missing."
+description: "Low-code platforms, data pipeline orchestrators, code-first engines, and event-driven schedulers — we've reviewed 20+ workflow automation MCP servers across 5 categories."
 og_description: "20+ workflow automation MCP servers reviewed across n8n, Zapier, Make, Pipedream, ActivePieces, Airflow, Dagster, Prefect, Kestra, and Temporal. The definitive comparison with honest ratings."
 content_type: "Comparison"
 card_description: "The definitive guide to workflow automation MCP servers in 2026. We've reviewed 20+ servers across low-code platforms, data pipeline orchestrators, code-first engines, and event-driven schedulers. Every recommendation links to a full review."

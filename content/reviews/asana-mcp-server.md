@@ -1,7 +1,7 @@
 ---
 title: "Asana MCP Server — Official Remote Server for Enterprise Project Management"
 date: 2026-03-21T15:30:00+09:00
-description: "Asana's official MCP server gives AI agents access to the Asana Work Graph — 44 tools across tasks, projects, goals, portfolios, and teams. Hosted, OAuth-authenticated, zero-install. Here's the honest review."
+description: "Asana's official MCP server gives AI agents access to the Asana Work Graph — 44 tools across tasks, projects, goals, portfolios, and teams."
 og_description: "Asana's official MCP server: 44 tools for tasks, projects, goals, and portfolios. Hosted at mcp.asana.com, OAuth, Streamable HTTP. V2 launched Feb 2026. Rating: 4/5."
 content_type: "Review"
 card_description: "Asana's official MCP server for enterprise project management. 44 tools across tasks, projects, goals, portfolios, and teams. Hosted, OAuth-authenticated, Streamable HTTP transport."

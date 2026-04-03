@@ -1,7 +1,7 @@
 ---
 title: "Google Calendar MCP Server — Multi-Account Calendar Management for AI Assistants"
 date: 2026-03-14T22:30:00+09:00
-description: "The nspady/google-calendar-mcp server gives AI agents 13 tools for managing Google Calendar — events, bulk creation, scheduling, free/busy queries, multi-account support, and intelligent import from images. Here's the honest review."
+description: "The nspady/google-calendar-mcp server gives AI agents 13 tools for managing Google Calendar — events, bulk creation, scheduling, free/busy queries, multi-account support, and"
 og_description: "Google Calendar MCP server: 13 tools for events, scheduling, and availability across multiple Google accounts. OAuth 2.0 with PKCE, npm package, multi-account support. Rating: 4/5."
 content_type: "Review"
 card_description: "Community-built MCP server for Google Calendar management. 13 tools covering events, bulk creation, scheduling, availability, and multi-account operations. OAuth 2.0 with PKCE, npm package, Docker support."

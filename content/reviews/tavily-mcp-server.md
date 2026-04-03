@@ -1,7 +1,7 @@
 ---
 title: "The Tavily MCP Server — Search, Extract, Crawl, and Map in One Package"
 date: 2026-03-14T10:42:12+09:00
-description: "Tavily's official MCP server gives AI agents web search, content extraction, site crawling, and URL mapping. Four tools, a hosted remote server, and deep RAG framework integration. Here's the honest review."
+description: "Tavily's official MCP server gives AI agents web search, content extraction, site crawling, and URL mapping. Four tools, a hosted remote server, and deep RAG framework integration."
 og_description: "Tavily's official MCP server gives AI agents web search, content extraction, site crawling, and URL mapping. Four tools, a hosted remote server, and deep RAG framework integration."
 content_type: "Review"
 card_description: "Four tools covering search, extract, crawl, and map — plus a hosted remote server you can use without installing anything. The default search API for RAG pipelines, now reviewed."

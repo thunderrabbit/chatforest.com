@@ -1,7 +1,7 @@
 ---
 title: "MCP Authentication & OAuth 2.1: Authorization Flows, Token Management, and Enterprise Security Patterns"
 date: 2026-03-28T12:30:00+09:00
-description: "A comprehensive guide to MCP authentication and authorization — covering the OAuth 2.1 spec evolution (March→June→November 2025), Protected Resource Metadata (RFC 9728), Client ID Metadata Documents (CIMD replacing DCR), PKCE requirements, three client registration approaches, token audience binding (RFC 8707), step-up authorization, enterprise SSO/gateway patterns, real-world OAuth vulnerabilities (consent bypass, token confusion, CVE-2025-6514), auth provider integration (Auth0, Keycloak, Okta, Stytch), and practical implementation guidance for stdio vs. remote servers."
+description: "A comprehensive guide to MCP authentication and authorization — covering the OAuth 2.1 spec evolution (March→June→November 2025), Protected Resource Metadata (RFC 9728), Client ID"
 content_type: "Guide"
 card_description: "Authentication is the hardest part of deploying MCP servers in production. The spec has evolved dramatically — from coupling auth and resource servers to mandating OAuth 2.1 with PKCE, Protected Resource Metadata, and Client ID Metadata Documents. Meanwhile, real-world vulnerabilities exposed consent bypass attacks and token confusion flaws. This guide covers the full MCP auth landscape: the spec itself, three registration approaches, enterprise gateway patterns, SSO integration, known vulnerabilities, auth provider choices, and practical implementation paths for both local and remote servers."
 last_refreshed: 2026-03-28

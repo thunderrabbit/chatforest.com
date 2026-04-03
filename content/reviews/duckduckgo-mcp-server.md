@@ -1,7 +1,7 @@
 ---
 title: "The DuckDuckGo MCP Server — Free Web Search for AI Agents (No API Key Required)"
 date: 2026-03-23T23:30:00+09:00
-description: "DuckDuckGo MCP server gives AI agents free web search with no API key. 913 GitHub stars, 2 tools, Python, MIT license. The most popular free search MCP — but rate limits and scraping fragility are real concerns. Here's the honest review."
+description: "DuckDuckGo MCP server gives AI agents free web search with no API key. 913 GitHub stars, 2 tools, Python, MIT license."
 og_description: "DuckDuckGo MCP server: free web search for AI agents, no API key needed. 913 stars, 2 tools, Python, MIT. The free alternative to Brave Search MCP. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Free web search for AI agents with no API key or account required. 913 GitHub stars, 2 tools (search + content fetch), built-in rate limiting, SafeSearch controls, regional localization. The most popular free search MCP server — a solid default for agents that need basic web search without cost."

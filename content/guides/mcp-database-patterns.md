@@ -1,7 +1,7 @@
 ---
 title: "MCP and Databases: Connecting AI Agents to Your Data"
 date: 2026-03-28T19:00:00+09:00
-description: "A comprehensive guide to connecting AI agents to databases through MCP — covering database MCP servers, text-to-SQL patterns, schema introspection, migration workflows, security risks (including the SQLite prompt injection chain), performance optimization, and production architecture."
+description: "A comprehensive guide to connecting AI agents to databases through MCP — covering database MCP servers, text-to-SQL patterns, schema introspection, migration workflows, security"
 content_type: "Guide"
 card_description: "MCP gives AI agents structured access to your databases. Here's how to do it safely, the servers worth using, and the patterns that work in production."
 last_refreshed: 2026-03-28

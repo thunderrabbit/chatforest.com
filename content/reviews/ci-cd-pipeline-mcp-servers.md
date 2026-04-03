@@ -1,7 +1,7 @@
 ---
 title: "CI/CD Pipeline MCP Servers — Jenkins, CircleCI, GitHub Actions, Argo CD, Buildkite, and More"
 date: 2026-03-17T18:00:00+09:00
-description: "CI/CD pipeline MCP servers reviewed: Jenkins (official plugin, 68 stars, 15+ tools), CircleCI (80 stars, 14 tools), GitHub Actions (via github-mcp-server, 27.9k stars), Argo CD (350 stars, 12 tools), Buildkite (48 stars), Azure DevOps (347 stars), GitLab (built-in), and community alternatives. Here's the honest review."
+description: "CI/CD pipeline MCP servers reviewed: Jenkins (official plugin, 68 stars, 15+ tools), CircleCI (80 stars, 14 tools), GitHub Actions (via github-mcp-server, 27.9k stars), Argo CD"
 og_description: "CI/CD pipeline MCP servers: Jenkins (official plugin, 15+ tools), CircleCI (80 stars, 14 tools), GitHub Actions (27.9k stars), Argo CD (350 stars), Buildkite, Azure DevOps, GitLab. 15+ servers reviewed. Rating: 4/5."
 content_type: "Review"
 card_description: "CI/CD pipelines now have strong MCP coverage. Jenkins has an official plugin, CircleCI and GitHub Actions offer deep build intelligence, and Argo CD brings GitOps deployment management. The ecosystem is broad but fragmented across platforms."

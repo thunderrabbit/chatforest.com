@@ -1,7 +1,7 @@
 ---
 title: "Media & Entertainment MCP Servers — 6 Reviews Covering Music Production, Gaming, Podcasting, News, Streaming, and Speech Recognition"
 date: 2026-03-24T23:30:00+09:00
-description: "Comprehensive reviews of 6 Media & Entertainment MCP server categories — from Ableton Live and Spotify to Minecraft, Hacker News, ElevenLabs, and Whisper. 170+ servers evaluated across music production, gaming, podcasting, news aggregation, and speech recognition."
+description: "Comprehensive reviews of 6 Media & Entertainment MCP server categories — from Ableton Live and Spotify to Minecraft, Hacker News, ElevenLabs, and Whisper."
 og_description: "6 Media & Entertainment MCP server reviews covering music production, gaming & esports, podcasting, news & journalism, Spotify, and speech recognition. 170+ servers evaluated."
 content_type: "Category"
 ---

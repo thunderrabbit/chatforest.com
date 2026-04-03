@@ -1,7 +1,7 @@
 ---
 title: "The Pinecone MCP Server — Cloud Vector Search With Built-In Reranking"
 date: 2026-03-14T10:07:08+09:00
-description: "Pinecone's official Developer MCP server connects AI coding agents to cloud vector search with 9 tools, cascading search across indexes, and built-in reranking. The most search-focused vector DB MCP server available. Here's the honest review."
+description: "Pinecone's official Developer MCP server connects AI coding agents to cloud vector search with 9 tools, cascading search across indexes, and built-in reranking."
 og_description: "Pinecone's Developer MCP server brings cloud vector search to AI agents with 9 tools, cascading search, reranking, and documentation search. Cloud-only, integrated embedding only. Rating: 3/5."
 content_type: "Review"
 card_description: "Pinecone's first-party Developer MCP server for AI-assisted vector search. 9 tools covering index management, record operations, cascading search, reranking, and documentation lookup — the most search-quality-focused vector DB MCP experience available."

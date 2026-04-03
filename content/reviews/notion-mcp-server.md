@@ -2,7 +2,7 @@
 title: "The Notion MCP Server — Your Workspace in Your Agent's Hands (Both Versions)"
 date: 2026-03-14T03:33:50+09:00
 lastmod: 2026-03-20T12:00:00+09:00
-description: "Notion offers two official MCP servers: a hosted OAuth-based remote server and an open-source local server via npm (v2.2.1). Together they give AI agents full read/write access to your Notion workspace — pages, databases, comments, search. March 2026 brings API v2026-03-11 (3 more breaking changes), Views API launch, status property support, and Custom Agents integration — but also 104 open issues and 2 unpatched security vulnerabilities. Here's the honest review."
+description: "Notion offers two official MCP servers: a hosted OAuth-based remote server and an open-source local server via npm (v2.2.1)."
 og_description: "Notion's official MCP server: 4,100+ stars, 18+ tools, npm v2.2.1. Views API launch, Custom Agents, status properties — but 104 open issues and security concerns. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Notion's official MCP server (4,100+ stars, npm v2.2.1) for AI-powered workspace access. March 2026 updates bring API v2026-03-11 with Views API launch, status property creation support, and Custom Agents integration. But the local server is still being sunsetted, 104 open issues go unmonitored, and two path traversal security vulnerabilities remain unpatched. The hosted OAuth server is the clear path forward — if you can tolerate the transition pains."

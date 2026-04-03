@@ -1,7 +1,7 @@
 ---
 title: "Government & Legal MCP Servers — 4 Reviews Covering Open Data, Legislation, Legal Research, E-Signatures, Contract Management, Nonprofit, and Civic Technology"
 date: 2026-03-24T23:45:00+09:00
-description: "Comprehensive reviews of 4 Government & Legal MCP server categories — from open government data portals and legislative tracking to legal research, contract management, e-signatures, nonprofit operations, and civic technology. 115+ servers evaluated across public sector, nonprofit, and legal operations."
+description: "Comprehensive reviews of 4 Government & Legal MCP server categories — from open government data portals and legislative tracking to legal research, contract management"
 og_description: "4 Government & Legal MCP server reviews covering GovInfo, Census Bureau, Congress.gov, Data.gov, CourtListener, DocuSign, SignNow, nonprofit donor management, legal research, e-signatures, and civic technology. 115+ servers evaluated."
 content_type: "Category"
 ---

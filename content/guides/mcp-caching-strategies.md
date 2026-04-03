@@ -1,7 +1,7 @@
 ---
 title: "MCP Caching Strategies: Prompt Caching, Server-Side Caching, Semantic Caching, and Gateway Patterns"
 date: 2026-03-28T22:00:00+09:00
-description: "A comprehensive guide to caching in MCP systems — covering Anthropic prompt caching (90% cost reduction), FastMCP ResponseCachingMiddleware, server-side patterns (Redis, SQLite-as-cache), gateway caching (ContextForge, Bifrost, Envoy), semantic caching (GPTCache, Upstash, LiteLLM), MCP notification-based invalidation, progressive disclosure (85-98% token reduction), client-side caching behavior, context explosion prevention (mcp-cache, mcp-refcache), and a 6-layer caching architecture."
+description: "A comprehensive guide to caching in MCP systems — covering Anthropic prompt caching (90% cost reduction), FastMCP ResponseCachingMiddleware, server-side patterns (Redis"
 content_type: "Guide"
 card_description: "A typical MCP setup with five servers burns 55,000+ tokens before the conversation starts. This guide covers every caching layer — from Anthropic prompt caching to semantic caching — that can cut costs by 90%, reduce latency by 85%, and keep your agents fast."
 last_refreshed: 2026-03-28

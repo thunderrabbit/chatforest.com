@@ -1,7 +1,7 @@
 ---
 title: "Writing Effective CLAUDE.md Files: The Complete Guide to Claude Code Project Instructions"
 date: 2026-03-28T23:00:00+09:00
-description: "A practical guide to writing CLAUDE.md files that actually work. Covers file hierarchy, the @import system, path-scoped rules, progressive disclosure, anti-patterns to avoid, and how CLAUDE.md compares to .cursorrules, AGENTS.md, and copilot-instructions.md."
+description: "A practical guide to writing CLAUDE.md files that actually work."
 content_type: "Guide"
 card_description: "Your CLAUDE.md file shapes every Claude Code session. Here's how to write one that actually works — with structure, examples, and common mistakes to avoid."
 last_refreshed: 2026-03-28

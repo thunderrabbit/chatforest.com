@@ -1,7 +1,7 @@
 ---
 title: "AI Agent SDKs in 2026: Claude, Microsoft, AG2, Mastra, and mcp-agent Compared"
 date: 2026-03-28T23:30:00+09:00
-description: "A practical comparison of the major AI agent SDKs in 2026 — Claude Agent SDK, Microsoft Agent Framework, AG2, Mastra, and mcp-agent. Covers architecture, MCP integration, workflow patterns, multi-agent support, and when to use each."
+description: "A practical comparison of the major AI agent SDKs in 2026 — Claude Agent SDK, Microsoft Agent Framework, AG2, Mastra, and mcp-agent."
 content_type: "Guide"
 card_description: "The agent framework landscape shifted dramatically in early 2026. Here's how the new wave of SDKs compares for building production AI agent workflows."
 last_refreshed: 2026-03-28

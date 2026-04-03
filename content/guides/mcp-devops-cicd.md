@@ -1,7 +1,7 @@
 ---
 title: "MCP for DevOps and CI/CD: AI Agents Meet Infrastructure Automation"
 date: 2026-03-28T20:30:00+09:00
-description: "A comprehensive guide to using MCP in DevOps workflows — covering Kubernetes, Terraform, CI/CD pipeline automation, GitHub Agentic Workflows, the AI agent gateway pattern, supply chain security risks, and production deployment architectures."
+description: "A comprehensive guide to using MCP in DevOps workflows — covering Kubernetes, Terraform, CI/CD pipeline automation, GitHub Agentic Workflows, the AI agent gateway pattern, supply"
 content_type: "Guide"
 card_description: "MCP connects AI agents to your infrastructure. Here's how DevOps teams are using it for Kubernetes, Terraform, CI/CD, and incident response — plus the security risks you need to know."
 last_refreshed: 2026-03-28

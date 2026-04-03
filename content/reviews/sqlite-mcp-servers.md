@@ -1,7 +1,7 @@
 ---
 title: "SQLite MCP Servers — From Anthropic's Reference Server to 139-Tool Powerhouses and Edge Database Solutions"
 date: 2026-03-23T12:00:00+09:00
-description: "SQLite MCP servers reviewed: Anthropic's archived reference server (mcp-server-sqlite), jparkerweb/mcp-sqlite (93 stars, 8 tools), sqlite-explorer (104 stars, read-only), DBHub (2.4k stars, multi-database), Turso/libSQL options, and the 139-tool db-mcp. Here's the honest review."
+description: "SQLite MCP servers reviewed: Anthropic's archived reference server (mcp-server-sqlite), jparkerweb/mcp-sqlite (93 stars, 8 tools), sqlite-explorer (104 stars, read-only), DBHub"
 og_description: "SQLite MCP servers: Anthropic's reference (archived), jparkerweb/mcp-sqlite (93 stars, 8 tools), sqlite-explorer (104 stars), DBHub (2.4k stars), Turso/libSQL servers, db-mcp (139 tools). 15+ servers reviewed. Rating: 3.5/5."
 content_type: "Review"
 card_description: "SQLite has the most MCP servers of any database — but no canonical winner. Anthropic's reference server is archived, the community is fragmented across 15+ options, and the most capable server (139 tools) has almost no adoption. The ecosystem reflects SQLite's nature: everywhere, embedded in everything, but nobody's in charge."

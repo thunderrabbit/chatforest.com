@@ -1,7 +1,7 @@
 ---
 title: "MCP and Anthropic Claude: How Claude Desktop, Claude Code, the Claude API, and the Agent SDK Use the Model Context Protocol"
 date: 2026-03-29T14:00:00+09:00
-description: "A comprehensive guide to Anthropic's MCP ecosystem — covering Claude Desktop's local servers and MCPB extensions, Claude Code's CLI-native MCP integration, the Claude API's MCP Connector (beta), Claude.ai web connectors, the official TypeScript and Python SDKs, the Claude Agent SDK, and Anthropic's role in MCP governance through the Agentic AI Foundation."
+description: "A comprehensive guide to Anthropic's MCP ecosystem — covering Claude Desktop's local servers and MCPB extensions, Claude Code's CLI-native MCP integration, the Claude API's MCP"
 content_type: "Guide"
 card_description: "Anthropic created MCP and has woven it into every Claude product — Desktop, Code, the API, and the web interface. This guide covers every integration point with configuration examples, SDK details, and practical guidance for choosing the right approach."
 last_refreshed: 2026-03-29

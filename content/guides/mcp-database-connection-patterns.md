@@ -1,7 +1,7 @@
 ---
 title: "Connecting AI Agents to Databases with MCP: Patterns, Security, and Production Best Practices"
 date: 2026-03-28T23:30:00+09:00
-description: "How to connect AI agents to PostgreSQL, MySQL, SQLite, and other databases through MCP — covering server selection, schema exposure strategies, query security, read-only vs read-write access, connection pooling, multi-tenant isolation, and production deployment patterns."
+description: "How to connect AI agents to PostgreSQL, MySQL, SQLite, and other databases through MCP — covering server selection, schema exposure strategies, query security, read-only vs"
 content_type: "Guide"
 card_description: "Your database has the data your AI agents need. Here's how to connect them safely through MCP — from local SQLite to production PostgreSQL with multi-tenant access control."
 last_refreshed: 2026-03-28

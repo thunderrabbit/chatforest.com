@@ -1,7 +1,7 @@
 ---
 title: "MCP and Digital Twins: How AI Agents Connect to BIM, Building Automation, Industrial Simulation, and Smart Infrastructure"
 date: 2026-03-29T15:00:00+09:00
-description: "A comprehensive guide to MCP integrations for digital twins and BIM — covering Revit MCP servers, IFC/openBIM tools, NVIDIA Isaac Sim bridges, Siemens industrial automation connectors, AutoCAD integrations, smart building control via Home Assistant, Autodesk's official MCP roadmap, architecture patterns for twin-aware AI agents, and OT/IT security considerations."
+description: "A comprehensive guide to MCP integrations for digital twins and BIM — covering Revit MCP servers, IFC/openBIM tools, NVIDIA Isaac Sim bridges, Siemens industrial automation"
 content_type: "Guide"
 card_description: "Digital twins meet AI agents through MCP. This guide covers BIM servers for Revit and IFC, industrial automation bridges for Siemens PLCs and SCADA, NVIDIA simulation connectors, CAD integrations for AutoCAD and Blender, smart building control, and security patterns for OT/IT convergence."
 last_refreshed: 2026-03-29

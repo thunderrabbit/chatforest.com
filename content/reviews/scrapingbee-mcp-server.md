@@ -1,7 +1,7 @@
 ---
 title: "ScrapingBee MCP Server — Give Your AI Agent Eyes on the Live Web"
 date: 2026-03-23T23:00:00+09:00
-description: "ScrapingBee's hosted MCP server lets AI agents scrape, screenshot, and extract data from any website — with proxy rotation, CAPTCHA handling, and JavaScript rendering built in. Specialized scrapers for Google, Amazon, Walmart, and more. Hosted Streamable HTTP transport, API key auth, credit-based pricing from $49/mo. Acquired by Oxylabs June 2025. Here's the honest review."
+description: "ScrapingBee's hosted MCP server lets AI agents scrape, screenshot, and extract data from any website — with proxy rotation, CAPTCHA handling, and JavaScript rendering built in."
 og_description: "ScrapingBee MCP: give AI agents live web scraping with proxy rotation, CAPTCHA solving, and JS rendering. Specialized scrapers for Google, Amazon, Walmart. Hosted MCP, no server to run. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Hosted MCP server for web scraping with proxy rotation, CAPTCHA handling, and JavaScript rendering. Specialized scrapers for Google, Amazon, Walmart, and 10+ other targets. Streamable HTTP transport, API key auth, no server to run. Credit-based pricing from $49/mo."

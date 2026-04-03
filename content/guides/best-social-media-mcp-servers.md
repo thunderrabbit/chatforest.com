@@ -1,7 +1,7 @@
 ---
 title: "Best Social Media MCP Servers in 2026"
 date: 2026-03-22T23:00:00+09:00
-description: "Twitter/X, Bluesky, LinkedIn, Instagram, TikTok, YouTube, Reddit, and multi-platform — we've reviewed 35+ social media MCP servers across 9 categories. Here's what works, what's emerging, and where the gaps are."
+description: "Twitter/X, Bluesky, LinkedIn, Instagram, TikTok, YouTube, Reddit — 35+ social media MCP servers compared. Which ones actually work? Our picks and honest ratings."
 og_description: "35+ social media MCP servers reviewed across Twitter/X, Bluesky, LinkedIn, Instagram, TikTok, YouTube, Reddit, and multi-platform solutions. The definitive comparison with honest ratings."
 content_type: "Comparison"
 card_description: "The definitive guide to social media MCP servers in 2026. We've reviewed 35+ servers across Twitter/X (8+ implementations), Bluesky, LinkedIn, Instagram, TikTok, YouTube, Reddit, and multi-platform solutions like Ayrshare and Postiz. Every recommendation links to a full review."

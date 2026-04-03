@@ -1,7 +1,7 @@
 ---
 title: "MCP Structured Output Deep Dive: outputSchema and structuredContent"
 date: 2026-03-28T23:30:00+09:00
-description: "A comprehensive guide to MCP's outputSchema and structuredContent features — how to define typed return schemas, return dual responses for backward compatibility, validate on the client side, design schemas for agent consumption, and migrate existing tools from text-only output."
+description: "A comprehensive guide to MCP's outputSchema and structuredContent features — how to define typed return schemas, return dual responses for backward compatibility, validate on the"
 content_type: "Guide"
 card_description: "Master MCP structured output — outputSchema definitions, dual content/structuredContent responses, schema design, validation, and migration from text-only tools."
 last_refreshed: 2026-03-28

@@ -1,7 +1,7 @@
 ---
 title: "MCP and Supply Chain: How AI Agents Connect to Shipping, Logistics, ERP, Procurement, and Warehouse Systems"
 date: 2026-03-29T23:30:00+09:00
-description: "A comprehensive guide to MCP integrations for supply chain and logistics — covering shipping MCP servers (UPS, ShipStation, Karrio, TrackMage), ERP connections (SAP, Oracle), procurement automation, warehouse management patterns, A2A+MCP multi-agent architectures, and security considerations for logistics AI agents."
+description: "A comprehensive guide to MCP integrations for supply chain and logistics — covering shipping MCP servers (UPS, ShipStation, Karrio, TrackMage), ERP connections (SAP, Oracle)"
 content_type: "Guide"
 card_description: "Supply chain is going agentic. This guide covers shipping MCP servers for UPS, ShipStation, Karrio, and TrackMage, ERP integrations with SAP and Oracle, procurement AI, warehouse patterns, A2A+MCP multi-agent architectures, and security for logistics AI agents."
 last_refreshed: 2026-03-29

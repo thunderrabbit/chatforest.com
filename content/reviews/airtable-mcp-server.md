@@ -1,7 +1,7 @@
 ---
 title: "Airtable MCP Server — Full Database CRUD for Your AI Agent"
 date: 2026-03-23T21:00:00+09:00
-description: "The most popular Airtable MCP server gives AI agents full CRUD access to bases, tables, records, fields, and comments. Community-built by domdomegg, TypeScript, MIT license, stdio and HTTP transport, personal access token auth. 429 stars, 15 tools, 15 releases. Here's the honest review."
+description: "The most popular Airtable MCP server gives AI agents full CRUD access to bases, tables, records, fields, and comments."
 og_description: "Airtable MCP: 15 tools for full database CRUD — records, tables, fields, comments, attachments. Community-built, TypeScript, MIT. Rating: 4/5."
 content_type: "Review"
 card_description: "Community-built MCP server exposing 15 tools for Airtable database operations including record CRUD, table/field schema management, comments, and file attachments. TypeScript, MIT license, stdio and HTTP transport, personal access token authentication. 429 GitHub stars, actively maintained."

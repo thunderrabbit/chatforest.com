@@ -1,7 +1,7 @@
 ---
 title: "Zoom MCP Servers — AI Agents That Manage Meetings, Retrieve Transcripts, and Access Recordings"
 date: 2026-03-23T18:00:00+09:00
-description: "Community-built Zoom MCP servers let AI agents create meetings, retrieve transcripts, access recordings, and manage your calendar — all from natural language prompts. Plus Zoom's own MCP support in AI Studio. Here's the honest review."
+description: "Community-built Zoom MCP servers let AI agents create meetings, retrieve transcripts, access recordings, and manage your calendar — all from natural language prompts."
 og_description: "Zoom MCP servers: manage meetings, retrieve transcripts, access recordings — all via AI agents. Community-built ecosystem with platform MCP support. Rating: 3/5."
 content_type: "Review"
 card_description: "Community-built MCP servers for Zoom enabling AI agents to create and manage meetings, retrieve cloud recording transcripts, access AI Companion summaries, and search meeting history. No official standalone MCP server from Zoom, but the platform has added MCP support to AI Studio for custom agent building."

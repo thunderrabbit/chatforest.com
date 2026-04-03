@@ -1,7 +1,7 @@
 ---
 title: "LLM Observability & MLOps Pipeline MCP Servers — Opik, LangSmith, Langfuse, OpenTelemetry, ZenML, and More"
 date: 2026-03-16T18:30:00+09:00
-description: "LLM observability and MLOps pipeline MCP servers help AI teams monitor traces, manage prompts, orchestrate ML pipelines, and query experiment data through natural language. We reviewed 10+ servers across 5 subcategories. Opik by Comet (200 stars) leads as an open-source LLM observability platform with unified access to prompts, traces, projects, and metrics via MCP. The OpenTelemetry MCP server (175 stars) provides cross-backend trace querying for Jaeger, Tempo, and Traceloop. Langfuse MCP (158 stars) offers prompt management through the MCP Prompts specification. LangSmith MCP (89 stars) provides full LangChain ecosystem observability. ZenML MCP (43 stars) brings ML pipeline orchestration with natural language queries. Rating: 3.5/5."
+description: "LLM observability and MLOps pipeline MCP servers help AI teams monitor traces, manage prompts, orchestrate ML pipelines, and query experiment data through natural language."
 og_description: "LLM observability & MLOps pipeline MCP servers: Opik (200 stars, LLM traces/evals), OpenTelemetry MCP (175 stars, Jaeger/Tempo/Traceloop), Langfuse (158 stars, prompt management), LangSmith (89 stars, LangChain observability), ZenML (43 stars, pipeline orchestration), Helicone MCP (LLM gateway + logging), W&B (41 stars, experiment tracking), Comet MCP (experiment tracking). 10+ servers reviewed. Rating: 3.5/5."
 content_type: "Review"
 categories: ["/categories/observability-monitoring/"]

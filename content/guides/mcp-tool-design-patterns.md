@@ -1,7 +1,7 @@
 ---
 title: "MCP Tool Design Patterns: Building Agent-Friendly, Composable Tools"
 date: 2026-03-28T22:00:00+09:00
-description: "How to design MCP tools that agents can discover, understand, compose, and recover from — covering outputSchema, structured content, agent-aware response patterns, composability, naming conventions, and production-tested design heuristics."
+description: "How to design MCP tools that agents can discover, understand, compose, and recover from — covering outputSchema, structured content, agent-aware response patterns, composability"
 content_type: "Guide"
 card_description: "Design MCP tools that AI agents actually use well — structured output, composable interfaces, and agent-aware response patterns."
 last_refreshed: 2026-03-28

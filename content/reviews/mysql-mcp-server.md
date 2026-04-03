@@ -1,7 +1,7 @@
 ---
 title: "MySQL MCP Servers — The World's Most Popular Database Meets AI"
 date: 2026-03-23T23:00:00+09:00
-description: "MySQL's MCP ecosystem features benborla/mcp-server-mysql (1.4k stars, TypeScript) and designcomputer/mysql_mcp_server (1.2k stars, Python) as community leaders, plus multi-database servers from Bytebase DBHub (2.4k stars) and Google Toolbox (13.5k stars). Cloud support from AWS, Azure, and Google. No Oracle-official server."
+description: "MySQL's MCP ecosystem features benborla/mcp-server-mysql (1.4k stars, TypeScript) and designcomputer/mysql_mcp_server (1.2k stars, Python) as community leaders, plus"
 og_description: "MySQL MCP ecosystem: mcp-server-mysql (1.4k stars), mysql_mcp_server (1.2k stars), DBHub (2.4k stars), Google Toolbox (13.5k stars), plus cloud vendor servers. No Oracle-official MCP server. Rating: 3.5/5."
 content_type: "Review"
 card_description: "MySQL has a solid community MCP ecosystem despite no official Oracle server. benborla/mcp-server-mysql (1.4k stars) leads with SSH tunneling and Claude Code integration. designcomputer/mysql_mcp_server (1.2k stars) offers simplicity. Multi-database servers DBHub (2.4k stars) and Google Toolbox (13.5k stars) add breadth. AWS, Azure, and Google Cloud all support MySQL via MCP."

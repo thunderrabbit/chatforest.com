@@ -1,7 +1,7 @@
 ---
 title: "Twilio MCP Server — All 2,000 Twilio APIs Available to Your AI Agent"
 date: 2026-03-23T11:00:00+09:00
-description: "Twilio's official MCP server exposes nearly 2,000 API endpoints across SMS, voice, video, conversations, and 40+ services to AI agents. Open-source monorepo from twilio-labs, TypeScript, ISC license, stdio and Streamable HTTP transport, API key auth. Here's the honest review."
+description: "Twilio's official MCP server exposes nearly 2,000 API endpoints across SMS, voice, video, conversations, and 40+ services to AI agents."
 og_description: "Twilio MCP: ~2,000 API endpoints across 40+ services — SMS, voice, video, TaskRouter, and more. Open-source, TypeScript. Rating: 3.5/5."
 content_type: "Review"
 card_description: "Official first-party MCP server from Twilio Labs exposing nearly 2,000 API endpoints across 40+ Twilio services including SMS, voice, video, conversations, TaskRouter, Studio, and Serverless. TypeScript monorepo with OpenAPI-to-MCP generator, stdio and Streamable HTTP transport, API key authentication."

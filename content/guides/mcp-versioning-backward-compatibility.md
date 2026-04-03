@@ -1,7 +1,7 @@
 ---
 title: "MCP Versioning and Backward Compatibility: A Practical Guide"
 date: 2026-03-28T23:00:00+09:00
-description: "How MCP protocol versioning works, what changed between spec versions, and how to keep your servers and clients compatible. Covers version negotiation, capability negotiation, transport migration, and tool schema evolution."
+description: "How MCP protocol versioning works, what changed between spec versions, and how to keep your servers and clients compatible."
 content_type: "Guide"
 card_description: "Navigate MCP's evolving spec without breaking your integrations. Learn version negotiation, capability handling, breaking changes across versions, and migration strategies."
 last_refreshed: 2026-03-28

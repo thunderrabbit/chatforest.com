@@ -1,7 +1,7 @@
 ---
 title: "How to Build an AI Agent: Architecture, Tools, and Patterns for 2026"
 date: 2026-03-28T22:30:00+09:00
-description: "A practical guide to building AI agents in 2026 — covering the agentic loop, tool use via MCP, memory architectures, framework choices, multi-agent patterns, deployment, testing, and the mistakes that kill most agent projects."
+description: "A practical guide to building AI agents in 2026 — covering the agentic loop, tool use via MCP, memory architectures, framework choices, multi-agent patterns, deployment, testing"
 content_type: "Guide"
 card_description: "From architecture to deployment — everything you need to know about building AI agents that actually work in production."
 last_refreshed: 2026-03-28

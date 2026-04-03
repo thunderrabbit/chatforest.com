@@ -1,7 +1,7 @@
 ---
 title: "Windows-MCP Server — Give Your AI Agent Eyes and Hands on Windows"
 date: 2026-03-23T17:00:00+09:00
-description: "Windows-MCP by CursorTouch is the leading MCP server for Windows desktop automation. 4,800+ GitHub stars, 17 tools, accessibility tree snapshots, 0.2-0.9s latency, MIT license. Works with any LLM — no vision model required. Here's the honest review."
+description: "Windows-MCP by CursorTouch is the leading MCP server for Windows desktop automation. 4,800+ GitHub stars, 17 tools, accessibility tree snapshots, 0.2-0.9s latency, MIT license."
 og_description: "Windows-MCP: the top Windows desktop automation MCP server. 4,800 stars, Python, MIT, 17 tools, accessibility tree UI interaction, 3 transport modes. Rating: 4.0/5."
 content_type: "Review"
 card_description: "The most popular MCP server for Windows desktop automation. 4,800+ GitHub stars, 17 tools covering clicks, typing, screenshots, shell commands, registry access, and clipboard. Uses accessibility tree snapshots so any LLM can interact with Windows UI — no vision model needed."

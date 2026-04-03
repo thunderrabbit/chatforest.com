@@ -1,7 +1,7 @@
 ---
 title: "MCP and RAG: Building Retrieval-Augmented Generation Pipelines with Model Context Protocol"
 date: 2026-03-28T23:45:00+09:00
-description: "How MCP and RAG work together — covering vector database MCP servers, agentic RAG architectures, RAG-MCP tool selection, when to use each approach, and production patterns for combining retrieval with agent tool use."
+description: "How MCP and RAG work together — covering vector database MCP servers, agentic RAG architectures, RAG-MCP tool selection, when to use each approach, and production patterns for"
 content_type: "Guide"
 card_description: "RAG retrieves knowledge. MCP connects to tools and data. Here's how they work together — and when to use each — for building AI systems that are both informed and effective."
 last_refreshed: 2026-03-28

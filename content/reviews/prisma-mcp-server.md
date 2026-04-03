@@ -1,7 +1,7 @@
 ---
 title: "Prisma MCP Server — Dual-Mode Database Management for AI Agents"
 date: 2026-03-23T22:00:00+09:00
-description: "Prisma's official MCP server comes in two modes: a local CLI server for migrations, schema management, and Prisma Studio, and a remote server for managing Prisma Postgres infrastructure. Built into the Prisma CLI since v6.6.0 — 17 tools, TypeScript, Apache 2.0 license. Here's the honest review."
+description: "Prisma's official MCP server comes in two modes: a local CLI server for migrations, schema management, and Prisma Studio, and a remote server for managing Prisma Postgres infrastructure."
 og_description: "Prisma MCP: 17 tools across local and remote modes — migrations, SQL queries, schema introspection, database provisioning, backups. Official first-party. Rating: 4/5."
 content_type: "Review"
 card_description: "Official first-party dual-mode MCP server from Prisma. Local mode (7 tools) handles migrations, schema management, and Prisma Studio. Remote mode (10 tools) manages Prisma Postgres infrastructure — provisioning, backups, SQL queries, schema introspection. Built into Prisma CLI since v6.6.0, TypeScript, Apache 2.0 license."

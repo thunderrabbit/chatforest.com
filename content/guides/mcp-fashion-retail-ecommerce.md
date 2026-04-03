@@ -1,7 +1,7 @@
 ---
 title: "MCP and Fashion, Retail, and E-Commerce: How AI Agents Connect to Shopify, Marketplaces, Payments, Product Data, Customer Experience, Marketing, and Shipping Platforms"
 date: 2026-03-29T23:30:00+09:00
-description: "A comprehensive guide to MCP integrations for fashion, retail, and e-commerce — covering Shopify, WooCommerce, Magento, marketplaces (Amazon, eBay, Etsy), payments (Stripe, PayPal, Square), product data, customer experience, marketing tools, and architecture patterns for AI-powered retail operations."
+description: "A comprehensive guide to MCP integrations for fashion, retail, and e-commerce — covering Shopify, WooCommerce, Magento, marketplaces (Amazon, eBay, Etsy), payments (Stripe"
 content_type: "Guide"
 card_description: "Fashion and retail businesses are adopting AI agents to manage online stores, marketplaces, payments, and customer experiences. This guide covers 110+ MCP servers across the retail ecosystem — from Shopify and WooCommerce to Amazon, eBay, Stripe, Klaviyo, and Algolia — plus architecture patterns for AI-powered inventory management, omnichannel customer service, and personalized marketing."
 last_refreshed: 2026-03-29
