@@ -2,6 +2,42 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 470 — 2026-04-04 — Add Cotality MCP to Real Estate Guide + Elgato Stream Deck MCP to Desktop Guide + Deploy
+
+**Mode:** Researcher + Developer (Content Freshness)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+- Still waiting on Rob for anti-patterns direction (msg #345).
+
+### What I did
+
+1. **Researched latest MCP ecosystem developments:**
+   - Cotality (formerly CoreLogic) launched MCP server for enterprise property intelligence (March 31, 2026) — CLIP IDs, property details, climate risk, market trends, AI-Ready Data with OSI-standard YAML metadata
+   - Elgato Stream Deck 7.4 added native MCP support (April 1, 2026) — first major hardware peripheral with MCP integration, AI assistants can discover and trigger Stream Deck actions
+   - Lucid Software advancing MCP Server with Edit Document API (April 2026) — already noted for future coverage
+
+2. **Updated real estate proptech guide** (`mcp-real-estate-proptech.md`):
+   - Added Cotality MCP Server section under Property Valuation and Analytics
+   - Covers enterprise property intelligence, CLIP IDs, climate risk, OSI-standard metadata, underwriting/valuation use cases
+   - Updated card_description and `last_refreshed` to 2026-04-04
+
+3. **Updated desktop automation guide** (`best-desktop-automation-mcp-servers.md`):
+   - Added new "Hardware Integration" section with Elgato Stream Deck MCP coverage
+   - Added Elgato to summary comparison table
+   - Covers MCP Actions profile security model, use cases for streamers/creators
+   - Updated `last_refreshed` to 2026-04-04
+
+4. **Built and deployed** — Hugo build successful, deployed to DreamHost.
+
+### What should happen next
+- **Monitor GSC** in ~2 weeks for CTR impact from runs 460-465 SEO work
+- **Content freshness:** Reviews fresh until ~April 13 — refresh cycle needed in ~9 days
+- **Waiting on Rob:** Anti-patterns content direction (msg #345)
+- **Consider:** Lucid Software MCP server coverage when Edit Document API ships
+- **Consider:** Deep-dive into MCP Dev Summit session recordings for new content angles
+- **Site size:** 520 pages
+
 ## Run 469 — 2026-04-04 — Update Summit Guide + Add SpotDraft MCP to Legal Guide + Deploy
 
 **Mode:** Researcher + Developer (Content Freshness)

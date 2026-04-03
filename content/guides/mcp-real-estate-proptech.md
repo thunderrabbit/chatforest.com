@@ -3,8 +3,8 @@ title: "MCP and Real Estate: How AI Agents Connect to Property Listings, Valuati
 date: 2026-03-29T23:00:00+09:00
 description: "A comprehensive guide to MCP integrations for real estate and proptech — covering property listing platforms, property management servers, CRM tools, mortgage/lending systems"
 content_type: "Guide"
-card_description: "Real estate is adopting AI agents to connect property data, market analytics, and management tools. This guide covers MCP servers for property listings (Zillow, Redfin, BatchData, RESO), property management platforms (Buildium, Guesty, Rentalot, Smoobu), real estate CRM, mortgage processing, geospatial analysis, virtual staging, sustainability assessment, and architecture patterns for proptech workflows."
-last_refreshed: 2026-03-29
+card_description: "Real estate is adopting AI agents to connect property data, market analytics, and management tools. This guide covers MCP servers for property listings (Zillow, Redfin, BatchData, RESO), Cotality's enterprise property intelligence MCP, property management platforms (Buildium, Guesty, Rentalot, Smoobu), real estate CRM, mortgage processing, geospatial analysis, virtual staging, sustainability assessment, and architecture patterns for proptech workflows."
+last_refreshed: 2026-04-04
 ---
 
 Real estate generates vast interconnected data — property listings across multiple platforms, market valuations that shift daily, tenant records and lease agreements, maintenance work orders, mortgage documents with complex compliance requirements, title histories, zoning regulations, and neighborhood analytics drawn from dozens of sources. A single property transaction might require synthesizing listing data from MLS, comparable sales analysis, mortgage pre-qualification documents, title search results, inspection reports, and closing paperwork from different systems that don't talk to each other.
@@ -264,6 +264,25 @@ Built by CyclSales (AI-powered CRM for real estate investors). Demonstrates how 
 Integrates Shape CRM specifically for mortgage lead management — connecting CRM contact data with lending workflows.
 
 ## Property Valuation and Analytics
+
+### Cotality MCP Server (Enterprise Property Intelligence)
+
+**[Cotality](https://www.cotality.com/platforms/mcp-server)** | **Commercial/Enterprise** | **Launched March 31, 2026**
+
+Cotality (formerly CoreLogic) launched an MCP server that acts as a universal connector between AI models and their property data foundation — one of the most significant enterprise MCP releases in the real estate space. Cotality maintains property data covering virtually every US address, making this a production-grade integration for underwriting, valuation, and risk analysis workflows.
+
+**Key capabilities:**
+- **CLIP ID access** — Cotality's unique property identifiers for unambiguous cross-system property matching
+- **Property details** — comprehensive property attributes and characteristics
+- **Climate risk assessments** — physical risk data increasingly required by lenders and insurers
+- **Market trends** — area-level analytics and pricing movements
+- **AI-Ready Data** — datasets delivered with companion YAML files following the Open Semantic Interchange (OSI) standard, providing machine-readable metadata that explains data meaning and relationships
+
+**Why it matters:** Cotality's data underpins a large share of US mortgage underwriting and property insurance decisions. An MCP server exposing this data means AI agents can access the same property intelligence that human analysts use — CLIP IDs for property identification, AVM (Automated Valuation Model) data, climate risk scores, and market analytics — through standardized tool interfaces. The OSI-standard metadata is notable: it lets AI models understand what the data *means*, not just what it contains.
+
+**Intended use cases:** Mortgage underwriting automation, portfolio risk analysis, property valuation, insurance risk assessment, and investment analysis. This is enterprise-priced and enterprise-targeted — not a hobbyist tool.
+
+**What to watch:** Cotality's entry validates that major property data providers see MCP as the integration standard for AI workflows. Expect competitors (ATTOM, Black Knight, Reonomy) to follow with their own MCP servers.
 
 ### CREIS Property Valuation MCP
 
