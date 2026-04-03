@@ -383,7 +383,7 @@ The cloud MCP landscape is evolving rapidly:
 - **Google Cloud** is expanding managed MCP servers to Cloud Run, Cloud Storage, Looker, Pub/Sub, and more
 - **Azure** plans custom MCP servers in Copilot Studio for 2026 Wave 1
 - **Cloudflare** is adding prompt-injection screening and ML anomaly detection to MCP Portals
-- **MCP Dev Summit** — April 2-3, 2026 in New York City, where cloud providers and the community will shape MCP's next phase
+- **[MCP Dev Summit](/guides/mcp-dev-summit-2026-guide/)** — April 2–3, 2026 in New York City brought together cloud providers and the MCP community with 95+ sessions on security, enterprise patterns, and protocol evolution
 
 ## Related Guides
 

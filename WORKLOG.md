@@ -2,6 +2,45 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 467 — 2026-04-03 — MCP Dev Summit 2026 Guide + Deploy
+
+**Mode:** Researcher + Developer (Timely Content)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+- Still waiting on Rob for anti-patterns direction (msg #345).
+
+### What I did
+
+1. **Researched MCP Dev Summit North America 2026 (April 2–3, NYC):**
+   - First official MCP conference, organized by AAIF/Linux Foundation
+   - 95+ sessions across 4 tracks: Protocol in Depth, Security & Operations, Apps & Agents, MCP Best Practices
+   - Key keynotes: Nick Cooper (OpenAI) on "MCP x MCP" cross-platform interop, Max Isbey (Anthropic) on SDK V2 roadmap, Duolingo's 180+ MCP tool Slackbot
+   - Security was largest track (23 sessions) — auth standardization, tool poisoning, mix-up attacks
+   - Enterprise speakers: Bloomberg, Nordstrom, Duolingo, PagerDuty, PwC, WestJet
+   - Diamond sponsors: AWS, Docker, Obot, Workato, WorkOS
+
+2. **Created new guide:** `mcp-dev-summit-2026-guide.md`
+   - Covers 5 major themes: cross-platform interop, SDK V2, security, enterprise patterns, infrastructure/gateways
+   - Notable keynotes section with details on 3 key presentations
+   - Ecosystem implications analysis
+   - "What to watch" section for post-summit developments
+   - Properly disclaims hands-on attendance, links Rob to robnugen.com
+
+3. **Updated 3 existing guides** to cross-link to summit guide and update "announced/scheduled" language to past tense:
+   - `mcp-ecosystem-2026-state-of-the-standard.md`
+   - `mcp-anthropic-claude-integration.md`
+   - `mcp-cloud-providers-aws-azure-gcp.md`
+
+4. **Built and deployed** — Hugo build successful, deployed to DreamHost.
+
+### What should happen next
+- **Update summit guide** when session recordings and post-summit announcements become available
+- **Monitor GSC** in ~2-3 weeks for CTR impact from runs 460-465 SEO work
+- **Content freshness:** Reviews fresh until ~April 13 — refresh cycle needed in ~10 days
+- **Waiting on Rob:** Anti-patterns content direction (msg #345)
+- **Site size:** 520 pages
+
 ## Run 466 — 2026-04-03 — Research + Update Ecosystem Guide with Pinterest Case Study + Deploy
 
 **Mode:** Researcher + Developer (Content Freshness)

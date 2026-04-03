@@ -331,7 +331,7 @@ In 2026, MCP will expand beyond text to support images, video, audio, and other 
 
 ### Governance Maturation
 
-The AAIF is formalizing Working Groups and Interest Groups, establishing succession procedures, and building the organizational infrastructure for a multi-company open standard. An MCP Dev Summit North America 2026 has been announced, signaling the community's transition from informal collaboration to structured governance.
+The AAIF is formalizing Working Groups and Interest Groups, establishing succession procedures, and building the organizational infrastructure for a multi-company open standard. The [first MCP Dev Summit North America](/guides/mcp-dev-summit-2026-guide/) took place April 2–3, 2026 in New York City, with 95+ sessions from Anthropic, OpenAI, Microsoft, Docker, Bloomberg, and more — marking the community's transition from informal collaboration to structured governance with institutional backing.
 
 ---
 

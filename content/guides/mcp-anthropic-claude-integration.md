@@ -452,7 +452,7 @@ The AAIF Governing Board handles strategic decisions, budget, and member recruit
 
 ### MCP Dev Summit
 
-The first MCP Dev Summit North America is scheduled for **April 2-3, 2026** in New York, bringing together the MCP community for technical discussions and roadmap planning.
+The [first MCP Dev Summit North America](/guides/mcp-dev-summit-2026-guide/) took place **April 2–3, 2026** in New York City, featuring 95+ sessions from Anthropic, OpenAI, Microsoft, Docker, Bloomberg, and major enterprise adopters. Key topics included SDK V2 roadmap, authentication standardization, and cross-platform interoperability.
 
 ## The 2026 MCP Roadmap
 
