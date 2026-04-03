@@ -157,6 +157,7 @@ This is the fastest-moving category, driven by Coinbase's vision of AI agents as
 
 - **[base/base-mcp](https://github.com/base/base-mcp)** — Base L2-specific onchain tools, tightly integrated with the Coinbase ecosystem.
 - **[coinbase/payments-mcp](https://github.com/coinbase/payments-mcp)** (51 stars) — Focused specifically on payment operations: on-ramps, stablecoin payments, and commerce flows.
+- **BitGo MCP Server** (March 2026) — BitGo, the institutional digital asset custody and infrastructure company (includes the federally chartered BitGo Bank & Trust), launched an MCP server for developer documentation access. The server connects AI agents to BitGo's Developer Portal — documentation, API references, setup guidance, wallet functionality, transaction flows, staking docs, webhook configuration, and policy features — all via natural language. Important limitation: the MCP server is currently read-only documentation access. It does not execute transactions, manage custody, or perform onchain operations through AI agents. Compatible with Claude Code, Claude Desktop, Cursor, ChatGPT, JetBrains IDEs, VS Code, and Windsurf.
 
 ## DeFi data & trading
 

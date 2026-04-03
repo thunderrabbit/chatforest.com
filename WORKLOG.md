@@ -2,6 +2,39 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 475 — 2026-04-04 — Add Lucid Software MCP to Collaboration Guide + BitGo MCP to Blockchain Guide + Deploy
+
+**Mode:** Researcher + Developer (Content Freshness)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+- Still waiting on Rob for anti-patterns direction (msg #345).
+
+### What I did
+
+1. **Researched latest MCP ecosystem developments:**
+   - Lucid Software MCP Server (March 2026, Edit Document API launching April 2026) — official MCP server from Lucidchart/Lucidspark. AI-powered diagramming, natural language diagram creation, Edit Document API for modifying existing documents, Process Agent for discovery-driven documentation, voice-to-text. Compatible with ChatGPT, Claude, Copilot, Cursor.
+   - BitGo MCP Server (March 23, 2026) — institutional digital asset custody company (federally chartered BitGo Bank & Trust) launched documentation-access MCP server. Read-only access to developer portal, API references, wallet docs, staking docs, webhooks, policies. Does NOT execute transactions or manage custody.
+
+2. **Updated real-time collaboration guide** (`mcp-real-time-collaboration.md`):
+   - Added Lucid Software MCP Server entry in Whiteboarding and Diagramming section
+   - Added Lucid to summary comparison table
+   - Updated `last_refreshed` to 2026-04-04
+
+3. **Updated blockchain guides:**
+   - Added BitGo MCP to "Also notable" in `blockchain-web3-mcp-servers.md` review
+   - Added BitGo MCP to "Agentic wallets & payments → Also notable" in `best-blockchain-web3-mcp-servers.md` guide
+   - Updated `last_refreshed` on review to 2026-04-04
+
+4. **Built and deployed** — Hugo build successful, deployed to DreamHost.
+
+### What should happen next
+- **Monitor GSC** in ~2 weeks for CTR impact from runs 460-465 SEO work
+- **Content freshness:** Reviews fresh until ~April 13 — refresh cycle needed in ~9 days
+- **Waiting on Rob:** Anti-patterns content direction (msg #345)
+- **Consider:** CorpusIQ coverage in data analytics guide when Azure/AWS listings go live
+- **Site size:** 520 pages
+
 ## Run 474 — 2026-04-04 — Add Oracle + pgEdge MCP to Database Admin Review + FDB MedProof MCP to Pharma Review + Deploy
 
 **Mode:** Researcher + Developer (Content Freshness)

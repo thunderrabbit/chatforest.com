@@ -4,7 +4,7 @@ date: 2026-03-30T23:30:00+09:00
 description: "A comprehensive guide to 70+ MCP integrations for real-time collaboration — covering chat and messaging servers (Slack official MCP with ~15 tools and OAuth, korotovsky's"
 content_type: "Guide"
 card_description: "The enterprise collaboration software market is valued at $64.9 billion in 2025, projected to reach $121.5 billion by 2030 at 13.4% CAGR. AI copilots are expected to automate 30-50% of routine collaboration workloads. This guide covers 70+ MCP servers across real-time collaboration — from Slack and Teams messaging to Notion and Confluence editing, Miro and Figma whiteboarding, video conferencing transcription, project management, and shared workspaces. The ecosystem features official first-party MCP servers from Slack, Notion, Atlassian, Miro, Figma, Airtable, Asana, and Linear, alongside community servers that often provide 3-5x more tools. Architecture patterns cover AI-augmented team communication, collaborative document workflows, meeting intelligence pipelines, and multi-agent project coordination."
-last_refreshed: 2026-03-30
+last_refreshed: 2026-04-04
 ---
 
 Real-time collaboration is the foundation of modern work. The enterprise collaboration software market is valued at approximately $64.9 billion in 2025, projected to reach $121.5 billion by 2030 at 13.4% CAGR. Within this space, AI-enabled communications and collaboration tools represent a $22.9 billion segment growing at 15.1% CAGR. By 2026, 75% of firms plan to deploy AI-enabled communications APIs, and copilots embedded in collaboration tools are expected to automate 30-50% of routine workloads — meeting notes, document creation, status updates, and project analytics.
@@ -236,6 +236,24 @@ The community server that preceded the official one and drove significant adopti
 - **Design context extraction** — pull design tokens, component specs, and layout information for AI coding agents
 - **~5,000 stars** — one of the most popular MCP servers in any category
 - **Limitations vs official** — lacks write-to-canvas, Code Connect, UI capture, and FigJam support
+
+### Lucid Software MCP Server
+
+**Type:** Official (first-party) | **Transport:** MCP-compatible | **Status:** GA (Edit Document API launching April 2026)
+
+Lucid Software — makers of Lucidchart, Lucidspark, and Lucid Visual Activities — launched an MCP server that brings AI-powered diagramming and process documentation into agent workflows.
+
+Key capabilities:
+- **Natural language diagram creation** — describe a workflow, and the agent generates a fully editable Lucidchart diagram
+- **Edit Document API** (April 2026) — describe changes to an existing document within an LLM, and Lucid AI executes those edits automatically
+- **Voice-to-text prompting** — speak rather than type to create diagrams
+- **Intelligent structuring** — AI generates swimlanes, nested containers, boards, sticky notes, and text blocks
+- **Process Agent** — a proactive collaborator that asks clarifying questions about scope, risk, and approval handoffs before generating documentation, ensuring outputs reflect actual business logic and compliance standards
+- **ChatGPT Apps SDK** — generate Lucid diagrams directly from the ChatGPT interface (coming soon)
+
+Compatible with ChatGPT, Claude, Microsoft Copilot, GitHub Copilot, and Cursor.
+
+What sets Lucid apart from other diagramming MCP servers is the Process Agent's discovery-driven approach. Instead of blindly generating a diagram from a prompt, it initiates a chat-based process — asking about edge cases, approval workflows, and compliance requirements — before creating anything. This is closer to how a human business analyst works.
 
 ## Video Conferencing and Meetings
 
@@ -475,6 +493,7 @@ There is currently no MCP server wrapping VS Code Live Share for AI-participatin
 | **Excalidraw** (lesleslie) | Community | — | — | stdio/WS | — |
 | **Figma** (official) | First-party | — | — | Streamable HTTP | OAuth |
 | **Figma** (GLips) | Community | 5,000 | — | stdio | Token |
+| **Lucid** (official) | First-party | — | — | MCP | — |
 | **tl;dv** (official) | First-party | 7 | — | stdio | API key |
 | **GitHub** (official) | First-party | 26,400 | — | HTTP/stdio | PAT/OAuth |
 | **Linear** (official) | First-party | — | — | — | OAuth |
