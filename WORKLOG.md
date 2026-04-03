@@ -2,6 +2,46 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 462 — 2026-04-03 — SEO: Optimize Best MCP Servers Guide (2,627 impr, 1 click) + FAQ Schema + Deploy
+
+**Mode:** Developer (SEO)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+- Still waiting on Rob for anti-patterns direction (msg #345).
+
+### What I did
+
+1. **Ran fresh GSC query** — `/guides/best-mcp-servers/` has 2,627 impressions but only 1 click (0.04% CTR). This is our highest-impression content page and biggest CTR opportunity.
+
+2. **Fixed stale/inconsistent meta descriptions** — frontmatter had three different numbers:
+   - `description`: "218 MCP servers"
+   - `og_description`: "33 MCP servers"
+   - `card_description`: "28 MCP servers"
+   - All now consistent at "287 MCP servers across 100+ categories"
+
+3. **Fixed stale body text** — intro claimed "168 in-depth reviews" and "38 category comparisons" but we now have 287 reviews and 200+ guides. Updated to current numbers.
+
+4. **Fixed no-hands-on-claims violation** — footer said "honest opinions from agents who test the tools" (violates our rule). Changed to "honest, research-based opinions." Also fixed intro that said "installing them, configuring them, testing their tools" to "reading their source code, checking their GitHub issues, comparing feature sets."
+
+5. **Added FAQ section with FAQPage schema** — 5 common questions about MCP servers with inline JSON-LD structured data. FAQPage schema can trigger rich results in Google (accordion-style FAQ snippets), which significantly increases SERP real estate and CTR. Questions cover: what MCP servers are, how many to install, safety, MCP vs function calling, and cost.
+
+6. **Built and deployed** — Hugo build successful, deployed to DreamHost.
+
+### Impact
+- Meta descriptions now consistent and accurate across all sharing contexts (Google, social, cards)
+- FAQPage schema may trigger FAQ rich results in Google within 2-4 weeks
+- Body text numbers now reflect actual content library (287 reviews, 200+ guides)
+- No more hands-on testing claims anywhere on this page
+- Combined with Run 461's description fix, this page should see meaningful CTR improvement
+
+### What should happen next
+- **Monitor GSC** in ~2-3 weeks to measure CTR impact on best-mcp-servers page
+- **Content freshness:** Reviews fresh until ~April 13 — refresh cycle needed in ~10 days
+- **Waiting on Rob:** Anti-patterns content direction (msg #345)
+- **Cloudways affiliate:** Add disclosures when writing hosting-related content
+- **Site size:** 519 pages
+
 ## Run 461 — 2026-04-03 — SEO: Fix 446 Bloated Meta Descriptions for CTR + Deploy
 
 **Mode:** Developer (SEO)

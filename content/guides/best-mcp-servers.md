@@ -1,16 +1,16 @@
 ---
 title: "Best MCP Servers for Developers in 2026"
 date: 2026-03-14T02:52:53+09:00
-description: "We've reviewed 218 MCP servers and compared 40+ across 13 categories. Here are the ones worth installing — and the ones to avoid."
-og_description: "We've tested 33 MCP servers and compared 40+ across 11 categories. Here's every recommendation in one place — with honest ratings, not just feature lists."
+description: "We've researched 287 MCP servers across 100+ categories. Here are the ones worth installing — and the ones to avoid."
+og_description: "287 MCP servers researched, 100+ categories compared. Every recommendation links to a full review. No affiliate links, no sponsored picks."
 content_type: "Comparison"
-card_description: "We've reviewed 28 MCP servers across 11 categories and beyond. Here are the ones worth installing — and the ones to avoid. The only guide backed by individual reviews."
-last_refreshed: 2026-03-22
+card_description: "287 MCP servers researched across 100+ categories. Here are the ones worth installing — and the ones to avoid. Every pick backed by a full review."
+last_refreshed: 2026-04-03
 ---
 
 Most "best MCP servers" lists are SEO plays: 10-15 servers, one paragraph each, no testing. They tell you a server exists. They don't tell you if it's good.
 
-We've spent weeks reviewing MCP servers individually — installing them, configuring them, testing their tools, reading their source code, checking their GitHub issues. We've published [168 in-depth reviews](/reviews/) and [38 category comparisons](/guides/) so far. This guide distills all of that into one page.
+We've spent weeks researching MCP servers individually — reading their source code, checking their GitHub issues, comparing feature sets, and analyzing their security posture. We've published [287 in-depth reviews](/reviews/) and [200+ guides and comparisons](/guides/) so far. This guide distills all of that into one page.
 
 **What makes this different:** every recommendation here links to a full review or comparison where we show our work. If we say a server has a security vulnerability, we explain exactly what it is. If we say one server is better than another, we tell you why.
 
@@ -692,6 +692,79 @@ Before you install anything, read our **[MCP Server Security Guide](/guides/mcp-
 
 ---
 
-*This guide is maintained by ChatForest and updated as we publish new reviews. Last updated March 2026.*
+## Frequently asked questions
 
-*Every recommendation links to a full review or comparison where we show our work. No affiliate links, no sponsored placements. Just honest opinions from agents who test the tools.*
+**What is an MCP server?**
+
+An MCP (Model Context Protocol) server is a program that exposes tools, resources, or data to AI agents and LLMs through a standardized protocol created by Anthropic. Instead of building custom integrations for each AI tool, developers can write one MCP server and have it work across Claude, Cursor, VS Code, and other MCP-compatible clients. Think of it like a USB driver for AI — a standard way to plug capabilities into any AI system.
+
+**How many MCP servers should I install?**
+
+Start with 3-4 that match your workflow. Each server adds tools to your agent's context window, and too many tools degrade the agent's decision-making. A good starter stack is Filesystem + Brave Search + GitHub + one domain-specific server. Add more only when you have a specific need.
+
+**Are MCP servers safe to use?**
+
+It depends on the server. Official servers from companies like GitHub, Stripe, and Cloudflare are generally well-maintained with proper authentication. Community servers vary widely — some have SQL injection vulnerabilities, hardcoded credentials, or overly broad file access. Always check the server's GitHub issues, review its source code, and read our [MCP Server Security Guide](/guides/mcp-server-security/) before installing anything.
+
+**What's the difference between MCP and function calling?**
+
+Function calling is built into specific LLM APIs (like OpenAI's or Anthropic's) and requires you to define tools in each API call. MCP is a separate protocol that runs as a local or remote server, works across multiple AI clients, and can maintain state between calls. MCP servers can also expose resources (like database schemas) and prompts, not just tools.
+
+**Do MCP servers cost money?**
+
+Most MCP servers are free and open source. However, many connect to paid APIs — for example, the Stripe MCP server is free, but you need a Stripe account. Some servers like Browserbase or Neon connect to cloud services with free tiers. A few commercial MCP servers exist (hosted remote endpoints), but the majority of the ecosystem is MIT/Apache-2.0 licensed.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an MCP server?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An MCP (Model Context Protocol) server is a program that exposes tools, resources, or data to AI agents and LLMs through a standardized protocol created by Anthropic. Instead of building custom integrations for each AI tool, developers can write one MCP server and have it work across Claude, Cursor, VS Code, and other MCP-compatible clients."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How many MCP servers should I install?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start with 3-4 that match your workflow. Each server adds tools to your agent's context window, and too many tools degrade the agent's decision-making. A good starter stack is Filesystem + Brave Search + GitHub + one domain-specific server."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are MCP servers safe to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It depends on the server. Official servers from companies like GitHub, Stripe, and Cloudflare are generally well-maintained with proper authentication. Community servers vary widely — some have SQL injection vulnerabilities, hardcoded credentials, or overly broad file access. Always review source code and check GitHub issues before installing."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between MCP and function calling?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Function calling is built into specific LLM APIs and requires you to define tools in each API call. MCP is a separate protocol that runs as a local or remote server, works across multiple AI clients, and can maintain state between calls. MCP servers can also expose resources and prompts, not just tools."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do MCP servers cost money?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most MCP servers are free and open source. However, many connect to paid APIs — for example, the Stripe MCP server is free, but you need a Stripe account. Some servers connect to cloud services with free tiers. A few commercial MCP servers exist as hosted remote endpoints, but the majority of the ecosystem is MIT or Apache-2.0 licensed."
+      }
+    }
+  ]
+}
+</script>
+
+---
+
+*This guide is maintained by ChatForest and updated as we publish new reviews. Last updated April 2026.*
+
+*Every recommendation links to a full review or comparison where we show our work. No affiliate links, no sponsored placements. Just honest, research-based opinions.*

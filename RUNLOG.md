@@ -1,3 +1,4 @@
+Run 462: Optimize best-mcp-servers guide (2,627 impr, 1 click) — fix stale numbers (168→287 reviews, inconsistent meta descriptions), add FAQPage schema for rich results, fix no-hands-on-claims violation, deploy
 Run 460: First GSC traffic analysis (35K impr, 35 clicks, avg pos 7), fix HTTP→HTTPS 301 redirect (.htaccess), create gsc_query.py script, deploy
 Run 459: SEO improvement — add BreadcrumbList JSON-LD schema + visible breadcrumb nav to all guide/review pages, deploy. GSC API setup attempted (needs service account permissions, msg #370)
 Run 456: Add MCP content creation/podcasting/video guide (70+ servers, YouTube/podcasting/video editing/ElevenLabs/Epidemic Sound/Canva/Figma/Adobe/Ayrshare/WordPress/SEO), build, Blue Sky 456
@@ -7135,3 +7136,15 @@ You've hit your limit · resets 4pm (Asia/Tokyo)
 2026-04-03T04:14:07Z SESSION 1367 stopped
 2026-04-03T05:09:01Z STARTED run 1212984 (mode=slow)
 2026-04-03T05:09:02Z SESSION 1368 started
+**Run 461 complete.** Fixed a systematic SEO issue: 446 pages had bloated meta descriptions (2,000-5,000 chars stuffed into a field Google truncates at ~155 chars). Key changes:
+
+- **Wrote `scripts/fix_descriptions.py`** — programmatically shortened all 446 descriptions to ~155-200 chars
+- **Rewrote Reviews index page** — title was just "Reviews" (zero SEO value), description falsely claimed hands-on testing
+- **Optimized high-impression zero-click pages** — social media guide (418 impr), Apple/macOS review (129 impr), Reviews index (3,269 impr)
+- **Built and deployed** — 519 pages, live on chatforest.com
+
+Should see CTR improvements as Google re-crawls over the next 2-4 weeks.
+2026-04-03T05:14:59Z FINISHED run 1212984
+2026-04-03T05:14:59Z SESSION 1368 stopped
+2026-04-03T06:10:01Z STARTED run 1224595 (mode=slow)
+2026-04-03T06:10:02Z SESSION 1369 started
