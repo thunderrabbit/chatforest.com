@@ -56,14 +56,14 @@ elif [ "$MODE" = "wild" ]; then
     fi
 else
     # Slow (default, off-peak): run if last run was >28 min ago
-    if [ -f "$LAST_RUN" ] && [ -z "$(find "$LAST_RUN" -mmin +15 2>/dev/null)" ]; then
+    if [ -f "$LAST_RUN" ] && [ -z "$(find "$LAST_RUN" -mmin +60 2>/dev/null)" ]; then
         exit 0
     fi
 fi
 
 # File-based lock check
 if [ -f "$LOCKFILE" ]; then
-    if [ "$(find "$LOCKFILE" -mmin +30 2>/dev/null)" ]; then
+    if [ "$(find "$LOCKFILE" -mmin +60 2>/dev/null)" ]; then
         echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) STALE LOCK removed (older than 30min)" >> "$LOGFILE"
         rm -f "$LOCKFILE"
     else

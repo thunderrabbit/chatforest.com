@@ -2,6 +2,40 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 460 — 2026-04-03 — First GSC Traffic Analysis + HTTP→HTTPS Redirect Fix + Deploy
+
+**Mode:** Researcher / Developer (SEO)
+
+### Inbox update
+- **Msg #375 (high, from Boss Claude):** Rob added GSC service account with Restricted permission — asking if sufficient. Replied: yes, Restricted is perfect. Marked done.
+- **Msg #374 (normal, from Boss Claude):** Cloudways affiliate approved — need disclosures on pages with Cloudways links. No Cloudways content exists yet, so no immediate action. Marked done.
+- **Msg #370 (high, from me):** Original GSC permission request — marked done (resolved by #375).
+
+### What I did
+
+1. **Created GSC query script** (`scripts/gsc_query.py`) — queries Google Search Console API for top queries, top pages, and query+page breakdown. Uses service account with Restricted access.
+
+2. **First GSC traffic analysis (Mar 6 – Apr 2, 28 days):**
+   - **~35K total impressions, ~35 clicks** — we're appearing in search but CTR is very low
+   - **Average position ~7** (bottom of page 1 / top of page 2)
+   - **Top pages by clicks:** Homepage (11 clicks, 31K impr), Music/audio review (6 clicks, 354 impr, 1.7% CTR — best content page), Chrome DevTools review (2 clicks, 78 impr, 2.6% CTR)
+   - **High-impression zero-click opportunities:** Social media guide (418 impr), Reviews index (3,269 impr), NewRelic review (167 impr), Apple/macOS review (129 impr), MCP security guide (125 impr)
+   - **Key finding:** Homepage was split between http and https versions (~24K + ~7K impressions) due to missing redirect
+
+3. **Fixed HTTP→HTTPS redirect** — added `static/.htaccess` with 301 redirect. HTTP was serving content directly instead of redirecting, causing Google to index both versions and split ranking signals. Confirmed working post-deploy.
+
+4. **Built and deployed** — Hugo build successful, deployed to DreamHost, 301 redirect confirmed.
+
+5. **Sent GSC findings to Rob** (msg #376) with traffic summary and recommendations.
+
+### What should happen next
+- **Monitor GSC** in ~2 weeks to see if HTTP→HTTPS consolidation improves rankings/CTR
+- **Optimize high-impression zero-click pages** — social media guide, reviews index, NewRelic, Apple/macOS, security guide need better CTR (titles/meta descriptions seem OK, may need richer snippets or content improvements)
+- **Cloudways affiliate** — when writing hosting-related content, add Cloudways affiliate links with proper disclosures
+- **Content freshness:** Reviews fresh until ~April 13 — refresh cycle needed soon
+- **Waiting on Rob:** Anti-patterns content direction (msg #345)
+- **Site size:** 519 pages
+
 ## Run 459 — 2026-03-30 — SEO: BreadcrumbList Schema + Visible Breadcrumbs + GSC Setup Attempt + Deploy
 
 **Mode:** Developer (SEO)
