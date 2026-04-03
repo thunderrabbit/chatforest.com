@@ -4,7 +4,7 @@ date: 2026-03-29T22:00:00+09:00
 description: "A comprehensive guide to MCP integrations for healthcare — covering FHIR servers, EHR connections (Epic, Cerner), DICOM imaging, clinical decision support, the HMCP specification"
 content_type: "Guide"
 card_description: "Healthcare is adopting MCP fast. This guide covers FHIR MCP servers, EHR integrations for Epic and Cerner, DICOM imaging, clinical decision support tools, the HMCP specification, HIPAA compliance, and security patterns for medical AI agents."
-last_refreshed: 2026-03-29
+last_refreshed: 2026-04-03
 ---
 
 Healthcare is where the Model Context Protocol meets its hardest test. The stakes are higher — a wrong query doesn't just return bad data, it could affect patient care. The regulations are stricter — HIPAA, the 2026 Security Rule updates, and FDA oversight create compliance requirements that don't exist in other domains. And the data is more fragmented — patient records spread across EHRs, imaging systems, labs, pharmacies, and specialty platforms that rarely talk to each other.
@@ -238,6 +238,23 @@ The server includes a caching system with connection pooling, robust error handl
 **Repository:** JamesANZ/medical-mcp
 
 This server queries multiple authoritative medical APIs including FDA, WHO, PubMed, Google Scholar, and RxNorm. It provides drug information, health statistics, medical literature, and clinical guidelines — useful for agents that need to cross-reference clinical data with evidence-based recommendations.
+
+### FDB MedProof MCP (First Databank)
+
+**Product:** FDB MedProof MCP™ | **Type:** Commercial (enterprise) | **GA:** March 31, 2026
+
+The first MCP server built specifically for AI agent-driven medication decisions. First Databank — whose drug databases are already embedded in most major EHRs — launched MedProof MCP to bring that same medication intelligence to AI agents operating across clinical workflows.
+
+MedProof MCP connects AI agents to FDB's drug knowledge database across major EHR platforms including Epic, athenahealth, eClinicalWorks, MEDITECH, and Oracle Health (Cerner). This is significant because it means agents can perform drug interaction checks, dosage validation, and medication decision support in patient-specific context without requiring custom integrations per EHR.
+
+FDB also announced two complementary AI solutions:
+
+- **FDB Script Agent™** — a prescription automation agent for ambulatory settings where physicians dictate prescriptions that get structured and queued for review
+- **FDB VerifyAssist™** — an inpatient pharmacy verification assistant that runs drug checks at the point of need, reducing the chart-digging time that currently consumes pharmacist hours
+
+The platform is already in production at Artera — a patient communications platform serving over 1,000 healthcare organizations and more than 100 million patients annually. This makes FDB MedProof MCP one of the largest-scale healthcare MCP deployments documented to date.
+
+This is a notable shift: a major clinical data vendor building MCP-native products rather than retrofitting existing APIs. It signals that MCP is becoming the expected integration standard for healthcare AI, not just an option.
 
 ### The Clinical Knowledge Pattern
 

@@ -2,6 +2,39 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 468 — 2026-04-03 — Update Healthcare + Finance Guides with New MCP Servers + Deploy
+
+**Mode:** Researcher + Developer (Content Freshness)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+- Still waiting on Rob for anti-patterns direction (msg #345).
+
+### What I did
+
+1. **Researched latest MCP ecosystem developments:**
+   - FDB MedProof MCP™ (GA March 31, 2026) — first MCP server for medication decisions, already in production at Artera (100M+ patients). Includes FDB Script Agent and FDB VerifyAssist.
+   - Fingerprint MCP Server (March 2026) — first open-source MCP in fraud prevention, device intelligence + Management API access for fraud analysts.
+   - Microsoft Dynamics 365 Business Central Troubleshooting MCP Server — enterprise debugging via MCP (already niche-covered elsewhere).
+   - deBridge MCP update (April 1) — already covered in finance guide.
+
+2. **Updated healthcare guide** (`mcp-healthcare-fhir.md`):
+   - Added FDB MedProof MCP section under Clinical Decision Support — covers medication intelligence, EHR integration (Epic, athenahealth, eClinicalWorks, MEDITECH, Oracle Health), complementary agents (Script Agent, VerifyAssist), and Artera production deployment
+   - Updated `last_refreshed` to 2026-04-03
+
+3. **Updated finance guide** (`mcp-finance-fintech.md`):
+   - Added new "Fraud Prevention MCP Servers" section with Fingerprint MCP coverage — device intelligence queries, Management API access, vendor-agnostic design, investigation cycle reduction
+   - Updated `last_refreshed` to 2026-04-03
+
+4. **Built and deployed** — Hugo build successful, deployed to DreamHost.
+
+### What should happen next
+- **Monitor GSC** in ~2-3 weeks for CTR impact from runs 460-465 SEO work
+- **Content freshness:** Reviews fresh until ~April 13 — refresh cycle needed in ~10 days
+- **Waiting on Rob:** Anti-patterns content direction (msg #345)
+- **Consider:** Microsoft Dynamics 365 MCP server coverage if enterprise DevOps guide needs freshening
+- **Site size:** 520 pages
+
 ## Run 467 — 2026-04-03 — MCP Dev Summit 2026 Guide + Deploy
 
 **Mode:** Researcher + Developer (Timely Content)
