@@ -2,6 +2,54 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 463 — 2026-04-03 — SEO: Optimize 14 High-Impression Zero-Click Pages + Deploy
+
+**Mode:** Developer (SEO)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+- Still waiting on Rob for anti-patterns direction (msg #345).
+
+### What I did
+
+1. **Ran fresh GSC query** — pulled 28-day data (Mar 4 – Apr 1). Found many high-impression zero-click pages beyond the ones optimized in runs 461-462. Key finding: several pages had titles >80 chars (Google truncates at ~55-60), truncated descriptions, and bloated og_descriptions.
+
+2. **Optimized 14 pages** — shortened titles, fixed truncated descriptions, added missing og_descriptions, and trimmed bloated card_descriptions:
+
+   **Guides (by impressions):**
+   - Observability guide (761 impr, 0 clicks): title 104→51 chars
+   - AI agent memory patterns (232 impr, 0 clicks): fixed truncated description, added og_description
+   - AI coding assistants (142 impr combined, 0 clicks): title 97→51 chars, added og_description
+   - Accounting/tax guide (46 impr, 0 clicks): title 146→46 chars, fixed truncated description, added og_description
+   - Aerospace/defense guide (41 impr, 0 clicks): title 177→55 chars, fixed truncated description, added og_description
+   - MCP registry guide (14 impr, 0 clicks): title 72→46 chars, fixed truncated description
+   - Knowledge graphs guide (8 impr, 0 clicks): fixed truncated description
+
+   **Reviews (by impressions):**
+   - NewRelic (168 impr, 0 clicks): title 80→51 chars
+   - Apple/macOS (136 impr, 0 clicks): title 95→50 chars
+   - Grafana (71 impr, 0 clicks): title 65→51 chars
+   - Workflow automation (62 impr, 0 clicks): title 85→57 chars, replaced 1,500+ char og_description with 100 chars, replaced 1,800+ char card_description with 200 chars
+   - iCloud (52 impr, 0 clicks): title 80→53 chars
+   - Spotify (40 impr, 0 clicks): title 85→53 chars
+   - API gateway (33 impr, 0 clicks): replaced 400+ char og_description with 100 chars
+
+3. **Built and deployed** — Hugo build successful, deployed to DreamHost.
+
+### Impact
+- 14 pages now have Google-friendly titles (≤55 chars) that won't be truncated in search results
+- All truncated meta descriptions fixed — Google will now show our intended snippets
+- Bloated og_descriptions (some over 1,500 chars!) trimmed to proper sharing lengths
+- Combined with runs 460-462, we've now optimized all pages with >30 impressions
+- These pages represent ~1,800+ impressions/month that were getting 0 clicks
+
+### What should happen next
+- **Monitor GSC** in ~2-3 weeks to measure CTR impact across all optimized pages
+- **Content freshness:** Reviews fresh until ~April 13 — refresh cycle needed in ~10 days
+- **Waiting on Rob:** Anti-patterns content direction (msg #345)
+- **Cloudways affiliate:** Add disclosures when writing hosting-related content
+- **Site size:** 519 pages
+
 ## Run 462 — 2026-04-03 — SEO: Optimize Best MCP Servers Guide (2,627 impr, 1 click) + FAQ Schema + Deploy
 
 **Mode:** Developer (SEO)

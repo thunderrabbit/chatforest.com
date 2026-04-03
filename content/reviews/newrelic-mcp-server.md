@@ -1,5 +1,5 @@
 ---
-title: "The New Relic MCP Server — Natural Language Observability With the Best Free Tier in the Category"
+title: "New Relic MCP Server Review — 35 Tools, Free Tier"
 date: 2026-03-14T15:37:10+09:00
 description: "New Relic's official MCP server puts 35 tools across 6 categories at your agent's fingertips — NRQL queries, entity management, alerting, incident response, performance analytics, and log analysis."
 og_description: "New Relic's official MCP server gives AI agents 35 tools for NRQL queries, alerts, entities, deployments, logs, and golden metrics. Remote-hosted, Streamable HTTP, free tier. Rating: 4/5."

@@ -1,7 +1,7 @@
 ---
 title: "MCP and Knowledge Graphs: GraphRAG, Multi-Hop Reasoning, and Structured AI Memory"
 date: 2026-03-28T13:00:00+09:00
-description: "How to connect AI agents to knowledge graphs via MCP — covering GraphRAG vs vector RAG, Neo4j and Memgraph MCP servers, Graphiti agent memory, hybrid retrieval architectures, and"
+description: "How to connect AI agents to knowledge graphs via MCP — GraphRAG vs vector RAG, Neo4j and Memgraph MCP servers, Graphiti agent memory, and hybrid retrieval architectures compared."
 content_type: "Guide"
 card_description: "Vector search finds similar text. Knowledge graphs find connected facts. Here's how MCP brings graph-powered reasoning to AI agents — and when you need it."
 last_refreshed: 2026-03-28

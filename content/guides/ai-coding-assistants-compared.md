@@ -1,7 +1,8 @@
 ---
-title: "AI Coding Assistants Compared: Claude Code vs Cursor vs Copilot vs Windsurf vs Codex vs Kiro vs Antigravity (2026)"
+title: "AI Coding Assistants Compared (2026) — 7 Tools Ranked"
 date: 2026-03-28T21:00:00+09:00
-description: "A comprehensive comparison of the seven major AI coding assistants in 2026 — Claude Code, Cursor, GitHub Copilot, Windsurf, OpenAI Codex, Amazon Kiro, and Google Antigravity."
+description: "Claude Code vs Cursor vs Copilot vs Windsurf vs Codex vs Kiro vs Antigravity — features, pricing, and agent mode compared. Which AI coding tool fits your workflow?"
+og_description: "Seven AI coding assistants compared: Claude Code, Cursor, GitHub Copilot, Windsurf, OpenAI Codex, Amazon Kiro, and Google Antigravity. Honest comparison with pricing."
 content_type: "Guide"
 card_description: "Seven AI coding tools are competing to change how you write software. Here's an honest comparison of features, pricing, and which one fits your workflow."
 last_refreshed: 2026-03-28

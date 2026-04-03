@@ -1,9 +1,10 @@
 ---
-title: "MCP and Accounting: How AI Agents Connect to QuickBooks, Xero, Sage, Tax Preparation, Invoicing, Payroll, Expense Management, and Financial Compliance Tools"
+title: "MCP for Accounting — 95+ Integrations (2026)"
 date: 2026-03-29T23:30:00+09:00
-description: "A comprehensive guide to MCP integrations for accounting and finance — covering QuickBooks (official), Xero (official), Sage Intacct (official), NetSuite, Zoho Books, tax"
+description: "95+ MCP servers for accounting — QuickBooks, Xero, Sage, NetSuite, tax prep, invoicing, payroll, expense management, and compliance. Which ones are production-ready?"
+og_description: "How AI agents connect to accounting tools via MCP. Covers QuickBooks, Xero, Sage Intacct, NetSuite, Zoho Books, tax preparation, and 90+ more integrations."
 content_type: "Guide"
-card_description: "Accounting teams juggle disconnected platforms for bookkeeping, invoicing, tax prep, payroll, and compliance. This guide covers 95+ MCP servers across the accounting ecosystem, from QuickBooks and Xero to Sage, NetSuite, tax law databases, and ERP financial modules — plus architecture patterns for AI-powered reconciliation, automated tax filing, and continuous audit."
+card_description: "95+ MCP servers for accounting and finance — QuickBooks, Xero, Sage, NetSuite, tax prep, invoicing, payroll, and compliance. Architecture patterns for AI-powered reconciliation and automated tax filing."
 last_refreshed: 2026-03-29
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Apple & macOS MCP Servers — Siri Shortcuts, HomeKit, Apple Music, Notes, Reminders, AppleScript Automation, and More"
+title: "Apple & macOS MCP Servers (2026) — 30+ Reviewed"
 date: 2026-03-16T23:30:00+09:00
 description: "30+ Apple and macOS MCP servers reviewed — Siri Shortcuts, HomeKit, Apple Music, Notes, Reminders, AppleScript automation, and more. supermemoryai/apple-mcp (3,000 stars) leads the pack. Rating: 4/5."
 og_description: "Apple & macOS MCP servers: supermemoryai/apple-mcp (3,000 stars — Notes/Reminders/Calendar/Mail/Music/Finder), macos-automator-mcp (709 stars — 200+ AppleScript recipes), Siri Shortcuts, HomeKit, Apple Music, Peekaboo screenshots. 30+ servers reviewed. Rating: 4/5."
