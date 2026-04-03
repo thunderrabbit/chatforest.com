@@ -4,7 +4,7 @@ date: 2026-03-30T22:00:00+09:00
 description: "A comprehensive guide to MCP integrations for data visualization and business intelligence — covering BI platforms (Tableau with official MCP, Power BI with 564-star official"
 content_type: "Guide"
 card_description: "The BI market exceeds $34 billion and AI-powered analytics is transforming how organizations interact with data. This guide covers 80+ MCP servers across the data visualization ecosystem — from BI platforms (Tableau, Power BI, Looker, Metabase, Superset) to charting libraries (AntV with 3,900+ stars, ECharts, Plotly, D3.js), dashboard tools (Grafana with 2,700+ stars, Datadog, New Relic), data exploration tools (DuckDB, Pandas, Polars), enterprise analytics (Snowflake, Databricks, dbt, Google Analytics), and the semantic layers enabling governed 'chat with your data' workflows."
-last_refreshed: 2026-03-30
+last_refreshed: 2026-04-04
 ---
 
 The data visualization and business intelligence landscape is undergoing a fundamental transformation. The global BI market exceeds $34 billion, the data visualization tools market is growing by nearly $8 billion through 2029, and every major analytics vendor — Tableau, Microsoft, Google, Snowflake, Databricks, Splunk — has launched or announced MCP server integrations. The convergence is unmistakable: the era of "chat with your data" has arrived, and MCP is the protocol making it possible.
@@ -132,6 +132,8 @@ ThoughtSpot's official MCP server provides secure OAuth authentication, query an
 **Official Server:** DomoApps/domo-mcp-server | **Stars:** 7 | **Language:** Python
 
 Domo's official server enables running SQL queries on DataSets, searching datasets, and retrieving metadata and schemas.
+
+**Major expansion (March 2026):** At Domopalooza 2026, Domo announced a comprehensive AI orchestration framework including AI Agent Builder, AI Toolkits, a centralized AI Library, and an enhanced Domo MCP Server. The MCP Server now acts as a universal connector, giving external AI tools (Gemini, Claude, etc.) access to governed enterprise data and actions inside Domo. Unlike traditional integrations that return simple text, Domo's MCP implementation can render **interactive business experiences** directly inside chat interfaces — dashboards with filters and drilldowns, not just text responses. AI Toolkits let organizations control which actions and systems agents can access, and toolkits can be exposed externally through MCP. The AI Library (available summer 2026) will serve as a central hub for curating managed AI solutions.
 
 ### Redash
 
