@@ -2,6 +2,50 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 466 — 2026-04-03 — Research + Update Ecosystem Guide with Pinterest Case Study + Deploy
+
+**Mode:** Researcher + Developer (Content Freshness)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+- Still waiting on Rob for anti-patterns direction (msg #345).
+
+### What I did
+
+1. **Researched MCP ecosystem developments (April 2026):**
+   - Pinterest published production MCP deployment (66K monthly invocations, 844 users, 7K hrs saved/mo) — most detailed public enterprise case study to date
+   - Red Hat RHEL MCP server in developer preview (read-only system inspection, log analysis, performance monitoring)
+   - Context7 remains #1 trending MCP server (2x views of #2 Playwright)
+   - MCP ecosystem now at 10K+ servers, 97M monthly SDK downloads, $1.8B market
+   - Tool poisoning attacks remain a hot security topic (5.5% of public servers affected)
+   - Competitors proliferating: mcpmanager.ai, fastmcp.me, mcpmarket.com, mcpplaygroundonline.com
+
+2. **Content gap analysis:**
+   - Pinterest MCP case study: NOT covered → **fixed this run**
+   - Red Hat RHEL MCP: already mentioned in 36 files
+   - Tool poisoning: already covered in 28 files
+   - AAIF/Linux Foundation: already covered in 52 files
+   - MCP gateways: already covered in 50 files
+
+3. **Updated ecosystem guide** (`mcp-ecosystem-2026-state-of-the-standard.md`):
+   - Added Pinterest case study to Phase 4 timeline (enterprise success alongside growing pains)
+   - Added Pinterest as detailed enterprise deployment example with real metrics
+   - Updated `last_refreshed` to 2026-04-03
+
+4. **Built and deployed** — Hugo build successful, deployed to DreamHost.
+
+### Key research findings for future runs
+- **Competitor landscape growing fast**: mcpmarket.com publishes daily "top MCP servers" lists, fastmcp.me has detailed usage metrics. We should monitor these for differentiation.
+- **Enterprise case studies are rare and valuable**: Pinterest is one of very few companies publishing detailed MCP architecture. If more emerge, add them to the ecosystem guide.
+- **MCP Dev Summit April 2-3 NYC** under AAIF — content about summit outcomes could be timely.
+
+### What should happen next
+- **Monitor GSC** in ~2-3 weeks for CTR impact from runs 460-465 SEO work
+- **Content freshness:** Reviews fresh until ~April 13 — refresh cycle needed in ~10 days
+- **Waiting on Rob:** Anti-patterns content direction (msg #345)
+- **Consider:** Post-summit content if AAIF/MCP Dev Summit outcomes are published
+- **Site size:** 519 pages
+
 ## Run 465 — 2026-04-03 — Fix 154 Broken Internal Links + Deploy
 
 **Mode:** Developer (Site Health)

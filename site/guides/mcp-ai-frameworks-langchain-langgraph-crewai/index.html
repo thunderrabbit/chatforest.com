@@ -583,7 +583,7 @@ kernel.Plugins.AddFromFunctions(<span style="color:#e6db74">&#34;GitHub&#34;</sp
 <p><strong>Choose Spring AI if</strong> you&rsquo;re in a Java/Spring Boot enterprise environment. The YAML configuration and annotation-driven server exposure fit naturally into Spring applications.</p>
 <p><strong>Choose DSPy if</strong> you&rsquo;re using DSPy&rsquo;s declarative optimization approach and need to add external tool access via MCP.</p>
 <h2 id="security-considerations">Security Considerations</h2>
-<p>MCP tool integration through frameworks inherits all the security considerations of <a href="/guides/mcp-security-best-practices/">MCP itself</a>, plus framework-specific concerns:</p>
+<p>MCP tool integration through frameworks inherits all the security considerations of <a href="/guides/mcp-server-security/">MCP itself</a>, plus framework-specific concerns:</p>
 <ul>
 <li><strong>Tool trust boundaries</strong>: When a framework loads tools from an MCP server, it trusts the server&rsquo;s tool descriptions. A malicious server could craft descriptions that manipulate LLM behavior (tool poisoning). Validate tool descriptions before exposing them to LLMs.</li>
 <li><strong>Multi-server credential isolation</strong>: When connecting to multiple MCP servers, ensure credentials for one server can&rsquo;t leak to another. Most frameworks handle this correctly, but verify that HTTP headers configured for one server aren&rsquo;t sent to others.</li>
@@ -591,7 +591,7 @@ kernel.Plugins.AddFromFunctions(<span style="color:#e6db74">&#34;GitHub&#34;</sp
 <li><strong>Interceptor security</strong>: LangChain&rsquo;s interceptors and similar middleware patterns can access sensitive context (API keys, user data, agent state). Audit interceptor code carefully.</li>
 <li><strong>Bidirectional exposure</strong>: When exposing your agent or workflow as an MCP server, you&rsquo;re creating an API surface. Apply the same security practices you would for any public API — authentication, rate limiting, input validation.</li>
 </ul>
-<p>For a deeper dive, see our <a href="/guides/mcp-security-best-practices/">MCP Security Best Practices</a> and <a href="/guides/mcp-authentication-oauth/">MCP Authentication and OAuth 2.1</a> guides.</p>
+<p>For a deeper dive, see our <a href="/guides/mcp-server-security/">MCP Security Best Practices</a> and <a href="/guides/mcp-authentication-oauth/">MCP Authentication and OAuth 2.1</a> guides.</p>
 <h2 id="the-bigger-picture">The Bigger Picture</h2>
 <p>MCP&rsquo;s universal adoption across AI frameworks represents a fundamental shift in how AI tool ecosystems work. Instead of each framework maintaining its own tool integrations — LangChain tools, CrewAI tools, LlamaIndex tools — the industry has converged on a shared protocol layer.</p>
 <p>This convergence creates real value: MCP server developers build once and reach every framework. Framework developers focus on agent orchestration rather than tool integration. And teams can mix frameworks in production — a LangGraph agent consuming tools from a Spring AI MCP server, or a CrewAI crew using tools exposed by a LlamaIndex RAG pipeline — without framework lock-in.</p>
@@ -600,7 +600,7 @@ kernel.Plugins.AddFromFunctions(<span style="color:#e6db74">&#34;GitHub&#34;</sp
 <ul>
 <li><a href="/guides/mcp-anthropic-claude-integration/">MCP and Anthropic Claude Integration</a> — how Claude&rsquo;s products integrate MCP</li>
 <li><a href="/guides/mcp-openai-integration/">MCP and OpenAI Integration</a> — how ChatGPT, Agents SDK, and Codex use MCP</li>
-<li><a href="/guides/mcp-security-best-practices/">MCP Security Best Practices</a> — securing MCP deployments</li>
+<li><a href="/guides/mcp-server-security/">MCP Security Best Practices</a> — securing MCP deployments</li>
 <li><a href="/guides/mcp-authentication-oauth/">MCP Authentication and OAuth 2.1</a> — the auth layer for MCP servers</li>
 <li><a href="/guides/mcp-server-packaging-distribution/">MCP Server Packaging and Distribution</a> — npm, PyPI, Docker, DXT, and the Registry</li>
 <li><a href="/guides/mcp-ecosystem-2026-state-of-the-standard/">MCP Ecosystem 2026: State of the Standard</a> — the full landscape</li>

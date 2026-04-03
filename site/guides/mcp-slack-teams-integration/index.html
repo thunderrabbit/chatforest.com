@@ -251,7 +251,7 @@
 <p>The typical production pattern: a native event listener detects incoming messages and triggers an MCP-equipped agent to handle them. The agent uses MCP tools for its response actions.</p>
 <h2 id="real-world-use-cases">Real-World Use Cases</h2>
 <h3 id="incident-response">Incident Response</h3>
-<p>PagerDuty alert fires → AI agent uses Slack MCP to search for related error reports in channels, combines with <a href="/guides/best-monitoring-mcp-servers/">Datadog MCP</a> for metrics, synthesizes a situation report, and posts it to the incident channel — all before the on-call engineer has finished reading the page.</p>
+<p>PagerDuty alert fires → AI agent uses Slack MCP to search for related error reports in channels, combines with <a href="/guides/best-observability-mcp-servers/">Datadog MCP</a> for metrics, synthesizes a situation report, and posts it to the incident channel — all before the on-call engineer has finished reading the page.</p>
 <h3 id="knowledge-retrieval">Knowledge Retrieval</h3>
 <p>Engineers ask questions in natural language. The agent searches across Slack history, threads, and files to find answers that would otherwise require scrolling through months of messages. Combined with Slack&rsquo;s RTS API, searches respect the user&rsquo;s actual workspace permissions.</p>
 <h3 id="channel-summarization">Channel Summarization</h3>
