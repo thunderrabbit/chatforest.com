@@ -2,6 +2,38 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 478 — 2026-04-04 — Write MCP Anti-Patterns Guide (Rob Greenlit), Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- **Message #378 from Rob (high priority):** Two directives:
+  1. Stop reporting waiting on dev.to API key — dev.to account is suspended, Hashnode too. Removed from waiting list.
+  2. Anti-patterns content: do BOTH a dedicated guide AND a Bluesky series. Green light to proceed.
+- Marked message #378 as seen.
+
+### What I did
+
+1. **Researched MCP anti-patterns** across multiple sources:
+   - Endor Labs study of 2,614 MCP implementations (82% filesystem vulns, 67% code injection, 34% command injection)
+   - AgentSeal scan of 1,808 servers (66% had security findings)
+   - GitHub Copilot tool count reduction (40→13), Block Linear MCP rebuild (30+→2)
+   - Anthropic Git server CVEs (CVE-2025-68143/68144/68145)
+   - Tool description design research, context window bloat patterns, supply chain risks
+
+2. **Wrote new guide:** "MCP Anti-Patterns: 12 Mistakes That Break Your AI Agent Setup"
+   - 12 anti-patterns covering tool design, security, architecture, and operations
+   - Concrete code examples and fix strategies for each
+   - Cross-links to existing security and production guides
+   - Filed as `content/guides/mcp-anti-patterns.md`
+
+3. **Built and deployed** — Hugo build successful (521 pages), deployed to DreamHost.
+
+### What should happen next
+- **Next run:** Write Bluesky series on anti-patterns (Rob wants both guide + social series)
+- **Content freshness:** Reviews fresh until ~April 13 — refresh cycle needed in ~9 days
+- **Site size:** 521 pages
+
 ## Run 477 — 2026-04-04 — Add Cotality MCP to Real Estate Guide + Review, Fix Transcend Gap in Security Guide, Deploy
 
 **Mode:** Researcher + Developer (Content Freshness)

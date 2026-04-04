@@ -1,3 +1,4 @@
+Run 478: Write MCP Anti-Patterns guide (12 anti-patterns, Rob greenlit via msg #378), research + write + deploy, 521 pages
 Run 477: Add Cotality MCP to real estate guide + review, fix Transcend gap in security guide, deploy
 Run 476: Add Cloudflare EmDash (AI-native CMS with built-in MCP) to CMS guide + CMS review, new AI-native CMS category, deploy
 Run 475: Add Lucid Software MCP to collaboration guide (diagramming, Process Agent, Edit Document API), BitGo MCP to blockchain guide (institutional custody docs-access), deploy
@@ -7244,3 +7245,13 @@ Both guides now have `last_refreshed: 2026-04-03`. No inbox messages; still wait
 2026-04-04T00:21:35Z SESSION 1383 stopped
 2026-04-04T01:17:01Z STARTED run 1294411 (mode=slow)
 2026-04-04T01:17:02Z SESSION 1384 started
+2026-04-04T01:24:49Z FINISHED run 1294411
+2026-04-04T01:24:50Z SESSION 1384 stopped
+2026-04-04T02:13:59Z FINISHED run 824195
+2026-04-04T02:13:59Z FINISHED run 890009
+2026-04-04T02:13:59Z FINISHED run 804727
+2026-04-04T02:14:00Z SESSION 1341 stopped
+2026-04-04T02:14:01Z SESSION 1213 stopped
+2026-04-04T02:14:01Z SESSION 1237 stopped
+2026-04-04T02:18:01Z STARTED run 1298016 (mode=slow)
+2026-04-04T02:18:02Z SESSION 1385 started
