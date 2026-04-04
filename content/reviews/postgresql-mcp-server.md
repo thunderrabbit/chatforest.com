@@ -5,7 +5,7 @@ description: "PostgreSQL has the richest MCP server ecosystem of any database: 2
 og_description: "PostgreSQL MCP ecosystem: Postgres MCP Pro (2.4k stars), Supabase MCP (2.6k stars), Neon MCP (565 stars), Google Toolbox (13.5k stars), plus vendor and community servers. The richest database MCP ecosystem. Rating: 4.5/5."
 content_type: "Review"
 card_description: "PostgreSQL has the deepest MCP server ecosystem of any database. Postgres MCP Pro (2.4k stars) provides performance analysis and index tuning. Supabase MCP (2.6k stars) adds full platform management. Neon, pgEdge, Azure, AWS, and Google all ship PostgreSQL MCP servers. Anthropic's archived reference server started it all."
-last_refreshed: 2026-03-23
+last_refreshed: 2026-04-04
 ---
 
 **At a glance:** PostgreSQL has the **richest MCP server ecosystem of any database**. The standout is [Postgres MCP Pro](https://github.com/crystaldba/postgres-mcp) (2.4k stars, MIT) from CrystalDBA — offering performance analysis, index tuning, and configurable read/write access. Vendor-backed servers from [Supabase](https://github.com/supabase-community/supabase-mcp) (2.6k stars), [Neon](https://github.com/neondatabase/mcp-server-neon) (565 stars), [pgEdge](https://github.com/pgEdge/pgedge-postgres-mcp) (91 stars), Azure, AWS, and [Google's MCP Toolbox](https://github.com/googleapis/genai-toolbox) (13.5k stars) provide platform-specific integrations. Anthropic's original [reference PostgreSQL server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/postgres) (now archived) helped catalyze the ecosystem. Part of our **[Databases MCP category](/categories/databases/)**.
@@ -102,7 +102,7 @@ Supports connecting to multiple Aurora/RDS PostgreSQL endpoints. Part of the lar
 | [HenkDz/postgresql-mcp-server](https://github.com/HenkDz/postgresql-mcp-server) | 175 | TypeScript | AGPLv3 | 17 consolidated tools (from 46), schema/query/monitoring |
 | [call518/MCP-PostgreSQL-Ops](https://github.com/call518/MCP-PostgreSQL-Ops) | 142 | Python | MIT | 30+ ops/monitoring tools, PG 12–18, production-safe |
 | [Azure-Samples/azure-postgresql-mcp](https://github.com/Azure-Samples/azure-postgresql-mcp) | 33 | Python | MIT | Azure Database for PostgreSQL, Entra auth, preview |
-| [pgEdge/pgedge-postgres-mcp](https://github.com/pgEdge/pgedge-postgres-mcp) | 91 | TypeScript | — | NLP CLI + Web UI, hybrid search, custom YAML tools, beta |
+| [pgEdge/pgedge-postgres-mcp](https://github.com/pgEdge/pgedge-postgres-mcp) | 91 | Go | PostgreSQL License | NLP CLI + Web UI, hybrid search (BM25+MMR+vector), custom YAML tools, **GA April 2026** |
 | [neverinfamous/postgres-mcp](https://github.com/neverinfamous/postgres-mcp) | 5 | TypeScript | MIT | 232 capabilities, Code Mode (90% token savings), OAuth 2.1 |
 
 ### Anthropic's Archived Reference Server
@@ -158,7 +158,7 @@ PostgreSQL 18 highlights: async I/O subsystem (up to 3× storage read improvemen
 
 8. **Transport fragmentation** — Some servers use stdio only, others SSE, others remote hosting. No single transport works across all options, complicating setup for users with specific MCP client requirements.
 
-9. **pgEdge and neverinfamous servers are early-stage** — pgEdge is beta; neverinfamous/postgres-mcp has only 5 stars despite 232 capabilities and 370 commits. Neither has been battle-tested at scale.
+9. **Some servers are early-stage** — pgEdge reached GA in April 2026 but community adoption (91 stars) is still limited; neverinfamous/postgres-mcp has only 5 stars despite 232 capabilities and 370 commits. Neither has been battle-tested at scale by the community.
 
 10. **No MCP server handles PostgreSQL extensions well** — While pg_stat_statements and HypoPG get some support, the broader extension ecosystem (pgvector, PostGIS, pg_cron, pg_partman) lacks deep MCP integration. An AI agent asking about vector similarity search or geospatial queries gets limited help.
 

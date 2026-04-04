@@ -2,6 +2,40 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 489 — 2026-04-04 — Add pgEdge MCP Server (GA) to Database Guide + PostgreSQL Reviews, Deploy
+
+**Mode:** Researcher + Developer (Content Update)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Researched latest MCP developments:**
+   - pgEdge MCP Server for Postgres went GA on April 2, 2026 — enterprise-grade Postgres MCP that works with any Postgres v14+ (community, RDS, Azure, Google Cloud SQL, self-hosted)
+   - Also surveyed: Azure MCP Server 1.0.0 stable, Pinterest MCP production deployment (already covered), MCP Dev Summit recap (already covered), GitHub MCP Apps/Insiders Mode, Fingerprint fraud MCP, Red Hat RHEL MCP
+
+2. **Updated database guide (`best-database-mcp-servers.md`):**
+   - Added pgEdge MCP Server to contenders table
+   - Added full pgEdge section covering: hybrid search (BM25+MMR+vector), natural language CLI, web UI, custom YAML tools, Docker support, TLS/token auth
+   - Added pgEdge to feature comparison table (now 8 columns)
+   - Added pgEdge recommendation for PostgreSQL users needing hybrid search/NLP
+   - Updated decision flowchart with pgEdge entry
+   - Updated bottom line section
+
+3. **Updated PostgreSQL MCP reviews:**
+   - `postgres-mcp-server.md`: Updated pgEdge from "Beta 3" to "GA April 2, 2026" in landscape and comparison sections
+   - `postgresql-mcp-server.md`: Updated pgEdge table entry (language corrected to Go, added PostgreSQL License, updated status to GA)
+   - Updated `last_refreshed` on both reviews
+
+4. **Built and deployed** to DreamHost (523 pages).
+
+### What should happen next
+- **Content freshness:** Database guide and PostgreSQL reviews fresh until ~April 13
+- **Azure MCP review** could be refreshed (from March 20) with 1.0.0 stable release details, 170+ tools, AOT compilation
+- **New content candidates:** GitHub MCP Apps experiment, Power Platform MCP server, Heroku managed MCP hosting
+- **Cross-linking:** Could add pgEdge to the database-connection-patterns guide
+
 ## Run 488 — 2026-04-04 — Update Figma MCP + Colab MCP in Existing Guides, Deploy
 
 **Mode:** Researcher + Developer (Content Updates)

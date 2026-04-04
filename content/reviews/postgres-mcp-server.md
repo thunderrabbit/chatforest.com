@@ -5,7 +5,7 @@ description: "Anthropic's official Postgres MCP server promises read-only databa
 og_description: "Archived, deprecated, vulnerable to SQL injection, still getting 21k weekly downloads. The official Postgres MCP server is a cautionary tale. Rating: 2.5/5."
 content_type: "Review"
 card_description: "Archived May 2025, deprecated July 2025, still unpatched on npm. The official Postgres MCP server's read-only protection doesn't work, and the ecosystem has moved on — Google Toolbox leads at 13.5k stars. Our lowest rating."
-last_refreshed: 2026-03-14
+last_refreshed: 2026-04-04
 ---
 
 **At a glance:** Archived May 2025, deprecated July 2025, npm v0.6.2 (unpatched), ~21,000 weekly npm downloads, ~1,000 weekly Docker pulls, 1 tool, SQL injection vulnerability (no CVE assigned), parent repo modelcontextprotocol/servers at 81,600 stars. Part of our **[Databases MCP category](/categories/databases/)**
@@ -100,7 +100,7 @@ The ecosystem has moved on dramatically since our initial review. The official s
 
 **Google's MCP Toolbox for Databases has emerged as the dominant multi-database option.** At 13,500 stars, it dwarfs every Postgres-specific MCP server. Written in Go under Apache 2.0, it supports AlloyDB, Cloud SQL, BigQuery, Spanner, Firestore, and Bigtable — with OAuth2/OIDC auth and OpenTelemetry integration. Version 0.30.0 shipped on March 20, 2026. If you're in the Google Cloud ecosystem, this has become the default choice.
 
-**pgEdge released Beta 3 on March 18, 2026.** Their Go-based server now supports custom tools defined via YAML, PL/pgSQL and PL/Python execution, write mode, a web UI, and a natural language agent CLI. It's purpose-built for production Postgres workflows, not just querying.
+**pgEdge went GA on April 2, 2026.** Their Go-based server supports custom tools defined via YAML, PL/pgSQL and PL/Python execution, write mode, a web UI, hybrid search (BM25+MMR+vector), and a natural language agent CLI. Works with any Postgres v14+ — community, RDS, Azure, Google Cloud SQL, or self-hosted. Now production-ready and available in pgEdge Cloud.
 
 **DBHub from Bytebase (2,400 stars) takes a token-efficient approach.** It supports Postgres, MySQL, SQLite, MariaDB, and SQL Server through just 2 tools — a deliberate design to reduce LLM token consumption. This addresses a real pain point: enterprise databases with 200+ tables can consume tens of thousands of tokens just for schema information.
 
@@ -140,7 +140,7 @@ The ecosystem has moved on dramatically since our initial review. The official s
 
 **vs. Supabase MCP Server:** ~2,400 stars, ~20,000 weekly npm downloads. Full Supabase integration covering auth, realtime, storage, and edge functions beyond just database queries. If you're already on Supabase, this is the obvious pick.
 
-**vs. pgEdge Postgres MCP Server:** Now at Beta 3 (March 18, 2026). Go-based with custom YAML tool definitions, PL/pgSQL and PL/Python support, write mode, web UI, and natural language agent CLI. Enterprise-oriented, supporting multiple simultaneous database connections across dev/staging/production. Connects to standard community Postgres, Amazon RDS, and other managed providers (v14+).
+**vs. pgEdge Postgres MCP Server:** GA since April 2, 2026. Go-based with custom YAML tool definitions, PL/pgSQL and PL/Python support, write mode, web UI, hybrid search (BM25+MMR+vector), and natural language agent CLI. Enterprise-oriented, supporting multiple simultaneous database connections across dev/staging/production. Connects to any standard Postgres v14+ — community, Amazon RDS, Azure, Google Cloud SQL, or self-hosted. Also available as a managed service via pgEdge Cloud.
 
 **vs. Neon MCP Server:** 549 stars. Neon-specific: branching, provisioning, migrations. Purpose-built for the Neon serverless Postgres platform.
 

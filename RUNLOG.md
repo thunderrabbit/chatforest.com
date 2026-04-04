@@ -1,3 +1,4 @@
+Run 489: Add pgEdge MCP Server (GA April 2) to database guide + PostgreSQL reviews, deploy
 Run 483: Add Fingerprint MCP (fraud prevention) to security guide, Red Hat RHEL MCP (OS troubleshooting) to DevOps guide, deploy
 Run 482: Add Pinterest case study to production guide, Zocks MCP to finance guide, deploy
 Run 481: Add source links to Anthropic integration timeline (Rob #379), publish final Bluesky batch
@@ -7328,3 +7329,46 @@ Run 484 complete.
 2026-04-04T07:31:18Z SESSION 1391 stopped
 2026-04-04T08:28:01Z STARTED run 1307817 (mode=slow)
 2026-04-04T08:28:02Z SESSION 1392 started
+Run 485 complete.
+
+**What I did:**
+- Researched MCP tool poisoning attacks from Invariant Labs, CyberArk ("Poison Everywhere"), OWASP MCP Top 10, and MCPTox benchmark
+- Created a new deep-dive guide covering 5 attack vectors: description poisoning, tool shadowing, full-schema poisoning, output poisoning (ATPA), and rug pulls
+- Added practical defenses section with mcp-scan usage and a defense checklist
+- Cross-linked from the existing security guide
+- Built and deployed — 522 pages live
+2026-04-04T08:32:36Z FINISHED run 1307817
+2026-04-04T08:32:36Z SESSION 1392 stopped
+2026-04-04T09:29:01Z STARTED run 1309462 (mode=slow)
+2026-04-04T09:29:02Z SESSION 1393 started
+Run 486 complete. Here's what I did:
+
+**Researched** latest database MCP ecosystem developments and found two significant gaps in our database guide:
+
+1. **Oracle Autonomous AI Database MCP Server** (GA March 2026) — First major enterprise database vendor to ship MCP as a built-in, managed feature of the database itself. Zero deployment, enforces existing Oracle security policies automatically.
+
+2. **MariaDB MCP Server** (official) — First-party server with a unique differentiator: native vector search alongside standard SQL in one MCP server.
+
+**Updated** the database guide (`best-database-mcp-servers.md`) with full sections for both, plus contenders table, feature comparison, decision flowchart, and recommendations updates.
+
+**Built and deployed** to DreamHost (522 pages).
+2026-04-04T09:35:45Z FINISHED run 1309462
+2026-04-04T09:35:45Z SESSION 1393 stopped
+2026-04-04T10:29:01Z STARTED run 1310833 (mode=slow)
+2026-04-04T10:29:03Z SESSION 1394 started
+Run 487 complete. New guide published: **Best MCP Governance Platforms for Enterprise in 2026** — comparing RunLayer, MintMCP, SurePath AI, Kong, Composio, Strata Identity, Bifrost, and IBM ContextForge across compliance, identity, policy enforcement, and deployment models. Site deployed at 523 pages.
+2026-04-04T10:35:15Z FINISHED run 1310833
+2026-04-04T10:35:16Z SESSION 1394 stopped
+2026-04-04T11:30:01Z STARTED run 1312291 (mode=slow)
+2026-04-04T11:30:02Z SESSION 1395 started
+The session start was denied earlier, so there's no session to stop.
+
+**Run 488 complete.** Here's what I did:
+
+- **Updated design guide** with Figma's major March 2026 expansion — agents can now write to the canvas via `use_figma`, and the new Skills system (markdown workflow definitions) makes agent behavior predictable. Updated pricing, client list, and manipulation section.
+- **Updated data science guide** with expanded Google Colab MCP details — two operational modes (Session Proxy vs Runtime), persistent state, dynamic dependency management, compatible clients.
+- **Built and deployed** to DreamHost (523 pages).
+2026-04-04T11:34:07Z FINISHED run 1312291
+2026-04-04T11:34:08Z SESSION 1395 stopped
+2026-04-04T12:30:01Z STARTED run 1315868 (mode=slow)
+2026-04-04T12:30:03Z SESSION 1396 started
