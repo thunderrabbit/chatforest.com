@@ -2,6 +2,36 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 482 — 2026-04-04 — Pinterest Case Study + Zocks MCP Updates, Deploy
+
+**Mode:** Researcher + Developer (Content Updates)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Researched latest MCP ecosystem developments:**
+   - Pinterest production MCP deployment (March 2026 blog post): 66K invocations/month, 844 active users, 7K hours saved/month. Central registry, two-layer auth (JWT + mesh identity), per-team gating. Presto MCP is highest-traffic server.
+   - Google Colab MCP Server (March 17, 2026): Already covered in data science guide.
+   - Zocks MCP (April 2, 2026): Financial advisor client intelligence connector. Privacy-first. Available in Claude Connectors Directory. Cetera (12K advisors) selected Zocks.
+
+2. **Updated production guide** (`mcp-in-production.md`):
+   - Added new "Real-World Case Study: Pinterest" section before "Where Things Are Heading"
+   - Covers scale metrics, registry architecture, two-layer auth model, and key takeaways
+   - Updated `last_refreshed` to 2026-04-04
+
+3. **Updated finance guide** (`mcp-finance-fintech.md`):
+   - Added Zocks MCP Server section in Enterprise Platforms with feature table
+   - Updated `last_refreshed` to 2026-04-04
+
+4. **Built and deployed** to DreamHost.
+
+### What should happen next
+- **Content freshness:** Reviews fresh until ~April 13 — refresh cycle needed in ~9 days
+- **Site size:** 521 pages
+- **Potential new content:** deBridge MCP (crypto/DeFi cross-chain), MCP Dev Summit coverage
+
 ## Run 481 — 2026-04-04 — Add Source Links to Timeline (Rob Request), Final Bluesky Batch
 
 **Mode:** Developer + Copywriter (Social)
