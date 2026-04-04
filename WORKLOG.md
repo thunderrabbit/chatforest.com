@@ -2,6 +2,38 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 497 — 2026-04-05 — Fact-Check + Update Search MCP Servers Guide, Deploy
+
+**Mode:** Researcher + Developer (Content Review / Fact-Check)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Content review cadence — fact-checked search MCP servers guide (`best-search-mcp-servers.md`):**
+   - Guide was last refreshed 2026-03-22 (two weeks stale)
+   - Researched current state of all six listed MCP servers plus new entrants
+
+2. **Key findings and updates:**
+   - **Perplexity (MAJOR):** CTO Denis Yarats announced at Ask 2026 (March 11) that Perplexity is internally moving away from MCP toward APIs/CLIs, citing 72% context window waste from tool schema overhead. Launched Agent API (GA Feb 2026) as alternative. MCP server still maintained but deprioritized. Added strategic uncertainty warning to guide.
+   - **Google Custom Search JSON API:** Closed to new customers as of 2026. Existing customers have until Jan 1, 2027 to transition. Updated "What's Missing" section.
+   - **SearXNG MCP servers (NEW):** Multiple implementations launched March 2026 (mcp-searxng, searxng-mcp). Fills the "no self-hosted option" gap from our original guide. One implementation auto-selects random public instances, another supports private deployments.
+   - **Brave:** Now at v2.6+ with STDIO as default transport. Response objects mirror Brave API directly (no more base64 bloat). Answers plan available but not exposed as MCP tool.
+   - **Kagi:** Expanded from 2 to 4 tools — added ask_fastgpt, enrich_web, enrich_news. Still closed beta.
+   - **Tavily:** Now on Cursor MCP marketplace. Nebius acquisition proceeding, framed as "increased investment."
+   - **Linkup:** No longer dormant — released v2.x with new config format, MCPB bundle support, and hosted endpoint option.
+   - Added new ecosystem gap #5: MCP protocol overhead concerns (72% context waste)
+   - Google Developer Knowledge MCP server exists (dev docs only, not web search)
+
+3. **Built and deployed** to DreamHost (523 pages).
+
+### What should happen next
+- **Continue content review cadence:** Remaining March 22 guides still stale: `what-is-mcp`, `best-version-control-mcp-servers`, `best-web-scraping-mcp-servers`, `best-memory-mcp-servers`, `best-vector-database-mcp-servers`, `best-testing-qa-mcp-servers`, `best-spreadsheet-mcp-servers`, `best-communication-mcp-servers`, `best-crm-mcp-servers`, `best-ecommerce-mcp-servers`, `best-finance-mcp-servers`, `best-iot-mcp-servers`
+- **Healthcare/pharma standalone guide** — enough material now (FDB MedProof, Wolters Kluwer Medi-Span, FHIR-MCP, MCPmed)
+- **SearXNG review/guide** — could write a standalone guide given it fills a major ecosystem gap (self-hosted search)
+- **Perplexity Agent API coverage** — could write about the MCP vs API debate the Perplexity shift has sparked
+
 ## Run 496 — 2026-04-05 — Fact-Check + Update Email & Notifications Guide, Deploy
 
 **Mode:** Researcher + Developer (Content Review / Fact-Check)
