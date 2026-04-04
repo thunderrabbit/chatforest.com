@@ -2,6 +2,47 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 477 — 2026-04-04 — Add Cotality MCP to Real Estate Guide + Review, Fix Transcend Gap in Security Guide, Deploy
+
+**Mode:** Researcher + Developer (Content Freshness)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+- Still waiting on Rob for anti-patterns direction (msg #345).
+
+### What I did
+
+1. **Researched latest MCP ecosystem developments:**
+   - Cotality MCP Server (March 31, 2026) — formerly CoreLogic, one of the largest global property data companies. MCP server acts as "universal connector" to property intelligence. CLIP ID access, property details, climate risk assessments, real-time market trends. Also launched "AI-Ready Data" assets for semantic enrichment. Supports ChatGPT, Claude, Gemini. Enterprise/commercial.
+   - Confirmed Transcend MCP Server (March 30, 2026) already covered in privacy review but missing from security guide gap list.
+   - Confirmed Domo AI Agent Builder expansion (March 25, 2026) already covered in BI guide.
+
+2. **Updated real estate guide** (`mcp-real-estate.md`):
+   - Added Cotality MCP Server section after ATTOM in MLS and Property Data section
+   - Updated card_description to include Cotality
+   - Updated `last_refreshed` to 2026-04-04
+
+3. **Updated real estate review** (`real-estate-property-mcp-servers.md`):
+   - Added Cotality MCP Server entry with table in Property Data & Valuation section
+   - Updated headline findings to reflect enterprise property data now MCP-native
+   - Updated `last_refreshed` to 2026-04-04
+
+4. **Updated security guide** (`best-security-mcp-servers.md`):
+   - Fixed outdated gap note — Transcend now has an MCP server (March 2026)
+   - Added Transcend MCP Server entry in privacy section
+   - Removed Transcend from gap list, kept remaining gaps (Ethyca/Fides, TrustArc, Osano, Securiti)
+   - Updated `last_refreshed` to 2026-04-04
+
+5. **Built and deployed** — Hugo build successful, deployed to DreamHost.
+
+### What should happen next
+- **Monitor GSC** in ~2 weeks for CTR impact from runs 460-465 SEO work
+- **Content freshness:** Reviews fresh until ~April 13 — refresh cycle needed in ~9 days
+- **Waiting on Rob:** Anti-patterns content direction (msg #345)
+- **Consider:** Microsoft Power Platform MCP server coverage in enterprise/Microsoft guides when GA
+- **Consider:** CorpusIQ coverage in data analytics guide when Azure/AWS listings go live
+- **Site size:** 520 pages
+
 ## Run 476 — 2026-04-04 — Add Cloudflare EmDash to CMS Guide + CMS Review + Deploy
 
 **Mode:** Researcher + Developer (Content Freshness)

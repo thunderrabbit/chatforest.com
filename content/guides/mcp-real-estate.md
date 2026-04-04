@@ -3,8 +3,8 @@ title: "MCP and Real Estate: How AI Agents Connect to MLS Data, Property Valuati
 date: 2026-03-29T23:00:00+09:00
 description: "A comprehensive guide to MCP integrations for real estate — covering MLS/property data, valuations, mortgage/lending, commercial real estate, smart buildings, document/transaction"
 content_type: "Guide"
-card_description: "Real estate is rapidly adopting MCP for AI-powered property operations. This guide covers 25+ MCP servers across MLS/property data (ATTOM production 158M properties, Zillow 34 stars, BatchData 28 stars, Constellation1 production), valuations (PriceHubble beta, Zestimate, RentCast), mortgage/lending (Confer 4 tools MISMO-compliant, RateSpot 4300+ lenders, Homebuyer.com 121M HMDA records), commercial RE (LoopNet scraper), smart buildings (ProptechOS RealEstateCore), documents (DocuSign official beta), geographic/GIS (GIS MCP 126 stars 95 tools, CARTO official, ArcGIS, Google Maps), aggregators (Bright Data, Apify), and architecture patterns for agentic real estate."
-last_refreshed: 2026-03-29
+card_description: "Real estate is rapidly adopting MCP for AI-powered property operations. This guide covers 25+ MCP servers across MLS/property data (ATTOM production 158M properties, Cotality enterprise property intelligence with CLIP IDs, Zillow 34 stars, BatchData 28 stars, Constellation1 production), valuations (PriceHubble beta, Zestimate, RentCast), mortgage/lending (Confer 4 tools MISMO-compliant, RateSpot 4300+ lenders, Homebuyer.com 121M HMDA records), commercial RE (LoopNet scraper), smart buildings (ProptechOS RealEstateCore), documents (DocuSign official beta), geographic/GIS (GIS MCP 126 stars 95 tools, CARTO official, ArcGIS, Google Maps), aggregators (Bright Data, Apify), and architecture patterns for agentic real estate."
+last_refreshed: 2026-04-04
 ---
 
 AI agents are changing how properties are searched, valued, bought, sold, and managed. What once required a team of specialists — each with access to separate, siloed systems — can increasingly be coordinated by a single AI agent pulling from multiple data sources simultaneously. A buyer's agent AI can query MLS listings, pull neighborhood demographic data, run a mortgage pre-qualification, check flood risk, and generate a comparative market analysis, all without switching applications.
@@ -38,6 +38,16 @@ Real estate is structurally complex in ways that make AI integration harder than
 ATTOM launched its MCP server on January 29, 2026, making it the first large-scale real estate data company to do so. The server covers 158 million U.S. properties — approximately 99% of the U.S. population. Data types include property details, AVMs, comparable sales, sales history, tax records, deed and mortgage data, foreclosure status, environmental risk, natural hazard assessments, and neighborhood and geospatial boundaries.
 
 The ATTOM MCP server is a commercial product, not open source. It requires an ATTOM API key and is positioned as enterprise-grade infrastructure. Data is linked across sources through a unique ATTOM ID for each property, and the underlying data goes through a 20-step validation process. ATTOM serves real estate, fintech, government, and insurance clients. Because it covers AVMs as well as raw property data, it appears in both the property data and valuation sections of this analysis.
+
+### Cotality MCP Server
+
+Cotality (formerly CoreLogic) — one of the largest global property data companies — launched its MCP server on March 31, 2026. Cotality describes it as a "universal connector" between AI models and its property data foundation, which covers virtually every U.S. address. The MCP server is designed for production-grade workflows including underwriting, valuation, and risk analysis.
+
+Key capabilities include CLIP ID access (Cotality's unique property identifiers for unambiguous cross-system matching), comprehensive property details and characteristics, climate risk assessments, and real-time market trends. Cotality also announced "AI-Ready Data" assets — structured data designed specifically for AI model consumption, acting as a "translator" that helps AI models understand the meaning behind property data values rather than just the raw numbers.
+
+The server is built on the open MCP standard and supports ChatGPT, Claude, Gemini, and other MCP-compatible clients. Authentication is required and access is governed through Cotality's commercial platform. The combination of MCP server (connectivity) and AI-Ready Data (semantic enrichment) differentiates Cotality's approach from competitors that expose raw API endpoints. For organizations already in the Cotality ecosystem — which includes most major lenders, servicers, and insurers — this is the most direct path to AI-powered property intelligence.
+
+Cotality's entry alongside ATTOM means the two largest U.S. property data providers now both have MCP servers, establishing MCP as the standard integration layer for enterprise real estate AI.
 
 ### BatchData MCP Server
 
