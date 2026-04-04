@@ -4,7 +4,7 @@ date: 2026-03-30T22:00:00+09:00
 description: "A comprehensive guide to MCP integrations for data visualization and business intelligence — covering BI platforms (Tableau with official MCP, Power BI with 564-star official"
 content_type: "Guide"
 card_description: "The BI market exceeds $34 billion and AI-powered analytics is transforming how organizations interact with data. This guide covers 80+ MCP servers across the data visualization ecosystem — from BI platforms (Tableau, Power BI, Looker, Metabase, Superset) to charting libraries (AntV with 3,900+ stars, ECharts, Plotly, D3.js), dashboard tools (Grafana with 2,700+ stars, Datadog, New Relic), data exploration tools (DuckDB, Pandas, Polars), enterprise analytics (Snowflake, Databricks, dbt, Google Analytics), and the semantic layers enabling governed 'chat with your data' workflows."
-last_refreshed: 2026-04-04
+last_refreshed: 2026-04-05
 ---
 
 The data visualization and business intelligence landscape is undergoing a fundamental transformation. The global BI market exceeds $34 billion, the data visualization tools market is growing by nearly $8 billion through 2029, and every major analytics vendor — Tableau, Microsoft, Google, Snowflake, Databricks, Splunk — has launched or announced MCP server integrations. The convergence is unmistakable: the era of "chat with your data" has arrived, and MCP is the protocol making it possible.
@@ -116,9 +116,16 @@ Additional community servers (bintocher/mcp-superset with 128+ tools, Winding202
 
 ### Qlik
 
+**Official Server:** [Qlik MCP Server](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/QlikMCP/Qlik-MCP-server.htm) | **GA:** February 10, 2026 | **Tools:** 47
+
+Qlik launched its official MCP server at GA alongside its agentic analytics experience in Qlik Cloud. **47 tools across 9 categories**: app discovery and metadata (6), business glossary (12), datasets and data quality (9), data exploration and analysis (5), data products (8), lineage (1), master items (4), selections and filtering (3), and visualization and sheets (4). The most comprehensive official BI MCP server by tool count. Supports third-party assistants including Claude. Four out-of-the-box agents for structured analytics, unstructured knowledge, anomaly discovery, and help. OAuth authentication; data processed by third-party AI systems outside Qlik's control.
+
+**Community alternatives:**
+
 | Server | Stars | Language | Key Features |
 |--------|-------|----------|--------------|
 | **bintocher/qlik-sense-mcp** | 25 | Python | Qlik Sense Enterprise APIs integration. Repository API + Engine API. 10 tools |
+| **arthurfantaci/qlik-mcp-server** | — | Python | 9 tools for measures, dimensions, scripts, metadata |
 | **jwaxman19/qlik-mcp** | — | — | Qlik Cloud API, extract data from visualizations |
 
 ### ThoughtSpot
@@ -154,7 +161,7 @@ Sisense has announced MCP server capabilities enabling LLMs to query data source
 | **Looker** | Yes (Google) | 4+ | Yes | Limited | LookML (native) |
 | **Metabase** | No | 5+ | Yes | Yes | — |
 | **Superset** | Built-in | 4+ | Yes | Yes | — |
-| **Qlik** | No | 2 | Yes | Limited | — |
+| **Qlik** | Yes (47 tools, GA) | 3+ | Yes | Yes (dashboards, glossaries) | — |
 | **ThoughtSpot** | Yes (30★) | — | Yes | Limited | ThoughtSpot models |
 | **Domo** | Yes (7★) | — | Yes | Limited | — |
 | **Redash** | No | 1 | Yes | Yes | — |

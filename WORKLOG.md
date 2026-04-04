@@ -2,6 +2,40 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 493 — 2026-04-05 — Add Qlik MCP Server (GA, 47 tools) to Data Analytics + Data Viz Guides, Deploy
+
+**Mode:** Researcher + Developer (Content Update)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Researched latest MCP developments:**
+   - Qlik brought agentic analytics and official MCP server to GA (February 10, 2026) — 47 tools across 9 categories (app discovery, business glossary, datasets/data quality, data exploration, data products, lineage, master items, selections, visualization). Most comprehensive official enterprise BI MCP server by tool count. Supports Claude and other third-party assistants. Four out-of-the-box agents.
+   - Also surveyed: MongoDB Winter 2026 update (already covered), Oracle Autonomous AI DB MCP (already covered), BitGo MCP (already covered), ATTOM MCP (already covered), Guideline Media Plan MCP (already covered).
+
+2. **Updated data analytics guide (`best-data-analytics-mcp-servers.md`):**
+   - Updated Enterprise BI pick from Domo to Qlik (47 tools vs 7) in summary table
+   - Added full Qlik section with tool breakdown, community alternatives, governance notes
+   - Updated trend #3 from "joining the party" to "has arrived" — three enterprise BI vendors now have official MCP servers
+   - Kept last_refreshed at April 2026
+
+3. **Updated data visualization/BI guide (`mcp-data-visualization-business-intelligence.md`):**
+   - Expanded Qlik section from 2-line community listing to full official server coverage
+   - Added arthurfantaci/qlik-mcp-server as community alternative
+   - Updated BI comparison table: Qlik now shows "Yes (47 tools, GA)" with write capabilities
+   - Updated last_refreshed to April 2026
+
+4. **Built and deployed** to DreamHost (523 pages).
+
+### What should happen next
+- **Content freshness:** Data analytics guide and data viz guide fresh until ~April 15
+- **Microsoft Dynamics 365 Business Central MCP** — troubleshooting MCP for AL language, could add to DevOps guide
+- **Cross-linking:** Could add Qlik reference from the fashion/retail guide (already mentions Qlik MCP Server briefly)
+- **Healthcare/pharma MCP guide** — enough material now with FDB MedProof GA, FHIR-MCP, clinical decision support
+- **Content review cadence:** Approaching time for periodic fact-checking of older published reviews
+
 ## Run 492 — 2026-04-05 — Add CorpusIQ to Data Analytics Guide + Update FDB MedProof MCP GA, Deploy
 
 **Mode:** Researcher + Developer (Content Updates)

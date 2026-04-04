@@ -20,7 +20,7 @@ We've published [3 in-depth data and analytics reviews](/reviews/) covering 60+ 
 | Analytics (hosted) | [Amplitude MCP](/reviews/analytics-mcp-servers/) | 3.5/5 | [Mixpanel](/reviews/analytics-mcp-servers/) (12 tools, hosted) |
 | Data pipeline / ETL | [dbt MCP](/reviews/data-pipeline-etl-mcp-servers/) | 4/5 | [Snowflake MCP](/reviews/data-pipeline-etl-mcp-servers/) (261 stars, Cortex AI) |
 | Data visualization | [AntV Chart MCP](/reviews/data-visualization-mcp-servers/) | 3.5/5 | [Vizro MCP](/reviews/data-visualization-mcp-servers/) (McKinsey, dashboards) |
-| Enterprise BI | [Domo MCP](https://github.com/DomoApps/domo-mcp-server) | — | [GoodData](/reviews/data-visualization-mcp-servers/) (24 tools, governed analytics) |
+| Enterprise BI | [Qlik MCP](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/QlikMCP/Qlik-MCP-server.htm) | — | [Domo MCP](https://github.com/DomoApps/domo-mcp-server) (7 tools, interactive dashboards) |
 | Multi-source integration | [CorpusIQ](https://www.issuewire.com/corpusiq-launches-enterprise-multi-source-mcp-server-on-azure-and-aws-marketplaces-1861382744355513) | — | — |
 | Data warehouse | Google BigQuery (managed) | — | [LucasHild/mcp-server-bigquery](https://github.com/LucasHild/mcp-server-bigquery) (123 stars, community) |
 
@@ -106,9 +106,13 @@ The limitation: most output is static images (PNG) or standalone HTML. Interacti
 
 **xoniks DuckDB+Plotly** — provides an end-to-end data-to-visualization workflow: query data with DuckDB locally, then render with Plotly. The only MCP server that combines data querying and visualization in one tool.
 
-### The gap is closing: enterprise BI
+### Enterprise BI: Qlik leads, the gap keeps closing
 
-Tableau, Power BI, and Looker — the three most widely used enterprise BI platforms — still lack official MCP integrations. But the gap is narrowing.
+Tableau, Power BI, and Looker — the three most widely used enterprise BI platforms — still lack official MCP integrations. But the gap has narrowed significantly, with Qlik now setting the standard.
+
+**Qlik** ([official MCP server](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/QlikMCP/Qlik-MCP-server.htm)) — GA February 10, 2026. **47 tools across 9 categories**: app discovery and metadata, business glossary management (12 tools), datasets and data quality (9 tools), data exploration and analysis, data products (8 tools), lineage, master items, selections and filtering, and visualization and sheet creation. The most comprehensive official enterprise BI MCP server by tool count. Qlik's MCP server exposes the full analytics engine to third-party assistants including Claude — agents can search apps, ask natural language questions against governed data, create dashboards and visualizations via prompts, manage business glossaries, inspect data lineage, and work with data products. Four out-of-the-box agents ship for structured analytics, unstructured knowledge, anomaly discovery, and help/assistance. Available in Qlik Cloud with OAuth authentication. Note: sharing Qlik data with third-party AI systems means data is processed outside Qlik's control — review your governance requirements.
+
+Community alternatives exist: [bintocher/qlik-sense-mcp](https://github.com/bintocher/qlik-sense-mcp) (25 stars, 10 tools for Qlik Sense Enterprise), [arthurfantaci/qlik-mcp-server](https://github.com/arthurfantaci/qlik-mcp-server) (9 tools), and [jwaxman19/qlik-mcp](https://github.com/jwaxman19/qlik-mcp) (Qlik Cloud API).
 
 **Domo** ([DomoApps/domo-mcp-server](https://github.com/DomoApps/domo-mcp-server)) — announced March 25, 2026 at Domopalooza. The open-source server provides 7 tools: dataset metadata, schema retrieval, SQL queries, dataset search, and role management. The bigger story is Domo's AI Toolkits architecture — packaged capability sets that define what agents can do, exposed externally via MCP to Claude, Gemini, and ChatGPT. Unlike traditional MCP servers that return plain text, Domo's implementation renders interactive business experiences (dashboards, visualizations) directly inside chat interfaces. The AI Agent Builder (available now) and AI Library (summer 2026) complete the framework for building an "AI workforce" of specialized agents operating on enterprise data.
 
@@ -145,7 +149,7 @@ Five trends define data MCP servers in April 2026:
 
 **2. Managed MCP is the vendor play.** Databricks, Google BigQuery, Amplitude, and Mixpanel all chose hosted/managed MCP endpoints over open-source GitHub repos. This trades transparency for convenience — you get OAuth and zero-config setup, but you can't audit the server code or self-host.
 
-**3. Enterprise BI is joining the party.** The biggest gap from March — enterprise BI platforms — is starting to close. Domo's MCP server and AI Toolkits framework, combined with GoodData's 24-tool server, show that BI vendors are moving. Domo's approach is noteworthy: exposing interactive dashboard experiences through MCP rather than just returning text. Tableau, Power BI, and Looker remain absent, but the pressure is mounting.
+**3. Enterprise BI has arrived.** The biggest gap from March — enterprise BI platforms — has closed significantly. Qlik's 47-tool MCP server (GA February 2026) sets the standard with the most comprehensive official enterprise BI MCP integration: full analytics engine access, business glossary management, data lineage, data products, and built-in agentic agents. Domo's MCP server and AI Toolkits framework take a different approach, exposing interactive dashboard experiences through MCP rather than returning text. GoodData's 24-tool server rounds out the official options. Tableau, Power BI, and Looker remain absent, but the pressure is mounting — three enterprise BI vendors now have official MCP servers.
 
 **4. Multi-source integration is emerging.** CorpusIQ's 50+ connector MCP server represents a new category: universal data adapters that connect AI agents to dozens of operational systems through a single integration. Instead of deploying separate MCP servers for each SaaS tool, teams get unified access with enterprise-grade permissioning. As the number of available MCP servers grows, the "one server per tool" model gets unwieldy — aggregators like CorpusIQ solve this at the cost of depending on a third-party intermediary.
 
