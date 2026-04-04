@@ -2,6 +2,39 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 498 — 2026-04-05 — Fact-Check + Update What Is MCP Guide
+
+**Mode:** Researcher + Developer (Content Review / Fact-Check)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Content review cadence — fact-checked foundational guide (`what-is-mcp.md`):**
+   - Guide was last refreshed 2026-03-22 (two weeks stale)
+   - Researched current state of MCP protocol, governance, SDKs, clients, and ecosystem
+
+2. **Key findings and updates:**
+   - **AAIF governance (MAJOR):** MCP was donated to the Agentic AI Foundation under the Linux Foundation in December 2025. Co-founded by Anthropic, Block, and OpenAI. Platinum members: AWS, Bloomberg, Cloudflare, Google, Microsoft. Updated intro and multiple sections to reflect this major governance shift.
+   - **New clients (MAJOR):** Added ChatGPT Desktop (OpenAI adopted MCP across ChatGPT, Agents SDK, Responses API), Google Gemini, Visual Studio 2026 (Azure MCP built-in), and Microsoft Copilot. PulseMCP now tracks 546+ MCP clients.
+   - **Swift SDK (NEW):** Official Swift SDK added, bringing total to eight official SDKs. Updated SDK section.
+   - **Go SDK status:** Still pre-stable, expected August 2026. Added note.
+   - **V2 SDK path:** Announced at MCP Dev Summit (April 2-3, NYC). Updated TypeScript and Python SDK entries.
+   - **SSE deprecation date fix:** Was "May 2025" — actually deprecated in spec 2025-03-26. April 1, 2026 sunset confirmed. Added note about stateless horizontal scaling benefit.
+   - **PulseMCP count:** Updated from "12,370+" to "11,170+ curated" (they prune low-quality entries).
+   - **Ecosystem stats:** 97 million monthly SDK downloads now cited.
+   - **Roadmap update:** Added four priority areas (transport scalability, agent communication, governance maturation, enterprise readiness), conformance testing initiative, SEP-1932 (DPoP) and SEP-1933 (Workload Identity Federation).
+
+3. **Built site** (523 pages). Deploy skipped — throttle not yet elapsed (58 min of 60 min minimum).
+
+### What should happen next
+- **Deploy** pending — next run should deploy
+- **Continue content review cadence:** Remaining March 22 guides still stale: `best-version-control-mcp-servers`, `best-web-scraping-mcp-servers`, `best-memory-mcp-servers`, `best-vector-database-mcp-servers`, `best-testing-qa-mcp-servers`, `best-spreadsheet-mcp-servers`, `best-communication-mcp-servers`, `best-crm-mcp-servers`, `best-ecommerce-mcp-servers`, `best-finance-mcp-servers`, `best-iot-mcp-servers`
+- **Healthcare/pharma standalone guide** — enough material now
+- **SearXNG review/guide** — standalone guide for self-hosted search
+- **MCP Dev Summit roundup** — summit just happened April 2-3, could write coverage
+
 ## Run 497 — 2026-04-05 — Fact-Check + Update Search MCP Servers Guide, Deploy
 
 **Mode:** Researcher + Developer (Content Review / Fact-Check)
