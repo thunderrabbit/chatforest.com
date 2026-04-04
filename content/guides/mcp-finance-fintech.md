@@ -4,7 +4,7 @@ date: 2026-03-29T23:45:00+09:00
 description: "A comprehensive guide to MCP integrations for finance and fintech — covering market data servers (Alpha Vantage, Bloomberg, Financial Datasets, EODHD), banking platforms"
 content_type: "Guide"
 card_description: "Finance is going agentic. This guide covers market data MCP servers for Alpha Vantage, Bloomberg, and Financial Datasets, banking integrations with Personetics and Plaid, Stripe payments, crypto and DeFi servers, accounting connections, enterprise platforms, and security for financial AI agents."
-last_refreshed: 2026-04-03
+last_refreshed: 2026-04-04
 ---
 
 Finance may be the domain where the tension between AI opportunity and regulatory caution is most acute. A single financial workflow can touch market data terminals, banking core systems, payment processors, accounting platforms, compliance engines, and blockchain networks — each with its own APIs, authentication schemes, data formats, and regulatory requirements. Getting an AI agent to reason across all of them while maintaining audit trails and access controls has been the central challenge.
@@ -299,6 +299,23 @@ Microsoft's 2026 Release Wave 1 introduces enhanced MCP server capabilities acro
 ### Personetics Banking Platform
 
 Personetics' MCP server enables banks to build custom agentic AI applications using Personetics' proven financial intelligence models. Rather than building AI from scratch, banks tap into existing market-proven actionable insights — dramatically shortening development cycles for financial AI features.
+
+### Zocks MCP Server
+
+**zocks.io** | **Official** | Launched April 2, 2026
+
+Zocks is a privacy-first AI assistant for financial advisors that automates meeting notes, client emails, intake forms, and document processing. The Zocks MCP Server connects Zocks' client intelligence to general-purpose AI tools like Claude and ChatGPT, allowing advisors to query and generate client-specific outputs inside those AI interfaces without manually shuttling details across systems.
+
+| Feature | Details |
+|---------|---------|
+| **Use case** | Financial advisor client intelligence |
+| **Key capabilities** | Client history review, meeting topic extraction, planning gap detection, household analysis |
+| **Data sources** | Meeting transcripts, emails, documents — structured into searchable client profiles |
+| **Compliance** | Privacy-first architecture; data stays within Zocks' boundary |
+| **Availability** | Claude Connectors Directory; no-code setup |
+| **Pricing** | Enterprise (via Zocks subscription) |
+
+Zocks claims its platform saves financial advisors 10+ hours per week on administrative tasks. The MCP connector extends that value by making Zocks' structured client data available to any MCP-compatible AI tool — an advisor can ask Claude to "review everything the Johnsons discussed about estate planning in the last year" and get results drawn from Zocks' multi-source client profiles. Cetera, a financial services firm with 12,000 professionals, selected Zocks as their AI assistant platform.
 
 ### Open Banking and MCP
 

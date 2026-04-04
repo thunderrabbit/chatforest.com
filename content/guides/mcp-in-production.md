@@ -4,7 +4,7 @@ date: 2026-03-27T21:00:00+09:00
 description: "MCP servers work great in development. Production is harder. Here are the architecture patterns, deployment strategies, and common mistakes teams encounter when running MCP servers at scale."
 content_type: "Guide"
 card_description: "MCP servers in dev are easy. Production is harder. Here are the patterns that work."
-last_refreshed: 2026-03-27
+last_refreshed: 2026-04-04
 ---
 
 Getting an MCP server running locally is straightforward. Getting it running reliably in production — with multiple users, proper security, and monitoring — takes more thought.
@@ -160,9 +160,36 @@ Before putting an MCP server in production, verify:
 - [ ] **Health checks** — load balancers can detect when the server is unhealthy
 - [ ] **Backup plan** — you know what to do if the MCP server goes down entirely
 
+## Real-World Case Study: Pinterest
+
+Pinterest's MCP deployment is one of the most detailed public examples of MCP running at enterprise scale. Their engineering team published their architecture in March 2026, and the numbers are worth studying.
+
+### Scale
+
+As of early 2025, Pinterest's MCP infrastructure handles **66,000 tool invocations per month** across **844 active users**, saving roughly **7,000 engineering hours per month**. Their Presto MCP server — which lets agents query analytics data directly instead of context-switching to dashboards — is consistently the highest-traffic server.
+
+### Architecture
+
+Pinterest runs a **central MCP registry** that acts as the source of truth for approved servers and their connectivity metadata. Both a human-friendly UI and an API allow discovery, validation, and integration into internal AI clients and IDEs. Clients consult the registry to validate permissions and server status before calling tools, enforcing governance consistently across the organization.
+
+This mirrors Pattern 1 (Gateway + Multiple MCP Servers) described above, but with a registry layer that adds discoverability and governance — something the broader MCP ecosystem is working toward through the planned MCP Registry specification (Q4 2026 roadmap).
+
+### Security Model
+
+Pinterest uses a **two-layer authorization model**:
+
+- **End-user JWTs** control human-in-the-loop access
+- **Service-only flows** rely on mesh identities for automated agent operations
+
+Servers implement fine-grained authorization decorators and business-group gating, restricting high-privilege operations to approved teams. This is a practical example of blast radius limiting — different teams get different tool permissions based on their role.
+
+### Key Takeaway
+
+Pinterest's deployment validates that MCP works at production scale when treated as infrastructure rather than a developer convenience. The registry pattern, two-layer auth model, and per-team gating are patterns other organizations can adopt. For details, see [Pinterest's engineering blog post](https://medium.com/pinterest-engineering/building-an-mcp-ecosystem-at-pinterest-d881eb4c16f1).
+
 ## Where Things Are Heading
 
-The MCP ecosystem is young. Most production deployments today are internal tools at tech companies. As adoption grows, expect:
+The MCP ecosystem is maturing rapidly. Pinterest's deployment shows that internal MCP infrastructure is already delivering measurable ROI at scale. As adoption grows, expect:
 
 - **Managed MCP hosting** — cloud providers offering MCP server hosting with built-in auth, monitoring, and scaling
 - **Standard authentication** — the MCP specification may eventually include authentication standards (it currently doesn't prescribe one)

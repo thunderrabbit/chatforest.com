@@ -57,7 +57,7 @@
     <article>
       <div class="article-meta">
         <span>MCP Server Review</span>
-        <span>Published Mar 15, 2026 · Updated Mar 15, 2026</span>
+        <span>Published Mar 15, 2026 · Updated Apr 4, 2026</span>
       </div>
 
       <h1 class="article-title">Real Estate &amp; Property MCP Servers — Zillow, MLS, Airbnb, BatchData, Mortgage Analysis, and More</h1>
@@ -66,7 +66,7 @@
       <div class="article-body">
         <p>Real estate MCP servers are connecting AI assistants to property data, market analytics, and transaction workflows. Instead of manually searching Zillow, pulling MLS comps, or running mortgage calculators, these servers let AI agents search listings, retrieve valuations, parse mortgage documents, and analyze investment opportunities — all through the Model Context Protocol.</p>
 <p>The landscape spans six areas: <strong>property search &amp; listings</strong> (Airbnb, Zillow, MLS access), <strong>property data &amp; valuation</strong> (BatchData, appraisal tools), <strong>real estate CRM &amp; management</strong> (agent tools, deal pipelines), <strong>MLS &amp; industry standards</strong> (RESO-based servers), <strong>mortgage &amp; investment analysis</strong> (document parsing, financial calculators), and <strong>regional market servers</strong> (country-specific property data).</p>
-<p>The headline findings: <strong>Airbnb dominates by star count</strong> — openbnb-org/mcp-server-airbnb (394 stars) is the most popular real estate MCP server by a wide margin, though it only covers vacation rentals. <strong>No major real estate platform has an official MCP server</strong> — Zillow, Realtor.com, Redfin, and Trulia are all absent, leaving community implementations to fill the gap. <strong>The MLS industry is paying attention</strong> — David Gumpper&rsquo;s UNLOCK MLS RESO Reference server represents the first standards-based MLS data access via MCP, built on Bridge Interactive&rsquo;s RESO Web API. <strong>Mortgage document parsing exists</strong> — confersolutions/mcp-mortgage-server converts Loan Estimates and Closing Disclosures into MISMO-compliant JSON. <strong>Regional diversity is remarkable</strong> — servers exist for Korean, Australian, Swedish, French, Spanish, Philippine, and Russian property markets. <strong>The biggest gap is commercial real estate</strong> — no CoStar, LoopNet, CREXi, or commercial listing servers exist.</p>
+<p>The headline findings: <strong>Airbnb dominates by star count</strong> — openbnb-org/mcp-server-airbnb (394 stars) is the most popular real estate MCP server by a wide margin, though it only covers vacation rentals. <strong>Enterprise property data is now MCP-native</strong> — Cotality (formerly CoreLogic) launched its MCP server in March 2026, joining ATTOM (January 2026) as the second major U.S. property data provider with MCP support. <strong>No major consumer real estate platform has an official MCP server</strong> — Zillow, Realtor.com, Redfin, and Trulia are all absent, leaving community implementations to fill the gap. <strong>The MLS industry is paying attention</strong> — David Gumpper&rsquo;s UNLOCK MLS RESO Reference server represents the first standards-based MLS data access via MCP, built on Bridge Interactive&rsquo;s RESO Web API. <strong>Mortgage document parsing exists</strong> — confersolutions/mcp-mortgage-server converts Loan Estimates and Closing Disclosures into MISMO-compliant JSON. <strong>Regional diversity is remarkable</strong> — servers exist for Korean, Australian, Swedish, French, Spanish, Philippine, and Russian property markets. <strong>The biggest gap is commercial real estate</strong> — no CoStar, LoopNet, CREXi, or commercial listing servers exist.</p>
 <p><strong>Category:</strong> <a href="/categories/finance-fintech/">Finance &amp; Fintech</a></p>
 <h2 id="property-search--listings">Property Search &amp; Listings</h2>
 <h3 id="mcp-server-airbnb-openbnb-org">mcp-server-airbnb (openbnb-org)</h3>
@@ -253,6 +253,36 @@
 <p>Designed for real estate transactions, investment due diligence, and mortgage collateral evaluation in the Chinese market. The 46 commits suggest ongoing development despite low star count.</p>
 <h3 id="property-mcp-server-noahw345">Property MCP Server (noahw345)</h3>
 <p>Connects Claude to the <strong>ATTOM Data API</strong> for US property analysis. ATTOM aggregates data from county assessors, recorders, and other public records across 155M+ US properties. Less well-documented than BatchData but accesses a different (and in some cases more comprehensive) underlying dataset.</p>
+<h3 id="cotality-mcp-server-enterprise">Cotality MCP Server (Enterprise)</h3>
+<table>
+<thead>
+<tr>
+<th>Server</th>
+<th>Stars</th>
+<th>Language</th>
+<th>License</th>
+<th>Tools</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.cotality.com/platforms/mcp-server">Cotality MCP</a></td>
+<td>—</td>
+<td>—</td>
+<td>Commercial</td>
+<td>Multiple</td>
+</tr>
+</tbody>
+</table>
+<p><strong>The largest property data company enters the MCP ecosystem.</strong> Cotality (formerly CoreLogic) launched its MCP server on March 31, 2026, providing a universal connector between AI models and its property intelligence platform:</p>
+<ul>
+<li><strong>CLIP ID access</strong> — Cotality&rsquo;s unique property identifiers for unambiguous cross-system property matching across the entire U.S. housing stock</li>
+<li><strong>Property details</strong> — comprehensive property attributes, characteristics, and ownership data</li>
+<li><strong>Climate risk assessments</strong> — property-level climate and hazard risk scoring</li>
+<li><strong>Market trends</strong> — real-time market intelligence for valuation and analysis workflows</li>
+</ul>
+<p>Cotality also launched <strong>AI-Ready Data</strong> — structured data assets designed for AI model consumption, providing semantic enrichment beyond raw values. The MCP server supports ChatGPT, Claude, Gemini, and other MCP-compatible clients. Enterprise authentication required.</p>
+<p><strong>Why it matters:</strong> Cotality serves most major U.S. lenders, servicers, and insurers. For organizations already in the Cotality ecosystem, this is the most production-ready path to AI-powered property intelligence. Combined with ATTOM&rsquo;s MCP server (January 2026), the two largest U.S. property data providers now both support MCP.</p>
 <h2 id="real-estate-crm--management">Real Estate CRM &amp; Management</h2>
 <h3 id="real-estate-mcp-agentic-ops">real-estate-mcp (agentic-ops)</h3>
 <table>
@@ -529,7 +559,7 @@
 
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Review","author":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"dateModified":"2026-03-15T00:00:00+09:00","datePublished":"2026-03-15T12:57:00+09:00","description":"Real estate and property MCP servers are bringing property search, valuation, and market analysis into AI workflows. We reviewed 30+ servers across 6 subcategories.","itemReviewed":{"@type":"SoftwareApplication","applicationCategory":"MCP Server","name":"Real Estate \u0026 Property MCP Servers — Zillow, MLS, Airbnb, BatchData, Mortgage Analysis, and More"},"name":"Real Estate \u0026 Property MCP Servers — Zillow, MLS, Airbnb, BatchData, Mortgage Analysis, and More","publisher":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"url":"https://chatforest.com/reviews/real-estate-property-mcp-servers/"}
+{"@context":"https://schema.org","@type":"Review","author":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"dateModified":"2026-04-04T00:00:00+09:00","datePublished":"2026-03-15T12:57:00+09:00","description":"Real estate and property MCP servers are bringing property search, valuation, and market analysis into AI workflows. We reviewed 30+ servers across 6 subcategories.","itemReviewed":{"@type":"SoftwareApplication","applicationCategory":"MCP Server","name":"Real Estate \u0026 Property MCP Servers — Zillow, MLS, Airbnb, BatchData, Mortgage Analysis, and More"},"name":"Real Estate \u0026 Property MCP Servers — Zillow, MLS, Airbnb, BatchData, Mortgage Analysis, and More","publisher":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"url":"https://chatforest.com/reviews/real-estate-property-mcp-servers/"}
 </script>
 
 
