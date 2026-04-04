@@ -5,7 +5,7 @@ description: "Brave vs Exa vs Tavily vs Perplexity Sonar — which search MCP se
 og_description: "Brave vs Exa vs Tavily vs Perplexity Sonar — which search MCP server should your agent use? We researched them all. Here's the verdict."
 content_type: "Comparison"
 card_description: "Brave vs Exa vs Tavily vs Perplexity Sonar vs Kagi vs Linkup — which search MCP server should your agent use? A side-by-side comparison with clear recommendations."
-last_refreshed: 2026-03-22
+last_refreshed: 2026-04-05
 ---
 
 Search is the most fundamental capability an AI agent can have. Without it, your agent is limited to its training data and whatever files you give it access to. With it, your agent can verify facts, find documentation, research competitors, and stay current.
@@ -22,7 +22,7 @@ We've [reviewed the Brave Search MCP server](/reviews/brave-search-mcp-server/) 
 | [Exa](/reviews/exa-mcp-server/) | 4,100 | 4 | Semantic/neural | $10 credit | ~$7 | Research & concept search |
 | [Tavily](/reviews/tavily-mcp-server/) | 1,500 | 4 | Keyword + extract | 1K credits/mo | ~$8 | RAG pipelines |
 | [Perplexity](/reviews/perplexity-mcp-server/) | 2,000 | 4 | Answer engine | None (paid only) | $5 + tokens | Synthesized answers |
-| Kagi | 334 | 2 | Curated keyword | None (closed beta) | $25 | Privacy + quality |
+| Kagi | 334 | 4 | Curated keyword | None (closed beta) | $25 | Privacy + quality |
 | Linkup | 24 | 2 | Factual retrieval | 5 EUR/mo credit | €0.50 cents | Factual accuracy |
 
 **Notable absence:** There is no official Google Search MCP server. Google has released MCP servers for Maps, Drive, and other Cloud services, but not for web search. Community wrappers exist (via SerpAPI or Playwright scraping), but none are first-party or reliable enough to recommend.
@@ -66,7 +66,7 @@ Brave is the Swiss Army knife of search MCP servers. Six tools cover web, local,
 - Clean, well-documented TypeScript codebase maintained by Brave
 - v2.x actively developed with breaking changes (sign of investment, not neglect)
 
-**What changed recently:** Brave dropped its unlimited free tier in February 2026. New users now get a $5/month credit (~1,000 queries). Existing free-tier users are grandfathered in. This caused community friction but the pricing is still competitive.
+**What changed recently:** Brave dropped its unlimited free tier in February 2026. New users now get a $5/month credit (~1,000 queries). Existing free-tier users are grandfathered in. The server is now at v2.6+ with STDIO as the default transport (HTTP requires setting `BRAVE_MCP_TRANSPORT=http`). Response objects now mirror the Brave Search API directly — v2.x dropped the base64-encoded image data that bloated context in v1.x. The Brave Search API also now offers a separate "Answers" plan for grounded completions, though the MCP server doesn't expose it as a dedicated tool yet.
 
 **The catch:** Search quality trails semantic search engines on conceptual queries. No retry logic for rate limits. The summarizer tool requires a separate API tier.
 
@@ -109,7 +109,9 @@ Tavily is the search API most AI frameworks integrate by default. LangChain, Lla
 - Search + extract in one pipeline — find pages then pull structured content
 - Site mapping and crawling tools go beyond basic search
 
-**The catch:** Keyword-based search, not semantic — scores 71% on WebWalker vs Exa's 81%. Acquired by Nebius in February 2026, introducing roadmap uncertainty. Free tier credits don't roll over and expire after 90 days. At scale (100K queries), costs reach ~$800/month.
+**What changed recently:** Tavily is now available in Cursor's MCP marketplace, giving coding agents real-time web access without manual configuration. The Nebius acquisition (February 2026) is proceeding — Nebius is positioning the combination as "core AI infrastructure + production-grade web access" for agentic systems.
+
+**The catch:** Keyword-based search, not semantic — scores 71% on WebWalker vs Exa's 81%. The Nebius acquisition introduces roadmap uncertainty, though the team frames it as increased investment rather than a pivot. Free tier credits don't roll over and expire after 90 days. At scale (100K queries), costs reach ~$800/month.
 
 **Best for:** RAG pipelines and agent frameworks. If you're building with LangChain or LlamaIndex, Tavily's native integration removes friction. The crawl and extract tools also make it useful for content ingestion workflows.
 
@@ -131,11 +133,13 @@ Perplexity Sonar is fundamentally different from the other servers here. Instead
 - Zero open issues — best maintenance record of any search MCP server
 - One-click installers for Cursor and VS Code, Docker support, proxy configuration for enterprise
 - Citation tokens no longer billed (2026 cost cut)
-- v0.8.4 (March 2026) with security updates — actively maintained
+- Pro, Max, and Enterprise subscribers can connect Perplexity to external tools via remote MCP connectors (400+ prebuilt connectors available)
 
-**The catch:** No free tier — highest entry barrier in the search category. Deep research can timeout in clients with short tool-call limits. Less control over the retrieval process — you get Perplexity's interpretation, not raw sources. Per-token pricing is harder to predict than flat-rate alternatives.
+**⚠️ Strategic uncertainty (March 2026):** At the Ask 2026 conference, Perplexity CTO Denis Yarats announced that Perplexity is internally moving away from MCP toward APIs and CLIs. The stated reasons: MCP's tool schema overhead consumes up to 72% of available context window space, and authentication is clunky. Perplexity launched the Agent API (GA February 2026) as their preferred alternative — a single endpoint routing to models from OpenAI, Anthropic, Google, xAI, and NVIDIA with built-in search. The MCP server is still maintained, but it's no longer Perplexity's primary integration path. This doesn't affect the MCP server today, but expect slower feature development going forward.
 
-**Best for:** When your agent needs facts, not research. Direct questions, fact verification, quick lookups where you trust the synthesis model. Also strong for step-by-step reasoning tasks via the unique `perplexity_reason` tool.
+**The catch:** No free tier — highest entry barrier in the search category. Deep research can timeout in clients with short tool-call limits. Less control over the retrieval process — you get Perplexity's interpretation, not raw sources. Per-token pricing is harder to predict than flat-rate alternatives. The CTO's public shift away from MCP raises questions about long-term investment in the MCP server.
+
+**Best for:** When your agent needs facts, not research. Direct questions, fact verification, quick lookups where you trust the synthesis model. Also strong for step-by-step reasoning tasks via the unique `perplexity_reason` tool. But monitor the Agent API — it may become the better integration path.
 
 ### Kagi MCP — The Privacy Purist
 
@@ -143,16 +147,19 @@ Perplexity Sonar is fundamentally different from the other servers here. Instead
 
 Kagi is the search engine for people who pay for ad-free, tracker-free, high-quality results. Their MCP server extends this to agents — but with significant access barriers.
 
-**Tools (2):**
+**Tools (4):**
 - Search tool — Kagi Search API with human-curated ranking signals
 - Summarizer tool — Summarize URLs or videos using multiple engines (Cecil, Daphne, etc.)
+- `ask_fastgpt` — Quick answers using Kagi's FastGPT, combining web search with LLM generation
+- `enrich_web` / `enrich_news` — Augment context with web content or current events
 
 **Why it's good:**
 - Ad-free index with human-curated ranking signals — consistently high-quality results
 - No tracking, no profiling — strongest privacy stance of any search MCP
 - Unique multi-engine summarizer with different models for different content types
+- FastGPT and enrichment tools add answer-engine and context-augmentation capabilities beyond basic search
 
-**The catch:** The Search API is in closed beta — you must email support@kagi.com to request access. Requires an existing Kagi subscription ($5–$25/month) on top of API costs. Highest per-query price at $0.025/search ($25 per 1K). Only 2 tools — minimal feature set compared to Brave's 6.
+**The catch:** The Search API is still in closed beta (v0) — you must email support@kagi.com to request access. Requires an existing Kagi subscription ($5–$25/month) on top of API costs. Highest per-query price at $0.025/search ($25 per 1K). Multiple implementations available (Python, Rust, Go) but none have large communities.
 
 **Best for:** Existing Kagi subscribers who want their agent to use the same ad-free, high-quality search they use personally. Not practical for most users until the API exits closed beta.
 
@@ -171,16 +178,18 @@ Linkup positions itself as the most factually accurate search API, citing a #1 r
 - Three depth modes let you trade cost for thoroughness
 - Flat, predictable pricing (€0.50 cents per standard search)
 
-**The catch:** Tiny community (24 stars). Only 2 tools. Last release v2.1.0 in October 2025 — **dormant for 5 months** with no commits since. Limited documentation. The factuality claim is based on a single benchmark and hasn't been independently verified by third parties.
+**What changed recently:** Linkup has released v2.x with a new configuration format (v1.x users need to update). The server is now available as an MCPB (MCP Bundle) — Anthropic's one-click desktop extension format — downloadable from GitHub releases. A hosted endpoint option is also available alongside local installation.
 
-**Best for:** Fact-checking workflows where accuracy matters more than features. But the small community and stale development are red flags — evaluate carefully before committing.
+**The catch:** Tiny community (24 stars). Only 2 tools. The factuality claim is based on a single benchmark and hasn't been independently verified by third parties.
+
+**Best for:** Fact-checking workflows where accuracy matters more than features. The v2.x release and MCPB support suggest renewed investment, but the small community remains a concern.
 
 ## Feature Comparison
 
 | Feature | Brave | Exa | Tavily | Perplexity | Kagi | Linkup |
 |---------|-------|-----|--------|------------|------|--------|
 | Search type | Keyword | Semantic | Keyword | Answer engine | Keyword | Factual |
-| Number of tools | 6 | 4 | 4 | 4 | 2 | 2 |
+| Number of tools | 6 | 4 | 4 | 4 | 4 | 2 |
 | Web search | Yes | Yes | Yes | Yes | Yes | Yes |
 | Image search | Yes | No | No | No | No | No |
 | Video search | Yes | No | No | No | No | No |
@@ -272,13 +281,15 @@ Need search for an AI agent?
 
 A few gaps worth noting:
 
-1. **No Google Search MCP.** The most-used search engine in the world has no official MCP integration. Community wrappers exist but are fragile (scraping-based) or expensive (SerpAPI at $50/month for 5K searches). This gap will likely close as Google expands its MCP support.
+1. **No Google Search MCP.** The most-used search engine in the world has no official MCP integration for web search. Worse, Google has **closed the Custom Search JSON API to new customers** as of 2026, with existing customers having until January 1, 2027 to transition. This makes community Google Search wrappers even harder to build. Google *has* released a Developer Knowledge MCP server (for searching Google's developer documentation), but that's not general web search.
 
-2. **No open-source, self-hosted option.** Every search MCP server listed here requires an API key to a commercial service. There's no "run your own search index" MCP server. SearXNG (meta-search) is the closest self-hosted option but has no official MCP server.
+2. **Self-hosted option now exists (SearXNG).** Multiple SearXNG MCP server implementations launched in March 2026, filling what was previously the biggest gap in the ecosystem. SearXNG is a privacy-respecting meta-search engine that aggregates results from multiple search engines. Implementations include [mcp-searxng](https://github.com/ihor-sokoliuk/mcp-searxng) and [searxng-mcp](https://github.com/tisDDM/searxng-mcp) — the latter works out-of-the-box by auto-selecting a random public instance, or can connect to your own private SearXNG deployment. These are community-maintained (not from the SearXNG project itself), but they fill a real need for users who want search without commercial API dependencies.
 
-3. **No unified multi-engine search.** No MCP server queries multiple search engines and deduplicates/merges results. This would be valuable for agents that need comprehensive coverage.
+3. **No unified multi-engine search.** No MCP server queries multiple search engines and deduplicates/merges results. SearXNG gets close (it meta-searches multiple engines), but results aren't deduplicated or ranked intelligently.
 
 4. **Limited search analytics.** None of these servers report query costs, rate limit status, or usage metrics back to the agent. Your agent can burn through API credits without knowing it.
+
+5. **MCP protocol overhead concerns.** Perplexity's CTO publicly called out MCP's tool schema overhead consuming up to 72% of context window space. This isn't unique to search — it affects all MCP servers — but search is where agents interact with MCP most frequently. The MCP protocol may need to evolve to address this.
 
 ---
 
