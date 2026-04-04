@@ -17,11 +17,13 @@ LAST_RUN="$WORKDIR/.last_run"
 JIKAN_KEY="$(cat $HOME/.config/chatforest/jikan_api_key 2>/dev/null)"
 JIKAN_URL="https://mg.robnugen.com/api/v1/sessions"
 
+ONCE_TRIGGERED=0
 # Read mode (default: slow)
 MODE="$(cat "$MODEFILE" 2>/dev/null || echo slow)"
 
 # /grove-once overpowers .grove_mode = stop
 if [ -f "$ONCEFILE" ]; then
+    ONCE_TRIGGERED=1
     rm -f "$ONCEFILE"
     # fall through to run
 elif [ "$MODE" = "stop" ]; then
@@ -41,8 +43,8 @@ if [ "$PT_DOW" -le 5 ] && [ "$PT_HOUR" -ge 5 ] && [ "$PT_HOUR" -lt 11 ]; then
 fi
 
 # Check for one-shot trigger
-if [ -f "$ONCEFILE" ]; then
-    rm -f "$ONCEFILE"
+if [ "$ONCE_TRIGGERED" -eq 1 ]; then
+    
     echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) ONCE triggered" >> "$LOGFILE"
 elif [ "$IS_PEAK" -eq 1 ]; then
     # Peak hours: always use slow interval (180 min) regardless of mode
