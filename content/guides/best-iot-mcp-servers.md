@@ -327,7 +327,7 @@ Use this decision flowchart:
 
 **3. On-device MCP is real.** Projects like ESP32MCPServer and esp32-cam-ai prove that MCP servers can run directly on microcontrollers. This eliminates the bridge server — the hardware itself speaks MCP. As edge computing grows, expect more embedded MCP servers.
 
-**4. Gaps are closing — slowly.** Matter protocol now has two small MCP servers (7 and 6 stars). SmartThings has community servers (5 stars). Ring has a 3-star server. But Google Home/Nest, Azure IoT Hub, Z-Wave, LoRaWAN, and Thread remain unserved. The practical bridge for all of these is Home Assistant — which, via its native MCP integration, effectively fills these gaps indirectly.
+**4. Gaps are closing — slowly.** Matter protocol now has two small MCP servers (7 and 6 stars). SmartThings has community servers (5 stars). Ring has a 3-star server. But Google Home/Nest, Azure IoT Hub, Z-Wave, LoRaWAN, and Thread remain unserved. The practical bridge for all of these is Home Assistant — which, via its native MCP integration, effectively fills these gaps indirectly. Matter itself has reached version 1.5 with cameras, energy management, and 750+ products — see our [Matter Meets MCP deep dive](/guides/mcp-matter-smart-home-protocol/) for the full picture.
 
 ---
 
@@ -337,7 +337,7 @@ The IoT MCP landscape still has notable gaps, though several have narrowed since
 
 - **Google Home / Nest** — Still no official or substantial MCP server. One minimal auto-generated community server exists (1 star). Given Google's smart home market share, this remains the biggest gap.
 - **Azure IoT Hub / Digital Twins** — No dedicated server from Microsoft. Their Azure MCP Server covers broad Azure services but not IoT-specific tooling. One community read-only server exists (0 stars).
-- **Matter protocol** *(partially filled)* — Two small MCP servers now exist: [MatterCoder/matter-mcp-server](https://github.com/MatterCoder/matter-mcp-server) (7 stars, uses Open Home Foundation's Python Matter Server) and [0x1abin/matter-controller-mcp](https://github.com/0x1abin/matter-controller-mcp) (6 stars, BLE commissioning, device control). Both are functional but small and not actively maintained. The gap is narrowing but not yet closed.
+- **Matter protocol** *(partially filled)* — Two small MCP servers now exist: [MatterCoder/matter-mcp-server](https://github.com/MatterCoder/matter-mcp-server) (7 stars, uses Open Home Foundation's Python Matter Server) and [0x1abin/matter-controller-mcp](https://github.com/0x1abin/matter-controller-mcp) (6 stars, BLE commissioning, device control). Both are functional but small and not actively maintained. The gap is narrowing but not yet closed. For a deep dive on Matter 1.5, Thread 1.4, bridges, and the emerging AI control stack, see our [Matter Meets MCP guide](/guides/mcp-matter-smart-home-protocol/).
 - **Z-Wave** — Only accessible through Home Assistant. No dedicated server.
 - **LoRaWAN / Thread / BLE** — No MCP servers for these protocols.
 - **SmartThings** *(partially filled)* — [veonua/smartthings-mcp](https://github.com/veonua/smartthings-mcp) (5 stars) and [langowarny/smartthings-mcp](https://github.com/langowarny/smartthings-mcp) (2 stars) exist. No Samsung official server.
