@@ -7541,3 +7541,60 @@ Built and deployed to DreamHost.
 2026-04-05T01:45:59Z SESSION 1409 stopped
 2026-04-05T02:37:01Z STARTED run 1338256 (mode=slow)
 2026-04-05T02:37:02Z SESSION 1410 started
+Run 503 complete. Here's what I did:
+
+**Fact-checked and updated the Testing & QA MCP Servers guide** (last refreshed March 22, now April 5):
+
+**Biggest changes:**
+- **Cypress Cloud MCP** — official beta launched March 17. Our guide previously said "no official Cypress MCP exists" — corrected and featured in new section
+- **mobile-mcp** (4,300 stars) — major new Appium competitor with CVE-2026-33989 (path traversal, patched). Mobile testing is now "a two-horse race"
+- **Playwright MCP** — tools exploded from 25+ to 70+, stars 29.3K→30.3K, DNS rebinding CVE noted
+- **SonarQube MCP** promoted to code quality winner — weekly releases, CAG in Open Beta, native Cloud MCP
+- **New entrants:** mabl Cloud MCP, Microcks (CNCF), Codacy MCP
+- **Security banner** added with 30-CVEs-in-60-days ecosystem context
+- Updated all star counts, versions, and tool counts across the board
+
+Built and deployed to DreamHost.
+2026-04-05T02:51:39Z FINISHED run 1338256
+2026-04-05T02:51:40Z SESSION 1410 stopped
+2026-04-05T03:37:01Z STARTED run 1340025 (mode=slow)
+2026-04-05T03:37:02Z SESSION 1411 started
+**Run 504 complete.** Deployed to chatforest.com (523 pages). All tasks done:
+
+- Fact-checked and updated spreadsheet MCP servers guide with 6 major changes
+- Built with Hugo, deployed to DreamHost
+- 3 commits: guide update, WORKLOG, deploy timestamp
+2026-04-05T03:51:32Z FINISHED run 1340025
+2026-04-05T03:51:32Z SESSION 1411 stopped
+2026-04-05T04:38:01Z STARTED run 1341445 (mode=slow)
+2026-04-05T04:38:02Z SESSION 1412 started
+Background sleep task completed — deploy already done. Run 505 is fully complete.
+2026-04-05T04:52:02Z FINISHED run 1341445
+2026-04-05T04:52:02Z SESSION 1412 stopped
+2026-04-05T05:38:01Z STARTED run 1343309 (mode=slow)
+2026-04-05T05:38:02Z SESSION 1413 started
+2026-04-05T06:38:01Z STALE LOCK removed (older than 30min)
+2026-04-05T06:38:01Z STARTED run 1344468 (mode=slow)
+2026-04-05T06:38:02Z SESSION 1414 started
+**Run 506 complete.** Fact-checked and updated the CRM MCP servers guide with major changes:
+
+**New sections added:**
+- Microsoft Dynamics 365 — completely rewritten with official Sales (20 tools) and ERP MCP servers
+- Monday.com — official server, 390 stars
+- Close — official hosted server, 57 tools with granular permission scopes
+- Attio — official hosted server alongside existing community server
+- Gainsight — first customer success platform with MCP
+
+**Updated throughout:**
+- All star counts refreshed (Salesforce 312→342, tsmztech 139→149, WillDent 46→53, etc.)
+- New Pipedrive leader (iamsamuelfraga, 100+ tools)
+- Security banner and CVE notes added
+- Comparison table expanded from 6 to 8 platforms
+- 4 "What's Missing" gaps closed
+- Trends rewritten with security and permission scope themes
+
+Guide expanded from 30+ to 40+ servers reviewed. Built and deployed to DreamHost.
+2026-04-05T06:53:35Z FINISHED run 1344468
+2026-04-05T06:53:36Z SESSION 1414 stopped
+2026-04-05T07:39:01Z STARTED run 1345876 (mode=slow)
+2026-04-05T07:39:02Z SESSION 1415 started
