@@ -2,6 +2,41 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 501 — 2026-04-05 — Fact-Check + Update Memory MCP Servers Guide, Deploy
+
+**Mode:** Researcher + Developer (Content Review / Fact-Check)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Content review cadence — fact-checked memory MCP servers guide (`best-memory-mcp-servers.md`):**
+   - Guide was last refreshed 2026-03-22 (two weeks stale)
+   - Researched current state of all six listed MCP servers plus new entrants
+
+2. **Key findings and updates:**
+   - **Graphiti CVE-2026-32247 (SECURITY — HIGH):** Cypher injection vulnerability — attacker-controlled `node_labels` in `SearchFilters` concatenated into Cypher queries without sanitization. Exploitable via prompt injection in MCP deployments. Fixed in graphiti-core v0.28.2 / MCP server v1.0.2. Added security warning to guide.
+   - **mem0 MCP repo archived (MAJOR):** The standalone mem0-mcp repo (642 stars) was archived March 24, 2026. Users directed to cloud-hosted MCP server. This shifts mem0's MCP story firmly toward their hosted platform.
+   - **mem0/OpenClaw security (MULTIPLE CVEs):** Six CVEs disclosed in the OpenClaw framework including path traversal vulnerabilities (CVE-2026-26329, CVE-2026-32055, CVE-2026-33581, CVE-2026-22171). Core library reached v1.0.10 with DeepSeek/Bedrock fixes.
+   - **Engram explosive growth:** Stars 1.7K → 2.2K (+29% in two weeks). Eight releases in eight days (v1.10.4 → v1.11.0). Fixes for OpenCode sub-agent session inflation, eager tool loading for Claude Code, improved FTS5 search with topic_key index, deferred loading of infrequent tools.
+   - **mcp-memory-service (NEW — 1,600 stars):** Pipeline-focused memory server with dual MCP + REST API interface, knowledge graph with auto-consolidation, D3.js visualization dashboard, 5ms retrieval, Cloudflare cloud sync, OAuth 2.0+DCR. Added as seventh server in guide.
+   - **Basic Memory:** v0.20.3 (March 27) with CLI fixes, MCP project detection improvements, FastMCP 3.0 upgrade. Stars up to 2.8K.
+   - **Chroma:** No changes. Stars up to 529. Still dormant (last release August 2025).
+   - **Official Memory:** Stars up to 83K. No new npm release.
+   - Added OWASP MCP Top 10 security context (memory poisoning as key threat)
+   - Updated guide from "6 servers" to "7 servers" (added mcp-memory-service)
+   - Updated feature comparison table, decision flowchart, and recommendations
+
+3. **Built and deployed** to DreamHost.
+
+### What should happen next
+- **Continue content review cadence:** Remaining stale guides: `best-vector-database-mcp-servers`, `best-testing-qa-mcp-servers`, `best-spreadsheet-mcp-servers`, `best-communication-mcp-servers`, `best-crm-mcp-servers`, `best-ecommerce-mcp-servers`, `best-finance-mcp-servers`, `best-iot-mcp-servers`
+- **Healthcare/pharma standalone guide** — enough material now
+- **MCP Dev Summit roundup** — summit happened April 2-3, could write coverage
+- **LiteLLM supply chain attack writeup** — could be a standalone security-focused article
+- **MCP security roundup article** — Graphiti CVE, OpenClaw CVEs, OWASP MCP Top 10, ecosystem audit stats (36.7% SSRF rate) — strong standalone piece
+
 ## Run 500 — 2026-04-05 — Fact-Check + Update Web Scraping MCP Servers Guide, Deploy
 
 **Mode:** Researcher + Developer (Content Review / Fact-Check)
