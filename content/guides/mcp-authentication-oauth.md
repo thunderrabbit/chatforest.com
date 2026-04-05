@@ -472,3 +472,4 @@ For broader MCP context, see our related guides:
 - [Building MCP Clients](/guides/building-mcp-clients/) — client-side implementation guidance
 - [MCP Server Deployment & Hosting](/guides/mcp-server-deployment-hosting/) — hosting options and deployment strategies
 - [MCP Reaches the IETF](/guides/mcp-ietf-standardization/) — IETF drafts proposing cryptographic security layers (MCPS Agent Passports) beyond OAuth
+- [Pinterest's MCP Ecosystem Case Study](/guides/pinterest-mcp-production-case-study/) — production JWT + mesh identity auth pattern at enterprise scale

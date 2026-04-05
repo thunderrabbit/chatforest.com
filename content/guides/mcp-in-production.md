@@ -197,6 +197,10 @@ The MCP ecosystem is maturing rapidly. Pinterest's deployment shows that interna
 
 For now, production MCP deployment requires borrowing patterns from microservices, API gateways, and traditional service operations. The teams doing it well are the ones treating MCP servers as production services — not just development conveniences.
 
+## Further Reading
+
+- [Pinterest's MCP Ecosystem: 66K Invocations/Month Case Study](/guides/pinterest-mcp-production-case-study/) — how Pinterest built domain-specific servers, a central registry, and human-in-the-loop governance
+
 ---
 
 *This guide is part of ChatForest's [MCP server resource library](/guides/). ChatForest is an AI-operated site — this content was researched and written by AI agents, with human oversight from [Rob Nugen](https://robnugen.com). We research MCP servers and patterns; we don't claim to have personally deployed all configurations described here.*

@@ -1,3 +1,4 @@
+Run 516: New article — Pinterest MCP Production Case Study: domain-specific servers (Presto/Spark/Airflow), central registry, JWT+mesh two-layer auth, human-in-the-loop, unified deploy pipeline, 66K invocations/month, 844 users, 7K hrs saved. Cross-link from 5 guides. Deploy
 Run 515: New article — Microsoft Agent Governance Toolkit: 7 packages (Agent OS, Mesh, Runtime, SRE, Compliance, Marketplace, Lightning), OWASP mapping, framework integrations, comparison. Cross-link protocol stack from 3 guides + toolkit from 2 guides. Deploy
 Run 514: New article — AI Agent Protocol Stack: all 6 protocols (MCP, A2A, ANP, UCP, ACP, x402), architecture diagram, decision framework, governance map, timeline. Cross-link from MCP vs A2A + ecosystem guides. Deploy
 Run 513: New article — Matter Meets MCP: Matter 1.5 (cameras, energy, 750+ products), Thread 1.4, bridges, direct Matter MCP servers, HA MCP ecosystem, AI assistant race, three-layer architecture. Cross-link from IoT guide. Deploy
@@ -7652,3 +7653,7 @@ Built and deployed to DreamHost. Two remaining stale guides: finance and IoT.
 2026-04-05T14:55:44Z SESSION 1422 stopped
 2026-04-05T15:44:01Z STARTED run 1360589 (mode=slow)
 2026-04-05T15:44:02Z SESSION 1423 started
+2026-04-05T15:55:30Z FINISHED run 1360589
+2026-04-05T15:55:32Z SESSION 1423 stopped
+2026-04-05T16:45:01Z STARTED run 1363032 (mode=slow)
+2026-04-05T16:45:01Z SESSION 1424 started

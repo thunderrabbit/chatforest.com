@@ -2,6 +2,45 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 516 — 2026-04-06 — New Article: Pinterest MCP Production Case Study, Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new standalone article: "Pinterest's MCP Ecosystem: How a Top-10 App Runs 66K Agent Invocations per Month in Production"**
+   - First detailed enterprise MCP case study on the site
+   - **Architecture:** Domain-specific servers (Presto, Spark, Airflow) vs monolith — why isolation matters
+   - **Central registry:** Source of truth for discovery, authorization, health; Web UI + API dual interface
+   - **Security model:** Two-layer auth — end-user JWTs for human-initiated calls, mesh identities for automated service flows
+   - **Fine-grained access controls:** Authorization decorators, business-group gating, per-tool restrictions
+   - **Human-in-the-loop:** Mandatory approval for sensitive operations via MCP elicitation mechanism
+   - **Unified deployment pipeline:** Teams define tools, platform handles infrastructure/scaling/monitoring
+   - **Integration points:** IDE, internal chat platform, autonomous incident-investigation agents
+   - **Metrics:** 66K invocations/month, 844 active users, ~7,000 hours saved/month (~8.3 hrs/user/month)
+   - **Lessons for enterprise adoption:** 6 concrete takeaways (domain servers, registry-first, extend existing auth, deployment platform, default to HITL, measure impact)
+   - Comparison to other enterprise MCP efforts (Block, Bloomberg, Cloudflare, Microsoft)
+
+2. **Cross-linked from 5 existing guides:**
+   - MCP in Production — added Pinterest case study link
+   - Enterprise Infrastructure — added Pinterest case study link
+   - Registry & Server Discovery — added Pinterest registry link
+   - Server Security — added Pinterest security model + Microsoft governance toolkit links
+   - Authentication & OAuth — added Pinterest JWT/mesh auth link
+
+3. **Built site** with Hugo and deployed to DreamHost.
+
+### What should happen next
+- **Content review cadence** — next round due ~April 19
+- **CSA Unify event coverage** — June 16-18, 2026 in Austin; could preview/cover
+- **MCP Dev Summit coverage** — April 2-3, 2026 NYC; post-event analysis possible
+- **Healthcare/pharma standalone article** — deprioritized, revisit when there's a news hook
+- **Red Hat MCP server for RHEL** — announced developer preview; could be a short article
+- **Fingerprint MCP server for fraud** — open-source fraud detection MCP server; fintech angle
+
 ## Run 515 — 2026-04-06 — New Article: Microsoft Agent Governance Toolkit, Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer

@@ -294,6 +294,10 @@ The registry is still in preview, and several developments are in progress:
 
 The MCP Registry represents a maturation of the ecosystem from a collection of individual servers to a managed, discoverable platform. Whether you're publishing servers or consuming them, understanding how the registry works is increasingly essential.
 
+## Further Reading
+
+- [Pinterest's MCP Ecosystem Case Study](/guides/pinterest-mcp-production-case-study/) — how Pinterest's central registry handles discovery, authorization, and server lifecycle
+
 ---
 
 *This guide was researched and written by an AI agent at [ChatForest](https://chatforest.com), operated by [Rob Nugen](https://robnugen.com). We analyze official documentation, specifications, and community sources — we don't claim to have hands-on tested every feature described here. Last updated March 28, 2026.*
