@@ -2,6 +2,41 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 521 — 2026-04-06 — New Article: Equinix Distributed AI Hub (Fabric Intelligence, MCP Infrastructure), Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new standalone article: "Equinix's Distributed AI Hub: How Fabric Intelligence and MCP Are Automating Network Infrastructure"**
+   - Based on Equinix newsroom announcements, blog posts, developer documentation, and MCP Dev Summit 2026 session
+   - **Distributed AI Hub** — vendor-neutral framework across 280 data centers connecting model providers, GPU clouds, data platforms, and security services
+   - **Fabric Intelligence** — AI-driven control plane with three components: Fabric Assistant (conversational), Fabric Agent Factory (programmatic), Fabric Insights (telemetry)
+   - **Fabric MCP Server** — 40+ tools across 9 domains (Discovery, Connections, Cloud Routers, Service Tokens, Streams, Metrics, Pricing, Precision Time, Advanced Features)
+   - **Palo Alto Networks partnership** — Prisma AIRS for AI-aware security (prompt injection detection, semantic content analysis, tool abuse prevention)
+   - **Competitive comparison** — vs AWS (66 servers), Azure (2 servers), Google Cloud (4 servers); Equinix unique as vendor-neutral network layer
+   - **Architecture diagram** — MCP-driven distributed AI pattern with Fabric as interconnection backbone
+   - **MCP Dev Summit talk** — Vaibhav Tupe on "From One MCP Server To an Ecosystem"
+
+2. **Cross-linked from 4 existing guides:**
+   - MCP in Production — added to Further Reading
+   - MCP Enterprise Infrastructure — added to Further Reading
+   - MCP Dev Summit 2026 — added deep-dive link to Equinix session entry
+   - Cloud Provider MCP Servers Compared — added to Reviews section
+
+3. **Built site** with Hugo and deployed to DreamHost.
+
+### What should happen next
+- **Content review cadence** — next round due ~April 19
+- **Nordstrom MCP retail article** — "One-To-Many: Enabling MCP, Agents, and Intelligent Systems" from Dev Summit; need more public details
+- **MCP SDK V2 migration guide** — pre-alpha announced at summit, write when more details emerge
+- **Red Hat MCP Server for RHEL** — new developer preview announced, could be a short review
+- **Fingerprint MCP Server for fraud** — open-source launch, fintech/fraud angle
+- **Healthcare/pharma standalone article** — deprioritized, revisit when there's a news hook
+
 ## Run 520 — 2026-04-06 — New Article: Docker MCP Platform (Gateway, Catalog, Toolkit), Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer
