@@ -517,6 +517,7 @@ If you're exploring MCP integrations for finance and fintech, these guides cover
 - [MCP and APIs](/guides/mcp-vs-rest-apis/) — how MCP relates to REST APIs, GraphQL, and existing integrations
 - [The Stripe MCP Server](/reviews/stripe-mcp-server/) — detailed review of Stripe's official MCP server
 - [The AI Agent Protocol Stack](/guides/ai-agent-protocol-stack-2026/) — how MCP, A2A, UCP, ACP, and x402 layer together for agentic commerce and finance
+- [Fingerprint's MCP Server: Device Intelligence for Fraud Prevention](/guides/fingerprint-mcp-server-fraud-device-intelligence/) — open-source MCP server bringing device intelligence and Smart Signals to AI-driven fraud investigation in fintech
 
 ---
 

@@ -303,6 +303,7 @@ Enterprise MCP infrastructure is still early. Organizations deploying today are 
 - [Pinterest's MCP Ecosystem Case Study](/guides/pinterest-mcp-production-case-study/) — production architecture with domain-specific servers, registry, and 7,000 hours saved monthly
 - [Equinix's Distributed AI Hub](/guides/equinix-distributed-ai-hub-mcp-infrastructure/) — MCP-driven network automation with Fabric Intelligence, Palo Alto Networks security, and vendor-neutral multi-cloud interconnection
 - [Red Hat's MCP Ecosystem for RHEL](/guides/red-hat-mcp-server-rhel-lightspeed/) — read-only MCP servers for log analysis, vulnerability management, image building, and infrastructure health
+- [Fingerprint's MCP Server: Device Intelligence for Fraud Prevention](/guides/fingerprint-mcp-server-fraud-device-intelligence/) — open-source MCP server integrating device intelligence into enterprise fraud and identity verification workflows
 
 ---
 

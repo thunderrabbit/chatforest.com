@@ -250,6 +250,7 @@ The gap between current MCP capabilities and production security requirements is
 - [MCP Error Handling and Resilience](/guides/mcp-error-handling-resilience/) — Building robust error handling for production MCP deployments
 - [MCP Gateway and Proxy Patterns](/guides/mcp-gateway-proxy-patterns/) — Architecture patterns for centralized MCP management
 - [Docker's MCP Platform: Gateway, Catalog, and Toolkit](/guides/docker-mcp-platform-gateway-security/) — Docker's open-source Gateway with interceptors, secret blocking, and MCP Defender threat detection
+- [Fingerprint's MCP Server: Device Intelligence for Fraud Prevention](/guides/fingerprint-mcp-server-fraud-device-intelligence/) — how device fingerprinting and Smart Signals help AI agents detect bots, VPNs, and suspicious devices in security workflows
 
 ---
 
