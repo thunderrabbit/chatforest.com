@@ -203,6 +203,7 @@ For now, production MCP deployment requires borrowing patterns from microservice
 - [Datadog MCP Production Lessons](/guides/datadog-mcp-server-production-lessons/) — how Datadog redesigned their MCP server after watching agents fail with thin API wrappers, with five transferable design principles
 - [Duolingo's Agentic AI Platform](/guides/duolingo-mcp-agentic-platform/) — 180+ MCP tools in an enterprise Slackbot, plus a no-code workflow platform on Temporal for AI coding agents
 - [Salesforce's Slack AI Overhaul](/guides/salesforce-slack-mcp-ai-platform/) — Slackbot becomes an MCP client connecting to Agentforce and 6,000+ enterprise apps, with 30 new AI features
+- [Equinix's Distributed AI Hub](/guides/equinix-distributed-ai-hub-mcp-infrastructure/) — vendor-neutral network infrastructure automation with 40+ MCP tools across 280 data centers
 
 ---
 

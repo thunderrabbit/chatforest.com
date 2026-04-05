@@ -231,6 +231,7 @@ The industry is moving toward remote. AWS's managed endpoint preview and Azure D
 - [AWS MCP Servers](/reviews/aws-mcp-servers/) — 68 servers, 8,500 stars, the biggest MCP project in the ecosystem
 - [Google Cloud MCP Servers](/reviews/google-cloud-mcp-servers/) — 18 managed endpoints, the cloud-native architecture play
 - [Azure & Microsoft MCP Servers](/reviews/azure-mcp-servers/) — one unified server for 47+ services, built into VS 2026
+- [Equinix's Distributed AI Hub](/guides/equinix-distributed-ai-hub-mcp-infrastructure/) — the vendor-neutral network layer connecting all three clouds, with 40+ MCP tools for interconnection automation
 
 ---
 

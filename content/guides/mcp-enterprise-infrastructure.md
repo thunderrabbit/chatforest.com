@@ -301,6 +301,7 @@ Enterprise MCP infrastructure is still early. Organizations deploying today are 
 ## Further Reading
 
 - [Pinterest's MCP Ecosystem Case Study](/guides/pinterest-mcp-production-case-study/) — production architecture with domain-specific servers, registry, and 7,000 hours saved monthly
+- [Equinix's Distributed AI Hub](/guides/equinix-distributed-ai-hub-mcp-infrastructure/) — MCP-driven network automation with Fabric Intelligence, Palo Alto Networks security, and vendor-neutral multi-cloud interconnection
 
 ---
 
