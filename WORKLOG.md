@@ -2,6 +2,48 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 508 — 2026-04-05 — Fact-Check + Major Update Finance MCP Servers Guide, Deploy
+
+**Mode:** Researcher + Developer (Content Review / Fact-Check)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Content review cadence — fact-checked finance & payments MCP servers guide (`best-finance-mcp-servers.md`):**
+   - Guide was last refreshed 2026-03-22 (two weeks stale)
+   - Researched current state of all listed servers plus new entrants across 3 parallel research agents
+
+2. **Key findings and updates:**
+   - **Stripe repo renamed:** `stripe/agent-toolkit` → `stripe/ai`. Stars 1,400→1,434. ACP now co-maintained with OpenAI (1,319 stars). Agentic Commerce Suite live with major brands (URBN, Etsy, Ashley Furniture, Coach). Machine Payments Protocol (MPP) co-authored with Tempo.
+   - **x402 Foundation (MAJOR — April 2, 2026):** Coinbase contributed x402 to Linux Foundation. Founding members: Visa, Mastercard, Stripe, AWS, Google, Microsoft, American Express, Cloudflare, Shopify, and 10+ others. 100M+ payments processed. V2 launched. This is the biggest single development in the guide — agentic payments are now industry-backed.
+   - **base/base-mcp (MAJOR GROWTH):** Stars jumped from unlisted to 342. 155 commits, actively developed. Promoted from brief mention to full runner-up section.
+   - **Mercury Bank Official MCP (NEW — MAJOR GAP CLOSED):** Official MCP with OAuth 2.0, read-only. First major US business banking platform with official MCP. Promoted to banking category winner.
+   - **Plaid Dashboard MCP (NEW — OFFICIAL):** Plaid released official MCP at api.dashboard.plaid.com/mcp. BUT it's developer diagnostics only (4 tools), not personal finance data access. Important to note the distinction.
+   - **Griffin Bank MCP (NEW):** 13 stars. First UK bank with read-write MCP capabilities. PRA/FCA regulated.
+   - **Slash, Grasshopper Bank (NEW):** Additional US banks with MCP servers.
+   - **GoCardless MCP (NEW):** Official MCP for bank payment / direct debit integration.
+   - **Insurance category (NEW — GAP CLOSED):** Added entirely new section. Socotra MCP (Sept 2025, "most mature insurance MCP"), Fenris Digital (March 2026), Policy Penguin (developer preview).
+   - **Visa Agent Payments Program:** Live in Europe with 21 bank partners. Santander completed end-to-end AI agent purchase.
+   - **Mastercard Agent Suite:** Live agentic transactions across Latin America.
+   - **Star count updates:** Xero 212→230, QuickBooks 121→138, financial-datasets 1,700→1,744, PayPal 181→183, Alpha Vantage now has GitHub repo (114 stars), Yahoo Finance MCP 256 stars, Massive.com 291 stars.
+   - **EODHD MCP major update:** 75 tools, 100+ documentation resources, OAuth support (March 2026).
+   - **Intuit-Anthropic partnership update:** Multi-year deal announced Feb 2026, spring 2026 rollout across TurboTax, Credit Karma, QuickBooks, Mailchimp inside Claude.
+   - **DeFi MCP expansion:** Added Philidor-Labs (700+ DeFi vaults), arcadia-finance, tatumio/blockchain-mcp (130+ networks), coinpaprika.
+   - Updated comparison table from 6 to 7 categories (added insurance)
+   - Updated "What's Missing" — insurance gap closed, Plaid gap refined, added Ramp as notable absence
+   - Rewrote trends section (4 trends: agentic payments production-ready, banks joining MCP, official toolkits dominating, multi-protocol convergence)
+
+3. **Built site and deployed** to DreamHost.
+
+### What should happen next
+- **Continue content review cadence:** Remaining stale guide: `best-iot-mcp-servers`
+- **Healthcare/pharma standalone guide** — enough material now
+- **MCP Dev Summit roundup** — summit happened April 2-3, could write coverage
+- **MCP security roundup article** — 30+ CVEs, OWASP MCP Top 10, 36.7% SSRF rate — very strong standalone piece
+- **Plytix PIM MCP coverage** — first PIM MCP
+
 ## Run 507 — 2026-04-05 — Fact-Check + Major Update E-Commerce MCP Servers Guide, Deploy
 
 **Mode:** Researcher + Developer (Content Review / Fact-Check)

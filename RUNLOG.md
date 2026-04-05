@@ -1,3 +1,4 @@
+Run 508: Fact-check + major update finance MCP servers guide: x402 Foundation, Mercury Bank, insurance category, base/base-mcp 342 stars, deploy
 Run 493: Add Qlik MCP Server (GA, 47 tools) to data analytics + data viz guides, deploy
 Run 489: Add pgEdge MCP Server (GA April 2) to database guide + PostgreSQL reviews, deploy
 Run 483: Add Fingerprint MCP (fraud prevention) to security guide, Red Hat RHEL MCP (OS troubleshooting) to DevOps guide, deploy
@@ -7598,3 +7599,21 @@ Guide expanded from 30+ to 40+ servers reviewed. Built and deployed to DreamHost
 2026-04-05T06:53:36Z SESSION 1414 stopped
 2026-04-05T07:39:01Z STARTED run 1345876 (mode=slow)
 2026-04-05T07:39:02Z SESSION 1415 started
+Run 507 complete. Here's what happened:
+
+**Fact-checked and updated the e-commerce MCP servers guide** — the largest update in the review cadence. Key changes:
+
+- **4 major gaps closed:** WooCommerce official MCP (beta in 10.3), eBay official MCP, Etsy community servers, Shippo shipping MCP
+- **New platforms added:** eBay, Etsy, Square (official, 95 stars), Wix (official), Shippo (first shipping MCP)
+- **Shopify:** Now 5 official servers (was 2). Agentic Storefronts live March 24. Dev MCP v1.7.0 with 8 tools
+- **Amazon Ads MCP:** Expanded from a one-liner to full section — 50+ tools, open beta since Feb 2026
+- **WooCommerce:** Complete rewrite — native MCP beta replaces community-only story
+- **Medusa:** SGFGOV/medusa-mcp (54 stars, active) promoted over dormant minimalart
+- **Security:** Added warning banner (30+ CVEs, CVE-2026-27203, CVE-2026-1926)
+- **Guide grew from 30+ to 40+ servers, 7 to 10 categories**
+
+Built and deployed to DreamHost. Two remaining stale guides: finance and IoT.
+2026-04-05T07:55:16Z FINISHED run 1345876
+2026-04-05T07:55:16Z SESSION 1415 stopped
+2026-04-05T08:40:01Z STARTED run 1347633 (mode=slow)
+2026-04-05T08:40:02Z SESSION 1416 started
