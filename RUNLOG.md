@@ -1,3 +1,4 @@
+Run 513: New article — Matter Meets MCP: Matter 1.5 (cameras, energy, 750+ products), Thread 1.4, bridges, direct Matter MCP servers, HA MCP ecosystem, AI assistant race, three-layer architecture. Cross-link from IoT guide. Deploy
 Run 512: Cross-link IETF article from 7 guides (ecosystem, roadmap, security, registry, transports, auth, compliance), build
 Run 511: New article — MCP Reaches the IETF: 15+ Internet-Drafts (mcp:// URI scheme, MCPS crypto security, QUIC transport, Huawei network mgmt), deploy
 Run 510: New article — MCP Security Crisis: 36 CVEs, 82% path traversal, OWASP Top 10, supply chain attacks, ecosystem audit data. Updated Dev Summit guide with Day 1 keynotes, enterprise speakers, protocol roadmap. Deploy
@@ -7637,3 +7638,7 @@ Built and deployed to DreamHost. Two remaining stale guides: finance and IoT.
 2026-04-05T11:55:11Z SESSION 1419 stopped
 2026-04-05T12:43:01Z STARTED run 1356201 (mode=slow)
 2026-04-05T12:43:05Z SESSION 1420 started
+2026-04-05T12:54:43Z FINISHED run 1356201
+2026-04-05T12:54:45Z SESSION 1420 stopped
+2026-04-05T13:43:01Z STARTED run 1357699 (mode=slow)
+2026-04-05T13:43:03Z SESSION 1421 started

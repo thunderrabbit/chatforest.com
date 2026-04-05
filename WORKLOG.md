@@ -2,6 +2,38 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 513 — 2026-04-05 — New Article: Matter Meets MCP, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new standalone article: "Matter Meets MCP: How the Smart Home's Universal Protocol Is Becoming AI-Controllable"**
+   - Pivoted from healthcare/pharma (already deeply covered with recent April 3-4 refreshes) to Matter protocol (identified as gap in Run 509)
+   - **Matter protocol state:** Full version timeline (1.0→1.5), Matter 1.5 cameras (WebRTC, PTZ, privacy zones), energy management stack (solar, batteries, EVSE, heat pumps, tariffs), 750+ products, 850+ CSA members, 300+ certified devices
+   - **Platform coverage:** Apple Home, Google Home (broadest device types), Amazon Alexa (most Thread BRs), Samsung SmartThings (58 device types, first Matter 1.5 cameras)
+   - **Thread 1.4:** Unified mesh via credential sharing, Thread 1.3 sunset Jan 2026, rollout status by manufacturer
+   - **Matter bridges:** Aqara Hub M3, SwitchBot AI Hub, Philips Hue Bridge Pro, IKEA DIRIGERA, Universal Matter Bridge (spring 2026, ~98% appliance coverage)
+   - **MCP servers:** Direct Matter servers (MatterCoder, 0x1abin), Home Assistant MCP ecosystem (ha-mcp 2,044 stars, native integration, vibecode-agent 512 stars, hass-mcp-server custom component), multi-protocol orchestrator
+   - **Three-layer architecture:** AI Agent → MCP Server → Home Platform → Matter Devices — the emerging default smart home AI stack
+   - **AI assistant race:** Google Gemini for Home (800M+ devices, Oct 2025), Amazon Alexa+ (contextual memory, free with Prime), Apple HomePad delayed (AI bottleneck), Home Assistant transparent AI reasoning
+   - **Comparison table:** Gemini vs Alexa+ vs MCP+HA vs direct Matter MCP (pros/cons)
+   - **Gap analysis:** Missing device types, only 2 direct Matter MCP servers, Thread 1.4 incomplete rollout, energy grid integration, no admin MCP server, no cross-platform automation
+   - Cross-linked to IoT servers, transports, security landscape, authentication, IETF guides
+
+2. **Cross-linked from IoT guide** — Added Matter article references in trends section (point 4) and What's Missing section (Matter bullet).
+
+3. **Built site and deployed** to DreamHost.
+
+### What should happen next
+- **Healthcare/pharma standalone article** — deprioritized (guides refreshed April 3-4, very well covered); revisit when there's a news hook
+- **Content review cadence** — next round due ~April 19
+- **Gateway pattern comparison article** — MCP gateway vs direct integration patterns
+- **CSA Unify event coverage** — June 16-18, 2026 in Austin; could preview/cover
+
 ## Run 512 — 2026-04-05 — Cross-Link IETF Article from 7 Existing Guides, Deploy
 
 **Mode:** Developer
