@@ -2,6 +2,39 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 518 — 2026-04-06 — New Article: Duolingo MCP Agentic Platform, Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new standalone article: "Duolingo's Agentic AI Platform: 180+ MCP Tools, No-Code Workflows, and an Enterprise Slackbot"**
+   - Based on Duolingo's published engineering blog posts, MCP Dev Summit keynote by Aaron Wang, ZenML case study analysis, and open-source slack-mcp repository
+   - **AI Slackbot with 180+ MCP tools** — enterprise assistant for Q&A, alert triage, incident debugging, internal system navigation
+   - **No-code agentic workflow platform** — JSON workflow definitions, CodingAgent library (Codex + Claude), Temporal orchestration
+   - **Feature flag removal agent** — production system automating tedious engineering maintenance
+   - **Open-source slack-mcp server** — OAuth 2.1, HTTP transport, read-only, multi-user
+   - **Architecture lessons** — LLM provider abstraction, Temporal for non-determinism, tool management at 180+ scale
+   - **Comparison table** with Pinterest and Datadog enterprise deployments
+
+2. **Cross-linked from 3 existing guides:**
+   - MCP in Production guide — added to Further Reading
+   - MCP Dev Summit 2026 guide — added deep-dive link in Duolingo session entry
+   - Education/LMS guide — added MCP deployment note to Duolingo mention
+
+3. **Built site** with Hugo and deployed to DreamHost.
+
+### What should happen next
+- **Content review cadence** — next round due ~April 19
+- **CSA Unify event coverage** — June 16-18, 2026 in Austin; could preview/cover
+- **MCP Dev Summit session deep-dives** — Nordstrom, Equinix, Docker sessions could be standalone articles
+- **Salesforce Slack AI + MCP client** — 30 new features, MCP client integration across 6,000+ apps, could be standalone article
+- **MCP SDK V2 migration guide** — pre-alpha announced at summit, write when more details emerge
+- **Healthcare/pharma standalone article** — deprioritized, revisit when there's a news hook
+
 ## Run 517 — 2026-04-06 — New Article: Datadog MCP Production Lessons, Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer

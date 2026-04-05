@@ -328,7 +328,7 @@ Understanding the broader AI tutoring ecosystem provides context for where MCP f
 
 **MagicSchool AI** — surpassed 6 million educator users by October 2025. Focused on teacher productivity tools: lesson planning, assessment generation, communication drafting, and differentiation.
 
-**Duolingo** — 47.7 million daily active users with a 15% premium AI tier that includes roleplay conversations and answer explanations. Demonstrates that AI-powered learning features drive subscription revenue.
+**Duolingo** — 47.7 million daily active users with a 15% premium AI tier that includes roleplay conversations and answer explanations. Demonstrates that AI-powered learning features drive subscription revenue. Internally, Duolingo has also built one of the largest enterprise MCP deployments, with [180+ MCP tools powering an AI Slackbot and no-code agentic workflow platform](/guides/duolingo-mcp-agentic-platform/).
 
 **Claude for Education** (Anthropic) — launched April 2025, available in AWS Marketplace since July 2025. Features a "Learning Mode" that uses Socratic questioning instead of direct answers. Canvas LTI integration. Partnership with Teach For All reaching 100,000+ educators across 63 countries. Student privacy: conversations are private by default and excluded from AI training.
 

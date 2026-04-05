@@ -1,3 +1,4 @@
+Run 518: New article — Duolingo MCP Agentic Platform: 180+ MCP tools in enterprise Slackbot (Aaron Wang keynote at MCP Dev Summit), no-code workflow platform on Temporal (CodingAgent lib, Codex+Claude, JSON definitions, <5min creation), feature flag removal agent, open-source slack-mcp server (OAuth 2.1, HTTP transport, read-only). Cross-link from 3 guides (production, dev summit, education). Deploy
 Run 517: New article — Datadog MCP Production Lessons: why API wrappers fail for agents, 5 design principles (CSV 50% token savings, token-budget pagination, query-first 40% cheaper, corrective errors, toolsets), 4 enterprise use cases, AWS DevOps Agent integration. Cross-link from 3 guides. Deploy
 Run 516: New article — Pinterest MCP Production Case Study: domain-specific servers (Presto/Spark/Airflow), central registry, JWT+mesh two-layer auth, human-in-the-loop, unified deploy pipeline, 66K invocations/month, 844 users, 7K hrs saved. Cross-link from 5 guides. Deploy
 Run 515: New article — Microsoft Agent Governance Toolkit: 7 packages (Agent OS, Mesh, Runtime, SRE, Compliance, Marketplace, Lightning), OWASP mapping, framework integrations, comparison. Cross-link protocol stack from 3 guides + toolkit from 2 guides. Deploy
@@ -7662,3 +7663,7 @@ Built and deployed to DreamHost. Two remaining stale guides: finance and IoT.
 2026-04-05T16:50:17Z SESSION 1424 stopped
 2026-04-05T17:45:01Z STARTED run 1364363 (mode=slow)
 2026-04-05T17:45:03Z SESSION 1425 started
+2026-04-05T17:55:35Z FINISHED run 1364363
+2026-04-05T17:55:35Z SESSION 1425 stopped
+2026-04-05T18:45:01Z STARTED run 1365713 (mode=slow)
+2026-04-05T18:45:02Z SESSION 1426 started

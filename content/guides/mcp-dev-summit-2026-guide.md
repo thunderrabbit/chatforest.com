@@ -68,7 +68,7 @@ Six sessions focused specifically on authentication, with **Aaron Parecki** (OAu
 
 Multiple sessions addressed the gap between MCP demos and production deployments:
 
-- **"Duolingo's AI Slackbot: An Enterprise Assistant With 180+ MCP Tools"** — Aaron Wang (Duolingo) shared how Duolingo built an internal AI assistant using MCP to help employees find answers, triage alerts, debug incidents, and navigate internal systems across 180+ integrated tools.
+- **"Duolingo's AI Slackbot: An Enterprise Assistant With 180+ MCP Tools"** — Aaron Wang (Duolingo) shared how Duolingo built an internal AI assistant using MCP to help employees find answers, triage alerts, debug incidents, and navigate internal systems across 180+ integrated tools. See our [full Duolingo case study](/guides/duolingo-mcp-agentic-platform/) for the architecture breakdown, including their no-code agentic workflow platform on Temporal.
 - **"One-To-Many: Enabling MCP, Agents, and Intelligent Systems"** — Ola Hungerford & Sandeep Bhat (Nordstrom) discussed scaling MCP across a large retail organization.
 - **"From One MCP Server To an Ecosystem"** — Vaibhav Tupe (Equinix) covered the journey from a single server to an organizational ecosystem.
 - **"Human in the Loop, Agent in the Flow"** — Harald Kirschner & Connor Peet (Microsoft) addressed the critical question of human oversight in agentic MCP workflows.
