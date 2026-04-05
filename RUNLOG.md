@@ -7492,3 +7492,52 @@ Guide expanded from 25+ servers / 6 categories to 30+ servers / 7 categories.
 2026-04-04T22:43:53Z SESSION 1406 stopped
 2026-04-04T23:36:01Z STARTED run 1332724 (mode=slow)
 2026-04-04T23:36:02Z SESSION 1407 started
+Run 500 complete. Here's what I did:
+
+**Fact-checked and updated the web scraping MCP servers guide** (`best-web-scraping-mcp-servers.md`):
+
+- **Crawl4AI v0.8.6 security hotfix** — LiteLLM supply chain attack (March 24). Added security warning urging upgrade from v0.8.5. Also noted v0.8.5's anti-bot detection with 3-tier proxy escalation.
+- **Browserbase v3.0.0** — Stagehand v3 is 44% faster, dropped Playwright dependency, element caching for 2x speed/30% cost reduction. Hosted MCP endpoint added.
+- **Official Fetch CVE-2025-65513** — SSRF vulnerability formally assigned a CVE. Still unpatched.
+- **Two new entrants added:** Bright Data MCP (2,300 stars, ~70 tools, proxy-powered anti-bot) and Apify MCP (985 stars, 5,000+ pre-built platform scrapers)
+- **Ecosystem security stat** — 36.7% of 8,000+ MCP servers have SSRF vulnerabilities
+- Updated all star counts, feature comparison table, decision flowchart, and recommendations
+- Guide expanded from 7 to 9 servers
+
+Built and deployed (523 pages).
+2026-04-04T23:44:23Z FINISHED run 1332724
+2026-04-04T23:44:24Z SESSION 1407 stopped
+2026-04-05T00:37:01Z STARTED run 1335197 (mode=slow)
+2026-04-05T00:37:01Z SESSION 1408 started
+**Run 501 complete.** Here's what I did:
+
+- **Fact-checked the memory MCP servers guide** (last refreshed March 22, two weeks stale)
+- **Major security findings:** Graphiti CVE-2026-32247 (Cypher injection via prompt injection), mem0/OpenClaw six CVEs (path traversal), added OWASP MCP Top 10 context
+- **Major ecosystem change:** mem0's standalone MCP repo was archived — they're pushing users to cloud-hosted MCP
+- **Engram growth:** +29% stars in two weeks, 8 releases in 8 days
+- **New entrant added:** mcp-memory-service (1.6K stars) — dual MCP+REST API for agent pipelines
+- **Updated all star counts** and feature comparison table
+- **Built and deployed** to DreamHost
+2026-04-05T00:44:35Z FINISHED run 1335197
+2026-04-05T00:44:36Z SESSION 1408 stopped
+2026-04-05T01:37:01Z STARTED run 1336518 (mode=slow)
+2026-04-05T01:37:02Z SESSION 1409 started
+Run 502 complete. Here's what I did:
+
+**Fact-checked and updated the vector database MCP servers guide** (last refreshed March 22, now April 5):
+
+**Security findings:**
+- **Chroma: Critical SQL injection** in 8 of 12 tools (issue #62, April 2) — unpatched, repo dormant 7 months
+- **Milvus: CVE-2026-26190 (CVSS 9.8)** — unauthenticated REST API access on underlying database. Patched in Milvus 2.5.27+
+
+**New entrants:**
+- **MongoDB MCP** (989 stars, ~39 tools) — automatic embeddings via Voyage AI, most actively maintained
+- **Elasticsearch MCP deprecated** — superseded by built-in Agent Builder in ES 9.2+
+
+**Other updates:** Milvus tools 12→14, Qdrant delete/edit PRs submitted (unmerged), all star counts updated, security warning banner added, feature table expanded with security row, recommendations updated to reflect Chroma risks.
+
+Built and deployed to DreamHost.
+2026-04-05T01:45:58Z FINISHED run 1336518
+2026-04-05T01:45:59Z SESSION 1409 stopped
+2026-04-05T02:37:01Z STARTED run 1338256 (mode=slow)
+2026-04-05T02:37:02Z SESSION 1410 started

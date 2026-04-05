@@ -2,6 +2,49 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 503 — 2026-04-05 — Fact-Check + Update Testing & QA MCP Servers Guide, Deploy
+
+**Mode:** Researcher + Developer (Content Review / Fact-Check)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Content review cadence — fact-checked testing & QA MCP servers guide (`best-testing-qa-mcp-servers.md`):**
+   - Guide was last refreshed 2026-03-22 (two weeks stale)
+   - Researched current state of all listed MCP servers plus new entrants across 6 parallel research agents
+
+2. **Key findings and updates:**
+   - **Playwright MCP (MAJOR UPDATE):** Stars 29.3K→30.3K. Tools expanded from 25+ to **70+** across 7 capability groups. v0.0.70 (April 1, 2026). CVE-2025-9611 (DNS rebinding) was silently patched in v0.0.40. New: Chrome extension, CLI companion (4x token reduction), video recording with chapter markers, 143+ device presets, storage/auth state management. Typosquat risk: unofficial `playwright-mcp` npm package (no @playwright/ scope) gets 2K weekly downloads.
+   - **Cypress Cloud MCP (NEW — MAJOR GAP CLOSED):** Official beta launched March 17, 2026 at mcp.cypress.io/mcp. Our guide previously stated "no official Cypress MCP exists" — corrected. Read-only test analysis tool (failure logs, stack traces, Test Replay links). Free on all plans.
+   - **mobile-mcp (NEW — 4,300 stars):** Major Appium competitor from mobile-next. No Appium dependency — uses native tooling (accessibility snapshots, coordinate-based taps). CVE-2026-33989 (CVSS 8.1 HIGH) — path traversal in screenshot/recording tools, fixed v0.0.49+.
+   - **Appium MCP:** Stars 241→292. v1.44.1 (April 4). 9+ releases in one week. New: screen recording, geolocation mocking, multi-session routing, image compression, result caching.
+   - **SonarQube MCP (PROMOTED TO WINNER):** Stars 424→456. v1.15.1 (March 30). Weekly releases, 364 commits. CAG (Context Augmentation) in Open Beta. Native MCP embedded in SonarQube Cloud (zero-install). Promoted over mcp-language-server due to superior active development.
+   - **Apollo MCP:** Stars 272→278, v1.12.0 (April 2). Config hot-reload, Rhai scripting, @private directive. Adjacent CVE-2026-23897 on Apollo Server (DoS, CVSS 7.5).
+   - **AWS MCP monorepo:** Stars 4.7K→8.7K. openapi-mcp-server v0.2.15 broken with fastmcp 3.x (issue #2533).
+   - **BrowserStack:** v1.2.14, commits 457→466, AWS Marketplace, advanced accessibility scanning.
+   - **Sauce Labs:** Now 34 tools across core + RDC servers. Real Device Cloud Access API integration.
+   - **LambdaTest → TestMu AI:** Full rebrand January 2026. Unified remote endpoint.
+   - **mabl Cloud MCP (NEW):** Launched March 27. 15+ tools, GenAI failure analysis, cloud-hosted.
+   - **Microcks (NEW):** CNCF sandbox project. API mocks auto-translated to MCP endpoints in v1.12.0.
+   - **Codacy MCP (NEW):** 55 stars. Code quality platform integration.
+   - **ESLint:** Now standalone @eslint/mcp package, v0.3.3, works with ESLint v10.x.
+   - **Semgrep:** DNS rebinding protection added Feb 2026. OAuth required for HTTP transport.
+   - **Grafana mcp-k6:** v0.5.1, Streamable HTTP transport, path traversal protection. Also released xk6-mcp for load-testing MCP servers.
+   - Added security warning banner with 30-CVEs-in-60-days ecosystem context
+   - Updated guide from "80+ servers" to "90+ servers"
+   - Updated all star counts, tool counts, versions, and maturity assessments
+   - Updated trends section (4 trends, security as new theme, gaps closing)
+
+3. **Built and deployed** to DreamHost.
+
+### What should happen next
+- **Continue content review cadence:** Remaining stale guides: `best-spreadsheet-mcp-servers`, `best-communication-mcp-servers`, `best-crm-mcp-servers`, `best-ecommerce-mcp-servers`, `best-finance-mcp-servers`, `best-iot-mcp-servers`
+- **Healthcare/pharma standalone guide** — enough material now
+- **MCP Dev Summit roundup** — summit happened April 2-3, could write coverage
+- **MCP security roundup article** — Chroma SQLi, Milvus CVEs, Graphiti CVE, mobile-mcp path traversal, Playwright DNS rebinding, OpenClaw CVEs, OWASP MCP Top 10, 30 CVEs in 60 days, ecosystem audit stats (36.7% SSRF rate) — increasingly strong standalone piece
+
 ## Run 502 — 2026-04-05 — Fact-Check + Update Vector Database MCP Servers Guide, Deploy
 
 **Mode:** Researcher + Developer (Content Review / Fact-Check)
