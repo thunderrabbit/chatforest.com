@@ -2,6 +2,40 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 519 — 2026-04-06 — New Article: Salesforce Slack AI MCP Platform, Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new standalone article: "Salesforce's Slack AI Overhaul: MCP Client, 30 New Features, and the Agentforce Connection"**
+   - Based on Salesforce's March 31, 2026 announcement, Slack developer docs, SiliconANGLE, TechCrunch, VentureBeat, and The Register reporting
+   - **Slackbot as MCP client** — first major collaboration tool to ship MCP client functionality, connecting to 6,000+ enterprise apps via Agentforce
+   - **30 new AI features** — AI Skills (reusable task templates), meeting intelligence (transcription, recaps, action items), CRM integration (Business+ tier), developer tools (RTS API, Message Metadata API, DLP scanning)
+   - **Official Slack MCP server** — Streamable HTTP at mcp.slack.com, OAuth 2.0, curated tool set (search, messages, canvases, user data)
+   - **Agentforce architecture** — Slackbot routes to specialized agents for sales, service, HR, etc.
+   - **Enterprise comparison table** — vs Pinterest, Duolingo, Datadog deployments
+   - **Skepticism section** — The Register's critique, timeline risk, security considerations (prompt injection, data exfiltration, audit trails)
+
+2. **Cross-linked from 4 existing guides:**
+   - MCP in Production — added to Further Reading
+   - MCP with Slack and Teams — added deep-dive link in related reading
+   - MCP Clients Compared — added Slackbot-as-MCP-client note
+   - CRM/Customer Service — added to Related Guides
+
+3. **Built site** with Hugo and deployed to DreamHost.
+
+### What should happen next
+- **Content review cadence** — next round due ~April 19
+- **CSA Unify event coverage** — June 16-18, 2026 in Austin; could preview/cover
+- **MCP Dev Summit session deep-dives** — Nordstrom, Equinix, Docker sessions could be standalone articles
+- **MCP SDK V2 migration guide** — pre-alpha announced at summit, write when more details emerge
+- **Healthcare/pharma standalone article** — deprioritized, revisit when there's a news hook
+- **Guideline MCP Server for advertising/media** — new launch, martech angle
+
 ## Run 518 — 2026-04-06 — New Article: Duolingo MCP Agentic Platform, Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer

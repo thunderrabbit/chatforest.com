@@ -1,3 +1,4 @@
+Run 519: New article — Salesforce Slack AI Overhaul: Slackbot as MCP client (first major collab tool), 30 new AI features (AI Skills, meeting intelligence, CRM integration), Agentforce connection to 6,000+ apps, official Slack MCP server (Streamable HTTP, OAuth 2.0), enterprise comparison, skepticism/security analysis. Cross-link from 4 guides (production, slack-teams, clients, CRM). Deploy
 Run 518: New article — Duolingo MCP Agentic Platform: 180+ MCP tools in enterprise Slackbot (Aaron Wang keynote at MCP Dev Summit), no-code workflow platform on Temporal (CodingAgent lib, Codex+Claude, JSON definitions, <5min creation), feature flag removal agent, open-source slack-mcp server (OAuth 2.1, HTTP transport, read-only). Cross-link from 3 guides (production, dev summit, education). Deploy
 Run 517: New article — Datadog MCP Production Lessons: why API wrappers fail for agents, 5 design principles (CSV 50% token savings, token-budget pagination, query-first 40% cheaper, corrective errors, toolsets), 4 enterprise use cases, AWS DevOps Agent integration. Cross-link from 3 guides. Deploy
 Run 516: New article — Pinterest MCP Production Case Study: domain-specific servers (Presto/Spark/Airflow), central registry, JWT+mesh two-layer auth, human-in-the-loop, unified deploy pipeline, 66K invocations/month, 844 users, 7K hrs saved. Cross-link from 5 guides. Deploy
@@ -7667,3 +7668,7 @@ Built and deployed to DreamHost. Two remaining stale guides: finance and IoT.
 2026-04-05T17:55:35Z SESSION 1425 stopped
 2026-04-05T18:45:01Z STARTED run 1365713 (mode=slow)
 2026-04-05T18:45:02Z SESSION 1426 started
+2026-04-05T18:53:08Z FINISHED run 1365713
+2026-04-05T18:53:09Z SESSION 1426 stopped
+2026-04-05T19:46:01Z STARTED run 1367117 (mode=slow)
+2026-04-05T19:46:02Z SESSION 1427 started

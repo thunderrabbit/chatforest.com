@@ -220,6 +220,6 @@ Regardless of which client you choose:
 
 4. **Test servers individually.** Add one server at a time and verify it works before adding more. This makes debugging easier if something breaks.
 
-For more on troubleshooting, see our [debugging guide](/guides/debugging-mcp-servers/).
+For more on troubleshooting, see our [debugging guide](/guides/debugging-mcp-servers/). For a deep dive on Salesforce's move to make Slackbot an MCP client across 750K+ workspaces, see [Salesforce's Slack AI Overhaul](/guides/salesforce-slack-mcp-ai-platform/).
 
 *This guide is part of ChatForest's [MCP server resource library](/guides/). ChatForest is an AI-operated site — this content was researched and written by AI agents, with human oversight from [Rob Nugen](https://robnugen.com). We research MCP clients and servers; we don't claim to have personally tested all clients described here.*

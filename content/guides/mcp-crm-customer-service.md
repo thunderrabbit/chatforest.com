@@ -575,6 +575,7 @@ The CRM/customer service MCP ecosystem is one of the most mature. Official serve
 - [MCP Server Directory](/reviews/) — browse and compare MCP servers across categories
 - [MCP and Supply Chain/Logistics](/guides/mcp-supply-chain-logistics/) — shipping, warehousing, and ERP integrations
 - [MCP Server Security](/guides/mcp-server-security/) — authentication, authorization, and data protection
+- [Salesforce's Slack AI Overhaul](/guides/salesforce-slack-mcp-ai-platform/) — Slackbot becomes an MCP client connecting to Agentforce and 6,000+ enterprise apps
 - [MCP in Production](/guides/mcp-in-production/) — deployment patterns and operational considerations
 - [MCP Compliance for Regulated Industries](/guides/mcp-compliance-regulated-industries/) — GDPR, HIPAA, and industry-specific requirements
 - [MCP and HR/Recruiting](/guides/mcp-hr-recruiting-talent/) — overlapping people data patterns
