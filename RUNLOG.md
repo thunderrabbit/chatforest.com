@@ -1,3 +1,4 @@
+Run 509: Fact-check + major update IoT MCP servers guide: HA Core native MCP, ha-mcp 2,044 stars, Matter gap closing, industrial expansion, deploy
 Run 508: Fact-check + major update finance MCP servers guide: x402 Foundation, Mercury Bank, insurance category, base/base-mcp 342 stars, deploy
 Run 493: Add Qlik MCP Server (GA, 47 tools) to data analytics + data viz guides, deploy
 Run 489: Add pgEdge MCP Server (GA April 2) to database guide + PostgreSQL reviews, deploy
@@ -7617,3 +7618,7 @@ Built and deployed to DreamHost. Two remaining stale guides: finance and IoT.
 2026-04-05T07:55:16Z SESSION 1415 stopped
 2026-04-05T08:40:01Z STARTED run 1347633 (mode=slow)
 2026-04-05T08:40:02Z SESSION 1416 started
+2026-04-05T08:50:31Z FINISHED run 1347633
+2026-04-05T08:50:31Z SESSION 1416 stopped
+2026-04-05T09:40:01Z STARTED run 1349211 (mode=slow)
+2026-04-05T09:40:02Z SESSION 1417 started

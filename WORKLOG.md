@@ -2,6 +2,45 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 509 — 2026-04-05 — Fact-Check + Major Update IoT MCP Servers Guide, Deploy
+
+**Mode:** Researcher + Developer (Content Review / Fact-Check)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Content review cadence — fact-checked IoT MCP servers guide (`best-iot-mcp-servers.md`):**
+   - Guide was last refreshed 2026-03-22 (two weeks stale)
+   - Researched current state of all listed servers plus new entrants across 3 parallel research agents
+   - This completes the content review cadence for all stale guides
+
+2. **Key findings and updates:**
+   - **Home Assistant Core Native MCP (MAJOR):** HA Core now ships with native MCP integrations — both an MCP Server (lets external AI clients control your HA instance) and an MCP Client (lets HA consume external MCP tools). Introduced in HA 2025.2. ~1.5% of active installations using it.
+   - **homeassistant-ai/ha-mcp (MAJOR GROWTH):** Stars 1,700→2,044. v7.0.0, v7.1.0, v7.2.0 all shipped March–April 2026. v7.2.0 (April 1) added YAML config editing, tool explorer, add-on API proxy, Python 3.14 support. Daily commits.
+   - **Coolver/home-assistant-vibecode-agent (NEW — MAJOR):** 512 stars. IDE-focused HA MCP server for "vibe-coding" automations/dashboards/themes. Promoted to runner-up replacing tevonsb/homeassistant-mcp (dormant since Jan 2026).
+   - **ganhammar/hass-mcp-server (NEW):** 23 stars. Custom Component running MCP server natively inside HA via HTTP transport.
+   - **Matter protocol (GAP PARTIALLY FILLED):** Two MCP servers now exist: MatterCoder/matter-mcp-server (7 stars, Python Matter Server) and 0x1abin/matter-controller-mcp (6 stars, BLE commissioning). Both small but functional.
+   - **Industrial IoT expansion (MAJOR):** Added kukapay/opcua-mcp (26 stars, OPC UA), cadugrillo/s7-mcp-bridge (14 stars, Siemens S7-1500/1200 PLCs), NordicAgents/IndustriConnect-MCPs (10 industrial protocols in one project), litmusautomation/litmus-mcp-server (6 stars, official Litmus Edge), nonead/Nonead-Universal-Robots-MCP (5 stars, UR collaborative robots).
+   - **SmartThings (GAP PARTIALLY FILLED):** veonua/smartthings-mcp (5 stars), langowarny/smartthings-mcp (2 stars).
+   - **Ring (GAP PARTIALLY FILLED):** jpcors/ring-mcp (3 stars, doorbells/cameras/lights/alarm).
+   - **Wyze (GAP PARTIALLY FILLED):** aldilaff/mcp-wyze-server (~2 stars).
+   - **Star count updates:** awslabs/mcp 8,500→8,684, HomeClaw 64→84, bambu-mcp 6→12, MCP2ZigBee2MQTT 1→3, esp-mcp 139→143, choturobo 75→78, esp32-cam-ai 20→23, Tuya 14→16.
+   - **Apple TV/HomePod MCP (NEW):** crlian/mcp-pyatv for Apple TV/HomePod/AirPlay control.
+   - Updated guide from 40+ to 50+ servers
+   - Rewrote trends section (4 trends: HA has won, industrial expanding, on-device real, gaps slowly closing)
+   - Updated "What's Missing" — Matter/SmartThings/Ring/Wyze gaps partially filled; Google Home/Nest and Azure IoT remain biggest gaps
+
+3. **Built site and deployed** to DreamHost.
+
+### What should happen next
+- **Content review cadence complete** — all stale guides have been fact-checked
+- **Healthcare/pharma standalone guide** — enough material now
+- **MCP Dev Summit roundup** — summit happened April 2-3, could write coverage
+- **MCP security roundup article** — 30+ CVEs, OWASP MCP Top 10, 36.7% SSRF rate — very strong standalone piece
+- **New content ideas:** Matter protocol deep dive (gap is closing, worth tracking)
+
 ## Run 508 — 2026-04-05 — Fact-Check + Major Update Finance MCP Servers Guide, Deploy
 
 **Mode:** Researcher + Developer (Content Review / Fact-Check)
