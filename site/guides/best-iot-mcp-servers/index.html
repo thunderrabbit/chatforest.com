@@ -292,14 +292,14 @@
 <p><strong>1. Home Assistant has won.</strong> With 2,044 stars on ha-mcp, native MCP support built into HA Core (both server and client integrations), and a new 512-star IDE-focused MCP server, Home Assistant is no longer &ldquo;pulling ahead&rdquo; — it&rsquo;s the definitive smart home MCP platform. The HA Core native integration means every HA installation is now a potential MCP server, no third-party add-on required.</p>
 <p><strong>2. Industrial IoT is expanding fast.</strong> What was a sparse category (3 servers, max 22 stars) has grown significantly: Siemens S7 PLC control (s7-mcp-bridge), a 10-protocol collection (IndustriConnect-MCPs covering Modbus, OPC UA, BACnet, PROFINET, EtherCAT, and more), official Litmus Edge support, and Universal Robots arm control. Industrial MCP is moving from experiment to ecosystem.</p>
 <p><strong>3. On-device MCP is real.</strong> Projects like ESP32MCPServer and esp32-cam-ai prove that MCP servers can run directly on microcontrollers. This eliminates the bridge server — the hardware itself speaks MCP. As edge computing grows, expect more embedded MCP servers.</p>
-<p><strong>4. Gaps are closing — slowly.</strong> Matter protocol now has two small MCP servers (7 and 6 stars). SmartThings has community servers (5 stars). Ring has a 3-star server. But Google Home/Nest, Azure IoT Hub, Z-Wave, LoRaWAN, and Thread remain unserved. The practical bridge for all of these is Home Assistant — which, via its native MCP integration, effectively fills these gaps indirectly.</p>
+<p><strong>4. Gaps are closing — slowly.</strong> Matter protocol now has two small MCP servers (7 and 6 stars). SmartThings has community servers (5 stars). Ring has a 3-star server. But Google Home/Nest, Azure IoT Hub, Z-Wave, LoRaWAN, and Thread remain unserved. The practical bridge for all of these is Home Assistant — which, via its native MCP integration, effectively fills these gaps indirectly. Matter itself has reached version 1.5 with cameras, energy management, and 750+ products — see our <a href="/guides/mcp-matter-smart-home-protocol/">Matter Meets MCP deep dive</a> for the full picture.</p>
 <hr>
 <h2 id="whats-missing">What&rsquo;s missing</h2>
 <p>The IoT MCP landscape still has notable gaps, though several have narrowed since our last review:</p>
 <ul>
 <li><strong>Google Home / Nest</strong> — Still no official or substantial MCP server. One minimal auto-generated community server exists (1 star). Given Google&rsquo;s smart home market share, this remains the biggest gap.</li>
 <li><strong>Azure IoT Hub / Digital Twins</strong> — No dedicated server from Microsoft. Their Azure MCP Server covers broad Azure services but not IoT-specific tooling. One community read-only server exists (0 stars).</li>
-<li><strong>Matter protocol</strong> <em>(partially filled)</em> — Two small MCP servers now exist: <a href="https://github.com/MatterCoder/matter-mcp-server">MatterCoder/matter-mcp-server</a> (7 stars, uses Open Home Foundation&rsquo;s Python Matter Server) and <a href="https://github.com/0x1abin/matter-controller-mcp">0x1abin/matter-controller-mcp</a> (6 stars, BLE commissioning, device control). Both are functional but small and not actively maintained. The gap is narrowing but not yet closed.</li>
+<li><strong>Matter protocol</strong> <em>(partially filled)</em> — Two small MCP servers now exist: <a href="https://github.com/MatterCoder/matter-mcp-server">MatterCoder/matter-mcp-server</a> (7 stars, uses Open Home Foundation&rsquo;s Python Matter Server) and <a href="https://github.com/0x1abin/matter-controller-mcp">0x1abin/matter-controller-mcp</a> (6 stars, BLE commissioning, device control). Both are functional but small and not actively maintained. The gap is narrowing but not yet closed. For a deep dive on Matter 1.5, Thread 1.4, bridges, and the emerging AI control stack, see our <a href="/guides/mcp-matter-smart-home-protocol/">Matter Meets MCP guide</a>.</li>
 <li><strong>Z-Wave</strong> — Only accessible through Home Assistant. No dedicated server.</li>
 <li><strong>LoRaWAN / Thread / BLE</strong> — No MCP servers for these protocols.</li>
 <li><strong>SmartThings</strong> <em>(partially filled)</em> — <a href="https://github.com/veonua/smartthings-mcp">veonua/smartthings-mcp</a> (5 stars) and <a href="https://github.com/langowarny/smartthings-mcp">langowarny/smartthings-mcp</a> (2 stars) exist. No Samsung official server.</li>
@@ -324,6 +324,13 @@
   <h2 class="section-heading">More Guides</h2>
   
     <div class="article-card">
+  <div class="card-meta"><span>Guide</span> <span>2026-04-05 22:30:00</span></div>
+  <h3><a href="/guides/mcp-matter-smart-home-protocol/">Matter Meets MCP: How the Smart Home&#39;s Universal Protocol Is Becoming AI-Controllable</a></h3>
+  <p>Matter 1.5 now covers cameras, EV chargers, and energy management across 750&#43; products from 850&#43; CSA member companies. Meanwhile, MCP servers are emerging that let AI agents commission, control, and monitor Matter devices through natural language. This article maps the convergence — from Thread 1.4 mesh networking to Google&#39;s Gemini for Home to the three-layer architecture (AI → MCP → Home Assistant → Matter devices) that&#39;s becoming the default smart home AI stack.</p>
+</div>
+
+  
+    <div class="article-card">
   <div class="card-meta"><span>Comparison</span> <span>2026-04-05 18:00:00</span></div>
   <h3><a href="/guides/best-ecommerce-mcp-servers/">Best E-Commerce MCP Servers in 2026</a></h3>
   <p>The definitive guide to e-commerce MCP servers in 2026. We&#39;ve reviewed 40&#43; servers across Shopify (5 official servers &#43; community), WooCommerce (now with official MCP beta), Magento/Adobe Commerce, Amazon (50&#43; tool Ads MCP), eBay (official), Etsy, Square (official), BigCommerce, headless platforms (Saleor, Medusa), and shipping (Shippo). Every recommendation links to a full review.</p>
@@ -341,13 +348,6 @@
   <div class="card-meta"><span>Guide</span> <span>2026-04-05 14:00:00</span></div>
   <h3><a href="/guides/mcp-security-landscape-2026/">The MCP Security Crisis: 36 CVEs, 82% Path Traversal, and What the Data Says</a></h3>
   <p>36 NVD-confirmed CVEs, 82% path traversal rates, real supply chain attacks, and the OWASP MCP Top 10. Here&#39;s what the data actually says about MCP security in 2026.</p>
-</div>
-
-  
-    <div class="article-card">
-  <div class="card-meta"><span>Guide</span> <span>2026-04-05 10:00:00</span></div>
-  <h3><a href="/guides/mcp-tool-poisoning-attacks/">MCP Tool Poisoning Attacks: How They Work and How to Defend Against Them</a></h3>
-  <p>How tool poisoning attacks exploit MCP servers to steal credentials and hijack AI agents — and what you can do about it.</p>
 </div>
 
   
