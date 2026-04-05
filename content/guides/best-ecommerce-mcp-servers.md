@@ -1,30 +1,39 @@
 ---
 title: "Best E-Commerce MCP Servers in 2026"
-date: 2026-03-22T15:30:00+09:00
-description: "Shopify, WooCommerce, Magento, BigCommerce, Amazon, and headless platforms — we've reviewed 30+ e-commerce MCP servers across 7 categories. Here's what works, what's emerging, and where the gaps are."
-og_description: "30+ e-commerce MCP servers reviewed across Shopify, WooCommerce, Magento, Amazon, BigCommerce, headless platforms, and marketplace tools. The definitive comparison with honest ratings."
+date: 2026-04-05T18:00:00+09:00
+description: "Shopify, WooCommerce, Magento, BigCommerce, Amazon, eBay, Etsy, Square, and headless platforms — we've reviewed 40+ e-commerce MCP servers across 10 categories. Here's what works, what's emerging, and where the gaps are."
+og_description: "40+ e-commerce MCP servers reviewed across Shopify, WooCommerce, Magento, Amazon, eBay, Etsy, Square, BigCommerce, headless platforms, and marketplace tools. The definitive comparison with honest ratings."
 content_type: "Comparison"
-card_description: "The definitive guide to e-commerce MCP servers in 2026. We've reviewed 30+ servers across Shopify (official + community), WooCommerce, Magento/Adobe Commerce, Amazon seller tools, BigCommerce, headless platforms (Saleor, Medusa), and marketplace aggregators. Every recommendation links to a full review."
-last_refreshed: 2026-03-22
+card_description: "The definitive guide to e-commerce MCP servers in 2026. We've reviewed 40+ servers across Shopify (5 official servers + community), WooCommerce (now with official MCP beta), Magento/Adobe Commerce, Amazon (50+ tool Ads MCP), eBay (official), Etsy, Square (official), BigCommerce, headless platforms (Saleor, Medusa), and shipping (Shippo). Every recommendation links to a full review."
+last_refreshed: 2026-04-05
 ---
 
 E-commerce MCP servers let AI agents interact with online stores — managing products, processing orders, searching catalogs, handling inventory, and powering AI-driven shopping experiences. Instead of clicking through admin dashboards or writing API calls manually, you describe what you want and the agent executes it against your store's backend.
 
-We've researched 30+ e-commerce MCP servers across the full landscape. This guide synthesizes all of that into one page: what's worth using, what's not, and where the gaps are.
+We've researched 40+ e-commerce MCP servers across the full landscape. This guide synthesizes all of that into one page: what's worth using, what's not, and where the gaps are.
 
-*Note: Our recommendations are based on documentation review, GitHub analysis, and community feedback — not hands-on testing of every server. Star counts were verified in March 2026.*
+> **⚠ Security note:** The MCP ecosystem saw 30+ CVEs filed in 60 days in early 2026. E-commerce-adjacent vulnerabilities include CVE-2026-27203 (environment variable injection in a community eBay MCP server) and CVE-2026-1926 (WooCommerce Subscriptions auth bypass). Always vet community servers before connecting them to production stores.
+
+*Note: Our recommendations are based on documentation review, GitHub analysis, and community feedback — not hands-on testing of every server. Star counts were verified in April 2026.*
 
 ## The short version
 
 | Category | Our pick | Stars | Runner-up |
 |----------|----------|-------|-----------|
-| Shopify (storefront/shopping) | [Shopify Storefront MCP](https://shopify.dev/docs/apps/build/storefront-mcp/servers/storefront) | Official | [Shopify Dev MCP](https://github.com/Shopify/dev-mcp) (414 stars, developer docs) |
-| Shopify (admin/store management) | [GeLi2001/shopify-mcp](https://github.com/GeLi2001/shopify-mcp) | 139 | [antoineschaller/shopify-mcp-server](https://github.com/antoineschaller/shopify-mcp-server) (22 tools) |
-| WooCommerce | [techspawn/woocommerce-mcp-server](https://github.com/techspawn/woocommerce-mcp-server) | 26 | [iOSDevSK/mcp-for-woocommerce](https://github.com/iOSDevSK/mcp-for-woocommerce) (WordPress plugin) |
-| Magento / Adobe Commerce | [boldcommerce/magento2-mcp](https://github.com/boldcommerce/magento2-mcp) | 27+ | [elgentos/magento2-dev-mcp](https://github.com/elgentos/magento2-dev-mcp) (dev assistant) |
-| Amazon (seller) | [Seller Labs MCP](https://www.sellerlabs.com/amazon-mcp/) | — | [mattcoatsworth/AmazonSeller-mcp-server](https://github.com/mattcoatsworth/AmazonSeller-mcp-server) (SP-API) |
+| Shopify (storefront/shopping) | [Shopify Storefront MCP](https://shopify.dev/docs/apps/build/storefront-mcp/servers/storefront) | Official | [Shopify Catalog MCP](https://shopify.dev/docs/agents/catalog/mcp) (cross-merchant discovery) |
+| Shopify (developer) | [Shopify Dev MCP](https://www.npmjs.com/package/@shopify/dev-mcp) | ~488 | v1.7.0, 8 tools, full platform coverage |
+| Shopify (admin/store management) | [GeLi2001/shopify-mcp](https://github.com/GeLi2001/shopify-mcp) | 181 | [trigga6006/shopify-mcp-server](https://github.com/trigga6006/shopify-mcp-server) (70+ tools) |
+| WooCommerce | [WooCommerce Native MCP](https://developer.woocommerce.com/docs/features/mcp/) | Official (beta) | [techspawn/woocommerce-mcp-server](https://github.com/techspawn/woocommerce-mcp-server) (84 stars) |
+| Magento / Adobe Commerce | [boldcommerce/magento2-mcp](https://github.com/boldcommerce/magento2-mcp) | 54 | [Freento MCP](https://commercemarketplace.adobe.com/freento-module-mcp.html) (Adobe Marketplace) |
+| Amazon (seller analytics) | [Seller Labs MCP](https://www.sellerlabs.com/amazon-mcp/) | — | [Amazon Ads MCP](https://advertising.amazon.com/) (official, 50+ tools) |
+| Amazon (advertising) | [Amazon Ads MCP Server](https://advertising.amazon.com/) | Official | 50+ tools, open beta since Feb 2026 |
+| eBay | [eBay/npm-public-api-mcp](https://github.com/eBay/npm-public-api-mcp) | Official | [YosefHayim/ebay-mcp](https://github.com/YosefHayim/ebay-mcp) (40 stars, 325 tools) |
+| Etsy | [aserper/etsy-mcp](https://github.com/aserper/etsy-mcp) | 1 | [profplum700/etsy-mcp-server](https://github.com/profplum700/etsy-mcp-server) (9 stars) |
+| Square | [square/square-mcp-server](https://github.com/square/square-mcp-server) | 95 | Official beta |
 | BigCommerce | [BigCommerce Storefront MCP](https://www.bigcommerce.com/blog/model-context-protocol/) | Beta | [CData BigCommerce MCP](https://github.com/CDataSoftware/bigcommerce-mcp-server-by-cdata) (read-only) |
-| Headless (Saleor/Medusa) | [saleor/saleor-mcp](https://github.com/saleor/saleor-mcp) | Official | [minimalart/mcp-medusa](https://github.com/minimalart/mcp-medusa) (14 admin tools) |
+| Headless (Saleor) | [saleor/saleor-mcp](https://github.com/saleor/saleor-mcp) | Official | v0.1.4, hosted at mcp.saleor.app |
+| Headless (Medusa) | [SGFGOV/medusa-mcp](https://github.com/SGFGOV/medusa-mcp) | 54 | [minimalart/mcp-medusa](https://github.com/minimalart/mcp-medusa) (14 admin tools) |
+| Shipping | [Shippo MCP](https://docs.goshippo.com/docs/guides_general/mcpserver/) | Official | Multi-carrier: USPS, UPS, FedEx, DHL |
 
 ## Why e-commerce MCP servers matter
 
@@ -36,13 +45,13 @@ The value comes in three forms:
 2. **AI-powered shopping.** Shopify's Storefront MCP lets AI assistants like ChatGPT and Perplexity search products, manage carts, and initiate checkout directly. This is "agentic commerce" — customers shop through AI agents instead of browsing websites.
 3. **Cross-platform analytics.** Ask "What was my best-selling product last month?" or "Which ASINs lost margin this week?" and get answers pulled directly from your store's live data.
 
-The landscape splits into seven categories: **Shopify storefront** (official AI shopping layer), **Shopify admin** (community store management), **WooCommerce** (WordPress-based stores), **Magento/Adobe Commerce** (enterprise), **Amazon** (seller tools), **BigCommerce** (emerging), and **headless platforms** (Saleor, Medusa, and other developer-first commerce backends).
+The landscape now spans ten categories: **Shopify** (5 official servers plus community admin tools), **WooCommerce** (now with official MCP beta), **Magento/Adobe Commerce** (enterprise), **Amazon** (seller analytics + official Ads MCP), **eBay** (official MCP launched), **Etsy** (community servers), **Square** (official beta), **BigCommerce** (still in beta), **headless platforms** (Saleor, Medusa, PrestaShop), and **shipping** (Shippo as first dedicated logistics MCP).
 
 ---
 
 ## Shopify storefront servers (official)
 
-Shopify is the clear leader in e-commerce MCP adoption. They've shipped two official servers — one for shopping, one for development — and the ecosystem has dozens of community servers filling the admin gap.
+Shopify is the clear leader in e-commerce MCP adoption. They've now shipped **five official MCP servers** — Storefront (shopping), Dev (developer docs), Catalog (cross-merchant product discovery), Customer Account, and Checkout (preview) — plus the community fills the admin gap. Agentic Storefronts went live on March 24, 2026, making millions of merchants discoverable and shoppable inside ChatGPT with no separate integration.
 
 ### The winner: Shopify Storefront MCP (Official)
 
@@ -59,20 +68,31 @@ Shopify is the clear leader in e-commerce MCP adoption. They've shipped two offi
 - **Checkout initiation** — starts the checkout flow from within the AI agent
 - **MCP UI components** — interactive product cards and cart UI within the agent interface
 - **Available on every Shopify store** — part of Hydrogen Winter '26 Edition
+- **Agentic Storefronts live (March 24, 2026)** — millions of merchants now discoverable in ChatGPT
+- **AI client integrations** — ChatGPT, Perplexity, Microsoft Copilot live; Google AI Mode and Gemini rolling out
+- **MCP UI components** — remote resource URIs for interactive product cards, variant selection, bundles, subscriptions in sandboxed iframes
 
 **The catch:** Storefront only. Cannot manage products, inventory, orders, or any admin functions. Read-plus-cart operations, not full store control.
 
-**Best for:** Merchants who want AI agents to help customers shop. This is Shopify's "agentic commerce" play.
+**Best for:** Merchants who want AI agents to help customers shop. This is Shopify's "agentic commerce" play — and it's now live at scale.
 
 ### Also notable: Shopify Dev MCP
 
-**Stars:** 414 | **Language:** TypeScript | **License:** — | **Tools:** 4
+**Stars:** ~488 | **Language:** TypeScript | **License:** — | **Tools:** 8 | **Latest:** v1.7.0 (April 2026)
 
-[Shopify Dev MCP](https://github.com/Shopify/dev-mcp) (`@shopify/dev-mcp`) is for developers building Shopify apps, not for managing stores. It provides docs search, GraphQL schema introspection, code validation, and theme validation. Zero config, no API key needed.
+[Shopify Dev MCP](https://www.npmjs.com/package/@shopify/dev-mcp) (`@shopify/dev-mcp`) is for developers building Shopify apps, not for managing stores. Winter '26 Edition expanded it to cover the **entire platform** — Admin, UI Extensions, Liquid, and Hydrogen. Infrastructure moved to server-side rendering. Also available via Gemini CLI and as an AI Agent Plugin.
 
-**Key tools:** `search_dev_docs`, `introspect_admin_schema`, `fetch_docs_by_path`, `get_started`
+**Key tools:** `learn_shopify_api`, `search_docs_chunks`, `fetch_full_docs`, `introspect_graphql_schema`, `validate_graphql_codeblocks`, `validate_theme_codeblocks`, `validate_theme`, plus Shopify Functions tools
 
 **Best for:** Developers building Shopify apps or themes who want AI-assisted development with validated Shopify API knowledge.
+
+### Also notable: Shopify Catalog MCP (NEW)
+
+[Shopify Catalog MCP](https://shopify.dev/docs/agents/catalog/mcp) enables cross-merchant product discovery — AI agents can search products across multiple Shopify stores. Two tools: `search_global_products` and `get_global_product_details`. This is distinct from the per-store Storefront MCP.
+
+### Also notable: Shopify Checkout MCP (Preview)
+
+Checkout MCP is in preview with select partners. Five tools: `create_checkout`, `get_checkout`, `update_checkout`, `complete_checkout`, `cancel_checkout`. Enables end-to-end purchase flows entirely within AI agent conversations.
 
 ---
 
@@ -82,9 +102,9 @@ The biggest gap in Shopify's MCP story: **no official Admin API MCP server**. Fo
 
 ### The winner: GeLi2001/shopify-mcp
 
-**Stars:** 139 | **Forks:** — | **Language:** TypeScript | **License:** — | **Tools:** 31+
+**Stars:** 181 | **Forks:** 62 | **Language:** TypeScript | **License:** — | **Tools:** 31+ | **Last pushed:** April 5, 2026
 
-[GeLi2001/shopify-mcp](https://github.com/GeLi2001/shopify-mcp) is the most adopted community Shopify admin server. Comprehensive GraphQL Admin API integration covering products, customers, orders, metafields, inventory, and tags.
+[GeLi2001/shopify-mcp](https://github.com/GeLi2001/shopify-mcp) is the most adopted community Shopify admin server. Comprehensive GraphQL Admin API integration covering products, customers, orders, metafields, inventory, and tags. Actively maintained with consistent commits.
 
 **Why it wins:** Most tools, most stars, active maintenance. Cursor-based pagination and Shopify query syntax pass-through on all list endpoints. Direct integration with the 2026-01 GraphQL Admin API version.
 
@@ -97,17 +117,17 @@ The biggest gap in Shopify's MCP story: **no official Admin API MCP server**. Fo
 - **Tag management** — add/remove tags on any taggable resource
 - **Advanced filtering** — pass-through Shopify query syntax on all list endpoints
 
-**The catch:** Community-maintained with 139 stars — not battle-tested at scale. No official Shopify backing means it could break when APIs change. Requires creating a custom Shopify app for authentication.
+**The catch:** Community-maintained with 181 stars — growing but not battle-tested at scale. No official Shopify backing means it could break when APIs change. Requires creating a custom Shopify app for authentication.
 
 **Best for:** Solo merchants and small teams who want AI-powered store management today and accept the risks of community tooling.
 
 ### Also notable
 
-- **[antoineschaller/shopify-mcp-server](https://github.com/antoineschaller/shopify-mcp-server)** — 22 tools covering products, orders, customers, inventory, analytics. Lower star count but clean implementation
-- **[amir-bengherbi/shopify-mcp-server](https://github.com/amir-bengherbi/shopify-mcp-server)** — similar scope with GraphQL Admin API integration
 - **[trigga6006/shopify-mcp-server](https://github.com/trigga6006/shopify-mcp-server)** — fork with GraphQL fixes and `updatePage` tool, 70+ tools covering all major store operations
+- **[antoineschaller/shopify-mcp-server](https://github.com/antoineschaller/shopify-mcp-server)** — 22 tools covering products, orders, customers, inventory, analytics. ⚠ Dormant since August 2025
+- **[amir-bengherbi/shopify-mcp-server](https://github.com/amir-bengherbi/shopify-mcp-server)** — similar scope with GraphQL Admin API integration
 
-**Recommendation:** Use GeLi2001/shopify-mcp for admin operations. Pair it with Shopify Storefront MCP for the shopping layer and Dev MCP for app development. This three-server combo covers most use cases — but an official Admin MCP from Shopify would instantly obsolete the community options.
+**Recommendation:** Use GeLi2001/shopify-mcp for admin operations. Pair it with Shopify Storefront MCP for the shopping layer, Catalog MCP for cross-merchant discovery, and Dev MCP for app development. Shopify now has five official servers — but none cover admin operations, so community tools remain essential for store management.
 
 **Full review:** [Shopify MCP Servers](/reviews/shopify-mcp-servers/)
 
@@ -115,51 +135,52 @@ The biggest gap in Shopify's MCP story: **no official Admin API MCP server**. Fo
 
 ## WooCommerce servers
 
-WooCommerce powers ~36% of all online stores via WordPress. The MCP ecosystem is smaller than Shopify's but growing, with both standalone servers and WordPress plugin approaches.
+WooCommerce powers ~36% of all online stores via WordPress. **The biggest news since our last update: WooCommerce now has native MCP support in beta.** The ecosystem has matured significantly with both the official integration and the WordPress MCP Adapter as a foundation.
 
-### The winner: techspawn/woocommerce-mcp-server
+### The winner: WooCommerce Native MCP (Official Beta — NEW)
 
-**Stars:** 26 | **Forks:** 15 | **Language:** Python | **License:** — | **Tools:** 7+
+**Status:** Beta (WooCommerce 10.3+) | **Auth:** WooCommerce REST API keys | **Transport:** Via WordPress MCP Adapter
 
-[techspawn/woocommerce-mcp-server](https://github.com/techspawn/woocommerce-mcp-server) provides WooCommerce store management through the WordPress REST API. Built with FastMCP framework.
+[WooCommerce Native MCP](https://developer.woocommerce.com/docs/features/mcp/) is built into WooCommerce itself, starting with version 10.3. It bridges to existing REST API endpoints through the WordPress Abilities API and the [WordPress/mcp-adapter](https://github.com/WordPress/mcp-adapter) plugin (805 stars, v0.4.1).
 
-**Why it wins:** Most complete standalone WooCommerce MCP implementation. Covers the core operations that store owners need: products, orders, customers, shipping, taxes, discounts, and inventory.
+**Why it wins:** Official support from the WooCommerce team. Respects the existing permission system and REST API key authentication. Built on the WordPress Abilities API, which is moving into WordPress Core in version 6.9. No separate server to install — it's part of WooCommerce.
 
 **Key features:**
-- **Product management** — list, search, and update products
-- **Order management** — list, get, update status, add notes
-- **Inventory tracking** — manage stock levels
-- **Customer data** — customer information and history
-- **JSON-RPC 2.0 protocol** — standard MCP communication
-- **WooCommerce REST API** — uses consumer key authentication
+- **Native integration** — built into WooCommerce, not a separate server
+- **WordPress Abilities API** — standardized capability exposure for AI agents
+- **Existing permission model** — uses WooCommerce's REST API key auth
+- **REST API bridge** — exposes existing endpoints through MCP protocol
 
-**The catch:** 26 stars — very early adoption. Fewer tools than the Shopify community servers. Python-based, which may not fit all WordPress deployment environments.
+**The catch:** Still in beta. Feature coverage may be limited compared to mature community servers. Requires WooCommerce 10.3+ and the WordPress MCP Adapter plugin.
 
-**Best for:** WooCommerce store owners who want basic AI-powered store management.
+**Best for:** WooCommerce store owners who want official, supported MCP integration.
+
+**Note:** The previous WordPress MCP server (Automattic/wordpress-mcp) was **archived on January 19, 2026** — all users should migrate to [WordPress/mcp-adapter](https://github.com/WordPress/mcp-adapter).
 
 ### Also notable
 
-- **[iOSDevSK/mcp-for-woocommerce](https://github.com/iOSDevSK/mcp-for-woocommerce)** — WordPress plugin approach with STDIO and HTTP Streamable transport, optional JWT authentication. Based on Automattic's official WordPress MCP
+- **[techspawn/woocommerce-mcp-server](https://github.com/techspawn/woocommerce-mcp-server)** (84 stars, 45 forks) — standalone Python MCP server via WooCommerce REST API. The most popular community option before the official integration. ⚠ No code updates since November 2025
+- **[iOSDevSK/mcp-for-woocommerce](https://github.com/iOSDevSK/mcp-for-woocommerce)** — WordPress plugin approach with STDIO and HTTP Streamable transport, optional JWT authentication
 - **[jlfguthrie/woo-mcp](https://github.com/jlfguthrie/woo-mcp)** — similar WordPress plugin approach with dual transport support
-- **[brucealdridge/wc-mcp](https://github.com/brucealdridge/wc-mcp)** — exploration of WooCommerce tools for LLMs and agents
 - **[deus-h/claudeus-wp-mcp](https://github.com/deus-h/claudeus-wp-mcp)** — broader WordPress MCP that includes WooCommerce support
 - **[newfold-labs/wp-module-mcp](https://github.com/newfold-labs/wp-module-mcp)** — Composer package exposing WordPress functionality through MCP, including WooCommerce
+- **[CDataSoftware/woocommerce-mcp-server-by-cdata](https://github.com/CDataSoftware/woocommerce-mcp-server-by-cdata)** — read-only MCP via CData JDBC Drivers
 
-**WooCommerce's MCP advantage:** Full ownership of the server. For brands building proprietary AI models, customizing how the server interacts with an LLM is a competitive advantage that hosted platforms like Shopify can't match.
+**WooCommerce's MCP advantage:** Full ownership of the server and now official backing. The native integration means WooCommerce is closing the gap with Shopify's official MCP strategy.
 
 ---
 
 ## Magento / Adobe Commerce servers
 
-Magento (now Adobe Commerce) is the enterprise e-commerce platform. MCP server options are limited but functional.
+Magento (now Adobe Commerce) is the enterprise e-commerce platform. MCP server options have expanded, with a third-party server now on the official Adobe Commerce Marketplace.
 
 ### The winner: boldcommerce/magento2-mcp
 
-**Stars:** 27+ | **Language:** Node.js | **License:** — | **Tools:** 6+
+**Stars:** 54 | **Forks:** 20 | **Language:** Node.js | **License:** — | **Tools:** 6+
 
 [boldcommerce/magento2-mcp](https://github.com/boldcommerce/magento2-mcp) by Bold Commerce connects to Magento 2's REST API, allowing MCP clients to query and manage store data.
 
-**Why it wins:** Only dedicated Magento 2 MCP server with meaningful adoption. Covers the essential commerce operations: products, customers, orders, and revenue analytics.
+**Why it wins:** Most adopted dedicated Magento 2 MCP server. Covers the essential commerce operations: products, customers, orders, and revenue analytics. Stars doubled since our last update (27→54).
 
 **Key features:**
 - **Product management** — fetch by SKU or ID, search with filters, read categories, update attributes and prices
@@ -168,25 +189,29 @@ Magento (now Adobe Commerce) is the enterprise e-commerce platform. MCP server o
 - **Order analytics** — order counts and revenue filtered by country and date ranges
 - **REST API integration** — standard Magento 2 API token authentication
 
-**The catch:** Read-heavy. Product attribute and price updates are supported, but order creation and fulfillment management are limited. 27 stars means very small community.
+**The catch:** Read-heavy. Product attribute and price updates are supported, but order creation and fulfillment management are limited. ⚠ No code updates since April 2025 — approaching one year dormant.
 
 **Best for:** Magento merchants who want AI-powered product and analytics queries.
 
 ### Also notable
 
-- **[elgentos/magento2-dev-mcp](https://github.com/elgentos/magento2-dev-mcp)** — MCP server for Magento 2 development assistance, not store management
+- **[Freento MCP Server](https://commercemarketplace.adobe.com/freento-module-mcp.html)** (NEW) — available on the **Adobe Commerce Marketplace** since February 2026. Compatible with Adobe Commerce (cloud/on-prem) 2.4 and Magento Open Source 2.4. MIT license. Read-only tools for sales, catalog, customers with filtering, sorting, and aggregation. While not Adobe-built, marketplace listing signals ecosystem legitimacy
+- **[elgentos/magento2-dev-mcp](https://github.com/elgentos/magento2-dev-mcp)** (36 stars, v1.0.2) — MCP server for Magento 2 development assistance, not store management. Actively maintained (last push March 2026)
+- **[rafaelstz/adobe-commerce-dev-mcp](https://github.com/rafaelstz/adobe-commerce-dev-mcp)** (NEW, 25 stars) — dev-focused, helps with GraphQL schema understanding for Adobe Commerce
+
+**Note:** Adobe has NOT shipped a first-party MCP server. Freento on the Marketplace is the closest thing to official backing.
 
 ---
 
 ## Amazon seller servers
 
-Amazon seller MCP servers connect AI agents to Selling Partner API data — inventory, orders, listings, advertising, and analytics. The landscape splits between commercial products (Seller Labs) and open-source community servers.
+Amazon seller MCP servers connect AI agents to Selling Partner API data — inventory, orders, listings, advertising, and analytics. The landscape splits between commercial products (Seller Labs), the **official Amazon Ads MCP** (now a major player with 50+ tools), and open-source community servers.
 
-### The winner: Seller Labs MCP
+### The winner (analytics): Seller Labs MCP
 
 **Type:** Commercial (SaaS) | **Auth:** Seller Labs account | **Access:** Read-only
 
-[Seller Labs MCP](https://www.sellerlabs.com/amazon-mcp/) connects the Seller Labs Data Hub directly to Claude AI. The Data Hub collects, cleans, and structures Amazon data into 50+ detailed tables.
+[Seller Labs MCP](https://www.sellerlabs.com/amazon-mcp/) connects the Seller Labs Data Hub directly to Claude AI. The Data Hub collects, cleans, and structures Amazon data into 50+ detailed tables. Now included with Profit Genius and Genius Bundle plans (while in beta).
 
 **Why it wins:** Production-grade data pipeline. Seller Labs has been in the Amazon tools space for years and has a deep understanding of seller data. Multi-account support makes it suitable for agencies. Natural-language queries like "Which ASINs lost Buy Box share last week?" return data-backed answers instantly.
 
@@ -196,18 +221,41 @@ Amazon seller MCP servers connect AI agents to Selling Partner API data — inve
 - **Multi-account support** — agencies and enterprise sellers with multiple stores
 - **Read-only safety** — analyzes data but cannot take destructive actions
 - **Claude integration** — designed specifically for Anthropic's Claude
+- **Profit margin, FBA fees, inventory forecasts, review trends** — full business intelligence
 
 **The catch:** Commercial product — requires a Seller Labs subscription. Read-only by design (can't create campaigns or change bids). Not open-source.
 
 **Best for:** Serious Amazon sellers and agencies who want AI-powered business intelligence.
 
+### The winner (advertising): Amazon Ads MCP Server (Official — MAJOR UPDATE)
+
+**Status:** Open beta (since February 2, 2026) | **Auth:** Amazon Ads API credentials | **Tools:** 50+
+
+[Amazon Ads MCP Server](https://advertising.amazon.com/) is Amazon's official MCP server for advertising campaign management. This was previously a brief mention in our guide — it has since launched into open beta as a major product with extensive coverage.
+
+**Why it matters:** 50+ tools spanning **Sponsored Products, Sponsored Brands, Sponsored Display, DSP, and Amazon Marketing Cloud**. End-to-end campaign creation in a single prompt (normally 3+ operations). Geographic campaign expansion with one prompt. Works with Claude, ChatGPT, Gemini, and any MCP-compatible client. Available globally to Amazon Ads partners with active API credentials.
+
+**Key capabilities:**
+- **Campaign management** — create, modify, pause/resume campaigns across all ad types
+- **Keyword and targeting** — bid optimization, keyword research, audience targeting
+- **Reporting** — performance analytics, ACOS, ROAS, impression share
+- **Amazon Marketing Cloud** — advanced audience analytics and attribution
+- **DSP** — programmatic display and video ad management
+
+**The catch:** Advertising only — no inventory, order, or catalog management. Requires active Amazon Ads API credentials. Still in beta.
+
+**Best for:** Advertisers and agencies managing Amazon ad campaigns at scale.
+
 ### Also notable
 
-- **[mattcoatsworth/AmazonSeller-mcp-server](https://github.com/mattcoatsworth/AmazonSeller-mcp-server)** — open-source SP-API integration covering catalog, inventory, orders, and reports. Requires Amazon SP-API credentials
-- **[jay-trivedi/amazon_sp_mcp](https://github.com/jay-trivedi/amazon_sp_mcp)** — Amazon Seller Central MCP for sales data, inventory, returns, and reports
+- **[mattcoatsworth/AmazonSeller-mcp-server](https://github.com/mattcoatsworth/AmazonSeller-mcp-server)** (37 stars) — open-source SP-API integration covering catalog, inventory, orders, and reports. ⚠ No updates since April 2025
+- **[jay-trivedi/amazon_sp_mcp](https://github.com/jay-trivedi/amazon_sp_mcp)** (7 stars) — Amazon Seller Central MCP for sales data, inventory, returns, and reports. Added Google Sheets integration for SKU-level cost data
 - **[Fewsats/amazon-mcp](https://github.com/Fewsats/amazon-mcp)** — Amazon MCP for searching and buying products using L402 protocol (consumer-side, not seller)
-- **Amazon Ads MCP Server** — official Amazon server for ad campaign management. AI tools can plug directly into your ad account
+- **[CDataSoftware/amazon-marketplace-mcp-server-by-cdata](https://github.com/CDataSoftware/amazon-marketplace-mcp-server-by-cdata)** (NEW) — read-only Amazon Marketplace data via CData JDBC
+- **AWS Marketplace MCP Server** (NEW) — official AWS docs for marketplace integration
 - **Zapier Amazon Seller Central MCP** — no-code integration connecting Seller Central to any MCP-compatible AI tool
+
+**Note:** Amazon's new **Agent Policy** (effective March 4, 2026) governs how AI agents interact with Seller Central. Review compliance requirements before deploying any Amazon MCP integration.
 
 ---
 
@@ -239,9 +287,9 @@ BigCommerce is developing its own Storefront MCP, currently in closed beta. Thir
 
 Developer-first headless commerce platforms are shipping MCP servers that give AI agents direct access to their APIs. These are particularly interesting because the platforms themselves are designed for programmatic control.
 
-### The winner: saleor/saleor-mcp (Official)
+### The winner (Saleor): saleor/saleor-mcp (Official)
 
-**Language:** — | **License:** — | **Transport:** Streamable HTTP | **Compatibility:** Saleor 3.21+
+**Stars:** 13 | **Language:** Python | **License:** — | **Transport:** Streamable HTTP | **Compatibility:** Saleor 3.21+ | **Latest:** v0.1.4 (Feb 2026)
 
 [saleor/saleor-mcp](https://github.com/saleor/saleor-mcp) is the official MCP server for Saleor Commerce (21,800+ stars for the main platform). Production instance deployed at `mcp.saleor.app/mcp`.
 
@@ -257,80 +305,175 @@ Developer-first headless commerce platforms are shipping MCP servers that give A
 
 **The catch:** Read-only — no mutations. Cannot create products, process orders, or modify inventory. Limited to data retrieval and browsing.
 
+**Security note:** Recent security patches for CVE-2026-32597 (PyJWT, March 16) and CVE-2026-28802 (authlib, March 5). The Saleor team is actively maintaining security.
+
 **Best for:** Saleor users who want AI-powered data exploration and customer support tooling.
 
-### Also notable: Medusa MCP servers
+### The winner (Medusa): SGFGOV/medusa-mcp (PROMOTED)
 
-Medusa (27,400+ stars for the main platform) positions itself as "A Commerce Platform for Developers and Agents" — MCP is part of their core story.
+**Stars:** 54 | **Forks:** 18 | **Language:** TypeScript | **Last pushed:** March 2026
 
-- **[minimalart/mcp-medusa](https://github.com/minimalart/mcp-medusa)** — 14 comprehensive admin tools covering products, variants, categories, tags, types, orders (list, get, cancel, complete, archive, transfer, fulfillment), draft orders, and customers. The most complete Medusa MCP implementation
-- **[SGFGOV/medusa-mcp](https://github.com/SGFGOV/medusa-mcp)** — MCP server for Medusa JS SDK with broader scope: carts, payments, shipping, pricing, returns, and fulfillment automation
+[SGFGOV/medusa-mcp](https://github.com/SGFGOV/medusa-mcp) is now the dominant Medusa MCP server, surpassing minimalart/mcp-medusa in both stars and activity. Medusa (27,400+ stars for the main platform) positions itself as "A Commerce Platform for Developers and Agents."
+
+**Why it wins:** Active development (Claude skills added March 12, 2026), broader scope than alternatives, and growing community (54 stars). Covers carts, payments, shipping, pricing, returns, and fulfillment automation via the Medusa JS SDK.
+
+**Also notable (Medusa):**
+- **[minimalart/mcp-medusa](https://github.com/minimalart/mcp-medusa)** — 14 comprehensive admin tools covering products, variants, categories, tags, orders, draft orders, and customers. ⚠ Dormant since December 2025 (1 star)
 - **Medusa Docs MCP** — official docs server for AI-assisted Medusa development
 
 ### Also notable: PrestaShop MCP servers
 
 PrestaShop is popular in Europe and Latin America, with a growing MCP ecosystem:
 
-- **[latinogino/prestashop-mcp](https://github.com/latinogino/prestashop-mcp)** — professional MCP server for complete PrestaShop management: products, categories, customers, orders, modules, cache, themes, and navigation
-- **[florinel-chis/prestashop-mcp](https://github.com/florinel-chis/prestashop-mcp)** — 1,095+ indexed documents for PrestaShop development documentation. Offline-first design
-- **[promokit/prestashop-mcp](https://github.com/promokit/prestashop-mcp)** — community PrestaShop MCP implementation
+- **[GeorgesAdSim/prestashop-mcp-server](https://github.com/GeorgesAdSim/prestashop-mcp-server)** (NEW, created March 30, 2026) — manages products, categories, orders, customers, stock, CMS, and SEO. The newest and most comprehensive PrestaShop MCP
+- **[latinogino/prestashop-mcp](https://github.com/latinogino/prestashop-mcp)** (9 stars) — professional MCP server for complete PrestaShop management. ⚠ Dormant since June 2025
+- **[florinel-chis/prestashop-mcp](https://github.com/florinel-chis/prestashop-mcp)** (8 stars) — 1,095+ indexed documents for PrestaShop development documentation. Offline-first design
+- **[belvg-public/belvg_mcp_extended](https://github.com/belvg-public/belvg_mcp_extended)** (NEW) — extends MCP server with Morning Briefing and Low Stock features
+
+---
+
+## Marketplace servers (eBay, Etsy) — NEW
+
+Two of the biggest gaps from our March guide have been filled: both eBay and Etsy now have MCP servers.
+
+### eBay: eBay/npm-public-api-mcp (Official)
+
+**Stars:** 4 | **Created:** January 2026 | **Last pushed:** March 28, 2026
+
+[eBay/npm-public-api-mcp](https://github.com/eBay/npm-public-api-mcp) is eBay's official MCP server. Integrates eBay APIs into AI assistant workflows; supports Claude Desktop, Cursor, and Cline.
+
+**Why it matters:** eBay is one of the world's largest marketplaces, and this is the first official MCP integration. Low star count reflects early awareness, not quality.
+
+**Also notable (eBay):**
+- **[YosefHayim/ebay-mcp](https://github.com/YosefHayim/ebay-mcp)** (40 stars, 325 tools) — comprehensive community server covering Sell APIs (inventory, fulfillment, marketing, analytics). ⚠ **CVE-2026-27203** — environment variable injection vulnerability. Vet carefully before use
+- **[CDataSoftware/ebay-mcp-server-by-cdata](https://github.com/CDataSoftware/ebay-mcp-server-by-cdata)** — read-only CData variant
+
+### Etsy: Community servers emerging
+
+No official Etsy MCP server yet, but multiple community options:
+
+- **[aserper/etsy-mcp](https://github.com/aserper/etsy-mcp)** (NEW, created April 2, 2026) — 37 tools, ~70 API endpoints, OAuth 2.0 + PKCE, buyer + seller workflows. The most comprehensive option
+- **[profplum700/etsy-mcp-server](https://github.com/profplum700/etsy-mcp-server)** (9 stars) — subset of Etsy API for shop data and listings
+- **[administrativetrick/etsy-mcp-server](https://github.com/administrativetrick/etsy-mcp-server)** (3 stars) — Etsy API v3 integration
+
+---
+
+## Other platform servers (Square, Wix) — NEW
+
+### Square: square/square-mcp-server (Official Beta)
+
+**Stars:** 95 | **Forks:** 22 | **Last pushed:** February 2026
+
+[square/square-mcp-server](https://github.com/square/square-mcp-server) is Square's official MCP server, currently in beta. Documented at developer.squareup.com/docs/mcp. Significant traction for a beta product (95 stars).
+
+**Best for:** Square merchants who want AI-powered commerce operations.
+
+### Wix: wix/wix-mcp (Official)
+
+**Stars:** 10 | **Forks:** 9 | **Hosted:** mcp.wix.com/mcp
+
+[wix/wix-mcp](https://github.com/wix/wix-mcp) is Wix's official MCP server. Search Wix docs, write code for Wix platform, and make API calls on Wix sites. Requires Node.js 19.9+.
+
+**Best for:** Developers building on the Wix platform.
+
+---
+
+## Shipping and logistics servers — NEW
+
+The first dedicated shipping MCP server has arrived, closing one of the biggest functional gaps in the e-commerce MCP ecosystem.
+
+### The winner: Shippo MCP (Official)
+
+**Package:** `@shippo/shippo-mcp` on npm | **Auth:** Shippo API key
+
+[Shippo MCP](https://docs.goshippo.com/docs/guides_general/mcpserver/) is from GoShippo, self-described as "The First Agentic Shipping Platform." Multi-carrier support across USPS, UPS, FedEx, DHL, and more.
+
+**Key features:**
+- **Address validation** — verify shipping addresses before label creation
+- **Rate shopping** — compare rates across carriers in real-time
+- **Label generation** — create shipping labels programmatically
+- **Returns management** — generate return labels
+- **Customs documents** — international shipping documentation
+- **Tracking** — real-time package tracking across carriers
+
+**Also notable:**
+- **[Shipi MCP](https://myshipi.com/mcp)** — commercial service with live rates, labels, tracking, and split shipping with DHL, FedEx, UPS, DPD, and Aramex
+
+No standalone UPS-only, FedEx-only, or USPS-only MCP servers exist yet. Shippo and Shipi are the multi-carrier aggregators filling this space.
 
 ---
 
 ## Which e-commerce MCP server should you use?
 
-**"I run a Shopify store and want AI shopping for my customers"** → **Shopify Storefront MCP** is already live on your store. No setup needed.
+**"I run a Shopify store and want AI shopping for my customers"** → **Shopify Storefront MCP** is already live on your store. No setup needed. Agentic Storefronts went live March 24 — your store is already discoverable in ChatGPT.
 
-**"I want AI to manage my Shopify products, orders, and inventory"** → Use **GeLi2001/shopify-mcp** (139 stars, 31+ tools). Accept that it's community-maintained and may need updates when Shopify changes APIs.
+**"I want AI to manage my Shopify products, orders, and inventory"** → Use **GeLi2001/shopify-mcp** (181 stars, 31+ tools). Accept that it's community-maintained and may need updates when Shopify changes APIs.
 
-**"I'm building apps on Shopify"** → Use **Shopify Dev MCP** for docs, schema introspection, and code validation.
+**"I'm building apps on Shopify"** → Use **Shopify Dev MCP** (v1.7.0, 8 tools covering the full platform).
 
-**"I run a WooCommerce store"** → **techspawn/woocommerce-mcp-server** is the most complete option. The WordPress plugin approaches (iOSDevSK, jlfguthrie) are worth watching if you prefer native WP integration.
+**"I run a WooCommerce store"** → Start with the **WooCommerce Native MCP** (beta in WooCommerce 10.3+) for official support. Alternatively, **techspawn/woocommerce-mcp-server** (84 stars) is the most popular community option.
 
-**"I use Magento / Adobe Commerce"** → **boldcommerce/magento2-mcp** is your best (and really only) option. Covers products, customers, and order analytics.
+**"I use Magento / Adobe Commerce"** → **boldcommerce/magento2-mcp** (54 stars) for store management. Check **Freento MCP** on the Adobe Commerce Marketplace for a read-only alternative.
 
-**"I sell on Amazon"** → **Seller Labs MCP** for production-grade analytics (commercial). Open-source SP-API servers exist but are less mature.
+**"I sell on Amazon"** → **Seller Labs MCP** for business analytics (commercial). **Amazon Ads MCP** for advertising (official, 50+ tools, open beta).
 
-**"I use a headless platform"** → **saleor/saleor-mcp** if you're on Saleor (hosted, official). **minimalart/mcp-medusa** if you're on Medusa (14 admin tools).
+**"I sell on eBay"** → **eBay/npm-public-api-mcp** (official). For extensive seller tools, **YosefHayim/ebay-mcp** (325 tools) — but review CVE-2026-27203 first.
+
+**"I sell on Etsy"** → **aserper/etsy-mcp** (37 tools, OAuth 2.0 + PKCE). Still very early — no official Etsy MCP yet.
+
+**"I use Square"** → **square/square-mcp-server** (official beta, 95 stars).
+
+**"I need shipping integration"** → **Shippo MCP** for multi-carrier rates, labels, and tracking.
+
+**"I use a headless platform"** → **saleor/saleor-mcp** if you're on Saleor (hosted, official). **SGFGOV/medusa-mcp** (54 stars) if you're on Medusa.
 
 **"I use BigCommerce"** → Join the **Storefront MCP beta** if you can. Otherwise, CData's read-only server or Zapier integration are your options.
 
 ---
 
-## Three trends to watch
+## Four trends to watch
 
-### 1. Agentic commerce is real — Shopify proved the model
+### 1. Agentic commerce is live at scale
 
-Shopify's Storefront MCP is live on every store, powering shopping through ChatGPT, Perplexity, and Copilot. BigCommerce is following with their beta. This isn't theoretical anymore — customers are discovering and buying products through AI agents. Every major e-commerce platform will need a storefront MCP endpoint within 12 months.
+Shopify's Agentic Storefronts went live March 24, 2026 — millions of merchants are now discoverable and shoppable inside ChatGPT with no integration work. Google AI Mode and Gemini are rolling out support. BigCommerce is still in beta. This is no longer a trend to watch; it's a shipping feature.
 
-### 2. The admin gap is the biggest opportunity
+### 2. Official MCP servers are proliferating fast
 
-Shopify has no official Admin API MCP server. WooCommerce, Magento, and BigCommerce admin tools are all community-driven with low adoption. The first platform to ship a comprehensive, official admin MCP server — covering products, orders, inventory, fulfillment, and analytics — gains a massive competitive advantage with AI-native merchants.
+Since our March update, the number of **official** e-commerce MCP servers has expanded dramatically: Shopify (5 servers), WooCommerce (native beta), eBay (official), Square (official beta), Wix (official), Amazon Ads (50+ tools in open beta), Shippo (shipping). The community-only era is ending — platforms are owning their MCP strategy.
 
-### 3. Universal Commerce Protocol (UCP) could unify the landscape
+### 3. The admin gap persists but is narrowing
 
-Shopify and Google co-developed the Universal Commerce Protocol — an open standard for AI-agent-to-commerce-backend communication. If UCP gains adoption, it could create a single protocol that works across Shopify, WooCommerce, Magento, and others, reducing the need for platform-specific MCP servers.
+Shopify still has no official Admin API MCP server. But WooCommerce now has native MCP (closing a major gap), and Shopify's Checkout MCP preview signals movement toward transactional operations. The first platform to ship comprehensive admin MCP — covering products, orders, inventory, fulfillment, and analytics in one official server — still gains a massive competitive advantage.
+
+### 4. Universal Commerce Protocol (UCP) + security are shaping the ecosystem
+
+Shopify and Google's UCP (endorsed by Etsy, Target, Walmart, Stripe, PayPal, and 20+ others) launched at NRF in January 2026. It standardizes checkout, identity linking (OAuth 2.0), and order management across platforms. Meanwhile, 30+ MCP CVEs in 60 days and e-commerce-adjacent vulnerabilities (CVE-2026-27203, CVE-2026-1926, Magento PolyShell) are forcing the ecosystem to take security seriously. Always vet community servers before connecting them to stores with real money.
 
 ---
 
 ## What's missing
 
-Despite 30+ servers, significant gaps remain:
+The landscape has improved significantly since March 2026 — four of our previous "missing" items are now partially or fully addressed. But gaps remain:
 
-- **No official Shopify Admin MCP** — the most impactful missing piece. Community servers fill the gap but lack the reliability merchants need
-- **No official WooCommerce MCP** — Automattic (WooCommerce's parent) has a WordPress MCP but no dedicated WooCommerce server
-- **No official Magento/Adobe Commerce MCP** — Adobe hasn't entered the MCP space for commerce (only for Creative Suite via community servers)
-- **No eBay MCP** — one of the world's largest marketplaces has no MCP server
-- **No Etsy MCP** — a large marketplace with an active developer API but no MCP integration
-- **No multi-platform management** — no server that unifies Shopify + Amazon + WooCommerce into a single interface
+**Gaps closed or closing:**
+- ~~No official WooCommerce MCP~~ → **Native MCP beta in WooCommerce 10.3** (via WordPress Abilities API)
+- ~~No eBay MCP~~ → **eBay/npm-public-api-mcp** (official) + community servers
+- ~~No Etsy MCP~~ → Multiple community servers now available (aserper/etsy-mcp with 37 tools)
+- ~~No shipping/logistics~~ → **Shippo MCP** (multi-carrier: USPS, UPS, FedEx, DHL) + Shipi
+
+**Still missing:**
+- **No official Shopify Admin MCP** — still the most impactful missing piece. Shopify has 5 official servers but none cover admin operations. Community servers (GeLi2001 at 181 stars) fill the gap
+- **No official Magento/Adobe Commerce MCP** — Adobe hasn't shipped a first-party server. Freento on the Marketplace is the closest
+- **No official Etsy MCP** — community servers exist but no official backing
+- **No multi-platform management** — no server that unifies Shopify + Amazon + WooCommerce into a single interface. UCP could eventually enable this
 - **No inventory sync** — no MCP server for cross-platform inventory synchronization
-- **No shipping/logistics** — no dedicated MCP servers for UPS, FedEx, USPS, or DHL APIs
-- **No product information management (PIM)** — no MCP servers for tools like Akeneo or Salsify
+- **No product information management (PIM)** — Plytix MCP (47 tools for Plytix PIM) is the first entry, but no servers for Akeneo or Salsify
 - **No returns/warranty management** — limited support across all platforms
 - **No A/B testing or conversion optimization** — no MCP servers for tools like Optimizely in the commerce context
+- **No Squarespace MCP** — still no official server from one of the largest site builders
 
-The e-commerce MCP ecosystem is maturing quickly on the storefront/shopping side (thanks to Shopify) but remains immature for backend operations. The pattern is clear: platforms ship storefront MCP first (customer-facing, low risk), then the community builds admin tools, and eventually official admin servers will follow.
+The pattern is accelerating: platforms are now shipping official MCP servers faster than we can track them. The storefront-first approach (Shopify pioneered, others followed) is giving way to full-stack commerce MCP — advertising (Amazon), shipping (Shippo), payments (Stripe), and store management (WooCommerce) are all coming online.
 
 ---
 
-*Last updated: March 2026. Star counts and feature details may have changed since publication. See our individual reviews for the most detailed analysis: [Shopify MCP Servers](/reviews/shopify-mcp-servers/) · [E-Commerce & Shopping MCP](/reviews/ecommerce-shopping-mcp-servers/)*
+*Last updated: April 2026. Star counts and feature details may have changed since publication. See our individual reviews for the most detailed analysis: [Shopify MCP Servers](/reviews/shopify-mcp-servers/) · [E-Commerce & Shopping MCP](/reviews/ecommerce-shopping-mcp-servers/)*

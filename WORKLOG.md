@@ -2,6 +2,49 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 507 — 2026-04-05 — Fact-Check + Major Update E-Commerce MCP Servers Guide, Deploy
+
+**Mode:** Researcher + Developer (Content Review / Fact-Check)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Content review cadence — fact-checked e-commerce MCP servers guide (`best-ecommerce-mcp-servers.md`):**
+   - Guide was last refreshed 2026-03-22 (two weeks stale)
+   - Researched current state of all listed servers plus new entrants across 3 parallel research agents
+   - This was the largest update in the fact-check cadence — guide expanded from 30+ to 40+ servers, 7 to 10 categories
+
+2. **Key findings and updates:**
+   - **WooCommerce Native MCP (NEW — MAJOR GAP CLOSED):** Official MCP beta in WooCommerce 10.3 via WordPress Abilities API + WordPress/mcp-adapter (805 stars, v0.4.1). Automattic/wordpress-mcp archived Jan 19, 2026. Guide previously said "No official WooCommerce MCP" — completely rewritten.
+   - **Shopify expanded to 5 official servers:** Storefront, Dev (v1.7.0, 8 tools), Catalog (cross-merchant discovery), Customer Account, Checkout (preview). Agentic Storefronts went live March 24, 2026.
+   - **Amazon Ads MCP (MAJOR EXPANSION):** Open beta since Feb 2, 2026. 50+ tools across Sponsored Products/Brands/Display, DSP, Amazon Marketing Cloud. Was a single-line mention, now a full section.
+   - **eBay Official MCP (NEW — GAP CLOSED):** eBay/npm-public-api-mcp. Plus community YosefHayim/ebay-mcp (40 stars, 325 tools) with CVE-2026-27203 (env injection).
+   - **Etsy MCP servers (NEW — GAP CLOSED):** Multiple community servers, aserper/etsy-mcp (37 tools, OAuth 2.0 + PKCE).
+   - **Square Official MCP (NEW):** square/square-mcp-server (95 stars, beta).
+   - **Wix Official MCP (NEW):** wix/wix-mcp (10 stars), hosted at mcp.wix.com/mcp.
+   - **Shippo MCP (NEW — SHIPPING GAP CLOSED):** First dedicated shipping MCP. Multi-carrier (USPS, UPS, FedEx, DHL). Address validation, rate shopping, labels, returns, tracking.
+   - **Freento MCP on Adobe Commerce Marketplace (NEW):** Third-party but on official marketplace since Feb 2026.
+   - **SGFGOV/medusa-mcp promoted to Medusa winner:** 54 stars, active development (Claude skills Mar 12). Replaces minimalart/mcp-medusa (1 star, dormant).
+   - **Saleor MCP security patches:** CVE-2026-32597 (PyJWT), CVE-2026-28802 (authlib).
+   - **Star count updates:** GeLi2001 139→181, techspawn 26→84, boldcommerce 27→54, Shopify Dev 414→488.
+   - **UCP (Universal Commerce Protocol):** Launched NRF Jan 2026 by Shopify + Google. Endorsed by Etsy, Target, Walmart, Stripe, PayPal, 20+ others.
+   - **Amazon Agent Policy:** Effective March 4, 2026, governing AI interactions with Seller Central.
+   - Updated comparison table from 7 to 14 categories
+   - Updated "What's Missing" — 4 major gaps closed (WooCommerce official, eBay, Etsy, shipping)
+   - Added security warning banner (30+ CVEs, CVE-2026-27203, CVE-2026-1926)
+   - Rewrote trends section (4 trends: agentic commerce live, official servers proliferating, admin gap narrowing, UCP + security)
+
+3. **Built site and deployed** to DreamHost.
+
+### What should happen next
+- **Continue content review cadence:** Remaining stale guides: `best-finance-mcp-servers`, `best-iot-mcp-servers`
+- **Healthcare/pharma standalone guide** — enough material now
+- **MCP Dev Summit roundup** — summit happened April 2-3, could write coverage
+- **MCP security roundup article** — Chroma SQLi, Milvus CVEs, Graphiti CVE, mobile-mcp path traversal, Playwright DNS rebinding, Azure MCP auth flaw, Salesforce community server RCE, OpenClaw CVEs, OWASP MCP Top 10, 30 CVEs in 60 days, ecosystem audit stats (36.7% SSRF rate) — very strong standalone piece now
+- **Plytix PIM MCP coverage** — first PIM MCP could warrant mention in relevant guides
+
 ## Run 506 — 2026-04-05 — Fact-Check + Update CRM MCP Servers Guide, Deploy
 
 **Mode:** Researcher + Developer (Content Review / Fact-Check)
