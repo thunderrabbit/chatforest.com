@@ -2,6 +2,40 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 528 — 2026-04-07 — New Article: Uber's MCP Gateway & Agentic Engineering at Scale, Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new standalone article: "Uber's MCP Gateway: How 84% of Engineers Went Agentic and What It Took to Get There"**
+   - Based on Uber's engineering blog, The Pragmatic Engineer newsletter, InfoQ coverage, and MCP Dev Summit 2026 presentation
+   - **MCP Gateway** — centralized proxy that turns any Thrift, Protobuf, or HTTP endpoint into an MCP server through configuration (no new code per service)
+   - **Agent Builder** — no-code platform for creating agents with discovery registry and Agent Studio for debugging/versioning multi-agent workflows
+   - **AIFX CLI** — standardized command-line tool for AI tool provisioning, MCP server discovery, version management
+   - **GenAI Gateway** — Go-based proxy mirroring OpenAI API with PII redaction before requests reach external models (Claude, GPT-4o)
+   - **uSpec** — agentic system automating design specs across 7 platform stacks via Figma Console MCP (weeks → minutes)
+   - **Key metrics** — 84% developer agentic adoption, 65-72% AI-generated code, 11% PRs opened by agents, Claude Code usage 32%→63% in 3 months, AI costs up 6x since 2024
+   - **Architectural comparison** — Uber (centralized gateway) vs Pinterest (domain-specific servers) vs Duolingo (monolithic server)
+   - Honest assessment: AI cost scaling, missing data on incident rates and agent builder adoption
+
+2. **Cross-linked from 3 existing pages:**
+   - MCP Dev Summit 2026 guide — added deep-dive link to Uber's keynote mention
+   - Pinterest MCP case study — added to Further Reading section
+   - Duolingo MCP case study — added to Further Reading section
+
+3. **Built site** with Hugo and deployed to DreamHost.
+
+### What should happen next
+- **Content review cadence** — next round due ~April 19
+- **Nordstrom MCP retail article** — "One-To-Many" from Dev Summit; need more public details
+- **MCP SDK V2 migration guide** — pre-alpha announced at summit, write when more details emerge
+- **CVE-2026-32211 (Azure MCP Server)** — CVSS 9.1 critical flaw, potential security article hook
+- **MCP growing pains analysis** — Perplexity leaving, context bloat, 6x cost increases — could be a good opinion/analysis piece
+
 ## Run 527 — 2026-04-07 — URGENT: Remove ideas.chatforest.com Links, Deploy
 
 **Mode:** Developer

@@ -1,3 +1,4 @@
+Run 528: New article — Uber MCP Gateway & Agentic Engineering: centralized MCP Gateway (proxies Thrift/Protobuf/HTTP as MCP servers via config), Agent Builder (no-code agent creation with discovery registry), AIFX CLI (standardized AI tool provisioning), GenAI Gateway (Go-based PII redaction proxy), uSpec (design-to-spec automation via Figma Console MCP across 7 platform stacks). 84% developer agentic adoption, 65-72% AI-generated code, 11% PRs from agents, Claude Code 32%→63% in 3 months, AI costs 6x since 2024. Cross-link from 3 guides (dev summit, Pinterest, Duolingo). Deploy
 Run 525: New article — Domo MCP Server & AI Agent Builder: open-source Python server (MIT, 7 tools for dataset SQL/metadata/schema/role management), AI Agent Builder (low-code, composable Toolkits), AI Library (summer 2026), interactive dashboard rendering in chat (filters/drilldowns in Claude/Gemini/ChatGPT), $318.9M FY2026 revenue, 2,600+ customers. Cross-link from 3 pages (data-viz-BI guide, BI-reporting review, best-data-analytics). Deploy
 Run 523: New article — Fingerprint MCP Server for Fraud & Device Intelligence: two MCP servers (Server API for investigation, Management API for workspace config), 30+ Smart Signals (bot/incognito/VPN/tamper/emulator/jailbreak/Frida/MitM/velocity), Authorized AI Agent Detection (OpenAI/AWS AgentCore partners), dual deployment (open-source MIT + managed), stdio transport, invitation-only enterprise launch, $77M funding, 99.5% accuracy. Cross-link from 4 guides (finance-fintech, best-finance, attack-vectors, enterprise-infrastructure). Deploy
 Run 520: New article — Docker's MCP Platform: Gateway, Catalog, Toolkit — 300+ verified server images, open-source Gateway with programmable interceptors (before/after middleware), secret blocking, container isolation (1 CPU/2GB limits), MCP Defender threat detection, comparison to Obot/WorkOS/Solo.io gateways, 3 production patterns, Docker's MCP Horror Stories security research. Cross-link from 4 guides (docker-containers, gateway-proxy, attack-vectors, server-security). Deploy
@@ -7729,3 +7730,34 @@ Cross-linked from the Cloudflare MCP Server review and Best CMS MCP Servers guid
 2026-04-06T00:54:03Z SESSION 1432 stopped
 2026-04-06T01:49:01Z STARTED run 1377211 (mode=slow)
 2026-04-06T01:49:01Z SESSION 1433 started
+2026-04-06T01:54:47Z FINISHED run 1377211
+2026-04-06T01:54:49Z SESSION 1433 stopped
+2026-04-06T02:49:01Z STARTED run 1378529 (mode=slow)
+2026-04-06T02:49:02Z SESSION 1434 started
+**Run 526 complete.** Here's what got done:
+
+1. **Added BGPT MCP** to the Science & Research review — fact-checked the claims (pricing is $0.02/result, not $0.01; 13 stars). Added as its own subsection in Academic Paper Search since the experimental data extraction angle is distinctive.
+
+2. **Fixed 3 broken GitHub links** — `github.com/thunderrabbit/chatforest.com` (404) replaced with `github.com/thunderrabbit/ideas.chatforest.com/issues` in the science review, testing tools cookbook, and agent SDKs guide.
+
+3. **Replied to Rob** on the GitHub repo question (inbox 384) — recommended yes long-term, not urgent since ideas repo works for now.
+
+4. **Requested help** commenting on GitHub issue #12 (inbox 385) — no `gh` CLI available on this machine.
+
+5. **Built and deployed** to chatforest.com.
+2026-04-06T02:54:12Z FINISHED run 1378529
+2026-04-06T02:54:12Z SESSION 1434 stopped
+2026-04-06T03:18:01Z ONCE triggered
+2026-04-06T03:18:01Z STARTED run 1379336 (mode=slow)
+2026-04-06T03:18:01Z SESSION 1435 started
+Done. Run 527 complete:
+
+- **Fixed urgent issue** from Rob (inbox 386): removed all 3 links to `github.com/thunderrabbit/ideas.chatforest.com` from content files
+- **Built and deployed** to chatforest.com
+- **Committed** all changes
+
+Short run since the priority was addressing Rob's urgent correction immediately.
+2026-04-06T03:19:57Z FINISHED run 1379336
+2026-04-06T03:19:57Z SESSION 1435 stopped
+2026-04-06T04:18:01Z STARTED run 1381254 (mode=slow)
+2026-04-06T04:18:02Z SESSION 1436 started

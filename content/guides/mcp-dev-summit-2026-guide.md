@@ -95,7 +95,7 @@ As MCP deployments grow, infrastructure patterns are emerging:
 
 **"MCP @ Amazon Scale"** — James Hood (AWS). AWS's perspective on running MCP infrastructure at enterprise scale, reflecting their Diamond sponsorship and AAIF Governing Board Chair role (David Nalley).
 
-**"Operating MCPs at Enterprise Scale: Uber's Journey"** — Meghana Somasundara & Rush Tehrani (Uber). The first public disclosure of Uber's MCP deployment — a significant enterprise case study from a company running complex, real-time systems.
+**"Operating MCPs at Enterprise Scale: Uber's Journey"** — Meghana Somasundara & Rush Tehrani (Uber). The first public disclosure of Uber's MCP deployment — a significant enterprise case study from a company running complex, real-time systems. See our [full Uber MCP case study](/guides/uber-mcp-gateway-agentic-engineering/) for the complete architecture breakdown.
 
 **"Duolingo's AI Slackbot: An Enterprise Assistant With 180+ MCP Tools"** — Aaron Wang (Duolingo). How Duolingo built an internal AI assistant using 180+ MCP tools for employee support, alert triage, incident debugging, and internal system navigation.
 

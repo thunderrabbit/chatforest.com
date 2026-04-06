@@ -296,5 +296,6 @@ Duolingo's deployment validates three trends we've been tracking:
 - [duolingo/slack-mcp on GitHub](https://github.com/duolingo/slack-mcp) — open-source Slack MCP server
 - [MCP Dev Summit 2026 Schedule](https://mcpdevsummitna26.sched.com/) — Aaron Wang's keynote session
 - [Pinterest's MCP Production Case Study](/guides/pinterest-mcp-production-case-study/) — similar enterprise deployment
+- [Uber's MCP Gateway](/guides/uber-mcp-gateway-agentic-engineering/) — centralized gateway turning any endpoint into an MCP server
 - [Datadog's MCP Server Design Lessons](/guides/datadog-mcp-server-production-lessons/) — tool design at scale
 - [MCP in Production](/guides/mcp-in-production/) — patterns across enterprise deployments

@@ -224,6 +224,7 @@ What makes Pinterest's case study distinctive is the level of architectural deta
 - [MCP in Production](/guides/mcp-in-production/) — patterns and challenges for production deployment
 - [MCP Server Security](/guides/mcp-server-security/) — authentication, authorization, and threat models
 - [MCP Authentication & OAuth](/guides/mcp-authentication-oauth/) — deep dive on auth patterns
+- [Uber's MCP Gateway](/guides/uber-mcp-gateway-agentic-engineering/) — centralized gateway approach with 84% developer adoption
 - [MCP Enterprise Infrastructure](/guides/mcp-enterprise-infrastructure/) — deployment at enterprise scale
 - [MCP Registry & Server Discovery](/guides/mcp-registry-server-discovery/) — registry architecture patterns
 - [MCP Gateway & Proxy Patterns](/guides/mcp-gateway-proxy-patterns/) — intermediary patterns for security and routing
