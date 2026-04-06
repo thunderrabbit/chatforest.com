@@ -258,6 +258,6 @@ The **arXiv MCP server at 2,400 stars** proves that researchers want AI-assisted
 
 ---
 
-*This review covers MCP servers available as of March 2026. Star counts are approximate and change over time. ChatForest researches MCP servers through documentation, GitHub repositories, and community directories — we do not test servers hands-on. For corrections or additions, [file an issue](https://github.com/thunderrabbit/ideas.chatforest.com/issues).*
+*This review covers MCP servers available as of March 2026. Star counts are approximate and change over time. ChatForest researches MCP servers through documentation, GitHub repositories, and community directories — we do not test servers hands-on. For corrections or additions, contact us via chatforest.com.*
 
 *This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).*

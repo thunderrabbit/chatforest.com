@@ -57,7 +57,7 @@
     <article>
       <div class="article-meta">
         <span>MCP Server Review</span>
-        <span>Published Mar 16, 2026 · Updated Mar 16, 2026</span>
+        <span>Published Mar 16, 2026 · Updated Apr 7, 2026</span>
       </div>
 
       <h1 class="article-title">Science &amp; Research MCP Servers — arXiv, PubMed, Semantic Scholar, UniProt, Wolfram, Scientific Computing, and More</h1>
@@ -203,6 +203,34 @@
 <li><strong>AIRA-SemanticScholar</strong> (hamid-vakilzadeh) — Academic Graph API with intelligent literature search.</li>
 </ul>
 <p>Semantic Scholar&rsquo;s corpus covers 200M+ papers with AI-generated citation contexts — useful for understanding not just <em>that</em> a paper was cited, but <em>how</em> it was used.</p>
+<h3 id="connerlambdenbgpt-mcp-experimental-data-extraction">connerlambden/bgpt-mcp (Experimental Data Extraction)</h3>
+<table>
+<thead>
+<tr>
+<th>Server</th>
+<th>Stars</th>
+<th>Language</th>
+<th>License</th>
+<th>Tools</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/connerlambden/bgpt-mcp">bgpt-mcp</a></td>
+<td>13</td>
+<td>JavaScript</td>
+<td>MIT</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>A specialized academic search server focused on <strong>extracting raw experimental data from full-text studies</strong> — not just titles, abstracts, or metadata. The single <code>search_papers</code> tool returns 25+ structured fields per paper, including methods, results, conclusions, and quality scores. Unlike most paper search tools that return bibliographic metadata, BGPT MCP aims to surface the actual experimental findings.</p>
+<ul>
+<li><strong>Remote-first deployment</strong> — hosted server via SSE (<code>https://bgpt.pro/mcp/sse</code>) and Streamable HTTP (<code>https://bgpt.pro/mcp/stream</code>), no local install required</li>
+<li><strong>Pricing</strong> — 50 free results, then $0.02/result with a Stripe subscription API key</li>
+<li><strong>Parameters</strong> — query (required), num_results (1–100, default 10), days_back (optional time filter)</li>
+</ul>
+<p>The experimental data extraction angle is distinctive — most academic MCP servers focus on discovery (finding papers) while BGPT focuses on extraction (pulling structured data from within papers). Useful for systematic reviews and meta-analyses where researchers need to compare findings across studies.</p>
 <h3 id="other-academic-search-servers">Other Academic Search Servers</h3>
 <table>
 <thead>
@@ -501,7 +529,7 @@
 <p><strong>Everything else is missing.</strong> The wet lab, the chemistry bench, the genome sequencer, the telescope, the clinical trial, the grant application — none of these have MCP integration. Science is a vast domain, and MCP coverage barely scratches the surface beyond &ldquo;search papers&rdquo; and &ldquo;do math.&rdquo;</p>
 <p><strong>Rating: 3.5 out of 5</strong> — academic paper search is excellent, scientific computing is solid, bioinformatics is surprisingly deep, but the absence of lab infrastructure, chemistry tools, genomics databases, and research workflow integration keeps this from a higher score. The arXiv server&rsquo;s 2,400 stars show strong demand; the ecosystem needs to follow that signal into the lab.</p>
 <hr>
-<p><em>This review covers MCP servers available as of March 2026. Star counts are approximate and change over time. ChatForest researches MCP servers through documentation, GitHub repositories, and community directories — we do not test servers hands-on. For corrections or additions, visit our <a href="https://github.com/thunderrabbit/chatforest.com">GitHub</a>.</em></p>
+<p><em>This review covers MCP servers available as of March 2026. Star counts are approximate and change over time. ChatForest researches MCP servers through documentation, GitHub repositories, and community directories — we do not test servers hands-on. For corrections or additions, contact us via chatforest.com.</em></p>
 <p><em>This review was last edited on 2026-03-16 using Claude Opus 4.6 (Anthropic).</em></p>
 
       </div>
@@ -554,7 +582,7 @@
 
 
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"Review","author":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"dateModified":"2026-03-16T00:00:00+09:00","datePublished":"2026-03-16T12:30:00+09:00","description":"Science and research MCP servers are turning AI agents into research assistants — searching papers, analyzing citations, querying protein databases, and running mathematical","itemReviewed":{"@type":"SoftwareApplication","applicationCategory":"MCP Server","name":"Science \u0026 Research MCP Servers — arXiv, PubMed, Semantic Scholar, UniProt, Wolfram, Scientific Computing, and More"},"name":"Science \u0026 Research MCP Servers — arXiv, PubMed, Semantic Scholar, UniProt, Wolfram, Scientific Computing, and More","publisher":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"url":"https://chatforest.com/reviews/science-research-mcp-servers/"}
+{"@context":"https://schema.org","@type":"Review","author":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"dateModified":"2026-04-07T00:00:00+09:00","datePublished":"2026-03-16T12:30:00+09:00","description":"Science and research MCP servers are turning AI agents into research assistants — searching papers, analyzing citations, querying protein databases, and running mathematical","itemReviewed":{"@type":"SoftwareApplication","applicationCategory":"MCP Server","name":"Science \u0026 Research MCP Servers — arXiv, PubMed, Semantic Scholar, UniProt, Wolfram, Scientific Computing, and More"},"name":"Science \u0026 Research MCP Servers — arXiv, PubMed, Semantic Scholar, UniProt, Wolfram, Scientific Computing, and More","publisher":{"@type":"Organization","name":"ChatForest","url":"https://chatforest.com"},"url":"https://chatforest.com/reviews/science-research-mcp-servers/"}
 </script>
 
 
