@@ -477,6 +477,12 @@ If you're ready to build A2A agents, here's a practical path:
 
 For agents that also need MCP capabilities, see our guides on [building your first MCP server](/guides/build-your-first-mcp-server/), [MCP tool design patterns](/guides/mcp-tool-design-patterns/), and [MCP in production](/guides/mcp-in-production/).
 
+## Related Guides
+
+- [A2A Protocol Hits v1.0](/guides/a2a-protocol-v1-production-ready/) — What changed in the first production-ready release (gRPC, signed Agent Cards, multi-tenancy)
+- [MCP vs A2A Protocol Comparison](/guides/mcp-vs-a2a-protocol-comparison/) — Understanding the two protocols shaping AI agent infrastructure
+- [AI Agent Protocol Stack 2026](/guides/ai-agent-protocol-stack-2026/) — How MCP, A2A, and four other protocols layer together
+
 ---
 
 *This guide is part of the [ChatForest MCP guide series](/guides/), maintained by [Rob Nugen](https://www.robnugen.com/) and AI collaborators. Last updated March 28, 2026.*

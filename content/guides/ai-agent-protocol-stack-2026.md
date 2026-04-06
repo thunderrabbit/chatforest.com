@@ -18,7 +18,7 @@ Think of the AI agent protocol ecosystem as a layered stack, similar to how TCP/
 | Layer | Protocol | Purpose | Backed By | Status (April 2026) |
 |-------|----------|---------|-----------|---------------------|
 | **Tool Access** | MCP | Agent → tools, data, APIs | Anthropic → AAIF/Linux Foundation | Production, spec v2025-11-25 |
-| **Agent Collaboration** | A2A | Agent → agent delegation | Google → AAIF/Linux Foundation | Production, v0.2+ |
+| **Agent Collaboration** | A2A | Agent → agent delegation | Google → AAIF/Linux Foundation | Production, [v1.0](/guides/a2a-protocol-v1-production-ready/) (March 2026) |
 | **Open Internet Discovery** | ANP | Agent discovery on open web | AgentNetworkProtocol community | Early adoption |
 | **Commerce (Platform)** | UCP | Shopping via Google surfaces | Google + Shopify, Visa, Mastercard, etc. | Early access (US merchants) |
 | **Commerce (Open)** | ACP | Agent-driven checkout anywhere | OpenAI + Stripe | Beta, spec v2026-01-30 |

@@ -2,6 +2,44 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 532 — 2026-04-06 — New Article: A2A Protocol v1.0, Cross-Links, GitHub Push, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- Message 387 from Boss Claude: Rob asked to push repo to GitHub and check if I can read/manage issues.
+  - **Pushed to GitHub** — master branch up to date.
+  - **Issues** — can read via web (0 open issues currently). No `gh` CLI or API token, so can't create/close/comment programmatically. Sent reply (message 388) explaining options.
+
+### What I did
+
+1. **Wrote new analysis article: "A2A Protocol Hits v1.0: What Changes Now That Agent-to-Agent Communication Has a Stable Standard"**
+   - Covers the March 12, 2026 release — first production-ready version
+   - **New in v1.0** — gRPC transport (Protocol Buffers as normative source), signed Agent Cards (JWS/RFC 8785 cryptographic verification), multi-tenancy support, modernized OAuth 2.0 (PKCE, Device Code; removed deprecated Implicit/Password flows), cursor-based pagination, simplified UUIDs
+   - **Breaking changes from v0.3** — Part type unification (no `kind` discriminators), SCREAMING_SNAKE_CASE enums, Agent Card restructuring, google.rpc.Status error handling
+   - **SDKs** — Python, Go, JavaScript/TypeScript, Java, .NET
+   - **Technical Steering Committee** — AWS, Cisco, Google, IBM Research, Microsoft, Salesforce, SAP, ServiceNow
+   - **Adoption** — 23K+ GitHub stars, 150+ orgs, specific implementations at S&P Global, Adobe, Tyson Foods, Gordon Food Service; Huawei's A2A-T telecom variant
+   - **Honest limitations** — complexity for simple use cases, no discovery registry, no cost attribution, security focused on auth not behavior, ACP fragmentation risk
+   - Sources: A2A Protocol spec, v1.0 announcement, GitHub repo, Google Cloud Blog, Google Developers Blog, IBM, TechNode
+
+2. **Cross-linked from 4 existing pages:**
+   - MCP vs A2A comparison — added Related Guides section
+   - Building A2A Agents guide — added Related Guides section
+   - AI Agent Protocol Stack — updated A2A status from "v0.2+" to "v1.0 (March 2026)" with link
+   - AAIF governance article — added to Related Guides
+
+3. **Pushed repo to GitHub** (Chatforest/chatforest.com)
+
+4. **Built site** with Hugo and deployed to DreamHost.
+
+### What should happen next
+- **Content review cadence** — next round due ~April 19
+- **GitHub `gh` CLI setup** — needs personal access token (Tier 3 — account management) for full issue management
+- **Nordstrom MCP retail article** — "One-To-Many" from Dev Summit; need more public details
+- **MCP SDK V2 migration guide** — pre-alpha announced at summit, write when more details emerge
+- **MCP cost optimization guide update** — could cross-reference Cloudflare Code Mode benchmarks, Atlassian compressor
+
 ## Run 531 — 2026-04-06 — New Article: Agentic AI Foundation (AAIF) Governance, Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer
