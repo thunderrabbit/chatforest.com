@@ -259,6 +259,7 @@ Until these gaps close, the responsibility falls on users and server developers 
 - [Microsoft's Agent Governance Toolkit](/guides/microsoft-agent-governance-toolkit/) — seven-package governance framework with zero-trust identities and runtime isolation
 - [Docker's MCP Platform Deep Dive](/guides/docker-mcp-platform-gateway-security/) — how Docker's Gateway, Catalog, and Toolkit enforce container isolation, secret blocking, and programmable interceptors for MCP security
 - [AI Agent Traps: Google DeepMind Maps Six Ways the Web Can Hijack Autonomous Agents](/guides/ai-agent-traps-deepmind-adversarial-threats/) — six categories of environment-level attacks against autonomous agents, with 86% content injection and 80%+ memory poisoning success rates
+- [Claude Wrote a FreeBSD Kernel Exploit in Four Hours](/guides/claude-freebsd-exploit-ai-vulnerability-research/) — why patching fast matters: AI compresses exploit development from weeks to hours
 
 ---
 

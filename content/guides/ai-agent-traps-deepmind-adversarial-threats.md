@@ -197,4 +197,5 @@ The [MCP Growing Pains](/guides/mcp-growing-pains-2026/) article documented how 
 - [MCP Tool Poisoning Attacks Explained](/guides/mcp-tool-poisoning-attacks/) — the MCP-specific variant of content injection traps
 - [MCP Server Security Best Practices](/guides/mcp-server-security/) — hardening the tools that agents connect to
 - [MCP's Growing Pains: Context Bloat, Security Gaps, and the Companies Walking Away](/guides/mcp-growing-pains-2026/) — the broader security crisis in MCP implementations
+- [Claude Wrote a FreeBSD Kernel Exploit in Four Hours](/guides/claude-freebsd-exploit-ai-vulnerability-research/) — the flip side: AI agents as attackers, with 500+ vulnerabilities found autonomously
 - [AI Agent Protocol Stack 2026](/guides/ai-agent-protocol-stack-2026/) — how MCP, A2A, and other protocols fit together

@@ -286,6 +286,7 @@ and include it in the &quot;notes&quot; parameter.
 <li><a href="/guides/docker-mcp-platform-gateway-security/">Docker&rsquo;s MCP Platform: Gateway, Catalog, and Toolkit</a> — Docker&rsquo;s open-source Gateway with interceptors, secret blocking, and MCP Defender threat detection</li>
 <li><a href="/guides/fingerprint-mcp-server-fraud-device-intelligence/">Fingerprint&rsquo;s MCP Server: Device Intelligence for Fraud Prevention</a> — how device fingerprinting and Smart Signals help AI agents detect bots, VPNs, and suspicious devices in security workflows</li>
 <li><a href="/guides/ai-agent-traps-deepmind-adversarial-threats/">AI Agent Traps: Google DeepMind Maps Six Ways the Web Can Hijack Autonomous Agents</a> — DeepMind&rsquo;s taxonomy of environment-level attacks: content injection (86% success), memory poisoning (80%+ at 0.1% contamination), and four more categories</li>
+<li><a href="/guides/claude-freebsd-exploit-ai-vulnerability-research/">Claude Wrote a FreeBSD Kernel Exploit in Four Hours</a> — AI-powered vulnerability research finds 500+ high-severity bugs, compressing exploit timelines from weeks to hours</li>
 </ul>
 <hr>
 <p><em>This guide was researched and written by an AI agent. We research publicly available documentation, security advisories, and published analyses — we do not perform penetration testing or hands-on exploitation. All incidents described are sourced from published security research. Last updated March 28, 2026.</em></p>
@@ -326,8 +327,8 @@ and include it in the &quot;notes&quot; parameter.
   
     <div class="article-card">
   <div class="card-meta"><span>Guide</span> <span>2026-04-06 23:00:00</span></div>
-  <h3><a href="/guides/fingerprint-mcp-server-fraud-device-intelligence/">Fingerprint&#39;s MCP Server: How Device Intelligence Is Bringing AI to Fraud Prevention</a></h3>
-  <p>Fingerprint&#39;s MCP Server connects AI assistants directly to its device intelligence platform, letting fraud analysts investigate suspicious activity through natural language instead of dashboards. This guide covers the architecture, tools exposed, Smart Signals integration, Authorized AI Agent Detection, and what the dual deployment model means for enterprise fraud teams.</p>
+  <h3><a href="/guides/claude-freebsd-exploit-ai-vulnerability-research/">Claude Wrote a FreeBSD Kernel Exploit in Four Hours — What AI-Powered Vulnerability Research Means for Security</a></h3>
+  <p>On March 29, 2026, Anthropic researcher Nicholas Carlini pointed Claude Code at a recently patched FreeBSD kernel vulnerability (CVE-2026-4747) and walked away. Four hours later, Claude had autonomously developed two working remote root exploits — both successful on their first attempt. The vulnerability, a stack buffer overflow in FreeBSD&#39;s RPCSEC_GSS module, required solving six distinct technical problems: setting up a FreeBSD VM with NFS and Kerberos, configuring multi-CPU threading, implementing a 15-round ROP chain to deliver 432 bytes of shellcode within the 400-byte credential limit, and more. This wasn&#39;t an isolated demonstration. Anthropic&#39;s Frontier Red Team has disclosed that Claude Opus 4.6 has found and validated over 500 high-severity vulnerabilities in production open-source software, including a blind SQL injection in Ghost CMS (found in 90 minutes), zero-day RCE vulnerabilities in Vim and Emacs, and a 23-year-old Linux kernel bug. The MAD Bugs initiative is publishing a new zero-day disclosure every few days through April 2026. This guide covers the technical details of the FreeBSD exploit, the broader vulnerability research program, the responsible disclosure challenges when AI compresses exploit timelines from weeks to hours, and what this means for defenders.</p>
 </div>
 
   

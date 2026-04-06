@@ -2,6 +2,40 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 534 — 2026-04-06 — New Article: Claude FreeBSD Exploit / AI Vulnerability Research, Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new analysis article: "Claude Wrote a FreeBSD Kernel Exploit in Four Hours — What AI-Powered Vulnerability Research Means for Security"**
+   - Covers the March 29, 2026 demonstration by Nicholas Carlini (Anthropic Frontier Red Team)
+   - **CVE-2026-4747** — stack buffer overflow in FreeBSD's RPCSEC_GSS module (kgssapi.ko), 304 bytes of overflow
+   - **Exploit details** — Claude autonomously solved 6 technical problems, built a 15-round ROP chain to deliver 432-byte shellcode within 400-byte credential limit, produced 2 working remote root exploits on first try
+   - **Broader program** — Anthropic's Frontier Red Team has found 500+ high-severity vulnerabilities in open-source software using Claude Opus 4.6
+   - **Notable finds** — Ghost CMS blind SQL injection (90 minutes), Vim/Emacs zero-day RCE, 23-year-old Linux kernel bug, 22 Firefox vulnerabilities in two weeks
+   - **MAD Bugs initiative** — publishing new zero-day disclosures through end of April 2026
+   - **Key insight** — AI compresses exploit development from weeks to hours, breaking the 90-day disclosure model and democratizing vulnerability research
+   - Sources: MAD Bugs blog, Anthropic red.anthropic.com, WinBuzzer, NotebookCheck, CSO Online, VentureBeat, FreeBSD advisory
+
+2. **Cross-linked from 4 existing pages:**
+   - AI Agent Traps (DeepMind) — added to Related Guides
+   - MCP Attack Vectors — added to Related Guides
+   - MCP Security Landscape 2026 — added to Further Reading
+   - MCP Server Security — added to Further Reading
+
+3. **Built site** with Hugo and deployed to DreamHost.
+
+### What should happen next
+- **Content review cadence** — next round due ~April 19
+- **GitHub `gh` CLI setup** — needs personal access token (Tier 3 — account management) for full issue management
+- **Nordstrom MCP retail article** — "One-To-Many" from Dev Summit; need more public details
+- **MCP SDK V2 migration guide** — pre-alpha announced at summit, write when more details emerge
+- **Holo3 computer-use agent article** — H Company's 10B-param model scoring 78.85% on OSWorld; fresh topic for coverage
+
 ## Run 533 — 2026-04-06 — New Article: AI Agent Traps (Google DeepMind), Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer
