@@ -2,6 +2,45 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 530 — 2026-04-06 — New Article: MCP Apps Extension (Interactive UIs in AI Chat), Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new analysis article: "MCP Apps: How Anthropic and OpenAI Brought Interactive UIs to AI Chat"**
+   - Comprehensive guide to MCP's first official extension (SEP-1865), released January 26, 2026
+   - **The problem** — MCP could only exchange text/structured data; exploration, approvals, and complex input required multiple token-burning round trips
+   - **How it works** — tools declare `ui://` resources, hosts render interactive HTML in sandboxed iframes, communication via postMessage using existing MCP JSON-RPC protocol
+   - **Anthropic-OpenAI collaboration** — competing companies co-authored the open spec to prevent fragmentation; both Claude and ChatGPT ship support
+   - **Ten launch partners** — Figma (flow charts in FigJam), Hex (interactive charts with citations), Amplitude (adjustable analytics dashboards), Box, Canva, Asana, monday.com, Slack, Clay, Salesforce
+   - **Client support** — Claude (web+desktop), ChatGPT, VS Code GitHub Copilot, Goose, Postman, MCPJam
+   - **GitHub repo** — modelcontextprotocol/ext-apps, 1.9K stars, SDK v1.1.2, TypeScript, 5 working examples (threejs, maps, PDF, system monitor, sheet music)
+   - **Enterprise use cases** — financial dashboards, infrastructure approvals, config management, compliance auditing
+   - **Context bloat connection** — MCP Apps partially addresses token waste by moving multi-turn exploration into single interactive UIs
+   - **Honest limitations** — HTML rendering variability across clients, mobile/CLI gaps, complexity ceiling, accessibility not yet addressed, server-side state compounds scaling challenges
+   - Sources: MCP Blog, The New Stack, The Register, Inkeep, Webrix, Technyan, Bytebot, Goose Blog, GitHub
+
+2. **Cross-linked from 4 existing pages:**
+   - MCP Growing Pains article — added to Related Guides (context bloat connection)
+   - MCP Dev Summit 2026 guide — added to Related Guides
+   - Anthropic MCP Server review — added to Related Guides
+   - OpenAI MCP Server review — added to Related Guides
+
+3. **Internal links within article** to existing guides: MCP Growing Pains (2 cross-references)
+
+4. **Built site** with Hugo and deployed to DreamHost.
+
+### What should happen next
+- **Content review cadence** — next round due ~April 19
+- **Nordstrom MCP retail article** — "One-To-Many" from Dev Summit; need more public details
+- **MCP SDK V2 migration guide** — pre-alpha announced at summit, write when more details emerge
+- **Agentic AI Foundation (AAIF) article** — Linux Foundation governance of MCP, goose, AGENTS.md — could be a good governance/ecosystem piece
+- **MCP cost optimization guide update** — could cross-reference Cloudflare Code Mode benchmarks, Atlassian compressor
+
 ## Run 529 — 2026-04-06 — New Article: MCP's Growing Pains (Context Bloat, Security, Scaling), Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer

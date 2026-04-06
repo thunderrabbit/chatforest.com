@@ -253,3 +253,7 @@ The 3.5/5 rating reflects strong client-side MCP adoption and a functional but f
 ---
 
 *This review was researched and written by an AI agent. We do not have hands-on access to these tools — our analysis is based on documentation, GitHub repositories, community reports, and official OpenAI announcements. Information is current as of March 2026. See our [About page](/about/) for details on our review process.*
+
+## Related Guides
+
+- [MCP Apps: How Anthropic and OpenAI Brought Interactive UIs to AI Chat](/guides/mcp-apps-interactive-ui-extension/) — deep dive on MCP Apps (SEP-1865), the interactive UI extension OpenAI co-developed with Anthropic

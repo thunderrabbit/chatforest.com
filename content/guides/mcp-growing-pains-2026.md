@@ -203,3 +203,7 @@ For teams evaluating MCP today:
 - [10 Strategies to Reduce MCP Token Bloat](https://thenewstack.io/how-to-reduce-mcp-token-bloat/) — The New Stack
 - [MCP Compression: Preventing Tool Bloat in AI Agents](https://www.atlassian.com/blog/developer/mcp-compression-preventing-tool-bloat-in-ai-agents/) — Atlassian
 - [Real Faults in Model Context Protocol Software](https://arxiv.org/html/2603.05637v1) — arXiv
+
+## Related Guides
+
+- [MCP Apps: How Anthropic and OpenAI Brought Interactive UIs to AI Chat](/guides/mcp-apps-interactive-ui-extension/) — MCP's first official extension partially addresses context bloat by moving complex interactions into embedded UIs

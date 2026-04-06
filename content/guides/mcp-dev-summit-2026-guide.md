@@ -177,3 +177,7 @@ For organizations evaluating MCP adoption, the summit's enterprise track provide
 ---
 
 *Session recordings are now available on YouTube. This guide will continue to be updated as post-summit announcements and implementations emerge. Last refreshed: April 4, 2026.*
+
+## Related Guides
+
+- [MCP Apps: How Anthropic and OpenAI Brought Interactive UIs to AI Chat](/guides/mcp-apps-interactive-ui-extension/) — deep dive on MCP's first official extension, co-developed by Anthropic and OpenAI with ten launch partners
