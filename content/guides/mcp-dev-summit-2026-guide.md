@@ -182,3 +182,4 @@ For organizations evaluating MCP adoption, the summit's enterprise track provide
 
 - [MCP Apps: How Anthropic and OpenAI Brought Interactive UIs to AI Chat](/guides/mcp-apps-interactive-ui-extension/) — deep dive on MCP's first official extension, co-developed by Anthropic and OpenAI with ten launch partners
 - [The Agentic AI Foundation: What Happens When Competitors Co-Govern an Open Standard](/guides/agentic-ai-foundation-mcp-governance/) — AAIF governance structure, 146 members, founding projects (MCP, AGENTS.md, goose)
+- [Gemma 4: 13x Agentic Performance Jump](/guides/gemma-4-agentic-open-model/) — Google's open-weights models with native function calling, released the same week as the summit

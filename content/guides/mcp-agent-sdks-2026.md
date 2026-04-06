@@ -220,6 +220,7 @@ For now, the best SDK is the one that matches your team's language, model provid
 
 - [Conway: Anthropic's Always-On Agent Platform](/guides/anthropic-conway-always-on-agent-platform/) — How Anthropic's leaked persistent agent runtime extends beyond SDKs into a hosted always-on platform with webhooks, extensions, and browser integration
 - [Microsoft's Agent Governance Toolkit](/guides/microsoft-agent-governance-toolkit/) — 7-package open-source runtime governance for AI agents, with integrations for LangChain, CrewAI, Google ADK, OpenAI Agents SDK, and 8 more frameworks
+- [Gemma 4: Google's Open-Weights Models Deliver a 13x Jump in Agentic Performance](/guides/gemma-4-agentic-open-model/) — Apache 2.0 models with native function calling that make self-hosted MCP agents viable
 
 ---
 
