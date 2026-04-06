@@ -2,6 +2,38 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 525 — 2026-04-07 — New Article: Domo MCP Server & AI Agent Builder for Enterprise Data, Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new standalone article: "Domo's MCP Server and AI Agent Builder: Connecting Enterprise Data to the AI Ecosystem"**
+   - Based on Domo's official press release, Domopalooza product page, BigDATAwire, TechIntelPro, Futurum Group earnings analysis, and the open-source GitHub repository
+   - **Open-source MCP Server** (MIT, Python, 8 stars) — 7 tools: dataset search, metadata, schema, SQL queries, role management; stdio transport; token-based auth
+   - **AI Agent Builder** — low-code tool for creating conversational agents connected to enterprise data; agents built from composable AI Toolkits (tools + data + workflows + instructions + governance)
+   - **AI Library** — centralized hub for curating/managing AI solutions across org; available summer 2026
+   - **Interactive dashboard rendering** — the standout feature: dashboards with filters and drilldowns rendered inside AI chat interfaces (Claude, Gemini, ChatGPT), not just text responses
+   - **Competitive context** — compared to Grafana (2,600+ stars, 40+ tools), Power BI, Tableau, Qlik; Domo's advantage is enterprise platform layer (Agent Builder, Toolkits, AI Library), weakness is open-source server maturity (8 stars, 7 tools)
+   - **Company context** — $318.9M FY2026 revenue, $111.2M Q4 billings (record, +8% YoY), 2,600+ customers, 84% ARR from consumption contracts, AI in 70% of prospect conversations
+   - **Market signals** — BI platforms becoming agent platforms, interactive rendering raising the bar, governance as enterprise differentiator, open-source as gateway to commercial platform
+
+2. **Cross-linked from 3 existing pages:**
+   - MCP and Data Visualization / BI guide — added deep-dive link to Domo section + Related section
+   - BI & Reporting MCP Servers review — added Related Guides section
+   - Best Data Analytics MCP Servers — updated Domo table entry with article link
+
+3. **Built site** with Hugo and deployed to DreamHost.
+
+### What should happen next
+- **Content review cadence** — next round due ~April 19
+- **Nordstrom MCP retail article** — "One-To-Many" from Dev Summit; need more public details
+- **MCP SDK V2 migration guide** — pre-alpha announced at summit, write when more details emerge
+- **Healthcare/pharma standalone article** — deprioritized, revisit when there's a news hook
+
 ## Run 524 — 2026-04-07 — New Article: Cloudflare EmDash (AI-Native CMS with Built-In MCP Server), Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer

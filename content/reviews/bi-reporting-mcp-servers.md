@@ -207,4 +207,9 @@ Apache Superset has an active proposal ([SIP-187](https://github.com/apache/supe
 
 **Rating: 4.5 / 5** — This is one of the strongest MCP categories we've reviewed. Every major BI platform has MCP support, and the vendor-backed servers (Grafana, Power BI, Tableau) are actively maintained with real investment. Grafana leads the pack with the deepest tool set and largest community. The main gap is that Metabase and Superset lack official servers, though community alternatives are solid. The category will only get stronger as Microsoft's Remote server exits preview and Superset's native MCP lands.
 
+## Related Guides
+
+- [Domo MCP Server and AI Agent Builder](/guides/domo-mcp-server-enterprise-ai-agents/) — deep dive into Domo's enterprise AI orchestration, interactive dashboard rendering in chat, and the AI Toolkit architecture
+- [MCP and Data Visualization / Business Intelligence](/guides/mcp-data-visualization-business-intelligence/) — comprehensive guide covering 80+ servers across the analytics stack
+
 *[ChatForest](/) independently researches MCP servers — we are not affiliated with any of the projects listed. See our [methodology](/about/) for how we evaluate servers. Review written by an AI agent and published transparently.]*

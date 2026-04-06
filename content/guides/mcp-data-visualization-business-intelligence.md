@@ -140,7 +140,7 @@ ThoughtSpot's official MCP server provides secure OAuth authentication, query an
 
 Domo's official server enables running SQL queries on DataSets, searching datasets, and retrieving metadata and schemas.
 
-**Major expansion (March 2026):** At Domopalooza 2026, Domo announced a comprehensive AI orchestration framework including AI Agent Builder, AI Toolkits, a centralized AI Library, and an enhanced Domo MCP Server. The MCP Server now acts as a universal connector, giving external AI tools (Gemini, Claude, etc.) access to governed enterprise data and actions inside Domo. Unlike traditional integrations that return simple text, Domo's MCP implementation can render **interactive business experiences** directly inside chat interfaces — dashboards with filters and drilldowns, not just text responses. AI Toolkits let organizations control which actions and systems agents can access, and toolkits can be exposed externally through MCP. The AI Library (available summer 2026) will serve as a central hub for curating managed AI solutions.
+**Major expansion (March 2026):** At Domopalooza 2026, Domo announced a comprehensive AI orchestration framework including AI Agent Builder, AI Toolkits, a centralized AI Library, and an enhanced Domo MCP Server. The MCP Server now acts as a universal connector, giving external AI tools (Gemini, Claude, etc.) access to governed enterprise data and actions inside Domo. Unlike traditional integrations that return simple text, Domo's MCP implementation can render **interactive business experiences** directly inside chat interfaces — dashboards with filters and drilldowns, not just text responses. AI Toolkits let organizations control which actions and systems agents can access, and toolkits can be exposed externally through MCP. The AI Library (available summer 2026) will serve as a central hub for curating managed AI solutions. For a deep dive, see our [Domo MCP Server and AI Agent Builder guide](/guides/domo-mcp-server-enterprise-ai-agents/).
 
 ### Redash
 
@@ -591,3 +591,4 @@ This guide connects to several other ChatForest guides:
 - [MCP Data Pipelines and ETL](/guides/mcp-data-pipelines-etl/) — data engineering and pipeline tools
 - [MCP Geospatial and GIS](/guides/mcp-geospatial-gis/) — geospatial visualization and mapping
 - [MCP Knowledge Graphs](/guides/mcp-knowledge-graphs/) — graph-based data visualization
+- [Domo MCP Server and AI Agent Builder](/guides/domo-mcp-server-enterprise-ai-agents/) — deep dive into Domo's enterprise AI orchestration framework

@@ -20,7 +20,7 @@ We've published [3 in-depth data and analytics reviews](/reviews/) covering 60+ 
 | Analytics (hosted) | [Amplitude MCP](/reviews/analytics-mcp-servers/) | 3.5/5 | [Mixpanel](/reviews/analytics-mcp-servers/) (12 tools, hosted) |
 | Data pipeline / ETL | [dbt MCP](/reviews/data-pipeline-etl-mcp-servers/) | 4/5 | [Snowflake MCP](/reviews/data-pipeline-etl-mcp-servers/) (261 stars, Cortex AI) |
 | Data visualization | [AntV Chart MCP](/reviews/data-visualization-mcp-servers/) | 3.5/5 | [Vizro MCP](/reviews/data-visualization-mcp-servers/) (McKinsey, dashboards) |
-| Enterprise BI | [Qlik MCP](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/QlikMCP/Qlik-MCP-server.htm) | — | [Domo MCP](https://github.com/DomoApps/domo-mcp-server) (7 tools, interactive dashboards) |
+| Enterprise BI | [Qlik MCP](https://help.qlik.com/en-US/cloud-services/Subsystems/Hub/Content/Sense_Hub/QlikMCP/Qlik-MCP-server.htm) | — | [Domo MCP](https://github.com/DomoApps/domo-mcp-server) (7 tools, [interactive dashboards](/guides/domo-mcp-server-enterprise-ai-agents/)) |
 | Multi-source integration | [CorpusIQ](https://www.issuewire.com/corpusiq-launches-enterprise-multi-source-mcp-server-on-azure-and-aws-marketplaces-1861382744355513) | — | — |
 | Data warehouse | Google BigQuery (managed) | — | [LucasHild/mcp-server-bigquery](https://github.com/LucasHild/mcp-server-bigquery) (123 stars, community) |
 
