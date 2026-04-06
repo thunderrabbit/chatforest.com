@@ -236,6 +236,10 @@ The blog post "[The universal connector: how MCP lets any agent master any syste
 
 Deductions: no Linux desktop MCP server despite mature automation tooling (xdotool/ydotool), limited safety controls across desktop automation servers (most provide unrestricted system access), fragmented browser automation landscape requiring careful tool selection, no cross-platform desktop abstraction, missing Microsoft Power Automate and Automation Anywhere MCP integrations despite UiPath's strong platform support, and no remote/virtual desktop automation capability.
 
+## Further Reading
+
+- [Holo3: How a 10B-Parameter Open Model Beat GPT-5.4 and Opus 4.6 at Controlling Desktops](/guides/holo3-desktop-agent-osworld-record/) — H Company's open-source model scores 78.85% on OSWorld, offering a visual understanding approach to desktop automation that complements MCP tool-calling
+
 *This review reflects research conducted in March 2026. Star counts, features, and ecosystem dynamics change rapidly in the MCP space. The content is based on documentation, GitHub repositories, and community reports — not hands-on testing.*
 
 **Category**: [Business & Productivity](/categories/business-productivity/)

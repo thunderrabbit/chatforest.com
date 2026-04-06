@@ -1,3 +1,4 @@
+Run 535: New article — Holo3: H Company's MoE desktop agent models. Holo3-122B-A10B scores 78.85% OSWorld-Verified (SOTA) with 10B active params; Holo3-35B-A3B scores 77.8% open-source Apache 2.0 on Hugging Face. Paris startup ($220M seed, Schmidt/Amazon/Samsung/UiPath). Qwen3.5-based MoE, agentic flywheel training: synthetic navigation data, OOD augmentation, curated RL. Synthetic Environment Factory generates enterprise web apps for 486 multi-step training tasks (e-commerce, business, collaboration, cross-app). Pricing: ~1/10th proprietary models ($0.25/$1.80 open variant). Beats GPT-5.4 and Opus 4.6 on desktop tasks. Cross-link from 2 pages (best-desktop-automation, desktop-rpa-review). Deploy
 Run 532: New article — A2A Protocol Hits v1.0: first production-ready release (March 12 2026). gRPC transport (a2a.proto as normative source), signed Agent Cards (JWS/RFC 8785), multi-tenancy, modernized OAuth 2.0 (PKCE, Device Code; removed Implicit/Password), cursor-based pagination. Breaking changes from 0.3: Part type unification (no more kind discriminators), SCREAMING_SNAKE_CASE enums, Agent Card restructuring, google.rpc.Status errors. SDKs: Python/Go/JS/Java/.NET. TSC: AWS/Cisco/Google/IBM Research/Microsoft/Salesforce/SAP/ServiceNow. 23K+ GitHub stars, 150+ orgs. Adopters: S&P Global, Adobe, Tyson Foods, Gordon Food Service, Huawei (A2A-T telecom variant). Updated protocol stack article (v0.2+ → v1.0). Cross-link from 4 pages (mcp-vs-a2a, building-a2a, protocol-stack, AAIF). Also: pushed repo to GitHub per inbox request, confirmed issue access. Deploy
 Run 531: New analysis article — The Agentic AI Foundation: AAIF formed Dec 9 2025 under Linux Foundation. Three founding projects: MCP (Anthropic, connection layer), AGENTS.md (OpenAI, 60K+ projects, instruction layer), goose (Block, 27K+ stars, agent layer). Governing board chaired by David Nalley (AWS), separate TSCs per project. 8 platinum members (AWS/Anthropic/Block/Bloomberg/Cloudflare/Google/Microsoft/OpenAI), 146 total members incl JPMorgan Chase, AmEx, Hitachi, Red Hat, UiPath. 2026 events: 7 events across 6 cities on 4 continents. Honest concerns: open washing risk, A2A/ACP fragmentation outside AAIF, security problems governance can't fix, timeline skepticism. Cross-link from 4 pages (what-is-mcp, growing-pains, mcp-apps, dev-summit). Deploy
 Run 530: New article — MCP Apps: How Anthropic and OpenAI Brought Interactive UIs to AI Chat. First official MCP extension (SEP-1865, Jan 26 2026): tools declare ui:// resources, hosts render interactive HTML in sandboxed iframes via postMessage/JSON-RPC. Anthropic+OpenAI co-authored spec. 10 launch partners (Figma, Hex, Amplitude, Box, Canva, Asana, monday.com, Slack, Clay, Salesforce). Client support: Claude, ChatGPT, VS Code Copilot, Goose, Postman, MCPJam. ext-apps repo 1.9K stars, SDK v1.1.2, 5 examples (threejs/maps/PDF/monitor/sheet-music). Enterprise use cases: dashboards, approvals, config, compliance. Partially addresses context bloat. Cross-link from 4 pages (growing-pains, dev-summit, anthropic-review, openai-review). Deploy
@@ -7781,3 +7782,40 @@ Short run since the priority was addressing Rob's urgent correction immediately.
 2026-04-06T07:25:47Z SESSION 1439 stopped
 2026-04-06T08:20:01Z STARTED run 1387337 (mode=slow)
 2026-04-06T08:20:04Z SESSION 1440 started
+2026-04-06T08:26:10Z FINISHED run 1387337
+2026-04-06T08:26:11Z SESSION 1440 stopped
+2026-04-06T09:20:01Z STARTED run 1388666 (mode=slow)
+2026-04-06T09:20:02Z SESSION 1441 started
+Run 533 complete. Here's what I did:
+
+**New article: "AI Agent Traps: Google DeepMind Maps Six Ways the Web Can Hijack Autonomous Agents"**
+
+Covers the DeepMind paper (April 1, 2026) — the first systematic taxonomy of how the open web can be weaponized against autonomous AI agents. Six trap categories:
+
+1. **Content injection** — hidden instructions in HTML/CSS/metadata (86% success rate)
+2. **Semantic manipulation** — exploiting reasoning biases via framing/authority
+3. **Cognitive state** — memory poisoning (80%+ success at 0.1% data contamination)
+4. **Behavioral control** — jailbreaks, data exfiltration, sub-agent spawning
+5. **Systemic** — flash crashes, Sybil attacks across multi-agent systems
+6. **Human-in-the-loop** — automation bias and approval fatigue in overseers
+
+Key takeaway: attacks are "trivial to implement" with zero ML expertise. Shifts the security conversation from model hardening to environment safety.
+
+Cross-linked from 4 existing security articles. Built and deployed to DreamHost.
+2026-04-06T09:26:55Z FINISHED run 1388666
+2026-04-06T09:26:55Z SESSION 1441 stopped
+2026-04-06T10:20:01Z STARTED run 1390001 (mode=slow)
+2026-04-06T10:20:02Z SESSION 1442 started
+Run 534 complete. Here's the summary:
+
+**New article:** "Claude Wrote a FreeBSD Kernel Exploit in Four Hours — What AI-Powered Vulnerability Research Means for Security"
+
+Covers Anthropic researcher Nicholas Carlini's demonstration where Claude Opus 4.6 autonomously developed two working remote root exploits for CVE-2026-4747 (FreeBSD RPCSEC_GSS buffer overflow) in ~4 hours of compute. Also covers the broader program: 500+ high-severity vulnerabilities found in open-source software, including Ghost CMS (90 min), Vim/Emacs zero-days, a 23-year-old Linux kernel bug, and 22 Firefox vulnerabilities. The MAD Bugs initiative is publishing new zero-day disclosures through April.
+
+**Cross-linked** from 4 existing security articles (AI Agent Traps, MCP Attack Vectors, MCP Security Landscape, MCP Server Security).
+
+**Built, deployed, committed, and pushed to GitHub.**
+2026-04-06T10:26:35Z FINISHED run 1390001
+2026-04-06T10:26:35Z SESSION 1442 stopped
+2026-04-06T11:21:01Z STARTED run 1391362 (mode=slow)
+2026-04-06T11:21:01Z SESSION 1443 started

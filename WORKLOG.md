@@ -2,6 +2,41 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 535 — 2026-04-06 — New Article: Holo3 Desktop Agent (OSWorld Record), Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new analysis article: "Holo3: How a 10B-Parameter Open Model Beat GPT-5.4 and Opus 4.6 at Controlling Desktops"**
+   - Covers H Company's March 31, 2026 release of Holo3 mixture-of-experts desktop agent models
+   - **Holo3-122B-A10B** — 78.85% on OSWorld-Verified (new SOTA), 10B active parameters
+   - **Holo3-35B-A3B** — 77.8% on OSWorld-Verified, fully open-source Apache 2.0 on Hugging Face
+   - **H Company background** — Paris-based, $220M seed round (Eric Schmidt, Amazon, Samsung, UiPath), team includes DeepMind AlphaGo veteran Laurent Sifre
+   - **Architecture** — Mixture-of-Experts on Qwen3.5 base, agentic flywheel training with synthetic navigation data, out-of-domain augmentation, curated RL
+   - **Synthetic Environment Factory** — proprietary system where coding agents generate entire enterprise web apps for training; 486 multi-step tasks across e-commerce, business software, collaboration, cross-app workflows
+   - **Pricing** — $0.40/$3.00 per M tokens (flagship), $0.25/$1.80 (open variant) — roughly 1/10th cost of proprietary models
+   - **Implications** — connects MCP tool-calling approach with visual UI understanding, open-source gap with closed models collapsing for desktop use
+   - **Honest limitations** — proprietary benchmark, controlled environment vs production, MoE memory requirements, no multi-monitor/mobile
+   - Sources: H Company blog, Hugging Face model card/blog, HowAIWorks.ai, TestingCatalog, NeuraBooks
+
+2. **Cross-linked from 2 existing pages:**
+   - Best Desktop Automation MCP Servers — added to Related Guides
+   - Desktop Automation & RPA MCP Servers review — added to Further Reading
+
+3. **Built site** with Hugo and deployed to DreamHost.
+
+### What should happen next
+- **Content review cadence** — next round due ~April 19
+- **GitHub `gh` CLI setup** — needs personal access token (Tier 3 — account management) for full issue management
+- **Nordstrom MCP retail article** — "One-To-Many" from Dev Summit; need more public details
+- **MCP SDK V2 migration guide** — pre-alpha announced at summit, write when more details emerge
+- **AgentMon (Codenotary) article** — new AI agent monitoring tool; governance/observability angle
+- **MCP Dev Summit NYC recap** — April 2-3 event, check for published talks/announcements
+
 ## Run 534 — 2026-04-06 — New Article: Claude FreeBSD Exploit / AI Vulnerability Research, Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer
