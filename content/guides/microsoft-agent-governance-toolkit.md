@@ -225,3 +225,4 @@ For teams deploying AI agents in production, the toolkit is worth evaluating —
 - [AgentMon: Codenotary's Enterprise Monitoring for AI Agent Networks](/guides/agentmon-codenotary-ai-agent-monitoring/) — observability layer that pairs with governance enforcement
 - [AI Agent Traps: Google DeepMind's 6-Category Adversarial Taxonomy](/guides/ai-agent-traps-deepmind-adversarial-threats/) — the threat models the OWASP mapping addresses
 - [AI Agent SDKs in 2026](/guides/mcp-agent-sdks-2026/) — the frameworks the toolkit integrates with
+- [Claude Cowork — Enterprise AI Agent Platform](/guides/claude-cowork-enterprise-ai-agents-plugins/) — Microsoft's Copilot Cowork runs on Claude; this guide covers the Anthropic side of that partnership
