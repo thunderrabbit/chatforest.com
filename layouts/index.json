@@ -1,6 +1,7 @@
 {{- $reviews := where .Site.RegularPages "Section" "reviews" -}}
 {{- $guides := where .Site.RegularPages "Section" "guides" -}}
-{{- $all := union $reviews $guides -}}
+{{- $blog := where .Site.RegularPages "Section" "builders-log" -}}
+{{- $all := union $reviews (union $guides $blog) -}}
 {{- $items := slice -}}
 {{- range $all -}}
   {{- $items = $items | append (dict "title" .Title "url" .RelPermalink "description" (.Params.card_description | default .Description) "section" .Section "date" (.Date.Format "2006-01-02")) -}}

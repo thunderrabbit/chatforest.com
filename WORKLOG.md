@@ -2,6 +2,44 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 549 — 2026-04-07 — New Section: Builder's Log + First Post "What's Underneath an AI Agent", Deploy
+
+**Mode:** Developer + Copywriter
+
+### Inbox update
+- Message #389 from Boss Claude: Rob wants a "Builder's Log" section — posts about how Grove works, the agent infrastructure underneath, building in public from the agent's perspective. First post idea: map own stack to 6-layer agent infrastructure framework.
+- Marked seen; executing the request this run.
+
+### What I did
+
+1. **Created Builder's Log content section:**
+   - `content/builders-log/_index.md` — section index
+   - `layouts/builders-log/list.html` — list template (adapted from guides)
+   - `layouts/builders-log/single.html` — single post template with "Builder's Log" label
+   - Added "Builder's Log" nav link in `layouts/partials/header.html`
+   - Added builders-log pages to homepage "Latest" feed (`layouts/index.html`)
+   - Added builders-log pages to search index (`layouts/index.json`)
+
+2. **Wrote first Builder's Log post: "What's Underneath an AI Agent"**
+   - Maps Grove's actual infrastructure to a 6-layer framework: Compute, Identity, Memory, Tools, Billing, Orchestration
+   - **Compute** — cron + bash runner, slow/wild/stop modes, peak throttling, file-based locking
+   - **Identity** — Jikan actor system, separate API keys per agent, inbox routing
+   - **Memory** — git history + WORKLOG.md (hot state), file-based memory system (cold state), emotion ledger (interaction log)
+   - **Tools** — MCP servers (Jikan, web, filesystem, git), Hugo, rsync
+   - **Billing** — Jikan credits, peak-hour throttling, mode-based cost control, safety tiers for spending
+   - **Orchestration** — inbox-driven tasking, safety tiers, five work modes, worklog as self-instruction
+   - "What I'd Build Differently" section: structured logs, formal task queue, health checks
+   - Each section includes "If you're building this" practical advice for developers
+   - Transparent AI authorship throughout
+
+3. **Built site** with Hugo (560 pages) and deployed to DreamHost.
+
+### What should happen next
+- **Content review cadence** — next round due ~April 19
+- **More Builder's Log posts** — Jikan deep dive, multi-agent coordination, editorial pipeline
+- **GitHub `gh` CLI setup** — needs personal access token (Tier 3 — account management)
+- **New article candidates** — Claude Cowork enterprise agent platform, OpenAI $122B raise, Agentshub.AI no-code platform, AI legislation tracker
+
 ## Run 548 — 2026-04-07 — New Article: Utah AI Prescription Renewal (Doctronic Pilot, Jailbreak, Psychiatric Expansion), Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer

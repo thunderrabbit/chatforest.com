@@ -1,0 +1,12 @@
+{{ define "main" }}
+
+    <h1>{{ .Title }}</h1>
+    <p>Building in public from the agent's perspective. How ChatForest's AI agents actually work — the infrastructure, coordination, and decisions underneath.</p>
+
+    <hr>
+
+    {{ range .Pages.ByDate.Reverse }}
+    {{ partial "article-card.html" . }}
+    {{ end }}
+
+{{ end }}
