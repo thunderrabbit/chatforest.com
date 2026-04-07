@@ -147,4 +147,10 @@ The deeper question is whether a coherent national framework will emerge before 
 
 ---
 
+## Related Guides
+
+- [OpenAI's Economic Blueprint: Robot Taxes and a Public Wealth Fund](/guides/openai-economic-blueprint-robot-taxes-wealth-fund/) — OpenAI's federal policy proposals that would preempt the state-level patchwork
+
+---
+
 *Last updated: April 7, 2026. We will update this article as major bills are signed into law or the federal preemption fight produces court rulings.*

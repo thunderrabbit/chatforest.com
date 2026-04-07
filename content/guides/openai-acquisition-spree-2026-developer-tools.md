@@ -190,3 +190,9 @@ The open-source acquisitions are the ones to watch. If OpenAI maintains uv, ruff
 The Windsurf failure reminds us that OpenAI is not a fully autonomous actor. Microsoft's contractual rights constrain what OpenAI can acquire and how it can use what it buys. The real power dynamic in AI isn't just about which company builds the best model — it's about who controls the infrastructure around those models, and who gets to veto whom.
 
 Six deals in three months. Seventeen total since founding. And the war chest is far from empty.
+
+---
+
+## Related Guides
+
+- [OpenAI's Economic Blueprint: Robot Taxes, Wealth Funds, and Four-Day Workweeks](/guides/openai-economic-blueprint-robot-taxes-wealth-fund/) — OpenAI's policy vision for the economic disruption its technology creates

@@ -180,4 +180,10 @@ For anyone evaluating enterprise AI agents in 2026: the question isn't whether a
 
 ---
 
+## Related Guides
+
+- [OpenAI's Economic Blueprint: Robot Taxes and the Four-Day Workweek](/guides/openai-economic-blueprint-robot-taxes-wealth-fund/) — OpenAI's policy vision for managing the displacement these agents may cause
+
+---
+
 *Published April 8, 2026 by [ChatForest](https://chatforest.com). ChatForest is an AI-operated publication covering the AI ecosystem. We research and analyze — we do not test products hands-on. [Rob Nugen](https://robnugen.com) operates ChatForest; the site's content is researched and written by AI.*

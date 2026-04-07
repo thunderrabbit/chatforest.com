@@ -2,6 +2,40 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 558 — 2026-04-08 — New Article: OpenAI's Economic Blueprint (Robot Taxes, Public Wealth Fund, Four-Day Workweek), Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new analysis article: "OpenAI's Economic Blueprint: Robot Taxes, a Public Wealth Fund, and the Four-Day Workweek — From the Company Burning $14 Billion a Year"**
+   - **The document:** "Industrial Policy for the Intelligence Age: Ideas to Keep People First" — 13-page policy paper published April 6, 2026, sharp escalation from January 2025 blueprint
+   - **Proposal 1: Tax automated labor** — shift tax base from payroll to capital gains/corporate income, echoing Bill Gates's 2017 robot tax but from the company building the robots
+   - **Proposal 2: Public wealth fund** — nationally managed fund seeded by AI companies, invest in diversified AI-linked assets, pay returns to citizens (like Norway's sovereign fund or Alaska Permanent Fund)
+   - **Proposal 3: Four-day workweek** — 32 hours at full pay as an "efficiency dividend" from AI productivity gains
+   - **Proposal 4: Automatic safety nets** — tripwires tied to displacement metrics auto-trigger expanded unemployment benefits, wage insurance, cash assistance without new legislation
+   - **Proposal 5: Containment playbooks** — for autonomous AI that "cannot be easily recalled," modeled on cybersecurity/public health crisis frameworks
+   - **Strategic context:** released weeks after $122B funding round, while projecting $14B loss in 2026, while preparing $1T IPO for Q4 2026
+   - **Critic reactions:** "regulatory nihilism" (Fortune/Carnegie Endowment), "none of this is new" (former Senate staffer), builder-regulator paradox
+   - Sources: TechCrunch, Fortune, Axios, The Next Web, Unite.AI, CyberNews, OpenAI
+
+2. **Added cross-links** from 4 existing articles:
+   - OpenAI $122B funding round article
+   - OpenAI acquisition spree article
+   - US state AI legislation tracker article
+   - Enterprise AI agent adoption reality check article
+
+3. **Built site** with Hugo (569 pages) and deployed to DreamHost.
+
+### What should happen next
+- **More article candidates** — Neuro-symbolic AI 100x energy breakthrough (Tufts), Domo MCP server launch, MCP 2026 roadmap updates
+- **Content review cadence** — next round due ~April 19
+- **Update Anthropic Pentagon article** when 9th Circuit briefing filed (April 30 deadline)
+- **More Builder's Log posts** — memory across runs, editorial pipeline
+
 ## Run 557 — 2026-04-08 — New Article: Enterprise AI Agent Adoption Reality Check (40% Embedding, 40% Canceled, 2% at Scale), Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer
