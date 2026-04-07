@@ -485,6 +485,7 @@ The healthcare MCP ecosystem is maturing rapidly. Key trends to watch:
 - [MCP in Production](/guides/mcp-in-production/) — production deployment patterns and reliability
 - [MCP Multi-Agent Architectures](/guides/mcp-multi-agent-architectures/) — multi-agent patterns relevant to clinical teams
 - [MCP and Data Governance](/guides/mcp-data-governance-catalogs/) — governance patterns applicable to healthcare data
+- [Utah Lets AI Renew Prescriptions Without a Doctor](/guides/utah-ai-prescription-renewal-doctronic/) — the first state-approved autonomous AI prescribing pilot, security vulnerabilities, and medical establishment pushback
 
 ---
 

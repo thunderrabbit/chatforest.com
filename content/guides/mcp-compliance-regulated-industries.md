@@ -397,3 +397,4 @@ The compliance tooling around MCP is maturing rapidly. Organizations that start 
 - [MCP Enterprise Infrastructure](/guides/mcp-enterprise-infrastructure/) — enterprise deployment patterns
 - [MCP Logging and Observability](/guides/mcp-logging-observability/) — monitoring MCP systems
 - [MCP Reaches the IETF](/guides/mcp-ietf-standardization/) — formal internet standardization efforts that support compliance requirements
+- [Utah Lets AI Renew Prescriptions Without a Doctor](/guides/utah-ai-prescription-renewal-doctronic/) — a real-world case study in AI operating autonomously in a regulated healthcare environment

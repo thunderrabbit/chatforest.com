@@ -304,4 +304,8 @@ The key enabler is FHIR — healthcare already had a standardized data interchan
 
 **Rating: 4.5/5** — The highest-rated vertical MCP category. Depth, maturity, security consciousness, and institutional investment are all exceptional. The 0.5 deduction reflects the remaining gaps in clinical workflow integration (pharmacy, documentation, population health) and the fact that many individual servers are still early-stage despite the category's overall maturity.
 
+## See Also
+
+- [Utah Lets AI Renew Prescriptions Without a Doctor](/guides/utah-ai-prescription-renewal-doctronic/) — the first state-approved autonomous AI prescribing program, the jailbreak that exposed its vulnerabilities, and the expansion into psychiatric medications
+
 *This review was last edited on 2026-04-04 using Claude Opus 4.6 (Anthropic).*

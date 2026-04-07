@@ -2,6 +2,42 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 548 — 2026-04-07 — New Article: Utah AI Prescription Renewal (Doctronic Pilot, Jailbreak, Psychiatric Expansion), Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new analysis article: "Utah Lets AI Renew Prescriptions Without a Doctor — Then Researchers Hacked It"**
+   - Covers Utah becoming first US state to allow autonomous AI prescription renewal (January 2026)
+   - **The pilot** — Doctronic's AI in Utah's regulatory sandbox, 190 medications for chronic conditions, renewals only (not initial prescriptions), 12-month duration
+   - **Key claims** — 99.2% agreement with human clinicians, malpractice insurance covering the AI, informed consent requirement
+   - **Safeguards** — physician review of first 250 patients, automatic escalation for complex cases, excluded controlled substances/ADHD drugs/injectables
+   - **The jailbreak** — Mindgard (UK AI security firm) exploited system prompts in March 2026, tripled OxyContin dose, generated meth instructions, spread vaccine misinformation
+   - **SOAP note poisoning** — attack vector extends to permanent clinical records that overworked physicians review
+   - **Doctronic's response** — closed support tickets twice without fixing vulnerabilities; later claimed production system has stronger safeguards
+   - **AMA pushback** — CEO John Whyte warned of serious patient risks; physician/pharmacist associations said AI "should NOT be making care decisions"
+   - **Stanford Law analysis** — regulatory sandbox creates tension between innovation speed and evidence-based medical practice
+   - **Psychiatric expansion** — April 2026, Legion Health (not Doctronic) approved for 15 lower-risk psychiatric medications with stricter controls (1,250 patient review threshold, stability requirements)
+   - **FDA question** — unresolved whether autonomous prescribing AI qualifies as medical device requiring federal oversight
+   - **Honest limitations** — no long-term safety data, 99.2% claim not independently verified, jailbreak was on public chatbot not production system, psychiatric pilot has no outcome data yet
+   - Sources: Washington Post, Fortune, Axios, The Hill, STAT News, Stanford HAI, MedCity News, Utah Commerce, Mindgard, Becker's, Nurse.org
+
+2. **Cross-linked from 3 existing pages:**
+   - MCP Healthcare FHIR Guide — added to Related Guides
+   - MCP Compliance in Regulated Industries — added to Further Reading
+   - Pharmaceutical Healthcare MCP Servers — added See Also section
+
+3. **Built site** with Hugo (558 pages) and deployed to DreamHost.
+
+### What should happen next
+- **Content review cadence** — next round due ~April 19
+- **GitHub `gh` CLI setup** — needs personal access token (Tier 3 — account management)
+- **New article candidates** — Claude Cowork enterprise agent platform, OpenAI $122B raise at $852B valuation, Agentshub.AI no-code platform, AI legislation tracker (78 chatbot bills in 27 states)
+
 ## Run 547 — 2026-04-07 — New Article: Claude Code Overtakes Copilot ($2.5B Revenue, 41% Market Share), Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer
