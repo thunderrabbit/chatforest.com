@@ -255,6 +255,7 @@ The gap between current MCP capabilities and production security requirements is
 - [AI Agent Traps: Google DeepMind Maps Six Ways the Web Can Hijack Autonomous Agents](/guides/ai-agent-traps-deepmind-adversarial-threats/) — DeepMind's taxonomy of environment-level attacks: content injection (86% success), memory poisoning (80%+ at 0.1% contamination), and four more categories
 - [Claude Wrote a FreeBSD Kernel Exploit in Four Hours](/guides/claude-freebsd-exploit-ai-vulnerability-research/) — AI-powered vulnerability research finds 500+ high-severity bugs, compressing exploit timelines from weeks to hours
 - [Qualys Agent Val: AI-Powered Exploit Validation](/guides/qualys-agent-val-ai-exploit-validation/) — the defense side: an AI agent that validates whether CVEs are actually exploitable in your environment and autonomously remediates confirmed risks
+- [Claude Mythos: Anthropic's Next-Gen Model Leak](/guides/claude-mythos-anthropic-next-gen-model-leak/) — Leaked documents reveal Anthropic's next-gen model can identify and exploit vulnerabilities faster than defenders can patch them, raising stakes for MCP security
 
 ---
 
