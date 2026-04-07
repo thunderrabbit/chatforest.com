@@ -202,6 +202,7 @@ The foundation model has worked for Kubernetes, Linux, and Node.js. Whether it w
 - [Uber's MCP Gateway](/guides/uber-mcp-gateway-agentic-engineering/) — Enterprise MCP deployment at scale
 - [MCP Server Security](/guides/mcp-server-security/) — Security best practices for MCP implementations
 - [A2A Protocol Hits v1.0](/guides/a2a-protocol-v1-production-ready/) — The first production-ready release of the Agent-to-Agent Protocol, also governed by the AAIF
+- [The Enterprise AI Agent Reality Check: 40% Embedding, 40% Canceled](/guides/enterprise-ai-agent-adoption-reality-check-2026/) — Governance frameworks like the AAIF's are what separate the 2% of agent deployments that scale from the 40% that get canceled
 
 ---
 
