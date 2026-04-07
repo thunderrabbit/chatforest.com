@@ -165,6 +165,7 @@ For developers evaluating tools today, the market data is clear: Claude Code is 
 - [SpaceX Acquires xAI for $250 Billion](/guides/spacex-xai-250-billion-merger-largest-in-history/) — The largest merger in history, orbital data centers, complete co-founder exodus, and a $1.75 trillion IPO filing
 - [AI Coding Assistants Compared (2026)](/guides/ai-coding-assistants-compared/) — full comparison of Claude Code, Copilot, Cursor, Windsurf, and more
 - [Claude Cowork — Anthropic's Enterprise AI Agent Platform](/guides/claude-cowork-enterprise-ai-agents-plugins/) — Cowork is Claude Code's graphical counterpart for non-technical workers, with plugin marketplaces, MCP connectors, and a Microsoft Copilot partnership
+- [OpenAI's Acquisition Spree: Six Deals in Three Months](/guides/openai-acquisition-spree-2026-developer-tools/) — OpenAI acquired Astral (uv/ruff), Promptfoo, and four other companies in Q1 2026 — Simon Willison warns about competitive leverage against Claude Code
 
 ---
 

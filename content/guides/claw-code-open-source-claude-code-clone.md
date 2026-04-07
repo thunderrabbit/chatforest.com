@@ -234,3 +234,4 @@ For developers, the immediate value is clear: Claw Code is the most readable, op
 - [AI Agent SDKs in 2026](/guides/ai-agent-protocol-stack-2026/) — the frameworks powering agent development
 - [MCP Security Landscape](/guides/mcp-security-landscape/) — security implications of agent tool access
 - [Claude Mythos: Anthropic's Leaked Next-Gen Model That Has Governments Worried About Cybersecurity](/guides/claude-mythos-anthropic-next-gen-model-leak/) — The other major Anthropic leak of March 2026: a CMS error exposed plans for a model tier above Opus with unprecedented cybersecurity capabilities
+- [OpenAI's Acquisition Spree: Six Deals in Three Months](/guides/openai-acquisition-spree-2026-developer-tools/) — OpenAI acquired Astral (the company behind uv and ruff) to boost Codex, raising open-source stewardship questions
