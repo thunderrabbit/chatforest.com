@@ -145,3 +145,4 @@ If the program produces strong safety data, it could accelerate federal framewor
 - [MCP Healthcare and FHIR Integration Guide](/guides/mcp-healthcare-fhir/) — how AI tools connect to healthcare data standards
 - [Pharmaceutical and Healthcare MCP Servers](/reviews/pharmaceutical-healthcare-mcp-servers/) — directory of healthcare-focused AI tools
 - [MCP Compliance in Regulated Industries](/guides/mcp-compliance-regulated-industries/) — framework for AI in regulated sectors
+- [The AI Law Patchwork: 1,561 Bills Across 45 States](/guides/us-state-ai-legislation-tracker-2026/) — Utah's AI prescription pilot is part of a much larger wave: 45 states introduced 1,561 AI bills in 2026, with healthcare AI emerging as a major legislative theme

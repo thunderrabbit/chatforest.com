@@ -335,7 +335,7 @@ The government MCP ecosystem is growing rapidly but has significant gaps that re
 
 **Election and voting data is underserved.** Beyond a small Hong Kong election MCP, no server provides access to US election data (FEC filings, state election results, redistricting, voter registration statistics). This is a sensitive but important area for democratic transparency.
 
-**State and local government coverage is thin.** The overwhelming majority of government MCP servers focus on federal data. State legislatures, state courts, county records, municipal code, and local open data portals have minimal MCP coverage despite being the government layer citizens interact with most frequently.
+**State and local government coverage is thin.** The overwhelming majority of government MCP servers focus on federal data. State legislatures, state courts, county records, municipal code, and local open data portals have minimal MCP coverage despite being the government layer citizens interact with most frequently. This gap is especially significant given the [explosion of state-level AI legislation — 1,561 bills across 45 states in 2026 alone](/guides/us-state-ai-legislation-tracker-2026/) — which is creating a patchwork of compliance requirements that MCP tooling does not yet address.
 
 **No benefits eligibility or navigation tools.** Government benefits (SNAP, Medicaid, housing assistance, veteran benefits) require citizens to navigate complex eligibility rules across multiple agencies. An MCP server that could query eligibility criteria and application status across programs would have significant public impact.
 

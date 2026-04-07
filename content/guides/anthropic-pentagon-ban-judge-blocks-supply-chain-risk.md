@@ -194,6 +194,7 @@ Judge Lin's ruling is one of the strongest judicial statements to date on First 
 
 - [MCP AI Safety: Guardrails, Content Filtering, and Responsible AI Patterns](/guides/mcp-ai-safety-guardrails/) — The technical side of the guardrails Anthropic refused to remove: how AI safety restrictions are implemented in practice
 - [MCP and Government: AI Agents in Public Sector Operations](/guides/mcp-government-public-sector/) — How AI is integrating into federal procurement, legislative data, and government operations — the ecosystem this dispute disrupts
+- [The AI Law Patchwork: 1,561 Bills Across 45 States](/guides/us-state-ai-legislation-tracker-2026/) — While the federal government fights to preempt state AI regulation, 45 states are racing ahead with their own laws — the broader legislative landscape behind the federal-state power struggle in this case
 - [MCP for Aerospace and Defense](/guides/mcp-aerospace-defense/) — The defense AI landscape, including procurement analysis and the tools that depend on stable government-vendor relationships
 - [Conway: Anthropic's Always-On Agent Platform](/guides/anthropic-conway-always-on-agent-platform/) — Anthropic's leaked persistent agent platform, whose government deployment prospects depend on how this case resolves
 - [Claude Code Overtakes GitHub Copilot at $2.5B Revenue](/guides/claude-code-market-leader-2-5-billion-revenue/) — Anthropic's flagship product and the revenue trajectory that makes the $200M Pentagon contract a small but symbolic piece of the business

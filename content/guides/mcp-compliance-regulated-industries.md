@@ -342,7 +342,7 @@ Several academic papers provide rigorous analysis of MCP security and compliance
 
 ### Framework Gaps
 
-NIST AI RMF and ISO/IEC 42001 do not yet cover MCP-specific risks in detail. This creates a gap that CSA, OWASP, and CoSAI are actively working to fill. Organizations should supplement these frameworks with MCP-specific guidance from the resources above.
+NIST AI RMF and ISO/IEC 42001 do not yet cover MCP-specific risks in detail. This creates a gap that CSA, OWASP, and CoSAI are actively working to fill. Organizations should supplement these frameworks with MCP-specific guidance from the resources above. Adding to the complexity, [US states have introduced 1,561 AI-related bills across 45 states in 2026](/guides/us-state-ai-legislation-tracker-2026/), creating a rapidly expanding patchwork of state-level compliance obligations — from California's AI Transparency Act to Colorado's Algorithmic Discrimination Act — that MCP deployments in regulated industries must now navigate alongside federal frameworks.
 
 ## Data Residency
 
