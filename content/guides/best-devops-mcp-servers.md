@@ -133,7 +133,7 @@ The **Knowledge MCP Server** is the easiest entry point — a free managed endpo
 
 **Weaknesses:** Overwhelming complexity (68 servers), EKS exposes K8s secrets in plain text (#2588), 127 open issues, stdio-only on most servers (SSE removed May 2025), Cost Explorer incompatible with Bedrock AgentCore (#2442), deprecation churn (CDK, Terraform, Diagram servers deprecated), requires Python 3.12+ and uv.
 
-**Best for:** Teams building on AWS who want AI agents with deep access to AWS services, documentation, and infrastructure management. Start with the Knowledge server, add specific servers as needs arise.
+**Best for:** Teams building on AWS who want AI agents with deep access to AWS services, documentation, and infrastructure management. Start with the Knowledge server, add specific servers as needs arise. AWS has also launched [autonomous frontier agents for DevOps and security](/guides/aws-frontier-agents-devops-security-ga/) that use MCP for multicloud tool integration — moving beyond MCP servers as passive tools toward agents that operate infrastructure independently.
 
 ### Azure DevOps MCP — The DevOps Workflow Hub
 

@@ -174,7 +174,7 @@ Several important questions remain unanswered:
 
 Enterprise AI agents work. The technology is real, the platforms are mature enough, and the use cases are clear. But the operational infrastructure — governance, integration, monitoring, cost management — isn't keeping pace with deployment ambition.
 
-The 40% failure rate isn't a technology problem. It's an organizational problem. The same enterprises that struggled with cloud migration, DevOps adoption, and digital transformation are now facing the same challenge with AI agents: the tools are easier than the organizational change required to use them well.
+The 40% failure rate isn't a technology problem. It's an organizational problem. The same enterprises that struggled with cloud migration, DevOps adoption, and digital transformation are now facing the same challenge with AI agents: the tools are easier than the organizational change required to use them well. AWS is testing this thesis directly with its [frontier agents for DevOps and security](/guides/aws-frontier-agents-devops-security-ga/) — fully autonomous AI agents for cloud operations and penetration testing, now generally available.
 
 For anyone evaluating enterprise AI agents in 2026: the question isn't whether agents can do the work. It's whether your organization can govern, integrate, monitor, and afford them at the scale you're planning. The 2% that have figured this out are getting enormous value. The 40% that haven't are about to get canceled.
 

@@ -198,7 +198,7 @@ Alternative WinDbg integration bridging LLM clients with WinDbg for real-time AI
 
 ## Penetration Testing and Offensive Security
 
-Penetration testing has the largest collection of MCP servers in any single security domain, led by comprehensive multi-tool bundles.
+Penetration testing has the largest collection of MCP servers in any single security domain, led by comprehensive multi-tool bundles. Beyond community tooling, AWS has entered this space directly with its [Security Agent for autonomous penetration testing](/guides/aws-frontier-agents-devops-security-ga/), now generally available as a managed service.
 
 ### Comprehensive Penetration Testing Suites
 

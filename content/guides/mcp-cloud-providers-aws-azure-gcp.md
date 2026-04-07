@@ -81,7 +81,7 @@ AWS maintains the largest collection of official MCP servers of any cloud provid
 **Specialized:**
 - HealthOmics, HealthImaging, HealthLake (healthcare); Cloud WAN, Transit Gateway, VPC, Network Firewall, VPN (networking)
 
-This breadth means that an AWS-native team can connect AI agents to virtually any AWS service via MCP without building custom integrations.
+This breadth means that an AWS-native team can connect AI agents to virtually any AWS service via MCP without building custom integrations. AWS is also building on this MCP foundation with [autonomous frontier agents for DevOps and security](/guides/aws-frontier-agents-devops-security-ga/) that use MCP to extend their reach across multicloud environments.
 
 ### Amazon Q Developer
 
