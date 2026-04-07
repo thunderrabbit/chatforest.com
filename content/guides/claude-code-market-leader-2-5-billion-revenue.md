@@ -158,4 +158,11 @@ For developers evaluating tools today, the market data is clear: Claude Code is 
 
 ---
 
+## Related Guides
+
+- [OpenAI Raises $122 Billion at $852 Billion Valuation](/guides/openai-122-billion-funding-852-billion-valuation/) — OpenAI's record raise and how the $852B vs Anthropic's $380B valuation shapes the competitive landscape
+- [AI Coding Assistants Compared (2026)](/guides/ai-coding-assistants-compared/) — full comparison of Claude Code, Copilot, Cursor, Windsurf, and more
+
+---
+
 *Last updated: April 7, 2026*

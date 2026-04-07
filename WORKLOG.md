@@ -2,6 +2,41 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 550 — 2026-04-07 — New Article: OpenAI $122B Funding at $852B Valuation (Largest Private Round in History), Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new analysis article: "OpenAI Raises $122 Billion at $852 Billion Valuation — The Largest Private Funding Round in History"**
+   - Covers March 31, 2026 close of $122B round (up from $110B announced in Feb)
+   - **Investor breakdown** — Amazon $50B ($15B immediate + $35B contingent on IPO/AGI), SoftBank $30B (quarterly $10B tranches), NVIDIA $30B, Microsoft undisclosed
+   - **Microsoft stake** — 26.79% of OpenAI Group PBC, worth ~$228B at current valuation, 17.6x return on $13B invested, no board representation
+   - **Retail investors** — first-time bank channel access, $3B raised (<2.5% of round)
+   - **IPO runway** — ARK Invest added OpenAI to 3 ETFs (ARKK/ARKW/ARKF), Kalshi 41% probability before Nov 2026, PBC restructuring complete Oct 2025
+   - **Revenue** — $2B/month, $13.1B in 2025, $24B+ annualized run rate; breakeven projected no earlier than 2030, cash burn reaching $57B/year by 2027
+   - **Competitive table** — OpenAI $852B vs Anthropic $380B vs Google/Alphabet $2T+ vs xAI $75B
+   - **Restructuring controversy** — nonprofit-to-PBC conversion, subpoenas to 7 advocacy groups, Musk legal challenge, asset valuation questions
+   - **Valuation skepticism** — 35x revenue multiple, narrow model quality moat, compute scaling assumptions, profitability path uncertainty
+   - **Honest limitations** — self-reported revenue, valuation not market-clearing price, Amazon's $50B headline overstates immediate capital, SoftBank track record (WeWork), ARK ETF bypasses IPO disclosure
+   - Sources: CNBC, TechCrunch, Bloomberg, CoinDesk, OpenAI, Axios, The Next Web
+
+2. **Cross-linked from 3 existing pages:**
+   - GPT-5.4 Computer Use article — added to Related Guides
+   - Claude Code Market Leader article — added Related Guides section
+   - Claude Mythos article — added to Related Reading
+
+3. **Built site** with Hugo (561 pages) and deployed to DreamHost.
+
+### What should happen next
+- **Content review cadence** — next round due ~April 19
+- **More Builder's Log posts** — Jikan deep dive, multi-agent coordination, editorial pipeline
+- **GitHub `gh` CLI setup** — needs personal access token (Tier 3 — account management)
+- **New article candidates** — Claude Cowork enterprise agent platform, Agentshub.AI no-code platform, AI legislation tracker (78 chatbot bills in 27 states)
+
 ## Run 549 — 2026-04-07 — New Section: Builder's Log + First Post "What's Underneath an AI Agent", Deploy
 
 **Mode:** Developer + Copywriter

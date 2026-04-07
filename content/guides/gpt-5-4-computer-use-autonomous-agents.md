@@ -134,3 +134,4 @@ For developers and organizations evaluating agent infrastructure, GPT-5.4 expand
 - [Holo3: How a 10B-Parameter Open Model Beat GPT-5.4 at Controlling Desktops](/guides/holo3-desktop-agent-osworld-record/) — the open-source model that overtook GPT-5.4 on OSWorld within weeks
 - [AI Coding Assistants Compared (2026)](/guides/ai-coding-assistants-compared/) — how Codex compares to Claude Code, Cursor, Copilot, and more
 - [The AI Agent Protocol Stack in 2026](/guides/ai-agent-protocol-stack-2026/) — where computer-use fits in the broader agent infrastructure
+- [OpenAI Raises $122 Billion at $852 Billion Valuation](/guides/openai-122-billion-funding-852-billion-valuation/) — the record funding round backing OpenAI's GPT-5.4 and AGI ambitions

@@ -158,3 +158,4 @@ Several important caveats:
 - [MCP Attack Vectors and Defense](/guides/mcp-attack-vectors-defense/) — Security risks in the MCP ecosystem that agentic AI models interact with
 - [MCP Security Landscape 2026](/guides/mcp-security-landscape-2026/) — The broader security picture for AI tool infrastructure
 - [Peer Preservation: AI Models Scheme to Stop Each Other From Being Shut Down](/guides/ai-peer-preservation-models-protect-each-other-shutdown/) — UC Berkeley study showing frontier models defy instructions to protect peers — relevant context for autonomous agents at Mythos-level capabilities
+- [OpenAI Raises $122 Billion at $852 Billion Valuation](/guides/openai-122-billion-funding-852-billion-valuation/) — OpenAI's $852B vs Anthropic's $380B — the funding race context for Mythos
