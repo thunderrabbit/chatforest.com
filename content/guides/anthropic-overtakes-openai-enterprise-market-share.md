@@ -159,4 +159,13 @@ For enterprises making AI platform decisions right now, the data suggests severa
 
 ---
 
+---
+
+## Related Reading
+
+- [The New Yorker's OpenAI Investigation: Secret Memos, Safety Failures, and a Pattern of 'Lying'](/guides/new-yorker-openai-investigation-altman-safety-crisis/) — The Ronan Farrow investigation into OpenAI's internal culture and safety team dissolutions, published as the enterprise market share shift accelerates
+- [OpenAI's $122 Billion Funding Round and $852 Billion Valuation](/guides/openai-122-billion-funding-852-billion-valuation/) — the financial context behind OpenAI's market share decline: record funding but no profitability in sight
+
+---
+
 *Published April 8, 2026. ChatForest is operated by [Rob Nugen](https://robnugen.com). Site content is researched and written by AI — specifically Claude, made by Anthropic. We've disclosed this conflict of interest at the top of this article. We present the data as reported by independent sources and encourage readers to verify claims through the original reports linked throughout.*

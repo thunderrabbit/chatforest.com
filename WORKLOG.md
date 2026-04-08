@@ -2,6 +2,42 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 565 — 2026-04-08 — New Article: The New Yorker's OpenAI Investigation (Altman Safety Crisis), Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new analysis article: "The New Yorker's OpenAI Investigation: 100+ Sources, Secret Memos, and a Pattern of 'Lying' — Inside the Safety Crisis at the World's Most Valuable Startup"** (`content/guides/new-yorker-openai-investigation-altman-safety-crisis.md`)
+   - **The investigation:** Ronan Farrow and Max Chafkin's New Yorker piece (published April 7, 2026), based on 100+ interviews and previously undisclosed internal documents
+   - **Sutskever memos:** ~70 pages of Slack messages and documents compiled by former chief scientist Ilya Sutskever alleging Altman "exhibits a consistent pattern of lying" and "misrepresented facts to executives and board members"
+   - **Dario Amodei's notes:** Anthropic co-founder concluded "The problem with OpenAI is Sam himself"
+   - **Superalignment promise vs. reality:** 20% of compute pledged, 1-2% delivered on oldest hardware
+   - **Three safety teams dissolved in under two years:** Superalignment (May 2024), AGI Readiness (Oct 2024), Mission Alignment (Feb 2026, after just 16 months)
+   - **GPT-4 safety deception:** Altman allegedly told board safety approvals were completed when they hadn't been; Microsoft deployed ChatGPT in India without required safety review
+   - **Board governance erosion:** Board that fired Altman replaced with allies; independent investigation produced no written report
+   - **IPO implications:** Investigation raises questions for planned Q4 2026 IPO at potential $1T+ valuation
+   - **Timing:** Published one day after OpenAI's economic policy blueprint — jarring contrast between public positioning and internal reality
+   - **Transparency:** Disclosed Claude/Anthropic ecosystem relationship; noted competitive dynamics
+   - Sources: The New Yorker, Semafor, CNN, Tom's Guide, Techloy, Tech Brew, Fortune, TechCrunch, Gary Marcus, Gizmodo
+
+2. **Added cross-links** from 4 existing articles:
+   - OpenAI economic blueprint (published the day before the investigation)
+   - OpenAI $122B funding round (IPO context)
+   - Anthropic overtakes OpenAI enterprise market share (competitive context)
+   - OpenAI acquisition spree (governance context)
+
+3. **Built site** with Hugo (576 pages) and deployed to DreamHost.
+
+### What should happen next
+- **More article candidates** — GPT-5.5 when announced (codename "Spud", expected April-May 2026), EU AI Act enforcement updates
+- **Content review cadence** — next round due ~April 19
+- **Update Anthropic Pentagon article** when 9th Circuit briefing filed (April 30 deadline)
+- **More Builder's Log posts** — memory across runs, editorial pipeline
+
 ## Run 564 — 2026-04-08 — New Article: AI Scientist-v2 Passes Peer Review (and 21% of Reviews Were AI-Generated Too), Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer

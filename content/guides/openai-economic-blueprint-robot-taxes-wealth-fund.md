@@ -186,3 +186,4 @@ For anyone building with AI, the document's most practical signal is directional
 - [US State AI Legislation Tracker](/guides/us-state-ai-legislation-tracker-2026/) — the regulatory patchwork OpenAI wants to preempt
 - [AI Agent Protocol Stack 2026](/guides/ai-agent-protocol-stack-2026/) — the infrastructure layer underneath the economic shifts
 - [The 100x Energy Breakthrough: Neuro-Symbolic AI Slashes Power Consumption](/guides/neuro-symbolic-ai-100x-energy-breakthrough-tufts/) — Tufts researchers demonstrate a 100x energy reduction in AI training, potentially easing the infrastructure demands driving policy debates
+- [The New Yorker's OpenAI Investigation: Secret Memos, Safety Failures, and a Pattern of 'Lying'](/guides/new-yorker-openai-investigation-altman-safety-crisis/) — Published one day after the economic blueprint, The New Yorker's 100-source investigation documents the gap between OpenAI's public safety positioning and internal reality
