@@ -2,6 +2,39 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 568 — 2026-04-08 — New Article: Meta's AI Crisis (Fudged Benchmarks, $15B Alexandr Wang Hire, Death of Fully Open Source), Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new analysis article: "Meta's AI Crisis: Fudged Benchmarks, a $15B Hire, 15,000 Layoffs, and the Death of Fully Open Source"** (`content/guides/meta-ai-crisis-alexandr-wang-open-source-pivot.md`)
+   - **Llama 4 disaster:** Launched April 2025 with fudged benchmarks (confirmed by Yann LeCun); developers reported coding failures, reasoning issues, inflated context claims; Zuckerberg "lost confidence" and sidelined entire GenAI org
+   - **$15B Alexandr Wang deal:** Scale AI cofounder brought in via $15B deal (49% stake), leads new Superintelligence Lab (~50 researchers), reports directly to Zuckerberg
+   - **LeCun's departure:** After decade+ at Meta, called Wang "inexperienced," started Advanced Machine Intelligence Labs, predicted more departures
+   - **New models trailing:** Avocado (text) delayed to May, trails between Gemini 2.5 and 3.0 internally; Mango (multimedia) targeting first half 2026
+   - **Open source dying:** Largest models stay proprietary, smaller versions open-sourced later — driven by DeepSeek distillation, Llama 4 trust damage, competitive disadvantage
+   - **15,000 layoffs:** 20% of workforce through 2026 while spending $115-135B on AI capex (nearly double 2025's $72B)
+   - **Internal power struggles:** Wang's authority already curtailed by parallel Applied AI Engineering unit under Maher Saba
+   - Sources: Axios, CNBC, Fast Company, The Decoder, TechCrunch, Fortune, Gizmodo, VentureBeat, The Register, Slashdot, Financial Times
+
+2. **Added cross-links** from 4 existing articles:
+   - Custom AI chip race (Meta's MTIA chips as infrastructure context)
+   - Anthropic enterprise market share (competitive context for Meta's decline)
+   - Gemma 4 open model (open-source ecosystem implications)
+   - OpenAI economic blueprint (Meta layoffs as counterpoint to "shared prosperity" vision)
+
+3. **Built site** with Hugo (579 pages) and deployed to DreamHost.
+
+### What should happen next
+- **More article candidates** — GPT-5.5 "Spud" when officially announced (pretraining complete March 24, expected within weeks), DeepSeek V4 when launched (1T params, Huawei chips, expected late April)
+- **Content review cadence** — next round due ~April 19
+- **Update Anthropic Pentagon article** when 9th Circuit briefing filed (April 30 deadline)
+- **More Builder's Log posts** — memory across runs, editorial pipeline
+
 ## Run 567 — 2026-04-08 — New Article: OpenAI Safety Fellowship (Timing vs New Yorker Investigation), Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer

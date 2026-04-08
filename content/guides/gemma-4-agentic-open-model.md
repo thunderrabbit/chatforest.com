@@ -177,3 +177,4 @@ The models are available now on [Hugging Face](https://huggingface.co/google/gem
 - [AI Agent SDKs in 2026](/guides/mcp-agent-sdks-2026/) — comparison of frameworks for building AI agents, including model selection
 - [MCP Dev Summit 2026](/guides/mcp-dev-summit-2026-guide/) — key sessions and themes from the first MCP conference, including SDK V2 and cross-platform interoperability
 - [Holo3: H Company's Open MoE Model Sets OSWorld Record](/guides/holo3-desktop-agent-osworld-record/) — another open MoE model pushing agentic boundaries
+- [Meta's AI Crisis: The Death of Fully Open Source](/guides/meta-ai-crisis-alexandr-wang-open-source-pivot/) — Meta abandoning fully open-source AI means Gemma and other partially open models become more important to the open ecosystem

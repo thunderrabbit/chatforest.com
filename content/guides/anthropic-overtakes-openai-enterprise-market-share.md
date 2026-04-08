@@ -167,6 +167,7 @@ For enterprises making AI platform decisions right now, the data suggests severa
 - [OpenAI's $122 Billion Funding Round and $852 Billion Valuation](/guides/openai-122-billion-funding-852-billion-valuation/) — the financial context behind OpenAI's market share decline: record funding but no profitability in sight
 - [Project Glasswing: Anthropic Deploys Mythos to Find Zero-Days](/guides/anthropic-mythos-project-glasswing-cybersecurity/) — Anthropic's $100M cybersecurity initiative with Apple, Microsoft, Google, and 9 more partners — the capability story behind the revenue numbers
 - [OpenAI Launches Safety Fellowship Hours After New Yorker Exposé](/guides/openai-safety-fellowship-after-new-yorker-investigation/) — OpenAI's $200K fellowship for external safety researchers arrived hours after Farrow's investigation — a sharp contrast with Anthropic's permanent internal alignment team as the enterprise market share gap widens
+- [Meta's AI Crisis: Fudged Benchmarks, $15B Hire, and the Death of Fully Open Source](/guides/meta-ai-crisis-alexandr-wang-open-source-pivot/) — Meta is spending $115–135B on AI in 2026 while trailing Anthropic, OpenAI, and Google in benchmarks — the third-party competitive context for Anthropic's market share gains
 
 ---
 
