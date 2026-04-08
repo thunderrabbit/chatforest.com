@@ -2,6 +2,47 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 571 — 2026-04-08 — Inline Citations Retrofit: New Yorker Investigation Article, Deploy
+
+**Mode:** Developer (editorial quality)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Retrofitted New Yorker Investigation article with inline citations** (`content/guides/new-yorker-openai-investigation-altman-safety-crisis.md`)
+   - Added 18 inline source links throughout the article, replacing the old "sources listed at top" pattern:
+     - Investigation publication → Semafor summary
+     - Ronan Farrow's 100+ interviews → his X thread
+     - Fixed co-author name: Max Chafkin → Andrew Marantz (verified via Farrow's thread)
+     - Dario Amodei "problem with OpenAI is Sam himself" → Tech Brew
+     - Superalignment team announcement → OpenAI official blog
+     - 20% compute never fulfilled → Fortune exclusive investigation
+     - Superalignment team disbanded → CNBC
+     - Jan Leike "sailing against the wind" quote → his X post
+     - Miles Brundage departure → TechCrunch
+     - Brundage "neither OpenAI nor any other frontier lab is ready" → his Substack
+     - AGI Readiness team dissolved → CNBC
+     - Joshua Achiam "chief futurist" → BusinessToday
+     - Mission Alignment "routine reorganizations" → Platformer
+     - GPT-4 safety deception details → Tom's Guide, Techloy
+     - Board firing → CNN
+     - Board filled with allies (Summers, Taylor) → Gizmodo
+     - YC departure claims → Washington Post, TechCrunch (Paul Graham dispute)
+     - Self-dealing allegations → Inc.
+     - Altman "vibes" quote → Gary Marcus / Substack
+     - No comment from OpenAI → Futurism
+   - Replaced bulk source disclosure paragraph with "sources linked inline" statement
+   - Verified all URLs via web search before adding
+
+2. **Built site** with Hugo and deployed to DreamHost.
+
+### What should happen next
+- **Continue retrofitting past articles** — next priorities: Project Glasswing, AI Scientist-v2
+- **New articles** must follow inline citation standard from the start
+- **Content review cadence** — next round due ~April 19
+
 ## Run 570 — 2026-04-08 — Inline Citations Retrofit: OpenAI Safety Fellowship Article, Deploy
 
 **Mode:** Developer (editorial quality)

@@ -8027,3 +8027,38 @@ Run 565 complete. Here's what I did:
 2026-04-08T03:48:36Z SESSION 1477 stopped
 2026-04-08T04:41:01Z STARTED run 1716180 (mode=slow)
 2026-04-08T04:41:02Z SESSION 1478 started
+2026-04-08T04:49:45Z FINISHED run 1716180
+2026-04-08T04:49:48Z SESSION 1478 stopped
+2026-04-08T06:42:01Z STARTED run 1748468 (mode=slow)
+2026-04-08T06:42:02Z SESSION 1479 started
+Run 569 complete.
+
+**What I did:**
+- Received high-priority inbox message (#392): new editorial standard requiring inline verified citations in all articles, and backtracking past articles to add them
+- Retrofitted the **Meta AI Crisis** article with **16 inline source links** — every major factual claim now links directly to its source (Engadget, CNBC, TechCrunch, Fast Company, Fortune, PYMNTS, Meta's blog, etc.)
+- Built site (579 pages) and deployed to DreamHost
+
+**Next runs:** Continue retrofitting remaining recent articles (OpenAI Safety Fellowship, Project Glasswing, New Yorker Investigation) with the same inline citation treatment.
+2026-04-08T06:46:23Z FINISHED run 1748468
+2026-04-08T06:46:24Z SESSION 1479 stopped
+2026-04-08T08:42:01Z STARTED run 1780369 (mode=slow)
+2026-04-08T08:42:02Z SESSION 1480 started
+Run 570 complete. Here's what I did:
+
+**Retrofitted the OpenAI Safety Fellowship article with 12 inline citations**, continuing the editorial standard from Run 569. Key claims now link to their sources:
+
+- Superalignment team announcement → OpenAI blog
+- Jan Leike "shiny products" quote → Fortune
+- 1-2% compute vs 20% promised → Fortune exclusive
+- Team dissolutions (Superalignment, AGI Readiness, Mission Alignment) → CNBC, TechCrunch
+- Miles Brundage departure → TechCrunch
+- Mission Alignment creation → Platformer
+- Achiam "chief futurist" role → BusinessToday
+- IRS "safely" removal → PiunikaWeb + Fortune
+- Anthropic Fellows comparison → alignment.anthropic.com
+
+Built and deployed to DreamHost. Next run should continue with Project Glasswing or New Yorker Investigation article retrofits.
+2026-04-08T08:45:09Z FINISHED run 1780369
+2026-04-08T08:45:10Z SESSION 1480 stopped
+2026-04-08T10:43:01Z STARTED run 1812583 (mode=slow)
+2026-04-08T10:43:02Z SESSION 1481 started
