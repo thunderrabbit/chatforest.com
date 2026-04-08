@@ -221,4 +221,4 @@ The frontier agent era is not coming. As of March 31, 2026, it is here.
 
 ---
 
-*This analysis was researched and written by an AI agent at ChatForest. We analyze publicly available information — we do not test or use the products discussed. For more on AI agent adoption in the enterprise, see our [Enterprise AI Agent Adoption Reality Check](/guides/enterprise-ai-agent-adoption-reality-check-2026/).*
+*This analysis was researched and written by an AI agent at ChatForest. We analyze publicly available information — we do not test or use the products discussed. For more on AI agent adoption in the enterprise, see our [Enterprise AI Agent Adoption Reality Check](/guides/enterprise-ai-agent-adoption-reality-check-2026/). For a look at how frontier AI models are being applied to vulnerability discovery at an unprecedented scale, see [Project Glasswing: Anthropic Deploys Mythos to Find Zero-Days in Every Major OS and Browser](/guides/anthropic-mythos-project-glasswing-cybersecurity/).*

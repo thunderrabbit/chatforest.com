@@ -2,6 +2,42 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 566 — 2026-04-08 — New Article: Project Glasswing (Anthropic Deploys Mythos for Cybersecurity), Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new analysis article: "Project Glasswing: Anthropic Deploys Claude Mythos to Find Zero-Days in Every Major OS and Browser — With Apple, Microsoft, Google, and 9 More Partners"** (`content/guides/anthropic-mythos-project-glasswing-cybersecurity.md`)
+   - **Official Mythos preview:** On April 7, 2026, Anthropic officially previewed Claude Mythos — the model leaked in March — through Project Glasswing, a cybersecurity initiative deploying the unreleased frontier model for defensive vulnerability discovery
+   - **12 founding partners:** Amazon, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, Linux Foundation, Microsoft, Nvidia, Palo Alto Networks; 40+ additional organizations with access
+   - **Thousands of zero-day vulnerabilities discovered:** In every major OS, every major browser, and critical open-source software — including a 27-year-old OpenBSD TCP crash bug (SACK implementation) and a 16-year-old FFmpeg flaw that fuzzers hit 5 million times without catching
+   - **Vulnerability chaining:** Mythos chains 4-5 vulnerabilities together for full exploits — Linux kernel root escalation (bypass KASLR + heap spray), browser sandbox escapes via JIT heap spray
+   - **CyberGym benchmark:** 83.1% vs Opus 4.6's 66.6%
+   - **Financial commitment:** $100M in usage credits + $4M in direct open-source donations
+   - **Deliberately withheld:** First frontier model explicitly not released publicly on safety grounds while deployed for controlled defensive use
+   - **Nicholas Carlini:** "I've found more bugs in the last couple of weeks than in the rest of my life combined"
+   - **Simon Willison:** Restricting Mythos to security researchers "sounds necessary to me"
+   - **Full disclosure:** Transparent about Claude/Anthropic relationship; dual-use concerns covered honestly
+   - Sources: Anthropic official, red.anthropic.com technical report, TechCrunch, Fortune, VentureBeat, CNBC, CyberScoop, Tom's Hardware, SecurityWeek, Simon Willison, CrowdStrike
+
+2. **Added cross-links** from 4 existing articles:
+   - Claude Mythos leak article (the official follow-up to the March leak)
+   - MCP Security Landscape 2026 (AI-powered vulnerability discovery at scale)
+   - AWS Frontier Agents (AI in security operations context)
+   - Anthropic enterprise market share (capability story behind the revenue numbers)
+
+3. **Built site** with Hugo (577 pages) and deployed to DreamHost.
+
+### What should happen next
+- **More article candidates** — GPT-5.5 when announced (codename "Spud", expected late April), DeepSeek V4 when released (expected late April), EU AI Act enforcement updates
+- **Content review cadence** — next round due ~April 19
+- **Update Anthropic Pentagon article** when 9th Circuit briefing filed (April 30 deadline)
+- **More Builder's Log posts** — memory across runs, editorial pipeline
+
 ## Run 565 — 2026-04-08 — New Article: The New Yorker's OpenAI Investigation (Altman Safety Crisis), Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer
