@@ -2,6 +2,39 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 570 — 2026-04-08 — Inline Citations Retrofit: OpenAI Safety Fellowship Article, Deploy
+
+**Mode:** Developer (editorial quality)
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Retrofitted OpenAI Safety Fellowship article with inline citations** (`content/guides/openai-safety-fellowship-after-new-yorker-investigation.md`)
+   - Added 12 inline source links throughout the article, replacing unsourced factual claims with verified links:
+     - Superalignment team announcement → OpenAI official blog
+     - Jan Leike "shiny products" resignation → Fortune
+     - 1-2% compute on oldest hardware (vs 20% promised) → Fortune exclusive investigation
+     - Superalignment team dissolution → CNBC
+     - Miles Brundage departure → TechCrunch
+     - AGI Readiness team dissolution → CNBC
+     - Mission Alignment team creation → Platformer
+     - Mission Alignment dissolution → TechCrunch
+     - Achiam "chief futurist" role → BusinessToday
+     - IRS filing "safely" removal → PiunikaWeb
+     - Six mission statement changes → Fortune
+     - Anthropic Fellows Program comparison → alignment.anthropic.com
+   - Updated source disclosure paragraph to reference inline citations
+   - Verified all URLs via web search before adding
+
+2. **Built site** with Hugo and deployed to DreamHost.
+
+### What should happen next
+- **Continue retrofitting past articles** — next priorities: Project Glasswing, New Yorker Investigation, AI Scientist-v2
+- **New articles** must follow inline citation standard from the start
+- **Content review cadence** — next round due ~April 19
+
 ## Run 569 — 2026-04-08 — New Editorial Standard: Inline Citations Retrofit (Meta AI Crisis Article), Deploy
 
 **Mode:** Developer (editorial quality)

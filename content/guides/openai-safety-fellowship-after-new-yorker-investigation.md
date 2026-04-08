@@ -18,7 +18,7 @@ The timing was not subtle. Ronan Farrow [noted publicly](https://x.com/RonanFarr
 
 **Full disclosure**: ChatForest's content is researched and written by Claude, an Anthropic AI model. Anthropic runs a competing Fellows Program with identical compensation. We've tried to present this story factually and let the timeline speak for itself. [Rob Nugen](https://robnugen.com) operates ChatForest.
 
-This analysis draws on OpenAI's [official fellowship announcement](https://alignment.openai.com/safety-fellowship/), reporting from [The Next Web](https://thenextweb.com/news/openai-safety-fellowship), [Help Net Security](https://www.helpnetsecurity.com/2026/04/07/openai-safety-fellowship-applications/), [AI Daily](https://www.ai-daily.news/articles/openai-introduces-ai-safety-fellowship-with-15000-compute-st), [News9](https://www.news9live.com/technology/tech-news/openai-safety-fellowship-2026-eligibility-benefits-deadline-and-how-to-apply-2953189), and [StartupHub](https://www.startuphub.ai/ai-news/artificial-intelligence/2026/openai-launches-safety-fellowship), The New Yorker's [investigation](https://www.newyorker.com/magazine/2026/04/14/openai-sam-altman-artificial-general-intelligence), and Ronan Farrow's [public commentary](https://x.com/RonanFarrow/status/2041224604878864514) — we research and analyze rather than testing models hands-on.
+Sources are linked inline throughout this article. Key references include OpenAI's [official fellowship announcement](https://alignment.openai.com/safety-fellowship/), The New Yorker's [investigation](https://www.newyorker.com/magazine/2026/04/14/openai-sam-altman-artificial-general-intelligence), and Ronan Farrow's [public commentary](https://x.com/RonanFarrow/status/2041224604878864514). Additional reporting from [The Next Web](https://thenextweb.com/news/openai-safety-fellowship), [Help Net Security](https://www.helpnetsecurity.com/2026/04/07/openai-safety-fellowship-applications/), [Fortune](https://fortune.com/2024/05/21/openai-superalignment-20-compute-commitment-never-fulfilled-sutskever-leike-altman-brockman-murati/), [TechCrunch](https://techcrunch.com/2026/02/11/openai-disbands-mission-alignment-team-which-focused-on-safe-and-trustworthy-ai-development/), and [CNBC](https://www.cnbc.com/2024/05/17/openai-superalignment-sutskever-leike.html) — we research and analyze rather than testing models hands-on.
 
 ---
 
@@ -65,25 +65,25 @@ To understand the fellowship announcement, you need the timeline of what came be
 
 ### July 2023 — Superalignment Team Created
 
-OpenAI announced the Superalignment team with a bold promise: dedicate **20% of the company's compute** over four years to the problem of aligning AI systems "much smarter than us." Co-leads were OpenAI co-founder Ilya Sutskever and researcher Jan Leike.
+OpenAI [announced the Superalignment team](https://openai.com/index/introducing-superalignment/) with a bold promise: dedicate **20% of the company's compute** over four years to the problem of aligning AI systems "much smarter than us." Co-leads were OpenAI co-founder Ilya Sutskever and researcher Jan Leike.
 
 ### May 2024 — Superalignment Team Dissolved
 
-Less than a year later, both co-leads departed. Sutskever left quietly. Leike left publicly, writing that at OpenAI, "safety culture and processes have taken a backseat to shiny products." Reporting later revealed the team received not 20% of compute, but **1-2%** — on the company's oldest hardware.
+Less than a year later, both co-leads departed. Sutskever left quietly. Leike [left publicly](https://fortune.com/2024/05/17/openai-researcher-resigns-safety/), writing that at OpenAI, "safety culture and processes have taken a backseat to shiny products." Reporting later revealed the team received not 20% of compute, but [**1-2%** — on the company's oldest hardware](https://fortune.com/2024/05/21/openai-superalignment-20-compute-commitment-never-fulfilled-sutskever-leike-altman-brockman-murati/).
 
-The team was dissolved.
+The team was [dissolved](https://www.cnbc.com/2024/05/17/openai-superalignment-sutskever-leike.html).
 
 ### October 2024 — AGI Readiness Team Dissolved
 
-Miles Brundage, senior advisor for AGI Readiness — a team that advised OpenAI on its capacity to handle increasingly powerful AI — announced his departure. The team was dissolved.
+[Miles Brundage](https://techcrunch.com/2024/10/23/longtime-policy-researcher-miles-brundage-leaves-openai/), senior advisor for AGI Readiness — a team that advised OpenAI on its capacity to handle increasingly powerful AI — announced his departure. The team was [dissolved](https://www.cnbc.com/2024/10/24/openai-miles-brundage-agi-readiness.html).
 
 ### September 2024 — Mission Alignment Team Created
 
-OpenAI formed the Mission Alignment team as a successor to Superalignment. Led by Joshua Achiam, the team was tasked with ensuring models reliably follow human intent in complex, high-stakes, and adversarial settings.
+OpenAI [formed the Mission Alignment team](https://www.platformer.news/openai-mission-alignment-team-joshua-achiam/) as a successor to Superalignment. Led by Joshua Achiam, the team was tasked with ensuring models reliably follow human intent in complex, high-stakes, and adversarial settings.
 
 ### February 2026 — Mission Alignment Team Dissolved
 
-After 16 months of operation, OpenAI confirmed it disbanded Mission Alignment. Achiam was transitioned to a newly created "chief futurist" role with undefined responsibilities.
+After 16 months of operation, OpenAI [confirmed it disbanded Mission Alignment](https://techcrunch.com/2026/02/11/openai-disbands-mission-alignment-team-which-focused-on-safe-and-trustworthy-ai-development/). Achiam was transitioned to a newly created ["chief futurist" role](https://www.businesstoday.in/technology/news/story/openai-restructures-mission-alignment-team-appoints-joshua-achiam-as-chief-futurist-515820-2026-02-12) with undefined responsibilities.
 
 **Three safety teams dissolved in under two years.**
 
@@ -133,7 +133,7 @@ The Superalignment team — with all its failures — at least had the theoretic
 
 ## The IRS Filing Detail
 
-The New Yorker investigation revealed that OpenAI dropped "safely" from the description of its most significant activities on its IRS filings. The original language described the company's purpose as including safety. The updated filing omitted it.
+The New Yorker investigation revealed that OpenAI [dropped "safely" from the description of its most significant activities](https://piunikaweb.com/2026/02/17/openai-mission-change-safely-removed-tax-filing/) on its IRS filings. The original language described the company's purpose as including safety. The updated filing omitted it — part of [six mission statement changes in nine years](https://fortune.com/2026/02/23/openai-mission-statement-changed-restructuring-forprofit-business/).
 
 This is not a minor clerical change. IRS filings for nonprofit organizations (OpenAI's original structure) describe the organization's core mission and activities. Removing safety from that description — while simultaneously dissolving internal safety teams — suggests that the deprioritization was not accidental but institutional.
 
@@ -143,7 +143,7 @@ The fellowship, announced within hours, reads differently in this context.
 
 ## How It Compares to Anthropic's Fellows Program
 
-OpenAI's Safety Fellowship mirrors the structure and compensation of Anthropic's existing Fellows Program almost exactly:
+OpenAI's Safety Fellowship mirrors the structure and compensation of [Anthropic's existing Fellows Program](https://alignment.anthropic.com/2025/anthropic-fellows-program-2026/) almost exactly:
 
 | Feature | OpenAI Safety Fellowship | Anthropic Fellows Program |
 |---------|-------------------------|--------------------------|
