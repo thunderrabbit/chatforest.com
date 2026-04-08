@@ -39,7 +39,7 @@ Shared-state coordination through MCP servers reduces this to N+M — each agent
 
 ### Supervisor/Worker
 
-The dominant pattern in production multi-agent MCP systems. A central orchestrator agent receives tasks, breaks them down, and delegates to specialized worker agents. All agents access shared MCP servers, but workers never communicate directly with each other.
+The dominant pattern in production multi-agent MCP systems. A central orchestrator agent receives tasks, breaks them down, and delegates to specialized worker agents. All agents access shared MCP servers, but workers never communicate directly with each other. A notable example of this pattern in the wild: [Sakana AI's AI Scientist-v2](/guides/ai-scientist-v2-peer-review-crisis-2026/) uses a supervisor "experiment manager" agent that coordinates parallel worker agents through an agentic tree search — each worker explores a different research direction, and the supervisor allocates resources to the most promising branches.
 
 ```
 User Request

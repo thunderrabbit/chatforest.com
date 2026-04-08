@@ -67,7 +67,7 @@ The paper organizes attacks by which component of the agent's operating cycle th
 
 **Evidence:** Research cited in the paper shows that attack success rates exceed **80% with less than 0.1% data contamination**. That means poisoning fewer than 1 in 1,000 documents in a knowledge base can reliably redirect the agent's behavior for specific queries.
 
-**Why it's dangerous:** The attack surface is tiny and the contamination is nearly undetectable. A single malicious document in a large corpus can lay dormant until the agent encounters the right query — at which point it activates.
+**Why it's dangerous:** The attack surface is tiny and the contamination is nearly undetectable. A single malicious document in a large corpus can lay dormant until the agent encounters the right query — at which point it activates. This is especially concerning for autonomous research agents — [Sakana AI's AI Scientist-v2](/guides/ai-scientist-v2-peer-review-crisis-2026/) reads literature, generates hypotheses, and writes papers autonomously. If its literature retrieval is poisoned, the resulting papers inherit the contamination, and analysis of ICLR 2026 already shows 21% of peer reviews were AI-generated, meaning fewer human eyes to catch the errors.
 
 ### 4. Behavioral Control Traps — Attacking Actions
 

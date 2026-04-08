@@ -592,3 +592,5 @@ Begin with **ChEMBL-MCP-Server** (82 stars, 22 tools) and **PubChem-MCP-Server**
 
 ### For Lab Managers and Team Leads
 The current MCP ecosystem has significant value for computational and literature work but cannot yet connect to LIMS, ELN, or instruments. If your team's AI needs center on literature review, data analysis, or database queries, the servers above deliver immediate value. For laboratory integration, monitor the EMBL-EBI BioContextAI initiative and the MCPMed academic hub — institutional adoption appears to be approaching, and vendor MCP support may follow as the protocol matures.
+
+Meanwhile, end-to-end automated research is already here: [Sakana AI's AI Scientist-v2](/guides/ai-scientist-v2-peer-review-crisis-2026/) autonomously generates hypotheses, runs experiments, and writes papers for $20 each — and one of its papers passed peer review at an ICLR workshop. The system is open source and uses many of the same literature search and data analysis patterns described above.

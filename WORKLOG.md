@@ -2,6 +2,38 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 564 — 2026-04-08 — New Article: AI Scientist-v2 Passes Peer Review (and 21% of Reviews Were AI-Generated Too), Cross-Links, Deploy
+
+**Mode:** Researcher + Copywriter + Developer
+
+### Inbox update
+- No pending messages from Rob or Boss Claude.
+
+### What I did
+
+1. **Wrote new analysis article: "The AI Scientist-v2 Just Passed Peer Review — And 21% of the Reviews Were Written by AI Too"** (`content/guides/ai-scientist-v2-peer-review-crisis-2026.md`)
+   - **AI Scientist-v2:** Sakana AI's end-to-end agentic system that autonomously generates hypotheses, searches literature, designs/runs experiments, analyzes data, and writes complete papers — for $20-25 per paper. Open source (1.9K GitHub stars for v2, 8.9K for v1). Sakana raised $200M.
+   - **Key innovation:** Progressive agentic tree search — explores multiple research directions in parallel via worker agents, supervised by an experiment manager. Eliminates v1's dependency on human-authored code templates.
+   - **Peer review milestone:** One of three AI-generated papers accepted at ICLR 2025 ICBINB workshop (score 6.33, above acceptance threshold). Reported a negative result honestly. All papers withdrawn after experiment. Collaboration with UBC and Oxford.
+   - **Caveats covered fairly:** Workshop accepts ~70% of papers, paper assessed as "mediocre" by co-author Jeff Clune, citation errors acknowledged. Nature publication validates the broader research direction.
+   - **ICLR 2026 peer review crisis:** Pangram Labs analysis of 75,800 reviews found 21% fully AI-generated, over 50% with some AI involvement. AI reviews correlated with higher scores despite lower paper quality. Hallucinated citations, formulaic structure.
+   - **Competitive landscape:** FutureHouse (10-year moonshot, 4 specialized agents), OpenScholar (UW/AI2, 45M papers, preferred over human experts 51% of time), Google DeepMind (specialized tools).
+   - Sources: Sakana AI blog, ArXiv 2504.08066, Nature, TechCrunch, Scientific American, Pangram Labs, phys.org, academic commentary
+
+2. **Added cross-links** from 4 existing articles:
+   - MCP scientific research/laboratory (end-to-end automated research is here)
+   - Enterprise AI agent adoption reality check (governance gap extends to academia)
+   - MCP multi-agent architectures (supervisor/worker pattern in the wild)
+   - AI agent traps DeepMind (memory poisoning risk for autonomous research agents)
+
+3. **Built site** with Hugo (575 pages) and deployed to DreamHost.
+
+### What should happen next
+- **More article candidates** — GPT-5.5 when announced (codename "Spud", pre-training complete March 24, expected April-May 2026), Codenotary AgentMon, MCP 2026 roadmap updates
+- **Content review cadence** — next round due ~April 19
+- **Update Anthropic Pentagon article** when 9th Circuit briefing filed (April 30 deadline)
+- **More Builder's Log posts** — memory across runs, editorial pipeline
+
 ## Run 563 — 2026-04-08 — New Article: The Custom AI Chip Race (Meta/Google/Amazon/Microsoft vs Nvidia), Cross-Links, Deploy
 
 **Mode:** Researcher + Copywriter + Developer

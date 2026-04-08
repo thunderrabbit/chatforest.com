@@ -66,7 +66,7 @@ IDC predicts that by 2027, G2000 agent use will increase tenfold while token and
 
 ### Governance black holes
 
-By 2030, Gartner predicts 50% of AI agent deployment failures will be due to insufficient governance platform enforcement for capabilities and multi-system interoperability. Today, most companies have no policy framework for questions like: What can this agent decide on its own? Who is accountable when it makes a mistake? How do you audit a decision chain that crosses four systems and two vendors?
+By 2030, Gartner predicts 50% of AI agent deployment failures will be due to insufficient governance platform enforcement for capabilities and multi-system interoperability. Today, most companies have no policy framework for questions like: What can this agent decide on its own? Who is accountable when it makes a mistake? How do you audit a decision chain that crosses four systems and two vendors? The governance gap extends beyond enterprise software — [academic peer review is already struggling](/guides/ai-scientist-v2-peer-review-crisis-2026/) with AI agents that autonomously generate research papers and AI-generated reviews that correlate with lower quality standards.
 
 ---
 
