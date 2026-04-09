@@ -2,6 +2,78 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 580 — 2026-04-09 — High-Density Citation Retrofit: New Yorker OpenAI Investigation Article, Deploy
+
+**Mode:** Developer (editorial quality)
+
+### Inbox update
+- Message #397 from Rob: Include Claude referral link (https://claude.ai/referral/vc8j0WfOEw) in articles about how Grove and Rob work together. Saved to memory. Marked seen.
+
+### What I did
+
+1. **High-density citation retrofit of New Yorker OpenAI Investigation article** (`content/guides/new-yorker-openai-investigation-altman-safety-crisis.md`)
+   - Went sentence by sentence through the entire article, adding source links to nearly every factual claim
+   - **Previous state:** ~20 inline citations
+   - **New state:** ~65+ inline citations — nearly every factual sentence now sourced
+   - **Sources linked include:**
+     - Semafor (investigation pre-publication coverage, 100+ interviews confirmed)
+     - Ronan Farrow X thread (co-author confirmation with Andrew Marantz, 200+ pages of documents)
+     - Apple Podcasts (Farrow and Marantz podcast appearance confirming co-authorship)
+     - Tom's Guide (5 biggest revelations, 200+ pages of documents)
+     - Techstrong.ai (70-page Sutskever dossier)
+     - Odaily (memo details, "Lying" heading)
+     - Tech Brew (Sutskever memos, Amodei notes "the problem with OpenAI is Sam himself")
+     - Techloy (8 allegations breakdown, misrepresentation claims)
+     - Wikipedia (Ilya Sutskever, Dario Amodei, Helen Toner, Anthropic)
+     - Inc. (Amodei left OpenAI in 2021 over "difference in vision")
+     - Fortune (Altman reinstatement Nov 29, new board composition, Superalignment 20% never fulfilled)
+     - Yahoo Finance (20% compute commitment never delivered, OpenAI must match Microsoft for $1T IPO)
+     - Variety (reinstatement deal reached Nov 21)
+     - CNN (OpenAI exec exits over safety concerns, New Yorker investigation video)
+     - LessWrong (dual Sutskever/Leike resignation documentation)
+     - TechCrunch (Larry Summers board, Brundage departure, Mission Alignment disbanded, retail investors in $122B round, Paul Graham disputes YC firing)
+     - CNBC (Superalignment team disbanded, AGI Readiness dissolved, $122B funding round, OpenAI risk disclosure to investors)
+     - Fortune (IPO chances questioned after drama)
+     - Bloomberg (OpenAI valued at $852B, IPO value threatened by Altman's lack of focus)
+     - OpenAI official (Superalignment announcement, funding round announcement)
+     - IndexBox (Q4 2026 IPO target, $1T valuation goal)
+     - Motley Fool (5 things to know before IPO)
+     - Implicator (OpenAI CFO warns company not IPO-ready)
+     - Axios (Altman steps down from YC March 2019, "Sam's superintelligence New Deal")
+     - BusinessToday India (Achiam chief futurist, Microsoft rushing GPT-4 into Bing)
+     - OpenAI Global Affairs Substack (chief futurist introduction)
+     - Platformer (Mission Alignment team 7 employees, routine reorganizations)
+     - Winbuzzer (16-month team lifespan pattern)
+     - NewsBytesApp (Brundage departure AGI readiness concerns)
+     - Georgetown CSET (Helen Toner profile)
+     - CIO (Toner tells all about Altman's ousting)
+     - TIME (Toner in 100 Most Influential People in AI)
+     - Futurism (Microsoft tested Bing AI in India, sources call Altman sociopath)
+     - Gary Marcus Substack (Altman's "vibes" quote)
+     - Artist Rights Watch (media coverage aggregation)
+     - OpenAI Safety Fellowship page + alignment.openai.com (fellowship dates)
+     - AI Daily (fellowship stipend and compute details)
+     - News9live (fellowship eligibility and benefits)
+     - Help Net Security (fellowship timing relative to investigation)
+     - OpenAI PDF (Industrial Policy for the Intelligence Age)
+     - TechCrunch (economic blueprint coverage)
+   - **Factual corrections this run:**
+     - Fixed card_description co-author: was "Max Chafkin" (wrong), corrected to "Andrew Marantz"
+     - Added "200+ pages of documents" detail from Farrow's own X thread (previously only mentioned 100+ interviews)
+     - Added specific reinstatement dates (deal Nov 21, official Nov 29) and board composition details (Adam D'Angelo sole holdover, Bret Taylor as chairman)
+     - Added OpenAI CFO Sarah Friar's warning about SOX-readiness gap
+     - Added specific Safety Fellowship dates (Sept 14, 2026 – Feb 5, 2027) and financial details
+     - Added Axios March 2019 date for Altman's YC departure
+     - Added context on Microsoft India AI chatbot test (was "Sydney"/Bing, not technically ChatGPT)
+
+2. **Built site** with Hugo (579 pages) and **deployed** to DreamHost.
+
+3. **Saved referral link instruction to memory** (`reference_claude_referral_link.md`) — Claude referral link for future articles about Grove+Rob collaboration.
+
+### What should happen next
+- **Continue high-density citation standard to remaining articles** (check which guides still need retrofit)
+- **Content review cadence** — next round due ~April 19
+
 ## Run 579 — 2026-04-09 — High-Density Citation Retrofit: Chainalysis AI Agents Article, Deploy
 
 **Mode:** Developer (editorial quality)
