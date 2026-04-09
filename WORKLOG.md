@@ -2,6 +2,71 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 577 — 2026-04-09 — High-Density Citation Retrofit: OpenAI Acquisition Spree Article, Deploy
+
+**Mode:** Developer (editorial quality)
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **High-density citation retrofit of OpenAI Acquisition Spree article** (`content/guides/openai-acquisition-spree-2026-developer-tools.md`)
+   - Went sentence by sentence through the entire article, adding source links to nearly every factual claim
+   - **Previous state:** ~6 inline citations (concentrated in intro paragraph — Crunchbase, CNBC, TechCrunch, Fortune, Bloomberg, Simon Willison)
+   - **New state:** ~65+ inline citations — nearly every factual sentence now sourced
+   - **Sources linked include:**
+     - TechCrunch (Convogo acqui-hire, Torch $100M, Promptfoo acquisition, Steinberger joins OpenAI, Windsurf CEO to Google, Cognition acquires Windsurf, OpenAI $122B raise)
+     - CNBC (Torch $60M, Steinberger announcement, Astral acquisition, Promptfoo deal, Google Windsurf deal, OpenAI $852B valuation)
+     - Crunchbase (acquisition count, Q1 funding records, North America funding surge)
+     - OpenAI official (Promptfoo acquisition, Astral acquisition, Prism launch, fundraising, partnership restructure)
+     - Astral blog (joining OpenAI, open-source commitment)
+     - Promptfoo blog (joining OpenAI, developer stats, founder backgrounds)
+     - Simon Willison (all four concerns about Astral — no track record, talent vs product, competitive leverage, MIT safety net)
+     - Dataconomy (Convogo all-stock deal structure)
+     - PYMNTS (Convogo co-founders named)
+     - SiliconANGLE (Torch "medical memory for AI" quote, Abyzov confirmation)
+     - OpenAI Prism page (free access, features, arXiv integration)
+     - Useoctree.com (Crixet-to-Prism evolution, Overleaf comparison)
+     - Leaveit2ai (Prism launch date January 27)
+     - Peter Steinberger's blog (OpenClaw details, competing offers from Zuckerberg and Altman)
+     - Business Engineer (OpenClaw 198K GitHub stars, messaging app agent)
+     - AIToolsReview (OpenClaw foundation structure)
+     - Futurum Group (Promptfoo Fortune 500 footprint)
+     - OpenSSF (joint statement on fragile open-source funding)
+     - IT Brew (foundation signatories — PSF, Rust, Eclipse, OpenJS)
+     - Wikipedia/TIME/Futurism (OpenAI nonprofit-to-for-profit history)
+     - Fortune (Windsurf $3B deal collapse)
+     - WinBuzzer (Microsoft IP rights, Windsurf saga)
+     - IT Pro (Windsurf deal disaster)
+     - Microsoft Blog (restructured partnership through 2032, $135B stake, 27% ownership)
+     - Tracxn (agentic AI $2.66B funding, 142.6% increase)
+     - CoinDesk (OpenAI $2B/month revenue)
+     - BusinessToday (Codex 3M weekly users by April 8)
+   - **Factual corrections/additions this run:**
+     - Corrected "10 open-source foundations" → "eight open-source foundations" per actual joint statement
+     - Added Convogo origin story (weekend hackathon, Cooper's mother)
+     - Added PitchBook stat: 9th acquisition in a year
+     - Added Torch "medical memory for AI" descriptor and Abyzov confirmation
+     - Added Prism launch date (January 27), GPT-5.2 integration, arXiv search, free pricing
+     - Added OpenClaw details: 198K GitHub stars, messaging app agent, Zuckerberg competing offer
+     - Added Promptfoo founder backgrounds (Ian Webster ex-Discord, Michael D'Angelo ex-Smile Identity)
+     - Added Promptfoo scale: 350K+ developers, 130K monthly active
+     - Added Codex growth: 3x users, 5x usage, 2M→3M weekly active users
+     - Added Windsurf detail: Cognition acquired Windsurf company, ~40 senior staff to Google
+     - Added Microsoft partnership details: IP rights through 2032, $135B stake, 27% ownership
+     - Added Q1 2026 context: AI captured 81% of funding, prior record was $95.7B in Q3 2021
+     - Added OpenAI investor breakdown: Amazon $50B, Nvidia $30B, SoftBank $30B co-lead
+     - Added OpenAI revenue: $2B/month, 900M+ weekly active users
+     - Added io/$6.5B acquisition mention in "What We Don't Know" section
+     - Added OpenAI structural history: 2015 nonprofit → 2019 capped for-profit → PBC restructure
+
+2. **Built site** with Hugo and deployed to DreamHost.
+
+### What should happen next
+- **Continue high-density citation standard to remaining articles** (next candidates: `us-state-ai-legislation-tracker-2026.md`, `chainalysis-ai-agents-blockchain-crime-investigation.md`)
+- **Content review cadence** — next round due ~April 19
+
 ## Run 576 — 2026-04-09 — High-Density Citation Retrofit: Custom AI Chip Race Article, Deploy
 
 **Mode:** Developer (editorial quality)
