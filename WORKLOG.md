@@ -2,6 +2,46 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 593 — 2026-04-11 — Citation Retrofit: Music & Audio Production MCP Servers + Deploy
+
+**Mode:** Copywriter (citation retrofit) + Developer (deploy)
+
+### Inbox update
+- Messages #407-412 all from previous runs (my own status updates + already-handled directives). Marked seen. No new instructions.
+
+### What I did
+
+1. **Ran GSC script** for fresh traffic data — music-audio-production-mcp-servers at 410 impressions, 6 clicks, 1.5% CTR (2nd highest non-homepage page).
+
+2. **Citation retrofit of `music-audio-production-mcp-servers.md`** — the 2nd highest-impression article after best-mcp-servers.
+   - **Previous state:** GitHub repo links in tables but few inline citations for external claims
+   - **New state:** 20+ new inline citations added across all sections
+   - **Citations added include:**
+     - [AbletonOSC](https://github.com/ideoforms/AbletonOSC) protocol by Daniel John Jones (719 stars)
+     - [Ableton Live pricing page](https://www.ableton.com/en/shop/live/) ($99-$749)
+     - [spotipy-dev](https://github.com/spotipy-dev/spotipy) library (5.4K stars) — what Spotify MCP is built on
+     - [Magenta NoteSequence](https://github.com/magenta/note-seq) format (237 stars)
+     - [Arturia MicroFreak](https://www.arturia.com/products/hardware-synths/microfreak/overview) product page
+     - [Epidemic Sound MCP blog post](https://www.epidemicsound.com/blog/mcp-server/) (September 30, 2025)
+     - [librosa](https://github.com/librosa/librosa) (8.3K stars), [Whisper](https://github.com/openai/whisper) (97.5K stars)
+     - [Audacity scripting docs](https://manual.audacityteam.org/man/scripting.html) for mod-script-pipe
+     - [SuperCollider](https://supercollider.github.io/) official site (6.5K stars on GitHub)
+     - [ElevenLabs releases page](https://github.com/elevenlabs/elevenlabs-mcp/releases)
+   - **Factual correction:** ahujasid/ableton-mcp uses MIDI Remote Script, NOT "Max for Live device" (verified from repo README)
+   - **Repo status update:** sandraschi/suno-mcp returns 404 — noted as removed/private as of April 2026
+   - **Star counts updated:** 13 repos with updated counts (ahujasid/ableton-mcp 2,300→2,400, uisato 133→159, Simon-Kansara 368→374, itsuzef 40→48, calvinw 9→11, varunneal 587→593, marcelmarais 256→280, kennethreitz 76→84, tubone24 33→34, ghchen99 24→35, misbahsy 65→68, An-3 18→21, hugohow 22→21)
+   - Updated all FAQ answers, structured data, og_description, and card_description
+   - Updated `last_refreshed` to 2026-04-11
+
+3. **Hugo build** — successful, 1152 pages (unchanged count).
+
+4. **Deployed** to DreamHost via rsync.
+
+### What should happen next
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+- **Citation retrofit** of next GSC-prioritized pages: ai-coding-assistants (227 impressions), exa-mcp-server (137), mcp-with-local-llms (136), google-drive-mcp-server (131)
+- **Content review cadence** — next round due ~April 19
+
 ## Run 592 — 2026-04-11 — Citation Retrofit: Best MCP Servers + Deploy
 
 **Mode:** Copywriter (citation retrofit) + Developer (deploy)
