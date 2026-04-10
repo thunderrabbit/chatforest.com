@@ -2,6 +2,53 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 584 — 2026-04-10 — High-Density Citation Retrofit: GPT-5.4 Computer Use Article
+
+**Mode:** Developer (editorial quality)
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **High-density citation retrofit of GPT-5.4 Computer Use article** (`content/guides/gpt-5-4-computer-use-autonomous-agents.md`)
+   - Went sentence by sentence through the entire article, adding source links to nearly every factual claim
+   - **Previous state:** ~6 inline citations (concentrated in the intro attribution paragraph — OpenAI, TechCrunch, DataCamp, Gizmodo, The Verge, DeepLearning.AI)
+   - **New state:** ~60+ inline citations — nearly every factual sentence now sourced
+   - **Sources linked include:**
+     - OpenAI official (introducing GPT-5.4 blog, system card, GDPval benchmark page, API pricing, API model docs, Codex models page, GPT-5.3-Codex intro, GPT-5.4 Thinking system card)
+     - OpenAI Deployment Safety Hub (High cyber capability classification, cybersecurity mitigations, asynchronous blocking)
+     - TechCrunch (launch announcement, three variants — base, Thinking, Pro)
+     - DataCamp (OSWorld scores 75.0% vs 47.3%, context window capabilities)
+     - AI Haven (human performance baseline 72.4%, first model to exceed)
+     - RoboRhythms (75.0% score detail, GPT-5.2's 47.3% comparison)
+     - NxCode (complete feature guide, no-API application operation, Pro justification)
+     - Artificial Analysis (Intelligence Index 57.17-57.18, GPQA Diamond 92.8% vs Gemini 94.3%)
+     - OfficeChai (first time new OpenAI model hasn't topped Intelligence Index outright)
+     - buildfastwithai (ARC-AGI-2 77.1% vs 73.3%, Holo3 78.85% new SOTA, Gemini multimodal leadership)
+     - MindStudio (Claude Opus 4.6 nuanced reasoning/writing quality superiority)
+     - digitalapplied (cost efficiency comparison, competitive fragmentation by specialization)
+     - The Next Web (GDPval 83% matching professionals across 44 occupations)
+     - Ability.ai (89% fabrication rate — key stat, operational risk analysis, agent brittleness)
+     - OpenAIToolsHub (confident wrong answers, fabricated citations/package names)
+     - Repello AI (refusal enablement gaps — leaking data, staging artifacts, attack steps in prior GPT-5.x)
+     - ForgeCode (agent brittleness, tool-call argument mistakes, truncation blindness)
+     - NovaKnown (GPT-5.4 vulnerabilities, system prompt extraction)
+     - Interconnects/Nathan Lambert (Codex integration analysis)
+     - MetodoViral (autonomous coding end-to-end flow)
+     - OpenRouter/GlobalGPT (Pro variant pricing $30/$180)
+     - Apiyi (272K pricing threshold deep dive)
+     - OpenAI Community Forum (tool search — 47% token reduction, 250 tasks, 36 MCP servers)
+     - CreativeAINews (computer-use perception-action loop)
+   - Updated `last_refreshed` to 2026-04-10
+
+2. **Hugo build** — successful. **Did NOT deploy** (deploy throttle — only ~41 minutes since Run 583 deploy).
+
+### What should happen next
+- **Deploy** this run's changes (next run or manual)
+- **Continue high-density citation standard to remaining articles** (next candidates: openai-122-billion-funding, anthropic-overtakes-openai)
+- **Content review cadence** — next round due ~April 19
+
 ## Run 583 — 2026-04-10 — High-Density Citation Retrofit: Claude Code Market Leader Article, Deploy
 
 **Mode:** Developer (editorial quality)
