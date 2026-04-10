@@ -2,6 +2,41 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 594 — 2026-04-11 — Citation Retrofit: AI Coding Assistants Compared + Deploy
+
+**Mode:** Copywriter (citation retrofit) + Developer (deploy)
+
+### Inbox update
+- Messages #407-413 all from previous runs (my own status updates + already-handled directives). Marked seen. No new instructions.
+
+### What I did
+
+1. **Citation retrofit of `ai-coding-assistants-compared.md`** — the 3rd highest-impression article (227 GSC impressions).
+   - **Previous state:** Only 1 inline citation (Cursor 3 changelog link) and internal links
+   - **New state:** 25+ new inline citations added across all 7 tool sections + benchmarks
+   - **Citations added include:**
+     - [Claude Code product page](https://claude.com/product/claude-code), [Anthropic pricing](https://claude.com/pricing), [API pricing](https://platform.claude.com/docs/en/about-claude/pricing)
+     - [Cursor 3 blog post](https://cursor.com/blog/cursor-3), [Bugbot page](https://cursor.com/bugbot), [Building Bugbot blog](https://cursor.com/blog/building-bugbot) (78% resolution rate), [Bugbot learning blog](https://cursor.com/blog/bugbot-learning), [Cursor pricing](https://cursor.com/pricing)
+     - [Copilot plans page](https://github.com/features/copilot/plans), [Copilot Workspace](https://githubnext.com/projects/copilot-workspace), [Autopilot mode GA](https://awesomeagents.ai/news/github-copilot-cli-generally-available/), [Copilot SDK preview](https://github.blog/changelog/2026-04-02-copilot-sdk-in-public-preview/), [Copilot SDK blog](https://github.blog/news-insights/company-news/build-an-agent-into-any-app-with-the-github-copilot-sdk/)
+     - [Windsurf Cascade page](https://windsurf.com/cascade), [Windsurf pricing](https://windsurf.com/pricing), [Cognition acquisition coverage](https://www.deeplearning.ai/the-batch/google-cognition-carve-up-windsurf-after-openais-failed-3b-acquisition-bid/)
+     - [OpenAI Codex repo](https://github.com/openai/codex) (67K+ stars, Apache 2.0), [Codex CLI docs](https://developers.openai.com/codex/cli)
+     - [Kiro official site](https://kiro.dev/), [Kiro intro blog](https://kiro.dev/blog/introducing-kiro/)
+     - [Google Antigravity Developers Blog](https://developers.googleblog.com/build-with-google-antigravity-our-new-agentic-development-platform/), [AgentKit 2.0](https://www.geeky-gadgets.com/google-antigravity-agentkit-2026/), [Manager View blog](https://atamel.dev/posts/2026/01-19_parallel_agents_antigravity/)
+     - [SWE-bench leaderboard](https://www.swebench.com/), [SWE-bench Verified stats](https://llm-stats.com/benchmarks/swe-bench-verified), [SWE-bench Pro](https://labs.scale.com/leaderboard/swe_bench_pro_public)
+   - **SWE-bench scores updated:** Claude Opus 4.5 (80.9%), Claude Opus 4.6 (80.8%), Claude Sonnet 4.6 (79.6%), GPT-5.2 (80.0%) — was significantly stale
+   - **Factual additions:** Cognition AI acquisition of Windsurf (~$250M, Dec 2025), Copilot Autopilot mode now GA (Feb 2026), Copilot SDK now public preview (Apr 2026), Kiro credit multipliers, Windsurf Pro Ultimate tier ($60/mo)
+   - **FAQ updates:** "Cursor's Composer" → "Cursor 3's Agents Window" (reflects Cursor 3 architecture shift)
+   - Updated `last_refreshed` to 2026-04-11
+
+2. **Hugo build** — successful, page count unchanged.
+
+3. **Deployed** to DreamHost via rsync.
+
+### What should happen next
+- **Citation retrofit** of next GSC-prioritized pages: exa-mcp-server (137 impressions), mcp-with-local-llms (136), google-drive-mcp-server (131)
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+- **Content review cadence** — next round due ~April 19
+
 ## Run 593 — 2026-04-11 — Citation Retrofit: Music & Audio Production MCP Servers + Deploy
 
 **Mode:** Copywriter (citation retrofit) + Developer (deploy)
