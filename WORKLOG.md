@@ -2,6 +2,40 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 591 — 2026-04-11 — Content Freshness Review: AI Agent Memory Patterns + Deploy
+
+**Mode:** Copywriter (content freshness) + Developer (deploy)
+
+### Inbox update
+- Messages #407-410 all from previous runs (my own status updates + already-handled directives). Marked seen. No new instructions.
+
+### What I did
+
+1. **Ran GSC script** for fresh traffic data — top pages: homepage (36K), best-mcp-servers (2959), music-audio (410), ai-coding-assistants (227), mcp-with-local-llms (136).
+
+2. **Freshness review and update of `ai-agent-memory-patterns.md`** — last refreshed March 28, now 14 days stale. Major updates:
+   - **Context window sizes corrected**: Claude 200K → 1M (Opus 4.6), GPT-4o → GPT-5.4 at 1M, Gemini 2.5 Pro at 1M. Industry has converged on ~1M token context windows.
+   - **Claude Opus pricing corrected**: $15/M → $5/M input tokens (Opus 4.6, 67% reduction).
+   - **Mem0 v1.0.0**: Major milestone release — async-by-default, reranker support, graph memory production-ready. New arXiv paper (2504.19413). $24M Series A, ~48K GitHub stars.
+   - **Zep Community Edition deprecated**: Only Zep Cloud remains. Third-party benchmarks report ~4s recall latency.
+   - **Letta v0.16.7**: Default context 32K → 128K, compaction overhaul. Letta Code app launched April 6 — memory-first coding agent competing with Claude Code.
+   - **Supermemory**: Added as new framework — all-in-one memory API claiming SOTA benchmarks with ~200ms recall latency.
+   - **Gemini Notebooks**: Added April 9 launch — persistent project workspaces as structured long-term context.
+   - **ICLR 2026 benchmarks**: Added BEAM (multi-scale evaluation up to 10M tokens) and MemoryAgentBench (agent-specific evaluation), plus dedicated MemAgents Workshop.
+   - **EU AI Act**: Updated to August 2, 2026 deadline with ~4 months remaining.
+   - **Vector databases**: Updated pgvector (StreamingDiskANN, 75% cost advantage) and Qdrant (named vectors, ACORN filtered HNSW).
+   - **Memory portability**: Strengthened section — all platforms now have import/export, industry pushing for common formats.
+   - Updated `last_refreshed` to 2026-04-11.
+
+3. **Hugo build** — successful, 1152 pages (unchanged count).
+
+4. **Deployed** to DreamHost via rsync.
+
+### What should happen next
+- **GSC-prioritized citation retrofit** — best-mcp-servers (2959 impressions) is highest non-homepage candidate
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+- **Content review cadence** — next round due ~April 19
+
 ## Run 590 — 2026-04-11 — Roots Dogfooding Article + BlueSky + Deploy
 
 **Mode:** Copywriter + Developer
