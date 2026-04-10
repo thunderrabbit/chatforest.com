@@ -2,6 +2,63 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 585 — 2026-04-10 — High-Density Citation Retrofit: OpenAI $122B Funding Article + Deploy
+
+**Mode:** Developer (editorial quality)
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed Run 584 changes** — Hugo build successful, rsync to DreamHost completed. Deploy throttle was clear (~3.5 hours since last deploy).
+
+2. **High-density citation retrofit of OpenAI $122B funding article** (`content/guides/openai-122-billion-funding-852-billion-valuation.md`)
+   - Went sentence by sentence through the entire article, adding source links to nearly every factual claim
+   - **Previous state:** ~6 inline citations (concentrated in the intro attribution paragraph — CNBC, TechCrunch, Bloomberg, CoinDesk, OpenAI, Axios)
+   - **New state:** ~60+ inline citations — nearly every factual sentence now sourced
+   - **Sources linked include:**
+     - CNBC (round closing, Amazon talks, NVIDIA talks, NVIDIA "might be last", SoftBank, Microsoft restructuring, Musk lawsuit/ouster, compute spend targets, funding expansion to $122B)
+     - Bloomberg (round closing valuation, SoftBank talks, Anthropic funding, Musk trial winnings)
+     - TechCrunch (initial $110B announcement, retail investors $3B, Anthropic $30B Series G, SoftBank $40B loan, Musk trial)
+     - OpenAI official (accelerating AI announcement, Amazon partnership, structure page, PBC statement)
+     - GeekWire (Amazon deal structure — $15B now, $35B contingent)
+     - SaaStr (round criticism — vendor deals, contingent capital)
+     - Tom's Hardware (Amazon $50B, AWS $100B expansion)
+     - Fortune (Microsoft 26.79% stake)
+     - Benzinga (ARK ETF inclusion, Kalshi IPO predictions)
+     - Bloomberg (ARK ETF inclusion)
+     - Kalshi (IPO prediction market odds)
+     - Built In (PBC restructuring details)
+     - NBC News (PBC structure, nonprofit subpoenas)
+     - SF Standard (Midas Project/advocacy group subpoenas, intimidation claims)
+     - Chronicle of Philanthropy (nonprofit asset valuation concerns)
+     - Sacra (revenue data, $24B run rate)
+     - MLQ/The Decoder (cash burn projections, $57B by 2027, $665B through 2030)
+     - 9to5Mac (ChatGPT 900M+ weekly users)
+     - Seeking Alpha (ARK ETF IPO disclosure bypass)
+     - CoinDesk (Berkshire Hathaway valuation comparison)
+     - Tech-Insider (SoftBank quarterly tranches)
+     - European Business Magazine (SoftBank largest investment)
+     - TechFundingNews/CNBC (xAI $230B valuation, $20B Series E)
+     - Anthropic announcement (revenue $14B ARR)
+   - **Factual corrections:**
+     - Updated ChatGPT users from "200 million+" to "900 million+" (sourced to 9to5Mac/OpenAI February 2026 announcement)
+     - Updated xAI from "~$75B valuation, $12B raise" to "~$230B valuation, $20B Series E (Jan 2026)" with sources
+     - Added Anthropic's newly disclosed $14B ARR to competitive table
+     - Added note about SpaceX-xAI merger changing competitive landscape
+     - Added SoftBank's $40B loan detail and Amazon's $100B AWS expansion
+     - Added Musk lawsuit April 2026 updates (ouster request, jury selection date)
+     - Added $665B total cash burn through 2030 figure
+   - Updated `last_refreshed` to 2026-04-10
+
+3. **Hugo build** — successful.
+
+### What should happen next
+- **Deploy** this run's changes (next run — deploy throttle)
+- **Continue high-density citation standard to remaining articles** (next candidate: `anthropic-overtakes-openai-enterprise-market-share`)
+- **Content review cadence** — next round due ~April 19
+
 ## Run 584 — 2026-04-10 — High-Density Citation Retrofit: GPT-5.4 Computer Use Article
 
 **Mode:** Developer (editorial quality)
