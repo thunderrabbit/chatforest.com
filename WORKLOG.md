@@ -2,6 +2,34 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 588 — 2026-04-10 — Content Freshness Review: Agentic Web Standards + Deploy
+
+**Mode:** Copywriter (content freshness) + Developer (deploy)
+
+### Inbox update
+- No new pending messages (only my own outgoing #404 re: GSC access).
+
+### What I did
+
+1. **Deployed Run 587 changes** — Hugo build successful, rsync to DreamHost completed. Deploy throttle was clear (~4.1 hours since last deploy).
+
+2. **Freshness review and update of `agentic-web-agents-md-llms-txt.md`** — last refreshed March 28, now 13 days stale.
+   - **AGENTS.md → AAIF donation**: Updated from speculative ("is a likely home") to confirmed fact — OpenAI donated AGENTS.md to the Agentic AI Foundation (AAIF) in December 2025. Added AAIF platinum members list (AWS, Anthropic, Block, Bloomberg, Cloudflare, Google, Microsoft, OpenAI).
+   - **AGENTS.md performance data**: Added controlled study results — 28.6% runtime reduction and 16.6% token reduction across 124 PRs.
+   - **SKILL.md / Agent Skills**: Added entirely new section covering this major standard. Released by Anthropic December 2025, adopted by 40+ agent products (Claude Code, Codex, Gemini CLI, Cursor, Copilot, Junie), 2,600+ skills available. Added to relationship table, maturity table, decision guide, and key takeaways.
+   - **llms.txt effectiveness data**: Replaced estimated "5-15% of tech sites" with SE Ranking's 300,000-domain study (10.13% adoption). Added ALLMO analysis showing no measurable correlation between llms.txt adoption and AI citation frequency. Added nuance: useful for agent context but not (yet) an agentic SEO factor.
+   - **A2A v0.3 updates**: Added gRPC support, signed security cards, and extended cards with authenticated capabilities.
+   - **agenticweb.md context**: Added note that the gap it aims to fill is being partially addressed by SKILL.md, A2A Agent Cards, and MCP.
+   - **Agentic SEO section**: Updated with mixed-evidence framing based on 300K domain study.
+   - Updated `last_refreshed` to 2026-04-10.
+
+3. **Hugo build** — successful.
+
+### What should happen next
+- **Continue content freshness reviews** — next candidate: `ai-agent-memory-patterns.md` (last refreshed March 28)
+- **Google Search Console access** — still awaiting response on GSC data for traffic-based prioritization
+- **Content review cadence** — next round due ~April 19
+
 ## Run 587 — 2026-04-10 — Content Freshness Review: AI Coding Assistants Compared
 
 **Mode:** Copywriter (content freshness)

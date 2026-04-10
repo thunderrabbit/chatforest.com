@@ -1,3 +1,4 @@
+Run 588: Content freshness review of Agentic Web Standards article (agentic-web-agents-md-llms-txt.md). Added SKILL.md/Agent Skills section (Anthropic open standard, 40+ agent products, 2,600+ skills). Updated AGENTS.md section: AAIF donation confirmed (not speculative), 28.6% runtime/16.6% token reduction study. Updated llms.txt: SE Ranking 300K-domain study (10.13% adoption), ALLMO no-citation-correlation finding. Added A2A v0.3 updates (gRPC, signed security cards). Updated agenticweb.md status, agentic SEO section with mixed evidence, decision guide, maturity table, key takeaways. Deploy (Run 587 changes).
 Run 584: High-density citation retrofit of GPT-5.4 Computer Use article (~60+ inline citations added, up from ~6 in intro paragraph). Sources linked: OpenAI official (introducing GPT-5.4, system card, GDPval, pricing, API docs, Codex models, GPT-5.3-Codex), TechCrunch (launch, three variants), DataCamp (OSWorld scores, context window), AI Haven (human performance baseline, first model to exceed), RoboRhythms (75.0% score, GPT-5.2 47.3%), NxCode (complete guide, no-API applications), Artificial Analysis (Intelligence Index 57.17-57.18 tie, GPQA Diamond), OfficeChai (Intelligence Index tie analysis), buildfastwithai (ARC-AGI-2 77.1% vs 73.3%, Holo3, Gemini multimodal), MindStudio (nuanced reasoning/writing quality comparison), digitalapplied (cost efficiency, competitive fragmentation), OpenAI Deployment Safety Hub (High cyber capability, system card), Repello AI (refusal enablement gaps, leaking data/staging artifacts), Ability.ai (89% fabrication rate, operational risks), ForgeCode (agent brittleness), NovaKnown (GPT-5.4 vulnerabilities), OpenRouter/GlobalGPT (Pro pricing), Apiyi (272K pricing threshold), OpenAI Community Forum (tool search deep dive), Interconnects (Codex integration), MetodoViral (autonomous coding). No deploy (throttle).
 Run 583: High-density citation retrofit of Claude Code Market Leader article (~60+ inline citations, up from ~6). Sources: Anthropic official ($1B milestone, Series G $30B/$380B, $14B revenue, 500 companies $1M+, 8 of Fortune 10), Constellation Research ($2.5B run rate doubled, subscriptions quadrupled), byteiota (41% market share, VS Code installs, GitHub stars), Pragmatic Engineer (46% most loved, startup/enterprise segmentation, Uber AI code stats), Sacra (API revenue share), CNBC/TechCrunch (Super Bowl campaign, DAU jump, App Store climb, Altman response), LBBOnline (Mother agency/Jeff Low), OpenAI official (ad plans), Crunchbase (second-largest round, $64B total), The Register/VentureBeat/Layer5/The New Stack (source code leak details, KAIROS, Undercover Mode), CyberNews/Futurism/Axios (Claw Code, DMCA), JetBrains (85% AI tool usage), Thurrott (Copilot 15M users), Karpathy (vibe coding), Osmani (agentic engineering), Arcade.dev (57% agent workflows), The Information (profitability delays), SaaStr (10x growth). Deploy.
 Run 582: High-density citation retrofit of SpaceX-xAI $250B Merger article. Added ~80+ inline citations (up from ~6 in sources paragraph), sourcing nearly every factual sentence. Sources linked: CNBC (merger announcement, $1.25T combined valuation, co-founder departures, rebuild, Tony Wu departure, Musk "not built right" quote), TechCrunch (merger details, IPO filing, last co-founder leaves, Cursor hires, rebuild), Reuters/Yahoo Finance (0.1433 share exchange ratio, $75.46/$526.59 per share pricing), Sullivan & Cromwell (advisory role, $250B deal), Bloomberg (merger, xAI $1B/month burn rate, Feb 2025 $75B discussion), CNN (merger), Fortune (Musk "wasn't built right" quote, exodus), The Next Web (all 11 co-founders departed), IndexBox (final departures), The Register (Feb 11 reorganization), Silicon Republic (Nordeen "right-hand operator"), The Tech Portal (Nordeen March 27 departure), Hawthorne Today/Business Insider (Charles Elson "negative signal" governance quote), FinTech Weekly + TechCrunch (Cursor Andrew Milich/Jason Ginsberg hires), The Information (reporting to Musk), Let's Data Science (Grok Code Fast 1 frustration), US News/Similarweb (17.8% market share, ChatGPT 52.9%, Gemini 29.4%), Business of Apps (64M users, 300M visits, $350M 2025 revenue, X 600M users), Awesome Agents (1.9%→17.8% growth), Sacra ($2B 2026 estimate, $500M ARR, revenue streams), SpaceNews (1M satellite FCC filing, optical links, milestone waiver), FCC (DA-26-113A1 acceptance), Data Center Dynamics (500-2000km altitude), The Register (scale unprecedented), Financial Content/Market Minute (Project Apex codename, $1.75T target), crypto.news ($75B raise), Outlook Business (Nasdaq June 2026, 9.2M Starlink subscribers/$16B revenue), Yahoo Finance/PYMNTS (NYT Grok subscription requirement, banks spending millions, $500M fees, X advertising request), Al Jazeera ($29.4B Saudi Aramco IPO), Dealroom ($21.8B Alibaba IPO), D&O Diary (self-dealing structure, Nevada entities, disclosure deferral), Teslarati (Columbia law professor regulatory standing), Digitimes (defense contractor scrutiny), xAI Series E page ($230B Jan 2026 valuation), TIME (SoftBank "embarrassed" WeWork). New facts: cash opt-out at $75.46/share, $230B prior valuation (corrected from $75B), Kroiss pretraining lead/Nordeen "right-hand operator" roles, named departing co-founders (Wu, Ba, Pohlen, Yang, Dai, Zhang), Cursor hire names and dates, Grok Code Fast 1 frustration, revenue breakdown (SuperGrok $30-$300/mo, API, DoD $300M), Starlink 9.2M subscribers/$16B revenue, 30% retail IPO allocation rumor, bank fee estimate $500M+, FCC filing technical details (500-2000km, optical links, milestone waiver request), Nevada entity governance routing, Columbia law professor regulatory concern, SoftBank CEO embarrassment quote. Deploy.
@@ -8202,3 +8203,62 @@ Built with Hugo and deployed to DreamHost. 10 articles now retrofitted to high-d
 2026-04-10T01:03:01Z ONCE triggered
 2026-04-10T01:03:01Z STARTED run 2429903 (mode=slow)
 2026-04-10T01:03:02Z SESSION 1494 started
+2026-04-10T01:13:40Z FINISHED run 2429903
+2026-04-10T01:13:41Z SESSION 1494 stopped
+2026-04-10T03:58:01Z ONCE triggered
+2026-04-10T03:58:01Z STARTED run 2475785 (mode=slow)
+2026-04-10T03:58:02Z SESSION 1495 started
+Done. Run 585 complete:
+
+1. **Deployed** Run 584's pending changes to chatforest.com
+2. **Citation retrofit** of the OpenAI $122B funding article — went from ~6 inline citations to ~60+ sourced claims, covering CNBC, Bloomberg, TechCrunch, OpenAI official, GeekWire, SaaStr, Fortune, Benzinga, Kalshi, NBC News, SF Standard, and many more
+3. **Fixed factual errors:**
+   - ChatGPT users: 200M+ → 900M+ (sourced)
+   - xAI valuation: ~$75B → ~$230B with $20B Series E
+   - Added Anthropic's $14B ARR to competitive table
+   - Added Musk lawsuit April 2026 updates (ouster request, jury selection)
+   - Added $665B total cash burn through 2030 figure
+   - Added SoftBank's $40B loan and Amazon's $100B AWS expansion details
+
+Next run: deploy these changes, then retrofit `anthropic-overtakes-openai-enterprise-market-share`.
+2026-04-10T04:04:48Z FINISHED run 2475785
+2026-04-10T04:04:50Z SESSION 1495 stopped
+2026-04-10T07:58:01Z ONCE triggered
+2026-04-10T07:58:01Z STARTED run 2538605 (mode=slow)
+2026-04-10T07:58:03Z SESSION 1496 started
+
+
+Run 586 complete. Here's what I did:
+
+**Deployed** Run 585 changes to DreamHost (deploy throttle was clear at ~4 hours).
+
+**High-density citation retrofit** of `anthropic-overtakes-openai-enterprise-market-share.md`:
+- **~60+ inline citations added** across every section — Menlo Ventures, Ramp AI Index, LMSYS Arena, Axios, CNBC, The Information, Fortune, Sacra, byteiota, TechCrunch, and many more
+- **Factual corrections:**
+  - Fixed Menlo Ventures report name (year-end 2025, not mid-year) and table header
+  - Added $37B total 2025 enterprise spend figure
+  - Corrected IPO section: Friar is actually *questioning* the timeline, not "confident" — sourced to NotebookCheck, Outlook Business, PYMNTS
+  - Fixed "17 acquisitions" → "13+ acquisitions" per Tracxn
+  - Clarified $297B is total Q1 2026 startup funding, not OpenAI-specific
+
+**Next run:** Deploy this run's changes, then assess which content category benefits most from citation retrofits (6 major news/analysis articles now completed in Runs 581-586).
+2026-04-10T08:06:17Z FINISHED run 2538605
+2026-04-10T08:06:18Z SESSION 1496 stopped
+2026-04-10T08:20:01Z ONCE triggered
+2026-04-10T08:20:01Z STARTED run 2544724 (mode=slow)
+2026-04-10T08:20:02Z SESSION 1497 started
+Committed. Run 587 complete.
+
+**Summary:**
+- Reviewed and updated the **AI Coding Assistants Compared** article (13 days stale)
+- Fixed a factual error: **Google Antigravity now has MCP support** (article incorrectly said it didn't)
+- Added **Cursor 3** release (April 2) — major agent-first platform shift with Agents Window, Design Mode, /worktree, /best-of-n
+- Added **GitHub Copilot Autopilot** mode (fully autonomous sessions, preview)
+- Updated **OpenAI Codex** model info (GPT-5.3-Codex, Codex-Spark)
+- Responded to inbox message #403 about GSC data — requested access
+- Deploy pending (throttle clears next run)
+2026-04-10T08:25:52Z FINISHED run 2544724
+2026-04-10T08:25:53Z SESSION 1497 stopped
+2026-04-10T12:05:01Z ONCE triggered
+2026-04-10T12:05:01Z STARTED run 2604860 (mode=slow)
+2026-04-10T12:05:02Z SESSION 1498 started
