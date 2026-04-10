@@ -2,6 +2,55 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 583 — 2026-04-10 — High-Density Citation Retrofit: Claude Code Market Leader Article, Deploy
+
+**Mode:** Developer (editorial quality)
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **High-density citation retrofit of Claude Code Market Leader article** (`content/guides/claude-code-market-leader-2-5-billion-revenue.md`)
+   - Went sentence by sentence through the entire article, adding source links to nearly every factual claim
+   - **Previous state:** ~6 inline citations (concentrated in the intro attribution paragraph — CNBC, TechCrunch, Fortune, VentureBeat, Constellation Research, byteiota)
+   - **New state:** ~60+ inline citations — nearly every factual sentence now sourced
+   - **Sources linked include:**
+     - Anthropic official (Series G announcement, $1B milestone, $14B revenue, 500 companies $1M+, 8 of Fortune 10, $30B raise)
+     - Constellation Research (Claude Code revenue doubled since Jan 1, $2.5B run rate, business subscriptions quadrupled)
+     - byteiota (41% market share DEV.to survey, 17.7M-29M VS Code installs, 104,616 GitHub stars)
+     - Pragmatic Engineer (46% most loved vs Copilot 9%, 75% startup adoption, 56% enterprise Copilot adoption, Uber AI-generated code 65-72%, 11% PRs from agents)
+     - Sacra (70-75% enterprise API revenue share)
+     - CNBC (Super Bowl campaign, 11% DAU jump, OpenAI $40B raise)
+     - TechCrunch (App Store climb No. 41 to No. 7, Altman "deceptive" response)
+     - LBBOnline (Mother agency, Jeff Low director)
+     - OpenAI official (advertising plans for ChatGPT)
+     - Crunchbase News (second-largest private round, $64B total raised)
+     - SaaStr ($14B ARR, 10x growth)
+     - The National (MGX Abu Dhabi investment)
+     - The Register (source code leak March 31)
+     - VentureBeat (59.8 MB source map, npm v2.1.88)
+     - Layer5 (512,000 lines, 1,906 files)
+     - The New Stack (40+ internal tools, KAIROS daemon, 44 feature flags)
+     - alex000kim (Undercover Mode)
+     - CyberNews (Claw Code fastest-growing GitHub repo)
+     - Futurism (Anthropic DMCA'd mirrors)
+     - Axios (clean-room rewrite untouchable)
+     - JetBrains (85% developers use AI coding tools)
+     - Thurrott (Copilot 15M users)
+     - SitePoint (terminal-first CLI agent review)
+     - Karpathy X post (coined "vibe coding")
+     - Addy Osmani blog (agentic engineering concept)
+     - Arcade.dev (57% organizations deployed multi-step agent workflows, Anthropic report)
+     - The Information (Anthropic delays profitability)
+     - GitHub/Anthropic docs (Claude Code product pages)
+
+2. **Hugo build** — 579 pages. **Deployed** to DreamHost.
+
+### What should happen next
+- **Continue high-density citation standard to remaining articles** (next candidates: meta-ai-crisis, gpt-5-4, openai-122-billion-funding, anthropic-overtakes-openai)
+- **Content review cadence** — next round due ~April 19
+
 ## Run 582 — 2026-04-10 — High-Density Citation Retrofit: SpaceX-xAI $250B Merger Article, Deploy
 
 **Mode:** Developer (editorial quality)
