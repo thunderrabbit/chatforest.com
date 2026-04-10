@@ -2,6 +2,72 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 586 — 2026-04-10 — High-Density Citation Retrofit: Anthropic Enterprise Market Share Article + Deploy
+
+**Mode:** Developer (editorial quality)
+
+### Inbox update
+- No pending messages.
+
+### What I did
+
+1. **Deployed Run 585 changes** — Hugo build successful, rsync to DreamHost completed. Deploy throttle was clear (~4 hours since last deploy).
+
+2. **High-density citation retrofit of Anthropic enterprise market share article** (`content/guides/anthropic-overtakes-openai-enterprise-market-share.md`)
+   - Went sentence by sentence through the entire article, adding source links to nearly every factual claim
+   - **Previous state:** ~6 inline citations (concentrated in the source attribution paragraph and cross-links)
+   - **New state:** ~60+ inline citations — nearly every factual sentence now sourced
+   - **Sources linked include:**
+     - Menlo Ventures (2025 State of Generative AI report — 40% Anthropic share, 27% OpenAI; year-end 2025 report with $37B total enterprise spend; mid-year 2025 LLM market update with $8.4B figure)
+     - Ramp AI Index (March 2026 — 73% new enterprise spend to Anthropic; February 2026 — 50/50 split ten weeks prior; 36% vs 12% penetration rates)
+     - Sherwood News (73% first-time enterprise spend confirmation)
+     - SaaStr (penetration rate analysis, Ramp data startup skew)
+     - Axios (79% multi-vendor overlap, revenue category shift, subscription trends)
+     - The Information (Anthropic $30B ARR announcement)
+     - Winbuzzer (revenue crossover confirmation, Claude Cowork MCP connectors)
+     - CNBC ($122B OpenAI funding, $380B Anthropic valuation, Claude Cowork announcement, Google TPU decade-long bet)
+     - byteiota (Claude Code 41% market share, $2.5B revenue, business subscriptions quadrupled)
+     - Sacra (API revenue composition, 80% enterprise revenue)
+     - AI World (Claude Opus 4.6 first model #1 across all three Arena leaderboards)
+     - LMSYS/LMArena (leaderboard scores — text 1502, code 1548, search #1)
+     - AI Dev Day India (Arena high-Elo rankings, coding leaderboard, top models)
+     - Anthropic official (Series G announcement, Fortune 100 adoption)
+     - VentureBeat (Claude Cowork enterprise plugins)
+     - Fortune (IPO market dynamics, SpaceX/OpenAI/Anthropic "reopen or drain" IPO market)
+     - Tech Portal (Anthropic October 2026 IPO target, $60B raise)
+     - PYMNTS (Altman pushing Q4 2026 listing)
+     - NotebookCheck (Friar questioning IPO timeline)
+     - Outlook Business (Friar concerns about $600B spending commitments)
+     - crypto.news (Anthropic $30B run rate, 3x jump)
+     - The AI Corner (1,000 businesses $1M+, 10x growth)
+     - Fast Company (OpenAI not profitable until at least 2030)
+     - AI Haven (GPT-5.4 computer use launch)
+     - NxCode (GPT-5.4 75% OSWorld)
+     - Nerd Level Tech (human expert 72.4% baseline)
+     - TechCrunch ($297B Q1 2026 startup funding record)
+     - OpenAI official (Agentic AI Foundation, $122B funding announcement)
+     - Tracxn (OpenAI 13+ acquisitions)
+     - Google (Gemini 3.1 Flash-Lite launch blog, Vertex AI pricing, A2A protocol, A2A upgrade)
+     - Seeking Alpha (Google Ironwood 7th-gen TPU)
+     - Gizmodo (IPO market bubble risks)
+     - Marketplace.org (2026 mega-IPO year)
+     - Let's Data Science (Anthropic revenue doubled, $60B IPO)
+   - **Factual corrections:**
+     - Updated Menlo Ventures report name from "Mid-Year LLM Market Update" to "State of Generative AI" (the 40%/27% figures come from the year-end 2025 report, not the mid-year one)
+     - Updated table header from "Mid-2025 Share" to "2025 Share" to match correct report
+     - Added $37B total 2025 enterprise spend figure (from year-end report)
+     - Corrected OpenAI IPO paragraph: removed claim that "Sam Altman and CFO Sarah Friar both confident" — multiple sources report Friar is actually questioning the timeline and concerned about $600B spending commitments
+     - Corrected "17 acquisitions" to "13+ acquisitions" per Tracxn data
+     - Clarified $297B figure is total Q1 2026 startup funding (not specifically OpenAI ecosystem)
+   - Updated `last_refreshed` to 2026-04-10
+
+3. **Hugo build** — successful.
+
+### What should happen next
+- **Deploy** this run's changes (next run — deploy throttle)
+- **Continue high-density citation standard to remaining articles** — the main news/analysis articles have now been completed (6 articles retrofitted in Runs 581-586); consider which category of content benefits most from citations next
+- **Content review cadence** — next round due ~April 19
+
 ## Run 585 — 2026-04-10 — High-Density Citation Retrofit: OpenAI $122B Funding Article + Deploy
 
 **Mode:** Developer (editorial quality)
