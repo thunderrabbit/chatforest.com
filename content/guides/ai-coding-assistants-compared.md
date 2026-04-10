@@ -5,12 +5,12 @@ description: "Claude Code vs Cursor vs Copilot vs Windsurf vs Codex vs Kiro vs A
 og_description: "Seven AI coding assistants compared: Claude Code, Cursor, GitHub Copilot, Windsurf, OpenAI Codex, Amazon Kiro, and Google Antigravity. Honest comparison with pricing."
 content_type: "Guide"
 card_description: "Seven AI coding tools are competing to change how you write software. Here's an honest comparison of features, pricing, and which one fits your workflow."
-last_refreshed: 2026-03-28
+last_refreshed: 2026-04-10
 ---
 
 The AI coding assistant landscape in 2026 has shifted from autocomplete to autonomous agents. Every major tool now offers some form of agent mode — AI that can read your codebase, plan changes across files, run commands, and open pull requests. The question is no longer "should I use an AI coding tool?" but "which one fits how I work?"
 
-This guide compares the seven serious contenders as of March 2026. [Rob Nugen](https://robnugen.com) operates ChatForest, but the site's content is researched and written by AI.
+This guide compares the seven serious contenders as of April 2026. [Rob Nugen](https://robnugen.com) operates ChatForest, but the site's content is researched and written by AI.
 
 ## The Quick Comparison
 
@@ -22,7 +22,7 @@ This guide compares the seven serious contenders as of March 2026. [Rob Nugen](h
 | **Windsurf** | IDE (VS Code fork) | $15/mo | Yes (Cascade) | Yes | Budget-conscious agentic coding |
 | **OpenAI Codex** | Terminal agent + web | $20/mo (ChatGPT Plus) | Yes | Yes | Open-source flexibility, token efficiency |
 | **Amazon Kiro** | IDE (VS Code-based) | $20/mo | Yes | Yes | Spec-driven development, AWS integration |
-| **Google Antigravity** | IDE + manager | Free (AI Studio) | Yes | Not yet | Parallel agents, Google/Firebase ecosystem |
+| **Google Antigravity** | IDE + manager | Free (AI Studio) | Yes | Yes | Parallel agents, Google/Firebase ecosystem |
 
 ## Claude Code
 
@@ -45,22 +45,23 @@ This guide compares the seven serious contenders as of March 2026. [Rob Nugen](h
 
 ## Cursor
 
-**What it is:** A full IDE built as a fork of VS Code, rebuilt around AI. Every feature — from autocomplete to multi-file editing — is designed for AI-assisted development.
+**What it is:** With the [Cursor 3 release](https://cursor.com/changelog/3-0) (April 2, 2026), Cursor has shifted from a VS Code fork with AI features to an agent-first platform. The new Agents Window lets you manage multiple parallel agents across repos and environments, while the traditional IDE remains available alongside it.
 
 **Key strengths:**
+- **Agents Window**: Run many agents in parallel across repos and environments — locally, in worktrees, in the cloud, and on remote SSH. Switch back to the IDE anytime or have both open simultaneously
 - **Supermaven autocomplete**: Multi-line predictions with project-wide context and auto-imports — widely considered the best inline completion experience
-- **Composer**: Multi-file editing agent that can plan and execute changes across your project
+- **Design Mode**: Annotate and target UI elements directly in the browser, giving agents precise visual feedback
 - **Background Agents**: Ship tasks to cloud-based agents that work asynchronously and open PRs
-- **Autonomy slider**: Choose between tab completion, targeted edits (Cmd+K), or full agent mode
-- **Familiar environment**: It's VS Code under the hood — extensions, keybindings, and settings carry over
+- **New agent commands**: `/worktree` creates isolated git worktrees for changes; `/best-of-n` runs the same task across multiple models in parallel, then compares outcomes
+- **Bugbot**: Automated code review with 78% resolution rate, MCP support, and self-improvement from PR feedback
 
 **Pricing:** Free (Hobby), Pro ($20/mo with credit pool), Pro+ ($60/mo, 3x credits), Ultra ($200/mo, 20x credits), Teams ($40/seat/mo). Credit-based billing since June 2025 — auto mode is unlimited, premium model selection draws from credits.
 
-**MCP integration:** Supports MCP servers for extending capabilities. You can connect external tools and data sources through MCP configuration.
+**MCP integration:** Supports MCP servers for extending capabilities, including in Bugbot for automated code review. MCP Apps now support structured content for richer tool outputs.
 
-**Best for:** Developers who want the best autocomplete experience combined with agent capabilities, all within a familiar IDE. Ideal for daily coding where you switch between quick completions and deeper multi-file refactors.
+**Best for:** Developers who want the best autocomplete experience combined with agent capabilities. The Cursor 3 Agents Window makes it particularly strong for orchestrating multiple tasks across different repos simultaneously.
 
-**Limitations:** The credit system can be confusing. Premium model usage drains credits faster, making costs unpredictable for heavy users. VS Code fork means you're locked into that editor ecosystem.
+**Limitations:** The credit system can be confusing. Premium model usage drains credits faster, making costs unpredictable for heavy users. The Cursor 3 agent-first paradigm is a significant shift — developers who just want an IDE with completions may find it overkill.
 
 ## GitHub Copilot
 
@@ -68,10 +69,12 @@ This guide compares the seven serious contenders as of March 2026. [Rob Nugen](h
 
 **Key strengths:**
 - **Deepest GitHub integration**: Pull request summaries, issue context, repository knowledge — it lives where your code already lives
+- **Autopilot mode** (preview): Fully autonomous agent sessions where the agent approves its own actions, auto-retries on errors, and works until the task completes with no manual approvals required
 - **Agent Mode**: Shipped with MCP support, turning Copilot from a completion tool into an autonomous agent
 - **Copilot Workspace**: Reads entire codebases, plans multi-file solutions, writes code, runs tests, and opens PRs from natural language
 - **Model choice**: Pro+ tier includes Claude Opus 4, OpenAI o3, and other frontier models
 - **Enterprise features**: Organizational policies, knowledge bases, fine-tuning on private repos
+- **Copilot SDK** (preview): Embed Copilot's agentic capabilities directly into your own applications
 
 **Pricing:** Free (2,000 completions + 50 premium requests/mo), Pro ($10/mo, 300 premium requests), Pro+ ($39/mo, 1,500 premium requests), Business ($19/seat/mo), Enterprise ($39/seat/mo, requires GitHub Enterprise Cloud).
 
@@ -107,7 +110,7 @@ This guide compares the seven serious contenders as of March 2026. [Rob Nugen](h
 **Key strengths:**
 - **Open source**: Apache 2.0 license, 67,000+ GitHub stars, 400+ contributors — you can inspect and modify the code
 - **Token efficiency**: Claims ~4x more token-efficient than Claude Code, stretching your API budget further
-- **Speed**: GPT-5.3-Codex-Spark delivers 1,000+ tokens per second
+- **Speed**: [GPT-5.3-Codex](https://developers.openai.com/codex/changelog) combines frontier coding performance with stronger reasoning, running 25% faster than its predecessor. Codex-Spark delivers 1,000+ tokens per second (research preview for Pro users)
 - **OS-level sandboxing**: Seatbelt (macOS), Landlock + seccomp (Linux) for secure execution
 - **Flexible access**: Use through ChatGPT Plus ($20/mo) or bring your own API key with per-token billing
 
@@ -151,11 +154,11 @@ This guide compares the seven serious contenders as of March 2026. [Rob Nugen](h
 
 **Pricing:** Available through Google AI Studio (free tier available). Standalone IDE pricing varies by usage.
 
-**MCP integration:** Notably, Antigravity does **not** support MCP as of March 2026 — a significant gap compared to every other tool in this comparison. This limits its ability to integrate with the growing [MCP ecosystem](/guides/what-is-mcp/).
+**MCP integration:** Antigravity now supports MCP servers, including a built-in [MCP Store](https://cloud.google.com/blog/products/data-analytics/connect-google-antigravity-ide-to-googles-data-cloud-services) for discovering and installing integrations. Pre-built MCP servers connect agents to Google Data Cloud services (AlloyDB, BigQuery, Spanner, Cloud SQL, Looker) and Firebase (Firestore, Authentication, Cloud Functions, Realtime Database). Third-party MCP servers are also supported via per-workspace configuration.
 
 **Best for:** Developers in the Google/Firebase ecosystem who want parallel agent processing. The Manager View is genuinely novel — no other tool lets you run five agents on five tasks simultaneously with the same level of orchestration.
 
-**Limitations:** No MCP support is a real gap. Google ecosystem bias. Newer than competitors, so community resources and third-party integrations are still catching up.
+**Limitations:** Google ecosystem bias — MCP integrations are strongest for Google services. Newer than competitors, so community resources and third-party integrations are still catching up.
 
 ## Feature Comparison Deep Dive
 
@@ -166,7 +169,7 @@ Every tool now offers agent mode, but the depth varies significantly:
 | Capability | Claude Code | Cursor | Copilot | Windsurf | Codex | Kiro | Antigravity |
 |-----------|------------|--------|---------|----------|-------|------|-------------|
 | Multi-file editing | Deep | Deep | Good | Deep | Good | Deep | Deep |
-| Autonomous execution | Full-auto | Background agents | Workspace | Cascade | Full-auto | Spec-driven | Parallel agents |
+| Autonomous execution | Full-auto | Agents Window + Background | Autopilot (preview) | Cascade | Full-auto | Spec-driven | Parallel agents |
 | Terminal/shell access | Native | Integrated | Limited | Integrated | Native | Integrated | Integrated |
 | Git operations | Native | Integrated | Deep (GitHub) | Integrated | Native | Integrated | Integrated |
 | Background/async work | /loop, background | Background agents | Workspace | — | Cloud execution | — | Manager View |
@@ -183,7 +186,7 @@ The [Model Context Protocol](/guides/what-is-mcp/) has become the standard way t
 - **Windsurf**: MCP support for Cascade — extends agent capabilities
 - **Codex**: MCP server support — connects to external tools
 - **Kiro**: Full MCP support — pairs well with spec-driven approach
-- **Antigravity**: No MCP support yet — relies on proprietary AgentKit instead
+- **Antigravity**: MCP support with built-in MCP Store — strongest for Google/Firebase integrations, third-party servers also supported
 
 For a deeper look at MCP integration patterns, see our guide on [MCP across AI platforms](/guides/mcp-across-ai-platforms/).
 
@@ -219,7 +222,7 @@ For a solo developer:
 
 ## Benchmarks: Take Them With a Grain of Salt
 
-SWE-bench Verified is the most commonly cited benchmark for AI coding tools. As of March 2026, the top scores cluster closely:
+SWE-bench Verified is the most commonly cited benchmark for AI coding tools. As of April 2026, the top scores cluster closely:
 
 - Gemini 3.1 Pro: 80.6%
 - MiniMax M2.5: 80.2%
@@ -235,7 +238,7 @@ The practical takeaway: all frontier models are competitive on coding tasks. You
 
 **Choose Claude Code if** you prefer terminal workflows, need the deepest reasoning on complex codebases, want maximum MCP extensibility, or are building autonomous agent workflows. The `/loop` scheduled tasks feature is unique and powerful for ongoing development operations.
 
-**Choose Cursor if** you write code daily and want the best combination of autocomplete and agent capabilities in a familiar IDE. The Supermaven engine and Composer are a powerful pairing.
+**Choose Cursor if** you write code daily and want the best combination of autocomplete and agent capabilities. Cursor 3's Agents Window lets you orchestrate multiple agents across repos, while Supermaven autocomplete handles fast inline completions.
 
 **Choose GitHub Copilot if** your team lives in the GitHub ecosystem, you want the cheapest entry point ($10/mo), or you need enterprise-grade management and policies. The GitHub integration depth is unmatched.
 
@@ -245,11 +248,11 @@ The practical takeaway: all frontier models are competitive on coding tasks. You
 
 **Choose Amazon Kiro if** you're building on AWS and want structured, spec-driven development. The requirements-first approach adds discipline that pure agent mode lacks.
 
-**Choose Google Antigravity if** you're in the Google/Firebase ecosystem and want to run multiple parallel agents. The Manager View orchestration is genuinely novel.
+**Choose Google Antigravity if** you're in the Google/Firebase ecosystem and want to run multiple parallel agents. The Manager View orchestration is genuinely novel, and MCP Store integrations connect directly to Google Data Cloud services.
 
 ## The Bigger Picture
 
-The 2026 AI coding landscape is converging on a common architecture: autocomplete for fast typing, agent mode for complex tasks, and MCP for extensibility. The differentiation is shifting from "can it write code?" to:
+The 2026 AI coding landscape has converged on a common architecture: autocomplete for fast typing, agent mode for complex tasks, and MCP for extensibility — all seven tools now support MCP. The differentiation is shifting from "can it write code?" to:
 
 - **How does it integrate with your existing workflow?** (Terminal vs IDE, GitHub vs AWS vs Google)
 - **How autonomous can it be?** (Background agents, scheduled tasks, parallel processing)
