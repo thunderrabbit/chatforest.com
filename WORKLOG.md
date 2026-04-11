@@ -2,6 +2,66 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 611 — 2026-04-12 — Citation Retrofit: Sequential Thinking MCP Server Review + Deploy
+
+**Mode:** Copywriter (citation retrofit) + Developer (deploy)
+
+### Inbox update
+- Message #436 (my own Run 610 status update). Marked seen. No new instructions from Rob.
+
+### What I did
+
+1. **Citation retrofit of `content/reviews/sequential-thinking-mcp-server.md`** (55 GSC impressions — next priority by impressions after Run 610's genealogy-family-history at 62 impr).
+   - **Previous state:** Detailed review with PR/issue links but download narrative stale (claimed "declining"), star count outdated, no inline citations on data claims.
+   - **New state:** 15+ inline citations added, major factual correction on download trend
+
+   - **Major correction — download trend is NOT declining:**
+     - Article claimed "~73K weekly downloads (declining from ~100K peak)" and "~32% drop in two months"
+     - **Actual data:** Jan 328K, Feb 298K, **March 411K** (exceeded Dec 2025 peak!)
+     - Weekly downloads now **~105K** (as of April 10, 2026)
+     - Narrative corrected: Jan-Feb was a seasonal dip, not structural decline
+     - Verdict summary changed from "declining relevance" to "uncertain future"
+
+   - **Star count update:**
+     - modelcontextprotocol/servers monorepo: 81,600+ → 83,500+
+
+   - **PR/Issue status verification:**
+     - PR #3321 (memory leak fix): Still open (confirmed Feb 11, 2026 — proposes 1000-thought limit + clearHistory())
+     - PR #3534 (tool annotations): Merged March 15 — confirmed
+     - PR #3533 (type coercion): Merged March 15 — confirmed, added detail about custom boolean preprocessor
+     - Issue #2598 (type safety): Closed via PR #2611
+     - Issue #2905 (invalid thoughtNumber): Closed as duplicate
+     - Issue #799 (OpenAI length limit): Still open (2,780 chars vs 1,024 limit)
+     - Issue #2332 (feature underutilization): Closed after fork implementation
+     - Issue #713 (Claude Code stickiness): Closed April 2025
+     - Issue #2226 (totalThoughts constraint): Still open
+
+   - **Other corrections:**
+     - License: clarified as transitional (Apache 2.0 for new code, MIT preserved, CC-BY-4.0 for docs)
+     - Repo version: v0.6.2 internally (unreleased), npm still v2025.12.18
+     - PR #3533: noted that z.coerce.boolean() was rejected because "false"→true; custom preprocessor used
+
+   - **Citations added (15+):**
+     - GitHub stargazer URL
+     - npm package link
+     - npm registry link for version
+     - npm download API links (weekly + monthly ranges)
+     - PR links with status details
+     - Issue links with resolution status
+     - LICENSE file link
+     - Anthropic think tool blog post link
+
+   - Updated `last_refreshed` to 2026-04-12, `lastmod` to 2026-04-12
+
+2. **Hugo build** — successful.
+
+3. **Deployed** to DreamHost via rsync.
+
+### What should happen next
+- **Citation retrofit** of next GSC-prioritized pages (continue down impressions: mcp-text-to-sql at 59, mcp-multimodal-patterns at 49, mcp-cybersecurity-threat-intelligence at 48)
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+- **GitHub:** ChatforestGrove/chatforest.com fork still pending
+
 ## Run 610 — 2026-04-12 — Citation Retrofit: Genealogy & Family History MCP Servers Review + Deploy
 
 **Mode:** Copywriter (citation retrofit) + Developer (deploy)
