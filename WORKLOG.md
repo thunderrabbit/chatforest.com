@@ -2,6 +2,62 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 602 — 2026-04-11 — Citation Retrofit: Best Observability MCP Servers Guide + Deploy
+
+**Mode:** Copywriter (citation retrofit) + Developer (deploy)
+
+### Inbox update
+- Message #427 (my own Run 601 status update). Marked seen. No new instructions from Rob.
+
+### What I did
+
+1. **Citation retrofit of `content/guides/best-observability-mcp-servers.md`** (761 GSC impressions, next priority per Run 601).
+   - **Previous state:** Comprehensive 40+ server comparison but most vendor claims, launch dates, and ecosystem statistics lacked source URLs
+   - **New state:** 15+ inline citations added across all sections
+   - **Citations added include:**
+     - [Datadog press release](https://www.datadoghq.com/about/latest-news/press-releases/datadog-launches-mcp-server/) — GA March 10, 2026
+     - [Datadog engineering blog](https://www.datadoghq.com/blog/engineering/mcp-server-agent-tools/) — CSV 50% token reduction, SQL log queries 40% cost reduction
+     - [Datadog MCP docs](https://docs.datadoghq.com/bits_ai/mcp_server/) — regional endpoints
+     - [Azure Managed Grafana MCP blog](https://techcommunity.microsoft.com/blog/azureobservabilityblog/introducing-azure-managed-grafana-mcp-the-managed-telemetry-gateway-for-ai-agent/4503619) — March 18, 2026 launch
+     - [New Relic pricing](https://newrelic.com/pricing) — 100GB/mo free tier
+     - [Honeycomb GA blog](https://www.honeycomb.io/blog/honeycomb-mcp-ga-support-bubbleup-heatmaps-histograms) — BubbleUp GA with heatmaps/histograms
+     - [Honeycomb hosted MCP](https://www.honeycomb.io/blog/hosted-mcp-now-available) — AWS Marketplace availability
+     - [PagerDuty newsroom](https://www.pagerduty.com/newsroom/pagerduty-expands-ai-ecosystem-to-supercharge-ai-agents/) — 30+ AI partners, Spring 2026 ecosystem
+     - [Splunk Observability March 2026](https://community.splunk.com/t5/Product-News-Announcements/What-s-New-in-Splunk-Observability-March-2026/ba-p/759527) — Observability Cloud GA
+     - [Splunk MCP GA announcement](https://community.splunk.com/t5/Product-News-Announcements/GA-Splunk-MCP-Server-Making-Your-Apps-quot-Agent-Ready-quot/ba-p/759935)
+     - [OTel MCP semantic conventions spec](https://opentelemetry.io/docs/specs/semconv/gen-ai/mcp/) + [PR #2083](https://github.com/open-telemetry/semantic-conventions/pull/2083) — merged January 12, 2026
+     - [Sentry MCP issues](https://github.com/getsentry/sentry-mcp/issues) — 800+ issues
+     - Intro paragraph: all 12 vendor names linked to their official announcements/repos
+   - **Factual corrections made:**
+     - Dynatrace stars corrected: 173 → 104 (previous count was inaccurate)
+     - VictoriaMetrics stars corrected: 433 → 144 (previous count was inaccurate)
+     - VictoriaMetrics-Community repo marked unavailable (returns 404)
+     - Sentry issue count updated: 748+ → 800+
+   - **Star count updates (10 repos changed):**
+     - grafana/mcp-grafana: 2,500 → 2,777
+     - dynatrace-oss/dynatrace-mcp: 173 → 104
+     - pab1it0/prometheus-mcp-server: 340 → 412
+     - tjhop/prometheus-mcp-server: 42 → 43
+     - VictoriaMetrics/mcp-victoriametrics: 433 → 144
+     - getsentry/sentry-mcp: 579 → 630
+     - PagerDuty/pagerduty-mcp-server: 57 → 60
+     - winor30/mcp-server-datadog: 139 → 141
+     - honeycombio/honeycomb-mcp: 41 → 43
+     - axiomhq/mcp-server-axiom: 58 → 60
+   - Added elastic/mcp-server-elasticsearch star count (643) — previously unlisted
+   - Updated `last_refreshed` to 2026-04-11
+
+2. **Hugo build** — successful.
+
+3. **Deployed** to DreamHost via rsync (after deploy throttle).
+
+4. **GitHub push** to thunderrabbit remote — successful.
+
+### What should happen next
+- **Citation retrofit** of next GSC-prioritized pages (continue down the impressions list — monitoring-observability-mcp-servers at 168 impr)
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+- **GitHub:** ChatforestGrove/chatforest.com fork still pending
+
 ## Run 601 — 2026-04-11 — Citation Retrofit: MCP Digital Twins/BIM Guide + Deploy
 
 **Mode:** Copywriter (citation retrofit) + Developer (deploy)
