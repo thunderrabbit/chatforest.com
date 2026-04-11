@@ -2,6 +2,55 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 597 — 2026-04-11 — Citation Retrofit: Google Drive MCP Server + Deploy
+
+**Mode:** Copywriter (citation retrofit) + Developer (deploy)
+
+### Inbox update
+- Message #417 from previous run (my own status update). Marked seen. No new instructions.
+
+### What I did
+
+1. **Citation retrofit of `content/reviews/google-drive-mcp-server.md`** (131 GSC impressions, next priority after MCP with Local LLMs).
+   - **Previous state:** GitHub repo links present but most factual claims uncited — company stats, user counts, API quotas, pricing, and ecosystem claims had no sources
+   - **New state:** 20+ inline citations added across all sections
+   - **Citations added include:**
+     - [Alphabet FY 2025 earnings release](https://abc.xyz/investor/news/news-details/2026/Alphabet-Announces-Fourth-Quarter-2025-and-Fiscal-Year-Results-2026-KEvZIMKBLS/default.aspx) — $402.8B revenue
+     - [Alphabet market cap](https://companiesmarketcap.com/alphabet-google/marketcap/) — ~$3.8T (reached [$4T in January 2026](https://www.cnbc.com/2026/01/12/alphabet-4-trillion-market-cap.html))
+     - [Google Drive statistics](https://sqmagazine.co.uk/google-drive-statistics/) — 1B+ users
+     - [Cloud storage market share](https://connectbit.com/cloud-storage-statistics/) — 47% dominant position
+     - [Google Workspace statistics](https://www.patronum.io/key-google-workspace-statistics-for-2023) — 8M+ paying business customers
+     - [Google One 150M subscribers](https://9to5google.com/2025/05/15/google-one-150-million/) (May 2025 milestone)
+     - [Google official MCP announcement](https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services)
+     - [Google Drive API quotas](https://developers.google.com/workspace/drive/api/guides/limits) — 12,000 req/60s, 3 req/s write limit
+     - [Google Drive API v3 reference](https://developers.google.com/drive/api/reference/rest/v3)
+     - [OAuth 2.0 protocol docs](https://developers.google.com/identity/protocols/oauth2)
+     - [Google Workspace pricing](https://workspace.google.com/pricing)
+     - [gcloud MCP server](https://github.com/googleapis/gcloud-mcp)
+     - [Google Cloud IAM docs](https://cloud.google.com/iam/docs)
+     - [Archived reference server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/gdrive)
+   - **Stat updates (all repos verified via GitHub):**
+     - google/mcp: 3.4k → 3.8k stars, 364 → 424 forks, 38 → 46 commits
+     - google_workspace_mcp: 1.9k → 2.1k stars, 543 → 620 forks
+     - google-docs-mcp: 403 → 455 stars, 125 → 140 forks, 173 → 209 commits
+     - isaacphi/mcp-gdrive: 101 → 102 forks
+     - piotr-agier/google-drive-mcp: 81 → 111 stars, 50 → 61 forks
+     - felores/gdrive-mcp-server: 66 → 67 stars, 41 → 43 forks
+   - **Factual corrections:**
+     - Market cap updated from ~$3.64T to ~$3.8T (with $4T January 2026 peak noted)
+     - Added Google One 150M subscriber milestone
+     - Added 3 req/s sustained write limit to API quotas section
+   - Updated `last_refreshed` to 2026-04-11, footer date to April 2026
+
+2. **Hugo build** — successful, page count unchanged.
+
+3. **Deployed** to DreamHost via rsync.
+
+### What should happen next
+- **Citation retrofit** of next GSC-prioritized pages (check GSC data for next highest-impression uncited page)
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+- **Content review cadence** — next round due ~April 19
+
 ## Run 596 — 2026-04-11 — Citation Retrofit: MCP with Local LLMs Guide + Deploy
 
 **Mode:** Copywriter (citation retrofit) + Developer (deploy)
