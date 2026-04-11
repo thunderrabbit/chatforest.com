@@ -2,6 +2,48 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 599 — 2026-04-11 — Citation Retrofit: A2A Protocol v1.0 Guide + GitHub Push + Deploy
+
+**Mode:** Copywriter (citation retrofit) + Developer (deploy + infrastructure)
+
+### Inbox update
+- Message #421 (high priority): Rob fixed permissions on thunderrabbit/chatforest.com — push now works. ChatforestGrove/chatforest.com fork not yet created; will push there once it exists.
+- Messages #420, #422: My own Run 598 status updates. Marked seen.
+
+### What I did
+
+1. **GitHub push to thunderrabbit** — successfully pushed master to thunderrabbit remote (both Run 598 code and this run's commit). Permissions fix confirmed working.
+
+2. **Citation retrofit of `content/guides/a2a-protocol-v1-production-ready.md`** (268 GSC impressions, next priority after Run 598's maritime guide).
+   - **Previous state:** Good overall structure with spec/repo links, but most factual claims about adoption, governance, and ecosystem were uncited
+   - **New state:** 15+ inline citations added across all sections
+   - **Citations added include:**
+     - [A2A v1.0 announcement](https://a2a-protocol.org/latest/announcing-1.0/) — March 12, 2026 release date
+     - [What's New in v1.0](https://a2a-protocol.org/latest/whats-new-v1/) — signed Agent Cards, gRPC details
+     - [Google Developers Blog](https://developers.googleblog.com/en/a2a-a-new-era-of-agent-interoperability/) — original April 2025 announcement, 50+ partners
+     - [Google Developers Blog](https://developers.googleblog.com/developers-guide-to-ai-agent-protocols/) — six-protocol layered stack
+     - [Linux Foundation press release](https://www.linuxfoundation.org/press/a2a-protocol-surpasses-150-organizations-lands-in-major-cloud-platforms-and-sees-enterprise-production-use-in-first-year) — 150+ organizations
+     - [Techzine](https://www.techzine.eu/news/applications/139057/agentic-ai-foundation-the-home-of-mcp-grows-to-146-members/) — AAIF 146 members
+     - [IBM Newsroom](https://newsroom.ibm.com/2025-10-08-s-p-global-and-ibm-deploy-agentic-ai-to-improve-enterprise-operations) — S&P Global adoption
+     - [Google Cloud Blog](https://cloud.google.com/blog/products/ai-machine-learning/unlock-ai-agent-collaboration-convert-adk-agents-for-a2a/) — Adobe A2A integration
+     - [Google Cloud customer story](https://cloud.google.com/customers/gordonfoodservice) — Tyson Foods/Gordon Food Service
+     - [Huawei official](https://www.huawei.com/en/news/2026/2/mwc-a2at-opensource) + [TechNode](https://technode.com/2026/03/02/mwc-2026-huawei-to-open-source-a2a-t-telecom-agent-protocol-software/) — A2A-T at MWC 2026
+     - [DEV Community](https://dev.to/kai_security_ai/30-cves-later-how-mcps-attack-surface-expanded-into-three-distinct-layers-ihp) — 30+ MCP CVEs
+     - [IBM](https://www.ibm.com/think/topics/agent-communication-protocol) — ACP protocol link
+   - **Stat updates:**
+     - GitHub commits: 546 → 555
+     - Stars: 23,000+ (confirmed at 23,129 — rounded figure still accurate)
+   - Updated `last_refreshed` to 2026-04-11
+
+3. **Hugo build** — successful (1152 pages).
+
+4. **Deployed** to DreamHost via rsync (after deploy throttle).
+
+### What should happen next
+- **GitHub:** ChatforestGrove/chatforest.com fork still pending — push there once Rob creates it
+- **Citation retrofit** of next GSC-prioritized pages: mcp-manufacturing-industrial (226 impr), digital-twins-3d-simulation-mcp-servers (204 impr)
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+
 ## Run 598 — 2026-04-11 — Citation Retrofit: MCP Maritime/Ocean Guide + GitHub Remotes + Deploy
 
 **Mode:** Copywriter (citation retrofit) + Developer (deploy + infrastructure)
