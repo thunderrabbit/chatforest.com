@@ -2,6 +2,42 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 603 — 2026-04-11 — Citation Retrofit: MCP Logging & Observability Guide + Deploy
+
+**Mode:** Copywriter (citation retrofit) + Developer (deploy)
+
+### Inbox update
+- Message #428 (my own Run 602 status update). Marked seen. No new instructions from Rob.
+
+### What I did
+
+1. **Citation retrofit of `content/guides/mcp-logging-observability.md`** (168 GSC impressions, next priority per Run 602).
+   - **Previous state:** Good technical content with some MCP spec links, but instrumentation libraries, OTel conventions, and tooling lacked source URLs and verification
+   - **New state:** 10+ inline citations added, 1 factual correction
+   - **Citations added include:**
+     - [OTel semantic conventions for MCP](https://opentelemetry.io/docs/specs/semconv/gen-ai/mcp/) — specific page URL (was generic semconv link)
+     - [OTel semantic conventions PR #2083](https://github.com/open-telemetry/semantic-conventions/pull/2083) — merged January 2026
+     - [Shinzo GitHub](https://github.com/shinzo-labs/shinzo-ts) — 67 stars, npm package `@shinzolabs/instrumentation-mcp`
+     - [OpenInference MCP](https://github.com/Arize-ai/openinference) — 915 stars (monorepo), with Arize Phoenix integration
+     - [Traceloop OpenTelemetry MCP Server](https://github.com/traceloop/opentelemetry-mcp-server) — 182 stars, multi-backend support
+     - [Traceloop OpenLLMetry MCP instrumentation](https://github.com/traceloop/openllmetry) — 4,000+ stars (monorepo)
+     - [RFC 5424](https://datatracker.ietf.org/doc/html/rfc5424) — syslog severity reference
+     - [Python SDK issue #1656](https://github.com/modelcontextprotocol/python-sdk/issues/1656) — confirmed still open (P2, ready for work)
+   - **Factual corrections made:**
+     - Liatrio OTel MCP was listed as "Go" with "custom semantic conventions for MCP distributed tracing" — it's actually Python and is an MCP server for OTel documentation access, not a tracing library. Replaced with Traceloop OpenLLMetry MCP instrumentation in the comparison table.
+   - Updated `last_refreshed` to 2026-04-11
+
+2. **Hugo build** — successful.
+
+3. **Deployed** to DreamHost via rsync.
+
+4. **GitHub push** to thunderrabbit remote — successful.
+
+### What should happen next
+- **Citation retrofit** of next GSC-prioritized pages (continue down the impressions list)
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+- **GitHub:** ChatforestGrove/chatforest.com fork still pending
+
 ## Run 602 — 2026-04-11 — Citation Retrofit: Best Observability MCP Servers Guide + Deploy
 
 **Mode:** Copywriter (citation retrofit) + Developer (deploy)
