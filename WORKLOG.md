@@ -2,6 +2,64 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 601 — 2026-04-11 — Citation Retrofit: MCP Digital Twins/BIM Guide + Deploy
+
+**Mode:** Copywriter (citation retrofit) + Developer (deploy)
+
+### Inbox update
+- Message #425 (my own Run 600 status update). Marked seen. No new instructions from Rob.
+
+### What I did
+
+1. **Citation retrofit of `content/guides/mcp-digital-twins-bim.md`** (204 GSC impressions, next priority per Run 600).
+   - **Previous state:** Rich content but most market figures, platform announcements, security research references, and regulatory citations lacked source URLs
+   - **New state:** 20+ inline citations added across all sections
+   - **Citations added include:**
+     - [MarketsandMarkets](https://www.marketsandmarkets.com/Market-Reports/digital-twin-market-225269522.html) — digital twin market $21.14B (2025)
+     - [Grand View Research](https://www.grandviewresearch.com/industry-analysis/digital-twin-market) — digital twin market $35.82B (2025), $328.51B by 2033
+     - [RIBAJ / NBS Digital Construction Report 2025](https://www.ribaj.com/intelligence/artificial-intelligence-ai-technology-uptake-digital-construction-report-2025/) — 49% architects using AI
+     - [PepsiCo newsroom](https://www.pepsico.com/newsroom/press-releases/2025/pepsico-announces-industry-first-ai-and-digital-twin-collaboration-with-siemens-and-nvidia) — 20% throughput increase from digital twin deployment
+     - [NVIDIA news](https://nvidianews.nvidia.com/news/nvidia-releases-vera-rubin-dsx-ai-factory-reference-design-and-omniverse-dsx-digital-twin-blueprint-and-broad-industry-support) — Omniverse DSX Blueprint (GTC 2026)
+     - [Siemens news](https://news.siemens.com/en-us/digital-twin-composer-ces-2026/) — Digital Twin Composer (CES 2026)
+     - [Siemens press](https://press.siemens.com/global/en/pressrelease/siemens-unveils-technologies-accelerate-industrial-ai-revolution-ces-2026) — nine industrial copilots (CES 2026)
+     - [Autodesk MCP servers page](https://www.autodesk.com/solutions/autodesk-ai/autodesk-mcp-servers) + [AU 2025 news](https://adsknews.autodesk.com/en/news/the-3-biggest-autodesk-ai-takeaways-from-au-2025/) — official MCP server announcements
+     - [Autodesk Neural CAD](https://www.autodesk.com/solutions/autodesk-ai/neural-technology) — Neural CAD foundation model
+     - [Invariant Labs](https://invariantlabs.ai/blog/mcp-security-notification-tool-poisoning-attacks) — tool poisoning research
+     - [arXiv:2506.13538](https://arxiv.org/html/2506.13538v2) — 1,899 MCP server security study (5.5% attack vectors)
+     - [EU AI Act Article 99](https://artificialintelligenceact.eu/article/99/) — 7% revenue penalties
+     - [ISO 19650-6:2025](https://www.iso.org/standard/82705.html) — BIM information management standard
+     - [UK BIM Level 2](https://www.designingbuildings.co.uk/wiki/BIM_level_2) — mandate since 2016
+     - [Singapore CORENET X](https://www.ura.gov.sg/Corporate/Guidelines/Circulars/dc25-07) — BIM submission requirements
+     - [Matter 1.5](https://csa-iot.org/newsroom/matter-1-5-introduces-cameras-closures-and-enhanced-energy-management-capabilities/) — November 2025 release
+     - [HIPAA 2026](https://www.hipaajournal.com/hipaa-updates-hipaa-changes/) — security rule updates
+   - **Factual corrections made:**
+     - Market size range corrected from "$25-27 billion" to "$21-36 billion" (citing both sources)
+     - "NVIDIA Neural CAD" corrected — Neural CAD is exclusively an Autodesk initiative
+     - Digital Twin Composer correctly attributed to Siemens (CES 2026), not NVIDIA GTC
+     - MCPTox/1,899 servers conflation fixed — correctly attributed to separate arXiv paper
+     - Singapore CORENET X threshold corrected from 5,000 sqm to 30,000 sqm GFA
+   - **Star count updates (8 repos changed):**
+     - revit-mcp: 372 → 385
+     - aps-aecdm-mcp-dotnet: 33 → 34
+     - Bonsai_mcp: 44 → 46
+     - isaac-sim-mcp: 140 → 145
+     - autocad-mcp: 184 → 195
+     - blender-mcp: 18,100 → 18,665
+     - rhino-grasshopper-mcp: 3 → 4
+     - ha-mcp: 1,800 → 2,188
+   - Updated `last_refreshed` to 2026-04-11
+
+2. **Hugo build** — successful.
+
+3. **Deployed** to DreamHost via rsync (after deploy throttle).
+
+4. **GitHub push** to thunderrabbit remote — successful.
+
+### What should happen next
+- **Citation retrofit** of next GSC-prioritized pages (continue down the impressions list)
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+- **GitHub:** ChatforestGrove/chatforest.com fork still pending
+
 ## Run 600 — 2026-04-11 — Citation Retrofit: MCP Manufacturing/Industrial Guide + Deploy
 
 **Mode:** Copywriter (citation retrofit) + Developer (deploy)
