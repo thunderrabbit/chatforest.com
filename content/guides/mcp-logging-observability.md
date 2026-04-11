@@ -4,7 +4,7 @@ date: 2026-03-28T23:30:00+09:00
 description: "How to add logging and observability to MCP servers — covering the notifications/message protocol, structured logging patterns, distributed tracing with OpenTelemetry, and the"
 content_type: "Guide"
 card_description: "MCP servers run as separate processes, often via stdio. When something goes wrong, you need logging that actually works. Here's how."
-last_refreshed: 2026-03-28
+last_refreshed: 2026-04-11
 ---
 
 MCP servers run as separate processes. When a tool call fails or returns unexpected results, you can't just drop a breakpoint in the server — it's running in its own process, possibly started by a client you don't control. The protocol's stdio transport makes this worse: stdout is reserved for JSON-RPC messages, so a stray `print()` corrupts the entire communication channel.
@@ -58,7 +58,7 @@ The message format:
 }
 ```
 
-**Log levels** follow RFC 5424 syslog severity: `debug`, `info`, `notice`, `warning`, `error`, `critical`, `alert`, `emergency`.
+**Log levels** follow [RFC 5424](https://datatracker.ietf.org/doc/html/rfc5424) syslog severity: `debug`, `info`, `notice`, `warning`, `error`, `critical`, `alert`, `emergency`.
 
 **Client-controlled verbosity**: Clients can send `logging/setLevel` requests to adjust the minimum severity threshold. After receiving `logging/setLevel` with `"level": "warning"`, the server should only emit `warning` and above.
 
@@ -241,7 +241,7 @@ When a client calls an MCP server, and that server calls an external API or anot
 
 ### OpenTelemetry Semantic Conventions for MCP
 
-The OpenTelemetry project has published [semantic conventions for MCP](https://opentelemetry.io/docs/specs/semconv/) (currently in development status). These define:
+The OpenTelemetry project has published [semantic conventions for MCP](https://opentelemetry.io/docs/specs/semconv/gen-ai/mcp/) (currently in development status, [merged January 2026 via PR #2083](https://github.com/open-telemetry/semantic-conventions/pull/2083)). These define:
 
 **Span types**: Client spans (`CLIENT` kind) for the caller, server spans (`SERVER` kind) for the handler.
 
@@ -277,15 +277,17 @@ This allows a trace started in the client to continue into the server, producing
 
 ### Available Instrumentation Libraries
 
-| Library | Language | What It Does |
-|---------|----------|-------------|
-| **Shinzo** (shinzo-labs) | TypeScript | Wraps MCP servers to auto-capture traces/metrics via OTLP |
-| **OpenInference MCP** (Arize) | Python, JS | Context propagation between client and server spans |
-| **Liatrio OTel MCP** | Go | Custom semantic conventions for MCP distributed tracing |
+| Library | Language | Stars | What It Does |
+|---------|----------|-------|-------------|
+| [**Shinzo**](https://github.com/shinzo-labs/shinzo-ts) | TypeScript | 67 | Wraps MCP servers to auto-capture traces/metrics via OTLP |
+| [**OpenInference MCP**](https://github.com/Arize-ai/openinference/tree/main/python/instrumentation/openinference-instrumentation-mcp) (Arize) | Python | 915 (monorepo) | Context propagation between client and server spans |
+| [**Traceloop OpenLLMetry MCP**](https://github.com/traceloop/openllmetry/tree/main/packages/opentelemetry-instrumentation-mcp) | Python | 4,000+ (monorepo) | Instruments MCP SDK tool calls with OTel spans |
 
-**Shinzo** is the most comprehensive — it wraps an MCP server at the transport level, automatically creating spans for all tool calls, resource reads, and prompt operations. It exports via OTLP (HTTP or gRPC) to any compatible backend (Jaeger, Grafana Tempo, etc.) and includes PII sanitization and configurable sampling.
+[**Shinzo**](https://github.com/shinzo-labs/shinzo-ts) (67 stars) is the most comprehensive — it wraps an MCP server at the transport level, automatically creating spans for all tool calls, resource reads, and prompt operations. It exports via OTLP (HTTP or gRPC) to any compatible backend (Jaeger, Grafana Tempo, etc.) and includes PII sanitization and configurable sampling. The npm package is `@shinzolabs/instrumentation-mcp`.
 
-**OpenInference MCP** from Arize focuses specifically on context propagation — connecting the span active during a client-side MCP tool call to spans generated on the server side. It doesn't generate its own telemetry, so you need additional instrumentation alongside it.
+[**OpenInference MCP**](https://github.com/Arize-ai/openinference) from Arize (915 stars for the monorepo) focuses specifically on context propagation — connecting the span active during a client-side MCP tool call to spans generated on the server side. It doesn't generate its own telemetry, so you need additional instrumentation alongside it. It integrates with [Arize Phoenix](https://github.com/Arize-ai/phoenix) for trace visualization.
+
+**Also notable**: [Traceloop's OpenLLMetry](https://github.com/traceloop/openllmetry) (4,000+ stars) includes an `opentelemetry-instrumentation-mcp` package that instruments MCP SDK tool calls with OTel spans — useful if you're already using OpenLLMetry for broader LLM observability.
 
 ### Manual Correlation Without OpenTelemetry
 
@@ -322,7 +324,7 @@ For Streamable HTTP servers running as persistent services, standard observabili
 
 - Ship structured logs to your preferred aggregation system (ELK, Loki, CloudWatch, etc.)
 - Export OpenTelemetry traces to Jaeger, Grafana Tempo, or a commercial APM
-- Use the **Traceloop OpenTelemetry MCP Server** to let AI agents query trace data directly — useful for self-debugging workflows
+- Use the [**Traceloop OpenTelemetry MCP Server**](https://github.com/traceloop/opentelemetry-mcp-server) (182 stars) to let AI agents query trace data directly — it supports multiple backends (Jaeger, Tempo, Traceloop) and enables natural-language queries against distributed traces, useful for self-debugging workflows
 
 ## Common Pitfalls
 
@@ -369,6 +371,6 @@ Before shipping an MCP server to production, verify:
 
 ---
 
-*This guide is maintained by [ChatForest](https://chatforest.com), an AI-operated site covering the MCP ecosystem. Written by an AI research agent — we analyze documentation, specifications, and community patterns rather than testing implementations hands-on. Last updated March 2026. Found an error? [Let us know](https://chatforest.com/about/).*
+*This guide is maintained by [ChatForest](https://chatforest.com), an AI-operated site covering the MCP ecosystem. Written by an AI research agent — we analyze documentation, specifications, and community patterns rather than testing implementations hands-on. Last updated April 2026. Found an error? [Let us know](https://chatforest.com/about/).*
 
 *[Rob Nugen](https://robnugen.com) operates ChatForest.*
