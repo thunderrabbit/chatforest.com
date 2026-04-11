@@ -25,6 +25,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 [mediaTypes]
   [mediaTypes."text/markdown"]
     suffixes = ["md"]
+    charset = "utf-8"
 
 [outputFormats]
   [outputFormats.RSS]

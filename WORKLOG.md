@@ -2,6 +2,76 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 598 — 2026-04-11 — Citation Retrofit: MCP Maritime/Ocean Guide + GitHub Remotes + Deploy
+
+**Mode:** Copywriter (citation retrofit) + Developer (deploy + infrastructure)
+
+### Inbox update
+- Message #419 (high priority): GitHub repos are live — instructions to add remotes and push. Executed setup; both pushes failed (see below).
+- Message #418: My own Run 597 status update. Marked seen.
+
+### What I did
+
+1. **GitHub remote setup** per message #419 instructions:
+   - Added `chatforestgrove` remote → `github-chatforest:ChatforestGrove/chatforest.com.git`
+   - Added `thunderrabbit` remote → `github-chatforest:thunderrabbit/chatforest.com.git`
+   - **Push failed for both:** ChatforestGrove/chatforest.com repo doesn't exist yet; thunderrabbit/chatforest.com exists but ChatforestGrove SSH key lacks push access
+   - Sent inbox message #420 (high priority) reporting the issue
+
+2. **Markdown charset fix in config.toml** — Added `charset = "utf-8"` to `[mediaTypes."text/markdown"]` section. The .htaccess fix was already in place from Run 595; now both layers enforce UTF-8.
+
+3. **Citation retrofit of `content/guides/mcp-maritime-ocean.md`** (522 GSC impressions, next highest unretrofitted page after Run 597's work).
+   - **Previous state:** Rich content but nearly all factual claims uncited — market figures, vessel counts, regulatory dates, industry statistics had no sources
+   - **New state:** 15+ inline citations added across all sections
+   - **Citations added include:**
+     - [ICS Shipping Facts](https://ics-shipping.org/shipping-facts/shipping-and-world-trade) — 90% world trade by sea, 50,000+ merchant ships
+     - [UNCTAD Review of Maritime Transport 2024](https://unctad.org/publication/review-maritime-transport-2024) — vessel fleet data
+     - [Grand View Research](https://www.grandviewresearch.com/industry-analysis/maritime-artificial-intelligence-market-report) — AI maritime market $4.3B (2024)
+     - [Technavio](https://www.technavio.com/report/maritime-ai-market-industry-analysis) — 15-40% CAGR range
+     - [Lucintel](https://www.lucintel.com/smart-port-market.aspx) — smart port market $11.2B by 2030
+     - [Consegic Business Intelligence](https://www.consegicbusinessintelligence.com/marine-internet-of-things-market) — Marine IoT $4.85B
+     - [Google Cloud press release](https://www.googlecloudpresscorner.com/2024-07-18-CMA-CGM-Embarks-on-a-Strategic-Partnership-with-Google-to-Deploy-AI-across-all-Shipping,-Logistics,-and-Media-Activities) — CMA CGM partnership
+     - [Lloyd's Register Beyond the Horizon](https://www.lr.org/en/knowledge/press-room/press-listing/press-release/2024/lloyds-register-commissioned-research-reveals-the-rapid-rise-of-ai-in-maritime/) — 36 companies, 63% SME
+     - [Xinhua](https://english.news.cn/20250414/18723fb7c6b841489a6e1809bd757ca6/c.html) — China 52 automated port terminals
+     - [IMO MASS Code](https://www.imo.org/en/mediacentre/hottopics/pages/autonomous-shipping.aspx) — autonomous shipping framework
+     - [IMO AIS page](https://www.imo.org/en/ourwork/safety/pages/ais.aspx) — AIS system
+     - [IACS UR E26/E27](https://iacs.org.uk/news/iacs-ur-e26-and-e27-press-release) — cyber rules for newbuilds
+     - [USCG cyber mandate](https://www.news.uscg.mil/maritime-commons/Article/4343729/publication-of-cybersecurity-training-and-incident-reporting-guidance-and-polic/) — incident reporting July 2025
+     - [IMO MSC-FAL.1/Circ.3/Rev.3 PDF](https://wwwcdn.imo.org/localresources/en/OurWork/Security/Documents/MSC-FAL.1-Circ.3-Rev.3.pdf) — cyber risk management
+     - [FAO fisheries report](https://www.fao.org/newsroom/detail/fao-report-global-fisheries-and-aquaculture-production-reaches-a-new-record-high/en) — $400B+ industry
+     - [Gartner digital twins forecast](https://www.gartner.com/en/documents/6771134) — 65% hybrid twin adoption by 2026
+   - **Factual corrections:**
+     - "835+ major ports" softened to "hundreds of major ports worldwide" (no authoritative primary source for 835)
+     - Smart port market corrected from $11.3B to $11.2B per Lucintel
+     - AIS "300,000+ ships" generalized (actual equipped fleet much larger; 300K is SOLAS-class subset)
+     - "95% truck-crane coordination" removed (only in paywalled source, not in Xinhua primary)
+     - Digital twins claim reworded from "65% prefer" survey to actual Gartner forecast language
+   - **Stat updates (15 GitHub repos verified):**
+     - garrettXu/mcp-shipxy-api: 9 → 10 stars
+     - cmer81/open-meteo-mcp: 37 → 38 stars
+     - wybert/earth-agent-chrome-ext: 99 → 102 stars
+     - datalayer/earthdata-mcp-server: 24 → 25 stars
+     - jjsantos01/qgis_mcp: 871 → 895 stars
+     - mahdin75/gis-mcp: 126 → 132 stars
+     - daobataotie/CAD-MCP: 286 → 300 stars
+     - ATOI-Ming/FreeCAD-MCP: 68 → 71 stars
+     - AuraFriday/Fusion-360-MCP-Server: 64 → 77 stars
+     - mixelpixx/KiCAD-MCP-Server: 535 → 612 stars
+     - omni-mcp/isaac-sim-mcp: 140 → 145 stars
+     - arthurpanhku/DocSentinel: 96 → 87 stars (decreased)
+     - ezh0v/weather-mcp-server: 239 → 241 stars
+     - idoru/influxdb-mcp-server: 33 → 35 stars
+   - Updated `last_refreshed` to 2026-04-11
+
+4. **Hugo build** — successful.
+
+5. **Deployed** to DreamHost via rsync.
+
+### What should happen next
+- **GitHub remotes:** Waiting for repo creation (ChatforestGrove/chatforest.com) and collaborator access (thunderrabbit/chatforest.com) — reported in inbox #420
+- **Citation retrofit** of next GSC-prioritized pages (a2a-protocol-v1-production-ready 268 impr, mcp-manufacturing-industrial 226 impr, digital-twins-3d-simulation-mcp-servers 204 impr)
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+
 ## Run 597 — 2026-04-11 — Citation Retrofit: Google Drive MCP Server + Deploy
 
 **Mode:** Copywriter (citation retrofit) + Developer (deploy)

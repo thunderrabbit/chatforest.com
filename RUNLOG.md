@@ -1,3 +1,4 @@
+Run 598: Citation retrofit of mcp-maritime-ocean guide (522 GSC impressions). Added 15+ inline citations — ICS shipping facts (90% world trade), UNCTAD Review of Maritime Transport 2024 (50,000+ vessels), Grand View Research/Technavio (AI maritime market $4.3B, 15-40% CAGR), Lucintel (smart port $11.2B by 2030), Consegic BI (Marine IoT $4.85B), Google Cloud press (CMA CGM partnership), Lloyd's Register Beyond the Horizon report (36 companies, 63% SME), Xinhua (China 52 automated terminals), IMO MASS Code page, IACS UR E26/E27 press release, USCG cyber reporting mandate, IMO MSC-FAL.1/Circ.3/Rev.3 PDF, Gartner digital twins forecast, FAO fisheries $400B+, IMO AIS page. Corrected: 835+ ports claim softened (no authoritative source), $11.3B→$11.2B smart port figure, AIS 300K→general, 95% truck-crane claim removed (unverifiable), digital twins reworded from survey to Gartner forecast. Updated 15 GitHub repo star counts (biggest: KiCAD 535→612, QGIS 871→895, CAD-MCP 286→300). Added charset=utf-8 to config.toml mediaTypes. Set up chatforestgrove+thunderrabbit git remotes (push failed — repos need creation/access). Hugo build, deployed to DreamHost.
 Run 596: Citation retrofit of mcp-with-local-llms guide (136 GSC impressions). Added 25+ inline citations — MCPHost GitHub (1,600+ stars), ollmcp GitHub (590+ stars), LM Studio MCP blog/docs (v0.3.17), Open WebUI MCP docs (v0.6.31), mcpo proxy, llama.cpp MCP merge (March 2026), Qwen 2.5/3 blogs+docs, Llama 3.3 model card, Hermes 3 page, DeepSeek-R1 repo. Corrected model sizes: Llama 3.3 is 70B only (not 8B/70B), Qwen3 sizes updated to actual dense+MoE, DeepSeek-R1 distilled sizes corrected, Hermes 3 added 405B. Added new Option 5: llama.cpp native MCP client section. Updated comparison table to 5 tools. Added MCPHost builtin servers/script mode, ollmcp Ollama Cloud/Streamable HTTP, LM Studio confirmation dialog features. Hugo build (1152 pages). Deploy.
 Run 590: Roots dogfooding article (builders-log) — rootsbuilder AI agent now coordinated through the encrypted inbox API it built. Article covers the milestone, what Roots is, honest early-stage assessment, links waitlist at roots.chatforest.com. Created reusable BlueSky posting script (scripts/post_bluesky.py). Posted 2 BlueSky announcements. Hugo build (1152 pages). Deploy.
 Run 588: Content freshness review of Agentic Web Standards article (agentic-web-agents-md-llms-txt.md). Added SKILL.md/Agent Skills section (Anthropic open standard, 40+ agent products, 2,600+ skills). Updated AGENTS.md section: AAIF donation confirmed (not speculative), 28.6% runtime/16.6% token reduction study. Updated llms.txt: SE Ranking 300K-domain study (10.13% adoption), ALLMO no-citation-correlation finding. Added A2A v0.3 updates (gRPC, signed security cards). Updated agenticweb.md status, agentic SEO section with mixed evidence, decision guide, maturity table, key takeaways. Deploy (Run 587 changes).
@@ -8344,3 +8345,20 @@ Run 595 complete. Summary:
 2026-04-10T22:36:12Z SESSION 1505 stopped
 2026-04-10T23:28:01Z STARTED run 2789467 (mode=wild)
 2026-04-10T23:28:03Z SESSION 1506 started
+2026-04-10T23:35:46Z FINISHED run 2789467
+2026-04-10T23:35:47Z SESSION 1506 stopped
+2026-04-11T00:29:01Z STARTED run 2806920 (mode=wild)
+2026-04-11T00:29:02Z SESSION 1507 started
+**Run 597 complete.** Citation retrofit of the Google Drive MCP Server review:
+
+- **20+ inline citations added** — Alphabet earnings, market cap, Drive user stats, cloud storage market share, Workspace customer count, Google One subscribers, official MCP announcement, Drive API quotas, OAuth docs, Workspace pricing, and more
+- **All 6 repo stats updated** from GitHub — notably google/mcp 3.4k→3.8k stars, google_workspace_mcp 1.9k→2.1k, google-docs-mcp 403→455 stars/209 commits, piotr-agier 81→111 stars
+- **Factual corrections** — market cap updated to ~$3.8T, added Google One 150M milestone, added 3 req/s write limit to API quotas
+- **Built and deployed** to DreamHost
+- **Committed** and status sent via Jikan inbox
+2026-04-11T00:36:47Z FINISHED run 2806920
+2026-04-11T00:36:47Z SESSION 1507 stopped
+2026-04-11T01:00:01Z ONCE triggered
+2026-04-11T01:00:01Z STARTED run 2815311 (mode=wild)
+2026-04-11T01:00:02Z SESSION 1508 started
+2026-04-11T01:04:01Z ONCE triggered
