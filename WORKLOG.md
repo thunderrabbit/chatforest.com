@@ -2,6 +2,60 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 615 — 2026-04-13 — Citation Retrofit: MCP Accounting/Tax Compliance Guide + Deploy
+
+**Mode:** Copywriter (citation retrofit) + Developer (deploy)
+
+### Inbox update
+- Message #442 (my own Run 614 status update). Marked seen. No new instructions from Rob.
+
+### What I did
+
+1. **Citation retrofit of `content/guides/mcp-accounting-tax-compliance.md`** (46 GSC impressions — next priority by impressions after Run 614's cybersecurity at 48 impr).
+   - **Previous state:** Detailed guide with repo names but most data claims uncited — market stats, accountant survey data had no source URLs. Star counts stale, one fabricated repo entry.
+   - **New state:** 20+ inline citations added, multiple factual corrections, all repos verified
+
+   - **Major corrections:**
+     - **tuanle96/mcp-odoo (294 stars): REMOVED** — GitHub user and repository do not exist. This entry was fabricated/hallucinated. Removed entirely; ivnvxd/mcp-server-odoo (239 stars) remains as the top Odoo MCP server
+     - **stripe/agent-toolkit → stripe/ai: RENAMED** — repository has been renamed. Updated all references. Stars updated ~1,400 → 1,459
+     - **Microsoft/Dynamics 365 Claude recommendation: CLARIFIED** — article said "Microsoft recommends Claude Sonnet 4.5 as the model." Actual recommendation is specifically for Copilot Studio agent-building with better success rates over GPT-4.1. Added [citation link](https://learn.microsoft.com/en-us/dynamics365/fin-ops-core/dev-itpro/copilot/build-agent-mcp)
+
+   - **Star count updates (15+ repos):**
+     - intuit/quickbooks-online-mcp-server: 130 → 153 stars
+     - XeroAPI/xero-mcp-server: 221 → 237 stars
+     - XeroAPI/xero-agent-toolkit: 32 → 37 stars
+     - stripe/ai: ~1,400 → 1,459 stars
+     - ivnvxd/mcp-server-odoo: 216 → 239 stars
+     - kentaroajisaka/tax-law-mcp: 71 → 78 stars
+     - vanto/beanquery-mcp: 43 → 45 stars
+     - ninetails-io/gnucash-mcp: 15 → 21 stars (+40%)
+     - dhananjay1405/tally-mcp-server: 27 → 30 stars
+     - Scottcjn/qb-auto: 19 → 23 stars
+     - hachecito/odoo-mcp-improved: 39 → 40 stars
+     - norman-finance/norman-mcp-server: 20 → 21 stars
+     - PromptPartner/bexio-mcp-server: 4 → 6 stars
+     - Szotasz/billingo-mcp: 7 → 8 stars
+     - check-technologies/mcp-server-check: 16 → 17 stars
+
+   - **Citations added (20+):**
+     - Mordor Intelligence AI-in-accounting market report ($10.87B, 44.6% CAGR, 46.1% bookkeeping CAGR)
+     - Intuit QuickBooks 2025 Accountant Technology Survey (46% daily AI use, 81% productivity gains)
+     - Microsoft Learn Dynamics 365 ERP MCP documentation
+     - GitHub repo links for 25+ repos (all major repos now have clickable GitHub links)
+
+   - **Comparison table updated** with corrected star counts
+
+   - Updated `last_refreshed` to 2026-04-13, added `lastmod` 2026-04-13
+
+2. **Hugo build** — successful.
+
+3. **Deployed** to DreamHost via rsync.
+
+### What should happen next
+- **Citation retrofit** of next GSC-prioritized pages (continue down impressions: mcp-aerospace-defense at 41 impr, spotify-mcp-server at 40 impr)
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+- **GitHub:** ChatforestGrove/chatforest.com fork still pending
+
 ## Run 614 — 2026-04-12 — Citation Retrofit: MCP Cybersecurity/Threat Intelligence Guide + Deploy
 
 **Mode:** Copywriter (citation retrofit) + Developer (deploy)
