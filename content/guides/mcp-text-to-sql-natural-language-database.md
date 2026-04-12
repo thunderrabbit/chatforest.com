@@ -3,13 +3,14 @@ title: "MCP and Text-to-SQL: How AI Agents Turn Natural Language into Database Q
 date: 2026-03-29T22:00:00+09:00
 description: "A comprehensive guide to text-to-SQL via MCP — covering DBHub, XiYan-SQL, QueryWeaver, Google MCP Toolbox, Oracle AI Database, Wren AI, architecture patterns, accuracy challenges"
 content_type: "Guide"
-card_description: "Text-to-SQL through MCP lets AI agents query databases in plain English. This guide covers DBHub, XiYan-SQL, QueryWeaver, Google MCP Toolbox, Oracle AI Database, Wren AI — with accuracy benchmarks, hallucination mitigation, security patterns, and production architecture."
-last_refreshed: 2026-03-29
+card_description: "Text-to-SQL through MCP lets AI agents query databases in plain English. Covers DBHub, XiYan-SQL, QueryWeaver, Google MCP Toolbox, Oracle AI Database, Wren AI — with accuracy benchmarks, hallucination mitigation, security patterns, and production architecture."
+last_refreshed: 2026-04-12
+lastmod: 2026-04-12
 ---
 
 Querying databases with natural language is one of the most practical applications of AI agents — and MCP is becoming the standard way to connect them. Instead of writing custom API integrations for each database, MCP provides a universal protocol that lets any AI agent discover schemas, generate SQL, execute queries, and return results through standardized tool calls.
 
-The ecosystem has matured rapidly. Google's MCP Toolbox for Databases supports 42 data sources. Oracle ships a managed MCP server with native NL2SQL via Select AI. DBHub provides a zero-dependency gateway for five database engines. XiYan-SQL achieves state-of-the-art accuracy on text-to-SQL benchmarks. QueryWeaver uses knowledge graphs to understand schema relationships. Wren AI adds a semantic layer that gives agents business context.
+The ecosystem has matured rapidly. [Google's MCP Toolbox for Databases](https://github.com/googleapis/mcp-toolbox) supports 21+ data sources. Oracle ships a managed MCP server with native NL2SQL via Select AI. [DBHub](https://github.com/bytebase/dbhub) provides a zero-dependency gateway for five database engines. [XiYan-SQL](https://github.com/XGenerationLab/XiYan-SQL) achieves state-of-the-art accuracy on text-to-SQL benchmarks. [QueryWeaver](https://github.com/FalkorDB/QueryWeaver) uses knowledge graphs to understand schema relationships. [Wren AI](https://github.com/Canner/WrenAI) adds a semantic layer that gives agents business context.
 
 But text-to-SQL through MCP isn't simple. LLMs hallucinate column names, misunderstand join logic, and generate queries that look correct but return wrong results. Production deployments need validation layers, security guardrails, and human-in-the-loop checkpoints. An accuracy rate of 90% sounds impressive until you realize that means one in ten queries returns incorrect data.
 
@@ -68,32 +69,34 @@ Before MCP, every text-to-SQL tool needed its own integration for each database 
 
 ### DBHub — Universal Database Gateway
 
-[DBHub](https://github.com/bytebase/dbhub) (Bytebase) is a zero-dependency, token-efficient MCP server that acts as a universal gateway to multiple database engines. Over 2,000 GitHub stars and 100,000+ downloads as of early 2026.
+[DBHub](https://github.com/bytebase/dbhub) (Bytebase) is a zero-dependency, token-efficient MCP server that acts as a universal gateway to multiple database engines. [2,550+ GitHub stars](https://github.com/bytebase/dbhub/stargazers) and [~73K monthly npm downloads](https://www.npmjs.com/package/@bytebase/dbhub) as of April 2026. Latest version: [v0.21.2](https://www.npmjs.com/package/@bytebase/dbhub) (April 2026).
 
 **Supported databases:** PostgreSQL, MySQL, MariaDB, SQL Server, SQLite.
 
 **Key design decisions:**
 
-- **Two-tool architecture** — DBHub intentionally exposes only two MCP tools to maximize the agent's context window. Rather than dozens of specialized tools, it provides schema discovery and query execution, letting the LLM handle the intelligence.
+- **Minimalist tool design** — DBHub exposes three core MCP tools: `execute_sql` for query execution, `search_objects` for schema discovery, and configurable custom tools — keeping the interface lean to maximize the agent's context window.
 - **Token efficiency** — Schema information is compressed and formatted to minimize token usage, which matters when working with large databases.
-- **Custom tools** — You can define reusable, parameterized SQL operations in configuration files, creating domain-specific tools without code.
+- **Custom tools** — You can define reusable, parameterized SQL operations in [`dbhub.toml` configuration files](https://github.com/bytebase/dbhub#custom-tools), creating domain-specific tools without code.
 - **Read-only mode** — Safety controls prevent accidental data modifications.
-- **Built-in web interface** — Visual query execution and request tracing without requiring an MCP client.
+- **Built-in web interface (Workbench)** — Visual query execution and request tracing without requiring an MCP client.
 
-**What makes it notable:** DBHub's minimalist approach — treating the LLM as the intelligence layer and the MCP server as a thin data access layer — contrasts with more opinionated servers that embed their own SQL generation logic. This means text-to-SQL quality depends entirely on the LLM, for better or worse.
+**What makes it notable:** DBHub's minimalist approach — treating the LLM as the intelligence layer and the MCP server as a thin data access layer — contrasts with more opinionated servers that embed their own SQL generation logic. This means text-to-SQL quality depends entirely on the LLM, for better or worse. The project also supports [multi-connection configuration](https://github.com/bytebase/dbhub#multi-connection) and [Docker deployment](https://github.com/bytebase/dbhub#docker).
 
 ### XiYan-SQL — State-of-the-Art Accuracy
 
-[XiYan MCP Server](https://github.com/XGenerationLab/xiyan_mcp_server) takes the opposite approach from DBHub: it embeds a specialized text-to-SQL model directly in the MCP server, adding a dedicated SQL generation layer between the agent and the database.
+[XiYan MCP Server](https://github.com/XGenerationLab/xiyan_mcp_server) ([232 stars](https://github.com/XGenerationLab/xiyan_mcp_server/stargazers)) takes the opposite approach from DBHub: it embeds a specialized text-to-SQL model directly in the MCP server, adding a dedicated SQL generation layer between the agent and the database.
 
-**Performance claims:**
+**Performance claims** (from [XiYan-SQL benchmarks](https://github.com/XGenerationLab/XiYan-SQL)):
 
 - State-of-the-art on open text-to-SQL benchmarks
 - 2–22 percentage point improvement over generic MCP database servers (MySQL and PostgreSQL experiments)
-- 44.37% success rate on BIRD-CRITIC-Open (multi-dialect benchmark) — top position
-- 44.53% on BIRD-CRITIC-PG — top position
+- [44.37% success rate on BIRD-CRITIC-Open](https://bird-critic.github.io/) (multi-dialect benchmark) — top position
+- [44.53% on BIRD-CRITIC-PG](https://bird-critic.github.io/) — top position
+- [75.63% EX on BIRD test set](https://bird-bench.github.io/) (framework result, Dec 2024)
+- [89.65% on Spider test set](https://yale-lily.github.io/spider) (framework result)
 
-**XiYanSQL model family:** Open-sourced models at 3B, 7B, 14B, and 32B parameter sizes (QwenCoder-based), allowing local deployment without API dependencies.
+**XiYanSQL model family:** Open-sourced models at 3B, 7B, 14B, and 32B parameter sizes (QwenCoder-based), allowing local deployment without API dependencies. Latest release: 2504 series (April 2025). Available on [HuggingFace](https://huggingface.co/collections/XGenerationLab/xiyansql-models-67c9844307b49f87436808fc). The framework is [published in IEEE TKDE 2026](https://arxiv.org/abs/2507.04701).
 
 **Architecture:** Instead of letting the general-purpose LLM generate SQL directly, the MCP server routes natural language queries through XiYan-SQL's specialized model, which has been trained specifically for SQL generation. This means the agent's LLM handles intent understanding and result interpretation, while XiYan-SQL handles the SQL generation.
 
@@ -101,7 +104,7 @@ Before MCP, every text-to-SQL tool needed its own integration for each database 
 
 ### QueryWeaver — Graph-Powered Schema Understanding
 
-[QueryWeaver](https://github.com/FalkorDB/QueryWeaver) (FalkorDB) takes a fundamentally different approach: instead of feeding the LLM a flat list of tables and columns, it builds a knowledge graph that captures how schema elements relate to each other.
+[QueryWeaver](https://github.com/FalkorDB/QueryWeaver) (FalkorDB, [812 stars](https://github.com/FalkorDB/QueryWeaver/stargazers), [v0.0.14](https://github.com/FalkorDB/QueryWeaver/releases/tag/v0.0.14)) takes a fundamentally different approach: instead of feeding the LLM a flat list of tables and columns, it builds a knowledge graph that captures how schema elements relate to each other.
 
 **How it works:**
 
@@ -114,13 +117,13 @@ Before MCP, every text-to-SQL tool needed its own integration for each database 
 
 **MCP integration:** QueryWeaver exposes an MCP-compatible interface with standardized endpoints for schema listing and query execution. It can function as an MCP server (other services call it) or as an MCP client (it calls external MCP servers for model/context services).
 
-**Trade-off:** Requires FalkorDB as an additional dependency and an initial schema indexing step. Best suited for complex schemas where join paths and business semantics are non-obvious.
+**Trade-off:** Requires FalkorDB as an additional dependency and an initial schema indexing step. Best suited for complex schemas where join paths and business semantics are non-obvious. Recent updates (April 2026) added [Snowflake loader support](https://github.com/FalkorDB/QueryWeaver).
 
 ### Google MCP Toolbox for Databases
 
-[MCP Toolbox for Databases](https://github.com/googleapis/genai-toolbox) (formerly Gen AI Toolbox for Databases) is Google's open-source MCP server for database access. Version 0.30.0 released March 2026.
+[MCP Toolbox for Databases](https://github.com/googleapis/mcp-toolbox) (renamed from Gen AI Toolbox / genai-toolbox) is Google's open-source MCP server for database access. [14,400+ stars](https://github.com/googleapis/mcp-toolbox/stargazers). Reached [v1.0.0 on April 10, 2026](https://github.com/googleapis/mcp-toolbox/releases/tag/v1.0.0).
 
-**Scale:** Supports 42 data sources — AlloyDB, BigQuery, Cloud SQL (PostgreSQL, MySQL, SQL Server), Spanner, Firestore, Dataplex, plus third-party databases including Snowflake, Oracle, MongoDB, Redis, Elasticsearch, CockroachDB, ClickHouse, Neo4j, Trino, and more.
+**Scale:** Supports [21+ data sources](https://github.com/googleapis/mcp-toolbox#supported-sources) — AlloyDB, BigQuery, Cloud SQL (PostgreSQL, MySQL, SQL Server), Spanner, Firestore, Knowledge Catalog, plus third-party databases including Snowflake, Oracle, MongoDB, Redis, Elasticsearch, CockroachDB, ClickHouse, Couchbase, Neo4j, Trino, and more.
 
 **Key features:**
 
@@ -152,11 +155,11 @@ Oracle ships a managed, multi-tenant MCP server as part of Oracle Autonomous AI 
 
 ### Wren AI — Semantic Layer for Text-to-SQL
 
-[Wren AI](https://github.com/Canner/WrenAI) approaches the problem from the business intelligence angle. Rather than connecting agents directly to raw database schemas, Wren AI adds a semantic layer that defines business concepts, metrics, and relationships.
+[Wren AI](https://github.com/Canner/WrenAI) ([14,900+ stars](https://github.com/Canner/WrenAI/stargazers), [v0.29.1](https://github.com/Canner/WrenAI/releases/tag/v0.29.1)) approaches the problem from the business intelligence angle. Rather than connecting agents directly to raw database schemas, Wren AI adds a semantic layer that defines business concepts, metrics, and relationships.
 
 **Architecture:**
 
-- **Wren Engine** — A semantic engine built on Apache DataFusion (Rust-based) that embeds into MCP clients
+- **Wren Engine** — A semantic engine built on [Apache DataFusion (Rust-based)](https://github.com/Canner/wren-engine) that embeds into MCP clients
 - **Modeling Definition Language (MDL)** — A structured JSON format for defining models, metrics, relationships, and access rules
 - **MCP integration** — Wren Engine serves as an MCP server, providing AI agents with business context alongside data access
 
@@ -171,7 +174,7 @@ Raw database schemas don't capture business logic. A column named `status` could
 - **Governance** — Access rules and audit trails built into the semantic layer
 - **Multi-database** — Works with any database DataFusion can query
 
-**Trade-off:** Requires upfront investment in defining your semantic model. The MDL must be maintained as your schema evolves. Best for organizations that want to standardize how business metrics are calculated across tools.
+**Trade-off:** Requires upfront investment in defining your semantic model. The MDL must be maintained as your schema evolves. Best for organizations that want to standardize how business metrics are calculated across tools. Note: MCP integration is in the [wren-engine subcomponent](https://github.com/Canner/wren-engine) and is still evolving as of April 2026.
 
 ### Other Notable Implementations
 
@@ -183,7 +186,7 @@ Raw database schemas don't capture business logic. A column named `status` could
 
 **AI2SQL MCP Integration** — Commercial text-to-SQL tool that supports MCP for connecting to PostgreSQL, MySQL, SQL Server, SQLite, Snowflake, and BigQuery. Targets non-technical users (product managers, analysts, business teams).
 
-**Vanna** ([vanna-ai/vanna](https://github.com/vanna-ai/vanna)) — While not an MCP server itself, Vanna 2.0 is a prominent RAG-based text-to-SQL framework. Uses retrieval-augmented generation to pull schema snippets and documentation at runtime, improving accuracy. Agent-based API with support for Claude and GPT models. Can be wrapped in an MCP server.
+**Vanna** ([vanna-ai/vanna](https://github.com/vanna-ai/vanna)) — [23,200+ stars](https://github.com/vanna-ai/vanna/stargazers), but **archived and read-only as of March 29, 2026**. Vanna 2.0 was a RAG-based text-to-SQL framework using retrieval-augmented generation to pull schema snippets and documentation at runtime. Agent-based API with support for Claude and GPT models. While no longer maintained, the architecture remains influential. Last release: [v2.0.2](https://github.com/vanna-ai/vanna/releases) (February 2026).
 
 ## Comparison of Approaches
 
@@ -191,8 +194,8 @@ Raw database schemas don't capture business logic. A column named `status` could
 |--------|----------|---------------|-----------|----------|
 | **DBHub** | Thin gateway | LLM-dependent | 5 engines | Simplicity, token efficiency |
 | **XiYan-SQL** | Specialized model | Dedicated NL2SQL model | MySQL, PostgreSQL | Maximum SQL accuracy |
-| **QueryWeaver** | Knowledge graph | Graph-augmented LLM | MySQL, PostgreSQL | Complex schemas, multi-hop joins |
-| **Google Toolbox** | Managed platform | LLM-dependent | 42 sources | Google Cloud, scale |
+| **QueryWeaver** | Knowledge graph | Graph-augmented LLM | MySQL, PostgreSQL, Snowflake | Complex schemas, multi-hop joins |
+| **Google Toolbox** | Managed platform | LLM-dependent | 21+ sources | Google Cloud, scale |
 | **Oracle AI DB** | Native database | Select AI (in-DB) | Oracle | Enterprise Oracle, security |
 | **Wren AI** | Semantic layer | Context-augmented LLM | Any (DataFusion) | BI, business metrics |
 
@@ -212,15 +215,15 @@ Text-to-SQL accuracy is the make-or-break factor for production deployments, and
 
 Current state-of-the-art on major benchmarks:
 
-- **Spider** (cross-database, 200+ databases) — Top models achieve ~87% execution accuracy
-- **BIRD** (real-world databases with domain knowledge) — Top models achieve ~75% execution accuracy
-- **BIRD-CRITIC** (multi-dialect, adversarial) — XiYan-SQL leads at ~44% success rate
+- **[Spider](https://yale-lily.github.io/spider)** (cross-database, 200+ databases) — Top models achieve ~91% execution accuracy (MiniSeek at 91.2% was the first to break 90%). Note: Spider 1.0 leaderboard was frozen in February 2024; [Spider 2.0](https://spider2-sql.github.io/) is far harder, with top models at only 6–25%.
+- **[BIRD](https://bird-bench.github.io/)** (real-world databases with domain knowledge) — Top models now achieve ~82% execution accuracy (Agentar-Scale-SQL at 81.67% EX, September 2025). Human performance is 92.96%.
+- **[BIRD-CRITIC](https://bird-critic.github.io/)** (multi-dialect, adversarial) — XiYan-SQL leads at ~44% success rate (44.37% Open, 44.53% PG)
 
-These numbers tell a story: accuracy drops dramatically as queries get more complex and databases more realistic. The gap between Spider (academic) and BIRD-CRITIC (closer to production) is enormous.
+These numbers tell a story: accuracy drops dramatically as queries get more complex and databases more realistic. The gap between Spider 1.0 (academic) and BIRD-CRITIC (closer to production) is enormous — from 91% down to 44%.
 
 ### Why 90% Accuracy Isn't Enough
 
-A widely-cited analysis ("Why 90% Accuracy in Text-to-SQL is 100% Useless") argues that high aggregate accuracy masks critical failures:
+A widely-cited analysis (["Why 90% Accuracy in Text-to-SQL is 100% Useless"](https://towardsdatascience.com/why-90-accuracy-in-text-to-sql-is-100-useless/)) argues that high aggregate accuracy masks critical failures:
 
 - **Wrong results look like right results.** A query that returns a number — just the wrong number — is more dangerous than a query that fails with an error. Users can't verify correctness without knowing SQL.
 - **Errors compound.** If you're running 10 queries to build a report, 90% per-query accuracy means only 35% chance the entire report is correct.
@@ -270,7 +273,7 @@ DBHub optimizes this by compressing schema representations for token efficiency.
 
 ### Retrieval-Augmented Generation (RAG)
 
-Vanna AI pioneered this approach: instead of passing the entire schema to every query, use retrieval to find relevant schema elements, similar past queries, and documentation.
+[Vanna AI](https://github.com/vanna-ai/vanna) pioneered this approach (note: the project was [archived in March 2026](https://github.com/vanna-ai/vanna) but the pattern remains widely used): instead of passing the entire schema to every query, use retrieval to find relevant schema elements, similar past queries, and documentation.
 
 The RAG pipeline:
 1. **Training phase** — Index your schema, example queries, and documentation
@@ -333,7 +336,7 @@ Question: "What's our monthly revenue trend?"
 └──────────────┘
 ```
 
-Research suggests automated validation can detect and correct up to 76% of common error types. The key insight: decomposing SQL generation into specialized steps with validation checkpoints produces better results than end-to-end generation.
+Research on [error detection for text-to-SQL](https://arxiv.org/abs/2305.13683) found that at 95% precision, error detectors allow systems to answer 76–175% more questions correctly compared to baseline approaches. The key insight: decomposing SQL generation into specialized steps with validation checkpoints produces better results than end-to-end generation.
 
 ## Security Considerations
 
@@ -472,7 +475,7 @@ Start with **DBHub**. Zero dependencies, supports common databases, two-tool int
   "mcpServers": {
     "dbhub": {
       "command": "npx",
-      "args": ["-y", "@anthropic/dbhub", "--dsn", "postgresql://user:pass@localhost/mydb"]
+      "args": ["-y", "@bytebase/dbhub", "--dsn", "postgresql://user:pass@localhost/mydb"]
     }
   }
 }
@@ -512,7 +515,7 @@ The ecosystem is moving in several directions:
 
 **Local models getting competitive.** XiYan-SQL's open-source models (3B–32B parameters) and tools like Vanna show that accurate text-to-SQL doesn't require cloud API calls. This matters for data that can't leave the premises.
 
-**Security hardening.** The OWASP MCP Top 10, real-world incidents (CVE-2025-6514, Supabase Cursor agent incident), and growing enterprise adoption are driving better security practices. Expect more servers to follow Oracle's approach of leveraging native database security rather than adding their own.
+**Security hardening.** The [OWASP MCP Top 10](https://owasp.org/www-project-mcp-top-10/), real-world incidents ([CVE-2025-6514](https://nvd.nist.gov/vuln/detail/CVE-2025-6514) — critical RCE in mcp-remote affecting 558K+ downloads, [Supabase Cursor agent data leak](https://simonwillison.net/2025/Jul/6/supabase-mcp-lethal-trifecta/)), and growing enterprise adoption are driving better security practices. Expect more servers to follow Oracle's approach of leveraging native database security rather than adding their own.
 
 ## Further Reading
 

@@ -2,6 +2,65 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 612 — 2026-04-12 — Citation Retrofit: MCP Text-to-SQL Natural Language Database Guide + Deploy
+
+**Mode:** Copywriter (citation retrofit) + Developer (deploy)
+
+### Inbox update
+- Message #439 (my own Run 611 status update). Marked seen. No new instructions from Rob.
+
+### What I did
+
+1. **Citation retrofit of `content/guides/mcp-text-to-sql-natural-language-database.md`** (59 GSC impressions — next priority by impressions after Run 611's sequential-thinking at 55 impr).
+   - **Previous state:** Detailed guide with repo links but most data claims uncited — star counts, benchmark numbers, data source counts, and download stats had no source URLs. Several factual errors.
+   - **New state:** 20+ inline citations added, multiple factual corrections, all stats verified
+
+   - **Major corrections:**
+     - **Google MCP Toolbox: 21 data sources, NOT 42** — article claimed "42 data sources" but actual count is 21+. Repo also renamed from `genai-toolbox` to `mcp-toolbox`. Version updated from v0.30.0 → v1.0.0 (released April 10, 2026). Stars: 14,400+
+     - **DBHub: 2,550+ stars (was "over 2,000")** — now has THREE tools (not "two-tool architecture"): execute_sql, search_objects, and custom tools. npm package is `@bytebase/dbhub` (article had wrong package name `@anthropic/dbhub`). ~73K monthly npm downloads. v0.21.2 (April 2026)
+     - **Spider benchmark: top is 91.2% (was "~87%")** — MiniSeek broke 90%. Leaderboard frozen Feb 2024. Added note about Spider 2.0 being much harder (6–25%)
+     - **BIRD benchmark: top is ~82% (was "~75%")** — Agentar-Scale-SQL at 81.67% EX (Sep 2025)
+     - **Vanna: ARCHIVED** — vanna-ai/vanna archived March 29, 2026. 23,200+ stars. Last release v2.0.2 (Feb 2026). Changed from present to past tense
+     - **"76% of common error types" misquote** — corrected to accurately reflect the source paper (Chen et al., EMNLP 2023): "at 95% precision, error detectors allow 76–175% more questions answered"
+
+   - **Star/version count updates:**
+     - DBHub: "2,000+" → 2,550+ stars, 215 forks, v0.21.2
+     - XiYan MCP Server: added 232 stars
+     - QueryWeaver: added 812 stars, v0.0.14
+     - Google MCP Toolbox: added 14,400+ stars, v1.0.0
+     - Wren AI: added 14,900+ stars, v0.29.1
+     - Vanna: added 23,200+ stars, v2.0.2 (archived)
+
+   - **XiYan-SQL benchmark additions:**
+     - Added BIRD test set score: 75.63% EX (framework)
+     - Added Spider test set score: 89.65% (framework)
+     - Added HuggingFace model collection link
+     - Added IEEE TKDE 2026 paper link
+
+   - **Security section citations:**
+     - CVE-2025-6514: linked to NVD (critical RCE in mcp-remote, 558K+ downloads affected)
+     - Supabase Cursor incident: linked to Simon Willison's writeup
+     - OWASP MCP Top 10: linked to official OWASP project page
+
+   - **Other citations added:**
+     - "Why 90% Accuracy in Text-to-SQL is 100% Useless" Towards Data Science article
+     - Error detection paper (arxiv 2305.13683)
+     - Spider, BIRD, BIRD-CRITIC leaderboard URLs
+     - QueryWeaver Snowflake loader update
+     - Wren Engine subcomponent repo
+     - DBHub custom tools, multi-connection, Docker docs
+
+   - Updated `last_refreshed` to 2026-04-12, added `lastmod` 2026-04-12
+
+2. **Hugo build** — successful.
+
+3. **Deployed** to DreamHost via rsync.
+
+### What should happen next
+- **Citation retrofit** of next GSC-prioritized pages (continue down impressions: mcp-multimodal-patterns at 49 impr, mcp-cybersecurity-threat-intelligence at 48 impr)
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+- **GitHub:** ChatforestGrove/chatforest.com fork still pending
+
 ## Run 611 — 2026-04-12 — Citation Retrofit: Sequential Thinking MCP Server Review + Deploy
 
 **Mode:** Copywriter (citation retrofit) + Developer (deploy)
