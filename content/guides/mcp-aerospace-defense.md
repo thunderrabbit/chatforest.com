@@ -5,7 +5,8 @@ description: "120+ MCP servers for aerospace and defense — flight data, satell
 og_description: "How AI agents connect to aerospace and defense tools via MCP. Covers Flightradar24, Ansys STK, NOTAM data, satellite tracking, defense intelligence, and 100+ more integrations."
 content_type: "Guide"
 card_description: "120+ MCP servers for aerospace and defense — flight data, satellite tracking, orbital mechanics, aviation safety, defense intelligence, CAD/simulation, cybersecurity, and government procurement. Architecture patterns included."
-last_refreshed: 2026-03-29
+last_refreshed: 2026-04-13
+lastmod: 2026-04-13
 ---
 
 Aerospace and defense represent some of the most technically demanding domains in engineering. A single aircraft program generates millions of design documents, simulation datasets, test results, supply chain records, and compliance artifacts across decades of development. Satellite operators track thousands of objects in orbit while managing ground station networks, spectrum allocations, and mission timelines. Defense organizations fuse intelligence from dozens of sources — signals, imagery, open-source, human — into situational awareness that must be both comprehensive and timely. The data is vast, the systems are fragmented, and the stakes are extraordinarily high.
@@ -36,77 +37,77 @@ Aviation is the most mature aerospace sub-sector in the MCP ecosystem, with mult
 
 ### Flights MCP — Leading Flight Search
 
-**ravinahp/flights-mcp** | 177 stars | Flight search via MCP
+**[ravinahp/flights-mcp](https://github.com/ravinahp/flights-mcp)** | 186 stars | Flight search via MCP
 
 According to repository documentation, this is the highest-starred flight-focused MCP server, providing search capabilities for flights. For aviation operations, this enables AI agents to look up flight information, schedules, and availability — useful for airline operations planning, travel logistics coordination, and competitive route analysis.
 
 ### Flightradar24 MCP — Official Vendor Implementation
 
-**Flightradar24/fr24api-mcp** | 15 stars | Official Flightradar24 API via MCP
+**[Flightradar24/fr24api-mcp](https://github.com/Flightradar24/fr24api-mcp)** | 15 stars | Official Flightradar24 API via MCP
 
 This is an official MCP server published by Flightradar24 itself — one of the few vendor-backed implementations in the aerospace space. It provides access to the FR24 API for real-time flight tracking. For defense and intelligence applications, real-time ADS-B tracking data is a key open-source intelligence input for monitoring military and civilian air traffic patterns.
 
 ### Flightradar24 Community Server
 
-**sunsetcoder/flightradar24-mcp-server** | 46 stars | Community FR24 integration
+**[sunsetcoder/flightradar24-mcp-server](https://github.com/sunsetcoder/flightradar24-mcp-server)** | 46 stars | Community FR24 integration
 
 A community-built Flightradar24 MCP server with higher star count than the official version, indicating strong demand for flight tracking capabilities. Provides real-time flight tracking data that can feed into aviation monitoring workflows.
 
 ### MCP Flight Search
 
-**arjunprabhulal/mcp-flight-search** | 41 stars | Real-time flight search
+**[arjunprabhulal/mcp-flight-search](https://github.com/arjunprabhulal/mcp-flight-search)** | 42 stars | Real-time flight search
 
 Real-time flight search capabilities through MCP, enabling AI agents to query current flight status, routes, and schedules. Combined with other aviation data sources, this supports comprehensive flight operations monitoring.
 
 ### Flight Ticket MCP
 
-**xiaonieli7/FlightTicketMCP** | 35 stars | Flight ticket queries
+**[xiaonieli7/FlightTicketMCP](https://github.com/xiaonieli7/FlightTicketMCP)** | 37 stars | Flight ticket queries
 
 Flight ticket information queries, primarily serving the Chinese market. Demonstrates the international scope of aviation MCP tooling and the demand for airline booking data integration.
 
 ### AviationStack MCP
 
-**Pradumnasaraf/aviationstack-mcp** | 17 stars | Real-time flight data via AviationStack API
+**[Pradumnasaraf/aviationstack-mcp](https://github.com/Pradumnasaraf/aviationstack-mcp)** | 18 stars | Real-time flight data via AviationStack API
 
 Provides access to real-time flight data through the AviationStack API, covering airline flights, airport schedules, and aircraft types. For aerospace analytics, this offers structured data on global aviation operations — useful for market analysis, route optimization studies, and fleet utilization tracking.
 
 ### Aviation MCP
 
-**blevinstein/aviation-mcp** | 7 stars | Multiple aviation API integrations
+**[blevinstein/aviation-mcp](https://github.com/blevinstein/aviation-mcp)** | 8 stars | Multiple aviation API integrations
 
 Integrates multiple aviation APIs into a single MCP server, providing a unified interface to diverse aviation data sources. This consolidation approach mirrors what many aerospace organizations need — a single AI interface across fragmented data providers.
 
 ### Aviation Weather MCP
 
-**zealoushacker/aviation-weather-mcp** | 4 stars | Aviation weather from aviationweather.gov
+**[zealoushacker/aviation-weather-mcp](https://github.com/zealoushacker/aviation-weather-mcp)** | 4 stars | Aviation weather from aviationweather.gov
 
 Pulls aviation weather data from NOAA's Aviation Weather Center (aviationweather.gov). Aviation weather — METARs, TAFs, SIGMETs, PIREPs, and AIRMETs — is critical for flight planning, dispatch, and safety. An MCP server exposing this data lets AI agents incorporate current and forecast weather into flight operations recommendations.
 
 ### METAR MCP
 
-**mangobanaani/metarmcp** | 1 star | METAR data from NOAA
+**[mangobanaani/metarmcp](https://github.com/mangobanaani/metarmcp)** | 1 star | METAR data from NOAA
 
 Fetches METAR (Meteorological Aerodrome Reports) from NOAA's Aviation Weather Center. METARs are the standard format for reporting current airport weather conditions — temperature, wind, visibility, cloud cover, pressure — and are fundamental to aviation operations.
 
 ### Aviation Safety and Incident Analysis
 
-**Ryan-Clinton/aviation-safety-risk-mcp** | Aviation safety risk assessment
+**[Ryan-Clinton/aviation-safety-risk-mcp](https://github.com/Ryan-Clinton/aviation-safety-risk-mcp)** | Aviation safety risk assessment
 
-**SloeGin/skybrary-mcp** | SKYbrary aviation safety database
+**[SloeGin/skybrary-mcp](https://github.com/SloeGin/skybrary-mcp)** | SKYbrary aviation safety database
 
-**INQUIRELAB/llm-hfacs-mcp-integration** | 1 star | HFACS classification of ASRS reports
+**[INQUIRELAB/llm-hfacs-mcp-integration](https://github.com/INQUIRELAB/llm-hfacs-mcp-integration)** | 1 star | HFACS classification of ASRS reports
 
 These servers address aviation safety analysis — one of the most data-intensive aspects of aerospace. The HFACS (Human Factors Analysis and Classification System) server is particularly notable: it applies the standard accident investigation framework to ASRS (Aviation Safety Reporting System) reports, potentially automating the classification work that safety analysts perform manually. SKYbrary is the definitive aviation safety knowledge base, and its MCP integration could give AI agents access to decades of accident investigation findings, safety recommendations, and best practices.
 
 ### SkyDelay Intelligence
 
-**ShreyasDasari/SkyDelay-Intelligence** | 1 star | Aviation delay cascade analysis
+**[ShreyasDasari/SkyDelay-Intelligence](https://github.com/ShreyasDasari/SkyDelay-Intelligence)** | 1 star | Aviation delay cascade analysis
 
-Analyzes aviation delay economics and cascade impacts across 347 US airports. Flight delays cost the US aviation industry an estimated $33 billion annually. An AI agent with access to delay pattern data, weather feeds, and airline schedules could help identify cascade risk before delays propagate through hub airports.
+Analyzes aviation delay economics and cascade impacts across US airports. Flight delays cost the US aviation industry an estimated [$33 billion annually](https://www.airlines.org/dataset/u-s-passenger-carrier-delay-costs/) (FAA/Nextor 2019 estimate via Airlines for America). An AI agent with access to delay pattern data, weather feeds, and airline schedules could help identify cascade risk before delays propagate through hub airports.
 
 ### Avinode MCP
 
-**kingler/avinode-mcp-server** | 1 star | Aviation charter operations
+**[kingler/avinode-mcp-server](https://github.com/kingler/avinode-mcp-server)** | 1 star | Aviation charter operations
 
 MCP integration with Avinode, the leading marketplace for private aviation and charter operations. This serves the business aviation segment — a growing market where AI-assisted booking, fleet management, and trip planning are increasingly valuable.
 
@@ -116,67 +117,67 @@ Space operations MCP tooling is nascent but growing, anchored by the Ansys STK i
 
 ### Ansys STK MCP — Industry-Standard Mission Engineering
 
-**alti3/stk-mcp** | 25 stars | Ansys/AGI Systems Tool Kit via MCP
+**[alti3/stk-mcp](https://github.com/alti3/stk-mcp)** | 25 stars | Ansys/AGI Systems Tool Kit via MCP
 
 This is the standout server in the space operations category. Ansys STK (Systems Tool Kit, formerly AGI STK) is the industry-standard Digital Mission Engineering platform used by military space commands, satellite operators, and defense agencies worldwide for orbital analysis, sensor coverage modeling, communication link budgets, and mission planning. An MCP integration means AI agents could automate the complex analysis workflows that currently require deep STK expertise — calculating satellite access windows, modeling radar coverage, planning constellation deployments, and running interference analyses.
 
 ### IO-Aerospace MCP Server
 
-**IO-Aerospace-software-engineering/mcp-server** | 15 stars | Dedicated aerospace MCP
+**[IO-Aerospace-software-engineering/mcp-server](https://github.com/IO-Aerospace-software-engineering/mcp-server)** | 15 stars | Dedicated aerospace MCP
 
 A dedicated aerospace MCP server from IO Aerospace, a software engineering company focused on space applications. This is one of the few purpose-built aerospace MCP implementations, signaling growing demand for AI integration in space operations.
 
 ### SpaceFrontiers MCP
 
-**SpaceFrontiers/mcp** | 9 stars | Space Frontiers API
+**[SpaceFrontiers/mcp](https://github.com/SpaceFrontiers/mcp)** | 9 stars | Space Frontiers API
 
 MCP server for the Space Frontiers API, providing access to space industry data. Space Frontiers focuses on making space data more accessible — a mission that aligns naturally with MCP's goal of connecting AI agents to specialized data sources.
 
 ### Satellite Tracking MCP
 
-**Cyreslab-AI/satellitetracking-mcp-server** | 3 stars | Satellite tracking
+**[Cyreslab-AI/satellitetracking-mcp-server](https://github.com/Cyreslab-AI/satellitetracking-mcp-server)** | 3 stars | Satellite tracking
 
 Provides satellite tracking capabilities through MCP. Satellite tracking — knowing where objects are in orbit, when they'll pass over locations, and whether collision risks exist — is fundamental to both military space domain awareness and commercial satellite operations.
 
 ### Space-Track MCP
 
-**kamiwaza-exp/space-track-mcp** | Space-Track.org integration
+**[kamiwaza-exp/space-track-mcp](https://github.com/kamiwaza-exp/space-track-mcp)** | 1 star | Space-Track.org integration
 
 Integrates with Space-Track.org, the US Space Command's public catalog of space objects. Space-Track provides Two-Line Element (TLE) sets, conjunction data messages, and decay predictions for tracked objects. For defense applications, this is a primary input to space domain awareness — monitoring what's in orbit and identifying potential threats.
 
 ### Satellite Orbit Calculation MCP
 
-**xiaosongshu2020/mcp-server-satellite-orbit** | 2 stars | Orbital calculations
+**[xiaosongshu2020/mcp-server-satellite-orbit](https://github.com/xiaosongshu2020/mcp-server-satellite-orbit)** | 2 stars | Orbital calculations
 
 Tools for satellite orbit calculations, enabling AI agents to compute orbital parameters, predict satellite positions, and plan observation windows. Orbital mechanics calculations are foundational to space operations but require specialized knowledge — MCP makes this capability accessible through natural language.
 
 ### Starlink Enterprise MCP
 
-**ry-ops/starlink-enterprise-mcp-server** | 2 stars | Starlink fleet management
+**[ry-ops/starlink-enterprise-mcp-server](https://github.com/ry-ops/starlink-enterprise-mcp-server)** | 2 stars | Starlink fleet management
 
 Manages Starlink terminal fleets through the Starlink Enterprise API. With SpaceX's Starlink constellation providing connectivity to military, maritime, and remote operations, fleet management of Starlink terminals is becoming an operational requirement for many defense and aerospace organizations.
 
 ### Space Industry Intelligence MCP
 
-**apifyforge/space-industry-intelligence-mcp** | Launch risk, debris, spectrum analysis
+**[apifyforge/space-industry-intelligence-mcp](https://github.com/apifyforge/space-industry-intelligence-mcp)** | Launch risk, debris, spectrum analysis
 
-Covers launch risk assessment, orbital debris analysis, spectrum interference, and regulatory compliance — the operational concerns that space industry participants must manage daily. As the space environment becomes more congested (over 10,000 active satellites as of 2025), these analytics become increasingly critical.
+Covers launch risk assessment, orbital debris analysis, spectrum interference, and regulatory compliance — the operational concerns that space industry participants must manage daily. As the space environment becomes more congested ([over 15,000 active payloads](https://planet4589.org/space/stats/active.html) in orbit as of 2026, per Jonathan's Space Report), these analytics become increasingly critical.
 
 ### Satellite Search Nearby
 
-**wojtek9502/mcp_satellites_search_nearby** | Satellite pass prediction
+**[wojtek9502/mcp_satellites_search_nearby](https://github.com/wojtek9502/mcp_satellites_search_nearby)** | Satellite pass prediction
 
 Provides information about satellite passes near a given location. Useful for ground station scheduling, amateur satellite tracking, and identifying observation opportunities.
 
 ### Aerospace Materials — Outgassing MCP
 
-**aerospace-mcp-tools/outgassing-mcp-server** | 1 star | Spacecraft material properties
+**[aerospace-mcp-tools/outgassing-mcp-server](https://github.com/aerospace-mcp-tools/outgassing-mcp-server)** | 1 star | Spacecraft material properties
 
 Queries outgassing properties of materials through approved aerospace sources. Outgassing — the release of trapped gas from materials in vacuum — is a critical concern for spacecraft and satellite design. Materials that outgas excessively can contaminate optics, solar cells, and sensitive instruments. This server makes NASA's outgassing database accessible to AI agents assisting with materials selection.
 
 ### Aerospace MCP (General)
 
-**cheesejaguar/aerospace-mcp** | 2 stars | Aviation and space information
+**[cheesejaguar/aerospace-mcp](https://github.com/cheesejaguar/aerospace-mcp)** | 3 stars | Aviation and space information
 
 A general-purpose aerospace MCP server providing aviation and space information. Serves as a broad-coverage tool for aerospace domain queries.
 
@@ -186,49 +187,49 @@ Defense-specific MCP servers focus on intelligence analysis, procurement data, a
 
 ### World Intel MCP — Comprehensive Intelligence
 
-**marc-shade/world-intel-mcp** | 16 stars | 100+ intelligence tools
+**[marc-shade/world-intel-mcp](https://github.com/marc-shade/world-intel-mcp)** | 21 stars | 100+ intelligence tools
 
 The most comprehensive intelligence-focused MCP server, offering over 100 tools covering markets, conflict monitoring, military tracking, cyber threat intelligence, climate data, and news analysis. Includes a live Leaflet dashboard with 20 map layers. For defense analysts, this provides a broad-spectrum open-source intelligence capability through a single MCP interface.
 
 ### Defense Intel Platform
 
-**MikeSchaef/defense-intel-platform** | Defense procurement analysis
+**[MikeSchaef/defense-intel-platform](https://github.com/MikeSchaef/defense-intel-platform)** | Defense procurement analysis
 
 Tracks federal procurement, maps the defense industrial base, and identifies investment signals across 3 million+ contract awards and 132,000+ companies. For defense industry analysts and acquisition professionals, this automates the procurement intelligence that currently requires manual FPDS (Federal Procurement Data System) searches.
 
 ### Iron Eye — EO/IR Target Classification
 
-**CubeStar1/iron-eye** | 4 stars | Air-to-surface EO/IR classification
+**[cyb3r17/iron-eye](https://github.com/cyb3r17/iron-eye)** | 2 stars | Air-to-surface EO/IR classification
 
-Implements YOLOv8-based classification on custom infrared images for detecting tanks, vehicles, and ships. While built around a gaming context (War Thunder), the underlying technology — electro-optical/infrared target classification — is directly relevant to defense ISR (Intelligence, Surveillance, Reconnaissance) applications.
+Implements YOLOv8-based classification on custom RGB-IR fusion images for detecting tanks, vehicles, and ships using a War Thunder simulation environment. The underlying technology — electro-optical/infrared target classification with deep learning — is directly relevant to defense ISR (Intelligence, Surveillance, Reconnaissance) applications.
 
 ### Russian OSINT MCP
 
-**synth-me/ru-osint-mcp** | 4 stars | Russian military OSINT
+**[synth-me/ru-osint-mcp](https://github.com/synth-me/ru-osint-mcp)** | 4 stars | Russian military OSINT
 
 Provides open-source intelligence data on Russian military assets. Given the current geopolitical landscape, OSINT on military capabilities is in high demand among defense analysts, journalists, and researchers.
 
 ### Defense.com MCP — Official Vendor
 
-**defensedotcom/defense-mcp** | 3 stars | Official Defense.com server
+**[defensedotcom/defense-mcp](https://github.com/defensedotcom/defense-mcp)** | 3 stars | Official Defense.com server
 
 An official MCP server from Defense.com, a cybersecurity company serving the defense sector. This represents one of the few official vendor implementations in the defense space.
 
 ### Virtual Duty Officer
 
-**perfectstormai-ctrl/virtual-duty-officer** | 1 star | Military duty officer MCP
+**[perfectstormai-ctrl/virtual-duty-officer](https://github.com/perfectstormai-ctrl/virtual-duty-officer)** | 1 star | Military duty officer MCP
 
 An MCP server designed to assist military duty officers — the personnel responsible for maintaining operational awareness and handling incidents during off-hours. Automating routine duty officer tasks (status checks, report compilation, alert routing) is a natural AI application.
 
 ### Global Military MCP
 
-**martins-vds/global-military-mcp-server** | Military data server
+**[martins-vds/global-military-mcp-server](https://github.com/martins-vds/global-military-mcp-server)** | Military data server
 
 A military data MCP server providing access to global military information.
 
 ### TerraWatch — Geopolitical Risk Intelligence
 
-**kelivreno/TerraWatch** | Geopolitical risk across 195 countries
+**[kelivreno/TerraWatch](https://github.com/kelivreno/TerraWatch)** | Geopolitical risk across 195 countries
 
 Provides geopolitical risk intelligence covering 195 countries. For defense planners and intelligence analysts, understanding the geopolitical risk landscape is essential for threat assessment, force posture planning, and diplomatic engagement.
 
@@ -238,37 +239,37 @@ Open-source intelligence (OSINT) is a critical capability for both military inte
 
 ### Maigret MCP — Digital Identity Research
 
-**BurtTheCoder/mcp-maigret** | 232 stars | Account discovery across public sources
+**[BurtTheCoder/mcp-maigret](https://github.com/BurtTheCoder/mcp-maigret)** | 235 stars | Account discovery across public sources
 
 Searches for user account information across public sources. In intelligence contexts, digital identity research is a fundamental OSINT technique for understanding networks of interest.
 
 ### OSINT Tools MCP
 
-**frishtik/osint-tools-mcp-server** | 183 stars | Multiple OSINT tools
+**[frishtik/osint-tools-mcp-server](https://github.com/frishtik/osint-tools-mcp-server)** | 188 stars | Multiple OSINT tools
 
 Bundles multiple OSINT tools into a single MCP server, providing a unified interface for open-source intelligence collection. For defense analysts, having diverse OSINT capabilities accessible through a single AI interface streamlines the collection phase of the intelligence cycle.
 
 ### Awesome OSINT MCP Servers
 
-**soxoj/awesome-osint-mcp-servers** | 95 stars | Curated OSINT server directory
+**[soxoj/awesome-osint-mcp-servers](https://github.com/soxoj/awesome-osint-mcp-servers)** | 193 stars | Curated OSINT server directory
 
 A curated list of OSINT-focused MCP servers, serving as a meta-directory for the intelligence analysis community. This resource helps analysts discover relevant OSINT tools available through MCP.
 
 ### ZoomEye MCP — Network Asset Intelligence
 
-**zoomeye-ai/mcp_zoomeye** | 69 stars | Network asset queries
+**[zoomeye-ai/mcp_zoomeye](https://github.com/zoomeye-ai/mcp_zoomeye)** | 69 stars | Network asset queries
 
 Provides network asset information queries through ZoomEye's internet scanning platform. For cybersecurity defense and intelligence applications, understanding what's exposed on the internet is essential for both defensive posture assessment and threat analysis.
 
 ### OpenCTI MCP — Threat Intelligence
 
-**CooperCyberCoffee/opencti_mcp_server** | 26 stars | OpenCTI threat intelligence
+**[CooperCyberCoffee/opencti_mcp_server](https://github.com/CooperCyberCoffee/opencti_mcp_server)** | 27 stars | OpenCTI threat intelligence
 
 Natural language interface to OpenCTI, an open-source threat intelligence platform. OpenCTI aggregates threat data from multiple feeds (MITRE ATT&CK, STIX/TAXII, custom sources) and this MCP integration lets AI agents query that aggregated intelligence.
 
 ### OSINT MCP (Comprehensive)
 
-**badchars/osint-mcp-server** | 6 stars | 37 tools, 12 sources
+**[badchars/osint-mcp-server](https://github.com/badchars/osint-mcp-server)** | 14 stars | 37 tools, 12 sources
 
 Provides 37 OSINT tools across 12 data sources including Shodan, VirusTotal, Censys, SecurityTrails, and DNS reconnaissance. This breadth makes it a practical toolkit for defense intelligence analysts conducting initial reconnaissance.
 
@@ -278,49 +279,49 @@ Cybersecurity is integral to defense operations. The cybersecurity MCP ecosystem
 
 ### Ghidra MCP — Reverse Engineering
 
-**LaurieWired/GhidraMCP** | 8,073 stars | NSA Ghidra via MCP
+**[LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP)** | 8,300 stars | NSA Ghidra via MCP
 
 The highest-starred cybersecurity MCP server, providing AI access to Ghidra — the NSA-developed reverse engineering framework. For defense applications, Ghidra is used to analyze malware, assess firmware security in weapons systems, and reverse-engineer adversary tools. MCP integration means AI agents can assist with the time-consuming work of binary analysis, function identification, and vulnerability discovery.
 
 ### HexStrike AI — Comprehensive Security Testing
 
-**0x4m4/hexstrike-ai** | 7,737 stars | 150+ cybersecurity tools
+**[0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)** | 8,000 stars | 150+ cybersecurity tools
 
 Provides over 150 cybersecurity tools for penetration testing and vulnerability discovery. In defense contexts, comprehensive security testing is required for systems before deployment — from IT networks to weapons platforms. An AI agent with access to this breadth of security tools could accelerate the Authority to Operate (ATO) process.
 
 ### MCP for Security
 
-**cyproxio/mcp-for-security** | 596 stars | SQLMap, FFUF, NMAP, Masscan
+**[cyproxio/mcp-for-security](https://github.com/cyproxio/mcp-for-security)** | 606 stars | SQLMap, FFUF, NMAP, Masscan
 
 Bundles essential security scanning tools (SQLMap for SQL injection testing, FFUF for web fuzzing, NMAP for network discovery, Masscan for port scanning) into a single MCP server. These are the foundational tools that every security assessment begins with.
 
 ### MCP Security Hub
 
-**FuzzingLabs/mcp-security-hub** | 498 stars | Nmap, Ghidra, Nuclei, SQLMap, Hashcat
+**[FuzzingLabs/mcp-security-hub](https://github.com/FuzzingLabs/mcp-security-hub)** | 521 stars | Nmap, Ghidra, Nuclei, SQLMap, Hashcat
 
 Integrates five key security tools — Nmap for network scanning, Ghidra for reverse engineering, Nuclei for vulnerability scanning, SQLMap for database testing, and Hashcat for password analysis. This combination covers the core security assessment workflow.
 
 ### Shodan MCP — Internet Device Intelligence
 
-**BurtTheCoder/mcp-shodan** | 118 stars | Internet-connected device reconnaissance
+**[BurtTheCoder/mcp-shodan](https://github.com/BurtTheCoder/mcp-shodan)** | 121 stars | Internet-connected device reconnaissance
 
 Provides access to Shodan's database of internet-connected devices. For defense applications, Shodan data reveals exposed industrial control systems, military network infrastructure, and critical infrastructure vulnerabilities. Understanding what's visible on the internet is a fundamental aspect of both defense and intelligence operations.
 
 ### VirusTotal MCP — Malware Analysis
 
-**BurtTheCoder/mcp-virustotal** | 114 stars | File, URL, and IP analysis
+**[BurtTheCoder/mcp-virustotal](https://github.com/BurtTheCoder/mcp-virustotal)** | 117 stars | File, URL, and IP analysis
 
 Integrates VirusTotal's malware analysis capabilities. In defense cybersecurity operations, rapid identification of malicious files, URLs, and IP addresses is essential for incident response and threat hunting.
 
 ### NIST CSF 2.0 MCP — Compliance Framework
 
-**rocklambros/nist-csf-2-mcp-server** | 54 stars | NIST Cybersecurity Framework
+**[rocklambros/nist-csf-2-mcp-server](https://github.com/rocklambros/nist-csf-2-mcp-server)** | 54 stars | NIST Cybersecurity Framework
 
 Provides access to the NIST Cybersecurity Framework 2.0, the standard compliance framework for US government and defense contractor systems. AI agents with access to NIST CSF data can help map security controls, identify gaps, and generate compliance documentation — a significant time sink in defense cybersecurity programs.
 
 ### DocSentinel — Security Document Assessment
 
-**arthurpanhku/DocSentinel** | 96 stars | Compliance gap analysis
+**[arthurpanhku/DocSentinel](https://github.com/arthurpanhku/DocSentinel)** | 87 stars | Compliance gap analysis
 
 Assesses cybersecurity documents for compliance gaps and risk. In defense environments where systems must meet NIST 800-171, CMMC, or other compliance frameworks, automated document assessment could dramatically accelerate the accreditation process.
 
@@ -330,69 +331,69 @@ Aerospace engineering relies heavily on CAD and simulation tools. The MCP ecosys
 
 ### MATLAB MCP — Official MathWorks Implementation
 
-**matlab/matlab-mcp-core-server** | 285 stars | Official MATLAB via MCP
+**[matlab/matlab-mcp-core-server](https://github.com/matlab/matlab-mcp-core-server)** | 351 stars | Official MATLAB via MCP
 
 An official MCP server from MathWorks, the maker of MATLAB — perhaps the most widely used engineering computation platform in aerospace. MATLAB is used for everything from control system design and signal processing to data analysis and algorithm prototyping. An official MCP integration means AI agents can execute MATLAB code, run simulations, and process engineering data through the MATLAB environment. This is one of the most significant official vendor implementations in the MCP ecosystem.
 
 ### MATLAB Production Server MCP
 
-**matlab/mcp-framework-matlab-production-server** | 15 stars | Deploy MATLAB functions as MCP tools
+**[matlab/mcp-framework-matlab-production-server](https://github.com/matlab/mcp-framework-matlab-production-server)** | 18 stars | Deploy MATLAB functions as MCP tools
 
 Publishes MATLAB functions as MCP tools through MATLAB Production Server. For aerospace organizations that have extensive MATLAB codebases — trajectory calculations, sensor fusion algorithms, structural analysis routines — this server exposes those capabilities to AI agents without rewriting them.
 
 ### Simulink MCP
 
-**sohumsuthar/simulink-mcp** | 1 star | Load, inspect, modify, simulate Simulink models
+**[sohumsuthar/simulink-mcp](https://github.com/sohumsuthar/simulink-mcp)** | 5 stars | Load, inspect, modify, simulate Simulink models
 
 Allows AI agents to load, inspect, modify, and simulate Simulink models. Simulink is the standard tool for model-based design in aerospace — flight control systems, avionics, power systems, and signal processing are all modeled in Simulink. MCP access to Simulink models could enable AI-assisted design review, parameter optimization, and automated testing.
 
 ### KiCAD MCP — Electronics Design
 
-**mixelpixx/KiCAD-MCP-Server** | 535 stars | PCB design via MCP
+**[mixelpixx/KiCAD-MCP-Server](https://github.com/mixelpixx/KiCAD-MCP-Server)** | 622 stars | PCB design via MCP
 
 The highest-starred CAD MCP server, connecting AI to KiCAD for PCB (printed circuit board) design. In aerospace, custom electronics are ubiquitous — from avionics boards to satellite payloads to missile guidance systems. AI-assisted PCB design could accelerate the electronics development cycle.
 
 ### CAD MCP — General CAD Automation
 
-**daobataotie/CAD-MCP** | 286 stars | General CAD MCP server
+**[daobataotie/CAD-MCP](https://github.com/daobataotie/CAD-MCP)** | 302 stars | General CAD MCP server
 
 A general-purpose CAD MCP server enabling AI interaction with CAD systems. Aerospace design involves extensive CAD work across multiple platforms, and a general CAD MCP interface could bridge AI agents to various design tools.
 
 ### FreeCAD MCP
 
-**ATOI-Ming/FreeCAD-MCP** | 68 stars | FreeCAD automation
+**[ATOI-Ming/FreeCAD-MCP](https://github.com/ATOI-Ming/FreeCAD-MCP)** | 72 stars | FreeCAD automation
 
 Automates FreeCAD through MCP. FreeCAD supports FEA (Finite Element Analysis) through its FEM workbench, making it relevant for structural analysis of aerospace components — stress analysis on airframe structures, thermal analysis of engine components, or vibration analysis of satellite deployments.
 
 ### Fusion 360 MCP
 
-**AuraFriday/Fusion-360-MCP-Server** | 64 stars | Autodesk Fusion 360 via MCP
+**[AuraFriday/Fusion-360-MCP-Server](https://github.com/AuraFriday/Fusion-360-MCP-Server)** | 78 stars | Autodesk Fusion 360 via MCP
 
 Controls Autodesk Fusion 360 through MCP. Fusion 360 combines CAD, CAM, and simulation in a cloud-based platform used by aerospace startups, drone manufacturers, and rapid prototyping shops. MCP integration enables AI-assisted design workflows from concept through manufacturing.
 
 ### MultiCAD MCP
 
-**AnCode666/multiCAD-mcp** | 17 stars | Multiple CAD platforms
+**[AnCode666/multiCAD-mcp](https://github.com/AnCode666/multiCAD-mcp)** | 21 stars | Multiple CAD platforms
 
 Uses multiple CAD software through a single AI interface. Aerospace programs often involve components designed in different CAD platforms (CATIA for airframes, SolidWorks for subsystems, Creo for engines). A multi-CAD MCP interface could help engineers work across platform boundaries.
 
 ### Solid Edge MCP
 
-**tylerwagler/SolidEdge-MCP** | 4 stars | Siemens Solid Edge
+**[tylerwagler/SolidEdge-MCP](https://github.com/tylerwagler/SolidEdge-MCP)** | 4 stars | Siemens Solid Edge
 
 Integrates Siemens Solid Edge for AI-assisted CAD design. Solid Edge is used in aerospace for mechanical design, particularly for smaller components and subsystem assemblies.
 
 ### Electronics and RF Engineering
 
-**manwithacat/electronics-mcp** | Circuit modeling, SPICE simulation, schematic rendering
+**[manwithacat/electronics-mcp](https://github.com/manwithacat/electronics-mcp)** | Circuit modeling, SPICE simulation, schematic rendering
 
-**glitchpatrick/rftools-mcp** | 200+ RF engineering calculators
+**[glitchpatrick/rftools-mcp](https://github.com/glitchpatrick/rftools-mcp)** | 200+ RF engineering calculators
 
 These servers address electronics and RF engineering — critical aerospace disciplines. The RF Tools MCP provides over 200 calculators for radio frequency analysis, relevant to radar systems, communications links, electronic warfare, and antenna design. The Electronics MCP covers circuit modeling and SPICE simulation, essential for avionics and payload electronics development.
 
 ### Blender MCP — 3D Visualization
 
-**poly-mcp/Blender-MCP-Server** | 31 stars | 51 tools for 3D modeling
+**[poly-mcp/Blender-MCP-Server](https://github.com/poly-mcp/Blender-MCP-Server)** | 38 stars | 51 tools for 3D modeling
 
 Provides 51 tools for Blender 3D modeling and visualization. In aerospace, 3D visualization is used for mission planning, satellite constellation visualization, aircraft interior design, and technical documentation.
 
@@ -402,49 +403,43 @@ Satellite imagery is a key input to both aerospace operations and defense intell
 
 ### SkyFi MCP — Commercial Satellite Imagery
 
-**PSkinnerTech/SkyFi-MCP-server** | 3 stars | Enterprise satellite imagery
+**[PSkinnerTech/SkyFi-MCP-server](https://github.com/PSkinnerTech/SkyFi-MCP-server)** | 3 stars | Enterprise satellite imagery
 
 Enterprise-grade MCP server for the SkyFi satellite imagery platform. SkyFi aggregates imagery from multiple commercial satellite providers, offering a marketplace approach to earth observation data acquisition.
 
 ### Copernicus MCP — ESA Earth Observation
 
-**wb1016/copernicus-mcp** | 2 stars | ESA Copernicus data access
+**[wb1016/copernicus-mcp](https://github.com/wb1016/copernicus-mcp)** | 2 stars | ESA Copernicus data access
 
 Accesses ESA's Copernicus program data through the OData API. Copernicus provides free, open satellite data from the Sentinel constellation — radar imagery (Sentinel-1), optical imagery (Sentinel-2), ocean data (Sentinel-3), atmospheric composition (Sentinel-5P), and land monitoring. For defense applications, Sentinel-1 SAR (Synthetic Aperture Radar) imagery is particularly valuable as it works through clouds and at night.
 
 ### Sentinel Hub MCP
 
-**ginkgo-tech/sentinelhub-mcp** | Copernicus Sentinel Hub integration
+**[ginkgo-tech/sentinelhub-mcp](https://github.com/ginkgo-tech/sentinelhub-mcp)** | Copernicus Sentinel Hub integration
 
 Integrates with the Sentinel Hub API for interacting with Copernicus satellite imagery through AI agents. Sentinel Hub provides on-the-fly processing of satellite data, enabling rapid analysis without downloading large raw datasets.
 
 ### Planetary Computer MCP
 
-**isaaccorley/planetary-computer-mcp** | 2 stars | Microsoft Planetary Computer STAC API
+**[isaaccorley/planetary-computer-mcp](https://github.com/isaaccorley/planetary-computer-mcp)** | 3 stars | Microsoft Planetary Computer STAC API
 
 Queries and downloads satellite imagery from Microsoft's Planetary Computer, which hosts petabytes of environmental monitoring data including Landsat, Sentinel, MODIS, and ASTER imagery collections.
 
 ### Google Earth Engine MCP
 
-**kuzhang/mcp-gee-satellite-download** | 1 star | Automate Sentinel downloads via GEE
+**[kuzhang/mcp-gee-satellite-download](https://github.com/kuzhang/mcp-gee-satellite-download)** | 2 stars | Automate Sentinel downloads via GEE
 
 Automates satellite image downloads using Google Earth Engine. GEE provides access to decades of satellite imagery and geospatial datasets, making it a powerful platform for change detection, environmental monitoring, and intelligence analysis.
 
 ### GeoSight MCP
 
-**armaasinghn/geosight-mcp** | Land cover, vegetation, water analysis
+**[armaasinghn/geosight-mcp](https://github.com/armaasinghn/geosight-mcp)** | Land cover, vegetation, water analysis
 
 Analyzes land cover, vegetation indices, water bodies, and change detection from satellite imagery. Change detection — identifying what has changed between two satellite images — is a fundamental defense intelligence technique for monitoring military construction, force movements, and weapons development activities.
 
-### Geo-Intelligence MCP
-
-**Arvind-55555/Geo-Intelligence-MCP-Server** | Environmental analytics and geospatial intelligence
-
-Integrates multiple GIS and satellite APIs for environmental analytics and geospatial intelligence. The explicit "geo-intelligence" framing signals defense/intelligence community applicability.
-
 ### EUMETSAT Weather MCP
 
-**halprez/weather-mcp-server** | 1 star | EUMETSAT data with AI weather forecasts
+**[halprez/weather-mcp-server](https://github.com/halprez/weather-mcp-server)** | 1 star | EUMETSAT data with AI weather forecasts
 
 Provides EUMETSAT historical satellite weather data with GraphCast and AIFS AI weather forecasts. Weather intelligence from satellite data is essential for military operations planning, flight operations, and maritime awareness.
 
@@ -454,43 +449,43 @@ Geospatial analysis underpins both aerospace operations (airspace management, gr
 
 ### OpenStreetMap MCP
 
-**jagan-shanmugam/open-streetmap-mcp** | 176 stars | Location-based services
+**[jagan-shanmugam/open-streetmap-mcp](https://github.com/jagan-shanmugam/open-streetmap-mcp)** | 181 stars | Location-based services
 
 Location-based services and geospatial data through OpenStreetMap. OSM data is widely used in defense for base mapping in areas where commercial or government mapping is limited.
 
 ### QGIS MCP Server
 
-**jjsantos01/qgis_mcp** | 871 stars | QGIS Desktop via MCP
+**[jjsantos01/qgis_mcp](https://github.com/jjsantos01/qgis_mcp)** | 897 stars | QGIS Desktop via MCP
 
 The leading open-source GIS MCP server, connecting AI to QGIS for spatial analysis, mapping, and data visualization. QGIS is used across defense and intelligence organizations for terrain analysis, infrastructure mapping, and operational planning.
 
 ### GIS MCP Server
 
-**mahdin75/gis-mcp** | 126 stars | Programmatic GIS operations
+**[mahdin75/gis-mcp](https://github.com/mahdin75/gis-mcp)** | 132 stars | Programmatic GIS operations
 
 Comprehensive geometry operations, coordinate transformations, and spatial analysis. For aerospace, this enables automated airspace boundary calculations, launch range safety zone analysis, and ground station coverage modeling.
 
 ### OSM MCP (wiseman)
 
-**wiseman/osm-mcp** | 79 stars | OpenStreetMap data server
+**[wiseman/osm-mcp](https://github.com/wiseman/osm-mcp)** | 80 stars | OpenStreetMap data server
 
 Direct access to OpenStreetMap data for geospatial analysis and mapping.
 
 ### GDAL MCP
 
-**JordanGunn/gdal-mcp** | 59 stars | Geospatial data processing
+**[JordanGunn/gdal-mcp](https://github.com/JordanGunn/gdal-mcp)** | 63 stars | Geospatial data processing
 
 GDAL-style geospatial workflows using Rasterio, GeoPandas, and PyProj. GDAL is the foundational library for geospatial data processing — reading, writing, and transforming raster and vector data across hundreds of formats.
 
 ### SUMO Traffic Simulation MCP
 
-**XRDS76354/SUMO-MCP-Server** | 37 stars | Traffic simulation
+**[XRDS76354/SUMO-MCP-Server](https://github.com/XRDS76354/SUMO-MCP-Server)** | 39 stars | Traffic simulation
 
 Eclipse SUMO traffic simulation with OpenStreetMap data. While primarily a traffic simulator, SUMO is used in defense for modeling vehicle movement patterns, evacuation planning, and logistics route analysis.
 
 ### ArcGIS Pro MCP
 
-**nicogis/MCP-Server-ArcGIS-Pro-AddIn** | 25 stars | Esri ArcGIS Pro integration
+**[nicogis/MCP-Server-ArcGIS-Pro-AddIn](https://github.com/nicogis/MCP-Server-ArcGIS-Pro-AddIn)** | 25 stars | Esri ArcGIS Pro integration
 
 Integrates Esri ArcGIS Pro, the GIS platform widely used across US defense and intelligence agencies. ArcGIS is the standard GIS platform for the US Department of Defense and is embedded in numerous defense workflows from installation management to operational planning.
 
@@ -500,19 +495,19 @@ Government data is essential for defense industry operations, procurement analys
 
 ### US Government Open Data MCP
 
-**lzinga/us-gov-open-data-mcp** | 91 stars | 40+ US government APIs, 250+ tools
+**[lzinga/us-gov-open-data-mcp](https://github.com/lzinga/us-gov-open-data-mcp)** | 94 stars | 40+ US government APIs, 250+ tools
 
 Provides access to over 40 US government data APIs with 250+ tools, covering Treasury, FRED (Federal Reserve Economic Data), Congress, FDA, CDC, and more. For defense companies, government data on budgets, spending trends, and policy decisions directly impacts business strategy.
 
 ### Federal Data MCP Registry — GSA Official
 
-**GSA-TTS/fed-data-mcp-registry** | 9 stars | Official GSA curated MCP registry
+**[GSA-TTS/fed-data-mcp-registry](https://github.com/GSA-TTS/fed-data-mcp-registry)** | 9 stars | Official GSA curated MCP registry
 
 An official GSA (General Services Administration) registry of curated MCP servers for open government data. This is notable as a US government-endorsed approach to MCP, potentially signaling broader federal adoption.
 
 ### Government MCP Servers
 
-**martc03/gov-mcp-servers** | 3 stars | 13 production servers for US government data
+**[martc03/gov-mcp-servers](https://github.com/martc03/gov-mcp-servers)** | 3 stars | 13 production servers for US government data
 
 Thirteen production MCP servers providing access to US government data sources. For defense contractors and analysts, structured access to government data streamlines research, reporting, and compliance activities.
 
@@ -520,19 +515,19 @@ Thirteen production MCP servers providing access to US government data sources. 
 
 ### Supply Chain AI Agent System
 
-**sagar0x0/Supply-Chain-Resilience-ai-agentic-system** | 2 stars | Supply chain disruption response
+**[sagar0x0/Supply-Chain-Resilience-ai-agentic-system](https://github.com/sagar0x0/Supply-Chain-Resilience-ai-agentic-system)** | 2 stars | Supply chain disruption response
 
 Detects, assesses, and responds to supply chain disruptions. In aerospace and defense, where single-source components and long lead times create acute supply chain vulnerabilities, AI-driven disruption detection could prevent production delays.
 
 ### Supply Chain Copilot
 
-**lara-openai/agent-supply-chain-mcp** | 3 stars | Supply chain analysis via Databricks
+**[lara-openai/agent-supply-chain-mcp](https://github.com/lara-openai/agent-supply-chain-mcp)** | 3 stars | Supply chain analysis via Databricks
 
 OpenAI Agent SDK with Databricks MCP for supply chain analysis. Combines AI agent capabilities with Databricks' data processing for supply chain intelligence.
 
 ### UN Comtrade Supply Chain MCP
 
-**AiAgentKarl/supply-chain-mcp-server** | Global trade data
+**[AiAgentKarl/supply-chain-mcp-server](https://github.com/AiAgentKarl/supply-chain-mcp-server)** | Global trade data
 
 Global supply chain and trade data via UN Comtrade and World Bank APIs. For defense supply chain analysis, understanding global trade flows in critical materials (rare earths, titanium, specialty alloys) is essential for supply chain resilience planning.
 
@@ -612,15 +607,15 @@ This pattern connects MATLAB (analytical calculations, algorithm verification), 
 
 | Category | Server Count | Top Stars | Official Vendors | Maturity |
 |----------|-------------|-----------|-----------------|----------|
-| Aviation / Flight Data | 15+ | 177 (Flights) | Flightradar24 | **High** |
+| Aviation / Flight Data | 15+ | 186 (Flights) | Flightradar24 | **High** |
 | Space Operations | 10+ | 25 (STK) | None | Medium |
-| Defense / Intelligence | 8+ | 16 (World Intel) | Defense.com | Low |
-| OSINT | 6+ | 232 (Maigret) | None | **High** |
-| Cybersecurity | 10+ | 8,073 (Ghidra) | None | **Very High** |
-| CAD / Simulation | 15+ | 535 (KiCAD) | MathWorks (MATLAB) | **High** |
-| Earth Observation | 8+ | 3 (SkyFi) | None | Low |
-| GIS / Mapping | 10+ | 871 (QGIS) | None | **High** |
-| Government Data | 3+ | 91 (US Gov) | GSA | Medium |
+| Defense / Intelligence | 8+ | 21 (World Intel) | Defense.com | Low |
+| OSINT | 6+ | 235 (Maigret) | None | **High** |
+| Cybersecurity | 10+ | 8,300 (Ghidra) | None | **Very High** |
+| CAD / Simulation | 15+ | 622 (KiCAD) | MathWorks (MATLAB) | **High** |
+| Earth Observation | 7+ | 3 (SkyFi) | None | Low |
+| GIS / Mapping | 10+ | 897 (QGIS) | None | **High** |
+| Government Data | 3+ | 94 (US Gov) | GSA | Medium |
 
 ## Regulatory and Security Considerations
 
@@ -671,17 +666,17 @@ Despite the breadth of available MCP servers, significant gaps remain for aerosp
 
 ## Getting Started by Role
 
-**Aerospace Engineer:** Start with the official MATLAB MCP server (285 stars) for analytical calculations, then add Simulink MCP for model-based design and KiCAD MCP (535 stars) for electronics. The FreeCAD MCP provides basic FEA capabilities. Use the outgassing MCP for materials selection in space applications.
+**Aerospace Engineer:** Start with the official MATLAB MCP server (351 stars) for analytical calculations, then add Simulink MCP for model-based design and KiCAD MCP (622 stars) for electronics. The FreeCAD MCP provides basic FEA capabilities. Use the outgassing MCP for materials selection in space applications.
 
 **Satellite Operator:** The Ansys STK MCP (25 stars) is the essential starting point for orbital analysis. Add Space-Track MCP for conjunction assessment, the satellite tracking and orbit calculation servers for operational awareness, and Copernicus MCP for earth observation data. Starlink Enterprise MCP may be relevant for ground connectivity management.
 
-**Aviation Professional:** Begin with the official Flightradar24 MCP (15 stars) for real-time tracking, add Aviation Weather MCP for weather intelligence, and the aviation safety servers (SKYbrary, HFACS) for safety analysis. The AviationStack MCP (17 stars) provides structured airline and airport data.
+**Aviation Professional:** Begin with the official Flightradar24 MCP (15 stars) for real-time tracking, add Aviation Weather MCP for weather intelligence, and the aviation safety servers (SKYbrary, HFACS) for safety analysis. The AviationStack MCP (18 stars) provides structured airline and airport data.
 
-**Defense Analyst:** Start with World Intel MCP (16 stars) for broad-spectrum intelligence, add OSINT Tools MCP (183 stars) for collection, OpenCTI MCP (26 stars) for threat intelligence, and ZoomEye MCP (69 stars) for network reconnaissance. Use GIS servers (QGIS 871 stars, ArcGIS 25 stars) for geospatial analysis.
+**Defense Analyst:** Start with World Intel MCP (21 stars) for broad-spectrum intelligence, add OSINT Tools MCP (188 stars) for collection, OpenCTI MCP (27 stars) for threat intelligence, and ZoomEye MCP (69 stars) for network reconnaissance. Use GIS servers (QGIS 897 stars, ArcGIS 25 stars) for geospatial analysis.
 
-**Defense Cybersecurity Professional:** Ghidra MCP (8,073 stars) for reverse engineering, HexStrike AI (7,737 stars) for comprehensive security testing, NIST CSF MCP (54 stars) for compliance mapping, and Shodan MCP (118 stars) for exposure assessment. DocSentinel (96 stars) helps with compliance documentation.
+**Defense Cybersecurity Professional:** Ghidra MCP (8,300 stars) for reverse engineering, HexStrike AI (8,000 stars) for comprehensive security testing, NIST CSF MCP (54 stars) for compliance mapping, and Shodan MCP (121 stars) for exposure assessment. DocSentinel (87 stars) helps with compliance documentation.
 
-**Defense Procurement Analyst:** The Defense Intel Platform for procurement data (3M+ awards), US Government Open Data MCP (91 stars) for federal data access, and the GSA Federal Data MCP Registry (9 stars) for curated government data sources. Supply chain MCP servers can help monitor material availability and trade flows.
+**Defense Procurement Analyst:** The Defense Intel Platform for procurement data (3M+ awards), US Government Open Data MCP (94 stars) for federal data access, and the GSA Federal Data MCP Registry (9 stars) for curated government data sources. Supply chain MCP servers can help monitor material availability and trade flows.
 
 ## Conclusion
 
