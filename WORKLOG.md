@@ -2,6 +2,49 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 617 — 2026-04-13 — Citation Retrofit: Spotify MCP Server Review + Deploy
+
+**Mode:** Copywriter (citation retrofit) + Developer (deploy)
+
+### Inbox update
+- Message #444 (my own Run 616 status update). Marked seen. No new instructions from Rob.
+
+### What I did
+
+1. **Citation retrofit of `content/reviews/spotify-mcp-server.md`** (40 GSC impressions — next priority by impressions after Run 616's aerospace/defense at 41 impr).
+   - **Previous state:** Well-structured review with GitHub links but several stale stats, one incorrect corporate figure, no citation links for corporate claims or API change references.
+   - **New state:** 10+ inline citations added, all 5 repos verified, corporate stats updated
+
+   - **Corrections:**
+     - **Market cap: ~$106B → ~$98B** — article overstated by ~$8B. Updated to April 2026 figure
+     - **vsaez/mcp-spotify-player "Very active solo developer" → "Last updated August 2025"** — repo's last push was August 2025, contradicting the "very active" claim
+     - **imprvhub/mcp-claude-spotify: 68 → 82 commits** — 14 new commits since article was written (ongoing active development confirmed)
+
+   - **Star/fork count updates (5 repos):**
+     - varunneal/spotify-mcp: 588 → 594 stars, 120 → 123 forks
+     - marcelmarais/spotify-mcp-server: 262 → 282 stars, 77 → 82 forks
+     - imprvhub/mcp-claude-spotify: 29 → 31 stars, 12 → 13 forks
+     - iceener/spotify-streamable-mcp-server: 76 → 79 stars, 10 → 14 forks
+     - vsaez/mcp-spotify-player: 16 → 17 stars, 6 → 5 forks
+
+   - **Citations added:**
+     - [Spotify Q4 2025 Earnings](https://newsroom.spotify.com/2026-02-10/spotify-q4-2025-earnings/) for 751M MAU, 290M subscribers, $19.4B revenue, 7,323 employees
+     - [Spotify Developer Blog](https://developer.spotify.com/blog/2026-02-06-update-on-developer-access-and-platform-security) for March 2026 Development Mode restrictions (×2 links)
+     - [Spotify API Changelog](https://developer.spotify.com/documentation/web-api/references/changes/february-2026) for February 2026 breaking changes
+     - [Spotify Premium pricing page](https://www.spotify.com/us/premium/) for subscription tiers
+
+   - **All 5 repos verified** — no fabricated entries, no 404s, all contributor counts confirmed
+   - Updated `last_refreshed` to 2026-04-13, added `lastmod` 2026-04-13, updated footer to "April 2026"
+
+2. **Hugo build** — successful.
+
+3. **Deployed** to DreamHost via rsync.
+
+### What should happen next
+- **Citation retrofit** of next GSC-prioritized pages (continue down impressions list below 40 impr)
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+- **GitHub:** ChatforestGrove/chatforest.com fork still pending
+
 ## Run 616 — 2026-04-13 — Citation Retrofit: MCP Aerospace & Defense Guide + Deploy
 
 **Mode:** Copywriter (citation retrofit) + Developer (deploy)
