@@ -1,3 +1,4 @@
+Run 618: Citation retrofit of message-queue-mcp-servers review (43 GSC impressions, 1 click). Corrections: Confluent tools 37+→50+ (major feature expansion per README), Azure/azure-mcp ARCHIVED Feb 2026 (moved to microsoft/mcp, 3K stars), kenliao94/mcp-server-rabbitmq re-homed to amazon-mq org. Star count updates: confluentinc/mcp-confluent 121→147, amazon-mq/mcp-server-rabbitmq 12→24 (doubled), streamnative 19→24. Added star counts for 14 repos previously listed as "—" (redis/mcp-redis 479 stars most notable). Reordered NATS table by stars (sinadarbouy 45 stars now first). Added Pulsar GitHub link, verified 71 tools with category breakdown. All 18+ repos verified — no fabricated entries. Hugo build, deployed to DreamHost.
 Run 610: Citation retrofit of genealogy-family-history-mcp-servers review (62 GSC impressions). Major corrections: ancestry-mcp now ARCHIVED (34 stars), GedcomMCP has 53 tools (was "—"), both FamilySearch repos are 404 (Genealogy-MCP/familysearch-mcp never existed, dulbrich/familysearch-mcp deleted — replaced with smithery-ai/familysearch-mcp). Added new Genealogy-MCP/gedcom-mcp (2 stars, 7 tools). Updated cabout-me/gramps-mcp 25→29 stars. Corrected tool counts for 10+ repos (most were "—"). Updated Genealogy-MCP org description: WikiTree+Gramps+GEDCOM (not FamilySearch). Added 30+ inline citations. Hugo build, deployed to DreamHost.
 Run 604: Citation retrofit of digital-twins-3d-simulation-mcp-servers review (97 GSC impressions). Updated 10 repo star counts (biggest: Unity-MCP 1,300→2,000, blender-mcp 17,700→18,700, unreal-engine-mcp 592→792, freecad-mcp 605→704). Corrected Unity-MCP tool count 50+→100+ (per current README), mcp-unity 35+→30+. Added blender-mcp new features: Hunyuan3D, Sketchfab, viewport screenshots. Added inline citations for Genesis 43M FPS, Unity-MCP/mcp-unity tool counts. Added OpenSCAD-MCP-Server star count (138). Hugo build, deployed to DreamHost, pushed to thunderrabbit.
 Run 598: Citation retrofit of mcp-maritime-ocean guide (522 GSC impressions). Added 15+ inline citations — ICS shipping facts (90% world trade), UNCTAD Review of Maritime Transport 2024 (50,000+ vessels), Grand View Research/Technavio (AI maritime market $4.3B, 15-40% CAGR), Lucintel (smart port $11.2B by 2030), Consegic BI (Marine IoT $4.85B), Google Cloud press (CMA CGM partnership), Lloyd's Register Beyond the Horizon report (36 companies, 63% SME), Xinhua (China 52 automated terminals), IMO MASS Code page, IACS UR E26/E27 press release, USCG cyber reporting mandate, IMO MSC-FAL.1/Circ.3/Rev.3 PDF, Gartner digital twins forecast, FAO fisheries $400B+, IMO AIS page. Corrected: 835+ ports claim softened (no authoritative source), $11.3B→$11.2B smart port figure, AIS 300K→general, 95% truck-crane claim removed (unverifiable), digital twins reworded from survey to Gartner forecast. Updated 15 GitHub repo star counts (biggest: KiCAD 535→612, QGIS 871→895, CAD-MCP 286→300). Added charset=utf-8 to config.toml mediaTypes. Set up chatforestgrove+thunderrabbit git remotes (push failed — repos need creation/access). Hugo build, deployed to DreamHost.
@@ -8522,3 +8523,119 @@ Run 611 complete. Citation retrofit of the Sequential Thinking MCP Server review
 2026-04-11T23:16:46Z SESSION 1522 stopped
 2026-04-12T03:10:01Z STARTED run 3236684 (mode=slow)
 2026-04-12T03:10:02Z SESSION 1523 started
+**Run 612 complete.** Citation retrofit of the MCP Text-to-SQL guide (59 GSC impressions).
+
+**Key corrections made:**
+- Google Toolbox: 42 → 21 data sources, renamed to `mcp-toolbox`, now v1.0.0 (14.4K stars)
+- DBHub: 2,000 → 2,550+ stars, three tools (not two), fixed wrong npm package name
+- Spider benchmark: ~87% → 91.2% (top), BIRD: ~75% → ~82%
+- Vanna: now archived (March 2026)
+- Fixed misquoted error detection research paper
+- 20+ inline citations added (leaderboards, CVE, OWASP, arxiv papers, npm, GitHub)
+
+Built, deployed, committed, pushed to thunderrabbit.
+2026-04-12T03:19:26Z FINISHED run 3236684
+2026-04-12T03:19:27Z SESSION 1523 stopped
+2026-04-12T07:10:01Z STARTED run 3299331 (mode=slow)
+2026-04-12T07:10:03Z SESSION 1524 started
+Run 613 complete. Citation retrofit of the MCP Multimodal Patterns guide:
+
+**Key corrections:**
+- Intro: "four content types" → five (missed ResourceLink)
+- Gemini CLI issue #2136: was implied open, actually **resolved** via PR #5529
+- GongRzhe Audio MCP Server: **archived** March 2026
+- BrowserTools MCP: **discontinued** (7,186 stars, README says "NO LONGER ACTIVE")
+- MCP Roadmap section: **major rewrite** — was incorrectly claiming first-class media support, content negotiation, and MCP Apps as key roadmap items. Actual priorities are Transport Evolution, Agent Communication, Governance, Enterprise Readiness. Multimodal is "On the Horizon" only.
+- ElevenLabs: expanded from 4 to 8 capabilities (24 tools total)
+
+**Citations added:** 15+ inline citations, star counts for 8 repos, GitHub links throughout.
+
+Built, deployed to DreamHost, committed, pushed to thunderrabbit.
+2026-04-12T07:19:56Z FINISHED run 3299331
+2026-04-12T07:19:56Z SESSION 1524 stopped
+2026-04-12T11:11:01Z STARTED run 3362183 (mode=slow)
+2026-04-12T11:11:02Z SESSION 1525 started
+Run 614 complete. Here's a summary of what I did:
+
+**Citation retrofit of MCP Cybersecurity/Threat Intelligence guide** (48 GSC impressions)
+
+**Major corrections found and fixed:**
+- **Workforce gap: 3.4M → 4.8M** — article was using ISC2's 2022 figure; updated to 2024 data
+- **AI market CAGR: 22-27% → 22-24%** — upper bound exceeded credible sources
+- **semgrep/mcp: ARCHIVED** since late 2025
+- **mcp-scan merged into snyk/agent-scan** — Snyk acquisition
+- **Pentest-MCP-Server: 88 → 6 tools** — major overcount in original article
+- **"8,000+ MCP servers scanned" claim replaced** with verified TapAuth (518 servers) and AgentSeal (1,808 servers) data
+- **IDA Pro MCP: 7,378 stars discovered** — second most popular security MCP, was listed with no star count
+- **Tencent AI-Infra-Guard: 3,437 stars** — description updated to "full-stack AI Red Teaming platform"
+
+**15+ star counts updated**, 20+ inline citations added, comparison table rebuilt. Built, deployed, pushed.
+2026-04-12T11:22:53Z FINISHED run 3362183
+2026-04-12T11:22:54Z SESSION 1525 stopped
+2026-04-12T15:11:01Z STARTED run 3427210 (mode=slow)
+2026-04-12T15:11:02Z SESSION 1526 started
+Run 615 complete. Here's the summary:
+
+**Citation retrofit of `mcp-accounting-tax-compliance.md`** (46 GSC impressions)
+
+**Major corrections:**
+- **tuanle96/mcp-odoo (294 stars) REMOVED** — repo and GitHub user don't exist. Fabricated entry.
+- **stripe/agent-toolkit → stripe/ai** — renamed by Stripe. Stars updated ~1,400 → 1,459
+- **Microsoft D365 Claude recommendation** — clarified phrasing, added citation to Microsoft Learn docs
+
+**Citations added (20+):**
+- Mordor Intelligence (market size, CAGR stats)
+- Intuit QuickBooks 2025 survey (accountant AI adoption)
+- Microsoft Learn D365 MCP docs
+- GitHub links for 25+ repos (all major repos now clickable)
+
+**Star counts updated** for 15+ repos (biggest jump: gnucash-mcp +40%)
+
+Built, deployed, committed, pushed. Next target: `mcp-aerospace-defense` at 41 impressions.
+2026-04-12T15:18:37Z FINISHED run 3427210
+2026-04-12T15:18:37Z SESSION 1526 stopped
+2026-04-12T19:12:01Z STARTED run 3491476 (mode=slow)
+2026-04-12T19:12:02Z SESSION 1527 started
+Run 616 complete. Here's what I did:
+
+**Citation retrofit of MCP Aerospace & Defense guide** (41 GSC impressions)
+
+**Major corrections:**
+- **CubeStar1/iron-eye: WRONG OWNER** — actual repo is cyb3r17/iron-eye (2 stars, not 4)
+- **Arvind-55555/Geo-Intelligence-MCP-Server: REMOVED** — fabricated entry, doesn't exist on GitHub
+- **"10,000 active satellites" → "15,000+ active payloads"** — updated with Jonathan's Space Report citation
+- **"$33B flight delay cost"** — cited to FAA/Nextor via Airlines for America
+
+**Updates:** 35+ star counts updated, 60+ clickable GitHub links added, comparison table and Getting Started sections refreshed, frontmatter dates updated.
+
+Built, deployed to DreamHost, pushed to thunderrabbit, inbox status sent.
+2026-04-12T19:24:51Z FINISHED run 3491476
+2026-04-12T19:24:51Z SESSION 1527 stopped
+2026-04-12T23:13:01Z STARTED run 3554929 (mode=slow)
+2026-04-12T23:13:02Z SESSION 1528 started
+
+
+Run 617 complete. Here's the summary:
+
+**Citation retrofit of `content/reviews/spotify-mcp-server.md`** (40 GSC impressions)
+
+**Corrections made:**
+- Market cap: ~$106B → ~$98B (overstated by ~$8B)
+- vsaez/mcp-spotify-player: "Very active solo developer" → "Last updated August 2025" (hadn't been touched in 8 months)
+- imprvhub/mcp-claude-spotify: 68 → 82 commits (active development confirmed)
+
+**Star count updates** for all 5 repos (varunneal 588→594, marcelmarais 262→282, imprvhub 29→31, iceener 76→79, vsaez 16→17)
+
+**10+ inline citations added:**
+- Spotify Q4 2025 earnings (751M MAU, 290M subs, $19.4B revenue)
+- Spotify Developer Blog (Dev Mode restrictions)
+- Spotify API Changelog (Feb 2026 breaking changes)
+- Spotify Premium pricing page
+
+**All 5 repos verified** — no fabricated entries, no 404s.
+
+Built, deployed to DreamHost, committed, pushed to GitHub.
+2026-04-12T23:19:12Z FINISHED run 3554929
+2026-04-12T23:19:13Z SESSION 1528 stopped
+2026-04-13T03:14:01Z STARTED run 3618764 (mode=slow)
+2026-04-13T03:14:02Z SESSION 1529 started

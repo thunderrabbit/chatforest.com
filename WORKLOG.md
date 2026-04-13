@@ -2,6 +2,61 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 618 — 2026-04-13 — Citation Retrofit: Message Queue MCP Servers Review + Deploy
+
+**Mode:** Copywriter (citation retrofit) + Developer (deploy)
+
+### Inbox update
+- Message #445 (my own Run 617 status update). Marked seen. No new instructions from Rob.
+
+### What I did
+
+1. **Citation retrofit of `content/reviews/message-queue-mcp-servers.md`** (43 GSC impressions, 1 click — next priority by impressions after Run 617's spotify-mcp-server at 40 impr).
+   - **Previous state:** Well-structured review with GitHub links but many missing star counts (~10 repos had "—" for stars), one major stale tool count, and the Azure repo link pointed to an archived repository.
+   - **New state:** All 18+ repos verified, star counts added for every repo, 3 corrections, inline citation links added
+
+   - **Corrections:**
+     - **Confluent tools: 37+ → 50+** — their [README](https://github.com/confluentinc/mcp-confluent#readme) now lists "50+ tools" (up from 37+ when article was written). Major feature expansion
+     - **Azure/azure-mcp: ARCHIVED** — repository [archived February 2026](https://github.com/Azure/azure-mcp), development moved to [microsoft/mcp](https://github.com/microsoft/mcp) (3,000 stars). Added warning note and updated recommendations
+     - **kenliao94/mcp-server-rabbitmq: RE-HOMED** — original community repo now redirects to [amazon-mq/mcp-server-rabbitmq](https://github.com/amazon-mq/mcp-server-rabbitmq). Updated description to note the consolidation
+
+   - **Star count updates (18 repos):**
+     - confluentinc/mcp-confluent: ~121 → 147 stars (+21%)
+     - kanapuli/mcp-kafka: ~74 → 75 stars
+     - amazon-mq/mcp-server-rabbitmq: ~12 → 24 stars (doubled!)
+     - kenliao94/mcp-server-rabbitmq: ~40 → 37 stars
+     - streamnative/streamnative-mcp-server: ~19 → 24 stars
+
+   - **Star counts added (previously missing "—"):**
+     - redis/mcp-redis: 479 stars (most popular in category!)
+     - sinadarbouy/mcp-nats: 45 stars (most popular NATS server)
+     - aywengo/kafka-schema-reg-mcp: 30 stars
+     - wklee610/kafka-mcp: 11 stars
+     - bmorphism/nats-mcp-server: 7 stars
+     - CefBoud/kafka-mcp-server: 3 stars
+     - LarsCowe/queue-pilot: 2 stars
+     - ibm-messaging/mq-mcp-server: 2 stars
+     - Azure/azure-mcp: 1,200 stars (ARCHIVED)
+     - apache/pulsar-java-contrib: 16 stars (added GitHub link)
+     - kmitchell/rabbitmq-mcp: 0 stars
+     - JesseObrien/nats-mcp: 0 stars
+     - gooseus/mcp-nats: 0 stars
+     - messageaid/mcp: 0 stars
+
+   - **NATS table reordered** by star count — sinadarbouy/mcp-nats (45 stars) now listed first as most popular
+   - **Pulsar section enhanced** — added [GitHub link](https://github.com/apache/pulsar-java-contrib/tree/main/pulsar-admin-mcp-contrib), verified 71 tools with breakdown by category
+   - **All 18+ repos verified** — no fabricated entries, no 404s
+   - Updated `last_refreshed` to 2026-04-13, added `lastmod` 2026-04-13, updated footer to "April 2026"
+
+2. **Hugo build** — successful.
+
+3. **Deployed** to DreamHost via rsync.
+
+### What should happen next
+- **Citation retrofit** of next GSC-prioritized pages (continue down impressions list below 43 impr)
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+- **GitHub:** ChatforestGrove/chatforest.com fork still pending
+
 ## Run 617 — 2026-04-13 — Citation Retrofit: Spotify MCP Server Review + Deploy
 
 **Mode:** Copywriter (citation retrofit) + Developer (deploy)
