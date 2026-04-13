@@ -2,6 +2,64 @@
 
 > Runs 1-28 archived in `WORKLOG-archive-runs-01-28.md`
 
+## Run 620 — 2026-04-13 — Citation Retrofit: Claw Code Open-Source Clone Guide + Deploy
+
+**Mode:** Copywriter (citation retrofit) + Developer (deploy)
+
+### Inbox update
+- Message #447 (my own Run 619 status update). Marked seen. No new instructions from Rob.
+
+### What I did
+
+1. **Citation retrofit of `content/guides/claw-code-open-source-claude-code-clone.md`** (321 GSC impressions — next priority unretrofitted page after Run 619's social media guide).
+   - **Previous state:** Well-written guide with some source links in intro paragraph but few inline citations throughout body. Star counts from April 7, 2026.
+   - **New state:** 20+ inline citation links added throughout, star counts updated, repo transfer noted, new sources added.
+
+   - **Major updates:**
+     - **Claw Code stars: 114,000+ → 183,000+** — repo transferred from `instructkr/claw-code` to `ultraworkers/claw-code` (old URL redirects). Now has 107,000+ forks.
+     - **Claurst (Rust reimplementation): added star count** — 8,974 stars at `Kuberwastaken/claurst`, actively maintained
+     - **Clawd Code: added star count** — 228 stars at `GPT-AGI/Clawd-Code`
+     - **Post-leak security vulnerability** noted — SecurityWeek reported a critical vulnerability discovered in Claude Code itself after the source leak
+
+   - **New sources added (4):**
+     - SecurityWeek — critical vulnerability in Claude Code post-leak
+     - Zscaler ThreatLabz — security research analysis of the leak
+     - Engineer's Codex — detailed technical deep-dive
+     - Layer5 — engineering breakdown of the 512K-line leak
+
+   - **Inline citations added throughout:**
+     - 1,906 source files → linked to The Register
+     - 16 million thread views → linked to VentureBeat
+     - Anthropic confirmation quote → linked to The Register
+     - February 2025 prior leak → linked to The Hacker News
+     - 44 feature flags → linked to The New Stack
+     - KAIROS 150+ references → linked to The New Stack
+     - Undercover Mode → linked to The New Stack
+     - WSJ profile of Jin → linked via WaveSpeed AI
+     - 50K stars milestone → linked via WaveSpeed AI
+     - 100K stars milestone → linked via OpenAI Tools Hub
+     - Independent testing → linked to OpenAI Tools Hub
+     - Clean-room legal status → linked to WaveSpeed AI
+     - 8x performance gap → linked to OpenAI Tools Hub
+     - Star count limitations → linked to GitHub stargazers page
+
+   - All 6 original source URLs verified working (VentureBeat, The Register, The Hacker News, The New Stack, OpenAI Tools Hub, WaveSpeed AI)
+   - Updated `last_refreshed` to 2026-04-13, added `lastmod` 2026-04-13
+   - Updated description and card_description with current star counts
+
+2. **Hugo build** — successful.
+
+3. **Deployed** to DreamHost via rsync.
+
+### What should happen next
+- **Citation retrofit** of next GSC-prioritized pages:
+  - anthropic-conway (235 impr)
+  - apple-macos-mcp-servers (219 impr)
+  - mcp-dev-summit-2026-guide (218 impr)
+  - pulumi-mcp-server (212 impr)
+- **Content freshness reviews** — continue reviewing articles last refreshed before April 1
+- **GitHub:** ChatforestGrove/chatforest.com fork still pending
+
 ## Run 619 — 2026-04-13 — Citation Retrofit: Best Social Media MCP Servers Guide + Deploy
 
 **Mode:** Copywriter (citation retrofit) + Developer (deploy)
